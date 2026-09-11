@@ -1,0 +1,104 @@
+{
+  "id": "warbound-campaign-content",
+  "title": "Warbound Campaign Content, playing SWADE RPG within World of Warcraft.",
+  "version": "1.1.0",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "herveDarritchon"
+    }
+  ],
+  "flags": {
+    "canUpload": true,
+    "hotReload": {
+      "paths": [
+        "styles",
+        "scripts",
+        "assets",
+        "examples"
+      ]
+    }
+  },
+  "packs": [
+    {
+      "name": "journals",
+      "label": "Journals",
+      "path": "packs/journals",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "scenes",
+      "label": "Scenes",
+      "path": "packs/scenes",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "adventures",
+      "label": "Adventures",
+      "path": "packs/adventures",
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade"
+    },
+    {
+      "name": "items",
+      "label": "Items",
+      "path": "packs/items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Warbound",
+      "sorting": "a",
+      "packs": [
+        "journals",
+        "scenes",
+        "adventures",
+        "items"
+      ]
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "swade",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "swade-rpg-fr",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "Contenu de campagne Warbound pour SWADE RPG, avec direction artistique Warbound pour les Journaux Foundry VTT.",
+  "styles": [
+    "styles/warbound.css"
+  ],
+  "esmodules": [
+    "scripts/warbound.mjs"
+  ]
+}

@@ -1,0 +1,644 @@
+/* ========================================================================== */
+/* WARBOUND — Foundry VTT Journal Look & Feel                                 */
+/* v0.1 — designed for Foundry VTT v14                                        */
+/*                                                                            */
+/* Intent: Warcraft-adjacent editorial fantasy without reproducing the WoW UI. */
+/* Dark iron + aged parchment + bronze + deep Horde crimson.                  */
+/* ========================================================================== */
+
+body.warbound-theme {
+    --wb-paper: #eadfc4;
+    --wb-paper-light: #f4ecd8;
+    --wb-paper-deep: #d8c8a7;
+    --wb-ink: #211d18;
+    --wb-muted: #706452;
+    --wb-iron: #252422;
+    --wb-iron-soft: #3a3732;
+    --wb-bronze: #9a7440;
+    --wb-bronze-light: #c19a59;
+    --wb-crimson: #7d241f;
+    --wb-crimson-dark: #4b1513;
+    --wb-ember: #ad4a25;
+    --wb-green: #526443;
+    --wb-danger: #9c2e24;
+    --wb-shadow: rgba(22, 16, 10, 0.28);
+    --wb-rule: rgba(93, 69, 41, 0.32);
+
+    --wb-font-body: Georgia, "Times New Roman", serif;
+    --wb-font-display: "Arial Narrow", "Roboto Condensed", "Helvetica Neue Condensed", Impact, sans-serif;
+    --wb-font-ui: Inter, "Segoe UI", Arial, sans-serif;
+}
+
+/* ==========================================================================
+   WARBOUND — Settings panel logo
+   ========================================================================== */
+
+#warbound-settings-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+    margin: 12px 0 8px;
+    padding: 4px 20px 8px;
+}
+
+#warbound-settings-logo img {
+    display: block;
+
+    width: min(320px, 85%);
+    height: auto;
+
+    object-fit: contain;
+
+    user-select: none;
+    pointer-events: none;
+
+    filter:
+            drop-shadow(0 2px 3px rgba(0, 0, 0, 0.8))
+            drop-shadow(0 0 6px rgba(35, 121, 180, 0.25));
+}
+
+/* -------------------------------------------------------------------------- */
+/* 1. JOURNAL WINDOW CHROME                                                    */
+/* -------------------------------------------------------------------------- */
+
+body.warbound-theme :is(.journal-sheet, .journal-entry, .journal-entry-page, .application.journal-sheet) {
+    --color-text-primary: #eee5d0;
+    --color-text-secondary: #c7b99f;
+}
+
+body.warbound-theme :is(.journal-sheet, .application.journal-sheet) .window-header {
+    min-height: 38px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05), transparent 45%),
+    linear-gradient(90deg, #191918, #302d28 48%, #191918);
+    border-bottom: 1px solid #9a7440;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, .42);
+    color: #eee4cf;
+    font-family: var(--wb-font-display);
+    text-transform: uppercase;
+    letter-spacing: .055em;
+}
+
+body.warbound-theme :is(.journal-sheet, .application.journal-sheet) .window-title {
+    font-weight: 800;
+    text-shadow: 0 1px 2px #000;
+}
+
+/* Sidebar / page list */
+body.warbound-theme :is(.journal-sheet, .journal-entry) :is(.journal-sidebar, .directory, .pages-list) {
+    background: linear-gradient(rgba(244, 236, 216, .91), rgba(234, 223, 196, .94)),
+    url("../assets/ui/warbound-paper.png");
+    color: #ddd0b6;
+    border-right: 1px solid rgba(193, 154, 89, .55);
+    font-family: var(--wb-font-ui);
+}
+
+body.warbound-theme :is(.journal-sidebar, .pages-list) :is(a, .page-heading, .page-title) {
+    color: #dfd0b3;
+}
+
+body.warbound-theme :is(.journal-sidebar, .pages-list) :is(a:hover, .active, .page-heading:hover) {
+    color: #fff5dc;
+    text-shadow: 0 0 8px rgba(193, 154, 89, .45);
+}
+
+/* -------------------------------------------------------------------------- */
+/* 2. PAGE / EDITOR SURFACE                                                    */
+/* -------------------------------------------------------------------------- */
+
+body.warbound-theme :is(
+  .journal-entry-content,
+  .journal-page-content,
+  .journal-entry-page .editor-content,
+  .journal-entry-page .prosemirror,
+  .journal-sheet .editor-content,
+  .journal-sheet .prosemirror
+) {
+    color: var(--wb-ink);
+    font-family: var(--wb-font-body);
+    font-size: 16px;
+    line-height: 1.56;
+    background: linear-gradient(rgba(244, 236, 216, .91), rgba(234, 223, 196, .94)),
+    url("../assets/ui/warbound-paper.svg");
+    background-size: auto, 520px 520px;
+}
+
+body.warbound-theme :is(.journal-page-content, .editor-content, .prosemirror) {
+    padding: clamp(24px, 4vw, 54px);
+}
+
+/* Optional explicit page wrapper: use <article class="wb-page"> */
+body.warbound-theme .wb-page {
+    max-width: 980px;
+    margin-inline: auto;
+    color: var(--wb-ink);
+    font-family: var(--wb-font-body);
+}
+
+/* -------------------------------------------------------------------------- */
+/* 3. TYPOGRAPHIC HIERARCHY                                                    */
+/* -------------------------------------------------------------------------- */
+
+body.warbound-theme :is(.journal-page-content, .editor-content, .prosemirror, .wb-page) h1,
+body.warbound-theme .wb-title {
+    position: relative;
+    margin: .15rem 0 1.35rem;
+    padding: 0 0 .72rem;
+    border: 0;
+    color: #241e18;
+    font-family: var(--wb-font-display);
+    font-size: clamp(2rem, 4vw, 3.2rem);
+    font-weight: 900;
+    line-height: .98;
+    letter-spacing: .035em;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .45);
+}
+
+body.warbound-theme :is(.journal-page-content, .editor-content, .prosemirror, .wb-page) h1::after,
+body.warbound-theme .wb-title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: min(720px, 100%);
+    height: 9px;
+    background: url("../assets/ui/warbound-divider.png") center / min(760px, 92%) auto no-repeat;
+    opacity: .95;
+}
+
+body.warbound-theme :is(.journal-page-content, .editor-content, .prosemirror, .wb-page) h2 {
+    margin: 2.4rem 0 .85rem;
+    padding: 0 0 .28rem;
+    border: 0;
+    border-bottom: 1px solid rgba(154, 116, 64, .65);
+    color: var(--wb-crimson-dark);
+    font-family: var(--wb-font-display);
+    font-size: clamp(1.35rem, 2.3vw, 1.75rem);
+    font-weight: 900;
+    letter-spacing: .045em;
+    line-height: 1.06;
+    text-transform: uppercase;
+}
+
+body.warbound-theme :is(.journal-page-content, .editor-content, .prosemirror, .wb-page) h2::before {
+    content: "◆";
+    margin-right: .48rem;
+    color: var(--wb-bronze);
+    font-size: .62em;
+    vertical-align: .14em;
+}
+
+body.warbound-theme :is(.journal-page-content, .editor-content, .prosemirror, .wb-page) h3 {
+    margin: 1.8rem 0 .55rem;
+    border: 0;
+    color: #52402c;
+    font-family: var(--wb-font-display);
+    font-size: 1.05rem;
+    font-weight: 900;
+    letter-spacing: .065em;
+    text-transform: uppercase;
+}
+
+body.warbound-theme :is(.journal-page-content, .editor-content, .prosemirror, .wb-page) h4 {
+    margin: 1.35rem 0 .35rem;
+    color: var(--wb-crimson);
+    font-family: var(--wb-font-display);
+    font-size: .94rem;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+}
+
+body.warbound-theme :is(.journal-page-content, .editor-content, .prosemirror, .wb-page) p {
+    margin: .68rem 0;
+}
+
+body.warbound-theme .wb-kicker {
+    margin-bottom: .45rem;
+    color: var(--wb-crimson);
+    font-family: var(--wb-font-display);
+    font-size: .78rem;
+    font-weight: 900;
+    letter-spacing: .18em;
+    text-transform: uppercase;
+}
+
+body.warbound-theme .wb-lead {
+    max-width: 760px;
+    margin: .2rem 0 1.7rem;
+    color: #564b3c;
+    font-size: 1.2rem;
+    line-height: 1.42;
+}
+
+body.warbound-theme .wb-smallcaps {
+    font-family: var(--wb-font-display);
+    font-weight: 800;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+}
+
+body.warbound-theme .wb-dropcap::first-letter {
+    float: left;
+    margin: .08em .12em 0 0;
+    color: var(--wb-crimson-dark);
+    font-family: var(--wb-font-display);
+    font-size: 4.4em;
+    font-weight: 900;
+    line-height: .72;
+}
+
+body.warbound-theme :is(.journal-page-content, .editor-content, .prosemirror, .wb-page) a {
+    color: #704220;
+    text-decoration-color: rgba(112, 66, 32, .55);
+    text-underline-offset: 2px;
+}
+
+body.warbound-theme :is(.journal-page-content, .editor-content, .prosemirror, .wb-page) a:hover {
+    color: var(--wb-crimson);
+}
+
+body.warbound-theme :is(.journal-page-content, .editor-content, .prosemirror, .wb-page) hr {
+    height: 13px;
+    margin: 2rem 0;
+    border: 0;
+    background: url("../assets/ui/warbound-divider.svg") center / min(760px, 92%) 10px no-repeat;
+    opacity: .8;
+}
+
+/* -------------------------------------------------------------------------- */
+/* 4. LISTS                                                                    */
+/* -------------------------------------------------------------------------- */
+
+body.warbound-theme :is(.journal-page-content, .editor-content, .prosemirror, .wb-page) ul {
+    list-style: none;
+    padding-left: 1.45rem;
+}
+
+body.warbound-theme :is(.journal-page-content, .editor-content, .prosemirror, .wb-page) ul > li {
+    position: relative;
+    margin: .28rem 0;
+}
+
+body.warbound-theme :is(.journal-page-content, .editor-content, .prosemirror, .wb-page) ul > li::before {
+    content: "◆";
+    position: absolute;
+    left: -1.25rem;
+    top: .22em;
+    color: var(--wb-bronze);
+    font-size: .56em;
+}
+
+body.warbound-theme :is(.journal-page-content, .editor-content, .prosemirror, .wb-page) ol > li::marker {
+    color: var(--wb-crimson);
+    font-family: var(--wb-font-display);
+    font-weight: 900;
+}
+
+/* -------------------------------------------------------------------------- */
+/* 5. TABLES                                                                   */
+/* -------------------------------------------------------------------------- */
+
+body.warbound-theme :is(.journal-page-content, .editor-content, .prosemirror, .wb-page) table {
+    width: 100%;
+    margin: 1.4rem 0 1.8rem;
+    border: 1px solid rgba(91, 68, 39, .35);
+    border-collapse: collapse;
+    background: rgba(255, 248, 228, .32);
+    box-shadow: 0 3px 14px rgba(63, 44, 25, .08);
+}
+
+body.warbound-theme :is(.journal-page-content, .editor-content, .prosemirror, .wb-page) th {
+    padding: .62rem .72rem;
+    border: 0;
+    border-bottom: 2px solid var(--wb-bronze);
+    background: linear-gradient(180deg, rgba(67, 55, 41, .14), rgba(67, 55, 41, .07));
+    color: #352b21;
+    font-family: var(--wb-font-display);
+    font-size: .82rem;
+    font-weight: 900;
+    letter-spacing: .055em;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+body.warbound-theme :is(.journal-page-content, .editor-content, .prosemirror, .wb-page) td {
+    padding: .58rem .72rem;
+    border: 0;
+    border-bottom: 1px solid rgba(91, 68, 39, .19);
+    vertical-align: top;
+}
+
+body.warbound-theme :is(.journal-page-content, .editor-content, .prosemirror, .wb-page) tbody tr:nth-child(even) {
+    background: rgba(87, 64, 37, .045);
+}
+
+/* -------------------------------------------------------------------------- */
+/* 6. IMAGES / FIGURES                                                         */
+/* -------------------------------------------------------------------------- */
+
+body.warbound-theme :is(.journal-page-content, .editor-content, .prosemirror, .wb-page) figure {
+    margin: 1.75rem 0;
+}
+
+body.warbound-theme :is(.journal-page-content, .editor-content, .prosemirror, .wb-page) figure img,
+body.warbound-theme :is(.journal-page-content, .editor-content, .prosemirror, .wb-page) img.wb-image {
+    display: block;
+    max-width: 100%;
+    margin-inline: auto;
+    border: 1px solid rgba(58, 42, 25, .35);
+    box-shadow: 0 0 0 3px rgba(193, 154, 89, .18),
+    0 8px 22px rgba(45, 31, 18, .18);
+}
+
+body.warbound-theme :is(.journal-page-content, .editor-content, .prosemirror, .wb-page) figcaption {
+    margin-top: .45rem;
+    color: var(--wb-muted);
+    font-size: .82rem;
+    font-style: italic;
+    text-align: right;
+}
+
+body.warbound-theme .wb-hero {
+    position: relative;
+    margin: -12px -12px 2.2rem;
+    overflow: hidden;
+    border-bottom: 3px solid var(--wb-bronze);
+}
+
+body.warbound-theme .wb-hero img {
+    width: 100%;
+    max-height: 440px;
+    object-fit: cover;
+    border: 0 !important;
+    box-shadow: none !important;
+    filter: saturate(.9) contrast(1.04);
+}
+
+body.warbound-theme .wb-hero::after {
+    content: "";
+    position: absolute;
+    inset: auto 0 0;
+    height: 36%;
+    background: linear-gradient(transparent, rgba(21, 17, 13, .64));
+    pointer-events: none;
+}
+
+body.warbound-theme .wb-portrait {
+    float: right;
+    width: min(38%, 280px);
+    margin: .2rem 0 1rem 1.5rem;
+}
+
+/* -------------------------------------------------------------------------- */
+/* 7. EDITORIAL COMPONENTS                                                     */
+/* -------------------------------------------------------------------------- */
+
+body.warbound-theme .wb-box {
+    position: relative;
+    margin: 1.55rem 0;
+    padding: 1rem 1.15rem 1.05rem 1.2rem;
+    border: 1px solid rgba(83, 62, 37, .38);
+    border-left: 5px solid var(--wb-bronze);
+    background: linear-gradient(100deg, rgba(255, 248, 228, .72), rgba(225, 208, 173, .35)),
+    url("../assets/ui/warbound-paper.svg");
+    box-shadow: 0 5px 18px rgba(54, 38, 20, .10);
+}
+
+body.warbound-theme .wb-box::after {
+    content: "";
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    width: 44px;
+    height: 44px;
+    background: url("../assets/ui/warbound-corner.png") center / contain no-repeat;
+    opacity: .22;
+    pointer-events: none;
+}
+
+body.warbound-theme .wb-box > :is(h2,h3,h4):first-child {
+    margin-top: 0;
+    padding-right: 48px;
+    border-bottom: 0;
+}
+
+body.warbound-theme .wb-box > h3:first-child::before {
+    content: none;
+}
+
+body.warbound-theme .wb-gm {
+    border-left-color: #2f2d29;
+    background: linear-gradient(100deg, rgba(44, 42, 38, .94), rgba(67, 59, 49, .91));
+    color: #eee4d0;
+}
+
+body.warbound-theme .wb-gm :is(h2,h3,h4,strong) {
+    color: #f3d9a6;
+}
+
+body.warbound-theme .wb-gm a {
+    color: #efc37a;
+}
+
+body.warbound-theme .wb-lore {
+    border-left-color: #7b6537;
+}
+
+body.warbound-theme .wb-lore > :is(h2,h3,h4):first-child {
+    color: #665027;
+}
+
+body.warbound-theme .wb-clue {
+    border-left-color: #4b6477;
+    background: linear-gradient(100deg, rgba(230, 232, 222, .72), rgba(198, 208, 205, .42));
+}
+
+body.warbound-theme .wb-clue > :is(h2,h3,h4):first-child {
+    color: #344b5e;
+}
+
+body.warbound-theme .wb-danger {
+    border-left-color: var(--wb-danger);
+    background: linear-gradient(100deg, rgba(248, 226, 211, .75), rgba(222, 183, 162, .38));
+}
+
+body.warbound-theme .wb-danger > :is(h2,h3,h4):first-child {
+    color: var(--wb-danger);
+}
+
+body.warbound-theme .wb-rule {
+    border-left-color: #536244;
+    background: linear-gradient(100deg, rgba(231, 230, 204, .72), rgba(190, 198, 166, .38));
+}
+
+body.warbound-theme .wb-rule > :is(h2,h3,h4):first-child {
+    color: #46553a;
+}
+
+body.warbound-theme .wb-npc {
+    border-left-color: var(--wb-crimson);
+}
+
+body.warbound-theme blockquote.wb-readaloud,
+body.warbound-theme .wb-readaloud {
+    position: relative;
+    margin: 1.7rem .4rem;
+    padding: 1.1rem 1.35rem 1.1rem 1.65rem;
+    border: 0;
+    border-left: 4px solid var(--wb-crimson);
+    background: rgba(255, 250, 235, .38);
+    color: #40372d;
+    font-size: 1.08rem;
+    font-style: italic;
+    line-height: 1.52;
+}
+
+body.warbound-theme .wb-readaloud::before {
+    content: "“";
+    position: absolute;
+    left: .22rem;
+    top: -.18rem;
+    color: rgba(125, 36, 31, .35);
+    font-family: Georgia, serif;
+    font-size: 4.2rem;
+    line-height: 1;
+}
+
+body.warbound-theme .wb-tag {
+    display: inline-block;
+    margin: 0 .25rem .25rem 0;
+    padding: .18rem .44rem .14rem;
+    border: 1px solid rgba(95, 70, 39, .4);
+    border-radius: 2px;
+    background: rgba(91, 68, 39, .09);
+    color: #4d3e2e;
+    font-family: var(--wb-font-display);
+    font-size: .7rem;
+    font-weight: 800;
+    letter-spacing: .055em;
+    text-transform: uppercase;
+}
+
+body.warbound-theme .wb-location {
+    margin: 1.2rem 0 .45rem;
+    color: var(--wb-crimson-dark);
+    font-family: var(--wb-font-display);
+    font-size: .84rem;
+    font-weight: 900;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+}
+
+body.warbound-theme .wb-location::before {
+    content: "✦";
+    margin-right: .48rem;
+    color: var(--wb-bronze);
+}
+
+body.warbound-theme .wb-statblock {
+    margin: 1.5rem 0;
+    padding: 1rem 1.15rem;
+    border-top: 4px solid var(--wb-crimson-dark);
+    border-bottom: 4px solid var(--wb-crimson-dark);
+    background: linear-gradient(90deg, rgba(245, 235, 209, .88), rgba(225, 210, 176, .62));
+    box-shadow: inset 0 0 0 1px rgba(125, 36, 31, .18);
+}
+
+body.warbound-theme .wb-statblock > h3:first-child {
+    margin-top: 0;
+    color: var(--wb-crimson-dark);
+    font-size: 1.25rem;
+}
+
+body.warbound-theme .wb-statline {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .3rem .9rem;
+    padding: .45rem 0;
+    border-top: 1px solid rgba(125, 36, 31, .2);
+    border-bottom: 1px solid rgba(125, 36, 31, .2);
+    color: #4b3b2b;
+    font-size: .93rem;
+}
+
+/* -------------------------------------------------------------------------- */
+/* 8. LAYOUT HELPERS                                                           */
+/* -------------------------------------------------------------------------- */
+
+body.warbound-theme .wb-columns {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.7rem;
+    align-items: start;
+}
+
+body.warbound-theme .wb-grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+body.warbound-theme .wb-card {
+    padding: .9rem 1rem;
+    border-top: 3px solid var(--wb-bronze);
+    background: rgba(255, 247, 226, .35);
+    box-shadow: 0 4px 14px rgba(50, 34, 17, .08);
+}
+
+body.warbound-theme .wb-clear {
+    clear: both;
+}
+
+/* -------------------------------------------------------------------------- */
+/* 9. OPTIONAL VARIANTS                                                        */
+/* -------------------------------------------------------------------------- */
+
+/* Default is Horde. Wrap a page in .wb-neutral or .wb-alliance to shift accent. */
+body.warbound-theme .wb-neutral {
+    --wb-crimson: #5b5449;
+    --wb-crimson-dark: #403b34;
+    --wb-bronze: #8d744c;
+}
+
+body.warbound-theme .wb-alliance {
+    --wb-crimson: #315f8f;
+    --wb-crimson-dark: #244567;
+    --wb-bronze: #a88945;
+}
+
+/* -------------------------------------------------------------------------- */
+/* 10. RESPONSIVE                                                              */
+/* -------------------------------------------------------------------------- */
+
+@media (max-width: 900px) {
+    body.warbound-theme .wb-columns,
+    body.warbound-theme .wb-grid-3 {
+        grid-template-columns: 1fr;
+    }
+
+    body.warbound-theme .wb-portrait {
+        float: none;
+        width: min(70%, 320px);
+        margin: 1rem auto;
+    }
+
+    body.warbound-theme :is(.journal-page-content, .editor-content, .prosemirror) {
+        padding: 24px;
+    }
+}
+
+/* -------------------------------------------------------------------------- */
+/* 11. REDUCED MOTION / ACCESSIBILITY                                          */
+/* -------------------------------------------------------------------------- */
+
+@media (prefers-reduced-motion: reduce) {
+    body.warbound-theme *,
+    body.warbound-theme *::before,
+    body.warbound-theme *::after {
+        scroll-behavior: auto !important;
+        transition: none !important;
+    }
+}
