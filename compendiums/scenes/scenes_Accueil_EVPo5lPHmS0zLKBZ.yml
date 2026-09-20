@@ -1,7 +1,7 @@
 name: Accueil
 _id: EVPo5lPHmS0zLKBZ
 navigation: false
-thumb: worlds/au-nom-de-la-horde-cof2/assets/scenes/thumb-X6anEKVwmCCxuecVw5o-vA.webp
+thumb: modules/warbound-campaign-content/assets/scenes/thumb-X6anEKVwmCCxuecVw5o-vA.webp
 width: 4000
 height: 3000
 padding: 0.25
@@ -406,7 +406,7 @@ levels:
       top: 20
     background:
       color: '#040000'
-      src: worlds/au-nom-de-la-horde-cof2/assets/landing-page/coa-lp-background.png
+      src: modules/warbound-campaign-content/assets/landing-page/coa-lp-background.png
       tint: '#ffffff'
       alphaThreshold: 0.75
     foreground:
@@ -505,7 +505,7 @@ sounds: []
 regions: []
 tiles:
   - texture:
-      src: worlds/au-nom-de-la-horde-cof2/assets/landing-page/coa-lp-campaign-log.png
+      src: modules/warbound-campaign-content/assets/landing-page/coa-lp-campaign-log.png
       anchorX: 0.5
       anchorY: 0.5
       scaleX: 1
@@ -553,7 +553,7 @@ tiles:
           adjust: null
           text: null
           image:
-            src: worlds/au-nom-de-la-horde-cof2/assets/landing-page/coa-lp-campaign-log-open.png
+            src: modules/warbound-campaign-content/assets/landing-page/coa-lp-campaign-log-open.png
             invert: false
       tokenmagic:
         filters:
@@ -584,7 +584,7 @@ tiles:
             type: 2
             label: S_LINK
       multiface-tiles:
-        originalImage: worlds/au-nom-de-la-horde-cof2/assets/landing-page/coa-lp-campaign-log.png
+        originalImage: modules/warbound-campaign-content/assets/landing-page/coa-lp-campaign-log.png
       levels:
         blockSightMovement: false
       tile-scroll:
@@ -633,7 +633,7 @@ tiles:
     name: ''
     _key: '!scenes.tiles!EVPo5lPHmS0zLKBZ.4yWKnM2CHhHtQHQg'
   - texture:
-      src: worlds/au-nom-de-la-horde-cof2/assets/landing-page/coa-lp-pc-stuff.png
+      src: modules/warbound-campaign-content/assets/landing-page/coa-lp-pc-stuff.png
       anchorX: 0.5
       anchorY: 0.5
       scaleX: 1
@@ -752,7 +752,7 @@ tiles:
     name: ''
     _key: '!scenes.tiles!EVPo5lPHmS0zLKBZ.vObmFJ032OHlFAyy'
   - texture:
-      src: worlds/au-nom-de-la-horde-cof2/assets/landing-page/coa-lp-rule-book.png
+      src: modules/warbound-campaign-content/assets/landing-page/coa-lp-rule-book.png
       anchorX: 0.5
       anchorY: 0.5
       scaleX: 1
@@ -800,7 +800,7 @@ tiles:
           adjust: null
           text: null
           image:
-            src: worlds/au-nom-de-la-horde-cof2/assets/landing-page/coa-lp-rule-book-open.png
+            src: modules/warbound-campaign-content/assets/landing-page/coa-lp-rule-book-open.png
             invert: false
       tokenmagic:
         filters:
@@ -831,7 +831,7 @@ tiles:
             type: 2
             label: S_LINK
       multiface-tiles:
-        originalImage: worlds/au-nom-de-la-horde-cof2/assets/landing-page/coa-lp-rule-book.png
+        originalImage: modules/warbound-campaign-content/assets/landing-page/coa-lp-rule-book.png
       levels:
         blockSightMovement: false
       tile-scroll:
@@ -880,7 +880,7 @@ tiles:
     name: ''
     _key: '!scenes.tiles!EVPo5lPHmS0zLKBZ.bAyr8HhMqpda6bTR'
   - texture:
-      src: worlds/au-nom-de-la-horde-cof2/assets/landing-page/coa-lp-documents.png
+      src: modules/warbound-campaign-content/assets/landing-page/coa-lp-documents.png
       anchorX: 0.5
       anchorY: 0.5
       scaleX: 1
@@ -998,7 +998,7 @@ tiles:
         actions: []
         files: []
       multiface-tiles:
-        originalImage: worlds/au-nom-de-la-horde-cof2/assets/landing-page/coa-lp-documents.png
+        originalImage: modules/warbound-campaign-content/assets/landing-page/coa-lp-documents.png
     _id: KxiL18MfCxiBLxBt
     rotation: 0
     hidden: false
@@ -1006,7 +1006,7 @@ tiles:
     name: ''
     _key: '!scenes.tiles!EVPo5lPHmS0zLKBZ.KxiL18MfCxiBLxBt'
   - texture:
-      src: worlds/au-nom-de-la-horde-cof2/assets/landing-page/coa-lp-boite.png
+      src: modules/warbound-campaign-content/assets/landing-page/coa-lp-boite.png
       anchorX: 0.5
       anchorY: 0.5
       scaleX: 1
@@ -1125,7 +1125,7 @@ tiles:
     name: ''
     _key: '!scenes.tiles!EVPo5lPHmS0zLKBZ.EfS2aI5Oz8vUd9bs'
   - texture:
-      src: worlds/au-nom-de-la-horde-cof2/assets/landing-page/maps/coa-lp-map-durotar.png
+      src: modules/warbound-campaign-content/assets/landing-page/maps/coa-lp-map-durotar.png
       anchorX: 0.5
       anchorY: 0.5
       scaleX: 1
@@ -1202,7 +1202,7 @@ tiles:
     name: ''
     _key: '!scenes.tiles!EVPo5lPHmS0zLKBZ.EOVF2nmAcCoeydxX'
   - texture:
-      src: worlds/au-nom-de-la-horde-cof2/assets/landing-page/pins/horde/capitale-pin.png
+      src: modules/warbound-campaign-content/assets/landing-page/pins/horde/capitale-pin.png
       anchorX: 0.5
       anchorY: 0.5
       scaleX: 1
@@ -1326,7 +1326,7 @@ tiles:
     name: ''
     _key: '!scenes.tiles!EVPo5lPHmS0zLKBZ.JWesg6G3K5h8gQ37'
   - texture:
-      src: worlds/au-nom-de-la-horde-cof2/assets/landing-page/pins/horde/village-pin.png
+      src: modules/warbound-campaign-content/assets/landing-page/pins/horde/village-pin.png
       anchorX: 0.5
       anchorY: 0.5
       scaleX: 1
@@ -1455,7 +1455,7 @@ tiles:
     height: 276
     sort: 100
     texture:
-      src: worlds/au-nom-de-la-horde-cof2/assets/landing-page/coa-lp-buton.png
+      src: modules/warbound-campaign-content/assets/landing-page/coa-lp-buton.png
       fit: contain
       tint: '#e6c878'
       anchorX: 0.5
@@ -1647,7 +1647,7 @@ tiles:
         actions: []
         files: []
       multiface-tiles:
-        originalImage: worlds/au-nom-de-la-horde-cof2/assets/landing-page/cof2-parchemin-10-commandements-ferme-lp.png
+        originalImage: modules/warbound-campaign-content/assets/landing-page/cof2-parchemin-10-commandements-ferme-lp.png
       baileywiki-landing-page:
         hoverSound: preset:fantasy_bookflip1
         button: true
@@ -1663,7 +1663,7 @@ tiles:
           adjust: null
           text: null
           image:
-            src: worlds/au-nom-de-la-horde-cof2/assets/landing-page/cof2-parchemin-10-commandements-ouvert.png
+            src: modules/warbound-campaign-content/assets/landing-page/cof2-parchemin-10-commandements-ouvert.png
             invert: false
         click:
           action: journal
@@ -1701,7 +1701,7 @@ tiles:
     elevation: 0
     sort: 116
     texture:
-      src: worlds/au-nom-de-la-horde-cof2/assets/landing-page/cof2-parchemin-10-commandements-ferme-lp.png
+      src: modules/warbound-campaign-content/assets/landing-page/cof2-parchemin-10-commandements-ferme-lp.png
       scaleX: 1
       scaleY: 1
       anchorX: 0.5

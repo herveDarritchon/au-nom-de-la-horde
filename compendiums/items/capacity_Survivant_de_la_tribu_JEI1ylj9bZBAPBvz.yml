@@ -1,7 +1,7 @@
 folder: VXemtWdksgYw7pWA
 name: Survivant de la tribu
 type: capacity
-img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/survivant-de-la-tribu.png
+img: modules/warbound-campaign-content/assets/images/icons/capacites/survivant-de-la-tribu.png
 system:
   description: <p>Le Troll augmente ses valeurs d’AGI et de CON de +1.</p>
   inGame: ''
