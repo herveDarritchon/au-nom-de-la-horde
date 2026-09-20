@@ -406,7 +406,7 @@ levels:
       top: 20
     background:
       color: '#040000'
-      src: worlds/au-nom-de-la-horde/assets/landing-page/coa-lp-background.png
+      src: worlds/au-nom-de-la-horde-cof2/assets/landing-page/coa-lp-background.png
       tint: '#ffffff'
       alphaThreshold: 0.75
     foreground:
@@ -1230,8 +1230,8 @@ tiles:
       volume: 0
     _key: '!scenes.tiles!EVPo5lPHmS0zLKBZ.LL64AP4RFqCQQaqH'
 walls: []
-playlist: pTPQlfQpH2zAfqRa
-playlistSound: HxYAXtqIUrIuTGdZ
+playlist: null
+playlistSound: null
 journal: null
 journalEntryPage: null
 weather: ''
@@ -1307,13 +1307,15 @@ flags:
     soundVolume: 0.5
   multi-token-edit:
     blackBars: false
+  wall-height:
+    advancedVision: true
 _stats:
   coreVersion: '14.367'
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1788766267959
-  modifiedTime: 1788766267959
-  lastModifiedBy: V0twxN2oKehfUjVd
+  modifiedTime: 1789898558479
+  lastModifiedBy: TjbWhMczNyKieD8D
   compendiumSource: null
   duplicateSource: null
   exportSource: null
@@ -1321,5 +1323,5 @@ navName: ''
 active: false
 navOrder: 0
 sort: 0
-templates: []
 _key: '!scenes!EVPo5lPHmS0zLKBZ'
+templates: []
