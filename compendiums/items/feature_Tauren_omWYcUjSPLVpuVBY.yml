@@ -1,0 +1,57 @@
+folder: ZU8jQk7j2jqAuJbV
+name: Tauren
+type: feature
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/races/coa-tauren.png
+system:
+  description: >-
+    <blockquote><p><span><strong>« La force n’est pas dans le fracas : elle est
+    dans ce qui demeure debout. »</strong></span></p></blockquote><p
+    class="MsoNormal"><span>Massifs, puissants et profondément enracinés dans
+    leur environnement, les Taurens incarnent la force tranquille et
+    l’endurance. Leur stature imposante leur permet d’encaisser les coups et de
+    contrôler l’espace autour d’eux, tandis que leur culture est intimement liée
+    à la Terre-Mère, aux esprits, aux ancêtres et au monde naturel. Généralement
+    calmes, réfléchis et honorables, ils recherchent davantage l’équilibre que
+    le conflit — mais deviennent des adversaires redoutables lorsqu’ils doivent
+    défendre les leurs.</span></p>
+  source: ''
+  origin: warbound
+  slug: ''
+  gmNotes: >-
+    <p><span lang="EN-US" style="mso-fareast-font-family:&#x27;DejaVu
+    Serif&#x27;;
+
+    mso-bidi-font-family:&#x27;DejaVu Serif&#x27;">Le Tauren est conçu comme un
+    Shu’halo massif, endurant et profondément adapté aux grands espaces. Sa Voie
+    ne cherche pas à fabriquer un Guerrier, un Chasseur, un Chaman ou un Druide
+    taurène en particulier : elle développe les qualités communes qui rendent le
+    peuple immédiatement reconnaissable, quelle que soit la classe. Endurance
+    taurène ouvre la Voie ; Choc martial, Résistance à la Nature et
+    Herboristerie taurène restent des Talents raciaux indépendants afin de
+    préserver des choix distincts à la création.</span></p>
+  subtype: people
+  modifiers: []
+  paths:
+    - Item.bnAj6kwLHVTEMEjt
+  capacities:
+    - Item.Lp4uLqmy25YRbv6X
+    - Item.1dYEOMDDEkWhSLR1
+    - Item.0Zo1HOUUlZpFR48n
+effects: []
+sort: 0
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895786819
+  modifiedTime: 1789895786819
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: Item.k5hPsJBWpex0nofr
+  exportSource: null
+_id: omWYcUjSPLVpuVBY
+_key: '!items!omWYcUjSPLVpuVBY'

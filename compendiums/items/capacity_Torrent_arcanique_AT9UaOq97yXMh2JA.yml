@@ -1,0 +1,58 @@
+folder: OxjUEdZfGVR1teeS
+name: Torrent arcanique
+type: capacity
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/cof2-torrent-arcanique.png
+system:
+  description: >-
+    <p>Le Sin’dorei libère brutalement son énergie arcanique. Tous les
+    adversaires situés à 3 m ou moins effectuent un test de VOL difficulté [10 +
+    VOL du Sin’dorei].</p><p>En cas d’échec, la cible ne peut utiliser aucune
+    capacité marquée Sort ni aucune capacité explicitement magique jusqu’au
+    début de son prochain tour. Les effets magiques déjà actifs ne sont pas
+    dissipés.</p>
+  inGame: ''
+  source: ''
+  origin: warbound
+  slug: haches-et-marteaux
+  subtype: ''
+  actionType: none
+  learned: false
+  charges:
+    current: null
+    max: null
+  properties:
+    spell: false
+  path: null
+  actions: []
+  cost: -1
+  rank: 1
+  gmNotes: >-
+    <blockquote><p>Torrent arcanique utilise une action d’attaque (A). Après
+    utilisation, la capacité ne redevient disponible qu’après une récupération
+    rapide.</p></blockquote><p>Foundry : Objet Capacité séparé. Action
+    d’attaque, zone de 3 m centrée sur le personnage, test de VOL et effet
+    temporaire interdisant les capacités Sort ou explicitement magiques jusqu’au
+    début du prochain tour de chaque cible.</p>
+  frequency: none
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.QIxVby70L3mFXaPh
+  duplicateSource: Item.HpH510Dun7b7mmf8
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784625
+  modifiedTime: 1789895784625
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+sort: 200000
+_id: AT9UaOq97yXMh2JA
+_key: '!items!AT9UaOq97yXMh2JA'

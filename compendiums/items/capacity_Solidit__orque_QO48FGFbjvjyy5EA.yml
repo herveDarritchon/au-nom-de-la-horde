@@ -1,0 +1,54 @@
+folder: UjoYdMeRaKl9Sijf
+name: Solidité orque
+type: capacity
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/solidite-orque.png
+system:
+  description: >-
+    <p>Lorsqu’un effet susceptible d’infliger l’état Étourdi permet normalement
+    à l’Orc d’effectuer un test pour y résister, il bénéficie de +5 à ce test.
+    </p><p>Si l’effet n’autorise normalement aucun test de résistance, Solidité
+    orque n’en crée pas.</p>
+  inGame: >-
+    <blockquote><p><em>Foundry : </em></p><ul><li><p><em>Capacité de rang 1
+    accordée avec la Voie de l’Orc. </em></p></li><li><p><em>Bonus conditionnel
+    de +5 sur les seuls tests de résistance à
+    Étourdi.</em></p></li></ul></blockquote>
+  source: ''
+  origin: warbound
+  slug: haches-et-marteaux
+  subtype: ''
+  actionType: none
+  learned: false
+  charges:
+    current: null
+    max: null
+  properties:
+    spell: false
+  path: null
+  actions: []
+  cost: -1
+  rank: 1
+  gmNotes: ''
+  frequency: none
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.QIxVby70L3mFXaPh
+  duplicateSource: Item.Vknb84JVHRnwKiva
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784640
+  modifiedTime: 1789895784640
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+sort: 500000
+_id: QO48FGFbjvjyy5EA
+_key: '!items!QO48FGFbjvjyy5EA'

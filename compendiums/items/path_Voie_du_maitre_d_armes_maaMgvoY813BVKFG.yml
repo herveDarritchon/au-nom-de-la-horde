@@ -1,0 +1,38 @@
+folder: jL6KNyDtnGnKfATQ
+name: Voie du maitre d'armes
+type: path
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/voies/classes/guerrier/cof2-voie-du-maitre-d-armes.png
+system:
+  description: ''
+  source: ''
+  origin: Warbound
+  slug: voie-du-maitre-darmes
+  subtype: profile
+  capacities:
+    - Item.uzCANxoL5Q3YzyOo
+    - Item.n4yZCaRwdH2IUacT
+    - Item.ZH9qdJ6Pyf6mFA50
+    - Item.sSBCMXl4pCmR6C8J
+    - Item.eyWYjdURUEeI6OUN
+  rank: 0
+  gmNotes: ''
+  maxDefenseArmor: 0
+  pvByLevel: 0
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.VnFLVCeQFXSwbQrO
+  duplicateSource: Item.D9wqmEZZ8J0VlKl5
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895789068
+  modifiedTime: 1789895789068
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+sort: 125000
+_id: maaMgvoY813BVKFG
+_key: '!items!maaMgvoY813BVKFG'

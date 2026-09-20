@@ -1,0 +1,20 @@
+type: JournalEntry
+folder: null
+name: Sc1 — Le convoi de Mâche-Roc
+color: '#539717'
+sorting: a
+_id: azWtxXBLHOWVMAw0
+description: ''
+sort: 200000
+flags: {}
+_stats:
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1788766256695
+  modifiedTime: 1788766256727
+  lastModifiedBy: V0twxN2oKehfUjVd
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!azWtxXBLHOWVMAw0'

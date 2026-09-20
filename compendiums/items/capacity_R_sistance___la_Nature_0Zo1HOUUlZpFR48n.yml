@@ -1,0 +1,61 @@
+folder: yyuEQhhW4jOgg7ig
+name: Résistance à la Nature
+type: capacity
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/resistance-de-la-nature.png
+system:
+  description: >-
+    <p>Le Tauren bénéficie d’un <strong>bonus de +5 aux tests de protection
+    contre les sorts de Nature</strong>. </p><p><strong data-start="49"
+    data-end="72">Une fois par combat</strong>, lorsqu’il est ciblé par un
+    <strong data-start="101" data-end="140">sort de Nature qui inflige des
+    dégâts</strong>, le Tauren peut choisir de <strong data-start="170"
+    data-end="207">ne subir que la moitié des dégâts</strong>.</p><p>Cette
+    capacité est sans effet contre une créature dont le <strong data-start="482"
+    data-end="530" data-is-only-node>NC est au moins égal au double du niveau
+    </strong>du Tauren.</p>
+  inGame: ''
+  source: ''
+  origin: warbound
+  slug: haches-et-marteaux
+  subtype: ''
+  actionType: none
+  learned: false
+  charges:
+    current: null
+    max: null
+  properties:
+    spell: false
+  path: null
+  actions: []
+  cost: -1
+  rank: 1
+  gmNotes: >-
+    <p>Aucun bonus chiffré général n’est ajouté dans cette v0.7 tant que le
+    projet n’a pas défini précisément ce que recouvre Nature. Cette réserve
+    évite qu’un même Talent change de puissance selon l’interprétation du
+    MJ.</p><p>Foundry : Objet Capacité séparé. Automatisation différée jusqu’à
+    la normalisation du mot-clé Nature.</p><p>Peut être choisie gratuitement à
+    la création. Sinon : coût provisoire 1 PC lors d’une progression.</p><p></p>
+  frequency: none
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.QIxVby70L3mFXaPh
+  duplicateSource: Item.Lp4uLqmy25YRbv6X
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784646
+  modifiedTime: 1789895784646
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+sort: 100000
+_id: 0Zo1HOUUlZpFR48n
+_key: '!items!0Zo1HOUUlZpFR48n'

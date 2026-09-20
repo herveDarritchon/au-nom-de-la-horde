@@ -1,0 +1,79 @@
+folder: 12392vARcaK4Og8D
+name: Maîtrise de l'arc
+type: capacity
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/maitrise-arc.png
+system:
+  description: >-
+    <p><span lang="EN-US">Le Troll gagne +1 aux tests d’attaque à distance avec
+    un arc qu’il maîtrise. Cette capacité n’accorde pas la maîtrise de
+    l’arc.</span></p>
+  inGame: ''
+  source: ''
+  origin: warbound
+  slug: haches-et-marteaux
+  subtype: ''
+  actionType: none
+  learned: false
+  charges:
+    current: null
+    max: null
+  properties:
+    spell: false
+  path: null
+  actions:
+    - source: Compendium.cof2-base.cof-2-base-items.Item.QIxVby70L3mFXaPh
+      indice: 0
+      label: Maîtrise l'arc
+      chatFlavor: ''
+      img: icons/svg/combat.svg
+      type: ranged
+      actionType: a
+      properties:
+        activable: false
+        temporary: false
+        noChargesUsed: false
+        visible: false
+        enabled: false
+        noManaCost: false
+      conditions:
+        - predicate: isLearned
+      modifiers:
+        - type: capacity
+          source: Compendium.cof2-base.cof-2-base-items.Item.QIxVby70L3mFXaPh
+          subtype: combat
+          target: ranged
+          value: '1'
+          apply: self
+          additionalInfos: seulement avec les arcs
+          choiceGroup: 0
+      resolvers: []
+  cost: -1
+  rank: 1
+  gmNotes: >-
+    <p><span lang="EN-US">Foundry : Objet Capacité séparé. Modificateur
+    conditionnel d’attaque à distance selon le type d’arme ; ne pas modifier les
+    maîtrises.</span></p><p><span lang="EN-US">Peut être choisie gratuitement à
+    la création. Sinon : coût 1 PC lors d’une progression.</span></p><p></p>
+  frequency: none
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.QIxVby70L3mFXaPh
+  duplicateSource: Item.1uh8CzK7ojxKJQho
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784648
+  modifiedTime: 1789895784648
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+sort: 100000
+_id: 3hG2ZQ2aJRFcWujA
+_key: '!items!3hG2ZQ2aJRFcWujA'

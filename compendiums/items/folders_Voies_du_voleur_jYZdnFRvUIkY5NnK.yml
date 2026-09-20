@@ -1,0 +1,20 @@
+name: Voies du voleur
+sorting: m
+folder: 9Nu7XsgCLD3Ilzvj
+type: Item
+_id: jYZdnFRvUIkY5NnK
+description: ''
+sort: 200000
+color: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895789033
+  modifiedTime: 1789895789033
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_key: '!folders!jYZdnFRvUIkY5NnK'

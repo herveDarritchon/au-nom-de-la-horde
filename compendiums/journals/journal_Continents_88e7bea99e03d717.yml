@@ -1,0 +1,62 @@
+_id: 88e7bea99e03d717
+name: Continents
+folder: e44145f1dd6d08d4
+pages:
+  - _id: 154540e500a3d6ec
+    name: Continents
+    type: text
+    text:
+      content: |-
+        <h2 id="subfolders">Subfolders</h2>
+        <ul>
+        <li>@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.cb28ce8ef3d17087.JournalEntryPage.4f39a5f40140cd16]{Kalimdor}</li>
+        </ul>
+      format: 1
+    sort: 0
+    flags:
+      vaults:
+        vaultId: vault-coa-7e7c5ff7
+        path: Continents/index.md
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1788766247261
+      modifiedTime: 1788766247261
+      lastModifiedBy: V0twxN2oKehfUjVd
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!88e7bea99e03d717.154540e500a3d6ec'
+flags:
+  vaults:
+    vaultId: vault-coa-7e7c5ff7
+    path: Continents/index.md
+categories: []
+ownership:
+  default: 0
+  V0twxN2oKehfUjVd: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1788766247261
+  modifiedTime: 1788766247261
+  lastModifiedBy: V0twxN2oKehfUjVd
+  compendiumSource: Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.88e7bea99e03d717
+  duplicateSource: null
+  exportSource: null
+sort: 0
+_key: '!journal!88e7bea99e03d717'

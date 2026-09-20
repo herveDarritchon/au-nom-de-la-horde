@@ -1,0 +1,38 @@
+folder: vDDmoPzpqFUx9Gy8
+name: Voie du sang
+type: path
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/voies/classes/demoniste/cof2-voie-du-sang.png
+system:
+  description: ''
+  source: ''
+  origin: Warbound
+  slug: voie-du-sang
+  subtype: profile
+  capacities:
+    - Compendium.cof2-base.cof-2-base-items.Item.55EVhAN31ANrcjvn
+    - Compendium.cof2-base.cof-2-base-items.Item.EBCWfaXemXtOVOlf
+    - Compendium.cof2-base.cof-2-base-items.Item.9jotV5OpTNbcq6L7
+    - Compendium.cof2-base.cof-2-base-items.Item.UvwewpCQsMbhbqNd
+    - Compendium.cof2-base.cof-2-base-items.Item.l7Uh1cpXFq3DtvJP
+  rank: 0
+  gmNotes: ''
+  maxDefenseArmor: 0
+  pvByLevel: 0
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.1wAp91BnOCFr99ug
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895789063
+  modifiedTime: 1789895789063
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_id: rJiPNYiBMkr6vvaz
+sort: 200000
+_key: '!items!rJiPNYiBMkr6vvaz'

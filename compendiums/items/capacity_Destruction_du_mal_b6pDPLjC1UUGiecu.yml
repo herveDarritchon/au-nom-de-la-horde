@@ -1,0 +1,89 @@
+folder: oZQRgOBUZfjXL2nE
+name: Destruction du mal
+type: capacity
+img: icons/magic/fire/barrier-wall-flame-ring-blue.webp
+system:
+  description: >-
+    <p>Tous les morts‑vivants et les démons dans un rayon de 10 m autour du
+    prêtre subissent automatiquement [2d4°+CHA] DM. Les DM passent à 3d4° au
+    rang 5.</p>
+  inGame: >-
+    <p>Le joueur cible les Mort-vivants et clique sur le bouton d'action qui va
+    lancer les dommages. Le succès est automatique.</p>
+  source: ''
+  origin: Livre des règles p124
+  slug: destruction-du-mal
+  subtype: ''
+  actionType: a
+  learned: false
+  charges:
+    current: null
+    max: null
+  properties:
+    spell: true
+  path: null
+  actions:
+    - source: Compendium.cof2-base.cof-2-base-items.Item.BRxs9S63ueEJzpUM
+      indice: 0
+      label: ''
+      chatFlavor: ''
+      type: magical
+      img: icons/svg/d20-highlight.svg
+      properties:
+        visible: false
+        enabled: false
+        activable: true
+        temporary: false
+        noManaCost: false
+        noChargesUsed: false
+      conditions:
+        - predicate: isLearned
+      resolvers:
+        - type: auto
+          bonusDiceAdd: false
+          malusDiceAdd: false
+          skill:
+            difficulty: '0'
+          dmg:
+            formula: '@rang[2,2,2,2,3]d4° + @cha'
+          target:
+            type: multiple
+            number: '0'
+            scope: all
+          additionalEffect:
+            active: false
+            applyOn: success
+            successThreshold: null
+            statuses: []
+            duration: '0'
+            unit: round
+          halfDmgOnSave: true
+          hasAttackSuccessThreshold: false
+      modifiers: []
+      actionType: none
+  cost: -1
+  rank: 3
+  gmNotes: ''
+  frequency: none
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.BRxs9S63ueEJzpUM
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784688
+  modifiedTime: 1789895784688
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_id: b6pDPLjC1UUGiecu
+sort: 0
+_key: '!items!b6pDPLjC1UUGiecu'

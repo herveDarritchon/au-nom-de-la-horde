@@ -1,0 +1,40 @@
+folder: vDDmoPzpqFUx9Gy8
+name: Voie de la mort
+type: path
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/voies/classes/demoniste/cof2-voie-de-la-mort.png
+system:
+  description: >-
+    <p>Les sorts de cette voie n’affectent pas les créatures non vivantes
+    (golem, élémentaires, morts‑vivants…).</p>
+  source: ''
+  origin: Warbound
+  slug: voie-de-la-mort
+  subtype: profile
+  capacities:
+    - Compendium.cof2-base.cof-2-base-items.Item.AWNYzq7QE2yS5lX7
+    - Compendium.cof2-base.cof-2-base-items.Item.wJ2LxgeexaOG2m4M
+    - Compendium.cof2-base.cof-2-base-items.Item.V9yR9KzgR9xsXtaO
+    - Compendium.cof2-base.cof-2-base-items.Item.g5RgXEcmIt5GGo0W
+    - Compendium.cof2-base.cof-2-base-items.Item.RgltPHS4yO30DrSR
+  rank: 0
+  gmNotes: ''
+  maxDefenseArmor: 0
+  pvByLevel: 0
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.snbuWoDTLtIJFsYO
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895789062
+  modifiedTime: 1789895789062
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_id: M5y0VMu9M9pL8svj
+sort: 125000
+_key: '!items!M5y0VMu9M9pL8svj'

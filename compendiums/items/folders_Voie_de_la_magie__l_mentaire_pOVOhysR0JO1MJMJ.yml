@@ -1,0 +1,20 @@
+name: Voie de la magie élémentaire
+sorting: m
+folder: 0fCMaISyIdjqne5q
+type: Item
+_id: pOVOhysR0JO1MJMJ
+description: ''
+sort: 300000
+color: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784471
+  modifiedTime: 1789895784471
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_key: '!folders!pOVOhysR0JO1MJMJ'

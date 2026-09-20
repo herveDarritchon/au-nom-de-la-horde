@@ -1,0 +1,38 @@
+folder: Nc47ZdfleFUl6KQr
+name: Voie du protecteur
+type: path
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/voies/classes/druide/cof2-voie-du-protecteur.png
+system:
+  description: ''
+  source: ''
+  origin: Warbound
+  slug: voie-du-protecteur
+  subtype: profile
+  capacities:
+    - Item.JUl2EvOmAEign0c7
+    - Item.FyxXgHiG62XEcymE
+    - Item.YmFIizwTLjpCatLH
+    - Item.n2BPyhtx4FQ7gjNT
+    - Item.t4QCsqoRVnhcoMmW
+  rank: 0
+  gmNotes: ''
+  maxDefenseArmor: 0
+  pvByLevel: 0
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.SS8MlvwInJCLE6VC
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895789067
+  modifiedTime: 1789895789067
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_id: A8ahSyZd5U47iE9W
+sort: 0
+_key: '!items!A8ahSyZd5U47iE9W'

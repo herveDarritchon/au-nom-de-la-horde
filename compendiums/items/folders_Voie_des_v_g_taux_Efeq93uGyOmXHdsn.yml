@@ -1,0 +1,20 @@
+name: Voie des végétaux
+sorting: m
+folder: ukI3L6hkqM5yYJIr
+type: Item
+_id: Efeq93uGyOmXHdsn
+description: ''
+sort: 0
+color: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784467
+  modifiedTime: 1789895784467
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_key: '!folders!Efeq93uGyOmXHdsn'

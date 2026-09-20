@@ -1,0 +1,62 @@
+_id: ab0e75476258fcd0
+name: Villes
+folder: 0ae6a1ec037ba671
+pages:
+  - _id: 25b5b8d97aabe0b5
+    name: Villes
+    type: text
+    text:
+      content: |-
+        <h2 id="subfolders">Subfolders</h2>
+        <ul>
+        <li>@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.accdb729c105149f.JournalEntryPage.248939bc3fc65481]{Tranchecolline}</li>
+        </ul>
+      format: 1
+    sort: 0
+    flags:
+      vaults:
+        vaultId: vault-coa-7e7c5ff7
+        path: Villes/index.md
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1788766247342
+      modifiedTime: 1788766247342
+      lastModifiedBy: V0twxN2oKehfUjVd
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!ab0e75476258fcd0.25b5b8d97aabe0b5'
+flags:
+  vaults:
+    vaultId: vault-coa-7e7c5ff7
+    path: Villes/index.md
+categories: []
+ownership:
+  default: 0
+  V0twxN2oKehfUjVd: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1788766247342
+  modifiedTime: 1788766247342
+  lastModifiedBy: V0twxN2oKehfUjVd
+  compendiumSource: Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.ab0e75476258fcd0
+  duplicateSource: null
+  exportSource: null
+sort: 0
+_key: '!journal!ab0e75476258fcd0'

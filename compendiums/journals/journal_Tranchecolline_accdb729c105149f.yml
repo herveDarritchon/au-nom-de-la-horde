@@ -1,0 +1,156 @@
+_id: accdb729c105149f
+name: Tranchecolline
+folder: 0ae6a1ec037ba671
+pages:
+  - _id: 248939bc3fc65481
+    name: Tranchecolline
+    type: text
+    text:
+      content: |-
+        <h2 id="pages">Pages</h2>
+        <div class="bases-block">
+          <div class="bases-caption">Contents</div>
+          <div class="bases-toolbar">
+            <input type="search" class="bases-filter" placeholder="Filter…" aria-label="Filter table">
+            <span class="bases-count" data-total="1">1 row</span>
+          </div>
+          <div class="bases-scroll">
+            <table class="bases-table">
+              <thead><tr><th data-col="0" tabindex="0">Name</th><th data-col="1" tabindex="0">Mtime</th></tr></thead>
+              <tbody><tr data-row="0"><td data-raw="Tranchecolline">@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.accdb729c105149f.JournalEntryPage.7c145456209029db]{Tranchecolline}</td><td data-raw="1787749786000">2026-08-26</td></tr></tbody>
+            </table>
+          </div>
+        </div>
+      format: 1
+    sort: 0
+    flags:
+      vaults:
+        vaultId: vault-coa-7e7c5ff7
+        path: Villes/Tranchecolline/index.md
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1788766247345
+      modifiedTime: 1788766247345
+      lastModifiedBy: V0twxN2oKehfUjVd
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!accdb729c105149f.248939bc3fc65481'
+  - _id: 7c145456209029db
+    name: Tranchecolline
+    type: text
+    text:
+      content: >-
+        <p><img
+        src="/worlds/au-nom-de-la-horde/vaults-cache/vault-coa-7e7c5ff7/static/Images/Illustrations/razor-hill.webp?v=4dd325dac084"
+        alt="razor-hill.webp" class="default-width"></p>
+
+        <p>Le son lourd d'une hache fendant le bois, l'odeur âcre de la
+        poussière rouge soulevée par les kodos de bât, et le brouhaha de
+        voyageurs fatigués : bienvenue à Tranchecolline.</p>
+
+        <h2 id="le-carrefour-de-durotar">Le Carrefour de Durotar</h2>
+
+        <p>Bien plus qu'une simple halte entre la Vallée des Épreuves et
+        <strong>@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.cd074187891352fa.JournalEntryPage.e0870bccc64bf3dc]{Orgrimmar}</strong>,
+        Tranchecolline (<em>Razor Hill</em>) est le <strong>cœur
+        névralgique</strong> de la région. C'est ici que se croisent les convois
+        de ravitaillement, que s'échangent les nouvelles du front, et que la
+        Horde tente de maintenir l'ordre sur un territoire encore sauvage.</p>
+
+        <p>Autour de vous, l'activité est frénétique et permanente. Des gardes
+        burinés scrutent l'horizon rocailleux, des chasseurs taurens et trolls
+        discutent des derniers mouvements de raptors, des péons réparent des
+        chariots en maugréant, tandis que des marchands négocient à voix haute
+        leurs maigres réserves d'eau et de vivres à l'ombre de tentes en cuir
+        grossier.</p>
+
+        <h2 id="votre-point-dancrage">Votre Point d'Ancrage</h2>
+
+        <p>Pour vous, <strong>Tranchecolline</strong> n'est pas un lieu de
+        passage. <strong>Ce sera votre camp de base</strong>.</p>
+
+        <p>Vous y reviendrez entre deux expéditions pour vous reposer, soigner
+        vos blessures, vendre vos trouvailles ou chercher des réponses. C'est un
+        campement vivant, intimement lié à vos choix :</p>
+
+        <ul>
+
+        <li>Les personnes que vous aiderez, contrarierez ou ignorerez s'en
+        souviendront.</li>
+
+        <li>Les problèmes que vous réglerez laisseront des traces concrètes sur
+        la vie du camp.</li>
+
+        <li>Les menaces que vous laisserez de côté pourront empirer pendant
+        votre absence.</li>
+
+        </ul>
+
+        <p>Prenez le temps d'observer, d'écouter près du feu de camp ou de
+        parler aux artisans. Dans cette terre de frontière impitoyable, chaque
+        rencontre faite à <strong>Tranchecolline</strong> peut déterminer ce qui
+        vous attend sur la route le lendemain.</p>
+      format: 1
+    sort: 100000
+    flags:
+      vaults:
+        vaultId: vault-coa-7e7c5ff7
+        path: Villes/Tranchecolline/Tranchecolline.md
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1788766247345
+      modifiedTime: 1788766247345
+      lastModifiedBy: V0twxN2oKehfUjVd
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!accdb729c105149f.7c145456209029db'
+flags:
+  vaults:
+    vaultId: vault-coa-7e7c5ff7
+    path: Villes/Tranchecolline/Tranchecolline.md
+categories: []
+ownership:
+  default: 2
+  V0twxN2oKehfUjVd: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1788766247345
+  modifiedTime: 1788766247345
+  lastModifiedBy: V0twxN2oKehfUjVd
+  compendiumSource: Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.accdb729c105149f
+  duplicateSource: null
+  exportSource: null
+sort: 0
+_key: '!journal!accdb729c105149f'

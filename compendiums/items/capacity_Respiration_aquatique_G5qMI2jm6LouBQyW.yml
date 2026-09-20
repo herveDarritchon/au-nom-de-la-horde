@@ -1,0 +1,68 @@
+folder: rMMg5JuaE6hvEj98
+name: Respiration aquatique
+type: capacity
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/respiration-aquatique.png
+system:
+  description: >-
+    <p>Le Réprouvé peut respirer sous l’eau pendant 10 minutes. Cette capacité
+    peut être étendue à un compagnon par point d’INT.</p>
+  inGame: >-
+    <p>Le joueur clique sur "activation du sort" pour dépenser les PM. Les
+    autres effets sont gérés manuellement.</p>
+  source: ''
+  origin: Livre des règles p105
+  slug: respiration-aquatique
+  subtype: ''
+  actionType: a
+  learned: false
+  charges:
+    current: null
+    max: null
+  properties:
+    spell: false
+  path: null
+  actions:
+    - source: Compendium.cof2-base.cof-2-base-items.Item.XoVSiPlG6KgbgmrQ
+      indice: 0
+      label: Activation de la capacité
+      chatFlavor: ''
+      img: icons/svg/d20-highlight.svg
+      type: spell
+      actionType: none
+      properties:
+        activable: true
+        temporary: false
+        noChargesUsed: false
+        visible: false
+        enabled: false
+        noManaCost: false
+      conditions:
+        - predicate: isLearned
+      modifiers: []
+      resolvers: []
+  cost: -1
+  rank: 1
+  gmNotes: ''
+  frequency: none
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.XoVSiPlG6KgbgmrQ
+  duplicateSource: Item.VomvvGQ3974PnAdl
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784641
+  modifiedTime: 1789895784641
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+sort: 200000
+_id: G5qMI2jm6LouBQyW
+_key: '!items!G5qMI2jm6LouBQyW'

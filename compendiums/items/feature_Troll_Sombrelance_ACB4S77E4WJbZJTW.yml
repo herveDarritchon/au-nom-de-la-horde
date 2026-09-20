@@ -1,0 +1,48 @@
+folder: ZU8jQk7j2jqAuJbV
+name: Troll Sombrelance
+type: feature
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/races/coa-troll.png
+_id: ACB4S77E4WJbZJTW
+system:
+  description: >-
+    <blockquote><p><em>« Là où les autres pansent leurs plaies, le Troll revient
+    déjà dans la chasse. »</em></p></blockquote><p>Grands, élancés et nerveux,
+    les <strong data-start="55" data-end="77">Trolls Sombrelance</strong> sont
+    des survivants endurcis, réputés pour leur agilité, leurs talents de
+    chasseurs et leur étonnante capacité de régénération. Habiles à l’arc comme
+    aux armes de jet, ils peuvent libérer dans les situations les plus
+    dangereuses une redoutable <strong data-start="322" data-end="342">frénésie
+    berserk</strong>. Profondément attachés à leur tribu, aux esprits et aux
+    Loas, les Sombrelances sont un peuple <strong data-start="437"
+    data-end="475">pragmatique, adaptable et farouche</strong>, qui a trouvé
+    auprès de la Horde une nouvelle terre à défendre sans renier ses anciennes
+    traditions.</p>
+  source: ''
+  origin: warbound
+  slug: ''
+  gmNotes: ''
+  subtype: people
+  modifiers: []
+  paths:
+    - Item.YBYNcJ0bZPhZaBDB
+  capacities:
+    - Item.3hG2ZQ2aJRFcWujA
+    - Item.XadXs8En7cU0tPvc
+    - Item.0u0dIPHzjuELJ3xi
+effects: []
+sort: 0
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895786820
+  modifiedTime: 1789895786820
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!ACB4S77E4WJbZJTW'

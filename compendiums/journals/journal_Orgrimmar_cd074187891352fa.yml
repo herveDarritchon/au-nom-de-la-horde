@@ -1,0 +1,121 @@
+_id: cd074187891352fa
+name: Orgrimmar
+folder: 62169b1dc8764848
+pages:
+  - _id: b47aac82a0c03c7d
+    name: Orgrimmar
+    type: text
+    text:
+      content: |-
+        <h2 id="pages">Pages</h2>
+        <div class="bases-block">
+          <div class="bases-caption">Contents</div>
+          <div class="bases-toolbar">
+            <input type="search" class="bases-filter" placeholder="Filter…" aria-label="Filter table">
+            <span class="bases-count" data-total="1">1 row</span>
+          </div>
+          <div class="bases-scroll">
+            <table class="bases-table">
+              <thead><tr><th data-col="0" tabindex="0">Name</th><th data-col="1" tabindex="0">Mtime</th></tr></thead>
+              <tbody><tr data-row="0"><td data-raw="Orgrimmar">@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.cd074187891352fa.JournalEntryPage.e0870bccc64bf3dc]{Orgrimmar}</td><td data-raw="1787749012000">2026-08-26</td></tr></tbody>
+            </table>
+          </div>
+        </div>
+      format: 1
+    sort: 0
+    flags:
+      vaults:
+        vaultId: vault-coa-7e7c5ff7
+        path: Capitales/Orgrimmar/index.md
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1788766247259
+      modifiedTime: 1788766247259
+      lastModifiedBy: V0twxN2oKehfUjVd
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!cd074187891352fa.b47aac82a0c03c7d'
+  - _id: e0870bccc64bf3dc
+    name: Orgrimmar
+    type: text
+    text:
+      content: >-
+        <p>Nichée dans une vallée fortifiée au nord de
+        <strong>@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.16b7eb16efab8226.JournalEntryPage.c27c85bb2e09710f]{Durotar}</strong>,
+        <strong>Orgrimmar</strong> est la jeune et imposante capitale de la
+        nouvelle Horde. Nommée en l'honneur de l'ancien Chef de guerre
+        <em><strong>Orgrim Marteau-du-Destin</strong></em>, la cité est le cœur
+        politique et militaire de la nation naissante bâtie par
+        <strong>Thrall</strong>. C'est une ville en pleine construction, où la
+        roche rouge, le bois et le cuir s'entremêlent au rythme incessant des
+        pioches, des caravanes et du grondement des forges. Trolls, Taurens et
+        Orcs y affluent pour prêter allégeance et participer à l'émergence de ce
+        nouveau foyer.</p>
+
+        <p><img
+        src="/worlds/au-nom-de-la-horde/vaults-cache/vault-coa-7e7c5ff7/static/Images/Illustrations/orgrimmar.webp?v=bb446a891a65"
+        alt="orgrimmar.jpg" width="500"></p>
+      format: 1
+    sort: 100000
+    flags:
+      vaults:
+        vaultId: vault-coa-7e7c5ff7
+        path: Capitales/Orgrimmar/Orgrimmar.md
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1788766247259
+      modifiedTime: 1788766247259
+      lastModifiedBy: V0twxN2oKehfUjVd
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!cd074187891352fa.e0870bccc64bf3dc'
+flags:
+  vaults:
+    vaultId: vault-coa-7e7c5ff7
+    path: Capitales/Orgrimmar/Orgrimmar.md
+categories: []
+ownership:
+  default: 2
+  V0twxN2oKehfUjVd: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1788766247259
+  modifiedTime: 1788766247259
+  lastModifiedBy: V0twxN2oKehfUjVd
+  compendiumSource: Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.cd074187891352fa
+  duplicateSource: null
+  exportSource: null
+sort: 0
+_key: '!journal!cd074187891352fa'

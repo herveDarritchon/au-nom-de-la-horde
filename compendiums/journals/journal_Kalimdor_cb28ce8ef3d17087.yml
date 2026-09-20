@@ -1,0 +1,123 @@
+_id: cb28ce8ef3d17087
+name: Kalimdor
+folder: e44145f1dd6d08d4
+pages:
+  - _id: 4f39a5f40140cd16
+    name: Kalimdor
+    type: text
+    text:
+      content: |-
+        <h2 id="pages">Pages</h2>
+        <div class="bases-block">
+          <div class="bases-caption">Contents</div>
+          <div class="bases-toolbar">
+            <input type="search" class="bases-filter" placeholder="Filter…" aria-label="Filter table">
+            <span class="bases-count" data-total="1">1 row</span>
+          </div>
+          <div class="bases-scroll">
+            <table class="bases-table">
+              <thead><tr><th data-col="0" tabindex="0">Name</th><th data-col="1" tabindex="0">Mtime</th></tr></thead>
+              <tbody><tr data-row="0"><td data-raw="Kalimdor">@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.cb28ce8ef3d17087.JournalEntryPage.d26977c697af601a]{Kalimdor}</td><td data-raw="1787748657000">2026-08-26</td></tr></tbody>
+            </table>
+          </div>
+        </div>
+      format: 1
+    sort: 0
+    flags:
+      vaults:
+        vaultId: vault-coa-7e7c5ff7
+        path: Continents/Kalimdor/index.md
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1788766247263
+      modifiedTime: 1788766247263
+      lastModifiedBy: V0twxN2oKehfUjVd
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!cb28ce8ef3d17087.4f39a5f40140cd16'
+  - _id: d26977c697af601a
+    name: Kalimdor
+    type: text
+    text:
+      content: >-
+        <p>Continent majestueux et sauvage situé à l'ouest d'Azeroth,
+        <strong>Kalimdor</strong> est une terre de contrastes profonds. Séparé
+        des Royaumes de l'Est par le vaste océan et le Maelström, ce territoire
+        ancestral abrite des déserts arides, des forêts luxuriantes et des
+        montagnes imposantes. C'est sur ces terres anciennes que la Horde
+        cherche aujourd'hui à bâtir son avenir après la Troisième Guerre,
+        cohabitant de manière précaire avec des peuples aux traditions
+        millénaires et une faune particulièrement dangereuse. Sur la côte est du
+        continent s'étend la région rocailleuse de
+        <strong>@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.16b7eb16efab8226.JournalEntryPage.c27c85bb2e09710f]{Durotar}</strong>,
+        devenue le nouveau foyer des Orcs et de leurs alliés, et dominée au nord
+        par leur jeune capitale,
+        @UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.cd074187891352fa.JournalEntryPage.e0870bccc64bf3dc]{Orgrimmar}.</p>
+
+        <p><img
+        src="/worlds/au-nom-de-la-horde/vaults-cache/vault-coa-7e7c5ff7/static/Images/Maps/kalimdor-map-fr.webp?v=c8f0afc657e5"
+        alt="kalimdor-map-fr.png" class="default-width"></p>
+      format: 1
+    sort: 100000
+    flags:
+      vaults:
+        vaultId: vault-coa-7e7c5ff7
+        path: Continents/Kalimdor/Kalimdor.md
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1788766247263
+      modifiedTime: 1788766247263
+      lastModifiedBy: V0twxN2oKehfUjVd
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!cb28ce8ef3d17087.d26977c697af601a'
+flags:
+  vaults:
+    vaultId: vault-coa-7e7c5ff7
+    path: Continents/Kalimdor/Kalimdor.md
+categories: []
+ownership:
+  default: 0
+  V0twxN2oKehfUjVd: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1788766247263
+  modifiedTime: 1788766247263
+  lastModifiedBy: V0twxN2oKehfUjVd
+  compendiumSource: Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.cb28ce8ef3d17087
+  duplicateSource: null
+  exportSource: null
+sort: 0
+_key: '!journal!cb28ce8ef3d17087'

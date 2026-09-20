@@ -1,0 +1,99 @@
+folder: LCsZi9IJ3OYnoq77
+name: Talent pour la magie
+type: capacity
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/cof2-talent-pour-la-magie.png
+system:
+  description: >-
+    <p>Le joueur choisit une capacité de rang 1 de n’importe quelle Voie de
+    Magicien ou d’Ensorceleur. Il peut utiliser cette capacité en armure sans
+    pénalité, sauf s’il s’agit d’une capacité offrant un bonus de DEF.</p><p>À
+    la place, il peut choisir une capacité de rang 2, mais il ne doit alors pas
+    porter d’armure lorsqu’il utilise cette capacité.</p>
+  inGame: ''
+  source: ''
+  origin: Livre des règles p48
+  slug: attaque-sanglante
+  subtype: ''
+  actionType: l
+  learned: false
+  charges:
+    current: null
+    max: null
+  properties:
+    spell: false
+  path: null
+  actions:
+    - source: Compendium.cof2-base.cof-2-base-items.Item.SSWFT9LWLpbCIc46
+      indice: 0
+      label: ''
+      chatFlavor: ''
+      img: icons/svg/d20-highlight.svg
+      type: melee
+      actionType: none
+      properties:
+        activable: true
+        temporary: false
+        noChargesUsed: false
+        visible: false
+        enabled: false
+        noManaCost: false
+      conditions:
+        - predicate: isLearned
+      resolvers:
+        - type: attack
+          bonusDiceAdd: false
+          malusDiceAdd: false
+          skill:
+            formula: '@arme.skill'
+            crit: ''
+            difficulty: '@cible.def'
+          dmg:
+            formula: '@arme.dmg'
+          target:
+            type: single
+            scope: all
+            number: '0'
+          hasAttackSuccessThreshold: false
+          additionalEffect:
+            active: true
+            applyOn: success
+            formulaType: damage
+            formula: 1d4°
+            elementType: ''
+            statuses:
+              - bleeding
+            unit: combat
+            duration: '0'
+          halfDmgOnSave: true
+      modifiers: []
+  cost: -1
+  rank: 3
+  gmNotes: >-
+    <blockquote><p>Foundry : créer le choix de capacité conformément au
+    fonctionnement retenu pour Talent pour la magie chez l’Elfe haut ; vérifier
+    les contraintes d’armure au moment de
+    l’utilisation.</p></blockquote><p>Cette capacité conserve un héritage
+    arcanique racial sans transformer la Voie du Sin’dorei en Voie de Mage.</p>
+  frequency: none
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.SSWFT9LWLpbCIc46
+  duplicateSource: Item.zgZ4LxMAtkoknkFg
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784629
+  modifiedTime: 1789895784629
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+sort: 100000
+_id: BMYtKVcZPnoTkaov
+_key: '!items!BMYtKVcZPnoTkaov'

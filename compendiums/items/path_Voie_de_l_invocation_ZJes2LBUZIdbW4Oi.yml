@@ -1,0 +1,38 @@
+folder: vDDmoPzpqFUx9Gy8
+name: Voie de l'invocation
+type: path
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/voies/classes/demoniste/cof2-voie-de-l-invocation.png
+system:
+  description: ''
+  source: ''
+  origin: Warbound
+  slug: voie-de-linvocation
+  subtype: profile
+  capacities:
+    - Compendium.cof2-base.cof-2-base-items.Item.gdLR9uiG87TspbNv
+    - Compendium.cof2-base.cof-2-base-items.Item.ktozYd7EaYJlvVcv
+    - Compendium.cof2-base.cof-2-base-items.Item.vUoYF6Uz9USrFOhp
+    - Compendium.cof2-base.cof-2-base-items.Item.3PHbiXdlXTCFlOHh
+    - Compendium.cof2-base.cof-2-base-items.Item.BlXRiOjMNfataYex
+  rank: 0
+  gmNotes: ''
+  maxDefenseArmor: 0
+  pvByLevel: 0
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.Ic8R7pZmgyB7Q8nl
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895789062
+  modifiedTime: 1789895789062
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_id: ZJes2LBUZIdbW4Oi
+sort: 112500
+_key: '!items!ZJes2LBUZIdbW4Oi'

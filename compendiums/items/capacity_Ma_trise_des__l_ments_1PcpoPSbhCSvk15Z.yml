@@ -1,0 +1,99 @@
+folder: pOVOhysR0JO1MJMJ
+name: Maîtrise des éléments
+type: capacity
+img: icons/magic/symbols/elements-air-earth-fire-water.webp
+system:
+  description: >-
+    <p style="text-align:justify">Le magicien retranche son rang + 2 à tous les
+    DM de feu, de froid, d’électricité ou d’acide subis pendant INT minutes. De
+    plus, pendant la durée du sort, lorsqu’il lance un sort d’un élément, le
+    magicien peut échanger un élément contre un autre (par exemple, une
+    explosion de froid ou une flèche acide).</p>
+  inGame: >-
+    <p>Le PJ clique sur "activation du sort" pour dépenser les PM. Lorsque le
+    Personnage est la cible de DM élémentaires, il peut activer l'action "RD
+    contre DM élémentaires" et la désactiver ensuite pour les autres
+    attaques</p>
+  source: ''
+  origin: Livre des règles p104
+  slug: maitrise-des-elements
+  subtype: ''
+  actionType: none
+  learned: false
+  charges:
+    current: null
+    max: null
+  properties:
+    spell: true
+  path: null
+  actions:
+    - source: Compendium.cof2-base.cof-2-base-items.Item.kY1Z8egke6zHTaxT
+      indice: 0
+      label: RD contre DM élémentaires
+      chatFlavor: ''
+      type: buff
+      img: icons/svg/d20-highlight.svg
+      properties:
+        visible: false
+        enabled: false
+        activable: true
+        temporary: true
+        noManaCost: true
+        noChargesUsed: false
+      conditions:
+        - predicate: isLearned
+      modifiers:
+        - type: capacity
+          source: Compendium.cof2-base.cof-2-base-items.Item.kY1Z8egke6zHTaxT
+          subtype: combat
+          target: dr
+          apply: self
+          value: 2+@rang
+          additionalInfos: ''
+          choiceGroup: 0
+      resolvers: []
+      actionType: none
+    - source: Compendium.cof2-base.cof-2-base-items.Item.kY1Z8egke6zHTaxT
+      indice: 1
+      label: Activation du sort
+      chatFlavor: ''
+      type: spell
+      actionType: m
+      img: icons/svg/d20-highlight.svg
+      properties:
+        visible: false
+        enabled: false
+        activable: true
+        temporary: false
+        noManaCost: false
+        noChargesUsed: false
+      conditions:
+        - predicate: isLearned
+      modifiers: []
+      resolvers: []
+  cost: -1
+  rank: 2
+  gmNotes: ''
+  frequency: none
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.kY1Z8egke6zHTaxT
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784685
+  modifiedTime: 1789895784685
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_id: 1PcpoPSbhCSvk15Z
+sort: 0
+_key: '!items!1PcpoPSbhCSvk15Z'

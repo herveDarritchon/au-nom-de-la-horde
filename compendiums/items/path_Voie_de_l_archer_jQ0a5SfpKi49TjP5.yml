@@ -1,0 +1,38 @@
+folder: HeVfqHFnWr9eQGEv
+name: Voie de l'archer
+type: path
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/voies/classes/chasseur/cof2-voie-de-l-archer.png
+system:
+  description: ''
+  source: ''
+  origin: ''
+  slug: voie-de-larcher
+  subtype: profile
+  capacities:
+    - Item.feSScQPhOh5Ywt99
+    - Item.s6G4ZtFqpNXQasku
+    - Item.zYnx5iF1xYsacc34
+    - Item.WtaUJg6ztNwz7arx
+    - Item.MXUL09cCNJqdfwnD
+  rank: 0
+  gmNotes: ''
+  maxDefenseArmor: 0
+  pvByLevel: 0
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.VmFSl3mOEqSJ3Wu5
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895789061
+  modifiedTime: 1789895789061
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_id: jQ0a5SfpKi49TjP5
+sort: 0
+_key: '!items!jQ0a5SfpKi49TjP5'

@@ -1,0 +1,130 @@
+folder: k5AmELUzuYNm1Cjd
+name: Nuée d’insectes
+type: capacity
+img: icons/creatures/invertebrates/wasp-swarm-movement.webp
+system:
+  description: >-
+    <p style="text-align:justify">En réussissant un test d’attaque magique
+    contre la DEF de sa cible (portée 20 m), le druide libère sur celle‑ci une
+    nuée d’insectes volants qui piquent, aveuglent et la suivent pendant [3 +
+    PER] rounds. La victime subit 1 DM par round et un malus de ‑2 à tous les
+    tests. Les DM de zone détruisent la nuée.</p>
+  inGame: >-
+    <p style="text-align:justify">Le joueur sélectionne sa cible puis clique sur
+    l'action pour lancer le sort qui va automatiquement faire le jet d'attaque
+    et lancer les Dommages. De plus, un effet de DM périodiques sera appliqué à
+    la cible en cas de succès. L'attaque ne fonctionne qu'en Mode Combat.</p>
+  source: ''
+  origin: Livre des règles p114
+  slug: nuee-dinsectes
+  subtype: ''
+  actionType: a
+  learned: false
+  charges:
+    current: null
+    max: null
+  properties:
+    spell: true
+  path: null
+  actions:
+    - source: Compendium.cof2-base.cof-2-base-items.Item.LtwRc0mqBwCKCUGi
+      indice: 0
+      label: ''
+      chatFlavor: ''
+      type: magical
+      img: icons/svg/d20-highlight.svg
+      properties:
+        visible: false
+        enabled: false
+        activable: true
+        temporary: false
+        noManaCost: false
+        noChargesUsed: false
+      conditions:
+        - predicate: isLearned
+      modifiers:
+        - type: capacity
+          source: Compendium.cof2-base.cof-2-base-items.Item.LtwRc0mqBwCKCUGi
+          subtype: skill
+          target: all
+          apply: others
+          value: '-2'
+          additionalInfos: Nuée d'insectes
+          choiceGroup: 0
+        - type: capacity
+          source: Compendium.cof2-base.cof-2-base-items.Item.LtwRc0mqBwCKCUGi
+          subtype: combat
+          target: melee
+          apply: others
+          value: '-2'
+          additionalInfos: ''
+          choiceGroup: 0
+        - type: capacity
+          source: Compendium.cof2-base.cof-2-base-items.Item.LtwRc0mqBwCKCUGi
+          subtype: combat
+          target: ranged
+          apply: others
+          value: '-2'
+          additionalInfos: ''
+          choiceGroup: 0
+        - type: capacity
+          source: Compendium.cof2-base.cof-2-base-items.Item.LtwRc0mqBwCKCUGi
+          subtype: combat
+          target: magic
+          apply: others
+          value: '-2'
+          additionalInfos: ''
+          choiceGroup: 0
+      resolvers:
+        - type: attack
+          bonusDiceAdd: false
+          malusDiceAdd: false
+          skill:
+            formula: '@atm'
+            crit: ''
+            difficulty: '@cible.def'
+          dmg:
+            formula: '1'
+          target:
+            type: single
+            scope: all
+            number: '0'
+          additionalEffect:
+            active: true
+            applyOn: success
+            formulaType: damage
+            formula: '1'
+            elementType: ''
+            statuses: []
+            duration: 3 + @per
+            unit: round
+            successThreshold: null
+          halfDmgOnSave: true
+          hasAttackSuccessThreshold: false
+      actionType: none
+  cost: -1
+  rank: 3
+  gmNotes: ''
+  frequency: none
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.LtwRc0mqBwCKCUGi
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784668
+  modifiedTime: 1789895784668
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_id: VGLFu0oQvUVWSAHr
+sort: 0
+_key: '!items!VGLFu0oQvUVWSAHr'

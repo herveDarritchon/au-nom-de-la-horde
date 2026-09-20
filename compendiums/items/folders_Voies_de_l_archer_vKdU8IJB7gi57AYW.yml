@@ -1,0 +1,20 @@
+name: Voies de l'archer
+sorting: m
+folder: 1VXqrcJwXD7JELGC
+type: Item
+_id: vKdU8IJB7gi57AYW
+description: ''
+sort: 100000
+color: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784465
+  modifiedTime: 1789895784465
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_key: '!folders!vKdU8IJB7gi57AYW'

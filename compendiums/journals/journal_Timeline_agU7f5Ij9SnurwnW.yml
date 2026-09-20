@@ -1,0 +1,335 @@
+folder: azWtxXBLHOWVMAw0
+name: Timeline
+flags:
+  campaign-codex:
+    type: ''
+  core:
+    sheetClass: ''
+_id: agU7f5Ij9SnurwnW
+pages:
+  - sort: 100000
+    name: Acte I - Embuscade Kolkar
+    type: text
+    _id: khjcK5XRezYcGEaN
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Défendre le contenu du convoi</h2><ul><li><p><strong>L'Entrée
+        :</strong> Sur la route vers le nord, le convoi traverse un territoire
+        où la présence Kolkar est connue. Les centaures attaquent
+        véritablement.</p></li><li><p><strong>L'Enjeu / Le Compteur :</strong>
+        Défendre le convoi, protéger les convoyeurs et les kodos contre une
+        menace létale. C'est le premier test de combat de la
+        campagne.</p></li><li><p><strong>La Vérité (Ce que les joueurs doivent
+        croire et qui est vrai) :</strong> C'est une vraie attaque de pillards.
+        Il n'y a rien de mystérieux. Tout ce qui arrive en Durotar n'est pas lié
+        au complot. Les PJ peuvent capturer, tuer ou laisser fuir les
+        assaillants.</p></li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      V0twxN2oKehfUjVd: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1788766256714
+      modifiedTime: 1788766256714
+      lastModifiedBy: V0twxN2oKehfUjVd
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!agU7f5Ij9SnurwnW.khjcK5XRezYcGEaN'
+  - sort: 200000
+    name: Acte II - Animaux en fuite !
+    type: text
+    _id: 2N8imUbpAAh0ARaF
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>L'Anomalie</h2><ul><li><p><strong>L'Entrée :</strong> Une harde de
+        sangliers de Durotar surgit des fourrés épineux et charge le convoi de
+        façon frénétique et désordonnée.</p></li><li><p><strong>L'Enjeu / Le
+        Compteur :</strong> Des dizaines de kilos de viande lancés à pleine
+        vitesse. Le danger n'est pas un massacre mais la physique : empêcher les
+        chariots de se renverser, sauver un convoyeur tombé au sol, ou détourner
+        la charge.</p></li><li><p><strong>La Vérité :</strong> Contrairement aux
+        Kolkars, cette attaque n'est pas naturelle. Un chaman du Cercle de la
+        Pierre Brisée, invisible et à distance, a perturbé les animaux pour
+        paniquer le convoi, le ralentir et potentiellement endommager les
+        preuves, sans pour autant viser une
+        extermination.</p></li><li><p><strong>L'Indice du fil rouge :</strong>
+        Les personnages compétents (Survie, Nature) remarquent que ce
+        comportement est anormal pour un groupe de sangliers. Un chaman ou
+        lanceur de sorts peut ressentir qu'une magie a influencé les bêtes.
+        C'est le premier grain de sable du mystère.</p></li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      V0twxN2oKehfUjVd: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1788766256714
+      modifiedTime: 1788766256714
+      lastModifiedBy: V0twxN2oKehfUjVd
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!agU7f5Ij9SnurwnW.2N8imUbpAAh0ARaF'
+  - sort: 300000
+    name: Acte III - Patrouille de l'Alliance
+    type: text
+    _id: rwHYKr5gwyGQMg8A
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h3>Tension Diplomatique</h3><ul><li><p>L<strong>'Entrée :</strong> Le
+        convoi croise la route d'une petite force humaine de Kul
+        Tiras/Tiragarde.</p></li><li><p><strong>L'Enjeu / Le Compteur :</strong>
+        Les soldats barrent ou surveillent la route. La tension est
+        immédiatement palpable, mais <strong>la scène ne commence pas par
+        l'initiative</strong>.</p><ul><li><p>Les joueurs réalisent que
+        <em>Humains ≠ Combat
+        obligatoire</em>.</p></li></ul></li><li><p><strong>La Vérité :</strong>
+        Ces hommes cherchent du renseignement et contrôlent les mouvements de la
+        Horde dans cette partie de Durotar. La situation est ouverte : les PJ
+        peuvent parler, intimider, mentir, négocier, laisser passer, ou
+        provoquer l'affrontement.</p></li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      V0twxN2oKehfUjVd: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1788766256714
+      modifiedTime: 1788766256714
+      lastModifiedBy: V0twxN2oKehfUjVd
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!agU7f5Ij9SnurwnW.rwHYKr5gwyGQMg8A'
+  - sort: 150000
+    name: Interlude I - Le jour où Mâche-Roc n'a pas arrêté
+    type: text
+    _id: Ofr5OctQhwlQsoBk
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2 data-heading="1. PJ Concerné">1. PJ Concerné</h2><ul><li><p>Un PJ
+        avec un lien avec le minage, la forge, l'armurerie, l'ingénierie, ou
+        ayant travaillé à Roche-Sèche.</p></li><li><p><strong>Questions à poser
+        en jeu :</strong> <em>"Tu as travaillé ici quelque temps. Était-ce dans
+        les galeries ou à l'atelier ?"</em>, <em>"Qui t'avait pris sous son aile
+        : Ragrah ou Moj'ka ?"</em></p></li></ul><h2 data-heading="2. Déclencheur
+        (Présent)">2. Déclencheur (Présent)</h2><ul><li><p>Peu après le départ
+        de Roche-Sèche.</p></li><li><p>Un mineur a frappé une caisse : <em>«
+        Ramenez-la-nous entière. »</em></p></li><li><p>Le bruit répétitif des
+        roues rappelle quelque chose.</p></li><li><p><strong>Transition
+        :</strong> <em>"Tu connais ce bruit. Pas celui du chariot. Celui du
+        métal sous contrainte. Tu l'as entendu à Roche-Sèche, il y a quelques
+        mois..."</em></p></li></ul><h2 data-heading="3. La Situation (Passé)">3.
+        La Situation (Passé)</h2><ul><li><p>Une galerie s'est effondrée.
+        <strong>Six mineurs sont bloqués</strong> derrière le 3ème
+        puits.</p></li><li><p>La contremaître <strong>Moj'ka
+        Main-de-Graisse</strong> veut percer un conduit de secours avec
+        Mâche-Roc, mais la machine va devoir tourner pendant des
+        heures.</p></li><li><p>Moj'ka interpelle le PJ : <em>"Toi ! Si elle
+        chauffe, elle casse. Si elle casse, eux restent là-dessous. Aide-moi à
+        la garder en vie."</em></p></li></ul><h2 data-heading="4. L'Action &amp;
+        Le Choix">4. L'Action &amp; Le Choix</h2><ul><li><p><strong>Rôle du PJ
+        (selon métier) :</strong> Forgeron (redresser une pièce), Mineur (guider
+        le forage), Ingénieur (refroidissement), Autre (déblayer,
+        écouter).</p></li><li><p><strong>Le Choix :</strong> La machine vibre
+        anormalement. Moj'ka hésite : <em>"On arrête dix minutes ou on continue
+        ?"</em></p><ul><li><p>Soudain, <strong>trois coups</strong> se font
+        entendre de l'autre côté.</p></li><li><p>Le PJ doit trancher. Aucune
+        bonne réponse mécanique, c'est un choix moral. Les six mineurs seront
+        sauvés de toute façon, mais cela change le souvenir du
+        PJ.</p></li></ul></li></ul><h2 data-heading="5. Le Payoff (Retour au
+        Présent)">5. Le Payoff (Retour au Présent)</h2><ul><li><p>Le sauvetage
+        réussit. Pas de célébration, juste l'épuisement.</p></li><li><p>Un vieux
+        mineur pose la main sur le châssis brûlant de la foreuse. <strong>Deux
+        coups.</strong></p><ul><li><p><em>"Tok. Tok. Bonne
+        bête."</em></p></li></ul></li><li><p><strong>Transition immédiate
+        :</strong> <em>"Tok. Tok."</em> (Le chariot vient de passer sur deux
+        pierres. Devant le PJ se trouvent les caisses censées contenir
+        Mâche-Roc).</p></li><li><p><strong>Question finale :</strong>
+        <em>"Pourquoi es-tu finalement parti de Roche-Sèche
+        ?"</em></p></li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      V0twxN2oKehfUjVd: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1788766256714
+      modifiedTime: 1788766256714
+      lastModifiedBy: V0twxN2oKehfUjVd
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!agU7f5Ij9SnurwnW.Ofr5OctQhwlQsoBk'
+  - sort: 250000
+    name: Interlude II - La Route du Sud
+    type: text
+    _id: I5YP8zmeAIlxXOxr
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2 data-heading="1. PJ Concerné">1. PJ Concerné</h2><ul><li><p>Un PJ
+        ayant grandi ou voyagé dans le sud (Vallée des Épreuves, Sen'jin, Razor
+        Hill).</p></li><li><p>Profils idéaux : Chasseur, Troll Sombrelance,
+        Chaman, Guerrier, ou artisan local.</p></li></ul><h2 data-heading="2.
+        Déclencheur (Présent)">2. Déclencheur (Présent)</h2><ul><li><p>Pendant
+        le trajet ou une halte.</p></li><li><p>Le PJ reconnaît un point de
+        repère (arbre sec tordu, cairn, petite gorge, pierre avec symbole
+        Horde).</p></li><li><p><strong>Transition :</strong> <em>"Tu es déjà
+        passé ici. Mais la dernière fois, tu n'étais pas accompagné d'un
+        convoi."</em></p></li></ul><h2 data-heading="3. La Situation (Passé)">3.
+        La Situation (Passé)</h2><ul><li><p>Voyage entre Sen'jin et la Vallée
+        des Épreuves avec un petit groupe.</p></li><li><p>Un problème banal :
+        <strong>un kodo blessé refuse d'avancer</strong>.</p></li><li><p>Pas de
+        monstres, pas de complots. Juste la réalité de
+        Durotar.</p></li><li><p>Le groupe doit décider : abandonner la charge,
+        attendre, détourner la route, soigner la bête ?</p></li><li><p>Un vieux
+        voyageur dit : <em>"Ici, la route décide rarement de te tuer. Elle
+        attend juste que tu fasses une erreur."</em></p></li></ul><h2
+        data-heading="4. L'Action">4. L'Action</h2><ul><li><p>Le PJ raconte
+        comment il a géré le problème (soigné l'animal, réparé le chariot, ou
+        aidé à répartir la cargaison).</p></li></ul><h2 data-heading="5. Le
+        Payoff (Retour au Présent &amp; Jeu)">5. Le Payoff (Retour au Présent
+        &amp; Jeu)</h2><ul><li><p>L'expérience du PJ se concrétise en
+        <strong>avantage tactique</strong>.</p></li><li><p>Tu révèles : <em>"Tu
+        te souviens qu'il existe un ravin secondaire pour contourner cette
+        portion exposée."</em></p></li><li><p>Plus tard (lors de l'embuscade
+        Kolkar ou face à un obstacle), cette option tactique est activable par
+        le joueur. Le souvenir donne directement du jeu.</p></li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      V0twxN2oKehfUjVd: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1788766256714
+      modifiedTime: 1788766256714
+      lastModifiedBy: V0twxN2oKehfUjVd
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!agU7f5Ij9SnurwnW.I5YP8zmeAIlxXOxr'
+  - sort: 400000
+    name: Conclusion - L'Arrivée à Tranchecolline
+    type: text
+    _id: iKkcFNnE4ECUFPXq
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2 data-heading="Épilogue : L'Arrivée à
+        Tranchecolline">Épilogue</h2><ul><li><p><strong>Ambiance :</strong> Le
+        soulagement du camp fortifié. Les orcs déchargent les chariots sous le
+        regard du commanditaire.</p></li><li><p><strong>Le Choc :</strong>
+        Ouverture des caisses au
+        pied-de-biche.</p></li><li><p><strong>Révélation :</strong> <em>« Des
+        cailloux ! Ce ne sont que de foutus cailloux !
+        »</em></p></li><li><p><strong>Fin de séance :</strong> Le vol n'a pas eu
+        lieu sur la route. Il s'est produit à Roche-Sèche. Le mystère du Cercle
+        commence ici.</p></li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      V0twxN2oKehfUjVd: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1788766256714
+      modifiedTime: 1788766256714
+      lastModifiedBy: V0twxN2oKehfUjVd
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!agU7f5Ij9SnurwnW.iKkcFNnE4ECUFPXq'
+categories: []
+sort: 300000
+ownership:
+  default: 0
+  V0twxN2oKehfUjVd: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1788766256714
+  modifiedTime: 1789330038107
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!agU7f5Ij9SnurwnW'

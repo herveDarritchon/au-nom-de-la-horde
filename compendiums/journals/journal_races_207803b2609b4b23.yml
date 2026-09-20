@@ -1,0 +1,1014 @@
+_id: 207803b2609b4b23
+name: races
+folder: 2791f7b642825d83
+pages:
+  - _id: 057a2594854d9aaf
+    name: Orc de Durotar
+    type: text
+    text:
+      content: >-
+        <img src="https://w.wallhaven.cc/full/vg/wallhaven-vgy193.jpg"
+        alt="Bandeau">
+
+        <blockquote>
+
+        <p><strong>Document méta joueur.</strong> Cette fiche sert à comprendre
+        l'identité, le style de jeu et les choix structurants du personnage.
+        Elle ne remplace pas les règles complètes de <em>Champions of
+        Azeroth</em> ni la fiche Foundry VTT.</p>
+
+        </blockquote>
+
+        <h2 id="en-une-phrase">En une phrase</h2>
+
+        <img
+        src="https://wow.zamimg.com/images/wow/icons/large/race_orc_male.jpg"
+        alt="Orc" width="80">
+
+        <p>Un membre du peuple qui vient de fonder Durotar : robuste, martial,
+        marqué par l'histoire de la Horde et déterminé à construire un nouveau
+        foyer sans retomber sous l'emprise démoniaque.</p>
+
+        <h2 id="place-dans-la-campagne">Place dans la campagne</h2>
+
+        <p><strong>Statut : race standard de la campagne.</strong></p>
+
+        <p>Les Orcs sont le choix le plus directement enraciné dans le cadre de
+        départ. Durotar est leur nouvelle patrie et Orgrimmar leur capitale. Un
+        Orc n'a donc pas besoin d'une justification particulière pour se trouver
+        à Razor Hill ou sur les routes de la région.</p>
+
+        <p>Dans <em>Champions of Azeroth</em>, la sous-race utilisée est le
+        <strong>Durotar Orc</strong>.</p>
+
+        <h2 id="identité-warcraft">Identité Warcraft</h2>
+
+        <p>Le texte de <em>Champions of Azeroth</em> présente les Orcs comme un
+        peuple originaire de Draenor, autrefois asservi par la Légion ardente et
+        poussé à la guerre contre Azeroth. Libérés de cette corruption, ils
+        cherchent désormais à vivre selon leurs propres valeurs, avec une forte
+        importance donnée à l'honneur, à la force et à la liberté.</p>
+
+        <p>Le <strong>Durotar Orc</strong> représente précisément cette
+        génération installée dans la nouvelle nation fondée par Thrall après la
+        Troisième Guerre.</p>
+
+        <h2 id="traits-mécaniques-marquants">Traits mécaniques marquants</h2>
+
+        <ul>
+
+        <li><strong>Force +2</strong>.</li>
+
+        <li>Le Durotar Orc choisit ensuite <strong>Constitution +1</strong> ou
+        <strong>Sagesse +1</strong>.</li>
+
+        <li><strong>Hardiness</strong> : résistance exceptionnelle à
+        l'épuisement.</li>
+
+        <li><strong>Relentless Endurance</strong> : capacité à rester debout
+        lorsqu'un coup devrait normalement mettre le personnage à 0 PV.</li>
+
+        <li><strong>Blood Fury</strong> à partir du niveau 3 : manifestation
+        temporaire de la férocité orque, capable d'effrayer les ennemis proches
+        et d'augmenter les dégâts infligés.</li>
+
+        <li><strong>Rugged Survivalist</strong> : maîtrise d'une compétence
+        parmi Animal Handling, Athletics, Intimidation ou Survival.</li>
+
+        <li>Langues : <strong>Orcish</strong> + une langue supplémentaire.</li>
+
+        </ul>
+
+        <h2 id="classes-disponibles-dans-cette-campagne">Classes disponibles
+        dans cette campagne</h2>
+
+        <ul>
+
+        <li><strong>Chasseur</strong></li>
+
+        <li><strong>Voleur</strong></li>
+
+        <li><strong>Chaman</strong></li>
+
+        <li><strong>Démoniste</strong></li>
+
+        <li><strong>Guerrier</strong></li>
+
+        </ul>
+
+        <blockquote>
+
+        <p><em>Champions of Azeroth</em> ne fixe pas lui-même de restrictions
+        race/classe universelles. La liste ci-dessus est la restriction retenue
+        pour cette campagne située dans la période Classic.</p>
+
+        </blockquote>
+
+        <h2 id="ce-que-cette-race-encourage-naturellement">Ce que cette race
+        encourage naturellement</h2>
+
+        <p>L'Orc fonctionne particulièrement bien pour un personnage lié à :</p>
+
+        <ul>
+
+        <li>l'armée ou aux gardes de la Horde ;</li>
+
+        <li>la chasse et la survie dans une terre hostile ;</li>
+
+        <li>les traditions chamaniques ;</li>
+
+        <li>les tensions entre honneur, colère et héritage de la corruption
+        ;</li>
+
+        <li>la construction concrète du nouveau foyer de la Horde.</li>
+
+        </ul>
+
+        <h2 id="questions-de-background">Questions de background</h2>
+
+        <ol>
+
+        <li>Ton personnage est-il né sur Draenor, dans les camps d'internement,
+        ou après la libération des Orcs ?</li>
+
+        <li>Quelle relation entretient-il avec Thrall et sa vision de la
+        nouvelle Horde ?</li>
+
+        <li>Que signifie <strong>l'honneur</strong> pour lui ?</li>
+
+        <li>A-t-il personnellement connu ou subi la corruption démoniaque ?</li>
+
+        <li>Que pense-t-il des Trolls Darkspear, des Taurens et des Réprouvés
+        ?</li>
+
+        <li>Quelle place souhaite-t-il prendre dans la construction de Durotar
+        ?</li>
+
+        </ol>
+
+        <h2 id="dans-une-campagne-à-durotar">Dans une campagne à Durotar</h2>
+
+        <p>Un Orc peut très naturellement connaître les usages militaires, les
+        routes, les besoins des avant-postes, les problèmes de ravitaillement ou
+        la culture quotidienne de la Horde. Cela ne lui donne pas
+        automatiquement toutes les réponses : Durotar reste une terre nouvelle,
+        rude et encore imparfaitement maîtrisée.</p>
+
+        <h2 id="source">Source</h2>
+
+        <ul>
+
+        <li>Silverblade, <em>Champions of Azeroth</em>, 30 mai 2021, <strong>p.
+        8</strong> — Orc / Durotar Orc.</li>
+
+        </ul>
+      format: 1
+    sort: 100000
+    flags:
+      vaults:
+        vaultId: vault-coa-7e7c5ff7
+        path: Regles/races/01_Orc_de_Durotar.md
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1788766247289
+      modifiedTime: 1788766247289
+      lastModifiedBy: V0twxN2oKehfUjVd
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!207803b2609b4b23.057a2594854d9aaf'
+  - _id: 79c307bdfd552708
+    name: Troll Darkspear
+    type: text
+    text:
+      content: >-
+        <img src="https://w.wallhaven.cc/full/83/wallhaven-83ok5k.jpg"
+        alt="Bandeau">
+
+        <blockquote>
+
+        <p><strong>Document méta joueur.</strong> Cette fiche sert à comprendre
+        l'identité, le style de jeu et les choix structurants du personnage.
+        Elle ne remplace pas les règles complètes de <em>Champions of
+        Azeroth</em> ni la fiche Foundry VTT.</p>
+
+        </blockquote>
+
+        <h2 id="en-une-phrase">En une phrase</h2>
+
+        <img
+        src="https://wow.zamimg.com/images/wow/icons/large/race_troll_male.jpg"
+        alt="Troll" width="80">
+
+        <p>Un survivant d'un peuple chassé de ses terres, désormais allié aux
+        Orcs : rapide, résilient, profondément attaché à sa tribu et à des
+        traditions que la nouvelle Horde ne comprend pas toujours.</p>
+
+        <h2 id="place-dans-la-campagne">Place dans la campagne</h2>
+
+        <p><strong>Statut : race standard de la campagne.</strong></p>
+
+        <p>Les Trolls Darkspear sont directement liés à Durotar et à la Horde de
+        Thrall. Leur présence autour de Sen'jin et dans le sud de la région en
+        fait un choix aussi naturel qu'un Orc pour commencer la campagne.</p>
+
+        <p>Dans <em>Champions of Azeroth</em>, on utilise le <strong>Jungle
+        Troll</strong>, qui correspond bien aux Darkspear.</p>
+
+        <h2 id="identité-warcraft">Identité Warcraft</h2>
+
+        <p>Les Darkspear viennent des jungles de Strangleronce. Repoussés par
+        des ennemis plus puissants, ils ont finalement rencontré les Orcs de
+        Thrall et les ont suivis jusqu'en Kalimdor.</p>
+
+        <p>Ils restent attachés à leurs pratiques propres, notamment la chasse,
+        les traditions tribales et les rites liés aux <strong>Loa</strong>. Leur
+        intégration à la Horde ne signifie pas qu'ils aient abandonné leur
+        culture.</p>
+
+        <h2 id="traits-mécaniques-marquants">Traits mécaniques marquants</h2>
+
+        <ul>
+
+        <li><strong>Dextérité +2</strong>.</li>
+
+        <li>Le Jungle Troll choisit ensuite <strong>Sagesse +1</strong> ou
+        <strong>Charisme +1</strong>.</li>
+
+        <li><strong>Darkvision</strong>.</li>
+
+        <li><strong>Regeneration</strong> : possibilité de dépenser un dé de vie
+        en action bonus pour récupérer des PV ; la physiologie troll permet
+        également la régénération de blessures graves sur la durée.</li>
+
+        <li><strong>Da Voodoo Shuffle</strong> : vitesse accrue et déplacement
+        facilité dans le terrain difficile non magique.</li>
+
+        <li><strong>Headhunter</strong> : maîtrise d'une compétence parmi
+        Nature, Perception, Stealth ou Survival.</li>
+
+        <li><strong>Savage Attacks</strong> : critiques de mêlée plus
+        violents.</li>
+
+        <li>Langues : <strong>Orcish</strong> et <strong>Zandali</strong>.</li>
+
+        </ul>
+
+        <h2 id="classes-disponibles-dans-cette-campagne">Classes disponibles
+        dans cette campagne</h2>
+
+        <ul>
+
+        <li><strong>Chasseur</strong></li>
+
+        <li><strong>Mage</strong></li>
+
+        <li><strong>Prêtre</strong></li>
+
+        <li><strong>Voleur</strong></li>
+
+        <li><strong>Chaman</strong></li>
+
+        <li><strong>Guerrier</strong></li>
+
+        </ul>
+
+        <h2 id="ce-que-cette-race-encourage-naturellement">Ce que cette race
+        encourage naturellement</h2>
+
+        <p>Le Troll Darkspear convient bien à un personnage :</p>
+
+        <ul>
+
+        <li>pisteur, chasseur ou éclaireur ;</li>
+
+        <li>lié aux Loa, à la spiritualité ou aux traditions de sa tribu ;</li>
+
+        <li>partagé entre fidélité à la Horde et fidélité aux Darkspear ;</li>
+
+        <li>habitué à vivre dans un environnement rude ;</li>
+
+        <li>pragmatique face à la magie, aux esprits et aux pratiques que
+        d'autres peuples jugent inquiétantes.</li>
+
+        </ul>
+
+        <h2 id="questions-de-background">Questions de background</h2>
+
+        <ol>
+
+        <li>Ton personnage a-t-il connu l'exil des Darkspear avant leur arrivée
+        en Kalimdor ?</li>
+
+        <li>Quel Loa respecte-t-il particulièrement, s'il en respecte un ?</li>
+
+        <li>Comment voit-il l'alliance avec les Orcs ?</li>
+
+        <li>Que pense-t-il des anciennes pratiques de sa tribu que la Horde
+        pourrait trouver dérangeantes ?</li>
+
+        <li>Sen'jin représente-t-il pour lui un foyer, une étape ou un symbole
+        ?</li>
+
+        <li>Quelle dette, promesse ou responsabilité le lie aux siens ?</li>
+
+        </ol>
+
+        <h2 id="dans-une-campagne-à-durotar">Dans une campagne à Durotar</h2>
+
+        <p>Un Troll peut servir de pont entre Razor Hill et Sen'jin, mais il ne
+        faut pas le réduire au rôle de « guide mystique ». Il peut être
+        guerrier, opportuniste, érudit, voleur ou simple membre de la Horde
+        comme n'importe quel autre PJ.</p>
+
+        <h2 id="source">Source</h2>
+
+        <ul>
+
+        <li>Silverblade, <em>Champions of Azeroth</em>, 30 mai 2021, <strong>p.
+        11</strong> — Troll / Jungle Troll.</li>
+
+        </ul>
+      format: 1
+    sort: 100000
+    flags:
+      vaults:
+        vaultId: vault-coa-7e7c5ff7
+        path: Regles/races/02_Troll_Darkspear.md
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1788766247289
+      modifiedTime: 1788766247289
+      lastModifiedBy: V0twxN2oKehfUjVd
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!207803b2609b4b23.79c307bdfd552708'
+  - _id: 198016c647287ba8
+    name: Tauren de Mulgore
+    type: text
+    text:
+      content: >-
+        <img src="https://w.wallhaven.cc/full/nm/wallhaven-nm9zom.jpg"
+        alt="Bandeau">
+
+        <blockquote>
+
+        <p><strong>Document méta joueur.</strong> Cette fiche sert à comprendre
+        l'identité, le style de jeu et les choix structurants du personnage.
+        Elle ne remplace pas les règles complètes de <em>Champions of
+        Azeroth</em> ni la fiche Foundry VTT.</p>
+
+        </blockquote>
+
+        <h2 id="en-une-phrase">En une phrase</h2>
+
+        <img
+        src="https://wow.zamimg.com/images/wow/icons/large/race_tauren_male.jpg"
+        alt="Tauren" width="80">
+
+        <p>Un membre d'un peuple puissant mais pacifique, allié à la Horde par
+        dette et par amitié, qui cherche à préserver l'équilibre du monde tout
+        en défendant farouchement ceux dont il a la charge.</p>
+
+        <h2 id="place-dans-la-campagne">Place dans la campagne</h2>
+
+        <p><strong>Statut : race standard de la campagne.</strong></p>
+
+        <p>Les Taurens appartiennent déjà à la Horde, mais leur foyer est
+        <strong>Mulgore</strong>. Un PJ tauren présent en Durotar doit donc
+        simplement expliquer pourquoi il voyage ou sert auprès des Orcs et des
+        Trolls.</p>
+
+        <p>La sous-race utilisée est le <strong>Mulgore Tauren</strong>.</p>
+
+        <h2 id="identité-warcraft">Identité Warcraft</h2>
+
+        <p><em>Champions of Azeroth</em> insiste sur le rapport des Taurens à la
+        nature, à l'équilibre et à la <strong>Earth Mother</strong>. L'alliance
+        avec les Orcs vient du secours apporté par ceux-ci face aux
+        Centaures.</p>
+
+        <p>Le texte les décrit comme pacifiques mais redoutables lorsqu'ils
+        doivent défendre leurs proches ou l'ordre naturel.</p>
+
+        <h2 id="traits-mécaniques-marquants">Traits mécaniques marquants</h2>
+
+        <ul>
+
+        <li><strong>Constitution +2</strong>.</li>
+
+        <li>Le Mulgore Tauren choisit <strong>Force +1</strong> ou
+        <strong>Sagesse +1</strong>.</li>
+
+        <li><strong>Brawn</strong> : compte comme une taille de plus pour la
+        capacité de portage et les efforts de poussée/traction.</li>
+
+        <li><strong>Horns</strong> : cornes utilisables comme armes
+        naturelles.</li>
+
+        <li><strong>Hammering Horns</strong> : possibilité de repousser un
+        adversaire après une attaque de mêlée.</li>
+
+        <li>Maîtrise de <strong>leatherworker's tools</strong> ou du
+        <strong>herbalism kit</strong>.</li>
+
+        <li><strong>Endurance</strong> : maximum de PV augmenté à chaque
+        niveau.</li>
+
+        <li><strong>War Stomp</strong> : accès racial à <em>earth tremor</em>,
+        renforcé par le niveau du personnage.</li>
+
+        <li>Langues : <strong>Orcish</strong> et <strong>Taur-ahe</strong>.</li>
+
+        </ul>
+
+        <h2 id="classes-disponibles-dans-cette-campagne">Classes disponibles
+        dans cette campagne</h2>
+
+        <ul>
+
+        <li><strong>Druide</strong></li>
+
+        <li><strong>Chasseur</strong></li>
+
+        <li><strong>Chaman</strong></li>
+
+        <li><strong>Guerrier</strong></li>
+
+        </ul>
+
+        <h2 id="ce-que-cette-race-encourage-naturellement">Ce que cette race
+        encourage naturellement</h2>
+
+        <p>Le Tauren est particulièrement adapté à un personnage lié à :</p>
+
+        <ul>
+
+        <li>la protection d'une communauté ;</li>
+
+        <li>la nature et aux animaux ;</li>
+
+        <li>la spiritualité élémentaire ;</li>
+
+        <li>l'artisanat et aux ressources naturelles ;</li>
+
+        <li>une réflexion sur ce que signifie bâtir, exploiter ou transformer
+        une terre.</li>
+
+        </ul>
+
+        <h2 id="questions-de-background">Questions de background</h2>
+
+        <ol>
+
+        <li>Pourquoi ton personnage a-t-il quitté Mulgore ?</li>
+
+        <li>A-t-il une dette personnelle envers les Orcs, ou seulement la
+        mémoire de la dette de son peuple ?</li>
+
+        <li>Quelle place occupe la Earth Mother dans sa vie ?</li>
+
+        <li>Est-il plutôt protecteur, chasseur, guide, guerrier ou médiateur
+        ?</li>
+
+        <li>Comment réagit-il à la rudesse et à l'exploitation intensive de
+        Durotar ?</li>
+
+        <li>Que pense-t-il de la culture plus belliqueuse de certains membres de
+        la Horde ?</li>
+
+        </ol>
+
+        <h2 id="dans-une-campagne-à-durotar">Dans une campagne à Durotar</h2>
+
+        <p>Le Tauren est un excellent point de vue extérieur mais allié : il
+        appartient pleinement à la Horde, tout en venant d'un territoire et
+        d'une culture différents. Cette position permet de questionner les choix
+        de la Horde sans jouer un étranger hostile.</p>
+
+        <h2 id="source">Source</h2>
+
+        <ul>
+
+        <li>Silverblade, <em>Champions of Azeroth</em>, 30 mai 2021, <strong>p.
+        10</strong> — Tauren / Mulgore Tauren.</li>
+
+        </ul>
+      format: 1
+    sort: 100000
+    flags:
+      vaults:
+        vaultId: vault-coa-7e7c5ff7
+        path: Regles/races/03_Tauren_de_Mulgore.md
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1788766247289
+      modifiedTime: 1788766247289
+      lastModifiedBy: V0twxN2oKehfUjVd
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!207803b2609b4b23.198016c647287ba8'
+  - _id: c165cf43ff3c8454
+    name: Réprouvé — Mort-vivant humain
+    type: text
+    text:
+      content: >-
+        <img src="https://w.wallhaven.cc/full/nm/wallhaven-nm9zk8.jpg"
+        alt="Bandeau">
+
+        <blockquote>
+
+        <p><strong>Document méta joueur.</strong> Cette fiche sert à comprendre
+        l'identité, le style de jeu et les choix structurants du personnage.
+        Elle ne remplace pas les règles complètes de <em>Champions of
+        Azeroth</em> ni la fiche Foundry VTT.</p>
+
+        </blockquote>
+
+        <h2 id="en-une-phrase">En une phrase</h2>
+
+        <img
+        src="https://wow.zamimg.com/images/wow/icons/large/race_scourge_male.jpg"
+        alt="Réprouvé" width="80">
+
+        <p>Un ancien humain revenu d'entre les morts, libéré du Roi-liche et
+        désormais membre d'une société qui cherche à survivre dans un monde qui
+        la craint et la hait.</p>
+
+        <h2 id="place-dans-la-campagne">Place dans la campagne</h2>
+
+        <p><strong>Statut : race standard de la campagne.</strong></p>
+
+        <p>Les Réprouvés appartiennent à la Horde, mais leur centre de pouvoir
+        se trouve dans les Royaumes de l'Est. Un PJ réprouvé présent en Durotar
+        doit donc expliquer son voyage en Kalimdor : mission, curiosité, intérêt
+        politique, étude, fuite ou choix personnel.</p>
+
+        <p>Dans <em>Champions of Azeroth</em>, on utilise la race
+        <strong>Undead</strong> avec la sous-race <strong>Undead
+        Human</strong>.</p>
+
+        <h2 id="identité-warcraft">Identité Warcraft</h2>
+
+        <p>Libérés de l'emprise du Roi-liche et dirigés par Sylvanas, les
+        Forsaken cherchent à se venger du Fléau et à survivre face aux vivants
+        qui les considèrent souvent comme des monstres.</p>
+
+        <p>Le livre souligne que leur rapport à la Horde peut varier : pour
+        certains, il s'agit d'une alliance pratique ; pour d'autres, c'est
+        réellement le premier foyer qui les accepte depuis leur mort.</p>
+
+        <h2 id="traits-mécaniques-marquants">Traits mécaniques marquants</h2>
+
+        <ul>
+
+        <li>Race de base : <strong>Constitution +1</strong>.</li>
+
+        <li>Sous-race Undead Human : <strong>+1 à trois caractéristiques
+        différentes de votre choix</strong>.</li>
+
+        <li><strong>Darkvision</strong>.</li>
+
+        <li><strong>Undead Nature</strong> : le personnage est à la fois
+        Humanoid et Undead pour les effets de règles.</li>
+
+        <li>Avantage contre maladie et poison, résistance aux dégâts de
+        poison.</li>
+
+        <li>Avantage aux jets de sauvegarde contre la mort.</li>
+
+        <li>Pas besoin de manger, boire ou respirer.</li>
+
+        <li>Pas besoin de dormir ; repos long possible en restant immobile et
+        conscient.</li>
+
+        <li><strong>The Human Spirit</strong> : lorsqu'un d20 donne 1 sur une
+        attaque, un test ou un jet de sauvegarde, possibilité de relancer.</li>
+
+        <li>Langues : <strong>Orcish</strong> et
+        <strong>Gutterspeak</strong>.</li>
+
+        </ul>
+
+        <h2 id="classes-disponibles-dans-cette-campagne">Classes disponibles
+        dans cette campagne</h2>
+
+        <ul>
+
+        <li><strong>Mage</strong></li>
+
+        <li><strong>Prêtre</strong></li>
+
+        <li><strong>Voleur</strong></li>
+
+        <li><strong>Démoniste</strong></li>
+
+        <li><strong>Guerrier</strong></li>
+
+        </ul>
+
+        <h2 id="ce-que-cette-race-encourage-naturellement">Ce que cette race
+        encourage naturellement</h2>
+
+        <p>Le Réprouvé fonctionne particulièrement bien pour explorer :</p>
+
+        <ul>
+
+        <li>la mémoire de la vie avant la mort ;</li>
+
+        <li>le rapport entre identité humaine et existence morte-vivante ;</li>
+
+        <li>la confiance difficile entre alliés ;</li>
+
+        <li>la vengeance contre le Fléau ;</li>
+
+        <li>l'utilisation pragmatique de savoirs ou de méthodes que d'autres
+        jugent inquiétants.</li>
+
+        </ul>
+
+        <h2 id="questions-de-background">Questions de background</h2>
+
+        <ol>
+
+        <li>Qui étais-tu avant ta mort ?</li>
+
+        <li>Comment es-tu mort ?</li>
+
+        <li>Que te reste-t-il de ta vie humaine ?</li>
+
+        <li>Pourquoi as-tu choisi de rester avec les Forsaken ?</li>
+
+        <li>Que représente la Horde pour toi : une alliance, une nécessité ou
+        une nouvelle famille ?</li>
+
+        <li>Pourquoi es-tu en Kalimdor ?</li>
+
+        <li>Comment réagis-tu lorsqu'un vivant te traite comme un monstre ?</li>
+
+        </ol>
+
+        <h2 id="dans-une-campagne-à-durotar">Dans une campagne à Durotar</h2>
+
+        <p>Un Réprouvé est rare sans être anormal. Son arrivée permet de montrer
+        que la Horde est déjà une coalition de peuples très différents, mais il
+        doit avoir une raison personnelle d'être aussi loin de Lordaeron.</p>
+
+        <h2 id="source">Source</h2>
+
+        <ul>
+
+        <li>Silverblade, <em>Champions of Azeroth</em>, 30 mai 2021, <strong>p.
+        9</strong> — Undead / Undead Human.</li>
+
+        </ul>
+      format: 1
+    sort: 100000
+    flags:
+      vaults:
+        vaultId: vault-coa-7e7c5ff7
+        path: Regles/races/04_Reprouve_Mort_vivant.md
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1788766247289
+      modifiedTime: 1788766247289
+      lastModifiedBy: V0twxN2oKehfUjVd
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!207803b2609b4b23.c165cf43ff3c8454'
+  - _id: 19639595858e1528
+    name: Sin'dorei — Elfe de sang de Lune-d'Argent
+    type: text
+    text:
+      content: >-
+        <img src="https://w.wallhaven.cc/full/x8/wallhaven-x8ylr3.png"
+        alt="Bandeau">
+
+        <blockquote>
+
+        <p><strong>Document méta joueur.</strong> Cette fiche sert à comprendre
+        l'identité, le style de jeu et les choix structurants du personnage.
+        Elle ne remplace pas les règles complètes de <em>Champions of
+        Azeroth</em> ni la fiche Foundry VTT.</p>
+
+        </blockquote>
+
+        <h2 id="en-une-phrase">En une phrase</h2>
+
+        <img
+        src="https://wow.zamimg.com/images/wow/icons/large/race_bloodelf_male.jpg"
+        alt="Sin'dorei" width="80">
+
+        <p>Un survivant de Quel'Thalas, ancien Haut-Elfe désormais sin'dorei,
+        qui porte encore l'héritage d'un royaume dévasté et cherche sa place
+        dans un monde bouleversé.</p>
+
+        <h2 id="place-dans-la-campagne">Place dans la campagne</h2>
+
+        <p><strong>Statut : exception spécifique à la campagne.</strong></p>
+
+        <p>Les Elfes de sang ne sont <strong>pas</strong> ouverts comme
+        cinquième race standard de la Horde. Cette fiche existe uniquement pour
+        permettre le concept déjà validé de <strong>Paladin
+        sin'dorei</strong>.</p>
+
+        <p>Mécaniquement :</p>
+
+        <ul>
+
+        <li>race <strong>Blood Elf</strong> ;</li>
+
+        <li>sous-race <strong>Silvermoon Blood Elf</strong> ;</li>
+
+        <li>source : <em>Champions of Outland</em> ;</li>
+
+        <li>seule classe ouverte dans cette campagne : <strong>Paladin</strong>
+        de <em>Champions of Azeroth</em>.</li>
+
+        </ul>
+
+        <p>Le personnage est un ancien Haut-Elfe formé à la Lumière avant ou
+        pendant la Troisième Guerre. Il n'est pas obligé d'être un Blood Knight
+        et ne représente pas une alliance politique générale entre Quel'Thalas
+        et la Horde.</p>
+
+        <h2 id="identité-warcraft-selon-champions-of-outland">Identité Warcraft
+        selon Champions of Outland</h2>
+
+        <p>Le supplément présente les Blood Elves comme les survivants de
+        Quel'Thalas après l'invasion du Fléau et la destruction du Puits de
+        soleil. Ils cherchent à reconstruire leur civilisation et à retrouver
+        des sources de puissance arcanique.</p>
+
+        <p>Le <strong>Silvermoon Blood Elf</strong> représente les sin'dorei
+        liés à Lune-d'Argent, particulièrement connus pour leur culture et leur
+        expertise magique.</p>
+
+        <h2 id="traits-mécaniques-marquants">Traits mécaniques marquants</h2>
+
+        <ul>
+
+        <li><strong>Dextérité +2</strong>.</li>
+
+        <li>Silvermoon Blood Elf : <strong>Intelligence +1</strong> ou
+        <strong>Charisme +1</strong>.</li>
+
+        <li><strong>Darkvision</strong>.</li>
+
+        <li><strong>Elven Cunning</strong> : avantage pour résister aux
+        enchantements et illusions.</li>
+
+        <li><strong>Arcane Resistance</strong> : résistance aux dégâts de
+        force.</li>
+
+        <li><strong>Learned</strong> : maîtrise d'une compétence parmi Arcana,
+        History, Nature ou Religion.</li>
+
+        <li><strong>Arcane Affinity</strong> : un cantrip de mage et accès
+        racial à <em>detect magic</em>.</li>
+
+        <li>Langues : <strong>Orcish</strong> et
+        <strong>Thalassian</strong>.</li>
+
+        </ul>
+
+        <p>Pour un Paladin, le choix de <strong>Charisme +1</strong> est
+        mécaniquement naturel, sans être imposé.</p>
+
+        <h2 id="classe-disponible-dans-cette-campagne">Classe disponible dans
+        cette campagne</h2>
+
+        <ul>
+
+        <li><strong>Paladin uniquement</strong></li>
+
+        </ul>
+
+        <h2 id="ce-que-cette-option-encourage-naturellement">Ce que cette option
+        encourage naturellement</h2>
+
+        <p>Cette option est conçue pour un personnage qui porte plusieurs
+        tensions :</p>
+
+        <ul>
+
+        <li>survivant d'une catastrophe récente ;</li>
+
+        <li>héritier d'une tradition paladine antérieure à la chute de
+        Quel'Thalas ;</li>
+
+        <li>utilisateur de la Lumière dans une période de doute ;</li>
+
+        <li>allié individuel de la Horde sans que celle-ci soit encore
+        nécessairement « son peuple » ;</li>
+
+        <li>étranger culturel au Durotar qu'il découvre.</li>
+
+        </ul>
+
+        <h2 id="questions-de-background">Questions de background</h2>
+
+        <ol>
+
+        <li>Qui t'a formé à la Lumière ?</li>
+
+        <li>Où étais-tu lorsque le Fléau a détruit Quel'Thalas ?</li>
+
+        <li>Qu'as-tu perdu pendant la chute ?</li>
+
+        <li>Pourquoi continues-tu à servir la Lumière ?</li>
+
+        <li>Pourquoi as-tu quitté Quel'Thalas ?</li>
+
+        <li>Comment as-tu appris l'orc ?</li>
+
+        <li>Pourquoi te trouves-tu maintenant en Durotar ?</li>
+
+        <li>Que penses-tu des Orcs, des Trolls et des Réprouvés ?</li>
+
+        </ol>
+
+        <h2 id="ce-que-cette-option-nest-pas">Ce que cette option n'est pas</h2>
+
+        <ul>
+
+        <li>Elle ne rend pas les Elfes de sang normalement jouables dans toute
+        la campagne.</li>
+
+        <li>Elle ne crée pas une nouvelle classe de Paladin.</li>
+
+        <li>Elle ne transforme pas le personnage en Blood Knight avant
+        l'heure.</li>
+
+        <li>Elle ne signifie pas que Quel'Thalas est déjà intégré politiquement
+        à la Horde.</li>
+
+        </ul>
+
+        <h2 id="sources">Sources</h2>
+
+        <ul>
+
+        <li>Silverblade, <em>Champions of Outland</em>, 2 juin 2021, <strong>p.
+        3</strong> — Blood Elf / Silvermoon Blood Elf.</li>
+
+        <li>Document de campagne : <strong>Option de personnage — Paladin
+        sin'dorei</strong>.</li>
+
+        </ul>
+      format: 1
+    sort: 100000
+    flags:
+      vaults:
+        vaultId: vault-coa-7e7c5ff7
+        path: Regles/races/05_Sindorei_Elfe_de_sang_Exception.md
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1788766247289
+      modifiedTime: 1788766247289
+      lastModifiedBy: V0twxN2oKehfUjVd
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!207803b2609b4b23.19639595858e1528'
+  - _id: 00c6f9fdc3e6599b
+    name: races
+    type: text
+    text:
+      content: |-
+        <h2 id="pages">Pages</h2>
+        <div class="bases-block">
+          <div class="bases-caption">Contents</div>
+          <div class="bases-toolbar">
+            <input type="search" class="bases-filter" placeholder="Filter…" aria-label="Filter table">
+            <span class="bases-count" data-total="5">5 rows</span>
+          </div>
+          <div class="bases-scroll">
+            <table class="bases-table">
+              <thead><tr><th data-col="0" tabindex="0">Name</th><th data-col="1" tabindex="0">Mtime</th></tr></thead>
+              <tbody><tr data-row="0"><td data-raw="Orc de Durotar">@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.207803b2609b4b23.JournalEntryPage.057a2594854d9aaf]{Orc de Durotar}</td><td data-raw="1787577777000">2026-08-24</td></tr><tr data-row="1"><td data-raw="Réprouvé — Mort-vivant humain">@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.207803b2609b4b23.JournalEntryPage.c165cf43ff3c8454]{Réprouvé — Mort-vivant humain}</td><td data-raw="1787577792000">2026-08-24</td></tr><tr data-row="2"><td data-raw="Sin'dorei — Elfe de sang de Lune-d'Argent">@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.207803b2609b4b23.JournalEntryPage.19639595858e1528]{Sin'dorei — Elfe de sang de Lune-d'Argent}</td><td data-raw="1787577796000">2026-08-24</td></tr><tr data-row="3"><td data-raw="Tauren de Mulgore">@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.207803b2609b4b23.JournalEntryPage.198016c647287ba8]{Tauren de Mulgore}</td><td data-raw="1787577788000">2026-08-24</td></tr><tr data-row="4"><td data-raw="Troll Darkspear">@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.207803b2609b4b23.JournalEntryPage.79c307bdfd552708]{Troll Darkspear}</td><td data-raw="1787577783000">2026-08-24</td></tr></tbody>
+            </table>
+          </div>
+        </div>
+      format: 1
+    sort: 0
+    flags:
+      vaults:
+        vaultId: vault-coa-7e7c5ff7
+        path: Regles/races/index.md
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1788766247289
+      modifiedTime: 1788766247289
+      lastModifiedBy: V0twxN2oKehfUjVd
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!207803b2609b4b23.00c6f9fdc3e6599b'
+flags:
+  vaults:
+    vaultId: vault-coa-7e7c5ff7
+    path: Regles/races/index.md
+categories: []
+ownership:
+  default: 0
+  V0twxN2oKehfUjVd: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1788766247289
+  modifiedTime: 1788766247289
+  lastModifiedBy: V0twxN2oKehfUjVd
+  compendiumSource: Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.207803b2609b4b23
+  duplicateSource: null
+  exportSource: null
+sort: 0
+_key: '!journal!207803b2609b4b23'

@@ -1,0 +1,20 @@
+type: Item
+folder: MtAN8rJRCRQRss6h
+name: Orc
+color: '#235a13'
+sorting: a
+_id: y5Bi1ofdJcPN7C26
+description: ''
+sort: 100000
+flags: {}
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784461
+  modifiedTime: 1789895784461
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!y5Bi1ofdJcPN7C26'

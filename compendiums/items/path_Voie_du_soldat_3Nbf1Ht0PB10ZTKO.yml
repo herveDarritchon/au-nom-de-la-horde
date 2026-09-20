@@ -1,0 +1,33 @@
+folder: jL6KNyDtnGnKfATQ
+name: Voie du soldat
+type: path
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/voies/classes/guerrier/cof2-voie-du-soldat.png
+system:
+  description: ''
+  source: ''
+  origin: Warbound
+  slug: voie-du-soldat
+  subtype: profile
+  capacities: []
+  rank: 0
+  gmNotes: ''
+  maxDefenseArmor: 0
+  pvByLevel: 0
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.Z4rsNjWtds2yTtr3
+  duplicateSource: Item.dbqg2DIWnxc4fLGb
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895789069
+  modifiedTime: 1789895789069
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+sort: 112500
+_id: 3Nbf1Ht0PB10ZTKO
+_key: '!items!3Nbf1Ht0PB10ZTKO'

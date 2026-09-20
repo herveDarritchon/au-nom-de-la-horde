@@ -1,0 +1,858 @@
+name: SWADE Règles
+flags:
+  campaign-codex:
+    type: ''
+  core:
+    sheetClass: ''
+_id: y9ZwjOLLSaLSeFIN
+pages:
+  - sort: 100000
+    name: CRÉATION DE PERSONNAGE
+    type: text
+    _id: YLQJh1WssMT3jJu8
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>CRÉATION DE PERSONNAGE</h1><p class="p2">Les grands héros sont
+        davantage qu’une suite de caractéristiques et de chiffres, mais dans un
+        système de jeu, c’est sans aucun doute un point de départ. Pour créer
+        votre héros, munissez-vous d’une feuille de personnage (disponible sur
+        le site de Black Book Éditions), ou photocopiez celle que vous trouverez
+        à la fin de cet ouvrage, et suivez les étapes suivantes.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      i2MQVvBnWjyhmgzX: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: 1789330057918
+      modifiedTime: 1789330057918
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!y9ZwjOLLSaLSeFIN.YLQJh1WssMT3jJu8'
+  - sort: 200000
+    name: Race
+    type: text
+    _id: eVkEPkNzJRfUH6fO
+    system: {}
+    title:
+      show: false
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Race</h2><p class="p2">Azeroth abrite de nombreux peuples aux
+        origines, cultures et aptitudes très différentes :
+        <strong>@UUID[.abdFf6AaiOWMLsgL]{Orcs}</strong>, Trolls, Taurens,
+        Réprouvés, Elfes de sang et bien d’autres. Votre choix de race définit
+        une part importante de l’identité de votre personnage et lui accorde les
+        Capacités innées propres à son peuple.</p><p>Vous pouvez choisir
+        n’importe quelle race disponible dans la campagne. Chaque race Warbound
+        possède ses propres forces, faiblesses et options de
+        personnalisation.</p><p>▶ À la création, choisissez également un Atout
+        racial ou culturel parmi ceux proposés pour votre race. Il représente
+        une tradition, un héritage ou une aptitude particulière de votre
+        personnage et permet de différencier deux héros issus d’un même
+        peuple.</p><p class="p1"></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      i2MQVvBnWjyhmgzX: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: 1789330057918
+      modifiedTime: 1789330057918
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!y9ZwjOLLSaLSeFIN.eVkEPkNzJRfUH6fO'
+  - sort: 300000
+    name: Traits
+    type: text
+    _id: Z2XEtK3kdF1xAlx2
+    system: {}
+    title:
+      show: false
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Traits</h2><p>Les personnages sont définis par des Traits : les
+        Attributs et les Compétences. Ils fonctionnent de la même façon.
+        Attributs et Compétences sont classés par types de dés allant du d4 au
+        d12, d6 étant la moyenne chez un humain adulte. Plus gros est le dé,
+        plus vous êtes doué !</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      i2MQVvBnWjyhmgzX: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: 1789330057918
+      modifiedTime: 1789330057918
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!y9ZwjOLLSaLSeFIN.Z2XEtK3kdF1xAlx2'
+  - sort: 400000
+    name: Les Attributs
+    type: text
+    _id: 0EJ0sb7HXqXAWsHL
+    system: {}
+    title:
+      show: false
+      level: 3
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h3>Les Attributs</h3><p>Chaque personnage commence le jeu avec un d4
+        dans chaque <strong>Attribut</strong>. Vous disposez de 5 points à
+        répartir comme vous le souhaitez pour les augmenter. Améliorer l’un
+        d’entre eux d’un type de dé (par exemple, de d4 à d6) coûte 1 point avec
+        une limite : vous ne pouvez aller au-delà du d12.</p><p class="p1"><span
+        class="s1">▶ </span><span class="s2"><strong>Agilité :</strong>
+        </span>elle représente la souplesse, la rapidité et la dextérité de
+        votre héros.</p><p class="p1"><span class="s1">▶ </span><span
+        class="s2"><strong>Âme :</strong> </span>elle représente la sagesse
+        innée et sa volonté. L’Âme est particulièrement importante car il aide
+        votre héros à se ressaisir après une blessure.</p><p class="p1"><span
+        class="s1">▶ </span><span class="s2"><strong>Force :</strong>
+        </span>elle reflète la puissance et la condition physique générale. La
+        Force sert également à déterminer les dégâts de votre personnage en
+        combat de corps à corps.</p><p class="p1"><span class="s1">▶
+        </span><span class="s2"><strong>Intellect :</strong> </span>il reflète
+        la connaissance de votre héros sur son monde et sa culture, sa capacité
+        de réflexion et sa finesse d’esprit.</p><p class="p1"><span class="s1">▶
+        </span><span class="s2"><strong>Vigueur :</strong> </span>il représente
+        l’endurance, la résistance aux maladies, poisons ou toxines et le niveau
+        de douleur et de dégâts physiques que votre héros peut supporter.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      i2MQVvBnWjyhmgzX: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: 1789330057918
+      modifiedTime: 1789330057918
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!y9ZwjOLLSaLSeFIN.0EJ0sb7HXqXAWsHL'
+  - sort: 500000
+    name: Les Compétences
+    type: text
+    _id: EO3O7eyHUZDXrgXr
+    system: {}
+    title:
+      show: false
+      level: 3
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h3>Les Compétences</h3><p class="p2">Les Compétences représentent les
+        aptitudes apprises comme le Tir, le Combat, les connaissances
+        professionnelles ou scientifiques et ainsi de suite. Elles sont
+        générales et englobent tous les aspects qui leur sont reliés.</p><p
+        class="p2">Par exemple Tir englobe les fusils, les arcs, les
+        lance-roquettes et toutes les armes à distance.</p><p class="p2">Vous
+        disposez de 15 points à répartir entre vos Compétences. Chaque dé de
+        Compétence coûte 1 point (en commençant à d4) tant qu’il est inférieur
+        ou égal à l’Attribut dont il dépend (noté entre parenthèses près du nom
+        de la Compétence). Chaque dé de Compétence supérieur à l’Attribut dont
+        il dépend coûte 2 points.</p><p>De même que pour les Attributs, aucune
+        Compétence ne peut dépasser d12.</p><blockquote><p><span
+        style="text-decoration:underline"><strong><span
+        style="text-decoration:underline">EXEMPLE</span></strong></span></p><p
+        class="p2">Combat dépend d’Agilité. Un personnage ayant d8 en Agilité
+        peut prendre Combat en ne dépensant qu’un point par type de dé jusqu’à
+        d8. Prendre un d10 coûtera 2 points et un d12 coûtera 2 points de
+        plus.</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      i2MQVvBnWjyhmgzX: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: 1789330057918
+      modifiedTime: 1789330057918
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!y9ZwjOLLSaLSeFIN.EO3O7eyHUZDXrgXr'
+  - sort: 600000
+    name: Caractéristiques Dérivées
+    type: text
+    _id: JsCXWEgwKNmT332a
+    system: {}
+    title:
+      show: false
+      level: 3
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h3>Caractéristiques dérivées</h3><p class="p2">Votre fiche de
+        personnage comporte encore quelques trous, en particulier les
+        caractéristiques dérivées :</p><p class="p2">L’<span
+        class="s1">Allure</span> représente la rapidité de déplacement en cases
+        du personnage dans un round de combat standard. Les humains se déplacent
+        de cases dans un round. Chaque case représente un carré de 2 mètres de
+        côté dans le « monde réel ».</p><p class="p2">Le <span
+        class="s1">Charisme</span> réunit l’apparence, les manières et l’effet
+        que le personnage provoque chez les autres. Notez +0 sauf si vous avez
+        choisi un Atout ou un Handicap modifiant ce score. Les jets de
+        Persuasion et de Réseaux sont modifiés par le Charisme qui sert
+        également au MJ à déterminer la réaction des personnages non-joueurs
+        envers votre héros.</p><p class="p2">La <span class="s1">Parade</span>
+        est égale à 2 plus la moitié de la Compétence Combat du personnage (2
+        s’il ne possède pas Combat), à quoi on ajoute les bonus pour les
+        boucliers ou certaines armes. La Parade représente la Difficulté des
+        attaques de corps à corps dont votre personnage est la cible.</p><p
+        class="p2">Si la Compétence de Combat est supérieure à d12, d12+1 par
+        exemple, on ajoute la moitié du bonus arrondi à l’inférieur. Par
+        exemple, avec d12+1 en Combat, on a une Parade de 8, alors qu’on a une
+        Parade de 9 avec d12+2.</p><p class="p2">La <span
+        class="s1">Résistance</span> indique le seuil de souffrance du héros, sa
+        capacité à encaisser les coups. La Résistance est égale à 2 plus la
+        moitié de votre Vigueur, à quoi on ajoute l’Armure (utilisez la valeur
+        d’armure pour le torse). La Résistance pour une Vigueur supérieure à d12
+        est calculée de la même manière que la parade.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      i2MQVvBnWjyhmgzX: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: 1789330057918
+      modifiedTime: 1789330057918
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!y9ZwjOLLSaLSeFIN.JsCXWEgwKNmT332a'
+  - sort: 700000
+    name: Atouts & Handicaps
+    type: text
+    _id: VJTxZRumubF2mHQC
+    system: {}
+    title:
+      show: false
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Atouts et Handicaps</h2><p>Les grands héros sont bien plus qu’une
+        simple liste de Compétences et d’Attributs. Ce qui les rend uniques,
+        c’est ce mélange de dons particuliers, de pouvoirs spéciaux et de
+        défauts tragiques.</p><p>Un personnage choisit des Atouts en les
+        équilibrant avec des Handicaps. Vous trouverez une liste détaillée
+        d’Atouts et de Handicaps dans les paragraphes suivants. Vous en
+        découvrirez encore d’autres dans les univers Savage Worlds
+        publiés.</p><p>Vous pouvez choisir jusqu’à un Handicap Majeur et deux
+        Handicaps Mineurs. Un Handicap Majeur donne 2 points et un Handicap
+        Mineur 1 point.</p><p>Pour 2 points vous pouvez :</p><p>▶ Augmenter un
+        Attribut d’un type de dé (vous pouvez le faire avant de prendre vos
+        Compétences).</p><p>▶ Choisir un Atout.</p><p>Pour 1 point vous pouvez
+        :</p><p>▶ Gagner un point de Compétence.</p><p>▶ Doubler vos fonds de
+        départ (si vous débutez avec 500 $, vous obtenez 500 $ de plus).</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      i2MQVvBnWjyhmgzX: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: 1789330057918
+      modifiedTime: 1789330057918
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!y9ZwjOLLSaLSeFIN.VJTxZRumubF2mHQC'
+  - sort: 800000
+    name: Histoire Personnelle
+    type: text
+    _id: zF1TOfZsZJ0EPSQw
+    system: {}
+    title:
+      show: false
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Histoire Personnelle</h2><p>Terminez la création du personnage en
+        détaillant son histoire et son passé. Déterminez les raisons de son
+        implication ainsi que ses buts. Vous pouvez également choisir de
+        commencer la partie avec votre personnage en l’état, et rajouter ces
+        détails plus tard.</p><p>Il peut être aussi intéressant de discuter avec
+        les autres joueurs afin de déterminer si les personnages se connaissent
+        dès le début de l’aventure, et si oui, des circonstances de leurs
+        rencontres. Vous pourrez aussi optimiser le groupe de personnages, afin
+        de disposer d’un vaste assortiment de Compétences différentes. Mais
+        choisissez quoi qu’il arrive un personnage que vous avez envie de jouer.
+        Il n’y a pas de raison que vous preniez le rôle de soigneur du groupe si
+        vous n’en ressentez pas l’envie.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      i2MQVvBnWjyhmgzX: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: 1789330057918
+      modifiedTime: 1789330057918
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!y9ZwjOLLSaLSeFIN.zF1TOfZsZJ0EPSQw'
+  - sort: 900000
+    name: ARCHÉTYPES
+    type: text
+    _id: tpfmN4iw7LaeUiAV
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Archétypes</h1><p>Vous aurez parfois besoin de créer rapidement un
+        personnage pour un scénario ou une convention. Dans ce genre de
+        situation, un archétype peut s’avérer un bon choix. Il suffit d’y
+        adjoindre un nom, quelques Handicaps, de l’équipement, puis de répartir
+        les quelques points de Compétence restant, et vous êtes prêts à
+        jouer.</p><p class="p1">Les archétypes qui suivent sont tous des humains
+        Novice, incluant l’Atout gratuit de cette race.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      i2MQVvBnWjyhmgzX: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: 1789330057918
+      modifiedTime: 1789330057918
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!y9ZwjOLLSaLSeFIN.tpfmN4iw7LaeUiAV'
+  - sort: 1000000
+    name: RACES
+    type: text
+    _id: Gp8j8DZXm4G23Dyy
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>RACES</h1><p>Tous les héros ne sont pas humains. Suivent quelques
+        races communes à plusieurs univers de jeux. Utilisez-les telles quelles,
+        ou modifiez-les pour les adapter à un univers particulier. Immédiatement
+        suivant les descriptions des races, vous trouverez un ensemble de
+        conseils pour créer vos propres races.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      i2MQVvBnWjyhmgzX: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: 1789330057918
+      modifiedTime: 1789330057918
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!y9ZwjOLLSaLSeFIN.Gp8j8DZXm4G23Dyy'
+  - sort: 250000
+    name: Orcs
+    type: text
+    _id: abdFf6AaiOWMLsgL
+    system: {}
+    title:
+      show: false
+      level: 3
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <blockquote><p><strong>« Tenir. Frapper au bon moment. Choisir ce que
+        l’honneur exige. »</strong></p></blockquote><p>Les Orcs sont un peuple
+        de survivants. Arrachés à Draenor, marqués par les guerres et la
+        corruption démoniaque, ils cherchent désormais à bâtir une nouvelle
+        patrie en Azeroth.</p><p>Puissants et endurants, les Orcs sont capables
+        d’encaisser des coups qui feraient plier d’autres combattants. Mais leur
+        véritable force ne réside pas seulement dans leur physique : lorsqu’un
+        Orc décide que le moment est venu de frapper, sa <strong>Fureur
+        sanguinaire</strong> peut transformer quelques secondes de combat en un
+        déchaînement brutal.</p><p>Tous les Orcs ne sont pourtant pas des
+        guerriers sanguinaires. Leur caractère, leur rapport à l’honneur et
+        leurs traditions varient profondément selon leur clan, leur histoire et
+        leurs choix. Certains deviennent des meneurs respectés, d’autres
+        perfectionnent une tradition martiale, tandis que d’autres encore
+        suivent des voies très éloignées du champ de bataille.</p><hr><h2>Traits
+        raciaux</h2><p><strong>Taille :</strong> 0<br><strong>Allure :</strong>
+        6<br><strong>Langues :</strong> Orc et une autre langue selon l’origine
+        du personnage ou la
+        campagne.</p><h3>@UUID[Item.xX7suvhtfbYlHDiJ]{Solidité
+        orque}</h3><h3>@UUID[Item.X9SGwmB9jv0mB34v]{Fureur
+        sanguinaire}</h3><hr><h2>Une faiblesse personnelle</h2><p>Les Orcs
+        partagent une histoire difficile, mais ils ne portent pas tous les mêmes
+        cicatrices.</p><p>À la création, choisissez <strong>un Handicap
+        Mineur</strong> représentant une faiblesse liée à votre personnage, son
+        clan, son passé ou sa réputation.</p><p>Exemples appropriés
+        :</p><p><strong>@UUID[Item.hE6w2sGiBvtQL5SV]{Déshonoré} •
+        @UUID[Item.4rHhmUJreJIzL6yL]{Ennemi} •
+        @UUID[Item.iTIQXnpa8ISl5Ces]{Étranger} •
+        @UUID[Item.7Z4kVDJIIAQUMgzU]{Impitoyable} •
+        @UUID[Item.zJjW1F4h0ruDbF0t]{Bizarrerie}</strong></p><p>Un autre
+        Handicap Mineur peut être choisi avec l’accord du MJ s’il représente
+        réellement le personnage et produit des situations intéressantes en
+        jeu.</p><blockquote><p>Cette faiblesse décrit <strong>votre
+        Orc</strong>, pas l’ensemble du peuple
+        orc.</p></blockquote><hr><h2>Héritage orc</h2><p>À la création,
+        choisissez <strong>un</strong> des Atouts raciaux
+        suivants.</p><h3>@UUID[Item.vpEdVamoRd2gc9DE]{Commandement}</h3><h3>@UUID[Item.4kbi3WQxTqnqSnJd]{Maîtrise
+        de la hache}</h3><hr><h2>Clans et traditions</h2><p>Frostwolf, Warsong
+        et les nombreux autres clans orcs peuvent profondément influencer
+        l’éducation, les convictions et les relations de votre
+        personnage.</p><p>Ils ne constituent cependant pas des sous-races. Deux
+        Orcs d’un même clan peuvent être très différents, tandis que deux
+        membres de clans rivaux peuvent partager davantage de valeurs qu’ils ne
+        l’imaginent.</p><p>Votre clan est avant tout une <strong>origine, une
+        culture et un réseau de relations</strong> : à vous de déterminer ce que
+        votre personnage en conserve, ce qu’il rejette et ce qu’il souhaite
+        transmettre.</p><hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      i2MQVvBnWjyhmgzX: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: 1789330057918
+      modifiedTime: 1789330057918
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!y9ZwjOLLSaLSeFIN.abdFf6AaiOWMLsgL'
+  - sort: 250000
+    name: Trolls
+    type: text
+    system: {}
+    title:
+      show: false
+      level: 3
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <blockquote><p><strong>« Là où les autres pansent leurs plaies, le Troll
+        revient déjà dans la chasse. »</strong></p></blockquote><p>Les Trolls
+        Sombrelance appartiennent à un peuple ancien d’Azeroth, façonné par la
+        survie, la chasse et une relation profondément spirituelle au monde qui
+        l’entoure.</p><p>Leur corps possède une capacité de <strong>régénération
+        exceptionnelle</strong> : les blessures qui immobiliseraient longtemps
+        d’autres peuples ne suffisent pas toujours à tenir un Troll à terre.
+        Lorsque la situation devient critique, ils peuvent également entrer dans
+        un bref état de <strong>Berserker</strong>, poussant brutalement leur
+        rythme d’action malgré la douleur et la pression du combat.</p><p>Mais
+        tous les Sombrelance ne suivent pas la même voie. Certains deviennent
+        chasseurs de bêtes, d’autres perpétuent leur maîtrise traditionnelle de
+        l’arc ou des armes de jet. Leur caractère, leurs serments et leur
+        rapport aux anciennes traditions varient tout autant d’un individu à
+        l’autre.</p><hr><h2>Traits raciaux</h2><p><strong>Taille :</strong>
+        0<br><strong>Allure :</strong> 6<br><strong>Langues :</strong> Zandali
+        et Orc</p><h3>@UUID[Item.nKUBXMBTUSMA23g8]{Régénération
+        troll}</h3><h3>@UUID[Item.6M9lCsUGpgY6iAWC]{Berserker}</h3><hr><h2>Une
+        faiblesse personnelle</h2><p>Les Sombrelance ont connu l’exil, les
+        rivalités et les luttes pour leur survie, mais ces expériences n’ont pas
+        façonné tous les Trolls de la même manière.</p><p>À la création,
+        choisissez <strong>un Handicap Mineur</strong> représentant le
+        caractère, le passé, les obligations ou les ennemis de votre
+        personnage.</p><p>Exemples appropriés :</p><p><strong>Rancunier • Têtu •
+        Suspicieux • Serment • Ennemi</strong></p><p>Un autre Handicap Mineur
+        peut être choisi avec l’accord du MJ s’il représente réellement le
+        personnage et produit des situations intéressantes en
+        jeu.</p><blockquote><p>Cette faiblesse décrit <strong>votre
+        Troll</strong>, pas l’ensemble du peuple
+        Sombrelance.</p></blockquote><hr><h2>Héritage Sombrelance</h2><p>À la
+        création, choisissez <strong>un</strong> des Atouts raciaux
+        suivants.</p><h3>@UUID[Item.HcOd2vtKnUvy4iuJ]{Tueur de
+        bêtes}</h3><h3>@UUID[Item.AEzYhbEoP5cpzyIc]{Maîtrise de
+        l’arc}</h3><h3>@UUID[Item.63choqpgZ6BErjkt]{Maîtrise du
+        lancer}</h3><p>Ces choix représentent davantage l’éducation, les
+        traditions et l’expérience du personnage que sa nature biologique. Deux
+        Trolls issus du même village peuvent ainsi avoir développé des talents
+        très différents.</p><hr><h2>Loas et traditions</h2><p>La spiritualité
+        occupe une place importante dans la culture Sombrelance. Les Loas
+        peuvent être des guides, des protecteurs, des figures redoutées ou les
+        destinataires de rites et de serments transmis depuis des
+        générations.</p><p>Cette relation ne constitue cependant pas une
+        capacité automatique de tous les Trolls. Un personnage peut être
+        profondément dévoué à un Loa, simplement respecter les traditions de son
+        peuple ou entretenir avec elles une relation beaucoup plus
+        distante.</p><p>Au fil de ses <strong>Progressions</strong>, un Troll
+        pourra approfondir cette dimension et développer des Atouts liés à
+        certains Loas ou à des traditions particulières.</p><hr><h2>Un peuple de
+        chasseurs et de survivants</h2><p>Les longues silhouettes, les défenses
+        et la régénération des Trolls les rendent immédiatement reconnaissables,
+        mais ne déterminent ni leur métier ni leur tempérament.</p><p>Un
+        Sombrelance peut être chasseur, guerrier, chaman, voleur, mage ou suivre
+        une voie totalement différente. Ce qui unit son peuple n’est pas une
+        manière unique de combattre, mais une extraordinaire capacité à
+        <strong>survivre, s’adapter et revenir dans la lutte lorsque d’autres
+        seraient déjà tombés</strong>.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      i2MQVvBnWjyhmgzX: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: 1789330057918
+      modifiedTime: 1789330057918
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _id: ZvUjvx0gxfFgIioA
+    _key: '!journal.pages!y9ZwjOLLSaLSeFIN.ZvUjvx0gxfFgIioA'
+  - sort: 250000
+    name: Taurens
+    type: text
+    system: {}
+    title:
+      show: false
+      level: 3
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <blockquote><p><strong>« Une présence immense, faite pour protéger
+        plutôt que pour chercher la guerre. »</strong></p></blockquote><p>Les
+        Taurens sont un peuple des grandes plaines de Kalimdor, profondément
+        attaché à la terre, aux cycles naturels et à la communauté. Leur stature
+        impressionnante dissimule souvent une nature calme et réfléchie, mais
+        lorsqu’un Tauren décide de tenir sa position, il devient extrêmement
+        difficile à faire plier.</p><p>Leur constitution exceptionnelle leur
+        permet d’endurer des blessures qui mettraient à terre des combattants
+        moins robustes. Leur proximité avec le monde naturel leur confère
+        également une résistance particulière à ses forces, tandis que leur
+        puissant <strong>Piétinement de guerre</strong> peut renverser en
+        quelques secondes le cours d’un affrontement.</p><p>Tous les Taurens ne
+        suivent cependant pas la même voie. Certains approfondissent leur
+        affinité naturelle, tandis que d’autres perpétuent les traditions de
+        cueillette et de connaissance des plantes transmises au sein de leur
+        peuple.</p><hr><h2>Traits raciaux</h2><p><strong>Taille :</strong>
+        1<br><strong>Allure :</strong> 6<br><strong>Langues :</strong> Taur-ahe
+        et Orc.</p><h3><strong>@UUID[Item.fwXWsYXCNEPBtKJE]{Carrure
+        taurène}</strong></h3><h3><strong>@UUID[Item.j4SGUPuMW3KcwNJE]{Piétinement
+        de guerre}</strong></h3><hr><h2>Héritage tauren</h2><p>À la création,
+        choisissez <strong>un</strong> des Atouts raciaux
+        suivants.</p><h3><strong>@UUID[Item.zXKcIieWVzflkZ3L]{Résistance à la
+        Nature}</strong></h3><h3><strong>@UUID[Item.RowtfCOJ0aMjROCm]{Herboristerie
+        taurène}</strong></h3><h2>Stature et cornes</h2><p>La silhouette massive
+        d’un Tauren et ses imposantes cornes font immédiatement partie de son
+        identité, mais elles ne constituent pas automatiquement des armes ou des
+        avantages supplémentaires.</p><p>Un Tauren peut apprendre à exploiter
+        davantage sa puissance physique au cours de ses aventures : développer
+        sa vigueur, utiliser ses cornes lors d’une charge ou perfectionner
+        d’autres techniques propres à son peuple pourra faire l’objet de
+        <strong>futurs Atouts raciaux acquis par
+        Progression</strong>.</p><hr><h2>Peuple et traditions</h2><p>Les Taurens
+        ne forment pas une culture uniforme. Tribu, famille, mentor, rapport à
+        la Terre-Mère et expérience personnelle peuvent profondément modifier la
+        manière dont un personnage considère la chasse, la guerre, les esprits
+        ou les autres peuples de la Horde.</p><p>Ces traditions ne constituent
+        pas des sous-races et n’imposent aucune voie particulière. Un Tauren
+        peut être guerrier, chasseur, chaman ou suivre une tout autre destinée
+        sans perdre ce qui fait de lui un Tauren.</p><p>La spiritualité et le
+        respect de la nature constituent une part importante de leur culture,
+        mais ils ne signifient pas que chaque Tauren soit nécessairement
+        <strong>Chaman ou Druide</strong>.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      i2MQVvBnWjyhmgzX: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: 1789330057918
+      modifiedTime: 1789330057918
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _id: piRNuCv20CdQRjlS
+    _key: '!journal.pages!y9ZwjOLLSaLSeFIN.piRNuCv20CdQRjlS'
+  - sort: 250000
+    name: Réprouvés
+    type: text
+    system: {}
+    title:
+      show: true
+      level: 3
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <blockquote><p><em><strong>« Un corps qui ne devrait plus vivre, une
+        volonté qui refuse pourtant de se rendre.
+        »</strong></em></p></blockquote><p>Les <strong>Réprouvés</strong> sont
+        des morts-vivants ayant brisé l’emprise du Roi-Liche et repris
+        possession de leur propre volonté. Leur existence est un paradoxe :
+        leurs corps portent encore les marques de la mort, mais leurs pensées,
+        leurs ambitions et leurs choix leur appartiennent de nouveau.</p><p>Ils
+        ne sont ni les serviteurs dociles du Fléau, ni les êtres qu’ils étaient
+        autrefois. Certains cherchent à préserver ce qui subsiste de leur
+        ancienne vie ; d’autres considèrent cette existence nouvelle comme une
+        rupture définitive avec le passé. Tous savent cependant ce que signifie
+        avoir perdu sa liberté — et ce qu’il en coûte pour la
+        reprendre.</p><hr><h2>Nature réprouvée</h2><p>Tous les Réprouvés
+        possèdent les capacités raciales suivantes
+        :</p><h3>@UUID[Item.072oqUTJ0Gh8Hgah]{Résistance à
+        l’Ombre}</h3><h3>@UUID[Item.Mn1h0EmWrrdkLZjy]{Respiration
+        aquatique}</h3><hr><h2>Héritage réprouvé</h2><p>À la création,
+        choisissez <strong>un</strong> des Atouts raciaux disponibles pour votre
+        campagne.</p><h3>@UUID[Item.SR66qxC8WmB1VoF0]{Volonté des
+        Réprouvés}</h3><h3>@UUID[Item.hS7UO9Dj3GjIYT39]{TOUCHÉ du
+        Tombeau}</h3><hr><h2>Mort, mémoire et identité</h2><p>Devenir Réprouvé
+        ne constitue pas une origine commune au sens d'un clan ou d'une tribu.
+        Chacun possédait une vie avant la mort : une famille, un métier, des
+        convictions, des fidélités et parfois des ennemis.</p><p>La question
+        n'est donc pas seulement de savoir <strong>qui votre personnage est
+        aujourd'hui</strong>, mais aussi ce qu'il conserve de celui ou celle
+        qu'il était autrefois.</p><p>A-t-il retrouvé des souvenirs de sa vie
+        passée ? Cherche-t-il encore ceux qu'il connaissait ? Considère-t-il son
+        ancien nom comme le sien ? Sa mort l'a-t-elle transformé, ou n'a-t-elle
+        fait que révéler une part de lui-même qu'il ignorait ?</p><p>Deux
+        Réprouvés peuvent avoir subi le même sort et en tirer des conclusions
+        radicalement opposées.</p><hr><h2>Parmi la Horde</h2><p>L'alliance avec
+        la Horde n'efface ni l'étrangeté ni la méfiance que peut provoquer un
+        Réprouvé. Orcs, Trolls et Taurens n'ont aucune raison de considérer
+        naturellement un cadavre animé comme un compagnon ordinaire.</p><p>Cette
+        réaction reste cependant <strong>une question de fiction et de
+        relations</strong>, pas un désavantage racial automatique.</p><p>Votre
+        personnage peut chercher à gagner la confiance de ses alliés, cultiver
+        volontairement son apparence inquiétante, rester distant ou considérer
+        la Horde comme une alliance pragmatique plutôt que comme une nouvelle
+        famille.</p><p>Ce sont ses actes qui détermineront progressivement la
+        place qu'il occupera parmi les vivants.</p><hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      i2MQVvBnWjyhmgzX: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: 1789330057918
+      modifiedTime: 1789330057918
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _id: Z05WVvH4gyvgZXa1
+    _key: '!journal.pages!y9ZwjOLLSaLSeFIN.Z05WVvH4gyvgZXa1'
+  - sort: 250000
+    name: Elfes de Sang
+    type: text
+    system: {}
+    title:
+      show: false
+      level: 3
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Les <strong>Sin’dorei</strong>, ou Elfes de sang, sont les survivants
+        de la destruction de Quel’Thalas par le Fléau. Privés du Puits de
+        soleil, qui constituait depuis des générations le cœur magique de leur
+        royaume, ils portent désormais l’héritage d’un peuple décimé qui refuse
+        de disparaître.</p><p>Chez eux, la magie n’est ni exceptionnelle ni
+        mystérieuse : elle imprègne leur culture, leur histoire et jusqu’à leur
+        manière de percevoir le monde. Cette familiarité se traduit par une
+        résistance naturelle aux effets magiques et par la capacité à perturber
+        les forces arcaniques qui les entourent.</p><p>Dans la période actuelle
+        de la campagne, un Sin’dorei demeure cependant <strong>une présence
+        exceptionnelle en Durotar</strong>. Sa présence auprès de la Horde
+        relève encore d’un parcours individuel et ne signifie pas que
+        Quel’Thalas a déjà rejoint politiquement la Horde.</p><hr><h2>Capacités
+        innées</h2><p>Tous les Elfes de sang possèdent les capacités raciales
+        suivantes :</p><h3>@UUID[Item.NSCY8FWn2otHMNxQ]{Résistance à la
+        magie}</h3><h3>@UUID[Item.szNIqnT0CirhDILO]{Torrent
+        arcanique}</h3><h2>Héritage sin’dorei</h2><p>À la création, choisissez
+        <strong>un</strong> des Atouts raciaux
+        suivants.</p><h3>@UUID[Item.pxIRa356UqTnGPfl]{Affinité avec les
+        arcanes}</h3><h3>@UUID[Item.nBbJWfmSImkJwOMI]{Ponction de
+        mana}</h3><h2>Quel’Thalas et ses héritages</h2><p>Tous les Sin’dorei
+        partagent la mémoire de la chute de Quel’Thalas, mais ils ne la vivent
+        pas de la même manière.</p><p>Votre personnage peut être un ancien
+        soldat de Lune-d’Argent, un artisan, un érudit, un survivant des
+        campagnes contre le Fléau, un voyageur parti chercher de nouvelles
+        sources de magie ou simplement quelqu’un qui refuse de laisser la
+        catastrophe définir le reste de son existence.</p><p>L’appartenance à
+        Quel’Thalas ne constitue donc pas une sous-race ou une orientation
+        mécanique supplémentaire. Elle représente avant tout une
+        <strong>origine, une culture, des relations et une manière personnelle
+        de répondre à la perte du Puits de soleil</strong>.</p><p>Deux Sin’dorei
+        peuvent avoir vécu la même catastrophe et en tirer des conclusions
+        totalement opposées : préserver les anciennes traditions, rechercher de
+        nouvelles sources de pouvoir, se rapprocher d’autres peuples ou au
+        contraire considérer que Quel’Thalas ne doit plus jamais dépendre de
+        personne.</p><hr><blockquote><p><strong>Être Sin’dorei, c’est survivre à
+        la perte, comprendre la magie et décider ce que l’on est prêt à devenir
+        pour ne plus jamais être impuissant.</strong></p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      i2MQVvBnWjyhmgzX: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: 1789330057918
+      modifiedTime: 1789330057918
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _id: TavR08cwYXSAu4fQ
+    _key: '!journal.pages!y9ZwjOLLSaLSeFIN.TavR08cwYXSAu4fQ'
+folder: U6f0Y0LXCS7X5EDL
+categories: []
+ownership:
+  default: 0
+  i2MQVvBnWjyhmgzX: 3
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789330057918
+  modifiedTime: 1789330057921
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+sort: 0
+_key: '!journal!y9ZwjOLLSaLSeFIN'

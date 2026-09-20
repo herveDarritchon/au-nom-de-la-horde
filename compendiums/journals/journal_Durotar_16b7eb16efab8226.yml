@@ -1,0 +1,121 @@
+_id: 16b7eb16efab8226
+name: Durotar
+folder: 597f761006633d7f
+pages:
+  - _id: c27c85bb2e09710f
+    name: Durotar
+    type: text
+    text:
+      content: >-
+        <p><strong>Durotar</strong> est une région aride et rocailleuse située
+        sur la côte est de
+        <strong>@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.cb28ce8ef3d17087.JournalEntryPage.d26977c697af601a]{Kalimdor}</strong>.
+        Nommée en l'honneur du père de Thrall, cette terre de terre rouge, de
+        canyons brûlés par le soleil et de poussière a été choisie par la
+        nouvelle Horde comme terre d'accueil. Malgré son climat rude et les
+        dangers immédiats (scorpides géants, hurans, centaures), les pionniers y
+        construisent infatigablement leur nation. C'est une région de frontière,
+        rude mais pleine d'opportunités, centrée autour des premières fondations
+        d'Orgrimmar et du carrefour névralgique de
+        <strong>@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.accdb729c105149f.JournalEntryPage.7c145456209029db]{Tranchecolline}</strong>.</p>
+
+        <p><img
+        src="/worlds/au-nom-de-la-horde/vaults-cache/vault-coa-7e7c5ff7/static/Images/Illustrations/durotar.webp?v=2e9afecb7cee"
+        alt="durotar.webp" width="700"></p>
+      format: 1
+    sort: 100000
+    flags:
+      vaults:
+        vaultId: vault-coa-7e7c5ff7
+        path: Regions/Durotar/Durotar.md
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1788766247267
+      modifiedTime: 1788766247267
+      lastModifiedBy: V0twxN2oKehfUjVd
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!16b7eb16efab8226.c27c85bb2e09710f'
+  - _id: 752a031910fdcd36
+    name: Durotar
+    type: text
+    text:
+      content: |-
+        <h2 id="pages">Pages</h2>
+        <div class="bases-block">
+          <div class="bases-caption">Contents</div>
+          <div class="bases-toolbar">
+            <input type="search" class="bases-filter" placeholder="Filter…" aria-label="Filter table">
+            <span class="bases-count" data-total="1">1 row</span>
+          </div>
+          <div class="bases-scroll">
+            <table class="bases-table">
+              <thead><tr><th data-col="0" tabindex="0">Name</th><th data-col="1" tabindex="0">Mtime</th></tr></thead>
+              <tbody><tr data-row="0"><td data-raw="Durotar">@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.16b7eb16efab8226.JournalEntryPage.c27c85bb2e09710f]{Durotar}</td><td data-raw="1787749686000">2026-08-26</td></tr></tbody>
+            </table>
+          </div>
+        </div>
+      format: 1
+    sort: 0
+    flags:
+      vaults:
+        vaultId: vault-coa-7e7c5ff7
+        path: Regions/Durotar/index.md
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1788766247267
+      modifiedTime: 1788766247267
+      lastModifiedBy: V0twxN2oKehfUjVd
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!16b7eb16efab8226.752a031910fdcd36'
+flags:
+  vaults:
+    vaultId: vault-coa-7e7c5ff7
+    path: Regions/Durotar/index.md
+categories: []
+ownership:
+  default: 0
+  V0twxN2oKehfUjVd: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1788766247267
+  modifiedTime: 1788766247267
+  lastModifiedBy: V0twxN2oKehfUjVd
+  compendiumSource: Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.16b7eb16efab8226
+  duplicateSource: null
+  exportSource: null
+sort: 0
+_key: '!journal!16b7eb16efab8226'

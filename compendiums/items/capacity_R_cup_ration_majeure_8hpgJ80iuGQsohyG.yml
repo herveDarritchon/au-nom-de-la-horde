@@ -1,0 +1,89 @@
+folder: 9wusVgZFeiaMY9kN
+name: Récupération majeure
+type: capacity
+img: icons/magic/life/cross-flared-green.webp
+system:
+  description: >-
+    <p>Le prêtre peut soigner une cible (ou lui‑même) à une portée de 20 m ;
+    elle récupère immédiatement [3d4°+CHA du prêtre] PV. Le montant des soins
+    prodigués augmente de 1d4° chaque fois que le personnage atteint le rang 5
+    dans une voie de prêtre</p>
+  inGame: >-
+    <p>Le joueur sélectionne sa cible puis clique sur l'action pour lancer le
+    sort qui va automatiquement appliquer les soins.</p>
+  source: ''
+  origin: Livre des règles p125
+  slug: recuperation-majeure
+  subtype: ''
+  actionType: l
+  learned: false
+  charges:
+    current: null
+    max: null
+  properties:
+    spell: true
+  path: null
+  actions:
+    - source: Compendium.cof2-base.cof-2-base-items.Item.jWSywIYcwwkiEPAK
+      indice: 0
+      label: ''
+      chatFlavor: ''
+      type: heal
+      img: icons/svg/d20-highlight.svg
+      properties:
+        visible: false
+        enabled: false
+        activable: true
+        temporary: false
+        noManaCost: false
+        noChargesUsed: false
+      conditions:
+        - predicate: isLearned
+      resolvers:
+        - type: heal
+          bonusDiceAdd: false
+          malusDiceAdd: false
+          skill:
+            formula: 3d4° + @cha + @toutrang[5]d4°
+          target:
+            type: single
+            scope: all
+            number: '0'
+          additionalEffect:
+            active: false
+            applyOn: success
+            successThreshold: null
+            statuses: []
+            duration: '0'
+            unit: round
+          dmg: {}
+          halfDmgOnSave: true
+          hasAttackSuccessThreshold: false
+      modifiers: []
+      actionType: none
+  cost: -1
+  rank: 3
+  gmNotes: ''
+  frequency: none
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.jWSywIYcwwkiEPAK
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784689
+  modifiedTime: 1789895784689
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_id: 8hpgJ80iuGQsohyG
+sort: 0
+_key: '!items!8hpgJ80iuGQsohyG'

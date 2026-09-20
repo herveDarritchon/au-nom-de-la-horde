@@ -1,0 +1,20 @@
+name: Voies du druide
+sorting: m
+folder: 9Nu7XsgCLD3Ilzvj
+type: Item
+_id: Nc47ZdfleFUl6KQr
+description: ''
+sort: 300000
+color: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895789032
+  modifiedTime: 1789895789032
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_key: '!folders!Nc47ZdfleFUl6KQr'

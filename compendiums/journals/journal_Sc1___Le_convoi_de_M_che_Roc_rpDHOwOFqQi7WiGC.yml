@@ -1,0 +1,148 @@
+name: Sc1 — Le convoi de Mâche-Roc
+flags:
+  campaign-codex:
+    type: group
+    data:
+      description: ''
+      members:
+        - JournalEntry.3804DaSpkWC1bBzY
+        - JournalEntry.7tGmUEcyGu1BeheM
+        - JournalEntry.z5gIqN6n4XVkj1dq
+        - JournalEntry.idQ0pKSXB1APj1FT
+        - JournalEntry.IA98XHgxRxeHoo3y
+        - JournalEntry.yWqSuSmq7d7CyDlu
+        - JournalEntry.vC91ivaZT7R8IJdF
+        - JournalEntry.CGTq9fPzdD50Sw5y
+      linkedNPCs: []
+      notes: ''
+      linkedQuests:
+        - JournalEntry.NU5IW9hOrz0lfDlu
+      linkedStandardJournals:
+        - JournalEntry.agU7f5Ij9SnurwnW
+    contentStorageVersion: 1
+    contentPages:
+      info: wHfGadvoztcXJBjp
+      notes: 1YQRKM9X1952imZS
+    image: worlds/au-nom-de-la-horde/assets/images/illustrations/coa-convoie-pour-tranchecolline.png
+  core:
+    sheetClass: campaign-codex.GroupSheet
+pages:
+  - name: Information
+    type: text
+    sort: 100000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h2 data-heading="1. Pitch &amp; Prémisse">1. Pitch &amp;
+        Prémisse</h2><p><strong>Accroche (Pitch) :</strong> Les PJ sont chargés
+        d’escorter depuis la @UUID[JournalEntry.3804DaSpkWC1bBzY]{Mine de
+        Roche-Sèche} jusqu’à
+        @UUID[JournalEntry.7tGmUEcyGu1BeheM]{Tranchecolline} (Razor Hill) un
+        convoi stratégique pour la Horde. Sa cargaison la plus précieuse est
+        censée être @UUID[JournalEntry.H8dpEah73C7TluZP]{Mâche-Roc}, la célèbre
+        foreuse de la mine, réquisitionnée pour des travaux sous Orgrimmar. Mais
+        le voyage va les confronter à trois dangers de nature volontairement
+        différente : une menace locale, une manipulation magique, et une tension
+        diplomatique.<br><strong>Thème &amp; Tonalité :</strong> Voyage,
+        Escorte, Découverte des vraies menaces de Durotar,
+        Faux-semblants.<br><strong>Durée estimée :</strong> 1
+        session<br><strong>Niveau recommandé :</strong> Débutant (Niveau
+        1)</p><hr><h2 data-heading="2. La Vérité &amp; L'Iceberg de
+        l'Enquête">2. La Vérité &amp; L'Iceberg de l'Enquête</h2><p><strong>Ce
+        qui s'est réellement passé (Backstory)
+        :</strong></p><ul><li><p><strong>La Vérité cachée :</strong>
+        <strong>@UUID[JournalEntry.H8dpEah73C7TluZP]{Mâche-Roc}</strong> n’est
+        déjà plus dans le convoi. Avant l'arrivée des PJ,
+        @UUID[JournalEntry.vC91ivaZT7R8IJdF]{Krosh Pèse-Charge,} acheté par un
+        intermédiaire du Cercle de la Pierre Brisée, a fait remplacer ses
+        éléments par des caisses lestées de pierres. Le sabotage a eu lieu
+        <em>avant</em> même le départ.</p></li><li><p><strong>Niveau 0 (Surface
+        / Accroche) :</strong> Les PJ doivent défendre le convoi contre les
+        périls de la route, pensant protéger l'équipement de la
+        Horde.</p></li><li><p><strong>Niveau -1 (Première couche) :</strong>
+        Lors de l'attaque des sangliers, un indice magique suggère qu'une force
+        intelligente (un chaman du Cercle) a manipulé les bêtes pour ralentir ou
+        désorganiser le convoi à distance.</p></li></ul>
+    ownership:
+      default: -1
+    flags:
+      core:
+        sheetClass: campaign-codex.CampaignCodexContentPageSheet
+      campaign-codex:
+        contentKey: info
+    _id: wHfGadvoztcXJBjp
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: 1789330038080
+      modifiedTime: 1789330038080
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!rpDHOwOFqQi7WiGC.wHfGadvoztcXJBjp'
+  - name: GM Notes
+    type: text
+    sort: 200000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: ''
+    ownership:
+      default: 0
+    flags:
+      core:
+        sheetClass: campaign-codex.CampaignCodexContentPageSheet
+      campaign-codex:
+        contentKey: notes
+    _id: 1YQRKM9X1952imZS
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: 1789330038080
+      modifiedTime: 1789330038080
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!rpDHOwOFqQi7WiGC.1YQRKM9X1952imZS'
+_id: rpDHOwOFqQi7WiGC
+folder: azWtxXBLHOWVMAw0
+categories: []
+ownership:
+  default: 0
+  i2MQVvBnWjyhmgzX: 3
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789330038080
+  modifiedTime: 1789330038107
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+sort: 200000
+_key: '!journal!rpDHOwOFqQi7WiGC'

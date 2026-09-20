@@ -1,0 +1,43 @@
+folder: ZU8jQk7j2jqAuJbV
+name: Orc
+type: feature
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/races/coa-orc.png
+_id: k5hPsJBWpex0nofr
+system:
+  description: >-
+    <blockquote><p><span><strong>« Tenir. Imposer sa présence. Frapper plus
+    brutalement que l’adversaire. »</strong></span></p></blockquote><p
+    class="MsoNormal"><span style="mso-ansi-language:FR">Les Orcs de Warbound
+    sont des survivants de Draenor qui ont échappé à la corruption démoniaque et
+    cherchent à bâtir une nouvelle patrie. Leur identité mécanique repose sur
+    l’endurance, une violence maîtrisée qui peut exploser au moment décisif, et
+    une culture martiale qui varie selon les clans et les individus.</span></p>
+  source: ''
+  origin: warbound
+  slug: ''
+  gmNotes: ''
+  subtype: people
+  modifiers: []
+  paths:
+    - Item.m1jV9Cl6INROPREZ
+  capacities:
+    - Item.MJ3KDauouJXSsSED
+    - Item.1uh8CzK7ojxKJQho
+    - Item.Vknb84JVHRnwKiva
+effects: []
+sort: 0
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895786817
+  modifiedTime: 1789895786817
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!k5hPsJBWpex0nofr'

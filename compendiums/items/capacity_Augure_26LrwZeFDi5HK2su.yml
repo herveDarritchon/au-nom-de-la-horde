@@ -1,0 +1,91 @@
+folder: QbGU3agOtNxWKOdP
+name: Augure
+type: capacity
+img: icons/magic/perception/orb-crystal-ball-scrying-blue.webp
+system:
+  description: >-
+    <p>Le prêtre entre en contact avec les forces de l’au‑delà et demande un
+    avis sur les conséquences d’une action (par exemple « quelles seront les
+    conséquences si j’ouvre cette porte ? »). Il doit faire un test de CHA
+    difficulté 10. En cas de succès, il reçoit une réponse déterminée par le MJ
+    parmi : <strong>bénéfique, incertain, risqué ou préjudiciable</strong>. Le
+    MJ essaie de donner la réponse la plus utile possible au scénario.</p>
+  inGame: >-
+    <p>L'action permet de réaliser le test de sauvegarde de CHA difficulté 10 et
+    de dépenser les PM.</p>
+  source: ''
+  origin: Livre des règles p125
+  slug: augure
+  subtype: ''
+  actionType: l
+  learned: false
+  charges:
+    current: null
+    max: null
+  properties:
+    spell: true
+  path: null
+  actions:
+    - source: Compendium.cof2-base.cof-2-base-items.Item.7cufA1lXr2cBGmQ6
+      indice: 0
+      label: ''
+      chatFlavor: ''
+      img: icons/svg/d20-highlight.svg
+      type: spell
+      actionType: none
+      properties:
+        activable: true
+        temporary: false
+        noChargesUsed: false
+        noManaCost: false
+        visible: false
+        enabled: false
+      conditions:
+        - predicate: isLearned
+      resolvers:
+        - type: save
+          saveAbility: cha
+          saveDifficulty: '10'
+          target:
+            type: self
+            number: '0'
+            scope: all
+          additionalEffect:
+            active: false
+            applyOn: success
+            statuses: []
+            duration: '0'
+            unit: round
+          bonusDiceAdd: false
+          malusDiceAdd: false
+          skill: {}
+          dmg: {}
+          halfDmgOnSave: true
+          hasAttackSuccessThreshold: false
+      modifiers: []
+  cost: -1
+  rank: 2
+  gmNotes: ''
+  frequency: none
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.7cufA1lXr2cBGmQ6
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784691
+  modifiedTime: 1789895784691
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_id: 26LrwZeFDi5HK2su
+sort: 0
+_key: '!items!26LrwZeFDi5HK2su'

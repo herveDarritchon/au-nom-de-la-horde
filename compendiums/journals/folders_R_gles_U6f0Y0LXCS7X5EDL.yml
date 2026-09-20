@@ -1,0 +1,20 @@
+type: JournalEntry
+folder: null
+name: Règles
+color: '#155d25'
+sorting: a
+_id: U6f0Y0LXCS7X5EDL
+description: ''
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789330053464
+  modifiedTime: 1789330053464
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!U6f0Y0LXCS7X5EDL'

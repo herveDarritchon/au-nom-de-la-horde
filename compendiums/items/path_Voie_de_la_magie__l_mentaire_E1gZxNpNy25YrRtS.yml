@@ -1,0 +1,33 @@
+folder: ctiSnkkZ8WGZs5Z3
+name: Voie de la magie élémentaire
+type: path
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/voies/classes/mage/cof2-voie-de-la-magie-elementaire.png
+system:
+  description: ''
+  source: ''
+  origin: Warbound
+  slug: voie-de-la-magie-elementaire
+  subtype: profile
+  capacities: []
+  rank: 0
+  gmNotes: ''
+  maxDefenseArmor: 0
+  pvByLevel: 0
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.3MgjXVZPWej4gX4z
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895789071
+  modifiedTime: 1789895789071
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_id: E1gZxNpNy25YrRtS
+sort: 0
+_key: '!items!E1gZxNpNy25YrRtS'

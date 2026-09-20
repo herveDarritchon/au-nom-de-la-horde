@@ -1,0 +1,121 @@
+folder: 7pl999isgEbTsXUl
+name: Baratin
+type: capacity
+img: icons/tools/instruments/flute-simple-wood.webp
+system:
+  description: >-
+    <p style="text-align:justify">Le voleur ajoute son rang + 2 aux tests
+    destinés à baratiner, séduire, négocier, mentir ou pour trouver un objet au
+    marché noir. De plus, il devient capable d’utiliser les parchemins ou les
+    baguettes magiques en réussissant un test d’attaque magique (L) contre une
+    difficulté de (10 + (2 x rang du sort inscrit)). En cas d’échec, le sort
+    n’est pas lancé et le voleur peut faire une nouvelle tentative.</p>
+  inGame: >-
+    <p>Le bonus aux jet pour baratiner est un bonus permanent à partir du moment
+    où il est appris. L'action d'attaque magique permet au personnage de tester
+    d'utiliser un parchemin ou une baguette magique. Reste au MJ de comparer
+    avec la Difficulté.</p>
+  source: ''
+  origin: Livre des règles p75
+  slug: baratin
+  subtype: ''
+  actionType: l
+  learned: false
+  charges:
+    current: null
+    max: null
+  properties:
+    spell: false
+  path: null
+  actions:
+    - source: Compendium.cof2-base.cof-2-base-items.Item.lFt8Ds2CoZAZ65yt
+      indice: 0
+      label: ''
+      chatFlavor: ''
+      img: icons/svg/d20-highlight.svg
+      type: buff
+      properties:
+        visible: false
+        enabled: false
+        activable: false
+        temporary: false
+        noManaCost: false
+        noChargesUsed: false
+      conditions:
+        - predicate: isLearned
+      modifiers:
+        - type: capacity
+          source: Compendium.cof2-base.cof-2-base-items.Item.lFt8Ds2CoZAZ65yt
+          subtype: skill
+          target: cha
+          value: 2 + @rang
+          apply: self
+          additionalInfos: baratin/persuasion
+          choiceGroup: 0
+      resolvers: []
+      actionType: none
+    - source: Compendium.cof2-base.cof-2-base-items.Item.lFt8Ds2CoZAZ65yt
+      indice: 1
+      label: Utilisation parchemins et baguettes magiques
+      chatFlavor: ''
+      img: icons/svg/d20-highlight.svg
+      type: magical
+      properties:
+        visible: false
+        enabled: false
+        activable: true
+        temporary: false
+        noManaCost: false
+        noChargesUsed: false
+      conditions:
+        - predicate: isLearned
+      resolvers:
+        - type: attack
+          bonusDiceAdd: false
+          malusDiceAdd: false
+          skill:
+            formula: '@atm'
+            crit: ''
+            difficulty: ''
+          dmg:
+            formula: ''
+          target:
+            type: none
+            number: '0'
+            scope: all
+          additionalEffect:
+            active: false
+            applyOn: success
+            statuses: []
+            duration: '0'
+            unit: round
+          halfDmgOnSave: true
+          hasAttackSuccessThreshold: false
+      modifiers: []
+      actionType: none
+  cost: -1
+  rank: 1
+  gmNotes: ''
+  frequency: none
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.lFt8Ds2CoZAZ65yt
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784696
+  modifiedTime: 1789895784696
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_id: 31v8Fo6lwLFJ7pAw
+sort: 0
+_key: '!items!31v8Fo6lwLFJ7pAw'

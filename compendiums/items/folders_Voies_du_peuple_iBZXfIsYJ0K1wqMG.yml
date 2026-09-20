@@ -1,0 +1,20 @@
+type: Item
+folder: 9Nu7XsgCLD3Ilzvj
+name: Voies du peuple
+color: '#1514c2'
+sorting: a
+_id: iBZXfIsYJ0K1wqMG
+description: ''
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895789032
+  modifiedTime: 1789895789032
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!iBZXfIsYJ0K1wqMG'

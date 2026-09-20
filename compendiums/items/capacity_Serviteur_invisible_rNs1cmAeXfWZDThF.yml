@@ -1,0 +1,77 @@
+folder: WZ70krW97cZ8MiK3
+name: Serviteur invisible
+type: capacity
+img: icons/creatures/magical/spirit-undead-ghost-blue.webp
+system:
+  description: >-
+    <p style="text-align:justify">Ce sort crée une force invisible pendant CHA
+    minutes. Le serviteur peut effectuer à distance des tâches simples ne
+    nécessitant pas de test de réussite avec une AGI et une INT de +0 et une FOR
+    égale au CHA de l’ensorceleur (portée 20 m). Il peut par exemple rapporter
+    un objet ou actionner un levier, voire faire la vaisselle. Le serviteur
+    invisible se déplace à la même vitesse que l’ensorceleur, ne pèse rien, ne
+    parle pas, n’a pas vraiment d’existence et peut se déplacer dans toutes les
+    directions. Concevez‑le davantage comme une force qui obéit aux injonctions
+    télépathiques de son créateur que comme une créature. Il n’attaque pas et ne
+    peut pas être combattu, mais il peut être dissipé grâce au sort de maîtrise
+    de la magie.</p>
+  inGame: >-
+    <p>Activer l'action permet de dépenser les PM. Les effets sont à gérer en
+    jeu.</p>
+  source: ''
+  origin: Livre des règles p96
+  slug: serviteur-invisible
+  subtype: ''
+  actionType: l
+  learned: false
+  charges:
+    current: null
+    max: null
+  properties:
+    spell: true
+  path: null
+  actions:
+    - source: Compendium.cof2-base.cof-2-base-items.Item.ktozYd7EaYJlvVcv
+      indice: 0
+      label: Activation du sort
+      chatFlavor: ''
+      img: icons/svg/d20-highlight.svg
+      type: spell
+      properties:
+        visible: false
+        enabled: false
+        activable: true
+        temporary: false
+        noManaCost: false
+        noChargesUsed: false
+      conditions:
+        - predicate: isLearned
+      modifiers: []
+      resolvers: []
+      actionType: none
+  cost: -1
+  rank: 2
+  gmNotes: ''
+  frequency: none
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.ktozYd7EaYJlvVcv
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784662
+  modifiedTime: 1789895784662
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_id: rNs1cmAeXfWZDThF
+sort: 0
+_key: '!items!rNs1cmAeXfWZDThF'

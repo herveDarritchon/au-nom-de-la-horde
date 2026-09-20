@@ -1,0 +1,111 @@
+folder: dDlmKHRV7pMCI2OZ
+name: Terrains difficiles
+type: capacity
+img: icons/magic/nature/root-vines-grow-brown.webp
+system:
+  description: >-
+    <p>Le druide ne subit aucune pénalité de déplacement en terrain difficile
+    (natation, neige, boue, broussailles, pente abrupte, etc.). Il obtient un
+    bonus de +3 en initiative, et +1 en attaque et en DEF lors d’un combat dans
+    ces conditions.</p>
+  inGame: >-
+    <p>Il s'agit d'un bonus activable/désactivable si le druide est dans les
+    conditions indiquées. Les modificateurs aux déplacements ne sont pas
+    automatisés.</p>
+  source: ''
+  origin: Livre des règles p116
+  slug: terrains-difficiles
+  subtype: ''
+  actionType: none
+  learned: false
+  charges:
+    current: null
+    max: null
+  properties:
+    spell: false
+  path: null
+  actions:
+    - source: Compendium.cof2-base.cof-2-base-items.Item.Thbx7PgCm5PYjCR0
+      indice: 0
+      label: ''
+      chatFlavor: ''
+      type: buff
+      img: icons/svg/d20-highlight.svg
+      properties:
+        visible: false
+        enabled: false
+        activable: true
+        temporary: true
+        noManaCost: false
+        noChargesUsed: false
+      conditions:
+        - predicate: isLearned
+      modifiers:
+        - type: capacity
+          source: Compendium.cof2-base.cof-2-base-items.Item.Thbx7PgCm5PYjCR0
+          subtype: combat
+          target: melee
+          apply: self
+          value: '1'
+          additionalInfos: ''
+          choiceGroup: 0
+        - type: capacity
+          source: Compendium.cof2-base.cof-2-base-items.Item.Thbx7PgCm5PYjCR0
+          subtype: combat
+          target: def
+          apply: self
+          value: '1'
+          additionalInfos: ''
+          choiceGroup: 0
+        - type: capacity
+          source: Compendium.cof2-base.cof-2-base-items.Item.Thbx7PgCm5PYjCR0
+          subtype: combat
+          target: init
+          apply: self
+          value: '3'
+          additionalInfos: ''
+          choiceGroup: 0
+        - type: capacity
+          source: Compendium.cof2-base.cof-2-base-items.Item.Thbx7PgCm5PYjCR0
+          subtype: combat
+          target: ranged
+          apply: self
+          value: '1'
+          additionalInfos: ''
+          choiceGroup: 0
+        - type: capacity
+          source: Compendium.cof2-base.cof-2-base-items.Item.Thbx7PgCm5PYjCR0
+          subtype: combat
+          target: magic
+          apply: self
+          value: '1'
+          additionalInfos: ''
+          choiceGroup: 0
+      resolvers: []
+      actionType: none
+  cost: -1
+  rank: 2
+  gmNotes: ''
+  frequency: none
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.Thbx7PgCm5PYjCR0
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784671
+  modifiedTime: 1789895784671
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_id: Gkl3fcJhJbOIa2T2
+sort: 0
+_key: '!items!Gkl3fcJhJbOIa2T2'

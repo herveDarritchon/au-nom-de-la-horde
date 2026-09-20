@@ -1,0 +1,60 @@
+folder: yyuEQhhW4jOgg7ig
+name: Choc martial
+type: capacity
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/pie%CC%81tinement-de-guerre.png
+system:
+  description: >-
+    <p>Choc martial représente le racial actif emblématique du Tauren. La
+    conversion COF2 doit produire une onde de choc de très courte portée autour
+    du personnage, avec une résistance et une recharge explicites. Le choix
+    entre l’état Étourdi et une version moins verrouillante fondée sur Renversé
+    n’est pas arrêté dans cette v0.7.</p>
+  inGame: ''
+  source: ''
+  origin: warbound
+  slug: haches-et-marteaux
+  subtype: ''
+  actionType: none
+  learned: false
+  charges:
+    current: null
+    max: null
+  properties:
+    spell: false
+  path: null
+  actions: []
+  cost: -1
+  rank: 1
+  gmNotes: >-
+    <p>Règle de design : Étourdi supprime toutes les actions et inflige -5 DEF ;
+    l’utiliser sur plusieurs cibles exige donc un garde-fou fort. La capacité
+    définitive devra préciser son type d’action, sa zone, le test de résistance,
+    la durée exacte et sa recharge avant d’être considérée comme
+    stable.</p><p>Foundry : ne pas automatiser le Talent tant que sa formulation
+    mécanique n’est pas verrouillée. Prévoir un Objet Capacité séparé et une
+    recharge compatible avec les conventions COF2.</p><p>Peut être choisi
+    gratuitement à la création. Sinon : coût provisoire 1 PC lors d’une
+    progression.</p><p></p>
+  frequency: none
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.QIxVby70L3mFXaPh
+  duplicateSource: Item.MJ3KDauouJXSsSED
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784644
+  modifiedTime: 1789895784644
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+sort: 100000
+_id: Lp4uLqmy25YRbv6X
+_key: '!items!Lp4uLqmy25YRbv6X'

@@ -1,0 +1,2259 @@
+_id: c7bf87a9785ebb74
+name: classes
+folder: 2791f7b642825d83
+pages:
+  - _id: 216697f9320ef355
+    name: Druide
+    type: text
+    text:
+      content: >-
+        <div class="image-banner">
+
+        <p><img
+        src="/worlds/au-nom-de-la-horde/vaults-cache/vault-coa-7e7c5ff7/static/Images/Illustrations/tauren-druid-artwork.webp?v=93de4bba30c6"
+        alt="tauren-druid-artwork.webp" class="default-width"></p>
+
+        </div>
+
+        <blockquote>
+
+        <p><strong>Document méta joueur.</strong> Cette fiche sert à comprendre
+        l'identité, le style de jeu et les choix structurants du personnage.
+        Elle ne remplace pas les règles complètes de <em>Champions of
+        Azeroth</em> ni la fiche Foundry VTT.</p>
+
+        </blockquote>
+
+        <h2 id="fantasy-de-classe">Fantasy de classe</h2>
+
+        <img
+        src="https://wow.zamimg.com/images/wow/icons/large/classicon_druid.jpg"
+        alt="Druide" width="80">
+
+        <p>Le Druide protège l'équilibre naturel en combinant <strong>magie de
+        la nature</strong> et <strong>métamorphose</strong>. Dans <em>Champions
+        of Azeroth</em>, il peut frapper à distance avec les forces du soleil,
+        de la lune et des étoiles, soigner, contrôler le terrain ou adopter des
+        formes spirituelles animales.</p>
+
+        <h2 id="profil-mécanique">Profil mécanique</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <table><thead><tr><th>Élément</th><th>Valeur</th></tr></thead><tbody><tr><td>Dé
+        de vie</td><td><strong>d8</strong></td></tr><tr><td>Caractéristique
+        principale</td><td><strong>Sagesse</strong></td></tr><tr><td>Jets de
+        sauvegarde</td><td>Intelligence,
+        Sagesse</td></tr><tr><td>Armures</td><td>Légères</td></tr><tr><td>Armes</td><td>Simples</td></tr><tr><td>Outil</td><td>Herbalism
+        kit</td></tr><tr><td>Lancement de sorts</td><td>Préparé, basé sur la
+        Sagesse</td></tr></tbody></table>
+
+        <h2 id="mécaniques-emblématiques">Mécaniques emblématiques</h2>
+
+        <h3 id="spirit-shape">Spirit Shape</h3>
+
+        <p>La métamorphose est au cœur de cette version du Druide. Le personnage
+        adopte des <strong>formes spirituelles</strong> : Claw, Fang, Waves,
+        Talon, puis éventuellement d'autres selon la spécialisation.</p>
+
+        <p>Particularité importante de <em>Champions of Azeroth</em> : la
+        transformation <strong>ne remplace pas les PV actuels ou maximums du
+        Druide</strong>. Les dégâts subis sous forme spirituelle sont donc
+        directement ceux du personnage.</p>
+
+        <h3 id="wild-gifts">Wild Gifts</h3>
+
+        <p>À partir du niveau 2, le Druide choisit des <strong>Wild
+        Gifts</strong>, des techniques qui personnalisent sa relation à la
+        nature et améliorent notamment ses transformations.</p>
+
+        <h3 id="spellcasting">Spellcasting</h3>
+
+        <p>Le Druide reste un lanceur de sorts complet utilisant la
+        <strong>Sagesse</strong>, avec préparation des sorts après un repos
+        long.</p>
+
+        <h2 id="spécialisations">Spécialisations</h2>
+
+        <h3 id="équilibre--balance">Équilibre — Balance</h3>
+
+        <blockquote>
+
+        <p>Déchaîne la puissance du soleil, de la lune et des étoiles.</p>
+
+        </blockquote>
+
+        <p>Orientation : magie offensive, récupération de puissance magique,
+        magie céleste.</p>
+
+        <h3 id="farouche--feral">Farouche — Feral</h3>
+
+        <blockquote>
+
+        <p>Adopte des formes de grands prédateurs pour protéger ses alliés et
+        chasser ses ennemis.</p>
+
+        </blockquote>
+
+        <p>Orientation : métamorphose et combat physique. Cette spécialisation
+        réduit volontairement la progression de lancement de sorts au profit du
+        combat en forme animale.</p>
+
+        <h3 id="restauration--restoration">Restauration — Restoration</h3>
+
+        <blockquote>
+
+        <p>Utilise le pouvoir apaisant de la nature pour soigner et
+        restaurer.</p>
+
+        </blockquote>
+
+        <p>Orientation : soins, soutien et résilience du groupe.</p>
+
+        <h2 id="race-disponible-dans-cette-campagne">Race disponible dans cette
+        campagne</h2>
+
+        <ul>
+
+        <li><strong>Tauren uniquement</strong></li>
+
+        </ul>
+
+        <h2 id="en-dehors-du-combat">En dehors du combat</h2>
+
+        <p>Le Druide peut naturellement briller dans :</p>
+
+        <ul>
+
+        <li>la lecture du comportement de la faune ;</li>
+
+        <li>l'exploration de lieux naturels ;</li>
+
+        <li>la recherche de passages ;</li>
+
+        <li>l'interprétation de perturbations écologiques ;</li>
+
+        <li>les interactions avec les animaux et les forces de la nature.</li>
+
+        </ul>
+
+        <h2 id="à-garder-en-tête">À garder en tête</h2>
+
+        <p>Le Druide demande de suivre à la fois :</p>
+
+        <ul>
+
+        <li>une liste de sorts préparés ;</li>
+
+        <li>plusieurs formes spirituelles ;</li>
+
+        <li>des Wild Gifts ;</li>
+
+        <li>les capacités propres à sa spécialisation.</li>
+
+        </ul>
+
+        <h2 id="bon-choix-si-tu-veux">Bon choix si tu veux…</h2>
+
+        <ul>
+
+        <li>changer de rôle selon les situations ;</li>
+
+        <li>te métamorphoser ;</li>
+
+        <li>utiliser la nature comme outil d'exploration autant que de combat
+        ;</li>
+
+        <li>jouer un Tauren très lié à l'équilibre du monde.</li>
+
+        </ul>
+
+        <h2 id="source">Source</h2>
+
+        <ul>
+
+        <li>Silverblade, <em>Champions of Azeroth</em>, 30 mai 2021, <strong>pp.
+        13–20</strong>.</li>
+
+        </ul>
+      format: 1
+    sort: 100000
+    flags:
+      vaults:
+        vaultId: vault-coa-7e7c5ff7
+        path: Regles/classes/01_Druide.md
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1788766247338
+      modifiedTime: 1788766247338
+      lastModifiedBy: V0twxN2oKehfUjVd
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!c7bf87a9785ebb74.216697f9320ef355'
+  - _id: a62f8344c3d8c272
+    name: Chasseur
+    type: text
+    text:
+      content: >-
+        <img src="https://w.wallhaven.cc/full/nm/wallhaven-nmxrr9.jpg"
+        alt="Bandeau">
+
+        <blockquote>
+
+        <p><strong>Document méta joueur.</strong> Cette fiche sert à comprendre
+        l'identité, le style de jeu et les choix structurants du personnage.
+        Elle ne remplace pas les règles complètes de <em>Champions of
+        Azeroth</em> ni la fiche Foundry VTT.</p>
+
+        </blockquote>
+
+        <h2 id="fantasy-de-classe">Fantasy de classe</h2>
+
+        <img
+        src="https://wow.zamimg.com/images/wow/icons/large/classicon_hunter.jpg"
+        alt="Chasseur" width="80">
+
+        <p>Le Chasseur est un maître de l'environnement : pisteur, combattant
+        martial, spécialiste de la survie et éventuellement maître d'un
+        compagnon animal.</p>
+
+        <p><em>Champions of Azeroth</em> ne le traite pas comme un simple «
+        archer ». Il peut combattre à distance ou au contact, poser des pièges,
+        exploiter son environnement et concentrer ses techniques sur une
+        proie.</p>
+
+        <h2 id="profil-mécanique">Profil mécanique</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <table><thead><tr><th>Élément</th><th>Valeur</th></tr></thead><tbody><tr><td>Dé
+        de vie</td><td><strong>d10</strong></td></tr><tr><td>Caractéristiques
+        principales</td><td><strong>Dextérité et
+        Sagesse</strong></td></tr><tr><td>Jets de sauvegarde</td><td>Force,
+        Dextérité</td></tr><tr><td>Armures</td><td>Légères,
+        intermédiaires</td></tr><tr><td>Boucliers</td><td>Oui</td></tr><tr><td>Armes</td><td>Simples
+        et martiales</td></tr><tr><td>Compétences</td><td>3 au choix dans une
+        liste orientée terrain/enquête</td></tr></tbody></table>
+
+        <h2 id="mécaniques-emblématiques">Mécaniques emblématiques</h2>
+
+        <h3 id="trailblazer">Trailblazer</h3>
+
+        <p>Le Chasseur facilite les voyages du groupe : terrain difficile,
+        rythme de déplacement, vigilance et furtivité collective.</p>
+
+        <h3 id="hunting-tactics">Hunting Tactics</h3>
+
+        <p>Dès le niveau 1, le personnage choisit une orientation structurante
+        :</p>
+
+        <ul>
+
+        <li><strong>Lone Wolf</strong> : marquer et traquer personnellement une
+        proie ;</li>
+
+        <li><strong>Animal Companion</strong> : voyager et combattre avec un
+        compagnon animal.</li>
+
+        </ul>
+
+        <p>Ce choix est distinct de la spécialisation de niveau 3.</p>
+
+        <h3 id="focus">Focus</h3>
+
+        <p>À partir du niveau 2, le Chasseur dispose de <strong>Focus
+        Dice</strong> et de <strong>Focus Techniques</strong>. Ces dés
+        alimentent des techniques tactiques et deviennent progressivement plus
+        puissants.</p>
+
+        <h3 id="wild-lore">Wild Lore</h3>
+
+        <p>Le Chasseur acquiert aussi une forme légère de magie sauvage,
+        alimentée par la Sagesse et pouvant également consommer des dés de
+        Focus.</p>
+
+        <h3 id="animal-aspects">Animal Aspects</h3>
+
+        <p>La progression donne accès à plusieurs aspects animaux apportant
+        mobilité, défense ou furtivité.</p>
+
+        <h2 id="spécialisations">Spécialisations</h2>
+
+        <h3 id="maîtrise-des-bêtes--beast-mastery">Maîtrise des bêtes — Beast
+        Mastery</h3>
+
+        <blockquote>
+
+        <p>Maître du sauvage qui apprivoise et entraîne des bêtes
+        puissantes.</p>
+
+        </blockquote>
+
+        <p><strong>Prérequiert d'avoir choisi Animal Companion.</strong></p>
+
+        <p>Orientation : compagnon plus puissant, coopération avec le
+        familier.</p>
+
+        <h3 id="précision--marksmanship">Précision — Marksmanship</h3>
+
+        <blockquote>
+
+        <p>Tireur d'élite spécialisé dans l'élimination des ennemis à grande
+        distance.</p>
+
+        </blockquote>
+
+        <p>Orientation : portée, précision, critiques et attaques à
+        distance.</p>
+
+        <h3 id="survie--survival">Survie — Survival</h3>
+
+        <blockquote>
+
+        <p>Pisteur robuste utilisant venins, explosifs et pièges comme
+        armes.</p>
+
+        </blockquote>
+
+        <p>Orientation : terrain, pièges, bombes et contrôle.</p>
+
+        <h2 id="races-disponibles-dans-cette-campagne">Races disponibles dans
+        cette campagne</h2>
+
+        <ul>
+
+        <li><strong>Orc</strong></li>
+
+        <li><strong>Troll</strong></li>
+
+        <li><strong>Tauren</strong></li>
+
+        </ul>
+
+        <h2 id="en-dehors-du-combat">En dehors du combat</h2>
+
+        <p>Le Chasseur est particulièrement utile pour :</p>
+
+        <ul>
+
+        <li>suivre une piste ;</li>
+
+        <li>identifier une créature ;</li>
+
+        <li>repérer une embuscade ;</li>
+
+        <li>reconnaître un terrain ;</li>
+
+        <li>trouver ou sécuriser un itinéraire ;</li>
+
+        <li>comprendre le comportement d'animaux ou de prédateurs.</li>
+
+        </ul>
+
+        <h2 id="à-garder-en-tête">À garder en tête</h2>
+
+        <p>La classe offre beaucoup de choix tactiques : Hunting Tactics, style
+        de combat, techniques de Focus, Wild Lore, Animal Aspects et
+        spécialisation.</p>
+
+        <h2 id="bon-choix-si-tu-veux">Bon choix si tu veux…</h2>
+
+        <ul>
+
+        <li>être très utile en exploration ;</li>
+
+        <li>jouer un éclaireur ;</li>
+
+        <li>avoir éventuellement un compagnon animal ;</li>
+
+        <li>utiliser des pièges et techniques plutôt qu'une liste de sorts
+        complète.</li>
+
+        </ul>
+
+        <h2 id="source">Source</h2>
+
+        <ul>
+
+        <li>Silverblade, <em>Champions of Azeroth</em>, 30 mai 2021, <strong>pp.
+        21–29</strong>.</li>
+
+        </ul>
+      format: 1
+    sort: 100000
+    flags:
+      vaults:
+        vaultId: vault-coa-7e7c5ff7
+        path: Regles/classes/02_Chasseur.md
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1788766247338
+      modifiedTime: 1788766247338
+      lastModifiedBy: V0twxN2oKehfUjVd
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!c7bf87a9785ebb74.a62f8344c3d8c272'
+  - _id: 53c4bd2359f7f29c
+    name: Mage
+    type: text
+    text:
+      content: >-
+        <div class="image-banner">
+
+        <p><img
+        src="/worlds/au-nom-de-la-horde/vaults-cache/vault-coa-7e7c5ff7/static/Images/Illustrations/mage-artwork.webp?v=321ce91b6cfb"
+        alt="mage-artwork.jpg" class="default-width"></p>
+
+        </div>
+
+        <blockquote>
+
+        <p><strong>Document méta joueur.</strong> Cette fiche sert à comprendre
+        l'identité, le style de jeu et les choix structurants du personnage.
+        Elle ne remplace pas les règles complètes de <em>Champions of
+        Azeroth</em> ni la fiche Foundry VTT.</p>
+
+        </blockquote>
+
+        <h2 id="fantasy-de-classe">Fantasy de classe</h2>
+
+        <img
+        src="https://wow.zamimg.com/images/wow/icons/large/classicon_mage.jpg"
+        alt="Mage" width="80">
+
+        <p>Le Mage est l'érudit des arcanes : un lanceur de sorts complet qui
+        apprend, prépare et conserve ses sorts dans un
+        <strong>spellbook</strong>.</p>
+
+        <p>Cette classe reprend volontairement la structure du Wizard de D&amp;D
+        5e, mais l'oriente vers les trois grandes spécialisations emblématiques
+        de Warcraft : <strong>Arcane, Fire et Frost</strong>.</p>
+
+        <h2 id="profil-mécanique">Profil mécanique</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <table><thead><tr><th>Élément</th><th>Valeur</th></tr></thead><tbody><tr><td>Dé
+        de vie</td><td><strong>d6</strong></td></tr><tr><td>Caractéristique
+        principale</td><td><strong>Intelligence</strong></td></tr><tr><td>Jets
+        de sauvegarde</td><td>Intelligence,
+        Sagesse</td></tr><tr><td>Armure</td><td>Aucune</td></tr><tr><td>Armes</td><td>Dague,
+        fléchettes, fronde, bâton, arbalète légère</td></tr><tr><td>Lancement de
+        sorts</td><td>Préparé depuis un spellbook</td></tr></tbody></table>
+
+        <h2 id="mécaniques-emblématiques">Mécaniques emblématiques</h2>
+
+        <h3 id="spellbook">Spellbook</h3>
+
+        <p>Le Mage commence avec un livre de sorts, apprend de nouveaux sorts en
+        progressant et peut également en copier lorsqu'il en découvre en
+        aventure.</p>
+
+        <h3 id="evocation">Evocation</h3>
+
+        <p>Cette capacité permet de récupérer une partie des emplacements de
+        sorts dépensés pendant un repos court.</p>
+
+        <h3 id="mage-specialization">Mage Specialization</h3>
+
+        <p>La spécialisation arrive dès le <strong>niveau 2</strong>.</p>
+
+        <h3 id="arcane-brilliance">Arcane Brilliance</h3>
+
+        <p>À partir du niveau 3, l'intelligence exceptionnelle du Mage lui
+        permet notamment :</p>
+
+        <ul>
+
+        <li>de lancer occasionnellement un sort du spellbook non préparé ;</li>
+
+        <li>d'accélérer certains rituels ;</li>
+
+        <li>de fiabiliser certains tests d'Intelligence.</li>
+
+        </ul>
+
+        <h2 id="spécialisations">Spécialisations</h2>
+
+        <h3 id="arcanes--arcane">Arcanes — Arcane</h3>
+
+        <blockquote>
+
+        <p>Manipule l'essence pure de la magie, renforce ses sorts et retourne
+        la magie ennemie contre elle.</p>
+
+        </blockquote>
+
+        <p>Orientation : gestion de <strong>Arcane Charges</strong>, puissance
+        contrôlée et défense contre la magie.</p>
+
+        <h3 id="feu--fire">Feu — Fire</h3>
+
+        <blockquote>
+
+        <p>Exploite la puissance destructrice et volatile du feu.</p>
+
+        </blockquote>
+
+        <p>Orientation : dégâts de feu, amplification des dés de dégâts et
+        effets explosifs.</p>
+
+        <h3 id="givre--frost">Givre — Frost</h3>
+
+        <blockquote>
+
+        <p>Immobilise et brise les ennemis avec la glace, en s'appuyant
+        notamment sur des élémentaires et des protections.</p>
+
+        </blockquote>
+
+        <p>Orientation : contrôle, ralentissement, froid et <strong>Water
+        Elemental</strong>.</p>
+
+        <h2 id="races-disponibles-dans-cette-campagne">Races disponibles dans
+        cette campagne</h2>
+
+        <ul>
+
+        <li><strong>Troll</strong></li>
+
+        <li><strong>Réprouvé</strong></li>
+
+        </ul>
+
+        <blockquote>
+
+        <p>Le sin'dorei exceptionnel de la campagne utilise bien des traits
+        arcaniques, mais son unique classe ouverte est
+        <strong>Paladin</strong>.</p>
+
+        </blockquote>
+
+        <h2 id="en-dehors-du-combat">En dehors du combat</h2>
+
+        <p>Le Mage est naturellement très fort pour :</p>
+
+        <ul>
+
+        <li>identifier une anomalie magique ;</li>
+
+        <li>analyser un rituel ;</li>
+
+        <li>comprendre un objet ou dispositif arcanique ;</li>
+
+        <li>utiliser divinations et utilitaires ;</li>
+
+        <li>exploiter les sorts du spellbook préparés pour la situation.</li>
+
+        </ul>
+
+        <h2 id="à-garder-en-tête">À garder en tête</h2>
+
+        <p>Le Mage est fragile physiquement et dépend fortement :</p>
+
+        <ul>
+
+        <li>du choix de sorts ;</li>
+
+        <li>de la préparation quotidienne ;</li>
+
+        <li>de la gestion de ses emplacements ;</li>
+
+        <li>de son spellbook.</li>
+
+        </ul>
+
+        <h2 id="bon-choix-si-tu-veux">Bon choix si tu veux…</h2>
+
+        <ul>
+
+        <li>disposer d'une grande boîte à outils magique ;</li>
+
+        <li>préparer des solutions à l'avance ;</li>
+
+        <li>jouer un érudit des arcanes ;</li>
+
+        <li>choisir entre puissance pure, destruction ou contrôle.</li>
+
+        </ul>
+
+        <h2 id="source">Source</h2>
+
+        <ul>
+
+        <li>Silverblade, <em>Champions of Azeroth</em>, 30 mai 2021, <strong>pp.
+        30–35</strong>.</li>
+
+        </ul>
+      format: 1
+    sort: 100000
+    flags:
+      vaults:
+        vaultId: vault-coa-7e7c5ff7
+        path: Regles/classes/03_Mage.md
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1788766247338
+      modifiedTime: 1788766247338
+      lastModifiedBy: V0twxN2oKehfUjVd
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!c7bf87a9785ebb74.53c4bd2359f7f29c'
+  - _id: f00a917b33d03583
+    name: Paladin
+    type: text
+    text:
+      content: >-
+        <img src="https://w.wallhaven.cc/full/8x/wallhaven-8x1ez1.jpg"
+        alt="Bandeau">
+
+        <blockquote>
+
+        <p><strong>Document méta joueur.</strong> Cette fiche sert à comprendre
+        l'identité, le style de jeu et les choix structurants du personnage.
+        Elle ne remplace pas les règles complètes de <em>Champions of
+        Azeroth</em> ni la fiche Foundry VTT.</p>
+
+        </blockquote>
+
+        <h2 id="fantasy-de-classe">Fantasy de classe</h2>
+
+        <img
+        src="https://wow.zamimg.com/images/wow/icons/large/classicon_paladin.jpg"
+        alt="Paladin" width="80">
+
+        <p>Le Paladin est un guerrier sacré qui utilise la
+        <strong>Lumière</strong> pour protéger, soigner et frapper ses
+        ennemis.</p>
+
+        <p>Il combine une excellente protection martiale, des armes, des soins,
+        des sorts et des effets de soutien de proximité.</p>
+
+        <h2 id="statut-particulier-dans-cette-campagne">Statut particulier dans
+        cette campagne</h2>
+
+        <p>Dans la période jouée, le Paladin n'est <strong>pas</strong> une
+        classe Horde standard.</p>
+
+        <p>La seule option autorisée est :</p>
+
+        <blockquote>
+
+        <p><strong>Paladin sin'dorei</strong>, ancien Haut-Elfe de Quel'Thalas
+        formé à la Lumière avant ou pendant la Troisième Guerre.</p>
+
+        </blockquote>
+
+        <p>La classe utilisée est exactement le <strong>Paladin de Champions of
+        Azeroth</strong>. Seul le contexte racial et historique est spécifique à
+        la campagne.</p>
+
+        <h2 id="profil-mécanique">Profil mécanique</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <table><thead><tr><th>Élément</th><th>Valeur</th></tr></thead><tbody><tr><td>Dé
+        de vie</td><td><strong>d10</strong></td></tr><tr><td>Caractéristiques
+        principales</td><td><strong>Force et
+        Charisme</strong></td></tr><tr><td>Jets de sauvegarde</td><td>Sagesse,
+        Charisme</td></tr><tr><td>Armures</td><td>Toutes</td></tr><tr><td>Boucliers</td><td>Oui</td></tr><tr><td>Armes</td><td>Simples
+        et martiales</td></tr><tr><td>Lancement de sorts</td><td>Préparé, basé
+        sur le Charisme</td></tr></tbody></table>
+
+        <h2 id="mécaniques-emblématiques">Mécaniques emblématiques</h2>
+
+        <h3 id="divine-sense">Divine Sense</h3>
+
+        <p>Détection des célestes, fiélons, morts-vivants et lieux ou objets
+        consacrés/profanés.</p>
+
+        <h3 id="lay-on-hands">Lay on Hands</h3>
+
+        <p>Réserve de soins utilisable pour restaurer des PV et traiter maladies
+        ou poisons.</p>
+
+        <h3 id="fighting-style">Fighting Style</h3>
+
+        <p>Le Paladin choisit un style martial dès le niveau 2.</p>
+
+        <h3 id="crusader-strike">Crusader Strike</h3>
+
+        <p>Version <em>Champions of Azeroth</em> du smite : un coup de mêlée
+        peut consommer un emplacement de sort pour infliger des dégâts radiants
+        supplémentaires, renforcés contre morts-vivants et fiélons.</p>
+
+        <h3 id="spellcasting-et-auras">Spellcasting et Auras</h3>
+
+        <p>Le Paladin combine sorts de soutien et présence protectrice. Ses
+        auras gagnent en importance au fil des niveaux.</p>
+
+        <h2 id="spécialisations">Spécialisations</h2>
+
+        <h3 id="sacré--holy">Sacré — Holy</h3>
+
+        <blockquote>
+
+        <p>Invoque la Lumière pour protéger et soigner les alliés.</p>
+
+        </blockquote>
+
+        <p>Orientation : soins, soutien et efficacité accrue de Lay on
+        Hands.</p>
+
+        <h3 id="protection--protection">Protection — Protection</h3>
+
+        <blockquote>
+
+        <p>Utilise la magie sacrée pour se protéger et défendre ses alliés.</p>
+
+        </blockquote>
+
+        <p>Orientation : tanking, réduction des dégâts et incitation des ennemis
+        à l'attaquer lui plutôt que les autres.</p>
+
+        <h3 id="vindicte--retribution">Vindicte — Retribution</h3>
+
+        <blockquote>
+
+        <p>Croisé qui juge et punit ses adversaires avec armes et magie
+        sacrée.</p>
+
+        </blockquote>
+
+        <p>Orientation : combat offensif, dégâts radiants et pression
+        martiale.</p>
+
+        <h2 id="race-disponible-dans-cette-campagne">Race disponible dans cette
+        campagne</h2>
+
+        <ul>
+
+        <li><strong>Sin'dorei / Silvermoon Blood Elf uniquement</strong></li>
+
+        </ul>
+
+        <h2 id="en-dehors-du-combat">En dehors du combat</h2>
+
+        <p>Le Paladin peut naturellement intervenir dans :</p>
+
+        <ul>
+
+        <li>les questions de foi et de serment ;</li>
+
+        <li>la protection de civils ou de blessés ;</li>
+
+        <li>les relations d'autorité ;</li>
+
+        <li>l'identification de corruption ou de profanation ;</li>
+
+        <li>les dilemmes entre devoir, loyauté et conviction personnelle.</li>
+
+        </ul>
+
+        <h2 id="bon-choix-si-tu-veux">Bon choix si tu veux…</h2>
+
+        <ul>
+
+        <li>être solide au premier rang ;</li>
+
+        <li>soigner sans être un lanceur de sorts pur ;</li>
+
+        <li>mêler armes et magie ;</li>
+
+        <li>jouer un personnage dont la foi et l'histoire comptent autant que
+        l'efficacité martiale.</li>
+
+        </ul>
+
+        <h2 id="sources">Sources</h2>
+
+        <ul>
+
+        <li>Silverblade, <em>Champions of Azeroth</em>, 30 mai 2021, <strong>pp.
+        36–41</strong>.</li>
+
+        <li>Document de campagne : <strong>Option de personnage — Paladin
+        sin'dorei</strong>.</li>
+
+        </ul>
+      format: 1
+    sort: 100000
+    flags:
+      vaults:
+        vaultId: vault-coa-7e7c5ff7
+        path: Regles/classes/04_Paladin.md
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1788766247338
+      modifiedTime: 1788766247338
+      lastModifiedBy: V0twxN2oKehfUjVd
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!c7bf87a9785ebb74.f00a917b33d03583'
+  - _id: f9c8907f3d862d58
+    name: Prêtre
+    type: text
+    text:
+      content: >-
+        <div class="image-banner">
+
+        <p><img
+        src="/worlds/au-nom-de-la-horde/vaults-cache/vault-coa-7e7c5ff7/static/Images/Illustrations/priest-artwork.webp?v=3a7990fa79e1"
+        alt="priest-artwork.png" class="default-width"></p>
+
+        </div>
+
+        <blockquote>
+
+        <p><strong>Document méta joueur.</strong> Cette fiche sert à comprendre
+        l'identité, le style de jeu et les choix structurants du personnage.
+        Elle ne remplace pas les règles complètes de <em>Champions of
+        Azeroth</em> ni la fiche Foundry VTT.</p>
+
+        </blockquote>
+
+        <h2 id="fantasy-de-classe">Fantasy de classe</h2>
+
+        <img
+        src="https://wow.zamimg.com/images/wow/icons/large/classicon_priest.jpg"
+        alt="Prêtre" width="80">
+
+        <p>Le Prêtre canalise des puissances spirituelles pour soutenir ses
+        alliés, soigner ou frapper ses ennemis.</p>
+
+        <p>La classe assume explicitement la coexistence de la <strong>Lumière
+        et de l'Ombre</strong> : tous les prêtres peuvent toucher à ces deux
+        dimensions, même si leur spécialisation détermine ce qu'ils
+        approfondissent.</p>
+
+        <h2 id="profil-mécanique">Profil mécanique</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <table><thead><tr><th>Élément</th><th>Valeur</th></tr></thead><tbody><tr><td>Dé
+        de vie</td><td><strong>d6</strong></td></tr><tr><td>Caractéristique
+        principale</td><td><strong>Charisme</strong></td></tr><tr><td>Jets de
+        sauvegarde</td><td>Sagesse,
+        Charisme</td></tr><tr><td>Armure</td><td>Aucune</td></tr><tr><td>Armes</td><td>Simples</td></tr><tr><td>Lancement
+        de sorts</td><td>Préparé, basé sur le Charisme</td></tr></tbody></table>
+
+        <blockquote>
+
+        <p>Particularité importante : dans <em>Champions of Azeroth</em>, la
+        caractéristique de lancement des sorts du Prêtre est
+        <strong>Charisme</strong>, pas Sagesse.</p>
+
+        </blockquote>
+
+        <h2 id="mécaniques-emblématiques">Mécaniques emblématiques</h2>
+
+        <h3 id="light-and-shadow">Light and Shadow</h3>
+
+        <p>Le Prêtre connaît toujours <strong>bless</strong> et
+        <strong>bane</strong> et peut ponctuellement lancer l'un des deux sans
+        emplacement de sort ni concentration.</p>
+
+        <h3 id="enlightenment-et-faith-points">Enlightenment et Faith
+        Points</h3>
+
+        <p>À partir du niveau 2, le Prêtre reçoit des <strong>Faith
+        Points</strong>.</p>
+
+        <p>Ils servent notamment à :</p>
+
+        <ul>
+
+        <li>créer des emplacements de sorts ;</li>
+
+        <li>convertir des emplacements en Faith Points ;</li>
+
+        <li>alimenter différentes capacités de classe.</li>
+
+        </ul>
+
+        <p>Ce système rend la gestion des ressources du Prêtre plus flexible
+        qu'un lanceur de sorts classique.</p>
+
+        <h3 id="priest-specialization">Priest Specialization</h3>
+
+        <p>La spécialisation arrive au <strong>niveau 2</strong>.</p>
+
+        <h2 id="spécialisations">Spécialisations</h2>
+
+        <h3 id="discipline">Discipline</h3>
+
+        <blockquote>
+
+        <p>Utilise la magie pour protéger les alliés, soigner leurs blessures et
+        punir les ennemis.</p>
+
+        </blockquote>
+
+        <p>Orientation : boucliers, mitigation, soins et dégâts combinés.</p>
+
+        <h3 id="sacré--holy">Sacré — Holy</h3>
+
+        <p>Orientation : guérison directe et amélioration des soins.</p>
+
+        <h3 id="ombre--shadow">Ombre — Shadow</h3>
+
+        <blockquote>
+
+        <p>Utilise des arts sombres issus notamment du Void et des Shadowlands
+        pour détruire ses ennemis.</p>
+
+        </blockquote>
+
+        <p>Orientation : dégâts, magie d'Ombre et mécaniques offensives.</p>
+
+        <h2 id="races-disponibles-dans-cette-campagne">Races disponibles dans
+        cette campagne</h2>
+
+        <ul>
+
+        <li><strong>Troll</strong></li>
+
+        <li><strong>Réprouvé</strong></li>
+
+        </ul>
+
+        <h2 id="en-dehors-du-combat">En dehors du combat</h2>
+
+        <p>Le Prêtre est particulièrement pertinent pour :</p>
+
+        <ul>
+
+        <li>soigner des blessés ;</li>
+
+        <li>soutenir une population en crise ;</li>
+
+        <li>comprendre croyances, culpabilité et peur ;</li>
+
+        <li>discuter religion, rites et morts-vivants ;</li>
+
+        <li>agir comme conseiller spirituel ou figure d'autorité morale — sans
+        obligation d'être moralement irréprochable.</li>
+
+        </ul>
+
+        <h2 id="à-garder-en-tête">À garder en tête</h2>
+
+        <p>Le Prêtre cumule :</p>
+
+        <ul>
+
+        <li>une liste de sorts complète ;</li>
+
+        <li>des sorts préparés ;</li>
+
+        <li>des Faith Points ;</li>
+
+        <li>des capacités propres à sa spécialisation.</li>
+
+        </ul>
+
+        <h2 id="bon-choix-si-tu-veux">Bon choix si tu veux…</h2>
+
+        <ul>
+
+        <li>être un soutien très flexible ;</li>
+
+        <li>jouer avec la dualité Lumière/Ombre ;</li>
+
+        <li>disposer de beaucoup de ressources magiques ;</li>
+
+        <li>donner une forte place à la foi ou à la volonté du personnage.</li>
+
+        </ul>
+
+        <h2 id="source">Source</h2>
+
+        <ul>
+
+        <li>Silverblade, <em>Champions of Azeroth</em>, 30 mai 2021, <strong>pp.
+        42–47</strong>.</li>
+
+        </ul>
+      format: 1
+    sort: 100000
+    flags:
+      vaults:
+        vaultId: vault-coa-7e7c5ff7
+        path: Regles/classes/05_Pretre.md
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1788766247338
+      modifiedTime: 1788766247338
+      lastModifiedBy: V0twxN2oKehfUjVd
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!c7bf87a9785ebb74.f9c8907f3d862d58'
+  - _id: 4fdfe10aad332e08
+    name: Voleur
+    type: text
+    text:
+      content: >-
+        <div class="image-banner">
+
+        <p><img
+        src="/worlds/au-nom-de-la-horde/vaults-cache/vault-coa-7e7c5ff7/static/Images/Illustrations/rogue-artwork.webp?v=2e67ca9c89ba"
+        alt="rogue-artwork.jpg" class="default-width"></p>
+
+        </div>
+
+        <blockquote>
+
+        <p><strong>Document méta joueur.</strong> Cette fiche sert à comprendre
+        l'identité, le style de jeu et les choix structurants du personnage.
+        Elle ne remplace pas les règles complètes de <em>Champions of
+        Azeroth</em> ni la fiche Foundry VTT.</p>
+
+        </blockquote>
+
+        <h2 id="fantasy-de-classe">Fantasy de classe</h2>
+
+        <img
+        src="https://wow.zamimg.com/images/wow/icons/large/classicon_rogue.jpg"
+        alt="Voleur" width="80">
+
+        <p>Le Voleur est un spécialiste de la furtivité, du subterfuge, de
+        l'opportunisme et des attaques décisives.</p>
+
+        <p>La base reste très proche du Rogue de D&amp;D 5e, mais <em>Champions
+        of Azeroth</em> lui ajoute des éléments Warcraft comme les <strong>Dirty
+        Tricks</strong> et trois spécialisations adaptées à l'univers.</p>
+
+        <h2 id="profil-mécanique">Profil mécanique</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <table><thead><tr><th>Élément</th><th>Valeur</th></tr></thead><tbody><tr><td>Dé
+        de vie</td><td><strong>d8</strong></td></tr><tr><td>Caractéristique
+        principale</td><td><strong>Dextérité</strong></td></tr><tr><td>Jets de
+        sauvegarde</td><td>Dextérité,
+        Intelligence</td></tr><tr><td>Armures</td><td>Légères</td></tr><tr><td>Armes</td><td>Simples
+        + sélection d'armes fines</td></tr><tr><td>Outil</td><td>Thieves'
+        tools</td></tr><tr><td>Compétences</td><td>4 au choix — une des classes
+        les plus compétentes</td></tr></tbody></table>
+
+        <h2 id="mécaniques-emblématiques">Mécaniques emblématiques</h2>
+
+        <h3 id="expertise">Expertise</h3>
+
+        <p>Le Voleur excelle dans quelques domaines choisis, avec un bonus de
+        maîtrise doublé.</p>
+
+        <h3 id="sneak-attack">Sneak Attack</h3>
+
+        <p>Une attaque bien placée inflige des dégâts supplémentaires
+        importants.</p>
+
+        <h3 id="cunning-action">Cunning Action</h3>
+
+        <p>À partir du niveau 2, Dash, Disengage ou Hide peuvent être utilisés
+        en action bonus.</p>
+
+        <h3 id="dirty-tricks">Dirty Tricks</h3>
+
+        <p>À partir du niveau 6, certaines Sneak Attacks peuvent infliger des
+        handicaps temporaires sévères : aveugler, incapaciter ou immobiliser la
+        cible.</p>
+
+        <h2 id="spécialisations">Spécialisations</h2>
+
+        <h3 id="assassinat--assassination">Assassinat — Assassination</h3>
+
+        <blockquote>
+
+        <p>Maître des poisons et des frappes vicieuses destinées à éliminer
+        rapidement une cible.</p>
+
+        </blockquote>
+
+        <p>Orientation : poison, préparation et létalité ciblée.</p>
+
+        <h3 id="hors-la-loi--outlaw">Hors-la-loi — Outlaw</h3>
+
+        <blockquote>
+
+        <p>Bretteur audacieux utilisant agilité et ruse pour tenir tête à ses
+        ennemis en mêlée.</p>
+
+        </blockquote>
+
+        <p>Orientation : mobilité, combat rapproché et attaques multiples.</p>
+
+        <h3 id="finesse--subtlety">Finesse — Subtlety</h3>
+
+        <blockquote>
+
+        <p>Traqueur des ombres qui exploite l'obscurité pour surprendre ses
+        proies.</p>
+
+        </blockquote>
+
+        <p>Orientation : infiltration, embuscade et magie d'ombre légère.</p>
+
+        <h2 id="races-disponibles-dans-cette-campagne">Races disponibles dans
+        cette campagne</h2>
+
+        <ul>
+
+        <li><strong>Orc</strong></li>
+
+        <li><strong>Troll</strong></li>
+
+        <li><strong>Réprouvé</strong></li>
+
+        </ul>
+
+        <h2 id="en-dehors-du-combat">En dehors du combat</h2>
+
+        <p>Le Voleur peut être central pour :</p>
+
+        <ul>
+
+        <li>infiltrer un lieu ;</li>
+
+        <li>ouvrir ou contourner un accès ;</li>
+
+        <li>observer sans être vu ;</li>
+
+        <li>voler ou saboter ;</li>
+
+        <li>manipuler un réseau criminel ;</li>
+
+        <li>interroger la scène d'un cambriolage ou d'une intrusion avec un
+        regard de professionnel.</li>
+
+        </ul>
+
+        <h2 id="à-garder-en-tête">À garder en tête</h2>
+
+        <p>Le Voleur fonctionne au mieux lorsqu'il cherche à créer les
+        conditions de son avantage au lieu de simplement échanger des attaques
+        de front.</p>
+
+        <h2 id="bon-choix-si-tu-veux">Bon choix si tu veux…</h2>
+
+        <ul>
+
+        <li>jouer beaucoup avec les compétences ;</li>
+
+        <li>trouver des solutions indirectes ;</li>
+
+        <li>être mobile ;</li>
+
+        <li>privilégier infiltration, ruse et précision.</li>
+
+        </ul>
+
+        <h2 id="source">Source</h2>
+
+        <ul>
+
+        <li>Silverblade, <em>Champions of Azeroth</em>, 30 mai 2021, <strong>pp.
+        48–52</strong>.</li>
+
+        </ul>
+      format: 1
+    sort: 100000
+    flags:
+      vaults:
+        vaultId: vault-coa-7e7c5ff7
+        path: Regles/classes/06_Voleur.md
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1788766247338
+      modifiedTime: 1788766247338
+      lastModifiedBy: V0twxN2oKehfUjVd
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!c7bf87a9785ebb74.4fdfe10aad332e08'
+  - _id: a78c04c3d8fb6a39
+    name: Chaman
+    type: text
+    text:
+      content: >-
+        <div class="image-banner">
+
+        <p><img
+        src="/worlds/au-nom-de-la-horde/vaults-cache/vault-coa-7e7c5ff7/static/Images/Illustrations/orc-shaman-artwork.webp?v=23f4adc827d5"
+        alt="orc-shaman-artwork.webp" class="default-width"></p>
+
+        </div>
+
+        <blockquote>
+
+        <p><strong>Document méta joueur.</strong> Cette fiche sert à comprendre
+        l'identité, le style de jeu et les choix structurants du personnage.
+        Elle ne remplace pas les règles complètes de <em>Champions of
+        Azeroth</em> ni la fiche Foundry VTT.</p>
+
+        </blockquote>
+
+        <h2 id="fantasy-de-classe">Fantasy de classe</h2>
+
+        <img
+        src="https://wow.zamimg.com/images/wow/icons/large/classicon_shaman.jpg"
+        alt="Chaman" width="80">
+
+        <p>Le Chaman est un médiateur entre les mortels et les éléments. Il ne «
+        commande » pas simplement à la nature : il entre en relation avec les
+        forces de <strong>l'Air, de la Terre, du Feu et de l'Eau</strong>, qui
+        sont puissantes, changeantes et parfois conflictuelles.</p>
+
+        <p>Il utilise la magie, les totems et sa compréhension spirituelle pour
+        soutenir ses alliés ou combattre.</p>
+
+        <h2 id="profil-mécanique">Profil mécanique</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <table><thead><tr><th>Élément</th><th>Valeur</th></tr></thead><tbody><tr><td>Dé
+        de vie</td><td><strong>d8</strong></td></tr><tr><td>Caractéristique
+        principale</td><td><strong>Sagesse</strong></td></tr><tr><td>Jets de
+        sauvegarde</td><td>Sagesse,
+        Charisme</td></tr><tr><td>Armures</td><td>Légères,
+        intermédiaires</td></tr><tr><td>Boucliers</td><td>Oui</td></tr><tr><td>Armes</td><td>Simples</td></tr><tr><td>Lancement
+        de sorts</td><td>Basé sur la Sagesse</td></tr></tbody></table>
+
+        <h2 id="mécaniques-emblématiques">Mécaniques emblématiques</h2>
+
+        <h3 id="kalimag">Kalimag</h3>
+
+        <p>Le Chaman connaît le langage sacré des élémentaires et est
+        particulièrement compétent pour interagir avec eux.</p>
+
+        <h3 id="elemental-attunement">Elemental Attunement</h3>
+
+        <p>Dès le niveau 1, le personnage s'accorde à un élément :</p>
+
+        <ul>
+
+        <li>Air ;</li>
+
+        <li>Earth ;</li>
+
+        <li>Fire ;</li>
+
+        <li>Water.</li>
+
+        </ul>
+
+        <p>Cet accord apporte des bénéfices différents et peut être changé après
+        un repos long.</p>
+
+        <h3 id="totemist">Totemist</h3>
+
+        <p>À partir du niveau 2, le Chaman peut invoquer un <strong>totem
+        élémentaire</strong>.</p>
+
+        <p>Les totems proposent des pouvoirs différents selon l'élément :
+        soutien, dégâts, contrôle ou protection.</p>
+
+        <h3 id="shaman-specialization">Shaman Specialization</h3>
+
+        <p>La spécialisation arrive au niveau 3.</p>
+
+        <h2 id="spécialisations">Spécialisations</h2>
+
+        <h3 id="élémentaire--elemental">Élémentaire — Elemental</h3>
+
+        <blockquote>
+
+        <p>Utilise la magie primordiale pour frapper à distance avec éclairs,
+        séismes et lave.</p>
+
+        </blockquote>
+
+        <p>Orientation : lanceur de sorts offensif et puissance élémentaire.</p>
+
+        <h3 id="amélioration--enhancement">Amélioration — Enhancement</h3>
+
+        <blockquote>
+
+        <p>Appelle les esprits directement au combat et renforce ses coups avec
+        la puissance des éléments.</p>
+
+        </blockquote>
+
+        <p>Orientation : combat martial renforcé par la magie.</p>
+
+        <h3 id="restauration--restoration">Restauration — Restoration</h3>
+
+        <blockquote>
+
+        <p>Utilise son pouvoir spirituel pour rendre la santé aux alliés
+        blessés.</p>
+
+        </blockquote>
+
+        <p>Orientation : soins et soutien.</p>
+
+        <h2 id="races-disponibles-dans-cette-campagne">Races disponibles dans
+        cette campagne</h2>
+
+        <ul>
+
+        <li><strong>Orc</strong></li>
+
+        <li><strong>Troll</strong></li>
+
+        <li><strong>Tauren</strong></li>
+
+        </ul>
+
+        <h2 id="en-dehors-du-combat">En dehors du combat</h2>
+
+        <p>Le Chaman peut naturellement :</p>
+
+        <ul>
+
+        <li>dialoguer avec des élémentaires ;</li>
+
+        <li>ressentir ou interpréter une perturbation élémentaire ;</li>
+
+        <li>accomplir des rites ;</li>
+
+        <li>servir de médiateur entre besoins matériels et équilibre spirituel
+        ;</li>
+
+        <li>comprendre que la réaction d'un élément n'est pas nécessairement une
+        simple « attaque de monstre ».</li>
+
+        </ul>
+
+        <h2 id="à-garder-en-tête">À garder en tête</h2>
+
+        <p>Le Chaman gère à la fois :</p>
+
+        <ul>
+
+        <li>des sorts ;</li>
+
+        <li>une attunement élémentaire ;</li>
+
+        <li>des totems ;</li>
+
+        <li>les pouvoirs de sa spécialisation.</li>
+
+        </ul>
+
+        <h2 id="bon-choix-si-tu-veux">Bon choix si tu veux…</h2>
+
+        <ul>
+
+        <li>jouer la spiritualité de Warcraft ;</li>
+
+        <li>utiliser des totems ;</li>
+
+        <li>choisir entre lanceur offensif, combattant magique ou soigneur
+        ;</li>
+
+        <li>interagir directement avec les éléments.</li>
+
+        </ul>
+
+        <h2 id="source">Source</h2>
+
+        <ul>
+
+        <li>Silverblade, <em>Champions of Azeroth</em>, 30 mai 2021, <strong>pp.
+        53–59</strong>.</li>
+
+        </ul>
+      format: 1
+    sort: 100000
+    flags:
+      vaults:
+        vaultId: vault-coa-7e7c5ff7
+        path: Regles/classes/07_Chaman.md
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1788766247338
+      modifiedTime: 1788766247338
+      lastModifiedBy: V0twxN2oKehfUjVd
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!c7bf87a9785ebb74.a78c04c3d8fb6a39'
+  - _id: d0dc7ec14d103a93
+    name: Démoniste
+    type: text
+    text:
+      content: >-
+        <img src="https://w.wallhaven.cc/full/g8/wallhaven-g8evr7.jpg"
+        alt="Bandeau">
+
+        <blockquote>
+
+        <p><strong>Document méta joueur.</strong> Cette fiche sert à comprendre
+        l'identité, le style de jeu et les choix structurants du personnage.
+        Elle ne remplace pas les règles complètes de <em>Champions of
+        Azeroth</em> ni la fiche Foundry VTT.</p>
+
+        </blockquote>
+
+        <h2 id="fantasy-de-classe">Fantasy de classe</h2>
+
+        <img
+        src="https://wow.zamimg.com/images/wow/icons/large/classicon_warlock.jpg"
+        alt="Démoniste" width="80">
+
+        <p>Le Démoniste voit dans les puissances démoniaques une source de
+        pouvoir à exploiter. Il invoque des démons, manipule le fel et les
+        ombres, maudit ses ennemis et peut consumer ou détourner les âmes.</p>
+
+        <p>Le texte de <em>Champions of Azeroth</em> insiste sur cette idée : là
+        où d'autres voient un danger mortel, le Démoniste voit une
+        <strong>opportunité</strong>.</p>
+
+        <h2 id="profil-mécanique">Profil mécanique</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <table><thead><tr><th>Élément</th><th>Valeur</th></tr></thead><tbody><tr><td>Dé
+        de vie</td><td><strong>d6</strong></td></tr><tr><td>Caractéristique
+        principale</td><td><strong>Intelligence</strong></td></tr><tr><td>Jets
+        de sauvegarde</td><td>Intelligence,
+        Sagesse</td></tr><tr><td>Armure</td><td>Aucune</td></tr><tr><td>Armes</td><td>Dague,
+        fléchettes, fronde, bâton, arbalète
+        légère</td></tr><tr><td>Magie</td><td><strong>Pact
+        Magic</strong></td></tr></tbody></table>
+
+        <h2 id="mécaniques-emblématiques">Mécaniques emblématiques</h2>
+
+        <h3 id="eredun">Eredun</h3>
+
+        <p>Le Démoniste connaît la langue démoniaque.</p>
+
+        <h3 id="pact-magic">Pact Magic</h3>
+
+        <p>Comme le Warlock de D&amp;D 5e, il utilise un petit nombre
+        d'emplacements de haut niveau qui reviennent rapidement.</p>
+
+        <h3 id="demon-summoning">Demon Summoning</h3>
+
+        <p>Dès le niveau 1, il peut invoquer un <strong>demonic minion</strong>.
+        Les démons disponibles évoluent avec la progression.</p>
+
+        <p>Le démon apporte aussi temporairement au personnage certains sorts
+        via <strong>Demonic Magic</strong>.</p>
+
+        <h3 id="warlock-specialization">Warlock Specialization</h3>
+
+        <p>La spécialisation arrive au niveau 2.</p>
+
+        <h3 id="demonic-pact">Demonic Pact</h3>
+
+        <p>Au niveau 3, le Démoniste choisit comment exploiter ses serviteurs
+        :</p>
+
+        <ul>
+
+        <li><strong>Pact of Supremacy</strong> : améliore les démons invoqués
+        ;</li>
+
+        <li><strong>Pact of Sacrifice</strong> : détruit temporairement le
+        serviteur pour absorber une partie de son pouvoir.</li>
+
+        </ul>
+
+        <h3 id="soul-shards">Soul Shards</h3>
+
+        <p>À partir du niveau 5, le Démoniste récolte des <strong>Soul
+        Shards</strong> et les dépense pour des rites comme les Healthstones ou
+        Soulstones.</p>
+
+        <h2 id="spécialisations">Spécialisations</h2>
+
+        <h3 id="affliction">Affliction</h3>
+
+        <blockquote>
+
+        <p>Maître de la magie d'ombre qui épuise la vie et la volonté des
+        ennemis.</p>
+
+        </blockquote>
+
+        <p>Orientation : malédictions, dégâts persistants et
+        affaiblissement.</p>
+
+        <h3 id="démonologie--demonology">Démonologie — Demonology</h3>
+
+        <blockquote>
+
+        <p>Maître des démons, renforçant ses serviteurs ou revendiquant leur
+        puissance pour lui-même.</p>
+
+        </blockquote>
+
+        <p>Orientation : invocation et synergie avec les minions.</p>
+
+        <h3 id="destruction">Destruction</h3>
+
+        <blockquote>
+
+        <p>Maître du chaos utilisant feu, fel et magie destructrice.</p>
+
+        </blockquote>
+
+        <p>Orientation : dégâts directs massifs et magie explosive.</p>
+
+        <h2 id="races-disponibles-dans-cette-campagne">Races disponibles dans
+        cette campagne</h2>
+
+        <ul>
+
+        <li><strong>Orc</strong></li>
+
+        <li><strong>Réprouvé</strong></li>
+
+        </ul>
+
+        <h2 id="en-dehors-du-combat">En dehors du combat</h2>
+
+        <p>Le Démoniste est particulièrement utile pour :</p>
+
+        <ul>
+
+        <li>reconnaître une vraie corruption démoniaque ;</li>
+
+        <li>comprendre un rituel interdit ;</li>
+
+        <li>négocier avec ou identifier un démon ;</li>
+
+        <li>apporter un savoir que des personnages plus orthodoxes préfèreraient
+        ignorer.</li>
+
+        </ul>
+
+        <h2 id="à-garder-en-tête">À garder en tête</h2>
+
+        <p>Le pouvoir du Démoniste est visible et socialement chargé. Être
+        jouable ne signifie pas que toutes ses pratiques soient considérées
+        comme normales ou rassurantes par les autres membres de la Horde.</p>
+
+        <h2 id="bon-choix-si-tu-veux">Bon choix si tu veux…</h2>
+
+        <ul>
+
+        <li>invoquer des démons ;</li>
+
+        <li>jouer avec des pouvoirs dangereux ;</li>
+
+        <li>disposer d'une magie offensive très caractéristique ;</li>
+
+        <li>explorer la frontière entre outil, corruption et domination.</li>
+
+        </ul>
+
+        <h2 id="source">Source</h2>
+
+        <ul>
+
+        <li>Silverblade, <em>Champions of Azeroth</em>, 30 mai 2021, <strong>pp.
+        60–65</strong>.</li>
+
+        </ul>
+      format: 1
+    sort: 100000
+    flags:
+      vaults:
+        vaultId: vault-coa-7e7c5ff7
+        path: Regles/classes/08_Demoniste.md
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1788766247338
+      modifiedTime: 1788766247338
+      lastModifiedBy: V0twxN2oKehfUjVd
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!c7bf87a9785ebb74.d0dc7ec14d103a93'
+  - _id: 6563275b1946c568
+    name: Guerrier
+    type: text
+    text:
+      content: >-
+        <img src="https://w.wallhaven.cc/full/0w/wallhaven-0w2my6.jpg"
+        alt="Bandeau">
+
+        <blockquote>
+
+        <p><strong>Document méta joueur.</strong> Cette fiche sert à comprendre
+        l'identité, le style de jeu et les choix structurants du personnage.
+        Elle ne remplace pas les règles complètes de <em>Champions of
+        Azeroth</em> ni la fiche Foundry VTT.</p>
+
+        </blockquote>
+
+        <h2 id="fantasy-de-classe">Fantasy de classe</h2>
+
+        <img
+        src="https://wow.zamimg.com/images/wow/icons/large/classicon_warrior.jpg"
+        alt="Guerrier" width="80">
+
+        <p>Le Guerrier est le maître du combat armé. Il combine maîtrise des
+        armes et armures, endurance, mobilité tactique et
+        <strong>Rage</strong>.</p>
+
+        <p>Dans <em>Champions of Azeroth</em>, il part largement du Fighter de
+        D&amp;D 5e mais ajoute un véritable système de Rage et de manœuvres pour
+        retrouver davantage la sensation Warcraft.</p>
+
+        <h2 id="profil-mécanique">Profil mécanique</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <table><thead><tr><th>Élément</th><th>Valeur</th></tr></thead><tbody><tr><td>Dé
+        de vie</td><td><strong>d10</strong></td></tr><tr><td>Caractéristique
+        principale</td><td><strong>Force ou
+        Dextérité</strong></td></tr><tr><td>Jets de sauvegarde</td><td>Force,
+        Constitution</td></tr><tr><td>Armures</td><td>Toutes</td></tr><tr><td>Boucliers</td><td>Oui</td></tr><tr><td>Armes</td><td>Simples
+        et martiales</td></tr></tbody></table>
+
+        <h2 id="mécaniques-emblématiques">Mécaniques emblématiques</h2>
+
+        <h3 id="fighting-style">Fighting Style</h3>
+
+        <p>Le personnage commence avec un style de combat adapté à son
+        équipement et à sa manière de se battre.</p>
+
+        <h3 id="second-wind">Second Wind</h3>
+
+        <p>Récupération personnelle rapide de PV.</p>
+
+        <h3 id="action-surge">Action Surge</h3>
+
+        <p>Possibilité d'effectuer ponctuellement une action supplémentaire.</p>
+
+        <h3 id="rage">Rage</h3>
+
+        <p>À partir du niveau 2, le Guerrier génère progressivement des
+        <strong>Rage Points</strong> pendant le combat.</p>
+
+        <p>Ces points alimentent des <strong>Rage Maneuvers</strong> :
+        techniques spéciales déclenchées au bon moment.</p>
+
+        <p>La Rage est donc une ressource dynamique construite pendant
+        l'affrontement, et non simplement un état de berserker.</p>
+
+        <h2 id="spécialisations">Spécialisations</h2>
+
+        <h3 id="armes--arms">Armes — Arms</h3>
+
+        <blockquote>
+
+        <p>Maître d'armes aguerri utilisant mobilité et attaques écrasantes.</p>
+
+        </blockquote>
+
+        <p>Orientation : maîtrise d'une arme, lecture de l'adversaire et
+        techniques martiales.</p>
+
+        <h3 id="fureur--fury">Fureur — Fury</h3>
+
+        <blockquote>
+
+        <p>Berserker qui libère une véritable rafale d'attaques.</p>
+
+        </blockquote>
+
+        <p>Orientation : agressivité, cadence et pression offensive.</p>
+
+        <h3 id="protection--protection">Protection — Protection</h3>
+
+        <p>Orientation : bouclier, contrôle des ennemis et défense des
+        alliés.</p>
+
+        <h2 id="races-disponibles-dans-cette-campagne">Races disponibles dans
+        cette campagne</h2>
+
+        <ul>
+
+        <li><strong>Orc</strong></li>
+
+        <li><strong>Troll</strong></li>
+
+        <li><strong>Tauren</strong></li>
+
+        <li><strong>Réprouvé</strong></li>
+
+        </ul>
+
+        <h2 id="en-dehors-du-combat">En dehors du combat</h2>
+
+        <p>Le Guerrier n'est pas limité à « taper ». Il peut naturellement
+        exploiter :</p>
+
+        <ul>
+
+        <li>connaissance militaire ;</li>
+
+        <li>tactique ;</li>
+
+        <li>lecture d'une position défensive ;</li>
+
+        <li>commandement ;</li>
+
+        <li>intimidation ;</li>
+
+        <li>expérience des armes et armures.</li>
+
+        </ul>
+
+        <h2 id="à-garder-en-tête">À garder en tête</h2>
+
+        <p>La classe est mécaniquement martiale mais possède beaucoup de
+        décisions en combat grâce :</p>
+
+        <ul>
+
+        <li>au choix de Fighting Style ;</li>
+
+        <li>aux Rage Maneuvers ;</li>
+
+        <li>à la spécialisation ;</li>
+
+        <li>au timing d'Action Surge et de Second Wind.</li>
+
+        </ul>
+
+        <h2 id="bon-choix-si-tu-veux">Bon choix si tu veux…</h2>
+
+        <ul>
+
+        <li>maîtriser le combat sans gérer une liste complète de sorts ;</li>
+
+        <li>porter n'importe quelle armure ou arme ;</li>
+
+        <li>construire ta puissance au fil du combat grâce à la Rage ;</li>
+
+        <li>jouer aussi bien un duelliste, un berserker qu'un protecteur.</li>
+
+        </ul>
+
+        <h2 id="source">Source</h2>
+
+        <ul>
+
+        <li>Silverblade, <em>Champions of Azeroth</em>, 30 mai 2021, <strong>pp.
+        66–71</strong>.</li>
+
+        </ul>
+      format: 1
+    sort: 100000
+    flags:
+      vaults:
+        vaultId: vault-coa-7e7c5ff7
+        path: Regles/classes/09_Guerrier.md
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1788766247338
+      modifiedTime: 1788766247338
+      lastModifiedBy: V0twxN2oKehfUjVd
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!c7bf87a9785ebb74.6563275b1946c568'
+  - _id: a8909f84138470f7
+    name: classes
+    type: text
+    text:
+      content: |-
+        <h2 id="pages">Pages</h2>
+        <div class="bases-block">
+          <div class="bases-caption">Contents</div>
+          <div class="bases-toolbar">
+            <input type="search" class="bases-filter" placeholder="Filter…" aria-label="Filter table">
+            <span class="bases-count" data-total="9">9 rows</span>
+          </div>
+          <div class="bases-scroll">
+            <table class="bases-table">
+              <thead><tr><th data-col="0" tabindex="0">Name</th><th data-col="1" tabindex="0">Mtime</th></tr></thead>
+              <tbody><tr data-row="0"><td data-raw="Chaman">@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.c7bf87a9785ebb74.JournalEntryPage.a78c04c3d8fb6a39]{Chaman}</td><td data-raw="1787753817000">2026-08-26</td></tr><tr data-row="1"><td data-raw="Chasseur">@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.c7bf87a9785ebb74.JournalEntryPage.a62f8344c3d8c272]{Chasseur}</td><td data-raw="1787577741000">2026-08-24</td></tr><tr data-row="2"><td data-raw="Démoniste">@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.c7bf87a9785ebb74.JournalEntryPage.d0dc7ec14d103a93]{Démoniste}</td><td data-raw="1787577768000">2026-08-24</td></tr><tr data-row="3"><td data-raw="Druide">@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.c7bf87a9785ebb74.JournalEntryPage.216697f9320ef355]{Druide}</td><td data-raw="1787753684000">2026-08-26</td></tr><tr data-row="4"><td data-raw="Guerrier">@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.c7bf87a9785ebb74.JournalEntryPage.6563275b1946c568]{Guerrier}</td><td data-raw="1787577773000">2026-08-24</td></tr><tr data-row="5"><td data-raw="Mage">@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.c7bf87a9785ebb74.JournalEntryPage.53c4bd2359f7f29c]{Mage}</td><td data-raw="1787754602000">2026-08-26</td></tr><tr data-row="6"><td data-raw="Paladin">@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.c7bf87a9785ebb74.JournalEntryPage.f00a917b33d03583]{Paladin}</td><td data-raw="1787577750000">2026-08-24</td></tr><tr data-row="7"><td data-raw="Prêtre">@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.c7bf87a9785ebb74.JournalEntryPage.f9c8907f3d862d58]{Prêtre}</td><td data-raw="1787754257000">2026-08-26</td></tr><tr data-row="8"><td data-raw="Voleur">@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.c7bf87a9785ebb74.JournalEntryPage.4fdfe10aad332e08]{Voleur}</td><td data-raw="1787751013000">2026-08-26</td></tr></tbody>
+            </table>
+          </div>
+        </div>
+      format: 1
+    sort: 0
+    flags:
+      vaults:
+        vaultId: vault-coa-7e7c5ff7
+        path: Regles/classes/index.md
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1788766247338
+      modifiedTime: 1788766247338
+      lastModifiedBy: V0twxN2oKehfUjVd
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!c7bf87a9785ebb74.a8909f84138470f7'
+flags:
+  vaults:
+    vaultId: vault-coa-7e7c5ff7
+    path: Regles/classes/index.md
+categories: []
+ownership:
+  default: 0
+  V0twxN2oKehfUjVd: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1788766247338
+  modifiedTime: 1788766247338
+  lastModifiedBy: V0twxN2oKehfUjVd
+  compendiumSource: Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.c7bf87a9785ebb74
+  duplicateSource: null
+  exportSource: null
+sort: 0
+_key: '!journal!c7bf87a9785ebb74'

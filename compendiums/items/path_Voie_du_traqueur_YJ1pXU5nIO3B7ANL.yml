@@ -1,0 +1,38 @@
+folder: HeVfqHFnWr9eQGEv
+name: Voie du traqueur
+type: path
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/voies/classes/chasseur/cof2-voie-du-traqueur.png
+system:
+  description: ''
+  source: ''
+  origin: ''
+  slug: voie-du-traqueur
+  subtype: profile
+  capacities:
+    - Item.N0aaJQZ9kUXT6MK3
+    - Item.VH61mWxFnwaHN7a3
+    - Item.4B7VdjhlaFrpiooL
+    - Item.ptvp6uWgpx5IODYQ
+    - Item.rLW0jcWpBviLiHky
+  rank: 0
+  gmNotes: ''
+  maxDefenseArmor: 0
+  pvByLevel: 0
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.5ARPrCmQjV76TykR
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895789062
+  modifiedTime: 1789895789062
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_id: YJ1pXU5nIO3B7ANL
+sort: 0
+_key: '!items!YJ1pXU5nIO3B7ANL'

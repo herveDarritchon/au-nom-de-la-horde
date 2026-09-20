@@ -1,0 +1,90 @@
+folder: hPKgFIkvZASI3C1s
+name: Ouverture mortelle
+type: capacity
+img: icons/magic/death/weapon-sword-skull-purple.webp
+system:
+  description: >-
+    <p style="text-align:justify">Une fois par combat, le voleur obtient une
+    réussite critique automatique contre la cible de son choix. Il profite donc
+    d’une réussite automatique, des dommages multipliés par 2 prévus dans ce cas
+    et d’une attaque sournoise (dont les DM ne sont pas doublés).</p>
+  inGame: >-
+    <p>Utiliser l'action d'attaque automatique, limitée à une utilisation entre
+    chaque Récupération Rapide, pour infliger les DM de l'attaque.</p>
+  source: ''
+  origin: Livre des règles p75
+  slug: ouverture-mortelle
+  subtype: ''
+  actionType: l
+  learned: false
+  charges:
+    current: 1
+    max: 1
+  properties:
+    spell: false
+  path: null
+  actions:
+    - source: Compendium.cof2-base.cof-2-base-items.Item.Qh5a8Me9R2yD11aT
+      indice: 0
+      label: ''
+      chatFlavor: ''
+      type: melee
+      img: icons/svg/d20-highlight.svg
+      properties:
+        visible: false
+        enabled: false
+        activable: true
+        temporary: false
+        noManaCost: false
+        noChargesUsed: false
+      conditions:
+        - predicate: isLearned
+      resolvers:
+        - type: auto
+          bonusDiceAdd: false
+          malusDiceAdd: false
+          skill:
+            difficulty: ''
+          dmg:
+            formula: (@arme.dmg)*2 + (2+@toutrang[4])d4°
+          target:
+            type: single
+            number: '0'
+            scope: all
+          additionalEffect:
+            active: false
+            applyOn: success
+            successThreshold: null
+            statuses: []
+            duration: '0'
+            unit: round
+          halfDmgOnSave: true
+          hasAttackSuccessThreshold: false
+      modifiers: []
+      actionType: none
+  cost: -1
+  rank: 5
+  frequency: combat
+  gmNotes: ''
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.Qh5a8Me9R2yD11aT
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784695
+  modifiedTime: 1789895784695
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_id: QLnMYM2e4ulv30xj
+sort: 0
+_key: '!items!QLnMYM2e4ulv30xj'

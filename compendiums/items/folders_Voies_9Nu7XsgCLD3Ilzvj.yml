@@ -1,0 +1,20 @@
+type: Item
+folder: null
+name: Voies
+color: '#571676'
+sorting: a
+_id: 9Nu7XsgCLD3Ilzvj
+description: ''
+sort: 300000
+flags: {}
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895789032
+  modifiedTime: 1789895789093
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!9Nu7XsgCLD3Ilzvj'

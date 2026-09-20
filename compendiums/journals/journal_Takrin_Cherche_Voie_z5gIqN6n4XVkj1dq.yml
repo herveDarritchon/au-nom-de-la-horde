@@ -1,0 +1,126 @@
+name: Takrin Cherche-Voie
+flags:
+  campaign-codex:
+    type: npc
+    data:
+      linkedActor: Actor.UWbg8xP7wKURKGtV
+      description: ''
+      linkedLocations:
+        - JournalEntry.7tGmUEcyGu1BeheM
+        - JournalEntry.idQ0pKSXB1APj1FT
+      linkedShops: []
+      associates: []
+      notes: ''
+      tagMode: false
+      linkedQuests:
+        - JournalEntry.NU5IW9hOrz0lfDlu
+    contentStorageVersion: 1
+    contentPages:
+      info: V1rHEG3dFzNcQHfp
+      notes: lWXCul0NCV4BG5sm
+  core:
+    sheetClass: campaign-codex.NPCSheet
+pages:
+  - name: Information
+    type: text
+    sort: 100000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <p>Takrin Cherche-voie est un <strong>éclaireur orc expérimenté basé à
+        Tranchecolline</strong>, habitué à parcourir les routes de Durotar et à
+        lire le terrain, les traces et les mouvements inhabituels.</p><p>Joue-le
+        comme un <strong>professionnel calme, sec et très observateur</strong>,
+        qui parle peu, déteste les conclusions hâtives et fait toujours la
+        différence entre ce qu’il <strong>sait</strong>, ce qu’il
+        <strong>suppose</strong> et ce qu’on lui <strong>a raconté</strong>.
+        </p><p>Il respecte davantage la précision que la bravoure et teste les
+        PJ sur leur capacité à revenir avec une information fiable plutôt
+        qu’avec un beau récit. </p><p>Il sert de relais naturel entre Razor
+        Hill, les patrouilles, les convois et les pistes de Durotar, sans jamais
+        devenir un donneur de quête omniscient. </p><p>Sa phrase-reflexe à table
+        : </p><p><strong>« Ne me dis pas ce que tu crois. Dis-moi ce que tu as
+        vu. »</strong> </p><p></p>
+    ownership:
+      default: -1
+    flags:
+      core:
+        sheetClass: campaign-codex.CampaignCodexContentPageSheet
+      campaign-codex:
+        contentKey: info
+    _id: V1rHEG3dFzNcQHfp
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: 1789330064200
+      modifiedTime: 1789330064200
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!z5gIqN6n4XVkj1dq.V1rHEG3dFzNcQHfp'
+  - name: GM Notes
+    type: text
+    sort: 200000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: ''
+    ownership:
+      default: 0
+    flags:
+      core:
+        sheetClass: campaign-codex.CampaignCodexContentPageSheet
+      campaign-codex:
+        contentKey: notes
+    _id: lWXCul0NCV4BG5sm
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: 1789330064200
+      modifiedTime: 1789330064200
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!z5gIqN6n4XVkj1dq.lWXCul0NCV4BG5sm'
+_id: z5gIqN6n4XVkj1dq
+folder: azWtxXBLHOWVMAw0
+categories: []
+ownership:
+  default: 0
+  i2MQVvBnWjyhmgzX: 3
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789330064200
+  modifiedTime: 1789330064201
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+sort: 0
+_key: '!journal!z5gIqN6n4XVkj1dq'

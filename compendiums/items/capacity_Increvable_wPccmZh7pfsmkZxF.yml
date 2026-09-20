@@ -1,0 +1,117 @@
+folder: ZPVEGtcTyZDsZlHb
+name: Increvable
+type: capacity
+img: icons/magic/defensive/shield-barrier-flaming-diamond-acid.webp
+system:
+  description: >-
+    <p style="text-align:justify">Une fois par combat, lorsqu’il tombe à 0PV, le
+    rôdeur peut récupérer [4d4° + CON] PV au début de son prochain tour.
+    Lorsqu’il se relève, il bénéficie d’un bonus de +5 en DEF pendant 1 round et
+    il se débarrasse de tous les états préjudiciables non permanents qui
+    l’affectent</p>
+  inGame: >-
+    <p>Cette capacité propose deux actions. La première soigne, au joueur de
+    cliquer dessus lorsqu'il tombe à 0 PV. La deuxième donne le bonus
+    activable/desactivable de +5 en DEF, à désactiver manuellement du coup.</p>
+  source: ''
+  origin: Livre des règles p72
+  slug: increvable
+  subtype: ''
+  actionType: l
+  learned: false
+  charges:
+    current: 1
+    max: 1
+  properties:
+    spell: false
+  path: null
+  actions:
+    - source: Compendium.cof2-base.cof-2-base-items.Item.74LjHIqCTuC79dei
+      indice: 0
+      label: Soin
+      chatFlavor: ''
+      type: heal
+      img: icons/svg/d20-highlight.svg
+      properties:
+        visible: false
+        enabled: false
+        activable: true
+        temporary: false
+        noManaCost: false
+        noChargesUsed: false
+      conditions:
+        - predicate: isLearned
+      resolvers:
+        - type: heal
+          bonusDiceAdd: false
+          malusDiceAdd: false
+          skill:
+            formula: 4d4° + @con
+          target:
+            type: self
+            number: '0'
+            scope: all
+          additionalEffect:
+            active: false
+            applyOn: success
+            successThreshold: null
+            statuses: []
+            duration: '0'
+            unit: round
+          dmg: {}
+          halfDmgOnSave: true
+          hasAttackSuccessThreshold: false
+      modifiers: []
+      actionType: none
+    - source: Compendium.cof2-base.cof-2-base-items.Item.74LjHIqCTuC79dei
+      indice: 1
+      label: bonus def
+      chatFlavor: ''
+      type: buff
+      img: icons/svg/d20-highlight.svg
+      properties:
+        visible: false
+        enabled: false
+        activable: true
+        temporary: true
+        noManaCost: false
+        noChargesUsed: false
+      conditions:
+        - predicate: isLearned
+      modifiers:
+        - type: capacity
+          source: Compendium.cof2-base.cof-2-base-items.Item.74LjHIqCTuC79dei
+          subtype: combat
+          target: def
+          apply: self
+          value: '5'
+          additionalInfos: ''
+          choiceGroup: 0
+      resolvers: []
+      actionType: none
+  cost: -1
+  rank: 5
+  frequency: combat
+  gmNotes: ''
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.74LjHIqCTuC79dei
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784655
+  modifiedTime: 1789895784655
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_id: wPccmZh7pfsmkZxF
+sort: 0
+_key: '!items!wPccmZh7pfsmkZxF'

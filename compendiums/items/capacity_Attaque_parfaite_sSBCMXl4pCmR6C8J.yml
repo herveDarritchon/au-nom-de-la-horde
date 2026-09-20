@@ -1,0 +1,92 @@
+folder: 6kF2SRDxGbIkFQ06
+name: Attaque parfaite
+type: capacity
+img: icons/skills/melee/strike-sword-slashing-red.webp
+system:
+  description: >-
+    <p style="text-align:justify">Vous obtenez un dé bonus en attaque au contact
+    (ou à distance pour une arme de lancer) et ajoutez +1d4° DM. Vous devez
+    utiliser une arme de prédilection. Éventuellement, le guerrier peut choisir
+    de ne pas infliger les DM de son attaque parfaite pour désarmer une cible
+    dont le NC est inférieur à son bonus de DM de spécialisation.</p>
+  inGame: >-
+    <p>L'action permet de réaliser une attaque avec les valeurs de l'arme
+    équipée en rajoutant un dé bonus ainsi qu'une augmentation de DM de 1d4°</p>
+  source: ''
+  origin: Warbound
+  slug: attaque-parfaite
+  subtype: ''
+  actionType: l
+  learned: false
+  charges:
+    current: null
+    max: null
+  properties:
+    spell: false
+  path: null
+  actions:
+    - source: Compendium.cof2-base.cof-2-base-items.Item.bbBvchC1jtwPev2q
+      indice: 0
+      label: utilisation de l'arme de prédilection
+      chatFlavor: ''
+      img: icons/svg/d20-highlight.svg
+      type: melee
+      actionType: none
+      properties:
+        activable: true
+        temporary: false
+        noChargesUsed: false
+        visible: false
+        enabled: false
+        noManaCost: false
+      conditions:
+        - predicate: isLearned
+      resolvers:
+        - type: attack
+          bonusDiceAdd: true
+          malusDiceAdd: false
+          skill:
+            formula: '@arme.skill'
+            crit: ''
+            difficulty: '@cible.def'
+          dmg:
+            formula: '@arme.dmg + 1d4°'
+          target:
+            type: single
+            scope: all
+            number: '0'
+          hasAttackSuccessThreshold: false
+          additionalEffect:
+            active: false
+            applyOn: success
+            statuses: []
+            duration: '0'
+            unit: round
+          halfDmgOnSave: true
+      modifiers: []
+  cost: -1
+  rank: 4
+  gmNotes: ''
+  frequency: none
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.bbBvchC1jtwPev2q
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784679
+  modifiedTime: 1789895784679
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_id: sSBCMXl4pCmR6C8J
+sort: 0
+_key: '!items!sSBCMXl4pCmR6C8J'

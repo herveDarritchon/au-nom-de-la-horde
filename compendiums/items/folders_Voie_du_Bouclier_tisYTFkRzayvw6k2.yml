@@ -1,0 +1,20 @@
+type: Item
+folder: jBUidZwy15V6UaQa
+name: Voie du Bouclier
+color: '#5c178b'
+sorting: a
+_id: tisYTFkRzayvw6k2
+description: ''
+sort: 100000
+flags: {}
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784470
+  modifiedTime: 1789895784470
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!tisYTFkRzayvw6k2'

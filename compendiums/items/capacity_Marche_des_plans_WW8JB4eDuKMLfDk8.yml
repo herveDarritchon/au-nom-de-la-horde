@@ -1,0 +1,53 @@
+folder: QbGU3agOtNxWKOdP
+name: Marche des plans
+type: capacity
+img: icons/magic/movement/portal-vortex-orange.webp
+system:
+  description: >-
+    <p>Une fois par jour, le prêtre peut passer dans une dimension entre les
+    plans d’existence où le temps et l’espace sont déformés pendant un maximum
+    de CHA rounds. Il se déplace dans une sorte de brouillard gris où le paysage
+    défile à toute vitesse. Pour chaque round de Marche des plans, il se déplace
+    en réalité de 10 km. Le lieu de sortie n’est cependant pas très précis et le
+    MJ doit déterminer une position au hasard autour du point visé (à 1d6 km
+    près).</p>
+  inGame: <p>Le joueur dépense ses PM manuellement. Pas d'effets automatiques.</p>
+  source: ''
+  origin: Livre des règles p125
+  slug: marche-des-plans
+  subtype: ''
+  actionType: l
+  learned: false
+  charges:
+    current: 1
+    max: 1
+  properties:
+    spell: true
+  path: null
+  actions: []
+  cost: -1
+  rank: 5
+  frequency: daily
+  gmNotes: ''
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784691
+  modifiedTime: 1789895784691
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.dafDmHpz9JcxGL8l
+  exportSource: null
+_id: WW8JB4eDuKMLfDk8
+sort: 0
+_key: '!items!WW8JB4eDuKMLfDk8'

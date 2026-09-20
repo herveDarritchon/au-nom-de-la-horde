@@ -1,0 +1,38 @@
+folder: jL6KNyDtnGnKfATQ
+name: Voie du bouclier
+type: path
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/voies/classes/guerrier/cof2-voie-du-bouclier.png
+system:
+  description: ''
+  source: ''
+  origin: Warbound
+  slug: voie-du-bouclier
+  subtype: profile
+  capacities:
+    - Item.EGQFeE8pUA95pTRd
+    - Item.CoYs0AiyzS3OM0pv
+    - Item.OoSvYbuKE6u8qlsA
+    - Item.naVEuVwIkPHZTicf
+    - Item.blhTkUXwkEtoN4w2
+  rank: 0
+  gmNotes: ''
+  maxDefenseArmor: 0
+  pvByLevel: 0
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.sJdGqMnKbG6371wF
+  duplicateSource: Item.tz0YAPhHqnwpnWkE
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895789068
+  modifiedTime: 1789895789068
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+sort: 200000
+_id: 93d7FGbXqZGYP18f
+_key: '!items!93d7FGbXqZGYP18f'

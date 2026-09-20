@@ -96,7 +96,7 @@ body.warbound-theme :is(.journal-sheet, .journal-entry) :is(.journal-sidebar, .d
 }
 
 body.warbound-theme :is(.journal-sidebar, .pages-list) :is(a, .page-heading, .page-title) {
-    color: #dfd0b3;
+    color: #736447;
 }
 
 body.warbound-theme :is(.journal-sidebar, .pages-list) :is(a:hover, .active, .page-heading:hover) {
@@ -126,7 +126,7 @@ body.warbound-theme :is(
 }
 
 body.warbound-theme :is(.journal-page-content, .editor-content, .prosemirror) {
-    padding: clamp(24px, 4vw, 54px);
+    padding: clamp(10px, 1vw, 10px)
 }
 
 /* Optional explicit page wrapper: use <article class="wb-page"> */

@@ -1,0 +1,117 @@
+folder: SEH2YcHcTVIfwxsp
+name: Doigts agiles
+type: capacity
+img: icons/skills/ranged/daggers-thrown-salvo-orange.webp
+system:
+  description: >-
+    <p style="text-align:justify">Le voleur ajoute son rang + 2 aux tests liés à
+    la précision manuelle (crocheter une serrure, désamorcer un piège,
+    pickpocket…) ainsi qu’aux tests pour évaluer un objet précieux (joyaux,
+    bijoux, etc.). De plus il obtient +1 aux DM des attaques à distance avec les
+    dagues et couteaux. Ce bonus passe à +2 au rang 3 de la voie et +3 au rang
+    5.</p>
+  inGame: >-
+    <p>Propose 2 effets :</p> <p>Un bonus permanent pour les jets de précision
+    manuelle et d'estimation</p> <p>Un action actvable/désactivable qui donne
+    des bonus aux dommages. A activer si le joueur lance des dagues ou
+    couteaux.</p> <p><em>Note : Il est aussi possible de recopier le bonus
+    proposé directement dans l'équipement du joueur et supprimer cette action
+    pour éviter la multiplication d'actions...</em></p>
+  source: ''
+  origin: Livre des règles p76
+  slug: doigts-agiles
+  subtype: ''
+  actionType: none
+  learned: false
+  charges:
+    current: null
+    max: null
+  properties:
+    spell: false
+  path: null
+  actions:
+    - source: Compendium.cof2-base.cof-2-base-items.Item.ZutLcy3SKRyQC5oo
+      indice: 0
+      label: ''
+      chatFlavor: ''
+      type: buff
+      img: icons/svg/d20-highlight.svg
+      properties:
+        visible: false
+        enabled: false
+        activable: false
+        temporary: false
+        noManaCost: false
+        noChargesUsed: false
+      modifiers:
+        - type: capacity
+          source: Compendium.cof2-base.cof-2-base-items.Item.ZutLcy3SKRyQC5oo
+          subtype: skill
+          target: agi
+          apply: self
+          value: 2 + @rang
+          additionalInfos: crocheter/désarmorcer
+          choiceGroup: 0
+        - type: capacity
+          source: Compendium.cof2-base.cof-2-base-items.Item.ZutLcy3SKRyQC5oo
+          subtype: skill
+          target: int
+          apply: self
+          value: 2 + @rang
+          additionalInfos: évaluer un objet précieux
+          choiceGroup: 0
+      conditions: []
+      resolvers: []
+      actionType: none
+    - source: Compendium.cof2-base.cof-2-base-items.Item.ZutLcy3SKRyQC5oo
+      indice: 1
+      label: attaques à distance avec dagues et couteaux
+      chatFlavor: ''
+      type: buff
+      img: icons/svg/d20-highlight.svg
+      properties:
+        visible: false
+        enabled: false
+        activable: true
+        temporary: true
+        noManaCost: false
+        noChargesUsed: false
+      conditions:
+        - predicate: isLearned
+      modifiers:
+        - type: capacity
+          source: Compendium.cof2-base.cof-2-base-items.Item.ZutLcy3SKRyQC5oo
+          subtype: combat
+          target: damRanged
+          apply: self
+          value: '@rang[1,1,2,2,3]'
+          additionalInfos: Avec dagues et couteaux
+          choiceGroup: 0
+      resolvers: []
+      actionType: none
+  cost: -1
+  rank: 1
+  gmNotes: ''
+  frequency: none
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.ZutLcy3SKRyQC5oo
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784699
+  modifiedTime: 1789895784699
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_id: ZiJMGXd4eD9Hf6to
+sort: 0
+_key: '!items!ZiJMGXd4eD9Hf6to'

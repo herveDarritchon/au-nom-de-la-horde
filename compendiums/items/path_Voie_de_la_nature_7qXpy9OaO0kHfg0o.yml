@@ -1,0 +1,38 @@
+folder: Nc47ZdfleFUl6KQr
+name: Voie de la nature
+type: path
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/voies/classes/druide/cof2-voie-de-la-nature.png
+system:
+  description: ''
+  source: ''
+  origin: Warbound
+  slug: voie-de-la-nature
+  subtype: profile
+  capacities:
+    - Item.gvCZoC4ECpBxpPCV
+    - Item.Gkl3fcJhJbOIa2T2
+    - Item.RcEeS71jlJhYa607
+    - Item.iBTPKfN2ZHTzij9W
+    - Item.LSAkEe4WRrOMsYHK
+  rank: 0
+  gmNotes: ''
+  maxDefenseArmor: 0
+  pvByLevel: 0
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.gAt6btmdiI9YOUu0
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895789063
+  modifiedTime: 1789895789063
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_id: 7qXpy9OaO0kHfg0o
+sort: 0
+_key: '!items!7qXpy9OaO0kHfg0o'

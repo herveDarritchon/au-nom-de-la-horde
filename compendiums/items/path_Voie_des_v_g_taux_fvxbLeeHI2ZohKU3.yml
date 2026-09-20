@@ -1,0 +1,38 @@
+folder: Nc47ZdfleFUl6KQr
+name: Voie des végétaux
+type: path
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/voies/classes/druide/cof2-voie-des-vegetaux.png
+system:
+  description: ''
+  source: ''
+  origin: Warbound
+  slug: voie-des-vegetaux
+  subtype: profile
+  capacities:
+    - Item.1gZSkKD1fcKOAa3D
+    - Item.S6GCZpbTYEuAcy0M
+    - Item.fB9D5qMPyeVooi1S
+    - Item.AHf3AlqROmaID00S
+    - Item.tBxVhObFpORGnYDv
+  rank: 0
+  gmNotes: ''
+  maxDefenseArmor: 0
+  pvByLevel: 0
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.NrNsIidu48HjEOFj
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895789064
+  modifiedTime: 1789895789064
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_id: fvxbLeeHI2ZohKU3
+sort: 0
+_key: '!items!fvxbLeeHI2ZohKU3'

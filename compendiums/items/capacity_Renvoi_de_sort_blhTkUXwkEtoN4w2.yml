@@ -1,0 +1,53 @@
+folder: tisYTFkRzayvw6k2
+name: Renvoi de sort
+type: capacity
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/classes/guerrier/cof2-renvoi-de-sort.png
+system:
+  description: >-
+    <p style="text-align:justify">Le guerrier peut décider de renvoyer un sort
+    qu’il vient d’absorber grâce à sa capacité Absorber un sort. Au lieu d’être
+    annulé, le sort absorbé est immédiatement retourné contre son expéditeur :
+    le lanceur du sort subit alors les effets de sa propre attaque ! Cet effet
+    ne fonctionne pas contre les sorts de zone.</p>
+  inGame: >-
+    <p>Pas d'effets automatiques. A gérer à la main par le MJ, pour
+    l'instant.</p>
+  source: ''
+  origin: Livre des règles p88
+  slug: renvoi-de-sort
+  subtype: ''
+  actionType: f
+  learned: false
+  charges:
+    current: null
+    max: null
+  properties:
+    spell: false
+  path: null
+  actions: []
+  cost: -1
+  rank: 5
+  gmNotes: ''
+  frequency: none
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.hzjTGqR98iPgAbWl
+  duplicateSource: Item.F8yDQJlvyvSMxCXU
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784677
+  modifiedTime: 1789895784677
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+sort: 87500
+_id: blhTkUXwkEtoN4w2
+_key: '!items!blhTkUXwkEtoN4w2'

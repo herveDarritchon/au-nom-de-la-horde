@@ -1,0 +1,54 @@
+folder: JggeOMlbGeKpmi0u
+name: Le loup
+type: capacity
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+system:
+  description: >-
+    <p>Le rôdeur obtient un loup pour compagnon animal. En combat, le loup
+    attaque en même temps que le rôdeur. Le loup comprend des ordres simples
+    comme : garde, reste, apporte, attaque, etc.</p>
+  inGame: >-
+    <p>Pas d'effets automatiques. A gérer à la main par le MJ, pour l'instant.
+    Au MJ de fournir un token de
+    @UUID[Compendium.cof2-base.cof-2-base-encounter.Actor.mD6tnau4CWNfyCue]{Loup}
+    (fournit dans le module COFv2) au joueur et de lui en donner les droits de
+    contrôle.</p>
+  source: ''
+  origin: Livre des règles p71
+  slug: le-loup
+  subtype: ''
+  actionType: none
+  learned: false
+  charges:
+    current: null
+    max: null
+  properties:
+    spell: false
+  path: null
+  actions: []
+  cost: -1
+  rank: 1
+  gmNotes: ''
+  frequency: none
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.PeFhxeHiJ7JHvnR1
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784652
+  modifiedTime: 1789895784652
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_id: R9wukxHtQbsEwxKX
+sort: 0
+_key: '!items!R9wukxHtQbsEwxKX'

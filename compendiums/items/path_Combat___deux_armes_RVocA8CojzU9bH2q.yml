@@ -1,0 +1,44 @@
+folder: HeVfqHFnWr9eQGEv
+name: Combat à deux armes
+type: path
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/voies/classes/chasseur/cof2-combat-a-deux-armes.png
+system:
+  description: >-
+    <p>Les capacités de cette voie nécessitent toutes l’usage d’une arme dans
+    chaque main (à l’exception de Combattant héroïque). Cette voie est une
+    exception aux règles sur les profils hybrides, un personnage peut l’utiliser
+    en portant toutes les armures autorisées pas son profil principal. Les
+    capacités de cette voie fonctionnent avec des armes de contact, mais aussi
+    avec des armes de lancer.</p>
+  source: ''
+  origin: ''
+  slug: combat-a-deux-armes
+  subtype: profile
+  capacities:
+    - Item.cr7nvHe93ORXXifS
+    - Item.R6fQlOPiKjNZrBK5
+    - Item.IMNXAFR1YaVWmEzK
+    - Item.A07LKbo4HZMKjEer
+    - Item.R4Kyl2ngFY9JESBy
+  rank: 0
+  gmNotes: ''
+  maxDefenseArmor: 0
+  pvByLevel: 0
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.aeuD7SLqnFaqrOcz
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895789060
+  modifiedTime: 1789895789060
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_id: RVocA8CojzU9bH2q
+sort: 0
+_key: '!items!RVocA8CojzU9bH2q'

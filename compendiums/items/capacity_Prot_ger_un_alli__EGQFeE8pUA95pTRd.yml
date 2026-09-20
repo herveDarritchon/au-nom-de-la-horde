@@ -1,0 +1,127 @@
+folder: tisYTFkRzayvw6k2
+name: Protéger un allié
+type: capacity
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/classes/guerrier/cof2-prote%CC%81ger-un-allie.png
+system:
+  description: >-
+    <p style="text-align:justify">S’il n’est pas surpris, le guerrier peut
+    accorder un bonus de DEF de +2 à un allié à son contact contre une attaque
+    par round. Il doit annoncer son intention avant de connaître le résultat de
+    l’attaque. De plus, vous ajoutez votre rang + 2 à tous les tests destinés à
+    éviter d’être surpris</p>
+  inGame: >-
+    <p>Cette capacité gère le bonus permanent aux jet de caractéristique pour
+    éviter d'être surpris.</p>  <p>De plus elle propose une action qui si elle
+    est activée après avoir ciblé un allié, va lui appliquer un bonus de +2 en
+    DEF pendant 1 round. Cet effet ne fonctionne qu'en mode combat.</p>
+  source: ''
+  origin: Livre des règles p87
+  slug: proteger-un-allie
+  subtype: ''
+  actionType: f
+  learned: false
+  charges:
+    current: null
+    max: null
+  properties:
+    spell: false
+  path: null
+  actions:
+    - source: Compendium.cof2-base.cof-2-base-items.Item.urKud713uiGWfNeX
+      indice: 0
+      label: ''
+      chatFlavor: ''
+      img: icons/svg/d20-highlight.svg
+      type: buff
+      actionType: none
+      properties:
+        activable: false
+        temporary: false
+        noChargesUsed: false
+        visible: false
+        enabled: false
+        noManaCost: false
+      conditions:
+        - predicate: isLearned
+      modifiers:
+        - type: capacity
+          source: Compendium.cof2-base.cof-2-base-items.Item.urKud713uiGWfNeX
+          subtype: skill
+          target: per
+          value: 2 + @rang
+          apply: self
+          additionalInfos: éviter d'être surpris
+          choiceGroup: 0
+      resolvers: []
+    - source: Compendium.cof2-base.cof-2-base-items.Item.urKud713uiGWfNeX
+      indice: 1
+      label: ''
+      chatFlavor: ''
+      img: icons/svg/d20-highlight.svg
+      type: buff
+      actionType: none
+      properties:
+        activable: true
+        temporary: false
+        noChargesUsed: false
+        visible: false
+        enabled: false
+        noManaCost: false
+      conditions:
+        - predicate: isLearned
+      modifiers:
+        - type: capacity
+          source: Compendium.cof2-base.cof-2-base-items.Item.urKud713uiGWfNeX
+          subtype: combat
+          target: def
+          value: '2'
+          apply: others
+          additionalInfos: si non surpris
+          choiceGroup: 0
+      resolvers:
+        - type: buffDebuff
+          target:
+            type: single
+            scope: all
+            number: '0'
+          additionalEffect:
+            active: true
+            applyOn: always
+            formulaType: damage
+            formula: ''
+            elementType: ''
+            statuses: []
+            duration: '1'
+            unit: round
+          bonusDiceAdd: false
+          malusDiceAdd: false
+          skill: {}
+          dmg: {}
+          halfDmgOnSave: true
+          hasAttackSuccessThreshold: false
+  cost: -1
+  rank: 1
+  gmNotes: ''
+  frequency: none
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.urKud713uiGWfNeX
+  duplicateSource: Item.Rc8RVV6XxxtwpSjx
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784677
+  modifiedTime: 1789895784677
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+sort: 75000
+_id: EGQFeE8pUA95pTRd
+_key: '!items!EGQFeE8pUA95pTRd'

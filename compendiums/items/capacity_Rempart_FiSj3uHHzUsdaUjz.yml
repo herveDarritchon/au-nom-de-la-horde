@@ -1,0 +1,76 @@
+folder: H1NxEJ0tQptud3eG
+name: Rempart
+type: capacity
+img: icons/skills/melee/hand-grip-staff-blue.webp
+system:
+  description: >-
+    <p>Vous pouvez désormais utiliser Teigneux contre un nombre d’adversaires
+    égal à votre AGI + 2 à chaque round. Si vous réussissez cette attaque, le
+    déplacement de votre adversaire est stoppé à l’endroit où vous l’avez
+    attaqué. De plus vous gagnez +1 en DEF.</p>
+  inGame: <p>Cette capacité gère le bonus permanent en DEF</p>
+  source: ''
+  origin: Livre des règles p90
+  slug: rempart
+  subtype: ''
+  actionType: none
+  learned: false
+  charges:
+    current: null
+    max: null
+  properties:
+    spell: false
+  path: null
+  actions:
+    - source: Compendium.cof2-base.cof-2-base-items.Item.xLZlGukyDCy3ifMC
+      indice: 0
+      label: ''
+      chatFlavor: ''
+      img: icons/svg/d20-highlight.svg
+      type: buff
+      properties:
+        visible: false
+        enabled: false
+        activable: false
+        temporary: false
+        noManaCost: false
+        noChargesUsed: false
+      conditions:
+        - predicate: isLearned
+      modifiers:
+        - type: capacity
+          source: Compendium.cof2-base.cof-2-base-items.Item.xLZlGukyDCy3ifMC
+          subtype: combat
+          target: def
+          value: '1'
+          apply: self
+          additionalInfos: ''
+          choiceGroup: 0
+      resolvers: []
+      actionType: none
+  cost: -1
+  rank: 5
+  gmNotes: ''
+  frequency: none
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.xLZlGukyDCy3ifMC
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784680
+  modifiedTime: 1789895784680
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_id: FiSj3uHHzUsdaUjz
+sort: 0
+_key: '!items!FiSj3uHHzUsdaUjz'

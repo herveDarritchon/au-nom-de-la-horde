@@ -1,0 +1,84 @@
+folder: ZPVEGtcTyZDsZlHb
+name: Constitution héroïque
+type: capacity
+img: icons/skills/movement/arrows-up-trio-red.webp
+system:
+  description: >-
+    <p>Le rôdeur augmente sa valeur de CON de +1. Désormais, il obtient un dé
+    bonus aux tests de CON</p>
+  inGame: >-
+    <p>Il s'agit d'un bonus permanent à partir du moment où la capacité est
+    apprise.</p><p></p>
+  source: ''
+  origin: Livre des règles p72
+  slug: constitution-heroique
+  subtype: ''
+  actionType: none
+  learned: false
+  charges:
+    current: null
+    max: null
+  properties:
+    spell: false
+  path: null
+  actions:
+    - source: Compendium.cof2-base.cof-2-base-items.Item.UhLsiXWMlrbPqKil
+      indice: 0
+      label: ''
+      chatFlavor: ''
+      type: buff
+      img: icons/svg/d20-highlight.svg
+      properties:
+        activable: false
+        enabled: false
+        temporary: false
+        visible: false
+        noManaCost: false
+        noChargesUsed: false
+      conditions:
+        - predicate: isLearned
+      modifiers:
+        - type: capacity
+          source: Compendium.cof2-base.cof-2-base-items.Item.UhLsiXWMlrbPqKil
+          subtype: ability
+          target: con
+          value: '1'
+          apply: self
+          choiceGroup: 0
+          additionalInfos: ''
+        - type: capacity
+          source: Compendium.cof2-base.cof-2-base-items.Item.UhLsiXWMlrbPqKil
+          subtype: bonusDice
+          target: con
+          value: '0'
+          apply: self
+          choiceGroup: 0
+          additionalInfos: ''
+      resolvers: []
+      actionType: none
+  cost: -1
+  rank: 4
+  gmNotes: ''
+  frequency: none
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.UhLsiXWMlrbPqKil
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784655
+  modifiedTime: 1789895784655
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_id: 8XDOi6jXsHY9OtTB
+sort: 0
+_key: '!items!8XDOi6jXsHY9OtTB'

@@ -1,0 +1,76 @@
+folder: JMHjtxIQuvXayk5y
+name: Double attaque
+type: capacity
+img: icons/skills/melee/weapons-crossed-swords-pink.webp
+system:
+  description: >-
+    <p>Le guerrier fait deux attaques au contact durant son tour avec un malus
+    de ‑2</p>
+  inGame: >-
+    <p>Le joueur active l'action afin d'appliquer le malus de -2 aux attaques de
+    contact</p>
+  source: ''
+  origin: Livre des règles p88
+  slug: double-attaque
+  subtype: ''
+  actionType: l
+  learned: false
+  charges:
+    current: null
+    max: null
+  properties:
+    spell: false
+  path: null
+  actions:
+    - source: Compendium.cof2-base.cof-2-base-items.Item.7ENYPFUdLeM2RDJb
+      indice: 0
+      label: ''
+      chatFlavor: ''
+      type: debuff
+      img: icons/svg/d20-highlight.svg
+      properties:
+        visible: false
+        enabled: false
+        activable: true
+        temporary: true
+        noManaCost: false
+        noChargesUsed: false
+      conditions:
+        - predicate: isLearned
+      modifiers:
+        - type: capacity
+          source: Compendium.cof2-base.cof-2-base-items.Item.7ENYPFUdLeM2RDJb
+          subtype: combat
+          target: melee
+          apply: self
+          value: '-2'
+          additionalInfos: ''
+          choiceGroup: 0
+      resolvers: []
+      actionType: none
+  cost: -1
+  rank: 4
+  gmNotes: ''
+  frequency: none
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.7ENYPFUdLeM2RDJb
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784678
+  modifiedTime: 1789895784678
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_id: bpx9sH8Kv8fcqbRw
+sort: 0
+_key: '!items!bpx9sH8Kv8fcqbRw'

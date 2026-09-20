@@ -1,0 +1,59 @@
+folder: rMMg5JuaE6hvEj98
+name: Résistance à l'Ombre
+type: capacity
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/resistance-a-l-ombre.png
+system:
+  description: >-
+    <p>Le Réprouvé bénéficie d’un <strong>bonus de +5 aux tests de protection
+    contre les sorts d’Ombre</strong>. </p><p><strong data-start="49"
+    data-end="72">Une fois par combat</strong>, lorsqu’il est ciblé par un
+    <strong data-start="101" data-end="140">sort d’Ombre qui inflige des
+    dégâts</strong>, le Réprouvé peut choisir de <strong data-start="170"
+    data-end="207">ne subir que la moitié des dégâts</strong>.</p><p>Cette
+    capacité est sans effet contre une créature dont le <strong data-start="482"
+    data-end="530" data-is-only-node>NC est au moins égal au double du niveau
+    </strong>du Réprouvé.</p>
+  inGame: ''
+  source: ''
+  origin: warbound
+  slug: haches-et-marteaux
+  subtype: ''
+  actionType: none
+  learned: false
+  charges:
+    current: null
+    max: null
+  properties:
+    spell: false
+  path: null
+  actions: []
+  cost: -1
+  rank: 1
+  gmNotes: >-
+    <p>Foundry : Objet Capacité séparé. Automatisation différée jusqu’au
+    verrouillage de l’action, du soin, de la durée, des cibles valides et des
+    interruptions.</p><p>Peut être choisi gratuitement à la création. Sinon :
+    coût provisoire 1 PC lors d’une progression.</p>
+  frequency: none
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.QIxVby70L3mFXaPh
+  duplicateSource: Item.ur2HVqPh94KVo4yd
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784642
+  modifiedTime: 1789895784642
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+sort: 100000
+_id: qDtzVa0RMcNnM8pE
+_key: '!items!qDtzVa0RMcNnM8pE'

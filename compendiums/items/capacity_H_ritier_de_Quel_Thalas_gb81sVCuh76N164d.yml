@@ -1,0 +1,97 @@
+folder: LCsZi9IJ3OYnoq77
+name: Héritier de Quel'Thalas
+type: capacity
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/cof2-heritier-de-quel-thalas.png
+system:
+  description: >-
+    <p>Le Sin’dorei considère l’obscurité d’une nuit éclairée par les étoiles
+    comme de la pénombre.</p><p>Il obtient également +3 aux tests d’érudition
+    (INT) et aux tests artistiques (CHA).</p>
+  inGame: ''
+  source: ''
+  origin: Livre des règles p48
+  slug: attaque-sanglante
+  subtype: ''
+  actionType: l
+  learned: false
+  charges:
+    current: null
+    max: null
+  properties:
+    spell: false
+  path: null
+  actions:
+    - source: Compendium.cof2-base.cof-2-base-items.Item.SSWFT9LWLpbCIc46
+      indice: 0
+      label: ''
+      chatFlavor: ''
+      img: icons/svg/d20-highlight.svg
+      type: melee
+      actionType: none
+      properties:
+        activable: true
+        temporary: false
+        noChargesUsed: false
+        visible: false
+        enabled: false
+        noManaCost: false
+      conditions:
+        - predicate: isLearned
+      resolvers:
+        - type: attack
+          bonusDiceAdd: false
+          malusDiceAdd: false
+          skill:
+            formula: '@arme.skill'
+            crit: ''
+            difficulty: '@cible.def'
+          dmg:
+            formula: '@arme.dmg'
+          target:
+            type: single
+            scope: all
+            number: '0'
+          hasAttackSuccessThreshold: false
+          additionalEffect:
+            active: true
+            applyOn: success
+            formulaType: damage
+            formula: 1d4°
+            elementType: ''
+            statuses:
+              - bleeding
+            unit: combat
+            duration: '0'
+          halfDmgOnSave: true
+      modifiers: []
+  cost: -1
+  rank: 1
+  gmNotes: >-
+    <blockquote><p>Foundry : gérer la vision comme la capacité haut-elfe
+    correspondante ; ajouter +3 aux tests d’érudition et aux tests
+    artistiques.</p></blockquote><p>Rang 1 gratuit de la Voie de peuple. Cette
+    capacité recontextualise Lumière intérieure de la Voie officielle de l’Elfe
+    haut de COF2.</p><p></p>
+  frequency: none
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.SSWFT9LWLpbCIc46
+  duplicateSource: Item.X409OKq03sIz4lGK
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784627
+  modifiedTime: 1789895784627
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+sort: 100000
+_id: gb81sVCuh76N164d
+_key: '!items!gb81sVCuh76N164d'

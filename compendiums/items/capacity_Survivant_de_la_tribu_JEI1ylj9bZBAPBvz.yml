@@ -1,0 +1,78 @@
+folder: VXemtWdksgYw7pWA
+name: Survivant de la tribu
+type: capacity
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/survivant-de-la-tribu.png
+system:
+  description: <p>Le Troll augmente ses valeurs d’AGI et de CON de +1.</p>
+  inGame: ''
+  source: ''
+  origin: warbound
+  slug: haches-et-marteaux
+  subtype: ''
+  actionType: none
+  learned: false
+  charges:
+    current: 1
+    max: 1
+  properties:
+    spell: false
+  path: null
+  actions:
+    - source: Compendium.cof2-base.cof-2-base-items.Item.QIxVby70L3mFXaPh
+      indice: 0
+      label: Connaîssance d'une Bête
+      chatFlavor: ''
+      img: icons/svg/pawprint.svg
+      type: buff
+      actionType: f
+      properties:
+        activable: false
+        temporary: false
+        noChargesUsed: false
+        visible: false
+        enabled: false
+        noManaCost: false
+      conditions:
+        - predicate: isLearned
+      modifiers:
+        - type: capacity
+          source: Item.K6yNW2kbmBSyB99s
+          subtype: ability
+          target: int
+          value: '2'
+          apply: self
+          additionalInfos: >-
+            Connaître les habitudes, le comportement ou les particularités d'une
+            Bête
+          choiceGroup: 0
+      resolvers: []
+  cost: -1
+  rank: 5
+  gmNotes: >-
+    <p>Foundry : Augmentation permanente de AGI +1 et CON +1.</p><p>Cette
+    construction suit l’esprit du rang 5 Colosse de la Voie officielle du
+    demi-orc, mais traduit l’accomplissement Sombrelance par l’agilité et
+    l’endurance plutôt que par la force brute.</p>
+  frequency: none
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.QIxVby70L3mFXaPh
+  duplicateSource: Item.rSD5bkhXYzKuUn9n
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784650
+  modifiedTime: 1789895784650
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+sort: 100000
+_id: JEI1ylj9bZBAPBvz
+_key: '!items!JEI1ylj9bZBAPBvz'

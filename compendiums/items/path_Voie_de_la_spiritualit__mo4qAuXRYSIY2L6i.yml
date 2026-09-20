@@ -1,0 +1,38 @@
+folder: BP3eEQS9sYUKkMSn
+name: Voie de la spiritualité
+type: path
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/voies/classes/pretre/cof2-voie-de-la-spiritualite.png
+system:
+  description: ''
+  source: ''
+  origin: Warbound
+  slug: voie-de-la-spiritualite
+  subtype: profile
+  capacities:
+    - Compendium.cof2-base.cof-2-base-items.Item.OMMJV1tt9ReX2FP4
+    - Compendium.cof2-base.cof-2-base-items.Item.7cufA1lXr2cBGmQ6
+    - Compendium.cof2-base.cof-2-base-items.Item.0mj2HaVGeQE9KC9Y
+    - Compendium.cof2-base.cof-2-base-items.Item.RXvHwAzKMzqMsor4
+    - Compendium.cof2-base.cof-2-base-items.Item.dafDmHpz9JcxGL8l
+  rank: 0
+  gmNotes: ''
+  maxDefenseArmor: 0
+  pvByLevel: 0
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895789075
+  modifiedTime: 1789895789075
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.g18L1xImXMuLL9SF
+  exportSource: null
+_id: mo4qAuXRYSIY2L6i
+sort: 0
+_key: '!items!mo4qAuXRYSIY2L6i'

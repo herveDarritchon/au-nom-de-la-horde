@@ -1,0 +1,38 @@
+folder: jYZdnFRvUIkY5NnK
+name: Voie du roublard
+type: path
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/voies/classes/voleur/cof2-voie-du-roublard.png
+system:
+  description: ''
+  source: ''
+  origin: Warbound
+  slug: voie-du-roublard
+  subtype: profile
+  capacities:
+    - Item.ZiJMGXd4eD9Hf6to
+    - Item.3oWVBB1T8kNRJTN9
+    - Item.wqeD14iqtZKuZgwj
+    - Item.y9FR3eQhnbYEmrg3
+    - Item.kFOoVS85UXsX7phD
+  rank: 0
+  gmNotes: ''
+  maxDefenseArmor: 0
+  pvByLevel: 0
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.NqyNscxJFtSuAnby
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895789076
+  modifiedTime: 1789895789076
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_id: LZYjcHLVHXgNb4JJ
+sort: 0
+_key: '!items!LZYjcHLVHXgNb4JJ'

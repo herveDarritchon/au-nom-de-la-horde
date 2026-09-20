@@ -1,0 +1,107 @@
+folder: y5Bi1ofdJcPN7C26
+name: Fureur sanguinaire
+type: capacity
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/fureur-sanguinaire.png
+system:
+  description: >-
+    <p class="MsoNormal"><span lang="EN-US"
+    style="mso-fareast-font-family:'DejaVu Serif';mso-bidi-font-family:'DejaVu
+    Serif'">Orc peut dépenser 1 DR pour puiser brutalement dans ses réserves
+    physiques.</span></p><p class="MsoNormal"><span lang="EN-US"
+    style="mso-fareast-font-family:'DejaVu Serif';mso-bidi-font-family:'DejaVu
+    Serif'">Jusqu’à la fin de son prochain tour, une fois par round, lorsqu’il
+    réussit une attaque au contact, il ajoute +1d4 aux DM de cette attaque.
+    </span></p><p class="MsoNormal"><span lang="EN-US"
+    style="mso-fareast-font-family:'DejaVu Serif';mso-bidi-font-family:'DejaVu
+    Serif'">Fureur sanguinaire n’empêche pas l’Orc de fuir ou d’effectuer des
+    attaques à distance, mais celles-ci ne bénéficient pas du bonus.
+    </span></p><p class="MsoNormal"><span lang="EN-US"
+    style="mso-fareast-font-family:'DejaVu Serif';mso-bidi-font-family:'DejaVu
+    Serif'">Après utilisation, Fureur sanguinaire ne peut être utilisée de
+    nouveau avant une récupération rapide.</span></p>
+  inGame: ''
+  source: ''
+  origin: warbound
+  slug: haches-et-marteaux
+  subtype: ''
+  actionType: f
+  learned: false
+  charges:
+    current: null
+    max: null
+  properties:
+    spell: false
+  path: null
+  actions:
+    - source: Item.Vknb84JVHRnwKiva
+      indice: 0
+      label: ''
+      chatFlavor: ''
+      img: icons/svg/d20-highlight.svg
+      type: melee
+      actionType: none
+      properties:
+        activable: true
+        temporary: true
+        noChargesUsed: false
+        visible: false
+        enabled: false
+        noManaCost: false
+      modifiers:
+        - type: capacity
+          source: Item.Vknb84JVHRnwKiva
+          subtype: combat
+          target: melee
+          value: ''
+          apply: self
+          additionalInfos: +1D4
+          choiceGroup: 0
+      resolvers:
+        - type: attack
+          bonusDiceAdd: false
+          malusDiceAdd: false
+          skill:
+            formula: '@atc'
+            crit: ''
+            difficulty: '@cible.def'
+          dmg:
+            formula: ''
+          target:
+            type: none
+            number: '0'
+            scope: all
+          hasAttackSuccessThreshold: false
+          additionalEffect:
+            active: false
+            applyOn: success
+            statuses: []
+            duration: '0'
+            unit: round
+          halfDmgOnSave: true
+      conditions: []
+  cost: -1
+  rank: 1
+  gmNotes: ''
+  frequency: combat
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.QIxVby70L3mFXaPh
+  duplicateSource: Item.MJ3KDauouJXSsSED
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784634
+  modifiedTime: 1789895784634
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+sort: 300000
+_id: Vknb84JVHRnwKiva
+_key: '!items!Vknb84JVHRnwKiva'

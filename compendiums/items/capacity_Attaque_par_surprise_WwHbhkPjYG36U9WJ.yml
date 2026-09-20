@@ -1,0 +1,78 @@
+folder: hPKgFIkvZASI3C1s
+name: Attaque par surprise
+type: capacity
+img: icons/skills/melee/strike-sword-blood-red.webp
+system:
+  description: >-
+    <p>Contre un adversaire surpris, le voleur peut réaliser une attaque
+    sournoise en utilisant une action d’attaque plutôt qu’une action limitée et
+    il augmente les DM de son attaque sournoise de 2d4°.</p>
+  inGame: >-
+    <p>Cette capacité propose un bouton activable/désactivable pour ajouter le
+    bonus de DM aux Dommages du joueur. A activer s’l attaque quelqu’un par
+    "surprise"</p>
+  source: ''
+  origin: Livre des règles p75
+  slug: attaque-par-surprise
+  subtype: ''
+  actionType: none
+  learned: false
+  charges:
+    current: null
+    max: null
+  properties:
+    spell: false
+  path: null
+  actions:
+    - source: Compendium.cof2-base.cof-2-base-items.Item.cVFYcdAl3lHbaSzn
+      indice: 0
+      label: contre ennemi surpris, de dos
+      chatFlavor: ''
+      type: buff
+      img: icons/svg/d20-highlight.svg
+      properties:
+        visible: false
+        enabled: false
+        activable: true
+        temporary: true
+        noManaCost: false
+        noChargesUsed: false
+      conditions:
+        - predicate: isLearned
+      modifiers:
+        - type: capacity
+          source: Compendium.cof2-base.cof-2-base-items.Item.cVFYcdAl3lHbaSzn
+          subtype: combat
+          target: damMelee
+          apply: self
+          value: 2d4°
+          additionalInfos: ''
+          choiceGroup: 0
+      resolvers: []
+      actionType: none
+  cost: -1
+  rank: 3
+  gmNotes: ''
+  frequency: none
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.cVFYcdAl3lHbaSzn
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784693
+  modifiedTime: 1789895784693
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_id: WwHbhkPjYG36U9WJ
+sort: 0
+_key: '!items!WwHbhkPjYG36U9WJ'

@@ -1,0 +1,38 @@
+folder: vDDmoPzpqFUx9Gy8
+name: Voie de la sombre magie
+type: path
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/voies/classes/demoniste/cof2-voie-de-la-sombre-magie.png
+system:
+  description: ''
+  source: ''
+  origin: Warbound
+  slug: voie-de-la-sombre-magie
+  subtype: profile
+  capacities:
+    - Compendium.cof2-base.cof-2-base-items.Item.BdBM4QMSUYfZWUj2
+    - Compendium.cof2-base.cof-2-base-items.Item.ap9Utq8XxLfoloXI
+    - Compendium.cof2-base.cof-2-base-items.Item.Vrg7GnAsf9f1BtUX
+    - Compendium.cof2-base.cof-2-base-items.Item.dM2Lh8zAJDZ7cM6L
+    - Compendium.cof2-base.cof-2-base-items.Item.ZyDmGlVkMp8rvoe9
+  rank: 0
+  gmNotes: ''
+  maxDefenseArmor: 0
+  pvByLevel: 0
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.0Xn7lzphsHXkAC2q
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895789063
+  modifiedTime: 1789895789063
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_id: amW9hY74riLd8uyU
+sort: 100000
+_key: '!items!amW9hY74riLd8uyU'

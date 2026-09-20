@@ -1,0 +1,38 @@
+folder: Nc47ZdfleFUl6KQr
+name: Voie des animaux
+type: path
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/voies/classes/druide/cof2-voie-des-animaux.png
+system:
+  description: ''
+  source: ''
+  origin: Warbound
+  slug: voie-des-animaux
+  subtype: profile
+  capacities:
+    - Item.RoMKM4DbjAKgWasc
+    - Item.5f7cf6TN5f1Pc91a
+    - Item.VGLFu0oQvUVWSAHr
+    - Item.xlWE7BcVsI1WUhhJ
+    - Item.0V9T9qNzRFrOcUK5
+  rank: 0
+  gmNotes: ''
+  maxDefenseArmor: 0
+  pvByLevel: 0
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.3XihekeOeJRUbcKG
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895789063
+  modifiedTime: 1789895789063
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_id: 7piWIgNWN4NvmsY2
+sort: 0
+_key: '!items!7piWIgNWN4NvmsY2'

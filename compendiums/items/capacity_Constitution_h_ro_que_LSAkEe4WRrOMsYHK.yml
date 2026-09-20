@@ -1,0 +1,84 @@
+folder: dDlmKHRV7pMCI2OZ
+name: Constitution héroïque
+type: capacity
+img: icons/skills/movement/arrows-up-trio-red.webp
+system:
+  description: >-
+    <p>Le druide augmente sa CON de +1. Désormais, il obtient un dé bonus aux
+    tests de CON.</p>
+  inGame: >-
+    <p>Il s'agit d'un bonus permanent à partir du moment où la capacité est
+    apprise.</p>
+  source: ''
+  origin: Livre des règles p117
+  slug: constitution-heroique
+  subtype: ''
+  actionType: none
+  learned: false
+  charges:
+    current: null
+    max: null
+  properties:
+    spell: false
+  path: null
+  cost: -1
+  actions:
+    - source: Compendium.cof2-base.cof-2-base-items.Item.0uE0Wcal1ZL2tJc1
+      indice: 0
+      label: ''
+      chatFlavor: ''
+      type: buff
+      img: icons/svg/d20-highlight.svg
+      properties:
+        activable: false
+        enabled: false
+        temporary: false
+        visible: false
+        noManaCost: false
+        noChargesUsed: false
+      conditions:
+        - predicate: isLearned
+      modifiers:
+        - type: capacity
+          source: Compendium.cof2-base.cof-2-base-items.Item.0uE0Wcal1ZL2tJc1
+          subtype: ability
+          target: con
+          value: '1'
+          apply: self
+          choiceGroup: 0
+          additionalInfos: ''
+        - type: capacity
+          source: Compendium.cof2-base.cof-2-base-items.Item.0uE0Wcal1ZL2tJc1
+          subtype: bonusDice
+          target: con
+          value: '0'
+          apply: self
+          choiceGroup: 0
+          additionalInfos: ''
+      resolvers: []
+      actionType: none
+  rank: 4
+  gmNotes: ''
+  frequency: none
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.0uE0Wcal1ZL2tJc1
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784670
+  modifiedTime: 1789895784670
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_id: LSAkEe4WRrOMsYHK
+sort: 0
+_key: '!items!LSAkEe4WRrOMsYHK'

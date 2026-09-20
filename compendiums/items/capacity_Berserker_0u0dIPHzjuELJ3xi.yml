@@ -1,0 +1,155 @@
+folder: 12392vARcaK4Og8D
+name: Berserker
+type: capacity
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/berseker.png
+system:
+  description: >-
+    <p>Le Troll déchaîne sa rapidité pendant 2 rounds. L’effet dépend de ses PV
+    au moment de l’activation. Au-dessus de 50 % de ses PV maximum : +3 en
+    Initiative. À 50 % de ses PV maximum ou moins : +5 en Initiative et, une
+    fois pendant la durée, il obtient une action d’attaque supplémentaire (A).
+    Cette action peut servir à effectuer une attaque, utiliser une capacité (A)
+    ou lancer un sort (A). Cette action supplémentaire respecte la limite
+    normale de COF2 d’une seule action supplémentaire par round. Le Troll doit
+    terminer une Récupération rapide avant de pouvoir utiliser à nouveau
+    Berserker.</p>
+  inGame: ''
+  source: ''
+  origin: warbound
+  slug: haches-et-marteaux
+  subtype: ''
+  actionType: f
+  learned: false
+  charges:
+    current: 1
+    max: 1
+  properties:
+    spell: false
+  path: null
+  actions:
+    - source: Compendium.cof2-base.cof-2-base-items.Item.QIxVby70L3mFXaPh
+      indice: 0
+      label: Berserker — plus de 50 % PV
+      chatFlavor: ''
+      img: icons/svg/aura.svg
+      type: buff
+      actionType: f
+      properties:
+        activable: true
+        temporary: false
+        noChargesUsed: false
+        visible: false
+        enabled: false
+        noManaCost: false
+      conditions:
+        - predicate: isLearned
+      modifiers:
+        - type: capacity
+          source: Item.0u0dIPHzjuELJ3xi
+          subtype: combat
+          target: init
+          value: '3'
+          apply: self
+          additionalInfos: ''
+          choiceGroup: 0
+      resolvers:
+        - type: buffDebuff
+          target:
+            type: self
+            number: '0'
+            scope: all
+          additionalEffect:
+            active: true
+            applyOn: always
+            formulaType: damage
+            formula: ''
+            elementType: ''
+            statuses: []
+            duration: '2'
+            unit: round
+          bonusDiceAdd: false
+          malusDiceAdd: false
+          skill: {}
+          dmg: {}
+          halfDmgOnSave: true
+          hasAttackSuccessThreshold: false
+    - source: Item.0u0dIPHzjuELJ3xi
+      indice: 1
+      label: Berserker — 50 % PV ou moins
+      chatFlavor: >-
+        +5 Initiative — 1 action d'attaque supplémentaire (A) disponible une
+        fois pendant la durée.
+      img: icons/svg/invisible.svg
+      type: buff
+      actionType: f
+      properties:
+        activable: true
+        temporary: false
+        noChargesUsed: false
+        visible: false
+        enabled: false
+        noManaCost: false
+      conditions:
+        - predicate: isLearned
+      modifiers:
+        - type: capacity
+          source: Item.0u0dIPHzjuELJ3xi
+          subtype: combat
+          target: init
+          value: '5'
+          apply: self
+          additionalInfos: ''
+          choiceGroup: 0
+      resolvers:
+        - type: buffDebuff
+          target:
+            type: self
+            number: '0'
+            scope: all
+          additionalEffect:
+            active: true
+            applyOn: always
+            formulaType: damage
+            formula: ''
+            elementType: ''
+            statuses: []
+            duration: '2'
+            unit: round
+          bonusDiceAdd: false
+          malusDiceAdd: false
+          skill: {}
+          dmg: {}
+          halfDmgOnSave: true
+          hasAttackSuccessThreshold: false
+  cost: -1
+  rank: 1
+  gmNotes: >-
+    <p>Foundry : Capacité (G), durée 2 rounds, recharge Récupération rapide. Le
+    bonus d’Initiative doit être géré sans réécrire un tour déjà joué ; si
+    activé en cours de round, il affecte l’ordre à partir du round
+    suivant.</p><p>Peut être choisi gratuitement à la création. Sinon : coût
+    provisoire 1 PC. C’est le Talent troll à surveiller en priorité, notamment à
+    50 % de PV ou moins en raison de l’action supplémentaire.</p>
+  frequency: combat
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.QIxVby70L3mFXaPh
+  duplicateSource: Item.3hG2ZQ2aJRFcWujA
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784648
+  modifiedTime: 1789895784648
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+sort: 100000
+_id: 0u0dIPHzjuELJ3xi
+_key: '!items!0u0dIPHzjuELJ3xi'

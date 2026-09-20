@@ -1,0 +1,40 @@
+folder: iBZXfIsYJ0K1wqMG
+name: Voie du Mort libre
+type: path
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/voies/voie-du-reprouve.png
+system:
+  description: >-
+    <p>L'orc gagne un bonus de +3 à tous les tests d’intimidation. De plus, dans
+    le noir total, l'orc voit comme dans la pénombre jusqu’à 30 m.</p>
+  source: ''
+  origin: warabound
+  slug: voie-du-demi-orc
+  subtype: people
+  capacities:
+    - Item.vSfKzdFYSXP6Fuqy
+    - Item.DXEWYHT6pK2cVnlC
+    - Item.piY9qoFPG1iINn93
+    - Item.bedn4KQIIgm1l9bD
+    - Item.w4ztP6u4SxOtDadX
+  rank: 0
+  gmNotes: ''
+  maxDefenseArmor: 0
+  pvByLevel: 0
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.iBTJTpxHCCvztvS3
+  duplicateSource: Item.YBYNcJ0bZPhZaBDB
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895789072
+  modifiedTime: 1789895789072
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+sort: 200000
+_id: y98MeCI9Z1LicWLX
+_key: '!items!y98MeCI9Z1LicWLX'

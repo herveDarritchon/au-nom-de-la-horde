@@ -1,0 +1,503 @@
+_id: d51e7be0dd1957ef
+name: Campagne
+folder: Cy5oV4lrmPkhyn6H
+pages:
+  - _id: 6f02e6b775e645ab
+    name: Au Nom de la Horde — Saison
+    type: text
+    text:
+      content: >-
+        <p><img
+        src="/worlds/au-nom-de-la-horde/vaults-cache/vault-coa-7e7c5ff7/static/Images/Avatars/CoA-Thrall_TWW.webp?v=8daf0ec47239"
+        alt="CoA-Thrall_TWW.webp" width="250"></p>
+
+        <blockquote>
+
+        <p><strong>Champions of Azeroth — Campagne Horde</strong></p>
+
+        <p><strong>Durotar, environ quatre ans après la bataille du mont
+        Hyjal.</strong></p>
+
+        </blockquote>
+
+        <h2 id="bienvenue-en-azeroth">Bienvenue en Azeroth</h2>
+
+        <p>La guerre est terminée, mais la survie ne fait que commencer.</p>
+
+        <p>Tu es en
+        <strong>@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.cb28ce8ef3d17087.JournalEntryPage.d26977c697af601a]{Kalimdor}</strong>,
+        sur les terres rouges, arides et impitoyables de
+        <strong>@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.16b7eb16efab8226.JournalEntryPage.c27c85bb2e09710f]{Durotar}</strong>.
+        Sous un soleil de plomb, entre les canyons balayés par la poussière et
+        les côtes sauvages, une nouvelle nation tente de s'enraciner.</p>
+
+        <p>La Horde ne cherche plus seulement à vaincre. Elle cherche à
+        <strong>bâtir un foyer</strong>.</p>
+
+        <p>Les routes sont longues, les points d'eau précieux et les ressources
+        comptées. Des caravanes relient les avant-postes, des péons et des
+        artisans construisent, réparent et fortifient sans relâche, tandis que
+        gardes, chasseurs et éclaireurs tentent de maintenir ouvertes les lignes
+        de ravitaillement.</p>
+
+        <p>Au-delà de la lueur des feux de camp rôdent prédateurs, peuples
+        hostiles, ennemis de la Horde et fantômes d'un passé encore récent.</p>
+
+        <p>C'est ici, au milieu du fracas des pioches, du grondement des
+        caravanes et de la poussière des routes, que ton histoire commence.</p>
+
+        <h2 id="la-période--quatre-ans-après-hyjal">La période — Quatre ans
+        après Hyjal</h2>
+
+        <p>Nous sommes environ <strong>quatre ans après la bataille du mont
+        Hyjal</strong>, qui vit les peuples d'Azeroth s'unir pour repousser la
+        Légion ardente et mettre un terme à la Troisième Guerre.</p>
+
+        <p>Ces événements ne sont pas de l'histoire ancienne. La plupart de ceux
+        que tu rencontreras les ont vécus, directement ou à travers leurs
+        conséquences.</p>
+
+        <p>Sous la direction du Chef de guerre <strong>Thrall</strong>, les Orcs
+        ont traversé l'océan et se sont installés en Kalimdor. Autour d'eux
+        s'est formée une nouvelle Horde réunissant notamment les Orcs, les
+        Trolls Darkspear et les Taurens. Les Réprouvés ont également rejoint
+        cette alliance, même si leur présence reste lointaine pour beaucoup
+        d'habitants de Durotar.</p>
+
+        <p>La paix avec l'Alliance n'est pas assurée. Les blessures sont
+        récentes, les intérêts contradictoires et les frontières encore
+        instables. Les affrontements locaux, les provocations, la méfiance et
+        les vieilles rancunes peuvent à tout moment mettre cette trêve à
+        l'épreuve.</p>
+
+        <h2 id="durotar-aujourdhui">Durotar aujourd'hui</h2>
+
+        <p>Durotar est une <strong>terre de frontière</strong>.</p>
+
+        <p>Vivre ici, c'est accepter la chaleur, le manque d'eau, les distances,
+        la roche et une faune qui ne pardonne pas l'imprudence. Scorpides,
+        raptors et autres prédateurs ne sont pas des monstres placés sur une
+        route : ils font partie d'un territoire que la Horde apprend encore à
+        habiter.</p>
+
+        <p>Mais Durotar n'est pas un désert vide.</p>
+
+        <p><img
+        src="/worlds/au-nom-de-la-horde/vaults-cache/vault-coa-7e7c5ff7/static/Images/Maps/Durotar_map_fr.webp?v=bdc532d57ee3"
+        alt="Durotar_map_fr.webp" width="700"></p>
+
+        <p>Des convois chargés de bois, de pierre, de nourriture et d'outils
+        circulent entre les différents établissements. Des postes de garde
+        protègent les routes. Des artisans improvisent des ateliers. Des
+        ouvriers ouvrent des pistes, creusent, bâtissent et consolident ce qui
+        deviendra peut-être un jour une véritable patrie durable.</p>
+
+        <p>Au nord se dresse <strong>Orgrimmar</strong>, jeune capitale et
+        symbole de la volonté de la Horde de s'installer définitivement en
+        Kalimdor. La ville est déjà le cœur politique et militaire de la
+        nouvelle nation, mais elle continue de grandir, de s'étendre et de se
+        transformer.</p>
+
+        <p>Au sud, <strong>Sen'jin</strong> et les communautés Darkspear
+        apportent une autre manière d'habiter cette terre, plus liée aux
+        esprits, aux traditions et à la côte.</p>
+
+        <p>Entre les deux, <strong>Tranchecolline</strong> est le carrefour de
+        Durotar : un lieu de passage, de ravitaillement, de nouvelles et de
+        tensions.</p>
+
+        <h2 id="quelle-campagne-allons-nous-jouer-">Quelle campagne allons-nous
+        jouer ?</h2>
+
+        <p><strong>Au Nom de la Horde</strong> est une campagne de découverte,
+        d'exploration et d'aventures locales qui te fera parcourir Durotar avant
+        de te conduire progressivement vers des enjeux plus importants.</p>
+
+        <p>Tu ne commences pas comme un de ces héros légendaires dont on chante
+        déjà les exploits.</p>
+
+        <p>Tu es encore au début de ton histoire : recrue, voyageur, éclaireur,
+        artisan, combattant, mystique ou allié de la Horde cherchant à trouver
+        sa place dans ce territoire.</p>
+
+        <p>Tu vas notamment :</p>
+
+        <ul>
+
+        <li>parcourir les routes de Durotar ;</li>
+
+        <li>rencontrer ses habitants et ses différentes communautés ;</li>
+
+        <li>protéger, négocier, enquêter, explorer ou combattre selon tes choix
+        ;</li>
+
+        <li>prendre parti dans certains conflits locaux ;</li>
+
+        <li>découvrir des lieux familiers aux anciens joueurs de <em>World of
+        Warcraft</em> sous un angle nouveau ;</li>
+
+        <li>voir les conséquences de tes décisions modifier les personnes, les
+        routes, les campements et les rapports de force.</li>
+
+        </ul>
+
+        <p>La campagne ne consiste pas à reproduire une suite de quêtes du
+        MMO.</p>
+
+        <p>Les problèmes existent indépendamment de toi. Tu pourras décider
+        lesquels méritent ton attention, comment intervenir et parfois s'il vaut
+        mieux ne pas intervenir du tout.</p>
+
+        <h2 id="la-promesse-de-jeu">La promesse de jeu</h2>
+
+        <p>Si tu connais <em>World of Warcraft</em>, beaucoup de choses te
+        sembleront familières.</p>
+
+        <p>Tu reconnaîtras des lieux, des peuples, des créatures, des noms et
+        des situations.</p>
+
+        <p>Mais tes souvenirs du jeu vidéo ne seront pas des solutions.</p>
+
+        <p>Ici, un ennemi peut négocier. Une faction peut être divisée. Un
+        combat peut être évité. Une décision peut modifier durablement un lieu.
+        Une personne que tu pensais connaître peut avoir des raisons que le MMO
+        ne t'avait jamais permis d'explorer.</p>
+
+        <p>Le plaisir recherché est simple :</p>
+
+        <blockquote>
+
+        <p><strong>Reconnaître Azeroth, puis découvrir que tu peux réellement
+        agir dessus.</strong></p>
+
+        </blockquote>
+
+        <h2 id="quel-personnage-imaginer-">Quel personnage imaginer ?</h2>
+
+        <p>Il n'y a pas de profil unique imposé.</p>
+
+        <p>Tu peux être un Orc fier de participer à la construction de la
+        nouvelle capitale, un Troll Darkspear attaché aux siens et aux esprits
+        de Kalimdor, un Tauren venu aider ses frères d'armes, ou un personnage
+        plus inhabituel dont la présence en <strong>Durotar</strong> devra être
+        expliquée avec le MJ.</p>
+
+        <p>Ton personnage peut être un
+        <strong>@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.c7bf87a9785ebb74.JournalEntryPage.6563275b1946c568]{guerrier}</strong>,
+        un
+        <strong>@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.c7bf87a9785ebb74.JournalEntryPage.a62f8344c3d8c272]{chasseur}</strong>,
+        un
+        <strong>@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.c7bf87a9785ebb74.JournalEntryPage.a78c04c3d8fb6a39]{chaman}</strong>,
+        un
+        <strong>@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.c7bf87a9785ebb74.JournalEntryPage.f9c8907f3d862d58]{prêtre}</strong>,
+        un
+        <strong>@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.c7bf87a9785ebb74.JournalEntryPage.4fdfe10aad332e08]{voleur}</strong>,
+        un
+        <strong>@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.c7bf87a9785ebb74.JournalEntryPage.53c4bd2359f7f29c]{mage}</strong>,
+        un
+        <strong>@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.c7bf87a9785ebb74.JournalEntryPage.d0dc7ec14d103a93]{démoniste}</strong>,
+        un
+        <strong>@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.c7bf87a9785ebb74.JournalEntryPage.216697f9320ef355]{druide}</strong>
+        ou appartenir à une autre option autorisée pour la campagne, le
+        <strong>@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.c7bf87a9785ebb74.JournalEntryPage.f00a917b33d03583]{paladin}</strong>.</p>
+
+        <p>La question essentielle n'est pas seulement :</p>
+
+        <blockquote>
+
+        <p><strong>D'où viens-tu ?</strong></p>
+
+        </blockquote>
+
+        <p>Mais surtout :</p>
+
+        <blockquote>
+
+        <p><strong>Pourquoi es-tu ici maintenant ?</strong></p>
+
+        </blockquote>
+
+        <p>Réfléchis notamment à ces questions :</p>
+
+        <ul>
+
+        <li>Qu'est-ce que la Horde représente pour toi ?</li>
+
+        <li>Pourquoi es-tu en Durotar ?</li>
+
+        <li>Qu'as-tu perdu, quitté ou laissé derrière toi ?</li>
+
+        <li>Qu'espères-tu construire, trouver ou devenir ici ?</li>
+
+        <li>Que serais-tu prêt à défendre ?</li>
+
+        <li>Qu'est-ce qui pourrait te faire douter de ceux auxquels tu as choisi
+        de faire confiance ?</li>
+
+        <li>Pourquoi accepterais-tu de lier ton destin à celui des autres
+        personnages ?</li>
+
+        </ul>
+
+        <h2 id="ton-point-de-départ--tranchecolline">Ton point de départ —
+        Tranchecolline</h2>
+
+        <p><img
+        src="/worlds/au-nom-de-la-horde/vaults-cache/vault-coa-7e7c5ff7/static/Images/Illustrations/CoA-Durotar-Razor-Hill-Hub-landscape.webp?v=3d4f3d548881"
+        alt="CoA-Durotar-Razor-Hill-Hub-landscape.jpeg" width="500"></p>
+
+        <p>Ton aventure commence à
+        <strong>@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.accdb729c105149f.JournalEntryPage.7c145456209029db]{Tranchecolline}
+        — Razor Hill</strong>.</p>
+
+        <p>Ce n'est pas seulement une étape entre la Vallée des Épreuves et
+        Orgrimmar. Pour cette campagne, <strong>Tranchecolline</strong> sera ton
+        <strong>point d'ancrage</strong>.</p>
+
+        <p>Autour de toi, l'activité est permanente : des gardes observent les
+        routes, des marchands négocient les derniers chargements arrivés, des
+        chasseurs échangent des nouvelles, des péons réparent des chariots et
+        des voyageurs se reposent avant de repartir vers le nord, le sud ou la
+        côte.</p>
+
+        <p>Tu y reviendras entre tes excursions.</p>
+
+        <p>Les personnes que tu auras aidées, contrariées ou ignorées pourront
+        encore être là.</p>
+
+        <p>Les problèmes que tu auras résolus laisseront des traces.</p>
+
+        <p>Ceux que tu auras laissés de côté pourront avoir empiré.</p>
+
+        <p>Et au fil de tes voyages, certains détails commenceront peut-être à
+        ne plus correspondre à l'image simple d'une terre sauvage qu'il
+        suffirait de pacifier.</p>
+
+        <p>Quelque chose se joue en
+        <strong>@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.16b7eb16efab8226.JournalEntryPage.c27c85bb2e09710f]{Durotar}</strong>.</p>
+
+        <p>Au début, cela ressemblera à des incidents ordinaires d'une terre de
+        frontière.</p>
+
+        <p>Puis tu devras comprendre <strong>pourquoi</strong>.</p>
+
+        <hr>
+      format: 1
+    sort: 100000
+    flags:
+      vaults:
+        vaultId: vault-coa-7e7c5ff7
+        path: Campagne/Au_Nom_de_la_Horde—Saison.md
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1788766247253
+      modifiedTime: 1788766247253
+      lastModifiedBy: V0twxN2oKehfUjVd
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!d51e7be0dd1957ef.6f02e6b775e645ab'
+  - _id: 0c5407152a5e340e
+    name: Campagne
+    type: text
+    text:
+      content: |-
+        <h2 id="pages">Pages</h2>
+        <div class="bases-block">
+          <div class="bases-caption">Contents</div>
+          <div class="bases-toolbar">
+            <input type="search" class="bases-filter" placeholder="Filter…" aria-label="Filter table">
+            <span class="bases-count" data-total="2">2 rows</span>
+          </div>
+          <div class="bases-scroll">
+            <table class="bases-table">
+              <thead><tr><th data-col="0" tabindex="0">Name</th><th data-col="1" tabindex="0">Mtime</th></tr></thead>
+              <tbody><tr data-row="0"><td data-raw="Au Nom de la Horde — Saison">@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.d51e7be0dd1957ef.JournalEntryPage.6f02e6b775e645ab]{Au Nom de la Horde — Saison}</td><td data-raw="1787750222000">2026-08-26</td></tr><tr data-row="1"><td data-raw="Proposition de campagne">@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.d51e7be0dd1957ef.JournalEntryPage.ac21c2995eee07a4]{Proposition de campagne}</td><td data-raw="1787735123000">2026-08-26</td></tr></tbody>
+            </table>
+          </div>
+        </div>
+      format: 1
+    sort: 0
+    flags:
+      vaults:
+        vaultId: vault-coa-7e7c5ff7
+        path: Campagne/index.md
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1788766247253
+      modifiedTime: 1788766247253
+      lastModifiedBy: V0twxN2oKehfUjVd
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!d51e7be0dd1957ef.0c5407152a5e340e'
+  - _id: ac21c2995eee07a4
+    name: Proposition de campagne
+    type: text
+    text:
+      content: >-
+        <h2 id="bienvenue-en-azeroth">Bienvenue en Azeroth</h2>
+
+        <p>La guerre est terminée, mais la survie ne fait que commencer. Vous
+        êtes en Kalimdor, sur les terres arides, rouges et impitoyables de
+        Durotar. Sous un soleil de plomb, entre les canyons balayés par la
+        poussière et les côtes sauvages, une nouvelle nation tente de
+        s'enraciner. La Horde ne cherche plus seulement à vaincre ; elle cherche
+        à bâtir un foyer. Mais Durotar est une terre de frontière. Les routes
+        sont longues, les points d'eau précieux, et les prédateurs – bêtes
+        sauvages, peuples hostiles ou fantômes du passé – rôdent au-delà de la
+        lueur des feux de camp. C'est ici, au milieu du fracas des pioches et du
+        grondement des caravanes, que votre histoire commence.</p>
+
+        <h2 id="la-période--quatre-ans-après-hyjal">La période — Quatre ans
+        après Hyjal</h2>
+
+        <p>Nous sommes environ quatre ans après la bataille du mont Hyjal, qui a
+        vu les peuples d'Azeroth s'unir pour repousser la Légion ardente. Ces
+        événements ne sont pas de l'histoire ancienne : la plupart de ceux que
+        vous croisez les ont vécus.</p>
+
+        <p>Sous la direction du Chef de guerre Thrall, les Orcs ont traversé
+        l'océan pour fonder la Nouvelle Horde en Kalimdor. Ils ont été rejoints
+        par les fiers Taurens de Mulgore et les ingénieux Trolls Darkspear, avec
+        qui ils partagent désormais le défi de survivre sur ces terres
+        nouvelles. Les Réprouvés ont également rejoint l'alliance, bien que leur
+        présence reste lointaine et nimbée de mystère. Si la grande guerre est
+        achevée, la trêve avec l'Alliance est fragile. Les blessures sont
+        récentes, et le maintien de la paix demande autant de force que la
+        guerre elle-même.</p>
+
+        <h2 id="durotar-aujourdhui">Durotar aujourd'hui</h2>
+
+        <p>Vivre en Durotar, c'est accepter la rudesse de la terre. Le climat
+        est brûlant, la roche omniprésente, et chaque ressource a de la valeur.
+        Pourtant, la région bouillonne de vie. Des caravanes lourdement chargées
+        sillonnent les routes poussiéreuses entre les avant-postes, escortées
+        par des guerriers et des chasseurs aguerris. Les péons orcs et les
+        artisans travaillent sans relâche pour fortifier les campements.</p>
+
+        <p>Au nord se dresse Orgrimmar. La jeune capitale n'est pas un simple
+        campement de fortune, c'est le cœur battant de la Horde, un symbole
+        massif de puissance et de pérennité. Au sud, les Trolls Darkspear se
+        sont établis sur la côte de Sen'jin, apportant leur mysticisme à cette
+        alliance de survivants. Durotar est un chantier à ciel ouvert, une terre
+        d'opportunités autant que de dangers constants.</p>
+
+        <h2 id="quelle-campagne-allons-nous-jouer-">Quelle campagne allons-nous
+        jouer ?</h2>
+
+        <p><em>Champions of Azeroth</em> vous propose d'explorer cette frontière
+        en pleine effervescence. Vous n'êtes pas encore les grands héros dont on
+        chante les exploits dans les tavernes ; vous êtes ceux qui rendent la
+        vie possible au quotidien.</p>
+
+        <p>Vous allez parcourir les routes de Durotar, rencontrer ses habitants
+        et prendre parti dans les conflits locaux. L'aventure émergera de vos
+        choix et des responsabilités que vous accepterez de porter. Il y aura de
+        l'exploration, de l'enquête, des combats viscéraux et des rencontres
+        avec des figures familières. Vos décisions auront des conséquences
+        visibles sur les campements et les communautés que vous aiderez. Vous
+        participerez activement à la construction de la Horde.</p>
+
+        <h2 id="quel-personnage-imaginer-">Quel personnage imaginer ?</h2>
+
+        <p>Il n'y a pas de profil imposé. Vous pouvez être un Orc fier de sa
+        nouvelle capitale, un Troll cherchant à honorer les esprits de Kalimdor,
+        un Tauren venu prêter main-forte à ses frères d'armes, ou même un
+        voyageur venu d'ailleurs, porteur d'un passé trouble. Vous pouvez être
+        un jeune guerrier, un chaman en quête de sens, un éclaireur solitaire ou
+        un artisan de la Horde.</p>
+
+        <p>La question essentielle n'est pas seulement de savoir d'où vous
+        venez, mais ce que vous faites ici aujourd'hui. Pourquoi êtes-vous en
+        Durotar ? Qu'est-ce que cette nouvelle Horde représente pour vous ?
+        Qu'espérez-vous y trouver, y construire ou y devenir ? Et surtout,
+        qu'est-ce qui pourrait vous pousser à prendre la route, à risquer votre
+        peau et à lier votre destin à celui d'autres voyageurs ?</p>
+
+        <h2 id="le-point-de-départ">Le point de départ</h2>
+
+        <p>Vous vous trouvez à Tranchecolline (Razor Hill), un avant-poste
+        incontournable au carrefour des routes poussiéreuses de Durotar. Autour
+        de vous, l'activité est incessante : des gardes scrutent l'horizon, des
+        marchands négocient âprement et des voyageurs se reposent à l'ombre de
+        l'auberge. Quelque part entre l'odeur du cuir tanné, les caravanes qui
+        remontent vers Orgrimmar et les histoires que l'on échange le soir
+        autour du feu, votre aventure est sur le point de commencer.</p>
+      format: 1
+    sort: 100000
+    flags:
+      vaults:
+        vaultId: vault-coa-7e7c5ff7
+        path: Campagne/Proposition_de_Campagne.md
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1788766247253
+      modifiedTime: 1788766247253
+      lastModifiedBy: V0twxN2oKehfUjVd
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!d51e7be0dd1957ef.ac21c2995eee07a4'
+flags:
+  vaults:
+    vaultId: vault-coa-7e7c5ff7
+    path: Campagne/Proposition_de_Campagne.md
+categories: []
+ownership:
+  default: 2
+  V0twxN2oKehfUjVd: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1788766247253
+  modifiedTime: 1788766247253
+  lastModifiedBy: V0twxN2oKehfUjVd
+  compendiumSource: Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.d51e7be0dd1957ef
+  duplicateSource: null
+  exportSource: null
+sort: 0
+_key: '!journal!d51e7be0dd1957ef'

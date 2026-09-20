@@ -1,0 +1,101 @@
+folder: 7pl999isgEbTsXUl
+name: Attaque paralysante
+type: capacity
+img: icons/skills/wounds/injury-face-impact-orange.webp
+system:
+  description: >-
+    <p style="text-align:justify">Une fois par combat, le voleur peut, en
+    réussissant une attaque de contact, paralyser un adversaire humanoïde de
+    douleur. La cible ne subit aucun DM, mais elle est immobilisée pendant 1d4
+    rounds ou, si son NC est inférieur à la moitié du niveau du voleur, elle est
+    paralysée. De plus, le voleur peut désormais utiliser au choix l’attaque
+    sournoise (s’il détient cette capacité) ou infliger +1d4° DM contre tout
+    adversaire immobilisé ou paralysé.</p>
+  inGame: >-
+    <p>Cette capacité propose une action d'attaque qui si elle réussi, applique
+    un effet de paralysie sur la cible pendant 1d4 round. Ne fait l'effet que si
+    le joueur est en mode combat.</p> <p>Note : Pas de vérification du niveau de
+    la créature !</p>
+  source: ''
+  origin: Livre des règles p75
+  slug: attaque-paralysante
+  subtype: ''
+  actionType: l
+  learned: false
+  charges:
+    current: 1
+    max: 1
+  properties:
+    spell: false
+  path: null
+  actions:
+    - source: Compendium.cof2-base.cof-2-base-items.Item.VshWbSFgyyeeVIcc
+      indice: 0
+      label: ''
+      chatFlavor: ''
+      type: melee
+      img: icons/svg/d20-highlight.svg
+      properties:
+        visible: false
+        enabled: false
+        activable: true
+        temporary: false
+        noManaCost: false
+        noChargesUsed: false
+      conditions:
+        - predicate: isLearned
+      resolvers:
+        - type: attack
+          bonusDiceAdd: false
+          malusDiceAdd: false
+          skill:
+            formula: '@atc'
+            crit: ''
+            difficulty: '@cible.def'
+          dmg:
+            formula: '0'
+          target:
+            type: single
+            scope: all
+            number: '0'
+          additionalEffect:
+            active: true
+            applyOn: success
+            formulaType: damage
+            formula: ''
+            elementType: ''
+            statuses:
+              - paralysis
+            duration: 1d4
+            unit: round
+            successThreshold: null
+          halfDmgOnSave: true
+          hasAttackSuccessThreshold: false
+      modifiers: []
+      actionType: none
+  cost: -1
+  rank: 5
+  frequency: combat
+  gmNotes: ''
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.VshWbSFgyyeeVIcc
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784695
+  modifiedTime: 1789895784695
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_id: uAwwMzAT9ueWQJr5
+sort: 0
+_key: '!items!uAwwMzAT9ueWQJr5'

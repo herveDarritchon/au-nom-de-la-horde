@@ -1,0 +1,121 @@
+folder: Efeq93uGyOmXHdsn
+name: Peau d’écorce
+type: capacity
+img: icons/magic/nature/root-vines-face-glow-green.webp
+system:
+  description: >-
+    <p style="text-align:justify">La peau du druide prend la consistance de
+    l’écorce. Il bénéficie d’un bonus à la DEF égal à +2 pendant PER minutes. Ce
+    bonus augmente de +1 aux rangs 3 et 5. Les effets du sort ne sont pas
+    cumulables au bonus d’une armure métallique ou d’un autre sort de protection
+    qui ajoute un bonus de DEF (à l’exception du Masque du prédateur). En plus
+    de ce sort, le druide ajoute son rang + 2 aux tests pour identifier les
+    plantes et connaître leurs propriétés.</p>
+  inGame: >-
+    <p>2 actions :</p>
+
+    <p>Une amélioration permanente qui augmente les jets pour identifier les
+    plantes</p>
+
+    <p>Une action activable pour lancer le sort et dépenser les PM. Elle
+    applique le bonus de DEF sans prendre en compte la durée. Le PJ doit l'a
+    désactiver lorsque le sort prend fin</p>
+  source: ''
+  origin: Livre des règles p117
+  slug: peau-decorce
+  subtype: ''
+  actionType: m
+  learned: false
+  charges:
+    current: null
+    max: null
+  properties:
+    spell: true
+  path: null
+  actions:
+    - source: Compendium.cof2-base.cof-2-base-items.Item.4RPKPoeJesl2LEmQ
+      indice: 0
+      label: ''
+      chatFlavor: ''
+      img: icons/svg/d20-highlight.svg
+      type: buff
+      properties:
+        visible: false
+        enabled: false
+        activable: true
+        temporary: true
+        noManaCost: false
+        noChargesUsed: false
+      conditions:
+        - predicate: isLearned
+      modifiers:
+        - type: capacity
+          source: Compendium.cof2-base.cof-2-base-items.Item.4RPKPoeJesl2LEmQ
+          subtype: combat
+          target: def
+          value: '@rang[2,2,3,3,4]'
+          apply: self
+          additionalInfos: ''
+          choiceGroup: 0
+      resolvers: []
+      actionType: none
+    - source: Compendium.cof2-base.cof-2-base-items.Item.4RPKPoeJesl2LEmQ
+      indice: 1
+      label: ''
+      chatFlavor: ''
+      img: icons/svg/d20-highlight.svg
+      type: buff
+      properties:
+        visible: false
+        enabled: false
+        activable: false
+        temporary: false
+        noManaCost: true
+        noChargesUsed: false
+      conditions:
+        - predicate: isLearned
+      modifiers:
+        - type: capacity
+          source: Compendium.cof2-base.cof-2-base-items.Item.4RPKPoeJesl2LEmQ
+          subtype: skill
+          target: int
+          value: 2 + @rang
+          apply: self
+          additionalInfos: Identifier les plantes
+          choiceGroup: 0
+        - type: capacity
+          source: Compendium.cof2-base.cof-2-base-items.Item.4RPKPoeJesl2LEmQ
+          subtype: skill
+          target: per
+          value: 2 + @rang
+          apply: self
+          additionalInfos: Identifier les plantes
+          choiceGroup: 0
+      resolvers: []
+      actionType: none
+  cost: -1
+  rank: 1
+  gmNotes: ''
+  frequency: none
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.4RPKPoeJesl2LEmQ
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784673
+  modifiedTime: 1789895784673
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_id: 1gZSkKD1fcKOAa3D
+sort: 0
+_key: '!items!1gZSkKD1fcKOAa3D'

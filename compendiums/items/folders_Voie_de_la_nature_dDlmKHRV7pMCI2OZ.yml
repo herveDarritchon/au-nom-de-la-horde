@@ -1,0 +1,20 @@
+name: Voie de la nature
+sorting: m
+folder: ukI3L6hkqM5yYJIr
+type: Item
+_id: dDlmKHRV7pMCI2OZ
+description: ''
+sort: -25000
+color: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784467
+  modifiedTime: 1789895784467
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_key: '!folders!dDlmKHRV7pMCI2OZ'

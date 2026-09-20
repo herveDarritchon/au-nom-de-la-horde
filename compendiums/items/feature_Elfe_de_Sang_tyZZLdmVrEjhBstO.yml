@@ -1,0 +1,50 @@
+folder: ZU8jQk7j2jqAuJbV
+name: Elfe de Sang
+type: feature
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/races/coa-elfe-de-sang.png
+system:
+  description: >-
+    <blockquote><p><span><strong>« Un Elfe de sang n’a pas cessé d’être un
+    Haut-Elfe du jour au lendemain. »</strong></span></p></blockquote><p
+    class="MsoNormal">Les Elfes de sang, ou Sin’dorei, sont les survivants de
+    Quel’Thalas, héritiers d’une civilisation ancienne où magie, érudition et
+    raffinement occupent une place centrale. Profondément marqués par la
+    destruction de leur royaume et la perte du Puits de soleil, ils compensent
+    cette rupture par une volonté farouche, une grande affinité avec la magie et
+    un attachement profond à leur héritage.</p>
+  source: ''
+  origin: warbound
+  slug: ''
+  gmNotes: >-
+    <p>Le Sin’dorei de cette version est d’abord un héritier de Quel’Thalas : un
+    Haut-Elfe dont l’identité a été transformée par la chute de son royaume et
+    la perte du Puits de soleil, sans que sa culture, son éducation ni son
+    affinité à la magie aient disparu. La v0.9 part donc volontairement de la
+    Voie officielle de l’Elfe haut de COF2 et ne modifie que ce que l’histoire
+    sin’dorei change réellement. Héritier de Quel’Thalas, Force d’âme, Talent
+    pour la magie et Héritage sin’dorei restent très proches du socle officiel ;
+    Sang imprégné d’arcane remplace Immortel pour exprimer une résistance
+    magique plus directement liée à Warcraft.</p>
+  subtype: people
+  modifiers: []
+  paths:
+    - Item.z3Al54CGC0V3yuov
+  capacities: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895786816
+  modifiedTime: 1789895786816
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: Item.k5hPsJBWpex0nofr
+  exportSource: null
+_id: tyZZLdmVrEjhBstO
+_key: '!items!tyZZLdmVrEjhBstO'

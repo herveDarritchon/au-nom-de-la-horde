@@ -1,0 +1,20 @@
+type: Item
+folder: MtAN8rJRCRQRss6h
+name: Voies du guerrier
+color: '#220d34'
+sorting: a
+_id: jBUidZwy15V6UaQa
+description: ''
+sort: 700000
+flags: {}
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784468
+  modifiedTime: 1789895784468
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!jBUidZwy15V6UaQa'

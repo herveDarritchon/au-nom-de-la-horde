@@ -1,0 +1,38 @@
+folder: jYZdnFRvUIkY5NnK
+name: Voie de l'aventurier
+type: path
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/voies/classes/voleur/cof2-voie-de-l-aventurier.png
+system:
+  description: ''
+  source: ''
+  origin: Warbound
+  slug: voie-de-laventurier
+  subtype: profile
+  capacities:
+    - Item.31v8Fo6lwLFJ7pAw
+    - Item.yknDE1BH4iH0WNhK
+    - Item.rBXCE6RlEDWBB0vJ
+    - Item.fxWOMXmKs9TiS7ME
+    - Item.uAwwMzAT9ueWQJr5
+  rank: 0
+  gmNotes: ''
+  maxDefenseArmor: 0
+  pvByLevel: 0
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.kPUEsYW8g6p2Fpwg
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895789076
+  modifiedTime: 1789895789076
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_id: 76eaBphU8nBoYxLq
+sort: 0
+_key: '!items!76eaBphU8nBoYxLq'

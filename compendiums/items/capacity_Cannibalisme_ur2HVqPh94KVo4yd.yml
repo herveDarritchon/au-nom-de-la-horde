@@ -1,0 +1,57 @@
+folder: rMMg5JuaE6hvEj98
+name: Cannibalisme
+type: capacity
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/toucher-du-tombeau.png
+system:
+  description: >-
+    <p>Après 1 minute passée sans interruption au contact du cadavre récent d’un
+    Humanoïde ou d’un Mort-vivant, le Réprouvé peut absorber une part de
+    l’énergie résiduelle qui anime encore ses chairs et effectuer immédiatement
+    un jet de guérison naturelle. Mouvement volontaire, autre action ou dégâts
+    subis interrompent l’assimilation sans effet. Après qu’un jet a été
+    effectué, il ne peut en obtenir un nouveau par Assimilation nécrotique avant
+    d’avoir subi une nouvelle Blessure.</p>
+  inGame: ''
+  source: ''
+  origin: warbound
+  slug: haches-et-marteaux
+  subtype: ''
+  actionType: none
+  learned: false
+  charges:
+    current: null
+    max: null
+  properties:
+    spell: false
+  path: null
+  actions: []
+  cost: -1
+  rank: 1
+  gmNotes: >-
+    <p>Foundry : Objet Capacité séparé. Automatisation différée jusqu’au
+    verrouillage de l’action, du soin, de la durée, des cibles valides et des
+    interruptions.</p><p>Peut être choisi gratuitement à la création. Sinon :
+    coût provisoire 1 PC lors d’une progression.</p>
+  frequency: none
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.QIxVby70L3mFXaPh
+  duplicateSource: Item.Lp4uLqmy25YRbv6X
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784641
+  modifiedTime: 1789895784641
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+sort: 100000
+_id: ur2HVqPh94KVo4yd
+_key: '!items!ur2HVqPh94KVo4yd'

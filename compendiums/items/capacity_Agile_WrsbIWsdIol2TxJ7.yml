@@ -1,0 +1,95 @@
+folder: FmcALzGrBzrDMP7r
+name: Agile
+type: capacity
+img: icons/skills/movement/feet-winged-sandals-tan.webp
+system:
+  description: >-
+    <p style="text-align:justify">Le voleur ajoute son rang + 2 à tous tests
+    liés à un déplacement (esquive, saut, course, équilibre, escalade, se
+    glisser entre des barreaux ou échapper à une créature qui l’agrippe). De
+    plus, il bénéficie d’un bonus de +1 en DEF et en Initiative. Ce bonus passe
+    à +2 au rang 3 et +3 au rang 5.</p>
+  inGame: >-
+    <p>Il s'agit d'un bonus permanent à partir du moment où la capacité est
+    apprise.</p><p></p>
+  source: ''
+  origin: Livre des règles p75
+  slug: agile
+  subtype: ''
+  actionType: none
+  learned: false
+  charges:
+    current: null
+    max: null
+  properties:
+    spell: false
+  path: null
+  actions:
+    - source: Compendium.cof2-base.cof-2-base-items.Item.fiw0JVeV8mQN5EQT
+      indice: 0
+      label: ''
+      chatFlavor: ''
+      img: icons/svg/d20-highlight.svg
+      type: buff
+      properties:
+        visible: false
+        enabled: false
+        activable: false
+        temporary: false
+        noManaCost: false
+        noChargesUsed: false
+      conditions:
+        - predicate: isLearned
+      modifiers:
+        - type: capacity
+          source: Compendium.cof2-base.cof-2-base-items.Item.fiw0JVeV8mQN5EQT
+          subtype: skill
+          target: agi
+          value: 2 + @rang
+          apply: self
+          additionalInfos: tout déplacement
+          choiceGroup: 0
+        - type: capacity
+          source: Compendium.cof2-base.cof-2-base-items.Item.fiw0JVeV8mQN5EQT
+          subtype: combat
+          target: def
+          value: '@rang[1,1,2,2,3]'
+          apply: self
+          additionalInfos: ''
+          choiceGroup: 0
+        - type: capacity
+          source: Compendium.cof2-base.cof-2-base-items.Item.fiw0JVeV8mQN5EQT
+          subtype: combat
+          target: init
+          value: '@rang[1,1,2,2,3]'
+          apply: self
+          additionalInfos: ''
+          choiceGroup: 0
+      resolvers: []
+      actionType: none
+  cost: -1
+  rank: 1
+  gmNotes: ''
+  frequency: none
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.fiw0JVeV8mQN5EQT
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784697
+  modifiedTime: 1789895784697
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_id: WrsbIWsdIol2TxJ7
+sort: 0
+_key: '!items!WrsbIWsdIol2TxJ7'

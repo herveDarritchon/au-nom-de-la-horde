@@ -1,0 +1,100 @@
+folder: BzHSEIGjTKHOsfdC
+name: Rien de vital
+type: capacity
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/cof2-rien-de-vital.png
+system:
+  description: >-
+    <p>Une fois par combat, lorsqu’une attaque obtient une réussite critique
+    contre le Réprouvé, celui-ci peut dépenser 1 DR.</p><p>L’attaque reste une
+    réussite, mais cesse d’être considérée comme une réussite critique pour tous
+    ses autres effets : les DM ne sont pas multipliés ou augmentés grâce au
+    critique et aucun effet dépendant spécifiquement de cette réussite critique
+    ne s’applique.</p>
+  inGame: ''
+  source: ''
+  origin: Livre des règles p48
+  slug: attaque-sanglante
+  subtype: ''
+  actionType: l
+  learned: false
+  charges:
+    current: null
+    max: null
+  properties:
+    spell: false
+  path: null
+  actions:
+    - source: Compendium.cof2-base.cof-2-base-items.Item.SSWFT9LWLpbCIc46
+      indice: 0
+      label: ''
+      chatFlavor: ''
+      img: icons/svg/d20-highlight.svg
+      type: melee
+      actionType: none
+      properties:
+        activable: true
+        temporary: false
+        noChargesUsed: false
+        visible: false
+        enabled: false
+        noManaCost: false
+      conditions:
+        - predicate: isLearned
+      resolvers:
+        - type: attack
+          bonusDiceAdd: false
+          malusDiceAdd: false
+          skill:
+            formula: '@arme.skill'
+            crit: ''
+            difficulty: '@cible.def'
+          dmg:
+            formula: '@arme.dmg'
+          target:
+            type: single
+            scope: all
+            number: '0'
+          hasAttackSuccessThreshold: false
+          additionalEffect:
+            active: true
+            applyOn: success
+            formulaType: damage
+            formula: 1d4°
+            elementType: ''
+            statuses:
+              - bleeding
+            unit: combat
+            duration: '0'
+          halfDmgOnSave: true
+      modifiers: []
+  cost: -1
+  rank: 3
+  gmNotes: >-
+    <p>Foundry : déclenchement manuel recommandé après confirmation d’une
+    réussite critique ; consomme 1 DR et neutralise les effets propres au
+    critique sans annuler la réussite.</p><p>Cette capacité modernise Insensible
+    de l’ancien WoW JDRA, qui permettait déjà au Réprouvé d’ignorer les dégâts
+    supplémentaires d’un critique.</p>
+  frequency: none
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.SSWFT9LWLpbCIc46
+  duplicateSource: Item.DXEWYHT6pK2cVnlC
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784644
+  modifiedTime: 1789895784644
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+sort: 100000
+_id: piY9qoFPG1iINn93
+_key: '!items!piY9qoFPG1iINn93'

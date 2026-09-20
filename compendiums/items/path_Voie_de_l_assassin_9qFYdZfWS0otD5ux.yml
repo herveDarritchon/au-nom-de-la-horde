@@ -1,0 +1,38 @@
+folder: jYZdnFRvUIkY5NnK
+name: Voie de l'assassin
+type: path
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/voies/classes/voleur/cof2-voie-de-l-assassin.png
+system:
+  description: ''
+  source: ''
+  origin: Warbound
+  slug: voie-de-lassassin
+  subtype: profile
+  capacities:
+    - Item.F1O0OxOC4YFqqGFM
+    - Item.IoKRX6nX7522xj0s
+    - Item.WwHbhkPjYG36U9WJ
+    - Item.ZIdll8m6s2ZiHhWE
+    - Item.QLnMYM2e4ulv30xj
+  rank: 0
+  gmNotes: ''
+  maxDefenseArmor: 0
+  pvByLevel: 0
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.1xqBFGgeQuu8IHjM
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895789075
+  modifiedTime: 1789895789075
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_id: 9qFYdZfWS0otD5ux
+sort: 0
+_key: '!items!9qFYdZfWS0otD5ux'

@@ -1,0 +1,840 @@
+folder: 4WEwbV3g4guuhMgf
+name: Attaque Kolkar
+_id: uzphzarC0uT2jRX9
+active: false
+navigation: true
+navOrder: 0
+thumb: worlds/au-nom-de-la-horde/assets/scenes/thumb-e1bI3uXwTXrrhiwrR_B3Lg.webp
+width: 1672
+height: 941
+padding: 0.25
+shiftX: 0
+shiftY: 0
+initial:
+  x: null
+  'y': null
+  scale: null
+initialLevel: defaultLevel0000
+grid:
+  type: 1
+  size: 50
+  style: solidLines
+  thickness: 1
+  color: '#000000'
+  alpha: 0.2
+  distance: 2
+  units: m
+tokenVision: true
+fog:
+  mode: 1
+  colors:
+    explored: null
+    unexplored: null
+environment:
+  darknessLevel: 0
+  darknessLock: false
+  globalLight:
+    enabled: false
+    alpha: 0.5
+    bright: false
+    color: null
+    coloration: 1
+    luminosity: 0
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    darkness:
+      min: 0
+      max: 1
+  cycle: true
+  base:
+    hue: 0
+    intensity: 0
+    luminosity: 0
+    saturation: 0
+    shadows: 0
+  dark:
+    hue: 0.7138888888888889
+    intensity: 0
+    luminosity: -0.25
+    saturation: 0
+    shadows: 0
+transition:
+  type: null
+  duration: 1500
+  activeOnly: false
+drawings: []
+tokens:
+  - name: Coupe-Sangle
+    displayName: 30
+    actorLink: false
+    width: 1
+    height: 1
+    depth: 1
+    texture:
+      src: worlds/au-nom-de-la-horde/assets/images/tokens/npcs/kolkar/coa-kolkar-coupe-sangle-token.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    displayBars: 0
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 0
+      subject:
+        scale: 1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    flags: {}
+    actorId: gK4nLAqFGEhcExWl
+    hidden: false
+    sort: 0
+    shape: 4
+    level: defaultLevel0000
+    _id: JDiV1puTy3pyvZTS
+    delta: null
+    x: 1550
+    'y': 300
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!uzphzarC0uT2jRX9.JDiV1puTy3pyvZTS'
+  - name: Coupe-Sangle
+    displayName: 30
+    actorLink: false
+    width: 1
+    height: 1
+    depth: 1
+    texture:
+      src: worlds/au-nom-de-la-horde/assets/images/tokens/npcs/kolkar/coa-kolkar-coupe-sangle-token.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    displayBars: 0
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 0
+      subject:
+        scale: 1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    flags: {}
+    actorId: gK4nLAqFGEhcExWl
+    hidden: false
+    sort: 1
+    shape: 4
+    level: defaultLevel0000
+    _id: xprTBXCmNryn5SIn
+    delta: null
+    x: 1650
+    'y': 1100
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!uzphzarC0uT2jRX9.xprTBXCmNryn5SIn'
+  - name: Guetteur
+    displayName: 30
+    actorLink: false
+    width: 1
+    height: 1
+    depth: 1
+    texture:
+      src: worlds/au-nom-de-la-horde/assets/images/tokens/npcs/kolkar/coa-kolkar-guetteur-token.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    displayBars: 0
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 0
+      subject:
+        scale: 1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    flags: {}
+    actorId: VzhEMsrB4dKxmUZg
+    hidden: false
+    sort: 2
+    shape: 4
+    level: defaultLevel0000
+    _id: LEBSrEVwbVBtUrgC
+    delta: null
+    x: 1800
+    'y': 350
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!uzphzarC0uT2jRX9.LEBSrEVwbVBtUrgC'
+  - name: Guetteur
+    displayName: 30
+    actorLink: false
+    width: 1
+    height: 1
+    depth: 1
+    texture:
+      src: worlds/au-nom-de-la-horde/assets/images/tokens/npcs/kolkar/coa-kolkar-guetteur-token.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    displayBars: 0
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 0
+      subject:
+        scale: 1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    flags: {}
+    actorId: VzhEMsrB4dKxmUZg
+    hidden: false
+    sort: 3
+    shape: 4
+    level: defaultLevel0000
+    _id: wEFYgYMec4Qdkj6W
+    delta: null
+    x: 1100
+    'y': 950
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!uzphzarC0uT2jRX9.wEFYgYMec4Qdkj6W'
+  - name: Pillard
+    displayName: 30
+    actorLink: false
+    width: 1
+    height: 1
+    depth: 1
+    texture:
+      src: worlds/au-nom-de-la-horde/assets/images/tokens/npcs/kolkar/coa-kolkar-pillard-token.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    displayBars: 0
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 0
+      subject:
+        scale: 1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    flags: {}
+    actorId: ixLhv6Uoi1eq6kQY
+    hidden: false
+    sort: 4
+    shape: 4
+    level: defaultLevel0000
+    _id: AQ2l320aS6Jm5Rh2
+    delta: null
+    x: 800
+    'y': 900
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!uzphzarC0uT2jRX9.AQ2l320aS6Jm5Rh2'
+levels:
+  - _id: defaultLevel0000
+    name: Level
+    elevation:
+      bottom: 0
+      top: 20
+    background:
+      color: '#999999'
+      src: worlds/au-nom-de-la-horde/assets/images/battlemaps/coa-battlemap-attaque-centaure.png
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    foreground:
+      src: null
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    fog:
+      src: null
+    textures:
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+    visibility:
+      levels: []
+    sort: 0
+    flags: {}
+    _key: '!scenes.levels!uzphzarC0uT2jRX9.defaultLevel0000'
+lights: []
+notes: []
+sounds: []
+regions: []
+tiles:
+  - texture:
+      src: worlds/au-nom-de-la-horde/assets/elements/horde/kodo/coa-asset-kodo-libre.png
+      anchorX: 0.5
+      anchorY: 0.5
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      fit: fill
+      alphaThreshold: 0.75
+    x: 700
+    'y': 550
+    width: 140
+    height: 300
+    sort: 0
+    elevation: 0
+    levels:
+      - defaultLevel0000
+    alpha: 1
+    restrictions:
+      light: false
+      weather: false
+    occlusion:
+      modes: []
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    _id: qvJfEItBBO0T4Qel
+    rotation: 0
+    hidden: false
+    locked: false
+    _key: '!scenes.tiles!uzphzarC0uT2jRX9.qvJfEItBBO0T4Qel'
+  - texture:
+      src: worlds/au-nom-de-la-horde/assets/elements/horde/cariole/coa-asset-cariole-renforcee-attache.png
+      anchorX: 0.5
+      anchorY: 0.5
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      fit: fill
+      alphaThreshold: 0.75
+    x: 700
+    'y': 750
+    width: 159
+    height: 125
+    sort: 2
+    elevation: 0
+    levels:
+      - defaultLevel0000
+    alpha: 1
+    restrictions:
+      light: false
+      weather: false
+    occlusion:
+      modes: []
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    _id: 10NBV12jb72KJSS0
+    rotation: 0
+    hidden: false
+    locked: false
+    _key: '!scenes.tiles!uzphzarC0uT2jRX9.10NBV12jb72KJSS0'
+  - texture:
+      scaleX: 1
+      scaleY: 1
+      anchorX: 0.5
+      anchorY: 0.5
+      src: worlds/au-nom-de-la-horde/assets/elements/horde/kodo/coa-asset-kodo-lourd.png
+      tint: '#ffffff'
+      fit: fill
+      alphaThreshold: 0.75
+    width: 84
+    height: 175
+    x: 1750
+    'y': 825
+    rotation: 110
+    elevation: 0
+    sort: 3
+    levels:
+      - defaultLevel0000
+    alpha: 1
+    restrictions:
+      light: false
+      weather: false
+    occlusion:
+      modes: []
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags:
+      multi-token-edit:
+        links:
+          - id: LWTE7e7xfSRvDnqz
+            type: 0
+            label: S_LINK
+    _id: Q2PwRlV24BXtbHsK
+    hidden: false
+    locked: false
+    name: ''
+    _key: '!scenes.tiles!uzphzarC0uT2jRX9.Q2PwRlV24BXtbHsK'
+  - texture:
+      scaleX: 1
+      scaleY: 1
+      anchorX: 0.5
+      anchorY: 0.5
+      src: worlds/au-nom-de-la-horde/assets/elements/horde/cariole/coa-asset-cariole-vide.png
+      tint: '#ffffff'
+      fit: fill
+      alphaThreshold: 0.75
+    width: 98
+    height: 225
+    x: 1826
+    'y': 852
+    rotation: 110
+    elevation: 0
+    sort: 4
+    levels:
+      - defaultLevel0000
+    alpha: 1
+    restrictions:
+      light: false
+      weather: false
+    occlusion:
+      modes: []
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags:
+      multi-token-edit:
+        links:
+          - id: LWTE7e7xfSRvDnqz
+            type: 0
+            label: S_LINK
+    _id: GEwEk6YPhVo19M9j
+    hidden: false
+    locked: false
+    _key: '!scenes.tiles!uzphzarC0uT2jRX9.GEwEk6YPhVo19M9j'
+  - texture:
+      scaleX: 1
+      scaleY: 1
+      anchorX: 0.5
+      anchorY: 0.5
+      src: worlds/au-nom-de-la-horde/assets/elements/horde/foreuse/coa-asset-foreuse-bachee-sanglee-dessus.png
+      tint: '#ffffff'
+      fit: fill
+      alphaThreshold: 0.75
+    width: 75
+    height: 75
+    x: 1867
+    'y': 866
+    rotation: 20
+    elevation: 0
+    sort: 5
+    levels:
+      - defaultLevel0000
+    alpha: 1
+    restrictions:
+      light: false
+      weather: false
+    occlusion:
+      modes: []
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags:
+      multi-token-edit:
+        links:
+          - id: LWTE7e7xfSRvDnqz
+            type: 0
+            label: S_LINK
+    _id: rZ1InC6coJBNGaRK
+    hidden: false
+    locked: false
+    name: ''
+    _key: '!scenes.tiles!uzphzarC0uT2jRX9.rZ1InC6coJBNGaRK'
+  - texture:
+      scaleX: 1
+      scaleY: 1
+      anchorX: 0.5
+      anchorY: 0.5
+      src: worlds/au-nom-de-la-horde/assets/elements/horde/kodo/coa-asset-kodo.png
+      tint: '#ffffff'
+      fit: fill
+      alphaThreshold: 0.75
+    width: 81
+    height: 175
+    x: 1425
+    'y': 750
+    rotation: 105
+    elevation: 0
+    sort: 6
+    levels:
+      - defaultLevel0000
+    alpha: 1
+    restrictions:
+      light: false
+      weather: false
+    occlusion:
+      modes: []
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags:
+      multi-token-edit:
+        links:
+          - id: KZwFV5mzJDbw0L4v
+            type: 0
+            label: S_LINK
+    _id: UUDzFwBIsnFmf3yY
+    hidden: false
+    locked: false
+    name: ''
+    _key: '!scenes.tiles!uzphzarC0uT2jRX9.UUDzFwBIsnFmf3yY'
+  - texture:
+      scaleX: 1
+      scaleY: 1
+      anchorX: 0.5
+      anchorY: 0.5
+      src: worlds/au-nom-de-la-horde/assets/elements/horde/cariole/coa-asset-cariole-remplie.png
+      tint: '#ffffff'
+      fit: fill
+      alphaThreshold: 0.75
+    width: 119
+    height: 250
+    x: 1520
+    'y': 780
+    rotation: 105
+    elevation: 0
+    sort: 7
+    levels:
+      - defaultLevel0000
+    alpha: 1
+    restrictions:
+      light: false
+      weather: false
+    occlusion:
+      modes: []
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags:
+      multi-token-edit:
+        links:
+          - id: KZwFV5mzJDbw0L4v
+            type: 0
+            label: S_LINK
+    _id: Nbjj7ZjSYiMBhf9F
+    hidden: false
+    locked: false
+    _key: '!scenes.tiles!uzphzarC0uT2jRX9.Nbjj7ZjSYiMBhf9F'
+walls: []
+playlist: null
+playlistSound: null
+journal: CGTq9fPzdD50Sw5y
+journalEntryPage: null
+weather: ''
+sort: 0
+ownership:
+  default: 0
+  V0twxN2oKehfUjVd: 3
+flags:
+  multi-token-edit:
+    blackBars: false
+_stats:
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1788766272067
+  modifiedTime: 1788766272067
+  lastModifiedBy: V0twxN2oKehfUjVd
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+navName: ''
+_key: '!scenes!uzphzarC0uT2jRX9'
+templates: []

@@ -1,0 +1,79 @@
+folder: H1NxEJ0tQptud3eG
+name: Teigneux
+type: capacity
+img: icons/skills/melee/hand-grip-staff-teal.webp
+system:
+  description: >-
+    <p style="text-align:justify">Une fois par round, si une créature à votre
+    contact tente de s’éloigner de vous, vous obtenez une attaque au contact en
+    action gratuite contre elle. De plus vous ajoutez votre rang + 2 aux tests
+    destinés à résister à l’alcool et à la privation de nourriture ou de
+    sommeil.</p>
+  inGame: >-
+    <p>Cette capacité gère le bonus permanent aux jets de résistance pour
+    résister à l'alcool.</p>
+  source: ''
+  origin: Livre des règles p90
+  slug: teigneux
+  subtype: ''
+  actionType: f
+  learned: false
+  charges:
+    current: null
+    max: null
+  properties:
+    spell: false
+  path: null
+  actions:
+    - source: Compendium.cof2-base.cof-2-base-items.Item.63Dnfb2mA4MOnKkv
+      indice: 0
+      label: ''
+      chatFlavor: ''
+      img: icons/svg/d20-highlight.svg
+      type: buff
+      properties:
+        visible: false
+        enabled: false
+        activable: false
+        temporary: false
+        noManaCost: false
+        noChargesUsed: false
+      conditions:
+        - predicate: isLearned
+      modifiers:
+        - type: capacity
+          source: Compendium.cof2-base.cof-2-base-items.Item.63Dnfb2mA4MOnKkv
+          subtype: skill
+          target: con
+          value: 2 + @rang
+          apply: self
+          additionalInfos: résister alcool/privation de nourriture ou de sommeil
+          choiceGroup: 0
+      resolvers: []
+      actionType: none
+  cost: -1
+  rank: 1
+  gmNotes: ''
+  frequency: none
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.63Dnfb2mA4MOnKkv
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784681
+  modifiedTime: 1789895784681
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_id: J9NW3mOcunFRJWm7
+sort: 0
+_key: '!items!J9NW3mOcunFRJWm7'

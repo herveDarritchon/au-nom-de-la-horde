@@ -1,0 +1,99 @@
+folder: BzHSEIGjTKHOsfdC
+name: Déjà mort
+type: capacity
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/cof2-deja-mort.png
+system:
+  description: >-
+    <p>Une fois par combat, lorsque le Réprouvé devrait tomber à 0 PV, il peut
+    dépenser 1 DR pour rester à 1 PV. Il ne tombe pas inconscient.</p><p>Les
+    autres conséquences liées à son état actuel ne sont pas annulées. En
+    particulier, rester à 1 PV ne signifie pas que le Réprouvé redevient
+    soudainement en pleine forme.</p>
+  inGame: ''
+  source: ''
+  origin: Livre des règles p48
+  slug: attaque-sanglante
+  subtype: ''
+  actionType: l
+  learned: false
+  charges:
+    current: null
+    max: null
+  properties:
+    spell: false
+  path: null
+  actions:
+    - source: Compendium.cof2-base.cof-2-base-items.Item.SSWFT9LWLpbCIc46
+      indice: 0
+      label: ''
+      chatFlavor: ''
+      img: icons/svg/d20-highlight.svg
+      type: melee
+      actionType: none
+      properties:
+        activable: true
+        temporary: false
+        noChargesUsed: false
+        visible: false
+        enabled: false
+        noManaCost: false
+      conditions:
+        - predicate: isLearned
+      resolvers:
+        - type: attack
+          bonusDiceAdd: false
+          malusDiceAdd: false
+          skill:
+            formula: '@arme.skill'
+            crit: ''
+            difficulty: '@cible.def'
+          dmg:
+            formula: '@arme.dmg'
+          target:
+            type: single
+            scope: all
+            number: '0'
+          hasAttackSuccessThreshold: false
+          additionalEffect:
+            active: true
+            applyOn: success
+            formulaType: damage
+            formula: 1d4°
+            elementType: ''
+            statuses:
+              - bleeding
+            unit: combat
+            duration: '0'
+          halfDmgOnSave: true
+      modifiers: []
+  cost: -1
+  rank: 4
+  gmNotes: >-
+    <p>Foundry : déclenchement sur passage prévu à 0 PV ; consomme 1 DR, fixe
+    les PV à 1 et marque la capacité comme indisponible jusqu’à la prochaine
+    récupération complète.</p><p>Cette capacité reprend le principe de Déjà mort
+    de l’ancien WoW JDRA en utilisant la récupération complète et le DR comme
+    langage de ressources COF2.</p>
+  frequency: none
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.SSWFT9LWLpbCIc46
+  duplicateSource: Item.vSfKzdFYSXP6Fuqy
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784643
+  modifiedTime: 1789895784643
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+sort: 100000
+_id: bedn4KQIIgm1l9bD
+_key: '!items!bedn4KQIIgm1l9bD'

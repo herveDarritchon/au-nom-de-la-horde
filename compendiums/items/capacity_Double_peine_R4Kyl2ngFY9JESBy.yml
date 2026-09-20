@@ -1,0 +1,89 @@
+folder: sUVIRPIarTkO1Lsi
+name: Double peine
+type: capacity
+img: icons/skills/melee/blade-tip-chipped-blood-red.webp
+system:
+  description: >-
+    <p>Si les deux armes du rôdeur atteignent la même cible lors d’un même tour,
+    le personnage obtient un effet d’enchaînement qui ajoute 1d4° DM à l’une des
+    deux attaques de son choix.</p>
+  inGame: >-
+    <p>Quand il respecte les conditions, le personnage clique sur l'action pour
+    effectuer le jet de DM supplémentaires</p>
+  source: ''
+  origin: Livre des règles p73
+  slug: double-peine
+  subtype: ''
+  actionType: none
+  learned: false
+  charges:
+    current: null
+    max: null
+  properties:
+    spell: false
+  path: null
+  actions:
+    - source: Compendium.cof2-base.cof-2-base-items.Item.xngf2fn4p2HufYcI
+      indice: 0
+      label: DM supplémentaires
+      chatFlavor: ''
+      type: melee
+      img: icons/svg/d20-highlight.svg
+      properties:
+        visible: false
+        enabled: false
+        activable: true
+        temporary: false
+        noManaCost: false
+        noChargesUsed: false
+      conditions:
+        - predicate: isLearned
+      resolvers:
+        - type: auto
+          bonusDiceAdd: false
+          malusDiceAdd: false
+          skill:
+            difficulty: ''
+          dmg:
+            formula: 1d4°
+          target:
+            type: single
+            number: '0'
+            scope: all
+          additionalEffect:
+            active: false
+            applyOn: success
+            successThreshold: null
+            statuses: []
+            duration: '0'
+            unit: round
+          halfDmgOnSave: true
+          hasAttackSuccessThreshold: false
+      modifiers: []
+      actionType: none
+  cost: -1
+  rank: 5
+  gmNotes: ''
+  frequency: none
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.xngf2fn4p2HufYcI
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784659
+  modifiedTime: 1789895784659
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_id: R4Kyl2ngFY9JESBy
+sort: 0
+_key: '!items!R4Kyl2ngFY9JESBy'

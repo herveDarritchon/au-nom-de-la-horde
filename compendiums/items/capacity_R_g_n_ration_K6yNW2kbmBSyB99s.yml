@@ -1,0 +1,157 @@
+folder: VXemtWdksgYw7pWA
+name: Régénération
+type: capacity
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/maitrise-arc.png
+system:
+  description: >-
+    <p>L’organisme des Trolls possède une faculté de régénération
+    exceptionnelle.</p><p>Récupération : lorsqu’un Troll dépense un Dé de
+    récupération (DR) pour récupérer des PV pendant une récupération, il
+    récupère normalement les PV accordés par ce DR et gagne en plus 1d4 PV. Ce
+    bonus ne peut être obtenu qu’une seule fois par
+    récupération.</p><p>Régénération de combat : une fois par combat, le Troll
+    peut dépenser 1 DR pour récupérer immédiatement 1d4 PV. Dans ce cas, il ne
+    lance pas son DR et ne bénéficie d’aucun des PV normalement accordés par sa
+    dépense : le DR est simplement consommé pour activer la régénération. La
+    Régénération de combat redevient disponible après une Récupération
+    rapide.</p>
+  inGame: ''
+  source: ''
+  origin: warbound
+  slug: haches-et-marteaux
+  subtype: ''
+  actionType: f
+  learned: false
+  charges:
+    current: 1
+    max: 1
+  properties:
+    spell: false
+  path: null
+  actions:
+    - source: Compendium.cof2-base.cof-2-base-items.Item.QIxVby70L3mFXaPh
+      indice: 0
+      label: Régénération — récupération rapide
+      chatFlavor: Régénération — récupération rapide
+      img: icons/svg/heal.svg
+      type: heal
+      actionType: f
+      properties:
+        activable: false
+        temporary: false
+        noChargesUsed: false
+        visible: false
+        enabled: false
+        noManaCost: false
+      conditions:
+        - predicate: isLearned
+      modifiers:
+        - type: capacity
+          source: Item.K6yNW2kbmBSyB99s
+          subtype: attribute
+          target: recoveryFast
+          value: 1d4
+          apply: self
+          additionalInfos: bonus sur récupération rapide
+          choiceGroup: 0
+      resolvers: []
+    - source: Item.K6yNW2kbmBSyB99s
+      indice: 1
+      label: Régénaration - Combat
+      chatFlavor: Régénération en combat
+      img: icons/svg/combat.svg
+      type: heal
+      actionType: f
+      properties:
+        activable: true
+        temporary: false
+        noChargesUsed: false
+        visible: false
+        enabled: false
+        noManaCost: false
+      conditions:
+        - predicate: isLearned
+      modifiers:
+        - type: capacity
+          source: Item.K6yNW2kbmBSyB99s
+          subtype: ability
+          target: agi
+          value: '0'
+          apply: self
+          additionalInfos: Régénération de combat — dépensez 1 DR
+          choiceGroup: 0
+      resolvers:
+        - type: heal
+          skill:
+            formula: 1d4
+          target:
+            type: self
+            number: '0'
+            scope: all
+          additionalEffect:
+            active: false
+            applyOn: success
+            statuses: []
+            duration: '0'
+            unit: round
+          bonusDiceAdd: false
+          malusDiceAdd: false
+          dmg: {}
+          halfDmgOnSave: true
+          hasAttackSuccessThreshold: false
+    - source: Item.K6yNW2kbmBSyB99s
+      indice: 2
+      label: Régénération — récupération complète
+      chatFlavor: ''
+      img: icons/svg/tankard.svg
+      type: heal
+      actionType: f
+      properties:
+        activable: false
+        temporary: false
+        noChargesUsed: false
+        visible: false
+        enabled: false
+        noManaCost: false
+      conditions:
+        - predicate: isLearned
+      modifiers:
+        - type: capacity
+          source: Item.K6yNW2kbmBSyB99s
+          subtype: attribute
+          target: recoveryFull
+          value: 1d4
+          apply: self
+          additionalInfos: bonus sur récupération complète
+          choiceGroup: 0
+      resolvers: []
+  cost: -1
+  rank: 1
+  gmNotes: >-
+    <p>Foundry : Partie récupération : soin bonus conditionné à une dépense de
+    DR. Partie combat : action à paramétrer selon l’implémentation ; consomme 1
+    DR et soigne 1d4 PV, recharge Récupération rapide.</p><p>Rang 1 gratuit de
+    la Voie de peuple.</p>
+  frequency: combat
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.QIxVby70L3mFXaPh
+  duplicateSource: Item.3hG2ZQ2aJRFcWujA
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784649
+  modifiedTime: 1789895784649
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+sort: 100000
+_id: K6yNW2kbmBSyB99s
+_key: '!items!K6yNW2kbmBSyB99s'

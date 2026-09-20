@@ -1,0 +1,101 @@
+folder: gdfT79CBtZMnsY2Y
+name: Force tranquille
+type: capacity
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/coa-force-tranquille.png
+system:
+  description: >-
+    <p>Le Tauren obtient +3 aux tests de FOR lorsqu’il s’agit de soulever,
+    pousser, tirer, retenir, enfoncer ou déplacer quelque chose.</p><p>Pour
+    déterminer ce qu’il peut porter, soulever ou déplacer, le MJ le considère
+    comme appartenant à la catégorie de gabarit supérieure lorsque cela est
+    pertinent.</p>
+  inGame: ''
+  source: ''
+  origin: Livre des règles p48
+  slug: attaque-sanglante
+  subtype: ''
+  actionType: l
+  learned: false
+  charges:
+    current: null
+    max: null
+  properties:
+    spell: false
+  path: null
+  actions:
+    - source: Compendium.cof2-base.cof-2-base-items.Item.SSWFT9LWLpbCIc46
+      indice: 0
+      label: ''
+      chatFlavor: ''
+      img: icons/svg/d20-highlight.svg
+      type: melee
+      actionType: none
+      properties:
+        activable: true
+        temporary: false
+        noChargesUsed: false
+        visible: false
+        enabled: false
+        noManaCost: false
+      conditions:
+        - predicate: isLearned
+      resolvers:
+        - type: attack
+          bonusDiceAdd: false
+          malusDiceAdd: false
+          skill:
+            formula: '@arme.skill'
+            crit: ''
+            difficulty: '@cible.def'
+          dmg:
+            formula: '@arme.dmg'
+          target:
+            type: single
+            scope: all
+            number: '0'
+          hasAttackSuccessThreshold: false
+          additionalEffect:
+            active: true
+            applyOn: success
+            formulaType: damage
+            formula: 1d4°
+            elementType: ''
+            statuses:
+              - bleeding
+            unit: combat
+            duration: '0'
+          halfDmgOnSave: true
+      modifiers: []
+  cost: -1
+  rank: 3
+  gmNotes: >-
+    <p>Foundry : bonus conditionnel de +3 aux tests de FOR concernés. Le
+    changement de gabarit reste une règle contextuelle de table et n’accorde
+    aucun autre effet automatique de taille, de portée, d’espace occupé ou de
+    combat.</p><p>Cette capacité traduit la masse du Tauren sans lui donner un
+    bonus d’attaque. Elle reprend comme référence fonctionnelle Brawn de
+    Champions of Azeroth, où le Tauren compte comme une taille supérieure pour
+    porter, pousser, tirer et soulever.</p>
+  frequency: none
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.SSWFT9LWLpbCIc46
+  duplicateSource: Item.dGKVVeNwI13ZEUqB
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784647
+  modifiedTime: 1789895784647
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+sort: 100000
+_id: lhYqy352eowHBcYG
+_key: '!items!lhYqy352eowHBcYG'

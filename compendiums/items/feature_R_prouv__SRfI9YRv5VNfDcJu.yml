@@ -1,0 +1,54 @@
+folder: ZU8jQk7j2jqAuJbV
+name: Réprouvé
+type: feature
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/races/coa-reprouve.png
+system:
+  description: >-
+    <blockquote><p><em>« J’ai déjà perdu ma vie et ma volonté une fois. Rien ne
+    me les prendra une seconde fois. »</em></p></blockquote><p>Les Réprouvés
+    sont des morts-vivants affranchis du Fléau, animés par une volonté farouche
+    de ne plus jamais subir la domination d’un autre. Leur corps n’obéit plus
+    tout à fait aux règles des vivants : douleur, blessures, poison ou fatigue
+    les affectent différemment, et ils peuvent continuer à avancer là où
+    d’autres s’effondreraient. Marqués par la mort mais maîtres de leur destin,
+    ils incarnent une forme sombre de liberté, faite de ténacité, d’indépendance
+    et d’un refus obstiné de céder.</p>
+  source: ''
+  origin: warbound
+  slug: ''
+  gmNotes: >-
+    <p>Le Réprouvé est conçu comme un mort libre : un ancien serviteur du Fléau
+    qui a déjà connu la perte de sa vie et de sa volonté, et qui refuse
+    désormais toute nouvelle domination. Sa Voie développe ce refus sur deux
+    plans complémentaires : l’esprit résiste au contrôle, puis le corps mort
+    s’affranchit progressivement des contraintes du vivant et des blessures qui
+    devraient l’abattre. Volonté des Réprouvés fonde donc la Voie ;
+    Cannibalisme, Résistance à l’Ombre et Respiration aquatique restent des
+    Talents raciaux indépendants afin de ne pas transformer des marqueurs
+    parallèles en péages de progression.</p>
+  subtype: people
+  modifiers: []
+  paths:
+    - Item.y98MeCI9Z1LicWLX
+  capacities:
+    - Item.ur2HVqPh94KVo4yd
+    - Item.qDtzVa0RMcNnM8pE
+    - Item.G5qMI2jm6LouBQyW
+effects: []
+sort: 0
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895786818
+  modifiedTime: 1789895786818
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: Item.ACB4S77E4WJbZJTW
+  exportSource: null
+_id: SRfI9YRv5VNfDcJu
+_key: '!items!SRfI9YRv5VNfDcJu'

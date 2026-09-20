@@ -1,0 +1,38 @@
+folder: jYZdnFRvUIkY5NnK
+name: Voie du spadassin
+type: path
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/voies/classes/voleur/cof2-voie-du-spadassin.png
+system:
+  description: ''
+  source: ''
+  origin: Warbound
+  slug: voie-du-spadassin
+  subtype: profile
+  capacities:
+    - Item.0TYfZMhRHvu4RMfh
+    - Item.ybFPzWWJsRoTEVuu
+    - Item.oLpuQ5ZP3aql8qSK
+    - Item.X8vEYyteV9hlRjSW
+    - Item.pBGTH9ZaYUiSKcgX
+  rank: 0
+  gmNotes: ''
+  maxDefenseArmor: 0
+  pvByLevel: 0
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.goJdHqmJVj8E8ORm
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895789076
+  modifiedTime: 1789895789076
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_id: JQmsOkZ5gjLfQsoC
+sort: 0
+_key: '!items!JQmsOkZ5gjLfQsoC'

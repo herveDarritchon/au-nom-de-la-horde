@@ -1,0 +1,146 @@
+folder: SEH2YcHcTVIfwxsp
+name: Maître du poison
+type: capacity
+img: icons/skills/ranged/arrow-flying-poisoned-green.webp
+system:
+  description: >-
+    <p style="text-align:justify">Le voleur peut utiliser 3 doses de poison par
+    jour sans risque de s’empoisonner lui‑même. Une dose permet d’enduire une
+    dague, une flèche ou un carreau pour infliger +2d4° DM supplémentaire et
+    demande un test de CON difficulté (10 + INT du voleur) ou une cible vivante
+    est affaiblie pour le reste du combat. Alternativement, une dose peut être
+    versée dans les aliments pour une personne ; si la cible rate son test de
+    CON, elle sombre dans l’inconscience pour 2d6 min (4d6 min pour 2 doses,
+    etc.).</p>
+  inGame: >-
+    <p>Le joueur sélectionne sa cible puis clique sur l'action pour lancer
+    l'attaque qui va faire le test d'attaque de l'arme équipée, ainsi que ses
+    dommages et si l'attaque réussie appliquera le statut "empoisonné" pour 1
+    round ainsi que 2d4° DM de type "Poison". Ne fonctionne qu'en mode
+    combat</p><p><em>Note : On aurait aussi pu mettre un bonus
+    activable/desactivable augmentant les DM. A voir sur l'usage ce qui est le
+    mieux.</em></p><p>La deuxième action permet de réaliser le test de
+    sauvegarde et d'appliquer le statut Affaibli pour le reste du combat si la
+    cible le rate.</p>
+  source: ''
+  origin: Livre des règles p76
+  slug: maitre-du-poison
+  subtype: ''
+  actionType: none
+  learned: false
+  charges:
+    current: 3
+    max: 3
+  properties:
+    spell: false
+  path: null
+  actions:
+    - source: Compendium.cof2-base.cof-2-base-items.Item.CMmctsI2TJkDW4Ge
+      indice: 0
+      label: ''
+      chatFlavor: ''
+      img: icons/svg/d20-highlight.svg
+      type: melee
+      actionType: none
+      properties:
+        activable: true
+        temporary: false
+        noChargesUsed: false
+        visible: false
+        enabled: false
+        noManaCost: false
+      conditions:
+        - predicate: isLearned
+      resolvers:
+        - type: attack
+          bonusDiceAdd: false
+          malusDiceAdd: false
+          skill:
+            formula: '@arme.skill'
+            crit: ''
+            difficulty: '@cible.def'
+          dmg:
+            formula: '@arme.dmg'
+          target:
+            type: single
+            scope: all
+            number: '0'
+          additionalEffect:
+            active: true
+            applyOn: success
+            formulaType: damage
+            formula: 2d4°
+            elementType: poison
+            statuses: []
+            duration: '1'
+            unit: round
+          halfDmgOnSave: true
+          hasAttackSuccessThreshold: false
+      modifiers: []
+    - source: Compendium.cof2-base.cof-2-base-items.Item.CMmctsI2TJkDW4Ge
+      indice: 1
+      label: Test de sauvegarde
+      chatFlavor: ''
+      img: icons/svg/d20-highlight.svg
+      type: spell
+      actionType: none
+      properties:
+        activable: true
+        temporary: false
+        noChargesUsed: true
+        visible: false
+        enabled: false
+        noManaCost: false
+      conditions:
+        - predicate: isLearned
+      resolvers:
+        - type: save
+          saveAbility: con
+          saveDifficulty: 10+@int
+          target:
+            type: single
+            scope: all
+            number: '0'
+          additionalEffect:
+            active: true
+            applyOn: saveFailure
+            formulaType: damage
+            formula: ''
+            elementType: ''
+            statuses:
+              - weakened
+            unit: combat
+            duration: '0'
+          bonusDiceAdd: false
+          malusDiceAdd: false
+          skill: {}
+          dmg: {}
+          halfDmgOnSave: true
+          hasAttackSuccessThreshold: false
+      modifiers: []
+  cost: -1
+  rank: 5
+  frequency: daily
+  gmNotes: ''
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.CMmctsI2TJkDW4Ge
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784700
+  modifiedTime: 1789895784700
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_id: kFOoVS85UXsX7phD
+sort: 0
+_key: '!items!kFOoVS85UXsX7phD'

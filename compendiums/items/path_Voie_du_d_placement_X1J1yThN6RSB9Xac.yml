@@ -1,0 +1,38 @@
+folder: jYZdnFRvUIkY5NnK
+name: Voie du déplacement
+type: path
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/voies/classes/voleur/cof2-voie-du-deplacement.png
+system:
+  description: ''
+  source: ''
+  origin: Warbound
+  slug: voie-du-deplacement
+  subtype: profile
+  capacities:
+    - Item.WrsbIWsdIol2TxJ7
+    - Item.leOnYVMhkbAchFcS
+    - Item.UPOzArOF4SfHeT2u
+    - Item.7qUJJzOtYca0OyIe
+    - Item.AcQHPTCiPnFbzbDW
+  rank: 0
+  gmNotes: ''
+  maxDefenseArmor: 0
+  pvByLevel: 0
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.3sgAopFXy2h9QTYg
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895789076
+  modifiedTime: 1789895789076
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_id: X1J1yThN6RSB9Xac
+sort: 0
+_key: '!items!X1J1yThN6RSB9Xac'

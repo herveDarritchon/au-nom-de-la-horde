@@ -1,0 +1,38 @@
+folder: jL6KNyDtnGnKfATQ
+name: Voie du combat
+type: path
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/voies/classes/guerrier/cof2-voie-du-combat.png
+system:
+  description: ''
+  source: ''
+  origin: Warbound
+  slug: voie-du-combat
+  subtype: profile
+  capacities:
+    - Item.rB70LP0543A10cKv
+    - Item.s5DFb4bmSIie8RbL
+    - Item.5lL1FTguGZubyxDy
+    - Item.bpx9sH8Kv8fcqbRw
+    - Item.Idtduns3P8mdaC8U
+  rank: 0
+  gmNotes: ''
+  maxDefenseArmor: 0
+  pvByLevel: 0
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.MyQYdS8xVcKeJ0pW
+  duplicateSource: Item.Vs76qzRBIeysjDGb
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895789068
+  modifiedTime: 1789895789068
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+sort: 150000
+_id: kup53tEWrYJn50jm
+_key: '!items!kup53tEWrYJn50jm'

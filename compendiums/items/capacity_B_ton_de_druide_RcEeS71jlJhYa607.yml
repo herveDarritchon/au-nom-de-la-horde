@@ -1,0 +1,153 @@
+folder: dDlmKHRV7pMCI2OZ
+name: Bâton de druide
+type: capacity
+img: icons/weapons/staves/staff-vines-green.webp
+system:
+  description: >-
+    <p style="text-align:justify">Le druide combat avec les deux extrémités de
+    son bâton de bois noueux (ou de son épieu). Lorsqu’il utilise cette
+    capacité, il effectue deux attaques de contact pour lesquelles il peut
+    remplacer sa FOR par son AGI en attaque s’il le souhaite. Il inflige
+    [1d4°+FOR ou AGI au choix] DM par attaque (plus d’éventuels bonus si l’arme
+    est magique) et il gagne +2 en DEF pendant 1 round.</p>
+  inGame: >-
+    <p>Les deux actions permettent de réaliser une attaque de contact (soit avec
+    FOR soit avec AGI). En activant l'action, l'attaque est réalisée et un bonus
+    de DEF s'ajoute. Pour faire la deuxième attaque, il faut cliquer pour
+    désactiver l'action et recliquer pour l'exécuter à nouveau. Le PJ ne doit
+    pas oublier de désactiver l'action au début de son prochain tour.</p>
+  source: ''
+  origin: Livre des règles p116
+  slug: baton-de-druide
+  subtype: ''
+  actionType: l
+  learned: false
+  charges:
+    current: null
+    max: null
+  properties:
+    spell: false
+  path: null
+  actions:
+    - source: Compendium.cof2-base.cof-2-base-items.Item.StkMXorDFTc07Hhi
+      indice: 0
+      label: Attaque avec FOR
+      chatFlavor: ''
+      type: melee
+      img: icons/svg/d20-highlight.svg
+      properties:
+        visible: false
+        enabled: false
+        activable: true
+        temporary: true
+        noManaCost: false
+        noChargesUsed: false
+      conditions:
+        - predicate: isLearned
+      modifiers:
+        - type: capacity
+          source: Compendium.cof2-base.cof-2-base-items.Item.StkMXorDFTc07Hhi
+          subtype: combat
+          target: def
+          apply: self
+          value: '2'
+          additionalInfos: ''
+          choiceGroup: 0
+      resolvers:
+        - type: attack
+          bonusDiceAdd: false
+          malusDiceAdd: false
+          skill:
+            formula: '@arme.skill'
+            crit: ''
+            difficulty: '@cible.def'
+          dmg:
+            formula: 1d4° + @for
+          target:
+            type: single
+            scope: all
+            number: '0'
+          additionalEffect:
+            active: false
+            applyOn: success
+            successThreshold: null
+            statuses: []
+            duration: '0'
+            unit: round
+          halfDmgOnSave: true
+          hasAttackSuccessThreshold: false
+      actionType: none
+    - source: Compendium.cof2-base.cof-2-base-items.Item.StkMXorDFTc07Hhi
+      indice: 1
+      label: Attaque avec AGI
+      chatFlavor: ''
+      type: melee
+      img: icons/svg/d20-highlight.svg
+      properties:
+        visible: false
+        enabled: false
+        activable: true
+        temporary: true
+        noManaCost: false
+        noChargesUsed: false
+      conditions:
+        - predicate: isLearned
+      modifiers:
+        - type: capacity
+          source: Compendium.cof2-base.cof-2-base-items.Item.StkMXorDFTc07Hhi
+          subtype: combat
+          target: def
+          apply: self
+          value: '2'
+          additionalInfos: ''
+          choiceGroup: 0
+      resolvers:
+        - type: attack
+          bonusDiceAdd: false
+          malusDiceAdd: false
+          skill:
+            formula: '@arme.skill -@for +@agi'
+            crit: ''
+            difficulty: '@cible.def'
+          dmg:
+            formula: 1d4° + @agi
+          target:
+            type: single
+            number: '0'
+            scope: all
+          additionalEffect:
+            active: false
+            applyOn: success
+            successThreshold: null
+            statuses: []
+            duration: '0'
+            unit: round
+          halfDmgOnSave: true
+          hasAttackSuccessThreshold: false
+      actionType: none
+  cost: -1
+  rank: 3
+  gmNotes: ''
+  frequency: none
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.StkMXorDFTc07Hhi
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784670
+  modifiedTime: 1789895784670
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_id: RcEeS71jlJhYa607
+sort: 0
+_key: '!items!RcEeS71jlJhYa607'

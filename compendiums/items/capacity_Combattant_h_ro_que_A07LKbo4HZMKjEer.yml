@@ -1,0 +1,115 @@
+folder: sUVIRPIarTkO1Lsi
+name: Combattant héroïque
+type: capacity
+img: icons/skills/movement/arrows-up-trio-red.webp
+system:
+  description: >-
+    <p style="text-align:justify">Le rôdeur augmente sa valeur d’AGI de +1 et
+    obtient un dé bonus aux tests d’AGI (lancer deux d20 et conserver le plus
+    haut résultat). Plutôt qu’augmenter son AGI, le personnage peut choisir
+    d’augmenter sa valeur de FOR de +1 (pas de dé bonus aux tests) et peut
+    désormais attaquer avec la même arme dans la main secondaire sans subir de
+    dé malus (par exemple deux épées longues).</p>
+  inGame: >-
+    <p>Au moment où le personnage apprend cette capacité, il doit choisir entre
+    l'action 1 qui augmente AGI et donne un dé bonus et l'action 2 qui augmente
+    FOR. L'action non choisie doit être supprimée.</p>
+  source: ''
+  origin: Livre des règles p73
+  slug: combattant-heroique
+  subtype: ''
+  actionType: none
+  learned: false
+  charges:
+    current: null
+    max: null
+  properties:
+    spell: false
+  path: null
+  actions:
+    - source: Compendium.cof2-base.cof-2-base-items.Item.wniXgy9DRVSttAwX
+      indice: 0
+      label: augmentation AGI
+      chatFlavor: augmentation AGI
+      type: buff
+      img: icons/svg/d20-highlight.svg
+      properties:
+        visible: false
+        enabled: false
+        activable: false
+        temporary: false
+        noManaCost: false
+        noChargesUsed: false
+      conditions:
+        - predicate: isLearned
+      modifiers:
+        - type: capacity
+          source: Compendium.cof2-base.cof-2-base-items.Item.wniXgy9DRVSttAwX
+          subtype: ability
+          target: agi
+          apply: self
+          value: '1'
+          additionalInfos: ''
+          choiceGroup: 0
+        - type: capacity
+          source: Compendium.cof2-base.cof-2-base-items.Item.wniXgy9DRVSttAwX
+          subtype: bonusDice
+          target: agi
+          apply: self
+          value: '0'
+          additionalInfos: ''
+          choiceGroup: 0
+      resolvers: []
+      actionType: none
+    - source: Compendium.cof2-base.cof-2-base-items.Item.wniXgy9DRVSttAwX
+      indice: 1
+      label: Augmentation de FOR
+      chatFlavor: ''
+      type: buff
+      img: icons/svg/d20-highlight.svg
+      properties:
+        visible: false
+        enabled: false
+        activable: false
+        temporary: false
+        noManaCost: false
+        noChargesUsed: false
+      conditions:
+        - predicate: isLearned
+      modifiers:
+        - type: capacity
+          source: Compendium.cof2-base.cof-2-base-items.Item.wniXgy9DRVSttAwX
+          subtype: ability
+          target: for
+          apply: self
+          value: '1'
+          additionalInfos: ''
+          choiceGroup: 0
+      resolvers: []
+      actionType: none
+  cost: -1
+  rank: 4
+  gmNotes: ''
+  frequency: none
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.wniXgy9DRVSttAwX
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784658
+  modifiedTime: 1789895784658
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_id: A07LKbo4HZMKjEer
+sort: 0
+_key: '!items!A07LKbo4HZMKjEer'

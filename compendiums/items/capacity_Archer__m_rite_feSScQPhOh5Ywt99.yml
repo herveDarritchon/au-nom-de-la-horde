@@ -1,0 +1,116 @@
+folder: vKdU8IJB7gi57AYW
+name: Archer émérite
+type: capacity
+img: icons/weapons/bows/shortbow-recurve-yellow-blue.webp
+system:
+  description: >-
+    <p style="text-align:justify">Le rôdeur ajoute sa PER aux DM qu’il inflige à
+    l’arc et +1 par rang dans la voie en initiative. Le joueur peut souhaiter
+    une variante de cette capacité s’appliquant aux armes de jet (dague,
+    hachette, javelot) plutôt qu’à l’arc (rebaptisez‑la voie du lancer). Dans ce
+    cas, le PJ ajoute sa FOR aux DM qu’il inflige et double la portée de jet
+    (pas de bonus d’Init.). Par ailleurs, toutes les capacités de la voie qui
+    suivent s’appliquent aux armes de jet plutôt qu’à l’arc</p>
+  inGame: >-
+    <p>Cette capacité propose deux actions activables/désactivables. Le première
+    est à activer s'il utilise un arc, à désactiver sinon. La deuxième est dans
+    le cas où il utilise une arme de jet plutôt qu'un arc.</p>
+  source: ''
+  origin: Livre des règles p70
+  slug: archer-emerite
+  subtype: ''
+  actionType: none
+  learned: false
+  charges:
+    current: null
+    max: null
+  properties:
+    spell: false
+  path: null
+  actions:
+    - source: Compendium.cof2-base.cof-2-base-items.Item.nAIL1Xph0VFoybEX
+      indice: 0
+      label: Combat à l'arc
+      chatFlavor: ''
+      type: buff
+      img: icons/svg/d20-highlight.svg
+      properties:
+        visible: false
+        enabled: false
+        activable: true
+        temporary: true
+        noManaCost: false
+        noChargesUsed: false
+      conditions:
+        - predicate: isLearned
+      modifiers:
+        - type: capacity
+          source: Compendium.cof2-base.cof-2-base-items.Item.nAIL1Xph0VFoybEX
+          subtype: combat
+          target: init
+          apply: self
+          value: '@rang'
+          additionalInfos: ''
+          choiceGroup: 0
+        - type: capacity
+          source: Compendium.cof2-base.cof-2-base-items.Item.nAIL1Xph0VFoybEX
+          subtype: combat
+          target: damRanged
+          apply: self
+          value: '@per'
+          additionalInfos: ''
+          choiceGroup: 0
+      resolvers: []
+      actionType: none
+    - source: Compendium.cof2-base.cof-2-base-items.Item.nAIL1Xph0VFoybEX
+      indice: 1
+      label: Combat à l'arme de jet
+      chatFlavor: ''
+      type: buff
+      img: icons/svg/d20-highlight.svg
+      properties:
+        visible: false
+        enabled: false
+        activable: true
+        temporary: true
+        noManaCost: false
+        noChargesUsed: false
+      conditions:
+        - predicate: isLearned
+      modifiers:
+        - type: capacity
+          source: Compendium.cof2-base.cof-2-base-items.Item.nAIL1Xph0VFoybEX
+          subtype: combat
+          target: damRanged
+          apply: self
+          value: '@for'
+          additionalInfos: ''
+          choiceGroup: 0
+      resolvers: []
+      actionType: none
+  cost: -1
+  rank: 1
+  gmNotes: ''
+  frequency: none
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.nAIL1Xph0VFoybEX
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784650
+  modifiedTime: 1789895784650
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_id: feSScQPhOh5Ywt99
+sort: 0
+_key: '!items!feSScQPhOh5Ywt99'

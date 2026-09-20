@@ -1,0 +1,344 @@
+_id: 20d734a83c052923
+name: Regles
+folder: 2791f7b642825d83
+pages:
+  - _id: 1b535e3d9d67d8cf
+    name: Races et Classes Disponibles
+    type: text
+    text:
+      content: >-
+        <h2 id="1-cadre-de-création-des-personnages">1. Cadre de création des
+        personnages</h2>
+
+        <p>La campagne se déroule dans un cadre volontairement proche de
+        <strong>World of Warcraft Classic / Vanilla</strong>, quelques années
+        après la Troisième Guerre.</p>
+
+        <p>Les personnages appartiennent à la <strong>Horde</strong> ou
+        combattent durablement à ses côtés. La campagne commence en
+        <strong>Durotar</strong>, autour de Razor Hill et d’Orgrimmar.</p>
+
+        <p><em>Champions of Azeroth</em> contient les neuf classes originales de
+        World of Warcraft et ne fixe volontairement <strong>aucune restriction
+        race/classe universelle</strong> : l’auteur recommande au MJ d'appliquer
+        les restrictions correspondant à l'époque jouée.</p>
+
+        <p>Pour cette campagne, la règle retenue est donc :</p>
+
+        <blockquote>
+
+        <p><strong>Les combinaisons normales suivent celles de WoW Classic, avec
+        une seule exception de campagne : le Paladin sin’dorei.</strong></p>
+
+        </blockquote>
+
+        <p>Blizzard donne pour WoW Classic quatre races de la Horde — Orc,
+        Tauren, Troll et Mort-vivant — et les combinaisons race/classe
+        correspondantes.</p>
+
+        <hr>
+
+        <h2 id="2-races-disponibles">2. Races disponibles</h2>
+
+        <ul>
+
+        <li>@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.207803b2609b4b23.JournalEntryPage.057a2594854d9aaf]{01_Orc_de_Durotar}</li>
+
+        <li>@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.207803b2609b4b23.JournalEntryPage.79c307bdfd552708]{02_Troll_Darkspear}</li>
+
+        <li>@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.207803b2609b4b23.JournalEntryPage.198016c647287ba8]{03_Tauren_de_Mulgore}</li>
+
+        <li>@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.207803b2609b4b23.JournalEntryPage.c165cf43ff3c8454]{04_Reprouve_Mort_vivant}</li>
+
+        <li>@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.207803b2609b4b23.JournalEntryPage.19639595858e1528]{05_Sindorei_Elfe_de_sang_Exception}</li>
+
+        </ul>
+
+        <hr>
+
+        <h2 id="3-classes-disponibles">3. Classes disponibles</h2>
+
+        <ul>
+
+        <li>@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.c7bf87a9785ebb74.JournalEntryPage.216697f9320ef355]{01_Druide}</li>
+
+        <li>@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.c7bf87a9785ebb74.JournalEntryPage.a62f8344c3d8c272]{02_Chasseur}</li>
+
+        <li>@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.c7bf87a9785ebb74.JournalEntryPage.53c4bd2359f7f29c]{03_Mage}</li>
+
+        <li>@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.c7bf87a9785ebb74.JournalEntryPage.f00a917b33d03583]{04_Paladin}</li>
+
+        <li>@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.c7bf87a9785ebb74.JournalEntryPage.f9c8907f3d862d58]{05_Pretre}</li>
+
+        <li>@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.c7bf87a9785ebb74.JournalEntryPage.4fdfe10aad332e08]{06_Voleur}</li>
+
+        <li>@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.c7bf87a9785ebb74.JournalEntryPage.a78c04c3d8fb6a39]{07_Chaman}</li>
+
+        <li>@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.c7bf87a9785ebb74.JournalEntryPage.d0dc7ec14d103a93]{08_Demoniste}</li>
+
+        <li>@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.c7bf87a9785ebb74.JournalEntryPage.6563275b1946c568]{09_Guerrier}</li>
+
+        </ul>
+
+        <hr>
+
+        <h2 id="4-tableau-des-combinaisons-autorisées">4. Tableau des
+        combinaisons autorisées</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <table><thead><tr><th>Race</th><th>Druide</th><th>Chasseur</th><th>Mage</th><th>Paladin</th><th>Prêtre</th><th>Voleur</th><th>Chaman</th><th>Démoniste</th><th>Guerrier</th></tr></thead><tbody><tr><td><strong>Orc</strong></td><td>—</td><td>✓</td><td>—</td><td>—</td><td>—</td><td>✓</td><td>✓</td><td>✓</td><td>✓</td></tr><tr><td><strong>Troll</strong></td><td>—</td><td>✓</td><td>✓</td><td>—</td><td>✓</td><td>✓</td><td>✓</td><td>—</td><td>✓</td></tr><tr><td><strong>Tauren</strong></td><td>✓</td><td>✓</td><td>—</td><td>—</td><td>—</td><td>—</td><td>✓</td><td>—</td><td>✓</td></tr><tr><td><strong>Mort-vivant</strong></td><td>—</td><td>—</td><td>✓</td><td>—</td><td>✓</td><td>✓</td><td>—</td><td>✓</td><td>✓</td></tr><tr><td><strong>Sin’dorei</strong></td><td>—</td><td>—</td><td>—</td><td><strong>✓</strong>*</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr></tbody></table>
+
+        <p>***** Exception spécifique à cette campagne.</p>
+
+        <p>La matrice normale correspond à celle publiée par Blizzard pour WoW
+        Classic. Dans le jeu original, le <strong>Chaman est exclusif à la
+        Horde</strong> et le <strong>Paladin exclusif à l'Alliance</strong> ;
+        notre Paladin sin’dorei constitue donc une divergence volontaire et
+        explicitement encadrée.</p>
+      format: 1
+    sort: 100000
+    flags:
+      vaults:
+        vaultId: vault-coa-7e7c5ff7
+        path: Regles/00_Index_Races_et_Classes.md
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1788766247300
+      modifiedTime: 1788766247300
+      lastModifiedBy: V0twxN2oKehfUjVd
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!20d734a83c052923.1b535e3d9d67d8cf'
+  - _id: ca4860759054edee
+    name: Regles
+    type: text
+    text:
+      content: |-
+        <h2 id="subfolders">Subfolders</h2>
+        <ul>
+        <li>@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.c7bf87a9785ebb74.JournalEntryPage.a8909f84138470f7]{classes}</li>
+        <li>@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.207803b2609b4b23.JournalEntryPage.00c6f9fdc3e6599b]{races}</li>
+        </ul>
+        <h2 id="pages">Pages</h2>
+        <div class="bases-block">
+          <div class="bases-caption">Contents</div>
+          <div class="bases-toolbar">
+            <input type="search" class="bases-filter" placeholder="Filter…" aria-label="Filter table">
+            <span class="bases-count" data-total="2">2 rows</span>
+          </div>
+          <div class="bases-scroll">
+            <table class="bases-table">
+              <thead><tr><th data-col="0" tabindex="0">Name</th><th data-col="1" tabindex="0">Mtime</th></tr></thead>
+              <tbody><tr data-row="0"><td data-raw="Option de personnage : Paladin Sin'dorei">@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.20d734a83c052923.JournalEntryPage.37cbedb0230c270a]{Option de personnage : Paladin Sin'dorei}</td><td data-raw="1787583835000">2026-08-24</td></tr><tr data-row="1"><td data-raw="Races et Classes Disponibles">@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.20d734a83c052923.JournalEntryPage.1b535e3d9d67d8cf]{Races et Classes Disponibles}</td><td data-raw="1787571281000">2026-08-24</td></tr></tbody>
+            </table>
+          </div>
+        </div>
+      format: 1
+    sort: 0
+    flags:
+      vaults:
+        vaultId: vault-coa-7e7c5ff7
+        path: Regles/index.md
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1788766247300
+      modifiedTime: 1788766247300
+      lastModifiedBy: V0twxN2oKehfUjVd
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!20d734a83c052923.ca4860759054edee'
+  - _id: 37cbedb0230c270a
+    name: 'Option de personnage : Paladin Sin''dorei'
+    type: text
+    text:
+      content: >-
+        <h2 id="un-survivant-de-quelthalas">Un survivant de
+        Quel'Thalas</h2><p>Dans cette campagne, incarner un <strong>Paladin Elfe
+        de Sang (Sin'dorei)</strong> est une option de création
+        <em>exceptionnelle</em>. Le personnage est un ancien Haut-Elfe de
+        Quel'Thalas qui a survécu à la destruction de son royaume par le Fléau
+        lors de la Troisième Guerre.</p><p>Contrairement aux célèbres Chevaliers
+        de Sang (Blood Knights) qui apparaîtront plus tard dans l'histoire, ce
+        personnage avait déjà reçu une formation paladine liée à la
+        <strong>Lumière</strong> avant ou pendant la chute de son foyer (à
+        l'image du canon officiel avec des personnages comme Mehlar Dawnblade,
+        ancien élève d'Uther).</p><h2
+        id="comment-et-pourquoi-est-il-en-durotar-">Comment et pourquoi est-il
+        en Durotar ?</h2><p>La présence de ce personnage aux côtés de la Horde
+        en Kalimdor est une démarche <strong>individuelle</strong>. Il n'y a pas
+        encore d'alliance politique entre Lune-d'Argent et la Horde de Thrall à
+        cette époque.</p><p>Le personnage a pu traverser la mer pour de
+        multiples raisons :</p><ul><li><p>Poursuivre une quête personnelle de
+        vengeance contre le Fléau.</p></li><li><p>Fuir la désolation des
+        Royaumes de l'Est.</p></li><li><p>Chercher un remède à la soif de magie
+        de son peuple.</p></li><li><p>S'allier pragmatiquement à la seule force
+        militaire structurée capable de l'accepter.</p></li></ul><p>Il est rare,
+        parfois observé avec méfiance par les Orcs ou les Taurens, et découvre
+        lui-même un continent aride et une culture très éloignée de la splendeur
+        de Quel'Thalas.</p><h2 id="une-exception-pas-une-règle">Une exception,
+        pas une règle</h2><div data-callout="warning" class="callout
+        callout-warning"><div class="callout-title"><p>Restriction de
+        Campagne</p></div><p>L'autorisation de ce concept <strong>n'ouvre pas la
+        race des Elfes de Sang de manière générale</strong>. Il s'agit d'une
+        dérogation spécifique pour jouer un Paladin (classe initialement
+        réservée à l'Alliance dans Vanilla) côté Horde, en s'appuyant sur une
+        justification historique solide. Les autres classes pour les Sin'dorei
+        ne sont pas disponibles.</p></div><p>Même si la mécanique s'appuie sur
+        le <em>Silvermoon Blood Elf</em> du supplément <em>Champions of
+        Outland</em>, la classe reste le <strong>Paladin</strong> standard du
+        manuel de base <em>Champions of Azeroth</em>.</p>
+      format: 1
+    sort: 200000
+    flags:
+      vaults:
+        vaultId: vault-coa-7e7c5ff7
+        path: Regles/Option_Paladin_Sindorei.md
+    system: {}
+    title:
+      show: true
+      level: 2
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1788766247300
+      modifiedTime: 1788766247300
+      lastModifiedBy: V0twxN2oKehfUjVd
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!20d734a83c052923.37cbedb0230c270a'
+flags:
+  vaults:
+    vaultId: vault-coa-7e7c5ff7
+    path: Regles/Option_Paladin_Sindorei.md
+categories: []
+ownership:
+  default: 2
+  V0twxN2oKehfUjVd: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1788766247300
+  modifiedTime: 1788766247300
+  lastModifiedBy: V0twxN2oKehfUjVd
+  compendiumSource: Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.20d734a83c052923
+  duplicateSource: null
+  exportSource: null
+sort: 0
+_key: '!journal!20d734a83c052923'

@@ -1,0 +1,68 @@
+_id: 847157fcb3acf0ea
+name: Accueil
+folder: Cy5oV4lrmPkhyn6H
+pages:
+  - _id: 0e7b34e79ab6f43e
+    name: Home
+    type: text
+    text:
+      content: |-
+        <h2 id="subfolders">Subfolders</h2>
+        <ul>
+        <li>@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.d51e7be0dd1957ef.JournalEntryPage.0c5407152a5e340e]{Campagne}</li>
+        <li>@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.217be936de23990b.JournalEntryPage.401616cef7b3c3d2]{Capitales}</li>
+        <li>@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.88e7bea99e03d717.JournalEntryPage.154540e500a3d6ec]{Continents}</li>
+        <li>@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.3c98b2c80bc01fa0.JournalEntryPage.b654853876301650]{Lore}</li>
+        <li>@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.19ec1fe2c74422e8.JournalEntryPage.87b6ce6fe4f4634e]{Regions}</li>
+        <li>@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.20d734a83c052923.JournalEntryPage.ca4860759054edee]{Regles}</li>
+        <li>@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.ab0e75476258fcd0.JournalEntryPage.25b5b8d97aabe0b5]{Villes}</li>
+        </ul>
+      format: 1
+    sort: 0
+    flags:
+      vaults:
+        vaultId: vault-coa-7e7c5ff7
+        path: index.md
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1788766247241
+      modifiedTime: 1788766247241
+      lastModifiedBy: V0twxN2oKehfUjVd
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!847157fcb3acf0ea.0e7b34e79ab6f43e'
+flags:
+  vaults:
+    vaultId: vault-coa-7e7c5ff7
+    path: index.md
+categories: []
+ownership:
+  default: 0
+  V0twxN2oKehfUjVd: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1788766247241
+  modifiedTime: 1788766247241
+  lastModifiedBy: V0twxN2oKehfUjVd
+  compendiumSource: Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.847157fcb3acf0ea
+  duplicateSource: null
+  exportSource: null
+sort: 0
+_key: '!journal!847157fcb3acf0ea'

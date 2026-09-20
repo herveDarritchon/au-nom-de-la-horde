@@ -1,6 +1,6 @@
 {
   "id": "warbound-campaign-content",
-  "title": "Warbound Campaign Content, playing SWADE RPG within World of Warcraft.",
+  "title": "Warbound Campaign Content, playing COF2 RPG within World of Warcraft.",
   "version": "1.1.0",
   "compatibility": {
     "minimum": "14",
@@ -52,7 +52,7 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "swade"
+      "system": "co2"
     },
     {
       "name": "items",
@@ -63,7 +63,58 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "swade"
+      "system": "co2"
+    },
+    {
+      "name": "actors",
+      "label": "Actors",
+      "path": "packs/actors",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "co2"
+    },
+    {
+      "name": "tables",
+      "label": "Roll Tables",
+      "path": "packs/tables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "playlists",
+      "label": "Playlists",
+      "path": "packs/playlists",
+      "type": "Playlist",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "macros",
+      "label": "Macros",
+      "path": "packs/macros",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cards",
+      "label": "Cards",
+      "path": "packs/cards",
+      "type": "Cards",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
   "packFolders": [
@@ -74,27 +125,26 @@
         "journals",
         "scenes",
         "adventures",
-        "items"
+        "items",
+        "actors",
+        "tables",
+        "playlists",
+        "macros",
+        "cards"
       ]
     }
   ],
   "relationships": {
     "systems": [
       {
-        "id": "swade",
+        "id": "co2",
         "type": "system",
         "compatibility": {}
       }
     ],
-    "recommends": [
-      {
-        "id": "swade-rpg-fr",
-        "type": "module",
-        "compatibility": {}
-      }
-    ]
+    "recommends": []
   },
-  "description": "Contenu de campagne Warbound pour SWADE RPG, avec direction artistique Warbound pour les Journaux Foundry VTT.",
+  "description": "Contenu de campagne Warbound pour COF2 RPG, avec direction artistique Warbound pour les Journaux Foundry VTT.",
   "styles": [
     "styles/warbound.css"
   ],

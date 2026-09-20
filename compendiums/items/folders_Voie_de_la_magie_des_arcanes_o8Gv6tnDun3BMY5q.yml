@@ -1,0 +1,20 @@
+name: Voie de la magie des arcanes
+sorting: m
+folder: 0fCMaISyIdjqne5q
+type: Item
+_id: o8Gv6tnDun3BMY5q
+description: ''
+sort: 100000
+color: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784471
+  modifiedTime: 1789895784471
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_key: '!folders!o8Gv6tnDun3BMY5q'

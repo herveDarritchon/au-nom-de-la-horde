@@ -1,0 +1,52 @@
+folder: JggeOMlbGeKpmi0u
+name: Lien empathique
+type: capacity
+img: icons/creatures/abilities/wolf-howl-moon-purple.webp
+system:
+  description: >-
+    <p style="text-align:justify">Le rôdeur peut communiquer avec son loup par
+    télépathie et le guérir à distance en dépensant ses propres PV (1 PV du
+    rôdeur pour 1 PV octroyé au loup, sans limitation de quantité) au prix d’une
+    action limitée.</p>
+  inGame: >-
+    <p>Pas d'effets automatiques. A gérer à la main par le MJ, pour
+    l'instant.</p>
+  source: ''
+  origin: Livre des règles p71
+  slug: lien-empathique
+  subtype: ''
+  actionType: l
+  learned: false
+  charges:
+    current: null
+    max: null
+  properties:
+    spell: false
+  path: null
+  actions: []
+  cost: -1
+  rank: 3
+  gmNotes: ''
+  frequency: none
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.ZITRfrILssP2g1g6
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784653
+  modifiedTime: 1789895784653
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+_id: pCwvFpis1x9eEQtE
+sort: 0
+_key: '!items!pCwvFpis1x9eEQtE'

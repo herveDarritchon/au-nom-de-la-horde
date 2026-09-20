@@ -1,0 +1,53 @@
+folder: OxjUEdZfGVR1teeS
+name: Résistance à la Magie
+type: capacity
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/cof2-resistance-a-la-magie.png
+system:
+  description: >-
+    <p>Le Sin’dorei bénéficie d’un bonus de +2 aux tests effectués directement
+    pour résister à un sort ou à un effet magique hostile.</p><p>Cette capacité
+    ne crée pas de test de résistance lorsqu’un effet n’en prévoit normalement
+    aucun.</p>
+  inGame: ''
+  source: ''
+  origin: warbound
+  slug: haches-et-marteaux
+  subtype: ''
+  actionType: none
+  learned: false
+  charges:
+    current: null
+    max: null
+  properties:
+    spell: false
+  path: null
+  actions: []
+  cost: -1
+  rank: 1
+  gmNotes: >-
+    <p>Foundry : Objet Capacité séparé. Bonus conditionnel de +2 aux tests de
+    résistance contre les effets explicitement magiques ; ne jamais générer un
+    test absent de l’effet initial.</p>
+  frequency: none
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.QIxVby70L3mFXaPh
+  duplicateSource: Item.0Zo1HOUUlZpFR48n
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784623
+  modifiedTime: 1789895784623
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+sort: 200000
+_id: HpH510Dun7b7mmf8
+_key: '!items!HpH510Dun7b7mmf8'

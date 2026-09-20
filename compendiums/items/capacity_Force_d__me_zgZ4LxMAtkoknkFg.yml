@@ -1,0 +1,97 @@
+folder: LCsZi9IJ3OYnoq77
+name: Force d'âme
+type: capacity
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/cof2-force-d-ame.png
+system:
+  description: >-
+    <p>Le Sin’dorei est immunisé à la peur et au sommeil magique. De plus, il
+    obtient un bonus égal à son rang dans la Voie du Sin’dorei lorsqu’il doit
+    effectuer un test opposé d’attaque magique pour résister à un sort.</p>
+  inGame: ''
+  source: ''
+  origin: Livre des règles p48
+  slug: attaque-sanglante
+  subtype: ''
+  actionType: l
+  learned: false
+  charges:
+    current: null
+    max: null
+  properties:
+    spell: false
+  path: null
+  actions:
+    - source: Compendium.cof2-base.cof-2-base-items.Item.SSWFT9LWLpbCIc46
+      indice: 0
+      label: ''
+      chatFlavor: ''
+      img: icons/svg/d20-highlight.svg
+      type: melee
+      actionType: none
+      properties:
+        activable: true
+        temporary: false
+        noChargesUsed: false
+        visible: false
+        enabled: false
+        noManaCost: false
+      conditions:
+        - predicate: isLearned
+      resolvers:
+        - type: attack
+          bonusDiceAdd: false
+          malusDiceAdd: false
+          skill:
+            formula: '@arme.skill'
+            crit: ''
+            difficulty: '@cible.def'
+          dmg:
+            formula: '@arme.dmg'
+          target:
+            type: single
+            scope: all
+            number: '0'
+          hasAttackSuccessThreshold: false
+          additionalEffect:
+            active: true
+            applyOn: success
+            formulaType: damage
+            formula: 1d4°
+            elementType: ''
+            statuses:
+              - bleeding
+            unit: combat
+            duration: '0'
+          halfDmgOnSave: true
+      modifiers: []
+  cost: -1
+  rank: 2
+  gmNotes: >-
+    <blockquote><p>Foundry : reprendre autant que possible le fonctionnement de
+    Force d’âme de la Voie officielle de l’Elfe haut.</p></blockquote><p>Cette
+    capacité est conservée presque telle quelle : le Sin’dorei reste issu du
+    même peuple et il n’y a pas de raison de sous-calibrer artificiellement
+    cette résistance.</p><p></p>
+  frequency: none
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.SSWFT9LWLpbCIc46
+  duplicateSource: Item.gb81sVCuh76N164d
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789895784626
+  modifiedTime: 1789895784626
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+sort: 100000
+_id: zgZ4LxMAtkoknkFg
+_key: '!items!zgZ4LxMAtkoknkFg'
