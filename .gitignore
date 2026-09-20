@@ -576,3 +576,6 @@ src/styles/less/**/*.css.map
 
 # MacOs
 .DS_Store
+
+# Generated Foundry LevelDB packs
+packs/
