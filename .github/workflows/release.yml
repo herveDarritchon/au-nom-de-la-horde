@@ -1,0 +1,162 @@
+name: Create FoundryVTT Module Release
+
+env:
+  # Page du projet
+  project_url: "https://github.com/${{ github.repository }}"
+
+  # URL stable utilisée par Foundry pour vérifier les mises à jour
+  latest_manifest_url: "https://github.com/${{ github.repository }}/releases/latest/download/module.json"
+
+  # ZIP correspondant à cette release précise
+  release_module_url: "https://github.com/${{ github.repository }}/releases/download/${{ github.event.release.tag_name }}/module.zip"
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+
+      # ------------------------------------------------------------
+      # Checkout
+      # IMPORTANT : lfs: true pour récupérer les vrais .ogg
+      # ------------------------------------------------------------
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Ensure Git LFS files are downloaded
+        run: git lfs pull
+
+      # ------------------------------------------------------------
+      # Node
+      # ------------------------------------------------------------
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      # ------------------------------------------------------------
+      # Version
+      #
+      # Accepte :
+      # v1.0.0
+      # 1.0.0
+      # ------------------------------------------------------------
+      - name: Extract Version From Tag
+        id: version
+        shell: bash
+        run: |
+          TAG="${{ github.event.release.tag_name }}"
+          VERSION="${TAG#v}"
+
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+
+          echo "Release tag : $TAG"
+          echo "Version     : $VERSION"
+
+      # ------------------------------------------------------------
+      # Injecte les informations de release dans module.json
+      # ------------------------------------------------------------
+      - name: Update Module Manifest
+        env:
+          VERSION: ${{ steps.version.outputs.version }}
+          PROJECT_URL: ${{ env.project_url }}
+          MANIFEST_URL: ${{ env.latest_manifest_url }}
+          DOWNLOAD_URL: ${{ env.release_module_url }}
+        run: |
+          node <<'NODE'
+          const fs = require("fs");
+
+          const path = "module.json";
+          const manifest = JSON.parse(fs.readFileSync(path, "utf8"));
+
+          manifest.version = process.env.VERSION;
+          manifest.url = process.env.PROJECT_URL;
+          manifest.manifest = process.env.MANIFEST_URL;
+          manifest.download = process.env.DOWNLOAD_URL;
+
+          fs.writeFileSync(
+            path,
+            JSON.stringify(manifest, null, 2) + "\n"
+          );
+
+          console.log("Manifest generated:");
+          console.log(JSON.stringify(manifest, null, 2));
+          NODE
+
+      # ------------------------------------------------------------
+      # Dépendances nécessaires aux scripts de build
+      # ------------------------------------------------------------
+      - name: Install Dependencies
+        run: npm ci
+
+      # ------------------------------------------------------------
+      # Reconstruction des Compendiums Foundry
+      #
+      # IMPORTANT :
+      # remplacer YMLtoLDB par le nom exact de ton script npm
+      # ------------------------------------------------------------
+      - name: Build Foundry Packs
+        run: npm run YMLtoLDB
+
+      # ------------------------------------------------------------
+      # Vérification minimale du manifest
+      # ------------------------------------------------------------
+      - name: Validate Manifest
+        run: |
+          node -e "
+            const fs = require('fs');
+            const m = JSON.parse(fs.readFileSync('module.json'));
+            if (!m.id) throw new Error('module.json: missing id');
+            if (!m.version) throw new Error('module.json: missing version');
+            if (!m.manifest) throw new Error('module.json: missing manifest');
+            if (!m.download) throw new Error('module.json: missing download');
+            console.log('module.json OK');
+          "
+
+      # ------------------------------------------------------------
+      # Création de module.zip
+      #
+      # Ne mettre ici QUE ce dont Foundry a besoin en production.
+      # ------------------------------------------------------------
+      - name: Create Module Archive
+        run: |
+          zip \
+            --recurse-paths \
+            ./module.zip \
+            module.json \
+            README.md \
+            assets/ \
+            packs/
+
+      # ------------------------------------------------------------
+      # Contrôle du contenu
+      # ------------------------------------------------------------
+      - name: Show Archive Content
+        run: |
+          unzip -l module.zip
+          ls -lh module.zip
+
+      # ------------------------------------------------------------
+      # Ajout des fichiers à la GitHub Release
+      # ------------------------------------------------------------
+      - name: Upload Release Files
+        uses: ncipollo/release-action@v1
+        with:
+          allowUpdates: true
+          name: ${{ github.event.release.name }}
+          draft: ${{ github.event.release.unpublished }}
+          prerelease: ${{ github.event.release.prerelease }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          artifacts: "./module.json,./module.zip"
+          tag: ${{ github.event.release.tag_name }}
+          body: ${{ github.event.release.body }}
