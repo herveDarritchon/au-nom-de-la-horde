@@ -1,8 +1,8 @@
-2026/09/20-10:43:21.590806 172193000 Recovering log #57
-2026/09/20-10:43:21.591870 172193000 Delete type=0 #57
-2026/09/20-10:43:21.592100 172193000 Delete type=3 #56
-2026/09/20-11:24:51.422771 16faff000 Level-0 table #61: started
-2026/09/20-11:24:51.422980 16faff000 Level-0 table #61: 0 bytes OK
-2026/09/20-11:24:51.423577 16faff000 Delete type=0 #59
-2026/09/20-11:24:51.424092 16faff000 Manual compaction at level-0 from '!folders!4WEwbV3g4guuhMgf' @ 72057594037927935 : 1 .. '!scenes.tokens!uzphzarC0uT2jRX9.xprTBXCmNryn5SIn' @ 0 : 0; will stop at (end)
-2026/09/20-11:24:51.424152 16faff000 Manual compaction at level-1 from '!folders!4WEwbV3g4guuhMgf' @ 72057594037927935 : 1 .. '!scenes.tokens!uzphzarC0uT2jRX9.xprTBXCmNryn5SIn' @ 0 : 0; will stop at (end)
+2026/09/20-11:36:30.687383 17321f000 Recovering log #66
+2026/09/20-11:36:30.688739 17321f000 Delete type=3 #64
+2026/09/20-11:36:30.689001 17321f000 Delete type=0 #66
+2026/09/20-11:42:47.725027 171ba3000 Level-0 table #72: started
+2026/09/20-11:42:47.725188 171ba3000 Level-0 table #72: 0 bytes OK
+2026/09/20-11:42:47.725489 171ba3000 Delete type=0 #70
+2026/09/20-11:42:47.726056 171ba3000 Manual compaction at level-0 from '!folders!4WEwbV3g4guuhMgf' @ 72057594037927935 : 1 .. '!scenes.tokens!uzphzarC0uT2jRX9.xprTBXCmNryn5SIn' @ 0 : 0; will stop at (end)
+2026/09/20-11:42:47.726073 171ba3000 Manual compaction at level-1 from '!folders!4WEwbV3g4guuhMgf' @ 72057594037927935 : 1 .. '!scenes.tokens!uzphzarC0uT2jRX9.xprTBXCmNryn5SIn' @ 0 : 0; will stop at (end)

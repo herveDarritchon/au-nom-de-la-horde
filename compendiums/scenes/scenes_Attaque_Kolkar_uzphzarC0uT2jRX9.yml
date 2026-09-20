@@ -72,7 +72,7 @@ tokens:
     height: 1
     depth: 1
     texture:
-      src: worlds/au-nom-de-la-horde/assets/images/tokens/npcs/kolkar/coa-kolkar-coupe-sangle-token.webp
+      src: worlds/au-nom-de-la-horde-cof2/assets/images/tokens/npcs/kolkar/coa-kolkar-coupe-sangle-token.webp
       anchorX: 0.5
       anchorY: 0.5
       fit: contain
@@ -161,7 +161,7 @@ tokens:
     height: 1
     depth: 1
     texture:
-      src: worlds/au-nom-de-la-horde/assets/images/tokens/npcs/kolkar/coa-kolkar-coupe-sangle-token.webp
+      src: worlds/au-nom-de-la-horde-cof2/assets/images/tokens/npcs/kolkar/coa-kolkar-coupe-sangle-token.webp
       anchorX: 0.5
       anchorY: 0.5
       fit: contain
@@ -250,7 +250,7 @@ tokens:
     height: 1
     depth: 1
     texture:
-      src: worlds/au-nom-de-la-horde/assets/images/tokens/npcs/kolkar/coa-kolkar-guetteur-token.webp
+      src: worlds/au-nom-de-la-horde-cof2/assets/images/tokens/npcs/kolkar/coa-kolkar-guetteur-token.webp
       anchorX: 0.5
       anchorY: 0.5
       fit: contain
@@ -339,7 +339,7 @@ tokens:
     height: 1
     depth: 1
     texture:
-      src: worlds/au-nom-de-la-horde/assets/images/tokens/npcs/kolkar/coa-kolkar-guetteur-token.webp
+      src: worlds/au-nom-de-la-horde-cof2/assets/images/tokens/npcs/kolkar/coa-kolkar-guetteur-token.webp
       anchorX: 0.5
       anchorY: 0.5
       fit: contain
@@ -428,7 +428,7 @@ tokens:
     height: 1
     depth: 1
     texture:
-      src: worlds/au-nom-de-la-horde/assets/images/tokens/npcs/kolkar/coa-kolkar-pillard-token.webp
+      src: worlds/au-nom-de-la-horde-cof2/assets/images/tokens/npcs/kolkar/coa-kolkar-pillard-token.webp
       anchorX: 0.5
       anchorY: 0.5
       fit: contain
@@ -518,7 +518,7 @@ levels:
       top: 20
     background:
       color: '#999999'
-      src: worlds/au-nom-de-la-horde/assets/images/battlemaps/coa-battlemap-attaque-centaure.png
+      src: worlds/au-nom-de-la-horde-cof2/assets/images/battlemaps/coa-battlemap-attaque-centaure.png
       tint: '#ffffff'
       alphaThreshold: 0.75
     foreground:

@@ -23,7 +23,7 @@ flags:
     contentPages:
       info: wHfGadvoztcXJBjp
       notes: 1YQRKM9X1952imZS
-    image: worlds/au-nom-de-la-horde/assets/images/illustrations/coa-convoie-pour-tranchecolline.png
+    image: worlds/au-nom-de-la-horde-cof2/assets/images/illustrations/coa-convoie-pour-tranchecolline.png
   core:
     sheetClass: campaign-codex.GroupSheet
 pages:

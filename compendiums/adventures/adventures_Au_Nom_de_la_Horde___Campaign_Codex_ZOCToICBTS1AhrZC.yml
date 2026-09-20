@@ -1,5 +1,5 @@
 name: Au Nom de la Horde - Campaign Codex
-img: worlds/au-nom-de-la-horde/assets/images/illustrations/coa-au-nom-de-la-horde-background.png
+img: worlds/au-nom-de-la-horde-cof2/assets/images/illustrations/coa-au-nom-de-la-horde-background.png
 caption: ''
 description: ''
 actors:
@@ -7,7 +7,7 @@ actors:
     name: Brazzik Main-Froide
     type: npc
     _id: 59xA0uozsrB4lOvv
-    img: worlds/au-nom-de-la-horde/assets/images/avatar/coa-brazzik_main-froide_avatar.png
+    img: worlds/au-nom-de-la-horde-cof2/assets/images/avatar/coa-brazzik_main-froide_avatar.png
     system:
       currency:
         pp: 0
@@ -462,7 +462,7 @@ actors:
       height: 1
       depth: 1
       texture:
-        src: worlds/au-nom-de-la-horde/assets/images/tokens/coa-brazzik_main-froide_token.webp
+        src: worlds/au-nom-de-la-horde-cof2/assets/images/tokens/coa-brazzik_main-froide_token.webp
         anchorX: 0.5
         anchorY: 0.5
         fit: contain
@@ -556,7 +556,7 @@ actors:
   - folder: Jdlru5PQWEMbOKh3
     name: Coupe-Sangle
     type: npc
-    img: worlds/au-nom-de-la-horde/assets/images/avatar/kolkar/coa-kolkar-coupe-sangle-illustration.png
+    img: worlds/au-nom-de-la-horde-cof2/assets/images/avatar/kolkar/coa-kolkar-coupe-sangle-illustration.png
     system:
       currency:
         pp: 0
@@ -1028,7 +1028,7 @@ actors:
       height: 1
       depth: 1
       texture:
-        src: worlds/au-nom-de-la-horde/assets/images/tokens/npcs/kolkar/coa-kolkar-coupe-sangle-token.webp
+        src: worlds/au-nom-de-la-horde-cof2/assets/images/tokens/npcs/kolkar/coa-kolkar-coupe-sangle-token.webp
         anchorX: 0.5
         anchorY: 0.5
         fit: contain
@@ -1293,7 +1293,7 @@ actors:
       - name: Sabot
         type: weapon
         _id: jXel9l0JUi41C4kB
-        img: worlds/au-nom-de-la-horde/assets/images/icons/weapons/coa-item-sabot.png
+        img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/weapons/coa-item-sabot.png
         system:
           activities:
             uIdgB0i5Dra58BRv:
@@ -1420,7 +1420,7 @@ actors:
           exportSource: null
       - name: Lame courbe
         type: weapon
-        img: worlds/au-nom-de-la-horde/assets/images/icons/weapons/coa-lame-courbe.png
+        img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/weapons/coa-lame-courbe.png
         system:
           description:
             value: >-
@@ -1611,7 +1611,7 @@ actors:
       - name: Mobilité de Centaure
         type: feat
         _id: npyYOQJXCFiL7h0S
-        img: worlds/au-nom-de-la-horde/assets/images/icons/aptitudes/coa-aptitude-mobilite-de-centaure.png
+        img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/aptitudes/coa-aptitude-mobilite-de-centaure.png
         system:
           activities: {}
           uses:
@@ -1661,7 +1661,7 @@ actors:
       - name: Cavalcade
         type: feat
         _id: l8dXFype9nprH6SU
-        img: worlds/au-nom-de-la-horde/assets/images/icons/aptitudes/coa-aptitude-cavalcade.png
+        img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/aptitudes/coa-aptitude-cavalcade.png
         system:
           activities: {}
           uses:
@@ -1731,7 +1731,7 @@ actors:
     _id: gK4nLAqFGEhcExWl
   - name: Dorga Tire-rene
     type: npc
-    img: worlds/au-nom-de-la-horde/assets/images/avatar/orcs/convoi/coa-dorga-tire-rene-avatar.png
+    img: worlds/au-nom-de-la-horde-cof2/assets/images/avatar/orcs/convoi/coa-dorga-tire-rene-avatar.png
     system:
       abilities:
         str:
@@ -2250,7 +2250,7 @@ actors:
         negative: false
         priority: 0
       texture:
-        src: worlds/au-nom-de-la-horde/assets/images/tokens/npcs/orcs/convoi/dorga-tire-rene.webp
+        src: worlds/au-nom-de-la-horde-cof2/assets/images/tokens/npcs/orcs/convoi/dorga-tire-rene.webp
         tint: '#ffffff'
         scaleX: 1
         scaleY: 1
@@ -2847,7 +2847,7 @@ actors:
   - folder: Jdlru5PQWEMbOKh3
     name: Guetteur
     type: npc
-    img: worlds/au-nom-de-la-horde/assets/images/avatar/kolkar/coa-kolkar-guetteur-illustration.png
+    img: worlds/au-nom-de-la-horde-cof2/assets/images/avatar/kolkar/coa-kolkar-guetteur-illustration.png
     system:
       currency:
         pp: 0
@@ -3307,7 +3307,7 @@ actors:
       height: 1
       depth: 1
       texture:
-        src: worlds/au-nom-de-la-horde/assets/images/tokens/npcs/kolkar/coa-kolkar-guetteur-token.webp
+        src: worlds/au-nom-de-la-horde-cof2/assets/images/tokens/npcs/kolkar/coa-kolkar-guetteur-token.webp
         anchorX: 0.5
         anchorY: 0.5
         fit: contain
@@ -3763,7 +3763,7 @@ actors:
       - name: Sabot
         type: weapon
         _id: nrY5u0576UvwUgcb
-        img: worlds/au-nom-de-la-horde/assets/images/icons/weapons/coa-item-sabot.png
+        img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/weapons/coa-item-sabot.png
         system:
           activities:
             uIdgB0i5Dra58BRv:
@@ -3891,7 +3891,7 @@ actors:
       - name: Mobilité de Centaure
         type: feat
         _id: NrWKD8iXeHmVDFGv
-        img: worlds/au-nom-de-la-horde/assets/images/icons/aptitudes/coa-aptitude-mobilite-de-centaure.png
+        img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/aptitudes/coa-aptitude-mobilite-de-centaure.png
         system:
           activities: {}
           uses:
@@ -3941,7 +3941,7 @@ actors:
       - name: Position dominante
         type: feat
         _id: 32XzvVuxavc4IJjH
-        img: worlds/au-nom-de-la-horde/assets/images/icons/aptitudes/coa-aptitude-position-dominante.png
+        img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/aptitudes/coa-aptitude-position-dominante.png
         system:
           activities: {}
           uses:
@@ -4013,7 +4013,7 @@ actors:
     name: Krosh Pèse-Charge
     type: npc
     _id: mSSqlS09TdA8oRgI
-    img: worlds/au-nom-de-la-horde/assets/images/avatar/coa-krosh_pese-charge-avatar.png
+    img: worlds/au-nom-de-la-horde-cof2/assets/images/avatar/coa-krosh_pese-charge-avatar.png
     system:
       currency:
         pp: 0
@@ -4468,7 +4468,7 @@ actors:
       height: 1
       depth: 1
       texture:
-        src: worlds/au-nom-de-la-horde/assets/images/tokens/coa-krosh_pese-charge-token.webp
+        src: worlds/au-nom-de-la-horde-cof2/assets/images/tokens/coa-krosh_pese-charge-token.webp
         anchorX: 0.5
         anchorY: 0.5
         fit: contain
@@ -5119,7 +5119,7 @@ actors:
     name: Pillard
     type: npc
     _id: ixLhv6Uoi1eq6kQY
-    img: worlds/au-nom-de-la-horde/assets/images/avatar/kolkar/coa-kolkar-pillard-illustration.png
+    img: worlds/au-nom-de-la-horde-cof2/assets/images/avatar/kolkar/coa-kolkar-pillard-illustration.png
     system:
       currency:
         pp: 0
@@ -5591,7 +5591,7 @@ actors:
       height: 1
       depth: 1
       texture:
-        src: worlds/au-nom-de-la-horde/assets/images/tokens/npcs/kolkar/coa-kolkar-pillard-token.webp
+        src: worlds/au-nom-de-la-horde-cof2/assets/images/tokens/npcs/kolkar/coa-kolkar-pillard-token.webp
         anchorX: 0.5
         anchorY: 0.5
         fit: contain
@@ -5856,7 +5856,7 @@ actors:
       - name: Sabot
         type: weapon
         _id: JK5cJ7EEB2u8ZJHE
-        img: worlds/au-nom-de-la-horde/assets/images/icons/weapons/coa-item-sabot.png
+        img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/weapons/coa-item-sabot.png
         system:
           activities:
             uIdgB0i5Dra58BRv:
@@ -5984,7 +5984,7 @@ actors:
       - name: Charge légère
         type: feat
         _id: 5g0C0k4vLYP7EkfN
-        img: worlds/au-nom-de-la-horde/assets/images/icons/aptitudes/coa-aptitude-charge-legere.png
+        img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/aptitudes/coa-aptitude-charge-legere.png
         system:
           activities: {}
           uses:
@@ -6034,7 +6034,7 @@ actors:
       - name: Mobilité de Centaure
         type: feat
         _id: BvqNvhKCzIEsUwdC
-        img: worlds/au-nom-de-la-horde/assets/images/icons/aptitudes/coa-aptitude-mobilite-de-centaure.png
+        img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/aptitudes/coa-aptitude-mobilite-de-centaure.png
         system:
           activities: {}
           uses:
@@ -6559,7 +6559,7 @@ actors:
       height: 1
       depth: 1
       texture:
-        src: worlds/au-nom-de-la-horde/assets/images/tokens/npcs/coa-takrin_cherche-voie_token.webp
+        src: worlds/au-nom-de-la-horde-cof2/assets/images/tokens/npcs/coa-takrin_cherche-voie_token.webp
         anchorX: 0.5
         anchorY: 0.5
         fit: contain
@@ -6783,7 +6783,7 @@ journal:
         contentPages:
           info: GGbghqt1yGgvfs9b
           notes: gqPOxieAK8uQcQeI
-        image: worlds/au-nom-de-la-horde/assets/images/illustrations/durotar/mine-roche-seche/coa-mrs-atelier-de-maintenance.png
+        image: worlds/au-nom-de-la-horde-cof2/assets/images/illustrations/durotar/mine-roche-seche/coa-mrs-atelier-de-maintenance.png
       core:
         sheetClass: campaign-codex.ShopSheet
     pages:
@@ -6880,7 +6880,7 @@ journal:
         contentPages:
           info: ju3WSb8f26VKbkdA
           notes: CxB5UMCGnHo6Skpy
-        image: worlds/au-nom-de-la-horde/assets/images/avatar/coa-brazzik_main-froide_avatar.png
+        image: worlds/au-nom-de-la-horde-cof2/assets/images/avatar/coa-brazzik_main-froide_avatar.png
         data:
           linkedActor: Actor.59xA0uozsrB4lOvv
           sheetTypeLabelOverride: 'Journal : PNJ'
@@ -6987,7 +6987,7 @@ journal:
         contentPages:
           info: NO1hNkePDlfbG3O3
           notes: 6yLpEfyMtZs39vSQ
-        image: worlds/au-nom-de-la-horde/assets/images/illustrations/durotar/mine-roche-seche/coa-mrs-bureau.png
+        image: worlds/au-nom-de-la-horde-cof2/assets/images/illustrations/durotar/mine-roche-seche/coa-mrs-bureau.png
       core:
         sheetClass: campaign-codex.ShopSheet
     pages:
@@ -7109,7 +7109,7 @@ journal:
                     value: 0
                     name: Personnage joueur
                     img: systems/dnd5e/icons/svg/actors/character.svg
-        image: worlds/au-nom-de-la-horde/assets/images/icons/factions/coa-icone-faction-cartel_baille-fonds.png
+        image: worlds/au-nom-de-la-horde-cof2/assets/images/icons/factions/coa-icone-faction-cartel_baille-fonds.png
       core:
         sheetClass: campaign-codex.TagSheet
     _id: sTry2ekVrtg71TQo
@@ -7414,7 +7414,7 @@ journal:
         contentPages:
           info: Mt6jU9zHgogbFXFb
           notes: DycM6JtCiVlrFJb7
-        image: worlds/au-nom-de-la-horde/assets/images/avatar/orcs/convoi/coa-dorga-tire-rene-avatar.png
+        image: worlds/au-nom-de-la-horde-cof2/assets/images/avatar/orcs/convoi/coa-dorga-tire-rene-avatar.png
         data:
           linkedActor: Actor.0EGDjh6P90ClokR2
           linkedLocations:
@@ -7644,7 +7644,7 @@ journal:
           linkedNPCs:
             - JournalEntry.z5gIqN6n4XVkj1dq
             - JournalEntry.sf5Pe66qDG1iZWoF
-        image: worlds/au-nom-de-la-horde/assets/images/illustrations/coa-illustration-durotar.png
+        image: worlds/au-nom-de-la-horde-cof2/assets/images/illustrations/coa-illustration-durotar.png
       core:
         sheetClass: campaign-codex.RegionSheet
     _id: idQ0pKSXB1APj1FT
@@ -7752,7 +7752,7 @@ journal:
           tags:
             - sc1
             - durotar
-        image: worlds/au-nom-de-la-horde/assets/images/illustrations/durotar/coa-embuscade-kolkar-illustration.png
+        image: worlds/au-nom-de-la-horde-cof2/assets/images/illustrations/durotar/coa-embuscade-kolkar-illustration.png
       core:
         sheetClass: campaign-codex.ShopSheet
     _id: CGTq9fPzdD50Sw5y
@@ -7856,7 +7856,7 @@ journal:
         contentPages:
           info: XUZrkjvKXzfIh02c
           notes: WC8KF9zvyOLStgxC
-        image: worlds/au-nom-de-la-horde/assets/images/illustrations/durotar/mine-roche-seche/coa-mrs-entrepot.png
+        image: worlds/au-nom-de-la-horde-cof2/assets/images/illustrations/durotar/mine-roche-seche/coa-mrs-entrepot.png
       core:
         sheetClass: campaign-codex.ShopSheet
     pages:
@@ -8018,7 +8018,7 @@ journal:
         contentPages:
           info: Muq0UwD1hkT0sv3F
           notes: XQq56G7Or4SJYuvq
-        image: worlds/au-nom-de-la-horde/assets/images/illustrations/coa-convoie-pour-tranchecolline.png
+        image: worlds/au-nom-de-la-horde-cof2/assets/images/illustrations/coa-convoie-pour-tranchecolline.png
         sheet-widgets: []
         widgets-position:
           info: true
@@ -8083,7 +8083,7 @@ journal:
           format: 1
           content: >-
             <figure><img
-            src="worlds/au-nom-de-la-horde/assets/images/illustrations/aides-de-jeu/coa-lettre-takrin-convoi.png"
+            src="worlds/au-nom-de-la-horde-cof2/assets/images/illustrations/aides-de-jeu/coa-lettre-takrin-convoi.png"
             width="500"><figcaption>Lettre de Mission</figcaption></figure>
         ownership:
           default: 0
@@ -8239,7 +8239,7 @@ journal:
         contentPages:
           info: LYR7Wa0ILUNCpdF0
           notes: 4WcVeYUYb4eqU8O1
-        image: worlds/au-nom-de-la-horde/assets/images/icons/factions/coa-icone-faction-korkal.png
+        image: worlds/au-nom-de-la-horde-cof2/assets/images/icons/factions/coa-icone-faction-korkal.png
         sheet-widgets:
           - id: WV6ISFetWStVaDA7
             widgetName: Progress Clock
@@ -8407,7 +8407,7 @@ journal:
           notes: RilojrcjI7wIeNNW
         data:
           linkedActor: Actor.mSSqlS09TdA8oRgI
-        image: worlds/au-nom-de-la-horde/assets/images/avatar/coa-krosh_pese-charge-avatar.png
+        image: worlds/au-nom-de-la-horde-cof2/assets/images/avatar/coa-krosh_pese-charge-avatar.png
       core:
         sheetClass: campaign-codex.NPCSheet
     _id: vC91ivaZT7R8IJdF
@@ -8543,7 +8543,7 @@ journal:
         contentPages:
           info: NhanUKGZbWO2mkwQ
           notes: yLd6t5k4lrmLWirK
-        image: worlds/au-nom-de-la-horde/assets/images/icons/factions/coa-icone-faction-alliance.png
+        image: worlds/au-nom-de-la-horde-cof2/assets/images/icons/factions/coa-icone-faction-alliance.png
         sheet-widgets:
           - id: gPK2EYEwU3w5sH0U
             widgetName: Relationship Tracker Scale
@@ -8722,7 +8722,7 @@ journal:
         contentPages:
           info: NhanUKGZbWO2mkwQ
           notes: yLd6t5k4lrmLWirK
-        image: worlds/au-nom-de-la-horde/assets/images/icons/factions/coa-icone-faction-horde.png
+        image: worlds/au-nom-de-la-horde-cof2/assets/images/icons/factions/coa-icone-faction-horde.png
         sheet-widgets:
           - id: gPK2EYEwU3w5sH0U
             widgetName: Relationship Tracker Scale
@@ -8896,7 +8896,7 @@ journal:
         contentPages:
           info: NhanUKGZbWO2mkwQ
           notes: yLd6t5k4lrmLWirK
-        image: worlds/au-nom-de-la-horde/assets/images/icons/factions/coa-icone-faction-lame-brulante.png
+        image: worlds/au-nom-de-la-horde-cof2/assets/images/icons/factions/coa-icone-faction-lame-brulante.png
         sheet-widgets:
           - id: gPK2EYEwU3w5sH0U
             widgetName: Relationship Tracker Scale
@@ -9084,7 +9084,7 @@ journal:
                 max: 6
                 current: 0
                 title: L’escalade vers l’irréparable
-        image: worlds/au-nom-de-la-horde/assets/images/icons/factions/coa-icone-faction-cercle-pierre-brisee.png
+        image: worlds/au-nom-de-la-horde-cof2/assets/images/icons/factions/coa-icone-faction-cercle-pierre-brisee.png
       core:
         sheetClass: campaign-codex.TagSheet
     _id: IA98XHgxRxeHoo3y
@@ -9345,7 +9345,7 @@ journal:
         contentPages:
           info: 6jdJHDE605T688wB
           notes: A17TCAkylolrkRVR
-        image: worlds/au-nom-de-la-horde/assets/images/illustrations/durotar/mine-roche-seche/coa-mrs-lieu-de-vie.png
+        image: worlds/au-nom-de-la-horde-cof2/assets/images/illustrations/durotar/mine-roche-seche/coa-mrs-lieu-de-vie.png
       core:
         sheetClass: campaign-codex.ShopSheet
     pages:
@@ -9442,7 +9442,7 @@ journal:
         contentPages:
           info: f9174UZU6CBKOJZ1
           notes: oYSwll9Yw5DyXmKR
-        image: worlds/au-nom-de-la-horde/assets/images/illustrations/coa-illustration-mache-roc.png
+        image: worlds/au-nom-de-la-horde-cof2/assets/images/illustrations/coa-illustration-mache-roc.png
       core:
         sheetClass: campaign-codex.ShopSheet
     _id: H8dpEah73C7TluZP
@@ -9619,7 +9619,7 @@ journal:
         contentPages:
           info: ZBTJqytnLDTqNPdB
           notes: mDzatVsIU8E9NH2Q
-        image: worlds/au-nom-de-la-horde/assets/images/illustrations/durotar/mine-roche-seche/coa-mrs-mine.png
+        image: worlds/au-nom-de-la-horde-cof2/assets/images/illustrations/durotar/mine-roche-seche/coa-mrs-mine.png
         data:
           linkedLocation: JournalEntry.3804DaSpkWC1bBzY
       core:
@@ -9731,7 +9731,7 @@ journal:
         contentPages:
           info: oJeTfgUZjif8xWBu
           notes: xC9SV4iavRSi5ilY
-        image: worlds/au-nom-de-la-horde/assets/images/illustrations/coa-mine-de-roche-seche.png
+        image: worlds/au-nom-de-la-horde-cof2/assets/images/illustrations/coa-mine-de-roche-seche.png
       core:
         sheetClass: campaign-codex.LocationSheet
     pages:
@@ -10073,7 +10073,7 @@ journal:
         contentPages:
           info: wHfGadvoztcXJBjp
           notes: 1YQRKM9X1952imZS
-        image: worlds/au-nom-de-la-horde/assets/images/illustrations/coa-convoie-pour-tranchecolline.png
+        image: worlds/au-nom-de-la-horde-cof2/assets/images/illustrations/coa-convoie-pour-tranchecolline.png
       core:
         sheetClass: campaign-codex.GroupSheet
     pages:
@@ -10664,7 +10664,7 @@ journal:
         contentPages:
           info: p7fJxxmPspVzX3OR
           notes: zePy8tewp2t5x0PU
-        image: worlds/au-nom-de-la-horde/assets/images/illustrations/coa-tranchecolline-cc.png
+        image: worlds/au-nom-de-la-horde-cof2/assets/images/illustrations/coa-tranchecolline-cc.png
       core:
         sheetClass: campaign-codex.LocationSheet
     pages:
@@ -10826,7 +10826,7 @@ scenes:
         height: 1
         depth: 1
         texture:
-          src: worlds/au-nom-de-la-horde/assets/images/tokens/npcs/kolkar/coa-kolkar-coupe-sangle-token.webp
+          src: worlds/au-nom-de-la-horde-cof2/assets/images/tokens/npcs/kolkar/coa-kolkar-coupe-sangle-token.webp
           anchorX: 0.5
           anchorY: 0.5
           fit: contain
@@ -10914,7 +10914,7 @@ scenes:
         height: 1
         depth: 1
         texture:
-          src: worlds/au-nom-de-la-horde/assets/images/tokens/npcs/kolkar/coa-kolkar-coupe-sangle-token.webp
+          src: worlds/au-nom-de-la-horde-cof2/assets/images/tokens/npcs/kolkar/coa-kolkar-coupe-sangle-token.webp
           anchorX: 0.5
           anchorY: 0.5
           fit: contain
@@ -11002,7 +11002,7 @@ scenes:
         height: 1
         depth: 1
         texture:
-          src: worlds/au-nom-de-la-horde/assets/images/tokens/npcs/kolkar/coa-kolkar-guetteur-token.webp
+          src: worlds/au-nom-de-la-horde-cof2/assets/images/tokens/npcs/kolkar/coa-kolkar-guetteur-token.webp
           anchorX: 0.5
           anchorY: 0.5
           fit: contain
@@ -11090,7 +11090,7 @@ scenes:
         height: 1
         depth: 1
         texture:
-          src: worlds/au-nom-de-la-horde/assets/images/tokens/npcs/kolkar/coa-kolkar-guetteur-token.webp
+          src: worlds/au-nom-de-la-horde-cof2/assets/images/tokens/npcs/kolkar/coa-kolkar-guetteur-token.webp
           anchorX: 0.5
           anchorY: 0.5
           fit: contain
@@ -11178,7 +11178,7 @@ scenes:
         height: 1
         depth: 1
         texture:
-          src: worlds/au-nom-de-la-horde/assets/images/tokens/npcs/kolkar/coa-kolkar-pillard-token.webp
+          src: worlds/au-nom-de-la-horde-cof2/assets/images/tokens/npcs/kolkar/coa-kolkar-pillard-token.webp
           anchorX: 0.5
           anchorY: 0.5
           fit: contain
@@ -11267,7 +11267,7 @@ scenes:
           top: 20
         background:
           color: '#999999'
-          src: worlds/au-nom-de-la-horde/assets/images/battlemaps/coa-battlemap-attaque-centaure.png
+          src: worlds/au-nom-de-la-horde-cof2/assets/images/battlemaps/coa-battlemap-attaque-centaure.png
           tint: '#ffffff'
           alphaThreshold: 0.75
         foreground:
