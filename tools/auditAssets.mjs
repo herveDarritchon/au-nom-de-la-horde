@@ -40,6 +40,10 @@ const CONFIG = {
   modulePrefix: "modules/warbound-campaign-content/",
   systemPrefix: "systems/co2/",
 
+  excludedPrefixes: [
+    "worlds/au-nom-de-la-horde-cof2/vaults-cache/"
+  ],
+
   // Médias pris en charge.
   extensions: {
     image: [
@@ -50,7 +54,7 @@ const CONFIG = {
       "gif",
       "svg",
       "avif",
-      "bmp",
+      "bmp"
     ],
     audio: [
       "ogg",
@@ -60,22 +64,22 @@ const CONFIG = {
       "flac",
       "m4a",
       "aac",
-      "opus",
+      "opus"
     ],
     video: [
       "webm",
       "mp4",
       "m4v",
-      "mov",
-    ],
-  },
+      "mov"
+    ]
+  }
 };
 
 const allExtensions = Object.values(CONFIG.extensions).flat();
 
 const escapedExtensions = allExtensions
   .map((extension) =>
-    extension.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"),
+    extension.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
   )
   .join("|");
 
@@ -101,7 +105,7 @@ const MEDIA_REGEX = new RegExp(
   String.raw`\s<>]*)?(?:#[^"'` +
   "`" +
   String.raw`\s<>]*)?`,
-  "gi",
+  "gi"
 );
 
 const stats = {
@@ -111,7 +115,7 @@ const stats = {
   byKind: {
     image: 0,
     audio: 0,
-    video: 0,
+    video: 0
   },
 
   accepted: {
@@ -119,8 +123,8 @@ const stats = {
     systemCof2: 0,
     foundryCore: 0,
     remote: 0,
-    dataUri: 0,
-  },
+    dataUri: 0
+  }
 };
 
 const warnings = [];
@@ -157,7 +161,7 @@ function getMediaKind(mediaPath) {
   for (const [kind, extensions] of Object.entries(CONFIG.extensions)) {
     if (
       extensions.some((extension) =>
-        clean.endsWith(`.${extension}`),
+        clean.endsWith(`.${extension}`)
       )
     ) {
       return kind;
@@ -189,7 +193,7 @@ async function walkYamlFiles(directory) {
   const result = [];
 
   const entries = await fs.readdir(directory, {
-    withFileTypes: true,
+    withFileTypes: true
   });
 
   for (const entry of entries) {
@@ -217,7 +221,7 @@ function addWarning({
                       sourceFile,
                       line,
                       mediaPath,
-                      details = null,
+                      details = null
                     }) {
   warnings.push({
     type,
@@ -225,7 +229,7 @@ function addWarning({
     sourceFile,
     line,
     mediaPath,
-    details,
+    details
   });
 }
 
@@ -235,7 +239,7 @@ function addError({
                     sourceFile,
                     line,
                     mediaPath,
-                    details = null,
+                    details = null
                   }) {
   errors.push({
     type,
@@ -243,7 +247,7 @@ function addError({
     sourceFile,
     line,
     mediaPath,
-    details,
+    details
   });
 }
 
@@ -251,8 +255,9 @@ async function auditReference({
                                 sourceFile,
                                 content,
                                 rawReference,
-                                index,
+                                index
                               }) {
+
   const mediaPath = normalizeReference(rawReference);
   const kind = getMediaKind(mediaPath);
   const line = getLineNumber(content, index);
@@ -261,6 +266,18 @@ async function auditReference({
 
   if (Object.hasOwn(stats.byKind, kind)) {
     stats.byKind[kind] += 1;
+  }
+
+  // ------------------------------------------------------------
+  // 0. EXCLUSIONS EXPLICITES
+  // ------------------------------------------------------------
+
+  if (
+    CONFIG.excludedPrefixes.some(
+      prefix => mediaPath.startsWith(prefix)
+    )
+  ) {
+    return;
   }
 
   // ------------------------------------------------------------
@@ -275,7 +292,7 @@ async function auditReference({
       line,
       mediaPath,
       details:
-        "Une référence à un world n'est pas portable dans un module.",
+        "Une référence à un world n'est pas portable dans un module."
     });
 
     return;
@@ -292,7 +309,7 @@ async function auditReference({
     const cleanPath = stripQueryAndHash(mediaPath);
 
     const relativeAssetPath = cleanPath.slice(
-      CONFIG.modulePrefix.length,
+      CONFIG.modulePrefix.length
     );
 
     let decodedRelativeAssetPath = relativeAssetPath;
@@ -307,7 +324,7 @@ async function auditReference({
 
     const localPath = path.join(
       ROOT,
-      decodedRelativeAssetPath,
+      decodedRelativeAssetPath
     );
 
     if (!await fileExists(localPath)) {
@@ -318,7 +335,7 @@ async function auditReference({
         line,
         mediaPath,
         details:
-          `Fichier local introuvable : ${relativeToRoot(localPath)}`,
+          `Fichier local introuvable : ${relativeToRoot(localPath)}`
       });
 
       return;
@@ -341,7 +358,7 @@ async function auditReference({
       line,
       mediaPath,
       details:
-        "Référence vers un autre module Foundry.",
+        "Référence vers un autre module Foundry."
     });
 
     return;
@@ -369,7 +386,7 @@ async function auditReference({
       line,
       mediaPath,
       details:
-        `Référence vers un système autre que ${CONFIG.systemId}.`,
+        `Référence vers un système autre que ${CONFIG.systemId}.`
     });
 
     return;
@@ -419,14 +436,14 @@ async function auditReference({
     line,
     mediaPath,
     details:
-      "Référence média non reconnue par la politique Warbound.",
+      "Référence média non reconnue par la politique Warbound."
   });
 }
 
 async function auditYamlFile(sourceFile) {
   const content = await fs.readFile(
     sourceFile,
-    "utf8",
+    "utf8"
   );
 
   stats.yamlFiles += 1;
@@ -442,7 +459,7 @@ async function auditYamlFile(sourceFile) {
       sourceFile,
       content,
       rawReference: match[0],
-      index: match.index,
+      index: match.index
     });
   }
 }
@@ -453,7 +470,7 @@ function countByType(items) {
   for (const item of items) {
     counts.set(
       item.type,
-      (counts.get(item.type) ?? 0) + 1,
+      (counts.get(item.type) ?? 0) + 1
     );
   }
 
@@ -467,15 +484,15 @@ function printHeader() {
   console.log("");
 
   console.log(
-    `Module.................... ${CONFIG.moduleId}`,
+    `Module.................... ${CONFIG.moduleId}`
   );
 
   console.log(
-    `Système................... ${CONFIG.systemId}`,
+    `Système................... ${CONFIG.systemId}`
   );
 
   console.log(
-    `Source YAML............... ${relativeToRoot(CONFIG.compendiumsRoot)}`,
+    `Source YAML............... ${relativeToRoot(CONFIG.compendiumsRoot)}`
   );
 
   console.log("");
@@ -483,23 +500,23 @@ function printHeader() {
 
 function printStats() {
   console.log(
-    `YAML analysés............. ${stats.yamlFiles}`,
+    `YAML analysés............. ${stats.yamlFiles}`
   );
 
   console.log(
-    `Références média.......... ${stats.references}`,
+    `Références média.......... ${stats.references}`
   );
 
   console.log(
-    `  Images.................. ${stats.byKind.image}`,
+    `  Images.................. ${stats.byKind.image}`
   );
 
   console.log(
-    `  Audio................... ${stats.byKind.audio}`,
+    `  Audio................... ${stats.byKind.audio}`
   );
 
   console.log(
-    `  Vidéo................... ${stats.byKind.video}`,
+    `  Vidéo................... ${stats.byKind.video}`
   );
 
   console.log("");
@@ -507,23 +524,23 @@ function printStats() {
   console.log("RÉFÉRENCES ACCEPTÉES");
 
   console.log(
-    `  Module Warbound......... ${stats.accepted.module}`,
+    `  Module Warbound......... ${stats.accepted.module}`
   );
 
   console.log(
-    `  Système COF2............ ${stats.accepted.systemCof2}`,
+    `  Système COF2............ ${stats.accepted.systemCof2}`
   );
 
   console.log(
-    `  Foundry Core............ ${stats.accepted.foundryCore}`,
+    `  Foundry Core............ ${stats.accepted.foundryCore}`
   );
 
   console.log(
-    `  Internet................ ${stats.accepted.remote}`,
+    `  Internet................ ${stats.accepted.remote}`
   );
 
   console.log(
-    `  Data URI................ ${stats.accepted.dataUri}`,
+    `  Data URI................ ${stats.accepted.dataUri}`
   );
 }
 
@@ -537,7 +554,7 @@ function printWarnings() {
   console.log("");
 
   console.log(
-    `WARNINGS.................. ${warnings.length}`,
+    `WARNINGS.................. ${warnings.length}`
   );
 
   for (
@@ -545,7 +562,7 @@ function printWarnings() {
     of [...counts.entries()].sort()
     ) {
     console.log(
-      `  ${type.padEnd(30, ".")} ${count}`,
+      `  ${type.padEnd(30, ".")} ${count}`
     );
   }
 
@@ -553,20 +570,20 @@ function printWarnings() {
 
   for (const warning of warnings) {
     console.warn(
-      `[WARNING:${warning.type}] ${warning.kind.toUpperCase()}`,
+      `[WARNING:${warning.type}] ${warning.kind.toUpperCase()}`
     );
 
     console.warn(
-      `${relativeToRoot(warning.sourceFile)}:${warning.line}`,
+      `${relativeToRoot(warning.sourceFile)}:${warning.line}`
     );
 
     console.warn(
-      `  ${warning.mediaPath}`,
+      `  ${warning.mediaPath}`
     );
 
     if (warning.details) {
       console.warn(
-        `  ${warning.details}`,
+        `  ${warning.details}`
       );
     }
 
@@ -584,7 +601,7 @@ function printErrors() {
   console.log("");
 
   console.log(
-    `ERREURS BLOQUANTES........ ${errors.length}`,
+    `ERREURS BLOQUANTES........ ${errors.length}`
   );
 
   for (
@@ -592,7 +609,7 @@ function printErrors() {
     of [...counts.entries()].sort()
     ) {
     console.log(
-      `  ${type.padEnd(30, ".")} ${count}`,
+      `  ${type.padEnd(30, ".")} ${count}`
     );
   }
 
@@ -600,20 +617,20 @@ function printErrors() {
 
   for (const error of errors) {
     console.error(
-      `[${error.type}] ${error.kind.toUpperCase()}`,
+      `[${error.type}] ${error.kind.toUpperCase()}`
     );
 
     console.error(
-      `${relativeToRoot(error.sourceFile)}:${error.line}`,
+      `${relativeToRoot(error.sourceFile)}:${error.line}`
     );
 
     console.error(
-      `  ${error.mediaPath}`,
+      `  ${error.mediaPath}`
     );
 
     if (error.details) {
       console.error(
-        `  ${error.details}`,
+        `  ${error.details}`
       );
     }
 
@@ -626,11 +643,11 @@ async function main() {
 
   if (!await fileExists(CONFIG.compendiumsRoot)) {
     console.error(
-      `❌ Répertoire YAML introuvable : ${relativeToRoot(CONFIG.compendiumsRoot)}`,
+      `❌ Répertoire YAML introuvable : ${relativeToRoot(CONFIG.compendiumsRoot)}`
     );
 
     console.error(
-      "Exécute d'abord pushLDBtoYAML ou vérifie CONFIG.compendiumsRoot.",
+      "Exécute d'abord pushLDBtoYAML ou vérifie CONFIG.compendiumsRoot."
     );
 
     process.exitCode = 2;
@@ -639,7 +656,7 @@ async function main() {
   }
 
   const yamlFiles = await walkYamlFiles(
-    CONFIG.compendiumsRoot,
+    CONFIG.compendiumsRoot
   );
 
   for (const yamlFile of yamlFiles) {
@@ -655,11 +672,11 @@ async function main() {
   // Seules les références worlds/... bloquent le build.
   if (errors.length > 0) {
     console.error(
-      `❌ AUDIT FAILED — ${errors.length} référence(s) worlds/... à corriger.`,
+      `❌ AUDIT FAILED — ${errors.length} référence(s) worlds/... à corriger.`
     );
 
     console.error(
-      "Le module ne doit dépendre d'aucun média stocké dans un world Foundry.",
+      "Le module ne doit dépendre d'aucun média stocké dans un world Foundry."
     );
 
     process.exitCode = 1;
@@ -669,14 +686,14 @@ async function main() {
 
   if (warnings.length > 0) {
     console.log(
-      `✅ AUDIT OK AVEC WARNINGS — ${warnings.length} avertissement(s), aucun blocage.`,
+      `✅ AUDIT OK AVEC WARNINGS — ${warnings.length} avertissement(s), aucun blocage.`
     );
 
     return;
   }
 
   console.log(
-    "✅ AUDIT OK — aucune référence world détectée.",
+    "✅ AUDIT OK — aucune référence world détectée."
   );
 }
 
