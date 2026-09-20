@@ -1,5 +1,5 @@
-2026/09/20-14:46:53.968171 16fc77000 Delete type=3 #1
-2026/09/20-14:46:53.971779 16fd03000 Level-0 table #5: started
-2026/09/20-14:46:53.973540 16fd03000 Level-0 table #5: 8190 bytes OK
-2026/09/20-14:46:53.973660 16fd03000 Delete type=0 #3
-2026/09/20-14:46:53.973874 16fd03000 Manual compaction at level-0 from '!folders!VBMvmB8bmcu5YOsE' @ 72057594037927935 : 1 .. '!scenes.tokens!uzphzarC0uT2jRX9.xprTBXCmNryn5SIn' @ 0 : 0; will stop at (end)
+2026/09/20-15:04:34.316150 16eea3000 Delete type=3 #1
+2026/09/20-15:04:34.320334 16f73b000 Level-0 table #5: started
+2026/09/20-15:04:34.321332 16f73b000 Level-0 table #5: 8190 bytes OK
+2026/09/20-15:04:34.321485 16f73b000 Delete type=0 #3
+2026/09/20-15:04:34.321682 16f73b000 Manual compaction at level-0 from '!folders!VBMvmB8bmcu5YOsE' @ 72057594037927935 : 1 .. '!scenes.tokens!uzphzarC0uT2jRX9.xprTBXCmNryn5SIn' @ 0 : 0; will stop at (end)
