@@ -1,0 +1,5983 @@
+name: Au Nom de la Horde
+img: worlds/au-nom-de-la-horde-cof2/assets/images/illustrations/cof2-banner-image-au-nom-de-la-horde.png
+caption: >-
+  Durotar est une terre rude, mais c’est désormais la nôtre. Routes, villages et
+  avant-postes bâtissent l’avenir de la Horde… tandis que, sous la poussière
+  rouge, quelque chose commence à se fissurer.
+description: >-
+  <blockquote><p>Depuis <strong>Tranchecolline</strong>, routes, convois et
+  avant-postes maintiennent tant bien que mal ce jeune territoire. Au sud, les
+  Trolls Sombrelance reconstruisent leur avenir. Sur les frontières, Centaures,
+  Hurans, soldats humains et créatures sauvages rappellent que rien ici n’est
+  véritablement acquis.</p><p>Vous n’êtes pas encore des héros. Vous êtes ceux
+  que l’on envoie lorsque quelque chose ne tourne pas rond : un convoi disparu,
+  une patrouille qui ne revient pas, des traces étranges dans les ravins, des
+  rumeurs venues des profondeurs…</p><p>Certaines histoires vous sembleront
+  familières. Certains lieux réveilleront des souvenirs.</p><p><strong>Mais
+  Azeroth n’est plus un jeu vidéo.</strong></p><p>Ici, les ennemis peuvent
+  parler. Les quêtes peuvent être refusées. Les problèmes ont rarement une seule
+  solution. Et vos décisions laisseront des traces.</p><p><strong>Bienvenue en
+  Durotar.</strong></p><p><strong>Pour la Horde !</strong></p></blockquote>
+actors:
+  - name: Personnage joueur
+    type: character
+    _id: vZ85XbeOu8dHT6QH
+    img: modules/warbound-campaign-content/assets/ui/actor-default.png
+    system:
+      abilities:
+        con:
+          bonuses:
+            sheet: 0
+            effects: 0
+          superior: false
+          base: 0
+        int:
+          bonuses:
+            sheet: 0
+            effects: 0
+          superior: false
+          base: 0
+        cha:
+          bonuses:
+            sheet: 0
+            effects: 0
+          superior: false
+          base: 0
+        agi:
+          superior: false
+          base: 0
+          bonuses:
+            sheet: 0
+            effects: 0
+        for:
+          superior: false
+          base: 0
+          bonuses:
+            sheet: 0
+            effects: 0
+        per:
+          superior: false
+          base: 0
+          bonuses:
+            sheet: 0
+            effects: 0
+        vol:
+          superior: false
+          base: 0
+          bonuses:
+            sheet: 0
+            effects: 0
+      attributes:
+        movement:
+          base: 0
+          ability: null
+          details: null
+          unit: null
+          min: null
+          max: null
+          bonuses:
+            sheet: 0
+            effects: 0
+        hp:
+          max: 0
+          temp: 0
+          tempmax: 0
+          value: 0
+          bonuses:
+            sheet: 0
+            effects: 0
+          base: 0
+        level: 1
+        encumbrance:
+          value: 0
+          encumbered: false
+        xp:
+          max: 0
+        recovery:
+          dice: ''
+        tempDm: 0
+      details:
+        biography:
+          public: ''
+          private: ''
+        appearance:
+          private: ''
+          public: ''
+        notes:
+          private: ''
+          public: ''
+        size: medium
+        languages: []
+      resources:
+        fortune:
+          base: 0
+          ability: cha
+          bonuses:
+            sheet: 0
+            effects: 0
+          details: null
+          unit: null
+          min: null
+          max: null
+        recovery:
+          base: 0
+          ability: con
+          bonuses:
+            sheet: 0
+            effects: 0
+          details: null
+          unit: null
+          min: null
+          max: null
+        mana:
+          base: 0
+          ability: vol
+          bonuses:
+            sheet: 0
+            effects: 0
+          details: null
+          unit: null
+          min: null
+          max: null
+      currentEffects: []
+      combat:
+        init:
+          base: 0
+          ability: per
+          bonuses:
+            sheet: 0
+            effects: 0
+          details: null
+          unit: null
+          min: null
+          max: null
+        def:
+          base: 0
+          ability: agi
+          bonuses:
+            sheet: 0
+            effects: 0
+          details: null
+          unit: null
+          min: null
+          max: null
+        melee:
+          base: 0
+          ability: for
+          bonuses:
+            sheet: 0
+            effects: 0
+          details: null
+          unit: null
+          min: null
+          max: null
+        ranged:
+          base: 0
+          ability: agi
+          bonuses:
+            sheet: 0
+            effects: 0
+          details: null
+          unit: null
+          min: null
+          max: null
+        magic:
+          base: 0
+          ability: vol
+          bonuses:
+            sheet: 0
+            effects: 0
+          details: null
+          unit: null
+          min: null
+          max: null
+        crit:
+          base: 0
+          ability: ''
+          bonuses:
+            sheet: 0
+            effects: 0
+          details: null
+          unit: null
+          min: null
+          max: null
+        dr:
+          base: 0
+          ability: ''
+          bonuses:
+            sheet: 0
+            effects: 0
+          details: null
+          unit: null
+          min: null
+          max: null
+      wealth:
+        gp:
+          value: 0
+        sp:
+          value: 0
+        cp:
+          value: 0
+      oldDistanceView: 0
+      otherCapacitiesPointsSpent: 0
+      companions: []
+    prototypeToken:
+      name: Personnage joueur
+      displayName: 0
+      actorLink: true
+      width: 1
+      height: 1
+      depth: 1
+      texture:
+        src: systems/dnd5e/icons/svg/actors/character.svg
+        anchorX: 0.5
+        anchorY: 0.5
+        fit: contain
+        scaleX: 1
+        scaleY: 1
+        tint: '#ffffff'
+        alphaThreshold: 0.75
+      lockRotation: false
+      rotation: 0
+      alpha: 1
+      disposition: 1
+      displayBars: 0
+      bar1:
+        attribute: attributes.hp
+      bar2:
+        attribute: null
+      light:
+        negative: false
+        priority: 0
+        alpha: 0.5
+        angle: 360
+        bright: 0
+        color: null
+        coloration: 1
+        dim: 0
+        attenuation: 0.5
+        luminosity: 0.5
+        saturation: 0
+        contrast: 0
+        shadows: 0
+        animation:
+          type: null
+          speed: 5
+          intensity: 5
+          reverse: false
+        darkness:
+          min: 0
+          max: 1
+      sight:
+        enabled: true
+        range: 0
+        angle: 360
+        visionMode: basic
+        color: null
+        attenuation: 0.1
+        brightness: 0
+        saturation: 0
+        contrast: 0
+      detectionModes: {}
+      occludable:
+        radius: 0
+      ring:
+        enabled: false
+        colors:
+          ring: null
+          background: null
+        effects: 1
+        subject:
+          scale: 1
+          texture: null
+      turnMarker:
+        mode: 1
+        animation: null
+        src: null
+        disposition: false
+      movementAction: null
+      flags: {}
+      randomImg: false
+      appendNumber: false
+      prependAdjective: false
+    items:
+      - name: Mains nues
+        type: equipment
+        img: icons/skills/melee/unarmed-punch-fist.webp
+        _id: bwUmODTqsTqPbRr9
+        system:
+          description: >-
+            <p>Dans le cas du combat à mains nues, les DM sont généralement
+            temporaires, sauf pour les moines</p>
+          source: ''
+          origin: ''
+          slug: mains-nues
+          tags:
+            - dmtemporaires
+          subtype: weapon
+          martialCategory: unarmed
+          quantity:
+            current: 1
+            max: 1
+            destroyIfEmpty: false
+          charges:
+            current: null
+            max: null
+            destroyIfEmpty: false
+          weight:
+            value: 0
+            unit: kg
+          price:
+            value: 0
+            unit: ''
+          rarity: common
+          equipped: false
+          properties:
+            equipable: true
+            reloadable: false
+            stackable: false
+          usage:
+            oneHand: false
+            twoHand: false
+          actions:
+            - source: Compendium.cof2-base.cof-2-base-items.Item.bwUmODTqsTqPbRr9
+              indice: 0
+              label: ''
+              chatFlavor: ''
+              img: icons/svg/d20-highlight.svg
+              type: melee
+              actionType: a
+              properties:
+                visible: false
+                enabled: false
+                activable: true
+                temporary: false
+                noManaCost: false
+                noChargesUsed: false
+              conditions:
+                - predicate: isEquipped
+              resolvers:
+                - type: attack
+                  bonusDiceAdd: false
+                  malusDiceAdd: false
+                  skill:
+                    formula: '@atc'
+                    crit: ''
+                    difficulty: '@cible.def'
+                  dmg:
+                    formula: 1d3 + @for
+                  target:
+                    type: none
+                    number: '0'
+                    scope: all
+                  additionalEffect:
+                    active: false
+                    applyOn: success
+                    statuses: []
+                    duration: '0'
+                    unit: round
+                  halfDmgOnSave: true
+                  hasAttackSuccessThreshold: false
+              modifiers: []
+          damagetype: impact
+          range:
+            unit: ''
+            base: 0
+            ability: null
+            details: null
+            min: null
+            max: null
+            bonuses:
+              sheet: 0
+              effects: 0
+          gmNotes: ''
+          container: null
+        effects: []
+        flags: {}
+        _stats:
+          compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.bwUmODTqsTqPbRr9
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          duplicateSource: null
+          exportSource: null
+        ownership:
+          default: 0
+          TjbWhMczNyKieD8D: 3
+        folder: null
+        sort: 0
+      - name: Soutenir
+        type: capacity
+        img: icons/skills/social/diplomacy-handshake-yellow.webp
+        _id: 0PawJrcH7daQ8RoJ
+        system:
+          description: >-
+            <p style="text-align:justify">Sacrifiez toutes vos actions pour
+            donner +5 en attaque au contact à un allié lors de sa prochaine
+            attaque contre la créature désignée. Pour soutenir, vous devez être
+            au contact de la créature désignée et cela compte comme une action
+            offensive. Le bonus ne dure pas plus d’un round (jusqu’au tour du
+            personnage, au round suivant).</p>
+          inGame: >-
+            <p>Ciblez l'acteur désigné et cliquez sur l'action pour lui accorder
+            un effet temporaire de +5 en attaque de contact pour 1 round.</p>
+          source: page 216 du livre des règles
+          slug: soutenir
+          subtype: ''
+          actionType: l
+          learned: true
+          rank: 0
+          frequency: none
+          charges:
+            current: 0
+            max: 0
+          properties:
+            spell: false
+          path: null
+          cost: 0
+          manaCost: -1
+          actions:
+            - source: Compendium.cof2-base.cof-2-base-items.Item.0PawJrcH7daQ8RoJ
+              indice: 0
+              label: ''
+              chatFlavor: ''
+              type: buff
+              img: icons/svg/d20-highlight.svg
+              properties:
+                visible: false
+                enabled: false
+                activable: true
+                temporary: false
+                noManaCost: false
+                noChargesUsed: false
+              conditions:
+                - predicate: isOwned
+              modifiers:
+                - type: capacity
+                  source: Compendium.cof2-base.cof-2-base-items.Item.0PawJrcH7daQ8RoJ
+                  subtype: combat
+                  target: melee
+                  apply: others
+                  value: '5'
+                  additionalInfos: ''
+                  choiceGroup: 0
+              resolvers:
+                - type: buffDebuff
+                  bonusDiceAdd: false
+                  malusDiceAdd: false
+                  target:
+                    type: single
+                    scope: all
+                    number: '0'
+                  additionalEffect:
+                    active: true
+                    applyOn: always
+                    formulaType: damage
+                    formula: ''
+                    elementType: ''
+                    statuses: []
+                    duration: '1'
+                    unit: round
+                    successThreshold: null
+                  skill: {}
+                  dmg: {}
+                  halfDmgOnSave: true
+                  hasAttackSuccessThreshold: false
+              actionType: none
+          allowLinkedCapacity: false
+          linkedCapacity: null
+          parentCapacity: null
+          origin: ''
+          gmNotes: ''
+        effects: []
+        flags: {}
+        _stats:
+          compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.0PawJrcH7daQ8RoJ
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          duplicateSource: null
+          exportSource: null
+        ownership:
+          default: 0
+          TjbWhMczNyKieD8D: 3
+        folder: null
+        sort: 0
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+combats: []
+items: []
+journal:
+  - name: Atelier de maintenance
+    flags:
+      campaign-codex:
+        type: shop
+        data:
+          description: ''
+          linkedNPCs: []
+          linkedLocation: JournalEntry.3804DaSpkWC1bBzY
+          inventory: []
+          linkedScene: null
+          markup: 1
+          notes: ''
+          inventoryCacheVersion: 1
+        contentStorageVersion: 1
+        contentPages:
+          info: GGbghqt1yGgvfs9b
+          notes: gqPOxieAK8uQcQeI
+        image: worlds/au-nom-de-la-horde/assets/images/illustrations/durotar/mine-roche-seche/coa-mrs-atelier-de-maintenance.png
+      core:
+        sheetClass: campaign-codex.ShopSheet
+    pages:
+      - name: Information
+        type: text
+        sort: 100000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: ''
+        ownership:
+          default: -1
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: info
+        _id: GGbghqt1yGgvfs9b
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - name: GM Notes
+        type: text
+        sort: 200000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: ''
+        ownership:
+          default: 0
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: notes
+        _id: gqPOxieAK8uQcQeI
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+    _id: bzV9oL5tRh3kltDB
+    folder: lLJCHw56zfuvcGU2
+    categories: []
+    sort: 100000
+    ownership:
+      default: 0
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+  - folder: rRMz6Fz3s0DtlvRh
+    name: Brazzik Main-Froide
+    flags:
+      campaign-codex:
+        type: npc
+        contentStorageVersion: 1
+        contentPages:
+          info: ju3WSb8f26VKbkdA
+          notes: CxB5UMCGnHo6Skpy
+        image: worlds/au-nom-de-la-horde/assets/images/avatar/coa-brazzik_main-froide_avatar.png
+        data:
+          linkedActor: Actor.59xA0uozsrB4lOvv
+          sheetTypeLabelOverride: 'Journal : PNJ'
+      core:
+        sheetClass: campaign-codex.NPCSheet
+    _id: voJMX53irkFlHgVT
+    pages:
+      - name: GM Notes
+        type: text
+        sort: 200000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: ''
+        ownership:
+          default: 0
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: notes
+        _id: CxB5UMCGnHo6Skpy
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - name: Information
+        type: text
+        sort: 100000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: ''
+        ownership:
+          default: -1
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: info
+        _id: ju3WSb8f26VKbkdA
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+    categories: []
+    sort: 0
+    ownership:
+      default: 0
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+  - name: Bureau du contremaître
+    flags:
+      campaign-codex:
+        type: shop
+        data:
+          description: ''
+          linkedNPCs: []
+          linkedLocation: JournalEntry.3804DaSpkWC1bBzY
+          inventory: []
+          linkedScene: null
+          markup: 1
+          notes: ''
+          inventoryCacheVersion: 1
+        contentStorageVersion: 1
+        contentPages:
+          info: NO1hNkePDlfbG3O3
+          notes: 6yLpEfyMtZs39vSQ
+        image: worlds/au-nom-de-la-horde/assets/images/illustrations/durotar/mine-roche-seche/coa-mrs-bureau.png
+      core:
+        sheetClass: campaign-codex.ShopSheet
+    pages:
+      - name: Information
+        type: text
+        sort: 100000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: ''
+        ownership:
+          default: -1
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: info
+        _id: NO1hNkePDlfbG3O3
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - name: GM Notes
+        type: text
+        sort: 200000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: ''
+        ownership:
+          default: 0
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: notes
+        _id: 6yLpEfyMtZs39vSQ
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+    _id: jZxTxGzSfYVShzqW
+    folder: lLJCHw56zfuvcGU2
+    categories: []
+    sort: 200000
+    ownership:
+      default: 0
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+  - folder: bBPH69TCvmfaHfFN
+    name: Cartel de Baille-Fonds
+    flags:
+      campaign-codex:
+        type: tag
+        contentStorageVersion: 1
+        contentPages:
+          info: Dp63A8kVKw19arg8
+          notes: Ykdu5iqsKNwwdSBG
+        sheet-widgets:
+          - id: 3jpreUM3z93gInf8
+            widgetName: Progress Clock
+            counter: 1
+            active: true
+            tab: info
+          - id: e6BXwubgloSAdKLn
+            widgetName: Relationship Tracker Scale
+            counter: 1
+            active: true
+            tab: widgets
+        data:
+          widgets:
+            progressclock:
+              3jpreUM3z93gInf8:
+                max: 6
+                current: 0
+                title: Récupérer le Dérivateur Sismique
+            relationshiptrackerscale:
+              e6BXwubgloSAdKLn:
+                relationships:
+                  - uuid: Actor.vZ85XbeOu8dHT6QH
+                    value: 0
+                    name: Personnage joueur
+                    img: systems/dnd5e/icons/svg/actors/character.svg
+        image: worlds/au-nom-de-la-horde/assets/images/icons/factions/coa-icone-faction-cartel_baille-fonds.png
+      core:
+        sheetClass: campaign-codex.TagSheet
+    _id: sTry2ekVrtg71TQo
+    pages:
+      - name: Information
+        type: text
+        sort: 100000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: >-
+            <h2 data-heading="Statut">Statut</h2><p>Active, corporatiste,
+            impitoyablement expansionniste. Actuellement en mode "Opérations
+            spéciales et recouvrement" en Durotar et aux Tarides.</p><h2
+            data-heading="Fonction dans la campagne">Fonction dans la
+            campagne</h2><p>Le Cartel agit comme un <strong>antagoniste tiers et
+            un perturbateur</strong>. Ils ne sont pas le méchant principal (le
+            Cercle), mais une épine dans le pied de tout le monde. Leur avidité
+            et leur technologie avancée ajoutent une pression constante. Ils
+            sont la raison pour laquelle la quête de Mâche-Roc est une "bombe à
+            retardement".</p><h2 data-heading="Ce que la faction veut">Ce que la
+            faction veut</h2><p>Dans l'absolu : l'exploitation totale des
+            ressources d'Azeroth, sans considération pour la nature, la
+            politique ou la vie.<br><strong>Dans l'immédiat :</strong> Retrouver
+            leur ancien ingénieur en chef, <strong>Brazzik Main-Froide</strong>,
+            et récupérer le prototype volé du Dérivateur Sismique caché dans
+            Mâche-Roc. Le "brevet" vaut des millions, l'arme elle-même vaut des
+            empires.</p><h2 data-heading="Ce qu'elle fait déjà">Ce qu'elle fait
+            déjà</h2><ul><li><p><strong>Infiltration :</strong> Des chasseurs de
+            primes et des espions mercenaires à la solde du Cartel traînent dans
+            les tavernes de Cabestan, posant des questions insistantes (et
+            distribuant des pots-de-vin) au sujet d'un "gobelin aux mains
+            propres".</p></li><li><p><strong>Reconnaissance :</strong> De petits
+            drones d'observation rudimentaires survolent discrètement les ravins
+            rocheux de Durotar à la recherche des traces thermiques spécifiques
+            de la foreuse.</p></li></ul><h2 data-heading="Moyens
+            disponibles">Moyens disponibles</h2><ul><li><p><strong>Capital
+            écrasant :</strong> Le Cartel peut acheter la loyauté de n'importe
+            quel bandit local.</p></li><li><p><strong>Mercenaires :</strong>
+            Ruffians, cogneurs orcs, et snipers gobelins lourdement armés
+            (déchiqueteurs, pistolets à silex
+            perfectionnés).</p></li><li><p><strong>Technologie :</strong> Outils
+            de pistage, explosifs, et gadgets de communication à
+            distance.</p></li></ul><h2 data-heading="Limites et
+            vulnérabilités">Limites et
+            vulnérabilités</h2><ul><li><p><strong>Diplomatie inexistante
+            :</strong> Le Cartel est hostile envers la Horde et l'Alliance. Ils
+            ne peuvent pas agir au grand jour près d'Orgrimmar sans déclencher
+            une réponse militaire foudroyante.</p></li><li><p><strong>Arrogance
+            :</strong> Les superviseurs du Cartel sous-estiment systématiquement
+            leurs opposants, les considérant comme de la main d'œuvre non
+            qualifiée ou des sauvages.</p></li><li><p><strong>Manque de loyauté
+            interne :</strong> Leurs agents travaillent pour l'or. Si la
+            situation devient mortelle ou si quelqu'un paie mieux, ils fuiront
+            ou trahiront.</p></li></ul><h2 data-heading="Ce qu'elle sait /
+            ignore / croit">Ce qu'elle sait / ignore /
+            croit</h2><ul><li><p><strong>Elle sait</strong> que Brazzik a caché
+            le Dérivateur Sismique dans le châssis d'une foreuse nommée
+            Mâche-Roc.</p></li><li><p><strong>Elle sait</strong> que la machine
+            était récemment à la Mine de
+            Roche-Sèche.</p></li><li><p><strong>Elle ignore</strong> que
+            Mâche-Roc a été réquisitionnée par Orgrimmar ET qu'elle a été volée
+            par le Cercle de la Pierre Brisée.</p></li><li><p><strong>Elle
+            croit</strong> que Brazzik agit seul pour revendre l'arme au plus
+            offrant, alors qu'il veut en réalité la mettre hors d'état de
+            nuire.</p></li></ul><h2 data-heading="Relations avec les autres
+            factions">Relations avec les autres
+            factions</h2><ul><li><p><strong>La Horde :</strong> Cible
+            d'exploitation et obstacle militaire. Hostilité
+            ouverte.</p></li><li><p><strong>Cartel Gentepression (Steamwheedle)
+            :</strong> Concurrents méprisés. Le Cartel Baille-Fonds les trouve
+            trop politisés et frileux.</p></li><li><p><strong>Le Cercle de la
+            Pierre Brisée :</strong> Inconnus. Si le Cartel apprend que le
+            Cercle détient l'arme, ils déploieront un escadron de la mort pour
+            les éliminer.</p></li></ul><h2 data-heading="Réactions aux
+            PJ">Réactions aux PJ</h2><ul><li><p><strong>Approche mercantile
+            (Tromperie) :</strong> S'ils apprennent que les PJ cherchent
+            Mâche-Roc, les agents du Cartel peuvent se faire passer pour des
+            "représentants légaux" de Baille-Fonds réclamant la machine pour
+            défaut de paiement.</p></li><li><p><strong>Violence froide
+            :</strong> Si les PJ ont le Dérivateur Sismique ou savent où il est,
+            le Cartel emploiera la force létale sans sommation, ciblant les plus
+            faibles d'abord.</p></li></ul><h2 data-heading="Horloge de
+            faction">Horloge de faction</h2><p><strong>Objectif : "Récupérer le
+            Dérivateur Sismique" (6 segments)</strong></p><ol><li><p>Un
+            informateur repère Brazzik à Cabestan.</p></li><li><p>Le Cartel
+            découvre le vol de Mâche-Roc par une "troisième
+            faction".</p></li><li><p>Des mercenaires Baille-Fonds tendent une
+            embuscade sur une route de Durotar pour interroger des
+            témoins.</p></li><li><p>L'escouade d'élite "Les Huissiers" est
+            déployée secrètement en Durotar.</p></li><li><p>Le Cartel attaque la
+            planque du Cercle de la Pierre Brisée ou des
+            PJ.</p></li><li><p><strong>Le Dérivateur est récupéré.</strong> (Le
+            Cartel quitte Durotar, s'apprêtant à tester l'arme sur une ville
+            mineure, déclenchant une crise majeure).</p></li></ol><h2
+            data-heading="PNJ représentatifs">PNJ
+            représentatifs</h2><ul><li><p><strong>Snikk "Double-Facture"
+            :</strong> Un superviseur gobelin impitoyable, vêtu d'un manteau
+            trop grand, qui dirige les opérations de recherche en Durotar. Lâche
+            au corps à corps, mais protégé par des
+            brutes.</p></li><li><p><strong>Grash la Tenaille :</strong> Un
+            mercenaire orc lourdement cybernétisé, payé par Snikk pour faire le
+            sale boulot.</p></li></ul><h2 data-heading="Utilisation en
+            table">Utilisation en table</h2><p>Utilisez le Cartel Baille-Fonds
+            pour <strong>complexifier une scène</strong>. S'il y a une fusillade
+            entre les PJ et le Cercle de la Pierre Brisée, faites intervenir un
+            troisième groupe (les mercenaires du Cartel) qui veut voler l'objet
+            et tirer sur tout le monde. Ils sont d'excellents éléments
+            perturbateurs.</p><h2 data-heading="Notes de validation lore et
+            continuité">Notes de validation lore et
+            continuité</h2><ul><li><p>Cette faction respecte l'histoire
+            officielle du Cartel Baille-Fonds dans WoW (Venture Company) tout en
+            s'adaptant à l'intrigue spécifique de Mâche-Roc (GDR-022 et
+            GDR-009).</p></li><li><p>Il n'y a pas d'omniscience : l'horloge de
+            faction représente leurs efforts actifs
+            d'investigation.</p></li></ul>
+        ownership:
+          default: -1
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: info
+        _id: Dp63A8kVKw19arg8
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - name: GM Notes
+        type: text
+        sort: 200000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: ''
+        ownership:
+          default: 0
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: notes
+        _id: Ykdu5iqsKNwwdSBG
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+    categories: []
+    sort: 0
+    ownership:
+      default: 0
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+  - name: Coupe-Sangle - Journal
+    flags:
+      campaign-codex:
+        type: npc
+        data:
+          linkedActor: Actor.gK4nLAqFGEhcExWl
+          description: ''
+          linkedLocations: []
+          linkedShops:
+            - JournalEntry.CGTq9fPzdD50Sw5y
+          associates: []
+          notes: ''
+          tagMode: false
+        contentStorageVersion: 1
+        contentPages:
+          info: qXSSdz1b8WRors5E
+          notes: Ee63J70pkE37HeUe
+      core:
+        sheetClass: campaign-codex.NPCSheet
+    pages:
+      - name: Information
+        type: text
+        sort: 100000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: ''
+        ownership:
+          default: -1
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: info
+        _id: qXSSdz1b8WRors5E
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - name: GM Notes
+        type: text
+        sort: 200000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: ''
+        ownership:
+          default: 0
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: notes
+        _id: Ee63J70pkE37HeUe
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+    _id: C8cRNTPAIDHeSljG
+    folder: Y6crXMhIOMT8WeP1
+    categories: []
+    sort: 0
+    ownership:
+      default: 0
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+  - folder: 8qMnyaXOcCBjJuHR
+    name: Dorga Tire-rene
+    flags:
+      campaign-codex:
+        type: npc
+        contentStorageVersion: 1
+        contentPages:
+          info: Mt6jU9zHgogbFXFb
+          notes: DycM6JtCiVlrFJb7
+        image: worlds/au-nom-de-la-horde/assets/images/avatar/orcs/convoi/coa-dorga-tire-rene-avatar.png
+        data:
+          linkedActor: Actor.0EGDjh6P90ClokR2
+          linkedLocations:
+            - JournalEntry.3804DaSpkWC1bBzY
+            - JournalEntry.7tGmUEcyGu1BeheM
+            - JournalEntry.idQ0pKSXB1APj1FT
+          linkedQuests:
+            - JournalEntry.NU5IW9hOrz0lfDlu
+          associates:
+            - JournalEntry.yWqSuSmq7d7CyDlu
+      core:
+        sheetClass: campaign-codex.NPCSheet
+    _id: sf5Pe66qDG1iZWoF
+    pages:
+      - name: GM Notes
+        type: text
+        sort: 200000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: ''
+        ownership:
+          default: 0
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: notes
+        _id: DycM6JtCiVlrFJb7
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - name: Information
+        type: text
+        sort: 100000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: ''
+        ownership:
+          default: -1
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: info
+        _id: Mt6jU9zHgogbFXFb
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+    categories: []
+    sort: 0
+    ownership:
+      default: 0
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+  - _id: 16b7eb16efab8226
+    name: Durotar
+    folder: 597f761006633d7f
+    pages:
+      - _id: c27c85bb2e09710f
+        name: Durotar
+        type: text
+        text:
+          content: >-
+            <p><strong>Durotar</strong> est une région aride et rocailleuse
+            située sur la côte est de
+            <strong>@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.cb28ce8ef3d17087.JournalEntryPage.d26977c697af601a]{Kalimdor}</strong>.
+            Nommée en l'honneur du père de Thrall, cette terre de terre rouge,
+            de canyons brûlés par le soleil et de poussière a été choisie par la
+            nouvelle Horde comme terre d'accueil. Malgré son climat rude et les
+            dangers immédiats (scorpides géants, hurans, centaures), les
+            pionniers y construisent infatigablement leur nation. C'est une
+            région de frontière, rude mais pleine d'opportunités, centrée autour
+            des premières fondations d'Orgrimmar et du carrefour névralgique de
+            <strong>@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.accdb729c105149f.JournalEntryPage.7c145456209029db]{Tranchecolline}</strong>.</p>
+
+            <p><img
+            src="/worlds/au-nom-de-la-horde/vaults-cache/vault-coa-7e7c5ff7/static/Images/Illustrations/durotar.webp?v=2e9afecb7cee"
+            alt="durotar.webp" width="700"></p>
+          format: 1
+        sort: 100000
+        flags:
+          vaults:
+            vaultId: vault-coa-7e7c5ff7
+            path: Regions/Durotar/Durotar.md
+        system: {}
+        title:
+          show: true
+          level: 1
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - _id: 752a031910fdcd36
+        name: Durotar
+        type: text
+        text:
+          content: |-
+            <h2 id="pages">Pages</h2>
+            <div class="bases-block">
+              <div class="bases-caption">Contents</div>
+              <div class="bases-toolbar">
+                <input type="search" class="bases-filter" placeholder="Filter…" aria-label="Filter table">
+                <span class="bases-count" data-total="1">1 row</span>
+              </div>
+              <div class="bases-scroll">
+                <table class="bases-table">
+                  <thead><tr><th data-col="0" tabindex="0">Name</th><th data-col="1" tabindex="0">Mtime</th></tr></thead>
+                  <tbody><tr data-row="0"><td data-raw="Durotar">@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.16b7eb16efab8226.JournalEntryPage.c27c85bb2e09710f]{Durotar}</td><td data-raw="1787749686000">2026-08-26</td></tr></tbody>
+                </table>
+              </div>
+            </div>
+          format: 1
+        sort: 0
+        flags:
+          vaults:
+            vaultId: vault-coa-7e7c5ff7
+            path: Regions/Durotar/index.md
+        system: {}
+        title:
+          show: true
+          level: 1
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+    flags:
+      vaults:
+        vaultId: vault-coa-7e7c5ff7
+        path: Regions/Durotar/index.md
+    categories: []
+    ownership:
+      default: 0
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.16b7eb16efab8226
+      duplicateSource: null
+      exportSource: null
+    sort: 100000
+  - folder: MRMbQgtd3gk5THjs
+    name: Durotar
+    flags:
+      campaign-codex:
+        type: region
+        contentStorageVersion: 1
+        contentPages:
+          info: ODfGYevfYhyQCsrx
+          notes: KtuXVM8fUrlWPt1t
+        data:
+          linkedLocations:
+            - JournalEntry.3804DaSpkWC1bBzY
+            - JournalEntry.7tGmUEcyGu1BeheM
+          linkedNPCs:
+            - JournalEntry.z5gIqN6n4XVkj1dq
+            - JournalEntry.sf5Pe66qDG1iZWoF
+        image: worlds/au-nom-de-la-horde/assets/images/illustrations/coa-illustration-durotar.png
+      core:
+        sheetClass: campaign-codex.RegionSheet
+    _id: idQ0pKSXB1APj1FT
+    pages:
+      - name: Information
+        type: text
+        sort: 100000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: ''
+        ownership:
+          default: -1
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: info
+        _id: ODfGYevfYhyQCsrx
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - name: GM Notes
+        type: text
+        sort: 200000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: ''
+        ownership:
+          default: 0
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: notes
+        _id: KtuXVM8fUrlWPt1t
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+    categories: []
+    sort: 0
+    ownership:
+      default: 0
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+  - folder: TQmniw946i6UEp4j
+    name: Embuscade Kolkar
+    flags:
+      campaign-codex:
+        type: shop
+        contentStorageVersion: 1
+        contentPages:
+          info: 9TjeJG2g7f5G0pwF
+          notes: PLG6SPi1r9s6Jqgy
+        data:
+          linkedScene: Scene.uzphzarC0uT2jRX9
+          linkedNPCs:
+            - JournalEntry.C8cRNTPAIDHeSljG
+            - JournalEntry.9C9HgEGoer4yVqIk
+            - JournalEntry.n1ggWpbrsICCIKnH
+            - JournalEntry.2VYfjF8ghjZcUQkR
+          linkedQuests:
+            - JournalEntry.NU5IW9hOrz0lfDlu
+          tags:
+            - sc1
+            - durotar
+        image: worlds/au-nom-de-la-horde/assets/images/illustrations/durotar/coa-embuscade-kolkar-illustration.png
+      core:
+        sheetClass: campaign-codex.ShopSheet
+    _id: CGTq9fPzdD50Sw5y
+    pages:
+      - name: Information
+        type: text
+        sort: 100000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: ''
+        ownership:
+          default: -1
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: info
+        _id: 9TjeJG2g7f5G0pwF
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - name: GM Notes
+        type: text
+        sort: 200000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: ''
+        ownership:
+          default: 0
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: notes
+        _id: PLG6SPi1r9s6Jqgy
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+    categories: []
+    sort: 0
+    ownership:
+      default: 0
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+  - name: Entreprot
+    flags:
+      campaign-codex:
+        type: shop
+        data:
+          description: ''
+          linkedNPCs: []
+          linkedLocation: JournalEntry.3804DaSpkWC1bBzY
+          inventory: []
+          linkedScene: null
+          markup: 1
+          notes: ''
+          inventoryCacheVersion: 1
+        contentStorageVersion: 1
+        contentPages:
+          info: XUZrkjvKXzfIh02c
+          notes: WC8KF9zvyOLStgxC
+        image: worlds/au-nom-de-la-horde/assets/images/illustrations/durotar/mine-roche-seche/coa-mrs-entrepot.png
+      core:
+        sheetClass: campaign-codex.ShopSheet
+    pages:
+      - name: Information
+        type: text
+        sort: 100000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: ''
+        ownership:
+          default: -1
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: info
+        _id: XUZrkjvKXzfIh02c
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - name: GM Notes
+        type: text
+        sort: 200000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: ''
+        ownership:
+          default: 0
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: notes
+        _id: WC8KF9zvyOLStgxC
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+    _id: n75Xcv653wrDMhRK
+    folder: lLJCHw56zfuvcGU2
+    categories: []
+    sort: 300000
+    ownership:
+      default: 0
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+  - name: Escorte de Convoi
+    flags:
+      campaign-codex:
+        type: quest
+        data:
+          description: ''
+          notes: ''
+          quests:
+            - id: oKIBTzhZcCpwLYSS
+              title: Escorte de Mâche-Roc
+              description: ''
+              inactive: false
+              completed: false
+              failed: false
+              visible: false
+              pinned: true
+              hideRewards: false
+              notifyPlayers: true
+              messageOnCompleted: true
+              urgency: high
+              boardColumn: active
+              questGiverUuid: JournalEntry.z5gIqN6n4XVkj1dq
+              relatedUuids:
+                - JournalEntry.3804DaSpkWC1bBzY
+                - JournalEntry.rpDHOwOFqQi7WiGC
+                - JournalEntry.CGTq9fPzdD50Sw5y
+                - JournalEntry.sf5Pe66qDG1iZWoF
+              dependencies: []
+              unlocks: []
+              checkIns: []
+              linkedMacros: []
+              rewardXP: 50
+              rewardCurrency: 5
+              rewardReputation: 30
+              rewardClaimed: false
+              updatedAt: 1789904989783
+              objectives:
+                - id: 0tQpFaDCCiom6NeV
+                  text: Escorter le convoi jusqu’à Tranchecolline
+                  completed: false
+                  failed: false
+                  visible: false
+                  objectives:
+                    - id: BYOJoTxojWMgd5Q2
+                      text: Assurer la sécurité des convoyeurs
+                      completed: false
+                      failed: false
+                      visible: false
+                      objectives: []
+                    - id: ngfRNwsYbMDgEeas
+                      text: Protéger la cargaison
+                      completed: false
+                      failed: false
+                      visible: false
+                      objectives: []
+              inventory: []
+          inventoryCacheVersion: 1
+          sheetTypeLabelOverride: Quête
+          linkedStandardJournals:
+            - JournalEntry.16b7eb16efab8226
+            - JournalEntry.agU7f5Ij9SnurwnW
+          widgets:
+            imagegallery:
+              s1aMyuHVDml4p3Fj:
+                images: []
+                settings:
+                  viewMode: grid-auto
+                  gridColumns: 3
+            image gallery: {}
+            quest objective awards: {}
+        contentStorageVersion: 1
+        contentPages:
+          info: Muq0UwD1hkT0sv3F
+          notes: XQq56G7Or4SJYuvq
+        image: worlds/au-nom-de-la-horde/assets/images/illustrations/coa-convoie-pour-tranchecolline.png
+        sheet-widgets: []
+        widgets-position:
+          info: true
+          inventory: false
+      core:
+        sheetClass: campaign-codex.QuestSheet
+    pages:
+      - name: Information
+        type: text
+        sort: 100000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: >-
+            <p>La Horde a besoin de bras sûrs.</p><p data-start="276"
+            data-end="525">La Mine de Roche-Sèche doit faire parvenir jusqu’à
+            <strong data-start="327" data-end="345">Tranchecolline</strong> une
+            cargaison importante destinée à Orgrimmar.</p><p data-start="527"
+            data-end="722">La route n’est pas longue, 2 jours tout au plus, mais
+            Durotar n’est jamais vraiment sûr. Les bêtes rôdent, les pillards
+            guettent les convois isolés et les ennemis de la Horde ne manquent
+            jamais d’occasions de frapper.</p><p data-start="724"
+            data-end="839">Rejoignez le convoi à la <strong data-start="749"
+            data-end="772">Mine de Roche-Sèche</strong> et veillez à ce que
+            <strong data-start="793" data-end="838">son contenu </strong>arrive
+            intacte<strong data-start="793" data-end="838"> </strong>à<strong
+            data-start="793" data-end="838"> Tranchecolline</strong>.</p>
+        ownership:
+          default: -1
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: info
+        _id: Muq0UwD1hkT0sv3F
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - name: GM Notes
+        type: text
+        sort: 200000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: >-
+            <figure><img
+            src="worlds/au-nom-de-la-horde/assets/images/illustrations/aides-de-jeu/coa-lettre-takrin-convoi.png"
+            width="500"><figcaption>Lettre de Mission</figcaption></figure>
+        ownership:
+          default: 0
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: notes
+        _id: XQq56G7Or4SJYuvq
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+    _id: NU5IW9hOrz0lfDlu
+    folder: nt0VsRVzNJtGG9l1
+    categories: []
+    sort: 100000
+    ownership:
+      default: 0
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+  - name: Guetteur - Journal
+    flags:
+      campaign-codex:
+        type: npc
+        data:
+          linkedActor: Actor.VzhEMsrB4dKxmUZg
+          description: ''
+          linkedLocations: []
+          linkedShops:
+            - JournalEntry.CGTq9fPzdD50Sw5y
+          associates: []
+          notes: ''
+          tagMode: false
+        contentStorageVersion: 1
+        contentPages:
+          info: yDFImtjGEg29jlDz
+          notes: E6fcOCQd1M6Bd49h
+      core:
+        sheetClass: campaign-codex.NPCSheet
+    pages:
+      - name: Information
+        type: text
+        sort: 100000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: ''
+        ownership:
+          default: -1
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: info
+        _id: yDFImtjGEg29jlDz
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - name: GM Notes
+        type: text
+        sort: 200000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: ''
+        ownership:
+          default: 0
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: notes
+        _id: E6fcOCQd1M6Bd49h
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+    _id: 9C9HgEGoer4yVqIk
+    folder: Y6crXMhIOMT8WeP1
+    categories: []
+    sort: 0
+    ownership:
+      default: 0
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+  - folder: Disoyw7NaOBKNvXs
+    name: Kolkar
+    flags:
+      campaign-codex:
+        type: tag
+        contentStorageVersion: 1
+        contentPages:
+          info: LYR7Wa0ILUNCpdF0
+          notes: 4WcVeYUYb4eqU8O1
+        image: worlds/au-nom-de-la-horde/assets/images/icons/factions/coa-icone-faction-korkal.png
+        sheet-widgets:
+          - id: WV6ISFetWStVaDA7
+            widgetName: Progress Clock
+            counter: 1
+            active: true
+            tab: info
+          - id: ul8E3RauQQjaDtzo
+            widgetName: Relationship Tracker Scale
+            counter: 1
+            active: true
+            tab: widgets
+        data:
+          widgets:
+            progressclock:
+              WV6ISFetWStVaDA7:
+                title: Invasion Kolkar
+                current: 0
+            relationshiptrackerscale:
+              ul8E3RauQQjaDtzo:
+                relationships:
+                  - uuid: Actor.vZ85XbeOu8dHT6QH
+                    value: -4
+                    name: Personnage joueur
+                    img: systems/dnd5e/icons/svg/actors/character.svg
+          linkedShops:
+            - JournalEntry.CGTq9fPzdD50Sw5y
+      core:
+        sheetClass: campaign-codex.TagSheet
+    _id: 2VYfjF8ghjZcUQkR
+    pages:
+      - name: Information
+        type: text
+        sort: 100000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: >-
+            <h2 data-heading="1. Identité &amp; Influence">1. Identité &amp;
+            Influence</h2><p><strong>Nature :</strong> Tribu nomade guerrière et
+            agressive.<br><strong>Zone d'influence :</strong> Sud-ouest de
+            Durotar et est des Tarides.<br><strong>Mythe fondateur / Devise
+            :</strong> Écraser les faibles, dominer les terres arides.</p><h2
+            data-heading="2. Buts &amp; Faiblesses">2. Buts &amp;
+            Faiblesses</h2><p><strong>Objectif immédiat :</strong> Harceler et
+            repérer les défenses de la Horde (Vallée des Épreuves, Sen'jin
+            Village).<br><strong>Objectif final :</strong> Mener une offensive
+            totale (en 3 étapes : Vallée des Épreuves, Sen'jin, Orgrimmar) pour
+            chasser la Horde de leurs territoires de
+            chasse.<br><strong>Faiblesse majeure :</strong> Faction isolée,
+            aucune diplomatie, prévisibilité de leurs assauts
+            frontaux.<br><strong>Méthodes favorites :</strong> Intimidation /
+            Raids éclairs / Force brute.</p><h2 data-heading="3. Relations &amp;
+            Leviers">3. Relations &amp; Leviers</h2><p><strong>Alliés :</strong>
+            Aucun (isolés, rejettent toute alliance).<br><strong>Ennemis jurés
+            :</strong> La Horde (Trolls Sombrelance en première ligne, Orcs),
+            autres tribus centaures.<br><strong>Attitude avec les PJ :</strong>
+            Hostile (Attaque à vue).<br><strong>Ce qu'elle peut offrir aux PJ
+            :</strong> Butin de guerre (armes brutes), montures capturées, plans
+            d'attaque (Ordres d'attaque Kolkar).<br><strong>Ce qu'elle peut
+            faire subir aux PJ :</strong> Embuscades meurtrières sur les routes
+            du sud, tirs de flèches à distance, poursuites montées
+            inévitables.</p><h2 data-heading="4. PNJ &amp; Lieux clés">4. PNJ
+            &amp; Lieux clés</h2><ul><li><p><strong>Le chef / dirigeant
+            :</strong> Barak Codekodo (Seigneur de guerre orchestrant
+            l'offensive sur Durotar) [Canon].</p></li><li><p><strong>Le bras
+            droit / exécutant :</strong> Capitaines de raids Kolkar, géomanciens
+            centaures.</p></li><li><p><strong>Lieux contrôlés :</strong>
+            Campements nomades fortifiés au sud-ouest de Durotar, crêtes
+            rocheuses surveillant les routes.</p></li></ul><h2 data-heading="5.
+            Horloge Stratégique &amp; Mouvements">5. Horloge Stratégique &amp;
+            Mouvements</h2><p><strong>Horloge (4 segments) : L'Invasion
+            Kolkar</strong></p><ol><li><p>Les éclaireurs Kolkar cartographient
+            les défenses de la Vallée des Épreuves.</p></li><li><p>Raid violent
+            sur la Vallée des Épreuves.</p></li><li><p>Attaque coordonnée sur le
+            village de Sen'jin.</p></li><li><p>Assaut final suicidaire sur les
+            portes d'Orgrimmar.</p></li></ol><ul><li><p><em>Avance si :</em> Les
+            PJ ignorent la menace dans le sud, ou échouent à intercepter les
+            plans d'attaque (cf. quête <em>Thwarting Kolkar
+            Aggression</em>).<br><strong>Mouvement autonome :</strong> Les
+            Kolkar déplacent périodiquement leurs campements pour surprendre les
+            patrouilles de la Horde ou encercler un groupe isolé.</p></li></ul>
+        ownership:
+          default: -1
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: info
+        _id: LYR7Wa0ILUNCpdF0
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - name: GM Notes
+        type: text
+        sort: 200000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: ''
+        ownership:
+          default: 0
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: notes
+        _id: 4WcVeYUYb4eqU8O1
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+    categories: []
+    sort: 0
+    ownership:
+      default: 0
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+  - folder: jQ0s3XzSgSmFegf1
+    name: Krosh Pèse-Charge
+    flags:
+      campaign-codex:
+        type: npc
+        contentStorageVersion: 1
+        contentPages:
+          info: iIOqPDYSoR5tuQD1
+          notes: RilojrcjI7wIeNNW
+        data:
+          linkedActor: Actor.mSSqlS09TdA8oRgI
+        image: worlds/au-nom-de-la-horde/assets/images/avatar/coa-krosh_pese-charge-avatar.png
+      core:
+        sheetClass: campaign-codex.NPCSheet
+    _id: vC91ivaZT7R8IJdF
+    pages:
+      - name: Information
+        type: text
+        sort: 100000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: >-
+            <p>Krosh est un <strong>orc de Durotar affecté à la logistique de la
+            Mine de Roche-Sèche</strong>, chargé des registres, des sceaux et
+            des mouvements de caisse dans la cour de chargement.</p><p>Joue-le
+            comme un <strong>employé compétent mais à bout de nerfs</strong>,
+            usé par le manque de sommeil, la peur et la culpabilité. Il
+            <strong>évite le regard</strong>, parle d’une voix grave mais
+            tendue, et se réfugie constamment dans les procédures, les registres
+            et les détails matériels pour ne pas affronter ce qu’il a fait. Ce
+            n’est <strong>ni un idéologue ni un vrai traître politique</strong>
+            : c’est un homme faible qui a accepté de l’argent pour fermer les
+            yeux et falsifier quelques lignes, avant de comprendre trop tard
+            qu’il s’était mêlé à quelque chose de plus grave.</p><p>Il sert très
+            bien comme <strong>suspect nerveux, informateur fragile ou obstacle
+            par omission</strong> : il peut ralentir l’enquête, mentir
+            maladroitement, paniquer, puis craquer dès qu’il comprend qu’on ne
+            cherche pas à l’abattre sur-le-champ.</p><p>Sa phrase-réflexe à
+            table :</p><p><strong>« J’ai juste fait mon travail. Les registres
+            sont en règle, allez vérifier vous-mêmes. »</strong></p>
+        ownership:
+          default: -1
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: info
+        _id: iIOqPDYSoR5tuQD1
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - name: GM Notes
+        type: text
+        sort: 200000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: ''
+        ownership:
+          default: 0
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: notes
+        _id: RilojrcjI7wIeNNW
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+    categories: []
+    sort: 0
+    ownership:
+      default: 0
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+  - name: l'Alliance
+    flags:
+      campaign-codex:
+        type: tag
+        data:
+          linkedActor: null
+          description: ''
+          linkedLocations: []
+          linkedShops: []
+          associates:
+            - JournalEntry.yWqSuSmq7d7CyDlu
+          notes: ''
+          tagMode: true
+          widgets:
+            relationshiptrackerscale:
+              gPK2EYEwU3w5sH0U:
+                relationships:
+                  - uuid: Actor.vZ85XbeOu8dHT6QH
+                    value: -3
+                    name: Personnage joueur
+                    img: systems/dnd5e/icons/svg/actors/character.svg
+            progressclock:
+              yToiXAYLjzouNkAP:
+                max: 8
+                current: 0
+                title: L'Hégémonie de l'Alliance
+            reputation tracker: {}
+        contentStorageVersion: 1
+        contentPages:
+          info: NhanUKGZbWO2mkwQ
+          notes: yLd6t5k4lrmLWirK
+        image: worlds/au-nom-de-la-horde/assets/images/icons/factions/coa-icone-faction-alliance.png
+        sheet-widgets:
+          - id: gPK2EYEwU3w5sH0U
+            widgetName: Relationship Tracker Scale
+            counter: 1
+            active: true
+            tab: widgets
+          - id: yToiXAYLjzouNkAP
+            widgetName: Progress Clock
+            counter: 1
+            active: true
+            tab: info
+      core:
+        sheetClass: campaign-codex.TagSheet
+    pages:
+      - name: Information
+        type: text
+        sort: 100000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: >-
+            <h2 data-heading="1. Identité &amp; Influence">1. Identité &amp;
+            Influence</h2><p><strong>Nature :</strong> Coalition militaire et
+            navale (Humains de Kul Tiras, Elfes de la Nuit,
+            Nains)<br><strong>Zone d'influence :</strong> Theramore (Marécage
+            d'Âprefange), Teldrassil, et divers avant-postes
+            côtiers/nordiques.<br><strong>Mythe fondateur / Devise :</strong>
+            "Pour l'Alliance !" Justice, lumière et défense inébranlable des
+            royaumes civilisés.</p><h2 data-heading="2. Buts &amp;
+            Faiblesses">2. Buts &amp; Faiblesses</h2><p><strong>Objectif
+            immédiat :</strong> Sécuriser les bastions de l'Alliance sur
+            Kalimdor et surveiller/endiguer l'expansion de la
+            Horde.<br><strong>Objectif final :</strong> Établir une hégémonie
+            militaire et commerciale incontestée sur l'ensemble des
+            continents.<br><strong>Faiblesse majeure :</strong> Lignes de
+            ravitaillement étirées, fierté mal placée et arrogance
+            diplomatique.<br><strong>Méthodes favorites :</strong> Diplomatie
+            coercitive / Magie arcanique et sacrée / Puissance navale navale /
+            Infanterie ordonnée.</p><h2 data-heading="3. Relations &amp;
+            Leviers">3. Relations &amp; Leviers</h2><p><strong>Alliés :</strong>
+            Factions neutres ralliées à la Lumière ou à l'Ordre, clans nains
+            explorateurs.<br><strong>Ennemis jurés :</strong> La
+            @UUID[JournalEntry.yWqSuSmq7d7CyDlu]{Horde}, le Fléau, la
+            Légion.<br><strong>Attitude avec les PJ :</strong> Hostile par
+            défaut (les PJ étant de la Horde), mais encline à des trêves
+            opportunistes face à un péril plus grand.<br><strong>Ce qu'elle peut
+            offrir aux PJ :</strong> (En cas de trêve ou trahison)
+            Renseignements, libre passage maritime, technologie
+            gnome/naine.<br><strong>Ce qu'elle peut faire subir aux PJ
+            :</strong> Bombardements côtiers massifs, blocus portuaire,
+            emprisonnement brutal, purges de la Lumière.</p><h2 data-heading="4.
+            PNJ &amp; Lieux clés">4. PNJ &amp; Lieux
+            clés</h2><ul><li><p><strong>Le chef / dirigeant :</strong> Jaina
+            Portvaillant (Theramore), Tyrande Murmurevent
+            (Darnassus).</p></li><li><p><strong>Le bras droit / exécutant
+            :</strong> Hauts-officiers de marine de Kul Tiras, Généraux
+            Sentinelles Elfes de la nuit.</p></li><li><p><strong>Lieux contrôlés
+            :</strong> Cité-bastion de Theramore, Île de Teldrassil, bases
+            naines isolées.</p></li></ul><h2 data-heading="5. Horloge
+            Stratégique &amp; Mouvements">5. Horloge Stratégique &amp;
+            Mouvements</h2><p><strong>Horloge (8 segments) : L'Hégémonie de
+            l'Alliance</strong></p><ul><li><p><em>Avance si :</em> L'Alliance
+            conclut des pactes majeurs avec des factions neutres ou détruit des
+            bases critiques de la Horde.<br><strong>Mouvement autonome (Échelle
+            Continentale) :</strong> Quand la faction agit hors-champ,
+            elle...</p></li></ul><ol><li><p>Lance une flotte de guerre massive
+            pour verrouiller une route maritime entière.</p></li><li><p>Déploie
+            un contingent de paladins d'élite ou de sentinelles pour "purger"
+            militairement une région.</p></li><li><p>Établit un embargo
+            diplomatique et commercial total contre un rival, l'isolant du reste
+            du monde.</p></li></ol>
+        ownership:
+          default: -1
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: info
+        _id: NhanUKGZbWO2mkwQ
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - name: GM Notes
+        type: text
+        sort: 200000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: ''
+        ownership:
+          default: 0
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: notes
+        _id: yLd6t5k4lrmLWirK
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+    _id: zSxA4Net2AD248EW
+    folder: bBPH69TCvmfaHfFN
+    categories: []
+    sort: 0
+    ownership:
+      default: 0
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+  - name: la Horde
+    flags:
+      campaign-codex:
+        type: tag
+        data:
+          linkedActor: null
+          description: ''
+          linkedLocations: []
+          linkedShops: []
+          associates:
+            - JournalEntry.sf5Pe66qDG1iZWoF
+          notes: ''
+          tagMode: true
+          widgets:
+            relationshiptrackerscale:
+              gPK2EYEwU3w5sH0U:
+                relationships:
+                  - uuid: Actor.vZ85XbeOu8dHT6QH
+                    value: 2
+                    name: Personnage joueur
+                    img: systems/dnd5e/icons/svg/actors/character.svg
+            progressclock:
+              K1MwLUqmyVC2LCfp:
+                title: La Forteresse Inexpugnable
+                max: 8
+                current: 0
+        contentStorageVersion: 1
+        contentPages:
+          info: NhanUKGZbWO2mkwQ
+          notes: yLd6t5k4lrmLWirK
+        image: worlds/au-nom-de-la-horde/assets/images/icons/factions/coa-icone-faction-horde.png
+        sheet-widgets:
+          - id: gPK2EYEwU3w5sH0U
+            widgetName: Relationship Tracker Scale
+            counter: 1
+            active: true
+            tab: widgets
+          - id: K1MwLUqmyVC2LCfp
+            widgetName: Progress Clock
+            counter: 1
+            active: true
+            tab: info
+      core:
+        sheetClass: campaign-codex.TagSheet
+    pages:
+      - name: Information
+        type: text
+        sort: 100000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: >-
+            <h2 data-heading="1. Identité &amp; Influence">1. Identité &amp;
+            Influence</h2><p><strong>Nature :</strong> Coalition de survie
+            (Orcs, Trolls Sombrelance, Taurens)<br><strong>Zone d'influence
+            :</strong> Kalimdor (Orgrimmar, Les Pitons-du-Tonnerre, Les
+            Tarides)<br><strong>Mythe fondateur / Devise :</strong> "Lok'tar
+            Ogar ! La victoire ou la mort !" Survie et rédemption dans un monde
+            hostile.</p><h2 data-heading="2. Buts &amp; Faiblesses">2. Buts
+            &amp; Faiblesses</h2><p><strong>Objectif immédiat :</strong>
+            Consolider leur nouveau foyer sur Kalimdor face aux menaces locales
+            et aux éléments.<br><strong>Objectif final :</strong> Assurer la
+            pérennité et la souveraineté absolue de la Horde en tant que
+            superpuissance continentale.<br><strong>Faiblesse majeure :</strong>
+            Les divisions internes entre les clans et la dépendance logistique
+            dans des terres arides.<br><strong>Méthodes favorites :</strong>
+            Force brute / Chamanisme / Tactiques de meute / Ingénierie de siège
+            orque et gobeline.</p><h2 data-heading="3. Relations &amp;
+            Leviers">3. Relations &amp; Leviers</h2><p><strong>Alliés :</strong>
+            Tribus taurens locales, certains clans gobelins
+            (opportunistes).<br><strong>Ennemis jurés :</strong>
+            L'@UUID[JournalEntry.zSxA4Net2AD248EW]{Alliance}, les restes de la
+            Légion, les tribus hostiles (Hurans, Centaures).<br><strong>Attitude
+            avec les PJ :</strong> Protectrice mais exigeante (faction par
+            défaut des PJ).<br><strong>Ce qu'elle peut offrir aux PJ :</strong>
+            Grades militaires, ressources lourdes, soutien chamanique, accès
+            privilégié aux capitales.<br><strong>Ce qu'elle peut faire subir aux
+            PJ :</strong> Missions suicides, cour martiale, exil, conscription
+            forcée dans des zones de guerre.</p><h2 data-heading="4. PNJ &amp;
+            Lieux clés">4. PNJ &amp; Lieux clés</h2><ul><li><p><strong>Le chef /
+            dirigeant :</strong> Thrall, le Chef de Guerre
+            (Orgrimmar).</p></li><li><p><strong>Le bras droit / exécutant
+            :</strong> Cairne Sabot-de-Sang (Taurens), Vol'jin (Trolls), Varok
+            Saurcroc (Armée).</p></li><li><p><strong>Lieux contrôlés :</strong>
+            Orgrimmar, Tranchecolline, Les Pitons-du-Tonnerre, divers
+            avant-postes en Kalimdor.</p></li></ul><h2 data-heading="5. Horloge
+            Stratégique &amp; Mouvements">5. Horloge Stratégique &amp;
+            Mouvements</h2><p><strong>Horloge (8 segments) : La Forteresse
+            Inexpugnable</strong></p><ul><li><p><em>Avance si :</em> La Horde
+            remporte des victoires décisives, sécurise des ressources majeures
+            ou écrase l'Alliance localement.<br><strong>Mouvement autonome
+            (Échelle Continentale) :</strong> Quand la faction agit hors-champ,
+            elle...</p></li></ul><ol><li><p>Déploie une armée écrasante ou une
+            flotte pour raser une place forte ennemie.</p></li><li><p>Établit un
+            nouvel avant-poste lourdement fortifié dans une zone contestée
+            (changeant la carte).</p></li><li><p>Impose un blocus commercial et
+            militaire sur un territoire entier, affamant ses
+            rivaux.</p></li></ol>
+        ownership:
+          default: -1
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: info
+        _id: NhanUKGZbWO2mkwQ
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - name: GM Notes
+        type: text
+        sort: 200000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: ''
+        ownership:
+          default: 0
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: notes
+        _id: yLd6t5k4lrmLWirK
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+    folder: bBPH69TCvmfaHfFN
+    categories: []
+    sort: 0
+    ownership:
+      default: 0
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _id: yWqSuSmq7d7CyDlu
+  - name: la Lame Brûlante
+    flags:
+      campaign-codex:
+        type: tag
+        data:
+          linkedActor: null
+          description: ''
+          linkedLocations: []
+          linkedShops: []
+          associates: []
+          notes: ''
+          tagMode: true
+          widgets:
+            relationshiptrackerscale:
+              gPK2EYEwU3w5sH0U:
+                relationships:
+                  - uuid: Actor.vZ85XbeOu8dHT6QH
+                    value: 2
+                    name: Personnage joueur
+                    img: systems/dnd5e/icons/svg/actors/character.svg
+            progressclock:
+              K1MwLUqmyVC2LCfp:
+                title: L'Éveil de Ragefeu
+                max: 6
+                current: 0
+        contentStorageVersion: 1
+        contentPages:
+          info: NhanUKGZbWO2mkwQ
+          notes: yLd6t5k4lrmLWirK
+        image: worlds/au-nom-de-la-horde/assets/images/icons/factions/coa-icone-faction-lame-brulante.png
+        sheet-widgets:
+          - id: gPK2EYEwU3w5sH0U
+            widgetName: Relationship Tracker Scale
+            counter: 1
+            active: true
+            tab: widgets
+          - id: K1MwLUqmyVC2LCfp
+            widgetName: Progress Clock
+            counter: 1
+            active: true
+            tab: info
+      core:
+        sheetClass: campaign-codex.TagSheet
+    pages:
+      - name: Information
+        type: text
+        sort: 100000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: >-
+            <h2 data-heading="1. Identité &amp; Influence">1. Identité &amp;
+            Influence</h2><p><strong>Nature :</strong> Culte démonique
+            infiltré<br><strong>Zone d'influence :</strong> Cavernes des Ombres,
+            Cœur de Ragefeu (sous Orgrimmar), campements cachés de
+            Durotar.<br><strong>Mythe fondateur / Devise :</strong> Le chaos par
+            le feu et la lame ; la chute de la fausse Horde et le retour de la
+            vraie puissance gangrenée.</p><h2 data-heading="2. Buts &amp;
+            Faiblesses">2. Buts &amp; Faiblesses</h2><p><strong>Objectif
+            immédiat :</strong> Saboter les efforts d'unification de Thrall et
+            semer la paranoïa dans Orgrimmar.<br><strong>Objectif final
+            :</strong> Invoquer des entités démoniques (Légion Ardente) depuis
+            les profondeurs de Ragefeu pour consumer
+            Durotar.<br><strong>Faiblesse majeure :</strong> Leur besoin vital
+            de garder le secret. S'ils sont exposés, la Horde entière les
+            purgera.<br><strong>Méthodes favorites :</strong> Assassinats ciblés
+            / Manipulation politique occulte / Magie gangrenée /
+            Sabotage.</p><h2 data-heading="3. Relations &amp; Leviers">3.
+            Relations &amp; Leviers</h2><p><strong>Alliés :</strong> Démons
+            mineurs, politiciens locaux corrompus.<br><strong>Ennemis jurés
+            :</strong> La Horde loyaliste (Thrall), les chamans
+            traditionnels.<br><strong>Attitude avec les PJ :</strong> Hostile et
+            dissimulée (potentiellement manipulatrice si les PJ peuvent leur
+            servir de pions).<br><strong>Ce qu'elle peut offrir aux PJ
+            :</strong> Puissance magique interdite, richesses volées, secrets
+            compromettants sur d'autres PNJ.<br><strong>Ce qu'elle peut faire
+            subir aux PJ :</strong> Embuscades mortelles dans l'ombre,
+            accusations de trahison (les faire passer pour le culte).</p><h2
+            data-heading="4. PNJ &amp; Lieux clés">4. PNJ &amp; Lieux
+            clés</h2><ul><li><p><strong>Le chef / dirigeant :</strong> Neeru
+            Fireblade (Infiltré en plein cœur
+            d'Orgrimmar).</p></li><li><p><strong>Le bras droit / exécutant
+            :</strong> Zureetha Farsight (Chef de secte sur le
+            terrain).</p></li><li><p><strong>Lieux contrôlés :</strong> Grottes
+            secrètes des crêtes de Durotar, sections condamnées de
+            Ragefeu.</p></li></ul><h2 data-heading="5. Horloge Stratégique &amp;
+            Mouvements">5. Horloge Stratégique &amp;
+            Mouvements</h2><p><strong>Horloge (6 segments) : L'Éveil de
+            Ragefeu</strong></p><ul><li><p><em>Avance si :</em> Les PJ ignorent
+            les sabotages locaux ou s'en prennent aux mauvais suspects, laissant
+            le culte agir.<br><strong>Mouvement autonome (Échelle Locale)
+            :</strong> Quand la faction agit hors-champ,
+            elle...</p></li></ul><ol><li><p>Manipule un leader local pour qu'il
+            prenne une décision militaire ou politique
+            désastreuse.</p></li><li><p>Déclenche une attaque surprise, violente
+            et suicidaire de fanatiques et de démons mineurs sur un
+            campement.</p></li><li><p>Propage silencieusement une malédiction
+            gangrenée ou un poison occulte dans les réserves d'eau de la
+            Horde.</p></li></ol>
+        ownership:
+          default: -1
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: info
+        _id: NhanUKGZbWO2mkwQ
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - name: GM Notes
+        type: text
+        sort: 200000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: ''
+        ownership:
+          default: 0
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: notes
+        _id: yLd6t5k4lrmLWirK
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+    folder: bBPH69TCvmfaHfFN
+    categories: []
+    sort: 0
+    ownership:
+      default: 0
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _id: A796LsD6oyjCLQCo
+  - folder: Disoyw7NaOBKNvXs
+    name: le Cercle de la Pierre Brisée
+    flags:
+      campaign-codex:
+        type: tag
+        contentStorageVersion: 1
+        contentPages:
+          info: WVjQl1Qbj9kdFo6g
+          notes: xJ7t9yVc4vwIoJV7
+        sheet-widgets:
+          - id: KpVf8K5z3RZODxY6
+            widgetName: Relationship Tracker Scale
+            counter: 1
+            active: true
+            tab: widgets
+          - id: mE6NxVKGUl7efyWI
+            widgetName: Progress Clock
+            counter: 1
+            active: true
+            tab: info
+        data:
+          widgets:
+            relationshiptrackerscale:
+              UssBmZ5o57rOvQPu:
+                relationships:
+                  - uuid: Actor.vZ85XbeOu8dHT6QH
+                    value: 0
+                    name: Personnage joueur
+                    img: systems/dnd5e/icons/svg/actors/character.svg
+              KpVf8K5z3RZODxY6:
+                relationships:
+                  - uuid: Actor.vZ85XbeOu8dHT6QH
+                    value: 0
+                    name: Personnage joueur
+                    img: systems/dnd5e/icons/svg/actors/character.svg
+            relationship tracker scale: {}
+            progressclock:
+              mE6NxVKGUl7efyWI:
+                max: 6
+                current: 0
+                title: L’escalade vers l’irréparable
+        image: worlds/au-nom-de-la-horde/assets/images/icons/factions/coa-icone-faction-cercle-pierre-brisee.png
+      core:
+        sheetClass: campaign-codex.TagSheet
+    _id: IA98XHgxRxeHoo3y
+    pages:
+      - name: Information
+        type: text
+        sort: 100000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: >-
+            <h2 data-heading="1. Fonction dans la campagne">1. Fonction dans la
+            campagne</h2><p>Le Cercle est le <strong>faux antagoniste
+            principal</strong> des premiers scénarios (cf. <a
+            href="Campagne_Champions_of_Azeroth_Saison_1"
+            data-href="Campagne_Champions_of_Azeroth_Saison_1"
+            class="internal-link">Campagne_Champions_of_Azeroth_Saison_1</a>).
+            Il introduit le mystère de l'excavation du Gouffre de Ragefeu
+            (Ragefire Chasm). Il sert de miroir moral aux PJs : ses membres
+            agissent violemment pour une cause fondamentalement juste (empêcher
+            le réveil d'une menace souterraine).</p><h2 data-heading="2. Ce que
+            la faction veut (But)">2. Ce que la faction veut
+            (But)</h2><p><strong>Stopper définitivement l'excavation de
+            Ragefeu.</strong><br>Le Cercle est persuadé que les travaux ordonnés
+            par la Horde vont briser un scellement antique et libérer une entité
+            cataclysmique (potentiellement liée au feu ou à la
+            corruption).</p><h2 data-heading="3. Ce qu'elle fait déjà
+            (Introduction &amp; Méthodes)">3. Ce qu'elle fait déjà (Introduction
+            &amp; Méthodes)</h2><p>Le Cercle est introduit dès le
+            <strong>Scénario 01 (Le Sang dans la
+            Poussière)</strong>.</p><ul><li><p><strong>L'Infiltration (Le vrai
+            vol) :</strong> Ils se sont infiltrés dans la mine de Durotar avec
+            la complicité d'ouvriers et ont volé une <strong>foreuse
+            lourde</strong> <em>avant</em> le départ du convoi, en la remplaçant
+            par des caisses de pierres.</p></li><li><p><strong>L'Écran de fumée
+            (L'embuscade) :</strong> Pour couvrir ce vol à la mine, ils ont
+            détourné une patrouille de Tiragarde (via une fausse piste de vivres
+            volés) pour qu'elle croise le convoi de la Horde. Depuis les crêtes,
+            ils ont tiré le premier coup de feu pour déclencher la bataille, et
+            utilisé la magie chamanique pour désavantager le convoi. Leur but
+            était de faire croire que l'Alliance avait volé et détruit la
+            machine.</p></li><li><p>Ils continuent de piller systématiquement
+            tout le matériel minier de pointe destiné à
+            Orgrimmar.</p></li></ul><h2 data-heading="4. Moyens, Ressources et
+            Abris">4. Moyens, Ressources et
+            Abris</h2><ul><li><p><strong>Effectifs :</strong> Un petit groupe
+            (guérilla) très mobile, composé principalement de chamans, de
+            pisteurs orcs, de chasseurs des ombres trolls, et de
+            taurens.</p></li><li><p><strong>Ressources Magiques :</strong>
+            Maîtrise de la magie élémentaire (Terre et Vent), ce qui leur permet
+            d'effacer leurs traces, de provoquer des éboulements et de manipuler
+            le terrain.</p></li><li><p><strong>Abris <code>[Proposition]</code>
+            :</strong> Ils se terrent dans les canyons reculés de Durotar. Leur
+            camp principal pourrait être caché dans les <strong>Ravins de la
+            Sécheresse (Drygulch Ravine)</strong> ou dans une grotte dissimulée
+            sur la crête des <strong>Collines du Tonnerre (Thunder
+            Ridge)</strong>, protégée par des élémentaires de terre
+            asservis.</p></li><li><p><strong>Appuis au sein de la Horde
+            <code>[Proposition]</code> :</strong> Ils bénéficient de la
+            sympathie silencieuse de certains Anciens (chamans conservateurs du
+            Cercle Terrestre) et de gardes locaux qui ferment les yeux, effrayés
+            par les secousses sismiques récentes sous
+            Orgrimmar.</p></li></ul><h2 data-heading="5. Limites et
+            vulnérabilités">5. Limites et
+            vulnérabilités</h2><ul><li><p><strong>Nombre réduit :</strong> Ils
+            ne peuvent pas survivre à un affrontement frontal contre l'armée de
+            la Horde. Ils fuient si acculés.</p></li><li><p><strong>Fanatisme et
+            isolement :</strong> Leurs actions violentes et leurs manipulations
+            (comme faire s'entretuer la Horde et l'Alliance) les privent de tout
+            soutien public.</p></li><li><p><strong>Ressources logistiques
+            faibles :</strong> Ils dépendent entièrement des vols pour survivre
+            et s'équiper.</p></li></ul><h2 data-heading="6. Ce qu'elle sait /
+            ignore / croit">6. Ce qu'elle sait / ignore /
+            croit</h2><ul><li><p><strong>Elle sait :</strong> Qu'un scellement
+            antique est sur le point d'être brisé à
+            Ragefeu.</p></li><li><p><strong>Elle ignore :</strong> La nature
+            exacte et totale de la menace (elle la perçoit par des visions
+            chamaniques partielles). Elle ignore aussi que le commanditaire de
+            la Horde finira par utiliser leurs propres brèches pour avancer les
+            travaux.</p></li><li><p><strong>Elle croit :</strong> Que la Horde
+            actuelle est trop arrogante et aveuglée par le progrès industriel
+            (ingénierie gobeline/orque) pour entendre la voix des
+            Esprits.</p></li></ul><h2 data-heading="7. Relations et Ennemis">7.
+            Relations et Ennemis</h2><ul><li><p><strong>La Horde (Commandement
+            &amp; Ingénieurs) :</strong> <strong>Ennemis naturels.</strong> Les
+            ingénieurs, les Voraces et l'officier commanditaire sont leurs
+            cibles prioritaires.</p></li><li><p><strong>Les Humains de Tiragarde
+            :</strong> <strong>Pions.</strong> Le Cercle les manipule pour créer
+            des diversions et épuiser les forces de la garnison locale de la
+            Horde.</p></li><li><p><strong>Les PJs :</strong> <strong>Adversaires
+            puis alliés potentiels.</strong> Au départ, ils les considèrent
+            comme des laquais du commanditaire.</p></li></ul><h2
+            data-heading="8. Horloge de faction (Doom Clock)">8. Horloge de
+            faction (Doom Clock)</h2><p><strong>Horloge à 6 segments : La Horde
+            perd patience et frappe.</strong><br><em>(S'ils ne sont pas stoppés,
+            ils commettront l'irréparable par désespoir).</em></p><ul
+            class="contains-task-list"><li data-task="x" class="task-list-item
+            is-checked"><p></p></li></ul><ol><li><p>Un petit convoi est
+            pillé.</p></li></ol><ol><li data-task="x" class="task-list-item
+            is-checked"><p></p></li></ol><ol
+            start="2"><li><p><strong>L'embuscade du convoi de la
+            Foreuse.</strong> (Scénario 01)</p></li></ol><ol><li data-task=" "
+            class="task-list-item"><p></p></li></ol><ol start="3"><li><p>Des
+            ingénieurs gobelins refusent de continuer à travailler par peur des
+            esprits.</p></li></ol><ol><li data-task=" "
+            class="task-list-item"><p></p></li></ol><ol start="4"><li><p>Le
+            commanditaire d'Orgrimmar envoie des tueurs spécialisés (ou les PJs)
+            traquer le Cercle.</p></li></ol><ol><li data-task=" "
+            class="task-list-item"><p></p></li></ol><ol start="5"><li><p>Les
+            saboteurs sont acculés dans leur repaire et s'y
+            retranchent.</p></li></ol><ol><li data-task=" "
+            class="task-list-item"><p></p></li></ol><ol
+            start="6"><li><p><strong>Action finale :</strong> Le Cercle prépare
+            un attentat massif (éboulement magique) contre les fondations mêmes
+            de la cité pour ensevelir Ragefeu à jamais, au risque de tuer des
+            centaines d'innocents.</p></li></ol><h2 data-heading="9. PNJ
+            représentatifs (Membres les plus influents)">9. PNJ représentatifs
+            (Membres les plus influents)</h2><p><em>Ces personnages sont des
+            <code>[Propositions]</code> pour répondre au besoin
+            d'incarnation.</em></p><ul><li><p><strong>Kador Totem-Fendu (Tauren,
+            Chaman Renégat) :</strong> Le leader. Un tauren vieillissant, ancien
+            héros de guerre, dont les cornes sont brisées. Il a des visions
+            apocalyptiques de flammes consumant Durotar. Il est prêt à sacrifier
+            son honneur pour sauver la terre. <em>(C'est lui qui laisse des
+            empreintes de sabots).</em></p></li><li><p><strong>Maka la Balafre
+            (Orc, Maîtresse des Bêtes) :</strong> Lieutenant tactique. Une orque
+            austère qui dresse des wyvernes et des scorpides pour attaquer les
+            convois. Elle s'occupe de la logistique des
+            sabotages.</p></li><li><p><strong>Zul'jin le Chuchoteur (Troll,
+            Sorcier-Docteur) :</strong> L'espion. Il maintient le contact avec
+            les sympathisants au sein de la Horde (notamment à Razor Hill) et
+            fournit au Cercle les itinéraires des convois
+            miniers.</p></li></ul><h2 data-heading="10. Utilisation en table
+            (Moves du MJ)">10. Utilisation en table (Moves du MJ)</h2><p>Quand
+            le Cercle passe à l'offensive ou complique la vie des PJs, le MJ
+            peut utiliser ces actions :</p><ol><li><p><strong>Faire disparaître
+            une ressource critique :</strong> Voler ou saboter l'équipement des
+            PJs ou de leurs alliés, sans effusion de sang, mais en bloquant leur
+            progression matérielle.</p></li><li><p><strong>Manipuler
+            l'environnement :</strong> Déclencher un éboulement (magie de la
+            terre) dans un canyon pour bloquer une route, séparer le groupe de
+            PJs, ou forcer un détour par un territoire hostile (Centaures,
+            Harpies).</p></li><li><p><strong>Placer un dilemme moral (Fausse
+            piste) :</strong> Laisser délibérément des preuves pointant vers
+            l'Alliance ou une autre tribu, forçant les PJs à enquêter au-delà
+            des apparences sous peine de déclencher une guerre
+            diplomatique.</p></li></ol><h2 data-heading="11. Comment enquêter
+            sur le Cercle (Pistes pour les PJs)">11. Comment enquêter sur le
+            Cercle (Pistes pour les PJs)</h2><ul><li><p><strong>Analyser les
+            scènes de crime :</strong> Constater l'anomalie des vols (seuls les
+            forets et outils disparaissent).</p></li><li><p><strong>Traces
+            physiques :</strong> Suivre les empreintes de sabots (Tauren) et
+            déceler les résidus de magie élémentaire (scories, terre retournée
+            anormalement) là où on s'attendait à trouver de la poudre à canon
+            humaine.</p></li><li><p><strong>Interrogatoires :</strong>
+            Questionner les prisonniers humains qui jureront n'avoir pas
+            commencé l'incendie, ou confronter les alliés silencieux (Anciens) à
+            Razor Hill qui semblent en savoir trop.</p></li></ul><h2
+            data-heading="12. Notes de validation lore et continuité">12. Notes
+            de validation lore et continuité</h2><ul><li><p>Respecte le twist
+            planté dès le Mouvement 1 (les saboteurs visaient déjà le projet
+            d'excavation).</p></li><li><p>Connecté au Front : <a
+            href="Front_Les_Sabotages_de_Durotar"
+            data-href="Front_Les_Sabotages_de_Durotar"
+            class="internal-link">Front_Les_Sabotages_de_Durotar</a>.</p></li><li><p>Ne
+            viole pas le lore officiel : Les dissidences chamaniques (type
+            Marteau du Crépuscule ou dérivés) existent dans WoW, cette faction
+            s'intègre parfaitement dans la genèse d'Orgrimmar.</p></li></ul>
+        ownership:
+          default: -1
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: info
+        _id: WVjQl1Qbj9kdFo6g
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - name: GM Notes
+        type: text
+        sort: 200000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: ''
+        ownership:
+          default: 0
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: notes
+        _id: xJ7t9yVc4vwIoJV7
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+    categories: []
+    sort: 0
+    ownership:
+      default: 0
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+  - name: Lieu de Vie
+    flags:
+      campaign-codex:
+        type: shop
+        data:
+          description: ''
+          linkedNPCs: []
+          linkedLocation: JournalEntry.3804DaSpkWC1bBzY
+          inventory: []
+          linkedScene: null
+          markup: 1
+          notes: ''
+          inventoryCacheVersion: 1
+        contentStorageVersion: 1
+        contentPages:
+          info: 6jdJHDE605T688wB
+          notes: A17TCAkylolrkRVR
+        image: worlds/au-nom-de-la-horde/assets/images/illustrations/durotar/mine-roche-seche/coa-mrs-lieu-de-vie.png
+      core:
+        sheetClass: campaign-codex.ShopSheet
+    pages:
+      - name: Information
+        type: text
+        sort: 100000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: ''
+        ownership:
+          default: -1
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: info
+        _id: 6jdJHDE605T688wB
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - name: GM Notes
+        type: text
+        sort: 200000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: ''
+        ownership:
+          default: 0
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: notes
+        _id: A17TCAkylolrkRVR
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+    _id: 78dbbHowpW8KS3fX
+    folder: lLJCHw56zfuvcGU2
+    categories: []
+    sort: 400000
+    ownership:
+      default: 0
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+  - folder: kOBYmenw1N0X0CpB
+    name: Mâche-Roc
+    flags:
+      campaign-codex:
+        type: shop
+        contentStorageVersion: 1
+        contentPages:
+          info: f9174UZU6CBKOJZ1
+          notes: oYSwll9Yw5DyXmKR
+        image: worlds/au-nom-de-la-horde/assets/images/illustrations/coa-illustration-mache-roc.png
+      core:
+        sheetClass: campaign-codex.ShopSheet
+    _id: H8dpEah73C7TluZP
+    pages:
+      - name: Information
+        type: text
+        sort: 100000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: >-
+            <h2 data-heading="L'Âme Mécanique de la Mine de Roche-Sèche">L'Âme
+            Mécanique de la Mine de Roche-Sèche</h2><p>Dans la touffeur
+            écrasante du sud de Durotar, là où la poussière ocre s'infiltre dans
+            les moindres interstices des armures et des peaux, il est une
+            légende qui ne parle ni de grands guerriers, ni de magie ancestrale.
+            Elle grince, elle fume, et elle sent la graisse noire cuite au
+            soleil. C'est Mâche-Roc.</p><p>Officiellement, cette merveille
+            d'ingénierie gobeline sortie des ateliers les plus confidentiels du
+            Cartel Baille-Fonds n'a probablement qu'un numéro de série obscur
+            gravé sur une plaque de laiton. Mais pour les orcs, les trolls et
+            les gobelins qui s'échinent quotidiennement dans la Mine de
+            Roche-Sèche, elle est bien plus qu'un assemblage de pistons et
+            d'engrenages. Elle est l'âme mécanique du campement. Mâche-Roc est
+            une foreuse titanesque, un monstre d'acier capricieux et bruyant
+            dont le seul but est de broyer la roche volcanique la plus
+            intraitable que la terre ait jamais vomie.</p><p>Ses entrailles
+            mécaniques palpitent grâce à un moteur massif, raccordé à un volant
+            d'entraînement lourd et menaçant, tandis que sa tête de forage
+            asymétrique semble prête à dévorer la pierre avec une voracité
+            terrifiante. Son inventeur, un ingénieur à moitié fou du Cartel, la
+            considérait comme l'œuvre de sa vie. Mais aujourd'hui, c'est le
+            troll Moj'ka Main-de-Graisse qui la maintient en vie, rapiéçant ses
+            tuyauteries soufflantes, l'insultant copieusement, mais la
+            bichonnant comme s'il s'agissait de sa propre progéniture.</p><h2
+            data-heading="Le Triomphe du Dos-Noir et le Sauvetage du 3ème
+            Puits">Le Triomphe du Dos-Noir et le Sauvetage du 3ème
+            Puits</h2><p>Si Mâche-Roc a acquis son surnom et sa réputation,
+            c'est sur le terrain, dans la sueur et le bruit assourdissant des
+            galeries. L'exploitation de Roche-Sèche s'était retrouvée
+            brutalement freinée par le "Dos-Noir", une veine de roche si
+            compacte qu'elle émoussait les pioches et que l'usage d'explosifs
+            menaçait de faire effondrer toute la montagne. Mâche-Roc, bien que
+            lente et d'une consommation effroyable en carburant et en
+            refroidissement, fut la seule à pouvoir percer des orifices assez
+            nets pour permettre la pose d'étais et de charges calibrées,
+            débloquant l'accès à de nouvelles richesses pour la
+            Horde.</p><p>Cependant, la véritable consécration de la machine eut
+            lieu lors d'une tragédie évitée de justesse. Un jour, la montagne
+            trembla et un effondrement massif scella le 3ème puits, piégeant six
+            mineurs dans l'obscurité suffocante. Sous les ordres de la
+            contremaître Ragrah Brise-Pic et avec Moj'ka veillant désespérément
+            sur ses indicateurs de pression, Mâche-Roc fut lancée dans une
+            course contre la mort. Poussée bien au-delà de ses limites
+            techniques, la foreuse tourna en surchauffe pendant de longues et
+            interminables heures, son moteur hurlant et crachant une fumée âcre,
+            jusqu'à percer un conduit de sauvetage.</p><p>Les six mineurs furent
+            extraits vivants. Depuis ce jour béni, Mâche-Roc n'est plus
+            seulement perçue comme un outil. Les vieux de la mine ont adopté un
+            rituel tacite et presque sacré : avant de s'enfoncer dans les
+            ténèbres des galeries, ils frappent deux coups nets sur son lourd
+            châssis couvert de graisse. <em>« Tok. Tok. Bonne bête.
+            »</em></p><h2 data-heading="Le Crépuscule d'une Ère : Réquisition et
+            Trahison">Le Crépuscule d'une Ère : Réquisition et
+            Trahison</h2><p>La renommée de l'engin finit inévitablement par
+            remonter jusqu'aux hautes sphères d'Orgrimmar. La construction de la
+            capitale, avec ses ambitions souterraines d'expansion, nécessitait
+            de creuser profondément sans risquer des détonations qui pourraient
+            ébranler les fondations de la ville. Les bureaucrates de la Horde
+            exigèrent alors la réquisition temporaire de Mâche-Roc. À
+            Roche-Sèche, l'annonce fut reçue avec une amertume profonde. Sans la
+            machine, le travail allait redevenir un calvaire éreintant, et
+            beaucoup voyaient d'un très mauvais œil le départ de celle qui leur
+            avait sauvé la mise.</p><p>Mais le véritable drame se joua dans
+            l'ombre, bien avant que le convoi ne prenne la route du nord. Le
+            Cercle de la Pierre Brisée, faction conspiratrice agissant dans les
+            coulisses de Durotar, vit en cette réquisition une opportunité
+            rêvée. Par l'entremise de pièces d'or glissées discrètement dans la
+            paume de Krosh Pèse-Charge, le responsable orc des cargaisons, la
+            légende fut volée.</p><p>Dans le plus grand secret, à la faveur de
+            la nuit, Mâche-Roc fut déplacée par un ancien chemin de service pour
+            être livrée aux agents du Cercle. Dans la cour de chargement, les
+            quatre gigantesques caisses — censées abriter le moteur, la tête de
+            forage, le châssis et les pièces de rechange de la machine — furent
+            méthodiquement remplacées par des caisses identiques, lourdement
+            lestées de roches denses.</p><p>Aujourd'hui, sous un soleil de
+            plomb, un convoi s'éloigne lentement de Roche-Sèche en direction de
+            Tranchecolline. Des soldats fiers et vigilants, ignorant tout de la
+            trahison, escortent ces caisses scellées au péril de leur vie,
+            croyant protéger le cœur mécanique de Durotar. Mais ils ne protègent
+            qu'un mensonge de pierre, un leurre magistral qui marque le point de
+            départ d'une intrigue bien plus vaste...</p>
+        ownership:
+          default: -1
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: info
+        _id: f9174UZU6CBKOJZ1
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - name: GM Notes
+        type: text
+        sort: 200000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: ''
+        ownership:
+          default: 0
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: notes
+        _id: oYSwll9Yw5DyXmKR
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+    categories: []
+    sort: 0
+    ownership:
+      default: 0
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+  - folder: kOBYmenw1N0X0CpB
+    name: Mine
+    flags:
+      campaign-codex:
+        type: shop
+        contentStorageVersion: 1
+        contentPages:
+          info: ZBTJqytnLDTqNPdB
+          notes: mDzatVsIU8E9NH2Q
+        image: worlds/au-nom-de-la-horde/assets/images/illustrations/durotar/mine-roche-seche/coa-mrs-mine.png
+        data:
+          linkedLocation: JournalEntry.3804DaSpkWC1bBzY
+      core:
+        sheetClass: campaign-codex.ShopSheet
+    _id: ByZa89gYUEsZgNgA
+    pages:
+      - name: Information
+        type: text
+        sort: 100000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: ''
+        ownership:
+          default: -1
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: info
+        _id: ZBTJqytnLDTqNPdB
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - name: GM Notes
+        type: text
+        sort: 200000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: ''
+        ownership:
+          default: 0
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: notes
+        _id: mDzatVsIU8E9NH2Q
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+    categories: []
+    sort: -200000
+    ownership:
+      default: 0
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+  - name: Mine de Roche-Sèche
+    flags:
+      campaign-codex:
+        type: location
+        data:
+          description: ''
+          linkedNPCs:
+            - JournalEntry.sf5Pe66qDG1iZWoF
+          linkedScene: null
+          linkedShops:
+            - JournalEntry.bzV9oL5tRh3kltDB
+            - JournalEntry.jZxTxGzSfYVShzqW
+            - JournalEntry.n75Xcv653wrDMhRK
+            - JournalEntry.78dbbHowpW8KS3fX
+            - JournalEntry.ByZa89gYUEsZgNgA
+          notes: ''
+          parentRegion: JournalEntry.idQ0pKSXB1APj1FT
+          linkedQuests:
+            - JournalEntry.NU5IW9hOrz0lfDlu
+        contentStorageVersion: 1
+        contentPages:
+          info: oJeTfgUZjif8xWBu
+          notes: xC9SV4iavRSi5ilY
+        image: worlds/au-nom-de-la-horde/assets/images/illustrations/coa-mine-de-roche-seche.png
+      core:
+        sheetClass: campaign-codex.LocationSheet
+    pages:
+      - name: Information
+        type: text
+        sort: 100000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: ''
+        ownership:
+          default: -1
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: info
+        _id: oJeTfgUZjif8xWBu
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - name: GM Notes
+        type: text
+        sort: 200000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: ''
+        ownership:
+          default: 0
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: notes
+        _id: xC9SV4iavRSi5ilY
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+    _id: 3804DaSpkWC1bBzY
+    folder: FQINd4Ed3FVDISHJ
+    categories: []
+    sort: 200000
+    ownership:
+      default: 0
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+  - name: Pillard - Journal
+    flags:
+      campaign-codex:
+        type: npc
+        data:
+          linkedActor: Actor.ixLhv6Uoi1eq6kQY
+          description: ''
+          linkedLocations: []
+          linkedShops:
+            - JournalEntry.CGTq9fPzdD50Sw5y
+          associates: []
+          notes: ''
+          tagMode: false
+        contentStorageVersion: 1
+        contentPages:
+          info: oBwweyIFVd2KUr15
+          notes: ECUetji1BBbZ5Fil
+      core:
+        sheetClass: campaign-codex.NPCSheet
+    pages:
+      - name: Information
+        type: text
+        sort: 100000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: ''
+        ownership:
+          default: -1
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: info
+        _id: oBwweyIFVd2KUr15
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - name: GM Notes
+        type: text
+        sort: 200000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: ''
+        ownership:
+          default: 0
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: notes
+        _id: ECUetji1BBbZ5Fil
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+    _id: n1ggWpbrsICCIKnH
+    folder: Y6crXMhIOMT8WeP1
+    categories: []
+    sort: 0
+    ownership:
+      default: 0
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+  - folder: nt0VsRVzNJtGG9l1
+    name: Recherche de Mâche-Roc
+    flags:
+      campaign-codex:
+        type: quest
+        contentStorageVersion: 1
+        contentPages:
+          info: J8ncWx4iZiVD3tgI
+          notes: a87V6OWNmKs3npFx
+        data:
+          quests:
+            - id: D7Zp5HskGX0QFErO
+              title: Recherche de Mâche-Roc
+              description: ''
+              inactive: false
+              completed: false
+              failed: false
+              visible: false
+              pinned: false
+              hideRewards: false
+              notifyPlayers: false
+              messageOnCompleted: false
+              urgency: medium
+              boardColumn: active
+              questGiverUuid: ''
+              relatedUuids: []
+              dependencies:
+                - JournalEntry.NU5IW9hOrz0lfDlu::oKIBTzhZcCpwLYSS
+              unlocks: []
+              checkIns: []
+              linkedMacros: []
+              rewardXP: 0
+              rewardCurrency: 0
+              rewardReputation: 0
+              rewardClaimed: false
+              updatedAt: 1789904994036
+              objectives: []
+              inventory: []
+          inventoryCacheVersion: 1
+      core:
+        sheetClass: campaign-codex.QuestSheet
+    _id: KwyPFMyePEoxed4f
+    pages:
+      - name: Information
+        type: text
+        sort: 100000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: ''
+        ownership:
+          default: -1
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: info
+        _id: J8ncWx4iZiVD3tgI
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - name: GM Notes
+        type: text
+        sort: 200000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: ''
+        ownership:
+          default: 0
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: notes
+        _id: a87V6OWNmKs3npFx
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+    categories: []
+    sort: 0
+    ownership:
+      default: 0
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+  - name: Sc1 — Le convoi de Mâche-Roc
+    flags:
+      campaign-codex:
+        type: group
+        data:
+          description: ''
+          members:
+            - JournalEntry.3804DaSpkWC1bBzY
+            - JournalEntry.7tGmUEcyGu1BeheM
+            - JournalEntry.z5gIqN6n4XVkj1dq
+            - JournalEntry.idQ0pKSXB1APj1FT
+            - JournalEntry.IA98XHgxRxeHoo3y
+            - JournalEntry.yWqSuSmq7d7CyDlu
+            - JournalEntry.vC91ivaZT7R8IJdF
+            - JournalEntry.CGTq9fPzdD50Sw5y
+          linkedNPCs: []
+          notes: ''
+          linkedQuests:
+            - JournalEntry.NU5IW9hOrz0lfDlu
+          linkedStandardJournals:
+            - JournalEntry.agU7f5Ij9SnurwnW
+        contentStorageVersion: 1
+        contentPages:
+          info: wHfGadvoztcXJBjp
+          notes: 1YQRKM9X1952imZS
+        image: worlds/au-nom-de-la-horde/assets/images/illustrations/coa-convoie-pour-tranchecolline.png
+      core:
+        sheetClass: campaign-codex.GroupSheet
+    pages:
+      - name: Information
+        type: text
+        sort: 100000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: >-
+            <h2 data-heading="1. Pitch &amp; Prémisse">1. Pitch &amp;
+            Prémisse</h2><p><strong>Accroche (Pitch) :</strong> Les PJ sont
+            chargés d’escorter depuis la
+            @UUID[JournalEntry.3804DaSpkWC1bBzY]{Mine de Roche-Sèche} jusqu’à
+            @UUID[JournalEntry.7tGmUEcyGu1BeheM]{Tranchecolline} (Razor Hill) un
+            convoi stratégique pour la Horde. Sa cargaison la plus précieuse est
+            censée être @UUID[JournalEntry.H8dpEah73C7TluZP]{Mâche-Roc}, la
+            célèbre foreuse de la mine, réquisitionnée pour des travaux sous
+            Orgrimmar. Mais le voyage va les confronter à trois dangers de
+            nature volontairement différente : une menace locale, une
+            manipulation magique, et une tension diplomatique.<br><strong>Thème
+            &amp; Tonalité :</strong> Voyage, Escorte, Découverte des vraies
+            menaces de Durotar, Faux-semblants.<br><strong>Durée estimée
+            :</strong> 1 session<br><strong>Niveau recommandé :</strong>
+            Débutant (Niveau 1)</p><hr><h2 data-heading="2. La Vérité &amp;
+            L'Iceberg de l'Enquête">2. La Vérité &amp; L'Iceberg de
+            l'Enquête</h2><p><strong>Ce qui s'est réellement passé (Backstory)
+            :</strong></p><ul><li><p><strong>La Vérité cachée :</strong>
+            <strong>@UUID[JournalEntry.H8dpEah73C7TluZP]{Mâche-Roc}</strong>
+            n’est déjà plus dans le convoi. Avant l'arrivée des PJ,
+            @UUID[JournalEntry.vC91ivaZT7R8IJdF]{Krosh Pèse-Charge,} acheté par
+            un intermédiaire du Cercle de la Pierre Brisée, a fait remplacer ses
+            éléments par des caisses lestées de pierres. Le sabotage a eu lieu
+            <em>avant</em> même le départ.</p></li><li><p><strong>Niveau 0
+            (Surface / Accroche) :</strong> Les PJ doivent défendre le convoi
+            contre les périls de la route, pensant protéger l'équipement de la
+            Horde.</p></li><li><p><strong>Niveau -1 (Première couche) :</strong>
+            Lors de l'attaque des sangliers, un indice magique suggère qu'une
+            force intelligente (un chaman du Cercle) a manipulé les bêtes pour
+            ralentir ou désorganiser le convoi à distance.</p></li></ul>
+        ownership:
+          default: -1
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: info
+        _id: wHfGadvoztcXJBjp
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - name: GM Notes
+        type: text
+        sort: 200000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: ''
+        ownership:
+          default: 0
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: notes
+        _id: 1YQRKM9X1952imZS
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+    _id: rpDHOwOFqQi7WiGC
+    folder: V6StOMcb7JTQqvWe
+    categories: []
+    sort: 100000
+    ownership:
+      default: 0
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+  - name: Takrin Cherche-Voie
+    flags:
+      campaign-codex:
+        type: npc
+        data:
+          linkedActor: Actor.UWbg8xP7wKURKGtV
+          description: ''
+          linkedLocations:
+            - JournalEntry.7tGmUEcyGu1BeheM
+            - JournalEntry.idQ0pKSXB1APj1FT
+          linkedShops: []
+          associates: []
+          notes: ''
+          tagMode: false
+          linkedQuests:
+            - JournalEntry.NU5IW9hOrz0lfDlu
+        contentStorageVersion: 1
+        contentPages:
+          info: V1rHEG3dFzNcQHfp
+          notes: lWXCul0NCV4BG5sm
+      core:
+        sheetClass: campaign-codex.NPCSheet
+    pages:
+      - name: Information
+        type: text
+        sort: 100000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: >-
+            <p>Takrin Cherche-voie est un <strong>éclaireur orc expérimenté basé
+            à Tranchecolline</strong>, habitué à parcourir les routes de Durotar
+            et à lire le terrain, les traces et les mouvements
+            inhabituels.</p><p>Joue-le comme un <strong>professionnel calme, sec
+            et très observateur</strong>, qui parle peu, déteste les conclusions
+            hâtives et fait toujours la différence entre ce qu’il
+            <strong>sait</strong>, ce qu’il <strong>suppose</strong> et ce qu’on
+            lui <strong>a raconté</strong>. </p><p>Il respecte davantage la
+            précision que la bravoure et teste les PJ sur leur capacité à
+            revenir avec une information fiable plutôt qu’avec un beau récit.
+            </p><p>Il sert de relais naturel entre Razor Hill, les patrouilles,
+            les convois et les pistes de Durotar, sans jamais devenir un donneur
+            de quête omniscient. </p><p>Sa phrase-reflexe à table :
+            </p><p><strong>« Ne me dis pas ce que tu crois. Dis-moi ce que tu as
+            vu. »</strong> </p><p></p>
+        ownership:
+          default: -1
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: info
+        _id: V1rHEG3dFzNcQHfp
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - name: GM Notes
+        type: text
+        sort: 200000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: ''
+        ownership:
+          default: 0
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: notes
+        _id: lWXCul0NCV4BG5sm
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+    _id: z5gIqN6n4XVkj1dq
+    folder: WNG1lc6wLu3V377z
+    categories: []
+    sort: 100000
+    ownership:
+      default: 0
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+  - folder: azWtxXBLHOWVMAw0
+    name: Timeline
+    flags:
+      campaign-codex:
+        type: ''
+      core:
+        sheetClass: ''
+    _id: agU7f5Ij9SnurwnW
+    pages:
+      - sort: 100000
+        name: Acte I - Embuscade Kolkar
+        type: text
+        _id: khjcK5XRezYcGEaN
+        system: {}
+        title:
+          show: true
+          level: 1
+        image: {}
+        text:
+          format: 1
+          content: >-
+            <h2>Défendre le contenu du convoi</h2><ul><li><p><strong>L'Entrée
+            :</strong> Sur la route vers le nord, le convoi traverse un
+            territoire où la présence Kolkar est connue. Les centaures attaquent
+            véritablement.</p></li><li><p><strong>L'Enjeu / Le Compteur
+            :</strong> Défendre le convoi, protéger les convoyeurs et les kodos
+            contre une menace létale. C'est le premier test de combat de la
+            campagne.</p></li><li><p><strong>La Vérité (Ce que les joueurs
+            doivent croire et qui est vrai) :</strong> C'est une vraie attaque
+            de pillards. Il n'y a rien de mystérieux. Tout ce qui arrive en
+            Durotar n'est pas lié au complot. Les PJ peuvent capturer, tuer ou
+            laisser fuir les assaillants.</p></li></ul>
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+          V0twxN2oKehfUjVd: 3
+        flags: {}
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - sort: 200000
+        name: Acte II - Animaux en fuite !
+        type: text
+        _id: 2N8imUbpAAh0ARaF
+        system: {}
+        title:
+          show: false
+          level: 1
+        image: {}
+        text:
+          format: 1
+          content: >-
+            <h2>L'Anomalie</h2><ul><li><p><strong>L'Entrée :</strong> Une harde
+            de sangliers de Durotar surgit des fourrés épineux et charge le
+            convoi de façon frénétique et
+            désordonnée.</p></li><li><p><strong>L'Enjeu / Le Compteur :</strong>
+            Des dizaines de kilos de viande lancés à pleine vitesse. Le danger
+            n'est pas un massacre mais la physique : empêcher les chariots de se
+            renverser, sauver un convoyeur tombé au sol, ou détourner la
+            charge.</p></li><li><p><strong>La Vérité :</strong> Contrairement
+            aux Kolkars, cette attaque n'est pas naturelle. Un chaman du Cercle
+            de la Pierre Brisée, invisible et à distance, a perturbé les animaux
+            pour paniquer le convoi, le ralentir et potentiellement endommager
+            les preuves, sans pour autant viser une
+            extermination.</p></li><li><p><strong>L'Indice du fil rouge
+            :</strong> Les personnages compétents (Survie, Nature) remarquent
+            que ce comportement est anormal pour un groupe de sangliers. Un
+            chaman ou lanceur de sorts peut ressentir qu'une magie a influencé
+            les bêtes. C'est le premier grain de sable du mystère.</p></li></ul>
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+          V0twxN2oKehfUjVd: 3
+        flags: {}
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - sort: 300000
+        name: Acte III - Patrouille de l'Alliance
+        type: text
+        _id: rwHYKr5gwyGQMg8A
+        system: {}
+        title:
+          show: false
+          level: 1
+        image: {}
+        text:
+          format: 1
+          content: >-
+            <h3>Tension Diplomatique</h3><ul><li><p>L<strong>'Entrée :</strong>
+            Le convoi croise la route d'une petite force humaine de Kul
+            Tiras/Tiragarde.</p></li><li><p><strong>L'Enjeu / Le Compteur
+            :</strong> Les soldats barrent ou surveillent la route. La tension
+            est immédiatement palpable, mais <strong>la scène ne commence pas
+            par l'initiative</strong>.</p><ul><li><p>Les joueurs réalisent que
+            <em>Humains ≠ Combat
+            obligatoire</em>.</p></li></ul></li><li><p><strong>La Vérité
+            :</strong> Ces hommes cherchent du renseignement et contrôlent les
+            mouvements de la Horde dans cette partie de Durotar. La situation
+            est ouverte : les PJ peuvent parler, intimider, mentir, négocier,
+            laisser passer, ou provoquer l'affrontement.</p></li></ul>
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+          V0twxN2oKehfUjVd: 3
+        flags: {}
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - sort: 150000
+        name: Interlude I - Le jour où Mâche-Roc n'a pas arrêté
+        type: text
+        _id: Ofr5OctQhwlQsoBk
+        system: {}
+        title:
+          show: false
+          level: 1
+        image: {}
+        text:
+          format: 1
+          content: >-
+            <h2 data-heading="1. PJ Concerné">1. PJ Concerné</h2><ul><li><p>Un
+            PJ avec un lien avec le minage, la forge, l'armurerie, l'ingénierie,
+            ou ayant travaillé à Roche-Sèche.</p></li><li><p><strong>Questions à
+            poser en jeu :</strong> <em>"Tu as travaillé ici quelque temps.
+            Était-ce dans les galeries ou à l'atelier ?"</em>, <em>"Qui t'avait
+            pris sous son aile : Ragrah ou Moj'ka ?"</em></p></li></ul><h2
+            data-heading="2. Déclencheur (Présent)">2. Déclencheur
+            (Présent)</h2><ul><li><p>Peu après le départ de
+            Roche-Sèche.</p></li><li><p>Un mineur a frappé une caisse : <em>«
+            Ramenez-la-nous entière. »</em></p></li><li><p>Le bruit répétitif
+            des roues rappelle quelque chose.</p></li><li><p><strong>Transition
+            :</strong> <em>"Tu connais ce bruit. Pas celui du chariot. Celui du
+            métal sous contrainte. Tu l'as entendu à Roche-Sèche, il y a
+            quelques mois..."</em></p></li></ul><h2 data-heading="3. La
+            Situation (Passé)">3. La Situation (Passé)</h2><ul><li><p>Une
+            galerie s'est effondrée. <strong>Six mineurs sont bloqués</strong>
+            derrière le 3ème puits.</p></li><li><p>La contremaître
+            <strong>Moj'ka Main-de-Graisse</strong> veut percer un conduit de
+            secours avec Mâche-Roc, mais la machine va devoir tourner pendant
+            des heures.</p></li><li><p>Moj'ka interpelle le PJ : <em>"Toi ! Si
+            elle chauffe, elle casse. Si elle casse, eux restent là-dessous.
+            Aide-moi à la garder en vie."</em></p></li></ul><h2 data-heading="4.
+            L'Action &amp; Le Choix">4. L'Action &amp; Le
+            Choix</h2><ul><li><p><strong>Rôle du PJ (selon métier) :</strong>
+            Forgeron (redresser une pièce), Mineur (guider le forage), Ingénieur
+            (refroidissement), Autre (déblayer,
+            écouter).</p></li><li><p><strong>Le Choix :</strong> La machine
+            vibre anormalement. Moj'ka hésite : <em>"On arrête dix minutes ou on
+            continue ?"</em></p><ul><li><p>Soudain, <strong>trois coups</strong>
+            se font entendre de l'autre côté.</p></li><li><p>Le PJ doit
+            trancher. Aucune bonne réponse mécanique, c'est un choix moral. Les
+            six mineurs seront sauvés de toute façon, mais cela change le
+            souvenir du PJ.</p></li></ul></li></ul><h2 data-heading="5. Le
+            Payoff (Retour au Présent)">5. Le Payoff (Retour au
+            Présent)</h2><ul><li><p>Le sauvetage réussit. Pas de célébration,
+            juste l'épuisement.</p></li><li><p>Un vieux mineur pose la main sur
+            le châssis brûlant de la foreuse. <strong>Deux
+            coups.</strong></p><ul><li><p><em>"Tok. Tok. Bonne
+            bête."</em></p></li></ul></li><li><p><strong>Transition immédiate
+            :</strong> <em>"Tok. Tok."</em> (Le chariot vient de passer sur deux
+            pierres. Devant le PJ se trouvent les caisses censées contenir
+            Mâche-Roc).</p></li><li><p><strong>Question finale :</strong>
+            <em>"Pourquoi es-tu finalement parti de Roche-Sèche
+            ?"</em></p></li></ul>
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+          V0twxN2oKehfUjVd: 3
+        flags: {}
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - sort: 250000
+        name: Interlude II - La Route du Sud
+        type: text
+        _id: I5YP8zmeAIlxXOxr
+        system: {}
+        title:
+          show: false
+          level: 1
+        image: {}
+        text:
+          format: 1
+          content: >-
+            <h2 data-heading="1. PJ Concerné">1. PJ Concerné</h2><ul><li><p>Un
+            PJ ayant grandi ou voyagé dans le sud (Vallée des Épreuves, Sen'jin,
+            Razor Hill).</p></li><li><p>Profils idéaux : Chasseur, Troll
+            Sombrelance, Chaman, Guerrier, ou artisan local.</p></li></ul><h2
+            data-heading="2. Déclencheur (Présent)">2. Déclencheur
+            (Présent)</h2><ul><li><p>Pendant le trajet ou une
+            halte.</p></li><li><p>Le PJ reconnaît un point de repère (arbre sec
+            tordu, cairn, petite gorge, pierre avec symbole
+            Horde).</p></li><li><p><strong>Transition :</strong> <em>"Tu es déjà
+            passé ici. Mais la dernière fois, tu n'étais pas accompagné d'un
+            convoi."</em></p></li></ul><h2 data-heading="3. La Situation
+            (Passé)">3. La Situation (Passé)</h2><ul><li><p>Voyage entre Sen'jin
+            et la Vallée des Épreuves avec un petit groupe.</p></li><li><p>Un
+            problème banal : <strong>un kodo blessé refuse
+            d'avancer</strong>.</p></li><li><p>Pas de monstres, pas de complots.
+            Juste la réalité de Durotar.</p></li><li><p>Le groupe doit décider :
+            abandonner la charge, attendre, détourner la route, soigner la bête
+            ?</p></li><li><p>Un vieux voyageur dit : <em>"Ici, la route décide
+            rarement de te tuer. Elle attend juste que tu fasses une
+            erreur."</em></p></li></ul><h2 data-heading="4. L'Action">4.
+            L'Action</h2><ul><li><p>Le PJ raconte comment il a géré le problème
+            (soigné l'animal, réparé le chariot, ou aidé à répartir la
+            cargaison).</p></li></ul><h2 data-heading="5. Le Payoff (Retour au
+            Présent &amp; Jeu)">5. Le Payoff (Retour au Présent &amp;
+            Jeu)</h2><ul><li><p>L'expérience du PJ se concrétise en
+            <strong>avantage tactique</strong>.</p></li><li><p>Tu révèles :
+            <em>"Tu te souviens qu'il existe un ravin secondaire pour contourner
+            cette portion exposée."</em></p></li><li><p>Plus tard (lors de
+            l'embuscade Kolkar ou face à un obstacle), cette option tactique est
+            activable par le joueur. Le souvenir donne directement du
+            jeu.</p></li></ul>
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+          V0twxN2oKehfUjVd: 3
+        flags: {}
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - sort: 400000
+        name: Conclusion - L'Arrivée à Tranchecolline
+        type: text
+        _id: iKkcFNnE4ECUFPXq
+        system: {}
+        title:
+          show: false
+          level: 1
+        image: {}
+        text:
+          format: 1
+          content: >-
+            <h2 data-heading="Épilogue : L'Arrivée à
+            Tranchecolline">Épilogue</h2><ul><li><p><strong>Ambiance :</strong>
+            Le soulagement du camp fortifié. Les orcs déchargent les chariots
+            sous le regard du commanditaire.</p></li><li><p><strong>Le Choc
+            :</strong> Ouverture des caisses au
+            pied-de-biche.</p></li><li><p><strong>Révélation :</strong> <em>«
+            Des cailloux ! Ce ne sont que de foutus cailloux !
+            »</em></p></li><li><p><strong>Fin de séance :</strong> Le vol n'a
+            pas eu lieu sur la route. Il s'est produit à Roche-Sèche. Le mystère
+            du Cercle commence ici.</p></li></ul>
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+          V0twxN2oKehfUjVd: 3
+        flags: {}
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+    categories: []
+    sort: 0
+    ownership:
+      default: 0
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+  - name: Tranchecolline
+    flags:
+      campaign-codex:
+        type: location
+        data:
+          description: ''
+          linkedNPCs:
+            - JournalEntry.z5gIqN6n4XVkj1dq
+            - JournalEntry.sf5Pe66qDG1iZWoF
+          linkedScene: null
+          linkedShops: []
+          notes: ''
+          parentRegion: JournalEntry.idQ0pKSXB1APj1FT
+        contentStorageVersion: 1
+        contentPages:
+          info: p7fJxxmPspVzX3OR
+          notes: zePy8tewp2t5x0PU
+        image: worlds/au-nom-de-la-horde/assets/images/illustrations/coa-tranchecolline-cc.png
+      core:
+        sheetClass: campaign-codex.LocationSheet
+    pages:
+      - name: Information
+        type: text
+        sort: 100000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: ''
+        ownership:
+          default: -1
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: info
+        _id: p7fJxxmPspVzX3OR
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - name: GM Notes
+        type: text
+        sort: 200000
+        title:
+          show: true
+          level: 1
+        text:
+          format: 1
+          content: ''
+        ownership:
+          default: 0
+        flags:
+          core:
+            sheetClass: campaign-codex.CampaignCodexContentPageSheet
+          campaign-codex:
+            contentKey: notes
+        _id: zePy8tewp2t5x0PU
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        _stats:
+          coreVersion: '14.367'
+          systemId: co2
+          systemVersion: 2.3.9
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+    _id: 7tGmUEcyGu1BeheM
+    folder: FQINd4Ed3FVDISHJ
+    categories: []
+    sort: 100000
+    ownership:
+      default: 0
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+scenes:
+  - folder: mFjmSR0rCp0W3bgK
+    name: Attaque Kolkar
+    _id: uzphzarC0uT2jRX9
+    navigation: false
+    thumb: worlds/au-nom-de-la-horde-cof2/assets/scenes/thumb-H6Wtj-IHLSuyxJtk_vQA8Q.webp
+    width: 1672
+    height: 941
+    padding: 0.25
+    shiftX: 0
+    shiftY: 0
+    initial:
+      x: null
+      'y': null
+      scale: null
+    initialLevel: defaultLevel0000
+    grid:
+      type: 1
+      size: 50
+      style: solidLines
+      thickness: 1
+      color: '#000000'
+      alpha: 0.2
+      distance: 2
+      units: m
+    tokenVision: true
+    fog:
+      mode: 1
+      colors:
+        explored: null
+        unexplored: null
+    environment:
+      darknessLevel: 0
+      darknessLock: false
+      globalLight:
+        enabled: false
+        alpha: 0.5
+        bright: false
+        color: null
+        coloration: 1
+        luminosity: 0
+        saturation: 0
+        contrast: 0
+        shadows: 0
+        darkness:
+          min: 0
+          max: 1
+      cycle: true
+      base:
+        hue: 0
+        intensity: 0
+        luminosity: 0
+        saturation: 0
+        shadows: 0
+      dark:
+        hue: 0.7138888888888889
+        intensity: 0
+        luminosity: -0.25
+        saturation: 0
+        shadows: 0
+    transition:
+      type: null
+      duration: 1500
+      activeOnly: false
+    drawings: []
+    tokens:
+      - name: Coupe-Sangle
+        displayName: 30
+        actorLink: false
+        width: 1
+        height: 1
+        depth: 1
+        texture:
+          src: worlds/au-nom-de-la-horde-cof2/assets/images/tokens/npcs/kolkar/coa-kolkar-coupe-sangle-token.webp
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          tint: '#ffffff'
+          alphaThreshold: 0.75
+        lockRotation: false
+        rotation: 0
+        alpha: 1
+        disposition: -1
+        displayBars: 0
+        bar1:
+          attribute: attributes.hp
+        bar2:
+          attribute: null
+        light:
+          negative: false
+          priority: 0
+          alpha: 0.5
+          angle: 360
+          bright: 0
+          color: null
+          coloration: 1
+          dim: 0
+          attenuation: 0.5
+          luminosity: 0.5
+          saturation: 0
+          contrast: 0
+          shadows: 0
+          animation:
+            type: null
+            speed: 5
+            intensity: 5
+            reverse: false
+          darkness:
+            min: 0
+            max: 1
+        sight:
+          enabled: false
+          range: 0
+          angle: 360
+          visionMode: basic
+          color: null
+          attenuation: 0.1
+          brightness: 0
+          saturation: 0
+          contrast: 0
+        detectionModes: {}
+        occludable:
+          radius: 0
+        ring:
+          enabled: false
+          colors:
+            ring: null
+            background: null
+          effects: 0
+          subject:
+            scale: 1
+            texture: null
+        turnMarker:
+          mode: 1
+          animation: null
+          src: null
+          disposition: false
+        movementAction: null
+        flags: {}
+        actorId: gK4nLAqFGEhcExWl
+        hidden: false
+        sort: 0
+        shape: 4
+        level: defaultLevel0000
+        _id: JDiV1puTy3pyvZTS
+        delta: null
+        x: 1550
+        'y': 300
+        elevation: 0
+        locked: false
+        _movementHistory: []
+        _regions: []
+      - name: Coupe-Sangle
+        displayName: 30
+        actorLink: false
+        width: 1
+        height: 1
+        depth: 1
+        texture:
+          src: worlds/au-nom-de-la-horde-cof2/assets/images/tokens/npcs/kolkar/coa-kolkar-coupe-sangle-token.webp
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          tint: '#ffffff'
+          alphaThreshold: 0.75
+        lockRotation: false
+        rotation: 0
+        alpha: 1
+        disposition: -1
+        displayBars: 0
+        bar1:
+          attribute: attributes.hp
+        bar2:
+          attribute: null
+        light:
+          negative: false
+          priority: 0
+          alpha: 0.5
+          angle: 360
+          bright: 0
+          color: null
+          coloration: 1
+          dim: 0
+          attenuation: 0.5
+          luminosity: 0.5
+          saturation: 0
+          contrast: 0
+          shadows: 0
+          animation:
+            type: null
+            speed: 5
+            intensity: 5
+            reverse: false
+          darkness:
+            min: 0
+            max: 1
+        sight:
+          enabled: false
+          range: 0
+          angle: 360
+          visionMode: basic
+          color: null
+          attenuation: 0.1
+          brightness: 0
+          saturation: 0
+          contrast: 0
+        detectionModes: {}
+        occludable:
+          radius: 0
+        ring:
+          enabled: false
+          colors:
+            ring: null
+            background: null
+          effects: 0
+          subject:
+            scale: 1
+            texture: null
+        turnMarker:
+          mode: 1
+          animation: null
+          src: null
+          disposition: false
+        movementAction: null
+        flags: {}
+        actorId: gK4nLAqFGEhcExWl
+        hidden: false
+        sort: 1
+        shape: 4
+        level: defaultLevel0000
+        _id: xprTBXCmNryn5SIn
+        delta: null
+        x: 1650
+        'y': 1100
+        elevation: 0
+        locked: false
+        _movementHistory: []
+        _regions: []
+      - name: Guetteur
+        displayName: 30
+        actorLink: false
+        width: 1
+        height: 1
+        depth: 1
+        texture:
+          src: worlds/au-nom-de-la-horde-cof2/assets/images/tokens/npcs/kolkar/coa-kolkar-guetteur-token.webp
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          tint: '#ffffff'
+          alphaThreshold: 0.75
+        lockRotation: false
+        rotation: 0
+        alpha: 1
+        disposition: -1
+        displayBars: 0
+        bar1:
+          attribute: attributes.hp
+        bar2:
+          attribute: null
+        light:
+          negative: false
+          priority: 0
+          alpha: 0.5
+          angle: 360
+          bright: 0
+          color: null
+          coloration: 1
+          dim: 0
+          attenuation: 0.5
+          luminosity: 0.5
+          saturation: 0
+          contrast: 0
+          shadows: 0
+          animation:
+            type: null
+            speed: 5
+            intensity: 5
+            reverse: false
+          darkness:
+            min: 0
+            max: 1
+        sight:
+          enabled: false
+          range: 0
+          angle: 360
+          visionMode: basic
+          color: null
+          attenuation: 0.1
+          brightness: 0
+          saturation: 0
+          contrast: 0
+        detectionModes: {}
+        occludable:
+          radius: 0
+        ring:
+          enabled: false
+          colors:
+            ring: null
+            background: null
+          effects: 0
+          subject:
+            scale: 1
+            texture: null
+        turnMarker:
+          mode: 1
+          animation: null
+          src: null
+          disposition: false
+        movementAction: null
+        flags: {}
+        actorId: VzhEMsrB4dKxmUZg
+        hidden: false
+        sort: 2
+        shape: 4
+        level: defaultLevel0000
+        _id: LEBSrEVwbVBtUrgC
+        delta: null
+        x: 1800
+        'y': 350
+        elevation: 0
+        locked: false
+        _movementHistory: []
+        _regions: []
+      - name: Guetteur
+        displayName: 30
+        actorLink: false
+        width: 1
+        height: 1
+        depth: 1
+        texture:
+          src: worlds/au-nom-de-la-horde-cof2/assets/images/tokens/npcs/kolkar/coa-kolkar-guetteur-token.webp
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          tint: '#ffffff'
+          alphaThreshold: 0.75
+        lockRotation: false
+        rotation: 0
+        alpha: 1
+        disposition: -1
+        displayBars: 0
+        bar1:
+          attribute: attributes.hp
+        bar2:
+          attribute: null
+        light:
+          negative: false
+          priority: 0
+          alpha: 0.5
+          angle: 360
+          bright: 0
+          color: null
+          coloration: 1
+          dim: 0
+          attenuation: 0.5
+          luminosity: 0.5
+          saturation: 0
+          contrast: 0
+          shadows: 0
+          animation:
+            type: null
+            speed: 5
+            intensity: 5
+            reverse: false
+          darkness:
+            min: 0
+            max: 1
+        sight:
+          enabled: false
+          range: 0
+          angle: 360
+          visionMode: basic
+          color: null
+          attenuation: 0.1
+          brightness: 0
+          saturation: 0
+          contrast: 0
+        detectionModes: {}
+        occludable:
+          radius: 0
+        ring:
+          enabled: false
+          colors:
+            ring: null
+            background: null
+          effects: 0
+          subject:
+            scale: 1
+            texture: null
+        turnMarker:
+          mode: 1
+          animation: null
+          src: null
+          disposition: false
+        movementAction: null
+        flags: {}
+        actorId: VzhEMsrB4dKxmUZg
+        hidden: false
+        sort: 3
+        shape: 4
+        level: defaultLevel0000
+        _id: wEFYgYMec4Qdkj6W
+        delta: null
+        x: 1100
+        'y': 950
+        elevation: 0
+        locked: false
+        _movementHistory: []
+        _regions: []
+      - name: Pillard
+        displayName: 30
+        actorLink: false
+        width: 1
+        height: 1
+        depth: 1
+        texture:
+          src: worlds/au-nom-de-la-horde-cof2/assets/images/tokens/npcs/kolkar/coa-kolkar-pillard-token.webp
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          tint: '#ffffff'
+          alphaThreshold: 0.75
+        lockRotation: false
+        rotation: 0
+        alpha: 1
+        disposition: -1
+        displayBars: 0
+        bar1:
+          attribute: attributes.hp
+        bar2:
+          attribute: null
+        light:
+          negative: false
+          priority: 0
+          alpha: 0.5
+          angle: 360
+          bright: 0
+          color: null
+          coloration: 1
+          dim: 0
+          attenuation: 0.5
+          luminosity: 0.5
+          saturation: 0
+          contrast: 0
+          shadows: 0
+          animation:
+            type: null
+            speed: 5
+            intensity: 5
+            reverse: false
+          darkness:
+            min: 0
+            max: 1
+        sight:
+          enabled: false
+          range: 0
+          angle: 360
+          visionMode: basic
+          color: null
+          attenuation: 0.1
+          brightness: 0
+          saturation: 0
+          contrast: 0
+        detectionModes: {}
+        occludable:
+          radius: 0
+        ring:
+          enabled: false
+          colors:
+            ring: null
+            background: null
+          effects: 0
+          subject:
+            scale: 1
+            texture: null
+        turnMarker:
+          mode: 1
+          animation: null
+          src: null
+          disposition: false
+        movementAction: null
+        flags: {}
+        actorId: ixLhv6Uoi1eq6kQY
+        hidden: false
+        sort: 4
+        shape: 4
+        level: defaultLevel0000
+        _id: AQ2l320aS6Jm5Rh2
+        delta: null
+        x: 800
+        'y': 900
+        elevation: 0
+        locked: false
+        _movementHistory: []
+        _regions: []
+    levels:
+      - _id: defaultLevel0000
+        name: Level
+        elevation:
+          bottom: 0
+          top: 20
+        background:
+          color: '#999999'
+          src: worlds/au-nom-de-la-horde-cof2/assets/images/battlemaps/coa-battlemap-attaque-centaure.png
+          tint: '#ffffff'
+          alphaThreshold: 0.75
+        foreground:
+          src: null
+          tint: '#ffffff'
+          alphaThreshold: 0.75
+        fog:
+          src: null
+        textures:
+          anchorX: 0.5
+          anchorY: 0.5
+          offsetX: 0
+          offsetY: 0
+          fit: fill
+          scaleX: 1
+          scaleY: 1
+          rotation: 0
+        visibility:
+          levels: []
+        sort: 0
+        flags: {}
+    lights: []
+    notes: []
+    sounds: []
+    regions: []
+    tiles:
+      - texture:
+          src: worlds/au-nom-de-la-horde-cof2/assets/elements/horde/kodo/coa-asset-kodo-libre.png
+          anchorX: 0.5
+          anchorY: 0.5
+          scaleX: 1
+          scaleY: 1
+          tint: '#ffffff'
+          fit: fill
+          alphaThreshold: 0.75
+        x: 700
+        'y': 550
+        width: 140
+        height: 300
+        sort: 0
+        elevation: 0
+        levels:
+          - defaultLevel0000
+        alpha: 1
+        restrictions:
+          light: false
+          weather: false
+        occlusion:
+          modes: []
+          alpha: 0
+        video:
+          loop: true
+          autoplay: true
+          volume: 0
+        flags:
+          levels:
+            blockSightMovement: false
+          tile-scroll:
+            enableScroll: false
+            scrollDirection: 0
+            enableRotate: false
+            scrollSpeed: 1
+            repeatx: 1
+            repeaty: 1
+            pivotx: 0.5
+            pivoty: 0.5
+            offsetx: 0
+            offsety: 0
+            parallax: 0
+          tagger:
+            tags: ''
+          betterroofs:
+            brMode: false
+            occlusionLinkId: ''
+            occlusionLinkSource: false
+          fxmaster:
+            restrictsParticles: false
+            restrictsFilters: false
+          monks-active-tiles:
+            active: false
+            record: false
+            restriction: all
+            controlled: all
+            trigger:
+              - enter
+            allowpaused: false
+            usealpha: false
+            pointer: false
+            vision: false
+            pertoken: false
+            minrequired: null
+            cooldown: null
+            chance: 0
+            fileindex: -1
+            actions: []
+            files: []
+        _id: qvJfEItBBO0T4Qel
+        rotation: 0
+        hidden: false
+        locked: false
+        name: ''
+      - texture:
+          src: worlds/au-nom-de-la-horde-cof2/assets/elements/horde/cariole/coa-asset-cariole-renforcee-attache.png
+          anchorX: 0.5
+          anchorY: 0.5
+          scaleX: 1
+          scaleY: 1
+          tint: '#ffffff'
+          fit: fill
+          alphaThreshold: 0.75
+        x: 700
+        'y': 750
+        width: 159
+        height: 125
+        sort: 2
+        elevation: 0
+        levels:
+          - defaultLevel0000
+        alpha: 1
+        restrictions:
+          light: false
+          weather: false
+        occlusion:
+          modes: []
+          alpha: 0
+        video:
+          loop: true
+          autoplay: true
+          volume: 0
+        flags:
+          levels:
+            blockSightMovement: false
+          tile-scroll:
+            enableScroll: false
+            scrollDirection: 0
+            enableRotate: false
+            scrollSpeed: 1
+            repeatx: 1
+            repeaty: 1
+            pivotx: 0.5
+            pivoty: 0.5
+            offsetx: 0
+            offsety: 0
+            parallax: 0
+          tagger:
+            tags: ''
+          betterroofs:
+            brMode: false
+            occlusionLinkId: ''
+            occlusionLinkSource: false
+          fxmaster:
+            restrictsParticles: false
+            restrictsFilters: false
+          monks-active-tiles:
+            active: false
+            record: false
+            restriction: all
+            controlled: all
+            trigger:
+              - enter
+            allowpaused: false
+            usealpha: false
+            pointer: false
+            vision: false
+            pertoken: false
+            minrequired: null
+            cooldown: null
+            chance: 0
+            fileindex: -1
+            actions: []
+            files: []
+        _id: 10NBV12jb72KJSS0
+        rotation: 0
+        hidden: false
+        locked: false
+        name: ''
+      - texture:
+          scaleX: 1
+          scaleY: 1
+          anchorX: 0.5
+          anchorY: 0.5
+          src: worlds/au-nom-de-la-horde-cof2/assets/elements/horde/kodo/coa-asset-kodo-lourd.png
+          tint: '#ffffff'
+          fit: fill
+          alphaThreshold: 0.75
+        width: 84
+        height: 175
+        x: 1750
+        'y': 825
+        rotation: 110
+        elevation: 0
+        sort: 3
+        levels:
+          - defaultLevel0000
+        alpha: 1
+        restrictions:
+          light: false
+          weather: false
+        occlusion:
+          modes: []
+          alpha: 0
+        video:
+          loop: true
+          autoplay: true
+          volume: 0
+        flags:
+          multi-token-edit:
+            links:
+              - id: LWTE7e7xfSRvDnqz
+                type: 0
+                label: S_LINK
+          levels:
+            blockSightMovement: false
+          tile-scroll:
+            enableScroll: false
+            scrollDirection: 0
+            enableRotate: false
+            scrollSpeed: 1
+            repeatx: 1
+            repeaty: 1
+            pivotx: 0.5
+            pivoty: 0.5
+            offsetx: 0
+            offsety: 0
+            parallax: 0
+          tagger:
+            tags: ''
+          betterroofs:
+            brMode: false
+            occlusionLinkId: ''
+            occlusionLinkSource: false
+          fxmaster:
+            restrictsParticles: false
+            restrictsFilters: false
+          monks-active-tiles:
+            active: false
+            record: false
+            restriction: all
+            controlled: all
+            trigger:
+              - enter
+            allowpaused: false
+            usealpha: false
+            pointer: false
+            vision: false
+            pertoken: false
+            minrequired: null
+            cooldown: null
+            chance: 0
+            fileindex: -1
+            actions: []
+            files: []
+        _id: Q2PwRlV24BXtbHsK
+        hidden: false
+        locked: false
+        name: ''
+      - texture:
+          scaleX: 1
+          scaleY: 1
+          anchorX: 0.5
+          anchorY: 0.5
+          src: worlds/au-nom-de-la-horde-cof2/assets/elements/horde/cariole/coa-asset-cariole-vide.png
+          tint: '#ffffff'
+          fit: fill
+          alphaThreshold: 0.75
+        width: 98
+        height: 225
+        x: 1826
+        'y': 852
+        rotation: 110
+        elevation: 0
+        sort: 4
+        levels:
+          - defaultLevel0000
+        alpha: 1
+        restrictions:
+          light: false
+          weather: false
+        occlusion:
+          modes: []
+          alpha: 0
+        video:
+          loop: true
+          autoplay: true
+          volume: 0
+        flags:
+          multi-token-edit:
+            links:
+              - id: LWTE7e7xfSRvDnqz
+                type: 0
+                label: S_LINK
+          levels:
+            blockSightMovement: false
+          tile-scroll:
+            enableScroll: false
+            scrollDirection: 0
+            enableRotate: false
+            scrollSpeed: 1
+            repeatx: 1
+            repeaty: 1
+            pivotx: 0.5
+            pivoty: 0.5
+            offsetx: 0
+            offsety: 0
+            parallax: 0
+          tagger:
+            tags: ''
+          betterroofs:
+            brMode: false
+            occlusionLinkId: ''
+            occlusionLinkSource: false
+          fxmaster:
+            restrictsParticles: false
+            restrictsFilters: false
+          monks-active-tiles:
+            active: false
+            record: false
+            restriction: all
+            controlled: all
+            trigger:
+              - enter
+            allowpaused: false
+            usealpha: false
+            pointer: false
+            vision: false
+            pertoken: false
+            minrequired: null
+            cooldown: null
+            chance: 0
+            fileindex: -1
+            actions: []
+            files: []
+        _id: GEwEk6YPhVo19M9j
+        hidden: false
+        locked: false
+        name: ''
+      - texture:
+          scaleX: 1
+          scaleY: 1
+          anchorX: 0.5
+          anchorY: 0.5
+          src: worlds/au-nom-de-la-horde-cof2/assets/elements/horde/foreuse/coa-asset-foreuse-bachee-sanglee-dessus.png
+          tint: '#ffffff'
+          fit: fill
+          alphaThreshold: 0.75
+        width: 75
+        height: 75
+        x: 1867
+        'y': 866
+        rotation: 20
+        elevation: 0
+        sort: 5
+        levels:
+          - defaultLevel0000
+        alpha: 1
+        restrictions:
+          light: false
+          weather: false
+        occlusion:
+          modes: []
+          alpha: 0
+        video:
+          loop: true
+          autoplay: true
+          volume: 0
+        flags:
+          multi-token-edit:
+            links:
+              - id: LWTE7e7xfSRvDnqz
+                type: 0
+                label: S_LINK
+          levels:
+            blockSightMovement: false
+          tile-scroll:
+            enableScroll: false
+            scrollDirection: 0
+            enableRotate: false
+            scrollSpeed: 1
+            repeatx: 1
+            repeaty: 1
+            pivotx: 0.5
+            pivoty: 0.5
+            offsetx: 0
+            offsety: 0
+            parallax: 0
+          tagger:
+            tags: ''
+          betterroofs:
+            brMode: false
+            occlusionLinkId: ''
+            occlusionLinkSource: false
+          fxmaster:
+            restrictsParticles: false
+            restrictsFilters: false
+          monks-active-tiles:
+            active: false
+            record: false
+            restriction: all
+            controlled: all
+            trigger:
+              - enter
+            allowpaused: false
+            usealpha: false
+            pointer: false
+            vision: false
+            pertoken: false
+            minrequired: null
+            cooldown: null
+            chance: 0
+            fileindex: -1
+            actions: []
+            files: []
+        _id: rZ1InC6coJBNGaRK
+        hidden: false
+        locked: false
+        name: ''
+      - texture:
+          scaleX: 1
+          scaleY: 1
+          anchorX: 0.5
+          anchorY: 0.5
+          src: worlds/au-nom-de-la-horde-cof2/assets/elements/horde/kodo/coa-asset-kodo.png
+          tint: '#ffffff'
+          fit: fill
+          alphaThreshold: 0.75
+        width: 81
+        height: 175
+        x: 1425
+        'y': 750
+        rotation: 105
+        elevation: 0
+        sort: 6
+        levels:
+          - defaultLevel0000
+        alpha: 1
+        restrictions:
+          light: false
+          weather: false
+        occlusion:
+          modes: []
+          alpha: 0
+        video:
+          loop: true
+          autoplay: true
+          volume: 0
+        flags:
+          multi-token-edit:
+            links:
+              - id: KZwFV5mzJDbw0L4v
+                type: 0
+                label: S_LINK
+          levels:
+            blockSightMovement: false
+          tile-scroll:
+            enableScroll: false
+            scrollDirection: 0
+            enableRotate: false
+            scrollSpeed: 1
+            repeatx: 1
+            repeaty: 1
+            pivotx: 0.5
+            pivoty: 0.5
+            offsetx: 0
+            offsety: 0
+            parallax: 0
+          tagger:
+            tags: ''
+          betterroofs:
+            brMode: false
+            occlusionLinkId: ''
+            occlusionLinkSource: false
+          fxmaster:
+            restrictsParticles: false
+            restrictsFilters: false
+          monks-active-tiles:
+            active: false
+            record: false
+            restriction: all
+            controlled: all
+            trigger:
+              - enter
+            allowpaused: false
+            usealpha: false
+            pointer: false
+            vision: false
+            pertoken: false
+            minrequired: null
+            cooldown: null
+            chance: 0
+            fileindex: -1
+            actions: []
+            files: []
+        _id: UUDzFwBIsnFmf3yY
+        hidden: false
+        locked: false
+        name: ''
+      - texture:
+          scaleX: 1
+          scaleY: 1
+          anchorX: 0.5
+          anchorY: 0.5
+          src: worlds/au-nom-de-la-horde-cof2/assets/elements/horde/cariole/coa-asset-cariole-remplie.png
+          tint: '#ffffff'
+          fit: fill
+          alphaThreshold: 0.75
+        width: 119
+        height: 250
+        x: 1520
+        'y': 780
+        rotation: 105
+        elevation: 0
+        sort: 7
+        levels:
+          - defaultLevel0000
+        alpha: 1
+        restrictions:
+          light: false
+          weather: false
+        occlusion:
+          modes: []
+          alpha: 0
+        video:
+          loop: true
+          autoplay: true
+          volume: 0
+        flags:
+          multi-token-edit:
+            links:
+              - id: KZwFV5mzJDbw0L4v
+                type: 0
+                label: S_LINK
+          levels:
+            blockSightMovement: false
+          tile-scroll:
+            enableScroll: false
+            scrollDirection: 0
+            enableRotate: false
+            scrollSpeed: 1
+            repeatx: 1
+            repeaty: 1
+            pivotx: 0.5
+            pivoty: 0.5
+            offsetx: 0
+            offsety: 0
+            parallax: 0
+          tagger: {}
+          betterroofs:
+            brMode: false
+            occlusionLinkId: ''
+            occlusionLinkSource: false
+          fxmaster:
+            restrictsParticles: false
+            restrictsFilters: false
+          monks-active-tiles:
+            active: false
+            record: false
+            restriction: all
+            controlled: all
+            trigger:
+              - enter
+            allowpaused: false
+            usealpha: false
+            pointer: false
+            vision: false
+            pertoken: false
+            minrequired: null
+            cooldown: null
+            chance: 0
+            fileindex: 0
+            actions: []
+            files: []
+        _id: Nbjj7ZjSYiMBhf9F
+        hidden: false
+        locked: false
+        name: ''
+    walls: []
+    playlist: null
+    playlistSound: null
+    journal: CGTq9fPzdD50Sw5y
+    journalEntryPage: null
+    weather: ''
+    ownership:
+      default: 0
+    flags:
+      multi-token-edit:
+        blackBars: false
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.warbound-campaign-content.scenes.Scene.uzphzarC0uT2jRX9
+      duplicateSource: null
+      exportSource: null
+    navName: ''
+    navOrder: 0
+    sort: 100000
+    active: false
+tables: []
+macros: []
+cards: []
+playlists: []
+folders:
+  - type: JournalEntry
+    folder: kOBYmenw1N0X0CpB
+    name: Locations
+    color: null
+    sorting: a
+    _id: lLJCHw56zfuvcGU2
+    description: ''
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+  - type: JournalEntry
+    folder: Y6crXMhIOMT8WeP1
+    name: Durotar
+    color: null
+    sorting: a
+    _id: rRMz6Fz3s0DtlvRh
+    description: ''
+    sort: 200000
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+  - name: Campaign Codex - Factions
+    type: JournalEntry
+    color: '#634c1b'
+    flags:
+      campaign-codex:
+        type: tag
+        autoOrganize: true
+    _id: bBPH69TCvmfaHfFN
+    description: ''
+    folder: null
+    sorting: a
+    sort: 0
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+  - name: Campaign Codex - NPCs
+    type: JournalEntry
+    color: '#634c1b'
+    flags:
+      campaign-codex:
+        type: npc
+        autoOrganize: true
+    _id: Y6crXMhIOMT8WeP1
+    description: ''
+    folder: null
+    sorting: a
+    sort: 0
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+  - type: JournalEntry
+    folder: rRMz6Fz3s0DtlvRh
+    name: Convoi
+    color: null
+    sorting: a
+    _id: 8qMnyaXOcCBjJuHR
+    description: ''
+    sort: 100000
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+  - _id: 597f761006633d7f
+    name: Regions
+    folder: null
+    type: JournalEntry
+    description: ''
+    sorting: a
+    sort: 100000
+    color: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+  - name: Campaign Codex - Regions
+    type: JournalEntry
+    color: '#634c1b'
+    flags:
+      campaign-codex:
+        type: region
+        autoOrganize: true
+    _id: MRMbQgtd3gk5THjs
+    description: ''
+    folder: null
+    sorting: a
+    sort: 0
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+  - type: JournalEntry
+    folder: 2kVQ3G9JQyLV7pgU
+    name: Durotar
+    color: null
+    sorting: m
+    _id: TQmniw946i6UEp4j
+    description: ''
+    sort: 100000
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+  - type: JournalEntry
+    folder: ZpsDpX63zBzFzdTU
+    name: Mine de Roche-Sèche
+    color: null
+    sorting: a
+    _id: nt0VsRVzNJtGG9l1
+    description: ''
+    sort: 100000
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+  - type: JournalEntry
+    folder: bBPH69TCvmfaHfFN
+    name: Durotar
+    color: null
+    sorting: a
+    _id: Disoyw7NaOBKNvXs
+    description: ''
+    sort: 100000
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+  - type: JournalEntry
+    folder: rRMz6Fz3s0DtlvRh
+    name: Mine de Roche-Sèche
+    color: null
+    sorting: a
+    _id: jQ0s3XzSgSmFegf1
+    description: ''
+    sort: 200000
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+  - type: JournalEntry
+    folder: TQmniw946i6UEp4j
+    name: Mine de Roche-Sèche
+    color: null
+    sorting: a
+    _id: kOBYmenw1N0X0CpB
+    description: ''
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+  - type: JournalEntry
+    folder: m5EUXmvxQIp0rlpP
+    name: Durotar
+    color: null
+    sorting: a
+    _id: FQINd4Ed3FVDISHJ
+    description: ''
+    sort: 100000
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+  - type: JournalEntry
+    folder: n9TSZAe9ySCS8W5E
+    name: Scénarios
+    color: null
+    sorting: a
+    _id: V6StOMcb7JTQqvWe
+    description: ''
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+  - type: JournalEntry
+    folder: null
+    name: Tranchecolline
+    color: null
+    sorting: a
+    _id: WNG1lc6wLu3V377z
+    description: ''
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+  - type: JournalEntry
+    folder: null
+    name: Sc1 — Le convoi de Mâche-Roc
+    color: '#539717'
+    sorting: a
+    _id: azWtxXBLHOWVMAw0
+    description: ''
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+  - type: Scene
+    folder: VBMvmB8bmcu5YOsE
+    name: Scénario 1
+    color: null
+    sorting: a
+    _id: mFjmSR0rCp0W3bgK
+    description: ''
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.9
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+_id: Uum4Wr0GLgOqILg4
+folder: null
+flags: {}
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789904404560
+  modifiedTime: 1789905366800
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+sort: 0
+_key: '!adventures!Uum4Wr0GLgOqILg4'

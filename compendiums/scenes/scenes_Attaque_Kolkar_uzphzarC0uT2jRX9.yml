@@ -1,10 +1,8 @@
-folder: 4WEwbV3g4guuhMgf
+folder: mFjmSR0rCp0W3bgK
 name: Attaque Kolkar
 _id: uzphzarC0uT2jRX9
-active: false
-navigation: true
-navOrder: 0
-thumb: worlds/au-nom-de-la-horde/assets/scenes/thumb-e1bI3uXwTXrrhiwrR_B3Lg.webp
+navigation: false
+thumb: worlds/au-nom-de-la-horde-cof2/assets/scenes/thumb-H6Wtj-IHLSuyxJtk_vQA8Q.webp
 width: 1672
 height: 941
 padding: 0.25
@@ -547,7 +545,7 @@ sounds: []
 regions: []
 tiles:
   - texture:
-      src: worlds/au-nom-de-la-horde/assets/elements/horde/kodo/coa-asset-kodo-libre.png
+      src: worlds/au-nom-de-la-horde-cof2/assets/elements/horde/kodo/coa-asset-kodo-libre.png
       anchorX: 0.5
       anchorY: 0.5
       scaleX: 1
@@ -574,14 +572,56 @@ tiles:
       loop: true
       autoplay: true
       volume: 0
-    flags: {}
+    flags:
+      levels:
+        blockSightMovement: false
+      tile-scroll:
+        enableScroll: false
+        scrollDirection: 0
+        enableRotate: false
+        scrollSpeed: 1
+        repeatx: 1
+        repeaty: 1
+        pivotx: 0.5
+        pivoty: 0.5
+        offsetx: 0
+        offsety: 0
+        parallax: 0
+      tagger:
+        tags: ''
+      betterroofs:
+        brMode: false
+        occlusionLinkId: ''
+        occlusionLinkSource: false
+      fxmaster:
+        restrictsParticles: false
+        restrictsFilters: false
+      monks-active-tiles:
+        active: false
+        record: false
+        restriction: all
+        controlled: all
+        trigger:
+          - enter
+        allowpaused: false
+        usealpha: false
+        pointer: false
+        vision: false
+        pertoken: false
+        minrequired: null
+        cooldown: null
+        chance: 0
+        fileindex: -1
+        actions: []
+        files: []
     _id: qvJfEItBBO0T4Qel
     rotation: 0
     hidden: false
     locked: false
+    name: ''
     _key: '!scenes.tiles!uzphzarC0uT2jRX9.qvJfEItBBO0T4Qel'
   - texture:
-      src: worlds/au-nom-de-la-horde/assets/elements/horde/cariole/coa-asset-cariole-renforcee-attache.png
+      src: worlds/au-nom-de-la-horde-cof2/assets/elements/horde/cariole/coa-asset-cariole-renforcee-attache.png
       anchorX: 0.5
       anchorY: 0.5
       scaleX: 1
@@ -608,18 +648,60 @@ tiles:
       loop: true
       autoplay: true
       volume: 0
-    flags: {}
+    flags:
+      levels:
+        blockSightMovement: false
+      tile-scroll:
+        enableScroll: false
+        scrollDirection: 0
+        enableRotate: false
+        scrollSpeed: 1
+        repeatx: 1
+        repeaty: 1
+        pivotx: 0.5
+        pivoty: 0.5
+        offsetx: 0
+        offsety: 0
+        parallax: 0
+      tagger:
+        tags: ''
+      betterroofs:
+        brMode: false
+        occlusionLinkId: ''
+        occlusionLinkSource: false
+      fxmaster:
+        restrictsParticles: false
+        restrictsFilters: false
+      monks-active-tiles:
+        active: false
+        record: false
+        restriction: all
+        controlled: all
+        trigger:
+          - enter
+        allowpaused: false
+        usealpha: false
+        pointer: false
+        vision: false
+        pertoken: false
+        minrequired: null
+        cooldown: null
+        chance: 0
+        fileindex: -1
+        actions: []
+        files: []
     _id: 10NBV12jb72KJSS0
     rotation: 0
     hidden: false
     locked: false
+    name: ''
     _key: '!scenes.tiles!uzphzarC0uT2jRX9.10NBV12jb72KJSS0'
   - texture:
       scaleX: 1
       scaleY: 1
       anchorX: 0.5
       anchorY: 0.5
-      src: worlds/au-nom-de-la-horde/assets/elements/horde/kodo/coa-asset-kodo-lourd.png
+      src: worlds/au-nom-de-la-horde-cof2/assets/elements/horde/kodo/coa-asset-kodo-lourd.png
       tint: '#ffffff'
       fit: fill
       alphaThreshold: 0.75
@@ -649,6 +731,47 @@ tiles:
           - id: LWTE7e7xfSRvDnqz
             type: 0
             label: S_LINK
+      levels:
+        blockSightMovement: false
+      tile-scroll:
+        enableScroll: false
+        scrollDirection: 0
+        enableRotate: false
+        scrollSpeed: 1
+        repeatx: 1
+        repeaty: 1
+        pivotx: 0.5
+        pivoty: 0.5
+        offsetx: 0
+        offsety: 0
+        parallax: 0
+      tagger:
+        tags: ''
+      betterroofs:
+        brMode: false
+        occlusionLinkId: ''
+        occlusionLinkSource: false
+      fxmaster:
+        restrictsParticles: false
+        restrictsFilters: false
+      monks-active-tiles:
+        active: false
+        record: false
+        restriction: all
+        controlled: all
+        trigger:
+          - enter
+        allowpaused: false
+        usealpha: false
+        pointer: false
+        vision: false
+        pertoken: false
+        minrequired: null
+        cooldown: null
+        chance: 0
+        fileindex: -1
+        actions: []
+        files: []
     _id: Q2PwRlV24BXtbHsK
     hidden: false
     locked: false
@@ -659,7 +782,7 @@ tiles:
       scaleY: 1
       anchorX: 0.5
       anchorY: 0.5
-      src: worlds/au-nom-de-la-horde/assets/elements/horde/cariole/coa-asset-cariole-vide.png
+      src: worlds/au-nom-de-la-horde-cof2/assets/elements/horde/cariole/coa-asset-cariole-vide.png
       tint: '#ffffff'
       fit: fill
       alphaThreshold: 0.75
@@ -689,16 +812,58 @@ tiles:
           - id: LWTE7e7xfSRvDnqz
             type: 0
             label: S_LINK
+      levels:
+        blockSightMovement: false
+      tile-scroll:
+        enableScroll: false
+        scrollDirection: 0
+        enableRotate: false
+        scrollSpeed: 1
+        repeatx: 1
+        repeaty: 1
+        pivotx: 0.5
+        pivoty: 0.5
+        offsetx: 0
+        offsety: 0
+        parallax: 0
+      tagger:
+        tags: ''
+      betterroofs:
+        brMode: false
+        occlusionLinkId: ''
+        occlusionLinkSource: false
+      fxmaster:
+        restrictsParticles: false
+        restrictsFilters: false
+      monks-active-tiles:
+        active: false
+        record: false
+        restriction: all
+        controlled: all
+        trigger:
+          - enter
+        allowpaused: false
+        usealpha: false
+        pointer: false
+        vision: false
+        pertoken: false
+        minrequired: null
+        cooldown: null
+        chance: 0
+        fileindex: -1
+        actions: []
+        files: []
     _id: GEwEk6YPhVo19M9j
     hidden: false
     locked: false
+    name: ''
     _key: '!scenes.tiles!uzphzarC0uT2jRX9.GEwEk6YPhVo19M9j'
   - texture:
       scaleX: 1
       scaleY: 1
       anchorX: 0.5
       anchorY: 0.5
-      src: worlds/au-nom-de-la-horde/assets/elements/horde/foreuse/coa-asset-foreuse-bachee-sanglee-dessus.png
+      src: worlds/au-nom-de-la-horde-cof2/assets/elements/horde/foreuse/coa-asset-foreuse-bachee-sanglee-dessus.png
       tint: '#ffffff'
       fit: fill
       alphaThreshold: 0.75
@@ -728,6 +893,47 @@ tiles:
           - id: LWTE7e7xfSRvDnqz
             type: 0
             label: S_LINK
+      levels:
+        blockSightMovement: false
+      tile-scroll:
+        enableScroll: false
+        scrollDirection: 0
+        enableRotate: false
+        scrollSpeed: 1
+        repeatx: 1
+        repeaty: 1
+        pivotx: 0.5
+        pivoty: 0.5
+        offsetx: 0
+        offsety: 0
+        parallax: 0
+      tagger:
+        tags: ''
+      betterroofs:
+        brMode: false
+        occlusionLinkId: ''
+        occlusionLinkSource: false
+      fxmaster:
+        restrictsParticles: false
+        restrictsFilters: false
+      monks-active-tiles:
+        active: false
+        record: false
+        restriction: all
+        controlled: all
+        trigger:
+          - enter
+        allowpaused: false
+        usealpha: false
+        pointer: false
+        vision: false
+        pertoken: false
+        minrequired: null
+        cooldown: null
+        chance: 0
+        fileindex: -1
+        actions: []
+        files: []
     _id: rZ1InC6coJBNGaRK
     hidden: false
     locked: false
@@ -738,7 +944,7 @@ tiles:
       scaleY: 1
       anchorX: 0.5
       anchorY: 0.5
-      src: worlds/au-nom-de-la-horde/assets/elements/horde/kodo/coa-asset-kodo.png
+      src: worlds/au-nom-de-la-horde-cof2/assets/elements/horde/kodo/coa-asset-kodo.png
       tint: '#ffffff'
       fit: fill
       alphaThreshold: 0.75
@@ -768,6 +974,47 @@ tiles:
           - id: KZwFV5mzJDbw0L4v
             type: 0
             label: S_LINK
+      levels:
+        blockSightMovement: false
+      tile-scroll:
+        enableScroll: false
+        scrollDirection: 0
+        enableRotate: false
+        scrollSpeed: 1
+        repeatx: 1
+        repeaty: 1
+        pivotx: 0.5
+        pivoty: 0.5
+        offsetx: 0
+        offsety: 0
+        parallax: 0
+      tagger:
+        tags: ''
+      betterroofs:
+        brMode: false
+        occlusionLinkId: ''
+        occlusionLinkSource: false
+      fxmaster:
+        restrictsParticles: false
+        restrictsFilters: false
+      monks-active-tiles:
+        active: false
+        record: false
+        restriction: all
+        controlled: all
+        trigger:
+          - enter
+        allowpaused: false
+        usealpha: false
+        pointer: false
+        vision: false
+        pertoken: false
+        minrequired: null
+        cooldown: null
+        chance: 0
+        fileindex: -1
+        actions: []
+        files: []
     _id: UUDzFwBIsnFmf3yY
     hidden: false
     locked: false
@@ -778,7 +1025,7 @@ tiles:
       scaleY: 1
       anchorX: 0.5
       anchorY: 0.5
-      src: worlds/au-nom-de-la-horde/assets/elements/horde/cariole/coa-asset-cariole-remplie.png
+      src: worlds/au-nom-de-la-horde-cof2/assets/elements/horde/cariole/coa-asset-cariole-remplie.png
       tint: '#ffffff'
       fit: fill
       alphaThreshold: 0.75
@@ -808,9 +1055,50 @@ tiles:
           - id: KZwFV5mzJDbw0L4v
             type: 0
             label: S_LINK
+      levels:
+        blockSightMovement: false
+      tile-scroll:
+        enableScroll: false
+        scrollDirection: 0
+        enableRotate: false
+        scrollSpeed: 1
+        repeatx: 1
+        repeaty: 1
+        pivotx: 0.5
+        pivoty: 0.5
+        offsetx: 0
+        offsety: 0
+        parallax: 0
+      tagger: {}
+      betterroofs:
+        brMode: false
+        occlusionLinkId: ''
+        occlusionLinkSource: false
+      fxmaster:
+        restrictsParticles: false
+        restrictsFilters: false
+      monks-active-tiles:
+        active: false
+        record: false
+        restriction: all
+        controlled: all
+        trigger:
+          - enter
+        allowpaused: false
+        usealpha: false
+        pointer: false
+        vision: false
+        pertoken: false
+        minrequired: null
+        cooldown: null
+        chance: 0
+        fileindex: 0
+        actions: []
+        files: []
     _id: Nbjj7ZjSYiMBhf9F
     hidden: false
     locked: false
+    name: ''
     _key: '!scenes.tiles!uzphzarC0uT2jRX9.Nbjj7ZjSYiMBhf9F'
 walls: []
 playlist: null
@@ -818,23 +1106,25 @@ playlistSound: null
 journal: CGTq9fPzdD50Sw5y
 journalEntryPage: null
 weather: ''
-sort: 0
 ownership:
   default: 0
-  V0twxN2oKehfUjVd: 3
+  TjbWhMczNyKieD8D: 3
 flags:
   multi-token-edit:
     blackBars: false
 _stats:
   coreVersion: '14.367'
-  systemId: dnd5e
-  systemVersion: 5.3.3
-  createdTime: 1788766272067
-  modifiedTime: 1788766272067
-  lastModifiedBy: V0twxN2oKehfUjVd
-  compendiumSource: null
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789899664055
+  modifiedTime: 1789899664055
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: Compendium.warbound-campaign-content.scenes.Scene.uzphzarC0uT2jRX9
   duplicateSource: null
   exportSource: null
 navName: ''
-templates: []
+active: true
+navOrder: 0
+sort: 100000
 _key: '!scenes!uzphzarC0uT2jRX9'
+templates: []
