@@ -2,13 +2,13 @@
   "name": "warbound",
   "version": "0.1.0",
   "type": "module",
+  "packageManager": "pnpm@11.24.0",
 
   "scripts": {
     "packs:build": "node ./tools/pullYAMLtoLDB.mjs",
     "packs:extract": "node ./tools/pushLDBtoYAML.mjs",
     "packs:migrate-assets": "node ./tools/replaceAssetPaths.mjs",
     "packs:audit": "node ./tools/auditAssets.mjs",
-
     "build": "pnpm packs:audit && pnpm packs:build"
   },
 

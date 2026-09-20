@@ -1,18 +1,14 @@
 name: Create FoundryVTT Module Release
 
 env:
-  # Page du projet
-  project_url: "https://github.com/${{ github.repository }}"
-
-  # URL stable utilisée par Foundry pour vérifier les mises à jour
-  latest_manifest_url: "https://github.com/${{ github.repository }}/releases/latest/download/module.json"
-
-  # ZIP correspondant à cette release précise
-  release_module_url: "https://github.com/${{ github.repository }}/releases/download/${{ github.event.release.tag_name }}/module.zip"
+  PROJECT_URL: "https://github.com/${{ github.repository }}"
+  LATEST_MANIFEST_URL: "https://github.com/${{ github.repository }}/releases/latest/download/module.json"
+  RELEASE_MODULE_URL: "https://github.com/${{ github.repository }}/releases/download/${{ github.event.release.tag_name }}/module.zip"
 
 on:
   release:
-    types: [published]
+    types:
+      - published
 
 jobs:
   build:
@@ -22,18 +18,40 @@ jobs:
       contents: write
 
     steps:
-
       # ------------------------------------------------------------
-      # Checkout
-      # IMPORTANT : lfs: true pour récupérer les vrais .ogg
+      # Checkout du repository
       # ------------------------------------------------------------
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
           lfs: true
 
-      - name: Ensure Git LFS files are downloaded
+      # Sécurité supplémentaire :
+      # on force explicitement la récupération des objets LFS.
+      - name: Pull Git LFS files
         run: git lfs pull
+
+      # ------------------------------------------------------------
+      # Vérification LFS
+      #
+      # Évite de fabriquer un module.zip contenant des pointeurs LFS
+      # à la place des vrais fichiers .ogg.
+      # ------------------------------------------------------------
+      - name: Verify Git LFS files
+        shell: bash
+        run: |
+          POINTERS="$(grep -RIl \
+            '^version https://git-lfs.github.com/spec/v1' \
+            assets/ \
+            || true)"
+
+          if [ -n "$POINTERS" ]; then
+            echo "❌ Des pointeurs Git LFS sont encore présents :"
+            echo "$POINTERS"
+            exit 1
+          fi
+
+          echo "✅ Aucun pointeur Git LFS détecté dans assets/"
 
       # ------------------------------------------------------------
       # Node
@@ -41,15 +59,33 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
-          cache: npm
+          node-version: 22
+          cache: pnpm
 
       # ------------------------------------------------------------
-      # Version
+      # pnpm
       #
-      # Accepte :
-      # v1.0.0
-      # 1.0.0
+      # IMPORTANT :
+      # adapte la version à celle utilisée localement.
+      # Vérifie avec :
+      #
+      # pnpm --version
+      # ------------------------------------------------------------
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      # ------------------------------------------------------------
+      # Dépendances
+      # ------------------------------------------------------------
+      - name: Install Dependencies
+        run: pnpm install --frozen-lockfile
+
+      # ------------------------------------------------------------
+      # Extraction version
+      #
+      # v0.1.0 -> 0.1.0
       # ------------------------------------------------------------
       - name: Extract Version From Tag
         id: version
@@ -60,24 +96,44 @@ jobs:
 
           echo "version=$VERSION" >> "$GITHUB_OUTPUT"
 
-          echo "Release tag : $TAG"
-          echo "Version     : $VERSION"
+          echo "Tag     : $TAG"
+          echo "Version : $VERSION"
 
       # ------------------------------------------------------------
-      # Injecte les informations de release dans module.json
+      # Build
+      #
+      # Ton package.json :
+      #
+      # build =
+      #   pnpm packs:audit
+      #   &&
+      #   pnpm packs:build
+      #
+      # ------------------------------------------------------------
+      - name: Build Module
+        run: pnpm build
+
+      # ------------------------------------------------------------
+      # Manifest de release
+      #
+      # On travaille sur une copie dans le runner.
+      # Rien n'est commité dans main.
       # ------------------------------------------------------------
       - name: Update Module Manifest
         env:
           VERSION: ${{ steps.version.outputs.version }}
-          PROJECT_URL: ${{ env.project_url }}
-          MANIFEST_URL: ${{ env.latest_manifest_url }}
-          DOWNLOAD_URL: ${{ env.release_module_url }}
+          PROJECT_URL: ${{ env.PROJECT_URL }}
+          MANIFEST_URL: ${{ env.LATEST_MANIFEST_URL }}
+          DOWNLOAD_URL: ${{ env.RELEASE_MODULE_URL }}
         run: |
           node <<'NODE'
           const fs = require("fs");
 
           const path = "module.json";
-          const manifest = JSON.parse(fs.readFileSync(path, "utf8"));
+
+          const manifest = JSON.parse(
+            fs.readFileSync(path, "utf8")
+          );
 
           manifest.version = process.env.VERSION;
           manifest.url = process.env.PROJECT_URL;
@@ -89,74 +145,91 @@ jobs:
             JSON.stringify(manifest, null, 2) + "\n"
           );
 
-          console.log("Manifest generated:");
-          console.log(JSON.stringify(manifest, null, 2));
+          console.log("Manifest de release :");
+          console.log(
+            JSON.stringify(manifest, null, 2)
+          );
           NODE
 
       # ------------------------------------------------------------
-      # Dépendances nécessaires aux scripts de build
+      # Validation du manifest
       # ------------------------------------------------------------
-      - name: Install Dependencies
-        run: npm ci
-
-      # ------------------------------------------------------------
-      # Reconstruction des Compendiums Foundry
-      #
-      # IMPORTANT :
-      # remplacer YMLtoLDB par le nom exact de ton script npm
-      # ------------------------------------------------------------
-      - name: Build Foundry Packs
-        run: npm run YMLtoLDB
-
-      # ------------------------------------------------------------
-      # Vérification minimale du manifest
-      # ------------------------------------------------------------
-      - name: Validate Manifest
+      - name: Validate Module Manifest
         run: |
-          node -e "
-            const fs = require('fs');
-            const m = JSON.parse(fs.readFileSync('module.json'));
-            if (!m.id) throw new Error('module.json: missing id');
-            if (!m.version) throw new Error('module.json: missing version');
-            if (!m.manifest) throw new Error('module.json: missing manifest');
-            if (!m.download) throw new Error('module.json: missing download');
-            console.log('module.json OK');
-          "
+          node <<'NODE'
+          const fs = require("fs");
+
+          const manifest = JSON.parse(
+            fs.readFileSync("module.json", "utf8")
+          );
+
+          const required = [
+            "id",
+            "title",
+            "version",
+            "manifest",
+            "download"
+          ];
+
+          for (const key of required) {
+            if (!manifest[key]) {
+              throw new Error(
+                `module.json : champ obligatoire absent : ${key}`
+              );
+            }
+          }
+
+          console.log(
+            `✅ Manifest valide : ${manifest.id} ${manifest.version}`
+          );
+          NODE
 
       # ------------------------------------------------------------
-      # Création de module.zip
+      # Construction du ZIP
       #
-      # Ne mettre ici QUE ce dont Foundry a besoin en production.
+      # On n'embarque QUE le runtime Foundry.
       # ------------------------------------------------------------
       - name: Create Module Archive
         run: |
           zip \
             --recurse-paths \
-            ./module.zip \
+            module.zip \
             module.json \
-            README.md \
+            README-WARBOUND-DA.md \
             assets/ \
+            scripts/ \
+            styles/ \
             packs/
 
       # ------------------------------------------------------------
-      # Contrôle du contenu
+      # Vérification archive
       # ------------------------------------------------------------
-      - name: Show Archive Content
+      - name: Inspect Module Archive
         run: |
-          unzip -l module.zip
+          echo "===== Taille ====="
           ls -lh module.zip
 
+          echo "===== Racine ====="
+          unzip -l module.zip | head -100
+
+          echo "===== module.json ====="
+          unzip -p module.zip module.json
+
       # ------------------------------------------------------------
-      # Ajout des fichiers à la GitHub Release
+      # Upload vers la GitHub Release
       # ------------------------------------------------------------
       - name: Upload Release Files
         uses: ncipollo/release-action@v1
         with:
           allowUpdates: true
+          token: ${{ secrets.GITHUB_TOKEN }}
+
           name: ${{ github.event.release.name }}
+          tag: ${{ github.event.release.tag_name }}
+
           draft: ${{ github.event.release.unpublished }}
           prerelease: ${{ github.event.release.prerelease }}
-          token: ${{ secrets.GITHUB_TOKEN }}
+
           artifacts: "./module.json,./module.zip"
-          tag: ${{ github.event.release.tag_name }}
+
           body: ${{ github.event.release.body }}
