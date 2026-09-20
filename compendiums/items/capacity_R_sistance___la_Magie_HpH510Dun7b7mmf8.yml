@@ -1,7 +1,7 @@
 folder: OxjUEdZfGVR1teeS
 name: Résistance à la Magie
 type: capacity
-img: modules/warbound-campaign-content/assets/images/icons/capacites/cof2-resistance-a-la-magie.png
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/cof2-resistance-a-la-magie.png
 system:
   description: >-
     <p>Le Sin’dorei bénéficie d’un bonus de +2 aux tests effectués directement
@@ -43,9 +43,9 @@ _stats:
   duplicateSource: Item.0Zo1HOUUlZpFR48n
   coreVersion: '14.367'
   systemId: co2
-  systemVersion: 2.3.9
-  createdTime: 1789895784623
-  modifiedTime: 1789895784623
+  systemVersion: 2.3.11
+  createdTime: 1789942549938
+  modifiedTime: 1789942549938
   lastModifiedBy: TjbWhMczNyKieD8D
   exportSource: null
 sort: 200000

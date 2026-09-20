@@ -1,0 +1,114 @@
+folder: sHnHX0QzgZfvDT83
+name: Nuage de poussière
+type: capacity
+img: modules/warbound-campaign-content/assets/images/icons/capacites/rencontres/kolkar/cof2-nuage-de-poussiere-kolkar.png
+_id: OpX8ZwNObpdx1bUS
+system:
+  description: >-
+    <p>Le Manœuvre frappe violemment le sol et soulève un épais nuage de
+    poussière.</p><p dir="auto" data-start="1226" data-end="1357">Toutes les
+    créatures adverses à son contact subissent un <strong data-start="1283"
+    data-end="1356">dé malus à leurs attaques jusqu'au début du prochain tour du
+    Manœuvre</strong>.</p>
+  source: ''
+  origin: Warbound
+  slug: ''
+  gmNotes: >-
+    <p>Cette capacité traduit le <em data-start="1385" data-end="1397">Dust
+    Cloud</em> de WoW sans créer un nouvel état et reste cohérente avec la
+    logique COF2 des dés malus. COF2 privilégie justement la réutilisation de
+    ses mécanismes existants plutôt que la multiplication des états.</p>
+  inGame: ''
+  subtype: ''
+  actionType: m
+  learned: false
+  rank: 1
+  frequency: combat
+  charges:
+    current: 1
+    max: 1
+  properties:
+    spell: false
+  path: null
+  cost: -1
+  manaCost: -1
+  actions:
+    - source: Item.OpX8ZwNObpdx1bUS
+      indice: 0
+      label: ''
+      chatFlavor: ''
+      img: icons/svg/d20-highlight.svg
+      type: melee
+      actionType: none
+      properties:
+        activable: true
+        temporary: false
+        noChargesUsed: false
+        visible: false
+        enabled: false
+        noManaCost: false
+      conditions:
+        - predicate: isOwned
+      modifiers:
+        - type: capacity
+          source: Item.OpX8ZwNObpdx1bUS
+          subtype: malusDice
+          target: melee
+          value: '1'
+          apply: others
+          additionalInfos: Toutes les créatures adverses à son contact
+          choiceGroup: 0
+        - type: capacity
+          source: Item.OpX8ZwNObpdx1bUS
+          subtype: malusDice
+          target: ranged
+          value: '1'
+          apply: others
+          additionalInfos: Toutes les créatures adverses à son contact
+          choiceGroup: 0
+        - type: capacity
+          source: Item.OpX8ZwNObpdx1bUS
+          subtype: malusDice
+          target: magic
+          value: '1'
+          apply: others
+          additionalInfos: Toutes les créatures adverses à son contact
+          choiceGroup: 0
+      resolvers:
+        - type: buffDebuff
+          target:
+            type: multiple
+            number: '0'
+            scope: enemies
+          additionalEffect:
+            active: false
+            applyOn: success
+            statuses: []
+            duration: '0'
+            unit: round
+          bonusDiceAdd: false
+          malusDiceAdd: false
+          skill: {}
+          dmg: {}
+          halfDmgOnSave: true
+          hasAttackSuccessThreshold: false
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+sort: 200000
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.11
+  createdTime: 1789942549953
+  modifiedTime: 1789942549953
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!OpX8ZwNObpdx1bUS'

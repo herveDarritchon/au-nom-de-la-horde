@@ -1,7 +1,7 @@
 folder: 12392vARcaK4Og8D
 name: Maîtrise du lancer
 type: capacity
-img: modules/warbound-campaign-content/assets/images/icons/capacites/maitrise-du-lancer.png
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/maitrise-du-lancer.png
 system:
   description: >-
     <p>Le Troll gagne +1 aux tests d’attaque à distance avec une arme de lancer
@@ -68,9 +68,9 @@ _stats:
   duplicateSource: Item.3hG2ZQ2aJRFcWujA
   coreVersion: '14.367'
   systemId: co2
-  systemVersion: 2.3.9
-  createdTime: 1789895784648
-  modifiedTime: 1789895784648
+  systemVersion: 2.3.11
+  createdTime: 1789942549959
+  modifiedTime: 1789942549959
   lastModifiedBy: TjbWhMczNyKieD8D
   exportSource: null
 sort: 100000

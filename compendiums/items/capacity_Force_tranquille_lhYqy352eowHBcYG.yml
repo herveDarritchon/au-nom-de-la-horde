@@ -1,7 +1,7 @@
 folder: gdfT79CBtZMnsY2Y
 name: Force tranquille
 type: capacity
-img: modules/warbound-campaign-content/assets/images/icons/capacites/coa-force-tranquille.png
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/coa-force-tranquille.png
 system:
   description: >-
     <p>Le Tauren obtient +3 aux tests de FOR lorsqu’il s’agit de soulever,
@@ -91,9 +91,9 @@ _stats:
   duplicateSource: Item.dGKVVeNwI13ZEUqB
   coreVersion: '14.367'
   systemId: co2
-  systemVersion: 2.3.9
-  createdTime: 1789895784647
-  modifiedTime: 1789895784647
+  systemVersion: 2.3.11
+  createdTime: 1789942549959
+  modifiedTime: 1789942549959
   lastModifiedBy: TjbWhMczNyKieD8D
   exportSource: null
 sort: 100000

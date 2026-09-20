@@ -1,0 +1,94 @@
+folder: sHnHX0QzgZfvDT83
+name: Tireur mobile
+type: capacity
+img: modules/warbound-campaign-content/assets/images/icons/capacites/rencontres/kolkar/cof2-tireur-mobile.png
+system:
+  description: >-
+    <p dir="auto" data-start="2745" data-end="2873">L'Estafette peut effectuer
+    une attaque à l'arc puis utiliser immédiatement une <strong
+    data-start="2824" data-end="2872">action de mouvement pour se déplacer de 10
+    m</strong>.</p><p dir="auto" data-start="2875" data-end="2951">Elle ne peut
+    pas utiliser cette capacité si un adversaire est à son contact.</p>
+  source: ''
+  origin: Warbound
+  slug: ''
+  gmNotes: >-
+    <p>C'est la seule petite extrapolation du profil : WoW ne donne à
+    l'Outrunner que <strong data-start="3034" data-end="3043">Shoot</strong>.
+    Elle sert ici à différencier réellement l'Estafette du Manœuvre à la table,
+    sans lui ajouter de magie ou de capacité étrangère au concept.</p>
+  inGame: ''
+  subtype: ''
+  actionType: a
+  learned: false
+  rank: 1
+  frequency: combat
+  charges:
+    current: 2
+    max: 2
+  properties:
+    spell: false
+  path: null
+  cost: -1
+  manaCost: -1
+  actions:
+    - source: Item.OpX8ZwNObpdx1bUS
+      indice: 0
+      label: ''
+      chatFlavor: ''
+      img: icons/svg/d20-highlight.svg
+      type: ranged
+      actionType: a
+      properties:
+        activable: true
+        temporary: false
+        noChargesUsed: false
+        visible: false
+        enabled: false
+        noManaCost: false
+      conditions:
+        - predicate: isLearned
+      resolvers:
+        - type: attack
+          bonusDiceAdd: false
+          malusDiceAdd: false
+          skill:
+            formula: '+3'
+            crit: '20'
+            difficulty: '@cible.def'
+          dmg:
+            formula: 1D6
+          target:
+            type: single
+            scope: enemies
+            number: '0'
+          hasAttackSuccessThreshold: false
+          additionalEffect:
+            active: false
+            applyOn: success
+            statuses: []
+            duration: '0'
+            unit: round
+          halfDmgOnSave: true
+      modifiers: []
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+sort: 150000
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.11
+  createdTime: 1789942549954
+  modifiedTime: 1789942549954
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: Item.OpX8ZwNObpdx1bUS
+  exportSource: null
+_id: nsTcCOL6UajK8HPc
+_key: '!items!nsTcCOL6UajK8HPc'

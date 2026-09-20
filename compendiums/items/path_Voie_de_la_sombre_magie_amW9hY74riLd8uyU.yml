@@ -1,7 +1,7 @@
 folder: vDDmoPzpqFUx9Gy8
 name: Voie de la sombre magie
 type: path
-img: modules/warbound-campaign-content/assets/images/icons/voies/classes/demoniste/cof2-voie-de-la-sombre-magie.png
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/voies/classes/demoniste/cof2-voie-de-la-sombre-magie.png
 system:
   description: ''
   source: ''
@@ -28,9 +28,9 @@ _stats:
   duplicateSource: null
   coreVersion: '14.367'
   systemId: co2
-  systemVersion: 2.3.9
-  createdTime: 1789895789063
-  modifiedTime: 1789895789063
+  systemVersion: 2.3.11
+  createdTime: 1789942488727
+  modifiedTime: 1789942488727
   lastModifiedBy: TjbWhMczNyKieD8D
   exportSource: null
 _id: amW9hY74riLd8uyU

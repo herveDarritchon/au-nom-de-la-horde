@@ -1,7 +1,7 @@
 folder: ZU8jQk7j2jqAuJbV
 name: Elfe de Sang
 type: feature
-img: modules/warbound-campaign-content/assets/images/icons/races/coa-elfe-de-sang.png
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/races/coa-elfe-de-sang.png
 system:
   description: >-
     <blockquote><p><span><strong>« Un Elfe de sang n’a pas cessé d’être un
@@ -39,9 +39,9 @@ flags: {}
 _stats:
   coreVersion: '14.367'
   systemId: co2
-  systemVersion: 2.3.9
-  createdTime: 1789895786816
-  modifiedTime: 1789895786816
+  systemVersion: 2.3.11
+  createdTime: 1789942491801
+  modifiedTime: 1789942491801
   lastModifiedBy: TjbWhMczNyKieD8D
   compendiumSource: null
   duplicateSource: Item.k5hPsJBWpex0nofr

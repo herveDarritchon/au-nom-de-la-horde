@@ -1,7 +1,7 @@
 folder: HeVfqHFnWr9eQGEv
 name: Voie du compagnon animal
 type: path
-img: modules/warbound-campaign-content/assets/images/icons/voies/classes/chasseur/cof2-voie-du-compagnon.png
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/voies/classes/chasseur/cof2-voie-du-compagnon.png
 system:
   description: ''
   source: ''
@@ -28,9 +28,9 @@ _stats:
   duplicateSource: null
   coreVersion: '14.367'
   systemId: co2
-  systemVersion: 2.3.9
-  createdTime: 1789895789061
-  modifiedTime: 1789895789061
+  systemVersion: 2.3.11
+  createdTime: 1789942488724
+  modifiedTime: 1789942488724
   lastModifiedBy: TjbWhMczNyKieD8D
   exportSource: null
 _id: dgwdGeTwbncZq4iW

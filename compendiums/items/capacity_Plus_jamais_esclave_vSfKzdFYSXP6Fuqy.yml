@@ -1,7 +1,7 @@
 folder: BzHSEIGjTKHOsfdC
 name: Plus jamais esclave
 type: capacity
-img: modules/warbound-campaign-content/assets/images/icons/capacites/cof2-plus-jamais-esclave.png
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/cof2-plus-jamais-esclave.png
 system:
   description: >-
     <p>Le Réprouvé obtient un dé bonus aux tests de VOL destinés à résister à la
@@ -92,9 +92,9 @@ _stats:
   duplicateSource: Item.X409OKq03sIz4lGK
   coreVersion: '14.367'
   systemId: co2
-  systemVersion: 2.3.9
-  createdTime: 1789895784643
-  modifiedTime: 1789895784643
+  systemVersion: 2.3.11
+  createdTime: 1789942549958
+  modifiedTime: 1789942549958
   lastModifiedBy: TjbWhMczNyKieD8D
   exportSource: null
 sort: 100000

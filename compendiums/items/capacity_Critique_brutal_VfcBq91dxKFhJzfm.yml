@@ -1,7 +1,7 @@
 folder: UjoYdMeRaKl9Sijf
 name: Critique brutal
 type: capacity
-img: modules/warbound-campaign-content/assets/images/icons/capacites/critique-brutal.png
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/critique-brutal.png
 system:
   description: >-
     <p>Le demi‑orc augmente de 1 point la zone de critique sur une attaque au
@@ -68,9 +68,9 @@ _stats:
   duplicateSource: Item.H7b8ygC4ki6FhJBs
   coreVersion: '14.367'
   systemId: co2
-  systemVersion: 2.3.9
-  createdTime: 1789895784638
-  modifiedTime: 1789895784638
+  systemVersion: 2.3.11
+  createdTime: 1789942549950
+  modifiedTime: 1789942549950
   lastModifiedBy: TjbWhMczNyKieD8D
   exportSource: null
 sort: 300000

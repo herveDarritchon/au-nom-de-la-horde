@@ -1,7 +1,7 @@
 folder: UjoYdMeRaKl9Sijf
 name: Colosse
 type: capacity
-img: modules/warbound-campaign-content/assets/images/icons/capacites/colosse.png
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/colosse.png
 system:
   description: <p>Le demi‑orc augmente ses valeurs de FOR et de CON de +1.</p>
   inGame: >-
@@ -72,9 +72,9 @@ _stats:
   duplicateSource: Item.FtO4XkSpTADTlPra
   coreVersion: '14.367'
   systemId: co2
-  systemVersion: 2.3.9
-  createdTime: 1789895784637
-  modifiedTime: 1789895784637
+  systemVersion: 2.3.11
+  createdTime: 1789942549949
+  modifiedTime: 1789942549949
   lastModifiedBy: TjbWhMczNyKieD8D
   exportSource: null
 sort: 200000

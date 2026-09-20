@@ -1,7 +1,7 @@
 folder: OxjUEdZfGVR1teeS
 name: Torrent arcanique
 type: capacity
-img: modules/warbound-campaign-content/assets/images/icons/capacites/cof2-torrent-arcanique.png
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/cof2-torrent-arcanique.png
 system:
   description: >-
     <p>Le Sin’dorei libère brutalement son énergie arcanique. Tous les
@@ -48,9 +48,9 @@ _stats:
   duplicateSource: Item.HpH510Dun7b7mmf8
   coreVersion: '14.367'
   systemId: co2
-  systemVersion: 2.3.9
-  createdTime: 1789895784625
-  modifiedTime: 1789895784625
+  systemVersion: 2.3.11
+  createdTime: 1789942549940
+  modifiedTime: 1789942549940
   lastModifiedBy: TjbWhMczNyKieD8D
   exportSource: null
 sort: 200000

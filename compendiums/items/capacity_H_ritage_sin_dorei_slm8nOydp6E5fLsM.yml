@@ -1,7 +1,7 @@
 folder: LCsZi9IJ3OYnoq77
 name: Héritage sin'dorei
 type: capacity
-img: modules/warbound-campaign-content/assets/images/icons/capacites/cof2-heritage-sin-dorei.png
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/cof2-heritage-sin-dorei.png
 system:
   description: >-
     <p>Le Sin’dorei augmente définitivement sa VOL de +1 puis choisit
@@ -86,9 +86,9 @@ _stats:
   duplicateSource: Item.mMQZ5e7dkIMY7QZx
   coreVersion: '14.367'
   systemId: co2
-  systemVersion: 2.3.9
-  createdTime: 1789895784627
-  modifiedTime: 1789895784627
+  systemVersion: 2.3.11
+  createdTime: 1789942549941
+  modifiedTime: 1789942549941
   lastModifiedBy: TjbWhMczNyKieD8D
   exportSource: null
 sort: 100000

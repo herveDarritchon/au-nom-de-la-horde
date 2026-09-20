@@ -1,7 +1,7 @@
 folder: gdfT79CBtZMnsY2Y
 name: Enfant des plaines
 type: capacity
-img: modules/warbound-campaign-content/assets/images/icons/capacites/cof2-enfant-des-plaines.png
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/cof2-enfant-des-plaines.png
 system:
   description: >-
     <p>Le Tauren obtient +3 aux tests de PER liés à la vie sauvage : s’orienter,
@@ -87,9 +87,9 @@ _stats:
   duplicateSource: Item.dGKVVeNwI13ZEUqB
   coreVersion: '14.367'
   systemId: co2
-  systemVersion: 2.3.9
-  createdTime: 1789895784647
-  modifiedTime: 1789895784647
+  systemVersion: 2.3.11
+  createdTime: 1789942549958
+  modifiedTime: 1789942549958
   lastModifiedBy: TjbWhMczNyKieD8D
   exportSource: null
 sort: 100000

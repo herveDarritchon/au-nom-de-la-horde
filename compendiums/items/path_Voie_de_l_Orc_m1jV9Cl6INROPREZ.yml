@@ -1,7 +1,7 @@
 folder: iBZXfIsYJ0K1wqMG
 name: Voie de l'Orc
 type: path
-img: modules/warbound-campaign-content/assets/images/icons/voies/voie-de-l-orc.png
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/voies/voie-de-l-orc.png
 system:
   description: >-
     <p>L'orc gagne un bonus de +3 à tous les tests d’intimidation. De plus, dans
@@ -30,9 +30,9 @@ _stats:
   duplicateSource: Item.2VmZsdegNu2e15fp
   coreVersion: '14.367'
   systemId: co2
-  systemVersion: 2.3.9
-  createdTime: 1789895789072
-  modifiedTime: 1789895789072
+  systemVersion: 2.3.11
+  createdTime: 1789942488741
+  modifiedTime: 1789942488741
   lastModifiedBy: TjbWhMczNyKieD8D
   exportSource: null
 sort: 100000

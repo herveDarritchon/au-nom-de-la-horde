@@ -1,7 +1,7 @@
 folder: gdfT79CBtZMnsY2Y
 name: Endurance taurène
 type: capacity
-img: modules/warbound-campaign-content/assets/images/icons/capacites/cof2-endurance-taurene.png
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/cof2-endurance-taurene.png
 system:
   description: <p>Le Tauren gagne +1 PV par niveau.</p>
   inGame: ''
@@ -84,9 +84,9 @@ _stats:
   duplicateSource: Item.jqEPmMDiWWdHBTK4
   coreVersion: '14.367'
   systemId: co2
-  systemVersion: 2.3.9
-  createdTime: 1789895784646
-  modifiedTime: 1789895784646
+  systemVersion: 2.3.11
+  createdTime: 1789942549958
+  modifiedTime: 1789942549958
   lastModifiedBy: TjbWhMczNyKieD8D
   exportSource: null
 sort: 100000

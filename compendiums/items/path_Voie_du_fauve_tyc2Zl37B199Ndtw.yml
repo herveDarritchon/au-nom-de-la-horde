@@ -1,7 +1,7 @@
 folder: Nc47ZdfleFUl6KQr
 name: Voie du fauve
 type: path
-img: modules/warbound-campaign-content/assets/images/icons/voies/classes/druide/cof2-voie-du-fauve.png
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/voies/classes/druide/cof2-voie-du-fauve.png
 system:
   description: >-
     <h3>GÉRER UN COMPAGNON ANIMAL</h3>
@@ -44,9 +44,9 @@ _stats:
   duplicateSource: null
   coreVersion: '14.367'
   systemId: co2
-  systemVersion: 2.3.9
-  createdTime: 1789895789066
-  modifiedTime: 1789895789066
+  systemVersion: 2.3.11
+  createdTime: 1789942488733
+  modifiedTime: 1789942488733
   lastModifiedBy: TjbWhMczNyKieD8D
   exportSource: null
 _id: tyc2Zl37B199Ndtw

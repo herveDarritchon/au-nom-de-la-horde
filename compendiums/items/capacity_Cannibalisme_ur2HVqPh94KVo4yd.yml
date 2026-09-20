@@ -1,7 +1,7 @@
 folder: rMMg5JuaE6hvEj98
 name: Cannibalisme
 type: capacity
-img: modules/warbound-campaign-content/assets/images/icons/capacites/toucher-du-tombeau.png
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/toucher-du-tombeau.png
 system:
   description: >-
     <p>Après 1 minute passée sans interruption au contact du cadavre récent d’un
@@ -47,9 +47,9 @@ _stats:
   duplicateSource: Item.Lp4uLqmy25YRbv6X
   coreVersion: '14.367'
   systemId: co2
-  systemVersion: 2.3.9
-  createdTime: 1789895784641
-  modifiedTime: 1789895784641
+  systemVersion: 2.3.11
+  createdTime: 1789942549955
+  modifiedTime: 1789942549955
   lastModifiedBy: TjbWhMczNyKieD8D
   exportSource: null
 sort: 100000

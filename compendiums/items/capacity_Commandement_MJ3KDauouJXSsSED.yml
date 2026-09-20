@@ -1,7 +1,7 @@
 folder: y5Bi1ofdJcPN7C26
 name: Commandement
 type: capacity
-img: modules/warbound-campaign-content/assets/images/icons/capacites/commandement.png
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/commandement.png
 system:
   description: >-
     <p class="MsoNormal"><span lang="EN-US"
@@ -41,9 +41,9 @@ _stats:
   duplicateSource: Item.1uh8CzK7ojxKJQho
   coreVersion: '14.367'
   systemId: co2
-  systemVersion: 2.3.9
-  createdTime: 1789895784633
-  modifiedTime: 1789895784633
+  systemVersion: 2.3.11
+  createdTime: 1789942549943
+  modifiedTime: 1789942549943
   lastModifiedBy: TjbWhMczNyKieD8D
   exportSource: null
 sort: 200000

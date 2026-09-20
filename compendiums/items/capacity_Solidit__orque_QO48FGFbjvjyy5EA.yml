@@ -1,7 +1,7 @@
 folder: UjoYdMeRaKl9Sijf
 name: Solidité orque
 type: capacity
-img: modules/warbound-campaign-content/assets/images/icons/capacites/solidite-orque.png
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/solidite-orque.png
 system:
   description: >-
     <p>Lorsqu’un effet susceptible d’infliger l’état Étourdi permet normalement
@@ -44,9 +44,9 @@ _stats:
   duplicateSource: Item.Vknb84JVHRnwKiva
   coreVersion: '14.367'
   systemId: co2
-  systemVersion: 2.3.9
-  createdTime: 1789895784640
-  modifiedTime: 1789895784640
+  systemVersion: 2.3.11
+  createdTime: 1789942549952
+  modifiedTime: 1789942549952
   lastModifiedBy: TjbWhMczNyKieD8D
   exportSource: null
 sort: 500000

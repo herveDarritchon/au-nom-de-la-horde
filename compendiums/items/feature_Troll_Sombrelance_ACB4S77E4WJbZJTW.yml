@@ -1,7 +1,7 @@
 folder: ZU8jQk7j2jqAuJbV
 name: Troll Sombrelance
 type: feature
-img: modules/warbound-campaign-content/assets/images/icons/races/coa-troll.png
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/races/coa-troll.png
 _id: ACB4S77E4WJbZJTW
 system:
   description: >-
@@ -38,9 +38,9 @@ flags: {}
 _stats:
   coreVersion: '14.367'
   systemId: co2
-  systemVersion: 2.3.9
-  createdTime: 1789895786820
-  modifiedTime: 1789895786820
+  systemVersion: 2.3.11
+  createdTime: 1789942491816
+  modifiedTime: 1789942491816
   lastModifiedBy: TjbWhMczNyKieD8D
   compendiumSource: null
   duplicateSource: null

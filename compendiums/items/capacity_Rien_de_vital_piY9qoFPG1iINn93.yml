@@ -1,7 +1,7 @@
 folder: BzHSEIGjTKHOsfdC
 name: Rien de vital
 type: capacity
-img: modules/warbound-campaign-content/assets/images/icons/capacites/cof2-rien-de-vital.png
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/cof2-rien-de-vital.png
 system:
   description: >-
     <p>Une fois par combat, lorsqu’une attaque obtient une réussite critique
@@ -90,9 +90,9 @@ _stats:
   duplicateSource: Item.DXEWYHT6pK2cVnlC
   coreVersion: '14.367'
   systemId: co2
-  systemVersion: 2.3.9
-  createdTime: 1789895784644
-  modifiedTime: 1789895784644
+  systemVersion: 2.3.11
+  createdTime: 1789942549958
+  modifiedTime: 1789942549958
   lastModifiedBy: TjbWhMczNyKieD8D
   exportSource: null
 sort: 100000

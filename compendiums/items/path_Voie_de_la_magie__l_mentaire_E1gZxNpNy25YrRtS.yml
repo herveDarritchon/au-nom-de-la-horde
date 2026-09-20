@@ -1,7 +1,7 @@
 folder: ctiSnkkZ8WGZs5Z3
 name: Voie de la magie élémentaire
 type: path
-img: modules/warbound-campaign-content/assets/images/icons/voies/classes/mage/cof2-voie-de-la-magie-elementaire.png
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/voies/classes/mage/cof2-voie-de-la-magie-elementaire.png
 system:
   description: ''
   source: ''
@@ -23,9 +23,9 @@ _stats:
   duplicateSource: null
   coreVersion: '14.367'
   systemId: co2
-  systemVersion: 2.3.9
-  createdTime: 1789895789071
-  modifiedTime: 1789895789071
+  systemVersion: 2.3.11
+  createdTime: 1789942488740
+  modifiedTime: 1789942488740
   lastModifiedBy: TjbWhMczNyKieD8D
   exportSource: null
 _id: E1gZxNpNy25YrRtS

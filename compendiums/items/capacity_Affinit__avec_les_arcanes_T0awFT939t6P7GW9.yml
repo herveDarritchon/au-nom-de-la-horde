@@ -1,7 +1,7 @@
 folder: OxjUEdZfGVR1teeS
 name: Affinité avec les arcanes
 type: capacity
-img: modules/warbound-campaign-content/assets/images/icons/capacites/cof2-affinite-avec-les-arcanes.png
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/cof2-affinite-avec-les-arcanes.png
 system:
   description: >-
     <p>Ponction de mana représente une technique spécifique des Sin’dorei plutôt
@@ -51,9 +51,9 @@ _stats:
   duplicateSource: Item.Lp4uLqmy25YRbv6X
   coreVersion: '14.367'
   systemId: co2
-  systemVersion: 2.3.9
-  createdTime: 1789895784610
-  modifiedTime: 1789895784610
+  systemVersion: 2.3.11
+  createdTime: 1789942549937
+  modifiedTime: 1789942549937
   lastModifiedBy: TjbWhMczNyKieD8D
   exportSource: null
 sort: 100000

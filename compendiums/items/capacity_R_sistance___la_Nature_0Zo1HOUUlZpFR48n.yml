@@ -1,7 +1,7 @@
 folder: yyuEQhhW4jOgg7ig
 name: Résistance à la Nature
 type: capacity
-img: modules/warbound-campaign-content/assets/images/icons/capacites/resistance-de-la-nature.png
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/resistance-de-la-nature.png
 system:
   description: >-
     <p>Le Tauren bénéficie d’un <strong>bonus de +5 aux tests de protection
@@ -51,9 +51,9 @@ _stats:
   duplicateSource: Item.Lp4uLqmy25YRbv6X
   coreVersion: '14.367'
   systemId: co2
-  systemVersion: 2.3.9
-  createdTime: 1789895784646
-  modifiedTime: 1789895784646
+  systemVersion: 2.3.11
+  createdTime: 1789942549958
+  modifiedTime: 1789942549958
   lastModifiedBy: TjbWhMczNyKieD8D
   exportSource: null
 sort: 100000

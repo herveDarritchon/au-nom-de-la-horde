@@ -1,0 +1,20 @@
+type: Actor
+folder: RA6kX1urXEwvf3Lf
+name: Kolkar
+color: null
+sorting: a
+_id: Jdlru5PQWEMbOKh3
+description: ''
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.11
+  createdTime: 1789942239924
+  modifiedTime: 1789942239924
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!Jdlru5PQWEMbOKh3'

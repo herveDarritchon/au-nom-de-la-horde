@@ -1,7 +1,7 @@
 folder: HeVfqHFnWr9eQGEv
 name: Combat à deux armes
 type: path
-img: modules/warbound-campaign-content/assets/images/icons/voies/classes/chasseur/cof2-combat-a-deux-armes.png
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/voies/classes/chasseur/cof2-combat-a-deux-armes.png
 system:
   description: >-
     <p>Les capacités de cette voie nécessitent toutes l’usage d’une arme dans
@@ -34,9 +34,9 @@ _stats:
   duplicateSource: null
   coreVersion: '14.367'
   systemId: co2
-  systemVersion: 2.3.9
-  createdTime: 1789895789060
-  modifiedTime: 1789895789060
+  systemVersion: 2.3.11
+  createdTime: 1789942488721
+  modifiedTime: 1789942488721
   lastModifiedBy: TjbWhMczNyKieD8D
   exportSource: null
 _id: RVocA8CojzU9bH2q

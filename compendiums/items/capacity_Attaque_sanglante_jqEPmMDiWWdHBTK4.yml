@@ -1,7 +1,7 @@
 folder: UjoYdMeRaKl9Sijf
 name: Attaque sanglante
 type: capacity
-img: modules/warbound-campaign-content/assets/images/icons/capacites/attaque-sanglante.png
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/attaque-sanglante.png
 system:
   description: >-
     <p>Le demi‑orc réalise une attaque de contact qui provoque une hémorragie.
@@ -90,9 +90,9 @@ _stats:
   duplicateSource: Item.ARV20A77nXQtF2RI
   coreVersion: '14.367'
   systemId: co2
-  systemVersion: 2.3.9
-  createdTime: 1789895784636
-  modifiedTime: 1789895784636
+  systemVersion: 2.3.11
+  createdTime: 1789942549948
+  modifiedTime: 1789942549948
   lastModifiedBy: TjbWhMczNyKieD8D
   exportSource: null
 sort: 100000

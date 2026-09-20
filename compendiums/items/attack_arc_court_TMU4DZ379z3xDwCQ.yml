@@ -1,0 +1,87 @@
+folder: GeQlbBRZecgaU1Nw
+name: arc court
+type: attack
+img: modules/warbound-campaign-content/assets/images/items/weapons/kolkar/cof2-tranche-sangle-kolkar.png
+system:
+  description: ''
+  source: ''
+  origin: Warbound
+  slug: ''
+  gmNotes: ''
+  subtype: ranged
+  learned: false
+  charges:
+    current: 20
+    max: null
+  properties:
+    spell: false
+    reloadable: true
+  range:
+    value: 30
+    unit: m
+    base: 0
+    ability: null
+    details: null
+    min: null
+    max: null
+    bonuses:
+      sheet: 0
+      effects: 0
+  actions:
+    - source: Item.I4T5Dfk6d2mmkiW2
+      indice: 0
+      label: ''
+      chatFlavor: ''
+      img: icons/svg/d20-highlight.svg
+      type: ranged
+      actionType: a
+      properties:
+        activable: true
+        temporary: false
+        noChargesUsed: false
+        visible: false
+        enabled: false
+        noManaCost: false
+      conditions:
+        - predicate: isEquipped
+      resolvers:
+        - type: attack
+          bonusDiceAdd: false
+          malusDiceAdd: false
+          skill:
+            formula: '+3'
+            crit: '20'
+            difficulty: '@cible.def'
+          dmg:
+            formula: 1d6
+          target:
+            type: none
+            number: '0'
+            scope: all
+          hasAttackSuccessThreshold: false
+          additionalEffect:
+            active: false
+            applyOn: success
+            statuses: []
+            duration: '0'
+            unit: round
+          halfDmgOnSave: true
+      modifiers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.11
+  createdTime: 1789942485809
+  modifiedTime: 1789942485809
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: Item.I4T5Dfk6d2mmkiW2
+  exportSource: null
+_id: TMU4DZ379z3xDwCQ
+_key: '!items!TMU4DZ379z3xDwCQ'

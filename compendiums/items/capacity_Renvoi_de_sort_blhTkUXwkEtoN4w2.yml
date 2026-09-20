@@ -1,7 +1,7 @@
 folder: tisYTFkRzayvw6k2
 name: Renvoi de sort
 type: capacity
-img: modules/warbound-campaign-content/assets/images/icons/capacites/classes/guerrier/cof2-renvoi-de-sort.png
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/classes/guerrier/cof2-renvoi-de-sort.png
 system:
   description: >-
     <p style="text-align:justify">Le guerrier peut décider de renvoyer un sort
@@ -43,9 +43,9 @@ _stats:
   duplicateSource: Item.F8yDQJlvyvSMxCXU
   coreVersion: '14.367'
   systemId: co2
-  systemVersion: 2.3.9
-  createdTime: 1789895784677
-  modifiedTime: 1789895784677
+  systemVersion: 2.3.11
+  createdTime: 1789942549979
+  modifiedTime: 1789942549979
   lastModifiedBy: TjbWhMczNyKieD8D
   exportSource: null
 sort: 87500

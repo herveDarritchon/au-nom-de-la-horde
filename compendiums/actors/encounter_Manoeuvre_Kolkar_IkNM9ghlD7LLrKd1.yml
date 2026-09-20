@@ -1,0 +1,679 @@
+folder: Jdlru5PQWEMbOKh3
+name: Manoeuvre Kolkar
+type: encounter
+img: modules/warbound-campaign-content/assets/images/avatar/kolkar/coa-kolkar-coupe-sangle-illustration.png
+system:
+  abilities:
+    agi:
+      superior: false
+      base: 1
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: '0'
+    con:
+      superior: true
+      base: 2
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: '0'
+    for:
+      superior: false
+      base: 3
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: '0'
+    per:
+      superior: false
+      base: 1
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: '0'
+    cha:
+      superior: false
+      base: -2
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: '0'
+    int:
+      superior: false
+      base: -2
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: '0'
+    vol:
+      superior: false
+      base: -1
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: '0'
+  attributes:
+    movement:
+      base: 10
+      unit: m
+      bonuses:
+        sheet: 0
+        effects: 0
+      ability: null
+      details: null
+      min: null
+      max: null
+      value: null
+    nc: 1
+    hp:
+      base: 15
+      value: 15
+      temp: null
+      max: 0
+      tempmax: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: '0'
+    tempDm: 0
+  combat:
+    init:
+      base: 13
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      value: null
+      formula: '0'
+    def:
+      base: 15
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      value: null
+      formula: '0'
+    dr:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      value: null
+      formula: '0'
+    crit:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      value: null
+      formula: '0'
+    melee:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: '0'
+    ranged:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: '0'
+    magic:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: '0'
+  magic: 0
+  pasteData: ''
+  details:
+    category: living
+    size: medium
+    description:
+      private: ''
+      public: ''
+    notes:
+      private: ''
+      public: ''
+    languages: []
+    properties: ''
+  currentEffects: []
+  wealth:
+    gp:
+      value: 0
+    sp:
+      value: 0
+    cp:
+      value: 0
+  companion:
+    isCompanion: false
+    master: null
+prototypeToken:
+  name: Manoeuvre Kolkar
+  displayName: 20
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: modules/warbound-campaign-content/assets/images/tokens/npcs/kolkar/coa-kolkar-coupe-sangle-token.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  flags:
+    wall-height:
+      tokenHeight: 0
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  depth: 1
+items:
+  - folder: GeQlbBRZecgaU1Nw
+    name: coupe-sangle
+    type: attack
+    img: modules/warbound-campaign-content/assets/images/items/weapons/kolkar/cof2-tranche-sangle-kolkar.png
+    _id: bv4vy2L4UG6TLx4n
+    system:
+      description: ''
+      source: ''
+      origin: ''
+      slug: ''
+      gmNotes: ''
+      subtype: melee
+      learned: false
+      charges: {}
+      properties:
+        spell: false
+        reloadable: false
+      range: null
+      actions:
+        - source: Item.I4T5Dfk6d2mmkiW2
+          indice: 0
+          label: ''
+          chatFlavor: ''
+          img: icons/svg/d20-highlight.svg
+          type: melee
+          actionType: none
+          properties:
+            activable: true
+            temporary: false
+            noChargesUsed: false
+            visible: false
+            enabled: false
+            noManaCost: false
+          conditions:
+            - predicate: isEquipped
+          resolvers:
+            - type: attack
+              bonusDiceAdd: false
+              malusDiceAdd: false
+              skill:
+                formula: '+3'
+                crit: '20'
+                difficulty: '@cible.def'
+              dmg:
+                formula: 1d4+3
+              target:
+                type: none
+                number: '0'
+                scope: all
+              hasAttackSuccessThreshold: false
+              additionalEffect:
+                active: false
+                applyOn: success
+                statuses: []
+                duration: '0'
+                unit: round
+              halfDmgOnSave: true
+          modifiers: []
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+      TjbWhMczNyKieD8D: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.11
+      createdTime: 1789942239963
+      modifiedTime: 1789942239963
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!IkNM9ghlD7LLrKd1.bv4vy2L4UG6TLx4n'
+  - name: Sabots
+    type: attack
+    img: modules/warbound-campaign-content/assets/images/items/weapons/kolkar/cof2-sabots-kolkar.png
+    _id: nTFFTuHDiB6ZfqBB
+    system:
+      description: ''
+      source: ''
+      origin: ''
+      slug: ''
+      gmNotes: ''
+      subtype: melee
+      learned: false
+      charges: {}
+      properties:
+        spell: false
+        reloadable: false
+      range: null
+      actions:
+        - source: Item.4ojdLedcsmpiYZjT
+          indice: 0
+          label: ''
+          chatFlavor: ''
+          img: icons/svg/d20-highlight.svg
+          type: melee
+          actionType: none
+          properties:
+            activable: true
+            temporary: false
+            noChargesUsed: false
+            visible: false
+            enabled: false
+            noManaCost: false
+          conditions:
+            - predicate: isOwned
+          resolvers:
+            - type: attack
+              bonusDiceAdd: false
+              malusDiceAdd: false
+              skill:
+                formula: '+4'
+                crit: '20'
+                difficulty: '@cible.def'
+              dmg:
+                formula: 1D6+3
+              target:
+                type: none
+                number: '0'
+                scope: all
+              hasAttackSuccessThreshold: false
+              additionalEffect:
+                active: false
+                applyOn: success
+                statuses: []
+                duration: '0'
+                unit: round
+              halfDmgOnSave: true
+          modifiers: []
+    effects: []
+    folder: GeQlbBRZecgaU1Nw
+    sort: 100000
+    ownership:
+      default: 0
+      TjbWhMczNyKieD8D: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.11
+      createdTime: 1789942239963
+      modifiedTime: 1789942239963
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!IkNM9ghlD7LLrKd1.nTFFTuHDiB6ZfqBB'
+  - folder: cPDNoeItbSV5jtX2
+    name: Nuage de poussière
+    type: capacity
+    img: modules/warbound-campaign-content/assets/images/icons/capacites/rencontres/kolkar/cof2-nuage-de-poussiere-kolkar.png
+    _id: pLa83pfekCtTBpvL
+    system:
+      description: >-
+        <p>Le Manœuvre frappe violemment le sol et soulève un épais nuage de
+        poussière.</p><p dir="auto" data-start="1226" data-end="1357">Toutes les
+        créatures adverses à son contact subissent un <strong data-start="1283"
+        data-end="1356">dé malus à leurs attaques jusqu'au début du prochain
+        tour du Manœuvre</strong>.</p>
+      source: ''
+      origin: Warbound
+      slug: ''
+      gmNotes: >-
+        <p>Cette capacité traduit le <em data-start="1385" data-end="1397">Dust
+        Cloud</em> de WoW sans créer un nouvel état et reste cohérente avec la
+        logique COF2 des dés malus. COF2 privilégie justement la réutilisation
+        de ses mécanismes existants plutôt que la multiplication des états.</p>
+      inGame: ''
+      subtype: ''
+      actionType: m
+      learned: true
+      rank: 1
+      frequency: combat
+      charges:
+        current: 1
+        max: 1
+      properties:
+        spell: false
+      path: null
+      cost: -1
+      manaCost: -1
+      actions:
+        - source: Actor.IkNM9ghlD7LLrKd1.Item.pLa83pfekCtTBpvL
+          indice: 0
+          label: ''
+          chatFlavor: ''
+          img: icons/svg/d20-highlight.svg
+          type: melee
+          actionType: none
+          properties:
+            activable: true
+            temporary: false
+            noChargesUsed: false
+            visible: false
+            enabled: true
+            noManaCost: false
+          conditions:
+            - predicate: isOwned
+          modifiers:
+            - type: capacity
+              source: Actor.IkNM9ghlD7LLrKd1.Item.pLa83pfekCtTBpvL
+              subtype: malusDice
+              target: melee
+              value: '1'
+              apply: others
+              additionalInfos: Toutes les créatures adverses à son contact
+              choiceGroup: 0
+            - type: capacity
+              source: Actor.IkNM9ghlD7LLrKd1.Item.pLa83pfekCtTBpvL
+              subtype: malusDice
+              target: ranged
+              value: '1'
+              apply: others
+              additionalInfos: Toutes les créatures adverses à son contact
+              choiceGroup: 0
+            - type: capacity
+              source: Actor.IkNM9ghlD7LLrKd1.Item.pLa83pfekCtTBpvL
+              subtype: malusDice
+              target: magic
+              value: '1'
+              apply: others
+              additionalInfos: Toutes les créatures adverses à son contact
+              choiceGroup: 0
+          resolvers:
+            - type: buffDebuff
+              target:
+                type: multiple
+                number: '0'
+                scope: enemies
+              additionalEffect:
+                active: false
+                applyOn: success
+                statuses: []
+                duration: '0'
+                unit: round
+              bonusDiceAdd: false
+              malusDiceAdd: false
+              skill: {}
+              dmg: {}
+              halfDmgOnSave: true
+              hasAttackSuccessThreshold: false
+      allowLinkedCapacity: false
+      linkedCapacity: null
+      parentCapacity: null
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+      TjbWhMczNyKieD8D: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.11
+      createdTime: 1789942239963
+      modifiedTime: 1789942239963
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!IkNM9ghlD7LLrKd1.pLa83pfekCtTBpvL'
+  - folder: cPDNoeItbSV5jtX2
+    name: Charge (13)
+    type: capacity
+    img: modules/warbound-campaign-content/assets/images/icons/capacites/rencontres/kolkar/cof2-charge-kolkar.png
+    system:
+      description: >-
+        <p>La créature parcourt une distance maximale de 20 m et réalise une
+        attaque avec <strong>un dé bonus</strong>. Si l’attaque est réussie, en
+        plus des DM normaux, une victime de taille inférieure ou égale à la
+        créature, doit faire un <strong>test de FOR difficulté 13</strong> ou
+        être <em>renversée</em>. Dans ce cas, la créature piétine (ou embroche)
+        sa victime et les <strong>DM sont doublés</strong>.</p>
+      source: ''
+      origin: ''
+      slug: charge
+      subtype: ''
+      actionType: l
+      learned: true
+      charges:
+        current: null
+        max: null
+      properties:
+        spell: false
+      path: null
+      cost: -1
+      actions:
+        - source: Actor.IkNM9ghlD7LLrKd1.Item.C3xhU91cKC8ffE6U
+          indice: 0
+          label: Dé bonus
+          chatFlavor: ''
+          img: icons/svg/d20-highlight.svg
+          type: buff
+          actionType: none
+          properties:
+            activable: true
+            temporary: true
+            noChargesUsed: false
+            visible: false
+            enabled: true
+            noManaCost: false
+          conditions:
+            - predicate: isOwned
+          modifiers:
+            - type: capacity
+              source: Actor.IkNM9ghlD7LLrKd1.Item.C3xhU91cKC8ffE6U
+              subtype: bonusDice
+              target: melee
+              value: '0'
+              apply: self
+              additionalInfos: ''
+              choiceGroup: 0
+          resolvers: []
+        - source: Actor.IkNM9ghlD7LLrKd1.Item.C3xhU91cKC8ffE6U
+          indice: 1
+          label: Si taille inférieure ou égale
+          chatFlavor: ''
+          img: icons/svg/d20-highlight.svg
+          type: spell
+          actionType: none
+          properties:
+            activable: true
+            temporary: false
+            noChargesUsed: false
+            visible: false
+            enabled: true
+            noManaCost: false
+          conditions:
+            - predicate: isOwned
+          resolvers:
+            - type: save
+              saveAbility: for
+              saveDifficulty: '13'
+              dmg:
+                formula: ''
+              halfDmgOnSave: true
+              target:
+                type: single
+                scope: all
+                number: '0'
+              additionalEffect:
+                active: true
+                applyOn: saveFailure
+                formulaType: damage
+                formula: ''
+                elementType: ''
+                statuses:
+                  - overturned
+                unit: combat
+                duration: '0'
+              bonusDiceAdd: false
+              malusDiceAdd: false
+              skill: {}
+              hasAttackSuccessThreshold: false
+          modifiers: []
+      manaCost: -1
+      inGame: >-
+        <p>La première action activable/désactivable permet d'obtenir le Dé
+        Bonus pour les attaques de contact.</p><p>La deuxième action permet de
+        réaliser le test de sauvegarde de FOR et appliquer le statut Renversé
+        pendant tout le combat si le test est raté. Il faudra supprimer l'Effet
+        Personnalisé sur la feuille de la cible manuellement lorsqu'elle se
+        relève.</p>
+      gmNotes: ''
+      rank: 0
+      frequency: none
+      allowLinkedCapacity: false
+      linkedCapacity: null
+      parentCapacity: null
+    effects: []
+    ownership:
+      default: 0
+      TjbWhMczNyKieD8D: 3
+    flags: {}
+    _stats:
+      compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.xWw0TTUXfKQNeELj
+      duplicateSource: Item.GUPAqgdzYC9H5kwW
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.11
+      createdTime: 1789942239963
+      modifiedTime: 1789942239963
+      lastModifiedBy: TjbWhMczNyKieD8D
+      exportSource: null
+    sort: 100000
+    _id: C3xhU91cKC8ffE6U
+    _key: '!actors.items!IkNM9ghlD7LLrKd1.C3xhU91cKC8ffE6U'
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  campaign-codex:
+    linkedSheets:
+      - name: Manoeuvre - Journal
+        uuid: JournalEntry.C8cRNTPAIDHeSljG
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-encounter.Actor.xoBAF4ep7SIkgBW9
+  duplicateSource: Actor.kGH1Dd6v9xFAbs1U
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.11
+  createdTime: 1789942239963
+  modifiedTime: 1789942239963
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+sort: 100000
+_id: IkNM9ghlD7LLrKd1
+_key: '!actors!IkNM9ghlD7LLrKd1'

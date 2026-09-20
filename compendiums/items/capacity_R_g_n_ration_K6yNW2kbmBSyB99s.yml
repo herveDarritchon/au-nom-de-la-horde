@@ -1,7 +1,7 @@
 folder: VXemtWdksgYw7pWA
 name: Régénération
 type: capacity
-img: modules/warbound-campaign-content/assets/images/icons/capacites/maitrise-arc.png
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/maitrise-arc.png
 system:
   description: >-
     <p>L’organisme des Trolls possède une faculté de régénération
@@ -147,9 +147,9 @@ _stats:
   duplicateSource: Item.3hG2ZQ2aJRFcWujA
   coreVersion: '14.367'
   systemId: co2
-  systemVersion: 2.3.9
-  createdTime: 1789895784649
-  modifiedTime: 1789895784649
+  systemVersion: 2.3.11
+  createdTime: 1789942549960
+  modifiedTime: 1789942549960
   lastModifiedBy: TjbWhMczNyKieD8D
   exportSource: null
 sort: 100000

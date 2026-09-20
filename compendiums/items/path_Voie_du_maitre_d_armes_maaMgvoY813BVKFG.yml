@@ -1,7 +1,7 @@
 folder: jL6KNyDtnGnKfATQ
 name: Voie du maitre d'armes
 type: path
-img: modules/warbound-campaign-content/assets/images/icons/voies/classes/guerrier/cof2-voie-du-maitre-d-armes.png
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/voies/classes/guerrier/cof2-voie-du-maitre-d-armes.png
 system:
   description: ''
   source: ''
@@ -28,9 +28,9 @@ _stats:
   duplicateSource: Item.D9wqmEZZ8J0VlKl5
   coreVersion: '14.367'
   systemId: co2
-  systemVersion: 2.3.9
-  createdTime: 1789895789068
-  modifiedTime: 1789895789068
+  systemVersion: 2.3.11
+  createdTime: 1789942488737
+  modifiedTime: 1789942488737
   lastModifiedBy: TjbWhMczNyKieD8D
   exportSource: null
 sort: 125000

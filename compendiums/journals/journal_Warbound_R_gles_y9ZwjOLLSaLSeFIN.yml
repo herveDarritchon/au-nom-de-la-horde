@@ -1,4 +1,4 @@
-name: SWADE Règles
+name: Warbound Règles
 flags:
   campaign-codex:
     type: ''
@@ -36,9 +36,9 @@ pages:
     _stats:
       coreVersion: '14.367'
       systemId: co2
-      systemVersion: 2.3.9
-      createdTime: 1789330057918
-      modifiedTime: 1789330057918
+      systemVersion: 2.3.11
+      createdTime: 1789942601934
+      modifiedTime: 1789942601934
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -81,9 +81,9 @@ pages:
     _stats:
       coreVersion: '14.367'
       systemId: co2
-      systemVersion: 2.3.9
-      createdTime: 1789330057918
-      modifiedTime: 1789330057918
+      systemVersion: 2.3.11
+      createdTime: 1789942601934
+      modifiedTime: 1789942601934
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -118,9 +118,9 @@ pages:
     _stats:
       coreVersion: '14.367'
       systemId: co2
-      systemVersion: 2.3.9
-      createdTime: 1789330057918
-      modifiedTime: 1789330057918
+      systemVersion: 2.3.11
+      createdTime: 1789942601934
+      modifiedTime: 1789942601934
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -171,9 +171,9 @@ pages:
     _stats:
       coreVersion: '14.367'
       systemId: co2
-      systemVersion: 2.3.9
-      createdTime: 1789330057918
-      modifiedTime: 1789330057918
+      systemVersion: 2.3.11
+      createdTime: 1789942601934
+      modifiedTime: 1789942601934
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -221,9 +221,9 @@ pages:
     _stats:
       coreVersion: '14.367'
       systemId: co2
-      systemVersion: 2.3.9
-      createdTime: 1789330057918
-      modifiedTime: 1789330057918
+      systemVersion: 2.3.11
+      createdTime: 1789942601934
+      modifiedTime: 1789942601934
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -279,9 +279,9 @@ pages:
     _stats:
       coreVersion: '14.367'
       systemId: co2
-      systemVersion: 2.3.9
-      createdTime: 1789330057918
-      modifiedTime: 1789330057918
+      systemVersion: 2.3.11
+      createdTime: 1789942601934
+      modifiedTime: 1789942601934
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -325,9 +325,9 @@ pages:
     _stats:
       coreVersion: '14.367'
       systemId: co2
-      systemVersion: 2.3.9
-      createdTime: 1789330057918
-      modifiedTime: 1789330057918
+      systemVersion: 2.3.11
+      createdTime: 1789942601934
+      modifiedTime: 1789942601934
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -369,9 +369,9 @@ pages:
     _stats:
       coreVersion: '14.367'
       systemId: co2
-      systemVersion: 2.3.9
-      createdTime: 1789330057918
-      modifiedTime: 1789330057918
+      systemVersion: 2.3.11
+      createdTime: 1789942601934
+      modifiedTime: 1789942601934
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -408,9 +408,9 @@ pages:
     _stats:
       coreVersion: '14.367'
       systemId: co2
-      systemVersion: 2.3.9
-      createdTime: 1789330057918
-      modifiedTime: 1789330057918
+      systemVersion: 2.3.11
+      createdTime: 1789942601934
+      modifiedTime: 1789942601934
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -445,9 +445,9 @@ pages:
     _stats:
       coreVersion: '14.367'
       systemId: co2
-      systemVersion: 2.3.9
-      createdTime: 1789330057918
-      modifiedTime: 1789330057918
+      systemVersion: 2.3.11
+      createdTime: 1789942601934
+      modifiedTime: 1789942601934
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -524,9 +524,9 @@ pages:
     _stats:
       coreVersion: '14.367'
       systemId: co2
-      systemVersion: 2.3.9
-      createdTime: 1789330057918
-      modifiedTime: 1789330057918
+      systemVersion: 2.3.11
+      createdTime: 1789942601934
+      modifiedTime: 1789942601934
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -611,9 +611,9 @@ pages:
     _stats:
       coreVersion: '14.367'
       systemId: co2
-      systemVersion: 2.3.9
-      createdTime: 1789330057918
-      modifiedTime: 1789330057918
+      systemVersion: 2.3.11
+      createdTime: 1789942601934
+      modifiedTime: 1789942601934
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -685,9 +685,9 @@ pages:
     _stats:
       coreVersion: '14.367'
       systemId: co2
-      systemVersion: 2.3.9
-      createdTime: 1789330057918
-      modifiedTime: 1789330057918
+      systemVersion: 2.3.11
+      createdTime: 1789942601934
+      modifiedTime: 1789942601934
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -759,9 +759,9 @@ pages:
     _stats:
       coreVersion: '14.367'
       systemId: co2
-      systemVersion: 2.3.9
-      createdTime: 1789330057918
-      modifiedTime: 1789330057918
+      systemVersion: 2.3.11
+      createdTime: 1789942601934
+      modifiedTime: 1789942601934
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -829,30 +829,29 @@ pages:
     _stats:
       coreVersion: '14.367'
       systemId: co2
-      systemVersion: 2.3.9
-      createdTime: 1789330057918
-      modifiedTime: 1789330057918
+      systemVersion: 2.3.11
+      createdTime: 1789942601934
+      modifiedTime: 1789942601934
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
       exportSource: null
     _id: TavR08cwYXSAu4fQ
     _key: '!journal.pages!y9ZwjOLLSaLSeFIN.TavR08cwYXSAu4fQ'
-folder: U6f0Y0LXCS7X5EDL
+folder: T6xUdp4aL1rDQMyb
 categories: []
 ownership:
   default: 0
-  i2MQVvBnWjyhmgzX: 3
   TjbWhMczNyKieD8D: 3
 _stats:
   coreVersion: '14.367'
   systemId: co2
-  systemVersion: 2.3.9
-  createdTime: 1789330057918
-  modifiedTime: 1789330057921
+  systemVersion: 2.3.11
+  createdTime: 1789942601934
+  modifiedTime: 1789942601934
   lastModifiedBy: TjbWhMczNyKieD8D
-  compendiumSource: null
+  compendiumSource: Compendium.warbound-campaign-content.journals.JournalEntry.y9ZwjOLLSaLSeFIN
   duplicateSource: null
   exportSource: null
-sort: 0
+sort: 100000
 _key: '!journal!y9ZwjOLLSaLSeFIN'

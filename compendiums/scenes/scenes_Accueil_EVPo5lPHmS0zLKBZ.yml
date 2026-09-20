@@ -1,0 +1,1822 @@
+name: Accueil
+_id: EVPo5lPHmS0zLKBZ
+navigation: false
+thumb: worlds/au-nom-de-la-horde-cof2/assets/scenes/thumb-X6anEKVwmCCxuecVw5o-vA.webp
+width: 4000
+height: 3000
+padding: 0.25
+shiftX: 0
+shiftY: 0
+initial:
+  x: 3000
+  'y': 2300
+  scale: 0.499
+initialLevel: defaultLevel0000
+grid:
+  type: 0
+  size: 100
+  style: solidLines
+  thickness: 1
+  color: '#000000'
+  alpha: 0.2
+  distance: 5
+  units: ft
+tokenVision: false
+fog:
+  mode: 0
+  colors:
+    explored: null
+    unexplored: null
+environment:
+  darknessLevel: 0
+  darknessLock: false
+  globalLight:
+    enabled: true
+    alpha: 0.5
+    bright: false
+    color: null
+    coloration: 1
+    luminosity: 0
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    darkness:
+      min: 0
+      max: 1
+  cycle: true
+  base:
+    hue: 0
+    intensity: 0
+    luminosity: -0.9
+    saturation: -0.1
+    shadows: 0.2
+  dark:
+    hue: 0.7138888888888889
+    intensity: 0
+    luminosity: -0.25
+    saturation: 0
+    shadows: 0
+transition:
+  type: null
+  duration: 1500
+  activeOnly: false
+drawings:
+  - author: V0twxN2oKehfUjVd
+    x: 1923
+    'y': 2315
+    shape:
+      type: r
+      width: 367
+      height: 71
+      radius: null
+      points: []
+    strokeWidth: 0
+    strokeAlpha: 0
+    fillType: 0
+    text: Règles
+    fontFamily: Morpheus
+    fontSize: 48
+    textColor: '#2a1d08'
+    textAlpha: 0.99
+    flags:
+      multi-token-edit:
+        links:
+          - id: rJEK2FJGXJ5O3LHS
+            type: 1
+            label: S_LINK
+      baileywiki-landing-page:
+        hoverOnly: true
+        outline:
+          width: 12
+          color: '#efd0bf'
+    _id: nbqU79dpvhfq2Orl
+    elevation: 0
+    levels: []
+    sort: 1
+    rotation: 0
+    bezierFactor: 0
+    fillColor: '#cc2866'
+    fillAlpha: 0.5
+    strokeColor: '#cc2866'
+    texture: null
+    hidden: false
+    locked: false
+    interface: false
+    _key: '!scenes.drawings!EVPo5lPHmS0zLKBZ.nbqU79dpvhfq2Orl'
+  - author: V0twxN2oKehfUjVd
+    x: 1864
+    'y': 3113
+    shape:
+      type: r
+      width: 204
+      height: 71
+      radius: null
+      points: []
+    strokeWidth: 0
+    strokeAlpha: 0
+    fillType: 0
+    text: Journal
+    fontFamily: Morpheus
+    fontSize: 48
+    textColor: '#2a1d08'
+    textAlpha: 0.99
+    flags:
+      multi-token-edit:
+        links:
+          - id: AlJvscdnqJ8xsxpD
+            type: 1
+            label: S_LINK
+      baileywiki-landing-page:
+        hoverOnly: true
+        outline:
+          width: 12
+          color: '#efd0bf'
+    _id: FcImMKunB5GHoeCY
+    elevation: 0
+    levels: []
+    sort: 3
+    rotation: 0
+    bezierFactor: 0
+    fillColor: '#cc2866'
+    fillAlpha: 0.5
+    strokeColor: '#cc2866'
+    texture: null
+    hidden: false
+    locked: false
+    interface: false
+    _key: '!scenes.drawings!EVPo5lPHmS0zLKBZ.FcImMKunB5GHoeCY'
+  - author: V0twxN2oKehfUjVd
+    x: 3180
+    'y': 3411
+    shape:
+      type: r
+      width: 278
+      height: 71
+      radius: null
+      points: []
+    strokeWidth: 0
+    strokeAlpha: 0
+    fillType: 0
+    text: Aides deJeu
+    fontFamily: Morpheus
+    fontSize: 48
+    textColor: '#2a1d08'
+    textAlpha: 0.99
+    flags:
+      multi-token-edit:
+        links:
+          - id: POulkntfSnVKUMcJ
+            type: 1
+            label: S_LINK
+      baileywiki-landing-page:
+        hoverOnly: true
+        outline:
+          width: 12
+          color: '#efd0bf'
+    _id: 7n314abrccLmxbD7
+    elevation: 0
+    levels: []
+    sort: 4
+    rotation: 0
+    bezierFactor: 0
+    fillColor: '#cc2866'
+    fillAlpha: 0.5
+    strokeColor: '#cc2866'
+    texture: null
+    hidden: false
+    locked: false
+    interface: false
+    _key: '!scenes.drawings!EVPo5lPHmS0zLKBZ.7n314abrccLmxbD7'
+  - author: V0twxN2oKehfUjVd
+    x: 3830
+    'y': 2233
+    shape:
+      type: r
+      width: 401
+      height: 71
+      radius: null
+      points: []
+    strokeWidth: 0
+    strokeAlpha: 0
+    fillType: 0
+    text: Pistes & Rumeurs
+    fontFamily: Morpheus
+    fontSize: 48
+    textColor: '#2a1d08'
+    textAlpha: 0.99
+    flags:
+      multi-token-edit:
+        links:
+          - id: pCeI7L32gaog808L
+            type: 1
+            label: S_LINK
+      baileywiki-landing-page:
+        hoverOnly: true
+        outline:
+          width: 12
+          color: '#efd0bf'
+    _id: 7UuTaSSCOpKwWAvp
+    elevation: 0
+    levels: []
+    sort: 5
+    rotation: 0
+    bezierFactor: 0
+    fillColor: '#cc2866'
+    fillAlpha: 0.5
+    strokeColor: '#cc2866'
+    texture: null
+    hidden: false
+    locked: false
+    interface: false
+    _key: '!scenes.drawings!EVPo5lPHmS0zLKBZ.7UuTaSSCOpKwWAvp'
+  - author: V0twxN2oKehfUjVd
+    x: 4484
+    'y': 3145
+    shape:
+      type: r
+      width: 190
+      height: 71
+      radius: null
+      points: []
+    strokeWidth: 0
+    strokeAlpha: 0
+    fillType: 0
+    text: Groupe
+    fontFamily: Morpheus
+    fontSize: 48
+    textColor: '#2a1d08'
+    textAlpha: 0.99
+    flags:
+      multi-token-edit:
+        links:
+          - id: J3FJNbKF3VWXacqN
+            type: 1
+            label: S_LINK
+      baileywiki-landing-page:
+        hoverOnly: true
+        outline:
+          width: 12
+          color: '#efd0bf'
+    _id: VXZnBlhfymSvYKmr
+    elevation: 0
+    levels: []
+    sort: 6
+    rotation: 0
+    bezierFactor: 0
+    fillColor: '#cc2866'
+    fillAlpha: 0.5
+    strokeColor: '#cc2866'
+    texture: null
+    hidden: false
+    locked: false
+    interface: false
+    _key: '!scenes.drawings!EVPo5lPHmS0zLKBZ.VXZnBlhfymSvYKmr'
+  - author: V0twxN2oKehfUjVd
+    x: 2778
+    'y': 2141
+    shape:
+      type: r
+      width: 271
+      height: 71
+      radius: null
+      points: []
+    strokeWidth: 0
+    strokeAlpha: 0
+    fillType: 0
+    text: Orgrimmar
+    fontFamily: Morpheus
+    fontSize: 48
+    textColor: '#2a1d08'
+    textAlpha: 0.99
+    flags:
+      multi-token-edit:
+        links:
+          - id: VPKFvsnOjK5eCeI8
+            type: 1
+            label: S_LINK
+      baileywiki-landing-page:
+        hoverOnly: true
+        outline:
+          width: 12
+          color: '#efd0bf'
+    _id: of0nrJgamJPfCtuP
+    elevation: 0
+    levels: []
+    sort: 8
+    rotation: 0
+    bezierFactor: 0
+    fillColor: '#cc2866'
+    fillAlpha: 0.5
+    strokeColor: '#cc2866'
+    texture: null
+    hidden: false
+    locked: false
+    interface: false
+    _key: '!scenes.drawings!EVPo5lPHmS0zLKBZ.of0nrJgamJPfCtuP'
+  - author: V0twxN2oKehfUjVd
+    x: 2635
+    'y': 2407
+    shape:
+      type: r
+      width: 386
+      height: 71
+      radius: null
+      points: []
+    strokeWidth: 0
+    strokeAlpha: 0
+    fillType: 0
+    text: TrancheColline
+    fontFamily: Morpheus
+    fontSize: 48
+    textColor: '#2a1d08'
+    textAlpha: 0.99
+    flags:
+      multi-token-edit:
+        links:
+          - id: HXHX2uC0D1HO9JyY
+            type: 1
+            label: S_LINK
+      baileywiki-landing-page:
+        hoverOnly: true
+        outline:
+          width: 12
+          color: '#efd0bf'
+    _id: Q30W1s1KSCnaoenY
+    elevation: 0
+    levels: []
+    sort: 9
+    rotation: 0
+    bezierFactor: 0
+    fillColor: '#cc2866'
+    fillAlpha: 0.5
+    strokeColor: '#cc2866'
+    texture: null
+    hidden: false
+    locked: false
+    interface: false
+    _key: '!scenes.drawings!EVPo5lPHmS0zLKBZ.Q30W1s1KSCnaoenY'
+  - author: V0twxN2oKehfUjVd
+    x: 1037
+    'y': 3132
+    shape:
+      type: r
+      width: 800
+      height: 276
+      radius: null
+      points: []
+    strokeWidth: 0
+    strokeAlpha: 0
+    fillType: 0
+    text: Downtime
+    fontFamily: Morpheus
+    fontSize: 48
+    textColor: '#2a1d08'
+    textAlpha: 0.99
+    flags:
+      multi-token-edit:
+        links:
+          - id: wfqMqPMivmOBLj3M
+            type: 1
+            label: S_LINK
+      baileywiki-landing-page:
+        outline:
+          width: 12
+          color: '#efd0bf'
+        generated: true
+    _id: MCSsp4CCDFo0UMtx
+    elevation: 0
+    levels: []
+    sort: 10
+    rotation: 0
+    bezierFactor: 0
+    fillColor: '#cc2866'
+    fillAlpha: 0.5
+    strokeColor: '#cc2866'
+    texture: null
+    hidden: false
+    locked: false
+    interface: false
+    _key: '!scenes.drawings!EVPo5lPHmS0zLKBZ.MCSsp4CCDFo0UMtx'
+tokens: []
+levels:
+  - _id: defaultLevel0000
+    name: Level
+    elevation:
+      bottom: 0
+      top: 20
+    background:
+      color: '#040000'
+      src: worlds/au-nom-de-la-horde-cof2/assets/landing-page/coa-lp-background.png
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    foreground:
+      src: null
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    fog:
+      src: null
+    textures:
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+    visibility:
+      levels: []
+    sort: 0
+    flags: {}
+    _key: '!scenes.levels!EVPo5lPHmS0zLKBZ.defaultLevel0000'
+lights:
+  - elevation: 0
+    levels: []
+    walls: false
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.3
+      angle: 154
+      color: '#ffca31'
+      coloration: 100
+      attenuation: 0.4
+      luminosity: 0.95
+      saturation: 0.25
+      contrast: 0.05
+      shadows: 0.05
+      animation:
+        type: flame
+        speed: 5
+        intensity: 7
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 180
+      dim: 240
+    name: Brasero Light
+    _id: qGKJzeUCEu8yFiMC
+    x: 3519
+    'y': 1684
+    rotation: 6
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!EVPo5lPHmS0zLKBZ.qGKJzeUCEu8yFiMC'
+  - elevation: 0
+    levels: []
+    walls: false
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.75
+      angle: 92
+      color: '#fa7203'
+      coloration: 100
+      attenuation: 0.4
+      luminosity: 0.95
+      saturation: 0.25
+      contrast: 0.05
+      shadows: 0.05
+      animation:
+        type: flame
+        speed: 5
+        intensity: 7
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 60
+      dim: 180
+    name: Brasero Light
+    x: 3486
+    'y': 1909
+    rotation: 180
+    locked: false
+    flags: {}
+    _id: 3mh8Y9F4HzAyOw0E
+    _key: '!scenes.lights!EVPo5lPHmS0zLKBZ.3mh8Y9F4HzAyOw0E'
+notes: []
+sounds: []
+regions: []
+tiles:
+  - texture:
+      src: worlds/au-nom-de-la-horde-cof2/assets/landing-page/coa-lp-campaign-log.png
+      anchorX: 0.5
+      anchorY: 0.5
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      fit: fill
+      alphaThreshold: 0.75
+    x: 1768
+    'y': 2883
+    width: 700
+    height: 700
+    sort: 110
+    elevation: 0
+    levels:
+      - defaultLevel0000
+    alpha: 1
+    restrictions:
+      light: false
+      weather: false
+    occlusion:
+      modes: []
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags:
+      baileywiki-landing-page:
+        hoverSound: preset:fantasy_bookplace2
+        button: true
+        click:
+          action: journal
+          uuid: JournalEntry.gA05zfgGXdN6hSQp
+        clickSource: user
+        clickSound: preset:fantasy_bookopen
+        hover:
+          type: effect
+          glow:
+            color: '#ac3016'
+            strength: 8
+            invert: false
+          presets: []
+          presetInvert: null
+          presetOverrides: null
+          adjust: null
+          text: null
+          image:
+            src: worlds/au-nom-de-la-horde-cof2/assets/landing-page/coa-lp-campaign-log-open.png
+            invert: false
+      tokenmagic:
+        filters:
+          - tmFilters:
+              tmFilterId: bwlp-hover-0
+              tmFilterInternalId: o11ZIrIHeHujw34r
+              tmFilterType: glow
+              tmFilterOwner: TjbWhMczNyKieD8D
+              tmParams:
+                filterType: glow
+                outerStrength: 8
+                innerStrength: 0
+                quality: 0.5
+                padding: 12
+                zOrder: 100
+                rank: 10000
+                enabled: false
+                color: 11284502
+                filterId: bwlp-hover-0
+                placeableId: 4yWKnM2CHhHtQHQg
+                filterInternalId: o11ZIrIHeHujw34r
+                filterOwner: TjbWhMczNyKieD8D
+                placeableType: Tile
+                updateId: 3AxmSqKZv418kWC4
+      multi-token-edit:
+        links:
+          - id: AlJvscdnqJ8xsxpD
+            type: 2
+            label: S_LINK
+      multiface-tiles:
+        originalImage: worlds/au-nom-de-la-horde-cof2/assets/landing-page/coa-lp-campaign-log.png
+      levels:
+        blockSightMovement: false
+      tile-scroll:
+        enableScroll: false
+        scrollDirection: 0
+        enableRotate: false
+        scrollSpeed: 1
+        repeatx: 1
+        repeaty: 1
+        pivotx: 0.5
+        pivoty: 0.5
+        offsetx: 0
+        offsety: 0
+        parallax: 0
+      tagger:
+        tags: ''
+      betterroofs:
+        brMode: false
+        occlusionLinkId: ''
+        occlusionLinkSource: false
+      fxmaster:
+        restrictsParticles: false
+        restrictsFilters: false
+      monks-active-tiles:
+        active: false
+        record: false
+        restriction: all
+        controlled: all
+        trigger:
+          - enter
+        allowpaused: false
+        usealpha: false
+        pointer: false
+        vision: false
+        pertoken: false
+        minrequired: null
+        cooldown: null
+        chance: 0
+        fileindex: -1
+        actions: []
+        files: []
+    _id: 4yWKnM2CHhHtQHQg
+    rotation: 0
+    hidden: false
+    locked: false
+    name: ''
+    _key: '!scenes.tiles!EVPo5lPHmS0zLKBZ.4yWKnM2CHhHtQHQg'
+  - texture:
+      src: worlds/au-nom-de-la-horde-cof2/assets/landing-page/coa-lp-pc-stuff.png
+      anchorX: 0.5
+      anchorY: 0.5
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      fit: fill
+      alphaThreshold: 0.75
+    x: 4249
+    'y': 2896
+    width: 900
+    height: 676
+    sort: 113
+    elevation: 0
+    levels:
+      - defaultLevel0000
+    alpha: 1
+    restrictions:
+      light: false
+      weather: false
+    occlusion:
+      modes: []
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags:
+      baileywiki-landing-page:
+        hoverSound: preset:fantasy_clothbelt2
+        hover:
+          type: effect
+          glow:
+            color: '#3c180e'
+            strength: 8
+            invert: false
+          presets: []
+          presetInvert: null
+          presetOverrides: null
+          adjust: null
+          text: null
+          image: null
+        button: true
+      tokenmagic:
+        filters:
+          - tmFilters:
+              tmFilterId: bwlp-hover-0
+              tmFilterInternalId: YURmRP1ncU2LVQhQ
+              tmFilterType: glow
+              tmFilterOwner: V0twxN2oKehfUjVd
+              tmParams:
+                filterType: glow
+                outerStrength: 8
+                innerStrength: 0
+                quality: 0.5
+                padding: 12
+                zOrder: 100
+                rank: 10000
+                enabled: false
+                color: 3938318
+                filterId: bwlp-hover-0
+                placeableId: vObmFJ032OHlFAyy
+                filterInternalId: YURmRP1ncU2LVQhQ
+                filterOwner: V0twxN2oKehfUjVd
+                placeableType: Tile
+                updateId: dvWz51gXyd3pSKWl
+      multi-token-edit:
+        links:
+          - id: J3FJNbKF3VWXacqN
+            type: 2
+            label: S_LINK
+      levels:
+        blockSightMovement: false
+      tile-scroll:
+        enableScroll: false
+        scrollDirection: 0
+        enableRotate: false
+        scrollSpeed: 1
+        repeatx: 1
+        repeaty: 1
+        pivotx: 0.5
+        pivoty: 0.5
+        offsetx: 0
+        offsety: 0
+        parallax: 0
+      tagger:
+        tags: ''
+      betterroofs:
+        brMode: false
+        occlusionLinkId: ''
+        occlusionLinkSource: false
+      fxmaster:
+        restrictsParticles: false
+        restrictsFilters: false
+      monks-active-tiles:
+        active: false
+        record: false
+        restriction: all
+        controlled: all
+        trigger:
+          - enter
+        allowpaused: false
+        usealpha: false
+        pointer: false
+        vision: false
+        pertoken: false
+        minrequired: null
+        cooldown: null
+        chance: 0
+        fileindex: -1
+        actions: []
+        files: []
+    _id: vObmFJ032OHlFAyy
+    rotation: 0
+    hidden: false
+    locked: false
+    name: ''
+    _key: '!scenes.tiles!EVPo5lPHmS0zLKBZ.vObmFJ032OHlFAyy'
+  - texture:
+      src: worlds/au-nom-de-la-horde-cof2/assets/landing-page/coa-lp-rule-book.png
+      anchorX: 0.5
+      anchorY: 0.5
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      fit: fill
+      alphaThreshold: 0.75
+    x: 2039
+    'y': 2135
+    width: 450
+    height: 450
+    sort: 109
+    elevation: 0
+    levels:
+      - defaultLevel0000
+    alpha: 1
+    restrictions:
+      light: false
+      weather: false
+    occlusion:
+      modes: []
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags:
+      baileywiki-landing-page:
+        button: true
+        hoverSound: preset:fantasy_bookplace3
+        click:
+          action: journal
+          uuid: JournalEntry.y9ZwjOLLSaLSeFIN
+        clickSource: user
+        clickSound: preset:fantasy_bookopen
+        hover:
+          type: effect
+          glow:
+            color: '#ac3016'
+            strength: 8
+            invert: false
+          presets: []
+          presetInvert: null
+          presetOverrides: null
+          adjust: null
+          text: null
+          image:
+            src: worlds/au-nom-de-la-horde-cof2/assets/landing-page/coa-lp-rule-book-open.png
+            invert: false
+      tokenmagic:
+        filters:
+          - tmFilters:
+              tmFilterId: bwlp-hover-0
+              tmFilterInternalId: u3mKuRwoeY2j8zHo
+              tmFilterType: glow
+              tmFilterOwner: TjbWhMczNyKieD8D
+              tmParams:
+                filterType: glow
+                outerStrength: 8
+                innerStrength: 0
+                quality: 0.5
+                padding: 12
+                zOrder: 100
+                rank: 10000
+                enabled: false
+                color: 11284502
+                filterId: bwlp-hover-0
+                placeableId: bAyr8HhMqpda6bTR
+                filterInternalId: u3mKuRwoeY2j8zHo
+                filterOwner: TjbWhMczNyKieD8D
+                placeableType: Tile
+                updateId: fIrgkgnMkExZeMU1
+      multi-token-edit:
+        links:
+          - id: rJEK2FJGXJ5O3LHS
+            type: 2
+            label: S_LINK
+      multiface-tiles:
+        originalImage: worlds/au-nom-de-la-horde-cof2/assets/landing-page/coa-lp-rule-book.png
+      levels:
+        blockSightMovement: false
+      tile-scroll:
+        enableScroll: false
+        scrollDirection: 0
+        enableRotate: false
+        scrollSpeed: 1
+        repeatx: 1
+        repeaty: 1
+        pivotx: 0.5
+        pivoty: 0.5
+        offsetx: 0
+        offsety: 0
+        parallax: 0
+      tagger:
+        tags: ''
+      betterroofs:
+        brMode: false
+        occlusionLinkId: ''
+        occlusionLinkSource: false
+      fxmaster:
+        restrictsParticles: false
+        restrictsFilters: false
+      monks-active-tiles:
+        active: false
+        record: false
+        restriction: all
+        controlled: all
+        trigger:
+          - enter
+        allowpaused: false
+        usealpha: false
+        pointer: false
+        vision: false
+        pertoken: false
+        minrequired: null
+        cooldown: null
+        chance: 0
+        fileindex: -1
+        actions: []
+        files: []
+    _id: bAyr8HhMqpda6bTR
+    rotation: 0
+    hidden: false
+    locked: false
+    name: ''
+    _key: '!scenes.tiles!EVPo5lPHmS0zLKBZ.bAyr8HhMqpda6bTR'
+  - texture:
+      src: worlds/au-nom-de-la-horde-cof2/assets/landing-page/coa-lp-documents.png
+      anchorX: 0.5
+      anchorY: 0.5
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      fit: fill
+      alphaThreshold: 0.75
+    x: 3964
+    'y': 2103
+    width: 533
+    height: 400
+    sort: 112
+    elevation: 0
+    levels:
+      - defaultLevel0000
+    alpha: 1
+    restrictions:
+      light: false
+      weather: false
+    occlusion:
+      modes: []
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags:
+      baileywiki-landing-page:
+        hoverSound: preset:fantasy_bookflip2
+        hover:
+          type: effect
+          glow:
+            color: '#b66516'
+            strength: 8
+            invert: false
+          presets: []
+          presetInvert: null
+          presetOverrides: null
+          adjust: null
+          text: null
+          image: null
+        button: true
+        click:
+          action: macro
+          uuid: Macro.BhKdsRiMd31QKGbe
+        clickSource: user
+        clickSound: preset:fantasy_knifeslice
+      tokenmagic:
+        filters:
+          - tmFilters:
+              tmFilterId: bwlp-hover-0
+              tmFilterInternalId: GGqbP5MpMa32X08y
+              tmFilterType: glow
+              tmFilterOwner: V0twxN2oKehfUjVd
+              tmParams:
+                filterType: glow
+                outerStrength: 8
+                innerStrength: 0
+                quality: 0.5
+                padding: 12
+                zOrder: 100
+                rank: 10000
+                enabled: false
+                color: 11953430
+                filterId: bwlp-hover-0
+                placeableId: KxiL18MfCxiBLxBt
+                filterInternalId: GGqbP5MpMa32X08y
+                filterOwner: V0twxN2oKehfUjVd
+                placeableType: Tile
+                updateId: CppwcRvMPrIwzSiU
+      multi-token-edit:
+        links:
+          - id: pCeI7L32gaog808L
+            type: 2
+            label: S_LINK
+      levels:
+        blockSightMovement: false
+      tile-scroll:
+        enableScroll: false
+        scrollDirection: 0
+        enableRotate: false
+        scrollSpeed: 1
+        repeatx: 1
+        repeaty: 1
+        pivotx: 0.5
+        pivoty: 0.5
+        offsetx: 0
+        offsety: 0
+        parallax: 0
+      tagger:
+        tags: ''
+      betterroofs:
+        brMode: false
+        occlusionLinkId: ''
+        occlusionLinkSource: false
+      fxmaster:
+        restrictsParticles: false
+        restrictsFilters: false
+      monks-active-tiles:
+        active: false
+        record: false
+        restriction: all
+        controlled: all
+        trigger:
+          - enter
+        allowpaused: false
+        usealpha: false
+        pointer: false
+        vision: false
+        pertoken: false
+        minrequired: null
+        cooldown: null
+        chance: 0
+        fileindex: -1
+        actions: []
+        files: []
+      multiface-tiles:
+        originalImage: worlds/au-nom-de-la-horde-cof2/assets/landing-page/coa-lp-documents.png
+    _id: KxiL18MfCxiBLxBt
+    rotation: 0
+    hidden: false
+    locked: false
+    name: ''
+    _key: '!scenes.tiles!EVPo5lPHmS0zLKBZ.KxiL18MfCxiBLxBt'
+  - texture:
+      src: worlds/au-nom-de-la-horde-cof2/assets/landing-page/coa-lp-boite.png
+      anchorX: 0.5
+      anchorY: 0.5
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      fit: fill
+      alphaThreshold: 0.75
+    x: 3208
+    'y': 3231
+    width: 600
+    height: 600
+    sort: 111
+    elevation: 0
+    levels:
+      - defaultLevel0000
+    alpha: 1
+    restrictions:
+      light: false
+      weather: false
+    occlusion:
+      modes: []
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags:
+      baileywiki-landing-page:
+        hoverSound: preset:fantasy_metalclick
+        hover:
+          type: effect
+          glow:
+            color: '#3c180e'
+            strength: 8
+            invert: false
+          presets: []
+          presetInvert: null
+          presetOverrides: null
+          adjust: null
+          text: null
+          image: null
+        button: true
+      tokenmagic:
+        filters:
+          - tmFilters:
+              tmFilterId: bwlp-hover-0
+              tmFilterInternalId: GJIFy0mJPaD15LQk
+              tmFilterType: glow
+              tmFilterOwner: V0twxN2oKehfUjVd
+              tmParams:
+                filterType: glow
+                outerStrength: 8
+                innerStrength: 0
+                quality: 0.5
+                padding: 12
+                zOrder: 100
+                rank: 10000
+                enabled: false
+                color: 3938318
+                filterId: bwlp-hover-0
+                placeableId: EfS2aI5Oz8vUd9bs
+                filterInternalId: GJIFy0mJPaD15LQk
+                filterOwner: V0twxN2oKehfUjVd
+                placeableType: Tile
+                updateId: m6yvJBhclgSwn9WF
+      multi-token-edit:
+        links:
+          - id: POulkntfSnVKUMcJ
+            type: 2
+            label: S_LINK
+      levels:
+        blockSightMovement: false
+      tile-scroll:
+        enableScroll: false
+        scrollDirection: 0
+        enableRotate: false
+        scrollSpeed: 1
+        repeatx: 1
+        repeaty: 1
+        pivotx: 0.5
+        pivoty: 0.5
+        offsetx: 0
+        offsety: 0
+        parallax: 0
+      tagger:
+        tags: ''
+      betterroofs:
+        brMode: false
+        occlusionLinkId: ''
+        occlusionLinkSource: false
+      fxmaster:
+        restrictsParticles: false
+        restrictsFilters: false
+      monks-active-tiles:
+        active: false
+        record: false
+        restriction: all
+        controlled: all
+        trigger:
+          - enter
+        allowpaused: false
+        usealpha: false
+        pointer: false
+        vision: false
+        pertoken: false
+        minrequired: null
+        cooldown: null
+        chance: 0
+        fileindex: -1
+        actions: []
+        files: []
+    _id: EfS2aI5Oz8vUd9bs
+    rotation: 0
+    hidden: false
+    locked: false
+    name: ''
+    _key: '!scenes.tiles!EVPo5lPHmS0zLKBZ.EfS2aI5Oz8vUd9bs'
+  - texture:
+      src: worlds/au-nom-de-la-horde-cof2/assets/landing-page/maps/coa-lp-map-durotar.png
+      anchorX: 0.5
+      anchorY: 0.5
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      fit: fill
+      alphaThreshold: 0.75
+    x: 2980
+    'y': 2500
+    width: 1800
+    height: 1349
+    sort: 99
+    elevation: 0
+    levels:
+      - defaultLevel0000
+    alpha: 1
+    restrictions:
+      light: false
+      weather: false
+    occlusion:
+      modes:
+        - 1
+      alpha: 0.55
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags:
+      fxmaster:
+        restrictsParticles: false
+        restrictsFilters: false
+      levels:
+        blockSightMovement: false
+      tile-scroll:
+        enableScroll: false
+        scrollDirection: 0
+        enableRotate: false
+        scrollSpeed: 1
+        repeatx: 1
+        repeaty: 1
+        pivotx: 0.5
+        pivoty: 0.5
+        offsetx: 0
+        offsety: 0
+        parallax: 0
+      tagger:
+        tags: ''
+      betterroofs:
+        brMode: false
+        occlusionLinkId: ''
+        occlusionLinkSource: false
+      monks-active-tiles:
+        active: false
+        record: false
+        restriction: all
+        controlled: all
+        trigger:
+          - enter
+        allowpaused: false
+        usealpha: false
+        pointer: false
+        vision: false
+        pertoken: false
+        minrequired: null
+        cooldown: null
+        chance: 0
+        fileindex: -1
+        actions: []
+        files: []
+    _id: EOVF2nmAcCoeydxX
+    rotation: 0
+    hidden: false
+    locked: false
+    name: ''
+    _key: '!scenes.tiles!EVPo5lPHmS0zLKBZ.EOVF2nmAcCoeydxX'
+  - texture:
+      src: worlds/au-nom-de-la-horde-cof2/assets/landing-page/pins/horde/capitale-pin.png
+      anchorX: 0.5
+      anchorY: 0.5
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      fit: fill
+      alphaThreshold: 0.75
+    x: 2973
+    'y': 2136
+    width: 150
+    height: 150
+    sort: 114
+    elevation: 0
+    levels:
+      - defaultLevel0000
+    alpha: 1
+    restrictions:
+      light: false
+      weather: false
+    occlusion:
+      modes: []
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags:
+      baileywiki-landing-page:
+        hoverSound: preset:fantasy_footstep04
+        button: true
+        hover:
+          type: effect
+          glow:
+            color: '#ac3016'
+            strength: 8
+            invert: false
+          presets: []
+          presetInvert: null
+          presetOverrides: null
+          adjust: null
+          text: null
+          image: null
+        click:
+          action: journal
+          uuid: JournalEntry.cd074187891352fa
+        clickSource: user
+        clickSound: preset:fantasy_footstep04
+      tokenmagic:
+        filters:
+          - tmFilters:
+              tmFilterId: bwlp-hover-0
+              tmFilterInternalId: WpxIGDPfLnRBTfix
+              tmFilterType: glow
+              tmFilterOwner: V0twxN2oKehfUjVd
+              tmParams:
+                filterType: glow
+                outerStrength: 8
+                innerStrength: 0
+                quality: 0.5
+                padding: 12
+                zOrder: 100
+                rank: 10000
+                enabled: false
+                color: 11284502
+                filterId: bwlp-hover-0
+                placeableId: JWesg6G3K5h8gQ37
+                filterInternalId: WpxIGDPfLnRBTfix
+                filterOwner: V0twxN2oKehfUjVd
+                placeableType: Tile
+                updateId: q1z6CllJnWG9L1aX
+      multi-token-edit:
+        links:
+          - id: VPKFvsnOjK5eCeI8
+            type: 2
+            label: S_LINK
+      fxmaster:
+        restrictsParticles: false
+        restrictsFilters: false
+      levels:
+        blockSightMovement: false
+      tile-scroll:
+        enableScroll: false
+        scrollDirection: 0
+        enableRotate: false
+        scrollSpeed: 1
+        repeatx: 1
+        repeaty: 1
+        pivotx: 0.5
+        pivoty: 0.5
+        offsetx: 0
+        offsety: 0
+        parallax: 0
+      tagger:
+        tags: ''
+      betterroofs:
+        brMode: false
+        occlusionLinkId: ''
+        occlusionLinkSource: false
+      monks-active-tiles:
+        active: false
+        record: false
+        restriction: all
+        controlled: all
+        trigger:
+          - enter
+        allowpaused: false
+        usealpha: false
+        pointer: false
+        vision: false
+        pertoken: false
+        minrequired: null
+        cooldown: null
+        chance: 0
+        fileindex: -1
+        actions: []
+        files: []
+    _id: JWesg6G3K5h8gQ37
+    rotation: 0
+    hidden: false
+    locked: false
+    name: ''
+    _key: '!scenes.tiles!EVPo5lPHmS0zLKBZ.JWesg6G3K5h8gQ37'
+  - texture:
+      src: worlds/au-nom-de-la-horde-cof2/assets/landing-page/pins/horde/village-pin.png
+      anchorX: 0.5
+      anchorY: 0.5
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      fit: fill
+      alphaThreshold: 0.75
+    x: 2946
+    'y': 2402
+    width: 150
+    height: 150
+    sort: 115
+    elevation: 0
+    levels:
+      - defaultLevel0000
+    alpha: 1
+    restrictions:
+      light: false
+      weather: false
+    occlusion:
+      modes: []
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags:
+      baileywiki-landing-page:
+        hoverSound: preset:fantasy_footstep05
+        hover:
+          type: effect
+          glow:
+            color: '#ac3016'
+            strength: 8
+            invert: false
+          presets: []
+          presetInvert: null
+          presetOverrides: null
+          adjust: null
+          text: null
+          image: null
+        button: true
+        click:
+          action: journal
+          uuid: JournalEntry.accdb729c105149f
+        clickSource: user
+        clickSound: preset:fantasy_footstep05
+      tokenmagic:
+        filters:
+          - tmFilters:
+              tmFilterId: bwlp-hover-0
+              tmFilterInternalId: 6TWYFdM9JZF25d5u
+              tmFilterType: glow
+              tmFilterOwner: V0twxN2oKehfUjVd
+              tmParams:
+                filterType: glow
+                outerStrength: 8
+                innerStrength: 0
+                quality: 0.5
+                padding: 12
+                zOrder: 100
+                rank: 10000
+                enabled: false
+                color: 11284502
+                filterId: bwlp-hover-0
+                placeableId: 95fXe3Iv0dfZYomf
+                filterInternalId: 6TWYFdM9JZF25d5u
+                filterOwner: V0twxN2oKehfUjVd
+                placeableType: Tile
+                updateId: LAtc0ctwE0IeNz7D
+      multi-token-edit:
+        links:
+          - id: HXHX2uC0D1HO9JyY
+            type: 2
+            label: S_LINK
+      fxmaster:
+        restrictsParticles: false
+        restrictsFilters: false
+      levels:
+        blockSightMovement: false
+      tile-scroll:
+        enableScroll: false
+        scrollDirection: 0
+        enableRotate: false
+        scrollSpeed: 1
+        repeatx: 1
+        repeaty: 1
+        pivotx: 0.5
+        pivoty: 0.5
+        offsetx: 0
+        offsety: 0
+        parallax: 0
+      tagger:
+        tags: ''
+      betterroofs:
+        brMode: false
+        occlusionLinkId: ''
+        occlusionLinkSource: false
+      monks-active-tiles:
+        active: false
+        record: false
+        restriction: all
+        controlled: all
+        trigger:
+          - enter
+        allowpaused: false
+        usealpha: false
+        pointer: false
+        vision: false
+        pertoken: false
+        minrequired: null
+        cooldown: null
+        chance: 0
+        fileindex: -1
+        actions: []
+        files: []
+    _id: 95fXe3Iv0dfZYomf
+    rotation: 0
+    hidden: false
+    locked: false
+    name: ''
+    _key: '!scenes.tiles!EVPo5lPHmS0zLKBZ.95fXe3Iv0dfZYomf'
+  - x: 1437
+    'y': 3270
+    width: 800
+    height: 276
+    sort: 100
+    texture:
+      src: worlds/au-nom-de-la-horde-cof2/assets/landing-page/coa-lp-buton.png
+      fit: contain
+      tint: '#e6c878'
+      anchorX: 0.5
+      anchorY: 0.5
+      scaleX: 1
+      scaleY: 1
+      alphaThreshold: 0.75
+    flags:
+      baileywiki-landing-page:
+        button: true
+        hover:
+          type: effect
+          glow:
+            color: '#c94713'
+            strength: 8
+            invert: false
+          presets: []
+          presetInvert: null
+          presetOverrides: null
+          adjust: null
+          text: null
+          image: null
+        click:
+          action: macro
+          uuid: ''
+        clickSource: auto
+        seed: null
+        generated: true
+        category: downtime
+        label: Downtime
+      multi-token-edit:
+        links:
+          - id: otl01iFaZgqNg2RA
+            type: 0
+            label: LINK
+          - id: wfqMqPMivmOBLj3M
+            type: 2
+            label: S_LINK
+      tokenmagic:
+        filters:
+          - tmFilters:
+              tmFilterId: bwlp-shadow
+              tmFilterInternalId: YVwTLJT4VLDN3hfh
+              tmFilterType: shadow
+              tmFilterOwner: V0twxN2oKehfUjVd
+              tmParams:
+                filterType: shadow
+                filterId: bwlp-shadow
+                rotation: 35
+                blur: 2
+                quality: 5
+                distance: 12
+                alpha: 0.6
+                padding: 24
+                shadowOnly: false
+                color: 0
+                zOrder: 6000
+                enabled: true
+                rank: 10018
+                placeableId: LL64AP4RFqCQQaqH
+                filterInternalId: YVwTLJT4VLDN3hfh
+                filterOwner: V0twxN2oKehfUjVd
+                placeableType: Tile
+                updateId: CmMzYqtLXEQNsVRq
+          - tmFilters:
+              tmFilterId: bwlp-hover-0
+              tmFilterInternalId: vdhRkA4dHPuzBBOp
+              tmFilterType: glow
+              tmFilterOwner: V0twxN2oKehfUjVd
+              tmParams:
+                filterType: glow
+                outerStrength: 8
+                innerStrength: 0
+                quality: 0.5
+                padding: 12
+                zOrder: 100
+                rank: 10000
+                enabled: false
+                color: 13190931
+                filterId: bwlp-hover-0
+                placeableId: LL64AP4RFqCQQaqH
+                filterInternalId: vdhRkA4dHPuzBBOp
+                filterOwner: V0twxN2oKehfUjVd
+                placeableType: Tile
+                updateId: garWTO7WQ0iDrsVL
+      levels:
+        blockSightMovement: false
+      tile-scroll:
+        enableScroll: false
+        scrollDirection: 0
+        enableRotate: false
+        scrollSpeed: 1
+        repeatx: 1
+        repeaty: 1
+        pivotx: 0.5
+        pivoty: 0.5
+        offsetx: 0
+        offsety: 0
+        parallax: 0
+      tagger:
+        tags: ''
+      betterroofs:
+        brMode: false
+        occlusionLinkId: ''
+        occlusionLinkSource: false
+      fxmaster:
+        restrictsParticles: false
+        restrictsFilters: false
+      monks-active-tiles:
+        active: false
+        record: false
+        restriction: all
+        controlled: all
+        trigger:
+          - enter
+        allowpaused: false
+        usealpha: false
+        pointer: false
+        vision: false
+        pertoken: false
+        minrequired: null
+        cooldown: null
+        chance: 0
+        fileindex: -1
+        actions: []
+        files: []
+    _id: LL64AP4RFqCQQaqH
+    elevation: 0
+    levels: []
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: false
+    restrictions:
+      light: false
+      weather: false
+    occlusion:
+      modes: []
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    name: ''
+    _key: '!scenes.tiles!EVPo5lPHmS0zLKBZ.LL64AP4RFqCQQaqH'
+  - name: cof2-parchemin-10-commandements-ferme
+    levels:
+      - defaultLevel0000
+    flags:
+      levels:
+        blockSightMovement: false
+      tile-scroll:
+        enableScroll: false
+        scrollDirection: 0
+        enableRotate: false
+        scrollSpeed: 1
+        repeatx: 1
+        repeaty: 1
+        pivotx: 0.5
+        pivoty: 0.5
+        offsetx: 0
+        offsety: 0
+        parallax: 0
+      tagger:
+        tags: ''
+      betterroofs:
+        brMode: false
+        occlusionLinkId: ''
+        occlusionLinkSource: false
+      fxmaster:
+        restrictsParticles: false
+        restrictsFilters: false
+      monks-active-tiles:
+        active: true
+        record: false
+        restriction: all
+        controlled: all
+        trigger:
+          - enter
+        allowpaused: false
+        usealpha: false
+        pointer: false
+        vision: true
+        pertoken: false
+        minrequired: null
+        cooldown: null
+        chance: 100
+        fileindex: 0
+        actions: []
+        files: []
+      multiface-tiles:
+        originalImage: worlds/au-nom-de-la-horde-cof2/assets/landing-page/cof2-parchemin-10-commandements-ferme-lp.png
+      baileywiki-landing-page:
+        hoverSound: preset:fantasy_bookflip1
+        button: true
+        hover:
+          type: effect
+          glow:
+            color: '#ffd24a'
+            strength: 8
+            invert: false
+          presets: []
+          presetInvert: null
+          presetOverrides: null
+          adjust: null
+          text: null
+          image:
+            src: worlds/au-nom-de-la-horde-cof2/assets/landing-page/cof2-parchemin-10-commandements-ouvert.png
+            invert: false
+        click:
+          action: journal
+          uuid: JournalEntry.nCt5VtvAdsinew7W
+        clickSource: user
+        clickSound: preset:fantasy_bookflip2
+      tokenmagic:
+        filters:
+          - tmFilters:
+              tmFilterId: bwlp-hover-0
+              tmFilterInternalId: bq2KpiWYQ8xhYpy5
+              tmFilterType: glow
+              tmFilterOwner: TjbWhMczNyKieD8D
+              tmParams:
+                filterType: glow
+                outerStrength: 8
+                innerStrength: 0
+                quality: 0.5
+                padding: 12
+                zOrder: 100
+                rank: 10000
+                enabled: false
+                color: 16765514
+                filterId: bwlp-hover-0
+                placeableId: x50mA2Qjt1nvV9ez
+                filterInternalId: bq2KpiWYQ8xhYpy5
+                filterOwner: TjbWhMczNyKieD8D
+                placeableType: Tile
+                updateId: S81NdsR7M1oMNUnx
+    x: 3180
+    'y': 1197
+    width: 463
+    height: 550
+    rotation: 0
+    elevation: 0
+    sort: 116
+    texture:
+      src: worlds/au-nom-de-la-horde-cof2/assets/landing-page/cof2-parchemin-10-commandements-ferme-lp.png
+      scaleX: 1
+      scaleY: 1
+      anchorX: 0.5
+      anchorY: 0.5
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+      fit: fill
+    alpha: 1
+    occlusion:
+      modes: []
+      alpha: 0
+    restrictions:
+      light: false
+      weather: false
+    _id: x50mA2Qjt1nvV9ez
+    hidden: false
+    locked: false
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    _key: '!scenes.tiles!EVPo5lPHmS0zLKBZ.x50mA2Qjt1nvV9ez'
+walls: []
+playlist: null
+playlistSound: null
+journal: null
+journalEntryPage: null
+weather: ''
+folder: null
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  fxmaster:
+    parameterRangeMigrationVersion: 1
+  baileywiki-landing-page:
+    adaptiveFrame:
+      x: 3000
+      'y': 2300
+      width: 6893.787575150301
+    viewMode: adaptive
+    lockPan: true
+    lockZoom: true
+    unpause: true
+    immersive: true
+    menuLink: otl01iFaZgqNg2RA
+    menu:
+      tiles:
+        - LL64AP4RFqCQQaqH
+      drawings:
+        - MCSsp4CCDFo0UMtx
+    scheme: gold
+    customColor: '#e6c878'
+    font: Morpheus
+    hover:
+      type: effect
+      glow:
+        color: '#c94713'
+        strength: 8
+        invert: false
+      presets: []
+      presetInvert: null
+      presetOverrides: null
+      adjust: null
+      text: null
+      image: null
+    labelColor: '#2a1d08'
+    labelSize: 48
+    labelAlpha: 0.99
+    labelOutline:
+      width: 12
+      color: '#efd0bf'
+    style: custom-coa-button
+    builderConfig:
+      layout: bottom
+      cats:
+        quest: false
+        map: false
+        loot: false
+        downtime: true
+        shop: false
+        notes: false
+        rules: false
+      custom: ''
+      labelOffset:
+        x: 0
+        'y': 0
+      menuOffset:
+        x: 0
+        'y': 0
+      hoverLabels: false
+      dropShadow: true
+      marker: null
+      markerCustom: false
+    defaultHoverSound: preset:fantasy_doorclose_4
+    soundSrc: null
+    soundLoop: true
+    soundVolume: 0.5
+  multi-token-edit:
+    blackBars: false
+  wall-height:
+    advancedVision: true
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.9
+  createdTime: 1789930736782
+  modifiedTime: 1789930736782
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+navName: ''
+active: false
+navOrder: 0
+sort: 0
+_key: '!scenes!EVPo5lPHmS0zLKBZ'
+templates: []

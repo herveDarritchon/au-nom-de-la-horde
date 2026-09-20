@@ -1,7 +1,7 @@
 folder: yyuEQhhW4jOgg7ig
 name: Herboristerie taurène
 type: capacity
-img: modules/warbound-campaign-content/assets/images/icons/capacites/herboristerie-taurene.png
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/herboristerie-taurene.png
 system:
   description: >-
     <p>Le Tauren obtient un dé bonus aux tests destinés à identifier, récolter
@@ -44,9 +44,9 @@ _stats:
   duplicateSource: Item.0Zo1HOUUlZpFR48n
   coreVersion: '14.367'
   systemId: co2
-  systemVersion: 2.3.9
-  createdTime: 1789895784644
-  modifiedTime: 1789895784644
+  systemVersion: 2.3.11
+  createdTime: 1789942549958
+  modifiedTime: 1789942549958
   lastModifiedBy: TjbWhMczNyKieD8D
   exportSource: null
 sort: 100000

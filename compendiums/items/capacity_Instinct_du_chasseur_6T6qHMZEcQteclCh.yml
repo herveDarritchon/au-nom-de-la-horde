@@ -1,7 +1,7 @@
 folder: VXemtWdksgYw7pWA
 name: Instinct du chasseur
 type: capacity
-img: modules/warbound-campaign-content/assets/images/icons/capacites/instinct-du-chasseur.png
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/instinct-du-chasseur.png
 system:
   description: >-
     <p>Le Troll obtient un dé bonus aux tests de PER pour pister, repérer une
@@ -70,9 +70,9 @@ _stats:
   duplicateSource: Item.QjcJlv4V9qinAY3i
   coreVersion: '14.367'
   systemId: co2
-  systemVersion: 2.3.9
-  createdTime: 1789895784649
-  modifiedTime: 1789895784649
+  systemVersion: 2.3.11
+  createdTime: 1789942549960
+  modifiedTime: 1789942549960
   lastModifiedBy: TjbWhMczNyKieD8D
   exportSource: null
 sort: 100000

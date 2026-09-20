@@ -1,7 +1,7 @@
 folder: tisYTFkRzayvw6k2
 name: Défense au bouclier
 type: capacity
-img: modules/warbound-campaign-content/assets/images/icons/capacites/classes/guerrier/cof2-defense-au-bouclier.png
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/classes/guerrier/cof2-defense-au-bouclier.png
 system:
   description: >-
     <p style="text-align:justify">Le guerrier obtient un bonus de +1 en DEF
@@ -71,9 +71,9 @@ _stats:
   duplicateSource: Item.mDHuIWAnuOEqIdO6
   coreVersion: '14.367'
   systemId: co2
-  systemVersion: 2.3.9
-  createdTime: 1789895784676
-  modifiedTime: 1789895784676
+  systemVersion: 2.3.11
+  createdTime: 1789942549978
+  modifiedTime: 1789942549978
   lastModifiedBy: TjbWhMczNyKieD8D
   exportSource: null
 sort: 0

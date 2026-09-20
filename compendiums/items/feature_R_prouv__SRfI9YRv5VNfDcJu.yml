@@ -1,7 +1,7 @@
 folder: ZU8jQk7j2jqAuJbV
 name: Réprouvé
 type: feature
-img: modules/warbound-campaign-content/assets/images/icons/races/coa-reprouve.png
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/races/coa-reprouve.png
 system:
   description: >-
     <blockquote><p><em>« J’ai déjà perdu ma vie et ma volonté une fois. Rien ne
@@ -43,9 +43,9 @@ flags: {}
 _stats:
   coreVersion: '14.367'
   systemId: co2
-  systemVersion: 2.3.9
-  createdTime: 1789895786818
-  modifiedTime: 1789895786818
+  systemVersion: 2.3.11
+  createdTime: 1789942491810
+  modifiedTime: 1789942491810
   lastModifiedBy: TjbWhMczNyKieD8D
   compendiumSource: null
   duplicateSource: Item.ACB4S77E4WJbZJTW

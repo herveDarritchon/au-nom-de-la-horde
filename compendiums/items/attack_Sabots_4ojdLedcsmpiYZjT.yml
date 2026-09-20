@@ -1,0 +1,75 @@
+name: Sabots
+type: attack
+img: modules/warbound-campaign-content/assets/images/items/weapons/kolkar/cof2-sabots-kolkar.png
+_id: 4ojdLedcsmpiYZjT
+system:
+  description: ''
+  source: ''
+  origin: ''
+  slug: ''
+  gmNotes: ''
+  subtype: melee
+  learned: false
+  charges: {}
+  properties:
+    spell: false
+    reloadable: false
+  range: null
+  actions:
+    - source: Item.4ojdLedcsmpiYZjT
+      indice: 0
+      label: ''
+      chatFlavor: ''
+      img: icons/svg/d20-highlight.svg
+      type: melee
+      actionType: none
+      properties:
+        activable: true
+        temporary: false
+        noChargesUsed: false
+        visible: false
+        enabled: false
+        noManaCost: false
+      conditions:
+        - predicate: isOwned
+      resolvers:
+        - type: attack
+          bonusDiceAdd: false
+          malusDiceAdd: false
+          skill:
+            formula: '+4'
+            crit: '20'
+            difficulty: '@cible.def'
+          dmg:
+            formula: 1D6+3
+          target:
+            type: none
+            number: '0'
+            scope: all
+          hasAttackSuccessThreshold: false
+          additionalEffect:
+            active: false
+            applyOn: success
+            statuses: []
+            duration: '0'
+            unit: round
+          halfDmgOnSave: true
+      modifiers: []
+effects: []
+folder: GeQlbBRZecgaU1Nw
+sort: 100000
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.11
+  createdTime: 1789942485807
+  modifiedTime: 1789942485807
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!4ojdLedcsmpiYZjT'
