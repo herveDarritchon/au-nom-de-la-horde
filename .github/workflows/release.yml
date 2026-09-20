@@ -19,23 +19,24 @@ jobs:
 
     steps:
       # ------------------------------------------------------------
-      # Checkout du repository
+      # Checkout
       # ------------------------------------------------------------
       - name: Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           lfs: true
 
-      # Sécurité supplémentaire :
-      # on force explicitement la récupération des objets LFS.
+      # ------------------------------------------------------------
+      # Git LFS
+      # ------------------------------------------------------------
       - name: Pull Git LFS files
         run: git lfs pull
 
       # ------------------------------------------------------------
       # Vérification LFS
       #
-      # Évite de fabriquer un module.zip contenant des pointeurs LFS
-      # à la place des vrais fichiers .ogg.
+      # Empêche de publier des pointeurs Git LFS à la place
+      # des vrais fichiers audio.
       # ------------------------------------------------------------
       - name: Verify Git LFS files
         shell: bash
@@ -54,27 +55,19 @@ jobs:
           echo "✅ Aucun pointeur Git LFS détecté dans assets/"
 
       # ------------------------------------------------------------
-      # Node
-      # ------------------------------------------------------------
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: pnpm
-
-      # ------------------------------------------------------------
-      # pnpm
+      # pnpm + Node + cache
       #
-      # IMPORTANT :
-      # adapte la version à celle utilisée localement.
-      # Vérifie avec :
+      # Version identique à ton poste :
+      # pnpm 11.24.0
       #
-      # pnpm --version
+      # pnpm/setup v1 peut installer directement Node 22.
       # ------------------------------------------------------------
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v4
+      - name: Setup pnpm and Node
+        uses: pnpm/setup@v1
         with:
-          version: 10
+          version: 11.24.0
+          runtime: node@22
+          cache: true
 
       # ------------------------------------------------------------
       # Dépendances
@@ -83,9 +76,13 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       # ------------------------------------------------------------
-      # Extraction version
+      # Version de la release
       #
-      # v0.1.0 -> 0.1.0
+      # Accepte :
+      #   0.1.0
+      #   v0.1.0
+      #
+      # Dans les deux cas VERSION = 0.1.0
       # ------------------------------------------------------------
       - name: Extract Version From Tag
         id: version
@@ -102,22 +99,21 @@ jobs:
       # ------------------------------------------------------------
       # Build
       #
-      # Ton package.json :
+      # package.json :
       #
       # build =
       #   pnpm packs:audit
       #   &&
       #   pnpm packs:build
-      #
       # ------------------------------------------------------------
       - name: Build Module
         run: pnpm build
 
       # ------------------------------------------------------------
-      # Manifest de release
+      # Génération du manifest de release
       #
-      # On travaille sur une copie dans le runner.
-      # Rien n'est commité dans main.
+      # Le module.json du repository n'est pas modifié :
+      # nous travaillons uniquement dans le runner.
       # ------------------------------------------------------------
       - name: Update Module Manifest
         env:
@@ -182,12 +178,20 @@ jobs:
           console.log(
             `✅ Manifest valide : ${manifest.id} ${manifest.version}`
           );
+
+          console.log(
+            `Manifest : ${manifest.manifest}`
+          );
+
+          console.log(
+            `Download : ${manifest.download}`
+          );
           NODE
 
       # ------------------------------------------------------------
-      # Construction du ZIP
+      # Création du module Foundry
       #
-      # On n'embarque QUE le runtime Foundry.
+      # Uniquement les fichiers nécessaires au runtime.
       # ------------------------------------------------------------
       - name: Create Module Archive
         run: |
@@ -202,26 +206,29 @@ jobs:
             packs/
 
       # ------------------------------------------------------------
-      # Vérification archive
+      # Vérifications du ZIP
       # ------------------------------------------------------------
       - name: Inspect Module Archive
         run: |
           echo "===== Taille ====="
           ls -lh module.zip
 
-          echo "===== Racine ====="
+          echo ""
+          echo "===== Contenu racine ====="
           unzip -l module.zip | head -100
 
+          echo ""
           echo "===== module.json ====="
           unzip -p module.zip module.json
 
       # ------------------------------------------------------------
-      # Upload vers la GitHub Release
+      # Publication des deux artefacts dans la release existante
       # ------------------------------------------------------------
       - name: Upload Release Files
         uses: ncipollo/release-action@v1
         with:
           allowUpdates: true
+
           token: ${{ secrets.GITHUB_TOKEN }}
 
           name: ${{ github.event.release.name }}
