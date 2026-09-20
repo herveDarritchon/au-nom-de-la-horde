@@ -1,7 +1,7 @@
 folder: iBZXfIsYJ0K1wqMG
 name: Voie du Shu'halo
 type: path
-img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/voies/voie-du-tauren.png
+img: modules/warbound-campaign-content/assets/images/icons/voies/voie-du-tauren.png
 system:
   description: >-
     <p>L'orc gagne un bonus de +3 à tous les tests d’intimidation. De plus, dans

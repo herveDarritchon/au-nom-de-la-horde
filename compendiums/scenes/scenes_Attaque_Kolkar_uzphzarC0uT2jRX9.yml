@@ -2,7 +2,7 @@ folder: mFjmSR0rCp0W3bgK
 name: Attaque Kolkar
 _id: uzphzarC0uT2jRX9
 navigation: false
-thumb: worlds/au-nom-de-la-horde-cof2/assets/scenes/thumb-H6Wtj-IHLSuyxJtk_vQA8Q.webp
+thumb: modules/warbound-campaign-content/assets/scenes/thumb-H6Wtj-IHLSuyxJtk_vQA8Q.webp
 width: 1672
 height: 941
 padding: 0.25
@@ -70,7 +70,7 @@ tokens:
     height: 1
     depth: 1
     texture:
-      src: worlds/au-nom-de-la-horde-cof2/assets/images/tokens/npcs/kolkar/coa-kolkar-coupe-sangle-token.webp
+      src: modules/warbound-campaign-content/assets/images/tokens/npcs/kolkar/coa-kolkar-coupe-sangle-token.webp
       anchorX: 0.5
       anchorY: 0.5
       fit: contain
@@ -159,7 +159,7 @@ tokens:
     height: 1
     depth: 1
     texture:
-      src: worlds/au-nom-de-la-horde-cof2/assets/images/tokens/npcs/kolkar/coa-kolkar-coupe-sangle-token.webp
+      src: modules/warbound-campaign-content/assets/images/tokens/npcs/kolkar/coa-kolkar-coupe-sangle-token.webp
       anchorX: 0.5
       anchorY: 0.5
       fit: contain
@@ -248,7 +248,7 @@ tokens:
     height: 1
     depth: 1
     texture:
-      src: worlds/au-nom-de-la-horde-cof2/assets/images/tokens/npcs/kolkar/coa-kolkar-guetteur-token.webp
+      src: modules/warbound-campaign-content/assets/images/tokens/npcs/kolkar/coa-kolkar-guetteur-token.webp
       anchorX: 0.5
       anchorY: 0.5
       fit: contain
@@ -337,7 +337,7 @@ tokens:
     height: 1
     depth: 1
     texture:
-      src: worlds/au-nom-de-la-horde-cof2/assets/images/tokens/npcs/kolkar/coa-kolkar-guetteur-token.webp
+      src: modules/warbound-campaign-content/assets/images/tokens/npcs/kolkar/coa-kolkar-guetteur-token.webp
       anchorX: 0.5
       anchorY: 0.5
       fit: contain
@@ -426,7 +426,7 @@ tokens:
     height: 1
     depth: 1
     texture:
-      src: worlds/au-nom-de-la-horde-cof2/assets/images/tokens/npcs/kolkar/coa-kolkar-pillard-token.webp
+      src: modules/warbound-campaign-content/assets/images/tokens/npcs/kolkar/coa-kolkar-pillard-token.webp
       anchorX: 0.5
       anchorY: 0.5
       fit: contain
@@ -516,7 +516,7 @@ levels:
       top: 20
     background:
       color: '#999999'
-      src: worlds/au-nom-de-la-horde-cof2/assets/images/battlemaps/coa-battlemap-attaque-centaure.png
+      src: modules/warbound-campaign-content/assets/images/battlemaps/coa-battlemap-attaque-centaure.png
       tint: '#ffffff'
       alphaThreshold: 0.75
     foreground:
@@ -545,7 +545,7 @@ sounds: []
 regions: []
 tiles:
   - texture:
-      src: worlds/au-nom-de-la-horde-cof2/assets/elements/horde/kodo/coa-asset-kodo-libre.png
+      src: modules/warbound-campaign-content/assets/elements/horde/kodo/coa-asset-kodo-libre.png
       anchorX: 0.5
       anchorY: 0.5
       scaleX: 1
@@ -621,7 +621,7 @@ tiles:
     name: ''
     _key: '!scenes.tiles!uzphzarC0uT2jRX9.qvJfEItBBO0T4Qel'
   - texture:
-      src: worlds/au-nom-de-la-horde-cof2/assets/elements/horde/cariole/coa-asset-cariole-renforcee-attache.png
+      src: modules/warbound-campaign-content/assets/elements/horde/cariole/coa-asset-cariole-renforcee-attache.png
       anchorX: 0.5
       anchorY: 0.5
       scaleX: 1
@@ -701,7 +701,7 @@ tiles:
       scaleY: 1
       anchorX: 0.5
       anchorY: 0.5
-      src: worlds/au-nom-de-la-horde-cof2/assets/elements/horde/kodo/coa-asset-kodo-lourd.png
+      src: modules/warbound-campaign-content/assets/elements/horde/kodo/coa-asset-kodo-lourd.png
       tint: '#ffffff'
       fit: fill
       alphaThreshold: 0.75
@@ -782,7 +782,7 @@ tiles:
       scaleY: 1
       anchorX: 0.5
       anchorY: 0.5
-      src: worlds/au-nom-de-la-horde-cof2/assets/elements/horde/cariole/coa-asset-cariole-vide.png
+      src: modules/warbound-campaign-content/assets/elements/horde/cariole/coa-asset-cariole-vide.png
       tint: '#ffffff'
       fit: fill
       alphaThreshold: 0.75
@@ -863,7 +863,7 @@ tiles:
       scaleY: 1
       anchorX: 0.5
       anchorY: 0.5
-      src: worlds/au-nom-de-la-horde-cof2/assets/elements/horde/foreuse/coa-asset-foreuse-bachee-sanglee-dessus.png
+      src: modules/warbound-campaign-content/assets/elements/horde/foreuse/coa-asset-foreuse-bachee-sanglee-dessus.png
       tint: '#ffffff'
       fit: fill
       alphaThreshold: 0.75
@@ -944,7 +944,7 @@ tiles:
       scaleY: 1
       anchorX: 0.5
       anchorY: 0.5
-      src: worlds/au-nom-de-la-horde-cof2/assets/elements/horde/kodo/coa-asset-kodo.png
+      src: modules/warbound-campaign-content/assets/elements/horde/kodo/coa-asset-kodo.png
       tint: '#ffffff'
       fit: fill
       alphaThreshold: 0.75
@@ -1025,7 +1025,7 @@ tiles:
       scaleY: 1
       anchorX: 0.5
       anchorY: 0.5
-      src: worlds/au-nom-de-la-horde-cof2/assets/elements/horde/cariole/coa-asset-cariole-remplie.png
+      src: modules/warbound-campaign-content/assets/elements/horde/cariole/coa-asset-cariole-remplie.png
       tint: '#ffffff'
       fit: fill
       alphaThreshold: 0.75
