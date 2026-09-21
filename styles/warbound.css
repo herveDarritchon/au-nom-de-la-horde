@@ -642,3 +642,10 @@ body.warbound-theme .wb-alliance {
         transition: none !important;
     }
 }
+
+/* -------------------------------------------------------------------------- */
+/* 12. PAUSE SCREEN                                                            */
+/* -------------------------------------------------------------------------- */
+body.system-co2.warbound-theme #pause img {
+    content: normal !important;
+}
