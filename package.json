@@ -9,8 +9,8 @@
     "packs:migrate-assets": "node ./tools/replaceAssetPaths.mjs",
     "packs:audit": "node ./tools/auditAssets.mjs",
     "build": "pnpm packs:audit && pnpm packs:build",
-    "test": "node --test src/",
-    "test:coverage": "c8 node --test src/"
+    "test": "node --test",
+    "test:coverage": "c8 node --test"
   },
   "devDependencies": {
     "@foundryvtt/foundryvtt-cli": "^3.0.4",
