@@ -1,0 +1,11 @@
+Notes du MJ
+Ombre errante
+| NC 2
+créature non-vivante · taille moyenne
+FOR +1 AGI +3 CON +2 PER +1 CHA +0 INT +0 VOL +1
+S Défense 13
+V Points de vigueur 12
+I Initiative 13
+Un murmure parcourt la salle.
+Toucher glacial :
+La cible fait un test de VOL difficulté 14 ou subit un désavantage.

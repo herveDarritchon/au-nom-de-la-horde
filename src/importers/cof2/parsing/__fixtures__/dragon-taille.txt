@@ -1,0 +1,10 @@
+Dragon ancien
+| NC 12
+créature vivante · taille colossale
+FOR +10 AGI +2 CON +9 PER +5* CHA +3 INT +4 VOL +5
+S Défense 20
+V Points de vigueur 120
+I Initiative 18
+Morsure +12 · DM 3d8+10
+Souffle destructeur :
+La créature inflige des DM de feu à tous dans un cône de 15 mètres.

@@ -1,0 +1,11 @@
+Archer gobelin
+| NC 1
+créature humanoïde · taille petite
+FOR -1 AGI +4* CON +0 PER +2 CHA -1 INT +0 VOL +0
+S Défense 12
+V Points de vigueur 8
+I Initiative 15
+Dague +2 · DM 1d4-1
+Arc court (20m) +5 · DM 1d6
+Tir précis :
+La créature ignore le couvert léger de sa cible.
