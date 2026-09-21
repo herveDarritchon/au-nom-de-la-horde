@@ -29,7 +29,8 @@
       "path": "packs/journals",
       "type": "JournalEntry",
       "ownership": {
-        "PLAYER": "OBSERVER",
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
         "ASSISTANT": "OWNER"
       }
     },
@@ -39,7 +40,8 @@
       "path": "packs/scenes",
       "type": "Scene",
       "ownership": {
-        "PLAYER": "OBSERVER",
+        "PLAYER": "NONE",
+        "TRUSTED":  "NONE",
         "ASSISTANT": "OWNER"
       }
     },
@@ -49,7 +51,8 @@
       "path": "packs/adventures",
       "type": "Adventure",
       "ownership": {
-        "PLAYER": "OBSERVER",
+        "PLAYER": "NONE",
+        "TRUSTED":  "NONE",
         "ASSISTANT": "OWNER"
       },
       "system": "co2"
@@ -60,7 +63,8 @@
       "path": "packs/items",
       "type": "Item",
       "ownership": {
-        "PLAYER": "OBSERVER",
+        "PLAYER": "NONE",
+        "TRUSTED":  "NONE",
         "ASSISTANT": "OWNER"
       },
       "system": "co2"
@@ -71,10 +75,22 @@
       "path": "packs/actors",
       "type": "Actor",
       "ownership": {
-        "PLAYER": "OBSERVER",
+        "PLAYER": "NONE",
+        "TRUSTED":  "NONE",
         "ASSISTANT": "OWNER"
       },
       "system": "co2"
+    },
+    {
+      "name": "playlists",
+      "label": "Playlists",
+      "path": "packs/playlists",
+      "type": "Playlist",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED":  "NONE",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
   "packFolders": [
@@ -86,7 +102,8 @@
         "scenes",
         "adventures",
         "items",
-        "actors"
+        "actors",
+        "playlists"
       ]
     }
   ],
