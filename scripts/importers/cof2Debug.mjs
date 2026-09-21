@@ -32,7 +32,7 @@ async function buildCapacityResolver() {
 }
 
 function buildAttackData(atk) {
-  const actionType = { melee: "melee", ranged: "ranged", magic: "magical" }[atk.kind];
+  const actionType = { melee: "melee", ranged: "ranged", magical: "magical" }[atk.kind];
   return {
     name: atk.name,
     type: "attack",
@@ -73,14 +73,14 @@ function buildAttackData(atk) {
  * @returns {Promise<{actor:Actor, warnings:string[]}>}
  */
 async function createEncounter(parsed) {
-  const warnings = [...parsed.warnings];
+  const warnings = parsed.diagnostics.filter((d) => d.severity !== "error").map((d) => d.message);
   const actor = await Actor.create({
     name: parsed.name,
     type: "encounter",
     system: {
       abilities: Object.fromEntries(ABILITIES.map((a) => [a, parsed.abilities[a]])),
       attributes: { nc: parsed.nc, hp: { base: parsed.hp, value: parsed.hp } },
-      combat: { def: { base: parsed.def }, init: { base: parsed.init }, dr: { base: parsed.dr } },
+      combat: { def: { base: parsed.defense }, init: { base: parsed.initiative }, dr: { base: parsed.damageReduction } },
       details: { category: parsed.category, size: parsed.size, notes: { public: parsed.notes.map(paragraph).join("") } },
     },
     prototypeToken: { disposition: CONST.TOKEN_DISPOSITIONS.HOSTILE },
@@ -108,7 +108,7 @@ async function createEncounter(parsed) {
     } else {
       if (hit?.ambiguous) warnings.push(`« ${cap.name} » : plusieurs capacités du compendium correspondent (${hit.ambiguous.join(", ")}), créée en texte.`);
       else if (resolver) warnings.push(`« ${cap.name} » : absente du compendium, créée en texte.`);
-      textOnly.push({ name: cap.name, type: "capacity", system: { description: paragraph(cap.text), learned: true, path: null } });
+      textOnly.push({ name: cap.name, type: "capacity", system: { description: paragraph(cap.description), learned: true, path: null } });
     }
   }
   if (textOnly.length) await actor.createEmbeddedDocuments("Item", textOnly);
@@ -133,10 +133,11 @@ async function importStatblockFromPrompt() {
   if (!text?.trim()) return;
 
   const parsed = parseStatblock(text);
-  if (parsed.errors.length) {
+  const blockingErrors = parsed.diagnostics.filter((d) => d.severity === "error");
+  if (blockingErrors.length) {
     return DialogV2.prompt({
       window: { title: "Statblock illisible", icon: "fa-solid fa-triangle-exclamation" },
-      content: `<p>Rien n'a été créé :</p><ul>${parsed.errors.map((e) => `<li>${esc(e)}</li>`).join("")}</ul>`,
+      content: `<p>Rien n'a été créé :</p><ul>${blockingErrors.map((e) => `<li>${esc(e.message)}</li>`).join("")}</ul>`,
       ok: { label: "Fermer" },
       rejectClose: false,
     });
