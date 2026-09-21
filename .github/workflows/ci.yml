@@ -1,0 +1,126 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+
+    steps:
+      # ------------------------------------------------------------
+      # Checkout
+      #
+      # lfs:true récupère les objets Git LFS, cohérent avec
+      # release.yml (packs:build s'appuie sur les mêmes sources).
+      # ------------------------------------------------------------
+      - name: Checkout Repository
+        uses: actions/checkout@v7
+        with:
+          lfs: true
+
+      # ------------------------------------------------------------
+      # pnpm + Node + cache
+      #
+      # Version identique à release.yml et au poste de dev :
+      # pnpm 11.24.0 / Node 22
+      #
+      # install:false évite une installation automatique : le
+      # pnpm install --frozen-lockfile reste explicite juste après.
+      # ------------------------------------------------------------
+      - name: Setup pnpm and Node
+        uses: pnpm/setup@v3
+        with:
+          version: 11.24.0
+          runtime: node@22
+          cache: true
+          install: false
+
+      # ------------------------------------------------------------
+      # Dépendances
+      # ------------------------------------------------------------
+      - name: Install Dependencies
+        run: pnpm install --frozen-lockfile
+
+      # ------------------------------------------------------------
+      # Exécution des tests
+      #
+      # Bloquant : un test qui échoue (exit != 0) casse le workflow.
+      # ------------------------------------------------------------
+      - name: Run Tests
+        run: pnpm test
+
+      # ------------------------------------------------------------
+      # Audit des sources YAML
+      #
+      # Bloquant : une référence `worlds/` fait échouer le workflow.
+      # ------------------------------------------------------------
+      - name: Audit Pack Sources
+        run: pnpm packs:audit
+
+      # ------------------------------------------------------------
+      # Migration des chemins d'assets
+      #
+      # `packs:migrate-assets` réécrit les YAML dans le runner éphémère
+      # (aucun commit après ce step). Un échec du script bloque le run.
+      # ------------------------------------------------------------
+      - name: Migrate Asset Paths
+        run: pnpm packs:migrate-assets
+
+      # ------------------------------------------------------------
+      # Compilation YAML -> Foundry LevelDB
+      # ------------------------------------------------------------
+      - name: Build Foundry LevelDB Packs
+        run: pnpm packs:build
+
+      # ------------------------------------------------------------
+      # Validation des datastores générés
+      #
+      # Vérifie que chaque pack déclaré dans module.json existe et
+      # n'est pas vide.
+      # ------------------------------------------------------------
+      - name: Validate Generated Pack Datastores
+        run: |
+          node <<'NODE'
+          const fs = require("fs");
+
+          const manifest = JSON.parse(
+            fs.readFileSync("module.json", "utf8")
+          );
+
+          let hasError = false;
+
+          console.log("===== Datastores Foundry =====");
+
+          for (const pack of manifest.packs ?? []) {
+            const packPath = pack.path;
+
+            if (!fs.existsSync(packPath)) {
+              console.error(
+                `❌ Datastore absent : ${pack.name} -> ${packPath}`
+              );
+              hasError = true;
+              continue;
+            }
+
+            const files = fs.readdirSync(packPath);
+
+            if (files.length === 0) {
+              console.error(
+                `❌ Datastore vide/invalide : ${pack.name} -> ${packPath}`
+              );
+              hasError = true;
+              continue;
+            }
+
+            console.log(`✅ ${pack.name} -> ${packPath}`);
+          }
+
+          if (hasError) {
+            process.exit(1);
+          }
+
+          console.log("✅ Tous les datastores déclarés ont été générés");
+          NODE
