@@ -1,0 +1,1 @@
+Aigle commun | NC 1/2 taille petite AGI +3* CON +2 FOR -3 PER +4* CHA +0 INT -4 VOL +0 S Défense 13 V Points de vigueur 3 I Initiative 16 Serres +3 · DM 1d4 Vol rapide : La créature obtient une action de mouvement supplémentaire lors de sa première action de chaque round.
