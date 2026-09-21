@@ -53,7 +53,11 @@ test("parseStatblock reproduit le comportement de la macro d'origine sur le Cent
   assert.equal(result.capacities.length, 4);
   assert.deepEqual(
     result.capacities.map((c) => c.name),
-    ["Attaque double (A)", "Charge (L)", "Hybride", "Discret"]
+    ["Attaque double", "Charge", "Hybride", "Discret"]
+  );
+  assert.deepEqual(
+    result.capacities.map((c) => c.actionType),
+    ["A", "L", null, null]
   );
   assert.ok(result.capacities.every((c) => c.description.length > 0));
   assert.ok(result.capacities.every((c) => ["high", "medium", "low"].includes(c.confidence)));
@@ -137,12 +141,12 @@ test("parseAttackLine ne reconnaît pas une ligne DM isolée (limite connue de l
   assert.equal(parseAttackLine("DM 1d8+6"), null);
 });
 
-test("matchTitle sépare le nom de capacité du texte qui suit le deux-points", () => {
+test("matchTitle sépare le nom de capacité du texte qui suit le deux-points, en extrayant le temps d'action", () => {
   assert.deepEqual(matchTitle("Charge (L) : texte"), {
     rawName: "Charge (L)",
-    name: "Charge (L)",
+    name: "Charge",
     description: "texte",
-    actionType: null,
+    actionType: "L",
     frequency: null,
     parameters: {},
     confidence: "high",
