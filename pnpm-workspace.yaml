@@ -1,2 +1,4 @@
 allowBuilds:
   classic-level: false
+patchedDependencies:
+  '@foundryvtt/foundryvtt-cli@3.0.4': patches/@foundryvtt__foundryvtt-cli@3.0.4.patch

@@ -4,13 +4,16 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+patchedDependencies:
+  '@foundryvtt/foundryvtt-cli@3.0.4': e79e2d4d2a1f2ef91c84da67e09cbeeba0feda4235ac094a85d5f7512a367330
+
 importers:
 
   .:
     devDependencies:
       '@foundryvtt/foundryvtt-cli':
         specifier: ^3.0.4
-        version: 3.0.4
+        version: 3.0.4(patch_hash=e79e2d4d2a1f2ef91c84da67e09cbeeba0feda4235ac094a85d5f7512a367330)
       c8:
         specifier: ^12.0.0
         version: 12.0.0
@@ -445,7 +448,7 @@ snapshots:
 
   '@bcoe/v8-coverage@1.0.2': {}
 
-  '@foundryvtt/foundryvtt-cli@3.0.4':
+  '@foundryvtt/foundryvtt-cli@3.0.4(patch_hash=e79e2d4d2a1f2ef91c84da67e09cbeeba0feda4235ac094a85d5f7512a367330)':
     dependencies:
       chalk: 5.6.2
       classic-level: 3.0.0

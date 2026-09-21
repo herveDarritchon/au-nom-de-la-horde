@@ -1,0 +1,12 @@
+diff --git a/lib/package.mjs b/lib/package.mjs
+index 0fcb68e3d38ca4fb41c44c984d645cb128e80185..7072451fd110477394e344828bc126d365f0e075 100644
+--- a/lib/package.mjs
++++ b/lib/package.mjs
+@@ -552,6 +552,7 @@ async function extractClassicLevel(pack, dest, {
+ }={}) {
+   // Load the directory as a ClassicLevel DB.
+   const db = new ClassicLevel(pack, { keyEncoding: "utf8", valueEncoding: "json", createIfMissing: false });
++  await db.open();
+ 
+   // Build up the folder structure
+   let folderMap = new Map();
