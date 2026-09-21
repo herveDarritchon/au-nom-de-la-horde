@@ -40,8 +40,8 @@ const CONFIG = {
   modulePrefix: "modules/warbound-campaign-content/",
   systemPrefix: "systems/co2/",
 
-  excludedPrefixes: [
-    "worlds/au-nom-de-la-horde-cof2/vaults-cache/"
+  excludedPatterns: [
+    /^worlds\/[^/]+\/vaults-cache\//
   ],
 
   // Médias pris en charge.
@@ -273,8 +273,8 @@ async function auditReference({
   // ------------------------------------------------------------
 
   if (
-    CONFIG.excludedPrefixes.some(
-      prefix => mediaPath.startsWith(prefix)
+    CONFIG.excludedPatterns.some(
+      pattern => pattern.test(mediaPath)
     )
   ) {
     return;
