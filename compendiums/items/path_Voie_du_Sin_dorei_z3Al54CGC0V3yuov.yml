@@ -1,7 +1,7 @@
 folder: iBZXfIsYJ0K1wqMG
 name: Voie du Sin'dorei
 type: path
-img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/voies/voie-de-l-elfe-de-sang.png
+img: modules/warbound-campaign-content/assets/images/icons/voies/voie-de-l-elfe-de-sang.png
 system:
   description: >-
     <p>L'orc gagne un bonus de +3 à tous les tests d’intimidation. De plus, dans
