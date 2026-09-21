@@ -1,0 +1,18 @@
+Centaure
+| NC 3
+créature vivante (humanoïde) · taille grande
+AGI +3 CON +6* FOR +6 PER +1* CHA +0 INT -1 VOL +0
+S Défense 15
+V Points de vigueur 30
+I Initiative 14
+Sabots +7 · DM 1d8+6
+Épée longue +7 · DM 1d8+3
+Arc long +4 · DM 1d8
+Attaque double (A) :
+La créature effectue deux attaques de sabots en une seule action.
+Charge (L) :
+Si la créature se déplace d'au moins 6 mètres en ligne droite avant d'attaquer, la cible fait un test de FOR difficulté 16 ou est renversée.
+Hybride :
+La créature peut se déplacer normalement sur terrain accidenté sans pénalité.
+Discret :
+La créature bénéficie d'un bonus de +5 aux tests de discrétion en forêt.
