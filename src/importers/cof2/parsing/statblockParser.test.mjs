@@ -7,7 +7,8 @@ import path from "node:path";
 import { parseStatblock, parseAttackLine, matchTitle } from "./statblockParser.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const centaure = readFileSync(path.join(__dirname, "__fixtures__", "centaure.txt"), "utf8");
+const fixture = (name) => readFileSync(path.join(__dirname, "__fixtures__", name), "utf8");
+const centaure = fixture("centaure.txt");
 
 test("parseStatblock reproduit le comportement de la macro d'origine sur le Centaure", () => {
   const result = parseStatblock(centaure);
@@ -72,4 +73,41 @@ test("parseAttackLine ne reconnaît pas une ligne DM isolée (limite connue de l
 test("matchTitle sépare le nom de capacité du texte qui suit le deux-points", () => {
   assert.deepEqual(matchTitle("Charge (L) : texte"), { name: "Charge (L)", text: "texte" });
   assert.equal(matchTitle("Une phrase sans deux-points"), null);
+});
+
+test("parseStatblock lit la réduction des DM (RD) après la Défense", () => {
+  const result = parseStatblock(fixture("golem-rd.txt"));
+
+  assert.equal(result.name, "Golem de pierre");
+  assert.equal(result.category, "undead");
+  assert.equal(result.def, 18);
+  assert.equal(result.dr, 5);
+  assert.deepEqual(result.errors, []);
+});
+
+test("parseStatblock reconnaît une attaque à distance avec portée", () => {
+  const result = parseStatblock(fixture("archer-distance.txt"));
+
+  const arc = result.attacks.find((a) => a.name.startsWith("Arc court"));
+  assert.ok(arc);
+  assert.equal(arc.kind, "ranged");
+  assert.equal(arc.range, 20);
+  assert.equal(arc.damage, "1d6");
+});
+
+test("parseStatblock reconnaît une taille non standard (colossale)", () => {
+  const result = parseStatblock(fixture("dragon-taille.txt"));
+
+  assert.equal(result.size, "colossal");
+  assert.equal(result.nc, 12);
+});
+
+test("parseStatblock signale les avertissements sur un statblock imparfait", () => {
+  const result = parseStatblock(fixture("ombre-avertissements.txt"));
+
+  assert.equal(result.name, "Ombre errante");
+  assert.deepEqual(result.errors, []);
+  assert.ok(result.warnings.some((w) => /ligne\(s\) avant le nom ignorée\(s\)/.test(w)));
+  assert.ok(result.warnings.some((w) => /Ligne non reconnue/.test(w)));
+  assert.ok(result.warnings.some((w) => /Aucune attaque reconnue/.test(w)));
 });

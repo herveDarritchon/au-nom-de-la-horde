@@ -27,6 +27,8 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import process from "node:process";
 
+import { classifyPath } from "../src/tools/assetPolicy.mjs";
+
 const ROOT = process.cwd();
 
 const CONFIG = {
@@ -268,44 +270,20 @@ async function auditReference({
     stats.byKind[kind] += 1;
   }
 
-  // ------------------------------------------------------------
-  // 0. EXCLUSIONS EXPLICITES
-  // ------------------------------------------------------------
+  const verdict = classifyPath(mediaPath, CONFIG);
 
-  if (
-    CONFIG.excludedPatterns.some(
-      pattern => pattern.test(mediaPath)
-    )
-  ) {
+  if (verdict.type === "EXCLUDED") {
     return;
   }
 
-  // ------------------------------------------------------------
-  // 1. WORLD : seule catégorie bloquante
-  // ------------------------------------------------------------
-
-  if (mediaPath.startsWith("worlds/")) {
-    addError({
-      type: "WORLD_REFERENCE",
-      kind,
-      sourceFile,
-      line,
-      mediaPath,
-      details:
-        "Une référence à un world n'est pas portable dans un module."
-    });
-
+  if (verdict.type === "WORLD_REFERENCE") {
+    addError({ type: verdict.type, kind, sourceFile, line, mediaPath, details: verdict.details });
     return;
   }
 
-  // ------------------------------------------------------------
-  // 2. MODULE WARBOUND : accepté
-  //
-  // On vérifie tout de même que le fichier existe dans la codebase.
+  // MODULE WARBOUND : accepté, mais on vérifie tout de même que le fichier existe dans la codebase.
   // S'il manque, on produit seulement un warning.
-  // ------------------------------------------------------------
-
-  if (mediaPath.startsWith(CONFIG.modulePrefix)) {
+  if (verdict.type === "MODULE") {
     const cleanPath = stripQueryAndHash(mediaPath);
 
     const relativeAssetPath = cleanPath.slice(
@@ -342,102 +320,48 @@ async function auditReference({
     }
 
     stats.accepted.module += 1;
-
     return;
   }
 
-  // ------------------------------------------------------------
-  // 3. AUTRE MODULE : accepté avec warning
-  // ------------------------------------------------------------
-
-  if (mediaPath.startsWith("modules/")) {
-    addWarning({
-      type: "EXTERNAL_MODULE_REFERENCE",
-      kind,
-      sourceFile,
-      line,
-      mediaPath,
-      details:
-        "Référence vers un autre module Foundry."
-    });
-
+  if (verdict.type === "EXTERNAL_MODULE_REFERENCE") {
+    addWarning({ type: verdict.type, kind, sourceFile, line, mediaPath, details: verdict.details });
     return;
   }
 
-  // ------------------------------------------------------------
-  // 4. SYSTÈME COF2 : accepté
-  // ------------------------------------------------------------
-
-  if (mediaPath.startsWith(CONFIG.systemPrefix)) {
+  if (verdict.type === "SYSTEM_COF2") {
     stats.accepted.systemCof2 += 1;
-
     return;
   }
 
-  // ------------------------------------------------------------
-  // 5. AUTRE SYSTÈME : accepté avec warning
-  // ------------------------------------------------------------
-
-  if (mediaPath.startsWith("systems/")) {
+  if (verdict.type === "EXTERNAL_SYSTEM_REFERENCE") {
     addWarning({
-      type: "EXTERNAL_SYSTEM_REFERENCE",
+      type: verdict.type,
       kind,
       sourceFile,
       line,
       mediaPath,
-      details:
-        `Référence vers un système autre que ${CONFIG.systemId}.`
+      details: `Référence vers un système autre que ${CONFIG.systemId}.`
     });
-
     return;
   }
 
-  // ------------------------------------------------------------
-  // 6. FOUNDRY CORE : accepté
-  // ------------------------------------------------------------
-
-  if (
-    mediaPath.startsWith("icons/") ||
-    mediaPath.startsWith("ui/")
-  ) {
+  if (verdict.type === "FOUNDRY_CORE") {
     stats.accepted.foundryCore += 1;
-
     return;
   }
 
-  // ------------------------------------------------------------
-  // 7. INTERNET : accepté
-  // ------------------------------------------------------------
-
-  if (/^https?:\/\//i.test(mediaPath)) {
+  if (verdict.type === "REMOTE") {
     stats.accepted.remote += 1;
-
     return;
   }
 
-  // ------------------------------------------------------------
-  // 8. DATA URI : accepté
-  // ------------------------------------------------------------
-
-  if (/^data:/i.test(mediaPath)) {
+  if (verdict.type === "DATA_URI") {
     stats.accepted.dataUri += 1;
-
     return;
   }
 
-  // ------------------------------------------------------------
-  // 9. AUTRE CHEMIN : warning uniquement
-  // ------------------------------------------------------------
-
-  addWarning({
-    type: "UNCLASSIFIED_REFERENCE",
-    kind,
-    sourceFile,
-    line,
-    mediaPath,
-    details:
-      "Référence média non reconnue par la politique Warbound."
-  });
+  // UNCLASSIFIED_REFERENCE : warning uniquement.
+  addWarning({ type: verdict.type, kind, sourceFile, line, mediaPath, details: verdict.details });
 }
 
 async function auditYamlFile(sourceFile) {

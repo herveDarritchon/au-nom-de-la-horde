@@ -1,0 +1,10 @@
+Golem de pierre
+| NC 5
+créature non-vivante · taille grande
+FOR +8 AGI -2 CON +8 PER +0 CHA -3 INT -5 VOL +2
+S Défense 18 (RD 5)
+V Points de vigueur 45
+I Initiative 8
+Poing +9 · DM 2d6+8
+Écrasement :
+La créature inflige des DM supplémentaires si la cible est au sol.
