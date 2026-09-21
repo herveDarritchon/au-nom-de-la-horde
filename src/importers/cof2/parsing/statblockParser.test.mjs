@@ -9,6 +9,8 @@ import { parseStatblock, parseAttackLine, matchTitle } from "./statblockParser.m
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const fixture = (name) => readFileSync(path.join(__dirname, "__fixtures__", name), "utf8");
 const centaure = fixture("centaure.txt");
+const centaurePdfBrut = fixture("centaure-pdf-brut.txt");
+const statblockUneLigne = fixture("statblock-une-ligne.txt");
 
 test("parseStatblock reproduit le comportement de la macro d'origine sur le Centaure", () => {
   const result = parseStatblock(centaure);
@@ -52,6 +54,56 @@ test("parseStatblock reproduit le comportement de la macro d'origine sur le Cent
   assert.ok(result.capacities.every((c) => c.text.length > 0));
 
   assert.deepEqual(result.warnings, []);
+  assert.deepEqual(result.errors, []);
+
+  assert.equal(result.rawText, centaure);
+  assert.ok(result.normalizedText.length > 0);
+});
+
+test("parseStatblock reconstruit un Centaure brut (bruit de page, césure, attaque coupée sur deux lignes)", () => {
+  const result = parseStatblock(centaurePdfBrut);
+
+  assert.equal(result.name, "Centaure");
+  assert.equal(result.nc, 3);
+  assert.deepEqual(result.errors, []);
+
+  assert.equal(result.attacks.length, 3);
+  assert.deepEqual(
+    result.attacks.map((a) => a.name),
+    ["Sabots", "Épée longue", "Arc long"]
+  );
+  assert.deepEqual(
+    result.attacks.map((a) => a.damage),
+    ["1d8+6", "1d8+3", "1d8"]
+  );
+
+  assert.ok(!result.warnings.some((w) => /DM 1d8\+6/.test(w)));
+  assert.ok(!result.warnings.some((w) => /BESTIAIRE/i.test(w)));
+  assert.ok(!result.warnings.some((w) => /INTRO/.test(w)));
+
+  const hybride = result.capacities.find((c) => c.name === "Hybride");
+  assert.ok(hybride);
+  assert.ok(/piétine/.test(hybride.text));
+  assert.ok(!/pié-/.test(hybride.text));
+});
+
+test("parseStatblock segmente un statblock entièrement collé sur une seule ligne", () => {
+  const result = parseStatblock(statblockUneLigne);
+
+  assert.equal(result.name, "Aigle commun");
+  assert.equal(result.nc, 0.5);
+  assert.equal(result.size, "small");
+  assert.equal(Object.keys(result.abilities).length, 7);
+  assert.equal(result.def, 13);
+  assert.equal(result.hp, 3);
+  assert.equal(result.init, 16);
+
+  assert.equal(result.attacks.length, 1);
+  assert.equal(result.attacks[0].name, "Serres");
+  assert.equal(result.attacks[0].damage, "1d4");
+
+  assert.equal(result.capacities.length, 1);
+  assert.equal(result.capacities[0].name, "Vol rapide");
   assert.deepEqual(result.errors, []);
 });
 

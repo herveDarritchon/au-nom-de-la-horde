@@ -18,6 +18,7 @@
  */
 
 import { tidyCase, cleanName, toSigned } from "./textUtils.mjs";
+import { reconstructText } from "./textReconstruction.mjs";
 
 const ABILITIES = ["for", "agi", "con", "per", "cha", "int", "vol"];
 const SIZES = { "très petite": "verySmall", minuscule: "tiny", petite: "small", moyenne: "medium", grande: "large", énorme: "huge", colossale: "colossal" };
@@ -35,17 +36,19 @@ const TITLE_RE = /^([A-ZÀ-ÖØ-Þ][^:.!?\[@]{0,60}?)\s*:\s*(.*)$/;
  * Analyse un statblock COF2 collé.
  * @param {string} text Le texte du statblock
  * @returns {{name:string, nc:number, category:string, size:string, abilities:object, def:number, hp:number, init:number, dr:number,
- *   notes:string[], attacks:object[], capacities:{name:string,text:string}[], warnings:string[], errors:string[]}}
+ *   notes:string[], attacks:object[], capacities:{name:string,text:string}[], warnings:string[], errors:string[],
+ *   rawText:string, normalizedText:string}}
  */
 function parseStatblock(text) {
   const warnings = [];
   const errors = [];
-  let lines = String(text ?? "")
+  const { rawText, normalizedText } = reconstructText(text);
+  let lines = normalizedText
     .split(/\r?\n/)
-    .map((l) => l.replace(/[ \t]+/g, " ").replace(/ {2,}/g, " ").replace(/[‐-‒−]/g, "-").trim())
+    .map((l) => l.trim())
     .filter(Boolean);
 
-  const result = { name: "", nc: 0, category: "living", size: "medium", abilities: {}, def: null, hp: null, init: null, dr: 0, notes: [], attacks: [], capacities: [], warnings, errors };
+  const result = { name: "", nc: 0, category: "living", size: "medium", abilities: {}, def: null, hp: null, init: null, dr: 0, notes: [], attacks: [], capacities: [], warnings, errors, rawText, normalizedText };
 
   // 1. Ligne « | NC x » : le nom est avant sur la même ligne, ou sur la ligne précédente
   const ncIndex = lines.findIndex((l) => NC_LINE_RE.test(l));
