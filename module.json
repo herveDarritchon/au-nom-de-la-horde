@@ -119,10 +119,12 @@
   },
   "description": "Contenu de campagne Warbound pour COF2 RPG, avec direction artistique Warbound pour les Journaux Foundry VTT.",
   "styles": [
-    "styles/warbound.css"
+    "styles/warbound.css",
+    "styles/warbound-importer.css"
   ],
   "esmodules": [
     "scripts/warbound.mjs",
-    "scripts/importers/cof2Debug.mjs"
+    "scripts/importers/cof2Debug.mjs",
+    "scripts/importers/cof2ImportWizard.mjs"
   ]
 }
