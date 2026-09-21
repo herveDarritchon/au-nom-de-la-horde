@@ -20,6 +20,7 @@
 import { tidyCase, cleanName, toSigned } from "./textUtils.mjs";
 import { reconstructText } from "./textReconstruction.mjs";
 import { missingAbility, multipleStatblocks, pdfNoiseRemoved, toEncounterDraft, unsupportedAutomation } from "./encounterDraft.mjs";
+import { extractActionType } from "../resolution/capacityResolver.mjs";
 
 const ABILITIES = ["for", "agi", "con", "per", "cha", "int", "vol"];
 const SIZES = { "très petite": "verySmall", minuscule: "tiny", petite: "small", moyenne: "medium", grande: "large", énorme: "huge", colossale: "colossal" };
@@ -169,10 +170,11 @@ function matchTitle(line) {
   const m = line.match(TITLE_RE);
   if (!m || m[1].trim().split(/\s+/).length > 7) return null;
   const rawName = m[1].trim();
-  // « Charge (L) » : la parenthèse porte le type d'action (L/A/M/G), pas une variante paramétrée ambiguë.
-  const trailingParens = rawName.match(/\(([^)]*)\)\s*$/);
-  const confidence = trailingParens && !/^[LAMG]$/.test(trailingParens[1].trim()) ? "medium" : "high";
-  return { rawName, name: tidyCase(rawName), description: m[2].trim(), actionType: null, frequency: null, parameters: {}, confidence };
+  // « Charge (L) » : la parenthèse porte le type d'action (L/A/M/G), extrait du nom avant toute résolution ;
+  // une autre parenthèse finale reste une variante paramétrée ambiguë (confiance abaissée).
+  const { name, actionType } = extractActionType(rawName);
+  const confidence = /\([^)]*\)\s*$/.test(rawName) && !actionType ? "medium" : "high";
+  return { rawName, name: tidyCase(name), description: m[2].trim(), actionType, frequency: null, parameters: {}, confidence };
 }
 
 export { ABILITIES, SIZES, parseStatblock, parseAttackLine, matchTitle };

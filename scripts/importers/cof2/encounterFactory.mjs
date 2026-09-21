@@ -5,7 +5,7 @@
  * d'import COF2, partagé par la commande de debug (`cof2Debug.mjs`) et le wizard d'import (`cof2ImportWizard.mjs`).
  */
 
-import { makeCapacityMatcher } from "../../../src/importers/cof2/index.mjs";
+import { makeCapacityResolver } from "../../../src/importers/cof2/index.mjs";
 
 const PACK_ID = "cof2-base.cof-2-base-items";
 const CAPACITY_FOLDERS = ["Capacités des rencontres", "Capacité de base"];
@@ -17,7 +17,7 @@ const paragraph = (s) => (s ? `<p>${esc(s)}</p>` : "");
 /**
  * Charge les capacités de créatures du compendium (dossiers « Capacités des rencontres » et « Capacité de base » uniquement :
  * ce sont les seuls que le bestiaire utilise, les capacités de voies de PJ n'ont rien à faire sur un monstre).
- * @returns {Promise<{pack:object, match:ReturnType<typeof makeCapacityMatcher>}|null>} null si le compendium est absent
+ * @returns {Promise<{pack:object, resolve:ReturnType<typeof makeCapacityResolver>}|null>} null si le compendium est absent
  */
 async function buildCapacityResolver() {
   const pack = game.packs.get(PACK_ID);
@@ -26,7 +26,7 @@ async function buildCapacityResolver() {
   const folderIds = new Set(pack.folders.filter((f) => CAPACITY_FOLDERS.includes(f.name)).map((f) => f.id));
   const priority = pack.folders.find((f) => f.name === CAPACITY_FOLDERS[0])?.id;
   const entries = index.filter((e) => e.type === "capacity" && folderIds.has(e.folder));
-  return { pack, match: makeCapacityMatcher(entries, priority) };
+  return { pack, resolve: makeCapacityResolver({ officialEntries: entries, priorityFolderId: priority }) };
 }
 
 function buildAttackData(atk) {
@@ -98,13 +98,14 @@ async function createEncounter(parsed) {
   if (!resolver && parsed.capacities.length) warnings.push(`Compendium ${PACK_ID} introuvable : capacités créées en texte seul.`);
   const textOnly = [];
   for (const cap of parsed.capacities) {
-    const hit = resolver?.match(cap.name);
-    if (hit?.entry) {
-      const doc = await resolver.pack.getDocument(hit.entry._id);
+    const resolution = resolver?.resolve(cap.name) ?? { status: "NOT_FOUND" };
+    if (resolution.status === "EXACT_REUSE" || resolution.status === "TEMPLATE_VARIANT" || resolution.status === "REUSE_IMPORTED") {
+      const doc = await resolver.pack.getDocument(resolution.entry._id);
       await actor.addCapacity(doc, null);
-      if (hit.approximate) warnings.push(`« ${cap.name} » : reprise de « ${hit.entry.name} » du compendium, vérifier le paramètre.`);
+      if (resolution.status === "TEMPLATE_VARIANT") warnings.push(`« ${cap.name} » : variante de « ${resolution.entry.name} » du compendium, vérifier le paramètre.`);
+      else if (resolution.status === "REUSE_IMPORTED") warnings.push(`« ${cap.name} » : réutilise la capacité importée « ${resolution.entry.name} ».`);
     } else {
-      if (hit?.ambiguous) warnings.push(`« ${cap.name} » : plusieurs capacités du compendium correspondent (${hit.ambiguous.join(", ")}), créée en texte.`);
+      if (resolution.status === "AMBIGUOUS") warnings.push(`« ${cap.name} » : plusieurs capacités du compendium correspondent (${resolution.candidates.join(", ")}), créée en texte.`);
       else if (resolver) warnings.push(`« ${cap.name} » : absente du compendium, créée en texte.`);
       textOnly.push({ name: cap.name, type: "capacity", system: { description: paragraph(cap.description), learned: true, path: null } });
     }

@@ -15,10 +15,11 @@ const STEPS = ["source", "preview", "options", "result"];
 const STEP_LABELS = { source: "Source", preview: "Prévisualisation", options: "Options", result: "Résultat" };
 const SEVERITY_LABELS = { error: "Erreur", warning: "À vérifier", info: "Information" };
 const CONFIDENCE_BADGES = { high: "✓", medium: "⚠", low: "✕" };
-const CAPACITY_STATUS_BADGES = { EXACT_REUSE: "✓", TEMPLATE_VARIANT: "⚠", AMBIGUOUS: "⚠", NOT_FOUND: "✕" };
+const CAPACITY_STATUS_BADGES = { EXACT_REUSE: "✓", TEMPLATE_VARIANT: "⚠", REUSE_IMPORTED: "✓", AMBIGUOUS: "⚠", NOT_FOUND: "✕" };
 const CAPACITY_STATUS_LABELS = {
   EXACT_REUSE: "Réutilisation exacte",
   TEMPLATE_VARIANT: "Variante d'un modèle connu",
+  REUSE_IMPORTED: "Réutilisation d'une capacité déjà importée",
   AMBIGUOUS: "Ambiguë (plusieurs correspondances)",
   NOT_FOUND: "Nouvelle capacité",
 };
@@ -26,15 +27,13 @@ const CAPACITY_STATUS_LABELS = {
 const esc = (s) => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
 /**
- * Déduit un statut de résolution simplifié (section 14 de l'Epic) à partir du résultat de `makeCapacityMatcher`.
+ * Déduit le statut de résolution (section 14 de l'Epic) depuis le résultat de `makeCapacityResolver`.
  * Le compendium officiel `cof2-base` uniquement est consulté ici : pas de bibliothèque d'import (Story 5/6).
- * @param {{entry?:object, approximate?:boolean, ambiguous?:string[]}|undefined} hit
- * @returns {"EXACT_REUSE"|"TEMPLATE_VARIANT"|"AMBIGUOUS"|"NOT_FOUND"}
+ * @param {{status:"EXACT_REUSE"|"TEMPLATE_VARIANT"|"REUSE_IMPORTED"|"AMBIGUOUS"|"NOT_FOUND", ...}|undefined} resolution
+ * @returns {"EXACT_REUSE"|"TEMPLATE_VARIANT"|"REUSE_IMPORTED"|"AMBIGUOUS"|"NOT_FOUND"}
  */
-function capacityStatus(hit) {
-  if (hit?.entry) return hit.approximate ? "TEMPLATE_VARIANT" : "EXACT_REUSE";
-  if (hit?.ambiguous) return "AMBIGUOUS";
-  return "NOT_FOUND";
+function capacityStatus(resolution) {
+  return resolution?.status ?? "NOT_FOUND";
 }
 
 class Cof2ImportWizardApp extends foundry.applications.api.ApplicationV2 {
@@ -321,8 +320,8 @@ class Cof2ImportWizardApp extends foundry.applications.api.ApplicationV2 {
     this.#capacityHits = new Map();
     const resolver = await buildCapacityResolver();
     draft.capacities.forEach((cap, i) => {
-      const hit = resolver?.match(cap.name);
-      this.#capacityHits.set(i, { hit, status: capacityStatus(hit) });
+      const resolution = resolver?.resolve(cap.name);
+      this.#capacityHits.set(i, { hit: resolution, status: capacityStatus(resolution) });
     });
     this.#step = "preview";
     return this.render();
