@@ -28,9 +28,29 @@ jobs:
 
       # ------------------------------------------------------------
       # Git LFS
+      #
+      # actions/checkout avec lfs:true télécharge normalement
+      # les objets LFS. On force néanmoins fetch + checkout afin
+      # de garantir que le working tree contient les vrais fichiers
+      # avant le packaging.
       # ------------------------------------------------------------
-      - name: Pull Git LFS files
-        run: git lfs pull
+      - name: Materialize Git LFS files
+        shell: bash
+        run: |
+          echo "===== Git LFS ====="
+          git lfs version
+          
+          echo ""
+          echo "Téléchargement des objets LFS..."
+          git lfs fetch origin HEAD
+          
+          echo ""
+          echo "Matérialisation des objets LFS..."
+          git lfs checkout
+          
+          echo ""
+          echo "===== État LFS ====="
+          git lfs status
 
       # ------------------------------------------------------------
       # Vérification LFS
@@ -53,6 +73,32 @@ jobs:
           fi
 
           echo "✅ Aucun pointeur Git LFS détecté dans assets/"
+
+        # ------------------------------------------------------------
+        # Validation des fichiers OGG
+        #
+        # Empêche de publier des fichiers audio corrompus.
+        # ------------------------------------------------------------
+      - name: Validate OGG assets
+        shell: bash
+        run: |
+          FAILED=0
+          
+          while IFS= read -r -d '' FILE; do
+            MAGIC="$(head -c 4 "$FILE")"
+          
+            if [ "$MAGIC" != "OggS" ]; then
+              echo "❌ Fichier OGG invalide : $FILE"
+              file "$FILE" || true
+              FAILED=1
+            fi
+          done < <(find assets -type f -name '*.ogg' -print0)
+          
+          if [ "$FAILED" -ne 0 ]; then
+            exit 1
+          fi
+          
+          echo "✅ Tous les fichiers .ogg commencent par OggS"
 
       # ------------------------------------------------------------
       # pnpm + Node + cache
