@@ -20,6 +20,10 @@ jobs:
     steps:
       # ------------------------------------------------------------
       # Checkout
+      #
+      # lfs:true demande à actions/checkout de récupérer les objets
+      # Git LFS. On force ensuite fetch + checkout pour garantir que
+      # le working tree contient bien les vrais fichiers.
       # ------------------------------------------------------------
       - name: Checkout Repository
         uses: actions/checkout@v7
@@ -28,26 +32,21 @@ jobs:
 
       # ------------------------------------------------------------
       # Git LFS
-      #
-      # actions/checkout avec lfs:true télécharge normalement
-      # les objets LFS. On force néanmoins fetch + checkout afin
-      # de garantir que le working tree contient les vrais fichiers
-      # avant le packaging.
       # ------------------------------------------------------------
       - name: Materialize Git LFS files
         shell: bash
         run: |
           echo "===== Git LFS ====="
           git lfs version
-          
+
           echo ""
-          echo "Téléchargement des objets LFS..."
-          git lfs fetch origin HEAD
-          
+          echo "Téléchargement des objets LFS pour le commit de release..."
+          git lfs fetch origin "${GITHUB_SHA}"
+
           echo ""
-          echo "Matérialisation des objets LFS..."
+          echo "Matérialisation des objets LFS dans le working tree..."
           git lfs checkout
-          
+
           echo ""
           echo "===== État LFS ====="
           git lfs status
@@ -56,7 +55,7 @@ jobs:
       # Vérification LFS
       #
       # Empêche de publier des pointeurs Git LFS à la place
-      # des vrais fichiers audio.
+      # des vrais fichiers.
       # ------------------------------------------------------------
       - name: Verify Git LFS files
         shell: bash
@@ -74,46 +73,53 @@ jobs:
 
           echo "✅ Aucun pointeur Git LFS détecté dans assets/"
 
-        # ------------------------------------------------------------
-        # Validation des fichiers OGG
-        #
-        # Empêche de publier des fichiers audio corrompus.
-        # ------------------------------------------------------------
+      # ------------------------------------------------------------
+      # Validation des fichiers OGG
+      #
+      # Vérifie que chaque .ogg est réellement un conteneur Ogg
+      # et non un pointeur LFS ou un fichier mal renommé.
+      # ------------------------------------------------------------
       - name: Validate OGG assets
         shell: bash
         run: |
           FAILED=0
-          
+          COUNT=0
+
           while IFS= read -r -d '' FILE; do
+            COUNT=$((COUNT + 1))
             MAGIC="$(head -c 4 "$FILE")"
-          
+
             if [ "$MAGIC" != "OggS" ]; then
               echo "❌ Fichier OGG invalide : $FILE"
               file "$FILE" || true
               FAILED=1
             fi
           done < <(find assets -type f -name '*.ogg' -print0)
-          
+
+          echo "Fichiers OGG contrôlés : $COUNT"
+
           if [ "$FAILED" -ne 0 ]; then
             exit 1
           fi
-          
+
           echo "✅ Tous les fichiers .ogg commencent par OggS"
 
       # ------------------------------------------------------------
       # pnpm + Node + cache
       #
-      # Version identique à ton poste :
-      # pnpm 11.24.0
+      # Version identique au poste de développement :
+      # pnpm 11.24.0 / Node 22
       #
-      # pnpm/setup v1 peut installer directement Node 22.
+      # install:false évite une installation automatique : le
+      # pnpm install --frozen-lockfile reste explicite juste après.
       # ------------------------------------------------------------
       - name: Setup pnpm and Node
-        uses: pnpm/setup@v1
+        uses: pnpm/setup@v3
         with:
           version: 11.24.0
           runtime: node@22
           cache: true
+          install: false
 
       # ------------------------------------------------------------
       # Dépendances
@@ -151,15 +157,14 @@ jobs:
       # ------------------------------------------------------------
       # Nettoyage des anciens artefacts LevelDB
       #
-      # Les packs/ sont des artefacts générés.
-      # Une release doit toujours repartir de zéro.
+      # packs/ contient uniquement des artefacts générés.
+      # Une release repart toujours de zéro.
       # ------------------------------------------------------------
       - name: Clean Generated Packs
         shell: bash
         run: |
           echo "Suppression des anciens packs générés..."
           rm -rf packs
-
           echo "✅ Répertoire packs/ nettoyé"
 
       # ------------------------------------------------------------
@@ -168,6 +173,9 @@ jobs:
       - name: Build Foundry LevelDB Packs
         run: pnpm packs:build
 
+      # ------------------------------------------------------------
+      # Validation des datastores générés
+      # ------------------------------------------------------------
       - name: Validate Generated Pack Datastores
         run: |
           node <<'NODE'
@@ -202,9 +210,7 @@ jobs:
               continue;
             }
 
-            console.log(
-              `✅ ${pack.name} -> ${packPath}`
-            );
+            console.log(`✅ ${pack.name} -> ${packPath}`);
           }
 
           if (hasError) {
@@ -231,7 +237,6 @@ jobs:
           const fs = require("fs");
 
           const path = "module.json";
-
           const manifest = JSON.parse(
             fs.readFileSync(path, "utf8")
           );
@@ -247,9 +252,7 @@ jobs:
           );
 
           console.log("Manifest de release :");
-          console.log(
-            JSON.stringify(manifest, null, 2)
-          );
+          console.log(JSON.stringify(manifest, null, 2));
           NODE
 
       # ------------------------------------------------------------
@@ -283,14 +286,8 @@ jobs:
           console.log(
             `✅ Manifest valide : ${manifest.id} ${manifest.version}`
           );
-
-          console.log(
-            `Manifest : ${manifest.manifest}`
-          );
-
-          console.log(
-            `Download : ${manifest.download}`
-          );
+          console.log(`Manifest : ${manifest.manifest}`);
+          console.log(`Download : ${manifest.download}`);
           NODE
 
       # ------------------------------------------------------------
@@ -299,7 +296,10 @@ jobs:
       # Uniquement les fichiers nécessaires au runtime.
       # ------------------------------------------------------------
       - name: Create Module Archive
+        shell: bash
         run: |
+          rm -f module.zip
+
           zip \
             --recurse-paths \
             module.zip \
@@ -311,16 +311,78 @@ jobs:
             packs/
 
       # ------------------------------------------------------------
-      # Vérifications du ZIP
+      # Validation de l'archive finale
+      #
+      # Vérifie l'artefact réellement publié, sans extraire les
+      # centaines de Mo d'assets sur le runner.
+      # ------------------------------------------------------------
+      - name: Validate Module Archive
+        shell: bash
+        run: |
+          python3 <<'PY'
+          import subprocess
+          import sys
+          import zipfile
+
+          archive = "module.zip"
+
+          lfs_files = subprocess.check_output(
+              ["git", "lfs", "ls-files", "-n"],
+              text=True
+          ).splitlines()
+
+          with zipfile.ZipFile(archive, "r") as z:
+              names = set(z.namelist())
+              errors = []
+
+              # Vérifie les fichiers LFS réellement présents dans le ZIP.
+              for path in lfs_files:
+                  if path not in names:
+                      continue
+
+                  with z.open(path) as f:
+                      prefix = f.read(64)
+
+                  if prefix.startswith(
+                      b"version https://git-lfs.github.com/spec/v1"
+                  ):
+                      errors.append(
+                          f"Pointeur Git LFS dans le ZIP : {path}"
+                      )
+
+              # Vérifie également tous les OGG de l'archive.
+              for path in names:
+                  if not path.lower().endswith(".ogg"):
+                      continue
+
+                  with z.open(path) as f:
+                      magic = f.read(4)
+
+                  if magic != b"OggS":
+                      errors.append(
+                          f"OGG invalide dans le ZIP : {path}"
+                      )
+
+              if errors:
+                  for error in errors:
+                      print(f"❌ {error}")
+                  sys.exit(1)
+
+          print("✅ Archive valide : aucun pointeur LFS et tous les OGG commencent par OggS")
+          PY
+
+      # ------------------------------------------------------------
+      # Inspection du ZIP
       # ------------------------------------------------------------
       - name: Inspect Module Archive
+        shell: bash
         run: |
           echo "===== Taille ====="
           ls -lh module.zip
 
           echo ""
-          echo "===== Contenu racine ====="
-          unzip -l module.zip | head -100
+          echo "===== Contenu racine / premiers fichiers ====="
+          unzip -l module.zip | sed -n '1,100p'
 
           echo ""
           echo "===== module.json ====="
@@ -333,15 +395,10 @@ jobs:
         uses: ncipollo/release-action@v1
         with:
           allowUpdates: true
-
           token: ${{ secrets.GITHUB_TOKEN }}
-
           name: ${{ github.event.release.name }}
           tag: ${{ github.event.release.tag_name }}
-
           draft: ${{ github.event.release.unpublished }}
           prerelease: ${{ github.event.release.prerelease }}
-
           artifacts: "./module.json,./module.zip"
-
           body: ${{ github.event.release.body }}
