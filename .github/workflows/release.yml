@@ -149,6 +149,15 @@ jobs:
           echo "Version : $VERSION"
 
       # ------------------------------------------------------------
+      # Exécution des tests
+      #
+      # Bloquant : une release ne peut pas être publiée si les
+      # tests échouent (exit != 0).
+      # ------------------------------------------------------------
+      - name: Run Tests
+        run: pnpm test
+
+      # ------------------------------------------------------------
       # Audit des sources YAML
       # ------------------------------------------------------------
       - name: Audit Pack Sources
