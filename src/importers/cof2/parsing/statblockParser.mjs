@@ -19,6 +19,7 @@
 
 import { tidyCase, cleanName, toSigned } from "./textUtils.mjs";
 import { reconstructText } from "./textReconstruction.mjs";
+import { missingAbility, multipleStatblocks, pdfNoiseRemoved, toEncounterDraft, unsupportedAutomation } from "./encounterDraft.mjs";
 
 const ABILITIES = ["for", "agi", "con", "per", "cha", "int", "vol"];
 const SIZES = { "très petite": "verySmall", minuscule: "tiny", petite: "small", moyenne: "medium", grande: "large", énorme: "huge", colossale: "colossal" };
@@ -35,34 +36,31 @@ const TITLE_RE = /^([A-ZÀ-ÖØ-Þ][^:.!?\[@]{0,60}?)\s*:\s*(.*)$/;
 /**
  * Analyse un statblock COF2 collé.
  * @param {string} text Le texte du statblock
- * @returns {{name:string, nc:number, category:string, size:string, abilities:object, def:number, hp:number, init:number, dr:number,
- *   notes:string[], attacks:object[], capacities:{name:string,text:string}[], warnings:string[], errors:string[],
- *   rawText:string, normalizedText:string}}
+ * @returns {import("./encounterDraft.mjs").EncounterDraft}
  */
 function parseStatblock(text) {
-  const warnings = [];
-  const errors = [];
+  const diagnostics = [];
   const { rawText, normalizedText } = reconstructText(text);
   let lines = normalizedText
     .split(/\r?\n/)
     .map((l) => l.trim())
     .filter(Boolean);
 
-  const result = { name: "", nc: 0, category: "living", size: "medium", abilities: {}, def: null, hp: null, init: null, dr: 0, notes: [], attacks: [], capacities: [], warnings, errors, rawText, normalizedText };
+  const result = { name: "", nc: 0, category: "living", size: "medium", abilities: {}, defense: null, hp: null, initiative: null, damageReduction: 0, notes: [], attacks: [], capacities: [], diagnostics };
 
   // 1. Ligne « | NC x » : le nom est avant sur la même ligne, ou sur la ligne précédente
   const ncIndex = lines.findIndex((l) => NC_LINE_RE.test(l));
   if (ncIndex < 0) {
-    errors.push("Ligne « NC » introuvable : le collage ne ressemble pas à un statblock COF2.");
-    return result;
+    diagnostics.push(missingAbility("NC"));
+    return toEncounterDraft(result, { rawText, normalizedText });
   }
   const ncMatch = lines[ncIndex].match(NC_LINE_RE);
   const inlineName = ncMatch[1]?.trim();
   const nameLine = inlineName || lines[ncIndex - 1];
-  if (!nameLine) errors.push("Nom de la créature introuvable (attendu juste avant la ligne « NC »).");
+  if (!nameLine) diagnostics.push(missingAbility("nom"));
   result.name = cleanName(nameLine ?? "");
   const skipped = inlineName ? ncIndex : ncIndex - 1;
-  if (skipped > 0) warnings.push(`${skipped} ligne(s) avant le nom ignorée(s).`);
+  if (skipped > 0) diagnostics.push(pdfNoiseRemoved(lines.slice(0, skipped).join(" / ")));
   const [num, den] = ncMatch[2].split("/").map((n) => Number(n.trim()));
   result.nc = den ? num / den : num;
 
@@ -72,11 +70,11 @@ function parseStatblock(text) {
   if (nextNc >= 0) {
     const inline = NC_LINE_RE.exec(lines[nextNc])[1]?.trim();
     lines.length = inline ? nextNc : Math.max(0, nextNc - 1);
-    warnings.push("Plusieurs statblocks détectés : seul le premier est importé.");
+    diagnostics.push(multipleStatblocks(lines[nextNc]));
   }
 
   // 3. En-tête : caractéristiques, défense, PV, initiative, catégorie/taille, jusqu'à ce que tout soit lu
-  const headerDone = () => ABILITIES.every((a) => a in result.abilities) && result.def !== null && result.hp !== null && result.init !== null;
+  const headerDone = () => ABILITIES.every((a) => a in result.abilities) && result.defense !== null && result.hp !== null && result.initiative !== null;
   let i = 0;
   for (; i < lines.length && !headerDone(); i++) {
     const line = lines[i];
@@ -85,15 +83,15 @@ function parseStatblock(text) {
       result.abilities[m[1].toLowerCase()] = { base: Number(toSigned(m[2])), superior: !!m[3] };
       matched = true;
     }
-    for (const [re, key] of [[DEF_RE, "def"], [HP_RE, "hp"], [INIT_RE, "init"]]) {
+    for (const [re, key] of [[DEF_RE, "defense"], [HP_RE, "hp"], [INIT_RE, "initiative"]]) {
       const m = line.match(re);
       if (!m) continue;
       result[key] = Number(m[1]);
       matched = true;
       // Suite éventuelle : « (RD 5) » = réduction des DM ; toute autre parenthèse ou « à 100 » n'est pas modélisée
       const tail = line.slice(m.index + m[0].length).match(/^\s*(\(\s*RD\s*(\d+)\s*\)|\([^)]*\)|à\s*\d+)/i);
-      if (tail?.[2]) result.dr = Number(tail[2]);
-      else if (tail) warnings.push(`« ${m[0].trim()} ${tail[1]} » : seule la première valeur (${m[1]}) est retenue.`);
+      if (tail?.[2]) result.damageReduction = Number(tail[2]);
+      else if (tail) diagnostics.push(unsupportedAutomation(`${m[0].trim()} ${tail[1]}`));
     }
     if (matched) continue;
     if (/(^|·\s*)(créature|taille)\b/i.test(line)) {
@@ -107,10 +105,10 @@ function parseStatblock(text) {
     if (parseAttackLine(line) || matchTitle(line)) break;
     result.notes.push(line);
   }
-  for (const a of ABILITIES) if (!(a in result.abilities)) errors.push(`Caractéristique ${a.toUpperCase()} introuvable.`);
-  if (result.def === null) errors.push("Défense introuvable.");
-  if (result.hp === null) errors.push("Points de vigueur introuvables.");
-  if (result.init === null) errors.push("Initiative introuvable.");
+  for (const a of ABILITIES) if (!(a in result.abilities)) diagnostics.push(missingAbility(a.toUpperCase()));
+  if (result.defense === null) diagnostics.push(missingAbility("Défense"));
+  if (result.hp === null) diagnostics.push(missingAbility("Points de vigueur"));
+  if (result.initiative === null) diagnostics.push(missingAbility("Initiative"));
 
   // 4. Corps : attaques (avant la première capacité) puis capacités « Titre : texte »
   let current = null;
@@ -127,24 +125,27 @@ function parseStatblock(text) {
       continue;
     }
     // Un titre sans texte réclame la ligne suivante comme texte, même si elle ressemble à un titre
-    const title = current && !current.text ? null : matchTitle(line);
+    const title = current && !current.description ? null : matchTitle(line);
     if (title) {
       current = title;
       result.capacities.push(current);
     } else if (current) {
-      current.text = current.text ? `${current.text} ${line}` : line;
+      current.description = current.description ? `${current.description} ${line}` : line;
     } else {
-      warnings.push(`Ligne non reconnue : « ${line} »`);
+      // Aucun des 7 codes stables ne décrit précisément une ligne de corps non reconnue : traitée comme du
+      // bruit résiduel (au même titre que le bruit d'en-tête), en sévérité `warning` pour rester visible.
+      diagnostics.push(pdfNoiseRemoved(line, "warning"));
     }
   }
-  if (!result.attacks.length) warnings.push("Aucune attaque reconnue.");
+  // `attacks.length === 0` est directement lisible sur le draft : pas de diagnostic dédié, aucun des 7 codes
+  // stables ne correspondant à « aucune attaque reconnue ».
 
-  return result;
+  return toEncounterDraft(result, { rawText, normalizedText });
 }
 
 /**
  * @param {string} line
- * @returns {{name:string, kind:"melee"|"ranged"|"magic", bonus:string, damage:string, extra:string, range:number|null}|null}
+ * @returns {import("./encounterDraft.mjs").AttackDraft|null}
  */
 function parseAttackLine(line) {
   const m = line.match(ATTACK_RE);
@@ -153,20 +154,25 @@ function parseAttackLine(line) {
   const rangeMatch = name.match(/\((?:portée\s*)?(\d+)\s*m\)/i);
   const range = rangeMatch ? Number(rangeMatch[1]) : null;
   let kind = "melee";
-  if (/^attaque magique/i.test(name)) kind = "magic";
+  if (/^attaque magique/i.test(name)) kind = "magical";
   else if (range || /^attaque à distance/i.test(name)) kind = "ranged";
   const dm = m[3]?.trim() ? m[3].trim().match(DAMAGE_RE) : null;
-  return { name, kind, bonus: toSigned(m[2]), damage: dm ? dm[1].replace(/\s+/g, "") : "", extra: dm ? dm[2].trim() : (m[3]?.trim() ?? ""), range };
+  const damage = dm ? dm[1].replace(/\s+/g, "") : "";
+  return { raw: line, name, kind, bonus: toSigned(m[2]), damage, range, extra: dm ? dm[2].trim() : (m[3]?.trim() ?? ""), confidence: damage ? "high" : "low" };
 }
 
 /**
  * @param {string} line
- * @returns {{name:string, text:string}|null}
+ * @returns {import("./encounterDraft.mjs").CapacityDraft|null}
  */
 function matchTitle(line) {
   const m = line.match(TITLE_RE);
   if (!m || m[1].trim().split(/\s+/).length > 7) return null;
-  return { name: tidyCase(m[1].trim()), text: m[2].trim() };
+  const rawName = m[1].trim();
+  // « Charge (L) » : la parenthèse porte le type d'action (L/A/M/G), pas une variante paramétrée ambiguë.
+  const trailingParens = rawName.match(/\(([^)]*)\)\s*$/);
+  const confidence = trailingParens && !/^[LAMG]$/.test(trailingParens[1].trim()) ? "medium" : "high";
+  return { rawName, name: tidyCase(rawName), description: m[2].trim(), actionType: null, frequency: null, parameters: {}, confidence };
 }
 
 export { ABILITIES, SIZES, parseStatblock, parseAttackLine, matchTitle };

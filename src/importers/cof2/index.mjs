@@ -2,3 +2,13 @@ export { parseStatblock, parseAttackLine, matchTitle, ABILITIES, SIZES } from ".
 export { makeCapacityMatcher, normalize, stripParens } from "./parsing/capacityMatcher.mjs";
 export { tidyCase, cleanName, toSigned } from "./parsing/textUtils.mjs";
 export { reconstructText } from "./parsing/textReconstruction.mjs";
+export {
+  pdfNoiseRemoved,
+  attackDamageReconnected,
+  ambiguousCapacity,
+  capacityParameterMismatch,
+  unsupportedAutomation,
+  missingAbility,
+  multipleStatblocks,
+  toEncounterDraft,
+} from "./parsing/encounterDraft.mjs";
