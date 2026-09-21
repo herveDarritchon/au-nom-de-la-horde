@@ -1,7 +1,7 @@
 folder: UjoYdMeRaKl9Sijf
 name: Présence orque
 type: capacity
-img: modules/warbound-campaign-content/assets/images/icons/capacites/presence-orque.png
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/presence-orque.png
 system:
   description: >-
     <p>Lorsqu’un effet susceptible d’infliger l’état Étourdi permet normalement
@@ -79,8 +79,8 @@ _stats:
   coreVersion: '14.367'
   systemId: co2
   systemVersion: 2.3.11
-  createdTime: 1789942549952
-  modifiedTime: 1789942549952
+  createdTime: 1790026091050
+  modifiedTime: 1790026091050
   lastModifiedBy: TjbWhMczNyKieD8D
   exportSource: null
 sort: 400000

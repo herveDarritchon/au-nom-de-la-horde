@@ -1,20 +1,20 @@
 type: JournalEntry
-folder: null
-name: Warbound
-color: '#d9104f'
+folder: 597f761006633d7f
+name: Tranchecolline
+color: null
 sorting: a
-_id: T6xUdp4aL1rDQMyb
+_id: WNG1lc6wLu3V377z
 description: ''
-sort: 300000
+sort: -100000
 flags: {}
 _stats:
   coreVersion: '14.367'
   systemId: co2
   systemVersion: 2.3.11
-  createdTime: 1789942601898
-  modifiedTime: 1789942601949
+  createdTime: 1790026179917
+  modifiedTime: 1790026222996
   lastModifiedBy: TjbWhMczNyKieD8D
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-_key: '!folders!T6xUdp4aL1rDQMyb'
+_key: '!folders!WNG1lc6wLu3V377z'

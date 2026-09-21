@@ -1,7 +1,7 @@
 folder: VXemtWdksgYw7pWA
 name: Enfant des jungles
 type: capacity
-img: modules/warbound-campaign-content/assets/images/icons/capacites/enfant-de-la-jungle.png
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/enfant-de-la-jungle.png
 system:
   description: >-
     <p>Le Troll obtient +3 aux tests de Survie et ignore les pénalités
@@ -69,8 +69,8 @@ _stats:
   coreVersion: '14.367'
   systemId: co2
   systemVersion: 2.3.11
-  createdTime: 1789942549960
-  modifiedTime: 1789942549960
+  createdTime: 1790026091055
+  modifiedTime: 1790026091055
   lastModifiedBy: TjbWhMczNyKieD8D
   exportSource: null
 sort: 100000

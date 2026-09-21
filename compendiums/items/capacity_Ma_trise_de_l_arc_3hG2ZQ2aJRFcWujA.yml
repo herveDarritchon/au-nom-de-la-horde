@@ -1,7 +1,7 @@
 folder: 12392vARcaK4Og8D
 name: Maîtrise de l'arc
 type: capacity
-img: modules/warbound-campaign-content/assets/images/icons/capacites/maitrise-arc.png
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/maitrise-arc.png
 system:
   description: >-
     <p><span lang="EN-US">Le Troll gagne +1 aux tests d’attaque à distance avec
@@ -70,8 +70,8 @@ _stats:
   coreVersion: '14.367'
   systemId: co2
   systemVersion: 2.3.11
-  createdTime: 1789942549959
-  modifiedTime: 1789942549959
+  createdTime: 1790026091055
+  modifiedTime: 1790026091055
   lastModifiedBy: TjbWhMczNyKieD8D
   exportSource: null
 sort: 100000

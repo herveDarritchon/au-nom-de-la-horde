@@ -1,0 +1,1113 @@
+folder: WBQswPXe1tRcUrco
+name: Le Repaire de la Lame ardente
+flags:
+  campaign-codex:
+    type: ''
+  core:
+    sheetClass: ''
+_id: wU7IQ5GXr63scCv7
+pages:
+  - sort: 100000
+    name: Vue d’ensemble
+    type: text
+    _id: xFVV6wNNNCs1mTpG
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Le Repaire de la Lame ardente</h1>
+
+        <blockquote>
+
+        <p><strong>Zone :</strong> Vallée des Épreuves, Durotar<br>
+
+        <strong>Format :</strong> Donjon à 5 salles / lieu d’aventure court<br>
+
+        <strong>Faction :</strong> Lame ardente<br>
+
+        <strong>Figure principale :</strong> Yarrog Baneshadow<br>
+
+        <strong>Durée visée :</strong> 60 à 90 minutes si les PJ vont droit au
+        but ; jusqu’à une demi-séance s’ils enquêtent, surveillent ou
+        négocient.<br>
+
+        <strong>Budget de combat :</strong> 0 à 1 combat majeur.</p>
+
+        </blockquote>
+
+
+        <h2>Fonction dramatique</h2>
+
+        <p>Le Repaire doit faire comprendre aux PJ que la corruption de la
+        Vallée est <strong>organisée</strong>, que Yarrog les observe et que ce
+        lieu n’est qu’une <strong>cellule d’un réseau plus vaste</strong>.</p>
+
+
+        <p><strong>Ne pas jouer :</strong></p>
+
+        <blockquote><p>familiers → traqueurs → Yarrog → loot</p></blockquote>
+
+
+        <p><strong>Jouer plutôt :</strong></p>
+
+        <blockquote><p><strong>intrusion → observation → découverte → doute →
+        confrontation → révélation</strong></p></blockquote>
+
+
+        <h2>Ce qu’est réellement le lieu</h2>
+
+        <p>Le Repaire n’est ni un temple, ni une base militaire, ni le quartier
+        général de la Lame ardente. C’est un <strong>poste avancé
+        clandestin</strong> utilisé pour :</p>
+
+        <ul>
+
+        <li>observer les nouvelles recrues ;</li>
+
+        <li>stocker des informations et du matériel compromettant ;</li>
+
+        <li>recevoir discrètement des recrues ou sympathisants ;</li>
+
+        <li>contrôler quelques créatures démoniaques ;</li>
+
+        <li>transmettre des renseignements hors de la Vallée ;</li>
+
+        <li>préparer une fuite si la couverture de Yarrog tombe.</li>
+
+        </ul>
+
+
+        <h2>Schéma des 5 salles</h2>
+
+        <pre>               [5] SORTIE HAUTE
+                            Récompense / révélation
+                                 |
+                       [4] LE CÉNACLE
+                            Climax / Yarrog
+                                 |
+                       [3] LE BASSIN NOIR
+                          + GALERIE BASSE
+                            Complication
+                            /          \
+                  [2] LA CACHE      détour risqué
+                   Enquête
+                            \          /
+                     [1] FAILLE D’ENTRÉE
+                      + FAMILIERS
+                      Gardien / seuil</pre>
+
+        <h2>Accroches</h2>
+
+        <ul>
+
+        <li><strong>Yarrog devient suspect :</strong> plusieurs indices
+        convergent vers lui.</li>
+
+        <li><strong>Une créature mène au Repaire :</strong> un familier ou un
+        traqueur fuit vers la grotte.</li>
+
+        <li><strong>Une recrue disparaît :</strong> elle s’est peut-être rendue
+        volontairement au Cénacle.</li>
+
+        <li><strong>Surveillance discrète :</strong> les PJ suivent Yarrog sans
+        l’accuser publiquement.</li>
+
+        </ul>
+
+
+        <h2>Question de mise en scène</h2>
+
+        <blockquote>
+
+        <p><strong>Le Repaire doit révéler une organisation, pas seulement un
+        ennemi.</strong></p>
+
+        </blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.11
+      createdTime: 1790026399337
+      modifiedTime: 1790026399337
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!wU7IQ5GXr63scCv7.xFVV6wNNNCs1mTpG'
+  - sort: 200000
+    name: 1. La faille et les familiers
+    type: text
+    _id: 3Nzq6DwRf0L1Uk4q
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Salle 1 — La faille et les familiers</h1>
+
+        <blockquote>
+
+        <p><strong>Fonction :</strong> entrée gardée / seuil à franchir<br>
+
+        <strong>Question :</strong> les PJ entrent-ils sans alerter Yarrog ?</p>
+
+        </blockquote>
+
+
+        <h2>Description</h2>
+
+        <p>Une cassure discrète dans la falaise laisse sortir un mince filet
+        d’eau. L’entrée semble naturelle. Aucun symbole de la Lame ardente n’est
+        visible.</p>
+
+
+        <h2>Ce que les PJ voient</h2>
+
+        <ul>
+
+        <li>traces orques ;</li>
+
+        <li>empreintes griffues ;</li>
+
+        <li>marques de petites charges transportées ;</li>
+
+        <li>pierres déplacées régulièrement ;</li>
+
+        <li>quelques os rongés ;</li>
+
+        <li>odeur âcre venant de la faille.</li>
+
+        </ul>
+
+
+        <p><strong>Information automatique :</strong> le lieu n’est pas une
+        simple tanière. Des Orcs et des créatures y circulent régulièrement.</p>
+
+
+        <h2>Les vils familiers</h2>
+
+        <p>La première cavité sert de zone de repos à quelques <strong>vils
+        familiers</strong>. Ils sont surtout :</p>
+
+        <ul>
+
+        <li>guetteurs ;</li>
+
+        <li>nuisibles ;</li>
+
+        <li>messagers ;</li>
+
+        <li>système d’alarme vivant.</li>
+
+        </ul>
+
+
+        <p>Ils ne doivent pas provoquer automatiquement une initiative.</p>
+
+
+        <h2>Approches possibles</h2>
+
+        <ul>
+
+        <li>se faufiler ;</li>
+
+        <li>attendre ;</li>
+
+        <li>distraire les familiers ;</li>
+
+        <li>les attirer avec de la nourriture ;</li>
+
+        <li>les effrayer ;</li>
+
+        <li>les éliminer rapidement ;</li>
+
+        <li>les suivre s’ils repartent vers les profondeurs.</li>
+
+        </ul>
+
+
+        <h2>Conséquence essentielle</h2>
+
+        <p>Si un familier atteint Yarrog, choisir <strong>une seule</strong>
+        réaction :</p>
+
+        <ul>
+
+        <li>un document important est déplacé ;</li>
+
+        <li>la recrue présente est renvoyée ;</li>
+
+        <li>Yarrog prépare la sortie haute ;</li>
+
+        <li>le médaillon est dissimulé ;</li>
+
+        <li>un traqueur gangrené est déplacé vers le bassin.</li>
+
+        </ul>
+
+
+        <p><strong>Indice :</strong> les familiers savent où aller lorsqu’ils
+        sont effrayés. Ils ne se dispersent pas au hasard. Quelqu’un les
+        utilise.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.11
+      createdTime: 1790026399338
+      modifiedTime: 1790026399338
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!wU7IQ5GXr63scCv7.3Nzq6DwRf0L1Uk4q'
+  - sort: 300000
+    name: 2. La cache des confidences
+    type: text
+    _id: bsvGg7ka7fGxdQ9g
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Salle 2 — La cache des confidences</h1>
+
+        <blockquote>
+
+        <p><strong>Fonction :</strong> enquête / rôleplay indirect<br>
+
+        <strong>Question :</strong> les PJ comprennent-ils ce que Yarrog fait
+        réellement dans la Vallée ?</p>
+
+        </blockquote>
+
+
+        <h2>Description</h2>
+
+        <p>Une galerie latérale débouche sur un espace étroit qui ressemble
+        d’abord à une réserve ordinaire. C’est pourtant la pièce la plus riche
+        en informations du Repaire.</p>
+
+
+        <h2>Contenu</h2>
+
+        <ul>
+
+        <li>vêtements ordinaires ;</li>
+
+        <li>matériel d’écriture ;</li>
+
+        <li>nourriture ;</li>
+
+        <li>corde ;</li>
+
+        <li>composants de démonologie ;</li>
+
+        <li>quelques pièces ;</li>
+
+        <li>petits objets appartenant à plusieurs Orcs ;</li>
+
+        <li>messages sans signature ;</li>
+
+        <li>fragments de cartes ;</li>
+
+        <li>notes sur les déplacements de recrues.</li>
+
+        </ul>
+
+
+        <h2>À ne pas placer ici</h2>
+
+        <ul>
+
+        <li>liste complète des membres ;</li>
+
+        <li>carte de toutes les cellules ;</li>
+
+        <li>lettre du « grand chef » ;</li>
+
+        <li>preuve expliquant tout le réseau.</li>
+
+        </ul>
+
+
+        <p>Le Repaire doit <strong>ouvrir le mystère</strong>, pas le
+        résoudre.</p>
+
+
+        <h2>Indices</h2>
+
+        <table>
+
+        <thead><tr><th>Indice</th><th>Ce qu’il suggère</th></tr></thead>
+
+        <tbody>
+
+        <tr><td>Objets appartenant à plusieurs recrues</td><td>Yarrog entretient
+        des relations personnelles.</td></tr>
+
+        <tr><td>Horaires et départs notés</td><td>Il collecte des
+        informations.</td></tr>
+
+        <tr><td>Mentions de Tranchecolline ou Sen’jin</td><td>Son activité
+        dépasse la Vallée.</td></tr>
+
+        <tr><td>Message parlant d’« écouter » quelqu’un</td><td>Il travaille par
+        influence, pas seulement par contrainte.</td></tr>
+
+        <tr><td>Matériel rituel très limité</td><td>Ce n’est pas un grand
+        sanctuaire démoniaque.</td></tr>
+
+        </tbody>
+
+        </table>
+
+
+        <h2>Message possible</h2>
+
+        <blockquote>
+
+        <p>« Celui dont je t’ai parlé partira bientôt vers Tranchecolline.<br>
+
+        Continue à l’écouter. Ne lui demande rien. »</p>
+
+        </blockquote>
+
+
+        <h2>Twist optionnel lié à un PJ</h2>
+
+        <p>Parmi les objets, un PJ reconnaît une boucle, un talisman, une pièce
+        d’équipement, une écriture ou un petit cadeau offert à quelqu’un qu’il
+        connaît.</p>
+
+        <p>Cette personne n’est pas nécessairement membre de la Lame ardente :
+        elle peut être manipulée, observée, utilisée comme source involontaire
+        ou en cours de recrutement.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.11
+      createdTime: 1790026399338
+      modifiedTime: 1790026399338
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!wU7IQ5GXr63scCv7.bsvGg7ka7fGxdQ9g'
+  - sort: 400000
+    name: 3. Le bassin noir
+    type: text
+    _id: L1jPQAyNfQUx5Wef
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Salle 3 — Le bassin noir</h1>
+
+        <blockquote>
+
+        <p><strong>Fonction :</strong> complication / choix dangereux<br>
+
+        <strong>Question :</strong> les PJ avancent-ils vite ou prennent-ils le
+        temps de comprendre le lieu ?</p>
+
+        </blockquote>
+
+
+        <h2>Description</h2>
+
+        <p>La galerie descend vers une vaste cavité occupée par un bassin
+        naturel. L’eau est sombre, mais pas intrinsèquement maléfique. La
+        présence de Yarrog l’a seulement souillée par endroits.</p>
+
+
+        <ul>
+
+        <li>plafond élevé ;</li>
+
+        <li>roches humides ;</li>
+
+        <li>racines sèches ;</li>
+
+        <li>vapeur légère ;</li>
+
+        <li>reflets rouge-orange de braises ;</li>
+
+        <li>faible lueur gangrenée dans une fissure ;</li>
+
+        <li>corniche du Cénacle visible au-dessus.</li>
+
+        </ul>
+
+
+        <h2>La galerie basse</h2>
+
+        <p>Un passage étroit longe le bassin. Des <strong>traqueurs
+        gangrenés</strong> l’utilisent. Ils constituent le principal danger
+        physique du donjon, mais doivent fonctionner comme un
+        <strong>obstacle</strong>, pas comme un pack.</p>
+
+
+        <p>Ils peuvent :</p>
+
+        <ul>
+
+        <li>flairer les intrus ;</li>
+
+        <li>barrer le passage ;</li>
+
+        <li>poursuivre un PJ isolé ;</li>
+
+        <li>protéger l’accès au Cénacle ;</li>
+
+        <li>se replier sur un ordre.</li>
+
+        </ul>
+
+
+        <h2>Trois routes</h2>
+
+        <h3>Route A — Galerie basse</h3>
+
+        <p>Rapide, mais dangereuse. Risque de confrontation avec les
+        traqueurs.</p>
+
+
+        <h3>Route B — Bassin</h3>
+
+        <p>Plus discrète. Les PJ progressent dans l’eau ou longent les rochers.
+        Risques : bruit, glissade, équipement mouillé, difficulté à fuir
+        rapidement.</p>
+
+
+        <h3>Route C — Observer</h3>
+
+        <p>Prendre du temps permet de repérer les habitudes des traqueurs, un
+        passage sous la corniche et l’endroit d’où proviennent les voix du
+        Cénacle.</p>
+
+
+        <h2>Révélation</h2>
+
+        <p>Les traqueurs répondent à des sons, gestes ou ordres. Ils ne se
+        comportent pas comme des animaux sauvages : <strong>quelqu’un les
+        contrôle</strong>.</p>
+
+
+        <h2>En cas de bruit ou d’échec</h2>
+
+        <p>Ne rajoute pas des ennemis. Fais évoluer la situation :</p>
+
+        <ul>
+
+        <li>Yarrog interrompt sa conversation ;</li>
+
+        <li>une recrue tente de partir ;</li>
+
+        <li>un message est brûlé ;</li>
+
+        <li>la sortie haute est ouverte ;</li>
+
+        <li>les traqueurs se replient vers le Cénacle.</li>
+
+        </ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.11
+      createdTime: 1790026399339
+      modifiedTime: 1790026399339
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!wU7IQ5GXr63scCv7.L1jPQAyNfQUx5Wef'
+  - sort: 500000
+    name: 4. Le Cénacle
+    type: text
+    _id: BRBFMIdXhGZqOJ1r
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Salle 4 — Le Cénacle</h1>
+
+        <blockquote>
+
+        <p><strong>Fonction :</strong> climax<br>
+
+        <strong>Question :</strong> que font les PJ maintenant qu’ils savent
+        ?</p>
+
+        </blockquote>
+
+
+        <h2>Description</h2>
+
+        <p>Le Cénacle est une corniche naturelle dominant le bassin. Il ne
+        ressemble pas à un grand temple démoniaque.</p>
+
+
+        <ul>
+
+        <li>trois ou quatre sièges de pierre ;</li>
+
+        <li>petit foyer ;</li>
+
+        <li>pierre plate servant de table ;</li>
+
+        <li>quelques bougies ;</li>
+
+        <li>tapis grossier ;</li>
+
+        <li>cercle rituel discret ;</li>
+
+        <li>caisse de composants ;</li>
+
+        <li>petite cache derrière une dalle.</li>
+
+        </ul>
+
+
+        <p>Le lieu ne peut accueillir qu’un petit nombre de personnes.
+        <strong>Yarrog recrute individuellement.</strong></p>
+
+
+        <h2>Situation recommandée</h2>
+
+        <p><strong>Yarrog est avec une recrue.</strong></p>
+
+        <p>La recrue :</p>
+
+        <ul>
+
+        <li>n’est pas prisonnière ;</li>
+
+        <li>est venue volontairement ;</li>
+
+        <li>ne pense pas servir la Lame ardente ;</li>
+
+        <li>croit peut-être que Yarrog est l’un des rares adultes qui l’écoute
+        réellement.</li>
+
+        </ul>
+
+
+        <p>Avant que les PJ se montrent, ils peuvent entendre :</p>
+
+        <blockquote>
+
+        <p>« Tu n’as rien à me prouver.<br>
+
+        Mais demande-toi pourquoi ceux qui te donnent des ordres ne t’expliquent
+        jamais rien. »</p>
+
+        </blockquote>
+
+
+        <h2>Yarrog face aux PJ</h2>
+
+        <p>Yarrog ne déclenche pas immédiatement l’initiative. Il veut savoir
+        :</p>
+
+        <ul>
+
+        <li>ce qu’ils savent ;</li>
+
+        <li>depuis quand ;</li>
+
+        <li>qui les a envoyés ;</li>
+
+        <li>s’ils ont prévenu quelqu’un ;</li>
+
+        <li>s’il peut encore sauver sa couverture.</li>
+
+        </ul>
+
+
+        <blockquote><p>« Vous m’avez suivi. Pourquoi ? »</p></blockquote>
+
+
+        <h2>Décisions possibles</h2>
+
+        <ul>
+
+        <li>l’accuser ;</li>
+
+        <li>montrer les preuves ;</li>
+
+        <li>le capturer ;</li>
+
+        <li>le laisser parler ;</li>
+
+        <li>convaincre la recrue ;</li>
+
+        <li>feindre de ne pas tout savoir ;</li>
+
+        <li>négocier ;</li>
+
+        <li>chercher qui lui donne des ordres ;</li>
+
+        <li>le laisser fuir pour le suivre ;</li>
+
+        <li>provoquer un combat.</li>
+
+        </ul>
+
+
+        <h2>Si combat il y a</h2>
+
+        <p>Le combat doit poursuivre un objectif :</p>
+
+        <ul>
+
+        <li>empêcher Yarrog d’atteindre la sortie haute ;</li>
+
+        <li>protéger la recrue ;</li>
+
+        <li>récupérer le médaillon ;</li>
+
+        <li>empêcher la destruction d’un message ;</li>
+
+        <li>capturer Yarrog vivant.</li>
+
+        </ul>
+
+
+        <p><strong>Priorité de Yarrog :</strong> sauver son réseau et fuir. Il
+        ne combat pas jusqu’à la mort par principe.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.11
+      createdTime: 1790026399339
+      modifiedTime: 1790026399339
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!wU7IQ5GXr63scCv7.BRBFMIdXhGZqOJ1r'
+  - sort: 600000
+    name: 5. La sortie haute
+    type: text
+    _id: ooKBQd7iDQynbWYr
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Salle 5 — La sortie haute</h1>
+
+        <blockquote>
+
+        <p><strong>Fonction :</strong> récompense / révélation / ouverture<br>
+
+        <strong>Question :</strong> que font les PJ de ce qu’ils viennent
+        d’apprendre ?</p>
+
+        </blockquote>
+
+
+        <h2>Description</h2>
+
+        <p>Une fissure étroite rejoint les hauteurs de la Vallée. Elle explique
+        comment Yarrog pouvait entrer et sortir discrètement du Repaire.</p>
+
+
+        <h2>Récompense concrète</h2>
+
+        <p>Les PJ découvrent un <strong>raccourci du pointcrawl</strong> vers
+        les hauteurs du nord de la Vallée.</p>
+
+
+        <h2>La vraie récompense : l’information</h2>
+
+        <p>Les PJ doivent pouvoir reconstruire les éléments suivants :</p>
+
+        <ol>
+
+        <li>Yarrog appartient bien à la <strong>Lame ardente</strong>.</li>
+
+        <li>Il utilisait le Repaire pour <strong>observer et
+        recruter</strong>.</li>
+
+        <li>Plusieurs personnes de la Vallée ont été approchées.</li>
+
+        <li>Certaines ne savent probablement pas pour qui elles
+        travaillent.</li>
+
+        <li>Yarrog <strong>transmet ses informations à quelqu’un
+        d’autre</strong>.</li>
+
+        <li>Le Repaire n’est qu’une cellule locale.</li>
+
+        </ol>
+
+
+        <h2>Piste vers Skull Rock</h2>
+
+        <p>Ne jamais donner un panneau « prochaine quête ». Utiliser une trace
+        subtile :</p>
+
+        <ul>
+
+        <li>même formule dans un message ;</li>
+
+        <li>mention des « frères du nord » ;</li>
+
+        <li>composant venant des environs de Skull Rock ;</li>
+
+        <li>sceau partiel ;</li>
+
+        <li>ordre de transférer une recrue vers un autre cercle ;</li>
+
+        <li>itinéraire incomplet.</li>
+
+        </ul>
+
+
+        <blockquote><p><strong>Conclusion recherchée :</strong> « Il y en a
+        d’autres. »</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.11
+      createdTime: 1790026399339
+      modifiedTime: 1790026399339
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!wU7IQ5GXr63scCv7.ooKBQd7iDQynbWYr'
+  - sort: 700000
+    name: Indices, états et réactions
+    type: text
+    _id: dhm7xDi5QwJBklBQ
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Indices, états et réactions</h1>
+
+
+        <h2>Réseau d’indices</h2>
+
+        <p>Aucune information essentielle ne doit dépendre d’un seul test.</p>
+
+
+        <table>
+
+        <thead><tr><th>Information essentielle</th><th>Source 1</th><th>Source
+        2</th><th>Source 3</th></tr></thead>
+
+        <tbody>
+
+        <tr><td>Des Orcs utilisent le lieu</td><td>Traces à
+        l’entrée</td><td>Matériel dans la cache</td><td>Yarrog /
+        recrue</td></tr>
+
+        <tr><td>Les créatures sont contrôlées</td><td>Comportement des
+        traqueurs</td><td>Familier qui rejoint Yarrog</td><td>Ordres
+        entendus</td></tr>
+
+        <tr><td>Yarrog espionne les recrues</td><td>Notes</td><td>Objets
+        personnels</td><td>Conversation au Cénacle</td></tr>
+
+        <tr><td>Le réseau dépasse la Vallée</td><td>Mentions de
+        Tranchecolline</td><td>Message incomplet</td><td>Sortie haute /
+        messager</td></tr>
+
+        <tr><td>Yarrog appartient à la Lame
+        ardente</td><td>Médaillon</td><td>Symbole caché</td><td>Aveu / preuves
+        croisées</td></tr>
+
+        </tbody>
+
+        </table>
+
+
+        <h2>État du donjon</h2>
+
+        <table>
+
+        <thead><tr><th>État</th><th>Modifications</th></tr></thead>
+
+        <tbody>
+
+        <tr><td><strong>Secret</strong></td><td>Cache complète, recrue possible,
+        Yarrog confiant.</td></tr>
+
+        <tr><td><strong>Méfiance</strong></td><td>Certains messages ont disparu,
+        Yarrog est prudent.</td></tr>
+
+        <tr><td><strong>Compromis</strong></td><td>Recrutement suspendu,
+        documents déplacés, fuite préparée.</td></tr>
+
+        <tr><td><strong>Abandonné</strong></td><td>Documents brûlés, caches
+        vidées, créatures laissées libres.</td></tr>
+
+        <tr><td><strong>Contrôlé par la Horde</strong></td><td>La grotte devient
+        un point connu et surveillé.</td></tr>
+
+        </tbody>
+
+        </table>
+
+
+        <h2>Règle de réaction</h2>
+
+        <p>Une alerte ne signifie pas « plus de monstres ». Elle doit changer le
+        comportement du lieu :</p>
+
+        <ul>
+
+        <li>preuve déplacée ;</li>
+
+        <li>recrue évacuée ;</li>
+
+        <li>message brûlé ;</li>
+
+        <li>sortie préparée ;</li>
+
+        <li>créatures repositionnées.</li>
+
+        </ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.11
+      createdTime: 1790026399339
+      modifiedTime: 1790026399339
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!wU7IQ5GXr63scCv7.dhm7xDi5QwJBklBQ'
+  - sort: 800000
+    name: Issues et récompenses
+    type: text
+    _id: V2wKVofkzQrOtoly
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Issues et récompenses</h1>
+
+
+        <h2>Yarrog est capturé</h2>
+
+        <p>Les PJ gagnent une source d’informations, mais aussi un menteur
+        expérimenté. Le Repaire peut ensuite être fouillé calmement.</p>
+
+
+        <h2>Yarrog est tué</h2>
+
+        <p>Le médaillon prouve son affiliation, mais plusieurs réponses
+        disparaissent avec lui : qui lui donnait des ordres, qui il avait
+        recruté, où partaient les informations.</p>
+
+
+        <h2>Yarrog s’échappe</h2>
+
+        <p>Résultat parfaitement valable. Le Repaire devient la preuve
+        matérielle de son rôle. Yarrog peut réapparaître plus tard à Skull Rock,
+        sur les routes, à Orgrimmar ou à travers ses intermédiaires.</p>
+
+
+        <h2>Les PJ gardent le secret</h2>
+
+        <p>Ils peuvent surveiller le Repaire, identifier des contacts, suivre un
+        messager ou laisser Yarrog croire qu’il n’est pas démasqué.</p>
+
+
+        <h2>La Horde reprend le lieu</h2>
+
+        <p>Le Repaire peut devenir un poste d’observation, une cache de
+        patrouille, un raccourci ou un lieu surveillé.</p>
+
+
+        <h2>Récompenses</h2>
+
+        <h3>Matérielles</h3>
+
+        <ul>
+
+        <li>médaillon de la Lame ardente ;</li>
+
+        <li>composants de démonologie ;</li>
+
+        <li>petite bourse ;</li>
+
+        <li>matériel récupérable.</li>
+
+        </ul>
+
+
+        <h3>Sociales</h3>
+
+        <ul>
+
+        <li>confiance de Zureetha ;</li>
+
+        <li>reconnaissance de Gornek ;</li>
+
+        <li>dette d’une recrue libérée de l’influence de Yarrog.</li>
+
+        </ul>
+
+
+        <h3>Informations</h3>
+
+        <ul>
+
+        <li>noms partiels ;</li>
+
+        <li>descriptions de contacts ;</li>
+
+        <li>fragment de code ;</li>
+
+        <li>piste vers une autre cellule.</li>
+
+        </ul>
+
+
+        <h3>Exploration</h3>
+
+        <ul>
+
+        <li>sortie haute ;</li>
+
+        <li>nouveau raccourci du pointcrawl.</li>
+
+        </ul>
+
+
+        <h2>Payoff</h2>
+
+        <blockquote>
+
+        <p><strong>« Yarrog nous observait depuis combien de temps ?
+        »</strong></p>
+
+        <p><strong>« Qui d’autre travaille pour eux ? »</strong></p>
+
+        </blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.11
+      createdTime: 1790026399339
+      modifiedTime: 1790026399339
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!wU7IQ5GXr63scCv7.V2wKVofkzQrOtoly'
+categories: []
+sort: 0
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.11
+  createdTime: 1790026399336
+  modifiedTime: 1790026399336
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!wU7IQ5GXr63scCv7'

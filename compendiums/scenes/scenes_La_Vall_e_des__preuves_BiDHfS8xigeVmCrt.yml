@@ -1,0 +1,131 @@
+folder: VBMvmB8bmcu5YOsE
+name: La Vallée des Épreuves
+_id: BiDHfS8xigeVmCrt
+navigation: false
+thumb: worlds/au-nom-de-la-horde-cof2/assets/scenes/thumb-0MaJ2kVXDIxnJZS76ZSrvQ.webp
+width: 1672
+height: 941
+padding: 0.25
+shiftX: 0
+shiftY: 0
+initial:
+  x: null
+  'y': null
+  scale: null
+initialLevel: defaultLevel0000
+grid:
+  type: 0
+  size: 50
+  style: solidLines
+  thickness: 1
+  color: '#000000'
+  alpha: 0.2
+  distance: 1.5
+  units: m
+tokenVision: false
+fog:
+  mode: 1
+  colors:
+    explored: null
+    unexplored: null
+environment:
+  darknessLevel: 0
+  darknessLock: false
+  globalLight:
+    enabled: true
+    alpha: 0.5
+    bright: false
+    color: null
+    coloration: 1
+    luminosity: 0
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    darkness:
+      min: 0
+      max: 1
+  cycle: true
+  base:
+    hue: 0
+    intensity: 0
+    luminosity: 0
+    saturation: 0
+    shadows: 0
+  dark:
+    hue: 0.7138888888888889
+    intensity: 0
+    luminosity: -0.25
+    saturation: 0
+    shadows: 0
+transition:
+  type: null
+  duration: 1500
+  activeOnly: false
+drawings: []
+tokens: []
+levels:
+  - _id: defaultLevel0000
+    name: Level
+    elevation:
+      bottom: 0
+      top: 20
+    background:
+      color: '#999999'
+      src: modules/warbound-campaign-content/assets/images/illustrations/cof2-vallee-des-epreuves-illustration.png
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    foreground:
+      src: null
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    fog:
+      src: null
+    textures:
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+    visibility:
+      levels: []
+    sort: 0
+    flags: {}
+    _key: '!scenes.levels!BiDHfS8xigeVmCrt.defaultLevel0000'
+lights: []
+notes: []
+sounds: []
+regions: []
+tiles: []
+walls: []
+playlist: null
+playlistSound: null
+journal: null
+journalEntryPage: null
+weather: fxmaster.eagles
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  multi-token-edit:
+    blackBars: false
+  wall-height:
+    advancedVision: true
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.11
+  createdTime: 1790016964013
+  modifiedTime: 1790016964013
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+navName: ''
+active: false
+navOrder: 0
+sort: 0
+_key: '!scenes!BiDHfS8xigeVmCrt'
+templates: []

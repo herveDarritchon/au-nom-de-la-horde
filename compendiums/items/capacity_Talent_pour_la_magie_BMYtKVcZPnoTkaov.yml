@@ -1,7 +1,7 @@
 folder: LCsZi9IJ3OYnoq77
 name: Talent pour la magie
 type: capacity
-img: modules/warbound-campaign-content/assets/images/icons/capacites/cof2-talent-pour-la-magie.png
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/cof2-talent-pour-la-magie.png
 system:
   description: >-
     <p>Le joueur choisit une capacité de rang 1 de n’importe quelle Voie de
@@ -90,8 +90,8 @@ _stats:
   coreVersion: '14.367'
   systemId: co2
   systemVersion: 2.3.11
-  createdTime: 1789942549942
-  modifiedTime: 1789942549942
+  createdTime: 1790026091040
+  modifiedTime: 1790026091040
   lastModifiedBy: TjbWhMczNyKieD8D
   exportSource: null
 sort: 100000

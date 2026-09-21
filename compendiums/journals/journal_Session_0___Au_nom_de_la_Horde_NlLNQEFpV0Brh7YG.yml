@@ -1,0 +1,1699 @@
+folder: uC4E14RC9FMqmYTq
+name: Session 0 — Au nom de la Horde
+flags:
+  campaign-codex:
+    type: ''
+  core:
+    sheetClass: ''
+_id: NlLNQEFpV0Brh7YG
+pages:
+  - sort: 100000
+    name: Planning
+    type: text
+    _id: addb4e09486bba29
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>WARBOUND — AU NOM DE LA HORDE</h1>
+
+        <h2>Session 0 — Prendre en main la campagne</h2>
+
+        <blockquote>
+
+        <p><strong>But de ce soir :</strong> les joueurs doivent comprendre
+        <strong>comment fonctionne la campagne</strong>, créer des personnages
+        qui ont une raison d'agir ensemble, puis <strong>prendre leur première
+        décision de campagne avant la fin de la séance</strong>.</p>
+
+        </blockquote>
+
+        <hr>
+
+        <h1>0. Résultat attendu</h1>
+
+        <p>À la fin de la Session 0, les joueurs doivent savoir :</p>
+
+        <ul>
+
+        <li>quel type de campagne ils vont jouer ;</li>
+
+        <li>pourquoi <strong>Durotar</strong> est le territoire principal de la
+        Saison 1 ;</li>
+
+        <li>pourquoi <strong>Razor Hill</strong> est leur point d'attache ;</li>
+
+        <li>comment fonctionne le <strong>bac à sable cadré</strong> ;</li>
+
+        <li>que plusieurs situations peuvent exister en même temps ;</li>
+
+        <li>qu'ils choisissent eux-mêmes ce qu'ils poursuivent ;</li>
+
+        <li>que le monde continue d'évoluer lorsqu'ils n'interviennent pas
+        ;</li>
+
+        <li>que résoudre un problème ne signifie pas nécessairement combattre
+        ;</li>
+
+        <li>comment fonctionne la progression des personnages et de leur
+        influence dans le monde ;</li>
+
+        <li>pourquoi leurs connaissances de <em>World of Warcraft</em> sont
+        utiles sans être un mode d'emploi de la campagne ;</li>
+
+        <li>pourquoi leurs personnages vont agir ensemble.</li>
+
+        </ul>
+
+        <p>Et surtout :</p>
+
+        <blockquote>
+
+        <p><strong>La Session 1 doit commencer par une décision prise par les
+        joueurs pendant la Session 0.</strong></p>
+
+        </blockquote>
+
+        <hr>
+
+        <h1>1. Plan de la soirée</h1>
+
+        <p>Durée cible : <strong>environ 2 heures</strong>.</p>
+
+        <table>
+
+        <thead>
+
+        <tr>
+          <th style="text-align:right">Temps</th>
+          <th>Séquence</th>
+          <th>Objectif</th>
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+          <td style="text-align:right">5 min</td>
+          <td>Pitch</td>
+          <td>Comprendre la promesse</td>
+        </tr>
+
+        <tr>
+          <td style="text-align:right">15 min</td>
+          <td>Comment fonctionne la campagne</td>
+          <td>Comprendre le bac à sable cadré</td>
+        </tr>
+
+        <tr>
+          <td style="text-align:right">10 min</td>
+          <td>Ce que j'attends des joueurs</td>
+          <td>Installer la prise d'initiative</td>
+        </tr>
+
+        <tr>
+          <td style="text-align:right">10 min</td>
+          <td>Progression et récompenses</td>
+          <td>Comprendre ce qui fait avancer les PJ</td>
+        </tr>
+
+        <tr>
+          <td style="text-align:right">5 min</td>
+          <td>WoW, Warbound et le métagame</td>
+          <td>Poser le rapport au MMO</td>
+        </tr>
+
+        <tr>
+          <td style="text-align:right">25–35 min</td>
+          <td>Personnages</td>
+          <td>Finaliser le concept et les mécaniques</td>
+        </tr>
+
+        <tr>
+          <td style="text-align:right">10 min</td>
+          <td>Construire le groupe</td>
+          <td>Donner une raison d'agir ensemble</td>
+        </tr>
+
+        <tr>
+          <td style="text-align:right">20–30 min</td>
+          <td>Prologue à Razor Hill</td>
+          <td>Entrer réellement dans la campagne</td>
+        </tr>
+
+        <tr>
+          <td style="text-align:right">5 min</td>
+          <td>Première décision</td>
+          <td>Déterminer le départ de la Session 1</td>
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <blockquote>
+
+        <p><strong>Si le temps manque :</strong> raccourcir les discussions de
+        background.<br>
+
+        <strong>Ne pas supprimer le prologue.</strong> Le but est que la soirée
+        se termine sur du jeu et sur une décision des PJ.</p>
+
+        </blockquote>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.11
+      createdTime: 1790026184583
+      modifiedTime: 1790026184583
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!NlLNQEFpV0Brh7YG.addb4e09486bba29'
+  - sort: 200000
+    name: Promesse & fonctionnement
+    type: text
+    _id: d39b46a63b128ae2
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>2. Pitch de la campagne — 5 min</h1>
+
+        <h2>À dire aux joueurs</h2>
+
+        <blockquote>
+
+        <p>Vous allez jouer de jeunes aventuriers, membres ou alliés de la
+        Horde, dans <strong>Durotar</strong>.</p>
+
+        <p>Pendant la première saison, Durotar sera notre véritable terrain de
+        jeu. <strong>Razor Hill sera votre point d'attache</strong> : l'endroit
+        où vous revenez, où vous retrouvez des gens, où vous entendez parler de
+        ce qui se passe et où vous voyez les conséquences de vos actions.</p>
+
+        <p>Vous allez reconnaître énormément de choses de <em>World of
+        Warcraft</em> : les lieux, les peuples, les créatures, certaines
+        factions, certains personnages et certaines situations.</p>
+
+        <p>Mais le principe n'est pas de refaire les quêtes du MMO avec des
+        dés.</p>
+
+        <p>Ici, vous pourrez enquêter, négocier, prendre parti, vous tromper,
+        contourner un problème, laisser une situation de côté, revenir plus tard
+        et surtout <strong>changer ce qui se passe</strong>.</p>
+
+        <p>Il existe une véritable intrigue de campagne. Mais elle ne vous sera
+        pas donnée sous la forme d'une suite de quêtes principales à suivre dans
+        l'ordre.</p>
+
+        <p><strong>Vous allez la découvrir en jouant.</strong></p>
+
+        </blockquote>
+
+        <h2>Message essentiel</h2>
+
+        <blockquote>
+
+        <p><strong>WoW vous donne un monde familier. Le JdR vous donne la
+        liberté d'agir dessus.</strong></p>
+
+        </blockquote>
+
+        <hr>
+
+        <h1>3. Expliquer le bac à sable cadré — 15 min</h1>
+
+        <p>Ne pas vendre la campagne comme un « sandbox total ».</p>
+
+        <p>Elle possède :</p>
+
+        <ul>
+
+        <li>un territoire clairement défini ;</li>
+
+        <li>des acteurs et factions ;</li>
+
+        <li>des situations qui évoluent ;</li>
+
+        <li>un fil rouge ;</li>
+
+        <li>une progression dramatique ;</li>
+
+        <li>une destination finale vers laquelle certains événements
+        convergeront.</li>
+
+        </ul>
+
+        <p>Mais <strong>le trajet appartient aux joueurs</strong>.</p>
+
+        <h2>Schéma à montrer</h2>
+
+        <pre><code class="language-text">                         DUROTAR
+                                    │
+                                    ▼
+                               RAZOR HILL
+                              votre point d'ancrage
+                                    │
+                   ┌────────────────┼────────────────┐
+                   ▼                ▼                ▼
+               rumeurs          incidents         personnes
+               problèmes         pistes            occasions
+                   │                │                │
+                   └────────────────┼────────────────┘
+                                    ▼
+                            VOUS CHOISISSEZ
+                                    │
+                                    ▼
+                          préparation / départ
+                                    │
+                                    ▼
+                    exploration • enquête • social
+                      danger • combat éventuel
+                                    │
+                                    ▼
+                               CONSÉQUENCES
+                                    │
+                                    ▼
+                             retour à Razor Hill
+                                    │
+                                    ▼
+                     le monde a changé / nouvelles pistes
+        </code></pre>
+
+        <h2>À dire aux joueurs</h2>
+
+        <blockquote>
+
+        <p>À certains moments, vous aurez plusieurs pistes devant vous.</p>
+
+        <p>Je ne vous dirai pas systématiquement laquelle est « la bonne » ou
+        laquelle est « la quête principale ».</p>
+
+        <p><strong>C'est vous qui déciderez ce qui mérite votre
+        attention.</strong></p>
+
+        <p>Une affaire que vous laissez de côté ne sera pas forcément congelée
+        jusqu'à votre retour. Des personnages et des factions continueront
+        d'agir.</p>
+
+        <p>Certaines situations seront liées entre elles. D'autres n'auront
+        absolument rien à voir.</p>
+
+        <p>Vous ne pourrez probablement pas tout régler, et c'est
+        volontaire.</p>
+
+        </blockquote>
+
+        <h2>Exemple abstrait à donner</h2>
+
+        <blockquote>
+
+        <p>Imaginons que vous appreniez au même moment :</p>
+
+        <ul>
+
+        <li>qu'une patrouille a disparu ;</li>
+
+        <li>qu'un marchand affirme que ses convois sont attaqués ;</li>
+
+        <li>qu'un habitant de Razor Hill cherche quelqu'un ;</li>
+
+        <li>et qu'un voyageur rapporte un problème à Sen'jin.</li>
+
+        </ul>
+
+        <p>Ce n'est pas une liste de quatre quêtes à nettoyer.</p>
+
+        <p>Vous choisissez ce qui vous intéresse, ce qui vous paraît urgent ou
+        ce qui concerne votre personnage.</p>
+
+        </blockquote>
+
+        <h2>À ne PAS dire</h2>
+
+        <p>Ne pas révéler :</p>
+
+        <ul>
+
+        <li>combien de « zones de contenu » sont préparées ;</li>
+
+        <li>combien de donjons existent ;</li>
+
+        <li>quelles situations appartiennent au fil rouge ;</li>
+
+        <li>quelles pistes sont « principales » ou « secondaires » ;</li>
+
+        <li>vers quoi converge exactement l'intrigue.</li>
+
+        </ul>
+
+        <blockquote>
+
+        <p><strong>Le joueur doit voir Durotar. Pas l'architecture du scénario
+        située derrière Durotar.</strong></p>
+
+        </blockquote>
+
+        <hr>
+
+        <h1>4. Ce que j'attends des joueurs — 10 min</h1>
+
+        <h2>À dire clairement</h2>
+
+        <blockquote>
+
+        <p>Cette campagne fonctionne mieux si vos personnages sont
+        <strong>acteurs</strong>.</p>
+
+        <p>Je vais mettre devant vous des lieux, des personnes, des tensions,
+        des rumeurs, des indices et des problèmes.</p>
+
+        <p>J'attends de vous que vous posiez des questions, que vous discutiez
+        entre vous et que vous décidiez ce que vous voulez faire.</p>
+
+        <p>Je ne vais pas toujours terminer une scène en disant :</p>
+
+        <p>« Votre prochaine mission consiste à… »</p>
+
+        <p>Parfois la question sera simplement :</p>
+
+        <p><strong>« Qu'est-ce que vous faites ? »</strong></p>
+
+        </blockquote>
+
+        <h3>Les cinq comportements que la campagne récompense</h3>
+
+        <ol>
+
+        <li><p><strong>Être curieux</strong><br>
+
+        Interroger, observer, fouiller, écouter, confronter des versions.</p>
+
+        </li>
+
+        <li><p><strong>Prendre des décisions</strong><br>
+
+        Choisir une piste signifie parfois en laisser une autre évoluer.</p>
+
+        </li>
+
+        <li><p><strong>Prendre des initiatives</strong><br>
+
+        Aller voir quelqu'un, tendre un piège, proposer un accord, surveiller un
+        lieu, préparer une expédition.</p>
+
+        </li>
+
+        <li><p><strong>Accepter les conséquences</strong><br>
+
+        Une bonne décision n'est pas forcément une décision sans coût.</p>
+
+        </li>
+
+        <li><p><strong>Chercher des solutions de JdR</strong><br>
+
+        Négociation, intimidation, infiltration, exploration, ruse, alliances,
+        fuite, capture ou combat.</p>
+
+        </li>
+
+        </ol>
+
+        <h2>Règle MJ à annoncer</h2>
+
+        <blockquote>
+
+        <p>Si vous inventez une solution à laquelle je n'avais pas pensé, ce
+        n'est pas un problème.</p>
+
+        <p><strong>Je ne prépare pas vos solutions. Je prépare les situations et
+        leurs réactions.</strong></p>
+
+        </blockquote>
+
+        <hr>
+
+        <h1>5. Combat : nous ne jouons pas à WoW avec des dés — 5 min</h1>
+
+        <h2>À dire</h2>
+
+        <blockquote>
+
+        <p>Dans <em>World of Warcraft</em>, tuer des créatures est une activité
+        fondamentale.</p>
+
+        <p>Ici, un combat prend beaucoup plus de temps et doit servir quelque
+        chose.</p>
+
+        <p>Vous pouvez éviter une confrontation, faire fuir des adversaires,
+        capturer quelqu'un, négocier, contourner une patrouille ou obtenir votre
+        objectif sans initiative.</p>
+
+        <p><strong>Éviter intelligemment un combat n'est pas rater du
+        contenu.</strong></p>
+
+        <p>Inversement, lorsqu'un combat important aura lieu, il devra avoir un
+        enjeu : protéger quelqu'un, empêcher une fuite, tenir une position,
+        récupérer quelque chose, interrompre une action, survivre à une
+        situation ou obtenir une information.</p>
+
+        </blockquote>
+
+        <h3>Conséquence importante</h3>
+
+        <p>Les personnages ne doivent pas être pensés uniquement comme :</p>
+
+        <ul>
+
+        <li>tank ;</li>
+
+        <li>DPS ;</li>
+
+        <li>heal.</li>
+
+        </ul>
+
+        <p>Ils sont des personnages de JdR ayant aussi :</p>
+
+        <ul>
+
+        <li>des connaissances ;</li>
+
+        <li>des compétences sociales ;</li>
+
+        <li>des contacts ;</li>
+
+        <li>des capacités d'exploration ;</li>
+
+        <li>des convictions ;</li>
+
+        <li>des moyens d'agir sur le monde.</li>
+
+        </ul>
+
+        <hr>
+
+        <h1>6. Progression — 10 min</h1>
+
+        <h2>6.1 Progression mécanique</h2>
+
+        <blockquote>
+
+        <p>Vous ne gagnerez pas vos niveaux parce que vous avez tué suffisamment
+        de monstres.</p>
+
+        <p>La progression se fera <strong>par étapes importantes de l'aventure
+        et de la campagne</strong>.</p>
+
+        <p>Résoudre un problème par la négociation, découvrir une information
+        décisive, explorer un lieu important ou changer durablement une
+        situation peut faire avancer la campagne autant qu'une victoire au
+        combat.</p>
+
+        </blockquote>
+
+        <h3>Rappel COF2</h3>
+
+        <p>À chaque passage de niveau, COF2 fait progresser le personnage et lui
+        donne notamment de nouveaux points de capacité. Warbound conserve cette
+        logique générale.</p>
+
+        <h3>Paramètres Warbound actuellement retenus</h3>
+
+        <ul>
+
+        <li>le personnage reçoit son <strong>rang 1 de Voie</strong> selon les
+        règles Warbound retenues pour la création ;</li>
+
+        <li>les <strong>Talents raciaux indépendants</strong> utilisent les
+        règles Warbound définies pour la campagne ;</li>
+
+        <li>une capacité formulée comme utilisable « une fois par combat » suit
+        la logique COF2 de <strong>récupération rapide</strong>, et ne se
+        recharge pas simplement parce qu'une nouvelle initiative commence ;</li>
+
+        <li>la campagne vise une progression relativement contenue : la montée
+        en puissance doit accompagner les grandes étapes de la Saison 1 plutôt
+        qu'une succession rapide de niveaux ;</li>
+
+        <li><strong>si le cadrage actuel est maintenu</strong>, la première
+        grande spécialisation / voie de prestige Warbound est prévue autour du
+        <strong>niveau 4</strong>.</li>
+
+        </ul>
+
+        <blockquote>
+
+        <p><strong>MJ — à confirmer avant de l'annoncer :</strong> niveau exact
+        de départ et cible finale de Saison 1.</p>
+
+        </blockquote>
+
+        <hr>
+
+        <h2>6.2 Une deuxième progression : votre place dans Durotar</h2>
+
+        <p>Les niveaux ne sont pas la seule progression importante.</p>
+
+        <p>Les PJ pourront aussi gagner :</p>
+
+        <ul>
+
+        <li>des contacts ;</li>
+
+        <li>des alliés ;</li>
+
+        <li>des faveurs ;</li>
+
+        <li>de la réputation ;</li>
+
+        <li>des informations ;</li>
+
+        <li>des cartes ;</li>
+
+        <li>des passages sûrs ;</li>
+
+        <li>des raccourcis ;</li>
+
+        <li>des endroits où dormir ou se ravitailler ;</li>
+
+        <li>la confiance d'un groupe ;</li>
+
+        <li>l'hostilité d'un autre ;</li>
+
+        <li>l'accès à certains lieux ou personnes.</li>
+
+        </ul>
+
+        <h2>À dire</h2>
+
+        <blockquote>
+
+        <p>Une information importante ou quelqu'un qui vous doit une faveur peut
+        être une récompense aussi précieuse qu'une meilleure arme.</p>
+
+        <p>Au début, Durotar sera surtout une carte connue de vos souvenirs de
+        joueurs.</p>
+
+        <p>Progressivement, il doit devenir <strong>votre Durotar</strong> : les
+        personnes que vous connaissez, les routes que vous maîtrisez, les
+        ennemis que vous vous êtes faits et les endroits que vos décisions ont
+        transformés.</p>
+
+        </blockquote>
+
+        <hr>
+
+        <h1>7. Vos connaissances de World of Warcraft — 5 min</h1>
+
+        <h2>À dire</h2>
+
+        <blockquote>
+
+        <p>Je ne vais pas vous demander de faire semblant d'avoir oublié
+        <em>World of Warcraft</em>.</p>
+
+        <p>Au contraire : reconnaître un endroit, une créature ou un personnage
+        fait partie du plaisir.</p>
+
+        <p>Si vous savez quelque chose en tant que joueur, on se demandera
+        simplement si votre personnage possède lui aussi une raison de le
+        savoir.</p>
+
+        <p>Mais il y a une règle beaucoup plus importante :</p>
+
+        <p><strong>ce qui était vrai dans WoW ne garantit pas que la situation
+        se résoudra ici de la même manière.</strong></p>
+
+        <p>Vous pouvez reconnaître le décor sans connaître la réponse.</p>
+
+        </blockquote>
+
+        <h2>Formule de campagne</h2>
+
+        <blockquote>
+
+        <p><strong>Reconnaissance → incertitude → choix →
+        conséquences.</strong></p>
+
+        </blockquote>
+
+        <h2>À retenir</h2>
+
+        <p><strong>WoW est notre mémoire commune.<br>
+
+        Ce n'est pas le script de la campagne.</strong></p>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.11
+      createdTime: 1790026184583
+      modifiedTime: 1790026184583
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!NlLNQEFpV0Brh7YG.d39b46a63b128ae2'
+  - sort: 300000
+    name: Personnages & groupe
+    type: text
+    _id: fc2a7f6950a53ef3
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>8. Création des personnages — 25 à 35 min</h1>
+
+        <p>Ne pas faire remplir un questionnaire de quinze questions.</p>
+
+        <p>Chaque joueur doit pouvoir présenter son personnage avec
+        <strong>quatre réponses</strong>.</p>
+
+        <h2>Les quatre questions</h2>
+
+        <h3>1. Qui es-tu ?</h3>
+
+        <blockquote>
+
+        <p>Nom, peuple, classe et concept en une phrase.</p>
+
+        </blockquote>
+
+        <p>Exemple :</p>
+
+        <blockquote>
+
+        <p>« Je suis un jeune chasseur troll Sombrelance qui veut prouver qu'il
+        peut servir la Horde sans renier les traditions de son peuple. »</p>
+
+        </blockquote>
+
+        <h3>2. Pourquoi es-tu aujourd'hui à Razor Hill ?</h3>
+
+        <p>Une raison simple suffit :</p>
+
+        <ul>
+
+        <li>affectation ;</li>
+
+        <li>voyage ;</li>
+
+        <li>commerce ;</li>
+
+        <li>recherche de travail ;</li>
+
+        <li>entraînement ;</li>
+
+        <li>escorte ;</li>
+
+        <li>visite ;</li>
+
+        <li>recherche de quelqu'un ;</li>
+
+        <li>ordre reçu ;</li>
+
+        <li>passage vers Orgrimmar ;</li>
+
+        <li>autre raison proposée par le joueur.</li>
+
+        </ul>
+
+        <h3>3. Qu'est-ce que tu cherches ?</h3>
+
+        <p>Pas nécessairement un objectif de campagne.</p>
+
+        <p>Exemples :</p>
+
+        <ul>
+
+        <li>gloire ;</li>
+
+        <li>argent ;</li>
+
+        <li>reconnaissance ;</li>
+
+        <li>connaissance ;</li>
+
+        <li>puissance ;</li>
+
+        <li>indépendance ;</li>
+
+        <li>un maître ;</li>
+
+        <li>une place dans la Horde ;</li>
+
+        <li>protéger quelqu'un ;</li>
+
+        <li>réparer une faute ;</li>
+
+        <li>voir le monde.</li>
+
+        </ul>
+
+        <h3>4. Pourquoi partirais-tu à l'aventure avec ce groupe ?</h3>
+
+        <p>La réponse peut être simple :</p>
+
+        <ul>
+
+        <li>camaraderie ;</li>
+
+        <li>dette ;</li>
+
+        <li>ordre commun ;</li>
+
+        <li>intérêt ;</li>
+
+        <li>amitié ;</li>
+
+        <li>nécessité ;</li>
+
+        <li>ambition ;</li>
+
+        <li>famille ;</li>
+
+        <li>confiance professionnelle.</li>
+
+        </ul>
+
+        <hr>
+
+        <h1>9. Construire le groupe — 10 min</h1>
+
+        <p>Le but n'est pas de créer quatre inconnus qui attendent qu'un PNJ les
+        réunisse.</p>
+
+        <h2>Question collective</h2>
+
+        <blockquote>
+
+        <p><strong>Pourquoi est-il naturel que vos personnages agissent ensemble
+        lorsqu'un problème se présente ?</strong></p>
+
+        </blockquote>
+
+        <p>Obtenir <strong>une phrase de groupe</strong>.</p>
+
+        <p>Exemples :</p>
+
+        <blockquote>
+
+        <p>« Nous avons déjà effectué plusieurs escortes ensemble pour la Horde.
+        »</p>
+
+        </blockquote>
+
+        <blockquote>
+
+        <p>« Nous sommes tous arrivés récemment à Razor Hill et nous avons
+        décidé de chercher du travail ensemble. »</p>
+
+        </blockquote>
+
+        <blockquote>
+
+        <p>« Deux d'entre nous se connaissent déjà et les autres ont rejoint le
+        groupe au cours du voyage. »</p>
+
+        </blockquote>
+
+        <blockquote>
+
+        <p>« Un même supérieur nous a envoyés à Razor Hill, mais nous restons
+        libres de nos méthodes. »</p>
+
+        </blockquote>
+
+        <h2>Option rapide : un lien chacun</h2>
+
+        <p>Si le temps le permet, chaque joueur complète une seule phrase
+        concernant un autre PJ :</p>
+
+        <blockquote>
+
+        <p><strong>« Je sais que je peux compter sur lui/elle parce que…
+        »</strong></p>
+
+        </blockquote>
+
+        <p>Pas besoin d'écrire une histoire complète.</p>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.11
+      createdTime: 1790026184583
+      modifiedTime: 1790026184583
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!NlLNQEFpV0Brh7YG.fc2a7f6950a53ef3'
+  - sort: 400000
+    name: Prologue — Razor Hill
+    type: text
+    _id: 99df86e2abc49d35
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>10. Prologue joué — Razor Hill — 20 à 30 min</h1>
+
+        <blockquote>
+
+        <p><strong>Cette partie est obligatoire.</strong></p>
+
+        <p>Ne pas terminer la Session 0 après la création des fiches.</p>
+
+        </blockquote>
+
+        <hr>
+
+        <h2>10.1 Mise en scène</h2>
+
+        <p>Lancer l'ambiance sonore de Durotar.</p>
+
+        <p>Afficher Razor Hill ou une vue générale de Durotar.</p>
+
+        <p>Puis lire ou reformuler :</p>
+
+        <blockquote>
+
+        <p>La chaleur de Durotar écrase la terre rouge.</p>
+
+        <p>Le vent soulève par moments une poussière sèche qui vient se coller
+        aux bottes, aux sabots, aux roues des chariots et aux palissades.</p>
+
+        <p>Razor Hill n'est pas une grande ville. C'est un carrefour de la Horde
+        : des gardes, des peons, des chasseurs, des artisans, des voyageurs et
+        des convois qui remontent vers Orgrimmar ou descendent vers Sen'jin.</p>
+
+        <p>Au nord, derrière les reliefs, se trouve la capitale.</p>
+
+        <p>Ici, personne n'attend immobile qu'un aventurier vienne cliquer sur
+        lui.</p>
+
+        <p>Tout le monde a quelque chose à faire.</p>
+
+        <p>Et aujourd'hui, vous êtes là.</p>
+
+        </blockquote>
+
+        <p>Puis faire un tour de table :</p>
+
+        <blockquote>
+
+        <p><strong>« Où est ton personnage à cet instant, et qu'est-il en train
+        de faire ? »</strong></p>
+
+        </blockquote>
+
+        <p>Une ou deux phrases chacun.</p>
+
+        <p>Ne pas créer de grande scène individuelle.</p>
+
+        <p>Le but est seulement de les faire <strong>entrer dans Razor
+        Hill</strong>.</p>
+
+        <hr>
+
+        <h1>11. L'incident — le convoi</h1>
+
+        <p>Après quelques minutes de jeu, introduire l'événement.</p>
+
+        <h2>Déclenchement</h2>
+
+        <blockquote>
+
+        <p>Des voix s'élèvent du côté de la route du nord.</p>
+
+        <p>Quelques habitants se retournent.</p>
+
+        <p>Un kodo apparaît dans la poussière.</p>
+
+        <p>Il tire un chariot dont une roue est voilée et dont un côté porte
+        plusieurs impacts.</p>
+
+        <p>Le conducteur tient à peine assis.</p>
+
+        <p>Derrière lui…</p>
+
+        <p><strong>le second chariot du convoi n'est pas là.</strong></p>
+
+        </blockquote>
+
+        <p>Laisser les joueurs réagir.</p>
+
+        <p>Ne pas faire arriver immédiatement un officier qui leur donne une
+        mission.</p>
+
+        <hr>
+
+        <h1>12. Ce que les PJ peuvent apprendre</h1>
+
+        <p>Les informations importantes ne doivent pas être bloquées derrière un
+        jet obligatoire.</p>
+
+        <h2>Évidence immédiate</h2>
+
+        <p>Ils peuvent constater rapidement :</p>
+
+        <ul>
+
+        <li>le convoi a été attaqué ;</li>
+
+        <li>le conducteur est blessé ;</li>
+
+        <li>d'autres membres du convoi manquent ;</li>
+
+        <li>plusieurs caisses ont été ouvertes ;</li>
+
+        <li>une partie de la cargaison a disparu ;</li>
+
+        <li>le convoi venait du nord / empruntait les routes de Durotar.</li>
+
+        </ul>
+
+        <h2>En examinant la cargaison</h2>
+
+        <p>Ils peuvent découvrir :</p>
+
+        <ul>
+
+        <li>les vivres sont encore là ;</li>
+
+        <li>l'essentiel des armes est encore là ;</li>
+
+        <li>l'argent ou les biens immédiatement revendables n'ont pas été pris
+        ;</li>
+
+        <li>les disparitions concernent des caisses beaucoup moins séduisantes
+        pour des pillards ordinaires.</li>
+
+        </ul>
+
+        <h2>En demandant ce qui manque</h2>
+
+        <p>Un peon, artisan, garde chargé de l'inventaire ou survivant peut
+        expliquer qu'il manque essentiellement :</p>
+
+        <ul>
+
+        <li>des outils ;</li>
+
+        <li>des pièces métalliques ;</li>
+
+        <li>du matériel de soutènement ;</li>
+
+        <li>du matériel utilisé pour des travaux lourds / de forage.</li>
+
+        </ul>
+
+        <blockquote>
+
+        <p><strong>Ne pas présenter ce détail comme une révélation
+        majeure.</strong></p>
+
+        <p>À ce stade, il doit seulement provoquer :</p>
+
+        <p><strong>« C'est bizarre. Pourquoi voler ça ? »</strong></p>
+
+        </blockquote>
+
+        <hr>
+
+        <h1>13. Le premier choix</h1>
+
+        <p>Créer plusieurs urgences sans les transformer en menu de jeu
+        vidéo.</p>
+
+        <p>Selon les questions des joueurs, faire émerger naturellement :</p>
+
+        <ul>
+
+        <li><strong>le blessé</strong> — son état demande peut-être des soins
+        ;</li>
+
+        <li><strong>les disparus</strong> — tout le monde n'est pas revenu
+        ;</li>
+
+        <li><strong>la scène de l'attaque</strong> — elle peut contenir des
+        traces ;</li>
+
+        <li><strong>les assaillants</strong> — ils ont probablement encore de
+        l'avance ;</li>
+
+        <li><strong>la cargaison</strong> — comprendre exactement ce qui manque
+        ;</li>
+
+        <li><strong>la route</strong> — faut-il prévenir ou protéger d'autres
+        voyageurs ?</li>
+
+        </ul>
+
+        <p>Puis demander :</p>
+
+        <blockquote>
+
+        <p><strong>« Qu'est-ce que vous voulez faire ? »</strong></p>
+
+        </blockquote>
+
+        <p>Ne pas suggérer la meilleure réponse.</p>
+
+        <p>Laisser le groupe discuter.</p>
+
+        <hr>
+
+        <h1>14. Fin de la Session 0</h1>
+
+        <p>Lorsque le groupe s'est mis d'accord :</p>
+
+        <blockquote>
+
+        <p><strong>« Très bien. Donc votre priorité est… »</strong></p>
+
+        </blockquote>
+
+        <p>Reformuler précisément leur décision.</p>
+
+        <p>Exemples :</p>
+
+        <blockquote>
+
+        <p>« Vous commencez par retrouver les disparus. »</p>
+
+        </blockquote>
+
+        <blockquote>
+
+        <p>« Vous repartez immédiatement sur les traces des assaillants. »</p>
+
+        </blockquote>
+
+        <blockquote>
+
+        <p>« Vous restez d'abord à Razor Hill pour comprendre ce qui a été volé
+        et pourquoi. »</p>
+
+        </blockquote>
+
+        <blockquote>
+
+        <p>« Vous sécurisez le blessé puis vous retournez sur le lieu de
+        l'attaque. »</p>
+
+        </blockquote>
+
+        <p>Puis conclure :</p>
+
+        <blockquote>
+
+        <p><strong>« C'est là que commencera notre première véritable aventure.
+        »</strong></p>
+
+        </blockquote>
+
+        <p>La Session 1 commencera donc <strong>par leur plan</strong>, pas par
+        une quête imposée.</p>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.11
+      createdTime: 1790026184583
+      modifiedTime: 1790026184583
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!NlLNQEFpV0Brh7YG.99df86e2abc49d35'
+  - sort: 500000
+    name: Secrets MJ
+    type: text
+    _id: 33ac5daa55476f70
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>15. Secrets MJ — ne pas révéler pendant la Session 0</h1>
+
+        <h2>Ce que les joueurs peuvent voir</h2>
+
+        <ul>
+
+        <li>une attaque réelle ;</li>
+
+        <li>des victimes réelles ;</li>
+
+        <li>une cargaison réellement volée ;</li>
+
+        <li>un choix étrange dans ce qui a été emporté ;</li>
+
+        <li>plusieurs priorités possibles.</li>
+
+        </ul>
+
+        <h2>Ce qu'ils ne doivent pas encore savoir</h2>
+
+        <ul>
+
+        <li>que ce vol appartient au fil rouge de la saison ;</li>
+
+        <li>que les vols et sabotages vont converger vers un même projet ;</li>
+
+        <li>les motivations réelles du groupe responsable ;</li>
+
+        <li>l'existence ou le rôle futur d'un chaman renégat ;</li>
+
+        <li>la véritable raison pour laquelle certains travaux sont ciblés
+        ;</li>
+
+        <li>le rôle futur du commanditaire de la Horde ;</li>
+
+        <li>la nature du danger situé dans les profondeurs ;</li>
+
+        <li>le renversement prévu autour de Ragefire Chasm.</li>
+
+        </ul>
+
+        <h2>Règle d'or</h2>
+
+        <blockquote>
+
+        <p><strong>Ne jamais mentir avec les indices.</strong></p>
+
+        <p>Les joueurs doivent pouvoir mal interpréter des faits vrais.</p>
+
+        <p>La révélation future doit leur permettre de repenser aux premiers
+        événements et de se dire :</p>
+
+        <p><strong>« Tout était déjà là. On ne comprenait simplement pas encore
+        pourquoi. »</strong></p>
+
+        </blockquote>
+
+        <hr>
+
+        <h1>16. Si les joueurs prennent une direction imprévue</h1>
+
+        <p>Ne pas chercher à les remettre immédiatement sur « le scénario ».</p>
+
+        <h2>Ils veulent ignorer le convoi</h2>
+
+        <p>Très bien.</p>
+
+        <p>Demander ce qu'ils font à la place.</p>
+
+        <p>Le convoi et ses conséquences continueront d'exister.</p>
+
+        <h2>Ils veulent accompagner le blessé</h2>
+
+        <p>Très bien.</p>
+
+        <p>Cette scène peut leur permettre d'obtenir témoignages, contacts et
+        informations.</p>
+
+        <h2>Ils veulent alerter immédiatement Orgrimmar</h2>
+
+        <p>Très bien.</p>
+
+        <p>L'information remonte dans la chaîne de commandement, mais ils ne
+        reçoivent pas automatiquement la vérité en retour.</p>
+
+        <h2>Ils veulent retrouver la cargaison</h2>
+
+        <p>Très bien.</p>
+
+        <p>La Session 1 commencera par cette piste.</p>
+
+        <h2>Ils veulent poursuivre immédiatement les assaillants</h2>
+
+        <p>Très bien.</p>
+
+        <p>Terminer la Session 0 au moment où ils quittent Razor Hill.</p>
+
+        <h2>Ils accusent immédiatement une faction connue de WoW</h2>
+
+        <p>Ne pas corriger leur théorie.</p>
+
+        <p>Demander :</p>
+
+        <blockquote>
+
+        <p><strong>« Qu'est-ce qui vous fait penser ça ? »</strong></p>
+
+        </blockquote>
+
+        <p>Puis laisser les faits confirmer ou infirmer progressivement leur
+        hypothèse.</p>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.11
+      createdTime: 1790026184583
+      modifiedTime: 1790026184583
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!NlLNQEFpV0Brh7YG.33ac5daa55476f70'
+  - sort: 600000
+    name: Notes de séance
+    type: text
+    _id: 0bf85b9f1573bda1
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>17. Ce que le MJ doit noter pendant la soirée</h1>
+
+        <h2>Personnages</h2>
+
+        <table>
+
+        <thead>
+
+        <tr>
+          <th>PJ</th>
+          <th>Concept</th>
+          <th>Pourquoi Razor Hill ?</th>
+          <th>Ce qu'il cherche</th>
+          <th>Lien au groupe</th>
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <h2>Ce qui intéresse spontanément les joueurs</h2>
+
+        <ul>
+
+        <li></li>
+
+        <li></li>
+
+        <li></li>
+
+        </ul>
+
+        <h2>PNJ / éléments inventés pendant la discussion</h2>
+
+        <ul>
+
+        <li></li>
+
+        <li></li>
+
+        <li></li>
+
+        </ul>
+
+        <h2>Théories formulées par les joueurs</h2>
+
+        <ul>
+
+        <li></li>
+
+        <li></li>
+
+        <li></li>
+
+        </ul>
+
+        <blockquote>
+
+        <p><strong>Ne pas confirmer ou infirmer les théories
+        inutilement.</strong><br>
+
+        Les théories des joueurs sont une excellente manière de savoir quels
+        indices ils ont réellement compris.</p>
+
+        </blockquote>
+
+        <h2>Première décision du groupe</h2>
+
+        <blockquote>
+
+        <p><strong>Les PJ ont décidé de :</strong></p>
+
+        </blockquote>
+
+        <p>....................................................................................</p>
+
+        <h2>Départ de la Session 1</h2>
+
+        <blockquote>
+
+        <p><strong>La première scène sera :</strong></p>
+
+        </blockquote>
+
+        <p>....................................................................................</p>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.11
+      createdTime: 1790026184583
+      modifiedTime: 1790026184583
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!NlLNQEFpV0Brh7YG.0bf85b9f1573bda1'
+  - sort: 700000
+    name: Checklist & aide-mémoire
+    type: text
+    _id: e06da934d9c4176f
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>18. Checklist juste avant de lancer la partie</h1>
+
+        <ul>
+
+        <li>[ ] Niveau de départ définitivement fixé.</li>
+
+        <li>[ ] Règles Warbound de création annoncées clairement.</li>
+
+        <li>[ ] Personnages disponibles dans Foundry.</li>
+
+        <li>[ ] Razor Hill prêt à être montré.</li>
+
+        <li>[ ] Ambiance musicale Durotar prête.</li>
+
+        <li>[ ] Convoi / survivant disponibles si nécessaire.</li>
+
+        <li>[ ] Aucun marqueur ou journal joueur ne révèle la structure du fil
+        rouge.</li>
+
+        <li>[ ] Les joueurs voient une carte du monde, pas une checklist de
+        scénarios.</li>
+
+        <li>[ ] Les secrets de Ragefire restent entièrement côté MJ.</li>
+
+        <li>[ ] Je suis prêt à terminer la soirée sur <strong>leur
+        décision</strong>, même si ce n'est pas celle que j'avais
+        anticipée.</li>
+
+        </ul>
+
+        <hr>
+
+        <h1>19. Fiche MJ ultra-courte</h1>
+
+        <p>Si je dois mener toute la soirée avec une seule page mentale :</p>
+
+        <blockquote>
+
+        <p><strong>PROMESSE</strong><br>
+
+        Durotar familier, mais un monde de JdR où les choix changent réellement
+        les choses.</p>
+
+        <p><strong>STRUCTURE</strong><br>
+
+        Razor Hill → plusieurs pistes → choix des PJ → excursion → conséquences
+        → retour.</p>
+
+        <p><strong>ATTENTE</strong><br>
+
+        Les joueurs sont acteurs. Je prépare les situations, pas leurs
+        solutions.</p>
+
+        <p><strong>COMBAT</strong><br>
+
+        Pas de grind. Un combat doit avoir un enjeu.</p>
+
+        <p><strong>PROGRESSION</strong><br>
+
+        Jalons + capacités + contacts + réputation + informations + accès.</p>
+
+        <p><strong>WOW</strong><br>
+
+        Les souvenirs sont bienvenus, mais ne donnent pas automatiquement la
+        vérité.</p>
+
+        <p><strong>PERSONNAGES</strong><br>
+
+        Qui es-tu ? Pourquoi Razor Hill ? Que cherches-tu ? Pourquoi ce groupe
+        ?</p>
+
+        <p><strong>PROLOGUE</strong><br>
+
+        Razor Hill vit → le convoi arrive endommagé → les richesses sont
+        intactes → du matériel technique manque.</p>
+
+        <p><strong>FIN</strong><br>
+
+        « Qu'est-ce que vous décidez de faire ? »</p>
+
+        <p><strong>SESSION 1</strong><br>
+
+        Commencer directement par leur réponse.</p>
+
+        </blockquote>
+
+        <hr>
+
+        <h1>Principe final</h1>
+
+        <blockquote>
+
+        <p><strong>Je ne vais pas raconter aux joueurs une histoire dans
+        Warcraft.</strong></p>
+
+        <p><strong>Je vais mettre Durotar en mouvement, leur donner des raisons
+        de s'y intéresser, puis leur demander ce qu'ils décident d'en
+        faire.</strong></p>
+
+        </blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.11
+      createdTime: 1790026184583
+      modifiedTime: 1790026184583
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!NlLNQEFpV0Brh7YG.e06da934d9c4176f'
+  - sort: 800000
+    name: Références
+    type: text
+    _id: fdedadc75023b8b1
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>20. Sources de cadrage du projet</h1>
+
+        <p>Ce conducteur synthétise les choix déjà établis dans les documents de
+        campagne :</p>
+
+        <ul>
+
+        <li><strong>Campagne Horde — De Durotar à Ragefire Chasm</strong> :
+        promesse de campagne, cinq mouvements, reconnaissance avant subversion,
+        premier incident du convoi et vol sélectif de matériel.</li>
+
+        <li><strong>Durotar — Guide de zone et pointcrawl — Saison 1</strong> :
+        Razor Hill comme hub, Durotar comme territoire de saison, situations
+        évolutives, information comme récompense et persistance des
+        conséquences.</li>
+
+        <li><strong>Durotar — Quêtes WoW Classic adaptées à Champions of
+        Azeroth</strong> : conversion du convoi de Thunder Ridge / Drygulch en
+        situation ouverte et premier indice du sabotage ciblé.</li>
+
+        <li><strong>Charte WoW → Champions of Azeroth</strong> : logique de
+        conception « Reconnaissance → Incertitude → Choix → Conséquence →
+        Récompense ».</li>
+
+        <li><strong>Chroniques Oubliées Fantasy 2</strong> : progression par
+        niveau et acquisition de capacités ; Warbound conserve le moteur COF2 en
+        l'adaptant au ressenti Warcraft.</li>
+
+        </ul>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.11
+      createdTime: 1790026184583
+      modifiedTime: 1790026184583
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!NlLNQEFpV0Brh7YG.fdedadc75023b8b1'
+categories: []
+sort: 0
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.11
+  createdTime: 1790026184583
+  modifiedTime: 1790026184583
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource:
+    worldId: au-nom-de-la-horde-cof2
+    uuid: JournalEntry.HCEa8pVrttNGWMtW
+    coreVersion: '14.367'
+    systemId: co2
+    systemVersion: 2.3.11
+_key: '!journal!NlLNQEFpV0Brh7YG'

@@ -1,4 +1,4 @@
-folder: T6xUdp4aL1rDQMyb
+folder: U6f0Y0LXCS7X5EDL
 name: 10 Commandements
 flags:
   campaign-codex:
@@ -22,7 +22,7 @@ pages:
     video:
       controls: true
       volume: 0.5
-    src: modules/warbound-campaign-content/assets/landing-page/cof2-parchemin-10-commandements-ouvert.png
+    src: worlds/au-nom-de-la-horde-cof2/assets/landing-page/cof2-parchemin-10-commandements-ouvert.png
     category: null
     ownership:
       default: -1
@@ -32,26 +32,26 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.11
-      createdTime: 1789942601916
-      modifiedTime: 1789942601916
+      createdTime: 1790026195149
+      modifiedTime: 1790026195149
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!nCt5VtvAdsinew7W.OImWFqsApFpQ46ZV'
 categories: []
-sort: 0
 ownership:
-  default: 0
+  default: 2
   TjbWhMczNyKieD8D: 3
 _stats:
   coreVersion: '14.367'
   systemId: co2
   systemVersion: 2.3.11
-  createdTime: 1789942601916
-  modifiedTime: 1789942601916
+  createdTime: 1790026195149
+  modifiedTime: 1790026195149
   lastModifiedBy: TjbWhMczNyKieD8D
   compendiumSource: null
   duplicateSource: null
   exportSource: null
+sort: 0
 _key: '!journal!nCt5VtvAdsinew7W'

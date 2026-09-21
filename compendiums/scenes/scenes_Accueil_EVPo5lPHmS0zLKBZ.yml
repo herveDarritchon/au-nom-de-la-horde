@@ -1,7 +1,7 @@
 name: Accueil
 _id: EVPo5lPHmS0zLKBZ
 navigation: false
-thumb: modules/warbound-campaign-content/assets/scenes/thumb-PxjNBvUr9jfMIzqxSMr8vg.webp
+thumb: worlds/au-nom-de-la-horde-cof2/assets/scenes/thumb-rgcTF3iccPcNDZZ1ppUu1A.webp
 width: 4000
 height: 3000
 padding: 0.25
@@ -1706,7 +1706,7 @@ tiles:
     _key: '!scenes.tiles!EVPo5lPHmS0zLKBZ.39odsuJrgozDpada'
 walls: []
 playlist: zFMeAT7li5Kj0Zsg
-playlistSound: 5MFUz8Jzen6nt2u9
+playlistSound: null
 journal: null
 journalEntryPage: null
 weather: ''
@@ -1721,7 +1721,7 @@ flags:
     adaptiveFrame:
       x: 3000
       'y': 2300
-      width: 4488.977955911823
+      width: 2805.61122244489
     viewMode: adaptive
     lockPan: false
     lockZoom: false
@@ -1788,8 +1788,8 @@ _stats:
   coreVersion: '14.367'
   systemId: co2
   systemVersion: 2.3.11
-  createdTime: 1789983815467
-  modifiedTime: 1789983815504
+  createdTime: 1790016866688
+  modifiedTime: 1790016866688
   lastModifiedBy: TjbWhMczNyKieD8D
   compendiumSource: null
   duplicateSource: null

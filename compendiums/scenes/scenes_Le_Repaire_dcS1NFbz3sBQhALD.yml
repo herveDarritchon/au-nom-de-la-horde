@@ -1,0 +1,191 @@
+folder: XeIO9yZwnwPO1Mml
+name: Le Repaire
+_id: dcS1NFbz3sBQhALD
+active: false
+navigation: true
+navOrder: 0
+thumb: worlds/au-nom-de-la-horde-cof2/assets/scenes/thumb-IwgtewnthA7sTaA3zUsQbw.webp
+width: 1448
+height: 1086
+padding: 0.25
+shiftX: 0
+shiftY: 0
+initial:
+  x: null
+  'y': null
+  scale: null
+initialLevel: defaultLevel0000
+grid:
+  type: 1
+  size: 50
+  style: solidLines
+  thickness: 1
+  color: '#000000'
+  alpha: 0.2
+  distance: 1.5
+  units: m
+tokenVision: true
+fog:
+  mode: 1
+  colors:
+    explored: null
+    unexplored: null
+environment:
+  darknessLevel: 0
+  darknessLock: false
+  globalLight:
+    enabled: false
+    alpha: 0.5
+    bright: false
+    color: null
+    coloration: 1
+    luminosity: 0
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    darkness:
+      min: 0
+      max: 1
+  cycle: true
+  base:
+    hue: 0
+    intensity: 0
+    luminosity: 0
+    saturation: 0
+    shadows: 0
+  dark:
+    hue: 0.7138888888888889
+    intensity: 0
+    luminosity: -0.25
+    saturation: 0
+    shadows: 0
+transition:
+  type: null
+  duration: 1500
+  activeOnly: false
+drawings: []
+tokens: []
+levels:
+  - _id: defaultLevel0000
+    name: Level
+    elevation:
+      bottom: 0
+      top: 20
+    background:
+      color: '#999999'
+      src: modules/warbound-campaign-content/assets/images/battlemaps/cof2-le-repaire-lame-ardente-battlemap.png
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    foreground:
+      src: null
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    fog:
+      src: null
+    textures:
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+    visibility:
+      levels: []
+    sort: 0
+    flags: {}
+    _key: '!scenes.levels!dcS1NFbz3sBQhALD.defaultLevel0000'
+lights: []
+notes:
+  - entryId: YgqhleqMTsFtTYFU
+    pageId: null
+    global: false
+    levels:
+      - defaultLevel0000
+    x: 1800
+    'y': 325
+    elevation: 0
+    sort: 0
+    iconSize: 32
+    texture:
+      tint: '#ffffff'
+      src: icons/svg/book.svg
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 1
+      scaleY: 1
+      alphaThreshold: 0
+    text: ''
+    fontFamily: ''
+    fontSize: 32
+    textColor: '#ffffff'
+    textAnchor: 1
+    flags:
+      tagger: {}
+    _id: p06lxpHuJgZbI9F8
+    author: TjbWhMczNyKieD8D
+    locked: false
+    _key: '!scenes.notes!dcS1NFbz3sBQhALD.p06lxpHuJgZbI9F8'
+  - entryId: nAtbbrkNXp4KscMY
+    pageId: null
+    global: false
+    levels:
+      - defaultLevel0000
+    x: 1825
+    'y': 625
+    elevation: 0
+    sort: 1
+    iconSize: 32
+    texture:
+      tint: '#ffffff'
+      src: icons/svg/book.svg
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 1
+      scaleY: 1
+      alphaThreshold: 0
+    text: ''
+    fontFamily: ''
+    fontSize: 32
+    textColor: '#ffffff'
+    textAnchor: 1
+    flags:
+      tagger: {}
+    _id: gK33H13xPU7TFrfl
+    author: TjbWhMczNyKieD8D
+    locked: false
+    _key: '!scenes.notes!dcS1NFbz3sBQhALD.gK33H13xPU7TFrfl'
+sounds: []
+regions: []
+tiles: []
+walls: []
+playlist: null
+playlistSound: null
+journal: Lo1WAvAnHLizBKkM
+journalEntryPage: null
+weather: ''
+sort: 0
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  multi-token-edit:
+    blackBars: false
+  wall-height:
+    advancedVision: true
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.11
+  createdTime: 1790026030925
+  modifiedTime: 1790026030925
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+navName: ''
+_key: '!scenes!dcS1NFbz3sBQhALD'
+templates: []

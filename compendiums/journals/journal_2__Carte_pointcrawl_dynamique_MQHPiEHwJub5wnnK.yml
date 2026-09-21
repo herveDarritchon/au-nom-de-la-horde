@@ -1,0 +1,1152 @@
+folder: eMnOeMwTbcY0i2Do
+name: 2. Carte pointcrawl dynamique
+flags:
+  campaign-codex:
+    type: ''
+  core:
+    sheetClass: ''
+_id: MQHPiEHwJub5wnnK
+pages:
+  - sort: 100000
+    name: 00 — Mode d’emploi MJ
+    type: text
+    _id: 5d16997b876c217f
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Carte pointcrawl dynamique de Durotar — Mode d’emploi MJ</h2>
+
+        <blockquote>
+
+        <p><strong>Objectif :</strong> répondre rapidement à quatre questions :
+        où les PJ peuvent-ils aller, que savent-ils des lieux et des routes,
+        qu’est-ce qui s’y passe maintenant, et qu’est-ce qui a changé depuis
+        leur dernier passage ?</p>
+
+        </blockquote>
+
+        <blockquote>
+
+        <p><strong>Règle d’or :</strong> la carte ne sert pas à dire aux joueurs
+        où aller. Elle sert au MJ à savoir ce qu’ils trouveront, quel que soit
+        l’endroit où ils décident d’aller.</p>
+
+        </blockquote>
+
+
+        <h3>Pourquoi l’utiliser ?</h3>
+
+        <table>
+
+        <thead><tr><th>Besoin</th><th>Réponse du pointcrawl</th></tr></thead>
+
+        <tbody>
+
+        <tr><td>Improviser un détour</td><td>Consulter les points accessibles,
+        les routes et l’état actuel de la destination.</td></tr>
+
+        <tr><td>Donner de vrais choix</td><td>Plusieurs destinations peuvent
+        évoluer en parallèle sans ordre imposé.</td></tr>
+
+        <tr><td>Valoriser l’exploration</td><td>Routes, raccourcis, guides et
+        informations deviennent de vraies récompenses.</td></tr>
+
+        <tr><td>Montrer les conséquences</td><td>Un lieu visité ne revient pas
+        automatiquement à son état initial.</td></tr>
+
+        <tr><td>Préserver le rythme</td><td>Les trajets sans enjeu sont ellipsés
+        ; seuls les segments qui comptent deviennent des scènes.</td></tr>
+
+        </tbody>
+
+        </table>
+
+
+        <h3>Quand l’utiliser ?</h3>
+
+        <ul>
+
+        <li>Quand les PJ choisissent entre plusieurs problèmes ou
+        destinations.</li>
+
+        <li>Quand ils retournent dans une zone déjà visitée.</li>
+
+        <li>Quand ils cherchent un autre chemin ou un raccourci.</li>
+
+        <li>Quand une faction agit hors champ.</li>
+
+        <li>Quand une piste ignorée doit évoluer.</li>
+
+        <li>Quand ils choisissent une destination que le MJ n’avait pas prévue
+        pour cette séance.</li>
+
+        </ul>
+
+
+        <h3>Quand ne pas l’utiliser ?</h3>
+
+        <ul>
+
+        <li>Pour le déplacement précis d’un combat : utiliser une scène
+        tactique.</li>
+
+        <li>Pour l’exploration détaillée d’un donjon : utiliser sa propre carte
+        ou son propre pointcrawl interne.</li>
+
+        <li>Pour une scène sociale locale : utiliser le journal du lieu et ses
+        PNJ.</li>
+
+        <li>Pour un voyage sans choix ni conséquence : faire une ellipse.</li>
+
+        <li>Pour simuler chaque kilomètre, ration ou journée : ce système n’est
+        pas un système de survie.</li>
+
+        </ul>
+
+
+        <h3>Les quatre axes à ne pas mélanger</h3>
+
+        <table>
+
+        <thead><tr><th>Axe</th><th>Valeurs</th><th>Question</th></tr></thead>
+
+        <tbody>
+
+        <tr><td><strong>Connaissance</strong></td><td>Inconnu → Repéré → Connu →
+        Maîtrisé</td><td>Que savent les PJ ?</td></tr>
+
+        <tr><td><strong>Accessibilité</strong></td><td>Ouvert / Conditionnel /
+        Bloqué / Caché</td><td>Peuvent-ils y aller ?</td></tr>
+
+        <tr><td><strong>Pression</strong></td><td>Calme / Tension /
+        Crise</td><td>Que se passe-t-il maintenant ?</td></tr>
+
+        <tr><td><strong>Transformation</strong></td><td>Non / Oui</td><td>Le
+        lieu a-t-il changé durablement ?</td></tr>
+
+        </tbody>
+
+        </table>
+
+
+        <h3>Les 30 secondes du MJ</h3>
+
+        <ol>
+
+        <li>Où veulent-ils aller ?</li>
+
+        <li>Est-ce connu et accessible ?</li>
+
+        <li>Quel est l’état actuel du point ?</li>
+
+        <li>La route mérite-t-elle une scène ?</li>
+
+        <li>Quelle situation les accueille ?</li>
+
+        <li>Qu’est-ce qui changera selon leur décision ?</li>
+
+        </ol>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.11
+      createdTime: 1790026184597
+      modifiedTime: 1790026184597
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!MQHPiEHwJub5wnnK.5d16997b876c217f'
+  - sort: 200000
+    name: 01 — Carte et points de Durotar
+    type: text
+    _id: 731a4de621890206
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Carte logique — Saison 1</h2>
+
+        <p>Le réseau est une <strong>carte de décisions</strong>, pas une carte
+        à l’échelle. Razor Hill est le hub principal. Orgrimmar reste longtemps
+        une destination de convergence, puis devient le seuil vers Ragefire
+        Chasm.</p>
+
+
+        <pre>[6] SKULL ROCK
+              /       \
+             /         \
+        [5] THUNDER RIDGE      \ voie nord
+              /     \           \
+             /       \           \
+        [3] RAZORMANE --- [1] RAZOR HILL --- [4] TIRAGARDE
+               \              |
+                \             |
+                 \        [2] SEN’JIN
+                  \__________/
+
+                            ↓
+                       ORGRIMMAR
+                            ↓
+                    RAGEFIRE CHASM</pre>
+
+        <h3>Les six points structurants</h3>
+
+        <table>
+
+        <thead><tr><th>#</th><th>Point</th><th>Fonction dans le
+        sandbox</th></tr></thead>
+
+        <tbody>
+
+        <tr><td>1</td><td><strong>Razor Hill</strong></td><td>Hub principal :
+        retour, nouvelles, ressources, conséquences et choix de
+        pistes.</td></tr>
+
+        <tr><td>2</td><td><strong>Sen’jin</strong></td><td>Hub culturel
+        secondaire : Darkspear, côte, rites, informations et
+        raccourcis.</td></tr>
+
+        <tr><td>3</td><td><strong>Razormane Grounds</strong></td><td>Frontière
+        territoriale contestée : négociation, raids, ressources,
+        mini-donjon.</td></tr>
+
+        <tr><td>4</td><td><strong>Tiragarde / Scuttle
+        Coast</strong></td><td>Frontière humaine : enjeu militaire,
+        diplomatique, côte et mini-donjon.</td></tr>
+
+        <tr><td>5</td><td><strong>Thunder Ridge / Drygulch</strong></td><td>Zone
+        sauvage et logistique : routes de matériaux, ravins, caches et fil
+        rouge.</td></tr>
+
+        <tr><td>6</td><td><strong>Skull Rock</strong></td><td>Secret hostile :
+        Lame ardente, savoir interdit, mini-donjon et fausse piste
+        crédible.</td></tr>
+
+        </tbody>
+
+        </table>
+
+
+        <h3>Extensions</h3>
+
+        <p><strong>Vallée des Épreuves :</strong> point de prologue ou lieu
+        d’origine. <strong>Îles de l’Écho :</strong> extension Darkspear. Ne les
+        ajouter au réseau actif que lorsqu’elles produisent réellement du
+        jeu.</p>
+
+
+        <blockquote><p><strong>Rappel :</strong> un lieu n’a pas besoin d’être
+        un point parce qu’il existe dans WoW. Il devient un point lorsqu’il
+        produit une décision, une information, une relation, un danger ou une
+        ressource distincte.</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.11
+      createdTime: 1790026184597
+      modifiedTime: 1790026184597
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!MQHPiEHwJub5wnnK.731a4de621890206'
+  - sort: 300000
+    name: 02 — État des points
+    type: text
+    _id: d6597d9d77ae25f0
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Tableau de suivi — Points</h2>
+
+        <p>Cette page est le <strong>registre opérationnel</strong>. Avant la
+        séance, ne renseigner en détail que les destinations plausibles. Les
+        cases « À renseigner » sont volontairement ouvertes : le guide ne fixe
+        pas un état initial unique de campagne.</p>
+
+
+        <table>
+
+        <thead><tr><th>Point</th><th>Connaissance</th><th>Pression</th><th>Transformé
+        ?</th><th>Ce qui se passe maintenant</th></tr></thead>
+
+        <tbody>
+
+        <tr><td><strong>Razor Hill</strong></td><td>À renseigner</td><td>À
+        renseigner</td><td>Non / Oui</td><td>À renseigner</td></tr>
+
+        <tr><td><strong>Sen’jin</strong></td><td>À renseigner</td><td>À
+        renseigner</td><td>Non / Oui</td><td>À renseigner</td></tr>
+
+        <tr><td><strong>Razormane Grounds</strong></td><td>À
+        renseigner</td><td>À renseigner</td><td>Non / Oui</td><td>À
+        renseigner</td></tr>
+
+        <tr><td><strong>Tiragarde / Scuttle Coast</strong></td><td>À
+        renseigner</td><td>À renseigner</td><td>Non / Oui</td><td>À
+        renseigner</td></tr>
+
+        <tr><td><strong>Thunder Ridge / Drygulch</strong></td><td>À
+        renseigner</td><td>À renseigner</td><td>Non / Oui</td><td>À
+        renseigner</td></tr>
+
+        <tr><td><strong>Skull Rock</strong></td><td>À renseigner</td><td>À
+        renseigner</td><td>Non / Oui</td><td>À renseigner</td></tr>
+
+        </tbody>
+
+        </table>
+
+
+        <h3>Pour chaque destination réellement active</h3>
+
+        <table>
+
+        <thead><tr><th>Champ</th><th>Note MJ</th></tr></thead>
+
+        <tbody>
+
+        <tr><td>Accès actuellement utilisables</td><td>À renseigner</td></tr>
+
+        <tr><td>Présences / acteurs (2 à 4 max.)</td><td>À renseigner</td></tr>
+
+        <tr><td>Situations visibles (2 ou 3 max.)</td><td>À renseigner</td></tr>
+
+        <tr><td>Dernier changement</td><td>À renseigner</td></tr>
+
+        <tr><td><strong>Si les PJ arrivent maintenant</strong></td><td>À
+        renseigner en une scène concrète</td></tr>
+
+        <tr><td><strong>Si personne n’intervient</strong></td><td>À renseigner
+        avec une seule évolution logique</td></tr>
+
+        <tr><td>Payoff possible</td><td>Information / contact / accès /
+        raccourci / ressource / transformation</td></tr>
+
+        </tbody>
+
+        </table>
+
+
+        <blockquote><p><strong>Discipline :</strong> tous les lieux ne doivent
+        pas être en crise simultanément. Un point calme peut rester intéressant
+        grâce à ses relations, informations, opportunités et conséquences
+        passées.</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.11
+      createdTime: 1790026184597
+      modifiedTime: 1790026184597
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!MQHPiEHwJub5wnnK.d6597d9d77ae25f0'
+  - sort: 400000
+    name: 03 — Routes et raccourcis
+    type: text
+    _id: 3c6d9a1aa5bdefff
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Tableau de suivi — Routes et raccourcis</h2>
+
+        <p>Une route est un <strong>choix et un compromis</strong>, pas une
+        obligation de rencontre. Elle reste plus légère qu’une fiche de
+        lieu.</p>
+
+
+        <h3>Registre des routes</h3>
+
+        <table>
+
+        <thead><tr><th>Connexion</th><th>Connaissance</th><th>Accès</th><th>Tag
+        / compromis</th><th>État actuel</th></tr></thead>
+
+        <tbody>
+
+        <tr><td>Razor Hill → Thunder Ridge / Drygulch</td><td>À
+        renseigner</td><td>À renseigner</td><td>Route logistique</td><td>À
+        renseigner</td></tr>
+
+        <tr><td>Thunder Ridge / Drygulch → Skull Rock</td><td>À
+        renseigner</td><td>À renseigner</td><td>Accès secondaire /
+        potentiellement caché</td><td>À renseigner</td></tr>
+
+        <tr><td>Autre connexion</td><td>À renseigner</td><td>À
+        renseigner</td><td>À renseigner</td><td>À renseigner</td></tr>
+
+        <tr><td>Autre connexion</td><td>À renseigner</td><td>À
+        renseigner</td><td>À renseigner</td><td>À renseigner</td></tr>
+
+        <tr><td>Autre connexion</td><td>À renseigner</td><td>À
+        renseigner</td><td>À renseigner</td><td>À renseigner</td></tr>
+
+        <tr><td>Autre connexion</td><td>À renseigner</td><td>À
+        renseigner</td><td>À renseigner</td><td>À renseigner</td></tr>
+
+        </tbody>
+
+        </table>
+
+
+        <h3>Ce qu’une route doit contenir</h3>
+
+        <ul>
+
+        <li><strong>Connaissance :</strong> Inconnue / Repérée / Connue /
+        Maîtrisée.</li>
+
+        <li><strong>Accès :</strong> Ouvert / Conditionnel / Bloqué /
+        Caché.</li>
+
+        <li><strong>Tag :</strong> fréquentée, logistique, contestée,
+        surveillée, rapide, discrète, côtière, dangereuse…</li>
+
+        <li><strong>Compromis :</strong> ce que les PJ gagnent et ce qu’ils
+        risquent.</li>
+
+        <li><strong>État actuel :</strong> un seul changement pertinent,
+        uniquement s’il influence un choix.</li>
+
+        <li><strong>Déblocage :</strong> seulement si une découverte, une
+        ressource, un guide ou une autorisation est nécessaire.</li>
+
+        </ul>
+
+
+        <blockquote><p><strong>Règle de voyage :</strong> pas de jet automatique
+        à chaque trajet. Si le voyage n’apporte ni choix, ni information, ni
+        conséquence, le décrire en quelques phrases et passer à la scène
+        suivante.</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.11
+      createdTime: 1790026184597
+      modifiedTime: 1790026184597
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!MQHPiEHwJub5wnnK.3c6d9a1aa5bdefff'
+  - sort: 500000
+    name: 04 — Préparer une séance
+    type: text
+    _id: 1346da2f9fefaff8
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Préparer une séance avec le pointcrawl</h2>
+
+        <p>Le but n’est pas de préparer Durotar entier. Préparer seulement les
+        choix réellement atteignables.</p>
+
+
+        <table>
+
+        <thead><tr><th>Étape</th><th>Action MJ</th><th>Fait</th></tr></thead>
+
+        <tbody>
+
+        <tr><td>1. Localiser les PJ</td><td>Marquer le point actuel et les
+        routes immédiatement accessibles.</td><td>☐</td></tr>
+
+        <tr><td>2. Choisir 2 ou 3 pistes visibles</td><td>Ne pas transformer le
+        hub en tableau de vingt quêtes.</td><td>☐</td></tr>
+
+        <tr><td>3. Préparer les destinations plausibles</td><td>Pour chacune :
+        situation d’arrivée, acteur principal, enjeu et complication
+        possible.</td><td>☐</td></tr>
+
+        <tr><td>4. Vérifier les routes</td><td>Noter seulement ce qui peut
+        modifier un choix de voyage.</td><td>☐</td></tr>
+
+        <tr><td>5. Faire avancer une force non traitée</td><td>Une faction, une
+        horloge ou le fil rouge peut agir hors champ.</td><td>☐</td></tr>
+
+        <tr><td>6. Préparer un payoff</td><td>Information, relation, raccourci,
+        ressource ou transformation.</td><td>☐</td></tr>
+
+        </tbody>
+
+        </table>
+
+
+        <h3>Préparation minimale d’une destination</h3>
+
+        <ol>
+
+        <li><strong>Si les PJ arrivent maintenant :</strong> une scène
+        d’ouverture concrète.</li>
+
+        <li><strong>Acteur principal :</strong> qui agit ou réagit ?</li>
+
+        <li><strong>Enjeu :</strong> quelle décision peut être prise ?</li>
+
+        <li><strong>Complication possible :</strong> une seule suffit.</li>
+
+        <li><strong>Si personne n’intervient :</strong> quelle évolution logique
+        ?</li>
+
+        <li><strong>Payoff :</strong> qu’est-ce que les PJ peuvent réellement
+        gagner ou changer ?</li>
+
+        </ol>
+
+
+        <blockquote><p><strong>Limite de préparation :</strong> si une
+        destination ne peut raisonnablement pas être choisie à cette séance,
+        elle n’a pas besoin d’être détaillée maintenant.</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.11
+      createdTime: 1790026184597
+      modifiedTime: 1790026184597
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!MQHPiEHwJub5wnnK.1346da2f9fefaff8'
+  - sort: 600000
+    name: 05 — Procédure en jeu
+    type: text
+    _id: b4581cca5a3b012e
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Procédure en jeu</h2>
+
+
+        <h3>1. Au moment du choix</h3>
+
+        <p>Présenter <strong>ce que les PJ savent</strong>, pas ce que le MJ
+        sait. Les destinations apparaissent par la fiction : rumeur, voyageur,
+        signe, demande, carte, blessé, patrouille, conséquence visible.</p>
+
+
+        <h3>2. Pendant le voyage</h3>
+
+        <p>Pour chaque segment, demander : <strong>« Cette route apporte-t-elle
+        quelque chose maintenant ? »</strong></p>
+
+        <table>
+
+        <thead><tr><th>Réponse</th><th>Traitement</th></tr></thead>
+
+        <tbody>
+
+        <tr><td>Non</td><td>Ellipse descriptive de quelques phrases.</td></tr>
+
+        <tr><td>Oui, pour l’ambiance</td><td>Un détail, une rencontre brève ou
+        un signe de l’état de Durotar.</td></tr>
+
+        <tr><td>Oui, pour un choix</td><td>Obstacle, détour, personne ou
+        information demandant une décision.</td></tr>
+
+        <tr><td>Oui, pour une conséquence</td><td>Montrer ce qu’une faction ou
+        les actions passées des PJ ont changé.</td></tr>
+
+        <tr><td>Oui, pour une scène majeure</td><td>Jouer la scène seulement si
+        son issue peut modifier la campagne.</td></tr>
+
+        </tbody>
+
+        </table>
+
+
+        <h3>3. À l’arrivée</h3>
+
+        <p>Ne pas réciter la fiche du lieu. Ouvrir avec le champ <strong>« Si
+        les PJ arrivent maintenant »</strong> : barricade nouvelle, silence
+        inhabituel, dispute, fumée, blessés, convoi, patrouille absente…</p>
+
+
+        <h3>4. Lors d’un retour</h3>
+
+        <p>Montrer au maximum <strong>deux changements importants</strong> :</p>
+
+        <ul>
+
+        <li>un changement causé directement ou indirectement par les PJ ;</li>
+
+        <li>un changement causé par le monde, une faction ou l’escalade.</li>
+
+        </ul>
+
+
+        <h3>5. Si les PJ prennent une direction imprévue</h3>
+
+        <ol>
+
+        <li>Vérifier connaissance et accès.</li>
+
+        <li>Lire la fonction du point.</li>
+
+        <li>Choisir la pression actuelle.</li>
+
+        <li>Utiliser « Si les PJ arrivent maintenant » ou en écrire une
+        phrase.</li>
+
+        <li>Improviser autour des acteurs et de l’enjeu, pas autour d’un
+        scénario pré-écrit.</li>
+
+        </ol>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.11
+      createdTime: 1790026184597
+      modifiedTime: 1790026184597
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!MQHPiEHwJub5wnnK.b4581cca5a3b012e'
+  - sort: 700000
+    name: 06 — Après la séance
+    type: text
+    _id: 889a7d33e9545df8
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Après la séance — Maintenance minimale</h2>
+
+        <p>La mise à jour doit prendre <strong>quelques minutes</strong>, pas
+        devenir une simulation complète de Durotar.</p>
+
+
+        <ul>
+
+        <li>☐ Noter où terminent les PJ.</li>
+
+        <li>☐ Mettre à jour les points directement modifiés par leurs
+        actions.</li>
+
+        <li>☐ Mettre à jour les routes directement modifiées.</li>
+
+        <li>☐ Inscrire une transformation persistante si un lieu a réellement
+        changé.</li>
+
+        <li>☐ Faire avancer au maximum une ou deux situations hors champ ayant
+        une raison de progresser.</li>
+
+        <li>☐ Modifier la connaissance des PJ : point repéré, route découverte,
+        raccourci maîtrisé, accès perdu.</li>
+
+        <li>☐ Réécrire « Si les PJ arrivent maintenant » uniquement pour les
+        destinations plausibles de la prochaine séance.</li>
+
+        </ul>
+
+
+        <h3>Journal express des changements</h3>
+
+        <table>
+
+        <thead><tr><th>Élément</th><th>Avant</th><th>Après</th><th>Cause</th></tr></thead>
+
+        <tbody>
+
+        <tr><td>Point / route</td><td>À renseigner</td><td>À
+        renseigner</td><td>PJ / faction / fil rouge / autre</td></tr>
+
+        <tr><td>Point / route</td><td>À renseigner</td><td>À
+        renseigner</td><td>PJ / faction / fil rouge / autre</td></tr>
+
+        <tr><td>Point / route</td><td>À renseigner</td><td>À
+        renseigner</td><td>PJ / faction / fil rouge / autre</td></tr>
+
+        </tbody>
+
+        </table>
+
+
+        <blockquote><p><strong>Limite de complexité :</strong> si tu dois
+        simuler chaque faction, route et point après chaque séance, le système
+        est devenu trop lourd. Faire évoluer le monde par conséquences
+        significatives, pas par comptabilité exhaustive.</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.11
+      createdTime: 1790026184597
+      modifiedTime: 1790026184597
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!MQHPiEHwJub5wnnK.889a7d33e9545df8'
+  - sort: 800000
+    name: 07 — Gabarit — Point
+    type: text
+    _id: 9039190467d173fb
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Gabarit — Fiche d’un point</h2>
+
+        <p>Dupliquer cette page pour créer un journal de point relié à une Map
+        Note Foundry.</p>
+
+
+        <table>
+
+        <tbody>
+
+        <tr><th>Nom / fonction</th><td>...</td></tr>
+
+        <tr><th>Connaissance des PJ</th><td>Inconnu / Repéré / Connu /
+        Maîtrisé</td></tr>
+
+        <tr><th>Pression actuelle</th><td>Calme / Tension / Crise</td></tr>
+
+        <tr><th>Transformé ?</th><td>Non / Oui — préciser en une
+        phrase</td></tr>
+
+        <tr><th>Accessible par</th><td>Routes actuellement utilisables</td></tr>
+
+        <tr><th>Présences / acteurs</th><td>2 à 4 maximum</td></tr>
+
+        <tr><th>Ce qui se passe maintenant</th><td>2 ou 3 situations visibles
+        maximum</td></tr>
+
+        <tr><th>Dernière visite / dernier changement</th><td>Une
+        phrase</td></tr>
+
+        <tr><th>Si les PJ arrivent maintenant</th><td>Une scène d’ouverture
+        concrète</td></tr>
+
+        <tr><th>Si personne n’intervient</th><td>Une prochaine évolution
+        logique</td></tr>
+
+        <tr><th>Payoffs possibles</th><td>Information, contact, accès,
+        raccourci, ressource, transformation</td></tr>
+
+        </tbody>
+
+        </table>
+
+
+        <h3>Test d’acceptation</h3>
+
+        <blockquote><p>Si tu retires ce point de la carte, les joueurs
+        perdent-ils un choix, une relation, une information, une route, une
+        ressource ou un conflit distinct ? Si non, ce n’est probablement pas un
+        point : c’est un décor à l’intérieur d’un autre point.</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.11
+      createdTime: 1790026184597
+      modifiedTime: 1790026184597
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!MQHPiEHwJub5wnnK.9039190467d173fb'
+  - sort: 900000
+    name: 08 — Gabarit — Route
+    type: text
+    _id: 851804543a6db114
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Gabarit — Fiche d’une route</h2>
+
+        <p>Dupliquer cette page uniquement pour les routes qui ont besoin d’un
+        suivi propre.</p>
+
+
+        <table>
+
+        <tbody>
+
+        <tr><th>Connexion</th><td>Point A → Point B</td></tr>
+
+        <tr><th>Nom / tag</th><td>Route logistique, sentier côtier, piste
+        contestée…</td></tr>
+
+        <tr><th>Connaissance</th><td>Inconnue / Repérée / Connue /
+        Maîtrisée</td></tr>
+
+        <tr><th>Accès</th><td>Ouvert / Conditionnel / Bloqué / Caché</td></tr>
+
+        <tr><th>Compromis</th><td>Rapide mais visible ; discret mais dangereux ;
+        etc.</td></tr>
+
+        <tr><th>État actuel</th><td>Une seule information si elle influence le
+        trajet</td></tr>
+
+        <tr><th>Condition de découverte / réouverture</th><td>Seulement si
+        nécessaire</td></tr>
+
+        <tr><th>Événement potentiel</th><td>Seulement s’il produit une décision
+        ou une conséquence</td></tr>
+
+        </tbody>
+
+        </table>
+
+
+        <blockquote><p><strong>Filtre :</strong> une route n’a pas besoin d’un
+        événement à chaque voyage. La répétition doit montrer la maîtrise
+        croissante du territoire, pas générer du remplissage.</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.11
+      createdTime: 1790026184597
+      modifiedTime: 1790026184597
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!MQHPiEHwJub5wnnK.851804543a6db114'
+  - sort: 1000000
+    name: 09 — Exemple — Thunder Ridge
+    type: text
+    _id: 50b57b35d8c6343d
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Exemple — Thunder Ridge / Drygulch</h2>
+
+        <p>Exemple tiré du guide pour montrer comment une aventure de zone met
+        directement à jour le pointcrawl.</p>
+
+
+        <table>
+
+        <tbody>
+
+        <tr><th>Connaissance</th><td>Connu : les PJ savent où se trouvent les
+        ravins et les routes logistiques.</td></tr>
+
+        <tr><th>Pression</th><td>Tension : un convoi attendu n’est pas
+        arrivé.</td></tr>
+
+        <tr><th>Accès</th><td>Route Razor Hill → Thunder Ridge ouverte ; sentier
+        vers Skull Rock encore caché.</td></tr>
+
+        <tr><th>Situation visible</th><td>Un survivant empoisonné revient ; du
+        matériel technique manque.</td></tr>
+
+        <tr><th>Si les PJ arrivent maintenant</th><td>Le convoi est abandonné
+        dans un ravin ; traces de bêtes et traces d’un groupe léger se
+        superposent.</td></tr>
+
+        <tr><th>Si personne n’intervient</th><td>La cache des saboteurs est
+        déplacée et la Horde renforce ses patrouilles.</td></tr>
+
+        <tr><th>Payoff</th><td>Identifier le caractère ciblé du vol ; sauver un
+        survivant ; repérer une piste ; éventuellement découvrir un accès
+        secondaire.</td></tr>
+
+        <tr><th>Transformation possible</th><td>La route logistique devient
+        surveillée, ou au contraire mieux sécurisée selon les choix des
+        PJ.</td></tr>
+
+        </tbody>
+
+        </table>
+
+
+        <h3>Ce que l’excursion peut modifier</h3>
+
+        <ul>
+
+        <li>la pression du point : Tension → Calme ou Crise ;</li>
+
+        <li>l’état d’une route ;</li>
+
+        <li>la connaissance d’une connexion cachée ;</li>
+
+        <li>une conséquence persistante visible au prochain passage.</li>
+
+        </ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.11
+      createdTime: 1790026184597
+      modifiedTime: 1790026184597
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!MQHPiEHwJub5wnnK.50b57b35d8c6343d'
+  - sort: 1100000
+    name: 10 — Référence rapide
+    type: text
+    _id: f90ed8de2f9015d2
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Référence rapide MJ</h2>
+
+
+        <h3>Connaissance</h3>
+
+        <table>
+
+        <thead><tr><th>Niveau</th><th>Sens</th></tr></thead>
+
+        <tbody>
+
+        <tr><td><strong>Inconnu</strong></td><td>Ne pas présenter comme option
+        fictionnelle.</td></tr>
+
+        <tr><td><strong>Repéré</strong></td><td>Nom, rumeur, silhouette,
+        témoignage ; piste possible mais mal connue.</td></tr>
+
+        <tr><td><strong>Connu</strong></td><td>Visité ou suffisamment renseigné
+        ; accès principaux et dangers évidents connus.</td></tr>
+
+        <tr><td><strong>Maîtrisé</strong></td><td>Contacts, habitudes, secrets,
+        terrain ou raccourcis bien compris.</td></tr>
+
+        </tbody>
+
+        </table>
+
+
+        <h3>Accessibilité</h3>
+
+        <p><strong>Ouvert</strong> — sans condition particulière.
+        <strong>Conditionnel</strong> — ressource, accord, guide ou préparation.
+        <strong>Bloqué</strong> — conséquence fictionnelle temporaire.
+        <strong>Caché</strong> — connexion existante mais non connue des PJ.</p>
+
+
+        <h3>Pression</h3>
+
+        <p><strong>Calme</strong> — aucune urgence locale.
+        <strong>Tension</strong> — quelque chose évolue. <strong>Crise</strong>
+        — un événement en cours modifie activement le lieu, les acteurs ou les
+        accès.</p>
+
+
+        <h3>Erreurs à éviter</h3>
+
+        <ul>
+
+        <li>Transformer la carte en menu de quêtes.</li>
+
+        <li>Tout révéler dès le départ.</li>
+
+        <li>Mettre un événement sur chaque route.</li>
+
+        <li>Faire avancer toutes les menaces en même temps.</li>
+
+        <li>Utiliser « Bloqué » pour forcer le scénario.</li>
+
+        <li>Réinitialiser un lieu après la visite.</li>
+
+        <li>Confondre vue MJ et vue joueurs.</li>
+
+        <li>Ajouter un point uniquement parce qu’il existe dans WoW.</li>
+
+        </ul>
+
+
+        <h3>Carte MJ / carte joueurs</h3>
+
+        <table>
+
+        <thead><tr><th>Vue MJ</th><th>Vue joueurs</th></tr></thead>
+
+        <tbody>
+
+        <tr><td>Tous les points utiles, secrets, routes cachées, pression
+        réelle, évolutions futures.</td><td>Seulement les lieux connus ou
+        repérés, routes découvertes et informations obtenues.</td></tr>
+
+        <tr><td>Acteurs secrets, fil rouge, « si personne n’intervient
+        ».</td><td>Rumeurs, signes visibles et conséquences observées.</td></tr>
+
+        </tbody>
+
+        </table>
+
+
+        <blockquote><p><strong>Phrase-guide :</strong> Comment Durotar vit-il
+        aujourd’hui, et qu’est-ce que les actions des factions ou des PJ
+        viennent changer ?</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.11
+      createdTime: 1790026184597
+      modifiedTime: 1790026184597
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!MQHPiEHwJub5wnnK.f90ed8de2f9015d2'
+categories: []
+sort: 0
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.11
+  createdTime: 1790026184597
+  modifiedTime: 1790026184597
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource:
+    worldId: au-nom-de-la-horde-cof2
+    uuid: JournalEntry.MQHPiEHwJub5wnnK
+    coreVersion: '14.367'
+    systemId: co2
+    systemVersion: 2.3.11
+_key: '!journal!MQHPiEHwJub5wnnK'

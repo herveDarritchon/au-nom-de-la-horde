@@ -1,7 +1,7 @@
 folder: ZU8jQk7j2jqAuJbV
 name: Orc
 type: feature
-img: modules/warbound-campaign-content/assets/images/icons/races/coa-orc.png
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/races/coa-orc.png
 _id: k5hPsJBWpex0nofr
 system:
   description: >-
@@ -34,8 +34,8 @@ _stats:
   coreVersion: '14.367'
   systemId: co2
   systemVersion: 2.3.11
-  createdTime: 1789942491809
-  modifiedTime: 1789942491809
+  createdTime: 1790026093778
+  modifiedTime: 1790026093778
   lastModifiedBy: TjbWhMczNyKieD8D
   compendiumSource: null
   duplicateSource: null

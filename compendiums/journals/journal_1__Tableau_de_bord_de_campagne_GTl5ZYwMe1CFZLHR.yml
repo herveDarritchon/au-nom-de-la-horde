@@ -1,0 +1,216 @@
+folder: eMnOeMwTbcY0i2Do
+name: 1. Tableau de bord de campagne
+flags:
+  campaign-codex:
+    type: ''
+  core:
+    sheetClass: ''
+_id: GTl5ZYwMe1CFZLHR
+pages:
+  - sort: 0
+    name: Cockpit MJ
+    type: text
+    _id: g2Lk8QpV4MxN7cRa
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Tableau de bord — Au nom de la
+        Horde</h1><blockquote><p><strong>Usage MJ :</strong> ce journal est le
+        cockpit opérationnel de la campagne. Ne conserver ici que ce qui peut
+        influencer la prochaine séance. Les fiches détaillées restent dans leurs
+        journaux dédiés.</p></blockquote><h2>1. Situation
+        actuelle</h2><table><thead><tr><th><p>Repère</p></th><th><p>État
+        actuel</p></th></tr></thead><tbody><tr><td><p><strong>Session</strong></p></td><td><p><strong>@UUID[JournalEntry.NlLNQEFpV0Brh7YG]{Session
+        0}</strong> — lancement de la
+        campagne</p></td></tr><tr><td><p><strong>Lieu des
+        PJ</strong></p></td><td><p><strong>@UUID[JournalEntry.qbBCUevLYY5259GS]{Vallée
+        des Épreuves}</strong> — point de départ à confirmer avec le
+        groupe</p></td></tr><tr><td><p><strong>Phase</strong></p></td><td><p>Préparation
+        / installation du groupe</p></td></tr><tr><td><p><strong>Temps
+        fictionnel</strong></p></td><td><p>Jour 1 — moment à
+        définir</p></td></tr><tr><td><p><strong>État du
+        groupe</strong></p></td><td><p>Niveau 1 — composition et ressources à
+        reporter après la création</p></td></tr><tr><td><p><strong>Objectif
+        déclaré</strong></p></td><td><p>À renseigner à la fin de la
+        séance</p></td></tr></tbody></table><blockquote><p><strong>Question
+        immédiate :</strong> quelle première responsabilité les PJ
+        accepteront-ils de prendre au service de la Horde
+        ?</p></blockquote><h2>2. Alertes et urgences</h2><p><em>Maximum : trois.
+        Une urgence possède une échéance et une conséquence
+        concrète.</em></p><table><thead><tr><th><p>Urgence</p></th><th><p>Échéance</p></th><th><p>Si
+        les PJ n’agissent
+        pas</p></th></tr></thead><tbody><tr><td><p>—</p></td><td><p>—</p></td><td><p>Aucune
+        urgence active avant le premier
+        incident</p></td></tr><tr><td><p>—</p></td><td><p>—</p></td><td><p>—</p></td></tr><tr><td><p>—</p></td><td><p>—</p></td><td><p>—</p></td></tr></tbody></table><h2>3.
+        Pistes accessibles</h2><p><em>Présenter seulement deux ou trois pistes
+        significatives aux
+        joueurs.</em></p><table><thead><tr><th><p>Piste</p></th><th><p>Origine</p></th><th><p>Ce
+        que les PJ
+        savent</p></th><th><p>État</p></th></tr></thead><tbody><tr><td><p>Premier
+        incident logistique</p></td><td><p>Tranchecolline</p></td><td><p>À
+        révéler en jeu</p></td><td><p>À amorcer</p></td></tr><tr><td><p>Une
+        tension locale indépendante</p></td><td><p>Patrouille, voyageur ou
+        habitant</p></td><td><p>À choisir selon les
+        PJ</p></td><td><p>Latente</p></td></tr><tr><td><p>Une rumeur sur
+        Durotar</p></td><td><p>Carrefour du hub</p></td><td><p>Incomplète et
+        interprétable</p></td><td><p>Latente</p></td></tr></tbody></table><p><strong>États
+        :</strong> Visible · Choisie · Urgente · Latente · Résolue · Perdue ·
+        Transformée.</p><h2>4. Horloges du monde</h2><p><em>Avancer une seule
+        force non traitée après une excursion importante. La prochaine
+        manifestation doit être perceptible en
+        jeu.</em></p><table><thead><tr><th><p>Situation</p></th><th><p>Progression</p></th><th><p>Prochaine
+        manifestation visible</p></th></tr></thead><tbody><tr><td><p>Sabotages
+        ciblés</p></td><td><p>●○○○○○</p></td><td><p>Un premier lot de matériel
+        de forage est visé, mais les vivres et les armes sont laissés sur
+        place</p></td></tr><tr><td><p>Pression
+        razormane</p></td><td><p>○○○○</p></td><td><p>Des traces ou un poste
+        d’observation apparaissent près d’une route
+        contestée</p></td></tr><tr><td><p>Garnison de
+        Tiragarde</p></td><td><p>○○○○</p></td><td><p>Une patrouille ou un
+        problème de ravitaillement révèle les tensions internes du
+        fort</p></td></tr><tr><td><p>Influence de la Lame
+        ardente</p></td><td><p>○○○○○</p></td><td><p>Une recrue, un symbole ou
+        une disparition signale une menace réelle mais indépendante des
+        sabotages</p></td></tr></tbody></table><p><strong>Déclencheur du
+        prochain avancement :</strong> à déterminer selon la piste ignorée par
+        les PJ.</p><h2>5. Factions
+        actives</h2><table><thead><tr><th><p>Faction</p></th><th><p>État
+        actuel</p></th><th><p>Prochain mouvement</p></th><th><p>Rapport aux
+        PJ</p></th></tr></thead><tbody><tr><td><p>Horde
+        locale</p></td><td><p>Installation fragile, routes et ressources à
+        sécuriser</p></td><td><p>Confier une responsabilité concrète au
+        groupe</p></td><td><p>Les PJ doivent encore faire leurs
+        preuves</p></td></tr><tr><td><p>Razormanes</p></td><td><p>Pression
+        territoriale latente</p></td><td><p>Observer, déplacer une bande ou
+        fortifier une piste</p></td><td><p>Hostiles, mais pas
+        uniformes</p></td></tr><tr><td><p>Garnison de
+        Tiragarde</p></td><td><p>Isolée et sous
+        tension</p></td><td><p>Patrouiller, chercher du ravitaillement ou
+        révéler une fracture</p></td><td><p>Hostile ou pragmatique selon les
+        interlocuteurs</p></td></tr><tr><td><p>Lame
+        ardente</p></td><td><p>Présence discrète à Skull
+        Rock</p></td><td><p>Recruter un contact ou effacer une
+        preuve</p></td><td><p>Inconnue des PJ au
+        départ</p></td></tr></tbody></table><p><strong>Force cachée :</strong>
+        le groupe du chaman renégat agit transversalement. Il ne contrôle pas un
+        territoire et ne doit pas encore apparaître comme une faction
+        déclarée.</p><h2>6. PNJ actuellement en jeu</h2><p><em>Maximum : cinq.
+        Donner un nom seulement aux personnes que les PJ choisissent de rendre
+        importantes.</em></p><table><thead><tr><th><p>PNJ</p></th><th><p>Lieu</p></th><th><p>Veut
+        actuellement</p></th><th><p>Attitude</p></th><th><p>Utilité
+        immédiate</p></th></tr></thead><tbody><tr><td><p>Responsable local à
+        nommer</p></td><td><p>Tranchecolline</p></td><td><p>Maintenir l’ordre et
+        sécuriser les routes</p></td><td><p>Évalue les
+        PJ</p></td><td><p>Autorité et première
+        responsabilité</p></td></tr><tr><td><p>Éclaireur à
+        nommer</p></td><td><p>Tranchecolline / routes</p></td><td><p>Comprendre
+        un changement récent du
+        terrain</p></td><td><p>Pragmatique</p></td><td><p>Piste, route ou
+        lecture militaire</p></td></tr><tr><td><p>Ouvrier à
+        nommer</p></td><td><p>Convoi ou chantier</p></td><td><p>Finir son
+        travail et rentrer vivant</p></td><td><p>Inquiet</p></td><td><p>Témoin
+        concret du premier
+        incident</p></td></tr><tr><td><p>—</p></td><td><p>—</p></td><td><p>—</p></td><td><p>—</p></td><td><p>—</p></td></tr><tr><td><p>—</p></td><td><p>—</p></td><td><p>—</p></td><td><p>—</p></td><td><p>—</p></td></tr></tbody></table><h2>7.
+        Conséquences en attente</h2><table><thead><tr><th><p>Action des
+        PJ</p></th><th><p>Conséquence préparée</p></th><th><p>Quand la
+        montrer</p></th></tr></thead><tbody><tr><td><p>À renseigner après la
+        séance</p></td><td><p>—</p></td><td><p>—</p></td></tr><tr><td><p>—</p></td><td><p>—</p></td><td><p>—</p></td></tr><tr><td><p>—</p></td><td><p>—</p></td><td><p>—</p></td></tr><tr><td><p>—</p></td><td><p>—</p></td><td><p>—</p></td></tr></tbody></table><h2>8.
+        État de Tranchecolline</h2><p><em>À chaque retour significatif : un
+        changement causé par les PJ, un changement causé par le monde et une
+        nouvelle possibilité
+        d’action.</em></p><table><thead><tr><th><p>Type</p></th><th><p>Changement
+        à montrer</p></th></tr></thead><tbody><tr><td><p>Effet des
+        PJ</p></td><td><p>Aucun pour le moment</p></td></tr><tr><td><p>Effet du
+        monde</p></td><td><p>Le carrefour vit au rythme des convois, des
+        patrouilles et des travaux de la Horde</p></td></tr><tr><td><p>Nouvelle
+        possibilité</p></td><td><p>Le premier incident ouvrira les premières
+        pistes du pointcrawl</p></td></tr></tbody></table><h2>9. Réserve
+        d’improvisation</h2><table><thead><tr><th><p>Ressource</p></th><th><p>Prête
+        à dégainer</p></th></tr></thead><tbody><tr><td><p><strong>Trois
+        noms</strong></p></td><td><p>Orc : Garrok · Troll : Zal’jin · Tauren :
+        Hamuulko</p></td></tr><tr><td><p><strong>PNJ
+        improvisable</strong></p></td><td><p>Éclaireur couvert de poussière ;
+        veut être cru ; a vu une cargaison abandonnée, mais pas les
+        assaillants</p></td></tr><tr><td><p><strong>Événement de
+        voyage</strong></p></td><td><p>Un chariot immobilisé bloque une route ;
+        ses traces racontent plus que le témoignage du
+        conducteur</p></td></tr><tr><td><p><strong>Complication</strong></p></td><td><p>Une
+        faction tierce arrive avec sa propre interprétation de la
+        scène</p></td></tr><tr><td><p><strong>Découverte</strong></p></td><td><p>Les
+        objets de valeur sont intacts ; seul un matériel précis
+        manque</p></td></tr><tr><td><p><strong>Profil
+        réutilisable</strong></p></td><td><p>Éclaireur / tireur mobile — choisir
+        un profil préparé avant la séance</p></td></tr><tr><td><p><strong>Indice
+        transférable</strong></p></td><td><p>Les incidents ciblent une même
+        chaîne de travaux et de ravitaillement, pas la Horde au
+        hasard</p></td></tr></tbody></table><h2>10. Accès
+        rapides</h2><blockquote><p><strong>Dans Foundry :</strong> passer le
+        journal en mode édition, puis glisser-déposer ici les Journaux, Scènes,
+        Tables et Acteurs correspondants pour créer leurs liens UUID
+        réels.</p></blockquote><ul><li><p>Carte pointcrawl de Durotar : lien à
+        insérer</p></li><li><p>Pistes et rumeurs : lien à
+        insérer</p></li><li><p>Horloges détaillées : lien à
+        insérer</p></li><li><p>Factions : lien à insérer</p></li><li><p>PNJ :
+        lien à insérer</p></li><li><p>Tables d’improvisation : lien à
+        insérer</p></li><li><p>Profils d’adversaires : lien à
+        insérer</p></li><li><p>Chronique des séances : lien à
+        insérer</p></li><li><p>Préparation de la prochaine séance : lien à
+        insérer</p></li></ul><h2>11. Mise à jour
+        interséance</h2><ol><li><p>Noter ce que les PJ ont réellement fait et
+        l’objectif qu’ils déclarent poursuivre.</p></li><li><p>Ajouter les
+        conséquences différées.</p></li><li><p>Avancer les horloges directement
+        affectées.</p></li><li><p>Faire agir une seule force importante laissée
+        sans réponse.</p></li><li><p>Actualiser les trois lignes de
+        Tranchecolline.</p></li><li><p>Retirer les pistes obsolètes et n’en
+        rendre visibles que deux ou trois.</p></li><li><p>Préparer les sept
+        éléments de la réserve d’improvisation.</p></li><li><p>Écrire la
+        question immédiate qui ouvrira la prochaine
+        séance.</p></li></ol><blockquote><p><strong>Contrôle final :</strong> le
+        tableau de bord doit permettre de savoir en moins de trente secondes ce
+        qui existe, qui réagit et ce que cela provoque.</p></blockquote>
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.11
+      createdTime: 1790026184590
+      modifiedTime: 1790026184590
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!GTl5ZYwMe1CFZLHR.g2Lk8QpV4MxN7cRa'
+categories: []
+sort: 100000
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.11
+  createdTime: 1790026184590
+  modifiedTime: 1790026184590
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource:
+    worldId: au-nom-de-la-horde-cof2
+    uuid: JournalEntry.GTl5ZYwMe1CFZLHR
+    coreVersion: '14.367'
+    systemId: co2
+    systemVersion: 2.3.11
+_key: '!journal!GTl5ZYwMe1CFZLHR'
