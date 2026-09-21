@@ -122,6 +122,7 @@
     "styles/warbound.css"
   ],
   "esmodules": [
-    "scripts/warbound.mjs"
+    "scripts/warbound.mjs",
+    "scripts/importers/cof2Debug.mjs"
   ]
 }

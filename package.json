@@ -9,7 +9,8 @@
     "packs:extract": "node ./tools/pushLDBtoYAML.mjs",
     "packs:migrate-assets": "node ./tools/replaceAssetPaths.mjs",
     "packs:audit": "node ./tools/auditAssets.mjs",
-    "build": "pnpm packs:audit && pnpm packs:build"
+    "build": "pnpm packs:audit && pnpm packs:build",
+    "test": "node --test src/"
   },
 
   "devDependencies": {
