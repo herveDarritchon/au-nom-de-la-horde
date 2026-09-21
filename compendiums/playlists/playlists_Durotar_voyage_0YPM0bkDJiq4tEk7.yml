@@ -1,0 +1,39 @@
+folder: rJoNq2xviptHrp3c
+name: Durotar voyage
+_id: 0YPM0bkDJiq4tEk7
+sounds:
+  - name: Na Durotar Music Ambience World Of Warcraft
+    path: modules/warbound-campaign-content/assets/musics/ambient/durotar/na-durotar-music-ambience-world-of-warcraft.ogg
+    channel: ''
+    volume: 0.5
+    repeat: false
+    fade: null
+    description: ''
+    _id: VLxuGj8hkH1FUGII
+    playing: true
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!0YPM0bkDJiq4tEk7.VLxuGj8hkH1FUGII'
+channel: music
+mode: 0
+playing: false
+sorting: a
+sort: 0
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.11
+  createdTime: 1789983777224
+  modifiedTime: 1789983777224
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+description: ''
+fade: null
+seed: 924
+_key: '!playlists!0YPM0bkDJiq4tEk7'

@@ -1,7 +1,7 @@
 name: Accueil
 _id: EVPo5lPHmS0zLKBZ
 navigation: false
-thumb: worlds/au-nom-de-la-horde-cof2/assets/scenes/thumb-X6anEKVwmCCxuecVw5o-vA.webp
+thumb: worlds/au-nom-de-la-horde-cof2/assets/scenes/thumb-PxjNBvUr9jfMIzqxSMr8vg.webp
 width: 4000
 height: 3000
 padding: 0.25
@@ -355,9 +355,9 @@ drawings:
     locked: false
     interface: false
     _key: '!scenes.drawings!EVPo5lPHmS0zLKBZ.Q30W1s1KSCnaoenY'
-  - author: V0twxN2oKehfUjVd
-    x: 1037
-    'y': 3132
+  - author: TjbWhMczNyKieD8D
+    x: 1226
+    'y': 3120
     shape:
       type: r
       width: 800
@@ -375,7 +375,7 @@ drawings:
     flags:
       multi-token-edit:
         links:
-          - id: wfqMqPMivmOBLj3M
+          - id: Qs0cfHjVaAV0Foh8
             type: 1
             label: S_LINK
       baileywiki-landing-page:
@@ -383,20 +383,20 @@ drawings:
           width: 12
           color: '#efd0bf'
         generated: true
-    _id: MCSsp4CCDFo0UMtx
+    _id: 14NeQSlJODbjqeJJ
     elevation: 0
     levels: []
     sort: 10
     rotation: 0
     bezierFactor: 0
-    fillColor: '#cc2866'
+    fillColor: '#5628cc'
     fillAlpha: 0.5
-    strokeColor: '#cc2866'
+    strokeColor: '#5628cc'
     texture: null
     hidden: false
     locked: false
     interface: false
-    _key: '!scenes.drawings!EVPo5lPHmS0zLKBZ.MCSsp4CCDFo0UMtx'
+    _key: '!scenes.drawings!EVPo5lPHmS0zLKBZ.14NeQSlJODbjqeJJ'
 tokens: []
 levels:
   - _id: defaultLevel0000
@@ -1449,158 +1449,6 @@ tiles:
     locked: false
     name: ''
     _key: '!scenes.tiles!EVPo5lPHmS0zLKBZ.95fXe3Iv0dfZYomf'
-  - x: 1437
-    'y': 3270
-    width: 800
-    height: 276
-    sort: 100
-    texture:
-      src: worlds/au-nom-de-la-horde-cof2/assets/landing-page/coa-lp-buton.png
-      fit: contain
-      tint: '#e6c878'
-      anchorX: 0.5
-      anchorY: 0.5
-      scaleX: 1
-      scaleY: 1
-      alphaThreshold: 0.75
-    flags:
-      baileywiki-landing-page:
-        button: true
-        hover:
-          type: effect
-          glow:
-            color: '#c94713'
-            strength: 8
-            invert: false
-          presets: []
-          presetInvert: null
-          presetOverrides: null
-          adjust: null
-          text: null
-          image: null
-        click:
-          action: macro
-          uuid: ''
-        clickSource: auto
-        seed: null
-        generated: true
-        category: downtime
-        label: Downtime
-      multi-token-edit:
-        links:
-          - id: otl01iFaZgqNg2RA
-            type: 0
-            label: LINK
-          - id: wfqMqPMivmOBLj3M
-            type: 2
-            label: S_LINK
-      tokenmagic:
-        filters:
-          - tmFilters:
-              tmFilterId: bwlp-shadow
-              tmFilterInternalId: YVwTLJT4VLDN3hfh
-              tmFilterType: shadow
-              tmFilterOwner: V0twxN2oKehfUjVd
-              tmParams:
-                filterType: shadow
-                filterId: bwlp-shadow
-                rotation: 35
-                blur: 2
-                quality: 5
-                distance: 12
-                alpha: 0.6
-                padding: 24
-                shadowOnly: false
-                color: 0
-                zOrder: 6000
-                enabled: true
-                rank: 10018
-                placeableId: LL64AP4RFqCQQaqH
-                filterInternalId: YVwTLJT4VLDN3hfh
-                filterOwner: V0twxN2oKehfUjVd
-                placeableType: Tile
-                updateId: CmMzYqtLXEQNsVRq
-          - tmFilters:
-              tmFilterId: bwlp-hover-0
-              tmFilterInternalId: vdhRkA4dHPuzBBOp
-              tmFilterType: glow
-              tmFilterOwner: V0twxN2oKehfUjVd
-              tmParams:
-                filterType: glow
-                outerStrength: 8
-                innerStrength: 0
-                quality: 0.5
-                padding: 12
-                zOrder: 100
-                rank: 10000
-                enabled: false
-                color: 13190931
-                filterId: bwlp-hover-0
-                placeableId: LL64AP4RFqCQQaqH
-                filterInternalId: vdhRkA4dHPuzBBOp
-                filterOwner: V0twxN2oKehfUjVd
-                placeableType: Tile
-                updateId: garWTO7WQ0iDrsVL
-      levels:
-        blockSightMovement: false
-      tile-scroll:
-        enableScroll: false
-        scrollDirection: 0
-        enableRotate: false
-        scrollSpeed: 1
-        repeatx: 1
-        repeaty: 1
-        pivotx: 0.5
-        pivoty: 0.5
-        offsetx: 0
-        offsety: 0
-        parallax: 0
-      tagger:
-        tags: ''
-      betterroofs:
-        brMode: false
-        occlusionLinkId: ''
-        occlusionLinkSource: false
-      fxmaster:
-        restrictsParticles: false
-        restrictsFilters: false
-      monks-active-tiles:
-        active: false
-        record: false
-        restriction: all
-        controlled: all
-        trigger:
-          - enter
-        allowpaused: false
-        usealpha: false
-        pointer: false
-        vision: false
-        pertoken: false
-        minrequired: null
-        cooldown: null
-        chance: 0
-        fileindex: -1
-        actions: []
-        files: []
-    _id: LL64AP4RFqCQQaqH
-    elevation: 0
-    levels: []
-    rotation: 0
-    alpha: 1
-    hidden: false
-    locked: false
-    restrictions:
-      light: false
-      weather: false
-    occlusion:
-      modes: []
-      alpha: 0
-    video:
-      loop: true
-      autoplay: true
-      volume: 0
-    name: ''
-    _key: '!scenes.tiles!EVPo5lPHmS0zLKBZ.LL64AP4RFqCQQaqH'
   - name: cof2-parchemin-10-commandements-ferme
     levels:
       - defaultLevel0000
@@ -1724,9 +1572,141 @@ tiles:
       autoplay: true
       volume: 0
     _key: '!scenes.tiles!EVPo5lPHmS0zLKBZ.x50mA2Qjt1nvV9ez'
+  - x: 1626
+    'y': 3258
+    width: 800
+    height: 276
+    sort: 100
+    texture:
+      src: modules/baileywiki-landing-page/assets/styles/fantasy-button-23.webp
+      fit: contain
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      scaleX: 1
+      scaleY: 1
+      alphaThreshold: 0.75
+    flags:
+      baileywiki-landing-page:
+        button: true
+        hover:
+          type: effect
+          glow:
+            color: '#c94713'
+            strength: 8
+            invert: false
+          presets: []
+          presetInvert: null
+          presetOverrides: null
+          adjust: null
+          text: null
+          image: null
+        click:
+          action: macro
+          uuid: ''
+        clickSource: auto
+        seed: null
+        generated: true
+        category: downtime
+        label: Downtime
+      multi-token-edit:
+        links:
+          - id: otl01iFaZgqNg2RA
+            type: 0
+            label: LINK
+          - id: Qs0cfHjVaAV0Foh8
+            type: 2
+            label: S_LINK
+      tokenmagic:
+        filters:
+          - tmFilters:
+              tmFilterId: bwlp-shadow
+              tmFilterInternalId: SwupkhgYYgfjstiU
+              tmFilterType: shadow
+              tmFilterOwner: TjbWhMczNyKieD8D
+              tmParams:
+                filterType: shadow
+                filterId: bwlp-shadow
+                rotation: 35
+                blur: 2
+                quality: 5
+                distance: 12
+                alpha: 0.6
+                padding: 24
+                shadowOnly: false
+                color: 0
+                zOrder: 6000
+                enabled: true
+                rank: 10000
+                placeableId: 39odsuJrgozDpada
+                filterInternalId: SwupkhgYYgfjstiU
+                filterOwner: TjbWhMczNyKieD8D
+                placeableType: Tile
+                updateId: P5vJxtQzocjBvGzZ
+          - tmFilters:
+              tmFilterId: bwlp-hover-0
+              tmFilterInternalId: bPoj7K8kiupbwBX6
+              tmFilterType: glow
+              tmFilterOwner: TjbWhMczNyKieD8D
+              tmParams:
+                filterType: glow
+                outerStrength: 8
+                innerStrength: 0
+                quality: 0.5
+                padding: 12
+                zOrder: 100
+                rank: 10000
+                enabled: false
+                color: 13190931
+                filterId: bwlp-hover-0
+                placeableId: 39odsuJrgozDpada
+                filterInternalId: bPoj7K8kiupbwBX6
+                filterOwner: TjbWhMczNyKieD8D
+                placeableType: Tile
+                updateId: it4uvRl6XfXXVuyE
+          - tmFilters:
+              tmFilterId: bwlp-ddtint
+              tmFilterInternalId: RZYoWoEDm71Dm3Md
+              tmFilterType: ddTint
+              tmFilterOwner: TjbWhMczNyKieD8D
+              tmParams:
+                filterType: ddTint
+                filterId: bwlp-ddtint
+                tint:
+                  - 0.9019607843137255
+                  - 0.7843137254901961
+                  - 0.47058823529411764
+                rank: 9000
+                enabled: true
+                placeableId: 39odsuJrgozDpada
+                filterInternalId: RZYoWoEDm71Dm3Md
+                filterOwner: TjbWhMczNyKieD8D
+                placeableType: Tile
+                updateId: 63fqn3IgAVoBUsRs
+      multiface-tiles:
+        originalImage: modules/baileywiki-landing-page/assets/styles/fantasy-button-23.webp
+    _id: 39odsuJrgozDpada
+    name: fantasy-button-01
+    elevation: 0
+    levels: []
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: false
+    restrictions:
+      light: false
+      weather: false
+    occlusion:
+      modes: []
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    _key: '!scenes.tiles!EVPo5lPHmS0zLKBZ.39odsuJrgozDpada'
 walls: []
-playlist: null
-playlistSound: null
+playlist: zFMeAT7li5Kj0Zsg
+playlistSound: 5MFUz8Jzen6nt2u9
 journal: null
 journalEntryPage: null
 weather: ''
@@ -1741,18 +1721,18 @@ flags:
     adaptiveFrame:
       x: 3000
       'y': 2300
-      width: 6893.787575150301
+      width: 4488.977955911823
     viewMode: adaptive
-    lockPan: true
-    lockZoom: true
+    lockPan: false
+    lockZoom: false
     unpause: true
-    immersive: true
+    immersive: false
     menuLink: otl01iFaZgqNg2RA
     menu:
       tiles:
-        - LL64AP4RFqCQQaqH
+        - 39odsuJrgozDpada
       drawings:
-        - MCSsp4CCDFo0UMtx
+        - 14NeQSlJODbjqeJJ
     scheme: gold
     customColor: '#e6c878'
     font: Morpheus
@@ -1774,7 +1754,7 @@ flags:
     labelOutline:
       width: 12
       color: '#efd0bf'
-    style: custom-coa-button
+    style: fantasy-button-23
     builderConfig:
       layout: bottom
       cats:
@@ -1797,7 +1777,7 @@ flags:
       marker: null
       markerCustom: false
     defaultHoverSound: preset:fantasy_doorclose_4
-    soundSrc: null
+    soundSrc: modules/warbound-campaign-content/assets/musics/ambient/durotar/na-when-life-was-slower...-durotar-music-ambience.ogg
     soundLoop: true
     soundVolume: 0.5
   multi-token-edit:
@@ -1807,9 +1787,9 @@ flags:
 _stats:
   coreVersion: '14.367'
   systemId: co2
-  systemVersion: 2.3.9
-  createdTime: 1789930736782
-  modifiedTime: 1789930736782
+  systemVersion: 2.3.11
+  createdTime: 1789983815467
+  modifiedTime: 1789983815504
   lastModifiedBy: TjbWhMczNyKieD8D
   compendiumSource: null
   duplicateSource: null

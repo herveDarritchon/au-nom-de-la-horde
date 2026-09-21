@@ -1,0 +1,40 @@
+folder: ES4zpcGp9cq9Z3bq
+name: Landing page
+_id: zFMeAT7li5Kj0Zsg
+sounds:
+  - name: Na When Life Was Slower Durotar Music Ambience
+    path: modules/warbound-campaign-content/assets/musics/ambient/durotar/na-when-life-was-slower...-durotar-music-ambience.ogg
+    channel: ''
+    volume: 0.41
+    repeat: false
+    fade: null
+    description: ''
+    _id: 5MFUz8Jzen6nt2u9
+    playing: false
+    sort: 0
+    flags: {}
+    pausedTime: null
+    _key: '!playlists.sounds!zFMeAT7li5Kj0Zsg.5MFUz8Jzen6nt2u9'
+channel: environment
+mode: 0
+playing: false
+sorting: a
+sort: 0
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.11
+  createdTime: 1789983777216
+  modifiedTime: 1789983777216
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+description: ''
+fade: null
+seed: 429
+_key: '!playlists!zFMeAT7li5Kj0Zsg'

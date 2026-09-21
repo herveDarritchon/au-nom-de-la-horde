@@ -1,0 +1,20 @@
+type: Playlist
+folder: null
+name: Warbound
+color: '#8d8417'
+sorting: a
+_id: ES4zpcGp9cq9Z3bq
+description: ''
+sort: 100000
+flags: {}
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.11
+  createdTime: 1789983777201
+  modifiedTime: 1789983777235
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!ES4zpcGp9cq9Z3bq'
