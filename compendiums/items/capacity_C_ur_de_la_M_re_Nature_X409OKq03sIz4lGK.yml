@@ -1,7 +1,7 @@
 folder: gdfT79CBtZMnsY2Y
 name: Cœur de la Mère-Nature
 type: capacity
-img: modules/warbound-campaign-content/assets/images/icons/capacites/cof2-coeur-de-la-terre-mere.png
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/cof2-coeur-de-la-terre-mere.png
 system:
   description: <p>Le Tauren augmente ses valeurs de CON et de PER de +1.</p>
   inGame: ''
