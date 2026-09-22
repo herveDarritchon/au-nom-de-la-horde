@@ -77,4 +77,21 @@ function buildCapacityItemData(cap, { reviewMeta } = {}) {
   return data;
 }
 
-export { esc, paragraph, buildAttackItemData, buildCapacityItemData };
+/**
+ * Construit les données d'un `Item` `capacity` variante, cloné depuis un modèle du compendium officiel avec une
+ * difficulté surchargée (`capacityVariant.mjs`, §8). Ne copie jamais `_id`/`_stats.compendiumSource` du modèle :
+ * la variante est un document indépendant, jamais une écriture sur l'objet officiel d'origine.
+ * @param {{name:string, system:object}} templateDoc Document `Item` modèle (compendium officiel, déjà chargé)
+ * @param {object} overriddenSystem `system` surchargé (résultat de `buildDifficultyOverride`)
+ * @returns {object} Données d'un `Item` de type `capacity`
+ */
+function buildCapacityVariantItemData(templateDoc, overriddenSystem) {
+  return {
+    name: templateDoc.name,
+    type: "capacity",
+    system: { ...overriddenSystem, learned: true },
+    flags: { warbound: { imported: true, variantOf: templateDoc.uuid ?? templateDoc.name } },
+  };
+}
+
+export { esc, paragraph, buildAttackItemData, buildCapacityItemData, buildCapacityVariantItemData };

@@ -8,11 +8,11 @@
  * (`cof2Debug.mjs`) et le wizard d'import (`cof2ImportWizard.mjs`).
  */
 
-import { makeCapacityResolver, computeContentHash } from "../../../src/importers/cof2/index.mjs";
+import { makeCapacityResolver, computeContentHash, compareTemplateVariant, buildDifficultyOverride, capacityParameterMismatch } from "../../../src/importers/cof2/index.mjs";
 import { planCapacityResolution } from "../../../src/importers/cof2/planning/capacityPlan.mjs";
 import { ensureImportLibraryPack, findByHash, saveImportedCapacity } from "./importLibrary.mjs";
 import { createEncounterActor } from "./actorFactory.mjs";
-import { buildAttackItemData, buildCapacityItemData } from "./itemFactory.mjs";
+import { buildAttackItemData, buildCapacityItemData, buildCapacityVariantItemData } from "./itemFactory.mjs";
 import { addCapacityToActor } from "./cof2Adapter.mjs";
 
 const PACK_ID = "cof2-base.cof-2-base-items";
@@ -76,11 +76,47 @@ async function addResolvedCapacity(actor, cap, doc, textOnly, warnings) {
 }
 
 /**
+ * Traite une capacité `TEMPLATE_VARIANT` : si le paramètre détecté est une difficulté différente de celle du
+ * modèle et que l'utilisateur l'a confirmée (§8, écran de comparaison du wizard), clone le modèle en une variante
+ * indépendante avec la difficulté surchargée (jamais une écriture sur le document du compendium officiel). Sinon,
+ * repli sur le comportement historique : réutilisation du modèle tel quel via `addCapacityToActor`, avec
+ * avertissement (et diagnostic `CAPACITY_PARAMETER_MISMATCH` si le paramètre source n'est pas reconnu).
+ * @param {Actor} actor
+ * @param {import("../../../src/importers/cof2/parsing/encounterDraft.mjs").CapacityDraft} cap
+ * @param {object} resolution `{status:"TEMPLATE_VARIANT", entry:object}` renvoyé par le resolver (#5)
+ * @param {ReturnType<typeof buildCapacityResolver>} resolver
+ * @param {Set<string>} confirmedVariants Noms (`rawName`) de capacités dont la surcharge a été confirmée
+ * @param {object[]} textOnly
+ * @param {object[]} variantItems
+ * @param {string[]} warnings
+ */
+async function addTemplateVariantCapacity(actor, cap, resolution, resolver, confirmedVariants, textOnly, variantItems, warnings) {
+  const comparison = compareTemplateVariant(cap.rawName, resolution.entry.name);
+
+  if (comparison.status === "OVERRIDABLE" && confirmedVariants.has(cap.rawName)) {
+    const templateDoc = await resolver.pack.getDocument(resolution.entry._id);
+    const overriddenSystem = buildDifficultyOverride(templateDoc.toObject().system, comparison.from, comparison.to);
+    variantItems.push(buildCapacityVariantItemData(templateDoc, overriddenSystem));
+    warnings.push(`« ${cap.name} » : variante de « ${resolution.entry.name} » créée avec difficulté ${comparison.to} (au lieu de ${comparison.from}).`);
+    return;
+  }
+
+  if (comparison.status === "UNRECOGNIZED") warnings.push(capacityParameterMismatch(cap.rawName).message);
+
+  const doc = await resolver.pack.getDocument(resolution.entry._id);
+  if (!(await addResolvedCapacity(actor, cap, doc, textOnly, warnings))) return;
+  warnings.push(`« ${cap.name} » : variante de « ${resolution.entry.name} » du compendium, vérifier le paramètre.`);
+}
+
+/**
  * Crée l'acteur `encounter` et ses items.
  * @param {import("../../../src/importers/cof2/parsing/encounterDraft.mjs").EncounterDraft} parsed
+ * @param {{confirmedVariants?:Set<string>}} [options] `confirmedVariants` : noms (`rawName`) de capacités
+ *   `TEMPLATE_VARIANT` dont la surcharge de difficulté a été validée par l'utilisateur (écran de comparaison du
+ *   wizard, §8). Par défaut vide : aucune surcharge automatique, comportement historique inchangé.
  * @returns {Promise<{actor:Actor, warnings:string[]}>}
  */
-async function createEncounter(parsed) {
+async function createEncounter(parsed, { confirmedVariants = new Set() } = {}) {
   const warnings = parsed.diagnostics.filter((d) => d.severity !== "error").map((d) => d.message);
   const actor = await createEncounterActor(parsed);
 
@@ -97,14 +133,18 @@ async function createEncounter(parsed) {
   const resolver = await buildCapacityResolver();
   if (!resolver && parsed.capacities.length) warnings.push(`Compendium ${PACK_ID} introuvable : capacités créées en texte seul.`);
   const textOnly = [];
+  const variantItems = [];
   for (const cap of parsed.capacities) {
     const resolution = resolver?.resolve(cap.name) ?? { status: "NOT_FOUND" };
 
-    if (resolution.status === "EXACT_REUSE" || resolution.status === "TEMPLATE_VARIANT") {
+    if (resolution.status === "EXACT_REUSE") {
       const doc = await resolver.pack.getDocument(resolution.entry._id);
-      if (!(await addResolvedCapacity(actor, cap, doc, textOnly, warnings))) continue;
-      const plan = planCapacityResolution({ resolverStatus: resolution.status });
-      if (plan.status === "CREATE_FROM_TEMPLATE") warnings.push(`« ${cap.name} » : variante de « ${resolution.entry.name} » du compendium, vérifier le paramètre.`);
+      await addResolvedCapacity(actor, cap, doc, textOnly, warnings);
+      continue;
+    }
+
+    if (resolution.status === "TEMPLATE_VARIANT") {
+      await addTemplateVariantCapacity(actor, cap, resolution, resolver, confirmedVariants, textOnly, variantItems, warnings);
       continue;
     }
 
@@ -122,7 +162,7 @@ async function createEncounter(parsed) {
     else if (plan.status === "MANUAL_REVIEW") warnings.push(`« ${cap.name} » : nom déjà importé avec un contenu différent, variante créée à examiner.`);
     else warnings.push(`« ${cap.name} » : absente du compendium et de la bibliothèque d'import, nouvelle entrée créée.`);
   }
-  if (textOnly.length) await actor.createEmbeddedDocuments("Item", textOnly);
+  if (textOnly.length || variantItems.length) await actor.createEmbeddedDocuments("Item", [...textOnly, ...variantItems]);
 
   return { actor, warnings };
 }

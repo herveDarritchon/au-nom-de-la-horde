@@ -6,7 +6,7 @@
  * (`buildCapacityResolver`, non destructive). Toute l'écriture Foundry est déléguée à `cof2/encounterFactory.mjs`.
  */
 
-import { parseStatblock } from "../../src/importers/cof2/index.mjs";
+import { parseStatblock, compareTemplateVariant } from "../../src/importers/cof2/index.mjs";
 import { buildCapacityResolver, createEncounter } from "./cof2/encounterFactory.mjs";
 
 const MODULE_ID = "warbound-campaign-content";
@@ -49,6 +49,7 @@ class Cof2ImportWizardApp extends foundry.applications.api.ApplicationV2 {
   #sourceText = "";
   #draft = null;
   #capacityHits = new Map();
+  #confirmedVariants = new Set();
   #options = { createActor: true, reuseExisting: true, openSheet: true };
   #result = null;
   #analyzeError = null;
@@ -132,11 +133,34 @@ class Cof2ImportWizardApp extends foundry.applications.api.ApplicationV2 {
     </table>`;
   }
 
+  /**
+   * Ligne de comparaison modèle ↔ variante pour une capacité `TEMPLATE_VARIANT` dont la difficulté est
+   * surchargeable automatiquement (`compareTemplateVariant` → `OVERRIDABLE`, §8). Confirmation requise avant
+   * création (AC #3 de l'issue #8) : tant que la case n'est pas cochée, le bouton « Suivant » reste désactivé
+   * (cf. `#renderPreview`).
+   * @param {import("../../src/importers/cof2/parsing/encounterDraft.mjs").CapacityDraft} cap
+   * @param {{status:"OVERRIDABLE", kind:string, from:number, to:number}} comparison
+   */
+  #renderVariantComparisonRow(cap, comparison) {
+    const checked = this.#confirmedVariants.has(cap.rawName) ? "checked" : "";
+    return `<tr class="cof2-variant-comparison">
+      <td></td>
+      <td colspan="5">
+        <label>
+          <input type="checkbox" data-variant-confirm="${esc(cap.rawName)}" ${checked}>
+          Modèle « ${esc(cap.name)} » : difficulté ${comparison.from} → Variante à créer : difficulté ${comparison.to}
+        </label>
+      </td>
+    </tr>`;
+  }
+
   #renderCapacitiesTable() {
     if (!this.#draft.capacities.length) return "<p><em>Aucune capacité reconnue.</em></p>";
     const rows = this.#draft.capacities
       .map((c, i) => {
-        const status = this.#capacityHits.get(i)?.status ?? "NOT_FOUND";
+        const hit = this.#capacityHits.get(i);
+        const status = hit?.status ?? "NOT_FOUND";
+        const comparisonRow = hit?.comparison?.status === "OVERRIDABLE" ? this.#renderVariantComparisonRow(c, hit.comparison) : "";
         return `<tr>
           <td>${CAPACITY_STATUS_BADGES[status]}</td>
           <td><input type="text" data-field="capacities.${i}.name" value="${esc(c.name)}"></td>
@@ -144,13 +168,21 @@ class Cof2ImportWizardApp extends foundry.applications.api.ApplicationV2 {
           <td>${esc(c.actionType ?? "")}</td>
           <td>${esc(c.frequency ?? "")}</td>
           <td>${CONFIDENCE_BADGES[c.confidence] ?? ""}</td>
-        </tr>`;
+        </tr>${comparisonRow}`;
       })
       .join("");
     return `<table class="cof2-wizard-table">
       <thead><tr><th>État</th><th>Capacité source</th><th>Résolution</th><th>Action</th><th>Fréquence</th><th>Confiance</th></tr></thead>
       <tbody>${rows}</tbody>
     </table>`;
+  }
+
+  /**
+   * @returns {boolean} true si une variante surchargeable proposée (`OVERRIDABLE`, §8) n'a pas encore été
+   *   confirmée par l'utilisateur — bloque le passage à l'étape Options (AC #3 de l'issue #8).
+   */
+  #hasUnconfirmedVariant() {
+    return this.#draft.capacities.some((c, i) => this.#capacityHits.get(i)?.comparison?.status === "OVERRIDABLE" && !this.#confirmedVariants.has(c.rawName));
   }
 
   #renderDiagnostics() {
@@ -193,9 +225,10 @@ class Cof2ImportWizardApp extends foundry.applications.api.ApplicationV2 {
       <fieldset><legend>Attaques</legend>${this.#renderAttacksTable()}</fieldset>
       <fieldset><legend>Capacités</legend>${this.#renderCapacitiesTable()}</fieldset>
       <fieldset><legend>Diagnostics</legend>${this.#renderDiagnostics()}</fieldset>
+      ${this.#hasUnconfirmedVariant() ? '<p class="cof2-diag cof2-diag-warning">Confirmez chaque variante proposée ci-dessus avant de continuer.</p>' : ""}
       <footer class="form-footer">
         <button type="button" data-action="back"><i class="fa-solid fa-arrow-left"></i> Précédent</button>
-        <button type="button" data-action="to-options" class="default"><i class="fa-solid fa-arrow-right"></i> Suivant</button>
+        <button type="button" data-action="to-options" class="default" ${this.#hasUnconfirmedVariant() ? "disabled" : ""}><i class="fa-solid fa-arrow-right"></i> Suivant</button>
       </footer>`;
   }
 
@@ -278,6 +311,14 @@ class Cof2ImportWizardApp extends foundry.applications.api.ApplicationV2 {
     content.querySelectorAll("[data-action]").forEach((el) => {
       el.addEventListener("click", (ev) => this.#onAction(ev, el.dataset.action));
     });
+    content.querySelectorAll("[data-variant-confirm]").forEach((el) => {
+      el.addEventListener("change", () => {
+        const rawName = el.dataset.variantConfirm;
+        if (el.checked) this.#confirmedVariants.add(rawName);
+        else this.#confirmedVariants.delete(rawName);
+        this.render();
+      });
+    });
   }
 
   async #onAction(event, action) {
@@ -318,10 +359,13 @@ class Cof2ImportWizardApp extends foundry.applications.api.ApplicationV2 {
     }
     this.#draft = draft;
     this.#capacityHits = new Map();
+    this.#confirmedVariants = new Set();
     const resolver = await buildCapacityResolver();
     draft.capacities.forEach((cap, i) => {
       const resolution = resolver?.resolve(cap.name);
-      this.#capacityHits.set(i, { hit: resolution, status: capacityStatus(resolution) });
+      const status = capacityStatus(resolution);
+      const comparison = status === "TEMPLATE_VARIANT" ? compareTemplateVariant(cap.rawName, resolution.entry.name) : null;
+      this.#capacityHits.set(i, { hit: resolution, status, comparison });
     });
     this.#step = "preview";
     return this.render();
@@ -336,7 +380,7 @@ class Cof2ImportWizardApp extends foundry.applications.api.ApplicationV2 {
       return this.render();
     }
     try {
-      const { actor, warnings } = await createEncounter(this.#draft);
+      const { actor, warnings } = await createEncounter(this.#draft, { confirmedVariants: this.#confirmedVariants });
       this.#result = { actor, warnings };
       if (this.#options.openSheet) actor.sheet.render(true);
       ui.notifications.info(`Rencontre « ${actor.name} » créée.`);
