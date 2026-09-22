@@ -7,6 +7,8 @@
  * ou charge lui-même.
  */
 
+import { buildCapacityItemData } from "./itemFactory.mjs";
+
 const PARSER_VERSION = "1.0.0";
 
 const LIBRARY_PACKS = {
@@ -64,25 +66,8 @@ async function findByHash(pack, hash) {
  * @returns {Promise<object>}
  */
 async function saveImportedCapacity(pack, draft, { hash, sourceType, reviewStatus }) {
-  const [item] = await Item.createDocuments(
-    [
-      {
-        name: draft.name,
-        type: "capacity",
-        system: { description: draft.description ? `<p>${draft.description}</p>` : "", learned: true, path: null },
-        flags: {
-          warbound: {
-            imported: true,
-            sourceType,
-            parserVersion: PARSER_VERSION,
-            sourceHash: hash,
-            reviewStatus,
-          },
-        },
-      },
-    ],
-    { pack: pack.collection }
-  );
+  const data = buildCapacityItemData(draft, { reviewMeta: { hash, sourceType, parserVersion: PARSER_VERSION, reviewStatus } });
+  const [item] = await Item.createDocuments([data], { pack: pack.collection });
   return item;
 }
 
