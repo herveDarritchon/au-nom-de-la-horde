@@ -1,7 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 
-import { buildAttackItemData, buildCapacityItemData } from "./itemFactory.mjs";
+import { buildAttackItemData, buildCapacityItemData, buildCapacityVariantItemData } from "./itemFactory.mjs";
 
 test("buildAttackItemData produit un item de type attack utilisable", () => {
   const data = buildAttackItemData({ name: "Griffe", kind: "melee", bonus: "+5", damage: "1d6+3", range: null, extra: "Attaque acérée." });
@@ -34,4 +34,25 @@ test("buildCapacityItemData ajoute flags.warbound.* seulement quand reviewMeta e
   assert.deepEqual(data.flags, {
     warbound: { imported: true, sourceType: "pdf-text", parserVersion: "1.0.0", sourceHash: "abc123", reviewStatus: "generated" },
   });
+});
+
+test("buildCapacityVariantItemData clone le modèle avec le system surchargé et learned:true", () => {
+  const template = { name: "Charge (13)", uuid: "Compendium.cof2-base.cof-2-base-items.Item.abc", system: { learned: true, description: "old" } };
+  const overriddenSystem = { description: "<p>test difficulté 16</p>" };
+
+  const data = buildCapacityVariantItemData(template, overriddenSystem);
+
+  assert.equal(data.type, "capacity");
+  assert.equal(data.name, "Charge (13)");
+  assert.deepEqual(data.system, { description: "<p>test difficulté 16</p>", learned: true });
+  assert.deepEqual(data.flags, { warbound: { imported: true, variantOf: "Compendium.cof2-base.cof-2-base-items.Item.abc" } });
+});
+
+test("buildCapacityVariantItemData ne copie pas _id/_stats.compendiumSource du modèle", () => {
+  const template = { name: "Charge (13)", _id: "abc", uuid: "Compendium.cof2-base.cof-2-base-items.Item.abc", _stats: { compendiumSource: "Compendium.cof2-base.cof-2-base-items.Item.abc" }, system: {} };
+
+  const data = buildCapacityVariantItemData(template, {});
+
+  assert.equal(data._id, undefined);
+  assert.equal(data._stats, undefined);
 });
