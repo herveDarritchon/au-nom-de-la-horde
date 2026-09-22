@@ -1,7 +1,7 @@
 folder: rMMg5JuaE6hvEj98
 name: Respiration aquatique
 type: capacity
-img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/respiration-aquatique.png
+img: modules/warbound-campaign-content/assets/images/icons/capacites/respiration-aquatique.png
 system:
   description: >-
     <p>Le Réprouvé peut respirer sous l’eau pendant 10 minutes. Cette capacité
