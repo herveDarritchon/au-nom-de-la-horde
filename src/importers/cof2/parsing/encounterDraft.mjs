@@ -31,7 +31,7 @@
  * @property {string} name
  * @property {string} description
  * @property {"L"|"A"|"M"|"G"|null} actionType
- * @property {object|null} frequency
+ * @property {{period:("combat"|"daily"), confidence:Confidence}|null} frequency
  * @property {string} [originPath]
  * @property {Record<string,string|number>} parameters
  * @property {object} [resolution]

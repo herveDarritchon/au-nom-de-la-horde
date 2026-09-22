@@ -61,7 +61,13 @@ function buildCapacityItemData(cap, { reviewMeta } = {}) {
   const data = {
     name: cap.name,
     type: "capacity",
-    system: { description: paragraph(cap.description), learned: true, path: null },
+    system: {
+      description: paragraph(cap.description),
+      learned: true,
+      path: null,
+      actionType: cap.actionType?.toLowerCase() ?? "",
+      frequency: cap.frequency?.period ?? "none",
+    },
   };
   if (reviewMeta) {
     data.flags = {

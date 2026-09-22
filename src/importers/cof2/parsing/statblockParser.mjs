@@ -21,6 +21,7 @@ import { tidyCase, cleanName, toSigned } from "./textUtils.mjs";
 import { reconstructText } from "./textReconstruction.mjs";
 import { missingAbility, multipleStatblocks, pdfNoiseRemoved, toEncounterDraft, unsupportedAutomation } from "./encounterDraft.mjs";
 import { extractActionType } from "../resolution/capacityResolver.mjs";
+import { detectFrequency, detectState, detectAbilityTest, detectNumericBonus } from "./capacityAutomation.mjs";
 
 const ABILITIES = ["for", "agi", "con", "per", "cha", "int", "vol"];
 const SIZES = { "très petite": "verySmall", minuscule: "tiny", petite: "small", moyenne: "medium", grande: "large", énorme: "huge", colossale: "colossal" };
@@ -128,6 +129,7 @@ function parseStatblock(text) {
     // Un titre sans texte réclame la ligne suivante comme texte, même si elle ressemble à un titre
     const title = current && !current.description ? null : matchTitle(line);
     if (title) {
+      if (current) finalizeCapacity(current, diagnostics);
       current = title;
       result.capacities.push(current);
     } else if (current) {
@@ -138,10 +140,27 @@ function parseStatblock(text) {
       diagnostics.push(pdfNoiseRemoved(line, "warning"));
     }
   }
+  if (current) finalizeCapacity(current, diagnostics);
   // `attacks.length === 0` est directement lisible sur le draft : pas de diagnostic dédié, aucun des 7 codes
   // stables ne correspondant à « aucune attaque reconnue ».
 
   return toEncounterDraft(result, { rawText, normalizedText });
+}
+
+/**
+ * Complète une capacité dont la description est désormais figée : détecte la fréquence explicite (mappée sur
+ * `CapacityDraft.frequency`) et les patterns informatifs (état, test de caractéristique, bonus numérique), chacun
+ * poussant un diagnostic `UNSUPPORTED_AUTOMATION` sans jamais modifier le texte ni bloquer l'import (Epic §17
+ * Niveau B).
+ * @param {import("./encounterDraft.mjs").CapacityDraft} cap
+ * @param {import("./encounterDraft.mjs").Diagnostic[]} diagnostics
+ */
+function finalizeCapacity(cap, diagnostics) {
+  cap.frequency = detectFrequency(cap.description);
+  for (const detect of [detectState, detectAbilityTest, detectNumericBonus]) {
+    const hit = detect(cap.description);
+    if (hit) diagnostics.push(unsupportedAutomation(hit.pattern));
+  }
 }
 
 /**

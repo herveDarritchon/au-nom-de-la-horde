@@ -36,6 +36,24 @@ test("buildCapacityItemData ajoute flags.warbound.* seulement quand reviewMeta e
   });
 });
 
+test("buildCapacityItemData mappe actionType (L/A/M/G) sur system.actionType en minuscule", () => {
+  for (const actionType of ["L", "A", "M", "G"]) {
+    const data = buildCapacityItemData({ name: "Charge", description: "...", actionType, frequency: null });
+    assert.equal(data.system.actionType, actionType.toLowerCase());
+  }
+});
+
+test("buildCapacityItemData laisse system.actionType vide quand actionType est null", () => {
+  const data = buildCapacityItemData({ name: "Discret", description: "...", actionType: null, frequency: null });
+  assert.equal(data.system.actionType, "");
+});
+
+test("buildCapacityItemData mappe frequency sur system.frequency (combat/daily), défaut none", () => {
+  assert.equal(buildCapacityItemData({ name: "X", description: "...", frequency: { period: "combat" } }).system.frequency, "combat");
+  assert.equal(buildCapacityItemData({ name: "X", description: "...", frequency: { period: "daily" } }).system.frequency, "daily");
+  assert.equal(buildCapacityItemData({ name: "X", description: "...", frequency: null }).system.frequency, "none");
+});
+
 test("buildCapacityVariantItemData clone le modèle avec le system surchargé et learned:true", () => {
   const template = { name: "Charge (13)", uuid: "Compendium.cof2-base.cof-2-base-items.Item.abc", system: { learned: true, description: "old" } };
   const overriddenSystem = { description: "<p>test difficulté 16</p>" };
