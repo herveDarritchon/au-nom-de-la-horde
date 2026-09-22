@@ -1,20 +1,23 @@
 /**
  * Création Foundry d'une rencontre COF2 depuis un `EncounterDraft` (parsing pur, voir `src/importers/cof2/`).
  *
- * Toute l'API Foundry (`game`, `Actor`, `Item`) vit ici ; ce module est le seul point d'écriture du pipeline
- * d'import COF2, partagé par la commande de debug (`cof2Debug.mjs`) et le wizard d'import (`cof2ImportWizard.mjs`).
+ * Orchestrateur : délègue la construction des documents à `actorFactory.mjs`/`itemFactory.mjs`, l'isolation de
+ * l'API COF2 à `cof2Adapter.mjs`, la résolution multi-sources au resolver (`capacityResolver.mjs`, #5) et à la
+ * bibliothèque d'import (`importLibrary.mjs`, #6), et la traduction en statut `ImportPlan` (§19 de l'Epic) à
+ * `capacityPlan.mjs`. Seul point d'écriture Foundry du pipeline d'import COF2, partagé par la commande de debug
+ * (`cof2Debug.mjs`) et le wizard d'import (`cof2ImportWizard.mjs`).
  */
 
 import { makeCapacityResolver, computeContentHash } from "../../../src/importers/cof2/index.mjs";
+import { planCapacityResolution } from "../../../src/importers/cof2/planning/capacityPlan.mjs";
 import { ensureImportLibraryPack, findByHash, saveImportedCapacity } from "./importLibrary.mjs";
+import { createEncounterActor } from "./actorFactory.mjs";
+import { buildAttackItemData, buildCapacityItemData } from "./itemFactory.mjs";
+import { addCapacityToActor } from "./cof2Adapter.mjs";
 
 const PACK_ID = "cof2-base.cof-2-base-items";
 const CAPACITY_FOLDERS = ["Capacités des rencontres", "Capacité de base"];
-const ABILITIES = ["for", "agi", "con", "per", "cha", "int", "vol"];
 const IMPORT_SOURCE_TYPE = "pdf-text";
-
-const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
-const paragraph = (s) => (s ? `<p>${esc(s)}</p>` : "");
 
 /**
  * Charge les capacités de créatures du compendium (dossiers « Capacités des rencontres » et « Capacité de base » uniquement :
@@ -29,42 +32,6 @@ async function buildCapacityResolver() {
   const priority = pack.folders.find((f) => f.name === CAPACITY_FOLDERS[0])?.id;
   const entries = index.filter((e) => e.type === "capacity" && folderIds.has(e.folder));
   return { pack, resolve: makeCapacityResolver({ officialEntries: entries, priorityFolderId: priority }) };
-}
-
-function buildAttackData(atk) {
-  const actionType = { melee: "melee", ranged: "ranged", magical: "magical" }[atk.kind];
-  return {
-    name: atk.name,
-    type: "attack",
-    img: "icons/svg/sword.svg",
-    system: {
-      description: paragraph(atk.extra),
-      subtype: atk.kind,
-      learned: true,
-      properties: { spell: false, reloadable: false },
-      range: atk.range ? { value: atk.range, unit: "m" } : { value: null, unit: "" },
-      actions: [
-        {
-          indice: 0,
-          label: "",
-          chatFlavor: "",
-          type: actionType,
-          img: "icons/svg/d20-highlight.svg",
-          properties: { activable: true, enabled: false, temporary: false, visible: false },
-          conditions: [{ predicate: "isOwned" }],
-          resolvers: [
-            {
-              type: "attack",
-              skill: { formula: atk.bonus, crit: "20", difficulty: "@cible.def" },
-              dmg: { formula: atk.damage },
-              target: { type: "none", number: 0, scope: "all" },
-            },
-          ],
-          modifiers: [],
-        },
-      ],
-    },
-  };
 }
 
 /**
@@ -90,58 +57,74 @@ async function resolveViaImportLibrary(cap) {
 }
 
 /**
+ * Ajoute une capacité résolue (officielle ou bibliothèque d'import) à l'acteur via `Cof2Adapter`. Si
+ * `actor.addCapacity` n'est pas disponible (garde AC #4 de la Story 7), bascule en texte seul plutôt que
+ * d'échouer silencieusement.
+ * @param {Actor} actor
+ * @param {import("../../../src/importers/cof2/parsing/encounterDraft.mjs").CapacityDraft} cap
+ * @param {object} doc
+ * @param {string[]} textOnly
+ * @param {string[]} warnings
+ * @returns {Promise<boolean>} true si la capacité a bien été ajoutée à l'acteur
+ */
+async function addResolvedCapacity(actor, cap, doc, textOnly, warnings) {
+  const added = await addCapacityToActor(actor, doc);
+  if (added.ok) return true;
+  textOnly.push(buildCapacityItemData(cap));
+  warnings.push(`« ${cap.name} » : addCapacity indisponible sur cet acteur, créée en texte.`);
+  return false;
+}
+
+/**
  * Crée l'acteur `encounter` et ses items.
  * @param {import("../../../src/importers/cof2/parsing/encounterDraft.mjs").EncounterDraft} parsed
  * @returns {Promise<{actor:Actor, warnings:string[]}>}
  */
 async function createEncounter(parsed) {
   const warnings = parsed.diagnostics.filter((d) => d.severity !== "error").map((d) => d.message);
-  const actor = await Actor.create({
-    name: parsed.name,
-    type: "encounter",
-    system: {
-      abilities: Object.fromEntries(ABILITIES.map((a) => [a, parsed.abilities[a]])),
-      attributes: { nc: parsed.nc, hp: { base: parsed.hp, value: parsed.hp } },
-      combat: { def: { base: parsed.defense }, init: { base: parsed.initiative }, dr: { base: parsed.damageReduction } },
-      details: { category: parsed.category, size: parsed.size, notes: { public: parsed.notes.map(paragraph).join("") } },
-    },
-    prototypeToken: { disposition: CONST.TOKEN_DISPOSITIONS.HOSTILE },
-  });
+  const actor = await createEncounterActor(parsed);
 
   // Attaques : créées d'un bloc, puis on recâble la `source` de leurs actions sur l'UUID définitif
   if (parsed.attacks.length) {
-    const created = await actor.createEmbeddedDocuments("Item", parsed.attacks.map(buildAttackData));
+    const created = await actor.createEmbeddedDocuments("Item", parsed.attacks.map(buildAttackItemData));
     await actor.updateEmbeddedDocuments(
       "Item",
       created.map((item) => ({ _id: item.id, "system.actions": item.toObject().system.actions.map((a) => ({ ...a, source: item.uuid })) }))
     );
   }
 
-  // Capacités : celles du compendium via addCapacity (recâble sources/modifiers), les autres en texte
+  // Capacités : officiel (priorités 1-2) puis bibliothèque d'import (priorité 3), sinon texte seul
   const resolver = await buildCapacityResolver();
   if (!resolver && parsed.capacities.length) warnings.push(`Compendium ${PACK_ID} introuvable : capacités créées en texte seul.`);
   const textOnly = [];
   for (const cap of parsed.capacities) {
     const resolution = resolver?.resolve(cap.name) ?? { status: "NOT_FOUND" };
+
     if (resolution.status === "EXACT_REUSE" || resolution.status === "TEMPLATE_VARIANT") {
       const doc = await resolver.pack.getDocument(resolution.entry._id);
-      await actor.addCapacity(doc, null);
-      if (resolution.status === "TEMPLATE_VARIANT") warnings.push(`« ${cap.name} » : variante de « ${resolution.entry.name} » du compendium, vérifier le paramètre.`);
-    } else if (resolution.status === "AMBIGUOUS") {
-      warnings.push(`« ${cap.name} » : plusieurs capacités du compendium correspondent (${resolution.candidates.join(", ")}), créée en texte.`);
-      textOnly.push({ name: cap.name, type: "capacity", system: { description: paragraph(cap.description), learned: true, path: null } });
-    } else {
-      // Priorité 3 — bibliothèque d'import du monde (jamais le pack officiel `cof2-base`)
-      const { doc, reused, variant } = await resolveViaImportLibrary(cap);
-      await actor.addCapacity(doc, null);
-      if (reused) warnings.push(`« ${cap.name} » : réutilise la capacité déjà importée « ${doc.name} ».`);
-      else if (variant) warnings.push(`« ${cap.name} » : nom déjà importé avec un contenu différent, variante créée à examiner.`);
-      else warnings.push(`« ${cap.name} » : absente du compendium et de la bibliothèque d'import, nouvelle entrée créée.`);
+      if (!(await addResolvedCapacity(actor, cap, doc, textOnly, warnings))) continue;
+      const plan = planCapacityResolution({ resolverStatus: resolution.status });
+      if (plan.status === "CREATE_FROM_TEMPLATE") warnings.push(`« ${cap.name} » : variante de « ${resolution.entry.name} » du compendium, vérifier le paramètre.`);
+      continue;
     }
+
+    if (resolution.status === "AMBIGUOUS") {
+      warnings.push(`« ${cap.name} » : plusieurs capacités du compendium correspondent (${resolution.candidates.join(", ")}), créée en texte.`);
+      textOnly.push(buildCapacityItemData(cap));
+      continue;
+    }
+
+    // Priorité 3 — bibliothèque d'import du monde (jamais le pack officiel `cof2-base`)
+    const { doc, reused, variant } = await resolveViaImportLibrary(cap);
+    if (!(await addResolvedCapacity(actor, cap, doc, textOnly, warnings))) continue;
+    const plan = planCapacityResolution({ resolverStatus: "NOT_FOUND", libraryOutcome: { reused, variant } });
+    if (plan.status === "REUSE_IMPORTED") warnings.push(`« ${cap.name} » : réutilise la capacité déjà importée « ${doc.name} ».`);
+    else if (plan.status === "MANUAL_REVIEW") warnings.push(`« ${cap.name} » : nom déjà importé avec un contenu différent, variante créée à examiner.`);
+    else warnings.push(`« ${cap.name} » : absente du compendium et de la bibliothèque d'import, nouvelle entrée créée.`);
   }
   if (textOnly.length) await actor.createEmbeddedDocuments("Item", textOnly);
 
   return { actor, warnings };
 }
 
-export { PACK_ID, buildCapacityResolver, buildAttackData, createEncounter };
+export { PACK_ID, buildCapacityResolver, createEncounter };
