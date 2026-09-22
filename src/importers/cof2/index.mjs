@@ -13,5 +13,7 @@ export {
   unsupportedAutomation,
   missingAbility,
   multipleStatblocks,
+  importWriteFailed,
+  importRollbackFailed,
   toEncounterDraft,
 } from "./parsing/encounterDraft.mjs";

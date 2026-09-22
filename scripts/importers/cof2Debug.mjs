@@ -40,14 +40,24 @@ async function importStatblockFromPrompt() {
   }
 
   try {
-    const { actor, warnings } = await createEncounter(parsed);
+    const { actor, report } = await createEncounter(parsed);
+    if (!actor) {
+      const writeFailure = report.diagnostics.find((d) => d.code === "IMPORT_WRITE_FAILED");
+      ui.notifications.error(`Création impossible : ${writeFailure?.message ?? "import interrompu."} Aucun document résiduel.`);
+      return;
+    }
     ui.notifications.info(`Rencontre « ${actor.name} » créée.`);
     actor.sheet.render(true);
-    if (warnings.length) {
-      console.warn("Statblock | avertissements", warnings);
+    const { counts, warnings } = report;
+    if (warnings.length || counts.errors) {
+      console.warn("Statblock | avertissements", warnings, "compteurs", counts);
+      const rollbackFailed = report.diagnostics.some((d) => d.code === "IMPORT_ROLLBACK_FAILED");
       await DialogV2.prompt({
         window: { title: `${actor.name} : à vérifier`, icon: "fa-solid fa-triangle-exclamation" },
-        content: `<ul>${warnings.map((w) => `<li>${esc(w)}</li>`).join("")}</ul>`,
+        content: `<p>${counts.attacksCreated} attaque(s) créée(s), ${counts.capacitiesReused} capacité(s) réutilisée(s),
+          ${counts.capacitiesCreated} capacité(s) créée(s), ${counts.errors} erreur(s), ${counts.toReview} élément(s) à vérifier.</p>
+          ${rollbackFailed ? "<p><strong>Le rollback automatique a échoué : l'acteur est incomplet, envisager sa suppression manuelle.</strong></p>" : ""}
+          <ul>${warnings.map((w) => `<li>${esc(w)}</li>`).join("")}</ul>`,
         ok: { label: "Fermer" },
         rejectClose: false,
       });
