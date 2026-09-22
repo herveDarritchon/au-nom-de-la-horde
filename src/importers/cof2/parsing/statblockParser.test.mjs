@@ -61,8 +61,17 @@ test("parseStatblock reproduit le comportement de la macro d'origine sur le Cent
   );
   assert.ok(result.capacities.every((c) => c.description.length > 0));
   assert.ok(result.capacities.every((c) => ["high", "medium", "low"].includes(c.confidence)));
+  assert.deepEqual(
+    result.capacities.map((c) => c.frequency),
+    [null, null, null, null]
+  );
 
-  assert.deepEqual(result.diagnostics, []);
+  // « Charge » contient « test de FOR difficulté 16 » et « renversée » dans sa description : patterns niveau B
+  // reconnus mais non structurés (§17 Niveau B), signalés en diagnostic informatif sans bloquer l'import ni
+  // modifier le texte source.
+  assert.ok(codes(result.diagnostics).every((c) => c === "UNSUPPORTED_AUTOMATION"));
+  assert.ok(byMessage(result.diagnostics, /renversée/));
+  assert.ok(byMessage(result.diagnostics, /test de FOR difficulté 16/));
 
   assert.equal(result.source.rawText, centaure);
   assert.ok(result.source.normalizedText.length > 0);
@@ -141,6 +150,22 @@ test("parseAttackLine ne reconnaît pas une ligne DM isolée (limite connue de l
   assert.equal(parseAttackLine("DM 1d8+6"), null);
 });
 
+test("parseStatblock détecte la fréquence explicite d'une capacité (« 1 fois/combat »)", () => {
+  const result = parseStatblock(fixture("golem-rd.txt").replace("La créature inflige des DM supplémentaires si la cible est au sol.", "1 fois/combat, la créature inflige des DM supplémentaires si la cible est au sol."));
+
+  const ecrasement = result.capacities.find((c) => c.name === "Écrasement");
+  assert.deepEqual(ecrasement.frequency, { period: "combat", confidence: "high" });
+  assert.equal(codes(result.diagnostics).includes("UNSUPPORTED_AUTOMATION"), false);
+});
+
+test("parseStatblock ne bloque jamais la création et n'ajoute aucun diagnostic sur une capacité sans pattern niveau B", () => {
+  const result = parseStatblock(fixture("golem-rd.txt"));
+
+  const ecrasement = result.capacities.find((c) => c.name === "Écrasement");
+  assert.equal(ecrasement.frequency, null);
+  assert.deepEqual(result.diagnostics, []);
+});
+
 test("matchTitle sépare le nom de capacité du texte qui suit le deux-points, en extrayant le temps d'action", () => {
   assert.deepEqual(matchTitle("Charge (L) : texte"), {
     rawName: "Charge (L)",
@@ -191,8 +216,10 @@ test("parseStatblock signale les diagnostics sur un statblock imparfait", () => 
 
   assert.equal(result.name, "Ombre errante");
   assert.ok(!result.diagnostics.some((d) => d.severity === "error"));
-  assert.ok(codes(result.diagnostics).every((c) => c === "PDF_NOISE_REMOVED"));
+  assert.ok(codes(result.diagnostics).every((c) => c === "PDF_NOISE_REMOVED" || c === "UNSUPPORTED_AUTOMATION"));
   assert.ok(byMessage(result.diagnostics, /Notes du MJ/));
   assert.ok(byMessage(result.diagnostics, /Un murmure parcourt la salle/));
+  // « Toucher glacial » contient « test de VOL difficulté 14 » : pattern niveau B reconnu mais non structuré.
+  assert.ok(byMessage(result.diagnostics, /test de VOL difficulté 14/));
   assert.equal(result.attacks.length, 0);
 });
