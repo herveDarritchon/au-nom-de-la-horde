@@ -1,7 +1,7 @@
 folder: gdfT79CBtZMnsY2Y
 name: Inébranlable
 type: capacity
-img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/cof2-inebranlable.png
+img: modules/warbound-campaign-content/assets/images/icons/capacites/cof2-inebranlable.png
 system:
   description: >-
     <p>Le Tauren obtient un dé bonus aux tests de FOR ou de CON lorsqu’il
