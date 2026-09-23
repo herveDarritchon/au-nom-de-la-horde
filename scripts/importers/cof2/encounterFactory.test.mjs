@@ -283,30 +283,24 @@ test("createEncounter résout Arc long en ranged via le référentiel COF2 avant
 
 // --- Story 6 : saveToLibrary ---
 
-test("createEncounter avec saveToLibrary:false crée la capacité NOT_FOUND directement dans l'acteur sans appeler la bibliothèque", async () => {
-  const libraryCalls = [];
-  const { createdItems } = setupFoundryMocks({
-    createEmbeddedDocumentsImpl: async (docType, items) => {
-      createdItems.push(...items);
-      return items.map((data, i) => ({ id: `item-${i}`, uuid: `Actor.a1.Item.item-${i}`, toObject: () => ({ system: { actions: [] } }) }));
+test("createEncounter avec saveToLibrary:false crée la capacité NOT_FOUND directement dans l'acteur sans écrire dans la bibliothèque", async () => {
+  const librarySaved = [];
+  globalThis.Item = {
+    createDocuments: async (items) => {
+      librarySaved.push(...items);
+      return items.map((d, i) => ({ _id: `lib-${i}`, name: d.name, flags: d.flags, delete: async () => {} }));
     },
-  });
-  // Surcharge game.packs.get pour détecter tout accès à la bibliothèque d'import
-  const officialGet = game.packs.get.bind(game.packs);
-  game.packs.get = (id) => {
-    if (id === "world.warbound-imported-capacities" || id === "world.warbound-imported-paths") {
-      libraryCalls.push(id);
-    }
-    return officialGet(id);
   };
+  const { createdItems } = setupFoundryMocks();
   const parsed = { ...baseParsed(), capacities: [{ rawName: "Griffe du vide", name: "Griffe du vide", description: "Attaque spectrale.", actionType: "action", frequency: null, parameters: {}, confidence: "high" }] };
 
   const { report } = await createEncounter(parsed, { saveToLibrary: false });
 
-  assert.equal(libraryCalls.length, 0, "la bibliothèque ne doit pas être consultée");
+  assert.equal(librarySaved.length, 0, "rien ne doit être écrit dans la bibliothèque");
   assert.equal(report.counts.capacitiesCreated, 1);
   assert.equal(report.counts.capacitiesReused, 0);
 
+  delete globalThis.Item;
   teardownFoundryMocks();
 });
 
@@ -335,5 +329,46 @@ test("createEncounter avec saveToLibrary:true (défaut) crée une nouvelle capac
   assert.equal(report.counts.capacitiesCreated, 1);
 
   delete globalThis.Item;
+  teardownFoundryMocks();
+});
+
+test("createEncounter avec reuseExisting:false ne réutilise pas la capacité officielle et la crée directement dans l'acteur", async () => {
+  const { createdItems, addedCapacities } = setupFoundryMocks();
+  // "Charge (13)" existe dans le compendium officiel mais reuseExisting:false doit la créer directement
+  const parsed = { ...baseParsed(), capacities: [{ rawName: "Charge (13)", name: "Charge (13)", description: "", actionType: null, frequency: null, parameters: {}, confidence: "high" }] };
+
+  const { report } = await createEncounter(parsed, { reuseExisting: false, saveToLibrary: false });
+
+  assert.equal(addedCapacities.length, 0, "addCapacity ne doit pas être appelé");
+  assert.equal(createdItems.length, 1, "la capacité doit être créée directement dans l'acteur");
+  assert.equal(report.counts.capacitiesCreated, 1);
+  assert.equal(report.counts.capacitiesReused, 0);
+
+  teardownFoundryMocks();
+});
+
+test("createEncounter réutilise une capacité déjà dans la bibliothèque d'import (REUSE_IMPORTED via resolver)", async () => {
+  const importedDoc = { _id: "griffe-lib", name: "Griffe du vide", system: {}, flags: { warbound: { imported: true } } };
+  const libPack = {
+    collection: "world.warbound-imported-capacities",
+    getIndex: async () => [{ _id: "griffe-lib", name: "Griffe du vide", type: "capacity", flags: { warbound: { imported: true } } }],
+    getDocument: async () => importedDoc,
+  };
+  const officialPack = {
+    folders: [{ id: "folder-rencontres", name: "Capacités des rencontres" }],
+    getIndex: async () => [],
+    getDocument: async () => ({}),
+  };
+  const { addedCapacities } = setupFoundryMocks();
+  game.packs.get = (id) => (id === "world.warbound-imported-capacities" ? libPack : officialPack);
+  const parsed = { ...baseParsed(), capacities: [{ rawName: "Griffe du vide", name: "Griffe du vide", description: "", actionType: null, frequency: null, parameters: {}, confidence: "high" }] };
+
+  const { report } = await createEncounter(parsed, { saveToLibrary: true });
+
+  assert.deepEqual(addedCapacities, [importedDoc]);
+  assert.equal(report.counts.capacitiesReused, 1);
+  assert.equal(report.counts.capacitiesCreated, 0);
+  assert.ok(report.warnings.some((w) => w.includes("réutilise")));
+
   teardownFoundryMocks();
 });

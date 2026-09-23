@@ -15,7 +15,7 @@
 
 import { makeCapacityResolver, makeAttackTypeResolver, resolveAttackKind, computeContentHash, compareTemplateVariant, buildDifficultyOverride, capacityParameterMismatch, importWriteFailed, importRollbackFailed } from "../../../src/importers/cof2/index.mjs";
 import { planCapacityResolution } from "../../../src/importers/cof2/planning/capacityPlan.mjs";
-import { ensureImportLibraryPack, findByHash, saveImportedCapacity } from "./importLibrary.mjs";
+import { LIBRARY_PACKS, ensureImportLibraryPack, loadImportedEntries, findByHash, saveImportedCapacity } from "./importLibrary.mjs";
 import { createEncounterActor } from "./actorFactory.mjs";
 import { buildAttackItemData, buildCapacityItemData, buildCapacityVariantItemData } from "./itemFactory.mjs";
 import { addCapacityToActor, getMartialTrainingWeaponGroups } from "./cof2Adapter.mjs";
@@ -61,7 +61,9 @@ async function buildCapacityResolver() {
   const folderIds = new Set(pack.folders.filter((f) => CAPACITY_FOLDERS.includes(f.name)).map((f) => f.id));
   const priority = pack.folders.find((f) => f.name === CAPACITY_FOLDERS[0])?.id;
   const entries = index.filter((e) => e.type === "capacity" && folderIds.has(e.folder));
-  return { pack, resolve: makeCapacityResolver({ officialEntries: entries, priorityFolderId: priority }) };
+  const libPack = game.packs.get(`world.${LIBRARY_PACKS.capacity.name}`);
+  const importedEntries = libPack ? await loadImportedEntries(libPack) : [];
+  return { pack, libPack, resolve: makeCapacityResolver({ officialEntries: entries, priorityFolderId: priority, importedEntries }) };
 }
 
 /**
@@ -187,7 +189,7 @@ async function addTemplateVariantCapacity(actor, cap, resolution, resolver, conf
  *   `null` quand le rollback automatique a réussi ; non-`null` mais incomplet quand le rollback a lui-même échoué
  *   (`report.diagnostics` contient alors `IMPORT_ROLLBACK_FAILED`, l'UI doit proposer sa suppression manuelle).
  */
-async function createEncounter(parsed, { confirmedVariants = new Set(), saveToLibrary = true } = {}) {
+async function createEncounter(parsed, { confirmedVariants = new Set(), saveToLibrary = true, reuseExisting = true } = {}) {
   const warnings = parsed.diagnostics.filter((d) => d.severity !== "error").map((d) => d.message);
   const diagnostics = [...parsed.diagnostics];
   const counts = { attacksCreated: 0, capacitiesReused: 0, capacitiesCreated: 0, errors: 0, toReview: 0 };
@@ -226,7 +228,7 @@ async function createEncounter(parsed, { confirmedVariants = new Set(), saveToLi
     const variantItems = [];
     for (const cap of parsed.capacities) {
       currentFragment = cap.name;
-      const resolution = resolver?.resolve(cap.name) ?? { status: "NOT_FOUND" };
+      const resolution = (reuseExisting && resolver) ? resolver.resolve(cap.name) : { status: "NOT_FOUND" };
 
       if (resolution.status === "EXACT_REUSE") {
         const doc = await resolver.pack.getDocument(resolution.entry._id);
@@ -259,6 +261,20 @@ async function createEncounter(parsed, { confirmedVariants = new Set(), saveToLi
         textOnly.push(buildCapacityItemData(cap));
         counts.capacitiesCreated++;
         counts.toReview++;
+        continue;
+      }
+
+      // REUSE_IMPORTED : capacité déjà dans la bibliothèque d'import, résolue par le resolver (priorité 3)
+      if (resolution.status === "REUSE_IMPORTED" && saveToLibrary) {
+        const doc = await resolver.libPack.getDocument(resolution.entry._id);
+        const outcome = await addResolvedCapacity(actor, cap, doc, textOnly, warnings);
+        if (outcome === "attached") {
+          warnings.push(`« ${cap.name} » : réutilise la capacité déjà importée « ${doc.name} ».`);
+          counts.capacitiesReused++;
+        } else {
+          counts.capacitiesCreated++;
+          counts.toReview++;
+        }
         continue;
       }
 

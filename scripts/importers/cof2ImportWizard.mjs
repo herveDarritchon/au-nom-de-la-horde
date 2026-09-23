@@ -418,7 +418,7 @@ class Cof2ImportWizardApp extends foundry.applications.api.ApplicationV2 {
       return this.render();
     }
     try {
-      const { actor, report } = await createEncounter(this.#draft, { confirmedVariants: this.#confirmedVariants, saveToLibrary: this.#options.saveToLibrary });
+      const { actor, report } = await createEncounter(this.#draft, { confirmedVariants: this.#confirmedVariants, saveToLibrary: this.#options.saveToLibrary, reuseExisting: this.#options.reuseExisting });
       this.#result = { actor, report };
       if (!actor) {
         ui.notifications.error("Création impossible : import annulé, aucun document résiduel.");
