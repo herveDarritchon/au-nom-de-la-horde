@@ -56,7 +56,7 @@
  * @typedef {Object} EncounterDraft
  * @property {ImportSource} source
  * @property {string} name
- * @property {number} nc
+ * @property {number|null} nc
  * @property {string} category
  * @property {string} size
  * @property {Record<string, AbilityDraft>} abilities
@@ -101,7 +101,8 @@ function unsupportedAutomation(fragment) {
 /**
  * Un champ requis du statblock est introuvable. Couvre les 7 caractéristiques (FOR/AGI/CON/PER/CHA/INT/VOL) mais
  * aussi, faute d'un code dédié parmi les 7 codes stables de l'Epic, les autres champs structurants requis (nom,
- * NC, Défense, Points de vigueur, Initiative) : `sourceFragment` précise le champ concerné dans chaque cas.
+ * Défense, Points de vigueur, Initiative) : `sourceFragment` précise le champ concerné dans chaque cas. Le NC est
+ * optionnel et n'est plus couvert par ce diagnostic.
  */
 function missingAbility(field) {
   return diagnostic("error", "MISSING_ABILITY", `Champ requis introuvable : ${field}.`, field);
