@@ -1,0 +1,11 @@
+CENTAURE
+CRÉATURE VIVANTE (HUMANOÏDE) TAILLE GRANDE
+| AGI +3 | CON +6* | FOR +6 (+3) | PER +1* |
+| CHA +0 | INT -1 | VOL +0 |
+(S)DEF 15 (V)PV 30 (I)Init. 14
+Sabots +7 ·
+DM 1d8+6
+Épée longue +7 ·
+DM 1d8+3
+Arc long +4 ·
+DM 1d8

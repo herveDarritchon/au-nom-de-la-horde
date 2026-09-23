@@ -28,9 +28,9 @@ const SIZES = { "très petite": "verySmall", minuscule: "tiny", petite: "small",
 
 const NC_LINE_RE = /^(?:(.*?)\s*\|\s*)?NC\s*(\d+(?:\s*\/\s*\d+)?)\b/;
 const ABILITY_RE = /\b(FOR|AGI|CON|PER|CHA|INT|VOL)\s*([+\-−–]\s*\d+)\s*(\*)?/g;
-const DEF_RE = /(?:^|\s)(?:S\s+)?(?:D[ée]fense|DEF)\s*:?\s*(\d+)/i;
-const HP_RE = /(?:^|\s)(?:V\s+)?(?:Points? de (?:vigueur|vie)|PV)\s*:?\s*(\d+)/i;
-const INIT_RE = /(?:^|\s)(?:I\s+)?(?:Initiative|Init\.?)\s*:?\s*(\d+)/i;
+const DEF_RE = /(?:^|\s)(?:\(S\)\s*|S\s+)?(?:D[ée]fense|DEF)\s*:?\s*(\d+)/i;
+const HP_RE = /(?:^|\s)(?:\(V\)\s*|V\s+)?(?:Points? de (?:vigueur|vie)|PV)\s*:?\s*(\d+)/i;
+const INIT_RE = /(?:^|\s)(?:\(I\)\s*|I\s+)?(?:Initiative|Init\.?)\s*:?\s*(\d+)/i;
 const ATTACK_RE = /^(.+?)\s+([+\-−–]\s*\d+)\s*(?:[·•|]\s*)?(?:DM\s*(.*))?$/;
 const DAMAGE_RE = /^((?:\d*d\d+°?|\d+)(?:\s*[+\-]\s*(?:\d*d\d+°?|\d+))*)\s*(.*)$/i;
 const TITLE_RE = /^([A-ZÀ-ÖØ-Þ][^:.!?\[@]{0,60}?)\s*:\s*(.*)$/;
@@ -48,26 +48,31 @@ function parseStatblock(text) {
     .map((l) => l.trim())
     .filter(Boolean);
 
-  const result = { name: "", nc: 0, category: "living", size: "medium", abilities: {}, defense: null, hp: null, initiative: null, damageReduction: 0, notes: [], attacks: [], capacities: [], diagnostics };
+  const result = { name: "", nc: null, category: "living", size: "medium", abilities: {}, defense: null, hp: null, initiative: null, damageReduction: 0, notes: [], attacks: [], capacities: [], diagnostics };
 
-  // 1. Ligne « | NC x » : le nom est avant sur la même ligne, ou sur la ligne précédente
+  // 1. Ligne « | NC x » : le nom est avant sur la même ligne, ou sur la ligne précédente.
+  // Le NC est optionnel (Bestiaires sans NC imprimé) : son absence n'est pas une erreur bloquante, `nc` reste
+  // `null` et le nom est alors déduit de la première ligne non vide du texte.
   const ncIndex = lines.findIndex((l) => NC_LINE_RE.test(l));
   if (ncIndex < 0) {
-    diagnostics.push(missingAbility("NC"));
-    return toEncounterDraft(result, { rawText, normalizedText });
-  }
-  const ncMatch = lines[ncIndex].match(NC_LINE_RE);
-  const inlineName = ncMatch[1]?.trim();
-  const nameLine = inlineName || lines[ncIndex - 1];
-  if (!nameLine) diagnostics.push(missingAbility("nom"));
-  result.name = cleanName(nameLine ?? "");
-  const skipped = inlineName ? ncIndex : ncIndex - 1;
-  if (skipped > 0) diagnostics.push(pdfNoiseRemoved(lines.slice(0, skipped).join(" / ")));
-  const [num, den] = ncMatch[2].split("/").map((n) => Number(n.trim()));
-  result.nc = den ? num / den : num;
+    const nameLine = lines[0];
+    if (!nameLine) diagnostics.push(missingAbility("nom"));
+    result.name = cleanName(nameLine ?? "");
+    lines = lines.slice(1);
+  } else {
+    const ncMatch = lines[ncIndex].match(NC_LINE_RE);
+    const inlineName = ncMatch[1]?.trim();
+    const nameLine = inlineName || lines[ncIndex - 1];
+    if (!nameLine) diagnostics.push(missingAbility("nom"));
+    result.name = cleanName(nameLine ?? "");
+    const skipped = inlineName ? ncIndex : ncIndex - 1;
+    if (skipped > 0) diagnostics.push(pdfNoiseRemoved(lines.slice(0, skipped).join(" / ")));
+    const [num, den] = ncMatch[2].split("/").map((n) => Number(n.trim()));
+    result.nc = den ? num / den : num;
 
-  // 2. Un deuxième statblock collé par erreur : on s'arrête avant son nom
-  lines = lines.slice(ncIndex + 1);
+    // 2. Un deuxième statblock collé par erreur : on s'arrête avant son nom
+    lines = lines.slice(ncIndex + 1);
+  }
   const nextNc = lines.findIndex((l) => NC_LINE_RE.test(l));
   if (nextNc >= 0) {
     const inline = NC_LINE_RE.exec(lines[nextNc])[1]?.trim();
@@ -90,8 +95,9 @@ function parseStatblock(text) {
       if (!m) continue;
       result[key] = Number(m[1]);
       matched = true;
-      // Suite éventuelle : « (RD 5) » = réduction des DM ; toute autre parenthèse ou « à 100 » n'est pas modélisée
-      const tail = line.slice(m.index + m[0].length).match(/^\s*(\(\s*RD\s*(\d+)\s*\)|\([^)]*\)|à\s*\d+)/i);
+      // Suite éventuelle : « (RD 5) » = réduction des DM ; toute autre parenthèse ou « à 100 » n'est pas modélisée.
+      // Un préfixe décoratif du champ suivant sur la même ligne (« (V)PV », « (I)Init. ») n'est pas une suite.
+      const tail = line.slice(m.index + m[0].length).match(/^\s*(\(\s*RD\s*(\d+)\s*\)|\((?!S\)|V\)|I\))[^)]*\)|à\s*\d+)/i);
       if (tail?.[2]) result.damageReduction = Number(tail[2]);
       else if (tail) diagnostics.push(unsupportedAutomation(`${m[0].trim()} ${tail[1]}`));
     }

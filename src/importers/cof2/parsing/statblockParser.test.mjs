@@ -10,6 +10,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const fixture = (name) => readFileSync(path.join(__dirname, "__fixtures__", name), "utf8");
 const centaure = fixture("centaure.txt");
 const centaurePdfBrut = fixture("centaure-pdf-brut.txt");
+const centaureSansNc = fixture("centaure-sans-nc.txt");
 const statblockUneLigne = fixture("statblock-une-ligne.txt");
 
 const codes = (diagnostics) => diagnostics.map((d) => d.code);
@@ -124,12 +125,65 @@ test("parseStatblock segmente un statblock entièrement collé sur une seule lig
   assert.ok(!result.diagnostics.some((d) => d.severity === "error"));
 });
 
-test("parseStatblock signale une erreur bloquante sans ligne NC", () => {
+test("parseStatblock n'échoue plus bloquant sur l'absence de NC, mais signale toujours les autres champs requis manquants", () => {
   const result = parseStatblock("Un texte quelconque sans statblock.");
+  assert.equal(result.nc, null);
+  assert.ok(!result.diagnostics.some((d) => d.sourceFragment === "NC"));
   const errors = result.diagnostics.filter((d) => d.severity === "error");
   assert.ok(errors.length > 0);
   assert.ok(errors.every((d) => d.code === "MISSING_ABILITY"));
   assert.equal(result.attacks.length, 0);
+});
+
+test("parseStatblock importe le Centaure du Bestiaire officiel sans NC, avec préfixes OCR (S)/(V)/(I) pour DEF/PV/Init", () => {
+  const result = parseStatblock(centaureSansNc);
+
+  assert.equal(result.name, "Centaure");
+  assert.equal(result.nc, null);
+  assert.equal(result.category, "humanoid");
+  assert.equal(result.size, "large");
+
+  assert.equal(result.defense, 15);
+  assert.equal(result.hp, 30);
+  assert.equal(result.initiative, 14);
+
+  assert.equal(result.attacks.length, 3);
+  assert.deepEqual(
+    result.attacks.map((a) => a.name),
+    ["Sabots", "Épée longue", "Arc long"]
+  );
+  assert.deepEqual(
+    result.attacks.map((a) => a.damage),
+    ["1d8+6", "1d8+3", "1d8"]
+  );
+
+  const blockingCodes = ["NC", "Défense", "Points de vigueur", "Initiative"];
+  assert.ok(!result.diagnostics.some((d) => blockingCodes.includes(d.sourceFragment)));
+});
+
+test("les regex DEF/PV/Init acceptent le préfixe décoratif (S)/(V)/(I), espacé ou non, avec « : » ou « . » optionnels", () => {
+  const variants = [
+    "DEF 15",
+    "(S)DEF 15",
+    "(S) DEF 15",
+    "(S)DEF: 15",
+    "PV 30",
+    "(V)PV 30",
+    "(V) PV 30",
+    "(V)PV: 30",
+    "Init. 14",
+    "(I)Init. 14",
+    "(I) Init. 14",
+    "(I)Init 14",
+  ];
+  for (const line of variants) {
+    const statblock = `Aigle commun\n| NC 1\ntaille petite\nAGI +3 CON +2 FOR -3 PER +4 CHA +0 INT -4 VOL +0\n${line}\n`;
+    const result = parseStatblock(statblock);
+    assert.ok(
+      result.defense === 15 || result.hp === 30 || result.initiative === 14,
+      `variante non reconnue : « ${line} »`
+    );
+  }
 });
 
 test("parseAttackLine reconnaît une attaque avec dégâts sur la même ligne", () => {
