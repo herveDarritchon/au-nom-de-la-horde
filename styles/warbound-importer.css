@@ -100,6 +100,18 @@
     opacity: 0.85;
 }
 
+.cof2-diag-result-ignored {
+    color: #a06a00;
+}
+
+.cof2-diag-result-success {
+    color: #2a7a2a;
+}
+
+.cof2-diag-result-warning {
+    color: #b02a2a;
+}
+
 .cof2-import-wizard-button {
     display: inline-flex;
     align-items: center;

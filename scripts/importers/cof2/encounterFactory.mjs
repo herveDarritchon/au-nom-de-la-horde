@@ -29,6 +29,33 @@ const WARBOUND_CAPACITY_ROOT_FOLDER = "Capacités";
 const IMPORT_SOURCE_TYPE = "pdf-text";
 
 /**
+ * Mapping code de diagnostic de parsing (`EncounterDraft.diagnostics[].code`, `severity` interne au parsing, voir
+ * `encounterDraft.mjs`) → `level` du résultat d'import (issue #33). Distinct de `severity` : `level` détermine
+ * emoji/couleur/comptage à l'écran de résultat du wizard, jamais déduit du texte du message. Les codes non listés
+ * ici (ex. un futur 8e code) retombent sur `"warning"` par défaut : plus sûr de signaler un cas non classé comme
+ * « à vérifier » que de le classer silencieusement en succès ou en ignoré.
+ */
+const DIAGNOSTIC_CODE_TO_LEVEL = {
+  PDF_NOISE_REMOVED: "ignored",
+  ATTACK_DAMAGE_RECONNECTED: "ignored",
+  UNSUPPORTED_AUTOMATION: "ignored",
+  AMBIGUOUS_CAPACITY: "warning",
+  CAPACITY_PARAMETER_MISMATCH: "warning",
+  MULTIPLE_STATBLOCKS: "warning",
+};
+
+/**
+ * Pousse un message structuré `{ level, message }` dans le résultat d'import (issue #33). `level` est toujours
+ * fourni explicitement au point d'appel : jamais déduit du texte de `message`.
+ * @param {{level:("ignored"|"success"|"warning"), message:string}[]} messages
+ * @param {"ignored"|"success"|"warning"} level
+ * @param {string} message
+ */
+function pushMessage(messages, level, message) {
+  messages.push({ level, message });
+}
+
+/**
  * @returns {boolean} true si le réglage `cof2ImportDebugLogging` est actif. `game.settings` peut être absent
  *   (tests avec mock Foundry minimal) : toute erreur de lecture est traitée comme « désactivé ».
  */
@@ -193,14 +220,14 @@ function packForResolution(resolver, resolution) {
  * @param {import("../../../src/importers/cof2/parsing/encounterDraft.mjs").CapacityDraft} cap
  * @param {object} doc
  * @param {string[]} textOnly
- * @param {string[]} warnings
+ * @param {{level:string,message:string}[]} messages
  * @returns {Promise<"attached"|"text-fallback">}
  */
-async function addResolvedCapacity(actor, cap, doc, textOnly, warnings) {
+async function addResolvedCapacity(actor, cap, doc, textOnly, messages) {
   const added = await addCapacityToActor(actor, doc);
   if (added.ok) return "attached";
   textOnly.push(buildCapacityItemData(cap));
-  warnings.push(`« ${cap.name} » : addCapacity indisponible sur cet acteur, créée en texte.`);
+  pushMessage(messages, "warning", `« ${cap.name} » : addCapacity indisponible sur cet acteur, créée en texte.`);
   return "text-fallback";
 }
 
@@ -217,10 +244,10 @@ async function addResolvedCapacity(actor, cap, doc, textOnly, warnings) {
  * @param {Set<string>} confirmedVariants Noms (`rawName`) de capacités dont la surcharge a été confirmée
  * @param {object[]} textOnly
  * @param {object[]} variantItems
- * @param {string[]} warnings
+ * @param {{level:string,message:string}[]} messages
  * @returns {Promise<"variant-created"|"reused"|"text-fallback">}
  */
-async function addTemplateVariantCapacity(actor, cap, resolution, resolver, confirmedVariants, textOnly, variantItems, warnings) {
+async function addTemplateVariantCapacity(actor, cap, resolution, resolver, confirmedVariants, textOnly, variantItems, messages) {
   const comparison = compareTemplateVariant(cap.rawName, resolution.entry.name);
   const sourceLabel = resolution.source === "warbound" ? " (Warbound)" : "";
   const pack = packForResolution(resolver, resolution);
@@ -229,16 +256,16 @@ async function addTemplateVariantCapacity(actor, cap, resolution, resolver, conf
     const templateDoc = await pack.getDocument(resolution.entry._id);
     const overriddenSystem = buildDifficultyOverride(templateDoc.toObject().system, comparison.from, comparison.to);
     variantItems.push(buildCapacityVariantItemData(templateDoc, overriddenSystem));
-    warnings.push(`« ${cap.name} » : variante de « ${resolution.entry.name} »${sourceLabel} créée avec difficulté ${comparison.to} (au lieu de ${comparison.from}).`);
+    pushMessage(messages, "success", `« ${cap.name} » : variante de « ${resolution.entry.name} »${sourceLabel} créée avec difficulté ${comparison.to} (au lieu de ${comparison.from}).`);
     return "variant-created";
   }
 
-  if (comparison.status === "UNRECOGNIZED") warnings.push(capacityParameterMismatch(cap.rawName).message);
+  if (comparison.status === "UNRECOGNIZED") pushMessage(messages, "warning", capacityParameterMismatch(cap.rawName).message);
 
   const doc = await pack.getDocument(resolution.entry._id);
-  const outcome = await addResolvedCapacity(actor, cap, doc, textOnly, warnings);
+  const outcome = await addResolvedCapacity(actor, cap, doc, textOnly, messages);
   if (outcome === "text-fallback") return "text-fallback";
-  warnings.push(`« ${cap.name} » : variante de « ${resolution.entry.name} »${sourceLabel} du compendium, vérifier le paramètre.`);
+  pushMessage(messages, "warning", `« ${cap.name} » : variante de « ${resolution.entry.name} »${sourceLabel} du compendium, vérifier le paramètre.`);
   return "reused";
 }
 
@@ -253,7 +280,9 @@ async function addTemplateVariantCapacity(actor, cap, resolution, resolver, conf
  *   (`report.diagnostics` contient alors `IMPORT_ROLLBACK_FAILED`, l'UI doit proposer sa suppression manuelle).
  */
 async function createEncounter(parsed, { confirmedVariants = new Set(), saveToLibrary = true, reuseExisting = true } = {}) {
-  const warnings = parsed.diagnostics.filter((d) => d.severity !== "error").map((d) => d.message);
+  const messages = parsed.diagnostics
+    .filter((d) => d.severity !== "error")
+    .map((d) => ({ level: DIAGNOSTIC_CODE_TO_LEVEL[d.code] ?? "warning", message: d.message }));
   const diagnostics = [...parsed.diagnostics];
   const counts = { attacksCreated: 0, capacitiesReused: 0, capacitiesCreated: 0, errors: 0, toReview: 0 };
   const rollbackActions = [];
@@ -287,7 +316,7 @@ async function createEncounter(parsed, { confirmedVariants = new Set(), saveToLi
     // Capacités : Warbound (priorités 1-2, issue #32), officiel COF2 (priorités 3-4), puis bibliothèque d'import
     // (priorité 5), sinon texte seul
     const resolver = await buildCapacityResolver();
-    if (!resolver && parsed.capacities.length) warnings.push(`Compendium ${PACK_ID} introuvable : capacités créées en texte seul.`);
+    if (!resolver && parsed.capacities.length) pushMessage(messages, "warning", `Compendium ${PACK_ID} introuvable : capacités créées en texte seul.`);
     const textOnly = [];
     const variantItems = [];
     for (const cap of parsed.capacities) {
@@ -296,48 +325,36 @@ async function createEncounter(parsed, { confirmedVariants = new Set(), saveToLi
 
       if (resolution.status === "EXACT_REUSE") {
         const doc = await packForResolution(resolver, resolution).getDocument(resolution.entry._id);
-        const outcome = await addResolvedCapacity(actor, cap, doc, textOnly, warnings);
+        const outcome = await addResolvedCapacity(actor, cap, doc, textOnly, messages);
         if (outcome === "attached") counts.capacitiesReused++;
-        else {
-          counts.capacitiesCreated++;
-          counts.toReview++;
-        }
+        else counts.capacitiesCreated++;
         continue;
       }
 
       if (resolution.status === "TEMPLATE_VARIANT") {
-        const outcome = await addTemplateVariantCapacity(actor, cap, resolution, resolver, confirmedVariants, textOnly, variantItems, warnings);
-        if (outcome === "variant-created") {
-          counts.capacitiesCreated++;
-        } else if (outcome === "text-fallback") {
-          counts.capacitiesCreated++;
-          counts.toReview++;
-        } else {
-          // "reused" : modèle officiel réutilisé tel quel, sans confirmation de surcharge — à vérifier.
-          counts.capacitiesReused++;
-          counts.toReview++;
-        }
+        const outcome = await addTemplateVariantCapacity(actor, cap, resolution, resolver, confirmedVariants, textOnly, variantItems, messages);
+        if (outcome === "variant-created") counts.capacitiesCreated++;
+        else if (outcome === "text-fallback") counts.capacitiesCreated++;
+        else counts.capacitiesReused++; // "reused" : modèle officiel réutilisé tel quel, sans confirmation de surcharge — à vérifier.
         continue;
       }
 
       if (resolution.status === "AMBIGUOUS") {
-        warnings.push(`« ${cap.name} » : plusieurs capacités du compendium correspondent (${resolution.candidates.join(", ")}), créée en texte.`);
+        pushMessage(messages, "warning", `« ${cap.name} » : plusieurs capacités du compendium correspondent (${resolution.candidates.join(", ")}), créée en texte.`);
         textOnly.push(buildCapacityItemData(cap));
         counts.capacitiesCreated++;
-        counts.toReview++;
         continue;
       }
 
       // REUSE_IMPORTED : capacité déjà dans la bibliothèque d'import, résolue par le resolver (priorité 3)
       if (resolution.status === "REUSE_IMPORTED" && saveToLibrary) {
         const doc = await resolver.libPack.getDocument(resolution.entry._id);
-        const outcome = await addResolvedCapacity(actor, cap, doc, textOnly, warnings);
+        const outcome = await addResolvedCapacity(actor, cap, doc, textOnly, messages);
         if (outcome === "attached") {
-          warnings.push(`« ${cap.name} » : réutilise la capacité déjà importée « ${doc.name} ».`);
+          pushMessage(messages, "success", `« ${cap.name} » : réutilise la capacité déjà importée « ${doc.name} ».`);
           counts.capacitiesReused++;
         } else {
           counts.capacitiesCreated++;
-          counts.toReview++;
         }
         continue;
       }
@@ -349,22 +366,20 @@ async function createEncounter(parsed, { confirmedVariants = new Set(), saveToLi
         continue;
       }
       const { doc, reused, variant } = await resolveViaImportLibrary(cap, rollbackActions);
-      const outcome = await addResolvedCapacity(actor, cap, doc, textOnly, warnings);
+      const outcome = await addResolvedCapacity(actor, cap, doc, textOnly, messages);
       if (outcome === "text-fallback") {
         counts.capacitiesCreated++;
-        counts.toReview++;
         continue;
       }
       const plan = planCapacityResolution({ resolverStatus: "NOT_FOUND", libraryOutcome: { reused, variant } });
       if (plan.status === "REUSE_IMPORTED") {
-        warnings.push(`« ${cap.name} » : réutilise la capacité déjà importée « ${doc.name} ».`);
+        pushMessage(messages, "success", `« ${cap.name} » : réutilise la capacité déjà importée « ${doc.name} ».`);
         counts.capacitiesReused++;
       } else if (plan.status === "MANUAL_REVIEW") {
-        warnings.push(`« ${cap.name} » : nom déjà importé avec un contenu différent, variante créée à examiner.`);
+        pushMessage(messages, "warning", `« ${cap.name} » : nom déjà importé avec un contenu différent, variante créée à examiner.`);
         counts.capacitiesCreated++;
-        counts.toReview++;
       } else {
-        warnings.push(`« ${cap.name} » : absente du compendium et de la bibliothèque d'import, nouvelle entrée créée.`);
+        pushMessage(messages, "success", `« ${cap.name} » : absente du compendium et de la bibliothèque d'import, nouvelle entrée créée.`);
         counts.capacitiesCreated++;
       }
     }
@@ -378,6 +393,7 @@ async function createEncounter(parsed, { confirmedVariants = new Set(), saveToLi
     const writeFailure = importWriteFailed(currentFragment, err.message);
     diagnostics.push(writeFailure);
     counts.errors++;
+    counts.toReview = messages.filter((m) => m.level === "warning").length;
     debugLog(writeFailure.code, currentFragment, err.message);
 
     let actorDeleted = false;
@@ -393,10 +409,11 @@ async function createEncounter(parsed, { confirmedVariants = new Set(), saveToLi
         debugLog(rollbackFailure.code, currentFragment, rollbackErr.message);
       }
     }
-    return { actor: actorDeleted ? null : actor, report: { counts, warnings, diagnostics } };
+    return { actor: actorDeleted ? null : actor, report: { counts, messages, diagnostics } };
   }
 
-  return { actor, report: { counts, warnings, diagnostics } };
+  counts.toReview = messages.filter((m) => m.level === "warning").length;
+  return { actor, report: { counts, messages, diagnostics } };
 }
 
 export { PACK_ID, WARBOUND_PACK_ID, DEBUG_LOGGING_SETTING, buildCapacityResolver, buildAttackTypeResolver, createEncounter };
