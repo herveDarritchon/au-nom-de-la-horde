@@ -58,10 +58,10 @@ test("buildCapacityVariantItemData clone le modèle avec le system surchargé et
   const template = { name: "Charge (13)", uuid: "Compendium.cof2-base.cof-2-base-items.Item.abc", system: { learned: true, description: "old" } };
   const overriddenSystem = { description: "<p>test difficulté 16</p>" };
 
-  const data = buildCapacityVariantItemData(template, overriddenSystem);
+  const data = buildCapacityVariantItemData(template, overriddenSystem, "Charge");
 
   assert.equal(data.type, "capacity");
-  assert.equal(data.name, "Charge (13)");
+  assert.equal(data.name, "Charge");
   assert.deepEqual(data.system, { description: "<p>test difficulté 16</p>", learned: true });
   assert.deepEqual(data.flags, { warbound: { imported: true, variantOf: "Compendium.cof2-base.cof-2-base-items.Item.abc" } });
 });
@@ -69,7 +69,7 @@ test("buildCapacityVariantItemData clone le modèle avec le system surchargé et
 test("buildCapacityVariantItemData ne copie pas _id/_stats.compendiumSource du modèle", () => {
   const template = { name: "Charge (13)", _id: "abc", uuid: "Compendium.cof2-base.cof-2-base-items.Item.abc", _stats: { compendiumSource: "Compendium.cof2-base.cof-2-base-items.Item.abc" }, system: {} };
 
-  const data = buildCapacityVariantItemData(template, {});
+  const data = buildCapacityVariantItemData(template, {}, "Charge");
 
   assert.equal(data._id, undefined);
   assert.equal(data._stats, undefined);

@@ -89,11 +89,13 @@ function buildCapacityItemData(cap, { reviewMeta } = {}) {
  * la variante est un document indépendant, jamais une écriture sur l'objet officiel d'origine.
  * @param {{name:string, system:object}} templateDoc Document `Item` modèle (compendium officiel, déjà chargé)
  * @param {object} overriddenSystem `system` surchargé (résultat de `buildDifficultyOverride`)
+ * @param {string} name Identité générique de la capacité source (`cap.name`), jamais le nom paramétré du modèle
+ *   (ex. `"Charge"`, jamais `"Charge (13)"`) : la valeur surchargée ne doit jamais figer l'identité de la capacité.
  * @returns {object} Données d'un `Item` de type `capacity`
  */
-function buildCapacityVariantItemData(templateDoc, overriddenSystem) {
+function buildCapacityVariantItemData(templateDoc, overriddenSystem, name) {
   return {
-    name: templateDoc.name,
+    name,
     type: "capacity",
     system: { ...overriddenSystem, learned: true },
     flags: { warbound: { imported: true, variantOf: templateDoc.uuid ?? templateDoc.name } },
