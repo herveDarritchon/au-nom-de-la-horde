@@ -13,12 +13,12 @@
  * renvoyer un rapport d'échec, sans jamais laisser un acteur à moitié importé silencieusement.
  */
 
-import { makeCapacityResolver, computeContentHash, compareTemplateVariant, buildDifficultyOverride, capacityParameterMismatch, importWriteFailed, importRollbackFailed } from "../../../src/importers/cof2/index.mjs";
+import { makeCapacityResolver, makeAttackTypeResolver, resolveAttackKind, computeContentHash, compareTemplateVariant, buildDifficultyOverride, capacityParameterMismatch, importWriteFailed, importRollbackFailed } from "../../../src/importers/cof2/index.mjs";
 import { planCapacityResolution } from "../../../src/importers/cof2/planning/capacityPlan.mjs";
 import { ensureImportLibraryPack, findByHash, saveImportedCapacity } from "./importLibrary.mjs";
 import { createEncounterActor } from "./actorFactory.mjs";
 import { buildAttackItemData, buildCapacityItemData, buildCapacityVariantItemData } from "./itemFactory.mjs";
-import { addCapacityToActor } from "./cof2Adapter.mjs";
+import { addCapacityToActor, getMartialTrainingWeaponGroups } from "./cof2Adapter.mjs";
 
 const MODULE_ID = "warbound-campaign-content";
 const DEBUG_LOGGING_SETTING = "cof2ImportDebugLogging";
@@ -62,6 +62,39 @@ async function buildCapacityResolver() {
   const priority = pack.folders.find((f) => f.name === CAPACITY_FOLDERS[0])?.id;
   const entries = index.filter((e) => e.type === "capacity" && folderIds.has(e.folder));
   return { pack, resolve: makeCapacityResolver({ officialEntries: entries, priorityFolderId: priority }) };
+}
+
+/**
+ * Construit le resolver de type d'attaque (Issue #29) : nom d'attaque → groupe d'arme COF2
+ * (`getMartialTrainingWeaponGroups`, `cof2Adapter.mjs`) → équipement officiel (`type = equipment`,
+ * `system.subtype = weapon`, `system.martialCategory = <clé du groupe>`) → `action.type` de cet équipement. Ne
+ * maintient aucune liste métier `rangedWeapons[]`/`rangedGroups[]` : seul le référentiel COF2 fait foi.
+ * @returns {Promise<{resolve: ReturnType<typeof makeAttackTypeResolver>}|null>} null si le compendium est absent
+ */
+async function buildAttackTypeResolver() {
+  const pack = game.packs.get(PACK_ID);
+  if (!pack) return null;
+  const groups = getMartialTrainingWeaponGroups();
+
+  const weaponTypeByName = new Map();
+  if (groups.size) {
+    const index = await pack.getIndex({ fields: ["system.subtype", "system.martialCategory"] });
+    const weaponsByGroup = new Map();
+    for (const entry of index) {
+      if (entry.type !== "equipment" || entry.system?.subtype !== "weapon") continue;
+      const category = entry.system?.martialCategory;
+      if (category && !weaponsByGroup.has(category)) weaponsByGroup.set(category, entry);
+    }
+    for (const [normalizedName, groupKey] of groups) {
+      const entry = weaponsByGroup.get(groupKey);
+      if (!entry) continue;
+      const doc = await pack.getDocument(entry._id);
+      const action = doc.system?.actions?.find((a) => ["melee", "ranged", "magical"].includes(a.type));
+      if (action) weaponTypeByName.set(normalizedName, action.type);
+    }
+  }
+
+  return { resolve: makeAttackTypeResolver({ weaponTypeByName }) };
 }
 
 /**
@@ -170,8 +203,12 @@ async function createEncounter(parsed, { confirmedVariants = new Set() } = {}) {
     rollbackActions.push(actorRollback);
     debugLog("ACTOR_CREATED", actor.name ?? parsed.name);
 
-    // Attaques : créées d'un bloc, puis on recâble la `source` de leurs actions sur l'UUID définitif
+    // Attaques : type résolu via le référentiel d'armes COF2 (Issue #29) avant construction des items, puis
+    // créées d'un bloc et on recâble la `source` de leurs actions sur l'UUID définitif
     if (parsed.attacks.length) {
+      const attackTypeResolver = await buildAttackTypeResolver();
+      for (const atk of parsed.attacks) atk.kind = resolveAttackKind(atk, attackTypeResolver?.resolve);
+
       currentFragment = parsed.attacks.map((a) => a.name).join(", ");
       const created = await actor.createEmbeddedDocuments("Item", parsed.attacks.map(buildAttackItemData));
       counts.attacksCreated = created.length;
@@ -277,4 +314,4 @@ async function createEncounter(parsed, { confirmedVariants = new Set() } = {}) {
   return { actor, report: { counts, warnings, diagnostics } };
 }
 
-export { PACK_ID, DEBUG_LOGGING_SETTING, buildCapacityResolver, createEncounter };
+export { PACK_ID, DEBUG_LOGGING_SETTING, buildCapacityResolver, buildAttackTypeResolver, createEncounter };
