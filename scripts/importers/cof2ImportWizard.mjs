@@ -23,6 +23,12 @@ const CAPACITY_STATUS_LABELS = {
   AMBIGUOUS: "Ambiguë (plusieurs correspondances)",
   NOT_FOUND: "Nouvelle capacité",
 };
+// Niveaux du résultat d'import (issue #33) : emoji + classe CSS dérivés uniquement de `level`, jamais du texte du message.
+const LEVEL_META = {
+  ignored: { emoji: "🟡", css: "ignored" },
+  success: { emoji: "🟢", css: "success" },
+  warning: { emoji: "🔴", css: "warning" },
+};
 
 const esc = (s) => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
@@ -279,7 +285,7 @@ class Cof2ImportWizardApp extends foundry.applications.api.ApplicationV2 {
           <button type="button" data-action="back"><i class="fa-solid fa-arrow-left"></i> Précédent</button>
         </footer>`;
     }
-    const { counts, warnings } = report;
+    const { counts, messages } = report;
     const rollbackFailed = report.diagnostics.some((d) => d.code === "IMPORT_ROLLBACK_FAILED");
     const incompleteBanner = counts.errors > 0
       ? `<p class="cof2-diag cof2-diag-error"><strong>Import interrompu</strong>${rollbackFailed ? " — le rollback automatique a échoué, l'acteur est incomplet." : ""}</p>
@@ -296,7 +302,7 @@ class Cof2ImportWizardApp extends foundry.applications.api.ApplicationV2 {
         <li>${counts.errors} erreur(s).</li>
         <li>${counts.toReview} élément(s) à vérifier.</li>
       </ul>
-      ${warnings.length ? `<ul>${warnings.map((w) => `<li class="cof2-diag cof2-diag-warning">${esc(w)}</li>`).join("")}</ul>` : ""}
+      ${messages.length ? `<ul>${messages.map((m) => `<li class="cof2-diag cof2-diag-result-${LEVEL_META[m.level].css}">${LEVEL_META[m.level].emoji} ${esc(m.message)}</li>`).join("")}</ul>` : ""}
       <footer class="form-footer">
         <button type="button" data-action="open-actor" class="default"><i class="fa-solid fa-up-right-from-square"></i> Ouvrir la rencontre</button>
       </footer>`;

@@ -2,6 +2,7 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 
 import { createEncounter, buildAttackTypeResolver, PACK_ID, WARBOUND_PACK_ID } from "./encounterFactory.mjs";
+import { unsupportedAutomation, ambiguousCapacity } from "../../../src/importers/cof2/parsing/encounterDraft.mjs";
 
 globalThis.CONST = { TOKEN_DISPOSITIONS: { HOSTILE: -1 } };
 
@@ -78,12 +79,12 @@ test("createEncounter surcharge la difficulté et crée une variante indépendan
   const { createdItems } = setupFoundryMocks();
   const parsed = { ...baseParsed(), capacities: [{ rawName: "Charge (difficulté 16)", name: "Charge", description: "", actionType: null, frequency: null, parameters: {}, confidence: "high" }] };
 
-  const { report: { warnings } } = await createEncounter(parsed, { confirmedVariants: new Set(["Charge (difficulté 16)"]) });
+  const { report: { messages } } = await createEncounter(parsed, { confirmedVariants: new Set(["Charge (difficulté 16)"]) });
 
   assert.equal(createdItems.length, 1);
   assert.equal(createdItems[0].system.actions[0].resolvers[0].saveDifficulty, "16");
   assert.equal(createdItems[0].system.description, "<p>test de FOR difficulté 16</p>");
-  assert.ok(warnings.some((w) => w.includes("difficulté 16")));
+  assert.ok(messages.some((m) => m.level === "success" && m.message.includes("difficulté 16")));
   assert.equal(CHARGE_TEMPLATE.system.actions[0].resolvers[0].saveDifficulty, "13", "le modèle officiel ne doit jamais être muté");
 
   teardownFoundryMocks();
@@ -93,19 +94,19 @@ test("createEncounter ne surcharge rien sans confirmation (comportement historiq
   const { createdItems, addedCapacities } = setupFoundryMocks();
   const parsed = { ...baseParsed(), capacities: [{ rawName: "Charge (difficulté 16)", name: "Charge", description: "", actionType: null, frequency: null, parameters: {}, confidence: "high" }] };
 
-  const { report: { warnings } } = await createEncounter(parsed);
+  const { report: { messages } } = await createEncounter(parsed);
 
   // Sans confirmation, réutilisation du modèle tel quel (comportement historique) : aucune variante clonée.
   assert.equal(createdItems.length, 0);
   assert.deepEqual(addedCapacities, [CHARGE_TEMPLATE]);
-  assert.ok(warnings.some((w) => w.includes("vérifier le paramètre")));
+  assert.ok(messages.some((m) => m.level === "warning" && m.message.includes("vérifier le paramètre")));
 
   teardownFoundryMocks();
 });
 
 test("createEncounter émet CAPACITY_PARAMETER_MISMATCH quand le paramètre source n'est pas reconnu", async () => {
   const {
-    report: { warnings },
+    report: { messages },
   } = await (async () => {
     setupFoundryMocks();
     const parsed = { ...baseParsed(), capacities: [{ rawName: "Charge (rapide)", name: "Charge", description: "", actionType: null, frequency: null, parameters: {}, confidence: "medium" }] };
@@ -114,7 +115,7 @@ test("createEncounter émet CAPACITY_PARAMETER_MISMATCH quand le paramètre sour
     return result;
   })();
 
-  assert.ok(warnings.some((w) => w.includes("Paramètre de capacité non reconnu")));
+  assert.ok(messages.some((m) => m.level === "warning" && m.message.includes("Paramètre de capacité non reconnu")));
 });
 
 // --- Story 10 : transaction, rollback et rapport final (§20 de l'Epic) ---
@@ -132,6 +133,49 @@ test("createEncounter renvoie un rapport avec compteurs corrects en cas de succ�
   assert.equal(report.counts.errors, 0);
   assert.equal(report.counts.toReview, 0);
   assert.equal(deleteCalls.length, 0);
+
+  teardownFoundryMocks();
+});
+
+// --- Issue #33 : niveaux de diagnostic (ignored/success/warning) dans le résultat d'import ---
+
+test("createEncounter mappe un diagnostic de parsing UNSUPPORTED_AUTOMATION en message level:ignored", async () => {
+  setupFoundryMocks();
+  const parsed = { ...baseParsed(), diagnostics: [unsupportedAutomation("renversée")] };
+
+  const { report } = await createEncounter(parsed);
+
+  assert.ok(report.messages.some((m) => m.level === "ignored" && m.message.includes("renversée")));
+  assert.equal(report.counts.toReview, 0);
+
+  teardownFoundryMocks();
+});
+
+test("createEncounter mappe un diagnostic de parsing AMBIGUOUS_CAPACITY en message level:warning et l'inclut dans toReview", async () => {
+  setupFoundryMocks();
+  const parsed = { ...baseParsed(), diagnostics: [ambiguousCapacity("Charge")] };
+
+  const { report } = await createEncounter(parsed);
+
+  assert.ok(report.messages.some((m) => m.level === "warning" && m.message.includes("Charge")));
+  assert.equal(report.counts.toReview, 1);
+
+  teardownFoundryMocks();
+});
+
+test("createEncounter dérive counts.toReview du nombre exact de messages level:warning dans un scénario mixte", async () => {
+  setupFoundryMocks();
+  const parsed = {
+    ...baseParsed(),
+    diagnostics: [unsupportedAutomation("renversée"), ambiguousCapacity("Charge")],
+    capacities: [{ rawName: "Charge (13)", name: "Charge (13)", description: "", actionType: null, frequency: null, parameters: {}, confidence: "high" }],
+  };
+
+  const { report } = await createEncounter(parsed);
+
+  const warningCount = report.messages.filter((m) => m.level === "warning").length;
+  assert.equal(report.counts.toReview, warningCount);
+  assert.equal(warningCount, 1, "seul le diagnostic AMBIGUOUS_CAPACITY compte, la capacité Charge (13) est réutilisée sans souci (level:success)");
 
   teardownFoundryMocks();
 });
@@ -430,7 +474,7 @@ test("createEncounter réutilise une capacité déjà dans la bibliothèque d'im
   assert.deepEqual(addedCapacities, [importedDoc]);
   assert.equal(report.counts.capacitiesReused, 1);
   assert.equal(report.counts.capacitiesCreated, 0);
-  assert.ok(report.warnings.some((w) => w.includes("réutilise")));
+  assert.ok(report.messages.some((m) => m.level === "success" && m.message.includes("réutilise")));
 
   teardownFoundryMocks();
 });

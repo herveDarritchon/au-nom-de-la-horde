@@ -12,6 +12,9 @@ import { createEncounter } from "./cof2/encounterFactory.mjs";
 
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
+// Niveaux du résultat d'import (issue #33) : emoji dérivé uniquement de `level`, jamais du texte du message.
+const LEVEL_EMOJI = { ignored: "🟡", success: "🟢", warning: "🔴" };
+
 async function importStatblockFromPrompt() {
   const { DialogV2 } = foundry.applications.api;
   if (!Actor.canUserCreate(game.user)) return ui.notifications.error("Vous n'avez pas la permission de créer des acteurs.");
@@ -48,16 +51,16 @@ async function importStatblockFromPrompt() {
     }
     ui.notifications.info(`Rencontre « ${actor.name} » créée.`);
     actor.sheet.render(true);
-    const { counts, warnings } = report;
-    if (warnings.length || counts.errors) {
-      console.warn("Statblock | avertissements", warnings, "compteurs", counts);
+    const { counts, messages } = report;
+    if (messages.length || counts.errors) {
+      console.warn("Statblock | avertissements", messages, "compteurs", counts);
       const rollbackFailed = report.diagnostics.some((d) => d.code === "IMPORT_ROLLBACK_FAILED");
       await DialogV2.prompt({
         window: { title: `${actor.name} : à vérifier`, icon: "fa-solid fa-triangle-exclamation" },
         content: `<p>${counts.attacksCreated} attaque(s) créée(s), ${counts.capacitiesReused} capacité(s) réutilisée(s),
           ${counts.capacitiesCreated} capacité(s) créée(s), ${counts.errors} erreur(s), ${counts.toReview} élément(s) à vérifier.</p>
           ${rollbackFailed ? "<p><strong>Le rollback automatique a échoué : l'acteur est incomplet, envisager sa suppression manuelle.</strong></p>" : ""}
-          <ul>${warnings.map((w) => `<li>${esc(w)}</li>`).join("")}</ul>`,
+          <ul>${messages.map((m) => `<li>${LEVEL_EMOJI[m.level] ?? "🔴"} ${esc(m.message)}</li>`).join("")}</ul>`,
         ok: { label: "Fermer" },
         rejectClose: false,
       });
