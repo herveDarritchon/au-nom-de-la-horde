@@ -4,6 +4,8 @@
  * (Epic Importateur COF2 PDF, §14 Priorité 2, §17 Niveau B). Module pur, sans aucun accès Foundry.
  */
 
+import { extractActionType } from "./capacityResolver.mjs";
+
 const DIFFICULTY_RE = /difficult[ée]\s*(\d+)/i;
 const DISTANCE_RE = /(\d+)\s*m\b/i;
 const DURATION_RE = /(\d+)\s*(?:tours?|rounds?)\b/i;
@@ -21,13 +23,14 @@ function trailingParenContent(name) {
 
 /**
  * Détecte un paramètre numérique (difficulté, distance, durée) dans la parenthèse finale d'un nom de capacité. Un
- * nombre nu (ex. `"Charge (13)"`) suit la convention du compendium officiel : toujours interprété comme une
- * difficulté.
+ * marqueur de type d'action COF2 (`(L)`, `(A)`, `(M)`, `(G)` — issue #34) est d'abord retiré via `extractActionType`
+ * : il ne s'agit jamais d'un paramètre. Un nombre nu (ex. `"Charge (13)"`) suit la convention du compendium
+ * officiel : toujours interprété comme une difficulté.
  * @param {string} name
  * @returns {{kind:"difficulty"|"distance"|"duration", value:number}|null}
  */
 function detectParameter(name) {
-  const content = trailingParenContent(name);
+  const content = trailingParenContent(extractActionType(name).name);
   if (!content) return null;
 
   const difficulty = content.match(DIFFICULTY_RE);
@@ -47,20 +50,27 @@ function detectParameter(name) {
 
 /**
  * @typedef {{status:"OVERRIDABLE"|"DETECTED_NOT_OVERRIDABLE", kind:("difficulty"|"distance"|"duration"), from:number, to:number}
- *   | {status:"UNRECOGNIZED"}} VariantComparison
+ *   | {status:"UNRECOGNIZED"} | {status:"NO_PARAMETER"}} VariantComparison
  */
 
 /**
  * Compare le paramètre détecté dans le nom source à celui du nom du modèle officiel choisi par le resolver.
  * Seule la difficulté est surchargeable automatiquement (§17 Niveau B, `saveDifficulty` a un point d'ancrage
  * structuré fiable) ; distance et durée sont détectées et signalées mais jamais surchargées automatiquement.
+ * Un nom source qui ne porte, après retrait du marqueur de type d'action (`(L)`/`(A)`/`(M)`/`(G)` — issue #34), plus
+ * aucune parenthèse renvoie `NO_PARAMETER` (rien à comparer, ce n'est pas une anomalie) — distinct de `UNRECOGNIZED`,
+ * réservé à une parenthèse effectivement présente mais dont le contenu n'est reconnu dans aucune des formes
+ * attendues.
  * @param {string} draftName Nom source (`CapacityDraft.rawName`)
  * @param {string} templateName Nom de l'entrée modèle du compendium officiel
  * @returns {VariantComparison}
  */
 function compareTemplateVariant(draftName, templateName) {
   const draft = detectParameter(draftName);
-  if (!draft) return { status: "UNRECOGNIZED" };
+  if (!draft) {
+    const draftWithoutActionType = extractActionType(draftName).name;
+    return trailingParenContent(draftWithoutActionType) === null ? { status: "NO_PARAMETER" } : { status: "UNRECOGNIZED" };
+  }
 
   const template = detectParameter(templateName);
   const to = draft.value;

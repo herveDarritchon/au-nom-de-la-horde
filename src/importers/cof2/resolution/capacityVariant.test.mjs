@@ -25,6 +25,13 @@ test("detectParameter renvoie null sans parenthèse finale ou sur un contenu non
   assert.equal(detectParameter("Vol (rapide)"), null);
 });
 
+test("detectParameter ignore un marqueur de type d'action (L/A/M/G) : jamais traité comme paramètre (issue #34)", () => {
+  assert.equal(detectParameter("Charge (L)"), null);
+  assert.equal(detectParameter("Attaque double (A)"), null);
+  assert.equal(detectParameter("Rugissement (M)"), null);
+  assert.equal(detectParameter("Ruée (G)"), null);
+});
+
 test("compareTemplateVariant résout OVERRIDABLE sur une différence de difficulté", () => {
   assert.deepEqual(compareTemplateVariant("Charge (difficulté 16)", "Charge (13)"), {
     status: "OVERRIDABLE",
@@ -49,6 +56,13 @@ test("compareTemplateVariant résout UNRECOGNIZED quand le nom source n'a pas de
 
 test("compareTemplateVariant résout UNRECOGNIZED quand le modèle n'a pas de paramètre de même nature", () => {
   assert.deepEqual(compareTemplateVariant("Charge (difficulté 16)", "Charge (rapide)"), { status: "UNRECOGNIZED" });
+});
+
+test("compareTemplateVariant résout NO_PARAMETER (pas UNRECOGNIZED) quand le nom source ne porte qu'un marqueur de type d'action (issue #34)", () => {
+  assert.deepEqual(compareTemplateVariant("CHARGE (L)", "Charge (13)"), { status: "NO_PARAMETER" });
+  assert.deepEqual(compareTemplateVariant("ATTAQUE DOUBLE (A)", "Attaque double"), { status: "NO_PARAMETER" });
+  assert.deepEqual(compareTemplateVariant("Rugissement (M)", "Rugissement (10 m)"), { status: "NO_PARAMETER" });
+  assert.deepEqual(compareTemplateVariant("Ruée (G)", "Ruée (2 tours)"), { status: "NO_PARAMETER" });
 });
 
 const templateSystemData = {
