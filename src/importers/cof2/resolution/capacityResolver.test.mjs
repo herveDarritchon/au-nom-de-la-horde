@@ -128,3 +128,31 @@ test("makeCapacityResolver ignore Warbound quand warboundEntries est absent (non
   const resolve = makeCapacityResolver({ officialEntries, importedEntries });
   assert.deepEqual(resolve("Discret"), { status: "EXACT_REUSE", entry: officialEntries[4], source: "cof2" });
 });
+
+// --- Issue #35 : correspondance exacte prioritaire sur une variante paramétrée, toutes sources confondues ---
+
+test("makeCapacityResolver préfère une correspondance exacte officielle à une variante Warbound de même nom", () => {
+  const resolve = makeCapacityResolver({
+    warboundEntries: [{ _id: "40", name: "Charge (13)", folder: "wb-folder" }],
+    officialEntries: [{ _id: "41", name: "Charge", folder: "folder-a" }],
+  });
+  assert.deepEqual(resolve("Charge"), { status: "EXACT_REUSE", entry: { _id: "41", name: "Charge", folder: "folder-a" }, source: "cof2" });
+});
+
+test("makeCapacityResolver préfère une correspondance exacte à une variante paramétrée au sein de la même source", () => {
+  const mixed = [
+    { _id: "50", name: "Charge", folder: "folder-a" },
+    { _id: "51", name: "Charge (13)", folder: "folder-a" },
+  ];
+  const resolve = makeCapacityResolver({ officialEntries: mixed });
+  assert.deepEqual(resolve("Charge"), { status: "EXACT_REUSE", entry: mixed[0], source: "cof2" });
+});
+
+test("makeCapacityResolver résout toujours TEMPLATE_VARIANT quand aucune entrée exacte ne correspond au nom demandé", () => {
+  const resolve = makeCapacityResolver({ officialEntries: [{ _id: "51", name: "Charge (13)", folder: "folder-a" }] });
+  assert.deepEqual(resolve("Charge (16)"), {
+    status: "TEMPLATE_VARIANT",
+    entry: { _id: "51", name: "Charge (13)", folder: "folder-a" },
+    source: "cof2",
+  });
+});
