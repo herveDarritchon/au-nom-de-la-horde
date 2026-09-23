@@ -48,9 +48,12 @@ test("makeCapacityResolver applique le dossier prioritaire sur un homonyme exact
   assert.deepEqual(resolve("Résistance"), { status: "EXACT_REUSE", entry: officialEntries[3], source: "cof2" });
 });
 
-test("makeCapacityResolver retombe sur la première entrée sans dossier prioritaire", () => {
+test("makeCapacityResolver signale AMBIGUOUS pour un doublon de nom exact sans dossier prioritaire (issue #36)", () => {
   const resolve = makeCapacityResolver({ officialEntries });
-  assert.deepEqual(resolve("Résistance"), { status: "EXACT_REUSE", entry: officialEntries[2], source: "cof2" });
+  assert.deepEqual(resolve("Résistance"), {
+    status: "AMBIGUOUS",
+    candidates: ["Résistance [folder:folder-a id:3]", "Résistance [folder:folder-b id:4]"],
+  });
 });
 
 test("makeCapacityResolver résout TEMPLATE_VARIANT sans jamais renvoyer EXACT_REUSE pour un paramètre différent", () => {
@@ -154,5 +157,40 @@ test("makeCapacityResolver résout toujours TEMPLATE_VARIANT quand aucune entré
     status: "TEMPLATE_VARIANT",
     entry: { _id: "51", name: "Charge (13)", folder: "folder-a" },
     source: "cof2",
+  });
+});
+
+// --- Issue #36 : doublons de nom exact au sein d'une même source ---
+
+test("makeCapacityResolver tranche un doublon exact « Charge » via le dossier prioritaire configuré", () => {
+  const duplicates = [
+    { _id: "60", name: "Charge", folder: "folder-a" },
+    { _id: "61", name: "Charge", folder: "folder-b" },
+  ];
+  const resolve = makeCapacityResolver({ officialEntries: duplicates, priorityFolderId: "folder-b" });
+  assert.deepEqual(resolve("Charge"), { status: "EXACT_REUSE", entry: duplicates[1], source: "cof2" });
+});
+
+test("makeCapacityResolver signale AMBIGUOUS pour un doublon exact « Charge » sans dossier prioritaire tranchant", () => {
+  const duplicates = [
+    { _id: "60", name: "Charge", folder: "folder-a" },
+    { _id: "61", name: "Charge", folder: "folder-b" },
+  ];
+  const resolve = makeCapacityResolver({ officialEntries: duplicates });
+  assert.deepEqual(resolve("Charge"), {
+    status: "AMBIGUOUS",
+    candidates: ["Charge [folder:folder-a id:60]", "Charge [folder:folder-b id:61]"],
+  });
+});
+
+test("makeCapacityResolver signale AMBIGUOUS pour un doublon exact Warbound sans dossier prioritaire tranchant", () => {
+  const duplicates = [
+    { _id: "70", name: "Discret", folder: "wb-a" },
+    { _id: "71", name: "Discret", folder: "wb-c" },
+  ];
+  const resolve = makeCapacityResolver({ warboundEntries: duplicates, officialEntries, warboundPriorityFolderId: "wb-b" });
+  assert.deepEqual(resolve("Discret"), {
+    status: "AMBIGUOUS",
+    candidates: ["Discret [folder:wb-a id:70]", "Discret [folder:wb-c id:71]"],
   });
 });
