@@ -24,6 +24,8 @@ const MODULE_ID = "warbound-campaign-content";
 const DEBUG_LOGGING_SETTING = "cof2ImportDebugLogging";
 const PACK_ID = "cof2-base.cof-2-base-items";
 const CAPACITY_FOLDERS = ["Capacités des rencontres", "Capacité de base"];
+const WARBOUND_PACK_ID = "warbound-campaign-content.items";
+const WARBOUND_CAPACITY_ROOT_FOLDER = "Capacités";
 const IMPORT_SOURCE_TYPE = "pdf-text";
 
 /**
@@ -50,20 +52,67 @@ function debugLog(code, fragment, message = "") {
 }
 
 /**
- * Charge les capacités de créatures du compendium (dossiers « Capacités des rencontres » et « Capacité de base » uniquement :
- * ce sont les seuls que le bestiaire utilise, les capacités de voies de PJ n'ont rien à faire sur un monstre).
- * @returns {Promise<{pack:object, resolve:ReturnType<typeof makeCapacityResolver>}|null>} null si le compendium est absent
+ * Collecte récursivement les ids de dossiers du pack Warbound pertinents pour un monstre : tout le sous-arbre du
+ * dossier racine « Capacités » (peuples/rencontres), à l'exclusion des dossiers de voies PJ (« Voie(s) du/des … »,
+ * arborescence sans rapport avec le bestiaire). Dégradation silencieuse (Set vide) si le dossier racine est absent
+ * ou ambigu (issue #32).
+ * @param {object} pack Compendium Foundry avec une propriété `folders`
+ * @returns {Set<string>}
+ */
+function collectWarboundCapacityFolderIds(pack) {
+  const folders = pack.folders ?? [];
+  const roots = folders.filter((f) => f.name === WARBOUND_CAPACITY_ROOT_FOLDER && !f.folder);
+  if (roots.length !== 1) return new Set();
+
+  const childrenOf = new Map();
+  for (const f of folders) {
+    if (!childrenOf.has(f.folder)) childrenOf.set(f.folder, []);
+    childrenOf.get(f.folder).push(f);
+  }
+
+  const collected = new Set();
+  const stack = [roots[0]];
+  while (stack.length) {
+    const folder = stack.pop();
+    if (/^voies?\b/i.test(folder.name)) continue;
+    collected.add(folder.id);
+    stack.push(...(childrenOf.get(folder.id) ?? []));
+  }
+  return collected;
+}
+
+/**
+ * Charge les capacités de créatures du compendium officiel COF2 (dossiers « Capacités des rencontres » et
+ * « Capacité de base » uniquement : ce sont les seuls que le bestiaire utilise, les capacités de voies de PJ n'ont
+ * rien à faire sur un monstre) et du pack Warbound (`warbound-campaign-content.items`, sous-arbre « Capacités »,
+ * priorité 1 — issue #32) avant de retomber sur la bibliothèque d'import du monde.
+ * @returns {Promise<{cof2Pack:object, warboundPack:(object|null), libPack:object, resolve:ReturnType<typeof makeCapacityResolver>}|null>}
+ *   null si le compendium officiel COF2 est absent
  */
 async function buildCapacityResolver() {
-  const pack = game.packs.get(PACK_ID);
-  if (!pack) return null;
-  const index = await pack.getIndex({ fields: ["folder"] });
-  const folderIds = new Set(pack.folders.filter((f) => CAPACITY_FOLDERS.includes(f.name)).map((f) => f.id));
-  const priority = pack.folders.find((f) => f.name === CAPACITY_FOLDERS[0])?.id;
+  const cof2Pack = game.packs.get(PACK_ID);
+  if (!cof2Pack) return null;
+  const index = await cof2Pack.getIndex({ fields: ["folder"] });
+  const folderIds = new Set(cof2Pack.folders.filter((f) => CAPACITY_FOLDERS.includes(f.name)).map((f) => f.id));
+  const priority = cof2Pack.folders.find((f) => f.name === CAPACITY_FOLDERS[0])?.id;
   const entries = index.filter((e) => e.type === "capacity" && folderIds.has(e.folder));
+
+  const warboundPack = game.packs.get(WARBOUND_PACK_ID) ?? null;
+  let warboundEntries = [];
+  if (warboundPack) {
+    const warboundFolderIds = collectWarboundCapacityFolderIds(warboundPack);
+    const warboundIndex = await warboundPack.getIndex({ fields: ["folder"] });
+    warboundEntries = warboundIndex.filter((e) => e.type === "capacity" && warboundFolderIds.has(e.folder));
+  }
+
   const libPack = game.packs.get(`world.${LIBRARY_PACKS.capacity.name}`);
   const importedEntries = libPack ? await loadImportedEntries(libPack) : [];
-  return { pack, libPack, resolve: makeCapacityResolver({ officialEntries: entries, priorityFolderId: priority, importedEntries }) };
+  return {
+    cof2Pack,
+    warboundPack,
+    libPack,
+    resolve: makeCapacityResolver({ warboundEntries, officialEntries: entries, priorityFolderId: priority, importedEntries }),
+  };
 }
 
 /**
@@ -125,6 +174,18 @@ async function resolveViaImportLibrary(cap, rollbackActions) {
 }
 
 /**
+ * Sélectionne le pack contenant le document d'une résolution `EXACT_REUSE`/`TEMPLATE_VARIANT`, selon sa
+ * provenance (`resolution.source`, issue #32) : `warboundPack` pour `"warbound"`, `cof2Pack` sinon (`"cof2"`, ou
+ * absence de `source` pour compatibilité avec un ancien appelant).
+ * @param {ReturnType<typeof buildCapacityResolver>} resolver
+ * @param {import("../../../src/importers/cof2/resolution/capacityResolver.mjs").CapacityResolution} resolution
+ * @returns {object}
+ */
+function packForResolution(resolver, resolution) {
+  return resolution.source === "warbound" ? resolver.warboundPack : resolver.cof2Pack;
+}
+
+/**
  * Ajoute une capacité résolue (officielle ou bibliothèque d'import) à l'acteur via `Cof2Adapter`. Si
  * `actor.addCapacity` n'est pas disponible (garde AC #4 de la Story 7), bascule en texte seul plutôt que
  * d'échouer silencieusement.
@@ -161,21 +222,23 @@ async function addResolvedCapacity(actor, cap, doc, textOnly, warnings) {
  */
 async function addTemplateVariantCapacity(actor, cap, resolution, resolver, confirmedVariants, textOnly, variantItems, warnings) {
   const comparison = compareTemplateVariant(cap.rawName, resolution.entry.name);
+  const sourceLabel = resolution.source === "warbound" ? " (Warbound)" : "";
+  const pack = packForResolution(resolver, resolution);
 
   if (comparison.status === "OVERRIDABLE" && confirmedVariants.has(cap.rawName)) {
-    const templateDoc = await resolver.pack.getDocument(resolution.entry._id);
+    const templateDoc = await pack.getDocument(resolution.entry._id);
     const overriddenSystem = buildDifficultyOverride(templateDoc.toObject().system, comparison.from, comparison.to);
     variantItems.push(buildCapacityVariantItemData(templateDoc, overriddenSystem));
-    warnings.push(`« ${cap.name} » : variante de « ${resolution.entry.name} » créée avec difficulté ${comparison.to} (au lieu de ${comparison.from}).`);
+    warnings.push(`« ${cap.name} » : variante de « ${resolution.entry.name} »${sourceLabel} créée avec difficulté ${comparison.to} (au lieu de ${comparison.from}).`);
     return "variant-created";
   }
 
   if (comparison.status === "UNRECOGNIZED") warnings.push(capacityParameterMismatch(cap.rawName).message);
 
-  const doc = await resolver.pack.getDocument(resolution.entry._id);
+  const doc = await pack.getDocument(resolution.entry._id);
   const outcome = await addResolvedCapacity(actor, cap, doc, textOnly, warnings);
   if (outcome === "text-fallback") return "text-fallback";
-  warnings.push(`« ${cap.name} » : variante de « ${resolution.entry.name} » du compendium, vérifier le paramètre.`);
+  warnings.push(`« ${cap.name} » : variante de « ${resolution.entry.name} »${sourceLabel} du compendium, vérifier le paramètre.`);
   return "reused";
 }
 
@@ -221,7 +284,8 @@ async function createEncounter(parsed, { confirmedVariants = new Set(), saveToLi
       debugLog("ATTACKS_CREATED", currentFragment);
     }
 
-    // Capacités : officiel (priorités 1-2) puis bibliothèque d'import (priorité 3), sinon texte seul
+    // Capacités : Warbound (priorités 1-2, issue #32), officiel COF2 (priorités 3-4), puis bibliothèque d'import
+    // (priorité 5), sinon texte seul
     const resolver = await buildCapacityResolver();
     if (!resolver && parsed.capacities.length) warnings.push(`Compendium ${PACK_ID} introuvable : capacités créées en texte seul.`);
     const textOnly = [];
@@ -231,7 +295,7 @@ async function createEncounter(parsed, { confirmedVariants = new Set(), saveToLi
       const resolution = (reuseExisting && resolver) ? resolver.resolve(cap.name) : { status: "NOT_FOUND" };
 
       if (resolution.status === "EXACT_REUSE") {
-        const doc = await resolver.pack.getDocument(resolution.entry._id);
+        const doc = await packForResolution(resolver, resolution).getDocument(resolution.entry._id);
         const outcome = await addResolvedCapacity(actor, cap, doc, textOnly, warnings);
         if (outcome === "attached") counts.capacitiesReused++;
         else {
@@ -335,4 +399,4 @@ async function createEncounter(parsed, { confirmedVariants = new Set(), saveToLi
   return { actor, report: { counts, warnings, diagnostics } };
 }
 
-export { PACK_ID, DEBUG_LOGGING_SETTING, buildCapacityResolver, buildAttackTypeResolver, createEncounter };
+export { PACK_ID, WARBOUND_PACK_ID, DEBUG_LOGGING_SETTING, buildCapacityResolver, buildAttackTypeResolver, createEncounter };

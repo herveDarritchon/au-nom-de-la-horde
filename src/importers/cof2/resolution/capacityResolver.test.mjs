@@ -40,17 +40,17 @@ const importedEntries = [{ _id: "10", name: "Discret pro", folder: "world-lib" }
 
 test("makeCapacityResolver résout EXACT_REUSE sur une correspondance officielle exacte", () => {
   const resolve = makeCapacityResolver({ officialEntries });
-  assert.deepEqual(resolve("Discret"), { status: "EXACT_REUSE", entry: officialEntries[4] });
+  assert.deepEqual(resolve("Discret"), { status: "EXACT_REUSE", entry: officialEntries[4], source: "cof2" });
 });
 
 test("makeCapacityResolver applique le dossier prioritaire sur un homonyme exact identique", () => {
   const resolve = makeCapacityResolver({ officialEntries, priorityFolderId: "folder-b" });
-  assert.deepEqual(resolve("Résistance"), { status: "EXACT_REUSE", entry: officialEntries[3] });
+  assert.deepEqual(resolve("Résistance"), { status: "EXACT_REUSE", entry: officialEntries[3], source: "cof2" });
 });
 
 test("makeCapacityResolver retombe sur la première entrée sans dossier prioritaire", () => {
   const resolve = makeCapacityResolver({ officialEntries });
-  assert.deepEqual(resolve("Résistance"), { status: "EXACT_REUSE", entry: officialEntries[2] });
+  assert.deepEqual(resolve("Résistance"), { status: "EXACT_REUSE", entry: officialEntries[2], source: "cof2" });
 });
 
 test("makeCapacityResolver résout TEMPLATE_VARIANT sans jamais renvoyer EXACT_REUSE pour un paramètre différent", () => {
@@ -62,7 +62,7 @@ test("makeCapacityResolver résout TEMPLATE_VARIANT sans jamais renvoyer EXACT_R
 
 test("makeCapacityResolver résout TEMPLATE_VARIANT sur une variante paramétrée non ambiguë", () => {
   const resolve = makeCapacityResolver({ officialEntries });
-  assert.deepEqual(resolve("Vol (lent)"), { status: "TEMPLATE_VARIANT", entry: officialEntries[5] });
+  assert.deepEqual(resolve("Vol (lent)"), { status: "TEMPLATE_VARIANT", entry: officialEntries[5], source: "cof2" });
 });
 
 test("makeCapacityResolver signale AMBIGUOUS sur une variante paramétrée à plusieurs candidats", () => {
@@ -72,7 +72,7 @@ test("makeCapacityResolver signale AMBIGUOUS sur une variante paramétrée à pl
 
 test("makeCapacityResolver résout REUSE_IMPORTED quand seule la bibliothèque d'import correspond", () => {
   const resolve = makeCapacityResolver({ officialEntries, importedEntries });
-  assert.deepEqual(resolve("Discret pro"), { status: "REUSE_IMPORTED", entry: importedEntries[0] });
+  assert.deepEqual(resolve("Discret pro"), { status: "REUSE_IMPORTED", entry: importedEntries[0], source: "library" });
 });
 
 test("makeCapacityResolver ne redescend jamais vers la bibliothèque d'import quand l'officiel est ambigu", () => {
@@ -86,4 +86,45 @@ test("makeCapacityResolver ne redescend jamais vers la bibliothèque d'import qu
 test("makeCapacityResolver résout NOT_FOUND quand aucune source ne correspond", () => {
   const resolve = makeCapacityResolver({ officialEntries, importedEntries });
   assert.deepEqual(resolve("Capacité inconnue"), { status: "NOT_FOUND" });
+});
+
+// --- Issue #32 : compendiums Warbound en priorité 1 ---
+
+const warboundEntries = [
+  { _id: "20", name: "Discret", folder: "wb-folder" },
+  { _id: "21", name: "Attaque double (A)", folder: "wb-folder" },
+];
+
+test("makeCapacityResolver réutilise la capacité Warbound avant un homonyme officiel COF2", () => {
+  const resolve = makeCapacityResolver({ warboundEntries, officialEntries });
+  assert.deepEqual(resolve("Discret"), { status: "EXACT_REUSE", entry: warboundEntries[0], source: "warbound" });
+});
+
+test("makeCapacityResolver résout TEMPLATE_VARIANT depuis Warbound avant de considérer l'officiel COF2", () => {
+  const resolve = makeCapacityResolver({ warboundEntries, officialEntries });
+  assert.deepEqual(resolve("Attaque double (L)"), { status: "TEMPLATE_VARIANT", entry: warboundEntries[1], source: "warbound" });
+});
+
+test("makeCapacityResolver retombe sur l'officiel COF2 quand Warbound ne correspond pas", () => {
+  const resolve = makeCapacityResolver({ warboundEntries, officialEntries });
+  assert.deepEqual(resolve("Vol (lent)"), { status: "TEMPLATE_VARIANT", entry: officialEntries[5], source: "cof2" });
+});
+
+test("makeCapacityResolver retombe sur la bibliothèque d'import quand ni Warbound ni COF2 ne correspondent", () => {
+  const resolve = makeCapacityResolver({ warboundEntries, officialEntries, importedEntries });
+  assert.deepEqual(resolve("Discret pro"), { status: "REUSE_IMPORTED", entry: importedEntries[0], source: "library" });
+});
+
+test("makeCapacityResolver applique le dossier prioritaire Warbound sur un homonyme Warbound exact", () => {
+  const homonyms = [
+    { _id: "30", name: "Discret", folder: "wb-a" },
+    { _id: "31", name: "Discret", folder: "wb-b" },
+  ];
+  const resolve = makeCapacityResolver({ warboundEntries: homonyms, officialEntries, warboundPriorityFolderId: "wb-b" });
+  assert.deepEqual(resolve("Discret"), { status: "EXACT_REUSE", entry: homonyms[1], source: "warbound" });
+});
+
+test("makeCapacityResolver ignore Warbound quand warboundEntries est absent (non-régression)", () => {
+  const resolve = makeCapacityResolver({ officialEntries, importedEntries });
+  assert.deepEqual(resolve("Discret"), { status: "EXACT_REUSE", entry: officialEntries[4], source: "cof2" });
 });

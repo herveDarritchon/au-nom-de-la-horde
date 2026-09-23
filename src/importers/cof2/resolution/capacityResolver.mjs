@@ -1,8 +1,9 @@
 /**
- * Résolution multi-sources d'une capacité par priorité (compendiums officiels puis bibliothèque d'import du
- * monde), conforme à la section 14 de l'Epic Importateur COF2 : EXACT_REUSE > TEMPLATE_VARIANT > REUSE_IMPORTED >
- * NOT_FOUND, avec détection explicite des homonymes incompatibles (AMBIGUOUS). Aucun fallback approximatif
- * silencieux : chaque issue produit un statut nommé.
+ * Résolution multi-sources d'une capacité par priorité (compendiums Warbound, puis compendiums officiels COF2,
+ * puis bibliothèque d'import du monde — issue #32), conforme à la section 14 de l'Epic Importateur COF2 :
+ * EXACT_REUSE > TEMPLATE_VARIANT > REUSE_IMPORTED > NOT_FOUND, avec détection explicite des homonymes
+ * incompatibles (AMBIGUOUS). Aucun fallback approximatif silencieux : chaque issue produit un statut nommé.
+ * Chaque résolution porteuse d'une `entry` indique sa provenance via `source` (`"warbound"|"cof2"|"library"`).
  *
  * Module pur : reçoit des entrées déjà chargées, ne fait aucun accès Foundry.
  */
@@ -56,43 +57,59 @@ function pickAmongCandidates(candidates, priorityFolderId) {
 }
 
 /**
- * @typedef {{status:"EXACT_REUSE"|"REUSE_IMPORTED"|"TEMPLATE_VARIANT", entry:object}
+ * @typedef {{status:"EXACT_REUSE"|"REUSE_IMPORTED"|"TEMPLATE_VARIANT", entry:object, source:("warbound"|"cof2"|"library")}
  *   | {status:"AMBIGUOUS", candidates:string[]}
  *   | {status:"NOT_FOUND"}} CapacityResolution
  */
 
 /**
  * Construit le resolver de capacités multi-sources.
- * @param {{officialEntries:object[], importedEntries?:object[], priorityFolderId?:string}} sources
+ * @param {{warboundEntries?:object[], officialEntries:object[], importedEntries?:object[], priorityFolderId?:string,
+ *   warboundPriorityFolderId?:string}} sources
  * @returns {(name:string) => CapacityResolution}
  */
-function makeCapacityResolver({ officialEntries, importedEntries = [], priorityFolderId }) {
+function makeCapacityResolver({ warboundEntries = [], officialEntries, importedEntries = [], priorityFolderId, warboundPriorityFolderId }) {
+  const warbound = buildIndex(warboundEntries);
   const official = buildIndex(officialEntries);
   const imported = buildIndex(importedEntries);
 
   return (name) => {
-    // Priorité 1 — correspondance exacte dans les compendiums officiels
+    // Priorité 1 — correspondance exacte dans les compendiums Warbound (issue #32)
+    const warboundExact = warbound.exact.get(normalize(name));
+    if (warboundExact) {
+      const picked = pickAmongCandidates(warboundExact, warboundPriorityFolderId);
+      return "ambiguous" in picked ? { status: "AMBIGUOUS", candidates: picked.ambiguous } : { status: "EXACT_REUSE", entry: picked.entry, source: "warbound" };
+    }
+
+    // Priorité 2 — variante paramétrée connue dans les compendiums Warbound
+    const warboundVariant = warbound.loose.get(normalize(stripParens(name)));
+    if (warboundVariant) {
+      const picked = pickAmongCandidates(warboundVariant, warboundPriorityFolderId);
+      return "ambiguous" in picked ? { status: "AMBIGUOUS", candidates: picked.ambiguous } : { status: "TEMPLATE_VARIANT", entry: picked.entry, source: "warbound" };
+    }
+
+    // Priorité 3 — correspondance exacte dans les compendiums officiels COF2
     const officialExact = official.exact.get(normalize(name));
     if (officialExact) {
       const picked = pickAmongCandidates(officialExact, priorityFolderId);
-      return "ambiguous" in picked ? { status: "AMBIGUOUS", candidates: picked.ambiguous } : { status: "EXACT_REUSE", entry: picked.entry };
+      return "ambiguous" in picked ? { status: "AMBIGUOUS", candidates: picked.ambiguous } : { status: "EXACT_REUSE", entry: picked.entry, source: "cof2" };
     }
 
-    // Priorité 2 — variante paramétrée connue dans les compendiums officiels
+    // Priorité 4 — variante paramétrée connue dans les compendiums officiels COF2
     const officialVariant = official.loose.get(normalize(stripParens(name)));
     if (officialVariant) {
       const picked = pickAmongCandidates(officialVariant, priorityFolderId);
-      return "ambiguous" in picked ? { status: "AMBIGUOUS", candidates: picked.ambiguous } : { status: "TEMPLATE_VARIANT", entry: picked.entry };
+      return "ambiguous" in picked ? { status: "AMBIGUOUS", candidates: picked.ambiguous } : { status: "TEMPLATE_VARIANT", entry: picked.entry, source: "cof2" };
     }
 
-    // Priorité 3 — bibliothèque d'import du monde (capacités déjà importées et validées)
+    // Priorité 5 — bibliothèque d'import du monde (capacités déjà importées et validées)
     const importedExact = imported.exact.get(normalize(name));
     if (importedExact) {
       const picked = pickAmongCandidates(importedExact, priorityFolderId);
-      return "ambiguous" in picked ? { status: "AMBIGUOUS", candidates: picked.ambiguous } : { status: "REUSE_IMPORTED", entry: picked.entry };
+      return "ambiguous" in picked ? { status: "AMBIGUOUS", candidates: picked.ambiguous } : { status: "REUSE_IMPORTED", entry: picked.entry, source: "library" };
     }
 
-    // Priorité 4 — création nécessaire
+    // Priorité 6 — création nécessaire
     return { status: "NOT_FOUND" };
   };
 }
