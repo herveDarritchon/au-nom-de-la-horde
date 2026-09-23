@@ -1,10 +1,17 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
 
 import { createEncounter, buildAttackTypeResolver, PACK_ID, WARBOUND_PACK_ID } from "./encounterFactory.mjs";
 import { unsupportedAutomation, ambiguousCapacity } from "../../../src/importers/cof2/parsing/encounterDraft.mjs";
+import { parseStatblock } from "../../../src/importers/cof2/index.mjs";
 
 globalThis.CONST = { TOKEN_DISPOSITIONS: { HOSTILE: -1 } };
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const centaureFixture = readFileSync(path.join(__dirname, "../../../src/importers/cof2/parsing/__fixtures__/centaure.txt"), "utf8");
 
 const baseParsed = () => ({
   name: "Centaure",
@@ -493,6 +500,43 @@ test("createEncounter réutilise une capacité déjà dans la bibliothèque d'im
   assert.equal(report.counts.capacitiesReused, 1);
   assert.equal(report.counts.capacitiesCreated, 0);
   assert.ok(report.messages.some((m) => m.level === "success" && m.message.includes("réutilise")));
+
+  teardownFoundryMocks();
+});
+
+// --- Issue #38 : test d'intégration bout-en-bout sur le statblock réel du Centaure ---
+
+test("createEncounter importe le statblock complet du Centaure (issue #38) : Charge résolue en EXACT_REUSE, actionType L propagé, aucune variante créée", async () => {
+  const chargeExactDoc = { _id: "charge-exact", name: "Charge", system: { description: "<p>formule dynamique officielle</p>" }, toObject() { return { system: this.system }; } };
+  const charge13Doc = { _id: "charge-13", name: "Charge (13)", system: { description: "<p>test de FOR difficulté 13</p>" }, toObject() { return { system: this.system }; } };
+  const officialPack = {
+    folders: [{ id: "folder-rencontres", name: "Capacités des rencontres" }],
+    getIndex: async () => [
+      { _id: "charge-exact", name: "Charge", type: "capacity", folder: "folder-rencontres" },
+      { _id: "charge-13", name: "Charge (13)", type: "capacity", folder: "folder-rencontres" },
+    ],
+    getDocument: async (id) => (id === "charge-exact" ? chargeExactDoc : charge13Doc),
+  };
+  const { createdItems, addedCapacities } = setupFoundryMocks();
+  game.packs.get = (id) => (id === PACK_ID ? officialPack : undefined);
+
+  const draft = parseStatblock(centaureFixture);
+  assert.deepEqual(draft.capacities.map((c) => c.name), ["Attaque double", "Charge", "Hybride", "Discret"]);
+  assert.equal(draft.capacities.find((c) => c.name === "Charge").actionType, "L");
+  assert.equal(draft.capacities.find((c) => c.name === "Attaque double").actionType, "A");
+  assert.equal(draft.abilities.for.base, 6);
+  assert.match(draft.capacities.find((c) => c.name === "Charge").description, /test de FOR difficulté 16/);
+
+  const { report } = await createEncounter(draft, { saveToLibrary: false });
+
+  assert.deepEqual(addedCapacities, [chargeExactDoc], "Charge doit être attachée via EXACT_REUSE, jamais via la variante Charge (13)");
+  assert.ok(!createdItems.some((i) => i.name === "Charge"), "aucune nouvelle capacité Charge ne doit être créée");
+  const createdCapacityNames = createdItems.filter((i) => i.type === "capacity").map((i) => i.name).sort();
+  assert.deepEqual(createdCapacityNames, ["Attaque double", "Discret", "Hybride"], "les 3 autres capacités du Centaure sont créées en texte (non résolues dans ce mock)");
+  assert.ok(!report.messages.some((m) => /\(L\)/.test(m.message)), "aucun message ne doit mentionner le marqueur de type d'action (L)");
+  assert.ok(!report.messages.some((m) => m.level === "warning" && /paramètre/.test(m.message)), "aucun avertissement de paramètre non reconnu pour Charge");
+  assert.equal(report.counts.capacitiesReused, 1);
+  assert.equal(report.counts.capacitiesCreated, 3);
 
   teardownFoundryMocks();
 });
