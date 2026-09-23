@@ -46,6 +46,13 @@ function buildIndex(entries) {
 }
 
 /**
+ * Départage un groupe de candidats partageant la même clé normalisée. Deux catégories d'ambiguïté sont
+ * distinguées (issue #36) : des noms réellement différents (variantes homonymes, ex. `Charge (13)`/`Charge (15)`)
+ * et des noms strictement identiques (doublons, ex. deux entrées `Charge` dans des dossiers différents). Dans ce
+ * second cas, seul le dossier prioritaire configuré (`priorityFolderId`) peut trancher de façon déterministe ;
+ * s'il ne désigne pas exactement un candidat, le choix n'est jamais arbitraire (plus de repli sur `candidates[0]`)
+ * — l'ambiguïté est remontée avec un libellé par candidat (dossier + id) puisque leurs noms seuls ne les
+ * distinguent pas.
  * @param {object[]} candidates Entrées partageant la même clé normalisée
  * @param {string} [priorityFolderId]
  * @returns {{entry:object}|{ambiguous:string[]}}
@@ -53,7 +60,10 @@ function buildIndex(entries) {
 function pickAmongCandidates(candidates, priorityFolderId) {
   const distinctNames = new Set(candidates.map((e) => e.name));
   if (distinctNames.size > 1) return { ambiguous: [...distinctNames] };
-  return { entry: candidates.find((e) => e.folder === priorityFolderId) ?? candidates[0] };
+  if (candidates.length === 1) return { entry: candidates[0] };
+  const inPriorityFolder = priorityFolderId ? candidates.filter((e) => e.folder === priorityFolderId) : [];
+  if (inPriorityFolder.length === 1) return { entry: inPriorityFolder[0] };
+  return { ambiguous: candidates.map((e) => `${e.name} [folder:${e.folder ?? "?"} id:${e._id ?? "?"}]`) };
 }
 
 /**
