@@ -35,16 +35,20 @@ const CHARGE_TEMPLATE = {
  * Mock Foundry minimal : un compendium officiel avec une seule capacité `Charge (13)`, un acteur qui capture les
  * items créés/embarqués et les capacités ajoutées via `addCapacity` (API COF2, cf. `cof2Adapter.mjs`).
  */
-function setupFoundryMocks() {
+function setupFoundryMocks({ actorDeleteImpl, createEmbeddedDocumentsImpl, debugLoggingEnabled = false } = {}) {
   const createdItems = [];
   const addedCapacities = [];
+  const deleteCalls = [];
+  const debugCalls = [];
   const actor = {
-    createEmbeddedDocuments: async (docType, items) => {
+    id: "a1",
+    createEmbeddedDocuments: createEmbeddedDocumentsImpl ?? (async (docType, items) => {
       createdItems.push(...items);
       return items.map((data, i) => ({ id: `item-${i}`, uuid: `Actor.a1.Item.item-${i}`, toObject: () => ({ system: { actions: [] } }) }));
-    },
+    }),
     updateEmbeddedDocuments: async () => {},
     addCapacity: async (doc) => addedCapacities.push(doc),
+    delete: actorDeleteImpl ?? (async () => deleteCalls.push("actor")),
   };
   globalThis.Actor = { create: async () => actor };
   globalThis.game = {
@@ -55,20 +59,26 @@ function setupFoundryMocks() {
         getDocument: async () => CHARGE_TEMPLATE,
       }),
     },
+    settings: { get: () => debugLoggingEnabled },
   };
-  return { actor, createdItems, addedCapacities };
+  originalConsoleDebug = console.debug;
+  console.debug = (...args) => debugCalls.push(args);
+  return { actor, createdItems, addedCapacities, deleteCalls, debugCalls };
 }
+
+let originalConsoleDebug = console.debug;
 
 function teardownFoundryMocks() {
   delete globalThis.Actor;
   delete globalThis.game;
+  console.debug = originalConsoleDebug;
 }
 
 test("createEncounter surcharge la difficulté et crée une variante indépendante quand confirmée", async () => {
   const { createdItems } = setupFoundryMocks();
   const parsed = { ...baseParsed(), capacities: [{ rawName: "Charge (difficulté 16)", name: "Charge", description: "", actionType: null, frequency: null, parameters: {}, confidence: "high" }] };
 
-  const { warnings } = await createEncounter(parsed, { confirmedVariants: new Set(["Charge (difficulté 16)"]) });
+  const { report: { warnings } } = await createEncounter(parsed, { confirmedVariants: new Set(["Charge (difficulté 16)"]) });
 
   assert.equal(createdItems.length, 1);
   assert.equal(createdItems[0].system.actions[0].resolvers[0].saveDifficulty, "16");
@@ -83,7 +93,7 @@ test("createEncounter ne surcharge rien sans confirmation (comportement historiq
   const { createdItems, addedCapacities } = setupFoundryMocks();
   const parsed = { ...baseParsed(), capacities: [{ rawName: "Charge (difficulté 16)", name: "Charge", description: "", actionType: null, frequency: null, parameters: {}, confidence: "high" }] };
 
-  const { warnings } = await createEncounter(parsed);
+  const { report: { warnings } } = await createEncounter(parsed);
 
   // Sans confirmation, réutilisation du modèle tel quel (comportement historique) : aucune variante clonée.
   assert.equal(createdItems.length, 0);
@@ -94,7 +104,9 @@ test("createEncounter ne surcharge rien sans confirmation (comportement historiq
 });
 
 test("createEncounter émet CAPACITY_PARAMETER_MISMATCH quand le paramètre source n'est pas reconnu", async () => {
-  const { warnings } = await (async () => {
+  const {
+    report: { warnings },
+  } = await (async () => {
     setupFoundryMocks();
     const parsed = { ...baseParsed(), capacities: [{ rawName: "Charge (rapide)", name: "Charge", description: "", actionType: null, frequency: null, parameters: {}, confidence: "medium" }] };
     const result = await createEncounter(parsed);
@@ -103,4 +115,86 @@ test("createEncounter émet CAPACITY_PARAMETER_MISMATCH quand le paramètre sour
   })();
 
   assert.ok(warnings.some((w) => w.includes("Paramètre de capacité non reconnu")));
+});
+
+// --- Story 10 : transaction, rollback et rapport final (§20 de l'Epic) ---
+
+test("createEncounter renvoie un rapport avec compteurs corrects en cas de succès complet, sans rollback", async () => {
+  const { deleteCalls } = setupFoundryMocks();
+  const parsed = { ...baseParsed(), attacks: [{ raw: "", name: "Sabots", kind: "melee", bonus: "+7", damage: "1d6+3", range: null, extra: "", confidence: "high" }], capacities: [{ rawName: "Charge (13)", name: "Charge (13)", description: "", actionType: null, frequency: null, parameters: {}, confidence: "high" }] };
+
+  const { actor, report } = await createEncounter(parsed);
+
+  assert.ok(actor);
+  assert.equal(report.counts.attacksCreated, 1);
+  assert.equal(report.counts.capacitiesReused, 1);
+  assert.equal(report.counts.capacitiesCreated, 0);
+  assert.equal(report.counts.errors, 0);
+  assert.equal(report.counts.toReview, 0);
+  assert.equal(deleteCalls.length, 0);
+
+  teardownFoundryMocks();
+});
+
+test("createEncounter effectue un rollback complet et renvoie actor:null quand l'écriture d'une capacité échoue", async () => {
+  const { deleteCalls } = setupFoundryMocks({
+    createEmbeddedDocumentsImpl: async (docType, items) => {
+      throw new Error("Item.createDocuments a échoué");
+    },
+  });
+  const parsed = { ...baseParsed(), attacks: [{ raw: "", name: "Sabots", kind: "melee", bonus: "+7", damage: "1d6+3", range: null, extra: "", confidence: "high" }] };
+
+  const { actor, report } = await createEncounter(parsed);
+
+  assert.equal(actor, null);
+  assert.deepEqual(deleteCalls, ["actor"]);
+  assert.equal(report.counts.errors, 1);
+  assert.ok(report.diagnostics.some((d) => d.code === "IMPORT_WRITE_FAILED"));
+  assert.ok(!report.diagnostics.some((d) => d.code === "IMPORT_ROLLBACK_FAILED"));
+
+  teardownFoundryMocks();
+});
+
+test("createEncounter renvoie l'acteur partiel et un diagnostic IMPORT_ROLLBACK_FAILED quand le rollback échoue lui-même", async () => {
+  const { deleteCalls } = setupFoundryMocks({
+    actorDeleteImpl: async () => {
+      throw new Error("actor.delete a échoué");
+    },
+    createEmbeddedDocumentsImpl: async () => {
+      throw new Error("Item.createDocuments a échoué");
+    },
+  });
+  const parsed = { ...baseParsed(), attacks: [{ raw: "", name: "Sabots", kind: "melee", bonus: "+7", damage: "1d6+3", range: null, extra: "", confidence: "high" }] };
+
+  const { actor, report } = await createEncounter(parsed);
+
+  assert.ok(actor, "l'acteur partiel doit être renvoyé, pas masqué");
+  assert.equal(deleteCalls.length, 0, "delete n'a jamais réussi");
+  assert.equal(report.counts.errors, 2);
+  assert.ok(report.diagnostics.some((d) => d.code === "IMPORT_WRITE_FAILED"));
+  assert.ok(report.diagnostics.some((d) => d.code === "IMPORT_ROLLBACK_FAILED"));
+
+  teardownFoundryMocks();
+});
+
+test("createEncounter n'émet aucun log de debug quand cof2ImportDebugLogging est désactivé (défaut)", async () => {
+  const { debugCalls } = setupFoundryMocks({ debugLoggingEnabled: false });
+  const parsed = baseParsed();
+
+  await createEncounter(parsed);
+
+  assert.equal(debugCalls.length, 0);
+
+  teardownFoundryMocks();
+});
+
+test("createEncounter émet des logs de debug structurés quand cof2ImportDebugLogging est activé", async () => {
+  const { debugCalls } = setupFoundryMocks({ debugLoggingEnabled: true });
+  const parsed = baseParsed();
+
+  await createEncounter(parsed);
+
+  assert.ok(debugCalls.some(([label]) => label.includes("ACTOR_CREATED")));
+
+  teardownFoundryMocks();
 });

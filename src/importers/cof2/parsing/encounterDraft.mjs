@@ -112,6 +112,16 @@ function multipleStatblocks(fragment) {
   return diagnostic("warning", "MULTIPLE_STATBLOCKS", "Plusieurs statblocks détectés : seul le premier est importé.", fragment);
 }
 
+/** Une écriture Foundry (acteur, attaque, capacité) a échoué pendant l'exécution du plan d'import (§20 de l'Epic). */
+function importWriteFailed(fragment, message) {
+  return diagnostic("error", "IMPORT_WRITE_FAILED", `Échec d'écriture pour « ${fragment} » : ${message}`, fragment);
+}
+
+/** Le rollback automatique n'a pas pu supprimer un document créé pendant un import interrompu (§20 de l'Epic). */
+function importRollbackFailed(fragment, message) {
+  return diagnostic("error", "IMPORT_ROLLBACK_FAILED", `Échec du rollback pour « ${fragment} » : ${message}`, fragment);
+}
+
 /**
  * Assemble l'`EncounterDraft` final à partir du résultat interne du parseur.
  * @param {Omit<EncounterDraft, "source">} parsed Résultat interne du parseur (mêmes champs que `EncounterDraft`, hors `source`)
@@ -130,5 +140,7 @@ export {
   unsupportedAutomation,
   missingAbility,
   multipleStatblocks,
+  importWriteFailed,
+  importRollbackFailed,
   toEncounterDraft,
 };

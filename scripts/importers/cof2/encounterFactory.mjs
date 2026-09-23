@@ -6,18 +6,48 @@
  * bibliothèque d'import (`importLibrary.mjs`, #6), et la traduction en statut `ImportPlan` (§19 de l'Epic) à
  * `capacityPlan.mjs`. Seul point d'écriture Foundry du pipeline d'import COF2, partagé par la commande de debug
  * (`cof2Debug.mjs`) et le wizard d'import (`cof2ImportWizard.mjs`).
+ *
+ * Transaction et rollback (§20 de l'Epic, Story 10) : toute la séquence d'écriture (acteur → attaques →
+ * capacités → bibliothèque → attachement) est enveloppée dans un seul `try/catch`. Chaque écriture réussie pousse
+ * une action de rollback (`rollbackActions`) ; une exception déclenche leur exécution en ordre inverse avant de
+ * renvoyer un rapport d'échec, sans jamais laisser un acteur à moitié importé silencieusement.
  */
 
-import { makeCapacityResolver, computeContentHash, compareTemplateVariant, buildDifficultyOverride, capacityParameterMismatch } from "../../../src/importers/cof2/index.mjs";
+import { makeCapacityResolver, computeContentHash, compareTemplateVariant, buildDifficultyOverride, capacityParameterMismatch, importWriteFailed, importRollbackFailed } from "../../../src/importers/cof2/index.mjs";
 import { planCapacityResolution } from "../../../src/importers/cof2/planning/capacityPlan.mjs";
 import { ensureImportLibraryPack, findByHash, saveImportedCapacity } from "./importLibrary.mjs";
 import { createEncounterActor } from "./actorFactory.mjs";
 import { buildAttackItemData, buildCapacityItemData, buildCapacityVariantItemData } from "./itemFactory.mjs";
 import { addCapacityToActor } from "./cof2Adapter.mjs";
 
+const MODULE_ID = "warbound-campaign-content";
+const DEBUG_LOGGING_SETTING = "cof2ImportDebugLogging";
 const PACK_ID = "cof2-base.cof-2-base-items";
 const CAPACITY_FOLDERS = ["Capacités des rencontres", "Capacité de base"];
 const IMPORT_SOURCE_TYPE = "pdf-text";
+
+/**
+ * @returns {boolean} true si le réglage `cof2ImportDebugLogging` est actif. `game.settings` peut être absent
+ *   (tests avec mock Foundry minimal) : toute erreur de lecture est traitée comme « désactivé ».
+ */
+function isDebugLoggingEnabled() {
+  try {
+    return game.settings.get(MODULE_ID, DEBUG_LOGGING_SETTING) === true;
+  } catch {
+    return false;
+  }
+}
+
+/**
+ * Émet un log de debug structuré (code diagnostic + fragment source) si le réglage `cof2ImportDebugLogging` est
+ * actif, sans jamais modifier le comportement de l'import (AC #5 de l'issue #10).
+ * @param {string} code
+ * @param {string} fragment
+ * @param {string} [message]
+ */
+function debugLog(code, fragment, message = "") {
+  if (isDebugLoggingEnabled()) console.debug(`Import COF2 | ${code}`, { fragment, message });
+}
 
 /**
  * Charge les capacités de créatures du compendium (dossiers « Capacités des rencontres » et « Capacité de base » uniquement :
@@ -39,9 +69,10 @@ async function buildCapacityResolver() {
  * l'entrée existante si son hash de contenu est identique, crée une variante à examiner si le nom correspond déjà
  * à une entrée de hash différent, sinon crée une nouvelle entrée `generated`. N'écrit jamais dans le pack officiel.
  * @param {import("../../../src/importers/cof2/parsing/encounterDraft.mjs").CapacityDraft} cap
+ * @param {(() => Promise<void>)[]} rollbackActions Accumulateur d'actions de rollback (Story 10, §20 de l'Epic)
  * @returns {Promise<{doc:object, reused:boolean, variant:boolean}>}
  */
-async function resolveViaImportLibrary(cap) {
+async function resolveViaImportLibrary(cap, rollbackActions) {
   const pack = await ensureImportLibraryPack("capacity");
   const hash = computeContentHash({ type: "capacity", name: cap.name, description: cap.description, actionType: cap.actionType, frequency: cap.frequency, parameters: cap.parameters });
 
@@ -53,6 +84,8 @@ async function resolveViaImportLibrary(cap) {
   const sameName = index.some((e) => e.name.trim().toLowerCase() === nameNormalized);
   const reviewStatus = sameName ? "review-required" : "generated";
   const doc = await saveImportedCapacity(pack, cap, { hash, sourceType: IMPORT_SOURCE_TYPE, reviewStatus });
+  rollbackActions.push(() => doc.delete());
+  debugLog("IMPORT_LIBRARY_DOC_CREATED", cap.name);
   return { doc, reused: false, variant: sameName };
 }
 
@@ -65,14 +98,14 @@ async function resolveViaImportLibrary(cap) {
  * @param {object} doc
  * @param {string[]} textOnly
  * @param {string[]} warnings
- * @returns {Promise<boolean>} true si la capacité a bien été ajoutée à l'acteur
+ * @returns {Promise<"attached"|"text-fallback">}
  */
 async function addResolvedCapacity(actor, cap, doc, textOnly, warnings) {
   const added = await addCapacityToActor(actor, doc);
-  if (added.ok) return true;
+  if (added.ok) return "attached";
   textOnly.push(buildCapacityItemData(cap));
   warnings.push(`« ${cap.name} » : addCapacity indisponible sur cet acteur, créée en texte.`);
-  return false;
+  return "text-fallback";
 }
 
 /**
@@ -89,6 +122,7 @@ async function addResolvedCapacity(actor, cap, doc, textOnly, warnings) {
  * @param {object[]} textOnly
  * @param {object[]} variantItems
  * @param {string[]} warnings
+ * @returns {Promise<"variant-created"|"reused"|"text-fallback">}
  */
 async function addTemplateVariantCapacity(actor, cap, resolution, resolver, confirmedVariants, textOnly, variantItems, warnings) {
   const comparison = compareTemplateVariant(cap.rawName, resolution.entry.name);
@@ -98,14 +132,16 @@ async function addTemplateVariantCapacity(actor, cap, resolution, resolver, conf
     const overriddenSystem = buildDifficultyOverride(templateDoc.toObject().system, comparison.from, comparison.to);
     variantItems.push(buildCapacityVariantItemData(templateDoc, overriddenSystem));
     warnings.push(`« ${cap.name} » : variante de « ${resolution.entry.name} » créée avec difficulté ${comparison.to} (au lieu de ${comparison.from}).`);
-    return;
+    return "variant-created";
   }
 
   if (comparison.status === "UNRECOGNIZED") warnings.push(capacityParameterMismatch(cap.rawName).message);
 
   const doc = await resolver.pack.getDocument(resolution.entry._id);
-  if (!(await addResolvedCapacity(actor, cap, doc, textOnly, warnings))) return;
+  const outcome = await addResolvedCapacity(actor, cap, doc, textOnly, warnings);
+  if (outcome === "text-fallback") return "text-fallback";
   warnings.push(`« ${cap.name} » : variante de « ${resolution.entry.name} » du compendium, vérifier le paramètre.`);
+  return "reused";
 }
 
 /**
@@ -114,57 +150,131 @@ async function addTemplateVariantCapacity(actor, cap, resolution, resolver, conf
  * @param {{confirmedVariants?:Set<string>}} [options] `confirmedVariants` : noms (`rawName`) de capacités
  *   `TEMPLATE_VARIANT` dont la surcharge de difficulté a été validée par l'utilisateur (écran de comparaison du
  *   wizard, §8). Par défaut vide : aucune surcharge automatique, comportement historique inchangé.
- * @returns {Promise<{actor:Actor, warnings:string[]}>}
+ * @returns {Promise<{actor:(Actor|null), report:import("./encounterFactory.mjs").ImportReport}>} `actor` est
+ *   `null` quand le rollback automatique a réussi ; non-`null` mais incomplet quand le rollback a lui-même échoué
+ *   (`report.diagnostics` contient alors `IMPORT_ROLLBACK_FAILED`, l'UI doit proposer sa suppression manuelle).
  */
 async function createEncounter(parsed, { confirmedVariants = new Set() } = {}) {
   const warnings = parsed.diagnostics.filter((d) => d.severity !== "error").map((d) => d.message);
-  const actor = await createEncounterActor(parsed);
+  const diagnostics = [...parsed.diagnostics];
+  const counts = { attacksCreated: 0, capacitiesReused: 0, capacitiesCreated: 0, errors: 0, toReview: 0 };
+  const rollbackActions = [];
+  let actor = null;
+  let currentFragment = parsed.name || "acteur";
 
-  // Attaques : créées d'un bloc, puis on recâble la `source` de leurs actions sur l'UUID définitif
-  if (parsed.attacks.length) {
-    const created = await actor.createEmbeddedDocuments("Item", parsed.attacks.map(buildAttackItemData));
-    await actor.updateEmbeddedDocuments(
-      "Item",
-      created.map((item) => ({ _id: item.id, "system.actions": item.toObject().system.actions.map((a) => ({ ...a, source: item.uuid })) }))
-    );
+  let actorRollback = null;
+
+  try {
+    actor = await createEncounterActor(parsed);
+    actorRollback = () => actor.delete();
+    rollbackActions.push(actorRollback);
+    debugLog("ACTOR_CREATED", actor.name ?? parsed.name);
+
+    // Attaques : créées d'un bloc, puis on recâble la `source` de leurs actions sur l'UUID définitif
+    if (parsed.attacks.length) {
+      currentFragment = parsed.attacks.map((a) => a.name).join(", ");
+      const created = await actor.createEmbeddedDocuments("Item", parsed.attacks.map(buildAttackItemData));
+      counts.attacksCreated = created.length;
+      await actor.updateEmbeddedDocuments(
+        "Item",
+        created.map((item) => ({ _id: item.id, "system.actions": item.toObject().system.actions.map((a) => ({ ...a, source: item.uuid })) }))
+      );
+      debugLog("ATTACKS_CREATED", currentFragment);
+    }
+
+    // Capacités : officiel (priorités 1-2) puis bibliothèque d'import (priorité 3), sinon texte seul
+    const resolver = await buildCapacityResolver();
+    if (!resolver && parsed.capacities.length) warnings.push(`Compendium ${PACK_ID} introuvable : capacités créées en texte seul.`);
+    const textOnly = [];
+    const variantItems = [];
+    for (const cap of parsed.capacities) {
+      currentFragment = cap.name;
+      const resolution = resolver?.resolve(cap.name) ?? { status: "NOT_FOUND" };
+
+      if (resolution.status === "EXACT_REUSE") {
+        const doc = await resolver.pack.getDocument(resolution.entry._id);
+        const outcome = await addResolvedCapacity(actor, cap, doc, textOnly, warnings);
+        if (outcome === "attached") counts.capacitiesReused++;
+        else {
+          counts.capacitiesCreated++;
+          counts.toReview++;
+        }
+        continue;
+      }
+
+      if (resolution.status === "TEMPLATE_VARIANT") {
+        const outcome = await addTemplateVariantCapacity(actor, cap, resolution, resolver, confirmedVariants, textOnly, variantItems, warnings);
+        if (outcome === "variant-created") {
+          counts.capacitiesCreated++;
+        } else if (outcome === "text-fallback") {
+          counts.capacitiesCreated++;
+          counts.toReview++;
+        } else {
+          // "reused" : modèle officiel réutilisé tel quel, sans confirmation de surcharge — à vérifier.
+          counts.capacitiesReused++;
+          counts.toReview++;
+        }
+        continue;
+      }
+
+      if (resolution.status === "AMBIGUOUS") {
+        warnings.push(`« ${cap.name} » : plusieurs capacités du compendium correspondent (${resolution.candidates.join(", ")}), créée en texte.`);
+        textOnly.push(buildCapacityItemData(cap));
+        counts.capacitiesCreated++;
+        counts.toReview++;
+        continue;
+      }
+
+      // Priorité 3 — bibliothèque d'import du monde (jamais le pack officiel `cof2-base`)
+      const { doc, reused, variant } = await resolveViaImportLibrary(cap, rollbackActions);
+      const outcome = await addResolvedCapacity(actor, cap, doc, textOnly, warnings);
+      if (outcome === "text-fallback") {
+        counts.capacitiesCreated++;
+        counts.toReview++;
+        continue;
+      }
+      const plan = planCapacityResolution({ resolverStatus: "NOT_FOUND", libraryOutcome: { reused, variant } });
+      if (plan.status === "REUSE_IMPORTED") {
+        warnings.push(`« ${cap.name} » : réutilise la capacité déjà importée « ${doc.name} ».`);
+        counts.capacitiesReused++;
+      } else if (plan.status === "MANUAL_REVIEW") {
+        warnings.push(`« ${cap.name} » : nom déjà importé avec un contenu différent, variante créée à examiner.`);
+        counts.capacitiesCreated++;
+        counts.toReview++;
+      } else {
+        warnings.push(`« ${cap.name} » : absente du compendium et de la bibliothèque d'import, nouvelle entrée créée.`);
+        counts.capacitiesCreated++;
+      }
+    }
+    if (textOnly.length || variantItems.length) {
+      currentFragment = "capacités (texte/variantes)";
+      await actor.createEmbeddedDocuments("Item", [...textOnly, ...variantItems]);
+      debugLog("CAPACITIES_ATTACHED", currentFragment);
+    }
+  } catch (err) {
+    console.error(err);
+    const writeFailure = importWriteFailed(currentFragment, err.message);
+    diagnostics.push(writeFailure);
+    counts.errors++;
+    debugLog(writeFailure.code, currentFragment, err.message);
+
+    let actorDeleted = false;
+    for (const rollback of rollbackActions.reverse()) {
+      try {
+        await rollback();
+        if (rollback === actorRollback) actorDeleted = true;
+      } catch (rollbackErr) {
+        console.error(rollbackErr);
+        const rollbackFailure = importRollbackFailed(currentFragment, rollbackErr.message);
+        diagnostics.push(rollbackFailure);
+        counts.errors++;
+        debugLog(rollbackFailure.code, currentFragment, rollbackErr.message);
+      }
+    }
+    return { actor: actorDeleted ? null : actor, report: { counts, warnings, diagnostics } };
   }
 
-  // Capacités : officiel (priorités 1-2) puis bibliothèque d'import (priorité 3), sinon texte seul
-  const resolver = await buildCapacityResolver();
-  if (!resolver && parsed.capacities.length) warnings.push(`Compendium ${PACK_ID} introuvable : capacités créées en texte seul.`);
-  const textOnly = [];
-  const variantItems = [];
-  for (const cap of parsed.capacities) {
-    const resolution = resolver?.resolve(cap.name) ?? { status: "NOT_FOUND" };
-
-    if (resolution.status === "EXACT_REUSE") {
-      const doc = await resolver.pack.getDocument(resolution.entry._id);
-      await addResolvedCapacity(actor, cap, doc, textOnly, warnings);
-      continue;
-    }
-
-    if (resolution.status === "TEMPLATE_VARIANT") {
-      await addTemplateVariantCapacity(actor, cap, resolution, resolver, confirmedVariants, textOnly, variantItems, warnings);
-      continue;
-    }
-
-    if (resolution.status === "AMBIGUOUS") {
-      warnings.push(`« ${cap.name} » : plusieurs capacités du compendium correspondent (${resolution.candidates.join(", ")}), créée en texte.`);
-      textOnly.push(buildCapacityItemData(cap));
-      continue;
-    }
-
-    // Priorité 3 — bibliothèque d'import du monde (jamais le pack officiel `cof2-base`)
-    const { doc, reused, variant } = await resolveViaImportLibrary(cap);
-    if (!(await addResolvedCapacity(actor, cap, doc, textOnly, warnings))) continue;
-    const plan = planCapacityResolution({ resolverStatus: "NOT_FOUND", libraryOutcome: { reused, variant } });
-    if (plan.status === "REUSE_IMPORTED") warnings.push(`« ${cap.name} » : réutilise la capacité déjà importée « ${doc.name} ».`);
-    else if (plan.status === "MANUAL_REVIEW") warnings.push(`« ${cap.name} » : nom déjà importé avec un contenu différent, variante créée à examiner.`);
-    else warnings.push(`« ${cap.name} » : absente du compendium et de la bibliothèque d'import, nouvelle entrée créée.`);
-  }
-  if (textOnly.length || variantItems.length) await actor.createEmbeddedDocuments("Item", [...textOnly, ...variantItems]);
-
-  return { actor, warnings };
+  return { actor, report: { counts, warnings, diagnostics } };
 }
 
-export { PACK_ID, buildCapacityResolver, createEncounter };
+export { PACK_ID, DEBUG_LOGGING_SETTING, buildCapacityResolver, createEncounter };

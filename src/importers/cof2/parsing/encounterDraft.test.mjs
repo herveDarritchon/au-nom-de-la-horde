@@ -9,6 +9,8 @@ import {
   unsupportedAutomation,
   missingAbility,
   multipleStatblocks,
+  importWriteFailed,
+  importRollbackFailed,
   toEncounterDraft,
 } from "./encounterDraft.mjs";
 
@@ -39,6 +41,22 @@ test("chaque constructeur de diagnostic produit un code stable parmi les 7 de l'
     assert.ok(diagnostic.message.length > 0);
     assert.equal(diagnostic.sourceFragment, sourceFragment);
   }
+});
+
+test("importWriteFailed et importRollbackFailed produisent un diagnostic d'erreur avec code et fragment (Story 10, §20 de l'Epic)", () => {
+  const write = importWriteFailed("Charge", "Item.createDocuments a échoué");
+  assert.equal(write.code, "IMPORT_WRITE_FAILED");
+  assert.equal(write.severity, "error");
+  assert.equal(write.sourceFragment, "Charge");
+  assert.match(write.message, /Charge/);
+  assert.match(write.message, /Item\.createDocuments a échoué/);
+
+  const rollback = importRollbackFailed("Centaure", "actor.delete a échoué");
+  assert.equal(rollback.code, "IMPORT_ROLLBACK_FAILED");
+  assert.equal(rollback.severity, "error");
+  assert.equal(rollback.sourceFragment, "Centaure");
+  assert.match(rollback.message, /Centaure/);
+  assert.match(rollback.message, /actor\.delete a échoué/);
 });
 
 test("pdfNoiseRemoved accepte une sévérité explicite pour une ligne de corps non reconnue", () => {

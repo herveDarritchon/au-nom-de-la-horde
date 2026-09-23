@@ -263,7 +263,7 @@ class Cof2ImportWizardApp extends foundry.applications.api.ApplicationV2 {
 
   #renderResult() {
     if (!this.#result) return `${this.#renderStepper()}<p><em>Création en cours…</em></p>`;
-    const { actor, warnings, error } = this.#result;
+    const { actor, report, error } = this.#result;
     if (error) {
       return `
         ${this.#renderStepper()}
@@ -272,15 +272,32 @@ class Cof2ImportWizardApp extends foundry.applications.api.ApplicationV2 {
           <button type="button" data-action="back"><i class="fa-solid fa-arrow-left"></i> Précédent</button>
         </footer>`;
     }
-    const created = this.#draft.attacks.length;
-    const toReview = warnings.length;
+    if (!actor) {
+      const writeFailure = report.diagnostics.find((d) => d.code === "IMPORT_WRITE_FAILED");
+      return `
+        ${this.#renderStepper()}
+        <p class="cof2-diag cof2-diag-error"><strong>Échec de la création :</strong> ${esc(writeFailure?.message ?? "import interrompu.")}</p>
+        <p><em>Aucun document résiduel.</em></p>
+        <footer class="form-footer">
+          <button type="button" data-action="back"><i class="fa-solid fa-arrow-left"></i> Précédent</button>
+        </footer>`;
+    }
+    const { counts, warnings } = report;
+    const rollbackFailed = report.diagnostics.some((d) => d.code === "IMPORT_ROLLBACK_FAILED");
+    const incompleteBanner = counts.errors > 0
+      ? `<p class="cof2-diag cof2-diag-error"><strong>Import interrompu</strong>${rollbackFailed ? " — le rollback automatique a échoué, l'acteur est incomplet." : ""}</p>
+         <button type="button" data-action="delete-incomplete-actor"><i class="fa-solid fa-trash"></i> Supprimer l'acteur incomplet</button>`
+      : "";
     return `
       ${this.#renderStepper()}
       <p><strong>${esc(actor.name)}</strong> créé.</p>
+      ${incompleteBanner}
       <ul>
-        <li>${created} attaque(s) créée(s).</li>
-        <li>${this.#draft.capacities.length} capacité(s) traitée(s).</li>
-        <li>${toReview} élément(s) à vérifier.</li>
+        <li>${counts.attacksCreated} attaque(s) créée(s).</li>
+        <li>${counts.capacitiesReused} capacité(s) réutilisée(s).</li>
+        <li>${counts.capacitiesCreated} capacité(s) créée(s).</li>
+        <li>${counts.errors} erreur(s).</li>
+        <li>${counts.toReview} élément(s) à vérifier.</li>
       </ul>
       ${warnings.length ? `<ul>${warnings.map((w) => `<li class="cof2-diag cof2-diag-warning">${esc(w)}</li>`).join("")}</ul>` : ""}
       <footer class="form-footer">
@@ -340,7 +357,27 @@ class Cof2ImportWizardApp extends foundry.applications.api.ApplicationV2 {
       case "open-actor":
         this.#result?.actor?.sheet?.render(true);
         return;
+      case "delete-incomplete-actor":
+        return this.#deleteIncompleteActor();
     }
+  }
+
+  /**
+   * Supprime manuellement l'acteur incomplet renvoyé quand le rollback automatique a lui-même échoué (§20 de
+   * l'Epic, Story 10, AC « proposer de supprimer l'acteur incomplet »).
+   */
+  async #deleteIncompleteActor() {
+    const actor = this.#result?.actor;
+    if (!actor) return;
+    try {
+      await actor.delete();
+      this.#result = { ...this.#result, actor: null };
+      ui.notifications.info("Acteur incomplet supprimé.");
+    } catch (err) {
+      console.error(err);
+      ui.notifications.error(`Suppression impossible : ${err.message}`);
+    }
+    return this.render();
   }
 
   async #analyze() {
@@ -380,10 +417,16 @@ class Cof2ImportWizardApp extends foundry.applications.api.ApplicationV2 {
       return this.render();
     }
     try {
-      const { actor, warnings } = await createEncounter(this.#draft, { confirmedVariants: this.#confirmedVariants });
-      this.#result = { actor, warnings };
-      if (this.#options.openSheet) actor.sheet.render(true);
-      ui.notifications.info(`Rencontre « ${actor.name} » créée.`);
+      const { actor, report } = await createEncounter(this.#draft, { confirmedVariants: this.#confirmedVariants });
+      this.#result = { actor, report };
+      if (!actor) {
+        ui.notifications.error("Création impossible : import annulé, aucun document résiduel.");
+      } else if (report.counts.errors > 0) {
+        ui.notifications.warn(`Rencontre « ${actor.name} » créée en partie : import interrompu, rollback incomplet.`);
+      } else {
+        if (this.#options.openSheet) actor.sheet.render(true);
+        ui.notifications.info(`Rencontre « ${actor.name} » créée.`);
+      }
     } catch (err) {
       console.error(err);
       this.#result = { error: err.message };
@@ -403,6 +446,15 @@ function openCof2ImportWizard() {
 }
 
 Hooks.once("ready", () => {
+  game.settings?.register?.(MODULE_ID, "cof2ImportDebugLogging", {
+    name: "Import COF2 : logs de debug détaillés",
+    hint: "Émet dans la console un log structuré (code diagnostic + fragment) à chaque étape d'écriture d'un import COF2.",
+    scope: "client",
+    config: true,
+    type: Boolean,
+    default: false,
+  });
+
   game.settings?.registerMenu?.(MODULE_ID, "cof2ImportWizard", {
     name: "Importer une rencontre COF2",
     label: "Ouvrir l'importateur",
