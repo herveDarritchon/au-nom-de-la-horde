@@ -82,6 +82,7 @@ test("createEncounter surcharge la difficulté et crée une variante indépendan
   const { report: { messages } } = await createEncounter(parsed, { confirmedVariants: new Set(["Charge (difficulté 16)"]) });
 
   assert.equal(createdItems.length, 1);
+  assert.equal(createdItems[0].name, "Charge", "l'identité générique doit être conservée, jamais le nom paramétré du modèle");
   assert.equal(createdItems[0].system.actions[0].resolvers[0].saveDifficulty, "16");
   assert.equal(createdItems[0].system.description, "<p>test de FOR difficulté 16</p>");
   assert.ok(messages.some((m) => m.level === "success" && m.message.includes("difficulté 16")));

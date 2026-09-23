@@ -255,7 +255,7 @@ async function addTemplateVariantCapacity(actor, cap, resolution, resolver, conf
   if (comparison.status === "OVERRIDABLE" && confirmedVariants.has(cap.rawName)) {
     const templateDoc = await pack.getDocument(resolution.entry._id);
     const overriddenSystem = buildDifficultyOverride(templateDoc.toObject().system, comparison.from, comparison.to);
-    variantItems.push(buildCapacityVariantItemData(templateDoc, overriddenSystem));
+    variantItems.push(buildCapacityVariantItemData(templateDoc, overriddenSystem, cap.name));
     pushMessage(messages, "success", `« ${cap.name} » : variante de « ${resolution.entry.name} »${sourceLabel} créée avec difficulté ${comparison.to} (au lieu de ${comparison.from}).`);
     return "variant-created";
   }
