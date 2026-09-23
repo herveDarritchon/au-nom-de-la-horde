@@ -118,6 +118,23 @@ test("createEncounter émet CAPACITY_PARAMETER_MISMATCH quand le paramètre sour
   assert.ok(messages.some((m) => m.level === "warning" && m.message.includes("Paramètre de capacité non reconnu")));
 });
 
+test("createEncounter n'émet pas CAPACITY_PARAMETER_MISMATCH quand le nom source ne porte qu'un marqueur de type d'action (issue #34)", async () => {
+  const {
+    report: { messages },
+  } = await (async () => {
+    setupFoundryMocks();
+    const parsed = { ...baseParsed(), capacities: [{ rawName: "CHARGE (L)", name: "Charge", description: "", actionType: "L", frequency: null, parameters: {}, confidence: "high" }] };
+    const result = await createEncounter(parsed);
+    teardownFoundryMocks();
+    return result;
+  })();
+
+  assert.ok(
+    !messages.some((m) => m.message.includes("Paramètre de capacité non reconnu")),
+    "« CHARGE (L) » ne doit jamais déclencher CAPACITY_PARAMETER_MISMATCH : (L) est un type d'action, pas un paramètre",
+  );
+});
+
 // --- Story 10 : transaction, rollback et rapport final (§20 de l'Epic) ---
 
 test("createEncounter renvoie un rapport avec compteurs corrects en cas de succès complet, sans rollback", async () => {
