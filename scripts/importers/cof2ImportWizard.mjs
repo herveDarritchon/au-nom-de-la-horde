@@ -6,8 +6,8 @@
  * (`buildCapacityResolver`, non destructive). Toute l'écriture Foundry est déléguée à `cof2/encounterFactory.mjs`.
  */
 
-import { parseStatblock, compareTemplateVariant } from "../../src/importers/cof2/index.mjs";
-import { buildCapacityResolver, createEncounter } from "./cof2/encounterFactory.mjs";
+import { parseStatblock, compareTemplateVariant, resolveAttackKind } from "../../src/importers/cof2/index.mjs";
+import { buildCapacityResolver, buildAttackTypeResolver, createEncounter } from "./cof2/encounterFactory.mjs";
 
 const MODULE_ID = "warbound-campaign-content";
 
@@ -397,6 +397,10 @@ class Cof2ImportWizardApp extends foundry.applications.api.ApplicationV2 {
     this.#draft = draft;
     this.#capacityHits = new Map();
     this.#confirmedVariants = new Set();
+    const attackTypeResolver = await buildAttackTypeResolver();
+    draft.attacks.forEach((atk) => {
+      atk.kind = resolveAttackKind(atk, attackTypeResolver?.resolve);
+    });
     const resolver = await buildCapacityResolver();
     draft.capacities.forEach((cap, i) => {
       const resolution = resolver?.resolve(cap.name);

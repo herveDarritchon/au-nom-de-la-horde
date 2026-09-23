@@ -1,5 +1,6 @@
 export { parseStatblock, parseAttackLine, matchTitle, ABILITIES, SIZES } from "./parsing/statblockParser.mjs";
 export { makeCapacityResolver, normalize, stripParens, extractActionType } from "./resolution/capacityResolver.mjs";
+export { normalizeWeaponName, makeAttackTypeResolver, resolveAttackKind } from "./resolution/attackTypeResolver.mjs";
 export { detectParameter, compareTemplateVariant, buildDifficultyOverride } from "./resolution/capacityVariant.mjs";
 export { detectFrequency, detectState, detectAbilityTest, detectNumericBonus } from "./parsing/capacityAutomation.mjs";
 export { computeContentHash } from "./library/contentHash.mjs";

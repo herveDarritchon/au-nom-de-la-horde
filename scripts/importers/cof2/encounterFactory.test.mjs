@@ -1,7 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 
-import { createEncounter } from "./encounterFactory.mjs";
+import { createEncounter, buildAttackTypeResolver } from "./encounterFactory.mjs";
 
 globalThis.CONST = { TOKEN_DISPOSITIONS: { HOSTILE: -1 } };
 
@@ -197,4 +197,86 @@ test("createEncounter émet des logs de debug structurés quand cof2ImportDebugL
   assert.ok(debugCalls.some(([label]) => label.includes("ACTOR_CREATED")));
 
   teardownFoundryMocks();
+});
+
+/**
+ * Mock Foundry pour `buildAttackTypeResolver` (Issue #29) : un référentiel COF2 avec le groupe `longBow`
+ * (« Arc long ») et un équipement correspondant (`martialCategory: "longBow"`) dont l'action est `ranged`.
+ */
+function setupAttackTypeMocks() {
+  globalThis.game = {
+    system: { CONST: { martialTrainingsWeapons: [{ key: "longBow", label: "COFBASE.config.martialTrainingWeapon.longBow" }] } },
+    i18n: { localize: (key) => ({ "COFBASE.config.martialTrainingWeapon.longBow": "Arc long" })[key] },
+    packs: {
+      get: () => ({
+        getIndex: async () => [{ _id: "arc-long", type: "equipment", system: { subtype: "weapon", martialCategory: "longBow" } }],
+        getDocument: async () => ({ system: { actions: [{ type: "ranged" }] } }),
+      }),
+    },
+  };
+}
+
+test("buildAttackTypeResolver résout Arc long en ranged via le référentiel COF2", async () => {
+  setupAttackTypeMocks();
+
+  const resolver = await buildAttackTypeResolver();
+
+  assert.equal(resolver.resolve("Arc long"), "ranged");
+  assert.equal(resolver.resolve("Sabots"), null);
+
+  delete globalThis.game;
+});
+
+test("buildAttackTypeResolver renvoie null quand le compendium officiel est absent", async () => {
+  globalThis.game = { packs: { get: () => undefined } };
+
+  assert.equal(await buildAttackTypeResolver(), null);
+
+  delete globalThis.game;
+});
+
+test("buildAttackTypeResolver renvoie un resolver toujours null quand le référentiel martialTrainingsWeapons est absent (fallback melee en aval)", async () => {
+  globalThis.game = { packs: { get: () => ({ getIndex: async () => [] }) } };
+
+  const resolver = await buildAttackTypeResolver();
+
+  assert.equal(resolver.resolve("Arc long"), null);
+
+  delete globalThis.game;
+});
+
+test("createEncounter résout Arc long en ranged via le référentiel COF2 avant de créer les items d'attaque (Centaure, issue #29)", async () => {
+  const createdItems = [];
+  const actor = {
+    id: "a1",
+    createEmbeddedDocuments: async (docType, items) => {
+      createdItems.push(...items);
+      return items.map((data, i) => ({ id: `item-${i}`, uuid: `Actor.a1.Item.item-${i}`, toObject: () => ({ system: { actions: [] } }) }));
+    },
+    updateEmbeddedDocuments: async () => {},
+    addCapacity: async () => {},
+    delete: async () => {},
+  };
+  globalThis.Actor = { create: async () => actor };
+  globalThis.game = {
+    system: { CONST: { martialTrainingsWeapons: [{ key: "longBow", label: "COFBASE.config.martialTrainingWeapon.longBow" }] } },
+    i18n: { localize: (key) => ({ "COFBASE.config.martialTrainingWeapon.longBow": "Arc long" })[key] },
+    packs: {
+      get: () => ({
+        folders: [],
+        getIndex: async () => [{ _id: "arc-long-item", type: "equipment", system: { subtype: "weapon", martialCategory: "longBow" } }],
+        getDocument: async () => ({ system: { actions: [{ type: "ranged" }] } }),
+      }),
+    },
+    settings: { get: () => false },
+  };
+
+  const parsed = { ...baseParsed(), attacks: [{ raw: "Sabots +7 · DM 1d8+6", name: "Sabots", kind: "melee", bonus: "+7", damage: "1d8+6", range: null, extra: "", confidence: "high" }, { raw: "Arc long +4 · DM 1d8", name: "Arc long", kind: "melee", bonus: "+4", damage: "1d8", range: null, extra: "", confidence: "high" }] };
+
+  await createEncounter(parsed);
+
+  assert.deepEqual(createdItems.map((i) => i.system.subtype), ["melee", "ranged"]);
+
+  delete globalThis.Actor;
+  delete globalThis.game;
 });
