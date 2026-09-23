@@ -1,7 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 
-import { createEncounter, buildAttackTypeResolver } from "./encounterFactory.mjs";
+import { createEncounter, buildAttackTypeResolver, PACK_ID, WARBOUND_PACK_ID } from "./encounterFactory.mjs";
 
 globalThis.CONST = { TOKEN_DISPOSITIONS: { HOSTILE: -1 } };
 
@@ -343,6 +343,68 @@ test("createEncounter avec reuseExisting:false ne réutilise pas la capacité of
   assert.equal(createdItems.length, 1, "la capacité doit être créée directement dans l'acteur");
   assert.equal(report.counts.capacitiesCreated, 1);
   assert.equal(report.counts.capacitiesReused, 0);
+
+  teardownFoundryMocks();
+});
+
+// --- Issue #32 : compendiums Warbound en priorité 1 ---
+
+test("createEncounter réutilise une capacité Warbound en priorité sur l'homonyme officiel COF2", async () => {
+  const warboundDoc = { _id: "wb-charge-13", name: "Charge (13)", system: { description: "<p>version Warbound</p>" }, toObject() { return { system: this.system }; } };
+  const cof2Pack = {
+    folders: [{ id: "folder-rencontres", name: "Capacités des rencontres" }],
+    getIndex: async () => [{ _id: "charge-13", name: "Charge (13)", type: "capacity", folder: "folder-rencontres" }],
+    getDocument: async () => CHARGE_TEMPLATE,
+  };
+  const warboundPack = {
+    folders: [
+      { id: "wb-root", name: "Capacités", folder: null },
+      { id: "wb-rencontre", name: "Rencontre", folder: "wb-root" },
+      { id: "wb-kolkar", name: "Kolkar", folder: "wb-rencontre" },
+      { id: "wb-voies", name: "Voies du guerrier", folder: "wb-root" },
+      { id: "wb-voie-bouclier", name: "Voie du Bouclier", folder: "wb-voies" },
+    ],
+    getIndex: async () => [
+      { _id: "wb-charge-13", name: "Charge (13)", type: "capacity", folder: "wb-kolkar" },
+      { _id: "wb-voie-cap", name: "Capacité de voie ignorée", type: "capacity", folder: "wb-voie-bouclier" },
+    ],
+    getDocument: async () => warboundDoc,
+  };
+  const { addedCapacities } = setupFoundryMocks();
+  game.packs.get = (id) => (id === WARBOUND_PACK_ID ? warboundPack : id === PACK_ID ? cof2Pack : undefined);
+  const parsed = { ...baseParsed(), capacities: [{ rawName: "Charge (13)", name: "Charge (13)", description: "", actionType: null, frequency: null, parameters: {}, confidence: "high" }] };
+
+  const { report } = await createEncounter(parsed);
+
+  assert.deepEqual(addedCapacities, [warboundDoc], "la capacité Warbound doit être réutilisée, pas celle de COF2");
+  assert.equal(report.counts.capacitiesReused, 1);
+  assert.equal(report.counts.capacitiesCreated, 0);
+
+  teardownFoundryMocks();
+});
+
+test("createEncounter ignore une capacité de voie PJ Warbound et retombe sur l'officiel COF2", async () => {
+  const warboundPack = {
+    folders: [
+      { id: "wb-root", name: "Capacités", folder: null },
+      { id: "wb-voies", name: "Voies du guerrier", folder: "wb-root" },
+    ],
+    getIndex: async () => [{ _id: "wb-charge-13", name: "Charge (13)", type: "capacity", folder: "wb-voies" }],
+    getDocument: async () => ({}),
+  };
+  const cof2Pack = {
+    folders: [{ id: "folder-rencontres", name: "Capacités des rencontres" }],
+    getIndex: async () => [{ _id: "charge-13", name: "Charge (13)", type: "capacity", folder: "folder-rencontres" }],
+    getDocument: async () => CHARGE_TEMPLATE,
+  };
+  const { addedCapacities } = setupFoundryMocks();
+  game.packs.get = (id) => (id === WARBOUND_PACK_ID ? warboundPack : id === PACK_ID ? cof2Pack : undefined);
+  const parsed = { ...baseParsed(), capacities: [{ rawName: "Charge (13)", name: "Charge (13)", description: "", actionType: null, frequency: null, parameters: {}, confidence: "high" }] };
+
+  const { report } = await createEncounter(parsed);
+
+  assert.deepEqual(addedCapacities, [CHARGE_TEMPLATE], "la capacité de voie Warbound ne doit pas être utilisée, l'officiel COF2 doit être réutilisé");
+  assert.equal(report.counts.capacitiesReused, 1);
 
   teardownFoundryMocks();
 });
