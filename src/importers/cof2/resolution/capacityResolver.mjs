@@ -81,18 +81,19 @@ function makeCapacityResolver({ warboundEntries = [], officialEntries, importedE
       return "ambiguous" in picked ? { status: "AMBIGUOUS", candidates: picked.ambiguous } : { status: "EXACT_REUSE", entry: picked.entry, source: "warbound" };
     }
 
-    // Priorité 2 — variante paramétrée connue dans les compendiums Warbound
-    const warboundVariant = warbound.loose.get(normalize(stripParens(name)));
-    if (warboundVariant) {
-      const picked = pickAmongCandidates(warboundVariant, warboundPriorityFolderId);
-      return "ambiguous" in picked ? { status: "AMBIGUOUS", candidates: picked.ambiguous } : { status: "TEMPLATE_VARIANT", entry: picked.entry, source: "warbound" };
-    }
-
-    // Priorité 3 — correspondance exacte dans les compendiums officiels COF2
+    // Priorité 2 — correspondance exacte dans les compendiums officiels COF2 (issue #35 : exact avant variante,
+    // toutes sources confondues)
     const officialExact = official.exact.get(normalize(name));
     if (officialExact) {
       const picked = pickAmongCandidates(officialExact, priorityFolderId);
       return "ambiguous" in picked ? { status: "AMBIGUOUS", candidates: picked.ambiguous } : { status: "EXACT_REUSE", entry: picked.entry, source: "cof2" };
+    }
+
+    // Priorité 3 — variante paramétrée connue dans les compendiums Warbound
+    const warboundVariant = warbound.loose.get(normalize(stripParens(name)));
+    if (warboundVariant) {
+      const picked = pickAmongCandidates(warboundVariant, warboundPriorityFolderId);
+      return "ambiguous" in picked ? { status: "AMBIGUOUS", candidates: picked.ambiguous } : { status: "TEMPLATE_VARIANT", entry: picked.entry, source: "warbound" };
     }
 
     // Priorité 4 — variante paramétrée connue dans les compendiums officiels COF2
