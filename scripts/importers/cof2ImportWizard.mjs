@@ -28,7 +28,8 @@ const esc = (s) => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").
 
 /**
  * Déduit le statut de résolution (section 14 de l'Epic) depuis le résultat de `makeCapacityResolver`.
- * Le compendium officiel `cof2-base` uniquement est consulté ici : pas de bibliothèque d'import (Story 5/6).
+ * Le compendium officiel `cof2-base` est consulté ici ; les capacités NOT_FOUND seront vérifiées ou créées dans la
+ * bibliothèque d'import (Story 6) lors de la création effective (cf. `encounterFactory.mjs`).
  * @param {{status:"EXACT_REUSE"|"TEMPLATE_VARIANT"|"REUSE_IMPORTED"|"AMBIGUOUS"|"NOT_FOUND", ...}|undefined} resolution
  * @returns {"EXACT_REUSE"|"TEMPLATE_VARIANT"|"REUSE_IMPORTED"|"AMBIGUOUS"|"NOT_FOUND"}
  */
@@ -50,7 +51,7 @@ class Cof2ImportWizardApp extends foundry.applications.api.ApplicationV2 {
   #draft = null;
   #capacityHits = new Map();
   #confirmedVariants = new Set();
-  #options = { createActor: true, reuseExisting: true, openSheet: true };
+  #options = { createActor: true, reuseExisting: true, saveToLibrary: true, openSheet: true };
   #result = null;
   #analyzeError = null;
 
@@ -164,7 +165,7 @@ class Cof2ImportWizardApp extends foundry.applications.api.ApplicationV2 {
         return `<tr>
           <td>${CAPACITY_STATUS_BADGES[status]}</td>
           <td><input type="text" data-field="capacities.${i}.name" value="${esc(c.name)}"></td>
-          <td title="Compendium officiel cof2-base uniquement (bibliothèque d'import non disponible — Story 6)">${CAPACITY_STATUS_LABELS[status]}</td>
+          <td title="Compendium officiel cof2-base. Les nouvelles capacités (✕) seront recherchées ou créées dans la bibliothèque d'import à la création.">${CAPACITY_STATUS_LABELS[status]}</td>
           <td>${esc(c.actionType ?? "")}</td>
           <td>${esc(c.frequency ?? "")}</td>
           <td>${CONFIDENCE_BADGES[c.confidence] ?? ""}</td>
@@ -243,14 +244,10 @@ class Cof2ImportWizardApp extends foundry.applications.api.ApplicationV2 {
         <label><input type="checkbox" data-field="opt.reuseExisting" ${o.reuseExisting ? "checked" : ""}> Réutiliser les objets existants lorsqu'ils sont compatibles.</label>
       </div>
       <div class="form-group">
-        <label title="Bibliothèque d'import non disponible (Story 6) : chaque import crée ses propres objets pour l'instant.">
-          <input type="checkbox" disabled> Enregistrer les nouveaux objets dans la bibliothèque d'import (à venir — Story 6).
-        </label>
+        <label><input type="radio" name="saveToLibrary" data-field="opt.saveToLibrary" value="true" ${o.saveToLibrary ? "checked" : ""}> Enregistrer les nouveaux objets dans la bibliothèque d'import.</label>
       </div>
       <div class="form-group">
-        <label title="Non disponible tant que la bibliothèque d'import (Story 6) n'existe pas.">
-          <input type="checkbox" disabled> Créer uniquement dans l'acteur sans enrichir la bibliothèque (à venir — Story 6).
-        </label>
+        <label><input type="radio" name="saveToLibrary" data-field="opt.saveToLibrary" value="false" ${!o.saveToLibrary ? "checked" : ""}> Créer uniquement dans l'acteur sans enrichir la bibliothèque.</label>
       </div>
       <div class="form-group">
         <label><input type="checkbox" data-field="opt.openSheet" ${o.openSheet ? "checked" : ""}> Ouvrir la fiche après création.</label>
@@ -313,13 +310,13 @@ class Cof2ImportWizardApp extends foundry.applications.api.ApplicationV2 {
     for (let i = 0; i < target.length - 1; i++) obj = obj[target[i]];
     const key = target.at(-1);
     if (typeof obj[key] === "number") obj[key] = value === "" ? null : Number(value);
-    else if (typeof obj[key] === "boolean") obj[key] = value;
+    else if (typeof obj[key] === "boolean") obj[key] = value === true || value === "true";
     else obj[key] = value;
   }
 
   #activateListeners(content) {
     content.querySelectorAll("[data-field]").forEach((el) => {
-      const evt = el.type === "checkbox" ? "change" : "input";
+      const evt = el.type === "checkbox" || el.type === "radio" ? "change" : "input";
       el.addEventListener(evt, () => {
         const value = el.type === "checkbox" ? el.checked : el.value;
         this.#setField(el.dataset.field, value);
@@ -421,7 +418,7 @@ class Cof2ImportWizardApp extends foundry.applications.api.ApplicationV2 {
       return this.render();
     }
     try {
-      const { actor, report } = await createEncounter(this.#draft, { confirmedVariants: this.#confirmedVariants });
+      const { actor, report } = await createEncounter(this.#draft, { confirmedVariants: this.#confirmedVariants, saveToLibrary: this.#options.saveToLibrary });
       this.#result = { actor, report };
       if (!actor) {
         ui.notifications.error("Création impossible : import annulé, aucun document résiduel.");

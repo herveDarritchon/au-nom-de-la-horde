@@ -187,7 +187,7 @@ async function addTemplateVariantCapacity(actor, cap, resolution, resolver, conf
  *   `null` quand le rollback automatique a réussi ; non-`null` mais incomplet quand le rollback a lui-même échoué
  *   (`report.diagnostics` contient alors `IMPORT_ROLLBACK_FAILED`, l'UI doit proposer sa suppression manuelle).
  */
-async function createEncounter(parsed, { confirmedVariants = new Set() } = {}) {
+async function createEncounter(parsed, { confirmedVariants = new Set(), saveToLibrary = true } = {}) {
   const warnings = parsed.diagnostics.filter((d) => d.severity !== "error").map((d) => d.message);
   const diagnostics = [...parsed.diagnostics];
   const counts = { attacksCreated: 0, capacitiesReused: 0, capacitiesCreated: 0, errors: 0, toReview: 0 };
@@ -263,6 +263,11 @@ async function createEncounter(parsed, { confirmedVariants = new Set() } = {}) {
       }
 
       // Priorité 3 — bibliothèque d'import du monde (jamais le pack officiel `cof2-base`)
+      if (!saveToLibrary) {
+        textOnly.push(buildCapacityItemData(cap));
+        counts.capacitiesCreated++;
+        continue;
+      }
       const { doc, reused, variant } = await resolveViaImportLibrary(cap, rollbackActions);
       const outcome = await addResolvedCapacity(actor, cap, doc, textOnly, warnings);
       if (outcome === "text-fallback") {

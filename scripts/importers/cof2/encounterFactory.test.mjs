@@ -280,3 +280,60 @@ test("createEncounter résout Arc long en ranged via le référentiel COF2 avant
   delete globalThis.Actor;
   delete globalThis.game;
 });
+
+// --- Story 6 : saveToLibrary ---
+
+test("createEncounter avec saveToLibrary:false crée la capacité NOT_FOUND directement dans l'acteur sans appeler la bibliothèque", async () => {
+  const libraryCalls = [];
+  const { createdItems } = setupFoundryMocks({
+    createEmbeddedDocumentsImpl: async (docType, items) => {
+      createdItems.push(...items);
+      return items.map((data, i) => ({ id: `item-${i}`, uuid: `Actor.a1.Item.item-${i}`, toObject: () => ({ system: { actions: [] } }) }));
+    },
+  });
+  // Surcharge game.packs.get pour détecter tout accès à la bibliothèque d'import
+  const officialGet = game.packs.get.bind(game.packs);
+  game.packs.get = (id) => {
+    if (id === "world.warbound-imported-capacities" || id === "world.warbound-imported-paths") {
+      libraryCalls.push(id);
+    }
+    return officialGet(id);
+  };
+  const parsed = { ...baseParsed(), capacities: [{ rawName: "Griffe du vide", name: "Griffe du vide", description: "Attaque spectrale.", actionType: "action", frequency: null, parameters: {}, confidence: "high" }] };
+
+  const { report } = await createEncounter(parsed, { saveToLibrary: false });
+
+  assert.equal(libraryCalls.length, 0, "la bibliothèque ne doit pas être consultée");
+  assert.equal(report.counts.capacitiesCreated, 1);
+  assert.equal(report.counts.capacitiesReused, 0);
+
+  teardownFoundryMocks();
+});
+
+test("createEncounter avec saveToLibrary:true (défaut) crée une nouvelle capacité NOT_FOUND dans la bibliothèque d'import", async () => {
+  const librarySaved = [];
+  const libraryPack = {
+    collection: "world.warbound-imported-capacities",
+    getIndex: async () => [],
+    getDocument: async (id) => ({ _id: id, name: "Griffe du vide", system: {}, flags: {} }),
+  };
+  globalThis.Item = {
+    createDocuments: async (items) => {
+      librarySaved.push(...items);
+      return items.map((d, i) => ({ _id: `lib-${i}`, name: d.name, flags: d.flags, delete: async () => {} }));
+    },
+  };
+  const { createdItems, addedCapacities } = setupFoundryMocks();
+  game.packs.get = (id) => (id === "world.warbound-imported-capacities" ? libraryPack : { folders: [{ id: "folder-rencontres", name: "Capacités des rencontres" }], getIndex: async () => [{ _id: "charge-13", name: "Charge (13)", type: "capacity", folder: "folder-rencontres" }], getDocument: async () => ({}) });
+  const parsed = { ...baseParsed(), capacities: [{ rawName: "Griffe du vide", name: "Griffe du vide", description: "Attaque spectrale.", actionType: "action", frequency: null, parameters: {}, confidence: "high" }] };
+
+  const { report } = await createEncounter(parsed, { saveToLibrary: true });
+
+  assert.equal(librarySaved.length, 1, "la capacité doit être sauvegardée dans la bibliothèque");
+  assert.equal(librarySaved[0].flags?.warbound?.imported, true);
+  assert.equal(librarySaved[0].flags?.warbound?.reviewStatus, "generated");
+  assert.equal(report.counts.capacitiesCreated, 1);
+
+  delete globalThis.Item;
+  teardownFoundryMocks();
+});
