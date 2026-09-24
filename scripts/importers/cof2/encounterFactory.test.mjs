@@ -12,6 +12,7 @@ globalThis.CONST = { TOKEN_DISPOSITIONS: { HOSTILE: -1 } };
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const centaureFixture = readFileSync(path.join(__dirname, "../../../src/importers/cof2/parsing/__fixtures__/centaure.txt"), "utf8");
+const scorpionGeantFixture = readFileSync(path.join(__dirname, "../../../src/importers/cof2/parsing/__fixtures__/scorpion-geant.txt"), "utf8");
 
 const baseParsed = () => ({
   name: "Centaure",
@@ -536,6 +537,42 @@ test("createEncounter importe le statblock complet du Centaure (issue #38) : Cha
   assert.ok(!report.messages.some((m) => /\(L\)/.test(m.message)), "aucun message ne doit mentionner le marqueur de type d'action (L)");
   assert.ok(!report.messages.some((m) => m.level === "warning" && /paramètre/.test(m.message)), "aucun avertissement de paramètre non reconnu pour Charge");
   assert.equal(report.counts.capacitiesReused, 1);
+  assert.equal(report.counts.capacitiesCreated, 3);
+
+  teardownFoundryMocks();
+});
+
+// --- Issue #41 : test d'intégration bout-en-bout sur le statblock réel du Scorpion géant / Arthropode ---
+
+test("createEncounter importe le statblock complet du Scorpion géant (issue #41) : 3 capacités créées comme Item capacity avec leur texte complet", async () => {
+  const { createdItems } = setupFoundryMocks();
+  // Aucune des 3 capacités (Vermine, Cuirassé, Poison) n'existe dans le compendium officiel : cas réel pour un
+  // monstre spécifique au Bestiaire, non couvert par le compendium de base COF2.
+  game.packs.get = (id) => (id === PACK_ID ? { folders: [], getIndex: async () => [], getDocument: async () => null } : undefined);
+
+  const draft = parseStatblock(scorpionGeantFixture);
+  assert.deepEqual(draft.capacities.map((c) => c.name), ["Vermine", "Cuirassé", "Poison"]);
+  assert.deepEqual(
+    draft.attacks.map((a) => a.name),
+    ["Pinces", "Dard"]
+  );
+
+  const { report } = await createEncounter(draft, { saveToLibrary: false });
+
+  const createdCapacities = createdItems.filter((i) => i.type === "capacity");
+  assert.deepEqual(
+    createdCapacities.map((i) => i.name).sort(),
+    ["Cuirassé", "Poison", "Vermine"]
+  );
+  const vermineItem = createdCapacities.find((i) => i.name === "Vermine");
+  assert.match(vermineItem.system.description, /dé bonus en FOR/);
+  assert.match(vermineItem.system.description, /15 m par action de mouvement/);
+  const cuirasseItem = createdCapacities.find((i) => i.name === "Cuirassé");
+  assert.match(cuirasseItem.system.description, /RD 5 contre les armes/);
+  const poisonItem = createdCapacities.find((i) => i.name === "Poison");
+  assert.match(poisonItem.system.description, /½ DM/);
+
+  assert.equal(report.counts.capacitiesReused, 0);
   assert.equal(report.counts.capacitiesCreated, 3);
 
   teardownFoundryMocks();

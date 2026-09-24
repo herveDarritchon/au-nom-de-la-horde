@@ -12,6 +12,7 @@ const centaure = fixture("centaure.txt");
 const centaurePdfBrut = fixture("centaure-pdf-brut.txt");
 const centaureSansNc = fixture("centaure-sans-nc.txt");
 const statblockUneLigne = fixture("statblock-une-ligne.txt");
+const scorpionGeant = fixture("scorpion-geant.txt");
 
 const codes = (diagnostics) => diagnostics.map((d) => d.code);
 const byMessage = (diagnostics, re) => diagnostics.some((d) => re.test(d.message));
@@ -276,4 +277,57 @@ test("parseStatblock signale les diagnostics sur un statblock imparfait", () => 
   // « Toucher glacial » contient « test de VOL difficulté 14 » : pattern niveau B reconnu mais non structuré.
   assert.ok(byMessage(result.diagnostics, /test de VOL difficulté 14/));
   assert.equal(result.attacks.length, 0);
+});
+
+test("parseStatblock détecte les capacités de créature successives du Scorpion géant (issue #41) : VERMINE, CUIRASSÉ, POISON, sans confusion avec les attaques ni absorption mutuelle", () => {
+  const result = parseStatblock(scorpionGeant);
+
+  assert.equal(result.name, "Arthropode (moyen)");
+  assert.equal(result.nc, 3);
+
+  // Les attaques restent des attaques, jamais confondues avec les capacités qui suivent.
+  assert.equal(result.attacks.length, 2);
+  assert.deepEqual(
+    result.attacks.map((a) => a.name),
+    ["Pinces", "Dard"]
+  );
+  assert.deepEqual(
+    result.attacks.map((a) => a.damage),
+    ["2d6+3", "1d4"]
+  );
+
+  // « Capacités communes » est un en-tête de section, pas une capacité (pas de deux-points) : bruit résiduel.
+  assert.deepEqual(codes(result.diagnostics), ["PDF_NOISE_REMOVED"]);
+  assert.ok(byMessage(result.diagnostics, /Capacités communes/));
+
+  // 3 capacités détectées dans l'ordre, sans liste fermée : le nom et la description multi-ligne complète sont
+  // conservés, aucune n'absorbe le texte de la suivante.
+  assert.equal(result.capacities.length, 3);
+  assert.deepEqual(
+    result.capacities.map((c) => c.name),
+    ["Vermine", "Cuirassé", "Poison"]
+  );
+
+  const vermine = result.capacities.find((c) => c.name === "Vermine");
+  assert.equal(
+    vermine.description,
+    "Tous les arthropodes géants obtiennent un dé bonus en FOR, en AGI et en CON, et lorsque la créature atteint 0 PV, elle peut encore agir 1 round complet. Ils sont rapides et se déplacent de 15 m par action de mouvement."
+  );
+  assert.ok(!/CUIRASSÉ/i.test(vermine.description), "Vermine ne doit pas absorber le texte de Cuirassé");
+
+  const cuirasse = result.capacities.find((c) => c.name === "Cuirassé");
+  assert.equal(cuirasse.description, "La créature bénéficie d'une RD 5 contre les armes.");
+  assert.ok(!/POISON/i.test(cuirasse.description), "Cuirassé ne doit pas absorber le texte de Poison");
+
+  const poison = result.capacities.find((c) => c.name === "Poison");
+  assert.equal(
+    poison.description,
+    "Le poison inflige des DM supplémentaires à la victime à chaque attaque (voir les profils). Si le PJ réussit un test de CON de la difficulté indiquée, il ne subit que ½ DM."
+  );
+
+  // Les bonus `*` du statblock (`AGI +4*`, `CON +3*`, `FOR +3*`) sont déjà représentés dans `result.abilities` :
+  // le parseur n'applique aucun effet réel pour `Vermine`, donc pas de risque de double application du bonus.
+  assert.deepEqual(result.abilities.agi, { base: 4, superior: true });
+  assert.deepEqual(result.abilities.con, { base: 3, superior: true });
+  assert.deepEqual(result.abilities.for, { base: 3, superior: true });
 });
