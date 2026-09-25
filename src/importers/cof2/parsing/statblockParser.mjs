@@ -62,11 +62,18 @@ function parseStatblock(text) {
   } else {
     const ncMatch = lines[ncIndex].match(NC_LINE_RE);
     const inlineName = ncMatch[1]?.trim();
-    const nameLine = inlineName || lines[ncIndex - 1];
+    // Le NC borne les statistiques, pas le document : le nom est l'ancre initiale du statblock même si une
+    // description ou des capacités le précèdent. Ignore seulement l'en-tête éditorial connu « Notes du MJ ».
+    const nameIndex = /^notes du mj$/i.test(lines[0] ?? "") ? 1 : 0;
+    const nameLine = inlineName || lines[nameIndex];
     if (!nameLine) diagnostics.push(missingAbility("nom"));
     result.name = cleanName(nameLine ?? "");
-    const skipped = inlineName ? ncIndex : ncIndex - 1;
-    if (skipped > 0) diagnostics.push(pdfNoiseRemoved(lines.slice(0, skipped).join(" / ")));
+    if (!inlineName && nameIndex === 1) diagnostics.push(pdfNoiseRemoved(lines[0], "warning"));
+    // Lignes avant NC (hors nom) : analysées sémantiquement au lieu d'être rejetées comme bruit.
+    const preNcStart = inlineName ? 0 : nameIndex + 1;
+    const preNcEnd = ncIndex;
+    const preNcLines = lines.slice(preNcStart, preNcEnd);
+    if (preNcLines.length) result.capacities.push(...scanPreNcLines(preNcLines, result, diagnostics));
     const [num, den] = ncMatch[2].split("/").map((n) => Number(n.trim()));
     result.nc = den ? num / den : num;
 
@@ -200,6 +207,48 @@ function matchTitle(line) {
   const { name, actionType } = extractActionType(rawName);
   const confidence = /\([^)]*\)\s*$/.test(rawName) && !actionType ? "medium" : "high";
   return { rawName, name: tidyCase(name), description: m[2].trim(), actionType, frequency: null, parameters: {}, confidence };
+}
+
+/**
+ * Analyse sémantiquement les lignes précédant la ligne NC : capacités, type/taille et bruit résiduel.
+ * @param {string[]} lines Lignes à analyser
+ * @param {object} result Objet résultat (muté pour category/size)
+ * @param {import("./encounterDraft.mjs").Diagnostic[]} diagnostics Diagnostics (mutés)
+ * @returns {import("./encounterDraft.mjs").CapacityDraft[]}
+ */
+function scanPreNcLines(lines, result, diagnostics) {
+  const capacities = [];
+  let current = null;
+  for (const line of lines) {
+    // Préfixe pictogramme isolé restant après reconstruction (ex. « W ARTHROPODE ») :
+    // terminateur implicite de section — la capacité en cours est clôturée, la ligne est du bruit.
+    if (/^(?:[A-Z]\s+)+\S{2}/.test(line)) {
+      if (current) { finalizeCapacity(current, diagnostics); current = null; }
+      diagnostics.push(pdfNoiseRemoved(line, "warning"));
+      continue;
+    }
+    if (/(^|·\s*)(créature|taille)\b/i.test(line)) {
+      if (current) { finalizeCapacity(current, diagnostics); current = null; }
+      if (/non[- ]vivant/i.test(line)) result.category = "undead";
+      else if (/humano/i.test(line)) result.category = "humanoid";
+      else if (/v[ée]g[ée]tal|plante/i.test(line)) result.category = "plant";
+      const size = line.match(/taille\s+(très petite|minuscule|petite|moyenne|grande|énorme|colossale)/i);
+      if (size) result.size = SIZES[size[1].toLowerCase()];
+      continue;
+    }
+    const title = current && !current.description ? null : matchTitle(line);
+    if (title) {
+      if (current) finalizeCapacity(current, diagnostics);
+      current = title;
+      capacities.push(current);
+      continue;
+    }
+    if (current) current.description = current.description ? `${current.description} ${line}` : line;
+    else if (/^(?:capacités communes|notes du mj)$/i.test(line)) diagnostics.push(pdfNoiseRemoved(line, "warning"));
+    else result.notes.push(line);
+  }
+  if (current) finalizeCapacity(current, diagnostics);
+  return capacities;
 }
 
 export { ABILITIES, SIZES, parseStatblock, parseAttackLine, matchTitle };

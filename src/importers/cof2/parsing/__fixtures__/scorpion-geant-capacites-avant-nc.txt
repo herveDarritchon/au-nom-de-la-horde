@@ -1,0 +1,19 @@
+SCORPION GÉANT
+Capacités communes
+VERMINE :
+Tous les arthropodes géants obtiennent un dé bonus en FOR,
+en AGI et en CON, et lorsque la créature atteint 0 PV,
+elle peut encore agir 1 round complet.
+CUIRASSÉ :
+La créature bénéficie d'une RD 5 contre les armes.
+POISON :
+Le poison inflige des DM supplémentaires à la victime
+à chaque attaque (voir les profils).
+CRÉATURE VIVANTE TAILLE MOYENNE
+| NC 3
+AGI +4* CON +3* FOR +3* PER +2 CHA -4 INT -4 VOL +0
+DEF 17
+PV 30
+Init. 12
+Pinces +6 · DM 2d6+3
+Dard +6 · DM 1d4
