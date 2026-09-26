@@ -1,8 +1,24 @@
 import { parseWarboundMarkdown, validateWarboundModel } from "../../../src/importers/warbound-markdown/index.mjs";
-import { syncDocuments } from "./WarboundImportSynchronizer.mjs";
+import { syncDocuments, computeImportDiff } from "./WarboundImportSynchronizer.mjs";
 
 const MODULE_ID = "warbound-campaign-content";
 const SEVERITY_LABELS = { error: "Erreur", warning: "Avertissement" };
+
+const STATE_LABELS = {
+  new: "nouvelle",
+  modified: "modifiée",
+  unchanged: "inchangée",
+  inactive: "inactive",
+  orphan: "orpheline",
+};
+
+const MARKERS = {
+  new: "+",
+  modified: "~",
+  unchanged: "=",
+  inactive: "○",
+  orphan: "!",
+};
 
 const esc = (s) => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
@@ -19,6 +35,7 @@ class WarboundMarkdownImporterApp extends foundry.applications.api.ApplicationV2
   #parseResult = null;
   #validationResult = null;
   #readError = null;
+  #diffResult = null;
   #importing = false;
   #importResult = null;
 
@@ -37,16 +54,8 @@ class WarboundMarkdownImporterApp extends foundry.applications.api.ApplicationV2
       : "";
 
     const validationSection = this.#validationResult ? this.#renderValidation() : "";
-    const folderSection = this.#canImport() ? this.#renderFolderSelect() : "";
+    const previewSection = this.#canPreview() ? this.#renderPreview() : "";
     const importResultSection = this.#importResult ? this.#renderImportResult() : "";
-
-    const importButton =
-      this.#canImport()
-        ? `<button type="button" data-action="import" class="default" ${this.#importing ? "disabled" : ""}>
-             <i class="fa-solid ${this.#importing ? "fa-spinner fa-spin" : "fa-file-import"}"></i>
-             ${this.#importing ? "Import en cours…" : "Importer"}
-           </button>`
-        : "";
 
     return `
       <div class="form-group stacked">
@@ -56,46 +65,103 @@ class WarboundMarkdownImporterApp extends foundry.applications.api.ApplicationV2
       </div>
       ${readError}
       ${validationSection}
-      ${folderSection}
+      ${previewSection}
       ${importResultSection}
       <footer class="form-footer">
-        ${importButton}
         <button type="button" data-action="close"><i class="fa-solid fa-xmark"></i> Fermer</button>
       </footer>`;
   }
 
-  #canImport() {
+  #canPreview() {
     return this.#validationResult?.errors.length === 0 && !this.#importResult;
   }
 
-  #renderFolderSelect() {
-    const journalFolders = game.folders
-      .filter((f) => f.type === "JournalEntry")
-      .sort((a, b) => a.name.localeCompare(b.name));
+  #renderPreview() {
+    const model = this.#parseResult;
+    const diff = this.#diffResult;
 
-    const tableFolders = game.folders
-      .filter((f) => f.type === "RollTable")
-      .sort((a, b) => a.name.localeCompare(b.name));
+    // Une entrée absente du diff est une page qui n'existe pas encore dans Foundry.
+    const stateByEntryId = new Map();
+    for (const [state, items] of Object.entries(diff ?? {})) {
+      for (const item of items) {
+        stateByEntryId.set(item.entry?.id ?? item.existing.id, state);
+      }
+    }
 
-    const journalOptions = [
-      `<option value="">— Racine (aucun dossier) —</option>`,
-      ...journalFolders.map((f) => `<option value="${esc(f.id)}">${esc(f.name)}</option>`),
-    ].join("");
+    const rows = [
+      { state: stateByEntryId.get("context") ?? "new", id: "context", title: "Contexte" },
+      ...model.entries.map((entry) => ({
+        state: stateByEntryId.get(entry.id) ?? "new",
+        id: entry.id,
+        title: entry.title,
+      })),
+      ...(diff?.orphan ?? []).map((item) => ({
+        state: "orphan",
+        id: item.existing.id,
+        title: item.existing.name,
+      })),
+    ];
 
-    const tableOptions = [
-      `<option value="">— Racine (aucun dossier) —</option>`,
-      ...tableFolders.map((f) => `<option value="${esc(f.id)}">${esc(f.name)}</option>`),
-    ].join("");
+    const counts = {};
+    for (const row of rows) counts[row.state] = (counts[row.state] ?? 0) + 1;
+
+    const summary = Object.entries(STATE_LABELS)
+      .filter(([state]) => counts[state])
+      .map(
+        ([state, label]) =>
+          `<span class="wb-count-${state}"><code>${MARKERS[state]}</code> ${counts[state]} ${label}${counts[state] > 1 ? "s" : ""}</span>`
+      )
+      .join(" · ");
+
+    const entryRows = rows
+      .map(
+        (row) => `
+          <li class="wb-preview-entry wb-preview-${row.state}" title="${esc(STATE_LABELS[row.state])}">
+            <code class="wb-preview-marker">${esc(MARKERS[row.state])}</code>
+            <span class="wb-preview-id">${esc(row.id)}</span>
+            <span class="wb-preview-title">${esc(row.title)}</span>
+          </li>`
+      )
+      .join("");
+
+    const folderOptions = (type) =>
+      [
+        `<option value="">— Racine (aucun dossier) —</option>`,
+        ...game.folders
+          .filter((f) => f.type === type)
+          .sort((a, b) => a.name.localeCompare(b.name))
+          .map((f) => `<option value="${esc(f.id)}">${esc(f.name)}</option>`),
+      ].join("");
+
+    const syncButton = `<button type="button" data-action="import" class="default" ${this.#importing ? "disabled" : ""}>
+      <i class="fa-solid ${this.#importing ? "fa-spinner fa-spin" : "fa-rotate"}"></i>
+      ${this.#importing ? "Synchronisation en cours…" : "Synchroniser"}
+    </button>`;
+
+    const cancelButton = `<button type="button" data-action="cancel"><i class="fa-solid fa-xmark"></i> Annuler</button>`;
 
     return `
-      <div class="wb-folder-select">
-        <div class="form-group">
-          <label><i class="fa-solid fa-book"></i> Dossier Journal</label>
-          <select name="journalFolder">${journalOptions}</select>
+      <div class="wb-preview">
+        <div class="wb-preview-header">
+          <strong>${esc(model.title)}</strong>
+          <span class="wb-preview-collection-id">${esc(model.collectionId)}</span>
+          <span class="wb-preview-total">${rows.length} entrée${rows.length > 1 ? "s" : ""}</span>
+          <div class="wb-preview-summary">${summary || "Aucune entrée"}</div>
         </div>
-        <div class="form-group">
-          <label><i class="fa-solid fa-table-list"></i> Dossier Table</label>
-          <select name="tableFolder">${tableOptions}</select>
+        <ul class="wb-preview-list">${entryRows}</ul>
+        <div class="wb-folder-select">
+          <div class="form-group">
+            <label><i class="fa-solid fa-book"></i> Dossier Journal</label>
+            <select name="journalFolder">${folderOptions("JournalEntry")}</select>
+          </div>
+          <div class="form-group">
+            <label><i class="fa-solid fa-table-list"></i> Dossier Table</label>
+            <select name="tableFolder">${folderOptions("RollTable")}</select>
+          </div>
+        </div>
+        <div class="wb-preview-actions">
+          ${syncButton}
+          ${cancelButton}
         </div>
       </div>`;
   }
@@ -110,7 +176,7 @@ class WarboundMarkdownImporterApp extends foundry.applications.api.ApplicationV2
       : `<li><i class="fa-solid fa-circle-info"></i> Aucune entrée active — pas de RollTable créée.</li>`;
     return `
       <div class="wb-diag-group">
-        <p class="wb-diag wb-diag-success"><i class="fa-solid fa-circle-check"></i> Import réussi.</p>
+        <p class="wb-diag wb-diag-success"><i class="fa-solid fa-circle-check"></i> Synchronisation réussie.</p>
         <ul>
           <li><i class="fa-solid fa-book"></i> Journal : <strong>${esc(journalName)}</strong></li>
           ${tableInfo}
@@ -148,6 +214,7 @@ class WarboundMarkdownImporterApp extends foundry.applications.api.ApplicationV2
       this.#readError = null;
       this.#parseResult = null;
       this.#validationResult = null;
+      this.#diffResult = null;
       this.#importResult = null;
 
       const reader = new FileReader();
@@ -168,6 +235,10 @@ class WarboundMarkdownImporterApp extends foundry.applications.api.ApplicationV2
     try {
       this.#parseResult = parseWarboundMarkdown(text);
       this.#validationResult = validateWarboundModel(this.#parseResult, text);
+
+      if (this.#validationResult.errors.length === 0) {
+        this.#diffResult = computeImportDiff(this.#parseResult);
+      }
     } catch (err) {
       console.error(`${MODULE_ID} | WarboundMarkdownImporterApp parse/validate error`, err);
       this.#readError = err.message;
@@ -176,7 +247,7 @@ class WarboundMarkdownImporterApp extends foundry.applications.api.ApplicationV2
   }
 
   async #onAction(_event, action, content) {
-    if (action === "close") return this.close();
+    if (action === "close" || action === "cancel") return this.close();
     if (action === "import") return this.#doImport(content);
   }
 

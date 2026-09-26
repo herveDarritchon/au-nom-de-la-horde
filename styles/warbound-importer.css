@@ -171,3 +171,94 @@
 .warbound-markdown-importer .wb-diag-success {
     color: #2a7a2a;
 }
+
+/* -------------------------------------------------------------------------- */
+/* Importeur Warbound Markdown — Prévisualisation du diff (Issue #56)          */
+/* -------------------------------------------------------------------------- */
+
+.warbound-markdown-importer .wb-preview {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.warbound-markdown-importer .wb-preview-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.5em;
+}
+
+.warbound-markdown-importer .wb-preview-collection-id,
+.warbound-markdown-importer .wb-preview-total {
+    opacity: 0.75;
+    font-size: 0.9em;
+}
+
+.warbound-markdown-importer .wb-preview-summary {
+    flex-basis: 100%;
+    font-size: 0.9em;
+}
+
+.warbound-markdown-importer .wb-preview-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-height: 18em;
+    overflow-y: auto;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+.warbound-markdown-importer .wb-preview-entry {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5em;
+    padding: 0.2em 0.5em;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.warbound-markdown-importer .wb-preview-entry:last-child {
+    border-bottom: none;
+}
+
+.warbound-markdown-importer .wb-preview-marker {
+    flex: 0 0 1.2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.warbound-markdown-importer .wb-preview-id {
+    opacity: 0.7;
+    font-size: 0.85em;
+    word-break: break-all;
+}
+
+.warbound-markdown-importer .wb-preview-new .wb-preview-marker { color: #2a7a2a; }
+.warbound-markdown-importer .wb-preview-modified .wb-preview-marker { color: #a06a00; }
+.warbound-markdown-importer .wb-preview-unchanged .wb-preview-marker { color: #7a7a7a; }
+.warbound-markdown-importer .wb-preview-inactive .wb-preview-marker { color: #7a5aa0; }
+.warbound-markdown-importer .wb-preview-orphan .wb-preview-marker { color: #b02a2a; }
+
+.warbound-markdown-importer .wb-count-new { color: #2a7a2a; }
+.warbound-markdown-importer .wb-count-modified { color: #a06a00; }
+.warbound-markdown-importer .wb-count-unchanged { color: #7a7a7a; }
+.warbound-markdown-importer .wb-count-inactive { color: #7a5aa0; }
+.warbound-markdown-importer .wb-count-orphan { color: #b02a2a; }
+
+.warbound-markdown-importer .wb-folder-select,
+.warbound-markdown-importer .wb-preview-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    align-items: flex-end;
+}
+
+.warbound-markdown-importer .wb-folder-select .form-group {
+    flex: 1 1 12em;
+    margin: 0;
+}
+
+.warbound-markdown-importer .wb-preview-actions {
+    justify-content: flex-end;
+}

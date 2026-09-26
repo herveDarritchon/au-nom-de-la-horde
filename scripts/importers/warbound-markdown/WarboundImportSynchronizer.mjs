@@ -7,10 +7,35 @@ import { generateDocuments } from "./WarboundDocumentGenerator.mjs";
 const NAMESPACE = "warbound-campaign-content";
 const FLAG_KEY = "markdownImport";
 
-function findExistingJournal(collectionId) {
+export function findExistingJournalByCollectionId(collectionId) {
   return game.journal.find(
     (j) => j.flags?.[NAMESPACE]?.[FLAG_KEY]?.collectionId === collectionId
   ) ?? null;
+}
+
+/**
+ * Sérialise les pages d'un journal pour buildImportDiff : `id` et `uuid` sont des accesseurs,
+ * absents du source, et le diff en a besoin pour corréler et signaler les orphelines.
+ */
+function serializeJournalPages(journal) {
+  return journal.pages.contents.map((p) => ({
+    id: p.id,
+    uuid: p.uuid,
+    name: p.name,
+    sort: p.sort,
+    flags: p.flags,
+  }));
+}
+
+/**
+ * Calcule le diff de prévisualisation sans rien écrire dans Foundry.
+ * @param {object} model - Modèle produit par parseWarboundMarkdown
+ * @returns {object | null} null si la collection n'existe pas encore (premier import)
+ */
+export function computeImportDiff(model) {
+  const existingJournal = findExistingJournalByCollectionId(model.collectionId);
+  if (!existingJournal) return null;
+  return buildImportDiff(model, serializeJournalPages(existingJournal));
 }
 
 function findExistingTable(collectionId, name) {
@@ -74,20 +99,14 @@ function buildNewPageData(entry, collectionId, sort) {
  * @returns {Promise<{ journal: JournalEntry, table: RollTable | null, diff: object | null }>}
  */
 export async function syncDocuments(model, journalFolder, tableFolder = journalFolder) {
-  const existingJournal = findExistingJournal(model.collectionId);
+  const existingJournal = findExistingJournalByCollectionId(model.collectionId);
 
   if (!existingJournal) {
     const { journal, table } = await generateDocuments(model, journalFolder, tableFolder);
     return { journal, table, diff: null };
   }
 
-  const existingPages = existingJournal.pages.contents.map((p) => ({
-    id: p.id,
-    uuid: p.uuid,
-    name: p.name,
-    sort: p.sort,
-    flags: p.flags,
-  }));
+  const existingPages = serializeJournalPages(existingJournal);
   const diff = buildImportDiff(model, existingPages);
 
   // Mettre à jour les pages modifiées (actives et inactives avec contenu changé)
