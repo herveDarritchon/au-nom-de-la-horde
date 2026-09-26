@@ -117,3 +117,57 @@
     align-items: center;
     gap: 0.35em;
 }
+
+/* -------------------------------------------------------------------------- */
+/* Importeur Warbound Markdown — Squelette UI (Issue #52)                     */
+/* -------------------------------------------------------------------------- */
+
+.warbound-markdown-importer .window-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.warbound-markdown-importer-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35em;
+}
+
+.warbound-markdown-importer .wb-file-name {
+    margin: 0.25em 0 0;
+    opacity: 0.85;
+    word-break: break-all;
+}
+
+.warbound-markdown-importer .wb-validation-result {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.warbound-markdown-importer .wb-diag-group h4 {
+    margin: 0.5em 0 0.2em;
+}
+
+.warbound-markdown-importer .wb-diag-group ul {
+    margin: 0;
+    padding-left: 1.2em;
+}
+
+.warbound-markdown-importer .wb-diag {
+    padding: 0.15em 0.4em;
+    border-radius: 3px;
+}
+
+.warbound-markdown-importer .wb-diag-error {
+    color: #b02a2a;
+}
+
+.warbound-markdown-importer .wb-diag-warning {
+    color: #a06a00;
+}
+
+.warbound-markdown-importer .wb-diag-success {
+    color: #2a7a2a;
+}
