@@ -316,6 +316,7 @@ jobs:
             README-WARBOUND-DA.md \
             assets/ \
             scripts/ \
+            src/ \
             styles/ \
             packs/
 
