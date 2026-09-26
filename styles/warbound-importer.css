@@ -262,3 +262,28 @@
 .warbound-markdown-importer .wb-preview-actions {
     justify-content: flex-end;
 }
+
+/* -------------------------------------------------------------------------- */
+/* Importeur Warbound Markdown — Bilan post-synchronisation (Issue #57)        */
+/* -------------------------------------------------------------------------- */
+
+.warbound-markdown-importer .wb-bilan {
+    list-style: none;
+    margin: 0.25em 0 0.5em;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(11em, 1fr));
+    gap: 0.15em 0.75em;
+}
+
+.warbound-markdown-importer .wb-bilan li {
+    display: flex;
+    align-items: baseline;
+    gap: 0.4em;
+}
+
+.warbound-markdown-importer .wb-bilan-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+}

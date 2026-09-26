@@ -170,17 +170,33 @@ class WarboundMarkdownImporterApp extends foundry.applications.api.ApplicationV2
     if (this.#importResult.error) {
       return `<div class="wb-diag-group"><p class="wb-diag wb-diag-error"><i class="fa-solid fa-circle-xmark"></i> <strong>Erreur :</strong> ${esc(this.#importResult.error)}</p></div>`;
     }
-    const { journalName, tableName } = this.#importResult;
-    const tableInfo = tableName
-      ? `<li><i class="fa-solid fa-table-list"></i> Table : <strong>${esc(tableName)}</strong></li>`
-      : `<li><i class="fa-solid fa-circle-info"></i> Aucune entrée active — pas de RollTable créée.</li>`;
+    const { journalName, journalId, tableId, counts } = this.#importResult;
+
+    const countItems = [
+      { key: "new", label: "créée", icon: "fa-plus" },
+      { key: "modified", label: "mise à jour", icon: "fa-pen" },
+      { key: "unchanged", label: "inchangée", icon: "fa-equals" },
+      { key: "inactive", label: "inactive", icon: "fa-circle-half-stroke" },
+      { key: "errors", label: "erreur", icon: "fa-triangle-exclamation" },
+    ]
+      .map(({ key, label, icon }) => {
+        const n = counts[key] ?? 0;
+        return `<li><i class="fa-solid ${icon}"></i> ${n} ${label}${n === 1 ? "" : "s"}</li>`;
+      })
+      .join("");
+
+    const openTableButton = tableId
+      ? `<button type="button" data-action="open-table"><i class="fa-solid fa-table-list"></i> Ouvrir la RollTable</button>`
+      : "";
+
     return `
       <div class="wb-diag-group">
-        <p class="wb-diag wb-diag-success"><i class="fa-solid fa-circle-check"></i> Synchronisation réussie.</p>
-        <ul>
-          <li><i class="fa-solid fa-book"></i> Journal : <strong>${esc(journalName)}</strong></li>
-          ${tableInfo}
-        </ul>
+        <p class="wb-diag wb-diag-success"><i class="fa-solid fa-circle-check"></i> Synchronisation réussie — <strong>${esc(journalName)}</strong></p>
+        <ul class="wb-bilan">${countItems}</ul>
+        <div class="wb-bilan-actions">
+          <button type="button" data-action="open-journal"><i class="fa-solid fa-book"></i> Ouvrir le Journal</button>
+          ${openTableButton}
+        </div>
       </div>`;
   }
 
@@ -249,6 +265,35 @@ class WarboundMarkdownImporterApp extends foundry.applications.api.ApplicationV2
   async #onAction(_event, action, content) {
     if (action === "close" || action === "cancel") return this.close();
     if (action === "import") return this.#doImport(content);
+    if (action === "open-journal") {
+      game.journal.get(this.#importResult?.journalId)?.sheet.render();
+      return;
+    }
+    if (action === "open-table") {
+      game.tables.get(this.#importResult?.tableId)?.sheet.render();
+      return;
+    }
+  }
+
+  /**
+   * Traduit le diff en compteurs d'état. Un premier import crée toutes les pages du modèle
+   * (page de contexte incluse) sans toucher l'état actif/inactif, tandis qu'un réimport applique
+   * exactement les catégories du diff.
+   * @param {object | null} diff - diff de syncDocuments, null au premier import
+   * @param {object} model - modèle parsé
+   * @returns {{ new: number, modified: number, unchanged: number, inactive: number, errors: number }}
+   */
+  static #countChanges(diff, model) {
+    if (diff === null) {
+      return { new: model.entries.length + 1, modified: 0, unchanged: 0, inactive: 0, errors: 0 };
+    }
+    return {
+      new: diff.new.length,
+      modified: diff.modified.length,
+      unchanged: diff.unchanged.length,
+      inactive: diff.inactive.length,
+      errors: 0,
+    };
   }
 
   async #doImport(content) {
@@ -264,10 +309,12 @@ class WarboundMarkdownImporterApp extends foundry.applications.api.ApplicationV2
     this.render();
 
     try {
-      const { journal, table } = await syncDocuments(this.#parseResult, journalFolder, tableFolder);
+      const { journal, table, diff } = await syncDocuments(this.#parseResult, journalFolder, tableFolder);
       this.#importResult = {
         journalName: journal.name,
-        tableName: table?.name ?? null,
+        journalId: journal.id,
+        tableId: table?.id ?? null,
+        counts: WarboundMarkdownImporterApp.#countChanges(diff, this.#parseResult),
       };
     } catch (err) {
       console.error(`${MODULE_ID} | WarboundMarkdownImporterApp import error`, err);
