@@ -1,4 +1,5 @@
 import { parseWarboundMarkdown, validateWarboundModel } from "../../../src/importers/warbound-markdown/index.mjs";
+import { generateDocuments } from "./WarboundDocumentGenerator.mjs";
 
 const MODULE_ID = "warbound-campaign-content";
 const SEVERITY_LABELS = { error: "Erreur", warning: "Avertissement" };
@@ -18,6 +19,8 @@ class WarboundMarkdownImporterApp extends foundry.applications.api.ApplicationV2
   #parseResult = null;
   #validationResult = null;
   #readError = null;
+  #importing = false;
+  #importResult = null;
 
   async _renderHTML() {
     return this.#renderSource();
@@ -34,10 +37,15 @@ class WarboundMarkdownImporterApp extends foundry.applications.api.ApplicationV2
       : "";
 
     const validationSection = this.#validationResult ? this.#renderValidation() : "";
+    const folderSection = this.#canImport() ? this.#renderFolderSelect() : "";
+    const importResultSection = this.#importResult ? this.#renderImportResult() : "";
 
-    const nextButton =
-      this.#validationResult && this.#validationResult.errors.length === 0
-        ? `<button type="button" data-action="next" class="default" disabled><i class="fa-solid fa-arrow-right"></i> Suivant (non implémenté)</button>`
+    const importButton =
+      this.#canImport()
+        ? `<button type="button" data-action="import" class="default" ${this.#importing ? "disabled" : ""}>
+             <i class="fa-solid ${this.#importing ? "fa-spinner fa-spin" : "fa-file-import"}"></i>
+             ${this.#importing ? "Import en cours…" : "Importer"}
+           </button>`
         : "";
 
     return `
@@ -48,10 +56,66 @@ class WarboundMarkdownImporterApp extends foundry.applications.api.ApplicationV2
       </div>
       ${readError}
       ${validationSection}
+      ${folderSection}
+      ${importResultSection}
       <footer class="form-footer">
-        ${nextButton}
+        ${importButton}
         <button type="button" data-action="close"><i class="fa-solid fa-xmark"></i> Fermer</button>
       </footer>`;
+  }
+
+  #canImport() {
+    return this.#validationResult?.errors.length === 0 && !this.#importResult;
+  }
+
+  #renderFolderSelect() {
+    const journalFolders = game.folders
+      .filter((f) => f.type === "JournalEntry")
+      .sort((a, b) => a.name.localeCompare(b.name));
+
+    const tableFolders = game.folders
+      .filter((f) => f.type === "RollTable")
+      .sort((a, b) => a.name.localeCompare(b.name));
+
+    const journalOptions = [
+      `<option value="">— Racine (aucun dossier) —</option>`,
+      ...journalFolders.map((f) => `<option value="${esc(f.id)}">${esc(f.name)}</option>`),
+    ].join("");
+
+    const tableOptions = [
+      `<option value="">— Racine (aucun dossier) —</option>`,
+      ...tableFolders.map((f) => `<option value="${esc(f.id)}">${esc(f.name)}</option>`),
+    ].join("");
+
+    return `
+      <div class="wb-folder-select">
+        <div class="form-group">
+          <label><i class="fa-solid fa-book"></i> Dossier Journal</label>
+          <select name="journalFolder">${journalOptions}</select>
+        </div>
+        <div class="form-group">
+          <label><i class="fa-solid fa-table-list"></i> Dossier Table</label>
+          <select name="tableFolder">${tableOptions}</select>
+        </div>
+      </div>`;
+  }
+
+  #renderImportResult() {
+    if (this.#importResult.error) {
+      return `<div class="wb-diag-group"><p class="wb-diag wb-diag-error"><i class="fa-solid fa-circle-xmark"></i> <strong>Erreur :</strong> ${esc(this.#importResult.error)}</p></div>`;
+    }
+    const { journalName, tableName } = this.#importResult;
+    const tableInfo = tableName
+      ? `<li><i class="fa-solid fa-table-list"></i> Table : <strong>${esc(tableName)}</strong></li>`
+      : `<li><i class="fa-solid fa-circle-info"></i> Aucune entrée active — pas de RollTable créée.</li>`;
+    return `
+      <div class="wb-diag-group">
+        <p class="wb-diag wb-diag-success"><i class="fa-solid fa-circle-check"></i> Import réussi.</p>
+        <ul>
+          <li><i class="fa-solid fa-book"></i> Journal : <strong>${esc(journalName)}</strong></li>
+          ${tableInfo}
+        </ul>
+      </div>`;
   }
 
   #renderValidation() {
@@ -84,6 +148,7 @@ class WarboundMarkdownImporterApp extends foundry.applications.api.ApplicationV2
       this.#readError = null;
       this.#parseResult = null;
       this.#validationResult = null;
+      this.#importResult = null;
 
       const reader = new FileReader();
       reader.onload = (e) => this.#onFileRead(e.target.result);
@@ -95,7 +160,7 @@ class WarboundMarkdownImporterApp extends foundry.applications.api.ApplicationV2
     });
 
     content.querySelectorAll("[data-action]").forEach((el) => {
-      el.addEventListener("click", (ev) => this.#onAction(ev, el.dataset.action));
+      el.addEventListener("click", (ev) => this.#onAction(ev, el.dataset.action, content));
     });
   }
 
@@ -110,8 +175,36 @@ class WarboundMarkdownImporterApp extends foundry.applications.api.ApplicationV2
     this.render();
   }
 
-  async #onAction(_event, action) {
+  async #onAction(_event, action, content) {
     if (action === "close") return this.close();
+    if (action === "import") return this.#doImport(content);
+  }
+
+  async #doImport(content) {
+    if (!this.#parseResult || this.#importing) return;
+
+    const journalFolderId = content.querySelector('select[name="journalFolder"]')?.value || null;
+    const tableFolderId = content.querySelector('select[name="tableFolder"]')?.value || null;
+
+    const journalFolder = journalFolderId ? game.folders.get(journalFolderId) : null;
+    const tableFolder = tableFolderId ? game.folders.get(tableFolderId) : null;
+
+    this.#importing = true;
+    this.render();
+
+    try {
+      const { journal, table } = await generateDocuments(this.#parseResult, journalFolder, tableFolder);
+      this.#importResult = {
+        journalName: journal.name,
+        tableName: table?.name ?? null,
+      };
+    } catch (err) {
+      console.error(`${MODULE_ID} | WarboundMarkdownImporterApp import error`, err);
+      this.#importResult = { error: err.message };
+    } finally {
+      this.#importing = false;
+      this.render();
+    }
   }
 }
 
@@ -139,12 +232,15 @@ Hooks.once("ready", () => {
   if (module) module.api = { ...module.api, warbound: { ...module.api?.warbound, openWarboundMarkdownImporter } };
 });
 
+// En V14, le hook reçoit l'élément header directement (ApplicationV2 partial render).
+// `.directory-header .action-buttons` échoue car root IS le .directory-header.
+// Corriger : chercher .action-buttons comme descendant direct de root.
 Hooks.on("renderJournalDirectory", (app, htmlOrElement) => {
   if (!game.user.isGM) return;
   const root = htmlOrElement instanceof HTMLElement ? htmlOrElement : htmlOrElement?.[0];
   if (!root || root.querySelector(".warbound-markdown-importer-button")) return;
 
-  const header = root.querySelector(".directory-header .action-buttons, .directory-header");
+  const header = root.querySelector(".action-buttons") ?? root.querySelector(".directory-header");
   if (!header) return;
 
   const button = document.createElement("button");

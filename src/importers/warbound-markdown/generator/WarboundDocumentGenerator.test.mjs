@@ -1,6 +1,6 @@
 import { test, describe } from "node:test";
 import assert from "node:assert/strict";
-import { buildJournalData, computeEntryHash } from "./WarboundDocumentGenerator.mjs";
+import { buildJournalData, computeEntryHash, buildRollTableData } from "./WarboundDocumentGenerator.mjs";
 
 const MODEL = {
   schema: 1,
@@ -169,5 +169,172 @@ describe("buildJournalData", () => {
     MODEL.entries.forEach((entry, i) => {
       assert.equal(pages[i + 1].text.content, entry.html);
     });
+  });
+});
+
+const NAMESPACE = "warbound-campaign-content";
+const FLAG_KEY = "markdownImport";
+
+function makePages(model) {
+  return model.entries.map((entry) => ({
+    uuid: `JournalEntry.journal-abc.JournalEntryPage.${entry.id}-id`,
+    flags: { [NAMESPACE]: { [FLAG_KEY]: { entryId: entry.id } } },
+  }));
+}
+
+const MODEL_WITH_INACTIVE = {
+  ...MODEL,
+  entries: [
+    { ...MODEL.entries[0], weight: 1, active: true },
+    { ...MODEL.entries[1], weight: 2, active: true },
+    {
+      index: 3,
+      id: "third-entry",
+      title: "Troisième entrée",
+      summary: "Inactif.",
+      weight: 1,
+      active: false,
+      markdown: "## Troisième",
+      html: "<h2>Troisième</h2>",
+    },
+  ],
+};
+
+describe("buildRollTableData", () => {
+  test("formula = 1d4 pour poids [1, 2, 1] toutes actives", () => {
+    const model = {
+      ...MODEL,
+      entries: [
+        { ...MODEL.entries[0], weight: 1, active: true },
+        { ...MODEL.entries[1], weight: 2, active: true },
+        { index: 3, id: "c", title: "C", summary: "c", weight: 1, active: true, markdown: "", html: "" },
+      ],
+    };
+    const pages = makePages(model);
+    const { rollTableData } = buildRollTableData(model, null, pages);
+    assert.equal(rollTableData.formula, "1d4");
+  });
+
+  test("plages correctes : A [1,1], B [2,3], C [4,4]", () => {
+    const model = {
+      ...MODEL,
+      entries: [
+        { index: 1, id: "a", title: "A", summary: "", weight: 1, active: true, markdown: "", html: "" },
+        { index: 2, id: "b", title: "B", summary: "", weight: 2, active: true, markdown: "", html: "" },
+        { index: 3, id: "c", title: "C", summary: "", weight: 1, active: true, markdown: "", html: "" },
+      ],
+    };
+    const pages = makePages(model);
+    const { results } = buildRollTableData(model, null, pages);
+    assert.deepEqual(results[0].range, [1, 1]);
+    assert.deepEqual(results[1].range, [2, 3]);
+    assert.deepEqual(results[2].range, [4, 4]);
+  });
+
+  test("entrée inactive absente des résultats", () => {
+    const pages = makePages(MODEL_WITH_INACTIVE);
+    const { results } = buildRollTableData(MODEL_WITH_INACTIVE, null, pages);
+    assert.equal(results.length, 2);
+    assert.ok(results.every((r) => r.name !== "Troisième entrée"));
+  });
+
+  test("formula = 1d3 si C inactive (poids actifs 1+2)", () => {
+    const pages = makePages(MODEL_WITH_INACTIVE);
+    const { rollTableData } = buildRollTableData(MODEL_WITH_INACTIVE, null, pages);
+    assert.equal(rollTableData.formula, "1d3");
+  });
+
+  test("une seule entrée active : formula = 1d{weight}, plage [1, weight]", () => {
+    const model = {
+      ...MODEL,
+      entries: [
+        { index: 1, id: "only", title: "Seule", summary: "", weight: 3, active: true, markdown: "", html: "" },
+      ],
+    };
+    const pages = makePages(model);
+    const { rollTableData, results } = buildRollTableData(model, null, pages);
+    assert.equal(rollTableData.formula, "1d3");
+    assert.deepEqual(results[0].range, [1, 3]);
+  });
+
+  test("aucune entrée active : results vide", () => {
+    const model = {
+      ...MODEL,
+      entries: [
+        { index: 1, id: "a", title: "A", summary: "", weight: 1, active: false, markdown: "", html: "" },
+      ],
+    };
+    const { results } = buildRollTableData(model, null, []);
+    assert.equal(results.length, 0);
+  });
+
+  test("aucune entrée active : rollTableData null (pas de formule 1d0)", () => {
+    const model = {
+      ...MODEL,
+      entries: [
+        { index: 1, id: "a", title: "A", summary: "", weight: 1, active: false, markdown: "", html: "" },
+      ],
+    };
+    const { rollTableData } = buildRollTableData(model, null, []);
+    assert.equal(rollTableData, null);
+  });
+
+  test("replacement et displayRoll à true", () => {
+    const pages = makePages(MODEL);
+    const { rollTableData } = buildRollTableData(MODEL, null, pages);
+    assert.equal(rollTableData.replacement, true);
+    assert.equal(rollTableData.displayRoll, true);
+  });
+
+  test("folder absent quand null passé", () => {
+    const pages = makePages(MODEL);
+    const { rollTableData } = buildRollTableData(MODEL, null, pages);
+    assert.equal("folder" in rollTableData, false);
+  });
+
+  test("folder positionné si folder.id fourni", () => {
+    const pages = makePages(MODEL);
+    const { rollTableData } = buildRollTableData(MODEL, { id: "folder-999" }, pages);
+    assert.equal(rollTableData.folder, "folder-999");
+  });
+
+  test("name de la RollTable = title du modèle", () => {
+    const pages = makePages(MODEL);
+    const { rollTableData } = buildRollTableData(MODEL, null, pages);
+    assert.equal(rollTableData.name, MODEL.title);
+  });
+
+  test("type de chaque résultat = 'document'", () => {
+    const pages = makePages(MODEL);
+    const { results } = buildRollTableData(MODEL, null, pages);
+    for (const r of results) assert.equal(r.type, "document");
+  });
+
+  test("documentUuid correspond à la page de l'entrée", () => {
+    const pages = makePages(MODEL);
+    const { results } = buildRollTableData(MODEL, null, pages);
+    MODEL.entries.filter((e) => e.active).forEach((entry, i) => {
+      assert.equal(
+        results[i].documentUuid,
+        `JournalEntry.journal-abc.JournalEntryPage.${entry.id}-id`
+      );
+    });
+  });
+
+  test("documentUuid null si page absente", () => {
+    const { results } = buildRollTableData(MODEL, null, []);
+    for (const r of results) assert.equal(r.documentUuid, null);
+  });
+
+  test("aucun _id dans rollTableData", () => {
+    const pages = makePages(MODEL);
+    const { rollTableData } = buildRollTableData(MODEL, null, pages);
+    assert.equal("_id" in rollTableData, false);
+  });
+
+  test("aucun _id dans les résultats", () => {
+    const pages = makePages(MODEL);
+    const { results } = buildRollTableData(MODEL, null, pages);
+    for (const r of results) assert.equal("_id" in r, false);
   });
 });

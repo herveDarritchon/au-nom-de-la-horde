@@ -77,3 +77,49 @@ export function buildJournalData(model, folder) {
 
   return { journalData, pages: [contextPage, ...entryPages] };
 }
+
+/**
+ * Construit les données brutes pour une RollTable Foundry V14 avec plages par poids.
+ * Seules les entrées actives (entry.active === true) sont incluses.
+ * Sans aucune entrée active, aucune table n'est construite : `rollTableData` vaut null
+ * plutôt que de produire une formule `1d0` rejetée par Foundry.
+ * @param {object} model - Modèle produit par parseWarboundMarkdown
+ * @param {{ id: string } | null} folder - Objet Folder Foundry (ou null pour la racine)
+ * @param {Array<{ uuid: string, flags: object }>} createdPages - pages JournalEntryPage créées
+ * @returns {{ rollTableData: object | null, results: object[] }}
+ */
+export function buildRollTableData(model, folder, createdPages) {
+  const activeEntries = model.entries.filter((e) => e.active);
+  if (!activeEntries.length) return { rollTableData: null, results: [] };
+
+  const sumOfWeights = activeEntries.reduce((acc, e) => acc + e.weight, 0);
+
+  const rollTableData = {
+    name: model.title,
+    ...(folder?.id != null ? { folder: folder.id } : {}),
+    formula: `1d${sumOfWeights}`,
+    replacement: true,
+    displayRoll: true,
+  };
+
+  let cursor = 1;
+  const results = activeEntries.map((entry) => {
+    const start = cursor;
+    const end = cursor + entry.weight - 1;
+    cursor = end + 1;
+
+    const page = createdPages.find(
+      (p) => p.flags?.[NAMESPACE]?.[FLAG_KEY]?.entryId === entry.id
+    );
+
+    return {
+      type: "document",
+      name: entry.title,
+      description: entry.summary ?? "",
+      documentUuid: page?.uuid ?? null,
+      range: [start, end],
+    };
+  });
+
+  return { rollTableData, results };
+}
