@@ -332,6 +332,14 @@ describe("buildRollTableData", () => {
     assert.equal("_id" in rollTableData, false);
   });
 
+  test("flags de la RollTable portent schema et collectionId (identité pour la synchro)", () => {
+    const pages = makePages(MODEL);
+    const { rollTableData } = buildRollTableData(MODEL, null, pages);
+    const flags = rollTableData.flags["warbound-campaign-content"].markdownImport;
+    assert.equal(flags.schema, 1);
+    assert.equal(flags.collectionId, MODEL.collectionId);
+  });
+
   test("aucun _id dans les résultats", () => {
     const pages = makePages(MODEL);
     const { results } = buildRollTableData(MODEL, null, pages);

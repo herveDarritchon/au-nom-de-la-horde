@@ -100,6 +100,11 @@ export function buildRollTableData(model, folder, createdPages) {
     formula: `1d${sumOfWeights}`,
     replacement: true,
     displayRoll: true,
+    flags: {
+      [NAMESPACE]: {
+        [FLAG_KEY]: { schema: model.schema, collectionId: model.collectionId },
+      },
+    },
   };
 
   let cursor = 1;

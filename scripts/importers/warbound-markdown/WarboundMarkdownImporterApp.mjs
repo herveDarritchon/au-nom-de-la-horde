@@ -1,5 +1,5 @@
 import { parseWarboundMarkdown, validateWarboundModel } from "../../../src/importers/warbound-markdown/index.mjs";
-import { generateDocuments } from "./WarboundDocumentGenerator.mjs";
+import { syncDocuments } from "./WarboundImportSynchronizer.mjs";
 
 const MODULE_ID = "warbound-campaign-content";
 const SEVERITY_LABELS = { error: "Erreur", warning: "Avertissement" };
@@ -193,7 +193,7 @@ class WarboundMarkdownImporterApp extends foundry.applications.api.ApplicationV2
     this.render();
 
     try {
-      const { journal, table } = await generateDocuments(this.#parseResult, journalFolder, tableFolder);
+      const { journal, table } = await syncDocuments(this.#parseResult, journalFolder, tableFolder);
       this.#importResult = {
         journalName: journal.name,
         tableName: table?.name ?? null,
