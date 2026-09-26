@@ -233,6 +233,170 @@ describe("buildImportDiff — page sans flags Warbound", () => {
   });
 });
 
+// ── Collection encounter ───────────────────────────────────────────────────────
+
+const MODEL_ENCOUNTER = {
+  schema: 1,
+  collectionId: "durotar-senjin-encounters",
+  title: "Rencontres Sen'jin",
+  type: "encounter",
+  context: {
+    markdown: "# Contexte\n\nContexte de rencontre.",
+    html: "<h1>Contexte</h1>\n<p>Contexte de rencontre.</p>",
+  },
+  entries: [
+    {
+      index: 1,
+      id: "patrouille-sable",
+      title: "Patrouille des sables",
+      summary: "Centaures en patrouille.",
+      weight: 2,
+      active: true,
+      markdown: "## Patrouille",
+      html: "<h2>Patrouille</h2>",
+    },
+    {
+      index: 2,
+      id: "eclaireurs-kul",
+      title: "Éclaireurs de Kul'Tiras",
+      summary: "Soldats humains.",
+      weight: 3,
+      active: true,
+      markdown: "## Éclaireurs",
+      html: "<h2>Éclaireurs</h2>",
+    },
+    {
+      index: 3,
+      id: "caravane-pillee",
+      title: "Caravane pillée",
+      summary: "Caravane abandonnée.",
+      weight: 1,
+      active: false,
+      markdown: "## Caravane",
+      html: "<h2>Caravane</h2>",
+    },
+  ],
+};
+
+describe("buildImportDiff — collection encounter (nouvelle)", () => {
+  test("toutes les entrées sont 'new' (context + 3 entrées)", () => {
+    const diff = buildImportDiff(MODEL_ENCOUNTER, []);
+    assert.equal(diff.new.length, 1 + MODEL_ENCOUNTER.entries.length);
+    assert.equal(diff.modified.length, 0);
+    assert.equal(diff.unchanged.length, 0);
+    assert.equal(diff.orphan.length, 0);
+  });
+});
+
+describe("buildImportDiff — collection encounter réimport identique", () => {
+  test("0 new, 0 modified, 0 orphan; unchanged = context + actives; inactive = inactives", () => {
+    const existingPages = makeExistingPages(MODEL_ENCOUNTER);
+    const diff = buildImportDiff(MODEL_ENCOUNTER, existingPages);
+    assert.equal(diff.new.length, 0);
+    assert.equal(diff.modified.length, 0);
+    assert.equal(diff.orphan.length, 0);
+    const activeCount = MODEL_ENCOUNTER.entries.filter((e) => e.active).length;
+    assert.equal(diff.unchanged.length, 1 + activeCount);
+    assert.equal(diff.inactive.length, MODEL_ENCOUNTER.entries.filter((e) => !e.active).length);
+  });
+});
+
+describe("buildImportDiff — rencontre modifiée (HTML changé)", () => {
+  test("contenu HTML changé → 'modified'", () => {
+    const existingPages = makeExistingPages(MODEL_ENCOUNTER);
+    const modifiedModel = {
+      ...MODEL_ENCOUNTER,
+      entries: MODEL_ENCOUNTER.entries.map((e) =>
+        e.id === "patrouille-sable" ? { ...e, html: "<h2>Nouveau contenu</h2>" } : e
+      ),
+    };
+    const diff = buildImportDiff(modifiedModel, existingPages);
+    const item = diff.modified.find((d) => d.entry.id === "patrouille-sable");
+    assert.ok(item, "rencontre modifiée doit être dans modified");
+  });
+});
+
+describe("buildImportDiff — rencontre inactive", () => {
+  test("rencontre inactive non modifiée → 'inactive' avec hashChanged=false", () => {
+    const existingPages = makeExistingPages(MODEL_ENCOUNTER);
+    const diff = buildImportDiff(MODEL_ENCOUNTER, existingPages);
+    const item = diff.inactive.find((d) => d.entry.id === "caravane-pillee");
+    assert.ok(item);
+    assert.equal(item.hashChanged, false);
+  });
+
+  test("rencontre inactive absente de modified et unchanged", () => {
+    const existingPages = makeExistingPages(MODEL_ENCOUNTER);
+    const diff = buildImportDiff(MODEL_ENCOUNTER, existingPages);
+    const ids = [...diff.modified, ...diff.unchanged].map((d) => d.entry.id);
+    assert.ok(!ids.includes("caravane-pillee"));
+  });
+});
+
+describe("buildImportDiff — rencontre orpheline (encounter)", () => {
+  test("page encounter dans Foundry absente du modèle → 'orphan'", () => {
+    const existingPages = makeExistingPages(MODEL_ENCOUNTER);
+    const extraPage = {
+      id: "page-old-encounter",
+      uuid: "JournalEntryPage.j2.page-old-encounter",
+      name: "Ancienne rencontre",
+      flags: makeFlag("old-encounter", "deadbeef"),
+    };
+    const diff = buildImportDiff(MODEL_ENCOUNTER, [...existingPages, extraPage]);
+    const item = diff.orphan.find((d) => d.existing.id === "page-old-encounter");
+    assert.ok(item, "page orpheline absente de diff.orphan");
+  });
+});
+
+describe("buildImportDiff — renommage encounter (titre changé, entryId stable)", () => {
+  test("titre changé, ID stable → 'modified'", () => {
+    const existingPages = makeExistingPages(MODEL_ENCOUNTER);
+    const modifiedModel = {
+      ...MODEL_ENCOUNTER,
+      entries: MODEL_ENCOUNTER.entries.map((e) =>
+        e.id === "eclaireurs-kul" ? { ...e, title: "Éclaireurs renommés" } : e
+      ),
+    };
+    const diff = buildImportDiff(modifiedModel, existingPages);
+    const item = diff.modified.find((d) => d.entry.id === "eclaireurs-kul");
+    assert.ok(item, "rencontre renommée doit être dans modified");
+  });
+
+  test("UUID conservé dans modified après renommage", () => {
+    const existingPages = makeExistingPages(MODEL_ENCOUNTER);
+    const originalPage = existingPages.find(
+      (p) => p.flags?.[NAMESPACE]?.[FLAG_KEY]?.entryId === "eclaireurs-kul"
+    );
+    assert.ok(originalPage, "page originale introuvable");
+    const modifiedModel = {
+      ...MODEL_ENCOUNTER,
+      entries: MODEL_ENCOUNTER.entries.map((e) =>
+        e.id === "eclaireurs-kul" ? { ...e, title: "Éclaireurs renommés" } : e
+      ),
+    };
+    const diff = buildImportDiff(modifiedModel, existingPages);
+    const item = diff.modified.find((d) => d.existing?.uuid === originalPage.uuid);
+    assert.ok(item, "UUID non conservé dans modified");
+  });
+});
+
+describe("buildImportDiff — changement de poids (encounter)", () => {
+  test("poids modifié, titre et HTML identiques → page dans 'unchanged' (hash basé sur titre+html)", () => {
+    const existingPages = makeExistingPages(MODEL_ENCOUNTER);
+    const modelPoidsDiff = {
+      ...MODEL_ENCOUNTER,
+      entries: MODEL_ENCOUNTER.entries.map((e) =>
+        e.id === "patrouille-sable" ? { ...e, weight: 5 } : e
+      ),
+    };
+    const diff = buildImportDiff(modelPoidsDiff, existingPages);
+    const item = diff.unchanged.find((d) => d.entry.id === "patrouille-sable");
+    assert.ok(item, "page avec poids changé seul doit rester dans unchanged");
+    assert.ok(!diff.modified.some((d) => d.entry.id === "patrouille-sable"),
+      "page ne doit pas être dans modified (seul le poids a changé)");
+  });
+});
+
 describe("buildImportDiff — contexte modifié", () => {
   test("HTML du contexte changé → 'modified'", () => {
     const existingPages = makeExistingPages(MODEL);

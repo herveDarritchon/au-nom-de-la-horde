@@ -570,6 +570,171 @@ warbound:
   });
 });
 
+// ── Type encounter ────────────────────────────────────────────────────────────
+
+const VALID_ENCOUNTER_RAW = `---
+warbound:
+  schema: 1
+  id: durotar-test-encounters
+  title: Rencontres test
+  type: encounter
+---
+
+<!-- warbound:table:start -->
+
+| Index | ID | Titre | Aperçu | Poids | Actif |
+|---:|---|---|---|---:|---|
+| 1 | rencontre-a | Première rencontre | Une rencontre. | 2 | oui |
+| 2 | rencontre-b | Deuxième rencontre | Une autre. | 3 | oui |
+| 3 | rencontre-c | Troisième | Inactif. | 1 | non |
+
+<!-- warbound:table:end -->
+
+<!-- warbound:entry id="rencontre-a" -->
+
+## Première rencontre
+
+Contenu.
+
+<!-- warbound:entry:end -->
+
+<!-- warbound:entry id="rencontre-b" -->
+
+## Deuxième rencontre
+
+Contenu.
+
+<!-- warbound:entry:end -->
+`;
+
+describe("type encounter — source valide", () => {
+  test("source encounter reconnue sans erreur ni warning", () => {
+    const { errors, warnings } = validate(VALID_ENCOUNTER_RAW);
+    assert.deepEqual(errors, []);
+    assert.deepEqual(warnings, []);
+  });
+
+  test("absence de rubriques internes (Tension, Acteurs) ne génère pas d'erreur", () => {
+    const { errors } = validate(VALID_ENCOUNTER_RAW);
+    const rubriqueErrors = errors.filter(
+      (e) => e.message?.includes("Tension") || e.message?.includes("Acteurs")
+    );
+    assert.equal(rubriqueErrors.length, 0);
+  });
+});
+
+describe("type encounter — erreurs bloquantes", () => {
+  test("ID dupliqué dans table encounter → erreur duplicate-id-table", () => {
+    const raw = `---
+warbound:
+  schema: 1
+  id: test-enc
+  title: Test enc
+  type: encounter
+---
+<!-- warbound:table:start -->
+| Index | ID | Titre | Aperçu | Poids | Actif |
+|---|---|---|---|---|---|
+| 1 | enc-a | Enc A | Aperçu A | 1 | non |
+| 2 | enc-a | Enc B | Aperçu B | 1 | non |
+<!-- warbound:table:end -->
+`;
+    const { errors } = validate(raw);
+    assert.ok(errors.some((e) => e.code === "duplicate-id-table" && e.id === "enc-a"));
+  });
+
+  test("rencontre active sans bloc → erreur missing-block-for-active-entry", () => {
+    const raw = `---
+warbound:
+  schema: 1
+  id: test-enc
+  title: Test enc
+  type: encounter
+---
+<!-- warbound:table:start -->
+| Index | ID | Titre | Aperçu | Poids | Actif |
+|---|---|---|---|---|---|
+| 1 | enc-active | Enc active | Aperçu | 1 | oui |
+<!-- warbound:table:end -->
+`;
+    const { errors } = validate(raw);
+    assert.ok(errors.some((e) => e.code === "missing-block-for-active-entry" && e.id === "enc-active"));
+  });
+
+  test("poids invalide (0) dans table encounter → erreur invalid-weight", () => {
+    const raw = `---
+warbound:
+  schema: 1
+  id: test-enc
+  title: Test enc
+  type: encounter
+---
+<!-- warbound:table:start -->
+| Index | ID | Titre | Aperçu | Poids | Actif |
+|---|---|---|---|---|---|
+| 1 | enc-a | Enc A | Aperçu | 0 | non |
+<!-- warbound:table:end -->
+`;
+    const { errors } = validate(raw);
+    assert.ok(errors.some((e) => e.code === "invalid-weight" && e.id === "enc-a"));
+  });
+
+  test("Actif invalide ('yes') dans table encounter → erreur invalid-actif", () => {
+    const raw = `---
+warbound:
+  schema: 1
+  id: test-enc
+  title: Test enc
+  type: encounter
+---
+<!-- warbound:table:start -->
+| Index | ID | Titre | Aperçu | Poids | Actif |
+|---|---|---|---|---|---|
+| 1 | enc-a | Enc A | Aperçu | 1 | yes |
+<!-- warbound:table:end -->
+`;
+    const { errors } = validate(raw);
+    assert.ok(errors.some((e) => e.code === "invalid-actif" && e.id === "enc-a"));
+  });
+
+  test("table absente dans source encounter → erreur missing-table", () => {
+    const raw = `---
+warbound:
+  schema: 1
+  id: test-enc
+  title: Test enc
+  type: encounter
+---
+
+Pas de table.
+`;
+    const { errors } = validate(raw);
+    assert.ok(errors.some((e) => e.code === "missing-table"));
+  });
+});
+
+describe("type encounter — warnings", () => {
+  test("aucune rencontre active → warning no-active-entry", () => {
+    const raw = `---
+warbound:
+  schema: 1
+  id: test-enc
+  title: Test enc
+  type: encounter
+---
+<!-- warbound:table:start -->
+| Index | ID | Titre | Aperçu | Poids | Actif |
+|---|---|---|---|---|---|
+| 1 | enc-a | Enc A | Aperçu A | 1 | non |
+| 2 | enc-b | Enc B | Aperçu B | 1 | non |
+<!-- warbound:table:end -->
+`;
+    const { errors, warnings } = validate(raw);
+    assert.deepEqual(errors, []);
+    assert.ok(warnings.some((w) => w.code === "no-active-entry"));
+  });
+});
+
 // ── Codes d'erreur et messages §17 ────────────────────────────────────────────
 
 describe("messages d'erreur §17", () => {
