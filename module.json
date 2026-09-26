@@ -125,6 +125,7 @@
   "esmodules": [
     "scripts/warbound.mjs",
     "scripts/importers/cof2Debug.mjs",
-    "scripts/importers/cof2ImportWizard.mjs"
+    "scripts/importers/cof2ImportWizard.mjs",
+    "scripts/importers/warbound-markdown/WarboundMarkdownImporterApp.mjs"
   ]
 }
