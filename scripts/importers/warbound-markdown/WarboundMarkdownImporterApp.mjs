@@ -277,11 +277,11 @@ class WarboundMarkdownImporterApp extends foundry.applications.api.ApplicationV2
     if (action === "close" || action === "cancel") return this.close();
     if (action === "import") return this.#doImport(content);
     if (action === "open-journal") {
-      game.journal.get(this.#importResult?.journalId)?.sheet.render();
+      game.journal.get(this.#importResult?.journalId)?.sheet.render(true);
       return;
     }
     if (action === "open-table") {
-      game.tables.get(this.#importResult?.tableId)?.sheet.render();
+      game.tables.get(this.#importResult?.tableId)?.sheet.render(true);
       return;
     }
   }
