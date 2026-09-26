@@ -1,29 +1,34 @@
-ARTHROPODE (MOYEN) | NC 3
-CRÉATURE VIVANTE TAILLE MOYENNE
-
-| AGI +4* | CON +3* | FOR +3* | PER +2 |
-| CHA -4 | INT -4 | VOL +0 |
-
-DEF 17
-PV 30
-Init. 12
-
-Pinces +6 · DM 2d6+3
-Dard +6 · DM 1d4 + poison (2d6, difficulté 12 pour ½ DM)
-
+SCORPION GÉANT
+Les scorpions sont des arthropodes et béné‑
+ficient à ce titre des mêmes avantages que les
+araignées : ils sont rapides, puissants et capables
+de survivre aux pires blessures.
 Capacités communes
-
 VERMINE :
-Tous les arthropodes géants obtiennent un dé bonus en FOR,
-en AGI et en CON, et lorsque la créature atteint 0 PV,
-elle peut encore agir 1 round complet.
-Ils sont rapides et se déplacent de 15 m par action de mouvement.
-
+Tous les arthropodes géants obtiennent un dé
+bonus en FOR, en AGI en CON, et lorsque
+la créature atteint 0 PV, elle peut encore
+agir 1 round complet. Ils sont rapides et se
+déplacent de 15 m par action de mouvement.
 CUIRASSÉ :
-La créature bénéficie d'une RD 5 contre les armes.
-
+La créature bénéficie d’une RD 5 contre les
+armes.
 POISON :
-Le poison inflige des DM supplémentaires à la victime
-à chaque attaque (voir les profils).
-Si le PJ réussit un test de CON de la difficulté indiquée,
-il ne subit que ½ DM.
+Le poison inflige des DM supplémentaires à
+la victime à chaque attaque (voir les profils).
+Si le PJ réussit un test de CON de la difficulté
+indiquée, il ne subit que ½ DM.
+W ARTHROPODE (MOYEN)
+W
+CRÉATURE VIVANTE TAILLE MOYENNE
+| NC 3
+
+| AGI +4* | CON +3* | FOR +3* | PER +2 |
+| CHA ‑4 | INT ‑4 | VOL +0 |
+(S)DEF 17 (V)PV 30 (I)Init. 12
+Pinces +6 ·
+DM 2d6+3
+Dard +6 ·
+DM 1d4 + poison (2d6, difficulté 12
+pour ½ ·
+DM)
