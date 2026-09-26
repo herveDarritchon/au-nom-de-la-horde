@@ -38,6 +38,7 @@ export function buildJournalData(model, folder) {
         [FLAG_KEY]: {
           schema: model.schema,
           collectionId: model.collectionId,
+          ...(model.type != null ? { collectionType: model.type } : {}),
         },
       },
     },
@@ -102,7 +103,11 @@ export function buildRollTableData(model, folder, createdPages) {
     displayRoll: true,
     flags: {
       [NAMESPACE]: {
-        [FLAG_KEY]: { schema: model.schema, collectionId: model.collectionId },
+        [FLAG_KEY]: {
+          schema: model.schema,
+          collectionId: model.collectionId,
+          ...(model.type != null ? { collectionType: model.type } : {}),
+        },
       },
     },
   };

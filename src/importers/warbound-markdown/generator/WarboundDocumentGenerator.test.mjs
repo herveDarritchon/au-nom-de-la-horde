@@ -85,6 +85,26 @@ describe("buildJournalData", () => {
     assert.equal(flags.collectionId, "durotar-tauren-rumors");
   });
 
+  test("flags JournalEntry contiennent collectionType quand model.type est défini", () => {
+    const { journalData } = buildJournalData(MODEL, null);
+    const flags = journalData.flags["warbound-campaign-content"].markdownImport;
+    assert.equal(flags.collectionType, "rumor");
+  });
+
+  test("flags JournalEntry avec type encounter contiennent collectionType 'encounter'", () => {
+    const modelEncounter = { ...MODEL, type: "encounter" };
+    const { journalData } = buildJournalData(modelEncounter, null);
+    const flags = journalData.flags["warbound-campaign-content"].markdownImport;
+    assert.equal(flags.collectionType, "encounter");
+  });
+
+  test("flags JournalEntry sans type n'ont pas de collectionType", () => {
+    const modelNoType = { ...MODEL, type: undefined };
+    const { journalData } = buildJournalData(modelNoType, null);
+    const flags = journalData.flags["warbound-campaign-content"].markdownImport;
+    assert.equal("collectionType" in flags, false);
+  });
+
   test("aucun _id dans journalData", () => {
     const { journalData } = buildJournalData(MODEL, null);
     assert.equal("_id" in journalData, false);
@@ -338,6 +358,29 @@ describe("buildRollTableData", () => {
     const flags = rollTableData.flags["warbound-campaign-content"].markdownImport;
     assert.equal(flags.schema, 1);
     assert.equal(flags.collectionId, MODEL.collectionId);
+  });
+
+  test("flags RollTable contiennent collectionType quand model.type est défini", () => {
+    const pages = makePages(MODEL);
+    const { rollTableData } = buildRollTableData(MODEL, null, pages);
+    const flags = rollTableData.flags["warbound-campaign-content"].markdownImport;
+    assert.equal(flags.collectionType, "rumor");
+  });
+
+  test("flags RollTable avec type encounter contiennent collectionType 'encounter'", () => {
+    const modelEncounter = { ...MODEL, type: "encounter" };
+    const pages = makePages(MODEL);
+    const { rollTableData } = buildRollTableData(modelEncounter, null, pages);
+    const flags = rollTableData.flags["warbound-campaign-content"].markdownImport;
+    assert.equal(flags.collectionType, "encounter");
+  });
+
+  test("flags RollTable sans type n'ont pas de collectionType", () => {
+    const modelNoType = { ...MODEL, type: undefined };
+    const pages = makePages(MODEL);
+    const { rollTableData } = buildRollTableData(modelNoType, null, pages);
+    const flags = rollTableData.flags["warbound-campaign-content"].markdownImport;
+    assert.equal("collectionType" in flags, false);
   });
 
   test("aucun _id dans les résultats", () => {

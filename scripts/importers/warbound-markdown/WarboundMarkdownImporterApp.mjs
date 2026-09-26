@@ -22,6 +22,12 @@ const MARKERS = {
 
 const esc = (s) => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
+const COLLECTION_TYPE_LABELS = {
+  encounter: { singular: "rencontre", plural: "rencontres", table: "Table de rencontres" },
+  rumor:     { singular: "rumeur",    plural: "rumeurs",    table: "Table de rumeurs" },
+};
+const DEFAULT_LABELS = { singular: "entrée", plural: "entrées", table: "Table aléatoire" };
+
 class WarboundMarkdownImporterApp extends foundry.applications.api.ApplicationV2 {
   static DEFAULT_OPTIONS = {
     id: "warbound-markdown-importer",
@@ -140,12 +146,16 @@ class WarboundMarkdownImporterApp extends foundry.applications.api.ApplicationV2
 
     const cancelButton = `<button type="button" data-action="cancel"><i class="fa-solid fa-xmark"></i> Annuler</button>`;
 
+    const typeLabels = COLLECTION_TYPE_LABELS[model.type] ?? DEFAULT_LABELS;
+    const totalLabel = rows.length === 1 ? typeLabels.singular : typeLabels.plural;
+
     return `
       <div class="wb-preview">
         <div class="wb-preview-header">
           <strong>${esc(model.title)}</strong>
           <span class="wb-preview-collection-id">${esc(model.collectionId)}</span>
-          <span class="wb-preview-total">${rows.length} entrée${rows.length > 1 ? "s" : ""}</span>
+          <span class="wb-preview-type">Type : ${esc(typeLabels.plural)}</span>
+          <span class="wb-preview-total">${rows.length} ${esc(totalLabel)}</span>
           <div class="wb-preview-summary">${summary || "Aucune entrée"}</div>
         </div>
         <ul class="wb-preview-list">${entryRows}</ul>
@@ -170,7 +180,8 @@ class WarboundMarkdownImporterApp extends foundry.applications.api.ApplicationV2
     if (this.#importResult.error) {
       return `<div class="wb-diag-group"><p class="wb-diag wb-diag-error"><i class="fa-solid fa-circle-xmark"></i> <strong>Erreur :</strong> ${esc(this.#importResult.error)}</p></div>`;
     }
-    const { journalName, journalId, tableId, counts } = this.#importResult;
+    const { journalName, journalId, tableId, collectionType, counts } = this.#importResult;
+    const importTypeLabels = COLLECTION_TYPE_LABELS[collectionType] ?? DEFAULT_LABELS;
 
     const countItems = [
       { key: "new", label: "créée", icon: "fa-plus" },
@@ -186,7 +197,7 @@ class WarboundMarkdownImporterApp extends foundry.applications.api.ApplicationV2
       .join("");
 
     const openTableButton = tableId
-      ? `<button type="button" data-action="open-table"><i class="fa-solid fa-table-list"></i> Ouvrir la RollTable</button>`
+      ? `<button type="button" data-action="open-table"><i class="fa-solid fa-table-list"></i> Ouvrir la ${esc(importTypeLabels.table)}</button>`
       : "";
 
     return `
@@ -314,6 +325,7 @@ class WarboundMarkdownImporterApp extends foundry.applications.api.ApplicationV2
         journalName: journal.name,
         journalId: journal.id,
         tableId: table?.id ?? null,
+        collectionType: this.#parseResult.type ?? null,
         counts: WarboundMarkdownImporterApp.#countChanges(diff, this.#parseResult),
       };
     } catch (err) {
