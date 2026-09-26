@@ -334,6 +334,148 @@ warbound:
   });
 });
 
+// ── Type encounter ────────────────────────────────────────────────────────────
+
+const ENCOUNTER_FIXTURE = `---
+warbound:
+  schema: 1
+  id: test-encounters
+  title: Rencontres test
+  type: encounter
+---
+
+# Rencontres test
+
+## Contexte
+
+Un contexte de test avec des caractères accentués.
+
+<!-- warbound:table:start -->
+
+| Index | ID | Titre | Aperçu | Poids | Actif |
+|---:|---|---|---|---:|---|
+| 1 | rencontre-a | Première rencontre | Une rencontre active. | 2 | oui |
+| 2 | rencontre-b | Deuxième rencontre | Une autre rencontre. | 3 | oui |
+| 3 | rencontre-c | Troisième rencontre | Inactif. | 1 | non |
+
+<!-- warbound:table:end -->
+
+<!-- warbound:entry id="rencontre-a" -->
+
+## Première rencontre
+
+Contenu complet multi-rubriques.
+
+### En un regard
+
+Vue d'ensemble de la situation.
+
+### Ce qui se passe réellement
+
+La vérité cachée derrière les apparences.
+
+### Acteurs
+
+- **Chef** — principale figure de la rencontre
+- **Deux gardes** — nerveux, réaction rapide
+
+### Tension
+
+Élevée dès que les PJ s'approchent à moins de dix mètres.
+
+<!-- warbound:entry:end -->
+
+<!-- warbound:entry id="rencontre-b" -->
+
+## Deuxième rencontre
+
+Bloc court sans toutes les rubriques.
+
+### En un regard
+
+> « Une citation mémorable avec accents : éàü. »
+
+- élément un de la liste
+- élément deux de la liste
+
+<!-- warbound:entry:end -->
+
+<!-- warbound:entry id="rencontre-c" -->
+
+## Troisième rencontre
+
+Entrée inactive, contenu minimal.
+
+<!-- warbound:entry:end -->
+`;
+
+describe("type encounter", () => {
+  test("type 'encounter' parsé correctement", () => {
+    const result = parseWarboundMarkdown(ENCOUNTER_FIXTURE);
+    assert.equal(result.type, "encounter");
+  });
+
+  test("contexte extrait avec caractères accentués", () => {
+    const result = parseWarboundMarkdown(ENCOUNTER_FIXTURE);
+    assert.ok(result.context.markdown.includes("accentués"));
+    assert.ok(result.context.html.includes("accentués"));
+  });
+
+  test("3 entrées parsées (N ≠ 20)", () => {
+    const result = parseWarboundMarkdown(ENCOUNTER_FIXTURE);
+    assert.equal(result.entries.length, 3);
+  });
+
+  test("poids 2 et 3 sur les entrées actives", () => {
+    const result = parseWarboundMarkdown(ENCOUNTER_FIXTURE);
+    assert.equal(result.entries[0].weight, 2);
+    assert.equal(result.entries[1].weight, 3);
+  });
+
+  test("blocs multi-headings préservés dans le HTML", () => {
+    const result = parseWarboundMarkdown(ENCOUNTER_FIXTURE);
+    const html = result.entries[0].html;
+    assert.ok(html.includes("En un regard"), "En un regard manquant");
+    assert.ok(html.includes("Ce qui se passe r"), "Ce qui se passe réellement manquant");
+    assert.ok(html.includes("Acteurs"), "Acteurs manquant");
+    assert.ok(html.includes("Tension"), "Tension manquant");
+  });
+
+  test("bloc court (sans toutes les rubriques) importable sans erreur", () => {
+    const result = parseWarboundMarkdown(ENCOUNTER_FIXTURE);
+    const entry = result.entries[1];
+    assert.ok(entry.markdown.length > 0);
+    assert.ok(entry.html.length > 0);
+    assert.ok(!entry.html.includes("Combat éventuel"), "rubrique absente ne doit pas apparaître");
+    assert.ok(!entry.html.includes("Tension"), "rubrique absente ne doit pas apparaître");
+  });
+
+  test("liste Markdown convertie en <ul>/<li> dans le bloc", () => {
+    const result = parseWarboundMarkdown(ENCOUNTER_FIXTURE);
+    assert.ok(result.entries[0].html.includes("<li>"), "liste non convertie dans rencontre-a");
+    assert.ok(result.entries[1].html.includes("<li>"), "liste non convertie dans rencontre-b");
+  });
+
+  test("citation convertie en <blockquote> dans le bloc court", () => {
+    const result = parseWarboundMarkdown(ENCOUNTER_FIXTURE);
+    assert.ok(result.entries[1].html.includes("<blockquote>"));
+    assert.ok(result.entries[1].html.includes("citation mémorable"));
+  });
+
+  test("accents dans la citation préservés", () => {
+    const result = parseWarboundMarkdown(ENCOUNTER_FIXTURE);
+    assert.ok(result.entries[1].html.includes("éàü"));
+  });
+
+  test("entrée inactive a markdown et html non vides", () => {
+    const result = parseWarboundMarkdown(ENCOUNTER_FIXTURE);
+    const inactive = result.entries[2];
+    assert.ok(inactive.markdown.length > 0);
+    assert.ok(inactive.html.length > 0);
+    assert.equal(inactive.active, false);
+  });
+});
+
 // ── Cas limites ───────────────────────────────────────────────────────────────
 
 describe("cas limites", () => {
