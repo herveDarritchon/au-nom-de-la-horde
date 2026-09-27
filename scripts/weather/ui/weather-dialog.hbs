@@ -39,5 +39,11 @@
     <button type="button" data-action="nextDay">
       <i class="fa-solid fa-forward-step"></i> Jour suivant
     </button>
+    <button type="button" data-action="overrideWeather" {{#unless hasState}}disabled{{/unless}}>
+      <i class="fa-solid fa-rotate"></i> ↻
+    </button>
+    <button type="button" data-action="publishToChat" {{#unless hasState}}disabled{{/unless}}>
+      <i class="fa-solid fa-bullhorn"></i> Publier dans le chat
+    </button>
   </footer>
 </div>
