@@ -59,6 +59,7 @@ export class WeatherDialog extends foundry.applications.api.ApplicationV2 {
       nextDay:         WeatherDialog.#onNextDay,
       publishToChat:   WeatherDialog.#onPublishToChat,
       overrideWeather: WeatherDialog.#onOverrideWeather,
+      ignoreEvent:     WeatherDialog.#onIgnoreEvent,
     },
   }
 
@@ -67,6 +68,8 @@ export class WeatherDialog extends foundry.applications.api.ApplicationV2 {
   }
 
   #zoneId
+  #lastEvent   = null
+  #eventIgnored = false
 
   constructor(zoneId, options = {}) {
     super(options)
@@ -78,18 +81,20 @@ export class WeatherDialog extends foundry.applications.api.ApplicationV2 {
     const regime = state?.regime ?? 0
     return {
       state,
-      zoneId:      this.#zoneId,
-      hasState:    state !== null,
-      regimeLabel: REGIME_LABELS[regime] ?? '—',
-      regimeIcon:  REGIME_ICONS[regime]  ?? 'fa-cloud',
-      regimeAge:   state?.regimeAge ?? 0,
+      zoneId:        this.#zoneId,
+      hasState:      state !== null,
+      regimeLabel:   REGIME_LABELS[regime] ?? '—',
+      regimeIcon:    REGIME_ICONS[regime]  ?? 'fa-cloud',
+      regimeAge:     state?.regimeAge ?? 0,
       labels: {
         sky:           SKY_LABELS[state?.sky]              ?? state?.sky           ?? '—',
         precipitation: PRECIP_LABELS[state?.precipitation] ?? state?.precipitation ?? '—',
         wind:          WIND_LABELS[state?.wind]            ?? state?.wind          ?? '—',
         temperature:   TEMP_LABELS[state?.temperature]     ?? state?.temperature   ?? '—',
       },
-      narrative: buildNarrative(state),
+      narrative:     buildNarrative(state),
+      event:         this.#lastEvent,
+      eventIgnored:  this.#eventIgnored,
     }
   }
 
@@ -125,6 +130,8 @@ export class WeatherDialog extends foundry.applications.api.ApplicationV2 {
       previousWeather: previous,
       history:         previous?.history ?? [],
     })
+    this.#lastEvent    = next.event ?? null
+    this.#eventIgnored = false
     await WeatherStateService.setState(this.#zoneId, {
       ...next,
       zoneId:  this.#zoneId,
@@ -139,19 +146,26 @@ export class WeatherDialog extends foundry.applications.api.ApplicationV2 {
       ui.notifications.warn(`[Météo] Aucune configuration pour la zone "${this.#zoneId}"`)
       return
     }
-    const previous  = WeatherStateService.getState(this.#zoneId)
-    const next      = WeatherEngine.next({
+    const previous   = WeatherStateService.getState(this.#zoneId)
+    const next       = WeatherEngine.next({
       biome:           config.biome,
       season:          config.season,
       previousWeather: previous,
       history:         previous?.history ?? [],
     })
+    this.#lastEvent    = next.event ?? null
+    this.#eventIgnored = false
     const newHistory = [...(previous?.history ?? []), previous].filter(Boolean)
     await WeatherStateService.setState(this.#zoneId, {
       ...next,
       zoneId:  this.#zoneId,
       history: newHistory,
     })
+    this.render()
+  }
+
+  static #onIgnoreEvent() {
+    this.#eventIgnored = true
     this.render()
   }
 }
