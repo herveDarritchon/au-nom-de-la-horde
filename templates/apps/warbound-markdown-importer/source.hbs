@@ -1,0 +1,15 @@
+{{#if isActive}}
+  <div class="form-group stacked">
+    <label>Sélectionnez un fichier Warbound Markdown (.md) :</label>
+    <input type="file" name="mdfile" accept=".md,.markdown,text/markdown">
+    {{#if fileName}}
+      <p class="wb-file-name"><i class="fa-solid fa-file"></i> {{fileName}}</p>
+    {{/if}}
+  </div>
+  {{#if readError}}
+    <p class="wb-diag wb-diag-error"><strong>Erreur de lecture :</strong> {{readError}}</p>
+  {{/if}}
+  <footer class="form-footer">
+    <button type="button" data-action="close"><i class="fa-solid fa-xmark"></i> Fermer</button>
+  </footer>
+{{/if}}

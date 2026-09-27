@@ -1,0 +1,20 @@
+{{#if isActive}}
+  {{#if validationOk}}
+    <div class="wb-diag-group">
+      <p class="wb-diag wb-diag-success"><i class="fa-solid fa-check"></i> Document valide — aucune erreur ni avertissement.</p>
+    </div>
+  {{else}}
+    <div class="wb-validation-result">
+      {{#each validationSections}}
+        <div class="wb-diag-group">
+          <h4>{{label}} ({{count}})</h4>
+          <ul>
+            {{#each items}}
+              <li class="wb-diag wb-diag-{{../severity}}">[{{code}}] {{message}}</li>
+            {{/each}}
+          </ul>
+        </div>
+      {{/each}}
+    </div>
+  {{/if}}
+{{/if}}

@@ -1,5 +1,6 @@
 import { parseWarboundMarkdown, validateWarboundModel } from "../../../src/importers/warbound-markdown/index.mjs";
 import { syncDocuments, computeImportDiff } from "./WarboundImportSynchronizer.mjs";
+import { TEMPLATE_ROOT } from "../../../src/constants/templates.mjs";
 
 const MODULE_ID = "warbound-campaign-content";
 const SEVERITY_LABELS = { error: "Erreur", warning: "Avertissement" };
@@ -20,21 +21,28 @@ const MARKERS = {
   orphan: "!",
 };
 
-const esc = (s) => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
-
 const COLLECTION_TYPE_LABELS = {
   encounter: { singular: "rencontre", plural: "rencontres", table: "Table de rencontres" },
   rumor:     { singular: "rumeur",    plural: "rumeurs",    table: "Table de rumeurs" },
 };
 const DEFAULT_LABELS = { singular: "entrée", plural: "entrées", table: "Table aléatoire" };
 
-class WarboundMarkdownImporterApp extends foundry.applications.api.ApplicationV2 {
+const { HandlebarsApplicationMixin } = foundry.applications.api;
+
+class WarboundMarkdownImporterApp extends HandlebarsApplicationMixin(foundry.applications.api.ApplicationV2) {
   static DEFAULT_OPTIONS = {
     id: "warbound-markdown-importer",
     classes: ["warbound", "warbound-markdown-importer"],
     tag: "form",
     window: { title: "Importer un document Warbound Markdown", icon: "fa-solid fa-file-import", resizable: true },
     position: { width: 640, height: "auto" },
+  };
+
+  static PARTS = {
+    source:     { template: `${TEMPLATE_ROOT}/apps/warbound-markdown-importer/source.hbs` },
+    validation: { template: `${TEMPLATE_ROOT}/apps/warbound-markdown-importer/validation.hbs` },
+    preview:    { template: `${TEMPLATE_ROOT}/apps/warbound-markdown-importer/preview.hbs` },
+    result:     { template: `${TEMPLATE_ROOT}/apps/warbound-markdown-importer/result.hbs` },
   };
 
   #fileName = "";
@@ -45,196 +53,127 @@ class WarboundMarkdownImporterApp extends foundry.applications.api.ApplicationV2
   #importing = false;
   #importResult = null;
 
-  async _renderHTML() {
-    return this.#renderSource();
-  }
-
-  async _replaceHTML(result, content) {
-    content.innerHTML = result;
-    this.#activateListeners(content);
-  }
-
-  #renderSource() {
-    const readError = this.#readError
-      ? `<p class="wb-diag wb-diag-error"><strong>Erreur de lecture :</strong> ${esc(this.#readError)}</p>`
-      : "";
-
-    const validationSection = this.#validationResult ? this.#renderValidation() : "";
-    const previewSection = this.#canPreview() ? this.#renderPreview() : "";
-    const importResultSection = this.#importResult ? this.#renderImportResult() : "";
-
-    return `
-      <div class="form-group stacked">
-        <label>Sélectionnez un fichier Warbound Markdown (.md) :</label>
-        <input type="file" name="mdfile" accept=".md,.markdown,text/markdown">
-        ${this.#fileName ? `<p class="wb-file-name"><i class="fa-solid fa-file"></i> ${esc(this.#fileName)}</p>` : ""}
-      </div>
-      ${readError}
-      ${validationSection}
-      ${previewSection}
-      ${importResultSection}
-      <footer class="form-footer">
-        <button type="button" data-action="close"><i class="fa-solid fa-xmark"></i> Fermer</button>
-      </footer>`;
-  }
-
-  #canPreview() {
-    return this.#validationResult?.errors.length === 0 && !this.#importResult;
-  }
-
-  #renderPreview() {
+  async _prepareContext(options) {
+    const canPreview = this.#validationResult?.errors.length === 0 && !this.#importResult;
     const model = this.#parseResult;
     const diff = this.#diffResult;
 
-    // Une entrée absente du diff est une page qui n'existe pas encore dans Foundry.
     const stateByEntryId = new Map();
-    for (const [state, items] of Object.entries(diff ?? {})) {
-      for (const item of items) {
-        stateByEntryId.set(item.entry?.id ?? item.existing.id, state);
+    if (diff) {
+      for (const [state, items] of Object.entries(diff)) {
+        for (const item of items) {
+          stateByEntryId.set(item.entry?.id ?? item.existing.id, state);
+        }
       }
     }
 
-    const rows = [
-      { state: stateByEntryId.get("context") ?? "new", id: "context", title: "Contexte" },
-      ...model.entries.map((entry) => ({
-        state: stateByEntryId.get(entry.id) ?? "new",
-        id: entry.id,
-        title: entry.title,
-      })),
-      ...(diff?.orphan ?? []).map((item) => ({
-        state: "orphan",
-        id: item.existing.id,
-        title: item.existing.name,
-      })),
-    ];
+    const rows = model
+      ? [
+          { state: stateByEntryId.get("context") ?? "new", id: "context", title: "Contexte" },
+          ...model.entries.map((entry) => ({
+            state: stateByEntryId.get(entry.id) ?? "new",
+            id: entry.id,
+            title: entry.title,
+          })),
+          ...(diff?.orphan ?? []).map((item) => ({
+            state: "orphan",
+            id: item.existing.id,
+            title: item.existing.name,
+          })),
+        ].map((row) => ({ ...row, stateLabel: STATE_LABELS[row.state], marker: MARKERS[row.state] }))
+      : [];
 
     const counts = {};
     for (const row of rows) counts[row.state] = (counts[row.state] ?? 0) + 1;
-
     const summary = Object.entries(STATE_LABELS)
       .filter(([state]) => counts[state])
-      .map(
-        ([state, label]) =>
-          `<span class="wb-count-${state}"><code>${MARKERS[state]}</code> ${counts[state]} ${label}${counts[state] > 1 ? "s" : ""}</span>`
-      )
-      .join(" · ");
+      .map(([state, label]) => ({
+        state,
+        marker: MARKERS[state],
+        count: counts[state],
+        label: counts[state] > 1 ? label + "s" : label,
+      }));
 
-    const entryRows = rows
-      .map(
-        (row) => `
-          <li class="wb-preview-entry wb-preview-${row.state}" title="${esc(STATE_LABELS[row.state])}">
-            <code class="wb-preview-marker">${esc(MARKERS[row.state])}</code>
-            <span class="wb-preview-id">${esc(row.id)}</span>
-            <span class="wb-preview-title">${esc(row.title)}</span>
-          </li>`
-      )
-      .join("");
+    const validationSections =
+      this.#validationResult
+        ? (() => {
+            const { errors, warnings } = this.#validationResult;
+            const sections = [];
+            if (errors.length)   sections.push({ severity: "error",   label: SEVERITY_LABELS.error,   items: errors,   count: errors.length });
+            if (warnings.length) sections.push({ severity: "warning", label: SEVERITY_LABELS.warning, items: warnings, count: warnings.length });
+            return sections;
+          })()
+        : [];
 
-    const folderOptions = (type) =>
-      [
-        `<option value="">— Racine (aucun dossier) —</option>`,
-        ...game.folders
-          .filter((f) => f.type === type)
-          .sort((a, b) => a.name.localeCompare(b.name))
-          .map((f) => `<option value="${esc(f.id)}">${esc(f.name)}</option>`),
-      ].join("");
+    const folderOptions = (type) => [
+      { id: "", name: "— Racine (aucun dossier) —" },
+      ...game.folders
+        .filter((f) => f.type === type)
+        .sort((a, b) => a.name.localeCompare(b.name))
+        .map((f) => ({ id: f.id, name: f.name })),
+    ];
 
-    const syncButton = `<button type="button" data-action="import" class="default" ${this.#importing ? "disabled" : ""}>
-      <i class="fa-solid ${this.#importing ? "fa-spinner fa-spin" : "fa-rotate"}"></i>
-      ${this.#importing ? "Synchronisation en cours…" : "Synchroniser"}
-    </button>`;
-
-    const cancelButton = `<button type="button" data-action="cancel"><i class="fa-solid fa-xmark"></i> Annuler</button>`;
-
-    const typeLabels = COLLECTION_TYPE_LABELS[model.type] ?? DEFAULT_LABELS;
+    const typeLabels = model ? (COLLECTION_TYPE_LABELS[model.type] ?? DEFAULT_LABELS) : DEFAULT_LABELS;
     const totalLabel = rows.length === 1 ? typeLabels.singular : typeLabels.plural;
 
-    return `
-      <div class="wb-preview">
-        <div class="wb-preview-header">
-          <strong>${esc(model.title)}</strong>
-          <span class="wb-preview-collection-id">${esc(model.collectionId)}</span>
-          <span class="wb-preview-type">Type : ${esc(typeLabels.plural)}</span>
-          <span class="wb-preview-total">${rows.length} ${esc(totalLabel)}</span>
-          <div class="wb-preview-summary">${summary || "Aucune entrée"}</div>
-        </div>
-        <ul class="wb-preview-list">${entryRows}</ul>
-        <div class="wb-folder-select">
-          <div class="form-group">
-            <label><i class="fa-solid fa-book"></i> Dossier Journal</label>
-            <select name="journalFolder">${folderOptions("JournalEntry")}</select>
-          </div>
-          <div class="form-group">
-            <label><i class="fa-solid fa-table-list"></i> Dossier Table</label>
-            <select name="tableFolder">${folderOptions("RollTable")}</select>
-          </div>
-        </div>
-        <div class="wb-preview-actions">
-          ${syncButton}
-          ${cancelButton}
-        </div>
-      </div>`;
+    let importResult = null;
+    if (this.#importResult) {
+      if (this.#importResult.error) {
+        importResult = { error: this.#importResult.error };
+      } else {
+        const { journalName, journalId, tableId, collectionType, counts: importCounts } = this.#importResult;
+        const importTypeLabels = COLLECTION_TYPE_LABELS[collectionType] ?? DEFAULT_LABELS;
+        importResult = {
+          journalName,
+          journalId,
+          tableId,
+          tableLabel: importTypeLabels.table,
+          countItems: [
+            { icon: "fa-plus",                label: "créée",        count: importCounts.new       ?? 0 },
+            { icon: "fa-pen",                 label: "mise à jour",  count: importCounts.modified  ?? 0 },
+            { icon: "fa-equals",              label: "inchangée",    count: importCounts.unchanged ?? 0 },
+            { icon: "fa-circle-half-stroke",  label: "inactive",     count: importCounts.inactive  ?? 0 },
+            { icon: "fa-triangle-exclamation",label: "erreur",       count: importCounts.errors    ?? 0 },
+          ].map((item) => ({ ...item, label: item.count === 1 ? item.label : item.label + "s" })),
+        };
+      }
+    }
+
+    return {
+      fileName: this.#fileName,
+      readError: this.#readError,
+      hasValidation: !!this.#validationResult,
+      validationOk: this.#validationResult?.errors.length === 0 && this.#validationResult?.warnings.length === 0,
+      validationSections,
+      canPreview,
+      model,
+      rows,
+      summary,
+      totalLabel,
+      typeLabels,
+      journalFolders: canPreview ? folderOptions("JournalEntry") : [],
+      tableFolders:   canPreview ? folderOptions("RollTable")    : [],
+      importing: this.#importing,
+      hasResult: !!this.#importResult,
+      importResult,
+    };
   }
 
-  #renderImportResult() {
-    if (this.#importResult.error) {
-      return `<div class="wb-diag-group"><p class="wb-diag wb-diag-error"><i class="fa-solid fa-circle-xmark"></i> <strong>Erreur :</strong> ${esc(this.#importResult.error)}</p></div>`;
-    }
-    const { journalName, journalId, tableId, collectionType, counts } = this.#importResult;
-    const importTypeLabels = COLLECTION_TYPE_LABELS[collectionType] ?? DEFAULT_LABELS;
-
-    const countItems = [
-      { key: "new", label: "créée", icon: "fa-plus" },
-      { key: "modified", label: "mise à jour", icon: "fa-pen" },
-      { key: "unchanged", label: "inchangée", icon: "fa-equals" },
-      { key: "inactive", label: "inactive", icon: "fa-circle-half-stroke" },
-      { key: "errors", label: "erreur", icon: "fa-triangle-exclamation" },
-    ]
-      .map(({ key, label, icon }) => {
-        const n = counts[key] ?? 0;
-        return `<li><i class="fa-solid ${icon}"></i> ${n} ${label}${n === 1 ? "" : "s"}</li>`;
-      })
-      .join("");
-
-    const openTableButton = tableId
-      ? `<button type="button" data-action="open-table"><i class="fa-solid fa-table-list"></i> Ouvrir la ${esc(importTypeLabels.table)}</button>`
-      : "";
-
-    return `
-      <div class="wb-diag-group">
-        <p class="wb-diag wb-diag-success"><i class="fa-solid fa-circle-check"></i> Synchronisation réussie — <strong>${esc(journalName)}</strong></p>
-        <ul class="wb-bilan">${countItems}</ul>
-        <div class="wb-bilan-actions">
-          <button type="button" data-action="open-journal"><i class="fa-solid fa-book"></i> Ouvrir le Journal</button>
-          ${openTableButton}
-        </div>
-      </div>`;
+  async _preparePartContext(partId, context) {
+    const isActive =
+      partId === "source" ||
+      (partId === "validation" && context.hasValidation) ||
+      (partId === "preview"    && context.canPreview) ||
+      (partId === "result"     && context.hasResult);
+    return { ...context, isActive };
   }
 
-  #renderValidation() {
-    const { errors, warnings } = this.#validationResult;
-
-    if (errors.length === 0 && warnings.length === 0) {
-      return `<div class="wb-diag-group"><p class="wb-diag wb-diag-success"><i class="fa-solid fa-check"></i> Document valide — aucune erreur ni avertissement.</p></div>`;
-    }
-
-    const sections = [];
-
-    if (errors.length) {
-      const items = errors.map((e) => `<li class="wb-diag wb-diag-error">[${esc(e.code)}] ${esc(e.message)}</li>`).join("");
-      sections.push(`<div class="wb-diag-group"><h4>${SEVERITY_LABELS.error} (${errors.length})</h4><ul>${items}</ul></div>`);
-    }
-
-    if (warnings.length) {
-      const items = warnings.map((w) => `<li class="wb-diag wb-diag-warning">[${esc(w.code)}] ${esc(w.message)}</li>`).join("");
-      sections.push(`<div class="wb-diag-group"><h4>${SEVERITY_LABELS.warning} (${warnings.length})</h4><ul>${items}</ul></div>`);
-    }
-
-    return `<div class="wb-validation-result">${sections.join("")}</div>`;
+  async _onRender(context, options) {
+    this.#activateListeners(this.element);
   }
 
-  #activateListeners(content) {
-    content.querySelector('input[name="mdfile"]')?.addEventListener("change", (ev) => {
+  #activateListeners(root) {
+    root.querySelector('input[name="mdfile"]')?.addEventListener("change", (ev) => {
       const file = ev.target.files?.[0];
       if (!file) return;
       this.#fileName = file.name;
@@ -253,8 +192,8 @@ class WarboundMarkdownImporterApp extends foundry.applications.api.ApplicationV2
       reader.readAsText(file);
     });
 
-    content.querySelectorAll("[data-action]").forEach((el) => {
-      el.addEventListener("click", (ev) => this.#onAction(ev, el.dataset.action, content));
+    root.querySelectorAll("[data-action]").forEach((el) => {
+      el.addEventListener("click", (ev) => this.#onAction(ev, el.dataset.action));
     });
   }
 
@@ -273,9 +212,9 @@ class WarboundMarkdownImporterApp extends foundry.applications.api.ApplicationV2
     this.render();
   }
 
-  async #onAction(_event, action, content) {
+  async #onAction(_event, action) {
     if (action === "close" || action === "cancel") return this.close();
-    if (action === "import") return this.#doImport(content);
+    if (action === "import") return this.#doImport();
     if (action === "open-journal") {
       game.journal.get(this.#importResult?.journalId)?.sheet.render(true);
       return;
@@ -307,14 +246,14 @@ class WarboundMarkdownImporterApp extends foundry.applications.api.ApplicationV2
     };
   }
 
-  async #doImport(content) {
+  async #doImport() {
     if (!this.#parseResult || this.#importing) return;
 
-    const journalFolderId = content.querySelector('select[name="journalFolder"]')?.value || null;
-    const tableFolderId = content.querySelector('select[name="tableFolder"]')?.value || null;
+    const journalFolderId = this.element.querySelector('select[name="journalFolder"]')?.value || null;
+    const tableFolderId   = this.element.querySelector('select[name="tableFolder"]')?.value   || null;
 
     const journalFolder = journalFolderId ? game.folders.get(journalFolderId) : null;
-    const tableFolder = tableFolderId ? game.folders.get(tableFolderId) : null;
+    const tableFolder   = tableFolderId   ? game.folders.get(tableFolderId)   : null;
 
     this.#importing = true;
     this.render();

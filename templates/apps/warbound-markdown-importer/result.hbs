@@ -1,0 +1,22 @@
+{{#if isActive}}
+  {{#if importResult.error}}
+    <div class="wb-diag-group">
+      <p class="wb-diag wb-diag-error"><i class="fa-solid fa-circle-xmark"></i> <strong>Erreur :</strong> {{importResult.error}}</p>
+    </div>
+  {{else}}
+    <div class="wb-diag-group">
+      <p class="wb-diag wb-diag-success"><i class="fa-solid fa-circle-check"></i> Synchronisation réussie — <strong>{{importResult.journalName}}</strong></p>
+      <ul class="wb-bilan">
+        {{#each importResult.countItems}}
+          <li><i class="fa-solid {{icon}}"></i> {{count}} {{label}}</li>
+        {{/each}}
+      </ul>
+      <div class="wb-bilan-actions">
+        <button type="button" data-action="open-journal"><i class="fa-solid fa-book"></i> Ouvrir le Journal</button>
+        {{#if importResult.tableId}}
+          <button type="button" data-action="open-table"><i class="fa-solid fa-table-list"></i> Ouvrir la {{importResult.tableLabel}}</button>
+        {{/if}}
+      </div>
+    </div>
+  {{/if}}
+{{/if}}
