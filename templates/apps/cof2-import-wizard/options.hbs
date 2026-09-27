@@ -1,0 +1,22 @@
+{{#if isActive}}
+  {{> cof2-wizard-stepper}}
+  <div class="form-group">
+    <label><input type="checkbox" data-field="opt.createActor" {{#if options.createActor}}checked{{/if}}> Créer l'acteur Rencontre.</label>
+  </div>
+  <div class="form-group">
+    <label><input type="checkbox" data-field="opt.reuseExisting" {{#if options.reuseExisting}}checked{{/if}}> Réutiliser les objets existants lorsqu'ils sont compatibles.</label>
+  </div>
+  <div class="form-group">
+    <label><input type="radio" name="saveToLibrary" data-field="opt.saveToLibrary" value="true" {{#if options.saveToLibrary}}checked{{/if}}> Enregistrer les nouveaux objets dans la bibliothèque d'import.</label>
+  </div>
+  <div class="form-group">
+    <label><input type="radio" name="saveToLibrary" data-field="opt.saveToLibrary" value="false" {{#unless options.saveToLibrary}}checked{{/unless}}> Créer uniquement dans l'acteur sans enrichir la bibliothèque.</label>
+  </div>
+  <div class="form-group">
+    <label><input type="checkbox" data-field="opt.openSheet" {{#if options.openSheet}}checked{{/if}}> Ouvrir la fiche après création.</label>
+  </div>
+  <footer class="form-footer">
+    <button type="button" data-action="back"><i class="fa-solid fa-arrow-left"></i> Précédent</button>
+    <button type="button" data-action="create" class="default"><i class="fa-solid fa-check"></i> Créer</button>
+  </footer>
+{{/if}}
