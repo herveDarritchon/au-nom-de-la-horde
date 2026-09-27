@@ -28,6 +28,18 @@
     </table>
 
     <p class="weather-narrative">{{narrative}}</p>
+
+    {{#if event}}
+      {{#unless eventIgnored}}
+        <div class="weather-event">
+          <h4><i class="fa-solid fa-exclamation-circle"></i> Événement possible</h4>
+          <p class="weather-event-text">{{event.text}}</p>
+          <button type="button" data-action="ignoreEvent" class="weather-event-ignore">
+            <i class="fa-solid fa-eye-slash"></i> Ignorer
+          </button>
+        </div>
+      {{/unless}}
+    {{/if}}
   {{else}}
     <p class="weather-no-state">
       Aucun état météo disponible pour la zone <strong>{{zoneId}}</strong>.<br>

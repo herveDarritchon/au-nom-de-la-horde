@@ -1,6 +1,7 @@
 import { BIOMES } from '../data/biomes.mjs'
 import { computeTransitionWeights } from './WeatherTransition.mjs'
 import { applyConstraints } from './WeatherConstraints.mjs'
+import { WeatherEventSelector } from './WeatherEventSelector.mjs'
 
 const REGIME_DESCRIPTORS = [
   { sky: 'clear',          precipitation: 'none',     wind: 'calm'     },
@@ -21,7 +22,7 @@ export const WeatherEngine = {
     const desc = REGIME_DESCRIPTORS[regime]
     const prevAge = previousWeather?.regime === regime ? (previousWeather.regimeAge ?? 1) : 0
 
-    return {
+    const weather = {
       regime,
       sky: desc.sky,
       precipitation: desc.precipitation,
@@ -29,6 +30,10 @@ export const WeatherEngine = {
       temperature: profile.dominantTemp,
       regimeAge: prevAge + 1,
     }
+
+    const event = WeatherEventSelector.select({ biome, weather, history, random })
+
+    return { ...weather, event }
   },
 }
 
