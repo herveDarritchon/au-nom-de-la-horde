@@ -1,9 +1,28 @@
 import { WeatherDialog } from './ui/WeatherDialog.mjs'
+import { ZoneWeatherService } from './services/ZoneWeatherService.mjs'
+import { registerWeatherSettings } from './services/WeatherSettings.mjs'
 
 const MODULE_ID      = 'warbound-campaign-content'
 const DEFAULT_ZONE_ID = 'durotar'
 
 let _weatherDialog = null
+
+Hooks.once('init', () => {
+  registerWeatherSettings()
+
+  const module = game.modules.get(MODULE_ID)
+  if (module) {
+    module.api = {
+      ...module.api,
+      weather: {
+        ...module.api?.weather,
+        setZoneConfig: (zoneId, config) => ZoneWeatherService.setZoneConfig(zoneId, config),
+        getZoneConfig: (zoneId) => ZoneWeatherService.getZoneConfig(zoneId),
+        openWeatherDialog,
+      },
+    }
+  }
+})
 
 function openWeatherDialog() {
   if (_weatherDialog?.rendered) {

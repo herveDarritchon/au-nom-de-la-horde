@@ -2,6 +2,7 @@ import { test, describe, beforeEach, afterEach } from 'node:test'
 import assert from 'node:assert/strict'
 
 import { ZoneWeatherService } from './ZoneWeatherService.mjs'
+import { MODULE_ID, WEATHER_STATES_SETTING, WEATHER_ZONE_CONFIGS_SETTING } from './WeatherSettings.mjs'
 
 const DUROTAR_CONFIG = {
   id: 'durotar', name: 'Durotar', biome: 'arid', season: 'summer', weather: 'active',
@@ -14,14 +15,14 @@ const OUTSIDE_STATE = {
 }
 
 describe('ZoneWeatherService — config', () => {
-  let flagStore
+  let settingStore
 
   beforeEach(() => {
-    flagStore = {}
+    settingStore = { [WEATHER_ZONE_CONFIGS_SETTING]: {} }
     global.game = {
-      world: {
-        getFlag(_scope, key) { return flagStore[key] ?? undefined },
-        async setFlag(_scope, key, value) { flagStore[key] = value },
+      settings: {
+        get(scope, key) { assert.equal(scope, MODULE_ID); return settingStore[key] },
+        async set(scope, key, value) { assert.equal(scope, MODULE_ID); settingStore[key] = value },
       },
     }
   })
@@ -40,14 +41,17 @@ describe('ZoneWeatherService — config', () => {
 })
 
 describe('ZoneWeatherService — resolveWeatherState', () => {
-  let flagStore
+  let settingStore
 
   beforeEach(() => {
-    flagStore = {}
+    settingStore = {
+      [WEATHER_ZONE_CONFIGS_SETTING]: {},
+      [WEATHER_STATES_SETTING]: {},
+    }
     global.game = {
-      world: {
-        getFlag(_scope, key) { return flagStore[key] ?? undefined },
-        async setFlag(_scope, key, value) { flagStore[key] = value },
+      settings: {
+        get(scope, key) { assert.equal(scope, MODULE_ID); return settingStore[key] },
+        async set(scope, key, value) { assert.equal(scope, MODULE_ID); settingStore[key] = value },
       },
     }
   })
@@ -62,7 +66,7 @@ describe('ZoneWeatherService — resolveWeatherState', () => {
   test("zone active retourne l'état de la zone elle-même", async () => {
     const state = { zoneId: 'durotar', regime: 2, regimeAge: 1 }
     await ZoneWeatherService.setZoneConfig('durotar', DUROTAR_CONFIG)
-    flagStore['weather.zones.durotar'] = state
+    settingStore[WEATHER_STATES_SETTING].durotar = state
     assert.deepEqual(ZoneWeatherService.resolveWeatherState('durotar'), state)
   })
 
@@ -70,7 +74,7 @@ describe('ZoneWeatherService — resolveWeatherState', () => {
     await ZoneWeatherService.setZoneConfig('barracks', {
       id: 'barracks', weather: 'inheritOutside', parentZoneId: 'outside',
     })
-    flagStore['weather.zones.outside'] = OUTSIDE_STATE
+    settingStore[WEATHER_STATES_SETTING].outside = OUTSIDE_STATE
     assert.deepEqual(ZoneWeatherService.resolveWeatherState('barracks'), OUTSIDE_STATE)
   })
 

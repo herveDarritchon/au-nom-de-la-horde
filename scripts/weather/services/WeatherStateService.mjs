@@ -1,12 +1,15 @@
-const FLAG_SCOPE = 'warbound-campaign-content'
-const flagKey = (zoneId) => `weather.zones.${zoneId}`
+import { MODULE_ID, WEATHER_STATES_SETTING } from './WeatherSettings.mjs'
 
 export const WeatherStateService = {
   getState(zoneId) {
-    return game.world.getFlag(FLAG_SCOPE, flagKey(zoneId)) ?? null
+    return game.settings.get(MODULE_ID, WEATHER_STATES_SETTING)?.[zoneId] ?? null
   },
 
   async setState(zoneId, state) {
-    await game.world.setFlag(FLAG_SCOPE, flagKey(zoneId), state)
+    const states = game.settings.get(MODULE_ID, WEATHER_STATES_SETTING) ?? {}
+    await game.settings.set(MODULE_ID, WEATHER_STATES_SETTING, {
+      ...states,
+      [zoneId]: state,
+    })
   },
 }
