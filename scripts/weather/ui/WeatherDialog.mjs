@@ -55,7 +55,11 @@ export class WeatherDialog extends foundry.applications.api.ApplicationV2 {
     classes: ['warbound', 'weather-dialog'],
     window: { title: 'Météo', icon: 'fa-solid fa-cloud-sun', resizable: false },
     position: { width: 420, height: 'auto' },
-    actions: { nextDay: WeatherDialog.#onNextDay },
+    actions: {
+      nextDay:         WeatherDialog.#onNextDay,
+      publishToChat:   WeatherDialog.#onPublishToChat,
+      overrideWeather: WeatherDialog.#onOverrideWeather,
+    },
   }
 
   static PARTS = {
@@ -87,6 +91,46 @@ export class WeatherDialog extends foundry.applications.api.ApplicationV2 {
       },
       narrative: buildNarrative(state),
     }
+  }
+
+  static async #onPublishToChat() {
+    const ctx = await this._prepareContext({})
+    if (!ctx.hasState) {
+      ui.notifications.warn('[Météo] Aucun état météo à publier.')
+      return
+    }
+    const content = `<div class="warbound weather-chat">
+  <h3><i class="fa-solid ${ctx.regimeIcon}"></i> ${ctx.regimeLabel}</h3>
+  <ul>
+    <li><strong>Ciel</strong> : ${ctx.labels.sky}</li>
+    <li><strong>Précipitations</strong> : ${ctx.labels.precipitation}</li>
+    <li><strong>Vent</strong> : ${ctx.labels.wind}</li>
+    <li><strong>Température</strong> : ${ctx.labels.temperature}</li>
+  </ul>
+  <p class="narrative">${ctx.narrative}</p>
+</div>`
+    await ChatMessage.create({ content, style: CONST.CHAT_MESSAGE_STYLES.OTHER })
+  }
+
+  static async #onOverrideWeather() {
+    const config = ZoneWeatherService.getZoneConfig(this.#zoneId)
+    if (!config) {
+      ui.notifications.warn(`[Météo] Aucune configuration pour la zone "${this.#zoneId}"`)
+      return
+    }
+    const previous = WeatherStateService.getState(this.#zoneId)
+    const next     = WeatherEngine.next({
+      biome:           config.biome,
+      season:          config.season,
+      previousWeather: previous,
+      history:         previous?.history ?? [],
+    })
+    await WeatherStateService.setState(this.#zoneId, {
+      ...next,
+      zoneId:  this.#zoneId,
+      history: previous?.history ?? [],
+    })
+    this.render()
   }
 
   static async #onNextDay(event, target) {
