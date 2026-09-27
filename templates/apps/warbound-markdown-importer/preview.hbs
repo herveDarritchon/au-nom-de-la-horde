@@ -1,0 +1,53 @@
+{{#if isActive}}
+  <div class="wb-preview">
+    <div class="wb-preview-header">
+      <strong>{{model.title}}</strong>
+      <span class="wb-preview-collection-id">{{model.collectionId}}</span>
+      <span class="wb-preview-type">Type : {{typeLabels.plural}}</span>
+      <span class="wb-preview-total">{{rows.length}} {{totalLabel}}</span>
+      <div class="wb-preview-summary">
+        {{#if summary}}
+          {{#each summary}}
+            <span class="wb-count-{{state}}"><code>{{marker}}</code> {{count}} {{label}}</span>{{#unless @last}} · {{/unless}}
+          {{/each}}
+        {{else}}
+          Aucune entrée
+        {{/if}}
+      </div>
+    </div>
+    <ul class="wb-preview-list">
+      {{#each rows}}
+        <li class="wb-preview-entry wb-preview-{{state}}" title="{{stateLabel}}">
+          <code class="wb-preview-marker">{{marker}}</code>
+          <span class="wb-preview-id">{{id}}</span>
+          <span class="wb-preview-title">{{title}}</span>
+        </li>
+      {{/each}}
+    </ul>
+    <div class="wb-folder-select">
+      <div class="form-group">
+        <label><i class="fa-solid fa-book"></i> Dossier Journal</label>
+        <select name="journalFolder">
+          {{#each journalFolders}}
+            <option value="{{id}}">{{name}}</option>
+          {{/each}}
+        </select>
+      </div>
+      <div class="form-group">
+        <label><i class="fa-solid fa-table-list"></i> Dossier Table</label>
+        <select name="tableFolder">
+          {{#each tableFolders}}
+            <option value="{{id}}">{{name}}</option>
+          {{/each}}
+        </select>
+      </div>
+    </div>
+    <div class="wb-preview-actions">
+      <button type="button" data-action="import" class="default" {{#if importing}}disabled{{/if}}>
+        <i class="fa-solid {{#if importing}}fa-spinner fa-spin{{else}}fa-rotate{{/if}}"></i>
+        {{#if importing}}Synchronisation en cours…{{else}}Synchroniser{{/if}}
+      </button>
+      <button type="button" data-action="cancel"><i class="fa-solid fa-xmark"></i> Annuler</button>
+    </div>
+  </div>
+{{/if}}
