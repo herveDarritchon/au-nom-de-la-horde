@@ -27,6 +27,54 @@ compendiums/*.yml
 
 ---
 
+## 🌦️ Générateur de météo
+
+Le générateur propose au MJ une météo pour la zone **Durotar**. Il ne suit pas automatiquement le temps de la partie : utilisez-le au début d'une journée en jeu, ou avant une scène où la météo doit être connue. Les joueurs ne voient la météo que lorsque le MJ la publie dans le chat.
+
+### Préparer la zone
+
+La configuration de zone n'a pas encore d'interface. Avant la première utilisation, connectez-vous comme MJ, ouvrez la console du navigateur (`F12`) et exécutez une fois :
+
+```javascript
+await game.modules.get("warbound-campaign-content").api.weather.setZoneConfig("durotar", {
+  id: "durotar",
+  name: "Durotar",
+  biome: "arid",
+  season: "summer",
+  weather: "active",
+});
+```
+
+Choisissez le biome et la saison correspondant à la région et au moment de l'année dans votre partie. Cette configuration est enregistrée dans les paramètres du monde Foundry. Pour la modifier plus tard, réexécutez la commande avec les nouvelles valeurs. Si le module vient d'être mis à jour, rechargez la partie avant d'utiliser cette commande.
+
+### Utiliser la météo pendant la partie
+
+1. Dans les contrôles de scène, cliquez sur l'outil **Météo** (visible uniquement par le MJ).
+2. Cliquez sur **Jour suivant** pour générer la météo du jour. Le premier clic crée l'état initial ; les suivants font avancer la météo en tenant compte de l'état précédent et de l'historique.
+3. Si vous souhaitez un autre résultat pour le jour courant, cliquez sur **↻**. Cela relance le tirage sans ajouter une journée à l'historique.
+4. Cliquez sur **Publier dans le chat** quand vous voulez partager la météo avec les joueurs.
+5. Un **événement possible** peut accompagner certaines conditions météo. C'est une suggestion de mise en scène, sans effet automatique ; cliquez sur **Ignorer** pour masquer cette proposition.
+
+La météo est sauvegardée dans les paramètres du monde Foundry et reste disponible après fermeture ou rechargement. Ouvrir la fenêtre ne génère rien : seul **Jour suivant** ou **↻** lance un tirage.
+
+### Créer une macro pour ouvrir la fenêtre
+
+Il n'y a pas de macro précréée, mais l'API du module permet d'en créer une facilement : créez une macro de type **Script** et utilisez ce contenu :
+
+```javascript
+game.modules.get("warbound-campaign-content").api.weather.openWeatherDialog();
+```
+
+La macro ouvre la fenêtre météo ; utilisez ensuite **Jour suivant** pour générer la météo du jour.
+
+### Limites actuelles
+
+- L'interface utilise actuellement la zone `durotar`, quelle que soit la scène active. Le changement de scène ne sélectionne pas une autre zone.
+- La configuration se fait par la console Foundry ; il n'existe pas encore d'interface pour créer ou modifier des zones.
+- La macro ouvre la fenêtre, mais ne génère pas la météo à elle seule : cliquez sur **Jour suivant** pour lancer le tirage.
+
+---
+
 ## 🐉 Importateur de rencontres COF2
 
 Le module intègre un wizard d'import pour créer rapidement un acteur **Rencontre** à partir d'un statblock COF2 copié-collé (Livre des règles, Bestiaire, PDF compatible).

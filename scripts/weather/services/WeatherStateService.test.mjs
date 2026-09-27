@@ -2,6 +2,7 @@ import { test, describe, beforeEach, afterEach } from 'node:test'
 import assert from 'node:assert/strict'
 
 import { WeatherStateService } from './WeatherStateService.mjs'
+import { MODULE_ID, WEATHER_STATES_SETTING } from './WeatherSettings.mjs'
 
 const SAMPLE_STATE = {
   zoneId: 'durotar', biomeId: 'arid', season: 'summer',
@@ -10,18 +11,20 @@ const SAMPLE_STATE = {
 }
 
 describe('WeatherStateService', () => {
-  let flagStore
+  let settingStore
   let mockGame
 
   beforeEach(() => {
-    flagStore = {}
+    settingStore = { [WEATHER_STATES_SETTING]: {} }
     mockGame = {
-      world: {
-        getFlag(_scope, key) {
-          return flagStore[key] ?? undefined
+      settings: {
+        get(scope, key) {
+          assert.equal(scope, MODULE_ID)
+          return settingStore[key]
         },
-        async setFlag(_scope, key, value) {
-          flagStore[key] = value
+        async set(scope, key, value) {
+          assert.equal(scope, MODULE_ID)
+          settingStore[key] = value
         },
       },
     }
@@ -32,16 +35,16 @@ describe('WeatherStateService', () => {
     delete global.game
   })
 
-  test('setState appelle setFlag avec la clé correcte', async () => {
+  test('setState sauvegarde la zone dans le paramètre world', async () => {
     let capturedKey
     let capturedValue
-    mockGame.world.setFlag = async (_scope, key, value) => {
+    mockGame.settings.set = async (_scope, key, value) => {
       capturedKey = key
       capturedValue = value
     }
     await WeatherStateService.setState('durotar', SAMPLE_STATE)
-    assert.equal(capturedKey, 'weather.zones.durotar')
-    assert.deepEqual(capturedValue, SAMPLE_STATE)
+    assert.equal(capturedKey, WEATHER_STATES_SETTING)
+    assert.deepEqual(capturedValue.durotar, SAMPLE_STATE)
   })
 
   test("getState retourne l'état après setState", async () => {
