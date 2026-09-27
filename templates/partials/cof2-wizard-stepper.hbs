@@ -1,0 +1,5 @@
+<ol class="cof2-wizard-steps">
+  {{#each steps}}
+    <li class="{{#if this.active}}active{{else}}{{#if this.done}}done{{/if}}{{/if}}">{{this.index}}. {{this.label}}</li>
+  {{/each}}
+</ol>

@@ -49,7 +49,9 @@ function buildNarrative(state) {
   return `Le ciel est ${sky.toLowerCase()}, ${prec}. Vent ${wind.toLowerCase()}, température ${temp.toLowerCase()}.`
 }
 
-export class WeatherDialog extends foundry.applications.api.ApplicationV2 {
+export class WeatherDialog extends foundry.applications.api.HandlebarsApplicationMixin(
+  foundry.applications.api.ApplicationV2,
+) {
   static DEFAULT_OPTIONS = {
     id: 'weather-dialog',
     classes: ['warbound', 'weather-dialog'],

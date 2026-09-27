@@ -1,0 +1,42 @@
+{{#if isActive}}
+  {{> cof2-wizard-stepper}}
+  {{#if result.loading}}
+    <p><em>Création en cours…</em></p>
+  {{else if result.error}}
+    <p class="cof2-diag cof2-diag-error"><strong>Échec de la création :</strong> {{result.error}}</p>
+    <footer class="form-footer">
+      <button type="button" data-action="back"><i class="fa-solid fa-arrow-left"></i> Précédent</button>
+    </footer>
+  {{else if result.noActor}}
+    <p class="cof2-diag cof2-diag-error"><strong>Échec de la création :</strong> {{result.writeFailureMessage}}</p>
+    <p><em>Aucun document résiduel.</em></p>
+    <footer class="form-footer">
+      <button type="button" data-action="back"><i class="fa-solid fa-arrow-left"></i> Précédent</button>
+    </footer>
+  {{else}}
+    <p><strong>{{result.actor.name}}</strong> créé.</p>
+    {{#if result.incomplete}}
+      <p class="cof2-diag cof2-diag-error">
+        <strong>Import interrompu</strong>{{#if result.rollbackFailed}} — le rollback automatique a échoué, l'acteur est incomplet.{{/if}}
+      </p>
+      <button type="button" data-action="delete-incomplete-actor"><i class="fa-solid fa-trash"></i> Supprimer l'acteur incomplet</button>
+    {{/if}}
+    <ul>
+      <li>{{result.counts.attacksCreated}} attaque(s) créée(s).</li>
+      <li>{{result.counts.capacitiesReused}} capacité(s) réutilisée(s).</li>
+      <li>{{result.counts.capacitiesCreated}} capacité(s) créée(s).</li>
+      <li>{{result.counts.errors}} erreur(s).</li>
+      <li>{{result.counts.toReview}} élément(s) à vérifier.</li>
+    </ul>
+    {{#if result.messages.length}}
+      <ul>
+        {{#each result.messages}}
+          <li class="cof2-diag cof2-diag-result-{{this.css}}">{{this.emoji}} {{this.message}}</li>
+        {{/each}}
+      </ul>
+    {{/if}}
+    <footer class="form-footer">
+      <button type="button" data-action="open-actor" class="default"><i class="fa-solid fa-up-right-from-square"></i> Ouvrir la rencontre</button>
+    </footer>
+  {{/if}}
+{{/if}}

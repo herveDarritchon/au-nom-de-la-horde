@@ -8,6 +8,7 @@
 
 import { parseStatblock, compareTemplateVariant, resolveAttackKind } from "../../src/importers/cof2/index.mjs";
 import { buildCapacityResolver, buildAttackTypeResolver, createEncounter } from "./cof2/encounterFactory.mjs";
+import { TEMPLATE_ROOT } from "../../src/constants/templates.mjs";
 
 const MODULE_ID = "warbound-campaign-content";
 
@@ -30,8 +31,6 @@ const LEVEL_META = {
   warning: { emoji: "🔴", css: "warning" },
 };
 
-const esc = (s) => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
-
 /**
  * Déduit le statut de résolution (section 14 de l'Epic) depuis le résultat de `makeCapacityResolver`.
  * Le compendium officiel `cof2-base` est consulté ici ; les capacités NOT_FOUND seront vérifiées ou créées dans la
@@ -43,13 +42,22 @@ function capacityStatus(resolution) {
   return resolution?.status ?? "NOT_FOUND";
 }
 
-class Cof2ImportWizardApp extends foundry.applications.api.ApplicationV2 {
+const { HandlebarsApplicationMixin } = foundry.applications.api;
+
+class Cof2ImportWizardApp extends HandlebarsApplicationMixin(foundry.applications.api.ApplicationV2) {
   static DEFAULT_OPTIONS = {
     id: "cof2-import-wizard",
     classes: ["warbound", "cof2-import-wizard"],
     tag: "form",
     window: { title: "Importer une rencontre COF2", icon: "fa-solid fa-dragon", resizable: true },
     position: { width: 760, height: "auto" },
+  };
+
+  static PARTS = {
+    source:  { template: `${TEMPLATE_ROOT}/apps/cof2-import-wizard/source.hbs` },
+    preview: { template: `${TEMPLATE_ROOT}/apps/cof2-import-wizard/preview.hbs` },
+    options: { template: `${TEMPLATE_ROOT}/apps/cof2-import-wizard/options.hbs` },
+    result:  { template: `${TEMPLATE_ROOT}/apps/cof2-import-wizard/result.hbs` },
   };
 
   #step = "source";
@@ -61,251 +69,112 @@ class Cof2ImportWizardApp extends foundry.applications.api.ApplicationV2 {
   #result = null;
   #analyzeError = null;
 
-  async _renderHTML() {
-    switch (this.#step) {
-      case "source":
-        return this.#renderSource();
-      case "preview":
-        return this.#renderPreview();
-      case "options":
-        return this.#renderOptions();
-      case "result":
-        return this.#renderResult();
-      default:
-        return this.#renderSource();
-    }
+  async _prepareContext(options) {
+    const steps = STEPS.map((step, i) => ({
+      id: step,
+      label: STEP_LABELS[step],
+      index: i + 1,
+      active: step === this.#step,
+      done: STEPS.indexOf(this.#step) > i,
+    }));
+
+    const capacities = this.#draft
+      ? this.#draft.capacities.map((cap, i) => {
+          const hit = this.#capacityHits.get(i);
+          const status = hit?.status ?? "NOT_FOUND";
+          return {
+            index: i,
+            cap,
+            status,
+            statusBadge: CAPACITY_STATUS_BADGES[status],
+            statusLabel: CAPACITY_STATUS_LABELS[status],
+            comparison: hit?.comparison ?? null,
+            showComparison: hit?.comparison?.status === "OVERRIDABLE",
+            confirmed: this.#confirmedVariants.has(cap.rawName),
+            confidenceBadge: CONFIDENCE_BADGES[cap.confidence] ?? "",
+          };
+        })
+      : [];
+
+    const attacks = this.#draft
+      ? this.#draft.attacks.map((a, i) => ({
+          index: i,
+          attack: a,
+          confidenceBadge: CONFIDENCE_BADGES[a.confidence] ?? "",
+        }))
+      : [];
+
+    const diagnostics = this.#draft
+      ? (() => {
+          const bySeverity = { error: [], warning: [], info: [] };
+          for (const d of this.#draft.diagnostics) bySeverity[d.severity]?.push(d);
+          return ["error", "warning", "info"]
+            .filter((s) => bySeverity[s].length)
+            .map((s) => ({ severity: s, label: SEVERITY_LABELS[s], items: bySeverity[s] }));
+        })()
+      : [];
+
+    const abilities = this.#draft
+      ? ["for", "agi", "con", "per", "cha", "int", "vol"].map((key) => ({
+          key,
+          label: key.toUpperCase(),
+          base: this.#draft.abilities[key]?.base ?? 0,
+          superior: this.#draft.abilities[key]?.superior ?? false,
+        }))
+      : [];
+
+    // Bloque le passage à Options tant qu'une variante OVERRIDABLE n'est pas confirmée (AC #3, issue #8).
+    const hasUnconfirmedVariant = this.#draft
+      ? this.#draft.capacities.some(
+          (c, i) =>
+            this.#capacityHits.get(i)?.comparison?.status === "OVERRIDABLE" &&
+            !this.#confirmedVariants.has(c.rawName)
+        )
+      : false;
+
+    const result = this.#result
+      ? (() => {
+          const { actor, report, error } = this.#result;
+          if (error) return { loading: false, error };
+          if (!actor) {
+            const writeFailure = report?.diagnostics?.find((d) => d.code === "IMPORT_WRITE_FAILED");
+            return { loading: false, noActor: true, writeFailureMessage: writeFailure?.message ?? "import interrompu." };
+          }
+          const { counts, messages } = report;
+          const rollbackFailed = report.diagnostics.some((d) => d.code === "IMPORT_ROLLBACK_FAILED");
+          return {
+            loading: false,
+            actor,
+            counts,
+            messages: messages.map((m) => ({ ...m, emoji: LEVEL_META[m.level]?.emoji ?? "", css: LEVEL_META[m.level]?.css ?? "" })),
+            incomplete: counts.errors > 0,
+            rollbackFailed,
+          };
+        })()
+      : { loading: true };
+
+    return {
+      step: this.#step,
+      steps,
+      sourceText: this.#sourceText,
+      analyzeError: this.#analyzeError,
+      draft: this.#draft,
+      abilities,
+      attacks,
+      capacities,
+      diagnostics,
+      hasUnconfirmedVariant,
+      options: this.#options,
+      result,
+    };
   }
 
-  async _replaceHTML(result, content) {
-    content.innerHTML = result;
-    this.#activateListeners(content);
+  async _preparePartContext(partId, context) {
+    return { ...context, isActive: partId === this.#step };
   }
 
-  #renderStepper() {
-    const items = STEPS.map((step, i) => {
-      const cls = step === this.#step ? "active" : STEPS.indexOf(this.#step) > i ? "done" : "";
-      return `<li class="${cls}">${i + 1}. ${STEP_LABELS[step]}</li>`;
-    }).join("");
-    return `<ol class="cof2-wizard-steps">${items}</ol>`;
-  }
-
-  #renderSource() {
-    const error = this.#analyzeError
-      ? `<div class="cof2-wizard-diagnostics"><p class="cof2-diag cof2-diag-error"><strong>Erreur</strong> ${esc(this.#analyzeError)}</p></div>`
-      : "";
-    return `
-      ${this.#renderStepper()}
-      <div class="form-group stacked">
-        <label>Collez ici un statblock COF2 provenant du Livre des règles, du Bestiaire ou d'un autre document compatible.</label>
-        <textarea name="statblock" rows="16" style="width:100%;font-family:monospace">${esc(this.#sourceText)}</textarea>
-      </div>
-      ${error}
-      <footer class="form-footer">
-        <button type="button" data-action="clear"><i class="fa-solid fa-eraser"></i> Effacer</button>
-        <button type="button" data-action="analyze" class="default"><i class="fa-solid fa-magnifying-glass"></i> Analyser</button>
-      </footer>`;
-  }
-
-  #renderAbilities() {
-    const rows = ["for", "agi", "con", "per", "cha", "int", "vol"]
-      .map((key) => {
-        const a = this.#draft.abilities[key] ?? { base: 0, superior: false };
-        return `<label class="cof2-ability">${key.toUpperCase()}
-          <input type="number" data-field="abilities.${key}.base" value="${a.base}">
-          <input type="checkbox" data-field="abilities.${key}.superior" ${a.superior ? "checked" : ""} title="Dé bonus">
-        </label>`;
-      })
-      .join("");
-    return `<div class="cof2-abilities">${rows}</div>`;
-  }
-
-  #renderAttacksTable() {
-    if (!this.#draft.attacks.length) return "<p><em>Aucune attaque reconnue.</em></p>";
-    const rows = this.#draft.attacks
-      .map(
-        (a, i) => `<tr>
-          <td>${CONFIDENCE_BADGES[a.confidence] ?? ""}</td>
-          <td><input type="text" data-field="attacks.${i}.name" value="${esc(a.name)}"></td>
-          <td>${esc(a.kind)}</td>
-          <td><input type="text" data-field="attacks.${i}.bonus" value="${esc(a.bonus)}" style="width:4em"></td>
-          <td><input type="text" data-field="attacks.${i}.damage" value="${esc(a.damage)}" style="width:6em"></td>
-          <td><input type="text" data-field="attacks.${i}.range" value="${a.range ?? ""}" style="width:4em"></td>
-          <td><input type="text" data-field="attacks.${i}.extra" value="${esc(a.extra)}"></td>
-        </tr>`
-      )
-      .join("");
-    return `<table class="cof2-wizard-table">
-      <thead><tr><th>État</th><th>Nom</th><th>Type</th><th>Attaque</th><th>DM</th><th>Portée</th><th>Texte complémentaire</th></tr></thead>
-      <tbody>${rows}</tbody>
-    </table>`;
-  }
-
-  /**
-   * Ligne de comparaison modèle ↔ variante pour une capacité `TEMPLATE_VARIANT` dont la difficulté est
-   * surchargeable automatiquement (`compareTemplateVariant` → `OVERRIDABLE`, §8). Confirmation requise avant
-   * création (AC #3 de l'issue #8) : tant que la case n'est pas cochée, le bouton « Suivant » reste désactivé
-   * (cf. `#renderPreview`).
-   * @param {import("../../src/importers/cof2/parsing/encounterDraft.mjs").CapacityDraft} cap
-   * @param {{status:"OVERRIDABLE", kind:string, from:number, to:number}} comparison
-   */
-  #renderVariantComparisonRow(cap, comparison) {
-    const checked = this.#confirmedVariants.has(cap.rawName) ? "checked" : "";
-    return `<tr class="cof2-variant-comparison">
-      <td></td>
-      <td colspan="5">
-        <label>
-          <input type="checkbox" data-variant-confirm="${esc(cap.rawName)}" ${checked}>
-          Modèle « ${esc(cap.name)} » : difficulté ${comparison.from} → Variante à créer : difficulté ${comparison.to}
-        </label>
-      </td>
-    </tr>`;
-  }
-
-  #renderCapacitiesTable() {
-    if (!this.#draft.capacities.length) return "<p><em>Aucune capacité reconnue.</em></p>";
-    const rows = this.#draft.capacities
-      .map((c, i) => {
-        const hit = this.#capacityHits.get(i);
-        const status = hit?.status ?? "NOT_FOUND";
-        const comparisonRow = hit?.comparison?.status === "OVERRIDABLE" ? this.#renderVariantComparisonRow(c, hit.comparison) : "";
-        return `<tr>
-          <td>${CAPACITY_STATUS_BADGES[status]}</td>
-          <td><input type="text" data-field="capacities.${i}.name" value="${esc(c.name)}"></td>
-          <td title="Compendium officiel cof2-base. Les nouvelles capacités (✕) seront recherchées ou créées dans la bibliothèque d'import à la création.">${CAPACITY_STATUS_LABELS[status]}</td>
-          <td>${esc(c.actionType ?? "")}</td>
-          <td>${esc(c.frequency ?? "")}</td>
-          <td>${CONFIDENCE_BADGES[c.confidence] ?? ""}</td>
-        </tr>${comparisonRow}`;
-      })
-      .join("");
-    return `<table class="cof2-wizard-table">
-      <thead><tr><th>État</th><th>Capacité source</th><th>Résolution</th><th>Action</th><th>Fréquence</th><th>Confiance</th></tr></thead>
-      <tbody>${rows}</tbody>
-    </table>`;
-  }
-
-  /**
-   * @returns {boolean} true si une variante surchargeable proposée (`OVERRIDABLE`, §8) n'a pas encore été
-   *   confirmée par l'utilisateur — bloque le passage à l'étape Options (AC #3 de l'issue #8).
-   */
-  #hasUnconfirmedVariant() {
-    return this.#draft.capacities.some((c, i) => this.#capacityHits.get(i)?.comparison?.status === "OVERRIDABLE" && !this.#confirmedVariants.has(c.rawName));
-  }
-
-  #renderDiagnostics() {
-    const bySeverity = { error: [], warning: [], info: [] };
-    for (const d of this.#draft.diagnostics) bySeverity[d.severity]?.push(d);
-    const groups = ["error", "warning", "info"]
-      .filter((s) => bySeverity[s].length)
-      .map(
-        (s) => `<div class="cof2-diag-group">
-          <h4>${SEVERITY_LABELS[s]} (${bySeverity[s].length})</h4>
-          <ul>${bySeverity[s].map((d) => `<li class="cof2-diag cof2-diag-${s}">${esc(d.message)}</li>`).join("")}</ul>
-        </div>`
-      )
-      .join("");
-    return groups || "<p><em>Aucun diagnostic.</em></p>";
-  }
-
-  #renderPreview() {
-    return `
-      ${this.#renderStepper()}
-      <fieldset>
-        <legend>Identité</legend>
-        <div class="cof2-identity">
-          <label>Nom <input type="text" data-field="name" value="${esc(this.#draft.name)}"></label>
-          <label>NC <input type="number" data-field="nc" value="${this.#draft.nc}" step="0.5"></label>
-          <label>Catégorie <input type="text" data-field="category" value="${esc(this.#draft.category)}"></label>
-          <label>Taille <input type="text" data-field="size" value="${esc(this.#draft.size)}"></label>
-        </div>
-      </fieldset>
-      <fieldset>
-        <legend>Statistiques</legend>
-        ${this.#renderAbilities()}
-        <div class="cof2-identity">
-          <label>Défense <input type="number" data-field="defense" value="${this.#draft.defense ?? ""}"></label>
-          <label>PV <input type="number" data-field="hp" value="${this.#draft.hp ?? ""}"></label>
-          <label>Initiative <input type="number" data-field="initiative" value="${this.#draft.initiative ?? ""}"></label>
-          <label>RD <input type="number" data-field="damageReduction" value="${this.#draft.damageReduction ?? 0}"></label>
-        </div>
-      </fieldset>
-      <fieldset><legend>Attaques</legend>${this.#renderAttacksTable()}</fieldset>
-      <fieldset><legend>Capacités</legend>${this.#renderCapacitiesTable()}</fieldset>
-      <fieldset><legend>Diagnostics</legend>${this.#renderDiagnostics()}</fieldset>
-      ${this.#hasUnconfirmedVariant() ? '<p class="cof2-diag cof2-diag-warning">Confirmez chaque variante proposée ci-dessus avant de continuer.</p>' : ""}
-      <footer class="form-footer">
-        <button type="button" data-action="back"><i class="fa-solid fa-arrow-left"></i> Précédent</button>
-        <button type="button" data-action="to-options" class="default" ${this.#hasUnconfirmedVariant() ? "disabled" : ""}><i class="fa-solid fa-arrow-right"></i> Suivant</button>
-      </footer>`;
-  }
-
-  #renderOptions() {
-    const o = this.#options;
-    return `
-      ${this.#renderStepper()}
-      <div class="form-group">
-        <label><input type="checkbox" data-field="opt.createActor" ${o.createActor ? "checked" : ""}> Créer l'acteur Rencontre.</label>
-      </div>
-      <div class="form-group">
-        <label><input type="checkbox" data-field="opt.reuseExisting" ${o.reuseExisting ? "checked" : ""}> Réutiliser les objets existants lorsqu'ils sont compatibles.</label>
-      </div>
-      <div class="form-group">
-        <label><input type="radio" name="saveToLibrary" data-field="opt.saveToLibrary" value="true" ${o.saveToLibrary ? "checked" : ""}> Enregistrer les nouveaux objets dans la bibliothèque d'import.</label>
-      </div>
-      <div class="form-group">
-        <label><input type="radio" name="saveToLibrary" data-field="opt.saveToLibrary" value="false" ${!o.saveToLibrary ? "checked" : ""}> Créer uniquement dans l'acteur sans enrichir la bibliothèque.</label>
-      </div>
-      <div class="form-group">
-        <label><input type="checkbox" data-field="opt.openSheet" ${o.openSheet ? "checked" : ""}> Ouvrir la fiche après création.</label>
-      </div>
-      <footer class="form-footer">
-        <button type="button" data-action="back"><i class="fa-solid fa-arrow-left"></i> Précédent</button>
-        <button type="button" data-action="create" class="default"><i class="fa-solid fa-check"></i> Créer</button>
-      </footer>`;
-  }
-
-  #renderResult() {
-    if (!this.#result) return `${this.#renderStepper()}<p><em>Création en cours…</em></p>`;
-    const { actor, report, error } = this.#result;
-    if (error) {
-      return `
-        ${this.#renderStepper()}
-        <p class="cof2-diag cof2-diag-error"><strong>Échec de la création :</strong> ${esc(error)}</p>
-        <footer class="form-footer">
-          <button type="button" data-action="back"><i class="fa-solid fa-arrow-left"></i> Précédent</button>
-        </footer>`;
-    }
-    if (!actor) {
-      const writeFailure = report.diagnostics.find((d) => d.code === "IMPORT_WRITE_FAILED");
-      return `
-        ${this.#renderStepper()}
-        <p class="cof2-diag cof2-diag-error"><strong>Échec de la création :</strong> ${esc(writeFailure?.message ?? "import interrompu.")}</p>
-        <p><em>Aucun document résiduel.</em></p>
-        <footer class="form-footer">
-          <button type="button" data-action="back"><i class="fa-solid fa-arrow-left"></i> Précédent</button>
-        </footer>`;
-    }
-    const { counts, messages } = report;
-    const rollbackFailed = report.diagnostics.some((d) => d.code === "IMPORT_ROLLBACK_FAILED");
-    const incompleteBanner = counts.errors > 0
-      ? `<p class="cof2-diag cof2-diag-error"><strong>Import interrompu</strong>${rollbackFailed ? " — le rollback automatique a échoué, l'acteur est incomplet." : ""}</p>
-         <button type="button" data-action="delete-incomplete-actor"><i class="fa-solid fa-trash"></i> Supprimer l'acteur incomplet</button>`
-      : "";
-    return `
-      ${this.#renderStepper()}
-      <p><strong>${esc(actor.name)}</strong> créé.</p>
-      ${incompleteBanner}
-      <ul>
-        <li>${counts.attacksCreated} attaque(s) créée(s).</li>
-        <li>${counts.capacitiesReused} capacité(s) réutilisée(s).</li>
-        <li>${counts.capacitiesCreated} capacité(s) créée(s).</li>
-        <li>${counts.errors} erreur(s).</li>
-        <li>${counts.toReview} élément(s) à vérifier.</li>
-      </ul>
-      ${messages.length ? `<ul>${messages.map((m) => `<li class="cof2-diag cof2-diag-result-${LEVEL_META[m.level].css}">${LEVEL_META[m.level].emoji} ${esc(m.message)}</li>`).join("")}</ul>` : ""}
-      <footer class="form-footer">
-        <button type="button" data-action="open-actor" class="default"><i class="fa-solid fa-up-right-from-square"></i> Ouvrir la rencontre</button>
-      </footer>`;
+  async _onRender(context, options) {
+    this.#activateListeners(this.element);
   }
 
   #setField(path, value) {
@@ -451,6 +320,10 @@ function openCof2ImportWizard() {
   app.render(true);
   return app;
 }
+
+Hooks.once("init", () => {
+  loadTemplates([`${TEMPLATE_ROOT}/partials/cof2-wizard-stepper.hbs`]);
+});
 
 Hooks.once("ready", () => {
   game.settings?.register?.(MODULE_ID, "cof2ImportDebugLogging", {

@@ -1,0 +1,109 @@
+{{#if isActive}}
+  {{> cof2-wizard-stepper}}
+  <fieldset>
+    <legend>Identité</legend>
+    <div class="cof2-identity">
+      <label>Nom <input type="text" data-field="name" value="{{draft.name}}"></label>
+      <label>NC <input type="number" data-field="nc" value="{{draft.nc}}" step="0.5"></label>
+      <label>Catégorie <input type="text" data-field="category" value="{{draft.category}}"></label>
+      <label>Taille <input type="text" data-field="size" value="{{draft.size}}"></label>
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend>Statistiques</legend>
+    <div class="cof2-abilities">
+      {{#each abilities}}
+        <label class="cof2-ability">{{this.label}}
+          <input type="number" data-field="abilities.{{this.key}}.base" value="{{this.base}}">
+          <input type="checkbox" data-field="abilities.{{this.key}}.superior" {{#if this.superior}}checked{{/if}} title="Dé bonus">
+        </label>
+      {{/each}}
+    </div>
+    <div class="cof2-identity">
+      <label>Défense <input type="number" data-field="defense" value="{{draft.defense}}"></label>
+      <label>PV <input type="number" data-field="hp" value="{{draft.hp}}"></label>
+      <label>Initiative <input type="number" data-field="initiative" value="{{draft.initiative}}"></label>
+      <label>RD <input type="number" data-field="damageReduction" value="{{draft.damageReduction}}"></label>
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend>Attaques</legend>
+    {{#if attacks.length}}
+      <table class="cof2-wizard-table">
+        <thead><tr><th>État</th><th>Nom</th><th>Type</th><th>Attaque</th><th>DM</th><th>Portée</th><th>Texte complémentaire</th></tr></thead>
+        <tbody>
+          {{#each attacks}}
+            <tr>
+              <td>{{this.confidenceBadge}}</td>
+              <td><input type="text" data-field="attacks.{{this.index}}.name" value="{{this.attack.name}}"></td>
+              <td>{{this.attack.kind}}</td>
+              <td><input type="text" data-field="attacks.{{this.index}}.bonus" value="{{this.attack.bonus}}" style="width:4em"></td>
+              <td><input type="text" data-field="attacks.{{this.index}}.damage" value="{{this.attack.damage}}" style="width:6em"></td>
+              <td><input type="text" data-field="attacks.{{this.index}}.range" value="{{this.attack.range}}" style="width:4em"></td>
+              <td><input type="text" data-field="attacks.{{this.index}}.extra" value="{{this.attack.extra}}"></td>
+            </tr>
+          {{/each}}
+        </tbody>
+      </table>
+    {{else}}
+      <p><em>Aucune attaque reconnue.</em></p>
+    {{/if}}
+  </fieldset>
+  <fieldset>
+    <legend>Capacités</legend>
+    {{#if capacities.length}}
+      <table class="cof2-wizard-table">
+        <thead><tr><th>État</th><th>Capacité source</th><th>Résolution</th><th>Action</th><th>Fréquence</th><th>Confiance</th></tr></thead>
+        <tbody>
+          {{#each capacities}}
+            <tr>
+              <td>{{this.statusBadge}}</td>
+              <td><input type="text" data-field="capacities.{{this.index}}.name" value="{{this.cap.name}}"></td>
+              <td title="Compendium officiel cof2-base. Les nouvelles capacités (✕) seront recherchées ou créées dans la bibliothèque d'import à la création.">{{this.statusLabel}}</td>
+              <td>{{this.cap.actionType}}</td>
+              <td>{{this.cap.frequency}}</td>
+              <td>{{this.confidenceBadge}}</td>
+            </tr>
+            {{#if this.showComparison}}
+              <tr class="cof2-variant-comparison">
+                <td></td>
+                <td colspan="5">
+                  <label>
+                    <input type="checkbox" data-variant-confirm="{{this.cap.rawName}}" {{#if this.confirmed}}checked{{/if}}>
+                    Modèle « {{this.cap.name}} » : difficulté {{this.comparison.from}} → Variante à créer : difficulté {{this.comparison.to}}
+                  </label>
+                </td>
+              </tr>
+            {{/if}}
+          {{/each}}
+        </tbody>
+      </table>
+    {{else}}
+      <p><em>Aucune capacité reconnue.</em></p>
+    {{/if}}
+  </fieldset>
+  <fieldset>
+    <legend>Diagnostics</legend>
+    {{#if diagnostics.length}}
+      {{#each diagnostics}}
+        <div class="cof2-diag-group">
+          <h4>{{this.label}} ({{this.items.length}})</h4>
+          <ul>
+            {{#each this.items}}
+              <li class="cof2-diag cof2-diag-{{../severity}}">{{this.message}}</li>
+            {{/each}}
+          </ul>
+        </div>
+      {{/each}}
+    {{else}}
+      <p><em>Aucun diagnostic.</em></p>
+    {{/if}}
+  </fieldset>
+  {{#if hasUnconfirmedVariant}}
+    <p class="cof2-diag cof2-diag-warning">Confirmez chaque variante proposée ci-dessus avant de continuer.</p>
+  {{/if}}
+  <footer class="form-footer">
+    <button type="button" data-action="back"><i class="fa-solid fa-arrow-left"></i> Précédent</button>
+    <button type="button" data-action="to-options" class="default" {{#if hasUnconfirmedVariant}}disabled{{/if}}><i class="fa-solid fa-arrow-right"></i> Suivant</button>
+  </footer>
+{{/if}}

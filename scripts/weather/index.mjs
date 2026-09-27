@@ -1,6 +1,7 @@
 import { WeatherDialog } from './ui/WeatherDialog.mjs'
 import { ZoneWeatherService } from './services/ZoneWeatherService.mjs'
 import { registerWeatherSettings } from './services/WeatherSettings.mjs'
+import { registerWeatherSceneControl } from './sceneControls.mjs'
 
 const MODULE_ID      = 'warbound-campaign-content'
 const DEFAULT_ZONE_ID = 'durotar'
@@ -34,24 +35,10 @@ function openWeatherDialog() {
 }
 
 Hooks.on('getSceneControlButtons', (controls) => {
-  if (!game.user?.isGM) return
-
-  controls.push({
-    name:        'weather',
-    title:       'Météo',
-    icon:        'fa-solid fa-cloud-sun',
-    layer:       'controls',
-    activeTool:  'weather-open',
-    tools: [
-      {
-        name:    'weather-open',
-        title:   'Afficher la météo',
-        icon:    'fa-solid fa-cloud-sun',
-        button:  true,
-        onClick: openWeatherDialog,
-      },
-    ],
+  const added = registerWeatherSceneControl(controls, {
+    isGM: game.user?.isGM,
+    openWeatherDialog,
   })
 
-  console.info(`${MODULE_ID} | Contrôle météo enregistré`)
+  if (added) console.info(`${MODULE_ID} | Contrôle météo enregistré`)
 })

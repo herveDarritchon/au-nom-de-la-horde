@@ -1,0 +1,16 @@
+{{#if isActive}}
+  {{> cof2-wizard-stepper}}
+  <div class="form-group stacked">
+    <label>Collez ici un statblock COF2 provenant du Livre des règles, du Bestiaire ou d'un autre document compatible.</label>
+    <textarea name="statblock" rows="16" style="width:100%;font-family:monospace">{{sourceText}}</textarea>
+  </div>
+  {{#if analyzeError}}
+    <div class="cof2-wizard-diagnostics">
+      <p class="cof2-diag cof2-diag-error"><strong>Erreur</strong> {{analyzeError}}</p>
+    </div>
+  {{/if}}
+  <footer class="form-footer">
+    <button type="button" data-action="clear"><i class="fa-solid fa-eraser"></i> Effacer</button>
+    <button type="button" data-action="analyze" class="default"><i class="fa-solid fa-magnifying-glass"></i> Analyser</button>
+  </footer>
+{{/if}}
