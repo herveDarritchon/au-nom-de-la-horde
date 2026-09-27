@@ -1,0 +1,10 @@
+<p>{{counts.attacksCreated}} attaque(s) créée(s), {{counts.capacitiesReused}} capacité(s) réutilisée(s),
+  {{counts.capacitiesCreated}} capacité(s) créée(s), {{counts.errors}} erreur(s), {{counts.toReview}} élément(s) à vérifier.</p>
+{{#if rollbackFailed}}
+  <p><strong>Le rollback automatique a échoué : l'acteur est incomplet, envisager sa suppression manuelle.</strong></p>
+{{/if}}
+<ul>
+  {{#each messages}}
+    <li>{{this.emoji}} {{this.message}}</li>
+  {{/each}}
+</ul>

@@ -9,8 +9,7 @@
 
 import { parseStatblock } from "../../src/importers/cof2/index.mjs";
 import { createEncounter } from "./cof2/encounterFactory.mjs";
-
-const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+import { TEMPLATE_ROOT } from "../../src/constants/templates.mjs";
 
 // Niveaux du résultat d'import (issue #33) : emoji dérivé uniquement de `level`, jamais du texte du message.
 const LEVEL_EMOJI = { ignored: "🟡", success: "🟢", warning: "🔴" };
@@ -22,10 +21,7 @@ async function importStatblockFromPrompt() {
   const text = await DialogV2.prompt({
     window: { title: "Créer une rencontre depuis un statblock", icon: "fa-solid fa-dragon" },
     position: { width: 640 },
-    content: `<div class="form-group stacked">
-      <label>Collez un statblock du Bestiaire COF2</label>
-      <textarea name="statblock" rows="18" style="width:100%;font-family:monospace" autofocus></textarea>
-    </div>`,
+    content: await foundry.applications.handlebars.renderTemplate(`${TEMPLATE_ROOT}/dialogs/cof2-statblock-input.hbs`, {}),
     ok: { label: "Créer", icon: "fa-solid fa-check", callback: (event, button) => button.form.elements.statblock.value },
     rejectClose: false,
   });
@@ -36,7 +32,7 @@ async function importStatblockFromPrompt() {
   if (blockingErrors.length) {
     return DialogV2.prompt({
       window: { title: "Statblock illisible", icon: "fa-solid fa-triangle-exclamation" },
-      content: `<p>Rien n'a été créé :</p><ul>${blockingErrors.map((e) => `<li>${esc(e.message)}</li>`).join("")}</ul>`,
+      content: await foundry.applications.handlebars.renderTemplate(`${TEMPLATE_ROOT}/dialogs/cof2-statblock-errors.hbs`, { errors: blockingErrors }),
       ok: { label: "Fermer" },
       rejectClose: false,
     });
@@ -55,12 +51,10 @@ async function importStatblockFromPrompt() {
     if (messages.length || counts.errors) {
       console.warn("Statblock | avertissements", messages, "compteurs", counts);
       const rollbackFailed = report.diagnostics.some((d) => d.code === "IMPORT_ROLLBACK_FAILED");
+      const enrichedMessages = messages.map((m) => ({ ...m, emoji: LEVEL_EMOJI[m.level] ?? "🔴" }));
       await DialogV2.prompt({
         window: { title: `${actor.name} : à vérifier`, icon: "fa-solid fa-triangle-exclamation" },
-        content: `<p>${counts.attacksCreated} attaque(s) créée(s), ${counts.capacitiesReused} capacité(s) réutilisée(s),
-          ${counts.capacitiesCreated} capacité(s) créée(s), ${counts.errors} erreur(s), ${counts.toReview} élément(s) à vérifier.</p>
-          ${rollbackFailed ? "<p><strong>Le rollback automatique a échoué : l'acteur est incomplet, envisager sa suppression manuelle.</strong></p>" : ""}
-          <ul>${messages.map((m) => `<li>${LEVEL_EMOJI[m.level] ?? "🔴"} ${esc(m.message)}</li>`).join("")}</ul>`,
+        content: await foundry.applications.handlebars.renderTemplate(`${TEMPLATE_ROOT}/dialogs/cof2-import-report.hbs`, { counts, messages: enrichedMessages, rollbackFailed }),
         ok: { label: "Fermer" },
         rejectClose: false,
       });
