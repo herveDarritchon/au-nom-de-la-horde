@@ -1,0 +1,43 @@
+<div class="weather-dialog-body">
+  {{#if hasState}}
+    <div class="weather-regime">
+      <i class="fa-solid {{regimeIcon}} weather-regime-icon"></i>
+      <span class="weather-regime-label">{{regimeLabel}}</span>
+      <span class="weather-regime-age">Jour {{regimeAge}}</span>
+    </div>
+
+    <table class="weather-components">
+      <tbody>
+        <tr>
+          <th><i class="fa-solid fa-eye"></i> Ciel</th>
+          <td>{{labels.sky}}</td>
+        </tr>
+        <tr>
+          <th><i class="fa-solid fa-droplet"></i> Précipitations</th>
+          <td>{{labels.precipitation}}</td>
+        </tr>
+        <tr>
+          <th><i class="fa-solid fa-wind"></i> Vent</th>
+          <td>{{labels.wind}}</td>
+        </tr>
+        <tr>
+          <th><i class="fa-solid fa-temperature-half"></i> Température</th>
+          <td>{{labels.temperature}}</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p class="weather-narrative">{{narrative}}</p>
+  {{else}}
+    <p class="weather-no-state">
+      Aucun état météo disponible pour la zone <strong>{{zoneId}}</strong>.<br>
+      Cliquez sur <em>Jour suivant</em> pour générer la météo initiale.
+    </p>
+  {{/if}}
+
+  <footer class="form-footer">
+    <button type="button" data-action="nextDay">
+      <i class="fa-solid fa-forward-step"></i> Jour suivant
+    </button>
+  </footer>
+</div>

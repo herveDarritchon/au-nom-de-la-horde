@@ -45,7 +45,7 @@ describe('WeatherEngine — inertie et transitions', () => {
     const prev3 = { regime: 2, regimeAge: 3, sky: 'overcast', precipitation: 'moderate', wind: 'moderate', temperature: 'mild' }
     let changes1 = 0
     let changes3 = 0
-    for (let i = 0; i < 1000; i++) {
+    for (let i = 0; i < 10_000; i++) {
       if (WeatherEngine.next({ ...shared, previousWeather: prev1 }).regime !== 2) changes1++
       if (WeatherEngine.next({ ...shared, previousWeather: prev3 }).regime !== 2) changes3++
     }
