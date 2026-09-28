@@ -53,6 +53,16 @@ jobs:
         run: pnpm test
 
       # ------------------------------------------------------------
+      # Garde-fou anti-HTML-inline
+      #
+      # Bloquant : du markup HTML dans un template literal JS doit
+      # être migré vers un template HBS (ou listé comme exception
+      # documentée dans tools/check-inline-html.sh).
+      # ------------------------------------------------------------
+      - name: Check Inline HTML
+        run: pnpm check:html-inline
+
+      # ------------------------------------------------------------
       # Audit des sources YAML
       #
       # Bloquant : une référence `worlds/` fait échouer le workflow.

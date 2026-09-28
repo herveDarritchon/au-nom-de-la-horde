@@ -11,7 +11,8 @@
     "packs:audit": "node ./tools/auditAssets.mjs",
     "build": "pnpm packs:audit && pnpm packs:build",
     "test": "node --test",
-    "test:coverage": "c8 node --test"
+    "test:coverage": "c8 node --test",
+    "check:html-inline": "bash tools/check-inline-html.sh"
   },
   "devDependencies": {
     "@foundryvtt/foundryvtt-cli": "^3.0.4",
