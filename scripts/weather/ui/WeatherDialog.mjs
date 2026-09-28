@@ -1,6 +1,7 @@
 import { WeatherStateService } from '../services/WeatherStateService.mjs'
 import { ZoneWeatherService }  from '../services/ZoneWeatherService.mjs'
 import { WeatherEngine }       from '../../../src/weather/engine/WeatherEngine.mjs'
+import { TEMPLATE_ROOT }       from '../../../src/constants/templates.mjs'
 
 const MODULE_ID = 'warbound-campaign-content'
 
@@ -106,16 +107,10 @@ export class WeatherDialog extends foundry.applications.api.HandlebarsApplicatio
       ui.notifications.warn('[Météo] Aucun état météo à publier.')
       return
     }
-    const content = `<div class="warbound weather-chat">
-  <h3><i class="fa-solid ${ctx.regimeIcon}"></i> ${ctx.regimeLabel}</h3>
-  <ul>
-    <li><strong>Ciel</strong> : ${ctx.labels.sky}</li>
-    <li><strong>Précipitations</strong> : ${ctx.labels.precipitation}</li>
-    <li><strong>Vent</strong> : ${ctx.labels.wind}</li>
-    <li><strong>Température</strong> : ${ctx.labels.temperature}</li>
-  </ul>
-  <p class="narrative">${ctx.narrative}</p>
-</div>`
+    const content = await foundry.applications.handlebars.renderTemplate(
+      `${TEMPLATE_ROOT}/chat/weather-report.hbs`,
+      { regimeIcon: ctx.regimeIcon, regimeLabel: ctx.regimeLabel, labels: ctx.labels, narrative: ctx.narrative }
+    )
     await ChatMessage.create({ content, style: CONST.CHAT_MESSAGE_STYLES.OTHER })
   }
 
