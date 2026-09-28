@@ -359,6 +359,7 @@ Hooks.on("renderActorDirectory", (app, htmlOrElement) => {
   const button = document.createElement("button");
   button.type = "button";
   button.className = "cof2-import-wizard-button";
+  // EXCEPTION DOM : bouton FontAwesome injecté programmatiquement — non migrable en HBS sans refonte du point d'injection
   button.innerHTML = '<i class="fa-solid fa-dragon"></i> Importer une rencontre COF2';
   button.addEventListener("click", () => openCof2ImportWizard());
   header.appendChild(button);
