@@ -649,3 +649,176 @@ body.warbound-theme .wb-alliance {
 body.system-co2.warbound-theme #pause img {
     content: normal !important;
 }
+
+/* -------------------------------------------------------------------------- */
+/* 13. WEATHER DIALOG                                                          */
+/* -------------------------------------------------------------------------- */
+
+body.warbound-theme .weather-dialog-body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 0.5rem 0.25rem;
+    font-family: var(--wb-font-ui);
+    color: var(--color-text-primary, var(--wb-ink));
+}
+
+body.warbound-theme .weather-regime {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.4rem 0.6rem;
+    background: var(--wb-iron-soft);
+    border-left: 3px solid var(--wb-bronze);
+    border-radius: 2px;
+}
+
+body.warbound-theme .weather-regime-icon {
+    font-size: 1.25rem;
+    color: var(--wb-bronze-light);
+    flex-shrink: 0;
+}
+
+body.warbound-theme .weather-regime-label {
+    font-family: var(--wb-font-display);
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.03em;
+    flex: 1;
+}
+
+body.warbound-theme .weather-regime-age {
+    font-size: 0.75rem;
+    color: var(--wb-muted);
+    font-style: italic;
+    flex-shrink: 0;
+}
+
+body.warbound-theme .weather-components {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+}
+
+body.warbound-theme .weather-components th,
+body.warbound-theme .weather-components td {
+    padding: 0.25rem 0.4rem;
+    border-bottom: 1px solid var(--wb-rule);
+    text-align: left;
+}
+
+body.warbound-theme .weather-components th {
+    color: var(--wb-muted);
+    font-weight: normal;
+    width: 40%;
+}
+
+body.warbound-theme .weather-components td {
+    font-weight: bold;
+}
+
+body.warbound-theme .weather-narrative {
+    font-family: var(--wb-font-body);
+    font-style: italic;
+    font-size: 0.85rem;
+    color: var(--wb-muted);
+    margin: 0;
+    padding: 0.4rem 0.5rem;
+    border-left: 2px solid var(--wb-rule);
+}
+
+body.warbound-theme .weather-event {
+    background: color-mix(in srgb, var(--wb-crimson-dark) 30%, transparent);
+    border: 1px solid var(--wb-crimson);
+    border-radius: 3px;
+    padding: 0.5rem 0.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+}
+
+body.warbound-theme .weather-event h4 {
+    margin: 0;
+    font-family: var(--wb-font-display);
+    font-size: 0.85rem;
+    color: var(--wb-ember);
+    letter-spacing: 0.02em;
+}
+
+body.warbound-theme .weather-event-text {
+    margin: 0;
+    font-size: 0.82rem;
+    color: var(--color-text-secondary, var(--wb-muted));
+}
+
+body.warbound-theme .weather-event-ignore {
+    align-self: flex-end;
+    padding: 0.2rem 0.5rem;
+    font-size: 0.75rem;
+    background: transparent;
+    border: 1px solid var(--wb-rule);
+    color: var(--wb-muted);
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+body.warbound-theme .weather-event-ignore:hover {
+    border-color: var(--wb-bronze);
+    color: var(--wb-bronze-light);
+}
+
+body.warbound-theme .weather-no-state {
+    font-size: 0.85rem;
+    font-style: italic;
+    color: var(--wb-muted);
+    text-align: center;
+    margin: 0.5rem 0;
+}
+
+/* -------------------------------------------------------------------------- */
+/* 14. WEATHER CHAT MESSAGE                                                    */
+/* -------------------------------------------------------------------------- */
+
+body.warbound-theme .weather-chat {
+    font-family: var(--wb-font-ui);
+    font-size: 0.85rem;
+    padding: 0.25rem 0;
+}
+
+body.warbound-theme .weather-chat h3 {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin: 0 0 0.4rem;
+    font-family: var(--wb-font-display);
+    font-size: 0.95rem;
+    letter-spacing: 0.03em;
+    border-bottom: 1px solid var(--wb-rule);
+    padding-bottom: 0.3rem;
+}
+
+body.warbound-theme .weather-chat ul {
+    margin: 0 0 0.4rem;
+    padding-left: 0;
+    list-style: none;
+}
+
+body.warbound-theme .weather-chat ul li {
+    padding: 0.15rem 0;
+    border-bottom: 1px solid var(--wb-rule);
+    font-size: 0.82rem;
+}
+
+body.warbound-theme .weather-chat ul li:last-child {
+    border-bottom: none;
+}
+
+body.warbound-theme .weather-chat .narrative {
+    margin: 0.4rem 0 0;
+    font-family: var(--wb-font-body);
+    font-style: italic;
+    font-size: 0.82rem;
+    color: var(--wb-muted);
+    padding-left: 0.5rem;
+    border-left: 2px solid var(--wb-rule);
+}
