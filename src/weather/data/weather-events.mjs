@@ -32,8 +32,19 @@ export const WEATHER_EVENTS = [
     biomes: ['coastal', 'wetland', 'temperatePlain'],
     requires: {
       precipitation: 'none',
+      windMax: 'moderate',
     },
     text: "Un banc de brouillard épais roule depuis la mer ou la plaine basse, avalant silhouettes et repères. Progresser à vue devient hasardeux.",
+  },
+  {
+    id: 'fog-bank-wetland',
+    biomes: ['wetland'],
+    weight: 3,
+    requires: {
+      precipitation: 'none',
+      windMax: 'calm',
+    },
+    text: "Une nappe de brouillard stagne sur les eaux noires du marais. Les sons s'y étouffent, les silhouettes d'arbres surgissent sans prévenir. Perdre le chemin est une affaire de secondes.",
   },
   {
     id: 'sudden-downpour',
@@ -84,5 +95,24 @@ export const WEATHER_EVENTS = [
       windMin: 'moderate',
     },
     text: "Le vent accumule la neige en congères imprévisibles. Ce qui semblait un passage libre est maintenant bouché jusqu'à hauteur de poitrine.",
+  },
+  {
+    id: 'blizzard',
+    biomes: ['glacial', 'tundra', 'mountain'],
+    requires: {
+      precipitation: 'heavy',
+      windMin: 'strong',
+      temperatureMin: 'cold',
+    },
+    text: "Une tempête de neige aveuglante s'abat sans prévenir. Le vent siffle entre les rochers, la visibilité tombe à quelques pas. Se déplacer par ce temps, c'est risquer de ne jamais retrouver son chemin.",
+  },
+  {
+    id: 'dust-storm',
+    biomes: ['arid', 'semiArid'],
+    requires: {
+      windMin: 'moderate',
+      historyPattern: { precipitation: ['none'], minDays: 3 },
+    },
+    text: "Un mur de poussière ocre s'élève à l'horizon et avale le paysage en quelques minutes. L'air devient irrespirable, les yeux brûlent. Il n'y a plus qu'à s'abriter et attendre.",
   },
 ]
