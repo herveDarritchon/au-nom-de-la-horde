@@ -9,14 +9,27 @@ export const WeatherEventSelector = {
     candidates = candidates.filter(e => matchesWeather(e.requires, weather))
     candidates = candidates.filter(e => matchesHistory(e.requires, history))
     if (candidates.length === 0) return null
-    return candidates[Math.floor(random() * candidates.length)]
+    return pickWeighted(candidates, random)
   },
+}
+
+function pickWeighted(candidates, random) {
+  const total = candidates.reduce((sum, e) => sum + (e.weight ?? 1), 0)
+  let r = random() * total
+  for (const e of candidates) {
+    r -= (e.weight ?? 1)
+    if (r <= 0) return e
+  }
+  return candidates[candidates.length - 1]
 }
 
 function matchesWeather(requires, weather) {
   if (requires.precipitation !== undefined && requires.precipitation !== weather.precipitation) return false
   if (requires.windMin !== undefined) {
     if (WIND_ORDER.indexOf(weather.wind) < WIND_ORDER.indexOf(requires.windMin)) return false
+  }
+  if (requires.windMax !== undefined) {
+    if (WIND_ORDER.indexOf(weather.wind) > WIND_ORDER.indexOf(requires.windMax)) return false
   }
   if (requires.temperatureMin !== undefined) {
     // TEMP_ORDER index 0 = hottest; higher index = colder

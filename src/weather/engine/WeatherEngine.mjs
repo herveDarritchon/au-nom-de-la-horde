@@ -3,7 +3,7 @@ import { computeTransitionWeights } from './WeatherTransition.mjs'
 import { applyConstraints } from './WeatherConstraints.mjs'
 import { WeatherEventSelector } from './WeatherEventSelector.mjs'
 
-const REGIME_DESCRIPTORS = [
+export const REGIME_DESCRIPTORS = [
   { sky: 'clear',          precipitation: 'none',     wind: 'calm'     },
   { sky: 'partly-cloudy',  precipitation: 'light',    wind: 'light'    },
   { sky: 'overcast',       precipitation: 'moderate', wind: 'moderate' },
@@ -16,7 +16,7 @@ export const WeatherEngine = {
     const profile = BIOMES[biome][season]
 
     let weights = computeTransitionWeights({ biome, season, previousWeather })
-    weights = applyConstraints({ weights, dominantTemp: profile.dominantTemp })
+    weights = applyConstraints({ weights, dominantTemp: profile.dominantTemp, biome, season, descriptors: REGIME_DESCRIPTORS })
 
     const regime = pickRegime(weights, random)
     const desc = REGIME_DESCRIPTORS[regime]
