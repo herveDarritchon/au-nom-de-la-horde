@@ -7,4 +7,12 @@
     <li><strong>Température</strong> : {{labels.temperature}}</li>
   </ul>
   <p class="narrative">{{narrative}}</p>
+  {{#if event}}
+    <div class="weather-event-chat">
+      <p class="weather-event-text">{{event.text}}</p>
+      {{#if event.impactHint}}
+        <p class="weather-event-impact"><strong>Impact possible :</strong> {{event.impactHint}}</p>
+      {{/if}}
+    </div>
+  {{/if}}
 </div>

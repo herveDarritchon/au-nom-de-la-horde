@@ -109,7 +109,7 @@ export class WeatherDialog extends foundry.applications.api.HandlebarsApplicatio
     }
     const content = await foundry.applications.handlebars.renderTemplate(
       `${TEMPLATE_ROOT}/chat/weather-report.hbs`,
-      { regimeIcon: ctx.regimeIcon, regimeLabel: ctx.regimeLabel, labels: ctx.labels, narrative: ctx.narrative }
+      { regimeIcon: ctx.regimeIcon, regimeLabel: ctx.regimeLabel, labels: ctx.labels, narrative: ctx.narrative, event: ctx.event }
     )
     await ChatMessage.create({ content, style: CONST.CHAT_MESSAGE_STYLES.OTHER })
   }

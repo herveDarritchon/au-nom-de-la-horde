@@ -751,6 +751,25 @@ body.warbound-theme .weather-event-text {
     color: var(--color-text-secondary, var(--wb-muted));
 }
 
+/* Note MJ — suggestion d'impact, jamais appliquée automatiquement. */
+body.warbound-theme .weather-event-impact {
+    margin: 0;
+    font-size: 0.8rem;
+    line-height: 1.35;
+    color: var(--wb-bronze-light);
+}
+
+body.warbound-theme .weather-event-impact strong {
+    display: block;
+    margin-bottom: 0.1rem;
+    font-family: var(--wb-font-display);
+    font-size: 0.7rem;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--wb-bronze);
+}
+
 body.warbound-theme .weather-event-ignore {
     align-self: flex-end;
     padding: 0.2rem 0.5rem;
@@ -821,4 +840,14 @@ body.warbound-theme .weather-chat .narrative {
     color: var(--wb-muted);
     padding-left: 0.5rem;
     border-left: 2px solid var(--wb-rule);
+}
+
+body.warbound-theme .weather-event-chat {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    margin-top: 0.45rem;
+    padding: 0.4rem 0.5rem;
+    background: color-mix(in srgb, var(--wb-crimson-dark) 25%, transparent);
+    border-radius: 3px;
 }
