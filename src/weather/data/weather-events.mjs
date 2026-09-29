@@ -8,6 +8,7 @@ export const WEATHER_EVENTS = [
       temperatureMin: 'hot',
     },
     text: "Un tourbillon de poussière surgit du sol, fouettant le visage des voyageurs et réduisant la visibilité sur quelques mètres. Il se dissout aussi vite qu'il est apparu.",
+    impactHint: "Visibilité réduite à quelques mètres ; objets légers risquent d'être emportés.",
   },
   {
     id: 'mirage',
@@ -26,6 +27,7 @@ export const WEATHER_EVENTS = [
       historyPattern: { precipitation: ['none'], minDays: 3 },
     },
     text: "Le point d'eau indiqué sur la carte n'est plus qu'un lit de boue craquelée. Les traces d'animaux s'y arrêtent — elles aussi déçues.",
+    impactHint: "Point d'eau absent ; risque d'épuisement si aucune réserve disponible.",
   },
   {
     id: 'fog-bank',
@@ -35,6 +37,7 @@ export const WEATHER_EVENTS = [
       windMax: 'moderate',
     },
     text: "Un banc de brouillard épais roule depuis la mer ou la plaine basse, avalant silhouettes et repères. Progresser à vue devient hasardeux.",
+    impactHint: "Distances de vision réduites ; navigation à vue impossible au-delà de 10 m.",
   },
   {
     id: 'fog-bank-wetland',
@@ -54,6 +57,7 @@ export const WEATHER_EVENTS = [
       windMin: 'moderate',
     },
     text: "Les nuages crèvent sans prévenir. En quelques secondes, le sol disparaît sous les filets d'eau et les ruisselets improvisés. L'averse cesse presque aussi vite.",
+    impactHint: "Piste transformée en bourbier ; traversée de cours d'eau risquée.",
   },
   {
     id: 'muddy-trail',
@@ -105,6 +109,7 @@ export const WEATHER_EVENTS = [
       temperatureMin: 'cold',
     },
     text: "Une tempête de neige aveuglante s'abat sans prévenir. Le vent siffle entre les rochers, la visibilité tombe à quelques pas. Se déplacer par ce temps, c'est risquer de ne jamais retrouver son chemin.",
+    impactHint: "Déplacement ralenti, congères imprévisibles ; risque de perdre son chemin.",
   },
   {
     id: 'dust-storm',

@@ -34,6 +34,9 @@
         <div class="weather-event">
           <h4><i class="fa-solid fa-exclamation-circle"></i> Événement possible</h4>
           <p class="weather-event-text">{{event.text}}</p>
+          {{#if event.impactHint}}
+            <p class="weather-event-impact"><strong>Impact possible :</strong> {{event.impactHint}}</p>
+          {{/if}}
           <button type="button" data-action="ignoreEvent" class="weather-event-ignore">
             <i class="fa-solid fa-eye-slash"></i> Ignorer
           </button>
