@@ -8,7 +8,15 @@ import {
   SIMPLE_CALENDAR_AUTO_PUBLISH_SETTING,
 } from '../services/WeatherSettings.mjs'
 
-const SIMPLE_CALENDAR_MODULE_ID = 'simple-calendar'
+// L'identifiant du module est 'foundryvtt-simple-calendar-reborn', pas 'simple-calendar'.
+const SIMPLE_CALENDAR_MODULE_ID = 'foundryvtt-simple-calendar-reborn'
+
+// data.diff est un nombre de secondes, pas un objet { day } : on retient le dernier
+// jour calendaire traité pour ignorer les simples avances d'heure.
+let _previousDayKey = null
+
+// Exporté pour l'isolation des tests uniquement — ne pas appeler en production.
+export function _resetDaySnapshot() { _previousDayKey = null }
 
 export function registerSimpleCalendarIntegration() {
   Hooks.once('ready', () => {
@@ -21,11 +29,29 @@ export function registerSimpleCalendarIntegration() {
       return
     }
 
-    // Le hook part sur chaque changement de date ou d'heure : on ne retient
-    // que les avances de journée réelles, sinon une correction d'heure ferait
-    // sauter la météo.
+    // data.diff  = changeInSeconds (Number, >0 = avance, <0 = recul)
+    // data.date  = { year, month, day, hour, minute, seconds, … }
+    // On n'avance la météo que si le jour calendaire a réellement changé.
+    //
+    // Premier événement non-négatif : on initialise le snapshot sans avancer,
+    // pour éviter qu'une simple correction d'heure en début de session ne
+    // déclenche une avance météo (le snapshot est null au ready).
     Hooks.on(dateTimeChange, async (data) => {
-      if (!data?.diff?.day || data.diff.day <= 0) return
+      if (typeof data?.diff !== 'number' || data.diff <= 0) return
+
+      const d = data.date
+      if (!d) return
+
+      const currentKey = `${d.year}-${d.month}-${d.day}`
+
+      if (_previousDayKey === null) {
+        _previousDayKey = currentKey
+        return
+      }
+
+      if (_previousDayKey === currentKey) return
+      _previousDayKey = currentKey
+
       for (const zoneId of ZoneWeatherService.getAllZoneIds()) {
         await advanceZoneWeather(zoneId)
       }

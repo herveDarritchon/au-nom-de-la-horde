@@ -73,6 +73,49 @@ La macro ouvre la fenêtre météo ; utilisez ensuite **Jour suivant** pour gén
 - La configuration se fait par la console Foundry ; il n'existe pas encore d'interface pour créer ou modifier des zones.
 - La macro ouvre la fenêtre, mais ne génère pas la météo à elle seule : cliquez sur **Jour suivant** pour lancer le tirage.
 
+### Intégration Simple Calendar Reborn
+
+Le module peut avancer automatiquement la météo lors d'un changement de date dans **[Simple Calendar Reborn](https://foundryvtt.com/packages/foundryvtt-simple-calendar-reborn)**.
+
+#### Prérequis
+
+- Simple Calendar Reborn installé et activé dans le monde.
+- Zone météo configurée (voir « Préparer la zone » ci-dessus).
+
+#### Activer l'intégration
+
+Dans **Paramètres de partie → Paramètres des modules → Warbound Campaign Content**, deux options sont disponibles :
+
+| Paramètre | Défaut | Rôle |
+|---|---|---|
+| **Intégration Simple Calendar** | off | Active l'avance automatique de la météo lors d'un changement de date. |
+| **Publication automatique lors de l'avance** | off | Publie un message de chat météo pour chaque zone à chaque avance automatique. |
+
+#### Fonctionnement
+
+Lorsque l'intégration est activée et que Simple Calendar avance d'au moins un jour, `WeatherEngine.next()` est appelé pour chaque zone active. Le résultat est identique à un clic manuel sur **Jour suivant** dans le dialogue météo.
+
+> **Note** : le premier changement de date après le chargement du monde calibre le point de départ sans avancer la météo. La deuxième avance et les suivantes déclenchent bien la mise à jour.
+
+Les avances d'heure (sans changement de jour) et les reculs de date ne déclenchent pas d'avance météo.
+
+#### Vérification
+
+1. Ouvrir la console navigateur (F12) au `ready` et vérifier la présence du message :
+   ```
+   warbound-campaign-content | Intégration Simple Calendar activée
+   ```
+2. Avancer d'un jour dans Simple Calendar → la météo doit se mettre à jour dans le dialogue météo.
+3. Si **Publication automatique** est activée, un message météo doit apparaître dans le chat.
+
+Si le message de confirmation est absent, vérifier :
+
+```javascript
+// Dans la console Foundry
+game.modules.get('foundryvtt-simple-calendar-reborn')?.active  // doit retourner true
+game.settings.get('warbound-campaign-content', 'simpleCalendarIntegration')  // doit retourner true
+```
+
 ---
 
 ## 🐉 Importateur de rencontres COF2

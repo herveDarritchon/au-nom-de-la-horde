@@ -1,7 +1,7 @@
 import { test, describe, beforeEach, afterEach } from 'node:test'
 import assert from 'node:assert/strict'
 
-import { registerSimpleCalendarIntegration } from './SimpleCalendarIntegration.mjs'
+import { registerSimpleCalendarIntegration, _resetDaySnapshot } from './SimpleCalendarIntegration.mjs'
 import {
   MODULE_ID,
   WEATHER_STATES_SETTING,
@@ -10,7 +10,18 @@ import {
   SIMPLE_CALENDAR_AUTO_PUBLISH_SETTING,
 } from '../services/WeatherSettings.mjs'
 
+// Nom réel du hook SC Reborn (SimpleCalendar.Hooks.DateTimeChange) : les tests
+// utilisent un alias local pour ne pas dépendre du global en direct.
 const DATE_TIME_CHANGE = 'sc:dateTimeChange'
+
+// Forme réelle du payload SC Reborn :
+//   data.diff  = changeInSeconds (Number, > 0 = forward)
+//   data.date  = { year, month, day, hour, minute, seconds, … }
+function makeScPayload(diffSeconds, date) {
+  return { diff: diffSeconds, date: { year: 1, month: 1, day: 1, hour: 0, minute: 0, seconds: 0, ...date } }
+}
+const ONE_DAY_SEC  = 86400
+const ONE_HOUR_SEC = 3600
 
 // ── helpers ──────────────────────────────────────────────────────────────────
 
@@ -47,23 +58,21 @@ function makeSettingStore(overrides = {}) {
 
 /**
  * @param {object} store    magasin de settings
- * @param {object} options  { simpleCalendarActive, stateSetCalls, chatCreateCalls, statesHistory }
+ * @param {object} options  { simpleCalendarActive, stateSetCalls, statesHistory }
  */
 function makeGame(store, {
   simpleCalendarActive = true,
   stateSetCalls = [],
-  chatCreateCalls = [],
   statesHistory = [],
 } = {}) {
   return {
     modules: {
-      get: id => id === 'simple-calendar' ? { active: simpleCalendarActive } : undefined,
+      // Identifiant réel du module : 'foundryvtt-simple-calendar-reborn'
+      get: id => id === 'foundryvtt-simple-calendar-reborn' ? { active: simpleCalendarActive } : undefined,
     },
     settings: {
       get(_scope, key) { return store[key] },
       async set(_scope, key, value) {
-        // WeatherStateService écrit la carte complète des états, pas un état isolé :
-        // on diff pour savoir quelles zones ont réellement changé.
         if (key === WEATHER_STATES_SETTING) {
           const before = store[key] ?? {}
           statesHistory.push({ ...value })
@@ -76,12 +85,6 @@ function makeGame(store, {
       register() {},
     },
     ui: { notifications: { warn() {}, info() {} } },
-  }
-}
-
-function mockChatMessage(chatCreateCalls) {
-  global.ChatMessage = {
-    async create(data) { chatCreateCalls.push(data) },
   }
 }
 
@@ -101,8 +104,8 @@ function mockFoundryChat() {
   return rendered
 }
 
-const ACTIVE_ZONE = { id: 'durotar', biome: 'arid', season: 'summer', weather: 'active' }
-const OTHER_ZONE  = { id: 'elwynn', biome: 'temperatePlain', season: 'spring', weather: 'active' }
+const ACTIVE_ZONE   = { id: 'durotar', biome: 'arid', season: 'summer', weather: 'active' }
+const OTHER_ZONE    = { id: 'elwynn', biome: 'temperatePlain', season: 'spring', weather: 'active' }
 const DISABLED_ZONE = { id: 'aerie', biome: 'mountain', season: 'winter', weather: 'disabled' }
 
 // ── enregistrement conditionnel ──────────────────────────────────────────────
@@ -112,6 +115,7 @@ describe('SimpleCalendarIntegration — enregistrement conditionnel', () => {
   let warnings
 
   beforeEach(() => {
+    _resetDaySnapshot()
     originalGame           = global.game
     originalHooks          = global.Hooks
     originalSimpleCalendar = global.SimpleCalendar
@@ -179,23 +183,21 @@ describe('SimpleCalendarIntegration — enregistrement conditionnel', () => {
 // ── avance des zones ─────────────────────────────────────────────────────────
 
 describe('SimpleCalendarIntegration — avance des zones', () => {
-  let originalGame, originalHooks, originalSimpleCalendar, originalFoundry, originalConst, originalChatMessage
-  let stateSetCalls, chatCreateCalls, statesHistory, rendered
+  let originalGame, originalHooks, originalSimpleCalendar, originalFoundry, originalConst
+  let stateSetCalls, statesHistory
 
   beforeEach(() => {
+    _resetDaySnapshot()
     originalGame           = global.game
     originalHooks          = global.Hooks
     originalSimpleCalendar = global.SimpleCalendar
     originalFoundry        = global.foundry
     originalConst          = global.CONST
-    originalChatMessage    = global.ChatMessage
 
     global.SimpleCalendar = { Hooks: { DateTimeChange: DATE_TIME_CHANGE } }
-    stateSetCalls  = []
-    chatCreateCalls = []
-    statesHistory  = []
-    rendered = mockFoundryChat()
-    mockChatMessage(chatCreateCalls)
+    stateSetCalls = []
+    statesHistory = []
+    mockFoundryChat()
   })
 
   afterEach(() => {
@@ -204,7 +206,6 @@ describe('SimpleCalendarIntegration — avance des zones', () => {
     global.SimpleCalendar = originalSimpleCalendar
     global.foundry        = originalFoundry
     global.CONST          = originalConst
-    global.ChatMessage    = originalChatMessage
   })
 
   async function setup(zoneConfigs, { autoPublish = false } = {}) {
@@ -214,16 +215,21 @@ describe('SimpleCalendarIntegration — avance des zones', () => {
     })
     const { hooks } = makeHooksMock()
     global.Hooks = hooks
-    global.game = makeGame(store, { stateSetCalls, chatCreateCalls, statesHistory })
+    global.game = makeGame(store, { stateSetCalls, statesHistory })
     registerSimpleCalendarIntegration()
     await hooks.trigger('ready')
+    // Prime : le premier événement calibre le snapshot sans avancer.
+    // Les tests peuvent ensuite déclencher des avances sur un jour différent.
+    await hooks.trigger(DATE_TIME_CHANGE, makeScPayload(ONE_HOUR_SEC, { day: 1 }))
+    stateSetCalls.length = 0  // reset pour ne pas polluer les assertions suivantes
+    statesHistory.length = 0
     return hooks
   }
 
   test('toutes les zones actives sont avancées', async () => {
     const hooks = await setup({ durotar: ACTIVE_ZONE, elwynn: OTHER_ZONE })
 
-    await hooks.trigger(DATE_TIME_CHANGE, { diff: { day: 1 } })
+    await hooks.trigger(DATE_TIME_CHANGE, makeScPayload(ONE_DAY_SEC, { day: 2 }))
 
     assert.deepEqual(stateSetCalls.sort(), ['durotar', 'elwynn'])
   })
@@ -231,8 +237,8 @@ describe('SimpleCalendarIntegration — avance des zones', () => {
   test('chaque zone avancée reçoit un état complet dérivé du jour précédent', async () => {
     const hooks = await setup({ durotar: ACTIVE_ZONE })
 
-    await hooks.trigger(DATE_TIME_CHANGE, { diff: { day: 1 } })
-    await hooks.trigger(DATE_TIME_CHANGE, { diff: { day: 1 } })
+    await hooks.trigger(DATE_TIME_CHANGE, makeScPayload(ONE_DAY_SEC, { day: 2 }))
+    await hooks.trigger(DATE_TIME_CHANGE, makeScPayload(ONE_DAY_SEC, { day: 3 }))
 
     assert.equal(statesHistory.length, 2)
     const [day1, day2] = statesHistory.map(map => map.durotar)
@@ -256,16 +262,22 @@ describe('SimpleCalendarIntegration — avance des zones', () => {
     let sawChanged = false
 
     for (let trial = 0; trial < 60; trial++) {
+      _resetDaySnapshot()
       const store = makeSettingStore({
         [WEATHER_ZONE_CONFIGS_SETTING]: { durotar: ACTIVE_ZONE },
         [WEATHER_STATES_SETTING]: { durotar: { ...previous } },
       })
+      const localCalls = []
+      const localHistory = []
       const { hooks } = makeHooksMock()
       global.Hooks = hooks
-      global.game = makeGame(store, { stateSetCalls, statesHistory })
+      global.game = makeGame(store, { stateSetCalls: localCalls, statesHistory: localHistory })
       registerSimpleCalendarIntegration()
       await hooks.trigger('ready')
-      await hooks.trigger(DATE_TIME_CHANGE, { diff: { day: 1 } })
+      // Prime : calibre le snapshot sur le jour 1 avant l'avance réelle
+      await hooks.trigger(DATE_TIME_CHANGE, makeScPayload(ONE_HOUR_SEC, { day: 1 }))
+      // Un jour unique par essai pour que la déduplication ne bloque pas les avances
+      await hooks.trigger(DATE_TIME_CHANGE, makeScPayload(ONE_DAY_SEC, { day: trial + 2 }))
 
       const next = store[WEATHER_STATES_SETTING].durotar
       if (next.regime === previous.regime) {
@@ -284,15 +296,23 @@ describe('SimpleCalendarIntegration — avance des zones', () => {
   test('zone disabled → non avancée, les autres le sont', async () => {
     const hooks = await setup({ durotar: ACTIVE_ZONE, aerie: DISABLED_ZONE })
 
-    await hooks.trigger(DATE_TIME_CHANGE, { diff: { day: 1 } })
+    await hooks.trigger(DATE_TIME_CHANGE, makeScPayload(ONE_DAY_SEC, { day: 2 }))
 
     assert.deepEqual(stateSetCalls, ['durotar'])
   })
 
-  test('diff.day = 0 → aucune zone avancée', async () => {
+  test('diff = 0 → aucune zone avancée', async () => {
     const hooks = await setup({ durotar: ACTIVE_ZONE })
 
-    await hooks.trigger(DATE_TIME_CHANGE, { diff: { day: 0 } })
+    await hooks.trigger(DATE_TIME_CHANGE, makeScPayload(0, { day: 1 }))
+
+    assert.equal(stateSetCalls.length, 0)
+  })
+
+  test('diff négatif (recul) → aucune zone avancée', async () => {
+    const hooks = await setup({ durotar: ACTIVE_ZONE })
+
+    await hooks.trigger(DATE_TIME_CHANGE, makeScPayload(-ONE_DAY_SEC, { day: 1 }))
 
     assert.equal(stateSetCalls.length, 0)
   })
@@ -300,9 +320,19 @@ describe('SimpleCalendarIntegration — avance des zones', () => {
   test('changement d\'heure sans changement de jour → aucune zone avancée', async () => {
     const hooks = await setup({ durotar: ACTIVE_ZONE })
 
-    await hooks.trigger(DATE_TIME_CHANGE, { diff: { year: 0, month: 0, day: 0, hour: 2, minute: 30 } })
+    // Advance 2h but date.day stays the same
+    await hooks.trigger(DATE_TIME_CHANGE, makeScPayload(ONE_HOUR_SEC * 2, { day: 1 }))
 
     assert.equal(stateSetCalls.length, 0)
+  })
+
+  test('même jour déclenché deux fois → une seule avance', async () => {
+    const hooks = await setup({ durotar: ACTIVE_ZONE })
+
+    await hooks.trigger(DATE_TIME_CHANGE, makeScPayload(ONE_DAY_SEC, { day: 2 }))
+    await hooks.trigger(DATE_TIME_CHANGE, makeScPayload(ONE_HOUR_SEC, { day: 2 }))
+
+    assert.equal(stateSetCalls.length, 1, 'Le deuxième déclenchement sur le même jour ne doit pas avancer')
   })
 
   test('payload sans diff → aucune zone avancée, pas de crash', async () => {
@@ -317,7 +347,7 @@ describe('SimpleCalendarIntegration — avance des zones', () => {
   test('aucune zone configurée → aucun crash', async () => {
     const hooks = await setup({})
 
-    await hooks.trigger(DATE_TIME_CHANGE, { diff: { day: 1 } })
+    await hooks.trigger(DATE_TIME_CHANGE, makeScPayload(ONE_DAY_SEC, { day: 2 }))
 
     assert.equal(stateSetCalls.length, 0)
   })
@@ -325,7 +355,7 @@ describe('SimpleCalendarIntegration — avance des zones', () => {
   test('avance de plusieurs jours en un seul événement → une seule avance', async () => {
     const hooks = await setup({ durotar: ACTIVE_ZONE })
 
-    await hooks.trigger(DATE_TIME_CHANGE, { diff: { day: 3 } })
+    await hooks.trigger(DATE_TIME_CHANGE, makeScPayload(3 * ONE_DAY_SEC, { day: 4 }))
 
     assert.equal(stateSetCalls.length, 1, 'Un saut de 3 jours ne doit produire qu\'une avance')
   })
@@ -338,6 +368,7 @@ describe('SimpleCalendarIntegration — publication chat automatique', () => {
   let stateSetCalls, chatCreateCalls, statesHistory, rendered
 
   beforeEach(() => {
+    _resetDaySnapshot()
     originalGame           = global.game
     originalHooks          = global.Hooks
     originalSimpleCalendar = global.SimpleCalendar
@@ -350,7 +381,7 @@ describe('SimpleCalendarIntegration — publication chat automatique', () => {
     chatCreateCalls = []
     statesHistory  = []
     rendered = mockFoundryChat()
-    mockChatMessage(chatCreateCalls)
+    global.ChatMessage = { async create(data) { chatCreateCalls.push(data) } }
   })
 
   afterEach(() => {
@@ -369,16 +400,21 @@ describe('SimpleCalendarIntegration — publication chat automatique', () => {
     })
     const { hooks } = makeHooksMock()
     global.Hooks = hooks
-    global.game = makeGame(store, { stateSetCalls, chatCreateCalls, statesHistory })
+    global.game = makeGame(store, { stateSetCalls, statesHistory })
     registerSimpleCalendarIntegration()
     await hooks.trigger('ready')
+    await hooks.trigger(DATE_TIME_CHANGE, makeScPayload(ONE_HOUR_SEC, { day: 1 }))
+    stateSetCalls.length = 0
+    statesHistory.length = 0
+    chatCreateCalls.length = 0
+    rendered.length = 0
     return hooks
   }
 
   test('publication off → aucun message publié', async () => {
     const hooks = await setup(false)
 
-    await hooks.trigger(DATE_TIME_CHANGE, { diff: { day: 1 } })
+    await hooks.trigger(DATE_TIME_CHANGE, makeScPayload(ONE_DAY_SEC, { day: 2 }))
 
     assert.equal(stateSetCalls.length, 2, 'Les zones doivent quand même avancer')
     assert.equal(chatCreateCalls.length, 0)
@@ -387,7 +423,7 @@ describe('SimpleCalendarIntegration — publication chat automatique', () => {
   test('publication on → un message par zone avancée', async () => {
     const hooks = await setup(true)
 
-    await hooks.trigger(DATE_TIME_CHANGE, { diff: { day: 1 } })
+    await hooks.trigger(DATE_TIME_CHANGE, makeScPayload(ONE_DAY_SEC, { day: 2 }))
 
     assert.equal(chatCreateCalls.length, 2, 'Un message par zone avancée')
     for (const call of chatCreateCalls) {
@@ -399,7 +435,7 @@ describe('SimpleCalendarIntegration — publication chat automatique', () => {
   test('publication on → le contexte contient libellés, récit et événement', async () => {
     const hooks = await setup(true)
 
-    await hooks.trigger(DATE_TIME_CHANGE, { diff: { day: 1 } })
+    await hooks.trigger(DATE_TIME_CHANGE, makeScPayload(ONE_DAY_SEC, { day: 2 }))
 
     assert.equal(rendered.length, 2)
     for (const { context } of rendered) {
