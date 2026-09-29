@@ -40,6 +40,33 @@ describe('ZoneWeatherService — config', () => {
   })
 })
 
+describe('ZoneWeatherService — getAllZoneIds', () => {
+  let settingStore
+
+  beforeEach(() => {
+    settingStore = { [WEATHER_ZONE_CONFIGS_SETTING]: {} }
+    global.game = {
+      settings: {
+        get(scope, key) { assert.equal(scope, MODULE_ID); return settingStore[key] },
+        async set(scope, key, value) { assert.equal(scope, MODULE_ID); settingStore[key] = value },
+      },
+    }
+  })
+
+  afterEach(() => { delete global.game })
+
+  test('retourne tableau vide si aucune config', () => {
+    assert.deepEqual(ZoneWeatherService.getAllZoneIds(), [])
+  })
+
+  test('retourne les clés de toutes les zones configurées', async () => {
+    await ZoneWeatherService.setZoneConfig('durotar', DUROTAR_CONFIG)
+    await ZoneWeatherService.setZoneConfig('elwynn', { id: 'elwynn', biome: 'temperate', season: 'spring', weather: 'active' })
+    const ids = ZoneWeatherService.getAllZoneIds()
+    assert.deepEqual(ids.sort(), ['durotar', 'elwynn'])
+  })
+})
+
 describe('ZoneWeatherService — resolveWeatherState', () => {
   let settingStore
 

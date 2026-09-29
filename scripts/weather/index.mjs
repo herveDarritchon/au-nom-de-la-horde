@@ -2,6 +2,7 @@ import { WeatherDialog } from './ui/WeatherDialog.mjs'
 import { ZoneWeatherService } from './services/ZoneWeatherService.mjs'
 import { registerWeatherSettings } from './services/WeatherSettings.mjs'
 import { registerWeatherSceneControl } from './sceneControls.mjs'
+import { registerSimpleCalendarIntegration } from './integrations/SimpleCalendarIntegration.mjs'
 
 const MODULE_ID      = 'warbound-campaign-content'
 const DEFAULT_ZONE_ID = 'durotar'
@@ -10,6 +11,7 @@ let _weatherDialog = null
 
 Hooks.once('init', () => {
   registerWeatherSettings()
+  registerSimpleCalendarIntegration()
 
   const module = game.modules.get(MODULE_ID)
   if (module) {

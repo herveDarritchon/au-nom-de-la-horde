@@ -14,6 +14,11 @@ export const ZoneWeatherService = {
     })
   },
 
+  getAllZoneIds() {
+    const configs = game.settings.get(MODULE_ID, WEATHER_ZONE_CONFIGS_SETTING) ?? {}
+    return Object.keys(configs)
+  },
+
   resolveWeatherState(zoneId) {
     const config = ZoneWeatherService.getZoneConfig(zoneId)
     if (!config) return null

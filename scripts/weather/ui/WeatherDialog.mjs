@@ -1,54 +1,15 @@
 import { WeatherStateService } from '../services/WeatherStateService.mjs'
 import { ZoneWeatherService }  from '../services/ZoneWeatherService.mjs'
 import { WeatherEngine }       from '../../../src/weather/engine/WeatherEngine.mjs'
-import { TEMPLATE_ROOT }       from '../../../src/constants/templates.mjs'
+import {
+  REGIME_LABELS,
+  REGIME_ICONS,
+  buildNarrative,
+  buildStateLabels,
+  publishWeatherReport,
+} from '../services/WeatherChatPublisher.mjs'
 
 const MODULE_ID = 'warbound-campaign-content'
-
-const SKY_LABELS = {
-  'clear':          'Dégagé',
-  'partly-cloudy':  'Partiellement nuageux',
-  'overcast':       'Couvert',
-  'cloudy':         'Nuageux',
-  'stormy':         'Orageux',
-}
-
-const PRECIP_LABELS = {
-  none:     'Aucune',
-  light:    'Légères',
-  moderate: 'Modérées',
-  heavy:    'Fortes',
-}
-
-const WIND_LABELS = {
-  calm:     'Calme',
-  light:    'Léger',
-  moderate: 'Modéré',
-  strong:   'Fort',
-  violent:  'Violent',
-}
-
-const TEMP_LABELS = {
-  hot:      'Chaud',
-  warm:     'Doux',
-  mild:     'Tempéré',
-  cold:     'Froid',
-  freezing: 'Glacial',
-}
-
-const REGIME_LABELS = ['Clair', 'Variable', 'Couvert', 'Perturbé', 'Sévère']
-const REGIME_ICONS  = ['fa-sun', 'fa-cloud-sun', 'fa-cloud', 'fa-cloud-showers-heavy', 'fa-bolt-lightning']
-
-function buildNarrative(state) {
-  if (!state) return 'Aucun état météo disponible pour cette zone.'
-  const sky  = SKY_LABELS[state.sky]   ?? state.sky
-  const wind = WIND_LABELS[state.wind] ?? state.wind
-  const temp = TEMP_LABELS[state.temperature] ?? state.temperature
-  const prec = state.precipitation === 'none'
-    ? 'sans précipitations'
-    : `avec ${(PRECIP_LABELS[state.precipitation] ?? state.precipitation).toLowerCase()} précipitations`
-  return `Le ciel est ${sky.toLowerCase()}, ${prec}. Vent ${wind.toLowerCase()}, température ${temp.toLowerCase()}.`
-}
 
 export class WeatherDialog extends foundry.applications.api.HandlebarsApplicationMixin(
   foundry.applications.api.ApplicationV2,
@@ -89,12 +50,7 @@ export class WeatherDialog extends foundry.applications.api.HandlebarsApplicatio
       regimeLabel:   REGIME_LABELS[regime] ?? '—',
       regimeIcon:    REGIME_ICONS[regime]  ?? 'fa-cloud',
       regimeAge:     state?.regimeAge ?? 0,
-      labels: {
-        sky:           SKY_LABELS[state?.sky]              ?? state?.sky           ?? '—',
-        precipitation: PRECIP_LABELS[state?.precipitation] ?? state?.precipitation ?? '—',
-        wind:          WIND_LABELS[state?.wind]            ?? state?.wind          ?? '—',
-        temperature:   TEMP_LABELS[state?.temperature]     ?? state?.temperature   ?? '—',
-      },
+      labels:        buildStateLabels(state),
       narrative:     buildNarrative(state),
       event:         this.#lastEvent,
       eventIgnored:  this.#eventIgnored,
@@ -107,11 +63,7 @@ export class WeatherDialog extends foundry.applications.api.HandlebarsApplicatio
       ui.notifications.warn('[Météo] Aucun état météo à publier.')
       return
     }
-    const content = await foundry.applications.handlebars.renderTemplate(
-      `${TEMPLATE_ROOT}/chat/weather-report.hbs`,
-      { regimeIcon: ctx.regimeIcon, regimeLabel: ctx.regimeLabel, labels: ctx.labels, narrative: ctx.narrative, event: ctx.event }
-    )
-    await ChatMessage.create({ content, style: CONST.CHAT_MESSAGE_STYLES.OTHER })
+    await publishWeatherReport(ctx.state, ctx.event)
   }
 
   static async #onOverrideWeather() {
