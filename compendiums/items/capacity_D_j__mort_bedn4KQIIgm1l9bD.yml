@@ -1,7 +1,7 @@
 folder: BzHSEIGjTKHOsfdC
 name: Déjà mort
 type: capacity
-img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/cof2-deja-mort.png
+img: modules/warbound-campaign-content/assets/images/icons/capacites/cof2-deja-mort.png
 system:
   description: >-
     <p>Une fois par combat, lorsque le Réprouvé devrait tomber à 0 PV, il peut

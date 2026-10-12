@@ -3665,7 +3665,7 @@ journal:
         contentPages:
           info: GGbghqt1yGgvfs9b
           notes: gqPOxieAK8uQcQeI
-        image: worlds/au-nom-de-la-horde/assets/images/illustrations/durotar/mine-roche-seche/coa-mrs-atelier-de-maintenance.png
+        image: modules/warbound-campaign-content/assets/images/illustrations/durotar/mine-roche-seche/coa-mrs-atelier-de-maintenance.png
       core:
         sheetClass: campaign-codex.ShopSheet
     pages:
@@ -3902,7 +3902,7 @@ journal:
         contentPages:
           info: ju3WSb8f26VKbkdA
           notes: CxB5UMCGnHo6Skpy
-        image: worlds/au-nom-de-la-horde/assets/images/avatar/coa-brazzik_main-froide_avatar.png
+        image: modules/warbound-campaign-content/assets/images/avatar/coa-brazzik_main-froide_avatar.png
         data:
           linkedActor: Actor.59xA0uozsrB4lOvv
           sheetTypeLabelOverride: 'Journal : PNJ'
@@ -4009,7 +4009,7 @@ journal:
         contentPages:
           info: NO1hNkePDlfbG3O3
           notes: 6yLpEfyMtZs39vSQ
-        image: worlds/au-nom-de-la-horde/assets/images/illustrations/durotar/mine-roche-seche/coa-mrs-bureau.png
+        image: modules/warbound-campaign-content/assets/images/illustrations/durotar/mine-roche-seche/coa-mrs-bureau.png
       core:
         sheetClass: campaign-codex.ShopSheet
     pages:
@@ -4429,7 +4429,7 @@ journal:
         contentPages:
           info: Mt6jU9zHgogbFXFb
           notes: DycM6JtCiVlrFJb7
-        image: worlds/au-nom-de-la-horde/assets/images/avatar/orcs/convoi/coa-dorga-tire-rene-avatar.png
+        image: modules/warbound-campaign-content/assets/images/avatar/orcs/convoi/coa-dorga-tire-rene-avatar.png
         data:
           linkedActor: Actor.0EGDjh6P90ClokR2
           linkedLocations:
@@ -4548,7 +4548,7 @@ journal:
             <strong>@UUID[Compendium.world.vault-coa-7e7c5ff7-journal.JournalEntry.accdb729c105149f.JournalEntryPage.7c145456209029db]{Tranchecolline}</strong>.</p>
 
             <p><img
-            src="/worlds/au-nom-de-la-horde/vaults-cache/vault-coa-7e7c5ff7/static/Images/Illustrations/durotar.webp?v=2e9afecb7cee"
+            src="/modules/warbound-campaign-content/vaults-cache/vault-coa-7e7c5ff7/static/Images/Illustrations/durotar.webp?v=2e9afecb7cee"
             alt="durotar.webp" width="700"></p>
           format: 1
         sort: 100000
@@ -4873,7 +4873,7 @@ journal:
         contentPages:
           info: XUZrkjvKXzfIh02c
           notes: WC8KF9zvyOLStgxC
-        image: worlds/au-nom-de-la-horde/assets/images/illustrations/durotar/mine-roche-seche/coa-mrs-entrepot.png
+        image: modules/warbound-campaign-content/assets/images/illustrations/durotar/mine-roche-seche/coa-mrs-entrepot.png
       core:
         sheetClass: campaign-codex.ShopSheet
     pages:
@@ -5035,7 +5035,7 @@ journal:
         contentPages:
           info: Muq0UwD1hkT0sv3F
           notes: XQq56G7Or4SJYuvq
-        image: worlds/au-nom-de-la-horde/assets/images/illustrations/coa-convoie-pour-tranchecolline.png
+        image: modules/warbound-campaign-content/assets/images/illustrations/coa-convoie-pour-tranchecolline.png
         sheet-widgets: []
         widgets-position:
           info: true
@@ -5100,7 +5100,7 @@ journal:
           format: 1
           content: >-
             <figure><img
-            src="worlds/au-nom-de-la-horde/assets/images/illustrations/aides-de-jeu/coa-lettre-takrin-convoi.png"
+            src="modules/warbound-campaign-content/assets/images/illustrations/aides-de-jeu/coa-lettre-takrin-convoi.png"
             width="500"><figcaption>Lettre de Mission</figcaption></figure>
         ownership:
           default: 0
@@ -5496,7 +5496,7 @@ journal:
         contentPages:
           info: LYR7Wa0ILUNCpdF0
           notes: 4WcVeYUYb4eqU8O1
-        image: worlds/au-nom-de-la-horde/assets/images/icons/factions/coa-icone-faction-korkal.png
+        image: modules/warbound-campaign-content/assets/images/icons/factions/coa-icone-faction-korkal.png
         sheet-widgets:
           - id: WV6ISFetWStVaDA7
             widgetName: Progress Clock
@@ -5664,7 +5664,7 @@ journal:
           notes: RilojrcjI7wIeNNW
         data:
           linkedActor: Actor.mSSqlS09TdA8oRgI
-        image: worlds/au-nom-de-la-horde/assets/images/avatar/coa-krosh_pese-charge-avatar.png
+        image: modules/warbound-campaign-content/assets/images/avatar/coa-krosh_pese-charge-avatar.png
       core:
         sheetClass: campaign-codex.NPCSheet
     _id: vC91ivaZT7R8IJdF
@@ -10174,7 +10174,7 @@ journal:
                 max: 6
                 current: 0
                 title: L’escalade vers l’irréparable
-        image: worlds/au-nom-de-la-horde/assets/images/icons/factions/coa-icone-faction-cercle-pierre-brisee.png
+        image: modules/warbound-campaign-content/assets/images/icons/factions/coa-icone-faction-cercle-pierre-brisee.png
       core:
         sheetClass: campaign-codex.TagSheet
     _id: IA98XHgxRxeHoo3y
@@ -11308,7 +11308,7 @@ journal:
         contentPages:
           info: 6jdJHDE605T688wB
           notes: A17TCAkylolrkRVR
-        image: worlds/au-nom-de-la-horde/assets/images/illustrations/durotar/mine-roche-seche/coa-mrs-lieu-de-vie.png
+        image: modules/warbound-campaign-content/assets/images/illustrations/durotar/mine-roche-seche/coa-mrs-lieu-de-vie.png
       core:
         sheetClass: campaign-codex.ShopSheet
     pages:
@@ -11405,7 +11405,7 @@ journal:
         contentPages:
           info: f9174UZU6CBKOJZ1
           notes: oYSwll9Yw5DyXmKR
-        image: worlds/au-nom-de-la-horde/assets/images/illustrations/coa-illustration-mache-roc.png
+        image: modules/warbound-campaign-content/assets/images/illustrations/coa-illustration-mache-roc.png
       core:
         sheetClass: campaign-codex.ShopSheet
     _id: H8dpEah73C7TluZP
@@ -11799,7 +11799,7 @@ journal:
         contentPages:
           info: oJeTfgUZjif8xWBu
           notes: xC9SV4iavRSi5ilY
-        image: worlds/au-nom-de-la-horde/assets/images/illustrations/coa-mine-de-roche-seche.png
+        image: modules/warbound-campaign-content/assets/images/illustrations/coa-mine-de-roche-seche.png
       core:
         sheetClass: campaign-codex.LocationSheet
     pages:
@@ -14114,7 +14114,7 @@ journal:
         contentPages:
           info: wHfGadvoztcXJBjp
           notes: 1YQRKM9X1952imZS
-        image: worlds/au-nom-de-la-horde/assets/images/illustrations/coa-convoie-pour-tranchecolline.png
+        image: modules/warbound-campaign-content/assets/images/illustrations/coa-convoie-pour-tranchecolline.png
       core:
         sheetClass: campaign-codex.GroupSheet
     pages:
@@ -15080,7 +15080,7 @@ journal:
         contentPages:
           info: p7fJxxmPspVzX3OR
           notes: zePy8tewp2t5x0PU
-        image: worlds/au-nom-de-la-horde/assets/images/illustrations/coa-tranchecolline-cc.png
+        image: modules/warbound-campaign-content/assets/images/illustrations/coa-tranchecolline-cc.png
       core:
         sheetClass: campaign-codex.LocationSheet
     pages:
@@ -25547,7 +25547,7 @@ journal:
         video:
           controls: true
           volume: 0.5
-        src: worlds/au-nom-de-la-horde-cof2/assets/landing-page/cof2-parchemin-10-commandements-ouvert.png
+        src: modules/warbound-campaign-content/assets/landing-page/cof2-parchemin-10-commandements-ouvert.png
         category: null
         ownership:
           default: -1
@@ -77004,7 +77004,7 @@ scenes:
     _id: bHOtETzPJHvH4IiV
     navigation: true
     navOrder: 0
-    thumb: worlds/au-nom-de-la-horde-cof2/assets/scenes/thumb-jn_ECp8TQ8LeN64y4ke-Bg.webp
+    thumb: modules/warbound-campaign-content/assets/scenes/thumb-jn_ECp8TQ8LeN64y4ke-Bg.webp
     width: 1122
     height: 1402
     padding: 0.25
@@ -77310,7 +77310,7 @@ scenes:
     name: La Vallée des Épreuves
     _id: BiDHfS8xigeVmCrt
     navigation: false
-    thumb: worlds/au-nom-de-la-horde-cof2/assets/scenes/thumb-0MaJ2kVXDIxnJZS76ZSrvQ.webp
+    thumb: modules/warbound-campaign-content/assets/scenes/thumb-0MaJ2kVXDIxnJZS76ZSrvQ.webp
     width: 1672
     height: 941
     padding: 0.25
@@ -77438,7 +77438,7 @@ scenes:
     _id: dcS1NFbz3sBQhALD
     navigation: true
     navOrder: 0
-    thumb: worlds/au-nom-de-la-horde-cof2/assets/scenes/thumb-IwgtewnthA7sTaA3zUsQbw.webp
+    thumb: modules/warbound-campaign-content/assets/scenes/thumb-IwgtewnthA7sTaA3zUsQbw.webp
     width: 1448
     height: 1086
     padding: 0.25
@@ -77621,7 +77621,7 @@ scenes:
   - name: Accueil
     _id: EVPo5lPHmS0zLKBZ
     navigation: false
-    thumb: worlds/au-nom-de-la-horde-cof2/assets/scenes/thumb-rgcTF3iccPcNDZZ1ppUu1A.webp
+    thumb: modules/warbound-campaign-content/assets/scenes/thumb-rgcTF3iccPcNDZZ1ppUu1A.webp
     width: 4000
     height: 3000
     padding: 0.25
@@ -79401,7 +79401,7 @@ scenes:
     _id: qtcqKPZBmjhp2jNJ
     navigation: true
     navOrder: 0
-    thumb: worlds/au-nom-de-la-horde-cof2/assets/scenes/thumb-henYHDwEmvDf0LFqFnhSRw.webp
+    thumb: modules/warbound-campaign-content/assets/scenes/thumb-henYHDwEmvDf0LFqFnhSRw.webp
     width: 1491
     height: 1055
     padding: 0.25
