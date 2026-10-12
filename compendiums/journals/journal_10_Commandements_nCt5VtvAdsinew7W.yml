@@ -22,7 +22,7 @@ pages:
     video:
       controls: true
       volume: 0.5
-    src: worlds/au-nom-de-la-horde-cof2/assets/landing-page/cof2-parchemin-10-commandements-ouvert.png
+    src: modules/warbound-campaign-content/assets/landing-page/cof2-parchemin-10-commandements-ouvert.png
     category: null
     ownership:
       default: -1
