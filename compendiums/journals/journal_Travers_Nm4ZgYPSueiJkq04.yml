@@ -1,0 +1,1050 @@
+folder: null
+name: Travers
+flags:
+  campaign-codex:
+    type: ''
+  core:
+    sheetClass: ''
+_id: Nm4ZgYPSueiJkq04
+pages:
+  - sort: 100000
+    name: Règles Warbound
+    type: text
+    _id: 209e7ef7a023de31
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Travers — Règles Warbound</h1>
+
+        <blockquote>
+
+        <p><strong>Principe :</strong> un Travers n’est pas un moyen d’optimiser
+        un personnage. C’est une contrainte volontaire qui donne du relief au
+        héros et crée parfois des décisions moins efficaces, plus risquées ou
+        plus intéressantes.</p>
+
+        </blockquote>
+
+
+        <h2>1. Origine de la règle</h2>
+
+        <p>Warbound reprend l’idée des <strong>Handicaps</strong> de <em>Savage
+        Worlds</em>, mais l’intègre au fonctionnement de <strong>COF2</strong>.
+        Certains Travers sont surtout interprétatifs ; d’autres décrivent une
+        limitation concrète. Dans tous les cas, ils doivent produire du jeu et
+        non une comptabilité de malus.</p>
+
+
+        <h2>2. À la création</h2>
+
+        <ul>
+
+        <li>Chaque PJ choisit normalement <strong>1 Travers</strong>.</li>
+
+        <li>Le Travers doit être accepté par le joueur et le MJ et correspondre
+        au concept du personnage.</li>
+
+        <li>Les catégories <strong>Mineur / Majeur</strong> de Savage Worlds ne
+        sont pas conservées.</li>
+
+        <li>Un Travers ne donne <strong>aucun point de création</strong>, aucun
+        rang de Voie et aucun autre avantage automatique.</li>
+
+        <li>Un Travers particulièrement lourd doit être discuté avant la partie
+        afin de vérifier qu’il reste jouable dans la campagne.</li>
+
+        </ul>
+
+
+        <h2>3. Les quatre familles</h2>
+
+        <table>
+
+        <thead><tr><th>Famille</th><th>Fonction</th></tr></thead>
+
+        <tbody>
+
+        <tr><td><strong>Caractère</strong></td><td>Une manière récurrente de
+        décider, réagir ou se comporter qui peut conduire le PJ à faire un choix
+        peu prudent ou peu efficace.</td></tr>
+
+        <tr><td><strong>Fardeau</strong></td><td>Une personne, une dette, une
+        réputation, une obligation ou un élément du passé qui revient compliquer
+        la vie du PJ.</td></tr>
+
+        <tr><td><strong>Limitation</strong></td><td>Une difficulté physique,
+        sensorielle, sociale ou pratique ayant parfois un effet mécanique
+        concret.</td></tr>
+
+        <tr><td><strong>Idéal contraignant</strong></td><td>Une valeur positive
+        poussée assez loin pour obliger le PJ à accepter un coût, un risque ou
+        une contrainte.</td></tr>
+
+        </tbody>
+
+        </table>
+
+
+        <h2>4. Mettre un Travers en jeu</h2>
+
+        <p>Un Travers compte lorsqu’il <strong>change réellement la
+        situation</strong>. Il peut être proposé par le joueur ou amené
+        naturellement par le MJ.</p>
+
+        <p>Pour être significatif, il doit provoquer au moins un des éléments
+        suivants :</p>
+
+        <ul>
+
+        <li>un risque supplémentaire ;</li>
+
+        <li>un coût en temps, ressources ou position ;</li>
+
+        <li>une complication relationnelle ;</li>
+
+        <li>un choix difficile ;</li>
+
+        <li>une occasion perdue ;</li>
+
+        <li>une conséquence durable ou une nouvelle menace.</li>
+
+        </ul>
+
+
+        <h2>5. Récompense : récupérer 1 point de chance</h2>
+
+        <p>Lorsqu’un joueur interprète son Travers d’une manière qui sert la
+        scène et que celui-ci lui crée une <strong>complication
+        significative</strong>, le MJ peut lui faire récupérer immédiatement
+        <strong>1 point de chance (PC)</strong>, sans dépasser son maximum.</p>
+
+        <p><strong>Important :</strong> appliquer simplement un malus prévu par
+        le Travers ne suffit pas à récupérer un PC.</p>
+
+        <p>Un même Travers ne devrait normalement permettre de récupérer
+        qu’<strong>1 PC par scène</strong>. Le MJ reste seul juge de la
+        récompense ; elle n’est jamais automatique.</p>
+
+
+        <h2>6. Traduction mécanique vers COF2</h2>
+
+        <table>
+
+        <thead><tr><th>Dans Savage Worlds</th><th>Dans Warbound /
+        COF2</th></tr></thead>
+
+        <tbody>
+
+        <tr><td>Petits malus permanents (-1, -2, etc.)</td><td>Préférer un
+        <strong>dé malus</strong> seulement lorsque la limitation est réellement
+        pertinente.</td></tr>
+
+        <tr><td>Échec automatique</td><td>Réservé aux actions réellement
+        impossibles dans la fiction : lire lorsqu’on est aveugle, crier
+        lorsqu’on est muet, etc.</td></tr>
+
+        <tr><td>Malus de caractéristique permanent</td><td>À éviter. Le Travers
+        intervient selon la situation, pas sur chaque jet du
+        personnage.</td></tr>
+
+        <tr><td>Jetons Savage Worlds</td><td>Remplacés par la récupération
+        éventuelle de <strong>1 PC</strong> conformément à la logique
+        d’interprétation de COF2.</td></tr>
+
+        <tr><td>Mineur / Majeur</td><td>Supprimé. Une version particulièrement
+        sévère se définit avec le MJ et n’accorde aucun avantage
+        supplémentaire.</td></tr>
+
+        </tbody>
+
+        </table>
+
+
+        <h2>7. Ce qu’un Travers ne doit jamais faire</h2>
+
+        <ul>
+
+        <li>forcer le joueur à saboter volontairement la campagne ;</li>
+
+        <li>retirer systématiquement le libre arbitre du personnage ;</li>
+
+        <li>justifier un comportement qui gâche le plaisir des autres joueurs
+        ;</li>
+
+        <li>devenir une machine à récupérer des PC ;</li>
+
+        <li>imposer un malus alors que la fiction ne rend pas la limitation
+        pertinente.</li>
+
+        </ul>
+
+
+        <h2>8. Faire évoluer un Travers</h2>
+
+        <p>Un Travers peut changer avec le personnage. S’il est résolu, dépassé
+        ou rendu caduc par la fiction, le joueur et le MJ peuvent le remplacer
+        par un autre Travers cohérent.</p>
+
+        <p>Certains Travers se transforment naturellement : un
+        <strong>Secret</strong> révélé peut devenir <strong>Recherché</strong>,
+        <strong>Ennemi</strong> ou <strong>Déshonoré</strong> ; un
+        <strong>Serment</strong> accompli peut disparaître ; une
+        <strong>Obsession</strong> peut devenir une nouvelle motivation.</p>
+
+
+        <blockquote>
+
+        <p><strong>Test simple :</strong> si le Travers n’a jamais aucune chance
+        de compliquer les aventures du personnage, ce n’est probablement pas un
+        bon Travers. S’il complique chaque jet et chaque scène, il est
+        probablement trop lourd.</p>
+
+        </blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791788391559
+      modifiedTime: 1791788391559
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!Nm4ZgYPSueiJkq04.209e7ef7a023de31'
+  - sort: 200000
+    name: Choisir un Travers
+    type: text
+    _id: 1233243ac1644dfe
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Choisir et utiliser un Travers</h1>
+
+
+        <h2>Choix rapide</h2>
+
+        <p>Choisis d’abord la question qui décrit le mieux ce que tu veux
+        apporter à ton personnage :</p>
+
+        <table>
+
+        <thead><tr><th>Je veux que mon personnage…</th><th>Famille
+        conseillée</th></tr></thead>
+
+        <tbody>
+
+        <tr><td>prenne parfois de mauvaises décisions à cause de sa
+        personnalité.</td><td><strong>Caractère</strong></td></tr>
+
+        <tr><td>traîne derrière lui des problèmes qui peuvent revenir dans la
+        campagne.</td><td><strong>Fardeau</strong></td></tr>
+
+        <tr><td>doive composer avec une difficulté
+        concrète.</td><td><strong>Limitation</strong></td></tr>
+
+        <tr><td>soit parfois victime de ses propres
+        principes.</td><td><strong>Idéal contraignant</strong></td></tr>
+
+        </tbody>
+
+        </table>
+
+
+        <h2>Questions à se poser</h2>
+
+        <ol>
+
+        <li><strong>Quand ce Travers devrait-il apparaître ?</strong></li>
+
+        <li><strong>Quel type de problème peut-il créer ?</strong></li>
+
+        <li><strong>Qu’est-ce que le PJ refuse, désire ou craint à cause de lui
+        ?</strong></li>
+
+        <li><strong>Comment peut-il produire une bonne scène sans bloquer le
+        groupe ?</strong></li>
+
+        </ol>
+
+
+        <h2>Exemples Warbound</h2>
+
+        <table>
+
+        <thead><tr><th>Travers</th><th>Situation</th><th>Bonne mise en
+        jeu</th></tr></thead>
+
+        <tbody>
+
+        <tr><td><strong>Curieux</strong></td><td>Une galerie de Ragefeu est
+        condamnée et couverte de runes.</td><td>Le PJ insiste pour comprendre ce
+        qu’il y a derrière et accepte de perdre du temps alors que la situation
+        est urgente.</td></tr>
+
+        <tr><td><strong>Loyal</strong></td><td>Un éclaireur de la Horde reste
+        derrière pendant la retraite.</td><td>Le PJ revient le chercher malgré
+        le risque et oblige le groupe à revoir son plan.</td></tr>
+
+        <tr><td><strong>Cupide</strong></td><td>Une caisse de minerai rare se
+        trouve dans une zone dangereuse.</td><td>Le PJ propose un détour risqué
+        pour la récupérer.</td></tr>
+
+        <tr><td><strong>Étranger</strong></td><td>Un personnage sin’dorei
+        cherche l’aide d’un clan orc méfiant.</td><td>La scène devient une
+        négociation culturelle au lieu d’un simple jet assorti d’un malus
+        permanent.</td></tr>
+
+        <tr><td><strong>Secret</strong></td><td>Un témoin reconnaît le PJ devant
+        ses compagnons.</td><td>Le PJ doit choisir entre mentir, avouer ou faire
+        taire la rumeur et accepte les conséquences.</td></tr>
+
+        </tbody>
+
+        </table>
+
+
+        <h2>Quand ne pas donner de PC</h2>
+
+        <ul>
+
+        <li>Le joueur rappelle simplement qu’il possède le Travers.</li>
+
+        <li>Un dé malus s’applique sans modifier la situation.</li>
+
+        <li>Le comportement n’a aucune conséquence réelle.</li>
+
+        <li>Le joueur crée artificiellement le même problème à répétition pour
+        récupérer des PC.</li>
+
+        <li>L’interprétation gêne la table davantage qu’elle ne sert la
+        partie.</li>
+
+        </ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791788391559
+      modifiedTime: 1791788391559
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!Nm4ZgYPSueiJkq04.1233243ac1644dfe'
+  - sort: 300000
+    name: Travers — Caractère
+    type: text
+    _id: 60a13a79982faa1c
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Caractère</h1>
+
+        <p>Les Travers de cette famille sont adaptés des Handicaps de <em>Savage
+        Worlds</em> au moteur de <strong>Chroniques Oubliées Fantasy 2</strong>
+        utilisé par Warbound.</p>
+
+        <table><thead><tr><th>Travers</th><th>Règle
+        Warbound</th><th>Complications typiques</th></tr></thead><tbody>
+
+        <tr><td><strong>Arrogant</strong></td><td>Tu es convaincu de ta
+        supériorité. Tu cherches à affronter les adversaires les plus
+        prestigieux, supportes mal qu’on mette ton talent en doute et préfères
+        souvent dominer plutôt que simplement gagner.</td><td>Défi inutile,
+        refus de battre en retraite, rivalité, ennemi humilié, plan abandonné
+        pour prouver ta valeur.</td></tr>
+
+        <tr><td><strong>Bavard</strong></td><td>Tu parles trop, remplis les
+        silences et conserves difficilement une information pour toi lorsque la
+        conversation t’emporte.</td><td>Secret dévoilé, plan éventé,
+        interlocuteur irrité, information donnée au mauvais moment.</td></tr>
+
+        <tr><td><strong>Bizarrerie</strong></td><td>Choisis une manie précise,
+        reconnaissable et suffisamment gênante pour pouvoir revenir en jeu sans
+        devenir une caricature permanente.</td><td>Retard, malaise social,
+        rituel inutile, refus d’une solution pourtant simple.</td></tr>
+
+        <tr><td><strong>Chimère</strong></td><td>Tu crois sincèrement à une idée
+        étrange ou fausse. Définis-la avec le MJ. Elle doit pouvoir orienter
+        certaines de tes décisions sans rendre le personnage
+        injouable.</td><td>Mauvaise interprétation d’un indice, confiance
+        accordée à tort, refus d’une explication pourtant crédible.</td></tr>
+
+        <tr><td><strong>Couard</strong></td><td>Ta propre sécurité pèse lourd
+        dans tes décisions. Lorsque tu dois résister à une peur, une menace ou
+        une intimidation qui te vise directement, le MJ peut imposer un dé malus
+        à un test de VOL approprié.</td><td>Retraite prématurée, hésitation à
+        secourir quelqu’un, abandon d’une position avantageuse.</td></tr>
+
+        <tr><td><strong>Cupide</strong></td><td>L’argent, les objets rares et le
+        partage du butin influencent fortement tes décisions. Tu supportes mal
+        de laisser passer une occasion de profit.</td><td>Marchandage au mauvais
+        moment, détour pour un trésor, conflit sur un partage, confiance
+        accordée à quelqu’un qui paie.</td></tr>
+
+        <tr><td><strong>Curieux</strong></td><td>Les mystères t’attirent. Une
+        porte fermée, une rumeur contradictoire, une caverne inconnue ou un
+        mécanisme étrange constituent des invitations difficiles à
+        ignorer.</td><td>Détour, danger réveillé, intrusion, information
+        découverte au prix d’un risque.</td></tr>
+
+        <tr><td><strong>Hésitant</strong></td><td>Sous pression, tu as du mal à
+        trancher rapidement. Le Travers ne te fait pas automatiquement perdre un
+        tour : il doit surtout se traduire par une décision tardive ou une
+        occasion manquée quand la fiction s’y prête.</td><td>Fenêtre d’action
+        perdue, ordre contradictoire, retard dans une décision
+        urgente.</td></tr>
+
+        <tr><td><strong>Impitoyable</strong></td><td>Lorsque tu poursuis un
+        objectif important, tes scrupules passent après le résultat. Définis
+        avec le MJ jusqu’où le personnage accepte réellement
+        d’aller.</td><td>Allié choqué, témoin sacrifié, réputation dégradée,
+        solution plus brutale que nécessaire.</td></tr>
+
+        <tr><td><strong>Impulsif</strong></td><td>Tu préfères agir plutôt
+        qu’attendre. Lorsque le groupe hésite trop longtemps, tu as tendance à
+        prendre l’initiative avant que toutes les informations soient
+        réunies.</td><td>Piège déclenché, négociation interrompue, combat
+        commencé trop tôt, position révélée.</td></tr>
+
+        <tr><td><strong>Jaloux</strong></td><td>Tu supportes mal qu’un autre
+        obtienne reconnaissance, affection, pouvoir ou possession que tu estimes
+        mériter.</td><td>Rivalité, tentative de voler la vedette, mauvaise
+        décision motivée par l’envie.</td></tr>
+
+        <tr><td><strong>Mauvaise habitude</strong></td><td>Tu possèdes une
+        habitude gênante ou une dépendance définie avec le MJ. Une dépendance
+        lourde peut nécessiter des effets spécifiques, décidés avant le début de
+        la partie.</td><td>Besoin pressant, comportement déplacé, dette, manque,
+        mauvaise réputation.</td></tr>
+
+        <tr><td><strong>Obsession</strong></td><td>Tu poursuis un objectif
+        personnel qui tend à prendre le pas sur le reste : vengeance,
+        reconnaissance, perfection, recherche d’un objet, protection d’un lieu,
+        etc.</td><td>Détour, risque disproportionné, conflit de priorité avec le
+        groupe.</td></tr>
+
+        <tr><td><strong>Phobie</strong></td><td>Choisis une peur irrationnelle
+        suffisamment précise. Lorsqu’elle est directement présente et influence
+        réellement la scène, le MJ peut imposer un dé malus aux tests accomplis
+        sous son emprise.</td><td>Fuite, paralysie momentanée, refus d’entrer
+        dans un lieu, choix d’une route plus dangereuse.</td></tr>
+
+        <tr><td><strong>Poches percées</strong></td><td>Tu conserves
+        difficilement ton argent : dépenses impulsives, générosité déplacée,
+        paris, fêtes, achats inutiles ou mauvais investissements. Il n’y a pas
+        de perte automatique d’argent entre les séances.</td><td>Fonds
+        insuffisants au mauvais moment, dette, achat regrettable.</td></tr>
+
+        <tr><td><strong>Présomptueux</strong></td><td>Tu surestimes
+        régulièrement tes capacités et acceptes des défis qu’un personnage plus
+        lucide éviterait.</td><td>Danger sous-estimé, duel accepté, tâche
+        entreprise sans aide, adversaire provoqué.</td></tr>
+
+        <tr><td><strong>Prudent</strong></td><td>Tu détestes agir sans
+        information suffisante. Tu préfères observer, préparer une issue de
+        secours et sécuriser les risques avant de te lancer.</td><td>Occasion
+        manquée, temps perdu, allié impatient, adversaire qui prend
+        l’initiative.</td></tr>
+
+        <tr><td><strong>Rancunier</strong></td><td>Tu oublies difficilement les
+        offenses. Une humiliation ou une trahison crée une dette personnelle que
+        tu cherches tôt ou tard à régler.</td><td>Vengeance mal placée, refus
+        d’une alliance utile, ennemi poursuivi malgré une urgence plus
+        importante.</td></tr>
+
+        <tr><td><strong>Sale caractère</strong></td><td>Tu es cassant,
+        désagréable ou peu conciliant. Lorsque sympathie, chaleur humaine ou
+        coopération volontaire sont essentielles, le MJ peut imposer un dé malus
+        au test social approprié.</td><td>Contact vexé, négociation durcie,
+        service refusé, réputation dégradée.</td></tr>
+
+        <tr><td><strong>Sanguinaire</strong></td><td>Tu privilégies volontiers
+        l’élimination définitive des ennemis et accordes difficilement la
+        clémence. Ce Travers ne donne jamais le droit d’annuler une décision
+        collective du groupe.</td><td>Prisonnier tué, information perdue,
+        représailles, conflit avec une autorité ou un compagnon.</td></tr>
+
+        <tr><td><strong>Sceptique</strong></td><td>En Azeroth, tu ne nies pas
+        l’existence de la magie. En revanche, tu te méfies des prophéties,
+        présages, esprits, superstitions et explications mystiques tant que tu
+        n’as pas de preuve suffisante.</td><td>Avertissement ignoré, rituel
+        sous-estimé, allié spirituel froissé, danger mal interprété.</td></tr>
+
+        <tr><td><strong>Susceptible</strong></td><td>Les attaques personnelles
+        t’atteignent facilement. Lorsque tu dois résister à une provocation ou
+        une humiliation ciblée, le MJ peut imposer un dé malus à un test de VOL
+        approprié.</td><td>Provocation acceptée, négociation rompue, duel,
+        réponse disproportionnée.</td></tr>
+
+        <tr><td><strong>Suspicieux</strong></td><td>Tu accordes difficilement ta
+        confiance. Tu réclames des garanties, vérifies les accords et soupçonnes
+        volontiers des arrière-pensées.</td><td>Aide sincère refusée, alliance
+        retardée, compagnon vexé, temps perdu à vérifier l’évidence.</td></tr>
+
+        <tr><td><strong>Têtu</strong></td><td>Tu reconnais difficilement avoir
+        tort et persistes parfois dans une décision alors que des éléments
+        sérieux la remettent en cause.</td><td>Plan maintenu trop longtemps,
+        excuse improbable, conflit avec un allié.</td></tr>
+
+        </tbody></table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791788391559
+      modifiedTime: 1791788391559
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!Nm4ZgYPSueiJkq04.60a13a79982faa1c'
+  - sort: 400000
+    name: Travers — Fardeaux
+    type: text
+    _id: 7d7f3a6e4a703f8a
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Fardeau</h1>
+
+        <p>Les Travers de cette famille sont adaptés des Handicaps de <em>Savage
+        Worlds</em> au moteur de <strong>Chroniques Oubliées Fantasy 2</strong>
+        utilisé par Warbound.</p>
+
+        <table><thead><tr><th>Travers</th><th>Règle
+        Warbound</th><th>Complications typiques</th></tr></thead><tbody>
+
+        <tr><td><strong>Déshonoré</strong></td><td>Une faute passée te hante :
+        serment brisé, fuite, défaite, responsabilité dans un drame ou
+        comportement dont tu as honte. Décide avec le MJ si elle est secrète ou
+        connue.</td><td>Témoin du passé, accusation, décision dangereuse prise
+        pour ne pas répéter la faute.</td></tr>
+
+        <tr><td><strong>Ennemi</strong></td><td>Une personne, un clan ou une
+        organisation te veut du mal. Définissez avec le MJ sa puissance, ses
+        raisons et la fréquence raisonnable de ses
+        interventions.</td><td>Embuscade, chantage, rumeur, allié menacé, piste
+        sabotée.</td></tr>
+
+        <tr><td><strong>Étranger</strong></td><td>Tu n’appartiens pas pleinement
+        à la société dans laquelle se déroule la campagne. Il n’existe pas de
+        malus universel : prix, accès, méfiance, statut et réactions dépendent
+        de la situation et des cultures concernées.</td><td>Accès refusé,
+        soupçon, négociation plus difficile, coutume inconnue, autorité non
+        reconnue.</td></tr>
+
+        <tr><td><strong>Obligations</strong></td><td>Famille, clan, maître,
+        métier, garnison, dette ou responsabilité réclament régulièrement ton
+        temps et ton attention.</td><td>Convocation, service à rendre, proche en
+        danger, conflit entre mission et devoir.</td></tr>
+
+        <tr><td><strong>Recherché</strong></td><td>Une autorité, une faction ou
+        un clan cherche à t’arrêter, te capturer ou te tuer. Définissez
+        clairement la raison, le territoire concerné et le niveau de
+        mobilisation.</td><td>Contrôle, avis de recherche, dénonciation,
+        chasseurs de primes, impossibilité d’utiliser un itinéraire.</td></tr>
+
+        <tr><td><strong>Secret</strong></td><td>Tu protèges une vérité dont la
+        révélation aurait des conséquences. Lorsqu’il devient public, ce Travers
+        devrait évoluer plutôt que continuer à fonctionner comme
+        avant.</td><td>Mensonge nécessaire, preuve découverte, témoin gênant,
+        chantage. Une révélation peut transformer le Travers en Ennemi,
+        Déshonoré ou Recherché.</td></tr>
+
+        <tr><td><strong>Serment</strong></td><td>Tu as donné ta parole à une
+        personne, un clan, un ordre, un esprit ou une cause. Le serment doit
+        imposer de vraies obligations et être formulé assez précisément pour
+        produire des choix.</td><td>Ordre coûteux, devoir opposé à l’intérêt
+        immédiat du groupe, choix entre deux loyautés.</td></tr>
+
+        </tbody></table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791788391559
+      modifiedTime: 1791788391559
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!Nm4ZgYPSueiJkq04.7d7f3a6e4a703f8a'
+  - sort: 500000
+    name: Travers — Limitations
+    type: text
+    _id: a457fe3a30182c51
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Limitation</h1>
+
+        <p>Les Travers de cette famille sont adaptés des Handicaps de <em>Savage
+        Worlds</em> au moteur de <strong>Chroniques Oubliées Fantasy 2</strong>
+        utilisé par Warbound.</p>
+
+        <table><thead><tr><th>Travers</th><th>Règle
+        Warbound</th><th>Complications typiques</th></tr></thead><tbody>
+
+        <tr><td><strong>Âgé</strong></td><td>Ton âge rend certains efforts plus
+        difficiles. Lorsque force, agilité ou endurance sont réellement mises à
+        l’épreuve par un effort physique intense, le MJ peut imposer un dé
+        malus. Les attaques et les dommages ne sont pas pénalisés
+        automatiquement.</td><td>Course prolongée, escalade, chaleur,
+        récupération difficile, besoin d’une autre approche.</td></tr>
+
+        <tr><td><strong>Anémique</strong></td><td>Tu résistes mal à la fatigue,
+        aux maladies et aux environnements éprouvants. Le MJ peut imposer un dé
+        malus aux tests de CON concernés.</td><td>Marche forcée, poison ou
+        maladie plus difficiles à supporter, chaleur de Durotar,
+        privation.</td></tr>
+
+        <tr><td><strong>Aveugle</strong></td><td>Tu ne peux pas accomplir
+        normalement une tâche qui dépend exclusivement de la vue. Pour les
+        actions où d’autres sens, une habitude ou une aide peuvent compenser, le
+        MJ décide si l’action reste possible et peut imposer un dé malus. Les
+        capacités spéciales de perception s’appliquent
+        normalement.</td><td>Lecture impossible, cible silencieuse difficile à
+        localiser, terrain inconnu, besoin d’un guide.</td></tr>
+
+        <tr><td><strong>Borgne</strong></td><td>Ta perception de la profondeur
+        est réduite. Le MJ peut imposer un dé malus aux tests visuels où
+        distance, relief ou précision spatiale sont déterminants.</td><td>Tir
+        difficile, saut délicat, estimation de distance, objet lancé.</td></tr>
+
+        <tr><td><strong>Défaut d’élocution</strong></td><td>Ta parole est
+        difficile à suivre : bégaiement, débit, digressions ou autre
+        particularité définie à la création. Lorsque la clarté orale est
+        déterminante, le MJ peut imposer un dé malus au test
+        social.</td><td>Ordre mal compris, discours moins convaincant,
+        intimidation ou négociation compliquée.</td></tr>
+
+        <tr><td><strong>Deux mains gauches</strong></td><td>Tu es mauvais avec
+        les mécanismes, machines et dispositifs techniques. Le MJ peut imposer
+        un dé malus aux tests concernés, notamment avec l’ingénierie gobeline ou
+        gnome.</td><td>Mécanisme bloqué, réparation ratée, dispositif activé au
+        mauvais moment.</td></tr>
+
+        <tr><td><strong>Dur d’oreille</strong></td><td>Tu entends mal. Le MJ
+        impose un dé malus aux tests de PER reposant sur l’audition. Si le
+        personnage est totalement sourd, une information exclusivement sonore ne
+        peut pas être perçue sans moyen de compensation.</td><td>Alerte manquée,
+        conversation mal comprise, ennemi approchant hors du champ de
+        vision.</td></tr>
+
+        <tr><td><strong>Frêle</strong></td><td>Tu es particulièrement léger,
+        maigre ou peu robuste pour ton peuple. Le MJ peut imposer un dé malus
+        lorsque masse, puissance physique ou endurance corporelle sont
+        directement déterminantes.</td><td>Portage, lutte, marche exténuante,
+        choc physique.</td></tr>
+
+        <tr><td><strong>Gamin</strong></td><td>Ton personnage est beaucoup plus
+        jeune que la norme des aventuriers. Ce Travers décrit surtout un statut
+        : taille, autorité, accès et manière dont les adultes te considèrent.
+        Aucun retrait automatique de caractéristiques n’est
+        appliqué.</td><td>Accès interdit, autorité contestée, équipement mal
+        adapté, sous-estimation.</td></tr>
+
+        <tr><td><strong>Ignorant</strong></td><td>Tu connais mal le monde qui
+        t’entoure ou tu prêtes peu d’attention à la culture générale. Le MJ peut
+        imposer un dé malus aux tests d’INT ou de PER fondés sur des
+        connaissances générales évidentes pour un aventurier
+        ordinaire.</td><td>Coutume inconnue, symbole mal interprété, détail
+        évident manqué.</td></tr>
+
+        <tr><td><strong>Illettré</strong></td><td>Tu ne sais ni lire ni écrire
+        dans les langues que tu parles, sauf éventuelle exception définie à la
+        création. Les symboles extrêmement courants peuvent être reconnus sans
+        être réellement lus.</td><td>Ordre écrit inaccessible, carte annotée
+        inutilisable, contrat incompris.</td></tr>
+
+        <tr><td><strong>Lent</strong></td><td>Une blessure, une infirmité ou ta
+        constitution limite ta mobilité. Définis avec le MJ la réduction de
+        déplacement adaptée au concept. Évite de cumuler plusieurs pénalités
+        différentes pour représenter la même limitation.</td><td>Poursuite,
+        retraite, obstacle vertical, groupe obligé de modifier son
+        rythme.</td></tr>
+
+        <tr><td><strong>Lourdaud</strong></td><td>Tu manques de coordination. Le
+        MJ peut imposer un dé malus aux tests d’AGI liés à la discrétion,
+        l’équilibre ou une manœuvre physique demandant de la
+        finesse.</td><td>Bruit, chute, infiltration compromise, objet
+        renversé.</td></tr>
+
+        <tr><td><strong>Malchanceux</strong></td><td>La malchance semble te
+        suivre. Warbound ne réduit pas ton maximum de PC. Une fois par séance au
+        maximum, le MJ peut faire d’un détail aléatoire plausible une
+        complication personnelle ; si elle est significative, elle peut
+        déclencher la récupération de 1 PC comme tout autre
+        Travers.</td><td>Sangle qui casse, mauvais interlocuteur présent, pluie
+        au pire moment, objet nécessaire égaré.</td></tr>
+
+        <tr><td><strong>Manchot</strong></td><td>Tu n’as l’usage que d’un bras.
+        Les actions exigeant réellement deux mains sont impossibles ou demandent
+        un moyen de compensation ; les autres ne reçoivent pas de malus
+        automatique.</td><td>Arme à deux mains inutilisable, escalade ou
+        manipulation complexe, nécessité d’adapter l’équipement.</td></tr>
+
+        <tr><td><strong>Mauvais nageur</strong></td><td>Tu maîtrises mal la
+        nage. Le MJ peut imposer un dé malus aux tests concernés et augmenter la
+        difficulté fictionnelle dans le courant, en armure ou lors d’un
+        sauvetage.</td><td>Traversée ralentie, panique, équipement perdu, besoin
+        d’aide.</td></tr>
+
+        <tr><td><strong>Moche / apparence repoussante</strong></td><td>Ton
+        apparence provoque parfois malaise, crainte ou rejet. Il n’existe pas de
+        malus universel de CHA : un dé malus ne s’applique que lorsque
+        l’apparence est réellement déterminante pour obtenir sympathie ou
+        confiance.</td><td>Première impression défavorable, témoin effrayé,
+        accueil froid.</td></tr>
+
+        <tr><td><strong>Muet</strong></td><td>Tu ne peux pas parler. Tu peux
+        communiquer par gestes, écriture, langue des signes ou magie si le
+        contexte le permet. Une action exigeant spécifiquement la parole reste
+        impossible.</td><td>Alerte difficile à donner, ordre urgent impossible à
+        crier, interlocuteur qui ne comprend pas les signes.</td></tr>
+
+        <tr><td><strong>Myope</strong></td><td>Ta vision lointaine est mauvaise.
+        Sans correction adaptée, le MJ peut imposer un dé malus aux tests de PER
+        visuelle ou aux actions où identifier précisément quelque chose à
+        distance est essentiel.</td><td>Cible mal identifiée, détail lointain
+        manqué, lunettes perdues ou endommagées si le concept en
+        utilise.</td></tr>
+
+        <tr><td><strong>Obèse</strong></td><td>Ta forte corpulence peut être une
+        contrainte dans certaines situations physiques, mais elle ne donne ni
+        bonus ni malus universel. Le MJ ne l’invoque que lorsque l’espace,
+        l’endurance, l’équipement ou le déplacement rendent réellement la
+        corpulence pertinente.</td><td>Passage étroit, équipement inadapté,
+        course prolongée, monture trop légère.</td></tr>
+
+        <tr><td><strong>Timoré</strong></td><td>Tu dégages peu d’autorité ou de
+        menace. Lorsque tu cherches spécifiquement à effrayer quelqu’un par ta
+        présence, le MJ peut imposer un dé malus au test d’intimidation
+        approprié.</td><td>Menace non prise au sérieux, adversaire qui appelle
+        ton bluff.</td></tr>
+
+        </tbody></table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791788391559
+      modifiedTime: 1791788391559
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!Nm4ZgYPSueiJkq04.a457fe3a30182c51'
+  - sort: 600000
+    name: Travers — Idéaux contraignants
+    type: text
+    _id: d2ac6b7da6029be2
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Idéal contraignant</h1>
+
+        <p>Les Travers de cette famille sont adaptés des Handicaps de <em>Savage
+        Worlds</em> au moteur de <strong>Chroniques Oubliées Fantasy 2</strong>
+        utilisé par Warbound.</p>
+
+        <table><thead><tr><th>Travers</th><th>Règle
+        Warbound</th><th>Complications typiques</th></tr></thead><tbody>
+
+        <tr><td><strong>Code d’honneur</strong></td><td>Ta parole, le traitement
+        des prisonniers et les règles de conduite de ton peuple comptent
+        davantage que la solution la plus facile. Définis les principes
+        essentiels de ton code.</td><td>Ennemi épargné, duel accepté, avantage
+        déloyal refusé, promesse tenue à un coût réel.</td></tr>
+
+        <tr><td><strong>Héroïque</strong></td><td>Tu ne peux pas facilement
+        détourner le regard lorsqu’une personne sans défense est en danger, même
+        si intervenir est peu rentable ou dangereux.</td><td>Sauvetage risqué,
+        mission retardée, ressources dépensées pour des inconnus.</td></tr>
+
+        <tr><td><strong>Loyal</strong></td><td>Tu refuses d’abandonner
+        facilement tes compagnons et ceux que tu considères comme les
+        tiens.</td><td>Retraite refusée, danger pris pour couvrir un allié, plan
+        modifié pour sauver un compagnon.</td></tr>
+
+        <tr><td><strong>Pacifiste</strong></td><td>Tu cherches sincèrement à
+        éviter la violence. Définis à la création jusqu’où va ce refus : éviter
+        les combats inutiles, refuser l’exécution de prisonniers, ou ne jamais
+        blesser volontairement un être conscient sauf pour défendre
+        autrui.</td><td>Ennemi épargné, solution plus complexe, conflit avec un
+        allié plus brutal.</td></tr>
+
+        <tr><td><strong>Rien à perdre</strong></td><td>Un objectif précis compte
+        davantage que ta propre sécurité. Tu n’es pas suicidaire, mais
+        lorsqu’une véritable occasion d’atteindre ce but apparaît, tu acceptes
+        des risques qu’un autre refuserait.</td><td>Sacrifice personnel,
+        poursuite malgré le danger, refus d’abandonner l’objectif.</td></tr>
+
+        </tbody></table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791788391559
+      modifiedTime: 1791788391559
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!Nm4ZgYPSueiJkq04.d2ac6b7da6029be2'
+  - sort: 700000
+    name: Index alphabétique
+    type: text
+    _id: 77d2b7c6a8be4f6c
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Index des Travers</h1>
+
+        <p>Index alphabétique des 57 Travers adaptés pour Warbound.</p>
+
+        <table>
+
+        <thead><tr><th>Travers</th><th>Famille</th></tr></thead>
+
+        <tbody>
+
+        <tr><td><strong>Anémique</strong></td><td>Limitation</td></tr>
+
+        <tr><td><strong>Arrogant</strong></td><td>Caractère</td></tr>
+
+        <tr><td><strong>Aveugle</strong></td><td>Limitation</td></tr>
+
+        <tr><td><strong>Bavard</strong></td><td>Caractère</td></tr>
+
+        <tr><td><strong>Bizarrerie</strong></td><td>Caractère</td></tr>
+
+        <tr><td><strong>Borgne</strong></td><td>Limitation</td></tr>
+
+        <tr><td><strong>Chimère</strong></td><td>Caractère</td></tr>
+
+        <tr><td><strong>Code d’honneur</strong></td><td>Idéal
+        contraignant</td></tr>
+
+        <tr><td><strong>Couard</strong></td><td>Caractère</td></tr>
+
+        <tr><td><strong>Cupide</strong></td><td>Caractère</td></tr>
+
+        <tr><td><strong>Curieux</strong></td><td>Caractère</td></tr>
+
+        <tr><td><strong>Deux mains gauches</strong></td><td>Limitation</td></tr>
+
+        <tr><td><strong>Dur d’oreille</strong></td><td>Limitation</td></tr>
+
+        <tr><td><strong>Défaut d’élocution</strong></td><td>Limitation</td></tr>
+
+        <tr><td><strong>Déshonoré</strong></td><td>Fardeau</td></tr>
+
+        <tr><td><strong>Ennemi</strong></td><td>Fardeau</td></tr>
+
+        <tr><td><strong>Frêle</strong></td><td>Limitation</td></tr>
+
+        <tr><td><strong>Gamin</strong></td><td>Limitation</td></tr>
+
+        <tr><td><strong>Héroïque</strong></td><td>Idéal contraignant</td></tr>
+
+        <tr><td><strong>Hésitant</strong></td><td>Caractère</td></tr>
+
+        <tr><td><strong>Ignorant</strong></td><td>Limitation</td></tr>
+
+        <tr><td><strong>Illettré</strong></td><td>Limitation</td></tr>
+
+        <tr><td><strong>Impitoyable</strong></td><td>Caractère</td></tr>
+
+        <tr><td><strong>Impulsif</strong></td><td>Caractère</td></tr>
+
+        <tr><td><strong>Jaloux</strong></td><td>Caractère</td></tr>
+
+        <tr><td><strong>Lent</strong></td><td>Limitation</td></tr>
+
+        <tr><td><strong>Lourdaud</strong></td><td>Limitation</td></tr>
+
+        <tr><td><strong>Loyal</strong></td><td>Idéal contraignant</td></tr>
+
+        <tr><td><strong>Malchanceux</strong></td><td>Limitation</td></tr>
+
+        <tr><td><strong>Manchot</strong></td><td>Limitation</td></tr>
+
+        <tr><td><strong>Mauvais nageur</strong></td><td>Limitation</td></tr>
+
+        <tr><td><strong>Mauvaise habitude</strong></td><td>Caractère</td></tr>
+
+        <tr><td><strong>Moche / apparence
+        repoussante</strong></td><td>Limitation</td></tr>
+
+        <tr><td><strong>Muet</strong></td><td>Limitation</td></tr>
+
+        <tr><td><strong>Myope</strong></td><td>Limitation</td></tr>
+
+        <tr><td><strong>Obligations</strong></td><td>Fardeau</td></tr>
+
+        <tr><td><strong>Obsession</strong></td><td>Caractère</td></tr>
+
+        <tr><td><strong>Obèse</strong></td><td>Limitation</td></tr>
+
+        <tr><td><strong>Pacifiste</strong></td><td>Idéal contraignant</td></tr>
+
+        <tr><td><strong>Phobie</strong></td><td>Caractère</td></tr>
+
+        <tr><td><strong>Poches percées</strong></td><td>Caractère</td></tr>
+
+        <tr><td><strong>Prudent</strong></td><td>Caractère</td></tr>
+
+        <tr><td><strong>Présomptueux</strong></td><td>Caractère</td></tr>
+
+        <tr><td><strong>Rancunier</strong></td><td>Caractère</td></tr>
+
+        <tr><td><strong>Recherché</strong></td><td>Fardeau</td></tr>
+
+        <tr><td><strong>Rien à perdre</strong></td><td>Idéal
+        contraignant</td></tr>
+
+        <tr><td><strong>Sale caractère</strong></td><td>Caractère</td></tr>
+
+        <tr><td><strong>Sanguinaire</strong></td><td>Caractère</td></tr>
+
+        <tr><td><strong>Sceptique</strong></td><td>Caractère</td></tr>
+
+        <tr><td><strong>Secret</strong></td><td>Fardeau</td></tr>
+
+        <tr><td><strong>Serment</strong></td><td>Fardeau</td></tr>
+
+        <tr><td><strong>Susceptible</strong></td><td>Caractère</td></tr>
+
+        <tr><td><strong>Suspicieux</strong></td><td>Caractère</td></tr>
+
+        <tr><td><strong>Timoré</strong></td><td>Limitation</td></tr>
+
+        <tr><td><strong>Têtu</strong></td><td>Caractère</td></tr>
+
+        <tr><td><strong>Âgé</strong></td><td>Limitation</td></tr>
+
+        <tr><td><strong>Étranger</strong></td><td>Fardeau</td></tr>
+
+        </tbody>
+
+        </table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791788391559
+      modifiedTime: 1791788391559
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!Nm4ZgYPSueiJkq04.77d2b7c6a8be4f6c'
+categories: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1791788391559
+  modifiedTime: 1791788391559
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+sort: 0
+_key: '!journal!Nm4ZgYPSueiJkq04'

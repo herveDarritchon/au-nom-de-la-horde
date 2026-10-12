@@ -1,0 +1,57 @@
+folder: null
+name: 10 Commandements
+flags:
+  campaign-codex:
+    type: ''
+  core:
+    sheetClass: ''
+_id: nCt5VtvAdsinew7W
+pages:
+  - sort: 100000
+    name: Parchemin
+    type: image
+    _id: OImWFqsApFpQ46ZV
+    system: {}
+    title:
+      show: true
+      level: 1
+    image:
+      caption: ''
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: worlds/au-nom-de-la-horde-cof2/assets/landing-page/cof2-parchemin-10-commandements-ouvert.png
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791788385192
+      modifiedTime: 1791788385192
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!nCt5VtvAdsinew7W.OImWFqsApFpQ46ZV'
+categories: []
+ownership:
+  default: 2
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1791788385192
+  modifiedTime: 1791788385192
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+sort: 0
+_key: '!journal!nCt5VtvAdsinew7W'
