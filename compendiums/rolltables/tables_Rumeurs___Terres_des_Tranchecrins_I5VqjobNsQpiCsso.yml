@@ -1,0 +1,533 @@
+name: Rumeurs — Terres des Tranchecrins
+folder: mn9beOh2qD93YO4h
+formula: 1d20
+replacement: true
+displayRoll: true
+flags:
+  warbound-campaign-content:
+    markdownImport:
+      schema: 1
+      collectionId: durotar-terres-tranchecrins-rumors
+      collectionType: rumor
+results:
+  - type: document
+    name: Personne ne prend le tunnel
+    description: >-
+      Les habitués affirment que seuls les inconscients traversent encore le
+      Tunnel des Tranchecrins. Pourtant, certaines traces montrent qu'il est
+      régulièrement emprunté.
+    documentUuid: JournalEntry.PErNej1RfP7NIzyr.JournalEntryPage.p9BiAqvyqoPM2Vo6
+    range:
+      - 1
+      - 1
+    _id: iAE6HmS43IYjmuS9
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430106
+      modifiedTime: 1791753430106
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!I5VqjobNsQpiCsso.iAE6HmS43IYjmuS9'
+  - type: document
+    name: Des feux dans le cratère
+    description: >-
+      Plusieurs voyageurs disent avoir aperçu des lueurs au fond du Cratère des
+      Tranchecrins après la tombée de la nuit.
+    documentUuid: JournalEntry.PErNej1RfP7NIzyr.JournalEntryPage.gdgRYl7iIjAEs4jo
+    range:
+      - 2
+      - 2
+    _id: sce2lpT2y9vkV806
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430106
+      modifiedTime: 1791753430106
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!I5VqjobNsQpiCsso.sce2lpT2y9vkV806'
+  - type: document
+    name: Les pierres qui sifflent
+    description: >-
+      On raconte que certaines pierres sifflent juste avant une attaque
+      Tranchecrin. Quelques voyageurs jurent que ce bruit leur a sauvé la vie.
+    documentUuid: JournalEntry.PErNej1RfP7NIzyr.JournalEntryPage.BUN5358s5RfaeHTp
+    range:
+      - 3
+      - 3
+    _id: QI5mASkJjCkafvxA
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430106
+      modifiedTime: 1791753430106
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!I5VqjobNsQpiCsso.QI5mASkJjCkafvxA'
+  - type: document
+    name: La piste sans retour
+    description: >-
+      La Piste des Échineurs aurait la réputation de mener les voyageurs
+      toujours plus loin vers l'ouest, même lorsqu'ils pensent revenir vers
+      Tranchecolline.
+    documentUuid: JournalEntry.PErNej1RfP7NIzyr.JournalEntryPage.QR6sjSCu9h2McSE2
+    range:
+      - 4
+      - 4
+    _id: le2tk4XZquTsVRVC
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430106
+      modifiedTime: 1791753430106
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!I5VqjobNsQpiCsso.le2tk4XZquTsVRVC'
+  - type: document
+    name: Les trois passages
+    description: >-
+      Un ancien éclaireur prétend qu'il existe trois façons de traverser les
+      Terres des Tranchecrins sans passer par leur tunnel.
+    documentUuid: JournalEntry.PErNej1RfP7NIzyr.JournalEntryPage.tprBHDlmDOV5faVI
+    range:
+      - 5
+      - 5
+    _id: lbq50zZhkuV199Wp
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430106
+      modifiedTime: 1791753430106
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!I5VqjobNsQpiCsso.lbq50zZhkuV199Wp'
+  - type: document
+    name: Les Tranchecrins descendent
+    description: >-
+      Des habitants de Tranchecolline affirment que les Tranchecrins
+      s'aventurent désormais plus près des terres fréquentées par la Horde.
+    documentUuid: JournalEntry.PErNej1RfP7NIzyr.JournalEntryPage.TolfXBsdPbPuGk3X
+    range:
+      - 6
+      - 6
+    _id: Iq5Ku3crNGaSCwsl
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430106
+      modifiedTime: 1791753430106
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!I5VqjobNsQpiCsso.Iq5Ku3crNGaSCwsl'
+  - type: document
+    name: Il n'y a rien dans la grotte
+    description: >-
+      Certains chasseurs soutiennent que la Grotte des Échineurs est vide depuis
+      longtemps et que sa réputation suffit à éloigner les curieux.
+    documentUuid: JournalEntry.PErNej1RfP7NIzyr.JournalEntryPage.FswnLxfvEy3hWWWh
+    range:
+      - 7
+      - 7
+    _id: kChRaKBcfcWCpAWW
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430106
+      modifiedTime: 1791753430106
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!I5VqjobNsQpiCsso.kChRaKBcfcWCpAWW'
+  - type: document
+    name: Les marques sur les rochers
+    description: >-
+      Des signes gravés ou griffés apparaissent sur plusieurs rochers le long
+      des passages occidentaux. Personne ne s'accorde sur leur signification.
+    documentUuid: JournalEntry.PErNej1RfP7NIzyr.JournalEntryPage.AQXnBnk1hZiVkuea
+    range:
+      - 8
+      - 8
+    _id: oZMjCusSgKS7AMoy
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430106
+      modifiedTime: 1791753430106
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!I5VqjobNsQpiCsso.oZMjCusSgKS7AMoy'
+  - type: document
+    name: Le quilboar seul
+    description: >-
+      Un Tranchecrin solitaire aurait été aperçu plusieurs fois loin des autres,
+      observant les voyageurs sans les attaquer.
+    documentUuid: JournalEntry.PErNej1RfP7NIzyr.JournalEntryPage.WzoHJqxETjrS5UmK
+    range:
+      - 9
+      - 9
+    _id: ADnxyoKG71NYtBvl
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430106
+      modifiedTime: 1791753430106
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!I5VqjobNsQpiCsso.ADnxyoKG71NYtBvl'
+  - type: document
+    name: Le tunnel a deux sorties
+    description: >-
+      Une histoire persistante affirme que le Tunnel des Tranchecrins possède
+      une seconde issue connue seulement de ses occupants.
+    documentUuid: JournalEntry.PErNej1RfP7NIzyr.JournalEntryPage.JiB509KKRFu2Zxgd
+    range:
+      - 10
+      - 10
+    _id: MLNyfgVfxfCsEwkn
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430106
+      modifiedTime: 1791753430106
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!I5VqjobNsQpiCsso.MLNyfgVfxfCsEwkn'
+  - type: document
+    name: Le camp abandonné
+    description: >-
+      Un petit campement aurait été retrouvé désert dans les ravins, avec du
+      matériel encore utilisable mais aucune trace claire de ses occupants.
+    documentUuid: JournalEntry.PErNej1RfP7NIzyr.JournalEntryPage.uNvye5dc50IrKdlM
+    range:
+      - 11
+      - 11
+    _id: PPTNxPx2tVT0deAR
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430106
+      modifiedTime: 1791753430106
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!I5VqjobNsQpiCsso.PPTNxPx2tVT0deAR'
+  - type: document
+    name: L'eau du cratère
+    description: >-
+      Certains prétendent qu'une poche d'eau subsiste quelque part dans le
+      Cratère et qu'elle explique pourquoi les Tranchecrins tiennent tellement à
+      ce secteur.
+    documentUuid: JournalEntry.PErNej1RfP7NIzyr.JournalEntryPage.BriAuHh0QAbLvtFP
+    range:
+      - 12
+      - 12
+    _id: AAw9NwwzhO8WMPZJ
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430106
+      modifiedTime: 1791753430106
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!I5VqjobNsQpiCsso.AAw9NwwzhO8WMPZJ'
+  - type: document
+    name: Les Échineurs ne sont jamais les mêmes
+    description: >-
+      Les descriptions des Échineurs varient tellement d'un témoin à l'autre que
+      certains pensent que plusieurs dangers différents portent le même nom.
+    documentUuid: JournalEntry.PErNej1RfP7NIzyr.JournalEntryPage.NAian4NXXTMi1fYr
+    range:
+      - 13
+      - 13
+    _id: ciTkzbruRtVhkp07
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430106
+      modifiedTime: 1791753430106
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!I5VqjobNsQpiCsso.ciTkzbruRtVhkp07'
+  - type: document
+    name: La route des chasseurs
+    description: >-
+      Des chasseurs auraient commencé à utiliser une portion des Terres des
+      Tranchecrins comme raccourci malgré les avertissements des gardes.
+    documentUuid: JournalEntry.PErNej1RfP7NIzyr.JournalEntryPage.s8LK4IU5gvfkijJU
+    range:
+      - 14
+      - 14
+    _id: y2EvBz4Q4wd2OSJU
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430106
+      modifiedTime: 1791753430106
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!I5VqjobNsQpiCsso.y2EvBz4Q4wd2OSJU'
+  - type: document
+    name: Des tambours sous la roche
+    description: >-
+      Par temps calme, certains voyageurs disent entendre un rythme sourd venant
+      de derrière les parois rocheuses.
+    documentUuid: JournalEntry.PErNej1RfP7NIzyr.JournalEntryPage.5HGPrncV6jtrJdXz
+    range:
+      - 15
+      - 15
+    _id: WLFmOAcSXu5lHhlv
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430106
+      modifiedTime: 1791753430106
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!I5VqjobNsQpiCsso.WLFmOAcSXu5lHhlv'
+  - type: document
+    name: La charrette disparue
+    description: >-
+      Une charrette entrée dans les ravins aurait disparu sans laisser de débris
+      sur la piste principale.
+    documentUuid: JournalEntry.PErNej1RfP7NIzyr.JournalEntryPage.ApCbQF3RPDASYLki
+    range:
+      - 16
+      - 16
+    _id: ShnxwFED4Vhrbx9A
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430106
+      modifiedTime: 1791753430106
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!I5VqjobNsQpiCsso.ShnxwFED4Vhrbx9A'
+  - type: document
+    name: Les Tranchecrins évitent la piste
+    description: >-
+      Selon une rumeur de chasseurs, même les Tranchecrins traverseraient
+      rarement une certaine partie de la Piste des Échineurs.
+    documentUuid: JournalEntry.PErNej1RfP7NIzyr.JournalEntryPage.ip6i6nLSamoSGiSu
+    range:
+      - 17
+      - 17
+    _id: 1GHUGn9VP6qSIBze
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430106
+      modifiedTime: 1791753430106
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!I5VqjobNsQpiCsso.1GHUGn9VP6qSIBze'
+  - type: document
+    name: Les pierres en équilibre
+    description: >-
+      De petits empilements de pierres apparaissent parfois aux bifurcations et
+      disparaissent quelques jours plus tard.
+    documentUuid: JournalEntry.PErNej1RfP7NIzyr.JournalEntryPage.old1twh0U9e8Hs7d
+    range:
+      - 18
+      - 18
+    _id: EUZMaN9dhlqK0dZ5
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430106
+      modifiedTime: 1791753430106
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!I5VqjobNsQpiCsso.EUZMaN9dhlqK0dZ5'
+  - type: document
+    name: Le bruit attire les Tranchecrins
+    description: >-
+      Les voyageurs recommandent de traverser les ravins sans parler, car les
+      Tranchecrins pourraient localiser une conversation à grande distance.
+    documentUuid: JournalEntry.PErNej1RfP7NIzyr.JournalEntryPage.o6n94Cnh7vTs9S6N
+    range:
+      - 19
+      - 19
+    _id: 1X0coQPUUp7o5QwS
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430106
+      modifiedTime: 1791753430106
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!I5VqjobNsQpiCsso.1X0coQPUUp7o5QwS'
+  - type: document
+    name: Le territoire bouge
+    description: >-
+      Les cartes du secteur semblent toujours fausses : certains passages
+      praticables une semaine deviennent impraticables la suivante.
+    documentUuid: JournalEntry.PErNej1RfP7NIzyr.JournalEntryPage.JhdJpUSwBdvLKRqL
+    range:
+      - 20
+      - 20
+    _id: tptKZQkUly2p1U4p
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430106
+      modifiedTime: 1791753430106
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!I5VqjobNsQpiCsso.tptKZQkUly2p1U4p'
+_id: I5VqjobNsQpiCsso
+img: modules/warbound-campaign-content/assets/images/icons/tables-aleatoires/tranchecrins/cof2-ta-rumeurs-tranchecrins.png
+description: ''
+sort: 200000
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1791753430106
+  modifiedTime: 1791753430106
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!I5VqjobNsQpiCsso'

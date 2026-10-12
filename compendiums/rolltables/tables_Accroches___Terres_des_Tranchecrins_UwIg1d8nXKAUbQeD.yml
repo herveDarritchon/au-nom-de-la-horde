@@ -1,0 +1,533 @@
+name: Accroches — Terres des Tranchecrins
+folder: 1zMvXAUXgjtAOdOt
+formula: 1d20
+replacement: true
+displayRoll: true
+flags:
+  warbound-campaign-content:
+    markdownImport:
+      schema: 1
+      collectionId: durotar-terres-tranchecrins-hooks
+      collectionType: hook
+results:
+  - type: document
+    name: Le tunnel est fermé
+    description: >-
+      Des voyageurs revenus précipitamment affirment que le Tunnel des
+      Tranchecrins est désormais impraticable. Personne ne s’accorde sur ce qui
+      bloque réellement le passage.
+    documentUuid: JournalEntry.AGBg2GlBdn0Uo13B.JournalEntryPage.cG6jA9NPsETe9BW3
+    range:
+      - 1
+      - 1
+    _id: TN4zo6HK2H5Vku1z
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430093
+      modifiedTime: 1791753430093
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UwIg1d8nXKAUbQeD.TN4zo6HK2H5Vku1z'
+  - type: document
+    name: Trois disparus, trois directions
+    description: >-
+      Trois voyageurs ont disparu dans le même secteur, mais les traces
+      retrouvées semblent partir dans des directions différentes.
+    documentUuid: JournalEntry.AGBg2GlBdn0Uo13B.JournalEntryPage.YH1kZAoHViTcqSSn
+    range:
+      - 2
+      - 2
+    _id: sfsJEV51LaagjJd5
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430093
+      modifiedTime: 1791753430093
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UwIg1d8nXKAUbQeD.sfsJEV51LaagjJd5'
+  - type: document
+    name: La frontière de pieux
+    description: >-
+      De nouveaux pieux et marques apparaissent chaque matin un peu plus près
+      des passages utilisés par la Horde.
+    documentUuid: JournalEntry.AGBg2GlBdn0Uo13B.JournalEntryPage.RLJyzBpta1vE2wzP
+    range:
+      - 3
+      - 3
+    _id: EI4ltzU6vqkCn7mK
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430093
+      modifiedTime: 1791753430093
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UwIg1d8nXKAUbQeD.EI4ltzU6vqkCn7mK'
+  - type: document
+    name: Le camp du cratère
+    description: >-
+      Un camp inhabituellement important semble s’installer dans le Cratère des
+      Tranchecrins, sans qu’on sache s’il prépare une attaque ou autre chose.
+    documentUuid: JournalEntry.AGBg2GlBdn0Uo13B.JournalEntryPage.3IKdbrFfFAkNMQqq
+    range:
+      - 4
+      - 4
+    _id: SMWW6CrknxP0kujO
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430093
+      modifiedTime: 1791753430093
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UwIg1d8nXKAUbQeD.SMWW6CrknxP0kujO'
+  - type: document
+    name: L’eau rouge
+    description: >-
+      Des voyageurs reviennent malades après avoir bu dans un point d’eau des
+      ravins. Les accusations contre les Tranchecrins commencent immédiatement.
+    documentUuid: JournalEntry.AGBg2GlBdn0Uo13B.JournalEntryPage.3SugdakFNZ3KKp2W
+    range:
+      - 5
+      - 5
+    _id: tZHZZt95YlXcQdSL
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430093
+      modifiedTime: 1791753430093
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UwIg1d8nXKAUbQeD.tZHZZt95YlXcQdSL'
+  - type: document
+    name: Pris entre deux feux
+    description: >-
+      Deux groupes occupent simultanément les extrémités du Tunnel des
+      Tranchecrins et aucun ne semble vouloir céder le passage.
+    documentUuid: JournalEntry.AGBg2GlBdn0Uo13B.JournalEntryPage.lQYgLE4PIv8GH1HD
+    range:
+      - 6
+      - 6
+    _id: SUHZqPRbLlL97VUj
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430093
+      modifiedTime: 1791753430093
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UwIg1d8nXKAUbQeD.SUHZqPRbLlL97VUj'
+  - type: document
+    name: Le raccourci des marchands
+    description: >-
+      Certains voyageurs utilisent désormais la Piste des Échineurs pour gagner
+      du temps, malgré plusieurs incidents récents.
+    documentUuid: JournalEntry.AGBg2GlBdn0Uo13B.JournalEntryPage.FXsf9GbG9Gi7AqZj
+    range:
+      - 7
+      - 7
+    _id: FowqEqI5tjGQHrsI
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430093
+      modifiedTime: 1791753430093
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UwIg1d8nXKAUbQeD.FowqEqI5tjGQHrsI'
+  - type: document
+    name: Le blessé dans les taillis
+    description: >-
+      Un Tranchecrin grièvement blessé est découvert près d’un passage fréquenté
+      alors qu’un groupe armé approche.
+    documentUuid: JournalEntry.AGBg2GlBdn0Uo13B.JournalEntryPage.Nnm7s2UggtJ9Hm75
+    range:
+      - 8
+      - 8
+    _id: ySydeohnINpmkFUk
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430093
+      modifiedTime: 1791753430093
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UwIg1d8nXKAUbQeD.ySydeohnINpmkFUk'
+  - type: document
+    name: Les cairns déplacés
+    description: >-
+      Les petits repères de pierre utilisés par les voyageurs ne mènent plus là
+      où ils devraient. Plusieurs groupes se sont déjà égarés.
+    documentUuid: JournalEntry.AGBg2GlBdn0Uo13B.JournalEntryPage.YZEODEEckuHSyQlA
+    range:
+      - 9
+      - 9
+    _id: E5dCugMyAzl33Fde
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430093
+      modifiedTime: 1791753430093
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UwIg1d8nXKAUbQeD.E5dCugMyAzl33Fde'
+  - type: document
+    name: Quelqu’un occupe la grotte
+    description: >-
+      Des traces récentes montrent que la Grotte des Échineurs est utilisée,
+      mais aucun témoin ne s’accorde sur l’identité de ses occupants.
+    documentUuid: JournalEntry.AGBg2GlBdn0Uo13B.JournalEntryPage.jtoMwcPYRmAi16JB
+    range:
+      - 10
+      - 10
+    _id: X4O7J6g29IHTGaGv
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430093
+      modifiedTime: 1791753430093
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UwIg1d8nXKAUbQeD.X4O7J6g29IHTGaGv'
+  - type: document
+    name: L’embuscade sans ennemi
+    description: >-
+      Un groupe affirme avoir subi une attaque Tranchecrin dans un ravin, mais
+      aucune trace d’assaillant n’a été retrouvée.
+    documentUuid: JournalEntry.AGBg2GlBdn0Uo13B.JournalEntryPage.Gjz3yrLQDho5NBu5
+    range:
+      - 11
+      - 11
+    _id: H8KIXqVLJ004Hu58
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430093
+      modifiedTime: 1791753430093
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UwIg1d8nXKAUbQeD.H8KIXqVLJ004Hu58'
+  - type: document
+    name: Deux prisonniers pour une frontière
+    description: >-
+      La Horde détient un Tranchecrin tandis qu’un éclaireur de Tranchecolline
+      manque à l’appel. Chacun suppose que l’autre camp possède son disparu.
+    documentUuid: JournalEntry.AGBg2GlBdn0Uo13B.JournalEntryPage.hQGcHtRLcXDQlqYG
+    range:
+      - 12
+      - 12
+    _id: Dtj5bGltp9cccdRQ
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430093
+      modifiedTime: 1791753430093
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UwIg1d8nXKAUbQeD.Dtj5bGltp9cccdRQ'
+  - type: document
+    name: La piste effondrée
+    description: >-
+      Une portion de la Piste des Échineurs s’est effondrée, isolant ceux qui se
+      trouvaient au-delà et bouleversant tous les itinéraires du secteur.
+    documentUuid: JournalEntry.AGBg2GlBdn0Uo13B.JournalEntryPage.Zt5VMVvF7ToTQ1WR
+    range:
+      - 13
+      - 13
+    _id: 9dl5neLY0Qu1TCMv
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430093
+      modifiedTime: 1791753430093
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UwIg1d8nXKAUbQeD.9dl5neLY0Qu1TCMv'
+  - type: document
+    name: Les outils volés
+    description: >-
+      Des outils disparaissent régulièrement des travailleurs utilisant les
+      marges occidentales. Les gardes parlent déjà de sabotage Tranchecrin.
+    documentUuid: JournalEntry.AGBg2GlBdn0Uo13B.JournalEntryPage.y2PkJWlBeReWQspz
+    range:
+      - 14
+      - 14
+    _id: LU3TvS9kuZ5WiFf3
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430093
+      modifiedTime: 1791753430093
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UwIg1d8nXKAUbQeD.LU3TvS9kuZ5WiFf3'
+  - type: document
+    name: Le feu dans les ravins
+    description: >-
+      Un incendie progresse entre les taillis secs et menace plusieurs passages,
+      sans distinguer territoire de la Horde et territoire Tranchecrin.
+    documentUuid: JournalEntry.AGBg2GlBdn0Uo13B.JournalEntryPage.6EKOlutLmNhIa3Ta
+    range:
+      - 15
+      - 15
+    _id: RGEIBI6JDShVvItJ
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430093
+      modifiedTime: 1791753430093
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UwIg1d8nXKAUbQeD.RGEIBI6JDShVvItJ'
+  - type: document
+    name: Les guetteurs des hauteurs
+    description: >-
+      Plusieurs silhouettes observent les routes depuis les crêtes sans
+      attaquer. Leur présence commence à provoquer des réactions de plus en plus
+      nerveuses.
+    documentUuid: JournalEntry.AGBg2GlBdn0Uo13B.JournalEntryPage.v1tZ0FhQkv1swQUn
+    range:
+      - 16
+      - 16
+    _id: vhzG2VBU28NbJrEN
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430093
+      modifiedTime: 1791753430093
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UwIg1d8nXKAUbQeD.vhzG2VBU28NbJrEN'
+  - type: document
+    name: Le mort sans blessure
+    description: >-
+      Un voyageur est retrouvé mort au fond d’un ravin sans trace évidente de
+      combat. Chacun propose déjà son coupable.
+    documentUuid: JournalEntry.AGBg2GlBdn0Uo13B.JournalEntryPage.bwaDPkxyQOTqmyEc
+    range:
+      - 17
+      - 17
+    _id: gEiCJvih8TBAJVcJ
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430093
+      modifiedTime: 1791753430093
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UwIg1d8nXKAUbQeD.gEiCJvih8TBAJVcJ'
+  - type: document
+    name: La charrette dans le passage
+    description: >-
+      Une lourde charrette s’est immobilisée dans un goulet stratégique et
+      bloque presque entièrement la circulation.
+    documentUuid: JournalEntry.AGBg2GlBdn0Uo13B.JournalEntryPage.Ov2WkrSx8Y0ZuNKU
+    range:
+      - 18
+      - 18
+    _id: u6GWHu88E3lMNXWv
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430093
+      modifiedTime: 1791753430093
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UwIg1d8nXKAUbQeD.u6GWHu88E3lMNXWv'
+  - type: document
+    name: Les téméraires de Tranchecolline
+    description: >-
+      Plusieurs jeunes habitants sont partis explorer les Terres des
+      Tranchecrins pour prouver qu’elles ne sont pas aussi dangereuses qu’on le
+      raconte.
+    documentUuid: JournalEntry.AGBg2GlBdn0Uo13B.JournalEntryPage.onuLaOU4t5Vcr1jg
+    range:
+      - 19
+      - 19
+    _id: YPXAUQvhzMEGwliK
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430093
+      modifiedTime: 1791753430093
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UwIg1d8nXKAUbQeD.YPXAUQvhzMEGwliK'
+  - type: document
+    name: Qui utilise le nom des Échineurs ?
+    description: >-
+      Plusieurs incidents récents sont attribués aux Échineurs alors que les
+      témoignages n’ont presque rien en commun.
+    documentUuid: JournalEntry.AGBg2GlBdn0Uo13B.JournalEntryPage.1mTxdP7gh37rABwJ
+    range:
+      - 20
+      - 20
+    _id: IXtzEviUNjo1qi3K
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430093
+      modifiedTime: 1791753430093
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UwIg1d8nXKAUbQeD.IXtzEviUNjo1qi3K'
+_id: UwIg1d8nXKAUbQeD
+img: modules/warbound-campaign-content/assets/images/icons/tables-aleatoires/tranchecrins/cof2-ta-intrigues-tranchecrins.png
+description: ''
+sort: 200000
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1791753430093
+  modifiedTime: 1791753430093
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!UwIg1d8nXKAUbQeD'

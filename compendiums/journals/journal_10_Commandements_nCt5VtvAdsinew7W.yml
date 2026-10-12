@@ -1,4 +1,4 @@
-folder: U6f0Y0LXCS7X5EDL
+folder: null
 name: 10 Commandements
 flags:
   campaign-codex:
@@ -31,9 +31,9 @@ pages:
     _stats:
       coreVersion: '14.367'
       systemId: co2
-      systemVersion: 2.3.11
-      createdTime: 1790026195149
-      modifiedTime: 1790026195149
+      systemVersion: 2.3.12
+      createdTime: 1791788385192
+      modifiedTime: 1791788385192
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -46,9 +46,9 @@ ownership:
 _stats:
   coreVersion: '14.367'
   systemId: co2
-  systemVersion: 2.3.11
-  createdTime: 1790026195149
-  modifiedTime: 1790026195149
+  systemVersion: 2.3.12
+  createdTime: 1791788385192
+  modifiedTime: 1791788385192
   lastModifiedBy: TjbWhMczNyKieD8D
   compendiumSource: null
   duplicateSource: null

@@ -1,0 +1,1346 @@
+folder: luBSaVcr5QSdB7pK
+name: Travers
+_id: 87WK59nyuvKNteFE
+img: modules/warbound-campaign-content/assets/images/icons/roll-tables/cof2-travers-rolltable-logo.png
+description: >-
+  <p>La table <strong>Travers</strong> permet de déterminer aléatoirement un
+  défaut, une faiblesse ou une contrainte marquante pour un
+  personnage.</p><blockquote><p><strong>Un héros se définit autant par ce qu’il
+  sait accomplir que par les défauts avec lesquels il doit
+  composer.</strong></p></blockquote>
+results:
+  - type: text
+    weight: 2
+    range:
+      - 1
+      - 2
+    _id: shvoi3BSLlsD6l3r
+    name: Anémique
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Limitation</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.shvoi3BSLlsD6l3r'
+  - type: text
+    weight: 2
+    range:
+      - 3
+      - 4
+    _id: UH4XcDr32fN57soR
+    name: Arrogant
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Caractère</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.UH4XcDr32fN57soR'
+  - type: text
+    weight: 2
+    range:
+      - 5
+      - 6
+    _id: ZFgGwl7oldiHXqCu
+    name: Aveugle
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Limitation</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.ZFgGwl7oldiHXqCu'
+  - type: text
+    weight: 2
+    range:
+      - 7
+      - 8
+    _id: 4AdAkHWVXVJ3WK8d
+    name: Bavard
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Caractère</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.4AdAkHWVXVJ3WK8d'
+  - type: text
+    weight: 2
+    range:
+      - 9
+      - 10
+    _id: U1HWLx9pBvkeYXP7
+    name: Bizarrerie
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Caractère</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.U1HWLx9pBvkeYXP7'
+  - type: text
+    weight: 2
+    range:
+      - 11
+      - 12
+    _id: SAWey5E231y72JuR
+    name: Borgne
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Limitation</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.SAWey5E231y72JuR'
+  - type: text
+    weight: 2
+    range:
+      - 13
+      - 14
+    _id: 1f0akcG6XQEByLS1
+    name: Chimère
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Caractère</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.1f0akcG6XQEByLS1'
+  - type: text
+    weight: 1
+    range:
+      - 15
+      - 15
+    _id: uzngQJb4NINBoiXq
+    name: Code d’honneur
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Idéal contraignant</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.uzngQJb4NINBoiXq'
+  - type: text
+    weight: 2
+    range:
+      - 16
+      - 17
+    _id: XquVkE1GeapkbIpS
+    name: Couard
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Caractère</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.XquVkE1GeapkbIpS'
+  - type: text
+    weight: 2
+    range:
+      - 18
+      - 19
+    _id: SJz2x3JTBv3Y4gDb
+    name: Cupide
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Caractère</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.SJz2x3JTBv3Y4gDb'
+  - type: text
+    weight: 2
+    range:
+      - 20
+      - 21
+    _id: ln497A3SfkibSZe0
+    name: Curieux
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Caractère</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.ln497A3SfkibSZe0'
+  - type: text
+    weight: 2
+    range:
+      - 22
+      - 23
+    _id: OYC62ZtncUKMGyIx
+    name: Deux mains gauches
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Limitation</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.OYC62ZtncUKMGyIx'
+  - type: text
+    weight: 2
+    range:
+      - 24
+      - 25
+    _id: kjfki4EeSYpJRT3Y
+    name: Dur d’oreille
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Limitation</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.kjfki4EeSYpJRT3Y'
+  - type: text
+    weight: 2
+    range:
+      - 26
+      - 27
+    _id: pYZX3t9Q6UjG7lpM
+    name: Défaut d’élocution
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Limitation</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.pYZX3t9Q6UjG7lpM'
+  - type: text
+    weight: 2
+    range:
+      - 28
+      - 29
+    _id: fdfSpeSdlXn5vbyP
+    name: Déshonoré
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Fardeau</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.fdfSpeSdlXn5vbyP'
+  - type: text
+    weight: 2
+    range:
+      - 30
+      - 31
+    _id: O8rB6rCPYkuO6OsW
+    name: Ennemi
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Fardeau</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.O8rB6rCPYkuO6OsW'
+  - type: text
+    weight: 2
+    range:
+      - 32
+      - 33
+    _id: tNlMRGAzBcUPcsQh
+    name: Frêle
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Limitation</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.tNlMRGAzBcUPcsQh'
+  - type: text
+    weight: 2
+    range:
+      - 34
+      - 35
+    _id: C596W1vTkA3Siodo
+    name: Gamin
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Limitation</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.C596W1vTkA3Siodo'
+  - type: text
+    weight: 1
+    range:
+      - 36
+      - 36
+    _id: UnbvsFY2QXoh2BlA
+    name: Héroïque
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Idéal contraignant</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.UnbvsFY2QXoh2BlA'
+  - type: text
+    weight: 2
+    range:
+      - 37
+      - 38
+    _id: YLaBbQWL9ejGbABs
+    name: Hésitant
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Caractère</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.YLaBbQWL9ejGbABs'
+  - type: text
+    weight: 2
+    range:
+      - 39
+      - 40
+    _id: 1MjopcGCDSyxhLNu
+    name: Ignorant
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Limitation</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.1MjopcGCDSyxhLNu'
+  - type: text
+    weight: 2
+    range:
+      - 41
+      - 42
+    _id: GEdAxu1b7mEqKiey
+    name: Illettré
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Limitation</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.GEdAxu1b7mEqKiey'
+  - type: text
+    weight: 2
+    range:
+      - 43
+      - 44
+    _id: Pymlu9rov2lkNUmd
+    name: Impitoyable
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Caractère</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.Pymlu9rov2lkNUmd'
+  - type: text
+    weight: 2
+    range:
+      - 45
+      - 46
+    _id: UfdZnS4rSSC0mjhb
+    name: Impulsif
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Caractère</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.UfdZnS4rSSC0mjhb'
+  - type: text
+    weight: 2
+    range:
+      - 47
+      - 48
+    _id: 2ippiahrmEKtvGYk
+    name: Jaloux
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Caractère</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.2ippiahrmEKtvGYk'
+  - type: text
+    weight: 2
+    range:
+      - 49
+      - 50
+    _id: Wso1nws7i1cDNEnb
+    name: Lent
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Limitation</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.Wso1nws7i1cDNEnb'
+  - type: text
+    weight: 2
+    range:
+      - 51
+      - 52
+    _id: 3AxWCtxjZkf0gVUY
+    name: Lourdaud
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Limitation</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.3AxWCtxjZkf0gVUY'
+  - type: text
+    weight: 1
+    range:
+      - 53
+      - 53
+    _id: voUHyTOYp2osSOFZ
+    name: Loyal
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Idéal contraignant</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.voUHyTOYp2osSOFZ'
+  - type: text
+    weight: 2
+    range:
+      - 54
+      - 55
+    _id: 4pyo66lFwVvhkHs3
+    name: Malchanceux
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Limitation</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.4pyo66lFwVvhkHs3'
+  - type: text
+    weight: 2
+    range:
+      - 56
+      - 57
+    _id: e0979pCOfFGWWpab
+    name: Manchot
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Limitation</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.e0979pCOfFGWWpab'
+  - type: text
+    weight: 2
+    range:
+      - 58
+      - 59
+    _id: sMr0huizLTsxPqrG
+    name: Mauvais nageur
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Limitation</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.sMr0huizLTsxPqrG'
+  - type: text
+    weight: 2
+    range:
+      - 60
+      - 61
+    _id: ZCfXuhWhTC5m6pqh
+    name: Mauvaise habitude
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Caractère</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.ZCfXuhWhTC5m6pqh'
+  - type: text
+    weight: 2
+    range:
+      - 62
+      - 63
+    _id: wAVOwDyLZUX6T07c
+    name: Moche / apparence repoussante
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Limitation</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.wAVOwDyLZUX6T07c'
+  - type: text
+    weight: 2
+    range:
+      - 64
+      - 65
+    _id: TqRGBttW5P3nsMu1
+    name: Muet
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Limitation</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.TqRGBttW5P3nsMu1'
+  - type: text
+    weight: 2
+    range:
+      - 66
+      - 67
+    _id: tsuCoQBSxLRkjUUT
+    name: Myope
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Limitation</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.tsuCoQBSxLRkjUUT'
+  - type: text
+    weight: 2
+    range:
+      - 68
+      - 69
+    _id: LE315MDb5cm0b8CK
+    name: Obligations
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Fardeau</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.LE315MDb5cm0b8CK'
+  - type: text
+    weight: 2
+    range:
+      - 70
+      - 71
+    _id: yiabQX9XMsKEW995
+    name: Obsession
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Caractère</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.yiabQX9XMsKEW995'
+  - type: text
+    weight: 2
+    range:
+      - 72
+      - 73
+    _id: Are2IbnDagBy62h2
+    name: Obèse
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Limitation</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.Are2IbnDagBy62h2'
+  - type: text
+    weight: 1
+    range:
+      - 74
+      - 74
+    _id: fi2MhhLbJB19bOAP
+    name: Pacifiste
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Idéal contraignant</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.fi2MhhLbJB19bOAP'
+  - type: text
+    weight: 2
+    range:
+      - 75
+      - 76
+    _id: Bkr5bv5BoMRK1SRN
+    name: Phobie
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Caractère</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.Bkr5bv5BoMRK1SRN'
+  - type: text
+    weight: 2
+    range:
+      - 77
+      - 78
+    _id: daT83RwdyzljNJZE
+    name: Poches percées
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Caractère</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.daT83RwdyzljNJZE'
+  - type: text
+    weight: 2
+    range:
+      - 79
+      - 80
+    _id: KGreNsv4eFu5hBmh
+    name: Prudent
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Caractère</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.KGreNsv4eFu5hBmh'
+  - type: text
+    weight: 2
+    range:
+      - 81
+      - 82
+    _id: L7WDqd0J1hh0xV1O
+    name: Présomptueux
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Caractère</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.L7WDqd0J1hh0xV1O'
+  - type: text
+    weight: 2
+    range:
+      - 83
+      - 84
+    _id: yrGS13ykd2d7XjBb
+    name: Rancunier
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Caractère</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.yrGS13ykd2d7XjBb'
+  - type: text
+    weight: 2
+    range:
+      - 85
+      - 86
+    _id: kSjJNUUYHa0175aG
+    name: Recherché
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Fardeau</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.kSjJNUUYHa0175aG'
+  - type: text
+    weight: 1
+    range:
+      - 87
+      - 87
+    _id: hP0QlIFk8ZRaKXF6
+    name: Rien à perdre
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Idéal contraignant</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.hP0QlIFk8ZRaKXF6'
+  - type: text
+    weight: 2
+    range:
+      - 88
+      - 89
+    _id: CJnZ0TZJWQ6cNoBq
+    name: Sale caractère
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Caractère</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.CJnZ0TZJWQ6cNoBq'
+  - type: text
+    weight: 2
+    range:
+      - 90
+      - 91
+    _id: ZBX8J89k8xJXdzw8
+    name: Sanguinaire
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Caractère</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.ZBX8J89k8xJXdzw8'
+  - type: text
+    weight: 2
+    range:
+      - 92
+      - 93
+    _id: COfBP0LFLsKSLX9G
+    name: Sceptique
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Caractère</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.COfBP0LFLsKSLX9G'
+  - type: text
+    weight: 2
+    range:
+      - 94
+      - 95
+    _id: TrZ9rTDKITO8t5e8
+    name: Secret
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Fardeau</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.TrZ9rTDKITO8t5e8'
+  - type: text
+    weight: 2
+    range:
+      - 96
+      - 97
+    _id: tcEHRmxMPmsAJcIY
+    name: Serment
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Fardeau</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.tcEHRmxMPmsAJcIY'
+  - type: text
+    weight: 2
+    range:
+      - 98
+      - 99
+    _id: jsnLHoznf11R26g5
+    name: Susceptible
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Caractère</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.jsnLHoznf11R26g5'
+  - type: text
+    weight: 2
+    range:
+      - 100
+      - 101
+    _id: P2drJczvhPeMfT0X
+    name: Suspicieux
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Caractère</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.P2drJczvhPeMfT0X'
+  - type: text
+    weight: 2
+    range:
+      - 102
+      - 103
+    _id: kYGIZ3c6iv595YIV
+    name: Timoré
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Limitation</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.kYGIZ3c6iv595YIV'
+  - type: text
+    weight: 2
+    range:
+      - 104
+      - 105
+    _id: 335MgHXF81J5U4db
+    name: Têtu
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Caractère</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.335MgHXF81J5U4db'
+  - type: text
+    weight: 2
+    range:
+      - 106
+      - 107
+    _id: Vr4eMmrnliA8YY8I
+    name: Âgé
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Limitation</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.Vr4eMmrnliA8YY8I'
+  - type: text
+    weight: 2
+    range:
+      - 108
+      - 109
+    _id: mJ5eReTzbgALV587
+    name: Étranger
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Fardeau</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430123
+      modifiedTime: 1791753430123
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!87WK59nyuvKNteFE.mJ5eReTzbgALV587'
+replacement: true
+displayRoll: true
+sort: 100000
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1791753430123
+  modifiedTime: 1791753430123
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource:
+    worldId: au-nom-de-la-horde-cof2
+    uuid: RollTable.87WK59nyuvKNteFE
+    coreVersion: '14.367'
+    systemId: co2
+    systemVersion: 2.3.12
+formula: 1d109
+_key: '!tables!87WK59nyuvKNteFE'

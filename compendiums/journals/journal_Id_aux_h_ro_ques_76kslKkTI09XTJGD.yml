@@ -1,0 +1,841 @@
+folder: null
+name: Idéaux héroïques
+flags:
+  campaign-codex:
+    type: ''
+  core:
+    sheetClass: ''
+_id: 76kslKkTI09XTJGD
+pages:
+  - sort: 100000
+    name: Règles Warbound
+    type: text
+    _id: aafa459f3fe4c305
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Idéaux héroïques — Règles Warbound</h1>
+
+        <blockquote>
+
+        <p><strong>Principe :</strong> un Idéal est une boussole. Il indique ce
+        vers quoi le personnage essaie de tendre lorsque la situation lui laisse
+        un vrai choix. Il ne remplace jamais le libre arbitre du joueur et ne
+        constitue pas un alignement.</p>
+
+        </blockquote>
+
+
+        <h2>1. Origine de la règle</h2>
+
+        <p>Warbound reprend la règle des <strong>Idéaux héroïques</strong> de
+        <em>Chroniques Oubliées Fantasy 2</em>. COF2 les utilise avec les
+        Travers pour donner une ligne directrice d’interprétation au personnage
+        et prévoit qu’une interprétation particulièrement appropriée d’un trait
+        puisse permettre de récupérer un point de chance.</p>
+
+        <p>Warbound conserve ce principe, élargit la liste à <strong>40
+        Idéaux</strong> et précise quand un Idéal mérite réellement une
+        récompense.</p>
+
+
+        <h2>2. À la création</h2>
+
+        <ul>
+
+        <li>Chaque PJ choisit normalement <strong>1 Idéal héroïque</strong> et
+        <strong>1 Travers</strong>.</li>
+
+        <li>L’Idéal doit correspondre à la manière dont le joueur souhaite
+        interpréter son personnage.</li>
+
+        <li>Le choix est libre : il n’existe aucune obligation de tirer l’Idéal
+        au hasard.</li>
+
+        <li>Si le joueur veut un tirage aléatoire, lancer <strong>1d2</strong>
+        pour choisir la table COF2 ou Warbound, puis <strong>1d20</strong>.</li>
+
+        <li>Le MJ peut autoriser un <strong>second Idéal</strong> si le concept
+        du personnage ou la campagne le justifie. Cela n’accorde aucun avantage
+        automatique supplémentaire.</li>
+
+        </ul>
+
+
+        <h2>3. Un Idéal n’est pas un ordre</h2>
+
+        <p>Un Idéal indique ce que le personnage considère comme important. Il
+        peut néanmoins le trahir, hésiter, faire un compromis ou choisir une
+        autre valeur lorsque deux principes entrent en conflit.</p>
+
+        <p>Il n’existe <strong>aucune pénalité automatique</strong> pour avoir
+        agi contre son Idéal. En revanche, une contradiction importante peut
+        devenir un excellent élément d’évolution du personnage.</p>
+
+
+        <h2>4. Mettre un Idéal en jeu</h2>
+
+        <p>Un Idéal devient intéressant lorsqu’il rencontre une <strong>tension
+        réelle</strong>. Le joueur doit avoir quelque chose à gagner en
+        l’ignorant et quelque chose à perdre en le respectant.</p>
+
+        <p>Une mise en jeu significative peut entraîner :</p>
+
+        <ul>
+
+        <li>un risque personnel ;</li>
+
+        <li>une dépense de temps ou de ressources ;</li>
+
+        <li>une occasion perdue ;</li>
+
+        <li>une solution plus difficile ;</li>
+
+        <li>un conflit avec un allié, une faction ou une autorité ;</li>
+
+        <li>un sacrifice ;</li>
+
+        <li>une conséquence durable.</li>
+
+        </ul>
+
+
+        <h2>5. Récompense : récupérer 1 point de chance</h2>
+
+        <p>Lorsqu’un joueur interprète son Idéal d’une manière particulièrement
+        appropriée et que ce choix a un <strong>poids réel dans la
+        scène</strong>, le MJ peut lui faire récupérer immédiatement <strong>1
+        point de chance (PC)</strong>, sans dépasser son maximum.</p>
+
+        <p>Dans Warbound, on considère qu’un Idéal mérite généralement cette
+        récompense lorsqu’il pousse le personnage à accepter un <strong>coût, un
+        risque ou un renoncement réel</strong> alors qu’une solution plus
+        avantageuse était disponible.</p>
+
+        <p>Un même Idéal ne devrait normalement permettre de récupérer
+        qu’<strong>1 PC par scène</strong>. La récompense reste exceptionnelle
+        et n’est jamais automatique.</p>
+
+
+        <h2>6. Quand ne pas donner de PC</h2>
+
+        <ul>
+
+        <li>Le joueur rappelle simplement qu’il possède l’Idéal.</li>
+
+        <li>Le choix conforme à l’Idéal est aussi la solution la plus simple et
+        la plus avantageuse, sans tension particulière.</li>
+
+        <li>Le comportement n’a aucune conséquence réelle.</li>
+
+        <li>Le joueur provoque artificiellement la même situation à répétition
+        pour récupérer des PC.</li>
+
+        <li>L’Idéal sert de prétexte pour bloquer la partie ou imposer une
+        décision aux autres joueurs.</li>
+
+        <li>Le même choix a déjà déclenché une récupération de PC grâce à un
+        Travers : <strong>une même décision ne rapporte pas deux
+        fois</strong>.</li>
+
+        </ul>
+
+
+        <h2>7. Idéal héroïque et Idéal contraignant</h2>
+
+        <p>Un <strong>Idéal héroïque</strong> décrit une valeur à laquelle le
+        personnage aspire. Un <strong>Idéal contraignant</strong> est un Travers
+        : la valeur est poussée assez loin pour devenir régulièrement une source
+        de complications.</p>
+
+        <p>Exemple : <strong>Loyauté</strong> peut être un Idéal. Si le
+        personnage refuse presque toujours d’abandonner un compagnon, même
+        lorsque cela met systématiquement sa propre vie ou la mission en danger,
+        cette loyauté peut devenir le Travers <strong>Loyal</strong>.</p>
+
+
+        <h2>8. Faire évoluer un Idéal</h2>
+
+        <p>Un Idéal peut changer lorsque le personnage évolue. Après un
+        événement important, le joueur peut proposer au MJ de remplacer son
+        Idéal par un autre qui correspond mieux à ce qu’est devenu le héros.</p>
+
+        <p>Un Idéal peut également se renforcer, entrer en conflit avec un
+        autre, être remis en question ou devenir un Travers si son
+        interprétation devient réellement contraignante.</p>
+
+
+        <blockquote>
+
+        <p><strong>Test simple :</strong> si respecter l’Idéal ne demande jamais
+        aucun choix au personnage, il reste décoratif. S’il force chaque
+        décision et retire le libre arbitre du joueur, il est devenu trop
+        contraignant.</p>
+
+        </blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791788393930
+      modifiedTime: 1791788393930
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!76kslKkTI09XTJGD.aafa459f3fe4c305'
+  - sort: 200000
+    name: Choisir un Idéal
+    type: text
+    _id: bd7c9a0eea109609
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Choisir un Idéal</h1>
+
+
+        <h2>Choix rapide</h2>
+
+        <p>Choisis d’abord la question qui ressemble le plus à ton personnage
+        :</p>
+
+        <table>
+
+        <thead><tr><th>Mon personnage veut surtout…</th><th>Idéaux
+        possibles</th></tr></thead>
+
+        <tbody>
+
+        <tr><td>protéger les autres.</td><td><strong>Protection, Compassion,
+        Abnégation, Sens du sacrifice, Solidarité</strong></td></tr>
+
+        <tr><td>rester fidèle aux siens.</td><td><strong>Loyauté, Fraternité,
+        Devoir, Unité, Héritage</strong></td></tr>
+
+        <tr><td>agir avec droiture.</td><td><strong>Honneur, Honnêteté, Justice,
+        Vérité, Responsabilité</strong></td></tr>
+
+        <tr><td>défendre l’autonomie et la dignité.</td><td><strong>Liberté,
+        Égalité, Dignité, Mérite, Clémence</strong></td></tr>
+
+        <tr><td>préserver le monde et ses traditions.</td><td><strong>Équilibre,
+        Respect du vivant, Respect des ancêtres, Tradition,
+        Mémoire</strong></td></tr>
+
+        <tr><td>devenir meilleur malgré les
+        épreuves.</td><td><strong>Rédemption, Espoir, Persévérance,
+        Détermination, Humilité</strong></td></tr>
+
+        <tr><td>comprendre avant d’agir.</td><td><strong>Sagesse, Éducation,
+        Découverte, Tempérance, Vérité</strong></td></tr>
+
+        <tr><td>servir quelque chose qui le dépasse.</td><td><strong>Foi,
+        Devoir, Tradition, Unité, Sens du sacrifice</strong></td></tr>
+
+        </tbody>
+
+        </table>
+
+
+        <h2>Trois questions utiles</h2>
+
+        <ol>
+
+        <li><strong>Quand cet Idéal pourrait-il coûter quelque chose à mon
+        personnage ?</strong></li>
+
+        <li><strong>Avec quelle autre valeur pourrait-il entrer en conflit
+        ?</strong></li>
+
+        <li><strong>Quel acte concret montrerait cet Idéal sans avoir besoin de
+        le déclarer à voix haute ?</strong></li>
+
+        </ol>
+
+
+        <h2>Tirage aléatoire facultatif</h2>
+
+        <p>Lance <strong>1d2</strong> :</p>
+
+        <ul>
+
+        <li><strong>1 :</strong> table des 20 Idéaux issus de COF2 ;</li>
+
+        <li><strong>2 :</strong> table des 20 Idéaux ajoutés pour Warbound.</li>
+
+        </ul>
+
+        <p>Puis lance <strong>1d20</strong> sur la table correspondante. Si le
+        résultat ne correspond pas au personnage que tu veux jouer, choisis-en
+        un autre : l’Idéal sert l’interprétation, pas le hasard.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791788393930
+      modifiedTime: 1791788393930
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!76kslKkTI09XTJGD.bd7c9a0eea109609'
+  - sort: 300000
+    name: Idéaux héroïques — COF2
+    type: text
+    _id: 29d6596e38cbc181
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Idéaux héroïques — COF2</h1>
+
+        <p>Ces 20 Idéaux proviennent de la table de <strong>Chroniques Oubliées
+        Fantasy 2</strong>. Leur formulation est conservée ; la colonne
+        d’interprétation précise leur usage dans Warbound.</p>
+
+        <table><thead><tr><th>Idéal</th><th>Interprétation
+        Warbound</th><th>Mises en jeu typiques</th></tr></thead><tbody>
+
+        <tr><td><strong>Abnégation</strong></td><td>Tu fais volontiers passer
+        les besoins d’autrui avant ton intérêt personnel.</td><td>Accepter une
+        charge, céder une ressource, rester en arrière pour aider.</td></tr>
+
+        <tr><td><strong>Clémence</strong></td><td>Tu préfères épargner
+        lorsqu’une issue moins définitive reste possible.</td><td>Prisonnier
+        épargné, ennemi relâché sous conditions, vengeance refusée.</td></tr>
+
+        <tr><td><strong>Compassion</strong></td><td>La souffrance d’autrui
+        compte, y compris lorsque la victime n’est ni proche ni
+        alliée.</td><td>Secourir un inconnu, aider un adversaire blessé,
+        détourner des ressources d’un objectif.</td></tr>
+
+        <tr><td><strong>Courage</strong></td><td>Tu agis malgré la peur lorsque
+        quelque chose mérite d’être défendu.</td><td>Tenir une position, entrer
+        dans un lieu terrifiant, affronter une menace pour protéger
+        autrui.</td></tr>
+
+        <tr><td><strong>Égalité</strong></td><td>La naissance, le peuple, le
+        rang ou la richesse ne déterminent pas la valeur d’une
+        personne.</td><td>Défendre un inférieur, contester un privilège, traiter
+        un ennemi avec la même dignité.</td></tr>
+
+        <tr><td><strong>Éducation</strong></td><td>Le savoir et sa transmission
+        permettent aux individus et aux peuples de progresser.</td><td>Protéger
+        un savoir, enseigner, préférer comprendre plutôt que détruire.</td></tr>
+
+        <tr><td><strong>Fraternité</strong></td><td>Ceux qui partagent une
+        épreuve ou une cause doivent se soutenir.</td><td>Refuser d’abandonner
+        un compagnon, partager une ressource, défendre un membre du
+        groupe.</td></tr>
+
+        <tr><td><strong>Frugalité</strong></td><td>Tu refuses le gaspillage et
+        considères les ressources comme précieuses.</td><td>Réparer plutôt que
+        jeter, rationner, renoncer à un confort inutile.</td></tr>
+
+        <tr><td><strong>Générosité</strong></td><td>Tu partages volontiers
+        temps, ressources et richesse avec ceux qui en ont besoin.</td><td>Don,
+        récompense abandonnée, aide matérielle à une communauté.</td></tr>
+
+        <tr><td><strong>Honnêteté</strong></td><td>Tu évites le mensonge et
+        préfères des relations fondées sur la franchise.</td><td>Dire une vérité
+        coûteuse, refuser une tromperie avantageuse, assumer une
+        faute.</td></tr>
+
+        <tr><td><strong>Honneur</strong></td><td>Tu veux pouvoir répondre de tes
+        actes devant les autres et devant toi-même.</td><td>Tenir parole,
+        refuser un avantage déloyal, accepter les conséquences de ses
+        choix.</td></tr>
+
+        <tr><td><strong>Humilité</strong></td><td>Tu reconnais tes limites et la
+        valeur des autres.</td><td>Demander de l’aide, céder la place à plus
+        compétent, admettre une erreur.</td></tr>
+
+        <tr><td><strong>Justice</strong></td><td>Les actes doivent avoir des
+        conséquences équitables, quelle que soit la puissance du
+        responsable.</td><td>Défendre une victime, enquêter malgré les
+        pressions, s’opposer à un allié fautif.</td></tr>
+
+        <tr><td><strong>Liberté</strong></td><td>Nul ne devrait être réduit en
+        esclavage, soumis ou privé arbitrairement de son destin.</td><td>Libérer
+        un captif, refuser une domination, aider quelqu’un à choisir sa propre
+        voie.</td></tr>
+
+        <tr><td><strong>Loyauté</strong></td><td>Tu ne renies pas facilement
+        ceux à qui tu as donné ta parole ou que tu considères comme les
+        tiens.</td><td>Revenir chercher un allié, respecter un engagement,
+        défendre son groupe malgré le coût.</td></tr>
+
+        <tr><td><strong>Pacifisme</strong></td><td>Tu cherches à éviter la
+        violence lorsque d’autres solutions restent possibles.</td><td>Négocier,
+        épargner, accepter une solution plus longue pour éviter un
+        combat.</td></tr>
+
+        <tr><td><strong>Protection</strong></td><td>La force a d’abord de la
+        valeur lorsqu’elle sert à protéger.</td><td>S’interposer, défendre des
+        civils, choisir une position moins avantageuse pour couvrir
+        autrui.</td></tr>
+
+        <tr><td><strong>Sens du sacrifice</strong></td><td>Tu acceptes de payer
+        personnellement le prix d’une cause qui le mérite.</td><td>Prendre un
+        risque à la place d’un autre, abandonner une récompense, rester pour
+        permettre une fuite.</td></tr>
+
+        <tr><td><strong>Solidarité</strong></td><td>Une communauté ne survit que
+        si ses membres s’entraident.</td><td>Partager des ressources, défendre
+        un village, soutenir ceux qui subissent les conséquences d’une
+        crise.</td></tr>
+
+        <tr><td><strong>Vérité</strong></td><td>Tu cherches et défends la vérité
+        même lorsqu’elle dérange ou remet en cause tes
+        certitudes.</td><td>Révéler une information gênante, poursuivre une
+        enquête, refuser un mensonge utile.</td></tr>
+
+        </tbody></table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791788393930
+      modifiedTime: 1791788393930
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!76kslKkTI09XTJGD.29d6596e38cbc181'
+  - sort: 400000
+    name: Idéaux héroïques — Warbound
+    type: text
+    _id: 7d9e0d0f1be2ffe1
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Idéaux héroïques — Warbound</h1>
+
+        <p>Ces 20 Idéaux complètent la table COF2 avec des thèmes
+        particulièrement adaptés à Azeroth : héritage, rédemption, ancêtres,
+        équilibre, devoir, survie morale et reconstruction.</p>
+
+        <table><thead><tr><th>Idéal</th><th>Interprétation
+        Warbound</th><th>Mises en jeu typiques</th></tr></thead><tbody>
+
+        <tr><td><strong>Devoir</strong></td><td>Tu accomplis ce qui doit être
+        fait même lorsque personne ne t’y oblige.</td><td>Mission poursuivie
+        malgré le coût personnel, responsabilité assumée, poste tenu.</td></tr>
+
+        <tr><td><strong>Détermination</strong></td><td>Tu ne renonces pas à une
+        cause simplement parce qu’elle devient difficile.</td><td>Nouvel essai,
+        poursuite après un revers, objectif maintenu malgré
+        l’adversité.</td></tr>
+
+        <tr><td><strong>Discipline</strong></td><td>Tu maîtrises tes instincts
+        et restes fidèle à tes engagements sous pression.</td><td>Refuser une
+        provocation, tenir une formation, respecter un plan difficile.</td></tr>
+
+        <tr><td><strong>Équilibre</strong></td><td>Aucun pouvoir, peuple ou
+        besoin ne doit croître au point de détruire tout ce qui
+        l’entoure.</td><td>Limiter une exploitation, rechercher un compromis,
+        protéger un cycle naturel ou spirituel.</td></tr>
+
+        <tr><td><strong>Espoir</strong></td><td>Même après la défaite ou la
+        catastrophe, quelque chose peut encore être
+        reconstruit.</td><td>Encourager, reconstruire, donner une seconde chance
+        lorsque tout semble perdu.</td></tr>
+
+        <tr><td><strong>Héritage</strong></td><td>Tu veux préserver ce que les
+        générations précédentes ont transmis et t’en montrer
+        digne.</td><td>Sauver un lieu, un rite, un objet ou une mémoire au prix
+        d’un détour ou d’un risque.</td></tr>
+
+        <tr><td><strong>Mémoire</strong></td><td>Les morts, les défaites et les
+        erreurs du passé ne doivent pas être oubliés.</td><td>Honorer les
+        victimes, conserver une preuve, refuser d’effacer une faute
+        historique.</td></tr>
+
+        <tr><td><strong>Persévérance</strong></td><td>Tomber n’est pas échouer
+        tant que tu te relèves.</td><td>Continuer après une défaite, reprendre
+        une piste abandonnée, supporter une épreuve prolongée.</td></tr>
+
+        <tr><td><strong>Rédemption</strong></td><td>Une personne ou un peuple ne
+        doit pas être condamné à jamais par ses fautes passées.</td><td>Offrir
+        une seconde chance, accepter une reddition, aider quelqu’un à réparer
+        ses actes.</td></tr>
+
+        <tr><td><strong>Respect des ancêtres</strong></td><td>Tu écoutes et
+        honores ceux qui sont venus avant toi.</td><td>Consulter un ancien,
+        respecter un rite funéraire, préserver une tradition
+        ancestrale.</td></tr>
+
+        <tr><td><strong>Respect du vivant</strong></td><td>La terre, les bêtes
+        et les êtres vivants ne sont pas de simples ressources à
+        exploiter.</td><td>Épargner une créature, limiter une exploitation,
+        chercher une solution compatible avec l’environnement.</td></tr>
+
+        <tr><td><strong>Responsabilité</strong></td><td>Celui qui possède du
+        pouvoir doit répondre des conséquences de son usage.</td><td>Assumer une
+        erreur, demander des comptes à un supérieur, réparer un dommage
+        causé.</td></tr>
+
+        <tr><td><strong>Sagesse</strong></td><td>Tu préfères comprendre avant
+        d’agir et regarder au-delà de la victoire immédiate.</td><td>Observer,
+        consulter, renoncer à un succès rapide aux conséquences
+        dangereuses.</td></tr>
+
+        <tr><td><strong>Tempérance</strong></td><td>Tu maîtrises colère,
+        ambition, faim de pouvoir et désir de vengeance.</td><td>Refuser une
+        escalade, différer une vengeance, renoncer à un pouvoir
+        dangereux.</td></tr>
+
+        <tr><td><strong>Tradition</strong></td><td>Les coutumes et rites d’un
+        peuple constituent une richesse qu’il faut préserver.</td><td>Défendre
+        un rite, consulter les anciens, refuser une solution qui détruirait une
+        pratique essentielle.</td></tr>
+
+        <tr><td><strong>Unité</strong></td><td>Des peuples différents peuvent
+        accomplir ensemble ce qu’aucun ne pourrait accomplir
+        seul.</td><td>Chercher une alliance, défendre un allié d’un autre
+        peuple, accepter un compromis culturel.</td></tr>
+
+        <tr><td><strong>Dignité</strong></td><td>Tu refuses l’humiliation pour
+        toi comme pour les autres, même dans la défaite.</td><td>Protéger un
+        prisonnier, refuser une humiliation publique, traiter un adversaire
+        vaincu avec respect.</td></tr>
+
+        <tr><td><strong>Découverte</strong></td><td>L’inconnu mérite d’être
+        exploré et compris plutôt que simplement craint.</td><td>Explorer une
+        piste, étudier un phénomène, accepter un détour pour apprendre quelque
+        chose.</td></tr>
+
+        <tr><td><strong>Foi</strong></td><td>Tu places ta confiance dans quelque
+        chose qui dépasse ton intérêt immédiat : Lumière, esprits, Loa,
+        éléments, peuple ou idéal.</td><td>Respecter un rite, agir selon une
+        conviction malgré l’incertitude, défendre un principe
+        spirituel.</td></tr>
+
+        <tr><td><strong>Mérite</strong></td><td>La valeur se démontre par les
+        actes plutôt que par le rang, la naissance ou les titres.</td><td>Donner
+        sa chance à un inconnu, contester un privilège, juger quelqu’un sur ce
+        qu’il accomplit.</td></tr>
+
+        </tbody></table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791788393930
+      modifiedTime: 1791788393930
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!76kslKkTI09XTJGD.7d9e0d0f1be2ffe1'
+  - sort: 500000
+    name: Mettre les Idéaux en jeu
+    type: text
+    _id: ff6cac46b620e232
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Mettre les Idéaux en jeu</h1>
+
+        <p>Un Idéal est surtout utile lorsqu’il transforme une situation
+        ordinaire en <strong>choix de personnage</strong>. Les exemples
+        ci-dessous illustrent la logique attendue dans Warbound.</p>
+
+
+        <table>
+
+        <thead><tr><th>Idéal</th><th>Situation</th><th>Mise en jeu
+        significative</th></tr></thead>
+
+        <tbody>
+
+        <tr><td><strong>Loyauté</strong></td><td>Un éclaireur de la Horde reste
+        derrière pendant une retraite.</td><td>Le PJ revient le chercher alors
+        que le groupe pourrait s’échapper sans risque.</td></tr>
+
+        <tr><td><strong>Vérité</strong></td><td>Les PJ découvrent qu’un officier
+        respecté a dissimulé un danger lié aux travaux sous
+        Orgrimmar.</td><td>Le PJ révèle l’information malgré le risque de perdre
+        un allié puissant ou de créer une crise.</td></tr>
+
+        <tr><td><strong>Respect du vivant</strong></td><td>Une solution rapide
+        consiste à incendier un secteur entier pour éliminer une
+        menace.</td><td>Le PJ cherche une solution plus difficile afin d’éviter
+        de détruire inutilement la faune ou un lieu sacré.</td></tr>
+
+        <tr><td><strong>Justice</strong></td><td>Un saboteur capturé a commis
+        des crimes mais affirme avoir tenté d’empêcher une
+        catastrophe.</td><td>Le PJ refuse une exécution immédiate et exige que
+        les faits soient établis.</td></tr>
+
+        <tr><td><strong>Rédemption</strong></td><td>Un ancien cultiste de la
+        Lame ardente propose des informations en échange d’une chance de quitter
+        le culte.</td><td>Le PJ accepte de prendre le risque de lui faire
+        confiance plutôt que de choisir la solution la plus sûre.</td></tr>
+
+        <tr><td><strong>Devoir</strong></td><td>La mission officielle exige de
+        tenir une position alors qu’un objectif personnel important devient
+        accessible.</td><td>Le PJ renonce à son intérêt immédiat pour accomplir
+        la responsabilité qu’il a acceptée.</td></tr>
+
+        <tr><td><strong>Équilibre</strong></td><td>Une exploitation minière
+        utile à la Horde perturbe manifestement un site élémentaire.</td><td>Le
+        PJ s’oppose à une extension pourtant rentable et cherche une solution
+        acceptable pour les deux besoins.</td></tr>
+
+        <tr><td><strong>Unité</strong></td><td>Orcs et Trolls se rejettent la
+        responsabilité d’un échec.</td><td>Le PJ prend un risque politique ou
+        personnel pour maintenir la coopération plutôt que choisir son propre
+        camp.</td></tr>
+
+        </tbody>
+
+        </table>
+
+
+        <h2>Conflit entre deux Idéaux</h2>
+
+        <p>Les meilleurs choix apparaissent souvent lorsque deux valeurs
+        légitimes s’opposent. <strong>Loyauté</strong> peut entrer en conflit
+        avec <strong>Justice</strong>. <strong>Vérité</strong> peut s’opposer à
+        <strong>Protection</strong>. <strong>Tradition</strong> peut s’opposer à
+        <strong>Liberté</strong>.</p>
+
+        <p>Il n’existe pas de réponse correcte imposée par les règles. Le joueur
+        décide quelle valeur l’emporte dans cette situation et accepte les
+        conséquences de ce choix.</p>
+
+
+        <h2>Pour le MJ</h2>
+
+        <ul>
+
+        <li>Ne demande pas au joueur de « tester son Idéal » : présente une
+        situation où deux intérêts sont réellement en tension.</li>
+
+        <li>N’utilise pas l’Idéal comme un ordre mental qui dicte une
+        action.</li>
+
+        <li>Récompense une décision qui révèle le personnage, pas une simple
+        déclaration d’intention.</li>
+
+        <li>Fais revenir les conséquences : une personne épargnée, une vérité
+        révélée ou une promesse tenue doit pouvoir compter plus tard.</li>
+
+        </ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791788393930
+      modifiedTime: 1791788393930
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!76kslKkTI09XTJGD.ff6cac46b620e232'
+  - sort: 600000
+    name: Index alphabétique
+    type: text
+    _id: 7263bb83d93c9c94
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Index des Idéaux héroïques</h1>
+
+        <p>Index alphabétique des <strong>40 Idéaux</strong> disponibles dans
+        Warbound.</p>
+
+        <table>
+
+        <thead><tr><th>Idéal</th><th>Origine</th></tr></thead>
+
+        <tbody>
+
+        <tr><td><strong>Abnégation</strong></td><td>COF2</td></tr>
+
+        <tr><td><strong>Clémence</strong></td><td>COF2</td></tr>
+
+        <tr><td><strong>Compassion</strong></td><td>COF2</td></tr>
+
+        <tr><td><strong>Courage</strong></td><td>COF2</td></tr>
+
+        <tr><td><strong>Devoir</strong></td><td>Warbound</td></tr>
+
+        <tr><td><strong>Dignité</strong></td><td>Warbound</td></tr>
+
+        <tr><td><strong>Discipline</strong></td><td>Warbound</td></tr>
+
+        <tr><td><strong>Découverte</strong></td><td>Warbound</td></tr>
+
+        <tr><td><strong>Détermination</strong></td><td>Warbound</td></tr>
+
+        <tr><td><strong>Espoir</strong></td><td>Warbound</td></tr>
+
+        <tr><td><strong>Foi</strong></td><td>Warbound</td></tr>
+
+        <tr><td><strong>Fraternité</strong></td><td>COF2</td></tr>
+
+        <tr><td><strong>Frugalité</strong></td><td>COF2</td></tr>
+
+        <tr><td><strong>Générosité</strong></td><td>COF2</td></tr>
+
+        <tr><td><strong>Honneur</strong></td><td>COF2</td></tr>
+
+        <tr><td><strong>Honnêteté</strong></td><td>COF2</td></tr>
+
+        <tr><td><strong>Humilité</strong></td><td>COF2</td></tr>
+
+        <tr><td><strong>Héritage</strong></td><td>Warbound</td></tr>
+
+        <tr><td><strong>Justice</strong></td><td>COF2</td></tr>
+
+        <tr><td><strong>Liberté</strong></td><td>COF2</td></tr>
+
+        <tr><td><strong>Loyauté</strong></td><td>COF2</td></tr>
+
+        <tr><td><strong>Mémoire</strong></td><td>Warbound</td></tr>
+
+        <tr><td><strong>Mérite</strong></td><td>Warbound</td></tr>
+
+        <tr><td><strong>Pacifisme</strong></td><td>COF2</td></tr>
+
+        <tr><td><strong>Persévérance</strong></td><td>Warbound</td></tr>
+
+        <tr><td><strong>Protection</strong></td><td>COF2</td></tr>
+
+        <tr><td><strong>Respect des ancêtres</strong></td><td>Warbound</td></tr>
+
+        <tr><td><strong>Respect du vivant</strong></td><td>Warbound</td></tr>
+
+        <tr><td><strong>Responsabilité</strong></td><td>Warbound</td></tr>
+
+        <tr><td><strong>Rédemption</strong></td><td>Warbound</td></tr>
+
+        <tr><td><strong>Sagesse</strong></td><td>Warbound</td></tr>
+
+        <tr><td><strong>Sens du sacrifice</strong></td><td>COF2</td></tr>
+
+        <tr><td><strong>Solidarité</strong></td><td>COF2</td></tr>
+
+        <tr><td><strong>Tempérance</strong></td><td>Warbound</td></tr>
+
+        <tr><td><strong>Tradition</strong></td><td>Warbound</td></tr>
+
+        <tr><td><strong>Unité</strong></td><td>Warbound</td></tr>
+
+        <tr><td><strong>Vérité</strong></td><td>COF2</td></tr>
+
+        <tr><td><strong>Éducation</strong></td><td>COF2</td></tr>
+
+        <tr><td><strong>Égalité</strong></td><td>COF2</td></tr>
+
+        <tr><td><strong>Équilibre</strong></td><td>Warbound</td></tr>
+
+        </tbody>
+
+        </table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791788393930
+      modifiedTime: 1791788393930
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!76kslKkTI09XTJGD.7263bb83d93c9c94'
+categories: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1791788393930
+  modifiedTime: 1791788393930
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+sort: 0
+_key: '!journal!76kslKkTI09XTJGD'

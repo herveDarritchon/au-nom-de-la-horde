@@ -1,0 +1,549 @@
+name: Rencontres — Durotar Sud
+folder: POSJyU6u0adLIYlz
+formula: 1d20
+replacement: true
+displayRoll: true
+flags:
+  warbound-campaign-content:
+    markdownImport:
+      schema: 1
+      collectionId: durotar-sud-tranchecolline-senjin-vallee-epreuves-encounters
+      collectionType: encounter
+results:
+  - type: document
+    name: La roue fendue
+    description: >-
+      Un chariot chargé de sacs et d’outils penche dangereusement dans un fossé.
+      Deux péons se disputent sur la meilleure façon de le remettre sur la route
+      avant que l’essieu cède.
+    documentUuid: JournalEntry.M3ztqTaEHRLqqbEL.JournalEntryPage.LYSwHYso9DAAEQca
+    range:
+      - 1
+      - 1
+    _id: dPGEXdRXEACO4Imf
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430097
+      modifiedTime: 1791753430097
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!nDQYYYSy15b2zzgg.dPGEXdRXEACO4Imf'
+  - type: document
+    name: Le mauvais croisement
+    description: >-
+      Trois jeunes recrues couvertes de poussière prétendent connaître le chemin
+      de Tranchecolline. Elles sont arrivées au même carrefour par trois pistes
+      différentes.
+    documentUuid: JournalEntry.M3ztqTaEHRLqqbEL.JournalEntryPage.03UYjRFRRb8c5x5J
+    range:
+      - 2
+      - 2
+    _id: TiHlG6diExlzJuEq
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430097
+      modifiedTime: 1791753430097
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!nDQYYYSy15b2zzgg.TiHlG6diExlzJuEq'
+  - type: document
+    name: Les chasseurs sans proie
+    description: >-
+      Deux chasseurs Darkspear reviennent vers Sen’jin sans gibier et avec des
+      traces de lutte sur leurs armes. Ils surveillent constamment les crêtes
+      derrière eux.
+    documentUuid: JournalEntry.M3ztqTaEHRLqqbEL.JournalEntryPage.XG62q30u6ckkEt7s
+    range:
+      - 3
+      - 3
+    _id: Mx5urVkQDZapO6Um
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430097
+      modifiedTime: 1791753430097
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!nDQYYYSy15b2zzgg.Mx5urVkQDZapO6Um'
+  - type: document
+    name: L’éclaireur isolé
+    description: >-
+      <p>Un éclaireur Kolkar s’est abrité derrière un promontoire rocheux. Une
+      de ses pattes arrière est blessée et il s’appuie difficilement dessus. Il
+      garde son arme en main, mais cherche davantage à maintenir une voie de
+      retraite qu’à prendre une position d’attaque.</p>
+    documentUuid: JournalEntry.M3ztqTaEHRLqqbEL.JournalEntryPage.RVlDnzZEN34fp12D
+    range:
+      - 4
+      - 4
+    _id: 0Y3ehIHkNEh9T4Mn
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430097
+      modifiedTime: 1791753430097
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!nDQYYYSy15b2zzgg.0Y3ehIHkNEh9T4Mn'
+  - type: document
+    name: La jarre fendue
+    description: >-
+      Une jeune préparatrice de Sen’jin contemple avec horreur une caisse
+      renversée : une jarre visqueuse s’est brisée et contamine le reste de son
+      chargement.
+    documentUuid: JournalEntry.M3ztqTaEHRLqqbEL.JournalEntryPage.8kj5fYDcU5bdbxYE
+    range:
+      - 5
+      - 5
+    _id: wsjxIwwMOW2yVW8D
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430097
+      modifiedTime: 1791753430097
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!nDQYYYSy15b2zzgg.wsjxIwwMOW2yVW8D'
+  - type: document
+    name: Le repas sous l’auvent
+    description: >-
+      Des voyageurs Darkspear ont tendu une toile entre deux rochers et
+      partagent poisson fumé, eau et plaisanteries avec quiconque accepte de
+      s’asseoir quelques minutes.
+    documentUuid: JournalEntry.M3ztqTaEHRLqqbEL.JournalEntryPage.EVktvNRFhPrpvFEd
+    range:
+      - 6
+      - 6
+    _id: wRChoOcbtrnAgy0N
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430097
+      modifiedTime: 1791753430097
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!nDQYYYSy15b2zzgg.wRChoOcbtrnAgy0N'
+  - type: document
+    name: Quelque chose bouge sous la bâche
+    description: >-
+      Un porteur s’est figé au milieu de la route : quelque chose gratte sous la
+      bâche de son chargement et fait vibrer les paniers.
+    documentUuid: JournalEntry.M3ztqTaEHRLqqbEL.JournalEntryPage.NmWKUHxBiBnng4wS
+    range:
+      - 7
+      - 7
+    _id: q6YJXmKrwTBmsgjZ
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430097
+      modifiedTime: 1791753430097
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!nDQYYYSy15b2zzgg.q6YJXmKrwTBmsgjZ'
+  - type: document
+    name: Le tigre dans la ravine
+    description: >-
+      Un tigre de Durotar blessé bloque un passage étroit. Il ne charge pas,
+      mais chaque tentative pour s’approcher le pousse un peu plus vers la
+      panique.
+    documentUuid: JournalEntry.M3ztqTaEHRLqqbEL.JournalEntryPage.xzFS7uRPws4OEeaM
+    range:
+      - 8
+      - 8
+    _id: 2Wsr9mHWLLjsrTQf
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430097
+      modifiedTime: 1791753430097
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!nDQYYYSy15b2zzgg.2Wsr9mHWLLjsrTQf'
+  - type: document
+    name: Les dernières pommes de cactus
+    description: >-
+      Des péons et deux recrues se disputent autour d’un petit groupe de cactus
+      presque dépouillé. Chacun affirme avoir une meilleure raison de prendre
+      les derniers fruits.
+    documentUuid: JournalEntry.M3ztqTaEHRLqqbEL.JournalEntryPage.hqMd4WxYByUU5tB2
+    range:
+      - 9
+      - 9
+    _id: tYxik6rQuAmzLnyx
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430097
+      modifiedTime: 1791753430097
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!nDQYYYSy15b2zzgg.tYxik6rQuAmzLnyx'
+  - type: document
+    name: Le garde qui tient encore
+    description: >-
+      Un garde orc reste debout à son poste malgré une respiration courte et des
+      gestes de plus en plus lents. Il refuse obstinément d’abandonner la route
+      sans relève.
+    documentUuid: JournalEntry.M3ztqTaEHRLqqbEL.JournalEntryPage.cmJ1fdfVZY3b5wmh
+    range:
+      - 10
+      - 10
+    _id: d8zumpGkr3uv2UBH
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430097
+      modifiedTime: 1791753430097
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!nDQYYYSy15b2zzgg.d8zumpGkr3uv2UBH'
+  - type: document
+    name: Les traces qui se séparent
+    description: >-
+      Une piste nette de sabots Kolkar traverse la route puis se divise
+      volontairement en trois directions. Un éclaireur Darkspear accroupi devant
+      les marques hésite à choisir.
+    documentUuid: JournalEntry.M3ztqTaEHRLqqbEL.JournalEntryPage.DKBhE6QrenlWv9uj
+    range:
+      - 11
+      - 11
+    _id: 0lZw38KxXmW0pnyq
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430097
+      modifiedTime: 1791753430097
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!nDQYYYSy15b2zzgg.0lZw38KxXmW0pnyq'
+  - type: document
+    name: Sous le panier
+    description: >-
+      Un péon maintient un grand panier retourné avec son pied. À l’intérieur,
+      une petite créature gangrenée griffe le sol et pousse des cris furieux.
+    documentUuid: JournalEntry.M3ztqTaEHRLqqbEL.JournalEntryPage.bUL70JOzLZfUmji9
+    range:
+      - 12
+      - 12
+    _id: ZsUh8H00bdYtvwGU
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430097
+      modifiedTime: 1791753430097
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!nDQYYYSy15b2zzgg.ZsUh8H00bdYtvwGU'
+  - type: document
+    name: La sieste impossible
+    description: >-
+      Un péon dort profondément à l’ombre d’un chariot abandonné alors que ses
+      compagnons le cherchent plus loin. À côté de lui, un paquet soigneusement
+      ficelé n’appartient à personne du convoi.
+    documentUuid: JournalEntry.M3ztqTaEHRLqqbEL.JournalEntryPage.fC8kXaVBoCnypJwW
+    range:
+      - 13
+      - 13
+    _id: 2PZ7ucW1dFMRtaVf
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430097
+      modifiedTime: 1791753430097
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!nDQYYYSy15b2zzgg.2PZ7ucW1dFMRtaVf'
+  - type: document
+    name: Le feu court plus vite
+    description: >-
+      Une ligne de fumée basse traverse les broussailles sèches et le vent
+      pousse les flammes vers la route. Un petit convoi arrive de l’autre côté
+      sans avoir encore compris le danger.
+    documentUuid: JournalEntry.M3ztqTaEHRLqqbEL.JournalEntryPage.lKOGRkg7w8aVFzvr
+    range:
+      - 14
+      - 14
+    _id: YujJvllopwVuKAAo
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430097
+      modifiedTime: 1791753430097
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!nDQYYYSy15b2zzgg.YujJvllopwVuKAAo'
+  - type: document
+    name: Le vieux sentier
+    description: >-
+      Des pierres empilées et de vieilles marques de couteau révèlent un chemin
+      presque effacé quittant la route vers le sud-est. Il semble relier deux
+      pistes sans passer par le détour habituel.
+    documentUuid: JournalEntry.M3ztqTaEHRLqqbEL.JournalEntryPage.OOHgthThCznpHNFH
+    range:
+      - 15
+      - 15
+    _id: LBbq1gnQ54Do407x
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430097
+      modifiedTime: 1791753430097
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!nDQYYYSy15b2zzgg.LBbq1gnQ54Do407x'
+  - type: document
+    name: Le premier compagnon
+    description: >-
+      Un jeune chasseur reste immobile à quelques pas d’une bête nerveuse qu’il
+      tente d’approcher depuis longtemps. Ni lui ni l’animal ne semblent savoir
+      qui va céder le premier.
+    documentUuid: JournalEntry.M3ztqTaEHRLqqbEL.JournalEntryPage.ztKN9SMTvoDSP4S8
+    range:
+      - 16
+      - 16
+    _id: pcVFyIO6YOCzPcqO
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430097
+      modifiedTime: 1791753430097
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!nDQYYYSy15b2zzgg.pcVFyIO6YOCzPcqO'
+  - type: document
+    name: À qui vont les peaux ?
+    description: >-
+      Un chariot de peaux s’est arrêté en travers de la route. Un représentant
+      de Tranchecolline et des chasseurs de Sen’jin discutent vivement de la
+      destination de la cargaison.
+    documentUuid: JournalEntry.M3ztqTaEHRLqqbEL.JournalEntryPage.AwHMoxx5b2rUiAOH
+    range:
+      - 17
+      - 17
+    _id: ZOHLINpjerupKxlU
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430097
+      modifiedTime: 1791753430097
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!nDQYYYSy15b2zzgg.ZOHLINpjerupKxlU'
+  - type: document
+    name: Deux versions du même raid
+    description: >-
+      Un garde orc blessé et une chasseuse Darkspear racontent le même
+      affrontement récent, mais leurs versions ne s’accordent ni sur le nombre
+      de Kolkar ni sur ce qu’ils cherchaient.
+    documentUuid: JournalEntry.M3ztqTaEHRLqqbEL.JournalEntryPage.IJetl0vhsk4y47SC
+    range:
+      - 18
+      - 18
+    _id: wLhLCC4mvE68fDFX
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430097
+      modifiedTime: 1791753430097
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!nDQYYYSy15b2zzgg.wLhLCC4mvE68fDFX'
+  - type: document
+    name: Le messager qui refuse l’escorte
+    description: >-
+      Un jeune messager Darkspear reprend son souffle derrière un rocher. Il
+      cache immédiatement sa sacoche lorsqu’il voit les PJ et insiste pour
+      poursuivre seul.
+    documentUuid: JournalEntry.M3ztqTaEHRLqqbEL.JournalEntryPage.5g97dB7PwyoP7S5h
+    range:
+      - 19
+      - 19
+    _id: VCGamInjxpZPtIVV
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430097
+      modifiedTime: 1791753430097
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!nDQYYYSy15b2zzgg.VCGamInjxpZPtIVV'
+  - type: document
+    name: Les tambours dans la poussière
+    description: >-
+      Trois battements sourds résonnent depuis une crête, puis deux autres leur
+      répondent beaucoup plus loin. Sur la route, plusieurs voyageurs s’arrêtent
+      pour écouter.
+    documentUuid: JournalEntry.M3ztqTaEHRLqqbEL.JournalEntryPage.LwA4gDGRbpF4re0o
+    range:
+      - 20
+      - 20
+    _id: jNzNLZtS6qKQSjzP
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430097
+      modifiedTime: 1791753430097
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!nDQYYYSy15b2zzgg.jNzNLZtS6qKQSjzP'
+_id: nDQYYYSy15b2zzgg
+img: modules/warbound-campaign-content/assets/images/icons/tables-aleatoires/cof2-ta-rencontres-durotar.png
+description: ''
+sort: 100000
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1791753430097
+  modifiedTime: 1791753430097
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!nDQYYYSy15b2zzgg'

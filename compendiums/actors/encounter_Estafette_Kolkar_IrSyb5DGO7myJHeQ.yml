@@ -183,6 +183,7 @@ system:
   companion:
     isCompanion: false
     master: null
+    rank: 0
 prototypeToken:
   name: Estafette Kolkar
   displayName: 20
@@ -332,9 +333,9 @@ items:
     _stats:
       coreVersion: '14.367'
       systemId: co2
-      systemVersion: 2.3.11
-      createdTime: 1790026055244
-      modifiedTime: 1790026055244
+      systemVersion: 2.3.12
+      createdTime: 1791788491989
+      modifiedTime: 1791788491989
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -458,9 +459,9 @@ items:
       duplicateSource: Item.GUPAqgdzYC9H5kwW
       coreVersion: '14.367'
       systemId: co2
-      systemVersion: 2.3.11
-      createdTime: 1790026055244
-      modifiedTime: 1790026055244
+      systemVersion: 2.3.12
+      createdTime: 1791788491989
+      modifiedTime: 1791788491989
       lastModifiedBy: TjbWhMczNyKieD8D
       exportSource: null
     sort: 100000
@@ -553,9 +554,9 @@ items:
     _stats:
       coreVersion: '14.367'
       systemId: co2
-      systemVersion: 2.3.11
-      createdTime: 1790026055244
-      modifiedTime: 1790026055244
+      systemVersion: 2.3.12
+      createdTime: 1791788491989
+      modifiedTime: 1791788491989
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: Item.OpX8ZwNObpdx1bUS
@@ -640,9 +641,9 @@ items:
     _stats:
       coreVersion: '14.367'
       systemId: co2
-      systemVersion: 2.3.11
-      createdTime: 1790026055244
-      modifiedTime: 1790026055244
+      systemVersion: 2.3.12
+      createdTime: 1791788491989
+      modifiedTime: 1791788491989
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: Item.I4T5Dfk6d2mmkiW2
@@ -663,9 +664,9 @@ _stats:
   duplicateSource: Actor.IkNM9ghlD7LLrKd1
   coreVersion: '14.367'
   systemId: co2
-  systemVersion: 2.3.11
-  createdTime: 1790026055244
-  modifiedTime: 1790026055244
+  systemVersion: 2.3.12
+  createdTime: 1791788491989
+  modifiedTime: 1791788491989
   lastModifiedBy: TjbWhMczNyKieD8D
   exportSource: null
 sort: 100000

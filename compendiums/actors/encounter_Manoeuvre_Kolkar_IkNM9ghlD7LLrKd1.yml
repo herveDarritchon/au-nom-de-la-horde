@@ -183,6 +183,7 @@ system:
   companion:
     isCompanion: false
     master: null
+    rank: 0
 prototypeToken:
   name: Manoeuvre Kolkar
   displayName: 20
@@ -332,9 +333,9 @@ items:
     _stats:
       coreVersion: '14.367'
       systemId: co2
-      systemVersion: 2.3.11
-      createdTime: 1790026055251
-      modifiedTime: 1790026055251
+      systemVersion: 2.3.12
+      createdTime: 1791788491998
+      modifiedTime: 1791788491998
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -407,9 +408,9 @@ items:
     _stats:
       coreVersion: '14.367'
       systemId: co2
-      systemVersion: 2.3.11
-      createdTime: 1790026055251
-      modifiedTime: 1790026055251
+      systemVersion: 2.3.12
+      createdTime: 1791788491998
+      modifiedTime: 1791788491998
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -521,9 +522,9 @@ items:
     _stats:
       coreVersion: '14.367'
       systemId: co2
-      systemVersion: 2.3.11
-      createdTime: 1790026055251
-      modifiedTime: 1790026055251
+      systemVersion: 2.3.12
+      createdTime: 1791788491998
+      modifiedTime: 1791788491998
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -647,9 +648,9 @@ items:
       duplicateSource: Item.GUPAqgdzYC9H5kwW
       coreVersion: '14.367'
       systemId: co2
-      systemVersion: 2.3.11
-      createdTime: 1790026055251
-      modifiedTime: 1790026055251
+      systemVersion: 2.3.12
+      createdTime: 1791788491998
+      modifiedTime: 1791788491998
       lastModifiedBy: TjbWhMczNyKieD8D
       exportSource: null
     sort: 100000
@@ -669,9 +670,9 @@ _stats:
   duplicateSource: Actor.kGH1Dd6v9xFAbs1U
   coreVersion: '14.367'
   systemId: co2
-  systemVersion: 2.3.11
-  createdTime: 1790026055251
-  modifiedTime: 1790026055251
+  systemVersion: 2.3.12
+  createdTime: 1791788491998
+  modifiedTime: 1791788491998
   lastModifiedBy: TjbWhMczNyKieD8D
   exportSource: null
 sort: 100000

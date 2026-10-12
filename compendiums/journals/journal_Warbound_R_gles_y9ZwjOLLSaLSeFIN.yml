@@ -20,10 +20,7 @@ pages:
       content: >-
         <h1>CRÉATION DE PERSONNAGE</h1><p class="p2">Les grands héros sont
         davantage qu’une suite de caractéristiques et de chiffres, mais dans un
-        système de jeu, c’est sans aucun doute un point de départ. Pour créer
-        votre héros, munissez-vous d’une feuille de personnage (disponible sur
-        le site de Black Book Éditions), ou photocopiez celle que vous trouverez
-        à la fin de cet ouvrage, et suivez les étapes suivantes.</p>
+        système de jeu, c’est sans aucun doute un point de départ. </p>
     video:
       controls: true
       volume: 0.5
@@ -36,9 +33,9 @@ pages:
     _stats:
       coreVersion: '14.367'
       systemId: co2
-      systemVersion: 2.3.11
-      createdTime: 1790026206718
-      modifiedTime: 1790026206718
+      systemVersion: 2.3.12
+      createdTime: 1791788382305
+      modifiedTime: 1791788382305
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -58,17 +55,20 @@ pages:
       content: >-
         <h2>Race</h2><p class="p2">Azeroth abrite de nombreux peuples aux
         origines, cultures et aptitudes très différentes :
-        <strong>@UUID[.abdFf6AaiOWMLsgL]{Orcs}</strong>, Trolls, Taurens,
-        Réprouvés, Elfes de sang et bien d’autres. Votre choix de race définit
-        une part importante de l’identité de votre personnage et lui accorde les
-        Capacités innées propres à son peuple.</p><p>Vous pouvez choisir
-        n’importe quelle race disponible dans la campagne. Chaque race Warbound
-        possède ses propres forces, faiblesses et options de
-        personnalisation.</p><p>▶ À la création, choisissez également un Atout
-        racial ou culturel parmi ceux proposés pour votre race. Il représente
-        une tradition, un héritage ou une aptitude particulière de votre
-        personnage et permet de différencier deux héros issus d’un même
-        peuple.</p><p class="p1"></p>
+        <strong>@UUID[.abdFf6AaiOWMLsgL]{Orcs}</strong>,
+        <strong>@UUID[.ZvUjvx0gxfFgIioA]{Trolls}</strong>,
+        <strong>@UUID[.piRNuCv20CdQRjlS]{Taurens}</strong>,
+        <strong>@UUID[.Z05WVvH4gyvgZXa1]{Réprouvés}</strong> et les
+        <strong>@UUID[.TavR08cwYXSAu4fQ]{Elfes de sang}</strong>. <br>Votre
+        choix de race définit une part importante de l’identité de votre
+        personnage et lui accorde les Capacités innées propres à son
+        peuple.</p><p>Vous pouvez choisir n’importe quelle race disponible dans
+        la campagne. Chaque race <strong>Warbound</strong> possède ses propres
+        forces, faiblesses et options de personnalisation.</p><p>▶ À la
+        création, choisissez également un Atout racial ou culturel parmi ceux
+        proposés pour votre race. Il représente une tradition, un héritage ou
+        une aptitude particulière de votre personnage et permet de différencier
+        deux héros issus d’un même peuple.</p><p class="p1"></p>
     video:
       controls: true
       volume: 0.5
@@ -81,9 +81,9 @@ pages:
     _stats:
       coreVersion: '14.367'
       systemId: co2
-      systemVersion: 2.3.11
-      createdTime: 1790026206718
-      modifiedTime: 1790026206718
+      systemVersion: 2.3.12
+      createdTime: 1791788382305
+      modifiedTime: 1791788382305
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -118,9 +118,9 @@ pages:
     _stats:
       coreVersion: '14.367'
       systemId: co2
-      systemVersion: 2.3.11
-      createdTime: 1790026206718
-      modifiedTime: 1790026206718
+      systemVersion: 2.3.12
+      createdTime: 1791788382305
+      modifiedTime: 1791788382305
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -171,9 +171,9 @@ pages:
     _stats:
       coreVersion: '14.367'
       systemId: co2
-      systemVersion: 2.3.11
-      createdTime: 1790026206718
-      modifiedTime: 1790026206718
+      systemVersion: 2.3.12
+      createdTime: 1791788382305
+      modifiedTime: 1791788382305
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -221,9 +221,9 @@ pages:
     _stats:
       coreVersion: '14.367'
       systemId: co2
-      systemVersion: 2.3.11
-      createdTime: 1790026206718
-      modifiedTime: 1790026206718
+      systemVersion: 2.3.12
+      createdTime: 1791788382305
+      modifiedTime: 1791788382305
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -279,9 +279,9 @@ pages:
     _stats:
       coreVersion: '14.367'
       systemId: co2
-      systemVersion: 2.3.11
-      createdTime: 1790026206718
-      modifiedTime: 1790026206718
+      systemVersion: 2.3.12
+      createdTime: 1791788382305
+      modifiedTime: 1791788382305
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -325,9 +325,9 @@ pages:
     _stats:
       coreVersion: '14.367'
       systemId: co2
-      systemVersion: 2.3.11
-      createdTime: 1790026206718
-      modifiedTime: 1790026206718
+      systemVersion: 2.3.12
+      createdTime: 1791788382305
+      modifiedTime: 1791788382305
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -369,90 +369,14 @@ pages:
     _stats:
       coreVersion: '14.367'
       systemId: co2
-      systemVersion: 2.3.11
-      createdTime: 1790026206718
-      modifiedTime: 1790026206718
+      systemVersion: 2.3.12
+      createdTime: 1791788382305
+      modifiedTime: 1791788382305
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!y9ZwjOLLSaLSeFIN.zF1TOfZsZJ0EPSQw'
-  - sort: 900000
-    name: ARCHÉTYPES
-    type: text
-    _id: tpfmN4iw7LaeUiAV
-    system: {}
-    title:
-      show: true
-      level: 1
-    image: {}
-    text:
-      format: 1
-      content: >-
-        <h1>Archétypes</h1><p>Vous aurez parfois besoin de créer rapidement un
-        personnage pour un scénario ou une convention. Dans ce genre de
-        situation, un archétype peut s’avérer un bon choix. Il suffit d’y
-        adjoindre un nom, quelques Handicaps, de l’équipement, puis de répartir
-        les quelques points de Compétence restant, et vous êtes prêts à
-        jouer.</p><p class="p1">Les archétypes qui suivent sont tous des humains
-        Novice, incluant l’Atout gratuit de cette race.</p>
-    video:
-      controls: true
-      volume: 0.5
-    src: null
-    category: null
-    ownership:
-      default: -1
-      i2MQVvBnWjyhmgzX: 3
-    flags: {}
-    _stats:
-      coreVersion: '14.367'
-      systemId: co2
-      systemVersion: 2.3.11
-      createdTime: 1790026206718
-      modifiedTime: 1790026206718
-      lastModifiedBy: TjbWhMczNyKieD8D
-      compendiumSource: null
-      duplicateSource: null
-      exportSource: null
-    _key: '!journal.pages!y9ZwjOLLSaLSeFIN.tpfmN4iw7LaeUiAV'
-  - sort: 1000000
-    name: RACES
-    type: text
-    _id: Gp8j8DZXm4G23Dyy
-    system: {}
-    title:
-      show: false
-      level: 1
-    image: {}
-    text:
-      format: 1
-      content: >-
-        <h1>RACES</h1><p>Tous les héros ne sont pas humains. Suivent quelques
-        races communes à plusieurs univers de jeux. Utilisez-les telles quelles,
-        ou modifiez-les pour les adapter à un univers particulier. Immédiatement
-        suivant les descriptions des races, vous trouverez un ensemble de
-        conseils pour créer vos propres races.</p>
-    video:
-      controls: true
-      volume: 0.5
-    src: null
-    category: null
-    ownership:
-      default: -1
-      i2MQVvBnWjyhmgzX: 3
-    flags: {}
-    _stats:
-      coreVersion: '14.367'
-      systemId: co2
-      systemVersion: 2.3.11
-      createdTime: 1790026206718
-      modifiedTime: 1790026206718
-      lastModifiedBy: TjbWhMczNyKieD8D
-      compendiumSource: null
-      duplicateSource: null
-      exportSource: null
-    _key: '!journal.pages!y9ZwjOLLSaLSeFIN.Gp8j8DZXm4G23Dyy'
   - sort: 250000
     name: Orcs
     type: text
@@ -480,38 +404,39 @@ pages:
         leurs choix. Certains deviennent des meneurs respectés, d’autres
         perfectionnent une tradition martiale, tandis que d’autres encore
         suivent des voies très éloignées du champ de bataille.</p><hr><h2>Traits
-        raciaux</h2><p><strong>Taille :</strong> 0<br><strong>Allure :</strong>
-        6<br><strong>Langues :</strong> Orc et une autre langue selon l’origine
-        du personnage ou la
-        campagne.</p><h3>@UUID[Item.xX7suvhtfbYlHDiJ]{Solidité
-        orque}</h3><h3>@UUID[Item.X9SGwmB9jv0mB34v]{Fureur
-        sanguinaire}</h3><hr><h2>Une faiblesse personnelle</h2><p>Les Orcs
-        partagent une histoire difficile, mais ils ne portent pas tous les mêmes
-        cicatrices.</p><p>À la création, choisissez <strong>un Handicap
-        Mineur</strong> représentant une faiblesse liée à votre personnage, son
-        clan, son passé ou sa réputation.</p><p>Exemples appropriés
-        :</p><p><strong>@UUID[Item.hE6w2sGiBvtQL5SV]{Déshonoré} •
-        @UUID[Item.4rHhmUJreJIzL6yL]{Ennemi} •
-        @UUID[Item.iTIQXnpa8ISl5Ces]{Étranger} •
-        @UUID[Item.7Z4kVDJIIAQUMgzU]{Impitoyable} •
-        @UUID[Item.zJjW1F4h0ruDbF0t]{Bizarrerie}</strong></p><p>Un autre
-        Handicap Mineur peut être choisi avec l’accord du MJ s’il représente
-        réellement le personnage et produit des situations intéressantes en
-        jeu.</p><blockquote><p>Cette faiblesse décrit <strong>votre
-        Orc</strong>, pas l’ensemble du peuple
-        orc.</p></blockquote><hr><h2>Héritage orc</h2><p>À la création,
-        choisissez <strong>un</strong> des Atouts raciaux
-        suivants.</p><h3>@UUID[Item.vpEdVamoRd2gc9DE]{Commandement}</h3><h3>@UUID[Item.4kbi3WQxTqnqSnJd]{Maîtrise
-        de la hache}</h3><hr><h2>Clans et traditions</h2><p>Frostwolf, Warsong
-        et les nombreux autres clans orcs peuvent profondément influencer
-        l’éducation, les convictions et les relations de votre
-        personnage.</p><p>Ils ne constituent cependant pas des sous-races. Deux
-        Orcs d’un même clan peuvent être très différents, tandis que deux
-        membres de clans rivaux peuvent partager davantage de valeurs qu’ils ne
-        l’imaginent.</p><p>Votre clan est avant tout une <strong>origine, une
-        culture et un réseau de relations</strong> : à vous de déterminer ce que
-        votre personnage en conserve, ce qu’il rejette et ce qu’il souhaite
-        transmettre.</p><hr>
+        raciaux</h2><p><strong>Âge de départ :</strong> 15+<br><strong>Espérance
+        de vie :</strong> 60 ans<br><strong>Taille :</strong> 1,70 m à 2,10
+        m<br><strong>Poids :</strong> 70 à 150 kg<br><strong>Traits :</strong>
+        grand et athlétique. Peau verdâtre qui tend parfois vers un vert plus
+        franc, mâchoire large, front bas, petits yeux.<br><strong>Taille
+        :</strong> Normale<br><strong>Déplacement :</strong>
+        10m<br><strong>Langues :</strong> Orc et une autre langue selon
+        l’origine du personnage ou la campagne.</p><hr><p>Choisir une
+        <strong>capacité raciale</strong> à la
+        création</p><h3>@UUID[Item.1uh8CzK7ojxKJQho]{Maîtrise de la
+        hache}</h3><h3>@UUID[Item.MJ3KDauouJXSsSED]{Commandement}</h3><h3>@UUID[Item.Vknb84JVHRnwKiva]{Fureur
+        sanguinaire}</h3><hr><h2>Traits personnels</h2><p>Les Orcs partagent une
+        histoire difficile, mais ils ne portent pas tous les mêmes
+        cicatrices.</p><p>À la création, choisissez un<strong>
+        @UUID[.iyIbv5JXRkcCObgH]{Travers}</strong> et un
+        <strong>@UUID[.iyIbv5JXRkcCObgH]{Idéal}</strong> représentant une
+        faiblesse liée à votre personnage, son clan, son passé ou sa
+        réputation.</p><p>Tirage aléatoire d'un
+        <strong>@UUID[RollTable.IQUsJLqTbkPdBbw3]{idéal}</strong> et d'un
+        <strong>@UUID[RollTable.87WK59nyuvKNteFE]{travers}</strong></p><blockquote><p>Ces
+        traits décrivent <strong>votre Orc</strong>, pas l’ensemble du peuple
+        orc.</p></blockquote><hr><h2>Clans et
+        traditions</h2><p><strong>@UUID[JournalEntry.V7kBwrob0ElUc6Bk.JournalEntryPage.9fBw7kOQtD2vQpnc]{Frostwolf}</strong>,
+        <strong>@UUID[JournalEntry.V7kBwrob0ElUc6Bk.JournalEntryPage.L0humuUjv5k4GQ7a]{Warsong}</strong>
+        et les @UUID[JournalEntry.V7kBwrob0ElUc6Bk]{nombreux autres clans orcs
+        }peuvent profondément influencer l’éducation, les convictions et les
+        relations de votre personnage.</p><p>Ils ne constituent cependant pas
+        des sous-races. Deux Orcs d’un même clan peuvent être très différents,
+        tandis que deux membres de clans rivaux peuvent partager davantage de
+        valeurs qu’ils ne l’imaginent.</p><p>Votre clan est avant tout une
+        <strong>origine, une culture et un réseau de relations</strong> : à vous
+        de déterminer ce que votre personnage en conserve, ce qu’il rejette et
+        ce qu’il souhaite transmettre.</p><hr>
     video:
       controls: true
       volume: 0.5
@@ -524,9 +449,9 @@ pages:
     _stats:
       coreVersion: '14.367'
       systemId: co2
-      systemVersion: 2.3.11
-      createdTime: 1790026206718
-      modifiedTime: 1790026206718
+      systemVersion: 2.3.12
+      createdTime: 1791788382305
+      modifiedTime: 1791788382305
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -544,46 +469,70 @@ pages:
       format: 1
       content: >-
         <blockquote><p><strong>« Là où les autres pansent leurs plaies, le Troll
-        revient déjà dans la chasse. »</strong></p></blockquote><p>Les Trolls
-        Sombrelance appartiennent à un peuple ancien d’Azeroth, façonné par la
-        survie, la chasse et une relation profondément spirituelle au monde qui
-        l’entoure.</p><p>Leur corps possède une capacité de <strong>régénération
-        exceptionnelle</strong> : les blessures qui immobiliseraient longtemps
-        d’autres peuples ne suffisent pas toujours à tenir un Troll à terre.
-        Lorsque la situation devient critique, ils peuvent également entrer dans
-        un bref état de <strong>Berserker</strong>, poussant brutalement leur
-        rythme d’action malgré la douleur et la pression du combat.</p><p>Mais
-        tous les Sombrelance ne suivent pas la même voie. Certains deviennent
-        chasseurs de bêtes, d’autres perpétuent leur maîtrise traditionnelle de
-        l’arc ou des armes de jet. Leur caractère, leurs serments et leur
-        rapport aux anciennes traditions varient tout autant d’un individu à
-        l’autre.</p><hr><h2>Traits raciaux</h2><p><strong>Taille :</strong>
-        0<br><strong>Allure :</strong> 6<br><strong>Langues :</strong> Zandali
-        et Orc</p><h3>@UUID[Item.nKUBXMBTUSMA23g8]{Régénération
-        troll}</h3><h3>@UUID[Item.6M9lCsUGpgY6iAWC]{Berserker}</h3><hr><h2>Une
-        faiblesse personnelle</h2><p>Les Sombrelance ont connu l’exil, les
-        rivalités et les luttes pour leur survie, mais ces expériences n’ont pas
-        façonné tous les Trolls de la même manière.</p><p>À la création,
-        choisissez <strong>un Handicap Mineur</strong> représentant le
-        caractère, le passé, les obligations ou les ennemis de votre
-        personnage.</p><p>Exemples appropriés :</p><p><strong>Rancunier • Têtu •
-        Suspicieux • Serment • Ennemi</strong></p><p>Un autre Handicap Mineur
-        peut être choisi avec l’accord du MJ s’il représente réellement le
-        personnage et produit des situations intéressantes en
-        jeu.</p><blockquote><p>Cette faiblesse décrit <strong>votre
-        Troll</strong>, pas l’ensemble du peuple
-        Sombrelance.</p></blockquote><hr><h2>Héritage Sombrelance</h2><p>À la
-        création, choisissez <strong>un</strong> des Atouts raciaux
-        suivants.</p><h3>@UUID[Item.HcOd2vtKnUvy4iuJ]{Tueur de
-        bêtes}</h3><h3>@UUID[Item.AEzYhbEoP5cpzyIc]{Maîtrise de
-        l’arc}</h3><h3>@UUID[Item.63choqpgZ6BErjkt]{Maîtrise du
-        lancer}</h3><p>Ces choix représentent davantage l’éducation, les
-        traditions et l’expérience du personnage que sa nature biologique. Deux
-        Trolls issus du même village peuvent ainsi avoir développé des talents
-        très différents.</p><hr><h2>Loas et traditions</h2><p>La spiritualité
-        occupe une place importante dans la culture Sombrelance. Les Loas
-        peuvent être des guides, des protecteurs, des figures redoutées ou les
-        destinataires de rites et de serments transmis depuis des
+        revient déjà dans la chasse. »</strong></p></blockquote><p>Les
+        <strong>Trolls Sombrelance</strong> appartiennent à un peuple ancien
+        d’Azeroth, façonné par la survie, la chasse et une relation profondément
+        spirituelle au monde qui l’entoure.</p><p>Leur corps possède une
+        capacité de <strong>régénération exceptionnelle</strong> : les blessures
+        qui immobiliseraient longtemps d’autres peuples ne suffisent pas
+        toujours à tenir un Troll à terre. Lorsque la situation devient
+        critique, ils peuvent également entrer dans un bref état de
+        <strong>Berserker</strong>, poussant brutalement leur rythme d’action
+        malgré la douleur et la pression du combat.</p><h2>Situation
+        politique</h2><p>La situation des Sombrelance peut se résumer ainsi
+        :</p><ul data-start="2588" data-end="3006"><li data-section-id="gtkgnn"
+        data-start="2588" data-end="2619"><p><strong data-start="2590"
+        data-end="2601">Vol’jin</strong> dirige la tribu ;</p></li><li
+        data-section-id="1t3uexn" data-start="2620" data-end="2678"><p>les
+        Sombrelance sont membres de la <strong data-start="2657"
+        data-end="2676">Horde de Thrall</strong> ;</p></li><li
+        data-section-id="12b0uif" data-start="2679" data-end="2738"><p><strong
+        data-start="2681" data-end="2692">Sen’jin</strong> constitue leur
+        principal village en Durotar ;</p></li><li data-section-id="1sh0jpy"
+        data-start="2739" data-end="2802"><p>les <strong data-start="2745"
+        data-end="2763">Îles de l’Écho</strong> restent sous l’influence de
+        Zalazane ;</p></li><li data-section-id="dd85lc" data-start="2803"
+        data-end="2862"><p>certains Sombrelance sont toujours victimes de sa
+        magie ;</p></li><li data-section-id="ov6wh1" data-start="2863"
+        data-end="2909"><p>la tribu espère un jour reprendre les îles
+        ;</p></li><li data-section-id="98wcrt" data-start="2910"
+        data-end="3006"><p>les Sombrelance participent également à la défense et
+        à l’installation de la Horde en Durotar.</p></li></ul><hr><h2>Traits
+        raciaux</h2><p><strong data-start="119" data-end="138">Âge de départ
+        :</strong> 15+<br data-start="142" data-end="145"><strong
+        data-start="145" data-end="167">Espérance de vie :</strong> 80 ans<br
+        data-start="174" data-end="177"><strong data-start="177" data-end="189"
+        data-is-only-node>Taille :</strong> 2,45 m à 2,75 m lorsqu’il se tient
+        complètement droit<br data-start="243" data-end="246"><strong
+        data-start="246" data-end="257">Poids :</strong> environ 90 kg<br
+        data-start="271" data-end="274"><strong data-start="274"
+        data-end="286">Traits :</strong> très grand et élancé, avec de longs
+        membres et une posture souvent voûtée. Peau généralement bleue à
+        bleu-vert, longues oreilles pointues, nez marqué et défenses
+        proéminentes, particulièrement développées chez les mâles.<br
+        data-start="507" data-end="510"><strong data-start="510"
+        data-end="522">Taille :</strong> Normale<br data-start="530"
+        data-end="533"><strong data-start="533" data-end="550">Déplacement
+        :</strong> 10 m<br data-start="555" data-end="558"><strong
+        data-start="558" data-end="571">Langues :</strong> Zandali et
+        Orc.</p><hr><p>Choisir une <strong>capacité raciale</strong> à la
+        création</p><h3>@UUID[Item.0u0dIPHzjuELJ3xi]{Berserker}</h3><h3>@UUID[Item.3hG2ZQ2aJRFcWujA]{Maîtrise
+        de l'Arc}</h3><h3>@UUID[Item.XadXs8En7cU0tPvc]{Maîtrise du
+        Lancer}</h3><hr><h2>Une faiblesse personnelle</h2><p>Les Sombrelance ont
+        connu l’exil, les rivalités et les luttes pour leur survie, mais ces
+        expériences n’ont pas façonné tous les Trolls de la même
+        manière.</p><p>À la création, choisissez un<strong>
+        @UUID[.iyIbv5JXRkcCObgH]{Travers}</strong> et un
+        <strong>@UUID[.iyIbv5JXRkcCObgH]{Idéal}</strong> représentant une
+        faiblesse liée à votre personnage, son clan, son passé ou sa
+        réputation.</p><p>Tirage aléatoire d'un
+        <strong>@UUID[RollTable.IQUsJLqTbkPdBbw3]{idéal}</strong> et d'un
+        <strong>@UUID[RollTable.87WK59nyuvKNteFE]{travers}</strong></p><blockquote><p>Cette
+        faiblesse décrit <strong>votre Troll</strong>, pas l’ensemble du peuple
+        Sombrelance.</p></blockquote><hr><h2>Loas et traditions</h2><p>La
+        spiritualité occupe une place importante dans la culture Sombrelance.
+        Les Loas peuvent être des guides, des protecteurs, des figures redoutées
+        ou les destinataires de rites et de serments transmis depuis des
         générations.</p><p>Cette relation ne constitue cependant pas une
         capacité automatique de tous les Trolls. Un personnage peut être
         profondément dévoué à un Loa, simplement respecter les traditions de son
@@ -611,9 +560,9 @@ pages:
     _stats:
       coreVersion: '14.367'
       systemId: co2
-      systemVersion: 2.3.11
-      createdTime: 1790026206718
-      modifiedTime: 1790026206718
+      systemVersion: 2.3.12
+      createdTime: 1791788382305
+      modifiedTime: 1791788382305
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -646,22 +595,35 @@ pages:
         suivent cependant pas la même voie. Certains approfondissent leur
         affinité naturelle, tandis que d’autres perpétuent les traditions de
         cueillette et de connaissance des plantes transmises au sein de leur
-        peuple.</p><hr><h2>Traits raciaux</h2><p><strong>Taille :</strong>
-        1<br><strong>Allure :</strong> 6<br><strong>Langues :</strong> Taur-ahe
-        et Orc.</p><h3><strong>@UUID[Item.fwXWsYXCNEPBtKJE]{Carrure
-        taurène}</strong></h3><h3><strong>@UUID[Item.j4SGUPuMW3KcwNJE]{Piétinement
-        de guerre}</strong></h3><hr><h2>Héritage tauren</h2><p>À la création,
-        choisissez <strong>un</strong> des Atouts raciaux
-        suivants.</p><h3><strong>@UUID[Item.zXKcIieWVzflkZ3L]{Résistance à la
-        Nature}</strong></h3><h3><strong>@UUID[Item.RowtfCOJ0aMjROCm]{Herboristerie
-        taurène}</strong></h3><h2>Stature et cornes</h2><p>La silhouette massive
-        d’un Tauren et ses imposantes cornes font immédiatement partie de son
-        identité, mais elles ne constituent pas automatiquement des armes ou des
-        avantages supplémentaires.</p><p>Un Tauren peut apprendre à exploiter
-        davantage sa puissance physique au cours de ses aventures : développer
-        sa vigueur, utiliser ses cornes lors d’une charge ou perfectionner
-        d’autres techniques propres à son peuple pourra faire l’objet de
-        <strong>futurs Atouts raciaux acquis par
+        peuple.</p><hr><h2>Traits raciaux</h2><p><strong data-start="466"
+        data-end="485">Âge de départ :</strong> 15+<br data-start="489"
+        data-end="492"><strong data-start="492" data-end="514">Espérance de vie
+        :</strong> 150 ans<br data-start="522" data-end="525"><strong
+        data-start="525" data-end="537">Taille :</strong> 2,40 m à 2,70 m
+        lorsqu’il se tient complètement droit<br data-start="591"
+        data-end="594"><strong data-start="594" data-end="605">Poids :</strong>
+        environ 150 à 200 kg<br data-start="626" data-end="629"><strong
+        data-start="629" data-end="641">Traits :</strong> très grand et
+        extrêmement massif, avec une carrure puissante, de larges épaules et une
+        musculature imposante. Corps couvert de fourrure, jambes terminées par
+        des sabots, visage bovin et imposantes cornes dont la forme varie selon
+        les individus.<br data-start="886" data-end="889"><strong
+        data-start="889" data-end="901" data-is-only-node>Taille :</strong>
+        Normale<br data-start="909" data-end="912"><strong data-start="912"
+        data-end="929">Déplacement :</strong> 10 m<br data-start="934"
+        data-end="937"><strong data-start="937" data-end="950">Langues
+        :</strong> Taur-ahe et
+        Orc.</p><h3><strong>@UUID[Item.0Zo1HOUUlZpFR48n]{Résistance à la
+        nature}</strong></h3><h3><strong>@UUID[Item.Lp4uLqmy25YRbv6X]{Choc
+        Martial}</strong></h3><h3><strong>@UUID[Item.1dYEOMDDEkWhSLR1]{Herboristerie
+        Taurène}</strong></h3><hr><h2>Stature et cornes</h2><p>La silhouette
+        massive d’un Tauren et ses imposantes cornes font immédiatement partie
+        de son identité, mais elles ne constituent pas automatiquement des armes
+        ou des avantages supplémentaires.</p><p>Un Tauren peut apprendre à
+        exploiter davantage sa puissance physique au cours de ses aventures :
+        développer sa vigueur, utiliser ses cornes lors d’une charge ou
+        perfectionner d’autres techniques propres à son peuple pourra faire
+        l’objet de <strong>futurs Atouts raciaux acquis par
         Progression</strong>.</p><hr><h2>Peuple et traditions</h2><p>Les Taurens
         ne forment pas une culture uniforme. Tribu, famille, mentor, rapport à
         la Terre-Mère et expérience personnelle peuvent profondément modifier la
@@ -685,9 +647,9 @@ pages:
     _stats:
       coreVersion: '14.367'
       systemId: co2
-      systemVersion: 2.3.11
-      createdTime: 1790026206718
-      modifiedTime: 1790026206718
+      systemVersion: 2.3.12
+      createdTime: 1791788382305
+      modifiedTime: 1791788382305
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -759,9 +721,9 @@ pages:
     _stats:
       coreVersion: '14.367'
       systemId: co2
-      systemVersion: 2.3.11
-      createdTime: 1790026206718
-      modifiedTime: 1790026206718
+      systemVersion: 2.3.12
+      createdTime: 1791788382305
+      modifiedTime: 1791788382305
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -829,16 +791,474 @@ pages:
     _stats:
       coreVersion: '14.367'
       systemId: co2
-      systemVersion: 2.3.11
-      createdTime: 1790026206718
-      modifiedTime: 1790026206718
+      systemVersion: 2.3.12
+      createdTime: 1791788382305
+      modifiedTime: 1791788382305
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
       exportSource: null
     _id: TavR08cwYXSAu4fQ
     _key: '!journal.pages!y9ZwjOLLSaLSeFIN.TavR08cwYXSAu4fQ'
-folder: U6f0Y0LXCS7X5EDL
+  - sort: 275000
+    name: Idéal & Travers
+    type: text
+    _id: iyIbv5JXRkcCObgH
+    system: {}
+    title:
+      show: false
+      level: 3
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Idéal et travers</h2><p>Si vous n’avez pas d’idée ou si le MJ le
+        souhaite, vous pouvez déterminer un idéal héroïque et un travers au
+        hasard, en lançant sur la table Idéaux et Travers et en consultant le
+        résultat dans la liste. Cela vous donnera une sorte de boussole pour
+        interpréter votre personnage afin de conserver un comportement à peu
+        près cohérent d’une partie à l’autre.</p><p class="p1">Si vous jouez une
+        campagne dont le prérequis implique des héros avec des idéaux positifs,
+        le meneur de jeu pourra vous indiquer de déterminer deux idéaux
+        héroïques (ou éventuellement deux travers si c’est l’inverse).</p><p
+        class="p1">Enfin si vous tirez aléatoirement un idéal ou un travers qui
+        ne correspond pas à votre envie de jouer ou à votre idée du personnage,
+        n’hésitez pas à relancer.</p><h3>Travers</h3><p><strong><span
+        style="text-decoration:underline">Règles:</span></strong>
+        @UUID[JournalEntry.Nm4ZgYPSueiJkq04]{Travers}</p><p><strong><span
+        style="text-decoration:underline">Table aléatoire:</span></strong>
+        @UUID[RollTable.87WK59nyuvKNteFE]{Travers}</p><h3>Idéaux
+        héroïques</h3><p><strong><span style="text-decoration:underline">Règles:
+        </span></strong><span
+        style="text-decoration:underline">@UUID[JournalEntry.76kslKkTI09XTJGD]{Idéaux
+        héroïques}</span></p><p><strong><span
+        style="text-decoration:underline">Table aléatoire:</span></strong>
+        @UUID[RollTable.IQUsJLqTbkPdBbw3]{Idéaux
+        héroïques}</p><h3><strong>Interprétation des traits (idéal et
+        traits)</strong></h3><p class="p1">Ces traits vous permettent de
+        déterminer la façon dont votre personnage devrait réagir dans les
+        situations où vous hésitez sur la posture à adopter. Ils apportent
+        également une certaine cohérence dans le comportement des PJ sur la
+        durée, d’une aventure à l’autre.</p><p class="p2">Si votre
+        interprétation d’un trait est particulièrement appropriée et qu’elle
+        respecte les critères évoqués ci‑après, votre MJ pourra vous récompenser
+        par la récupération d’un point de chance.</p><p class="p2">Attention
+        toutefois, les traits ne doivent pas remplacer votre libre arbitre ni
+        servir de prétexte à un comportement trop caricatural.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791788382305
+      modifiedTime: 1791788382305
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!y9ZwjOLLSaLSeFIN.iyIbv5JXRkcCObgH'
+  - sort: 287500
+    name: Origine et Historique
+    type: text
+    _id: MwiIYEQZTLR1TZ8v
+    system: {}
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Origine et historique</h2><p class="p2">Simultanément, vous pouvez
+        déterminer l’historique et la provenance géographique de votre PJ
+        :</p><ul><li><p class="p2">D’où vient‑il ?</p></li><li><p
+        class="p2">Qu’a‑t‑il fait durant sa jeunesse ?</p></li><li><p
+        class="p2">Quel événement l’a poussé à quitter son foyer
+        ?</p></li><li><p class="p2">Quel est son but (devenir riche, puissant,
+        célèbre, rendre justice, servir sa nation, répandre ses idées, percer
+        des mystères, réparer une humiliation…) ?</p></li></ul><p
+        class="p2">Pour répondre à ces questions, vous aurez besoin de l’aide du
+        MJ, car vous devrez vous adapter au cadre de jeu, c’est‑à‑dire le monde
+        dans lequel le personnage va
+        évoluer.</p><table><thead><tr><th><p>d20</p></th><th><p>Secret
+        intime</p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p><strong>Je
+        ne suis pas celui que je prétends être.</strong> Mon nom, mon origine ou
+        mon allégeance véritable doit rester
+        caché.</p></td></tr><tr><td><p>2</p></td><td><p><strong>Je recherche un
+        proche disparu</strong> pendant une guerre, un exil ou une migration de
+        mon peuple.</p></td></tr><tr><td><p>3</p></td><td><p><strong>Une
+        malédiction ou une corruption me ronge.</strong> Pour l’instant,
+        j’arrive encore à la
+        dissimuler.</p></td></tr><tr><td><p>4</p></td><td><p><strong>Je suis
+        recherché pour un crime ou une trahison.</strong> Même moi, je ne suis
+        pas certain de connaître toute la
+        vérité.</p></td></tr><tr><td><p>5</p></td><td><p><strong>Une partie de
+        mes souvenirs a disparu</strong> après une bataille, un rituel, une
+        captivité ou un événement
+        surnaturel.</p></td></tr><tr><td><p>6</p></td><td><p><strong>Une chose
+        que tout héros devrait pouvoir affronter me terrifie.</strong> Je fais
+        tout pour que personne ne le
+        découvre.</p></td></tr><tr><td><p>7</p></td><td><p><strong>Je dépends
+        d’une substance, d’un rituel ou d’une forme de magie</strong> dont je
+        sais qu’elle finira par me coûter
+        cher.</p></td></tr><tr><td><p>8</p></td><td><p><strong>Une blessure
+        ancienne suffit à me faire perdre tout contrôle</strong> : un symbole,
+        un peuple, une faction, une insulte ou un souvenir
+        précis.</p></td></tr><tr><td><p>9</p></td><td><p><strong>Un membre de ma
+        famille, de mon clan ou de ma tribu a rejoint mes ennemis.</strong> Il
+        connaît mes faiblesses mieux que
+        personne.</p></td></tr><tr><td><p>10</p></td><td><p><strong>Je sers
+        secrètement une seconde cause.</strong> Pour l’instant, mes deux
+        loyautés ne sont pas encore entrées en
+        conflit.</p></td></tr><tr><td><p>11</p></td><td><p><strong>J’ai déjà été
+        déclaré mort.</strong> Ce qui s’est réellement passé ensuite est quelque
+        chose que je préfère
+        cacher.</p></td></tr><tr><td><p>12</p></td><td><p><strong>J’ai une dette
+        que l’or ne peut pas rembourser.</strong> Une vie sauvée, une faveur, un
+        serment ou une dette de sang me lie à
+        quelqu’un.</p></td></tr><tr><td><p>13</p></td><td><p><strong>Je ne suis
+        jamais vraiment seul dans mon propre esprit.</strong> Une voix, un
+        esprit ou une présence
+        m’accompagne.</p></td></tr><tr><td><p>14</p></td><td><p><strong>J’ai
+        brisé un serment sacré</strong> envers mon peuple, mes ancêtres, les
+        esprits, les éléments, la Lumière ou une autre
+        puissance.</p></td></tr><tr><td><p>15</p></td><td><p><strong>Je
+        transporte un objet dangereux ou interdit</strong> que beaucoup seraient
+        prêts à tuer pour
+        obtenir.</p></td></tr><tr><td><p>16</p></td><td><p><strong>Je porte le
+        deuil de quelqu’un dont je n’ai jamais retrouvé le corps.</strong> Au
+        fond de moi, je ne suis pas certain qu’il soit vraiment
+        mort.</p></td></tr><tr><td><p>17</p></td><td><p><strong>J’ai abandonné
+        quelqu’un qui comptait sur moi.</strong> Cette personne, ou ceux qui lui
+        étaient fidèles, pourraient un jour me
+        retrouver.</p></td></tr><tr><td><p>18</p></td><td><p><strong>Le même
+        rêve me poursuit nuit après nuit.</strong> Je ne sais pas s’il s’agit
+        d’un traumatisme, d’un avertissement ou de quelque chose qui cherche à
+        me parler.</p></td></tr><tr><td><p>19</p></td><td><p><strong>Je n’ai pas
+        réussi à empêcher une tragédie.</strong> Certaines personnes pensent
+        même que j’en suis
+        responsable.</p></td></tr><tr><td><p>20</p></td><td><p><strong>J’ai
+        appartenu à une organisation, un culte, un ordre ou une société
+        secrète.</strong> Je la sers encore… ou j’essaie désespérément de lui
+        échapper.</p></td></tr></tbody></table><table><thead><tr><th><p>d20</p></th><th><p>Secret
+        intime</p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p><strong>Ma
+        famille, mon clan ou ma tribu a été massacré, dispersé ou m’a
+        renié.</strong> On ne m’a jamais dit toute la vérité sur ce qui s’est
+        passé.</p></td></tr><tr><td><p>2</p></td><td><p><strong>On m’a chargé de
+        surveiller, protéger ou espionner secrètement un autre membre du
+        groupe.</strong> Il ignore
+        pourquoi.</p></td></tr><tr><td><p>3</p></td><td><p><strong>Un voyant, un
+        esprit ou une vision m’a annoncé que je provoquerais un jour une
+        terrible
+        catastrophe.</strong></p></td></tr><tr><td><p>4</p></td><td><p><strong>Je
+        porte depuis toujours une marque étrange</strong> : cicatrice, rune,
+        tatouage, tache ou signe dont j’ignore l’origine et la
+        signification.</p></td></tr><tr><td><p>5</p></td><td><p><strong>Une
+        personne qui m’est chère a disparu sans laisser de traces.</strong> Je
+        refuse de croire qu’elle est
+        morte.</p></td></tr><tr><td><p>6</p></td><td><p><strong>Je possède un
+        héritage de mon peuple ou de ma famille</strong> et je préférerais
+        mourir plutôt que de le
+        perdre.</p></td></tr><tr><td><p>7</p></td><td><p><strong>J’ai conclu un
+        pacte que je regrette aujourd’hui</strong> avec un démon, un esprit, une
+        puissance magique ou une autre
+        entité.</p></td></tr><tr><td><p>8</p></td><td><p><strong>Quelqu’un en
+        qui j’avais une confiance absolue m’a trahi.</strong> Depuis, j’accorde
+        difficilement ma
+        confiance.</p></td></tr><tr><td><p>9</p></td><td><p><strong>Une ancienne
+        blessure, une mutilation ou une séquelle me poursuit.</strong> Je refuse
+        qu’elle définisse ce que je suis capable
+        d’accomplir.</p></td></tr><tr><td><p>10</p></td><td><p><strong>Mon nom
+        est connu pour un événement dont je préférerais que personne ne
+        parle.</strong> La version racontée n’est peut-être même pas la
+        vérité.</p></td></tr><tr><td><p>11</p></td><td><p><strong>Je veux
+        accomplir quelque chose d’assez grand pour qu’une personne qui compte
+        pour moi entende enfin parler de
+        moi.</strong></p></td></tr><tr><td><p>12</p></td><td><p><strong>Je dois
+        prouver ma valeur à ma famille, mon clan, ma tribu ou mon ancien
+        maître.</strong> Leur jugement continue de me
+        hanter.</p></td></tr><tr><td><p>13</p></td><td><p><strong>J’ai
+        désespérément besoin de richesses ou de ressources</strong>, non pour
+        moi, mais pour sauver quelqu’un, reconstruire quelque chose ou honorer
+        une dette.</p></td></tr><tr><td><p>14</p></td><td><p><strong>La raison
+        que je donne pour voyager avec mes compagnons n’est pas la véritable
+        raison de ma présence
+        ici.</strong></p></td></tr><tr><td><p>15</p></td><td><p><strong>Je
+        cherche à devenir assez puissant pour abattre un ennemi que je ne
+        pourrais pas encore affronter.</strong> Chef de guerre, démon, créature,
+        sorcier ou autre
+        menace.</p></td></tr><tr><td><p>16</p></td><td><p><strong>J’ai commis
+        quelque chose que je considère impardonnable.</strong> Tout ce que je
+        fais depuis vise, d’une manière ou d’une autre, à réparer cette
+        faute.</p></td></tr><tr><td><p>17</p></td><td><p><strong>J’ai vu ma
+        propre mort.</strong> Vision, prophétie ou souvenir impossible : je sais
+        où, comment ou par qui elle devrait
+        survenir.</p></td></tr><tr><td><p>18</p></td><td><p><strong>Je prétends
+        avoir un passé beaucoup plus extraordinaire qu’il ne l’est
+        réellement.</strong> Plus je mens, plus il devient difficile d’avouer la
+        vérité.</p></td></tr><tr><td><p>19</p></td><td><p><strong>Je me comporte
+        en compagnon loyal, mais je suis convaincu d’être destiné à commander un
+        jour.</strong> Peut-être même à ceux qui voyagent actuellement à mes
+        côtés.</p></td></tr><tr><td><p>20</p></td><td><p><strong>Je viens d’un
+        endroit que presque personne ici ne connaît réellement.</strong> Une
+        autre terre, un autre plan ou un territoire si lointain que ce monde me
+        paraît encore étranger.</p></td></tr></tbody></table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791788382305
+      modifiedTime: 1791788382305
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!y9ZwjOLLSaLSeFIN.MwiIYEQZTLR1TZ8v'
+  - sort: 150000
+    name: Profil
+    type: text
+    _id: 1yPswZCbzV0eh3az
+    system: {}
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Profil</h1><p>Dans <strong>Warbound</strong>, le
+        <strong>profil</strong> représente la classe Warcraft du héros et sa
+        formation initiale. À la création, chaque personnage débute au
+        <strong>niveau 1</strong> de son profil principal.</p><p>Le choix du
+        profil détermine quatre éléments essentiels :</p><ul><li><p>sa
+        <strong>famille de profils</strong> ;</p></li><li><p>ses <strong>points
+        de vigueur</strong>, son type de <strong>dé de récupération</strong> et
+        l'éventuel avantage de famille ;</p></li><li><p>les
+        <strong>caractéristiques</strong> les plus utiles à la classe
+        ;</p></li><li><p>les <strong>voies et capacités</strong> ainsi que les
+        équipements auxquels le personnage a naturellement
+        accès.</p></li></ul><blockquote><p><strong>Principe Warbound :</strong>
+        la famille représente le <em>socle</em> de la classe, pas sa
+        spécialisation. Un Paladin reste un Combattant quelle que soit son
+        orientation ; un Chaman reste un Mystique même lorsqu'il privilégie le
+        combat au contact.</p></blockquote><p>Warbound utilise les quatre
+        familles de <em>Chroniques Oubliées Fantasy 2</em> :
+        <strong>Aventuriers</strong>, <strong>Combattants</strong>,
+        <strong>Mages</strong> et <strong>Mystiques</strong>.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791788382305
+      modifiedTime: 1791788382305
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!y9ZwjOLLSaLSeFIN.1yPswZCbzV0eh3az'
+  - sort: 175000
+    name: Les familles de profils
+    type: text
+    _id: uaads0rmuM6pElTD
+    system: {}
+    title:
+      show: true
+      level: 3
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Les familles de
+        profils</h1><table><thead><tr><th><p>Famille</p></th><th><p>PV de
+        famille</p></th><th><p>DR</p></th><th><p>Avantage de
+        famille</p></th><th><p>Profils
+        Warbound</p></th></tr></thead><tbody><tr><td><p><strong>Aventurier</strong></p></td><td><p>4</p></td><td><p>d8</p></td><td><p>+1
+        PC</p></td><td><p>Chasseur,
+        Voleur</p></td></tr><tr><td><p><strong>Combattant</strong></p></td><td><p>5</p></td><td><p>d10</p></td><td><p>—</p></td><td><p>Guerrier,
+        Paladin</p></td></tr><tr><td><p><strong>Mage</strong></p></td><td><p>3</p></td><td><p>d6</p></td><td><p>1
+        capacité de rang 2 supplémentaire à la création</p></td><td><p>Mage,
+        Démoniste</p></td></tr><tr><td><p><strong>Mystique</strong></p></td><td><p>4</p></td><td><p>d8</p></td><td><p>+1
+        DR</p></td><td><p>Druide, Prêtre,
+        Chaman</p></td></tr></tbody></table><h2>Points de vigueur au niveau
+        1</h2><p>Au niveau 1, les PV sont calculés selon la règle COF2
+        :</p><p><strong>PV = (2 × PV de famille) +
+        CON</strong></p><table><thead><tr><th><p>Famille</p></th><th><p>PV au
+        niveau
+        1</p></th></tr></thead><tbody><tr><td><p>Aventurier</p></td><td><p>8 +
+        CON</p></td></tr><tr><td><p>Combattant</p></td><td><p>10 +
+        CON</p></td></tr><tr><td><p>Mage</p></td><td><p>6 +
+        CON</p></td></tr><tr><td><p>Mystique</p></td><td><p>8 +
+        CON</p></td></tr></tbody></table><h2>Lecture
+        rapide</h2><p><strong>Aventurier.</strong> Mobile, polyvalent et
+        débrouillard. Warbound y place le Chasseur et le
+        Voleur.</p><p><strong>Combattant.</strong> Le socle martial le plus
+        solide. Warbound y place le Guerrier et le
+        Paladin.</p><p><strong>Mage.</strong> Peu de vigueur mais une
+        progression magique précoce plus poussée. Warbound y place le Mage et le
+        Démoniste.</p><p><strong>Mystique.</strong> Mélange de pouvoir
+        surnaturel, soutien et capacités de combat intermédiaires. Warbound y
+        place le Druide, le Prêtre et le Chaman.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791788382305
+      modifiedTime: 1791788382305
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!y9ZwjOLLSaLSeFIN.uaads0rmuM6pElTD'
+  - sort: 187500
+    name: Les neufs profils de Warbound
+    type: text
+    _id: aNt6qTlwqq1VgN7O
+    system: {}
+    title:
+      show: false
+      level: 3
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Les neuf profils de
+        Warbound</h1><table><thead><tr><th><p>Profil</p></th><th><p>Famille</p></th><th><p>Caractéristiques
+        prioritaires</p></th><th><p>Identité</p></th></tr></thead><tbody><tr><td><p><strong>Chasseur</strong></p></td><td><p>Aventurier</p></td><td><p>AGI,
+        PER, CON</p></td><td><p>Tir, pistage, survie, mobilité et compagnon
+        animal.</p></td></tr><tr><td><p><strong>Voleur</strong></p></td><td><p>Aventurier</p></td><td><p>AGI,
+        INT, CHA</p></td><td><p>Furtivité, précision, ruse et
+        infiltration.</p></td></tr><tr><td><p><strong>Guerrier</strong></p></td><td><p>Combattant</p></td><td><p>FOR,
+        CON, AGI</p></td><td><p>Maîtrise martiale, résistance et contrôle du
+        combat.</p></td></tr><tr><td><p><strong>Paladin</strong></p></td><td><p>Combattant</p></td><td><p>FOR,
+        CHA, VOL</p></td><td><p>Guerrier lourd soutenu par la Lumière, capable
+        de protéger, frapper et
+        soutenir.</p></td></tr><tr><td><p><strong>Mage</strong></p></td><td><p>Mage</p></td><td><p>INT,
+        VOL, AGI</p></td><td><p>Magie profane, puissance élémentaire et
+        contrôle.</p></td></tr><tr><td><p><strong>Démoniste</strong></p></td><td><p>Mage</p></td><td><p>INT,
+        VOL, CON</p></td><td><p>Magie gangrenée, malédictions, démons et
+        puissance à
+        risque.</p></td></tr><tr><td><p><strong>Druide</strong></p></td><td><p>Mystique</p></td><td><p>PER,
+        VOL, CON ou AGI</p></td><td><p>Nature, métamorphose, magie et
+        récupération.</p></td></tr><tr><td><p><strong>Prêtre</strong></p></td><td><p>Mystique</p></td><td><p>VOL,
+        CHA, INT</p></td><td><p>Foi, soins, protection et pouvoirs spirituels ou
+        d'Ombre.</p></td></tr><tr><td><p><strong>Chaman</strong></p></td><td><p>Mystique</p></td><td><p>VOL,
+        PER, CON</p></td><td><p>Esprits, éléments, soutien et combat
+        hybride.</p></td></tr></tbody></table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791788382305
+      modifiedTime: 1791788382305
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!y9ZwjOLLSaLSeFIN.aNt6qTlwqq1VgN7O'
+  - sort: 193750
+    name: Choisir son profil
+    type: text
+    _id: uxkU36zfBN3i7btx
+    system: {}
+    title:
+      show: false
+      level: 3
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Choisir son profil</h1><p>Commencez par l'idée du personnage, puis
+        choisissez le profil Warbound qui traduit le mieux cette
+        identité.</p><ol><li><p><strong>Choisissez votre classe
+        Warcraft.</strong> Elle devient votre profil principal
+        Warbound.</p></li><li><p><strong>Repérez sa famille.</strong> Elle fixe
+        votre socle de PV, votre type de DR et votre éventuel avantage de
+        famille.</p></li><li><p><strong>Regardez les caractéristiques
+        prioritaires.</strong> Elles indiquent les caractéristiques qui
+        soutiennent le mieux le fonctionnement du profil ; elles ne sont pas des
+        obligations.</p></li><li><p><strong>Choisissez vos voies et
+        capacités.</strong> Elles déterminent ensuite la manière dont votre
+        héros exprime concrètement sa classe.</p></li></ol><h2>Correspondances
+        avec COF2</h2><table><thead><tr><th><p>Warbound</p></th><th><p>Profil
+        COF2 le plus
+        proche</p></th></tr></thead><tbody><tr><td><p>Guerrier</p></td><td><p>Guerrier</p></td></tr><tr><td><p>Voleur</p></td><td><p>Voleur</p></td></tr><tr><td><p>Chasseur</p></td><td><p>Rôdeur</p></td></tr><tr><td><p>Mage</p></td><td><p>Magicien</p></td></tr><tr><td><p>Démoniste</p></td><td><p>Sorcier</p></td></tr><tr><td><p>Druide</p></td><td><p>Druide</p></td></tr><tr><td><p>Prêtre</p></td><td><p>Prêtre</p></td></tr><tr><td><p>Paladin</p></td><td><p>Chevalier
+        + Prêtre</p></td></tr><tr><td><p>Chaman</p></td><td><p>Druide +
+        Prêtre</p></td></tr></tbody></table><h2>Deux cas
+        particuliers</h2><p><strong>Paladin → Combattant.</strong> Son identité
+        repose d'abord sur un socle martial : armes, armure et présence en
+        première ligne. Ses pouvoirs sacrés sont exprimés par ses voies et
+        capacités plutôt que par un changement de famille.</p><p><strong>Chaman
+        → Mystique.</strong> Même lorsqu'il combat au contact, son identité
+        fondamentale vient de sa relation aux esprits et aux éléments. Le bonus
+        de récupération des Mystiques traduit mieux ce socle que la vigueur
+        brute d'un Combattant.</p><blockquote><p><strong>À retenir :</strong> la
+        famille définit le châssis mécanique ; le profil définit la classe ; les
+        voies définissent la manière de la jouer.</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791788382305
+      modifiedTime: 1791788382305
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!y9ZwjOLLSaLSeFIN.uxkU36zfBN3i7btx'
+folder: null
 categories: []
 ownership:
   default: 2
@@ -846,9 +1266,9 @@ ownership:
 _stats:
   coreVersion: '14.367'
   systemId: co2
-  systemVersion: 2.3.11
-  createdTime: 1790026206718
-  modifiedTime: 1790026206718
+  systemVersion: 2.3.12
+  createdTime: 1791788382305
+  modifiedTime: 1791788382305
   lastModifiedBy: TjbWhMczNyKieD8D
   compendiumSource: null
   duplicateSource: null

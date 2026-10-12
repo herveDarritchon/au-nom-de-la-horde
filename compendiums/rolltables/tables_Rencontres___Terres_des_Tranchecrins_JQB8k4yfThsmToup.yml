@@ -1,0 +1,540 @@
+name: Rencontres — Terres des Tranchecrins
+folder: POSJyU6u0adLIYlz
+formula: 1d20
+replacement: true
+displayRoll: true
+flags:
+  warbound-campaign-content:
+    markdownImport:
+      schema: 1
+      collectionId: terres-tranchecrins-encounters
+      collectionType: encounter
+results:
+  - type: document
+    name: Le passage qui se referme
+    description: >-
+      Plusieurs Tranchecrins tirent des amas de branches épineuses à travers un
+      passage étroit. Ils n’ont pas encore remarqué les PJ.
+    documentUuid: JournalEntry.SUo222qLeyUz6N3g.JournalEntryPage.GXo2oOzDiXWbJMKj
+    range:
+      - 1
+      - 1
+    _id: 2SYvTKT2OuiqaxJT
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430101
+      modifiedTime: 1791753430101
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!JQB8k4yfThsmToup.2SYvTKT2OuiqaxJT'
+  - type: document
+    name: Le guetteur dans la poussière
+    description: >-
+      Une silhouette apparaît un instant sur une crête puis disparaît. Quelques
+      secondes plus tard, un faible nuage de poussière s’élève plus loin dans
+      les ravins.
+    documentUuid: JournalEntry.SUo222qLeyUz6N3g.JournalEntryPage.e1Zq26enFfzJ0XRm
+    range:
+      - 2
+      - 2
+    _id: sJsnmdcGPHZ4a0bR
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430101
+      modifiedTime: 1791753430101
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!JQB8k4yfThsmToup.sJsnmdcGPHZ4a0bR'
+  - type: document
+    name: La gorge coupée
+    description: >-
+      Une portion du sentier vient de s’effondrer dans le ravin. Des pierres
+      roulent encore et un autre passage semble exister plus haut.
+    documentUuid: JournalEntry.SUo222qLeyUz6N3g.JournalEntryPage.42rxKmkYmDsv43pZ
+    range:
+      - 3
+      - 3
+    _id: pb88lrIzZVpHZWqj
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430101
+      modifiedTime: 1791753430101
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!JQB8k4yfThsmToup.pb88lrIzZVpHZWqj'
+  - type: document
+    name: Ceux qui descendent au cratère
+    description: >-
+      Une file de Tranchecrins chargés de bois, de peaux et de fagots descend
+      vers le Cratère sous la surveillance de deux éclaireurs.
+    documentUuid: JournalEntry.SUo222qLeyUz6N3g.JournalEntryPage.pfZ1dK1ZzlYgmUSd
+    range:
+      - 4
+      - 4
+    _id: aTaGYphptSAtIkcl
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430101
+      modifiedTime: 1791753430101
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!JQB8k4yfThsmToup.aTaGYphptSAtIkcl'
+  - type: document
+    name: Le verrou du tunnel
+    description: >-
+      Des voix étouffées et des déplacements de pierres proviennent de l’entrée
+      du Tunnel. Un petit groupe est en train d’en renforcer l’accès.
+    documentUuid: JournalEntry.SUo222qLeyUz6N3g.JournalEntryPage.QQdUTpqR70N6HrGh
+    range:
+      - 5
+      - 5
+    _id: y3pxdXbNVtFyZo4z
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430101
+      modifiedTime: 1791753430101
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!JQB8k4yfThsmToup.y3pxdXbNVtFyZo4z'
+  - type: document
+    name: La bête abandonnée
+    description: >-
+      Une bête de bât affolée, encore chargée, tire sur une longe coincée entre
+      deux rochers. Son propriétaire n’est nulle part en vue.
+    documentUuid: JournalEntry.SUo222qLeyUz6N3g.JournalEntryPage.CaI1qANNAOrcmlrS
+    range:
+      - 6
+      - 6
+    _id: YHwDuFsG2BsKtG6j
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430101
+      modifiedTime: 1791753430101
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!JQB8k4yfThsmToup.YHwDuFsG2BsKtG6j'
+  - type: document
+    name: L’ennemi sous les ronces
+    description: >-
+      Un Tranchecrin blessé tente silencieusement de se dégager d’un amas de
+      branches effondrées. Il aperçoit les PJ au même instant.
+    documentUuid: JournalEntry.SUo222qLeyUz6N3g.JournalEntryPage.mkafjEUNIyrrFOso
+    range:
+      - 7
+      - 7
+    _id: mFFqcf1Vej0Xmq9a
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430101
+      modifiedTime: 1791753430101
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!JQB8k4yfThsmToup.mFFqcf1Vej0Xmq9a'
+  - type: document
+    name: Des pas au-dessus des pas
+    description: >-
+      Des empreintes récentes suivent exactement la piste des PJ depuis
+      plusieurs centaines de mètres, mais restent constamment sur les hauteurs.
+    documentUuid: JournalEntry.SUo222qLeyUz6N3g.JournalEntryPage.Swl8FczFGsGx9ld3
+    range:
+      - 8
+      - 8
+    _id: gzPeVEtpTSPIZXir
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430101
+      modifiedTime: 1791753430101
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!JQB8k4yfThsmToup.gzPeVEtpTSPIZXir'
+  - type: document
+    name: La piste devenue silencieuse
+    description: >-
+      Sur la Piste des Échineurs, insectes et petits animaux ont brusquement
+      cessé toute activité. Même les traces Tranchecrins évitent une portion du
+      chemin.
+    documentUuid: JournalEntry.SUo222qLeyUz6N3g.JournalEntryPage.OjFqmkYW414TY3cP
+    range:
+      - 9
+      - 9
+    _id: 6a8BIb6nXmsb0xbm
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430101
+      modifiedTime: 1791753430101
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!JQB8k4yfThsmToup.6a8BIb6nXmsb0xbm'
+  - type: document
+    name: Les marques sur la roche
+    description: >-
+      Une série de marques profondes traverse plusieurs rochers et disparaît en
+      direction de la Grotte des Échineurs. Elles recoupent des traces
+      Tranchecrins plus anciennes.
+    documentUuid: JournalEntry.SUo222qLeyUz6N3g.JournalEntryPage.vIZbX98io1nBrlaY
+    range:
+      - 10
+      - 10
+    _id: g3nM2XDMUBvDR5Fl
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430101
+      modifiedTime: 1791753430101
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!JQB8k4yfThsmToup.g3nM2XDMUBvDR5Fl'
+  - type: document
+    name: La fumée basse
+    description: >-
+      Une fumée épaisse reste prisonnière du fond du Cratère. À travers elle
+      apparaissent par moments des silhouettes occupées autour d’un camp
+      dissimulé.
+    documentUuid: JournalEntry.SUo222qLeyUz6N3g.JournalEntryPage.6IpNKz5JsuwyRELS
+    range:
+      - 11
+      - 11
+    _id: y5S2kp2nPH5p0ed9
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430101
+      modifiedTime: 1791753430101
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!JQB8k4yfThsmToup.y5S2kp2nPH5p0ed9'
+  - type: document
+    name: La marque renversée
+    description: >-
+      Un assemblage de bois, d’os et de pierres servant visiblement de marque
+      territoriale gît brisé sur le sentier. Des Tranchecrins approchent pour
+      examiner les dégâts.
+    documentUuid: JournalEntry.SUo222qLeyUz6N3g.JournalEntryPage.lMuvENNQLXF7STg1
+    range:
+      - 12
+      - 12
+    _id: hutV6lgNjEJxG954
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430101
+      modifiedTime: 1791753430101
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!JQB8k4yfThsmToup.hutV6lgNjEJxG954'
+  - type: document
+    name: Le passage révélé
+    description: >-
+      Un pan de terre récemment arraché par l’érosion révèle une étroite
+      corniche permettant de contourner une partie des ravins. Des traces
+      montrent que quelqu’un l’utilisait déjà.
+    documentUuid: JournalEntry.SUo222qLeyUz6N3g.JournalEntryPage.nq5n6DO9kcqAJBAG
+    range:
+      - 13
+      - 13
+    _id: 1IlZKPPmynPVy306
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430101
+      modifiedTime: 1791753430101
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!JQB8k4yfThsmToup.1IlZKPPmynPVy306'
+  - type: document
+    name: Ceux qui reviennent trop vite
+    description: >-
+      Deux éclaireurs de la Horde émergent précipitamment d’un ravin. Ils
+      transportent un troisième membre de leur groupe et refusent d’abord de
+      ralentir.
+    documentUuid: JournalEntry.SUo222qLeyUz6N3g.JournalEntryPage.hP5mtbTZ1bEvtuEt
+    range:
+      - 14
+      - 14
+    _id: bm4c9eBXVwJAZRNq
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430101
+      modifiedTime: 1791753430101
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!JQB8k4yfThsmToup.bm4c9eBXVwJAZRNq'
+  - type: document
+    name: Les ronces prennent feu
+    description: >-
+      Une fumée âcre précède un front de flammes qui remonte rapidement un
+      taillis sec. Plus loin, des cris indiquent que d’autres occupants du ravin
+      sont également pris au piège.
+    documentUuid: JournalEntry.SUo222qLeyUz6N3g.JournalEntryPage.eqdy9zErKUlKWrzJ
+    range:
+      - 15
+      - 15
+    _id: iVAwIwfQ10KGZLJh
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430101
+      modifiedTime: 1791753430101
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!JQB8k4yfThsmToup.iVAwIwfQ10KGZLJh'
+  - type: document
+    name: La cache ouverte
+    description: >-
+      Derrière un écran de pierres se trouve une petite réserve récemment vidée.
+      Quelques objets trop encombrants ont été abandonnés dans la précipitation.
+    documentUuid: JournalEntry.SUo222qLeyUz6N3g.JournalEntryPage.hBLVuPpvGJUEeCUO
+    range:
+      - 16
+      - 16
+    _id: b5xs7H6q3ZpRl4cK
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430101
+      modifiedTime: 1791753430101
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!JQB8k4yfThsmToup.b5xs7H6q3ZpRl4cK'
+  - type: document
+    name: Trop loin de Tranchecolline
+    description: >-
+      Un petit groupe venu de Tranchecolline tente de faire demi-tour avec un
+      chargement encombrant. Il vient de comprendre que le passage emprunté
+      débouche au cœur du territoire Tranchecrin.
+    documentUuid: JournalEntry.SUo222qLeyUz6N3g.JournalEntryPage.FYnh37cbb4ZeokyB
+    range:
+      - 17
+      - 17
+    _id: xFz5EwiQ1n3vdtTM
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430101
+      modifiedTime: 1791753430101
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!JQB8k4yfThsmToup.xFz5EwiQ1n3vdtTM'
+  - type: document
+    name: L’air derrière la pierre
+    description: >-
+      Dans le Tunnel, un courant d’air froid passe derrière une paroi de pierres
+      empilées. Certaines ont été déplacées récemment.
+    documentUuid: JournalEntry.SUo222qLeyUz6N3g.JournalEntryPage.XuHnxuR2iTiQNh8T
+    range:
+      - 18
+      - 18
+    _id: 6FzTSNZ5NA3zoBVs
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430101
+      modifiedTime: 1791753430101
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!JQB8k4yfThsmToup.6FzTSNZ5NA3zoBVs'
+  - type: document
+    name: La grotte momentanément vide
+    description: >-
+      L’entrée de la Grotte des Échineurs est déserte. Des traces nombreuses en
+      sortent, mais presque aucune n’y revient.
+    documentUuid: JournalEntry.SUo222qLeyUz6N3g.JournalEntryPage.ukA1MEB9n3IeDjbV
+    range:
+      - 19
+      - 19
+    _id: 2lNqlZs3dXcE62Ou
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430101
+      modifiedTime: 1791753430101
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!JQB8k4yfThsmToup.2lNqlZs3dXcE62Ou'
+  - type: document
+    name: Quelque chose revient
+    description: >-
+      Alors que les PJ approchent de la Grotte des Échineurs, des pierres
+      roulent sur la pente derrière eux. Quelque chose suit lentement la même
+      piste qu’eux.
+    documentUuid: JournalEntry.SUo222qLeyUz6N3g.JournalEntryPage.HiIv3XRJ71K74AbD
+    range:
+      - 20
+      - 20
+    _id: cJ2l4HG2OKtkst2d
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430101
+      modifiedTime: 1791753430101
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!JQB8k4yfThsmToup.cJ2l4HG2OKtkst2d'
+_id: JQB8k4yfThsmToup
+img: modules/warbound-campaign-content/assets/images/icons/tables-aleatoires/tranchecrins/cof2-ta-rencontres-tranchecrins.png
+description: ''
+sort: 200000
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1791753430101
+  modifiedTime: 1791753430101
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!JQB8k4yfThsmToup'

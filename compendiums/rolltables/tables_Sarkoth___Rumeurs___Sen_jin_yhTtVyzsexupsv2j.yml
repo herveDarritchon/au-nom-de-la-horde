@@ -1,0 +1,202 @@
+folder: aS9l5QwaSmSA9GAn
+name: 'Sarkoth — Rumeurs : Sen’jin'
+img: modules/warbound-campaign-content/assets/images/icons/tables-aleatoires/durotar/scorpides/cof2-tables-aleatoires-scorpidde-durotar.png
+description: >-
+  <p>Rumeurs de chasse, de guérison et de traditions Sombrelance. 5 rumeurs à
+  tirer au d5.</p><p><strong>MJ :</strong> Les rumeurs ne sont pas toutes
+  exactes. Les détails de vérité et de contexte restent dans le journal «
+  Rumeurs autour de Sarkoth ». Adapter leur disponibilité à l’évolution des
+  événements.</p>
+results:
+  - _id: bcda0441dbcc7e2e
+    type: text
+    name: La Mère rouge
+    description: >-
+      <p>« Sarkoth ? Les Orcs lui donnent un nom comme à une bête. Certains
+      anciens l’appellent la Mère rouge. »</p>
+    img: icons/svg/d20-black.svg
+    weight: 1
+    range:
+      - 1
+      - 1
+    drawn: false
+    flags:
+      world:
+        sarkoth:
+          sourceRumorNumber: 6
+          suggestedSpeakers:
+            - 'un vieux chasseur Sombrelance '
+            - 'une guérisseuse '
+            - un Troll âgé ayant vécu longtemps dans le sud de Durotar
+          mjTruth: >-
+            Vraie dans Warbound. C’est un surnom traditionnel ou populaire donné
+            à une très vieille matriarche scorpide.
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430108
+      modifiedTime: 1791753430108
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!yhTtVyzsexupsv2j.bcda0441dbcc7e2e'
+  - _id: 7cd8d5de7086a2ba
+    type: text
+    name: Son poison peut sauver un homme
+    description: >-
+      <p>« Le venin tue. Le venin soigne aussi. Tout dépend de qui tient le
+      mortier. »</p>
+    img: icons/svg/d20-black.svg
+    weight: 1
+    range:
+      - 2
+      - 2
+    drawn: false
+    flags:
+      world:
+        sarkoth:
+          sourceRumorNumber: 7
+          suggestedSpeakers:
+            - 'une guérisseuse troll '
+            - 'un alchimiste '
+            - un chaman
+          mjTruth: >-
+            Vraie. Le venin brut reste mortel, mais préparé correctement, celui
+            de Sarkoth peut produire un antivenin très puissant.
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430108
+      modifiedTime: 1791753430108
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!yhTtVyzsexupsv2j.7cd8d5de7086a2ba'
+  - _id: cc122e4c5dfdd4e1
+    type: text
+    name: Tuer Sarkoth ne fera pas disparaître les scorpides
+    description: >-
+      <p>« Coupe la tête d’un serpent et tu as un cadavre. Tue la vieille
+      scorpide et tu auras cent jeunes qui chercheront une nouvelle pierre où se
+      cacher. »</p>
+    img: icons/svg/d20-black.svg
+    weight: 1
+    range:
+      - 3
+      - 3
+    drawn: false
+    flags:
+      world:
+        sarkoth:
+          sourceRumorNumber: 8
+          suggestedSpeakers:
+            - 'un chasseur expérimenté '
+            - un Troll ayant observé les migrations de scorpides
+          mjTruth: >-
+            Vraie dans l’adaptation. La mort de Sarkoth peut provoquer une
+            dispersion des jeunes scorpides et déstabiliser leur territoire.
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430108
+      modifiedTime: 1791753430108
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!yhTtVyzsexupsv2j.cc122e4c5dfdd4e1'
+  - _id: 3aa27826ccc6583f
+    type: text
+    name: Sarkoth comprend les Trolls
+    description: >-
+      <p>« Ma grand-mère disait qu’elle reconnaît les voix. Moi, je dis qu’elle
+      reconnaît surtout ceux qui portent de la viande. »</p>
+    img: icons/svg/d20-black.svg
+    weight: 1
+    range:
+      - 4
+      - 4
+    drawn: false
+    flags:
+      world:
+        sarkoth:
+          sourceRumorNumber: 9
+          suggestedSpeakers:
+            - 'un chasseur '
+            - 'un enfant de Sen’jin répétant une histoire entendue '
+            - un vieux Troll amusé
+          mjTruth: >-
+            Partiellement vraie. Sarkoth ne comprend pas le langage parlé, mais
+            elle peut reconnaître des individus, des intentions simples et des
+            comportements répétés.
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430108
+      modifiedTime: 1791753430108
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!yhTtVyzsexupsv2j.3aa27826ccc6583f'
+  - _id: b7559045b87e79b8
+    type: text
+    name: Hana’zua voulait prouver quelque chose
+    description: >-
+      <p>« Il n’est pas allé là-bas parce qu’on le lui avait demandé. Le garçon
+      voulait revenir avec une histoire que personne ne pourrait lui enlever.
+      »</p>
+    img: icons/svg/d20-black.svg
+    weight: 1
+    range:
+      - 5
+      - 5
+    drawn: false
+    flags:
+      world:
+        sarkoth:
+          sourceRumorNumber: 10
+          suggestedSpeakers:
+            - 'quelqu’un connaissant Hana’zua '
+            - 'une connaissance de sa famille '
+            - un jeune Troll de son âge
+          mjTruth: >-
+            Plausible et compatible avec son histoire. Hana’zua est très
+            sensible à l’idée d’échec et de valeur personnelle.
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430108
+      modifiedTime: 1791753430108
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!yhTtVyzsexupsv2j.b7559045b87e79b8'
+replacement: true
+displayRoll: true
+sort: 100000
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1791753430108
+  modifiedTime: 1791753430108
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_id: yhTtVyzsexupsv2j
+formula: 1d5
+_key: '!tables!yhTtVyzsexupsv2j'
