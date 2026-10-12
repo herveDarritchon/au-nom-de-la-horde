@@ -1,0 +1,20 @@
+type: RollTable
+folder: null
+name: Warbound
+color: '#ac3016'
+sorting: a
+_id: OKsZDTI1cikJvVTB
+description: ''
+sort: 100000
+flags: {}
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1791753429976
+  modifiedTime: 1791753430155
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!OKsZDTI1cikJvVTB'

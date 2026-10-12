@@ -1,0 +1,203 @@
+folder: yWmpx7cN5Ydiwrw9
+name: 'Sarkoth — Rumeurs : Tranchecolline'
+img: modules/warbound-campaign-content/assets/images/icons/tables-aleatoires/durotar/scorpides/cof2-tables-aleatoires-scorpidde-durotar.png
+description: >-
+  <p>Rumeurs de passage : convois, voyageurs et marchands. 5 rumeurs à tirer au
+  d5.</p><p><strong>MJ :</strong> Les rumeurs ne sont pas toutes exactes. Les
+  détails de vérité et de contexte restent dans le journal « Rumeurs autour de
+  Sarkoth ». Adapter leur disponibilité à l’évolution des événements.</p>
+results:
+  - _id: 44414e4d4e6477c1
+    type: text
+    name: Les convois du sud changent de route
+    description: >-
+      <p>« Deux chariots ont pris le détour cette semaine. Les conducteurs
+      disent qu’un gros scorpide coupe le passage. »</p>
+    img: icons/svg/d20-black.svg
+    weight: 1
+    range:
+      - 1
+      - 1
+    drawn: false
+    flags:
+      world:
+        sarkoth:
+          sourceRumorNumber: 11
+          suggestedSpeakers:
+            - 'un convoyeur '
+            - 'un garde '
+            - un marchand de l’auberge
+          mjTruth: >-
+            Partiellement vraie. Sarkoth s’approche davantage des zones
+            fréquentées, mais elle ne cherche pas à bloquer les convois
+            volontairement.
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430109
+      modifiedTime: 1791753430109
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!OSBKTSr6dGUpoGwA.44414e4d4e6477c1'
+  - _id: d60a4eb4ca04fc31
+    type: text
+    name: Gornek veut sa tête
+    description: >-
+      <p>« On raconte que Gornek a promis une belle récompense à celui qui
+      rapportera la pince de Sarkoth. »</p>
+    img: icons/svg/d20-black.svg
+    weight: 1
+    range:
+      - 2
+      - 2
+    drawn: false
+    flags:
+      world:
+        sarkoth:
+          sourceRumorNumber: 12
+          suggestedSpeakers:
+            - 'une recrue récemment arrivée '
+            - 'un voyageur '
+            - un garde qui répète une version simplifiée de l’histoire
+          mjTruth: >-
+            Fausse ou très déformée. Gornek veut surtout protéger les recrues et
+            sauver Hana’zua. Il n’a pas nécessairement lancé de chasse
+            officielle.
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430109
+      modifiedTime: 1791753430109
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!OSBKTSr6dGUpoGwA.d60a4eb4ca04fc31'
+  - _id: d756a0d6f49c1594
+    type: text
+    name: Son venin vaut une fortune
+    description: >-
+      <p>« Une fiole de venin de Sarkoth ? À Orgrimmar, un apothicaire te
+      paierait ça plus cher qu’un kodo. »</p>
+    img: icons/svg/d20-black.svg
+    weight: 1
+    range:
+      - 3
+      - 3
+    drawn: false
+    flags:
+      world:
+        sarkoth:
+          sourceRumorNumber: 13
+          suggestedSpeakers:
+            - 'un marchand '
+            - 'un contrebandier '
+            - un aventurier qui aime embellir ses histoires
+          mjTruth: >-
+            Exagérée. Le venin est précieux, mais sa valeur commerciale n’est
+            pas encore établie à cette époque.
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430109
+      modifiedTime: 1791753430109
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!OSBKTSr6dGUpoGwA.d756a0d6f49c1594'
+  - _id: 753fe012d74078fc
+    type: text
+    name: Quelqu’un a déplacé son nid
+    description: >-
+      <p>« J’ai parlé à un péon revenu de la Vallée. Ils ont bouché une vieille
+      fissure pour renforcer le chemin. Depuis, la grosse bestiole ne tient plus
+      en place. »</p>
+    img: icons/svg/d20-black.svg
+    weight: 1
+    range:
+      - 4
+      - 4
+    drawn: false
+    flags:
+      world:
+        sarkoth:
+          sourceRumorNumber: 14
+          suggestedSpeakers:
+            - 'un péon '
+            - 'un convoyeur '
+            - quelqu’un travaillant sur les routes
+          mjTruth: >-
+            Très proche de la vérité. Les travaux de la Horde ont condamné
+            l’accès à un ancien site de ponte.
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430109
+      modifiedTime: 1791753430109
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!OSBKTSr6dGUpoGwA.753fe012d74078fc'
+  - _id: 3b190d6a2352537d
+    type: text
+    name: Les Trolls veulent qu’on la laisse tranquille
+    description: >-
+      <p>« Les Trolls du sud disent que la vieille scorpide était là avant nous.
+      Facile à dire quand elle ne dort pas devant leur porte. »</p>
+    img: icons/svg/d20-black.svg
+    weight: 1
+    range:
+      - 5
+      - 5
+    drawn: false
+    flags:
+      world:
+        sarkoth:
+          sourceRumorNumber: 15
+          suggestedSpeakers:
+            - 'un garde orc '
+            - 'un péon '
+            - un voyageur un peu agacé
+          mjTruth: >-
+            Partiellement vraie. Certains Trolls connaissent ou respectent
+            Sarkoth comme une très vieille créature locale. Cela ne signifie pas
+            que Sen’jin a officiellement demandé à la Horde de la protéger.
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430109
+      modifiedTime: 1791753430109
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!OSBKTSr6dGUpoGwA.3b190d6a2352537d'
+replacement: true
+displayRoll: true
+sort: 100000
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1791753430109
+  modifiedTime: 1791753430109
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_id: OSBKTSr6dGUpoGwA
+formula: 1d5
+_key: '!tables!OSBKTSr6dGUpoGwA'

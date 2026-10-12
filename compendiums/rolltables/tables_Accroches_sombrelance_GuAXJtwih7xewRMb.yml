@@ -1,0 +1,531 @@
+name: Accroches sombrelance
+folder: 1zMvXAUXgjtAOdOt
+formula: 1d20
+replacement: true
+displayRoll: true
+flags:
+  warbound-campaign-content:
+    markdownImport:
+      schema: 1
+      collectionId: durotar-sombrelance-hooks
+results:
+  - type: document
+    name: Le pêcheur revenu deux fois
+    description: >-
+      Un pêcheur disparu revient vivant à Sen’jin. Quelques heures plus tard,
+      une patrouille affirme avoir découvert son cadavre sur la côte.
+    documentUuid: JournalEntry.BFQZCTGuKPMLZ1iM.JournalEntryPage.JPs5iCVLCzd15Hx7
+    range:
+      - 1
+      - 1
+    _id: mDevRY1i5Np6s21o
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430081
+      modifiedTime: 1791753430081
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GuAXJtwih7xewRMb.mDevRY1i5Np6s21o'
+  - type: document
+    name: Ceux qu’on ne doit pas tuer
+    description: >-
+      Trois Sombrelance fuient les Îles, mais l’un d’eux est encore sous
+      l’emprise de Zalazane et devient violent dès qu’on approche.
+    documentUuid: JournalEntry.BFQZCTGuKPMLZ1iM.JournalEntryPage.yAqXKCwzjZ8CWhG9
+    range:
+      - 2
+      - 2
+    _id: 7jeJclTzPx51vdhi
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430081
+      modifiedTime: 1791753430081
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GuAXJtwih7xewRMb.7jeJclTzPx51vdhi'
+  - type: document
+    name: Le tambour des Îles
+    description: >-
+      Un ancien rythme sombrelance retentit chaque nuit depuis les Îles de
+      l’Écho. Quelqu’un lui répond secrètement depuis Sen’jin.
+    documentUuid: JournalEntry.BFQZCTGuKPMLZ1iM.JournalEntryPage.lKwZRsNkUmsY1xea
+    range:
+      - 3
+      - 3
+    _id: GXoVd4TkbbBsgvIm
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430081
+      modifiedTime: 1791753430081
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GuAXJtwih7xewRMb.GXoVd4TkbbBsgvIm'
+  - type: document
+    name: La dette de Sen’jin
+    description: >-
+      Un ancien affirme que sa famille doit encore honorer une promesse faite à
+      des Sombrelance restés sur les Îles.
+    documentUuid: JournalEntry.BFQZCTGuKPMLZ1iM.JournalEntryPage.8hifFlh5kbvDzCYP
+    range:
+      - 4
+      - 4
+    _id: bmUBYBNs8QpDDMAP
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430081
+      modifiedTime: 1791753430081
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GuAXJtwih7xewRMb.bmUBYBNs8QpDDMAP'
+  - type: document
+    name: Le mauvais prisonnier
+    description: >-
+      Une patrouille capture au sud un troll qui n’est pas Sombrelance. Ses
+      marques rappellent les tribus de Strangleronce.
+    documentUuid: JournalEntry.BFQZCTGuKPMLZ1iM.JournalEntryPage.hW6PzVqGcDhKxzHA
+    range:
+      - 5
+      - 5
+    _id: 7f2kfZkGxL4U9XWl
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430081
+      modifiedTime: 1791753430081
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GuAXJtwih7xewRMb.7f2kfZkGxL4U9XWl'
+  - type: document
+    name: Le sanctuaire vide
+    description: >-
+      Un petit sanctuaire loa a été entièrement vidé de ses offrandes, jusqu’aux
+      objets sans valeur. Les accusations commencent déjà.
+    documentUuid: JournalEntry.BFQZCTGuKPMLZ1iM.JournalEntryPage.4FzI9HglW3X2cQim
+    range:
+      - 6
+      - 6
+    _id: 1DBZDwVt81jIoWzs
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430081
+      modifiedTime: 1791753430081
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GuAXJtwih7xewRMb.1DBZDwVt81jIoWzs'
+  - type: document
+    name: Les volontaires
+    description: >-
+      De jeunes Sombrelance préparent une expédition clandestine vers une petite
+      île qu’ils pensent pouvoir reprendre aux hommes de Zalazane.
+    documentUuid: JournalEntry.BFQZCTGuKPMLZ1iM.JournalEntryPage.NGX7upXK2TpjW2vu
+    range:
+      - 7
+      - 7
+    _id: MGXH2GqBzWgM2j9E
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430081
+      modifiedTime: 1791753430081
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GuAXJtwih7xewRMb.MGXH2GqBzWgM2j9E'
+  - type: document
+    name: La querelle du puits
+    description: >-
+      Des chasseurs trolls et une caravane venue de Razor Hill revendiquent la
+      priorité sur le même point d’eau.
+    documentUuid: JournalEntry.BFQZCTGuKPMLZ1iM.JournalEntryPage.epcVNYi2xUz5YJDo
+    range:
+      - 8
+      - 8
+    _id: LgaiFEYm7T902ARy
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430081
+      modifiedTime: 1791753430081
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GuAXJtwih7xewRMb.LgaiFEYm7T902ARy'
+  - type: document
+    name: Les traces de Minshina
+    description: >-
+      Un inconnu pose des questions très précises sur Minshina et sur des objets
+      rituels cachés après l’abandon des Îles.
+    documentUuid: JournalEntry.BFQZCTGuKPMLZ1iM.JournalEntryPage.7S5xBqi1yxveL3lB
+    range:
+      - 9
+      - 9
+    _id: Ku8D17Yd14rJgaiZ
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430081
+      modifiedTime: 1791753430081
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GuAXJtwih7xewRMb.Ku8D17Yd14rJgaiZ'
+  - type: document
+    name: Le bateau de Tiragarde
+    description: >-
+      Une embarcation humaine s’échoue au sud avec un blessé, une carte et un
+      objet que les Sombrelance reconnaissent comme leur appartenant.
+    documentUuid: JournalEntry.BFQZCTGuKPMLZ1iM.JournalEntryPage.tpRJusmhSYzHvTBC
+    range:
+      - 10
+      - 10
+    _id: zsBfbTlj3YNFIpg2
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430081
+      modifiedTime: 1791753430081
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GuAXJtwih7xewRMb.zsBfbTlj3YNFIpg2'
+  - type: document
+    name: La chasse interdite
+    description: >-
+      Une bête dangereuse apparaît près de Sen’jin, mais un chasseur affirme
+      qu’elle porte un signe d’un loa et interdit qu’on la tue.
+    documentUuid: JournalEntry.BFQZCTGuKPMLZ1iM.JournalEntryPage.ecRxSmJwXjx0LnhE
+    range:
+      - 11
+      - 11
+    _id: kyt1NV8282jg586z
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430081
+      modifiedTime: 1791753430081
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GuAXJtwih7xewRMb.kyt1NV8282jg586z'
+  - type: document
+    name: Celui qui veut repartir
+    description: >-
+      Un Sombrelance annonce qu’il quitte Durotar pour retourner à
+      Strangleronce. Quelques jeunes commencent à écouter ses raisons.
+    documentUuid: JournalEntry.BFQZCTGuKPMLZ1iM.JournalEntryPage.zs5mS6S1PIbee2t2
+    range:
+      - 12
+      - 12
+    _id: 7vmzHPEzkIyOwJOt
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430081
+      modifiedTime: 1791753430081
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GuAXJtwih7xewRMb.7vmzHPEzkIyOwJOt'
+  - type: document
+    name: Les voix des Îles
+    description: >-
+      Des signaux révèlent l’existence d’un petit groupe de Sombrelance libres
+      caché au milieu des Îles et cherchant à évacuer leurs proches.
+    documentUuid: JournalEntry.BFQZCTGuKPMLZ1iM.JournalEntryPage.j5hWzZyllEqBmLMZ
+    range:
+      - 13
+      - 13
+    _id: HisOXPT4JyFcFpHM
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430081
+      modifiedTime: 1791753430081
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GuAXJtwih7xewRMb.HisOXPT4JyFcFpHM'
+  - type: document
+    name: Le sang de Strangleronce
+    description: >-
+      Un troll venu de l’est arrive à Sen’jin pour réclamer qu’un vieil exilé
+      honore une dette contractée avant son départ de Strangleronce.
+    documentUuid: JournalEntry.BFQZCTGuKPMLZ1iM.JournalEntryPage.zdyvTGwJG8lm27r0
+    range:
+      - 14
+      - 14
+    _id: x76IzsVTROG9hWSD
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430081
+      modifiedTime: 1791753430081
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GuAXJtwih7xewRMb.x76IzsVTROG9hWSD'
+  - type: document
+    name: Le loa qui ne répond plus
+    description: >-
+      Plusieurs chasseurs affirment que leurs rites habituels ne fonctionnent
+      plus correctement autour d’un même secteur de Durotar.
+    documentUuid: JournalEntry.BFQZCTGuKPMLZ1iM.JournalEntryPage.O6NJTWP8bWeU1leb
+    range:
+      - 15
+      - 15
+    _id: xyZSI2xNPXFaJu02
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430081
+      modifiedTime: 1791753430081
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GuAXJtwih7xewRMb.xyZSI2xNPXFaJu02'
+  - type: document
+    name: Une île pour les vivants
+    description: >-
+      Des Sombrelance veulent reprendre une seule île périphérique afin d’y
+      établir un poste avancé plutôt que lancer une reconquête générale.
+    documentUuid: JournalEntry.BFQZCTGuKPMLZ1iM.JournalEntryPage.U1pj9VrNAfOwm5uN
+    range:
+      - 16
+      - 16
+    _id: hQZw9HAApDXP5QhM
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430081
+      modifiedTime: 1791753430081
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GuAXJtwih7xewRMb.hQZw9HAApDXP5QhM'
+  - type: document
+    name: Le masque sans famille
+    description: >-
+      Un masque funéraire disparaît à Sen’jin. La famille concernée refuse
+      pourtant de déclarer officiellement le vol.
+    documentUuid: JournalEntry.BFQZCTGuKPMLZ1iM.JournalEntryPage.BDZ85rDqU2zMsRt1
+    range:
+      - 17
+      - 17
+    _id: 71kCNSR15ywpKKhq
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430081
+      modifiedTime: 1791753430081
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GuAXJtwih7xewRMb.71kCNSR15ywpKKhq'
+  - type: document
+    name: Ce que cherche Gadrin
+    description: >-
+      Maître Gadrin rassemble discrètement des informations sur quelque chose
+      qui ne se trouve pas en Durotar. Plusieurs personnes veulent savoir
+      pourquoi.
+    documentUuid: JournalEntry.BFQZCTGuKPMLZ1iM.JournalEntryPage.G1MyiW7lkleLYGhj
+    range:
+      - 18
+      - 18
+    _id: WXuY3RK5YXzMoGmQ
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430081
+      modifiedTime: 1791753430081
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GuAXJtwih7xewRMb.WXuY3RK5YXzMoGmQ'
+  - type: document
+    name: Les yeux des Kolkar
+    description: >-
+      Les Kolkar cessent de frapper les pistes et se contentent de les observer.
+      Les chasseurs pensent qu’ils préparent quelque chose.
+    documentUuid: JournalEntry.BFQZCTGuKPMLZ1iM.JournalEntryPage.5rGRc4HYUNHf51xL
+    range:
+      - 19
+      - 19
+    _id: 2Y9btuPrdHQu6aJ4
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430081
+      modifiedTime: 1791753430081
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GuAXJtwih7xewRMb.2Y9btuPrdHQu6aJ4'
+  - type: document
+    name: Quelque chose change sous la terre
+    description: >-
+      Des Sombrelance sensibles aux esprits remarquent des phénomènes
+      inhabituels qui semblent devenir plus nets lorsqu’on se dirige vers le
+      nord.
+    documentUuid: JournalEntry.BFQZCTGuKPMLZ1iM.JournalEntryPage.Jox0Obg2EArVUgm4
+    range:
+      - 20
+      - 20
+    _id: bLzBqyqPWshbkWUE
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430081
+      modifiedTime: 1791753430081
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GuAXJtwih7xewRMb.bLzBqyqPWshbkWUE'
+_id: GuAXJtwih7xewRMb
+img: modules/warbound-campaign-content/assets/images/icons/tables-aleatoires/cof2-ta-intrigues-trolls-durotar.png
+description: ''
+sort: 100000
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1791753430081
+  modifiedTime: 1791753430081
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!GuAXJtwih7xewRMb'

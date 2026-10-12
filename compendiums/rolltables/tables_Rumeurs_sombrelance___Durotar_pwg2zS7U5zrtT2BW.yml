@@ -1,0 +1,529 @@
+name: Rumeurs sombrelance — Durotar
+folder: mn9beOh2qD93YO4h
+formula: 1d20
+replacement: true
+displayRoll: true
+flags:
+  warbound-campaign-content:
+    markdownImport:
+      schema: 1
+      collectionId: durotar-sombrelance-rumors
+results:
+  - type: document
+    name: Les feux des Îles
+    description: >-
+      Des lumières apparaissent encore certaines nuits sur les Îles de l’Écho.
+      Certains jurent qu’elles ne viennent pas toutes des hommes de Zalazane.
+    documentUuid: JournalEntry.HhOzB5ToyDCM5NCB.JournalEntryPage.f5cj1fyzQqKEF5bN
+    range:
+      - 1
+      - 1
+    _id: iiCbAiYfK1SaeBvj
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430103
+      modifiedTime: 1791753430103
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!pwg2zS7U5zrtT2BW.iiCbAiYfK1SaeBvj'
+  - type: document
+    name: La voix du mort
+    description: >-
+      Un pêcheur affirme avoir entendu son frère décédé l’appeler depuis une île
+      au large.
+    documentUuid: JournalEntry.HhOzB5ToyDCM5NCB.JournalEntryPage.NJ8vDq8OQRFfDUL3
+    range:
+      - 2
+      - 2
+    _id: 6lk0MBlZSC6l8CNX
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430103
+      modifiedTime: 1791753430103
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!pwg2zS7U5zrtT2BW.6lk0MBlZSC6l8CNX'
+  - type: document
+    name: Ne donne pas ton nom
+    description: >-
+      On raconte que Zalazane n’a besoin que du véritable nom d’une personne
+      pour la placer sous son emprise.
+    documentUuid: JournalEntry.HhOzB5ToyDCM5NCB.JournalEntryPage.02QEoAJWHnXcDJpR
+    range:
+      - 3
+      - 3
+    _id: eKoQHmY0faZM0zqA
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430103
+      modifiedTime: 1791753430103
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!pwg2zS7U5zrtT2BW.eKoQHmY0faZM0zqA'
+  - type: document
+    name: Prisonniers dans leur tête
+    description: >-
+      Certains trolls servant Zalazane seraient des Sombrelance incapables de
+      contrôler leurs propres gestes.
+    documentUuid: JournalEntry.HhOzB5ToyDCM5NCB.JournalEntryPage.2mA3S4ZfT9akSYXT
+    range:
+      - 4
+      - 4
+    _id: ukgTZ0z3bvVUd793
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430103
+      modifiedTime: 1791753430103
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!pwg2zS7U5zrtT2BW.ukgTZ0z3bvVUd793'
+  - type: document
+    name: Vol’jin va reprendre les Îles
+    description: >-
+      Plusieurs jeunes Sombrelance affirment que Vol’jin prépare enfin la
+      reconquête des Îles de l’Écho.
+    documentUuid: JournalEntry.HhOzB5ToyDCM5NCB.JournalEntryPage.pIhl8TfTCcUN5cMd
+    range:
+      - 5
+      - 5
+    _id: YmG4Jr7QdmhFfZLA
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430103
+      modifiedTime: 1791753430103
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!pwg2zS7U5zrtT2BW.YmG4Jr7QdmhFfZLA'
+  - type: document
+    name: Les Orcs ont oublié
+    description: >-
+      Une histoire affirme que les Orcs avaient promis aux Sombrelance de leur
+      rendre leurs Îles avant de se consacrer à Orgrimmar.
+    documentUuid: JournalEntry.HhOzB5ToyDCM5NCB.JournalEntryPage.xVCh40AL1OC0ieYV
+    range:
+      - 6
+      - 6
+    _id: AXBoX7Ds8mVL4xhV
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430103
+      modifiedTime: 1791753430103
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!pwg2zS7U5zrtT2BW.AXBoX7Ds8mVL4xhV'
+  - type: document
+    name: Des trolls venus de l’est
+    description: >-
+      Des voyageurs disent avoir aperçu dans les Tarides des trolls portant des
+      marques qui ne sont pas celles des Sombrelance.
+    documentUuid: JournalEntry.HhOzB5ToyDCM5NCB.JournalEntryPage.mQXtqrCyv53wpVMO
+    range:
+      - 7
+      - 7
+    _id: OZGcYkBOyzwARCfm
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430103
+      modifiedTime: 1791753430103
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!pwg2zS7U5zrtT2BW.OZGcYkBOyzwARCfm'
+  - type: document
+    name: Les vieux maléfices
+    description: >-
+      Un ancien assure que Zalazane n’a rien inventé et que ses pratiques
+      viennent de traditions beaucoup plus anciennes de Strangleronce.
+    documentUuid: JournalEntry.HhOzB5ToyDCM5NCB.JournalEntryPage.DSRe9XsLeFdaD9mG
+    range:
+      - 8
+      - 8
+    _id: T0wWLWz5beEG16M0
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430103
+      modifiedTime: 1791753430103
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!pwg2zS7U5zrtT2BW.T0wWLWz5beEG16M0'
+  - type: document
+    name: Les sanctuaires dépouillés
+    description: >-
+      Des offrandes disparaissent de petits sanctuaires fréquentés par les
+      chasseurs autour de Sen’jin. Même les objets sans valeur sont emportés.
+    documentUuid: JournalEntry.HhOzB5ToyDCM5NCB.JournalEntryPage.ECmGEQ2lQmTsLfk4
+    range:
+      - 9
+      - 9
+    _id: wNiHPFfAFo4GS1HI
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430103
+      modifiedTime: 1791753430103
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!pwg2zS7U5zrtT2BW.wNiHPFfAFo4GS1HI'
+  - type: document
+    name: Les Kolkar nous comptent
+    description: >-
+      Des chasseurs affirment que les Kolkar observent les pistes autour de
+      Sen’jin chaque nuit pour mesurer la faiblesse des défenses.
+    documentUuid: JournalEntry.HhOzB5ToyDCM5NCB.JournalEntryPage.zX4tNSW2KEXURoOf
+    range:
+      - 10
+      - 10
+    _id: NY1mB7NyaZ2Ubzjx
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430103
+      modifiedTime: 1791753430103
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!pwg2zS7U5zrtT2BW.NY1mB7NyaZ2Ubzjx'
+  - type: document
+    name: Ce que cherche Gadrin
+    description: >-
+      Maître Gadrin chercherait quelque chose qu’il est impossible de trouver en
+      Durotar. Personne ne s’accorde sur ce que c’est.
+    documentUuid: JournalEntry.HhOzB5ToyDCM5NCB.JournalEntryPage.98YjrvW6NgoCwFUU
+    range:
+      - 11
+      - 11
+    _id: fKZ3I6IQUTfcFgft
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430103
+      modifiedTime: 1791753430103
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!pwg2zS7U5zrtT2BW.fKZ3I6IQUTfcFgft'
+  - type: document
+    name: Les esprits et les travaux
+    description: >-
+      Certains Sombrelance disent que les esprits sont devenus plus agités
+      depuis que la Horde creuse davantage au nord.
+    documentUuid: JournalEntry.HhOzB5ToyDCM5NCB.JournalEntryPage.oooSL4slbzedCwUR
+    range:
+      - 12
+      - 12
+    _id: XjSFsaPPO6tPtbld
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430103
+      modifiedTime: 1791753430103
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!pwg2zS7U5zrtT2BW.XjSFsaPPO6tPtbld'
+  - type: document
+    name: Celui qui ne parle plus
+    description: >-
+      Un Sombrelance revenu vivant des Îles de l’Écho refuse depuis son retour
+      de prononcer un seul mot en troll.
+    documentUuid: JournalEntry.HhOzB5ToyDCM5NCB.JournalEntryPage.CBLaarkzqiFtGdMp
+    range:
+      - 13
+      - 13
+    _id: 0AmkT2LFR8riLl5U
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430103
+      modifiedTime: 1791753430103
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!pwg2zS7U5zrtT2BW.0AmkT2LFR8riLl5U'
+  - type: document
+    name: Le masque disparu
+    description: >-
+      Un masque funéraire a disparu à Sen’jin et personne ne veut dire
+      ouvertement à quelle famille il appartenait.
+    documentUuid: JournalEntry.HhOzB5ToyDCM5NCB.JournalEntryPage.Qbx705IFiNEzGyhY
+    range:
+      - 14
+      - 14
+    _id: 3genmCVC45oNStIm
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430103
+      modifiedTime: 1791753430103
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!pwg2zS7U5zrtT2BW.3genmCVC45oNStIm'
+  - type: document
+    name: Le loa parti
+    description: >-
+      Un vieux chasseur affirme qu’un loa a quitté Durotar et que personne ne
+      s’en est encore rendu compte.
+    documentUuid: JournalEntry.HhOzB5ToyDCM5NCB.JournalEntryPage.OmDJ8ZN0WQa5pNm0
+    range:
+      - 15
+      - 15
+    _id: jDwD60qSGhbSgma6
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430103
+      modifiedTime: 1791753430103
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!pwg2zS7U5zrtT2BW.jDwD60qSGhbSgma6'
+  - type: document
+    name: Le pêcheur revenu deux fois
+    description: >-
+      Un pêcheur disparu est revenu à Sen’jin, mais quelqu’un affirme avoir
+      retrouvé son cadavre sur la côte le même jour.
+    documentUuid: JournalEntry.HhOzB5ToyDCM5NCB.JournalEntryPage.8aR3hV6lQKnTjDEI
+    range:
+      - 16
+      - 16
+    _id: iJnTDr5NOlzvhh7c
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430103
+      modifiedTime: 1791753430103
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!pwg2zS7U5zrtT2BW.iJnTDr5NOlzvhh7c'
+  - type: document
+    name: Le tambour au large
+    description: >-
+      Depuis plusieurs nuits, un ancien rythme sombrelance résonne depuis les
+      Îles. Plus inquiétant encore, quelqu’un lui répond depuis Sen’jin.
+    documentUuid: JournalEntry.HhOzB5ToyDCM5NCB.JournalEntryPage.4ZtY0dLi0hV6NsvQ
+    range:
+      - 17
+      - 17
+    _id: 5P2ksA4GZwMISJka
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430103
+      modifiedTime: 1791753430103
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!pwg2zS7U5zrtT2BW.5P2ksA4GZwMISJka'
+  - type: document
+    name: Le mauvais troll
+    description: >-
+      Une patrouille de la Horde aurait capturé au sud un troll qui n’est pas
+      Sombrelance et dont les marques rappellent les tribus de Strangleronce.
+    documentUuid: JournalEntry.HhOzB5ToyDCM5NCB.JournalEntryPage.xDYUDMIcVTcFg8FE
+    range:
+      - 18
+      - 18
+    _id: asDJX9dYuzppdCJ9
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430103
+      modifiedTime: 1791753430103
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!pwg2zS7U5zrtT2BW.asDJX9dYuzppdCJ9'
+  - type: document
+    name: Les jeunes vont partir
+    description: >-
+      Plusieurs jeunes Sombrelance prépareraient en secret une expédition vers
+      une petite île tenue par les hommes de Zalazane.
+    documentUuid: JournalEntry.HhOzB5ToyDCM5NCB.JournalEntryPage.7dojY8dccFiPJsQz
+    range:
+      - 19
+      - 19
+    _id: i0GB7smZ3TnP5QOA
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430103
+      modifiedTime: 1791753430103
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!pwg2zS7U5zrtT2BW.i0GB7smZ3TnP5QOA'
+  - type: document
+    name: L’eau de Sen’jin
+    description: >-
+      Une dispute aurait éclaté entre chasseurs trolls et voyageurs orcs autour
+      d’un point d’eau proche de Sen’jin. Chacun affirme avoir priorité.
+    documentUuid: JournalEntry.HhOzB5ToyDCM5NCB.JournalEntryPage.ytmeJ0dkxiwZjdQA
+    range:
+      - 20
+      - 20
+    _id: vCfJEe69sOLD9a55
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430103
+      modifiedTime: 1791753430103
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!pwg2zS7U5zrtT2BW.vCfJEe69sOLD9a55'
+_id: pwg2zS7U5zrtT2BW
+img: modules/warbound-campaign-content/assets/images/icons/tables-aleatoires/cof2-ta-rumeurs-trolls-durotar.png
+description: ''
+sort: 100000
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1791753430103
+  modifiedTime: 1791753430103
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!pwg2zS7U5zrtT2BW'

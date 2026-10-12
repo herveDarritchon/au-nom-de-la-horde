@@ -1,0 +1,949 @@
+folder: luBSaVcr5QSdB7pK
+name: Idéaux héroïques
+img: modules/warbound-campaign-content/assets/images/icons/roll-tables/cof2-ideal-rolltable-logo.png
+description: >-
+  <p>Table aléatoire pondérée des 40 Idéaux héroïques de
+  Warbound.</p><p><strong>100 résultats :</strong> poids 4 pour 8 idéaux
+  centraux, poids 3 pour 10 idéaux fréquents, poids 2 pour 16 idéaux courants,
+  poids 1 pour 6 idéaux plus spécifiques.</p>
+results:
+  - type: text
+    weight: 2
+    range:
+      - 1
+      - 2
+    _id: 5cpR5znpxG1omNNw
+    name: Abnégation
+    img: icons/svg/d20-grey.svg
+    description: <p><em>COF2 — Courant — poids 2</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430115
+      modifiedTime: 1791753430115
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!IQUsJLqTbkPdBbw3.5cpR5znpxG1omNNw'
+  - type: text
+    weight: 2
+    range:
+      - 3
+      - 4
+    _id: SFOvKOrjmfmAiUDn
+    name: Clémence
+    img: icons/svg/d20-grey.svg
+    description: <p><em>COF2 — Courant — poids 2</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430115
+      modifiedTime: 1791753430115
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!IQUsJLqTbkPdBbw3.SFOvKOrjmfmAiUDn'
+  - type: text
+    weight: 2
+    range:
+      - 5
+      - 6
+    _id: GAl68pqpzpIa3xom
+    name: Compassion
+    img: icons/svg/d20-grey.svg
+    description: <p><em>COF2 — Courant — poids 2</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430115
+      modifiedTime: 1791753430115
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!IQUsJLqTbkPdBbw3.GAl68pqpzpIa3xom'
+  - type: text
+    weight: 4
+    range:
+      - 7
+      - 10
+    _id: HPpx9LcpfAejCu8y
+    name: Courage
+    img: icons/svg/d20-grey.svg
+    description: <p><em>COF2 — Très fréquent — poids 4</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430115
+      modifiedTime: 1791753430115
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!IQUsJLqTbkPdBbw3.HPpx9LcpfAejCu8y'
+  - type: text
+    weight: 4
+    range:
+      - 11
+      - 14
+    _id: 5MGLM9wnobUGL2BR
+    name: Devoir
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Warbound — Très fréquent — poids 4</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430115
+      modifiedTime: 1791753430115
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!IQUsJLqTbkPdBbw3.5MGLM9wnobUGL2BR'
+  - type: text
+    weight: 3
+    range:
+      - 15
+      - 17
+    _id: s9N2fixV6U0qCujb
+    name: Dignité
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Warbound — Fréquent — poids 3</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430115
+      modifiedTime: 1791753430115
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!IQUsJLqTbkPdBbw3.s9N2fixV6U0qCujb'
+  - type: text
+    weight: 2
+    range:
+      - 18
+      - 19
+    _id: SDZl26ne4rDpTpKM
+    name: Discipline
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Warbound — Courant — poids 2</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430115
+      modifiedTime: 1791753430115
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!IQUsJLqTbkPdBbw3.SDZl26ne4rDpTpKM'
+  - type: text
+    weight: 1
+    range:
+      - 20
+      - 20
+    _id: YwwPxZaj2jvyqtyV
+    name: Découverte
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Warbound — Rare — poids 1</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430115
+      modifiedTime: 1791753430115
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!IQUsJLqTbkPdBbw3.YwwPxZaj2jvyqtyV'
+  - type: text
+    weight: 3
+    range:
+      - 21
+      - 23
+    _id: hH2ZvjSG5wMl0SAF
+    name: Détermination
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Warbound — Fréquent — poids 3</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430115
+      modifiedTime: 1791753430115
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!IQUsJLqTbkPdBbw3.hH2ZvjSG5wMl0SAF'
+  - type: text
+    weight: 3
+    range:
+      - 24
+      - 26
+    _id: alcZCPVElrZp07Lj
+    name: Espoir
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Warbound — Fréquent — poids 3</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430115
+      modifiedTime: 1791753430115
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!IQUsJLqTbkPdBbw3.alcZCPVElrZp07Lj'
+  - type: text
+    weight: 2
+    range:
+      - 27
+      - 28
+    _id: 7qDAgecYbDZBENj4
+    name: Foi
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Warbound — Courant — poids 2</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430115
+      modifiedTime: 1791753430115
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!IQUsJLqTbkPdBbw3.7qDAgecYbDZBENj4'
+  - type: text
+    weight: 2
+    range:
+      - 29
+      - 30
+    _id: anXyizTNM12kvwSS
+    name: Fraternité
+    img: icons/svg/d20-grey.svg
+    description: <p><em>COF2 — Courant — poids 2</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430115
+      modifiedTime: 1791753430115
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!IQUsJLqTbkPdBbw3.anXyizTNM12kvwSS'
+  - type: text
+    weight: 1
+    range:
+      - 31
+      - 31
+    _id: wdpX0ukvOJLqeA0B
+    name: Frugalité
+    img: icons/svg/d20-grey.svg
+    description: <p><em>COF2 — Rare — poids 1</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430115
+      modifiedTime: 1791753430115
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!IQUsJLqTbkPdBbw3.wdpX0ukvOJLqeA0B'
+  - type: text
+    weight: 2
+    range:
+      - 32
+      - 33
+    _id: Mwr31UXKETOXldBi
+    name: Générosité
+    img: icons/svg/d20-grey.svg
+    description: <p><em>COF2 — Courant — poids 2</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430115
+      modifiedTime: 1791753430115
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!IQUsJLqTbkPdBbw3.Mwr31UXKETOXldBi'
+  - type: text
+    weight: 4
+    range:
+      - 34
+      - 37
+    _id: l4BIqM5dKSVXn2Ja
+    name: Honneur
+    img: icons/svg/d20-grey.svg
+    description: <p><em>COF2 — Très fréquent — poids 4</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430115
+      modifiedTime: 1791753430115
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!IQUsJLqTbkPdBbw3.l4BIqM5dKSVXn2Ja'
+  - type: text
+    weight: 2
+    range:
+      - 38
+      - 39
+    _id: jZFOjTqiq4ziH6X6
+    name: Honnêteté
+    img: icons/svg/d20-grey.svg
+    description: <p><em>COF2 — Courant — poids 2</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430115
+      modifiedTime: 1791753430115
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!IQUsJLqTbkPdBbw3.jZFOjTqiq4ziH6X6'
+  - type: text
+    weight: 1
+    range:
+      - 40
+      - 40
+    _id: 7f7OzrKndGGXYo59
+    name: Humilité
+    img: icons/svg/d20-grey.svg
+    description: <p><em>COF2 — Rare — poids 1</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430115
+      modifiedTime: 1791753430115
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!IQUsJLqTbkPdBbw3.7f7OzrKndGGXYo59'
+  - type: text
+    weight: 4
+    range:
+      - 41
+      - 44
+    _id: 0fzuQAlilhtXIOW7
+    name: Héritage
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Warbound — Très fréquent — poids 4</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430115
+      modifiedTime: 1791753430115
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!IQUsJLqTbkPdBbw3.0fzuQAlilhtXIOW7'
+  - type: text
+    weight: 3
+    range:
+      - 45
+      - 47
+    _id: kgoRQg2wDqWVeR6E
+    name: Justice
+    img: icons/svg/d20-grey.svg
+    description: <p><em>COF2 — Fréquent — poids 3</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430115
+      modifiedTime: 1791753430115
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!IQUsJLqTbkPdBbw3.kgoRQg2wDqWVeR6E'
+  - type: text
+    weight: 2
+    range:
+      - 48
+      - 49
+    _id: p1lqeqohIlTXdJqo
+    name: Liberté
+    img: icons/svg/d20-grey.svg
+    description: <p><em>COF2 — Courant — poids 2</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430115
+      modifiedTime: 1791753430115
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!IQUsJLqTbkPdBbw3.p1lqeqohIlTXdJqo'
+  - type: text
+    weight: 4
+    range:
+      - 50
+      - 53
+    _id: Do1bcOB2RbjO0cTZ
+    name: Loyauté
+    img: icons/svg/d20-grey.svg
+    description: <p><em>COF2 — Très fréquent — poids 4</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430115
+      modifiedTime: 1791753430115
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!IQUsJLqTbkPdBbw3.Do1bcOB2RbjO0cTZ'
+  - type: text
+    weight: 2
+    range:
+      - 54
+      - 55
+    _id: 1bYwVDjQAcZkwSKm
+    name: Mémoire
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Warbound — Courant — poids 2</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430115
+      modifiedTime: 1791753430115
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!IQUsJLqTbkPdBbw3.1bYwVDjQAcZkwSKm'
+  - type: text
+    weight: 3
+    range:
+      - 56
+      - 58
+    _id: 5ELPqQPBfCOAgZfP
+    name: Mérite
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Warbound — Fréquent — poids 3</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430115
+      modifiedTime: 1791753430115
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!IQUsJLqTbkPdBbw3.5ELPqQPBfCOAgZfP'
+  - type: text
+    weight: 1
+    range:
+      - 59
+      - 59
+    _id: jWQjclhkvFZZuwje
+    name: Pacifisme
+    img: icons/svg/d20-grey.svg
+    description: <p><em>COF2 — Rare — poids 1</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430115
+      modifiedTime: 1791753430115
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!IQUsJLqTbkPdBbw3.jWQjclhkvFZZuwje'
+  - type: text
+    weight: 3
+    range:
+      - 60
+      - 62
+    _id: CPQc5rYfGCQPNuT1
+    name: Persévérance
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Warbound — Fréquent — poids 3</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430115
+      modifiedTime: 1791753430115
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!IQUsJLqTbkPdBbw3.CPQc5rYfGCQPNuT1'
+  - type: text
+    weight: 4
+    range:
+      - 63
+      - 66
+    _id: gM3P3GfSGL6J9MrV
+    name: Protection
+    img: icons/svg/d20-grey.svg
+    description: <p><em>COF2 — Très fréquent — poids 4</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430115
+      modifiedTime: 1791753430115
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!IQUsJLqTbkPdBbw3.gM3P3GfSGL6J9MrV'
+  - type: text
+    weight: 3
+    range:
+      - 67
+      - 69
+    _id: Lgl7KdyChi67v547
+    name: Respect des ancêtres
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Warbound — Fréquent — poids 3</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430115
+      modifiedTime: 1791753430115
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!IQUsJLqTbkPdBbw3.Lgl7KdyChi67v547'
+  - type: text
+    weight: 2
+    range:
+      - 70
+      - 71
+    _id: OXObbdc4H0Oz7Hhj
+    name: Respect du vivant
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Warbound — Courant — poids 2</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430115
+      modifiedTime: 1791753430115
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!IQUsJLqTbkPdBbw3.OXObbdc4H0Oz7Hhj'
+  - type: text
+    weight: 3
+    range:
+      - 72
+      - 74
+    _id: SqlMt6uMEAFvwto4
+    name: Responsabilité
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Warbound — Fréquent — poids 3</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430115
+      modifiedTime: 1791753430115
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!IQUsJLqTbkPdBbw3.SqlMt6uMEAFvwto4'
+  - type: text
+    weight: 3
+    range:
+      - 75
+      - 77
+    _id: QmsxTP8VtjSUYr3i
+    name: Rédemption
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Warbound — Fréquent — poids 3</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430115
+      modifiedTime: 1791753430115
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!IQUsJLqTbkPdBbw3.QmsxTP8VtjSUYr3i'
+  - type: text
+    weight: 2
+    range:
+      - 78
+      - 79
+    _id: Q1YLTLO5I0SeppUR
+    name: Sagesse
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Warbound — Courant — poids 2</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430115
+      modifiedTime: 1791753430115
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!IQUsJLqTbkPdBbw3.Q1YLTLO5I0SeppUR'
+  - type: text
+    weight: 4
+    range:
+      - 80
+      - 83
+    _id: 3wbdr1de2lIHfy5a
+    name: Sens du sacrifice
+    img: icons/svg/d20-grey.svg
+    description: <p><em>COF2 — Très fréquent — poids 4</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430115
+      modifiedTime: 1791753430115
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!IQUsJLqTbkPdBbw3.3wbdr1de2lIHfy5a'
+  - type: text
+    weight: 3
+    range:
+      - 84
+      - 86
+    _id: 5u0a3pcIXPKOmyum
+    name: Solidarité
+    img: icons/svg/d20-grey.svg
+    description: <p><em>COF2 — Fréquent — poids 3</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430115
+      modifiedTime: 1791753430115
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!IQUsJLqTbkPdBbw3.5u0a3pcIXPKOmyum'
+  - type: text
+    weight: 2
+    range:
+      - 87
+      - 88
+    _id: XVTJjHVD15Oncczx
+    name: Tempérance
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Warbound — Courant — poids 2</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430115
+      modifiedTime: 1791753430115
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!IQUsJLqTbkPdBbw3.XVTJjHVD15Oncczx'
+  - type: text
+    weight: 2
+    range:
+      - 89
+      - 90
+    _id: bI3pN5JVViAlCCa1
+    name: Tradition
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Warbound — Courant — poids 2</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430115
+      modifiedTime: 1791753430115
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!IQUsJLqTbkPdBbw3.bI3pN5JVViAlCCa1'
+  - type: text
+    weight: 4
+    range:
+      - 91
+      - 94
+    _id: GV5fU3Osg96Cu5wd
+    name: Unité
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Warbound — Très fréquent — poids 4</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430115
+      modifiedTime: 1791753430115
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!IQUsJLqTbkPdBbw3.GV5fU3Osg96Cu5wd'
+  - type: text
+    weight: 2
+    range:
+      - 95
+      - 96
+    _id: BeXnTaFhT8LGIUQf
+    name: Vérité
+    img: icons/svg/d20-grey.svg
+    description: <p><em>COF2 — Courant — poids 2</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430115
+      modifiedTime: 1791753430115
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!IQUsJLqTbkPdBbw3.BeXnTaFhT8LGIUQf'
+  - type: text
+    weight: 1
+    range:
+      - 97
+      - 97
+    _id: 2VipfmlB9xi9gFi9
+    name: Éducation
+    img: icons/svg/d20-grey.svg
+    description: <p><em>COF2 — Rare — poids 1</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430115
+      modifiedTime: 1791753430115
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!IQUsJLqTbkPdBbw3.2VipfmlB9xi9gFi9'
+  - type: text
+    weight: 1
+    range:
+      - 98
+      - 98
+    _id: zXv2sPMtnpFzfg2p
+    name: Égalité
+    img: icons/svg/d20-grey.svg
+    description: <p><em>COF2 — Rare — poids 1</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430115
+      modifiedTime: 1791753430115
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!IQUsJLqTbkPdBbw3.zXv2sPMtnpFzfg2p'
+  - type: text
+    weight: 2
+    range:
+      - 99
+      - 100
+    _id: bnkpIz5R13N6nU1e
+    name: Équilibre
+    img: icons/svg/d20-grey.svg
+    description: <p><em>Warbound — Courant — poids 2</em></p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430115
+      modifiedTime: 1791753430115
+      lastModifiedBy: TjbWhMczNyKieD8D
+    documentUuid: null
+    _key: '!tables.results!IQUsJLqTbkPdBbw3.bnkpIz5R13N6nU1e'
+replacement: true
+displayRoll: true
+sort: 100000
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1791753430115
+  modifiedTime: 1791753430115
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_id: IQUsJLqTbkPdBbw3
+formula: 1d100
+_key: '!tables!IQUsJLqTbkPdBbw3'

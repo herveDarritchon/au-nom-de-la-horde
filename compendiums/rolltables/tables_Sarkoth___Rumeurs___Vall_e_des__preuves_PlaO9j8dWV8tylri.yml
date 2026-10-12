@@ -1,0 +1,202 @@
+folder: z7vYsvgbmTtvrTlP
+name: 'Sarkoth — Rumeurs : Vallée des Épreuves'
+_id: PlaO9j8dWV8tylri
+img: modules/warbound-campaign-content/assets/images/icons/tables-aleatoires/durotar/scorpides/cof2-tables-aleatoires-scorpidde-durotar.png
+description: >-
+  <p>Rumeurs de terrain : recrues, péons, chasseurs et pisteurs. 5 rumeurs à
+  tirer au d5.</p><p><strong>MJ :</strong> Les rumeurs ne sont pas toutes
+  exactes. Les détails de vérité et de contexte restent dans le journal «
+  Rumeurs autour de Sarkoth ». Adapter leur disponibilité à l’évolution des
+  événements.</p>
+results:
+  - _id: 3176677f47342718
+    type: text
+    name: Il est plus gros que les autres
+    description: >-
+      <p>« Si tu vois un scorpide qui te paraît gros, recule. Si tu vois
+      Sarkoth, cours. »</p>
+    img: icons/svg/d20-black.svg
+    weight: 1
+    range:
+      - 1
+      - 1
+    drawn: false
+    flags:
+      world:
+        sarkoth:
+          sourceRumorNumber: 1
+          suggestedSpeakers:
+            - 'une recrue orque '
+            - 'un péon '
+            - un chasseur ayant vu Sarkoth de loin
+          mjTruth: >-
+            Vraie. Sarkoth est nettement plus imposant que les scorpides
+            ordinaires de la Vallée des Épreuves.
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430110
+      modifiedTime: 1791753430110
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!PlaO9j8dWV8tylri.3176677f47342718'
+  - _id: cd8c2bfffc1b90d6
+    type: text
+    name: Hana’zua l’a blessé
+    description: >-
+      <p>« Le jeune Troll l’a trouvé. Il paraît qu’il lui a presque arraché une
+      pince avant de finir à moitié mort sous un arbre. »</p>
+    img: icons/svg/d20-black.svg
+    weight: 1
+    range:
+      - 2
+      - 2
+    drawn: false
+    flags:
+      world:
+        sarkoth:
+          sourceRumorNumber: 2
+          suggestedSpeakers:
+            - 'une recrue '
+            - 'un éclaireur '
+            - quelqu’un ayant vu Hana’zua après son combat
+          mjTruth: >-
+            Vraie, mais exagérée. Hana’zua a grièvement blessé une pince de
+            Sarkoth, mais il ne l’a pas presque tué.
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430110
+      modifiedTime: 1791753430110
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!PlaO9j8dWV8tylri.cd8c2bfffc1b90d6'
+  - _id: 057f4a956488f735
+    type: text
+    name: Son venin traverse les antidotes
+    description: >-
+      <p>« Les queues de scorpides, on sait quoi en faire. Mais le poison de
+      Sarkoth ? Même les vieux remèdes n’aiment pas ça. »</p>
+    img: icons/svg/d20-black.svg
+    weight: 1
+    range:
+      - 3
+      - 3
+    drawn: false
+    flags:
+      world:
+        sarkoth:
+          sourceRumorNumber: 3
+          suggestedSpeakers:
+            - 'un guérisseur '
+            - 'un garde '
+            - un ancien chasseur
+          mjTruth: >-
+            Partiellement vraie dans Warbound. La Horde sait fabriquer des
+            antidotes contre les scorpides ordinaires. Le venin de Sarkoth est
+            plus complexe et résiste mieux aux remèdes habituels.
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430110
+      modifiedTime: 1791753430110
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!PlaO9j8dWV8tylri.057f4a956488f735'
+  - _id: b55bee2cd2c218a8
+    type: text
+    name: Les petits scorpides suivent ses traces
+    description: >-
+      <p>« Regarde bien le sable. Là où l’Ancienne passe, les petits finissent
+      toujours par revenir. »</p>
+    img: icons/svg/d20-black.svg
+    weight: 1
+    range:
+      - 4
+      - 4
+    drawn: false
+    flags:
+      world:
+        sarkoth:
+          sourceRumorNumber: 4
+          suggestedSpeakers:
+            - 'un chasseur '
+            - 'un chaman '
+            - un vieux péon connaissant les habitudes de la vallée
+          mjTruth: >-
+            Vraie dans l’adaptation Warbound. Sarkoth structure une partie du
+            territoire des scorpides locaux sans les commander comme une reine
+            intelligente.
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430110
+      modifiedTime: 1791753430110
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!PlaO9j8dWV8tylri.b55bee2cd2c218a8'
+  - _id: 0ae439f388bc94cf
+    type: text
+    name: Elle ne chasse pas près des pierres neuves
+    description: >-
+      <p>« C’est ça qui est bizarre. Elle tue quand on s’approche, mais elle ne
+      poursuit pas. Elle revient toujours vers les mêmes rochers. »</p>
+    img: icons/svg/d20-black.svg
+    weight: 1
+    range:
+      - 5
+      - 5
+    drawn: false
+    flags:
+      world:
+        sarkoth:
+          sourceRumorNumber: 5
+          suggestedSpeakers:
+            - 'un pisteur '
+            - 'un péon affecté aux travaux '
+            - un garde attentif
+          mjTruth: >-
+            Vraie. Sarkoth cherche à retrouver l’accès à son ancien site de
+            ponte bloqué par les travaux de la Horde.
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1791753430110
+      modifiedTime: 1791753430110
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!PlaO9j8dWV8tylri.0ae439f388bc94cf'
+replacement: true
+displayRoll: true
+sort: 0
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1791753430110
+  modifiedTime: 1791753430110
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+formula: 1d5
+_key: '!tables!PlaO9j8dWV8tylri'

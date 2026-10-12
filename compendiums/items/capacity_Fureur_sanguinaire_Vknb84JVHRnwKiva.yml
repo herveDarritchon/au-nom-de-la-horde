@@ -1,7 +1,7 @@
 folder: y5Bi1ofdJcPN7C26
 name: Fureur sanguinaire
 type: capacity
-img: modules/warbound-campaign-content/assets/images/icons/capacites/fureur-sanguinaire.png
+img: worlds/au-nom-de-la-horde-cof2/assets/images/icons/capacites/fureur-sanguinaire.png
 system:
   description: >-
     <p class="MsoNormal"><span lang="EN-US"
@@ -97,9 +97,9 @@ _stats:
   duplicateSource: Item.MJ3KDauouJXSsSED
   coreVersion: '14.367'
   systemId: co2
-  systemVersion: 2.3.11
-  createdTime: 1790026091044
-  modifiedTime: 1790026091044
+  systemVersion: 2.3.12
+  createdTime: 1791752627799
+  modifiedTime: 1791752627799
   lastModifiedBy: TjbWhMczNyKieD8D
   exportSource: null
 sort: 300000
