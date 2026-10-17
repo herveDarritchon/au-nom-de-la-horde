@@ -1,4 +1,4 @@
-// Taux de conversion COF2 : 1 PO = 10 PA = 100 PC (cadrage §5.1, [À TESTER] arbitrage P0 #112).
+// Taux de conversion COF2 : 1 PO = 10 PA = 100 PC (cadrage §5.1, DÉCIDÉ P0 #112 — convention COF2 retenue).
 // L'unité de référence (primary) est la pièce d'or (gp).
 export const EXCHANGE_RATES = {
   gp: 1,      // PO — unité de référence
