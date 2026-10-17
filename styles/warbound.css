@@ -141,6 +141,10 @@ body.warbound-theme .wb-page {
 /* 3. TYPOGRAPHIC HIERARCHY                                                    */
 /* -------------------------------------------------------------------------- */
 
+body.warbound-theme :is(.journal-page-header, .editor-content, .prosemirror, .wb-page) h1{
+    color: black;
+}
+
 body.warbound-theme :is(.journal-page-content, .editor-content, .prosemirror, .wb-page) h1,
 body.warbound-theme .wb-title {
     position: relative;
@@ -149,7 +153,7 @@ body.warbound-theme .wb-title {
     border: 0;
     color: #241e18;
     font-family: var(--wb-font-display);
-    font-size: clamp(2rem, 4vw, 3.2rem);
+    font-size: clamp(1rem, 3vw, 2.5rem);
     font-weight: 900;
     line-height: .98;
     letter-spacing: .035em;
@@ -315,7 +319,7 @@ body.warbound-theme :is(.journal-page-content, .editor-content, .prosemirror, .w
     border: 0;
     border-bottom: 2px solid var(--wb-bronze);
     background: linear-gradient(180deg, rgba(67, 55, 41, .14), rgba(67, 55, 41, .07));
-    color: #352b21;
+    color: var(--wb-bronze);
     font-family: var(--wb-font-display);
     font-size: .82rem;
     font-weight: 900;
