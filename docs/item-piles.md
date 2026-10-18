@@ -1,8 +1,10 @@
 # Item Piles — Documentation d'intégration COF2
 
 > Module : `warbound-campaign-content`  
+> Foundry VTT : 14.367  
 > Système cible : COF2 2.3.12  
-> Item Piles : 3.3.4
+> Item Piles : 3.3.4 (voir *Limites connues*)  
+> Issue de publication : #118 (phase P6 — épic #111)
 
 ---
 
@@ -258,6 +260,24 @@ Le fichier `warbound-item-piles-prototype.zip` (référencé au cadrage §8) est
 
 ---
 
+### Politique de migration de la configuration — `VERSION`
+
+`buildItemPilesConfig()` expose un champ `VERSION` (`INTEGRATION_VERSION`, valeur actuelle `'1'`,
+`scripts/integrations/item-piles/config.mjs`). Item Piles stocke cette version avec la config du système
+et la compare au démarrage.
+
+- **Incrémenter `INTEGRATION_VERSION` uniquement** lorsqu'un changement modifie les réglages par défaut
+  d'une manière qui nécessite une action ou une migration côté MJ (nouveau chemin COF2, devise ajoutée,
+  filtre modifié).
+- Un simple ajout de handler (`ITEM_TYPE_HANDLERS`) ou de fonction pure **ne requiert pas** de bump :
+  la config est réappliquée intégralement à chaque `item-piles-ready`.
+- La version cible de résolution est `INTEGRATION_TARGET_VERSION = 'latest'` (clé Item Piles), ce qui
+  garantit l'application de la config quelle que soit la future version de COF2.
+- **En cas de bump** : documenter le changement dans les notes de version et rappeler la procédure de
+  sauvegarde du monde avant mise à jour (voir *Procédure de retour arrière*).
+
+---
+
 ## Échange PJ↔PJ et vault — contrat 3.3.4 (F08–F10, F13)
 
 **Statut : CONFIRMÉ** (source : bundle 3.3.4, préfixe de hook `item-piles-`)
@@ -279,8 +299,9 @@ intercepter ni annuler un échange PJ↔PJ.**
 - Le hook **cancellable** `item-piles-preTradeItems` (l. 85791) relève du flux **marchand/pile**
   (achat-vente), pas de l'échange PJ↔PJ.
 
-Rôle Warbound : **observateur** (journal d'échange via `item-piles-tradeComplete`) —
-`src/integrations/item-piles/trade.mjs` + `scripts/integrations/item-piles/hooks-trade.mjs`.
+Rôle Warbound : **observateur** (journal d'échange dans `flags.warbound.tradeHistory`, via
+`item-piles-tradeComplete`) — `src/integrations/item-piles/trade.mjs` +
+`scripts/integrations/item-piles/hooks-trade.mjs`.
 
 ### Vault (F13) — data-driven, sans hook
 
@@ -303,4 +324,150 @@ flags['item-piles'].vaultAccess = [
 
 Rôle Warbound : **configurer le flag `vaultAccess`** (constructeur pur `buildVaultAccessEntry` +
 lecteurs de droits) — pas de hook, pas de journal réimplémenté.
+
+---
+
+## Guide MJ — Utilisation d'Item Piles dans Warbound
+
+> Ce guide s'adresse au Maître du Jeu. Il couvre l'activation, les cas d'utilisation courants et les limites connues de l'intégration Item Piles COF2.
+
+### Prérequis et activation
+
+1. **Installer Item Piles** (version exacte recommandée : **3.3.4**) depuis le gestionnaire de modules Foundry VTT.
+2. **Activer Item Piles** dans les paramètres du monde (Gérer les modules → cocher *Item Piles*).
+3. **Activer `warbound-campaign-content`** si ce n'est pas déjà le cas.
+4. Recharger la page : l'intégration COF2 se déclare automatiquement au hook `item-piles-ready`.
+
+Aucune configuration manuelle supplémentaire n'est requise — la configuration COF2 (chemins de quantité, de prix, de monnaie, types d'objets valides) est injectée automatiquement par le module.
+
+---
+
+### Piles au sol (F01)
+
+Pour créer une pile d'objets sur la scène :
+
+1. **Glisser-déposer** un objet depuis un compendium ou l'inventaire d'un acteur sur la scène.
+2. Item Piles crée un token pile. Les objets empilables (`system.properties.stackable: true`) fusionnent automatiquement si une pile identique est déjà présente.
+3. **Ramasser** : cliquer sur le token pile → sélectionner les objets à prendre.
+
+> Les objets non-empilables (armes, armures) ne fusionnent jamais, même si deux piles semblent identiques.
+
+---
+
+### Butin et coffres (F02, F04)
+
+**Coffre / butin `encounter`** :
+
+1. Créer un acteur de type `encounter` et lui attribuer des objets.
+2. Dans les réglages Item Piles de l'acteur, choisir le type *Pile* ou *Coffre*.
+3. Placer l'acteur sur la scène : les joueurs peuvent interagir avec le token pour piller/fouiller.
+
+**Verrouillage** : cocher *Verrouillé* dans les réglages Item Piles de l'acteur pour empêcher l'accès sans clé (gestion native Item Piles).
+
+---
+
+### Marchands (F05–F07)
+
+1. Créer un acteur `encounter`, l'équiper d'objets et de monnaie.
+2. Dans les réglages Item Piles, choisir le type *Marchand*.
+3. Configurer les prix via les flags Item Piles sur chaque objet (`buyPriceModifier`, `sellPriceModifier`, `notForSale`, `infiniteQuantity`).
+
+**Convention monétaire Warbound** : 1 PO = 10 PA = 100 PC. Les paiements multidevises et le rendu de monnaie exact sont gérés nativement.
+
+**Arrondi** : tout prix est ramené à l'entier de PC le plus proche — aucune fraction de denier.
+
+---
+
+### Échanges PJ↔PJ (F08–F10)
+
+Les échanges entre personnages joueurs sont entièrement gérés par Item Piles :
+
+1. Clic droit sur le token d'un autre PJ → *Échanger des objets*.
+2. Les deux joueurs voient l'interface d'échange et doivent valider.
+3. L'échange est atomique : tout réussit ou tout est annulé.
+
+> Warbound **observe** chaque échange terminé (hook `item-piles-tradeComplete`) et en tient un journal
+> dans les **flags de l'acteur** : `flags.warbound.tradeHistory` (sur chaque participant possédé par le
+> joueur courant). Warbound ne publie **rien** dans le chat. **Il n'est pas possible d'intercepter ni
+> d'annuler un échange en cours depuis Warbound** (le hook est émis en `Hooks.callAll`, non annulable).
+> Item Piles peut, de son côté, publier le détail des transactions au chat si le réglage *Output to chat*
+> est activé (natif).
+
+---
+
+### Vaults — inventaires partagés (F09, F13)
+
+1. Créer un acteur `encounter`, type *Vault* dans Item Piles.
+2. Configurer les droits d'accès dans les réglages de l'acteur vault (`vaultAccess` : vue, organisation, dépôt/retrait d'objets et de monnaie par UUID de joueur).
+3. Les joueurs autorisés peuvent déposer et retirer des objets et de la monnaie.
+
+Le journal d'actions vault (qui a déposé/retiré quoi) est géré nativement par Item Piles (`logVaultActions`).
+
+---
+
+### Conteneurs COF2 (F15)
+
+Les objets de type `container` COF2 sont pris en charge depuis P5 (#117) :
+
+- Un conteneur transféré (vente, butin) emporte automatiquement son contenu.
+- Le contenu est résolu via les UUIDs `system.contents` de l'acteur porteur.
+
+**Limite connue** : si le contenu du conteneur provient d'un compendium non peuplé sur l'acteur courant, les objets sont ignorés silencieusement lors du transfert. Vérifier que le contenu est bien embarqué sur l'acteur avant tout transfert important.
+
+---
+
+### Débogage
+
+| Symptôme | Cause probable | Action |
+|---|---|---|
+| Objets ne s'empilent pas | `system.properties.stackable` à `false` | Vérifier la fiche de l'objet dans COF2 |
+| Prix affiché à 0 | `system.price.value` absent ou nul | Renseigner le prix sur l'objet COF2 |
+| Monnaie du marchand ne diminue pas après achat | Réglage *Stock infini* activé | Désactiver `infiniteQuantity` sur le marchand |
+| Conteneur transféré sans contenu | Contenu non embarqué sur l'acteur | Vérifier `system.contents` et ajouter les objets à l'acteur |
+| Échange PJ bloqué | Un des deux joueurs n'a pas validé ou a annulé | Relancer l'échange ; consulter le chat Item Piles si *Output to chat* est activé, ou `flags.warbound.tradeHistory` de l'acteur |
+| Module non détecté par Item Piles | Chargement hors ordre | Recharger la page ; vérifier que `item-piles-ready` est émis dans la console |
+
+Pour inspecter l'état de l'intégration en console Foundry (API publique `game.itempiles.API`) :
+
+```js
+// Devises enregistrées — doit lister PO (primary), PA, PC
+game.itempiles.API.CURRENCIES
+game.itempiles.API.getPrimaryCurrency()          // → devise PO
+
+// Chemins et filtres COF2
+game.itempiles.API.ITEM_QUANTITY_ATTRIBUTE       // 'system.quantity.current'
+game.itempiles.API.ITEM_PRICE_ATTRIBUTE          // 'system.price.value'
+game.itempiles.API.QUANTITY_FOR_PRICE_ATTRIBUTE  // 'flags.item-piles.system.quantityForPrice'
+game.itempiles.API.ITEM_FILTERS                  // exclut profile/feature/capacity/attack/path (sans 'container')
+```
+
+---
+
+### Limites connues
+
+| Limite | Détail |
+|---|---|
+| Compatibilité Item Piles | Testée sur la version **3.3.4** uniquement. Les versions antérieures et postérieures ne sont pas garanties. |
+| Remap conteneur inter-acteur | Après un transfert de conteneur entre deux acteurs différents, les UUIDs `system.contents`/`system.container` ne sont pas remappés (logique COF2 hors portée Item Piles). Le contenu est conservé mais l'association conteneur↔contenu peut devenir orpheline. |
+| Simple Calendar | Non intégré dans cette version. Le réapprovisionnement automatique lié au calendrier n'est pas pris en charge. |
+| Échanges PJ — annulation | Item Piles ne fournit pas de hook annulable sur les échanges PJ↔PJ. Warbound ne peut qu'observer. |
+| AppV2 Foundry 14 | Non testée explicitement contre l'interface AppV2 (non bloquant). |
+
+---
+
+### Procédure de retour arrière et sauvegarde
+
+**Avant toute mise à jour d'Item Piles ou du module Warbound, sauvegarder le monde :**
+
+1. **Administration Foundry** → *Configuration du Serveur* → *Sauvegarder le Monde*.
+2. Ou utiliser le bouton de sauvegarde intégré si disponible dans votre hébergement.
+
+**Rollback vers l'état précédent :**
+
+1. Désactiver Item Piles dans la gestion des modules.
+2. Recharger la page : les acteurs et objets restent intacts ; seules les interactions Item Piles sont suspendues.
+3. Pour revenir à une version antérieure d'Item Piles : désinstaller le module, réinstaller manuellement la version ciblée via son URL de manifest.
+4. Si des données sont corrompues : restaurer depuis la sauvegarde du monde (étape 1 ci-dessus).
+
+> **Recommandation** : effectuer une sauvegarde du monde **avant** chaque mise à jour d'Item Piles, de COF2 ou du module `warbound-campaign-content`.
 
