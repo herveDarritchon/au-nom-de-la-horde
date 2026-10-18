@@ -5,6 +5,7 @@ function setGlobals({ systemId = 'co2', moduleActive = true, hasApi = true } = {
   const calls = []
   globalThis.Hooks = {
     once: () => {}, // no-op : le handler est capturé ci-dessous à l'import
+    on:   () => {}, // no-op : registerTradeHooks
   }
   globalThis.game = {
     system: { id: systemId, version: '2.3.12' },
@@ -25,6 +26,7 @@ globalThis.Hooks = {
     hookedName = name
     hookedHandler = handler
   },
+  on: () => {}, // registerTradeHooks au moment de l'invocation
 }
 globalThis.game = { system: { id: 'co2' }, modules: new Map(), user: { isGM: false } }
 await import('./index.mjs')
