@@ -2,7 +2,7 @@
 
 > Module : `warbound-campaign-content`  
 > Système : COF2 2.3.12 · Item Piles 3.3.4 · Foundry VTT 14.367  
-> Mis à jour : 2026-10-18 — P5 #117
+> Mis à jour : 2026-10-18 — P6 #118
 
 Légende : ✅ OK (intégré + recette à cocher) · ⚠️ Écart assumé (documenté) · ❌ Exclu (raison documentée) · 🔲 Recette live à valider
 
@@ -21,7 +21,7 @@ Légende : ✅ OK (intégré + recette à cocher) · ⚠️ Écart assumé (docu
 | F07 | Monnaies | ✅ 🔲 | #115 | PO/PA/PC, paiement multidevise, rendu exact, convention COF2 (1 PO = 10 PA = 100 PC). Tests unitaires verts (A09–A14, régression 3.3.3). Recette : `115-recette-f05-f07.md`. |
 | F08 | Échanges PJ | ✅ 🔲 | #116 | Donner, échange double validation, annulation. Warbound = observateur via `item-piles-tradeComplete`. Recette : `116-recette-f08-f10-f13.md`. |
 | F09 | Vaults | ✅ 🔲 | #116 | Inventaire partagé, droits fins via `vaultAccess` flag, journal natif. Recette : `116-recette-f08-f10-f13.md`. |
-| F10 | Journaux | ✅ 🔲 | #116 | Logs échanges et vaults via hooks. Recette : `116-recette-f08-f10-f13.md`. |
+| F10 | Journaux | ✅ 🔲 | #116 | Journal d'échange dans `flags.warbound.tradeHistory` (hook `item-piles-tradeComplete`) ; journaux vault **natifs** Item Piles (`logVaultActions`). Recette : `116-recette-f08-f10-f13.md`. |
 | F11 | Automatisation | ✅ | #117 | Peuplement depuis compendiums/tables/dossiers : natif Item Piles. `container` retiré des filtres → visible dans marchands. Calendrier optionnel : non requis (Simple Calendar non installé). |
 | F12 | Paramétrage | ✅ | #117 | `getMerchantCategory`, `getItemVisibility`, `getItemPermissions` (purs, non branchés). Filtres, colonnes, prix, rareté, visibilité, permissions : natifs Item Piles. |
 | F13 | Accès multijoueur | ✅ 🔲 | #116 | MJ/joueurs, acteurs possédés, absence MJ, transactions concurrentes (`ongoingTrades`). Recette : `116-recette-f08-f10-f13.md`. |
@@ -47,4 +47,11 @@ Légende : ✅ OK (intégré + recette à cocher) · ⚠️ Écart assumé (docu
 | F01–F04, F13 | `documentation/recette/item-piles/114-recette-f01-f04-f13.md` | A01–A08 |
 | F05–F07 | `documentation/recette/item-piles/115-recette-f05-f07.md` | A09–A14 |
 | F08–F10, F13 | `documentation/recette/item-piles/116-recette-f08-f10-f13.md` | A15–A17, A20–A22, V01–V04 |
-| F11, F12, F15 | À créer : `documentation/recette/item-piles/117-recette-f11-f12-f15.md` | A18–A19, A24–A25 |
+| F11, F12, F15 | `documentation/recette/item-piles/117-recette-f11-f12-f15.md` | A18–A19, A24–A25 |
+
+---
+
+## Definition of Done
+
+La couverture des critères de livraison (cadrage §11) est suivie dans
+[`documentation/item-piles-dod.md`](item-piles-dod.md).
