@@ -141,6 +141,15 @@ describe('areSimilar', () => {
   test('deux équipements non-stackable même nom → false (pas de fusion)', () => {
     assert.ok(!areSimilar(equipment(), equipment()))
   })
+
+  test('symétrie : areSimilar(a, b) === areSimilar(b, a)', () => {
+    assert.equal(areSimilar(potion(), equipment()), areSimilar(equipment(), potion()))
+  })
+
+  test('potion vs potion non-stackable → false', () => {
+    const notStackable = potion({ system: { slug: 'potion-de-soin', rarity: 'common', properties: { stackable: false } } })
+    assert.ok(!areSimilar(potion(), notStackable))
+  })
 })
 
 describe('normalizeQuantity', () => {
@@ -160,12 +169,28 @@ describe('normalizeQuantity', () => {
     assert.equal(normalizeQuantity(5, 3), null)
   })
 
+  test('quantité égale au max → conservée (borne inclusive)', () => {
+    assert.equal(normalizeQuantity(8, 8), 8)
+  })
+
+  test('max = 0 et quantité 0 → 0', () => {
+    assert.equal(normalizeQuantity(0, 0), 0)
+  })
+
+  test('max = 0 et quantité 1 → null', () => {
+    assert.equal(normalizeQuantity(1, 0), null)
+  })
+
   test('quantité négative → null', () => {
     assert.equal(normalizeQuantity(-1, null), null)
   })
 
   test('quantité fractionnaire → null', () => {
     assert.equal(normalizeQuantity(1.5, null), null)
+  })
+
+  test('quantité 0.5 → null', () => {
+    assert.equal(normalizeQuantity(0.5, null), null)
   })
 
   test('NaN → null', () => {
@@ -211,5 +236,20 @@ describe('applyStackingFlag', () => {
 
   test('null → null', () => {
     assert.equal(applyStackingFlag(null), null)
+  })
+
+  test('préserve les flags de premier niveau non liés à item-piles', () => {
+    const src = potion()
+    src.flags = { 'custom-flag': { key: 'value' } }
+    const out = applyStackingFlag(src)
+    assert.deepEqual(out.flags['custom-flag'], { key: 'value' })
+    assert.equal(out.flags['item-piles'].item.canStack, 'yes')
+  })
+
+  test('idempotent : réappliqué, le résultat est stable', () => {
+    const once = applyStackingFlag(potion())
+    const twice = applyStackingFlag(once)
+    assert.equal(twice.flags['item-piles'].item.canStack, 'yes')
+    assert.deepEqual(twice, once)
   })
 })

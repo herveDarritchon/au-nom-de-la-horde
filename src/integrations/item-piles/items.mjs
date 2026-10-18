@@ -16,6 +16,23 @@ const QUANTITY_BEARING_TYPES = new Set(['equipment'])
 export const ITEM_SIMILARITY_PATHS = ['name', 'type', 'system.slug', 'system.rarity']
 
 /**
+ * Politique `system.equipped` après transfert (P2 — #114, F01/F02, à confirmer en recette A25).
+ *
+ * Item Piles transfère la donnée d'objet telle quelle : l'adaptateur ne définit aucun handler
+ * touchant `system.equipped`. La valeur d'origine (`true` / `false` / `undefined`) est donc
+ * conservée chez l'acteur de destination. `system.equipped` est un `BooleanField` COF2 optionnel
+ * sans `initial` (cf. `co2/module/models/equipment.mjs`).
+ *
+ * COF2 n'auto-équipe que dans son propre flux `addBaseItemItem` (ajout d'un objet de base à la
+ * création d'acteur, `co2/module/documents/actor.mjs`), qui n'est PAS emprunté par Item Piles.
+ * Les getters COF2 (`equippedWeapons`, `equippedArmors`, `equippedShields`, `equippedEquipments`)
+ * lisent directement le booléen : un objet transféré avec `equipped: true` comptera comme équipé
+ * chez le receveur.
+ *
+ * Décision : aucune transformation active — rééquilibrage manuel par le MJ/joueur si nécessaire.
+ */
+
+/**
  * Retourne true si l'objet COF2 peut être transféré via Item Piles.
  */
 export function isPhysicalItem(item) {

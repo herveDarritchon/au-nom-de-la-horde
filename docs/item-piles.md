@@ -161,6 +161,20 @@ Conséquence : le contenu est une **référence indirecte** vers des Items qui v
 
 Implémentation : `src/integrations/item-piles/items.mjs:5` — `EXCLUDED_TYPES` inclut `'container'` (filtre `type`, `config.mjs:27`).
 
+#### Objet équipé — politique `system.equipped`
+
+**DÉCIDÉ : aucune transformation active — valeur transférée telle quelle**
+
+`system.equipped` est un `BooleanField` COF2 optionnel, sans `initial` (`co2/module/models/equipment.mjs:56`) → `true` / `false` / `undefined`.
+
+- Item Piles transfère la donnée d'objet telle quelle ; l'adaptateur ne définit **aucun** handler touchant `equipped`.
+- COF2 n'auto-équipe que dans son flux interne `addBaseItemItem` (`co2/module/documents/actor.mjs:26-52`), utilisé à la création d'acteur — **non** emprunté par Item Piles.
+- Les getters COF2 (`equippedWeapons`, `equippedArmors`, `equippedShields`, `equippedEquipments`) lisent directement le booléen (`actor.mjs:326-353`).
+
+Conséquence : un objet transféré avec `equipped: true` reste équipé chez le receveur (les effets/actions suivent l'objet). Décision : ne rien transformer ; rééquilibrage manuel par le MJ/joueur. Comportement à confirmer en recette live (A25).
+
+Implémentation : commentaire de politique dans `src/integrations/item-piles/items.mjs`.
+
 ---
 
 ### Évaluation du prototype antérieur
