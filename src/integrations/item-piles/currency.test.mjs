@@ -6,6 +6,9 @@ import {
   toLowestDenomination,
   fromLowestDenomination,
   resolveCurrencyId,
+  canAfford,
+  subtractCurrency,
+  calculateChange,
   EXCHANGE_RATES,
 } from './currency.mjs'
 
@@ -141,6 +144,106 @@ describe('fromLowestDenomination', () => {
   test('aller-retour : 1 PO + 5 PA + 3 PC', () => {
     const totalCp = toLowestDenomination(1, 5, 3)
     assert.deepEqual(fromLowestDenomination(totalCp), { gp: 1, sp: 5, cp: 3 })
+  })
+})
+
+describe('canAfford', () => {
+  test('A09 — achat exact : 8 PA pour 8 PA → true', () => {
+    assert.equal(canAfford({ gp: 0, sp: 8, cp: 0 }, { gp: 0, sp: 8, cp: 0 }), true)
+  })
+
+  test('test de référence — 7 PA pour article à 8 PA → false', () => {
+    assert.equal(canAfford({ gp: 0, sp: 7, cp: 0 }, { gp: 0, sp: 8, cp: 0 }), false)
+  })
+
+  test('A10 — 1 PO pour article à 8 PA → true (100 PC >= 80 PC)', () => {
+    assert.equal(canAfford({ gp: 1, sp: 0, cp: 0 }, { gp: 0, sp: 8, cp: 0 }), true)
+  })
+
+  test('A11 — fonds insuffisants multi-devise → false', () => {
+    assert.equal(canAfford({ gp: 0, sp: 5, cp: 9 }, { gp: 0, sp: 6, cp: 0 }), false)
+  })
+
+  test('A12 — prix zéro → toujours affordé', () => {
+    assert.equal(canAfford({ gp: 0, sp: 0, cp: 0 }, { gp: 0, sp: 0, cp: 0 }), true)
+    assert.equal(canAfford({ gp: 1, sp: 0, cp: 0 }, { gp: 0, sp: 0, cp: 0 }), true)
+  })
+
+  test('wallet null → false', () => {
+    assert.equal(canAfford(null, { gp: 0, sp: 1, cp: 0 }), false)
+  })
+
+  test('cost null → false', () => {
+    assert.equal(canAfford({ gp: 0, sp: 1, cp: 0 }, null), false)
+  })
+})
+
+describe('subtractCurrency', () => {
+  test('A09 — soustraction exacte : 8 PA − 8 PA = 0', () => {
+    assert.deepEqual(subtractCurrency({ gp: 0, sp: 8, cp: 0 }, { gp: 0, sp: 8, cp: 0 }), { gp: 0, sp: 0, cp: 0 })
+  })
+
+  test('A10 — 1 PO − 8 PA = 2 PA (solde acheteur après paiement)', () => {
+    assert.deepEqual(subtractCurrency({ gp: 1, sp: 0, cp: 0 }, { gp: 0, sp: 8, cp: 0 }), { gp: 0, sp: 2, cp: 0 })
+  })
+
+  test('A11 — fonds insuffisants → null, aucune mutation', () => {
+    const wallet = { gp: 0, sp: 7, cp: 0 }
+    const result = subtractCurrency(wallet, { gp: 0, sp: 8, cp: 0 })
+    assert.equal(result, null)
+    assert.deepEqual(wallet, { gp: 0, sp: 7, cp: 0 }, 'wallet non muté')
+  })
+
+  test('A13 — multi-devise : 1 PO 5 PA − 8 PA = 7 PA', () => {
+    assert.deepEqual(subtractCurrency({ gp: 1, sp: 5, cp: 0 }, { gp: 0, sp: 8, cp: 0 }), { gp: 0, sp: 7, cp: 0 })
+  })
+
+  test('A14 — solde exact avec PC : 1 PO 2 PA 3 PC − 1 PO = 2 PA 3 PC', () => {
+    assert.deepEqual(subtractCurrency({ gp: 1, sp: 2, cp: 3 }, { gp: 1, sp: 0, cp: 0 }), { gp: 0, sp: 2, cp: 3 })
+  })
+})
+
+describe('calculateChange', () => {
+  test('A09 — paiement exact → rendu zéro', () => {
+    assert.deepEqual(calculateChange({ gp: 0, sp: 8, cp: 0 }, { gp: 0, sp: 8, cp: 0 }), { gp: 0, sp: 0, cp: 0 })
+  })
+
+  test('A10 — 1 PO pour 8 PA → rendu 2 PA', () => {
+    assert.deepEqual(calculateChange({ gp: 1, sp: 0, cp: 0 }, { gp: 0, sp: 8, cp: 0 }), { gp: 0, sp: 2, cp: 0 })
+  })
+
+  test('A11 — paiement insuffisant → null', () => {
+    assert.equal(calculateChange({ gp: 0, sp: 7, cp: 0 }, { gp: 0, sp: 8, cp: 0 }), null)
+  })
+
+  test('A12 — prix zéro → rendu égal au paiement', () => {
+    assert.deepEqual(calculateChange({ gp: 0, sp: 3, cp: 0 }, { gp: 0, sp: 0, cp: 0 }), { gp: 0, sp: 3, cp: 0 })
+  })
+
+  test('A13 — 1 PO 5 PA pour 8 PA → rendu 7 PA', () => {
+    assert.deepEqual(calculateChange({ gp: 1, sp: 5, cp: 0 }, { gp: 0, sp: 8, cp: 0 }), { gp: 0, sp: 7, cp: 0 })
+  })
+
+  test('A14 — multi-devise avec PC : 1 PO 2 PA 3 PC pour 1 PO → rendu 2 PA 3 PC', () => {
+    assert.deepEqual(calculateChange({ gp: 1, sp: 2, cp: 3 }, { gp: 1, sp: 0, cp: 0 }), { gp: 0, sp: 2, cp: 3 })
+  })
+
+  test('régression 3.3.3 — rendu doit être soustrait du marchand', () => {
+    // Scénario : acheteur paie 1 PO, article coûte 8 PA. Rendu = 2 PA.
+    // Le marchand DOIT perdre 2 PA de son stock de monnaie.
+    const change = calculateChange({ gp: 1, sp: 0, cp: 0 }, { gp: 0, sp: 8, cp: 0 })
+    assert.deepEqual(change, { gp: 0, sp: 2, cp: 0 }, 'rendu = 2 PA')
+    const merchantWallet = { gp: 0, sp: 10, cp: 0 }
+    const merchantAfter  = subtractCurrency(merchantWallet, change)
+    assert.deepEqual(merchantAfter, { gp: 0, sp: 8, cp: 0 }, 'marchand perd 2 PA (régression 3.3.3 absente)')
+  })
+
+  test('paid null → null', () => {
+    assert.equal(calculateChange(null, { gp: 0, sp: 1, cp: 0 }), null)
+  })
+
+  test('price null → null', () => {
+    assert.equal(calculateChange({ gp: 0, sp: 1, cp: 0 }, null), null)
   })
 })
 
