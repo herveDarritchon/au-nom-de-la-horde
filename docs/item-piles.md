@@ -243,3 +243,52 @@ Le fichier `warbound-item-piles-prototype.zip` (référencé au cadrage §8) est
 - `ITEM_COST_TRANSFORMER` est synchrone côté Item Piles — ne pas le rendre `async` dans de futures évolutions.
 - `CURRENCIES[].primary` : une seule devise doit avoir `primary: true` (PO). Item Piles utilise la primaire comme référence pour les conversions et le rendu de monnaie.
 - `addSystemIntegration` n'est pas idempotent (chaque appel écrase la config) — `Hooks.once` est essentiel.
+
+---
+
+## Échange PJ↔PJ et vault — contrat 3.3.4 (F08–F10, F13)
+
+**Statut : CONFIRMÉ** (source : bundle 3.3.4, préfixe de hook `item-piles-`)
+
+### Échange PJ↔PJ (F08–F10) — nativement géré
+
+Item Piles fournit l'UI d'échange, la double validation, la sécurité par possession, l'idempotence
+(`ongoingTrades` + transaction atomique) et la gestion des annulations. **Warbound ne peut pas
+intercepter ni annuler un échange PJ↔PJ.**
+
+| Hook réel | Émission | Signature | Rôle |
+|---|---|---|---|
+| `item-piles-tradeStarted` | socket `callHook`/`callHookForUsers` (`callAll`) | `(leftParticipant, rightParticipant, tradeId, isPrivate)` | notification d'ouverture |
+| `item-piles-tradeComplete` | `Hooks.callAll` (l. 90776/90792) | `(instigator, leftTraderData, rightTraderData, tradeId)` | notification de clôture |
+
+- **Non annulables** (`callAll`) : ni `tradeStarted` ni `tradeComplete` ne peuvent être veto par un retour `false`.
+- Il **n'existe pas** de hook `preTradeComplete`.
+- `traderData = { user, actor(uuid), items[], currencies[], itemCurrencies[], accepted }`.
+- Le hook **cancellable** `item-piles-preTradeItems` (l. 85791) relève du flux **marchand/pile**
+  (achat-vente), pas de l'échange PJ↔PJ.
+
+Rôle Warbound : **observateur** (journal d'échange via `item-piles-tradeComplete`) —
+`src/integrations/item-piles/trade.mjs` + `scripts/integrations/item-piles/hooks-trade.mjs`.
+
+### Vault (F13) — data-driven, sans hook
+
+Il n'existe **aucun** hook vault dans Item Piles 3.3.4. Les droits fins sont portés par un **flag
+d'acteur** et appliqués nativement par `getVaultAccess()` (l. 36426) :
+
+```
+flags['item-piles'].vaultAccess = [
+  { uuid, view, organize, items: { deposit, withdraw }, currencies: { deposit, withdraw } }
+]
+```
+
+- Résolution : ne retient que les entrées dont `fromUuidSync(uuid)?.isOwner` ; `view ?? true` ;
+  dépôt/retrait exigent un **destinataire** (`hasRecipient`).
+- Réglages globaux : `restrictVaultAccess` (bool), `logVaultActions` (bool), `vaultLogType`
+  (`user`/`actor`/`user_actor`) — **journal natif** (`updateVaultLog`).
+- Préservation des métadonnées d'objet (charges/effets) : **native** (Item Piles déplace le même
+  document). Les helpers purs `snapshotItemMetadata`/`assertMetadataIntegrity`
+  (`src/integrations/item-piles/vault.mjs`) servent de filet de sécurité, non branchés.
+
+Rôle Warbound : **configurer le flag `vaultAccess`** (constructeur pur `buildVaultAccessEntry` +
+lecteurs de droits) — pas de hook, pas de journal réimplémenté.
+

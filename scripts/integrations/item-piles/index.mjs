@@ -1,5 +1,6 @@
 import { buildItemPilesConfig, INTEGRATION_VERSION, INTEGRATION_TARGET_VERSION } from './config.mjs'
 import { logDiagnostics } from './diagnostics.mjs'
+import { registerTradeHooks } from './hooks-trade.mjs'
 
 const MODULE_ID     = 'warbound-campaign-content'
 const ITEM_PILES_ID = 'item-piles'
@@ -34,6 +35,7 @@ export async function registerItemPilesIntegration() {
   }
 
   logDiagnostics()
+  registerTradeHooks()
   return true
 }
 
