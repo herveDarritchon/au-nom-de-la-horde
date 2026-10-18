@@ -91,3 +91,48 @@ export function isAccessible(item, actor) {
   if (!actor) return false
   return isSaleAllowed(item)
 }
+
+// ─── F12 — Paramétrage marchand COF2 ─────────────────────────────────────────
+//
+// Fonctions pures de classification COF2 pour l'affichage marchand (F12).
+// Non branchées sur un hook : Item Piles reste maître du runtime.
+
+// Types COF2 exposables dans un inventaire marchand avec leur clé i18n COF2.
+const COF2_MERCHANT_CATEGORIES = {
+  equipment: 'CO.ItemType.equipment',
+  container: 'CO.ItemType.container',
+}
+
+/**
+ * Retourne la clé i18n COF2 de la catégorie marchande pour un type d'item.
+ * Retourne null pour les types non marchands (profile, feature, capacity, attack, path).
+ */
+export function getMerchantCategory(item) {
+  if (!item) return null
+  return COF2_MERCHANT_CATEGORIES[item.type] ?? null
+}
+
+/**
+ * Retourne l'état de visibilité de l'item dans un inventaire marchand.
+ * `visible: true` si ni caché ni interdit de vente.
+ * `reason` précise le motif d'exclusion (`'hidden'` | `'not-for-sale'` | `'no-item'` | null).
+ */
+export function getItemVisibility(item) {
+  if (!item) return { visible: false, reason: 'no-item' }
+  if (isItemHidden(item)) return { visible: false, reason: 'hidden' }
+  if (!isSaleAllowed(item)) return { visible: false, reason: 'not-for-sale' }
+  return { visible: true, reason: null }
+}
+
+/**
+ * Retourne les droits d'accès d'un acteur sur un item marchand.
+ * `allowed: true` si l'item est visible et l'acteur présent.
+ * `reason` précise le motif de refus (`'no-item'` | `'no-actor'` | `'hidden'` | `'not-for-sale'` | null).
+ */
+export function getItemPermissions(item, actor) {
+  if (!item) return { allowed: false, reason: 'no-item' }
+  if (!actor) return { allowed: false, reason: 'no-actor' }
+  if (isItemHidden(item)) return { allowed: false, reason: 'hidden' }
+  if (!isSaleAllowed(item)) return { allowed: false, reason: 'not-for-sale' }
+  return { allowed: true, reason: null }
+}

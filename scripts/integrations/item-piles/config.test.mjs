@@ -36,11 +36,19 @@ describe('buildItemPilesConfig — contrat addSystemIntegration 3.3.4', () => {
     }
   })
 
-  test('ITEM_FILTERS bloque les types non physiques et container', () => {
+  test('ITEM_FILTERS bloque les types non physiques (container retiré — géré par ITEM_TYPE_HANDLERS)', () => {
     const values = config.ITEM_FILTERS[0].filters.split(',').map((s) => s.trim())
-    for (const type of ['profile', 'feature', 'capacity', 'attack', 'path', 'container']) {
+    for (const type of ['profile', 'feature', 'capacity', 'attack', 'path']) {
       assert.ok(values.includes(type), `type ${type} doit être filtré`)
     }
+    assert.ok(!values.includes('container'), 'container ne doit pas être dans ITEM_FILTERS (géré par ITEM_TYPE_HANDLERS.container)')
+  })
+
+  test('ITEM_TYPE_HANDLERS.container expose contents et transfer (P5 — #117)', () => {
+    assert.equal(typeof config.ITEM_TYPE_HANDLERS, 'object')
+    assert.equal(typeof config.ITEM_TYPE_HANDLERS.container, 'object')
+    assert.equal(typeof config.ITEM_TYPE_HANDLERS.container.contents, 'function', 'contents doit être une fonction')
+    assert.equal(typeof config.ITEM_TYPE_HANDLERS.container.transfer, 'function', 'transfer doit être une fonction')
   })
 
   test('ITEM_SIMILARITIES est un tableau de strings (jamais une fonction)', () => {

@@ -1,8 +1,8 @@
 // Types COF2 non physiques — jamais transférables via Item Piles.
 const NON_PHYSICAL_TYPES = new Set(['profile', 'feature', 'capacity', 'attack', 'path'])
 
-// container exclu jusqu'à handler complet validé (P5 — #117).
-const EXCLUDED_TYPES = new Set([...NON_PHYSICAL_TYPES, 'container'])
+// container géré via ITEM_TYPE_HANDLERS.container (P5 — #117, containers.mjs).
+const EXCLUDED_TYPES = new Set([...NON_PHYSICAL_TYPES])
 
 // Types physiques COF2 qui portent `system.quantity.current` — requis par `isItemStackable` d'Item Piles.
 const QUANTITY_BEARING_TYPES = new Set(['equipment'])

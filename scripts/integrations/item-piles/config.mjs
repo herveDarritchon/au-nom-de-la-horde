@@ -1,5 +1,6 @@
 import { toPrimaryAmount, EXCHANGE_RATES } from '../../../src/integrations/item-piles/currency.mjs'
 import { ITEM_SIMILARITY_PATHS, applyStackingFlag } from '../../../src/integrations/item-piles/items.mjs'
+import { extractContainerContents } from '../../../src/integrations/item-piles/containers.mjs'
 
 // Incrémenté uniquement si les réglages par défaut nécessitent une migration côté MJ.
 export const INTEGRATION_VERSION = '1'
@@ -22,9 +23,10 @@ const CURRENCY_DEFS = [
   { id: 'cp', name: 'CO.currency.cp', abbreviation: '{#}PC', path: 'system.wealth.cp.value', primary: false },
 ]
 
-// Types COF2 non transférables + container (P5 — #117). Filtre format string (contract 3.3.4).
+// Types COF2 non transférables. Filtre format string (contrat 3.3.4).
+// container retiré — géré via ITEM_TYPE_HANDLERS.container (P5 — #117).
 const ITEM_FILTER_PATH = 'type'
-const ITEM_FILTER_VALUES = ['profile', 'feature', 'capacity', 'attack', 'path', 'container']
+const ITEM_FILTER_VALUES = ['profile', 'feature', 'capacity', 'attack', 'path']
 
 /**
  * Construit la configuration Item Piles 3.3.4 pour COF2.
@@ -74,6 +76,29 @@ export function buildItemPilesConfig() {
 
     // Aucune valeur par défaut spécifique — Item Piles applique ses propres PILE_DEFAULTS.
     PILE_DEFAULTS: {},
+
+    // Handlers COF2 pour les types d'item non génériques.
+    // Signatures vérifiées dans le bundle Item Piles 3.3.4 (l. 35005, 83990, 36035).
+    ITEM_TYPE_HANDLERS: {
+      container: {
+        // Retourne les Items contenus dans un container COF2 (résolution des UUIDs via Foundry).
+        // Appelé : handler({ item }) → Item[] (l. 35005).
+        contents: ({ item }) => {
+          const uuids = extractContainerContents(item)
+          return uuids.map((uuid) => fromUuidSync(uuid)).filter(Boolean)
+        },
+
+        // Pousse les Items contenus dans `items` pour les inclure dans le transfert.
+        // Appelé : handler({ item, items, raw? }) → void (l. 83990, 36035).
+        transfer: ({ item, items }) => {
+          const uuids = extractContainerContents(item)
+          for (const uuid of uuids) {
+            const contained = fromUuidSync(uuid)
+            if (contained) items.push(contained)
+          }
+        },
+      },
+    },
   }
 }
 
