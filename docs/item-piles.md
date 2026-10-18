@@ -128,7 +128,7 @@ La décision finale combine le flag objet et le réglage acteur (`actorFlagData.
 | `containerIdGenerator` / `containerIdRetriever` | id de conteneur |
 | `containerTransformer` | transformation à l'insertion |
 
-**Comportement sans handler déclaré** : `getItemTypeHandler` retourne `undefined` → Item Piles retombe sur sa logique générique. Pour `container` (aucun handler COF2 livré, pas de `system.quantity.current`), cela signifie que la quantité n'est pas interprétée : d'où l'exclusion. Un handler `container` complet (via `ITEM_TYPE_HANDLERS.container`) est le mécanisme officiel prévu pour P5 — #117.
+**Comportement sans handler déclaré** : `getItemTypeHandler` retourne `undefined` → Item Piles retombe sur sa logique générique. Pour `container` (aucun handler générique livré, pas de `system.quantity.current`), cela signifiait que la quantité n'était pas interprétée : d'où l'exclusion historique. Un handler `container` complet via `ITEM_TYPE_HANDLERS.container` (mécanisme officiel) est désormais **livré** en P5 — #117.
 
 ### Flags marchands et prix — contrat 3.3.4
 
@@ -179,7 +179,7 @@ Implémentation : `src/integrations/item-piles/currency.mjs` — `EXCHANGE_RATES
 
 #### Traitement de `container`
 
-**DÉCIDÉ : exclu des transferts jusqu'à handler complet (P5 — #117)**
+**IMPLÉMENTÉ : handler `ITEM_TYPE_HANDLERS.container` (P5 — #117)**
 
 `container` COF2 n'a pas de `system.quantity.current` (`QUANTITY_BEARING_TYPES = ['equipment']`, `items.mjs:8`).
 
@@ -187,10 +187,22 @@ Nature de `contents` — **CONFIRMÉ** depuis le modèle COF2 2.3.12 (`module/mo
 - `contents: ArrayField(DocumentUUIDField({ type: "Item" }))` — liste d'**UUIDs d'Items**, pas d'objets embarqués.
 - `contentsCount` résout chaque UUID via `fromUuidSync` et somme `item.system?.quantity?.current ?? 1` (un UUID non résolu compte pour 1).
 - `getContents()` résout via `fromUuidSync` si le contenant est embarqué sur un acteur, sinon `fromUuid` (monde/compendium, asynchrone).
+- Champ **inverse** `system.container` sur l'item contenu (renseigné par `addContent`/`removeContent`, `documents/item.mjs:291-373`).
 
-Conséquence : le contenu est une **référence indirecte** vers des Items qui vivent sur l'acteur ou dans un compendium — une gestion naïve (compter `contents.length`) sous-évaluerait ou dupliquerait l'inventaire. Un handler `container` dédié doit passer par `getContents()`/`contentsCount`. Reporté en P5 (#117) pour ne pas bloquer P1–P4.
+Conséquence : le contenu est une **référence indirecte** vers des Items qui vivent sur l'acteur (via `system.container`) ou dans un compendium — une gestion naïve (compter `contents.length`) sous-évaluerait ou dupliquerait l'inventaire.
 
-Implémentation : `src/integrations/item-piles/items.mjs:5` — `EXCLUDED_TYPES` inclut `'container'` (filtre `type`, `config.mjs:27`).
+**Handler livré** (`scripts/integrations/item-piles/config.mjs`, signatures vérifiées bundle 3.3.4) :
+- `ITEM_TYPE_HANDLERS.container.contents({ item }) → Item[]` (appelé l.35005) : résout les UUIDs via
+  `fromUuidSync` (identique à `contentsCount`/`getContents()` pour un conteneur embarqué).
+- `ITEM_TYPE_HANDLERS.container.transfer({ item, items })` (appelé l.83990 et l.36035 en `raw:true`) :
+  pousse les Items contenus dans le transfert → conteneur **et** contenu transférés/vendus ensemble,
+  dédup native Item Piles (l.83995).
+- `container` est donc **retiré** de `EXCLUDED_TYPES` (`items.mjs`) et de `ITEM_FILTER_VALUES` (`config.mjs`).
+
+**Écarts assumés** (cf. matrice F01–F15) : un UUID de compendium **non embarqué** n'est pas résolu par
+`fromUuidSync` (ignoré) ; et les UUIDs `system.contents`/`system.container` ne sont **pas remappés** lors
+d'un transfert inter-acteur (la logique de remap COF2 ne vit que dans la fiche acteur). Recette live :
+A19/A24/A25 (`documentation/recette/item-piles/117-recette-f11-f12-f15.md`).
 
 #### Objet équipé — politique `system.equipped`
 
@@ -231,8 +243,8 @@ Le fichier `warbound-item-piles-prototype.zip` (référencé au cadrage §8) est
 | Écart | Statut | Traitement |
 |---|---|---|
 | Archive `warbound-item-piles-prototype.zip` absente du dépôt | **ÉCART documenté** | Évaluation faite sur la description du cadrage §8 (voir ci-dessus). |
-| `container` sans handler dédié (quantité non interprétable) | **DÉCIDÉ** | Exclu des transferts ; handler `ITEM_TYPE_HANDLERS.container` prévu en P5 (#117). |
-| Nature exacte des UUIDs d'un `container` peuplé en monde | **CONFIRMÉ (modèle)** | Modèle COF2 vérifié ; la vérification d'une instance réelle en jeu sera faite en recette P5. |
+| `container` sans handler dédié (quantité non interprétable) | **RÉSOLU (P5 — #117)** | Handler `ITEM_TYPE_HANDLERS.container` (`contents` + `transfer`) livré ; `container` retiré des filtres. |
+| Nature exacte des UUIDs d'un `container` peuplé en monde | **CONFIRMÉ (modèle)** | Modèle COF2 vérifié ; recette live A19 (`117-recette-f11-f12-f15.md`). Écart remap inter-acteur documenté. |
 
 ---
 

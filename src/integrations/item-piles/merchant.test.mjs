@@ -9,6 +9,9 @@ import {
   isService,
   isInfiniteQuantity,
   isAccessible,
+  getMerchantCategory,
+  getItemVisibility,
+  getItemPermissions,
 } from './merchant.mjs'
 
 const item = (flagOverrides = {}) => ({
@@ -168,5 +171,76 @@ describe('isAccessible', () => {
 
   test('objet notForSale → non accessible', () => {
     assert.equal(isAccessible(item({ notForSale: true }), { _id: 'actor-1' }), false)
+  })
+})
+
+// ─── F12 ─────────────────────────────────────────────────────────────────────
+
+describe('getMerchantCategory (F12)', () => {
+  test('equipment → clé i18n COF2', () => {
+    assert.equal(getMerchantCategory({ type: 'equipment' }), 'CO.ItemType.equipment')
+  })
+
+  test('container → clé i18n COF2', () => {
+    assert.equal(getMerchantCategory({ type: 'container' }), 'CO.ItemType.container')
+  })
+
+  test('profile → null (type non marchand)', () => {
+    assert.equal(getMerchantCategory({ type: 'profile' }), null)
+  })
+
+  test('capacity → null', () => {
+    assert.equal(getMerchantCategory({ type: 'capacity' }), null)
+  })
+
+  test('item null → null', () => {
+    assert.equal(getMerchantCategory(null), null)
+  })
+})
+
+describe('getItemVisibility (F12)', () => {
+  test('objet vendable et visible → visible: true', () => {
+    assert.deepEqual(getItemVisibility(item()), { visible: true, reason: null })
+  })
+
+  test('hidden=true → visible: false, reason: hidden', () => {
+    assert.deepEqual(getItemVisibility(item({ hidden: true })), { visible: false, reason: 'hidden' })
+  })
+
+  test('notForSale=true → visible: false, reason: not-for-sale', () => {
+    assert.deepEqual(getItemVisibility(item({ notForSale: true })), { visible: false, reason: 'not-for-sale' })
+  })
+
+  test('hidden prime sur notForSale', () => {
+    const result = getItemVisibility(item({ hidden: true, notForSale: true }))
+    assert.deepEqual(result, { visible: false, reason: 'hidden' })
+  })
+
+  test('item null → visible: false, reason: no-item', () => {
+    assert.deepEqual(getItemVisibility(null), { visible: false, reason: 'no-item' })
+  })
+})
+
+describe('getItemPermissions (F12)', () => {
+  const actor = () => ({ _id: 'actor-1' })
+
+  test('objet accessible + acteur → allowed: true', () => {
+    assert.deepEqual(getItemPermissions(item(), actor()), { allowed: true, reason: null })
+  })
+
+  test('item null → allowed: false, reason: no-item', () => {
+    assert.deepEqual(getItemPermissions(null, actor()), { allowed: false, reason: 'no-item' })
+  })
+
+  test('acteur null → allowed: false, reason: no-actor', () => {
+    assert.deepEqual(getItemPermissions(item(), null), { allowed: false, reason: 'no-actor' })
+  })
+
+  test('hidden=true → allowed: false, reason: hidden', () => {
+    assert.deepEqual(getItemPermissions(item({ hidden: true }), actor()), { allowed: false, reason: 'hidden' })
+  })
+
+  test('notForSale=true → allowed: false, reason: not-for-sale', () => {
+    assert.deepEqual(getItemPermissions(item({ notForSale: true }), actor()), { allowed: false, reason: 'not-for-sale' })
   })
 })

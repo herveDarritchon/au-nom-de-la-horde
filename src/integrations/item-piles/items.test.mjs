@@ -62,8 +62,8 @@ describe('isPhysicalItem', () => {
     assert.ok(!isPhysicalItem({ type: 'path' }))
   })
 
-  test('container → false (exclu jusqu\'à P5)', () => {
-    assert.ok(!isPhysicalItem({ type: 'container' }))
+  test('container → true (handler ITEM_TYPE_HANDLERS.container actif, P5 — #117)', () => {
+    assert.ok(isPhysicalItem({ type: 'container' }))
   })
 
   test('objet null → false', () => {
