@@ -130,6 +130,31 @@ La décision finale combine le flag objet et le réglage acteur (`actorFlagData.
 
 **Comportement sans handler déclaré** : `getItemTypeHandler` retourne `undefined` → Item Piles retombe sur sa logique générique. Pour `container` (aucun handler COF2 livré, pas de `system.quantity.current`), cela signifie que la quantité n'est pas interprétée : d'où l'exclusion. Un handler `container` complet (via `ITEM_TYPE_HANDLERS.container`) est le mécanisme officiel prévu pour P5 — #117.
 
+### Flags marchands et prix — contrat 3.3.4
+
+**Statut : CONFIRMÉ** (source : bundle 3.3.4)
+
+Item Piles pilote nativement marchands, prix et stock ; le cadrage §5 impose de **ne pas réimplémenter** cette logique dans Warbound. Flags lus par Item Piles sous `flags.item-piles.item` :
+
+| Flag | Type | Rôle | Lecture (bundle) |
+|---|---|---|---|
+| `notForSale` | `boolean` | objet non proposé à la vente | `ITEM_DEFAULTS.notForSale:false` ; posé à `true` quand quantité 0 (l. 41767/41772) |
+| `cantBeSoldToMerchants` | `boolean` | objet non revendable à un marchand | l. 35724 |
+| `hidden` | `boolean` | masqué dans l'inventaire marchand | l. 44774 |
+| `isService` | `boolean` | service : paiement sans livraison d'Item | l. 58085 |
+| `infiniteQuantity` | `string` `"default"`/`"yes"`/`"no"` | stock infini, tri-état (résolu avec la valeur du marchand) | l. 85716-85719 |
+| `displayQuantity` | `string`/`boolean` | affichage de la disponibilité (`always`, …) | l. 58009-58020 |
+| `buyPriceModifier` / `sellPriceModifier` | `number` | facteurs achat / vente | l. 64-65, 35433-35441 |
+
+Points d'extension **réels** pour les prix :
+
+- `ITEM_COST_TRANSFORMER` (l. 35641) — coût de base en monnaie primaire (déjà utilisé par COF2).
+- `PRICE_MODIFIER_TRANSFORMER` (l. 35444) — reçoit `{buyPriceModifier, sellPriceModifier, merchant, item, actor, actorPriceModifiers}` et retourne `{buyPriceModifier, sellPriceModifier}` ; appelé après les modificateurs Item Piles par type d'objet et par acteur. **Non utilisé** par Warbound : aucune règle de prix COF2 au-delà des flags Item Piles.
+
+Règles métier COF2 exposées en fonctions pures (`src/integrations/item-piles/merchant.mjs`) : `isSaleAllowed` (`notForSale`), `canSellToMerchant` (`cantBeSoldToMerchants`), `isItemHidden` (`hidden`), `isService` (`isService`), `isInfiniteQuantity` (tri-état `default`/`yes`/`no`), `applyMerchantMarkup` (politique d'arrondi §6.2). Ces fonctions **ne sont pas branchées** sur un hook : Item Piles reste seul maître du runtime marchand.
+
+**Ne pas confondre** : il n'existe **aucun** flag Item Piles nommé `doNotSell`.
+
 ---
 
 ### Décisions d'architecture
@@ -145,6 +170,12 @@ Alternatives examinées :
 COF2 2.3.12 ne définit pas de taux de change (`EQUIPMENT_CURRENCIES` ne porte que les labels i18n). Le taux est une décision de conception de Warbound ; la convention COF2 est retenue.
 
 Implémentation : `src/integrations/item-piles/currency.mjs` — `EXCHANGE_RATES = { gp: 1, sp: 0.1, cp: 0.01 }`.
+
+**Invariants monétaires (cadrage §6.2)** — fonctions pures dans `currency.mjs`, testées (pas branchées sur un hook : Item Piles applique le paiement, ces fonctions servent de spécification exécutable) :
+- `canAfford(wallet, cost)` / `subtractCurrency(wallet, cost)` : validation et soustraction en **plus petite dénomination entière** (PC). Test de référence : 7 PA ne peut pas payer 8 PA ; 1 PO peut payer 8 PA.
+- `calculateChange(paid, price)` : rendu exact, `null` si insuffisant. Test de référence : 1 PO pour 8 PA → rendu 2 PA.
+- Régression Item Piles 3.3.3 (le rendu n'était pas déduit du marchand) : vérifiée absente en 3.3.4 ; couverte par un test unitaire modélisant l'invariant (rendu déduit du portefeuille marchand).
+- Politique d'arrondi : aucune fraction de denier ; tout prix/modificateur est arrondi à l'entier de PC (`applyMerchantMarkup`, §6.2).
 
 #### Traitement de `container`
 

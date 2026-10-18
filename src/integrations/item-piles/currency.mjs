@@ -60,3 +60,40 @@ export function fromLowestDenomination(totalCp) {
   const cp = totalCp % 10
   return { gp, sp, cp }
 }
+
+/**
+ * Retourne true si le portefeuille contient assez pour payer le coût.
+ * wallet et cost : {gp, sp, cp} avec valeurs entières >= 0.
+ */
+export function canAfford(wallet, cost) {
+  if (!wallet || !cost) return false
+  const walletPc = toLowestDenomination(wallet.gp ?? 0, wallet.sp ?? 0, wallet.cp ?? 0)
+  const costPc   = toLowestDenomination(cost.gp ?? 0,   cost.sp ?? 0,   cost.cp ?? 0)
+  return walletPc >= costPc
+}
+
+/**
+ * Soustrait un coût d'un portefeuille. Retourne le nouveau solde {gp, sp, cp}
+ * recomposé en dénominations optimales via fromLowestDenomination.
+ * Retourne null si fonds insuffisants. Ne mute jamais wallet.
+ */
+export function subtractCurrency(wallet, cost) {
+  if (!canAfford(wallet, cost)) return null
+  const walletPc = toLowestDenomination(wallet.gp ?? 0, wallet.sp ?? 0, wallet.cp ?? 0)
+  const costPc   = toLowestDenomination(cost.gp ?? 0,   cost.sp ?? 0,   cost.cp ?? 0)
+  return fromLowestDenomination(walletPc - costPc)
+}
+
+/**
+ * Calcule le rendu de monnaie {gp, sp, cp} à remettre à l'acheteur.
+ * paid : montant payé {gp, sp, cp} ; price : prix de l'article {gp, sp, cp}.
+ * Retourne null si paid < price (fonds insuffisants).
+ * Régression 3.3.3 : le rendu DOIT être soustrait du solde marchand par l'appelant.
+ */
+export function calculateChange(paid, price) {
+  if (!paid || !price) return null
+  const paidPc  = toLowestDenomination(paid.gp ?? 0,  paid.sp ?? 0,  paid.cp ?? 0)
+  const pricePc = toLowestDenomination(price.gp ?? 0, price.sp ?? 0, price.cp ?? 0)
+  if (paidPc < pricePc) return null
+  return fromLowestDenomination(paidPc - pricePc)
+}
