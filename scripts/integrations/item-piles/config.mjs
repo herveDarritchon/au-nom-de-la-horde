@@ -35,7 +35,7 @@ export function buildItemPilesConfig() {
   return {
     VERSION: INTEGRATION_VERSION,
 
-    // [À TESTER — P0 #112] Valider 'encounter' avec pile, coffre, marchand et vault.
+    // CONFIRMÉ P0 #112 — seul type acteur COF2 valide pour pile/coffre/marchand/vault (system.json 2.3.12).
     ACTOR_CLASS_TYPE: 'encounter',
 
     ITEM_QUANTITY_ATTRIBUTE: 'system.quantity.current',
