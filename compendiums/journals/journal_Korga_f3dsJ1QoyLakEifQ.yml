@@ -1,0 +1,185 @@
+name: Korga
+pages:
+  - sort: 100000
+    name: Profil MJ
+    type: text
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Korga</h1>
+
+        <blockquote><p><strong>[ADAPTATION WARBAND]</strong></p></blockquote>
+
+        <h2>Rôle dans la Vallée</h2><p>Elle rend visibles les conséquences de
+        l'exemple donné par les PJ aux jeunes recrues.</p>
+
+        <h2>Présence</h2><p>Jeune recrue énergique avec arme d'entraînement et
+        cicatrices qu'elle compte comme des trophées.</p>
+
+        <h2>Voix et répliques</h2><ul><li>« Celle-là ? Méritée. »</li><li>« Tu
+        ferais quoi, toi ? »</li></ul>
+
+        <h2>Veut</h2><p>Être reconnue par Gornek.</p>
+
+        <h2>Craint</h2><ul><li>être oubliée</li><li>rester ordinaire</li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _id: t1IkIJMrmjhoZj0X
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067370
+      modifiedTime: 1792435067370
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!f3dsJ1QoyLakEifQ.t1IkIJMrmjhoZj0X'
+  - sort: 200000
+    name: Relations avec les PJ
+    type: text
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Relations avec les PJ</h1>
+
+        <h2>Gagner sa confiance / son amitié</h2><p>La prendre au sérieux, lui
+        donner une responsabilité, l'entraîner sans la flatter.</p>
+
+        <h2>La perdre / devenir son adversaire</h2><p>La mépriser, la
+        ridiculiser ou encourager ses prises de risque uniquement pour le
+        spectacle.</p>
+
+        <h2>Liens personnels possibles</h2>
+
+        <h3>Le modèle</h3><p>Korga choisit un PJ comme modèle et copie ses
+        expressions, sa manière de tenir son arme et surtout ses
+        comportements.</p><h3>Le mauvais exemple</h3><p>Si son modèle valorise
+        toujours la prise de risque, Korga prend de plus en plus de
+        risques.</p><h2>S'il devient un allié</h2><p>Peut devenir une petite
+        sœur symbolique, une admiratrice utile et une future
+        combattante.</p><h2>S'il devient hostile</h2><p>Si elle se sent
+        méprisée, elle devient une rivale qui cherche à prouver que son ancien
+        modèle n'est pas exceptionnel.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _id: 20OcbXkbfHIUj2aW
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067370
+      modifiedTime: 1792435067370
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!f3dsJ1QoyLakEifQ.20OcbXkbfHIUj2aW'
+  - sort: 300000
+    name: Jeu et évolution
+    type: text
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Jeu et évolution</h1>
+
+        <h2>Scène prête à jouer</h2><p>Elle reproduit maladroitement une
+        technique vue chez un PJ et refuse d'admettre qu'elle ne la maîtrise
+        pas.</p>
+
+        <h2>Évolution hors champ</h2><p>Elle peut se blesser hors champ en
+        imitant un PJ ou, au contraire, devenir plus disciplinée si celui-ci lui
+        enseigne la maîtrise.</p>
+
+        <h2>Suivi MJ</h2>
+
+        <table>
+
+        <thead><tr><th>Élément</th><th>Notes</th></tr></thead>
+
+        <tbody>
+
+        <tr><td>Relation avec les PJ</td><td></td></tr>
+
+        <tr><td>Dette / promesse</td><td></td></tr>
+
+        <tr><td>Ce qu'il sait sur eux</td><td></td></tr>
+
+        <tr><td>Ce qu'il veut maintenant</td><td></td></tr>
+
+        <tr><td>Prochaine évolution</td><td></td></tr>
+
+        </tbody>
+
+        </table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _id: 7Im5ncsltJQuROXK
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067370
+      modifiedTime: 1792435067370
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!f3dsJ1QoyLakEifQ.7Im5ncsltJQuROXK'
+categories: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  campaign-codex:
+    type: ''
+  core:
+    sheetClass: ''
+folder: YgZ3jeiFxPjJi6iB
+_id: f3dsJ1QoyLakEifQ
+sort: 112500
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792435067370
+  modifiedTime: 1792435067370
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!f3dsJ1QoyLakEifQ'

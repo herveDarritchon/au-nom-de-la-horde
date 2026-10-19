@@ -1,0 +1,190 @@
+name: Grak
+pages:
+  - sort: 100000
+    name: Profil MJ
+    type: text
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Grak</h1>
+
+        <blockquote><p><strong>[ADAPTATION WARBAND]</strong></p></blockquote>
+
+        <h2>Rôle dans la Vallée</h2><p>Il rend le recrutement de Yarrog
+        personnel. Il n'est pas membre de la Lame ardente au départ ; il a
+        simplement trouvé quelqu'un qui l'écoute.</p>
+
+        <h2>Présence</h2><p>Jeune Orc en équipement simple de recrue. Rien
+        d'exceptionnel au premier regard, ce qui fait partie de son
+        problème.</p>
+
+        <h2>Voix et répliques</h2><ul><li>« Yarrog dit que… »</li><li>« Vous
+        n'avez commencé à m'écouter qu'après avoir compris qu'il me parlait.
+        »</li></ul>
+
+        <h2>Veut</h2><p>Être pris au sérieux.</p>
+
+        <h2>Craint</h2><ul><li>redevenir invisible</li><li>découvrir qu'il
+        n'était qu'un outil pour Yarrog</li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _id: i2eteL9HieUf020d
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067366
+      modifiedTime: 1792435067366
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!LpzysPW28DVwxAFA.i2eteL9HieUf020d'
+  - sort: 200000
+    name: Relations avec les PJ
+    type: text
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Relations avec les PJ</h1>
+
+        <h2>Gagner sa confiance / son amitié</h2><p>L'écouter avant de lui dire
+        quoi penser, lui donner une responsabilité, s'intéresser à ce qu'il veut
+        lui-même.</p>
+
+        <h2>La perdre / devenir son adversaire</h2><p>Ne s'intéresser à lui qu'à
+        cause de Yarrog, le traiter comme une victime idiote, lui imposer une
+        conclusion.</p>
+
+        <h2>Liens personnels possibles</h2>
+
+        <h3>L'alternative réelle</h3><p>Un PJ peut devenir une relation aussi
+        importante que Yarrog, mais seulement s'il écoute réellement
+        Grak.</p><h3>La honte</h3><p>Après la révélation, Grak peut comprendre
+        qu'il a transmis des informations importantes sans le
+        savoir.</p><h2>S'il devient un allié</h2><p>Ami à protéger, futur membre
+        fiable de la Horde, personne qui connaît intimement les méthodes
+        sociales de Yarrog.</p><h2>S'il devient hostile</h2><p>Il peut défendre
+        Yarrog, accuser les PJ de l'avoir piégé ou basculer plus loin dans le
+        recrutement s'il se sent rejeté.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _id: N0Xy4Yu6QpyR9Kpy
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067366
+      modifiedTime: 1792435067366
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!LpzysPW28DVwxAFA.N0Xy4Yu6QpyR9Kpy'
+  - sort: 300000
+    name: Jeu et évolution
+    type: text
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Jeu et évolution</h1>
+
+        <h2>Scène prête à jouer</h2><p>Les PJ le voient rire avec Yarrog pendant
+        une activité parfaitement banale. Aucune preuve, aucun danger
+        visible.</p>
+
+        <h2>Évolution hors champ</h2><p>Si personne ne lui offre une autre
+        place, Yarrog avance progressivement dans son recrutement parce que lui,
+        continue d'agir.</p>
+
+        <h2>Suivi MJ</h2>
+
+        <table>
+
+        <thead><tr><th>Élément</th><th>Notes</th></tr></thead>
+
+        <tbody>
+
+        <tr><td>Relation avec les PJ</td><td></td></tr>
+
+        <tr><td>Dette / promesse</td><td></td></tr>
+
+        <tr><td>Ce qu'il sait sur eux</td><td></td></tr>
+
+        <tr><td>Ce qu'il veut maintenant</td><td></td></tr>
+
+        <tr><td>Prochaine évolution</td><td></td></tr>
+
+        </tbody>
+
+        </table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _id: 4Ww0rjRUXjHCkbmc
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067366
+      modifiedTime: 1792435067366
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!LpzysPW28DVwxAFA.4Ww0rjRUXjHCkbmc'
+categories: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  campaign-codex:
+    type: ''
+  core:
+    sheetClass: ''
+folder: YgZ3jeiFxPjJi6iB
+_id: LpzysPW28DVwxAFA
+sort: 103125
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792435067366
+  modifiedTime: 1792435067366
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!LpzysPW28DVwxAFA'

@@ -1,0 +1,4197 @@
+folder: DiweRaOz1zGF7Ap6
+name: Artisanat et métiers (v0.2)
+flags:
+  campaign-codex:
+    type: ''
+  core:
+    sheetClass: ''
+_id: kJL5BBW05pO708bQ
+pages:
+  - sort: 100000
+    name: 00 — Bienvenue et règles rapides
+    type: text
+    _id: NeeksiVh7yVrhcaU
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Bienvenue dans l’artisanat de Warbound</h2>
+
+        <p><strong>Cette V0.2 est un prototype de règles jouable et non une
+        version définitivement équilibrée.</strong> Les principes de structure
+        ont été validés, tandis que les capacités chiffrées de forge et
+        d’alchimie doivent encore être testées.</p>
+
+        <blockquote>
+
+        <p><strong>Règle d’or :</strong> une voie décrit ce que l’artisan sait
+        <strong>entreprendre</strong>. Elle n’est <strong>pas</strong> un
+        catalogue d’objets à débloquer. Les recettes sont des connaissances à
+        découvrir en jeu.</p>
+
+        </blockquote>
+
+        <h4>Les règles essentielles</h4>
+
+        <ul>
+
+        <li><strong>Deux métiers maximum</strong> par personnage, chacun sous la
+        forme d’une voie à <strong>cinq rangs</strong>.</li>
+
+        <li><strong>Forge et alchimie</strong> disposent de voies complètes en
+        V0.2 ; les six autres métiers sont annoncés mais leurs capacités ne sont
+        pas encore établies.</li>
+
+        <li>Les métiers de <strong>récolte</strong> (herboristerie, minage,
+        dépeçage, pêche) ne nécessitent pas une voie.</li>
+
+        <li><strong>Recettes courantes</strong> : inutiles pour les fabrications
+        ordinaires. <strong>Recettes spécialisées ou exceptionnelles</strong> :
+        trouvées, apprises, achetées ou inventées.</li>
+
+        <li>Si le travail est <strong>maîtrisé</strong>, les <strong>outils et
+        ingrédients disponibles</strong> et qu’il n’y a <strong>pas
+        d’incertitude</strong>, <strong>aucun test</strong> n’est
+        nécessaire.</li>
+
+        <li>Sinon : <strong>1d20 + caractéristique appropriée + rang
+        professionnel + 2</strong> contre la difficulté fixée par le MJ.</li>
+
+        <li>Aucun matériau rare, recette ou rang ne permet d’obtenir
+        automatiquement une propriété magique.</li>
+
+        </ul>
+
+        <h4>Utilisation dans Foundry</h4>
+
+        <p>Chaque chapitre est une <strong>page</strong> à ouvrir depuis le
+        sommaire du journal. Commencez par « 02 — Métiers et progression », puis
+        « 03 — Fabriquer un objet ». Les voies de forge et d’alchimie sont
+        détaillées plus loin. Une page « Suivi de l’équilibrage » est destinée
+        au MJ uniquement.</p>
+
+        <p><strong>Légende :</strong> <code>[VALIDÉ]</code> = décision retenue
+        pour Warbound ; <code>[COF2]</code> = règle du jeu de base ;
+        <code>[V0.2]</code> = proposition jouable en test ; <code>[MJ]</code> =
+        arbitrage contextuel ; <code>[À TRANCHER]</code> = décision non encore
+        fixée.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435076018
+      modifiedTime: 1792435076018
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!kJL5BBW05pO708bQ.NeeksiVh7yVrhcaU'
+  - sort: 200000
+    name: 01 — Philosophie du craft
+    type: text
+    _id: eBMw2eL2Uy3ysOqe
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>1. Objectif et philosophie</h2>
+
+        <h3>1.1. Pourquoi un système d’artisanat ?</h3>
+
+        <p>Dans <em>World of Warcraft</em>, l’artisanat se présente souvent
+        comme une progression par points de compétence et recettes d’objets à
+        débloquer. C’est une expérience satisfaisante dans un MMO, mais une
+        transposition littérale peut devenir pesante en jeu de rôle sur table :
+        listes de minerais, composants comptés à l’unité, fabrication répétée
+        d’objets sans intérêt, recettes permettant seulement de changer le
+        matériau d’une épée.</p>
+
+        <p>Pour <strong>Warbound</strong>, nous voulons une autre expérience
+        :</p>
+
+        <ul>
+
+        <li>Un personnage <strong>imagine un objet</strong>, puis le groupe
+        cherche comment le réaliser.</li>
+
+        <li>Son métier <strong>compte pendant l’aventure</strong> : réparer une
+        ferrure, examiner un venin, improviser un outil, employer des ressources
+        trouvées sur place.</li>
+
+        <li>Une ressource inhabituelle est une <strong>possibilité
+        narrative</strong>, pas un simple nombre supplémentaire dans
+        l’inventaire.</li>
+
+        <li>Les <strong>recettes retrouvées</strong> dans un atelier abandonné,
+        chez un mentor ou sur un adversaire peuvent être de véritables
+        récompenses.</li>
+
+        <li>Le système encourage la <strong>coopération</strong> avec les
+        artisans et les autres personnages, plutôt qu’un cycle de « collecte →
+        fabrication → expérience ».</li>
+
+        <li>La mécanique reste <strong>compatible avec COF2</strong> :
+        caractéristiques, tests de difficulté, points de capacité, voies et
+        règles officielles d’équipement.</li>
+
+        </ul>
+
+        <p><strong>Exemple d’intention :</strong> « Je veux transformer les
+        pièces métalliques trouvées dans les décombres en renforts pour le
+        chariot » est une demande normale. Le MJ n’exige pas une <em>recette de
+        renfort de chariot rang 2</em> ; il vérifie la maîtrise, les matériaux,
+        les outils et la situation.</p>
+
+        <h3>1.2. Ce que le système n’est pas</h3>
+
+        <ul>
+
+        <li><strong>Pas</strong> une conversion point pour point de la
+        compétence de métier de WoW Classic.</li>
+
+        <li><strong>Pas</strong> une voie contenant « dague de bronze », « dague
+        de fer », « épée de bronze », etc.</li>
+
+        <li><strong>Pas</strong> une économie complète de production
+        industrielle ou de commerce.</li>
+
+        <li><strong>Pas</strong> un moyen d’obtenir gratuitement des bonus
+        permanents ou de remplacer les capacités des classes.</li>
+
+        <li><strong>Pas</strong> une raison de jeter un dé toutes les deux
+        heures de travail.</li>
+
+        </ul>
+
+        <p>L’inspiration du guide de KibblesTasty est conservée — métiers,
+        outils, matériaux, collecte, recyclage, recettes et possibilités
+        d’invention — mais non son moteur D&amp;D 5e de tests et de comptabilité
+        de temps successifs. <strong>Warbound utilise COF2, pas D&amp;D
+        5e.</strong></p>
+
+        <h3>1.3. Les trois dimensions d’un artisan</h3>
+
+        <table>
+
+        <thead>
+
+        <tr>
+
+        <th>Dimension</th>
+
+        <th>Question à poser</th>
+
+        <th>Représentation</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+
+        <td><strong>Métier</strong></td>
+
+        <td>Dans quel domaine travaille-t-il ?</td>
+
+        <td>Une voie professionnelle choisie parmi les métiers</td>
+
+        </tr>
+
+        <tr>
+
+        <td><strong>Maîtrise</strong></td>
+
+        <td>Avec quelle sûreté et quelle ambition travaille-t-il ?</td>
+
+        <td>Rang 1 à 5, payé en PC</td>
+
+        </tr>
+
+        <tr>
+
+        <td><strong>Connaissances et moyens</strong></td>
+
+        <td>Que sait-il faire précisément, et avec quoi ?</td>
+
+        <td>Recettes, mentors, objets étudiés, outils, atelier, matières
+        premières</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <p>La progression en rang <strong>ne remplace pas les
+        ressources</strong>. Une recette exceptionnelle <strong>ne remplace pas
+        le rang</strong>. Une ressource rare <strong>ne dispense pas de
+        compétence</strong>.</p>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435076018
+      modifiedTime: 1792435076018
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!kJL5BBW05pO708bQ.eBMw2eL2Uy3ysOqe'
+  - sort: 300000
+    name: 02 — Métiers et progression
+    type: text
+    _id: zE6LKTh3kAC13GbX
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>2. Métiers, apprentissage et progression</h2>
+
+        <h3>2.1. Deux métiers au maximum [VALIDÉ]</h3>
+
+        <p>Un PJ peut développer <strong>deux métiers au maximum</strong>. C’est
+        un choix d’identité : le personnage se distingue par ses savoir-faire,
+        sans pouvoir maîtriser toutes les disciplines artisanales.</p>
+
+        <p>Les huit métiers envisagés pour Warbound sont :</p>
+
+        <table>
+
+        <thead>
+
+        <tr>
+
+        <th>Métier</th>
+
+        <th>Voie professionnelle</th>
+
+        <th>Domaine de fabrication</th>
+
+        <th>État de rédaction</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+
+        <td>Forge</td>
+
+        <td>Voie de la forge</td>
+
+        <td>Armes et protections métalliques, outils, ferrures, pièces
+        forgées</td>
+
+        <td><strong>V0.2 détaillée</strong></td>
+
+        </tr>
+
+        <tr>
+
+        <td>Alchimie</td>
+
+        <td>Voie de l’alchimie</td>
+
+        <td>Potions, remèdes, huiles, réactifs, antidotes</td>
+
+        <td><strong>V0.2 détaillée</strong></td>
+
+        </tr>
+
+        <tr>
+
+        <td>Ingénierie</td>
+
+        <td>À développer</td>
+
+        <td>Mécanismes, pièges, dispositifs, machines</td>
+
+        <td>Cadre seulement</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Travail du cuir</td>
+
+        <td>À développer</td>
+
+        <td>Peaux, armures souples, sacs, selles, protections</td>
+
+        <td>Cadre seulement</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Couture</td>
+
+        <td>À développer</td>
+
+        <td>Vêtements, étoffes, sacs, travaux textiles</td>
+
+        <td>Cadre seulement</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Enchantement</td>
+
+        <td>À développer</td>
+
+        <td>Analyse et emploi de composants magiques, artisanat
+        d’enchantement</td>
+
+        <td><strong>À articuler avec la magie COF2</strong></td>
+
+        </tr>
+
+        <tr>
+
+        <td>Cuisine</td>
+
+        <td>À développer</td>
+
+        <td>Préparation, conservation et transformation des aliments</td>
+
+        <td>Cadre seulement</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Secourisme</td>
+
+        <td>À développer</td>
+
+        <td>Bandages, pansements, attelles, préparations de terrain</td>
+
+        <td>Cadre seulement</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <p><strong>Cuisine et Secourisme comptent ici dans la limite de deux
+        métiers</strong> : c’est la lecture cohérente de la règle « deux métiers
+        parmi les huit ». Aucune exception gratuite pour les « métiers
+        secondaires » du MMO n’a été validée.</p>
+
+        <p>L’<strong>herboristerie, le minage, le dépeçage et la pêche</strong>
+        sont des savoir-faire de collecte <strong>sans voie propre dans cette
+        version</strong>. Ils ne consomment donc pas d’emplacement de métier.
+        Ils peuvent nécessiter outils, temps, connaissances ou tests selon les
+        circonstances.</p>
+
+        <p><strong>[À TRANCHER]</strong> Le remplacement d’un métier déjà
+        choisi, son éventuel oubli et les conséquences sur les rangs investis
+        n’ont pas été définis. Ne pas permettre un changement sans coût sur
+        simple demande entre deux scènes : décider ce point avec le joueur, de
+        préférence lors d’une évolution importante du personnage.</p>
+
+        <h3>2.2. Peut-on être artisan sans voie ? [VALIDÉ]</h3>
+
+        <p><strong>Oui, mais à petite échelle et si l’historique le
+        justifie.</strong></p>
+
+        <p>Un personnage élevé auprès d’un forgeron peut savoir aiguiser une
+        lame, reconnaître une pièce de métal ordinaire ou effectuer un entretien
+        courant. Un personnage habitué aux plantes peut préparer une tisane
+        ordinaire ou identifier une plante familière. Ces gestes ne demandent
+        pas de PC.</p>
+
+        <p>En revanche, cet historique ne confère pas :</p>
+
+        <ul>
+
+        <li>le <strong>bonus professionnel</strong> des voies ;</li>
+
+        <li>la fabrication autonome de tous les équipements d’un métier ;</li>
+
+        <li>le bénéfice de ses rangs 2 à 5 ;</li>
+
+        <li>la capacité à reproduire des formules extraordinaires.</li>
+
+        </ul>
+
+        <p><strong>Repère pratique [MJ] :</strong> sans voie, autoriser les
+        gestes d’entretien ou d’assistance cohérents ; réserver les travaux
+        professionnels structurés à la voie correspondante ou à l’accompagnement
+        effectif d’un artisan compétent.</p>
+
+        <p><strong>Exemple :</strong> un guerrier ayant été apprenti chez un
+        forgeron peut entretenir la hache du groupe. Pour fabriquer seul une
+        épée dans une forge de village, le MJ attend normalement le rang 1 de la
+        voie.</p>
+
+        <h3>2.3. Acquérir un métier et monter en rang</h3>
+
+        <p>Chaque métier est représenté par <strong>une voie à cinq
+        rangs</strong>, achetés avec des <strong>points de capacité
+        (PC)</strong>. Les rangs suivent les coûts et seuils habituels de COF2
+        :</p>
+
+        <table>
+
+        <thead>
+
+        <tr>
+
+        <th>Rang</th>
+
+        <th style="text-align:right">Niveau minimum du PJ</th>
+
+        <th style="text-align:right">Coût du rang</th>
+
+        <th style="text-align:right">PC cumulés dans ce métier</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+
+        <td>1</td>
+
+        <td style="text-align:right">1</td>
+
+        <td style="text-align:right"><strong>1 PC</strong></td>
+
+        <td style="text-align:right">1</td>
+
+        </tr>
+
+        <tr>
+
+        <td>2</td>
+
+        <td style="text-align:right">2</td>
+
+        <td style="text-align:right"><strong>1 PC</strong></td>
+
+        <td style="text-align:right">2</td>
+
+        </tr>
+
+        <tr>
+
+        <td>3</td>
+
+        <td style="text-align:right">3</td>
+
+        <td style="text-align:right"><strong>2 PC</strong></td>
+
+        <td style="text-align:right">4</td>
+
+        </tr>
+
+        <tr>
+
+        <td>4</td>
+
+        <td style="text-align:right">5</td>
+
+        <td style="text-align:right"><strong>2 PC</strong></td>
+
+        <td style="text-align:right">6</td>
+
+        </tr>
+
+        <tr>
+
+        <td>5</td>
+
+        <td style="text-align:right">7</td>
+
+        <td style="text-align:right"><strong>2 PC</strong></td>
+
+        <td style="text-align:right">8</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <p><strong>[COF2]</strong> Un rang supérieur suppose l’acquisition des
+        rangs inférieurs. COF2 accorde normalement <strong>2 PC à chaque passage
+        de niveau</strong> ; la dépense d’un rang suit les règles générales de
+        progression du personnage (réf. §17).</p>
+
+        <p><strong>[V0.2]</strong> Les voies professionnelles sont <strong>hors
+        du plafond de six voies de COF2</strong> ; elles consomment néanmoins
+        les PC ordinaires du PJ. Cette exception ne crée aucun PC gratuit.</p>
+
+        <p><strong>[VALIDÉ]</strong> L’apprentissage et l’expérience en jeu
+        donnent du sens à cette progression : avoir un mentor, fréquenter un
+        atelier, pratiquer son métier, étudier une méthode. Ils n’accordent pas
+        des rangs gratuits. Le rang devient mécaniquement acquis par la dépense
+        des PC correspondants.</p>
+
+        <p><strong>[MJ]</strong> Ne pas imposer une quête obligatoire longue
+        pour chaque montée de rang. Si la fiction ne permet pas un apprentissage
+        crédible immédiatement, en convenir en amont avec le joueur ; le coût en
+        PC doit déjà rester la contrepartie principale.</p>
+
+        <h4>Exemple de progression</h4>
+
+        <p>Un guerrier investit 1 PC dans la forge. Au niveau 2, il dépense 1 PC
+        pour le rang 2. Au niveau 3, il consacre 2 PC à la maîtrise du rang 3 :
+        <strong>4 PC cumulés</strong> dans la forge, et donc 4 PC non dépensés
+        dans ses voies de combat. Sa spécialisation a un prix réel.</p>
+
+        <p>Dans la saison 1 envisagée de Durotar (fin autour du niveau 4), un PJ
+        peut espérer atteindre au plus le <strong>rang 3</strong>. Les rangs 4
+        et 5 concernent surtout la suite de la campagne.</p>
+
+        <h3>2.4. Tronc commun des cinq rangs</h3>
+
+        <table>
+
+        <thead>
+
+        <tr>
+
+        <th>Rang</th>
+
+        <th>Fonction</th>
+
+        <th>Effet attendu</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+
+        <td><strong>1 — Maîtrise</strong></td>
+
+        <td>Exercer le métier</td>
+
+        <td>Fabrication ordinaire, reconnaissance de l’objet, bonus
+        professionnel</td>
+
+        </tr>
+
+        <tr>
+
+        <td><strong>2 — Adaptation</strong></td>
+
+        <td>Faire avec les moyens du bord</td>
+
+        <td>Substitution, récupération, temps ou contraintes réduits</td>
+
+        </tr>
+
+        <tr>
+
+        <td><strong>3 — Excellence</strong></td>
+
+        <td>Mieux produire</td>
+
+        <td>Qualité, productivité ou contrôle des ratés</td>
+
+        </tr>
+
+        <tr>
+
+        <td><strong>4 — Innovation</strong></td>
+
+        <td>Développer des techniques inédites</td>
+
+        <td>Une propriété technique ou formule nouvelle</td>
+
+        </tr>
+
+        <tr>
+
+        <td><strong>5 — Chef-d’œuvre</strong></td>
+
+        <td>Entreprendre l’exceptionnel</td>
+
+        <td>Combinaison de propriétés ou formule magistrale via un projet</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <p><strong>Attention :</strong> c’est la structure de conception
+        <strong>[V0.2]</strong>, pas cinq capacités identiques copiées d’un
+        métier à l’autre. La forge et l’alchimie ont leurs propres bénéfices
+        détaillés aux §8 et §9.</p>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435076018
+      modifiedTime: 1792435076018
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!kJL5BBW05pO708bQ.zE6LKTh3kAC13GbX'
+  - sort: 400000
+    name: 03 — Fabriquer un objet
+    type: text
+    _id: tJFiQJv6ncbCET2b
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>3. La procédure universelle de fabrication</h2>
+
+        <h3>3.1. La boucle en six questions</h3>
+
+        <p>Pour toute demande, le MJ procède dans cet ordre :</p>
+
+        <ol>
+
+        <li><strong>Intention :</strong> <em>Que souhaites-tu fabriquer ou
+        transformer, et à quoi cela doit-il servir ?</em></li>
+
+        <li><strong>Métier et maîtrise :</strong> <em>Est-ce réalisable dans ce
+        métier ? Le rang du PJ suffit-il à la technique envisagée ?</em></li>
+
+        <li><strong>Connaissance :</strong> <em>Est-ce un travail de routine,
+        une recette spécialisée, une recette exceptionnelle ou une invention
+        ?</em></li>
+
+        <li><strong>Moyens :</strong> <em>Dispose-t-on d’un matériel, d’un
+        atelier, du temps et des ressources adéquats ?</em></li>
+
+        <li><strong>Incertitude :</strong> <em>Le résultat mérite-t-il un test ?
+        Quelle est la difficulté, et que risque-t-on de perdre ?</em></li>
+
+        <li><strong>Résultat :</strong> <em>Quel objet est produit ? Avec
+        quelles propriétés exactes, quels coûts et quelles conséquences
+        ?</em></li>
+
+        </ol>
+
+        <p>Une fabrication habituelle peut être résolue en trente secondes de
+        conversation. Un chef-d’œuvre peut nécessiter un projet de plusieurs
+        aventures.</p>
+
+        <h3>3.2. Classer la demande avant de calculer</h3>
+
+        <table>
+
+        <thead>
+
+        <tr>
+
+        <th>Catégorie</th>
+
+        <th>Caractéristiques</th>
+
+        <th>Réponse du MJ</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+
+        <td><strong>Geste simple</strong></td>
+
+        <td>Entretien, tâche élémentaire, geste appris par historique</td>
+
+        <td>Possible sans voie si cohérent ; souvent automatique</td>
+
+        </tr>
+
+        <tr>
+
+        <td><strong>Fabrication ordinaire</strong></td>
+
+        <td>Objet du métier et techniques familières</td>
+
+        <td>Rang 1 en principe ; ressources et temps ; jet seulement s’il existe
+        une incertitude</td>
+
+        </tr>
+
+        <tr>
+
+        <td><strong>Adaptation</strong></td>
+
+        <td>Réparation improvisée, récupération, substitution</td>
+
+        <td>Rang 2 ou méthode connue ; ajuster contraintes et durée</td>
+
+        </tr>
+
+        <tr>
+
+        <td><strong>Travail de qualité</strong></td>
+
+        <td>Ouvrage supérieur au standard</td>
+
+        <td>Rang 3 en forge V0.2 ; appliquer les exigences de COF2</td>
+
+        </tr>
+
+        <tr>
+
+        <td><strong>Création originale</strong></td>
+
+        <td>Propriété ou formule réellement nouvelle</td>
+
+        <td>Rang 4, ou recette spécialisée fournissant explicitement la
+        méthode</td>
+
+        </tr>
+
+        <tr>
+
+        <td><strong>Chef-d’œuvre / magistrale</strong></td>
+
+        <td>Création hors normes, combinaison ou puissance exceptionnelle</td>
+
+        <td>Rang 5, conditions spécifiques et projet à jalons</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <p><strong>Le matériau ne définit pas le rang à lui seul.</strong> Il
+        n’existe pas un rang « bronze », puis un rang « fer », puis un rang «
+        argent ». La question est toujours la difficulté réelle de travailler ce
+        matériau et d’obtenir l’effet demandé.</p>
+
+        <h3>3.3. Les outils et l’atelier sont de vraies contraintes</h3>
+
+        <p>Posséder une capacité ne permet pas de créer un objet à partir de
+        rien. Une forge, un foyer, un marteau et une enclume servent à un
+        travail des métaux. Des récipients, un dispositif de chauffe et de
+        filtration peuvent être nécessaires à une préparation alchimique. Des
+        opérations modestes peuvent être entreprises avec du matériel
+        transportable ; d’autres exigent des installations permanentes.</p>
+
+        <p>Trois situations typiques :</p>
+
+        <ul>
+
+        <li><strong>Atelier approprié :</strong> tous les moyens existent. La
+        fabrication de routine est possible dans de bonnes conditions.</li>
+
+        <li><strong>Atelier imparfait :</strong> la tentative peut être
+        autorisée si elle reste plausible ; délai augmenté, test plus difficile
+        ou qualité impossible selon le manque.</li>
+
+        <li><strong>Absence d’un élément indispensable :</strong> la fabrication
+        n’est pas réalisable tant qu’on ne trouve pas une solution. Un jet élevé
+        ne crée pas une enclume ou un réactif absent.</li>
+
+        </ul>
+
+        <p>Ne demandez pas un jet juste pour vérifier qu’un personnage sait
+        accomplir son métier chez lui.</p>
+
+        <h3>3.4. Temps de travail [V0.2]</h3>
+
+        <table>
+
+        <thead>
+
+        <tr>
+
+        <th>Travail</th>
+
+        <th>Repère de temps</th>
+
+        <th>Difficulté de référence <strong>si</strong> un test est
+        justifié</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+
+        <td>Entretien ou petite réparation</td>
+
+        <td>15 min à 1 h</td>
+
+        <td>10</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Petit objet ou préparation ordinaire</td>
+
+        <td>2 à 4 h</td>
+
+        <td>10 à 15</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Ouvrage complexe ou préparation délicate</td>
+
+        <td>1 à 3 jours</td>
+
+        <td>15 à 20</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Recherche difficile, innovation</td>
+
+        <td>Projet à jalons</td>
+
+        <td>20 à 25 ou davantage</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <p><strong>Ces durées sont des repères Warbound</strong>, pas un
+        catalogue exhaustif officiel. Ajustez-les à la taille, à la matière, aux
+        quantités et à l’atelier. Une lourde armure n’est pas réalisée aussi
+        vite qu’une dague sous prétexte qu’elles sont toutes deux « ordinaires
+        ».</p>
+
+        <p>Un projet peut être suspendu et repris si le procédé s’y prête
+        (forge, construction). Une préparation instable peut exiger une
+        opération ininterrompue (certaines formules alchimiques). Le MJ
+        l’annonce avant le début du travail.</p>
+
+        <p><strong>Pendant les voyages :</strong> utiliser les temps calmes ou
+        le bivouac si l’espace et le matériel le permettent ; ne pas introduire
+        de « deux heures de craft gratuites » qui annuleraient automatiquement
+        les conséquences du voyage ou de la récupération. Vérifier la cohérence
+        avec les règles de voyage et de repos de Warbound.</p>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435076018
+      modifiedTime: 1792435076018
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!kJL5BBW05pO708bQ.tJFiQJv6ncbCET2b'
+  - sort: 500000
+    name: 04 — Tests et difficultés
+    type: text
+    _id: PzJZEMw7iZtHHTyn
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>4. Tests, difficultés et conséquences</h2>
+
+        <h3>4.1. Quand lance-t-on les dés ?</h3>
+
+        <p><strong>Pas de test</strong> si les trois conditions suivantes sont
+        réunies :</p>
+
+        <ol>
+
+        <li>Le PJ maîtrise l’opération.</li>
+
+        <li>Il dispose des moyens et du temps appropriés.</li>
+
+        <li>Le résultat ne présente pas de véritable incertitude ou d’enjeu
+        particulier.</li>
+
+        </ol>
+
+        <p><strong>Test</strong> si un facteur change : matériau inconnu,
+        équipement incomplet, échéance serrée, danger, tentative de qualité
+        exceptionnelle, méthode expérimentale, etc.</p>
+
+        <p><strong>Un test de fabrication doit pouvoir changer la
+        situation.</strong> Si un échec n’entraînerait que « tu recommences »
+        sans coût ni conséquence, mieux vaut souvent résoudre la scène sans
+        lancer les dés.</p>
+
+        <h3>4.2. Calcul du test [V0.2]</h3>
+
+        <blockquote>
+
+        <p><strong>Test professionnel = 1d20 + modificateur de caractéristique
+        appropriée + (rang de métier + 2)</strong>.</p>
+
+        </blockquote>
+
+        <p><strong>Le bonus rang + 2</strong> s’applique <strong>uniquement aux
+        tests relevant directement du métier possédé</strong>. Il n’existe pas
+        de bonus de profession sans rang de voie.</p>
+
+        <p>Caractéristique selon la tâche, jamais automatiquement identique pour
+        l’ensemble du métier :</p>
+
+        <ul>
+
+        <li><strong>FOR (Forge)</strong> : façonner ou travailler physiquement
+        une pièce métallique.</li>
+
+        <li><strong>INT (Forge)</strong> : analyser une technique ou un
+        assemblage métallique.</li>
+
+        <li><strong>INT (Alchimie)</strong> : interpréter, doser, stabiliser ou
+        concevoir une préparation.</li>
+
+        <li><strong>PER (Alchimie)</strong> : observer les signes sensoriels
+        d’une réaction, lorsque cela est véritablement pertinent.</li>
+
+        </ul>
+
+        <p><strong>Non-cumul [V0.2] :</strong> deux bonus représentant
+        <em>exactement la même expertise</em> ne sont pas additionnés ; on
+        retient le meilleur. Ne pas supprimer pour autant des bonus ayant un
+        autre objet et autorisés par COF2.</p>
+
+        <h3>4.3. Difficultés de référence</h3>
+
+        <table>
+
+        <thead>
+
+        <tr>
+
+        <th style="text-align:right">Difficulté</th>
+
+        <th>Usage indicatif</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+
+        <td style="text-align:right"><strong>10</strong></td>
+
+        <td>Opération simple mais effectuée avec une incertitude réelle</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="text-align:right"><strong>15</strong></td>
+
+        <td>Travail délicat, matière inhabituelle, contrainte modérée</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="text-align:right"><strong>20</strong></td>
+
+        <td>Opération très technique ou dangereuse</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="text-align:right"><strong>25</strong></td>
+
+        <td>Conception exceptionnelle ou incertitude sévère</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <p>Ces valeurs constituent un <strong>barème d’artisanat V0.2</strong>,
+        non une affirmation selon laquelle COF2 imposerait précisément ces
+        seuils à tous les métiers. Le MJ peut s’appuyer sur les difficultés
+        générales de COF2 et ajuster à la situation.</p>
+
+        <p>Pour les <strong>armes et armures de qualité</strong>, appliquer
+        obligatoirement le <strong>+10 à la difficulté</strong> de COF2 sur la
+        difficulté normale retenue (§7.1).</p>
+
+        <h3>4.4. Résultat d’un échec</h3>
+
+        <p>Avant de lancer, indiquer <strong>ce qui est en jeu</strong> : délai,
+        perte partielle de matériaux, pièce incomplète, défaut ou complication.
+        Le MJ peut notamment choisir :</p>
+
+        <ul>
+
+        <li><strong>Retard :</strong> il faut ajouter du temps avant un nouvel
+        essai.</li>
+
+        <li><strong>Matériaux consommés :</strong> tout ou partie d’un composant
+        utilisé n’est plus récupérable.</li>
+
+        <li><strong>Objet imparfait :</strong> il fonctionne mais n’obtient pas
+        la propriété supérieure recherchée.</li>
+
+        <li><strong>Blocage :</strong> la méthode choisie n’est pas viable dans
+        les conditions présentes ; il faut changer d’approche.</li>
+
+        <li><strong>Conséquence fictionnelle :</strong> fumée visible, outil
+        endommagé, réaction incontrôlée, alerte donnée à une faction, etc., si
+        la scène le justifie.</li>
+
+        </ul>
+
+        <p><strong>Ne pas détruire automatiquement tous les matériaux sur chaque
+        échec banal.</strong> Ne pas offrir non plus des tentatives gratuites
+        illimitées : chaque nouveau test doit correspondre à du travail, un
+        changement de méthode ou une conséquence réellement prise en compte.</p>
+
+        <p><strong>Échec critique :</strong> employer les règles COF2
+        applicables aux tests et annoncer une conséquence proportionnée ; le
+        rang 3 de forge prévoit une issue particulière pour la reprise, décrite
+        au §8.4.</p>
+
+        <h3>4.5. Assistance et collaboration [MJ]</h3>
+
+        <p>Un autre PJ peut aider <strong>s’il consacre réellement le temps et
+        possède un apport plausible</strong> : tenir la pièce, alimenter le feu,
+        chercher une plante, faire un travail complémentaire. Le fait de
+        prononcer « j’aide » ne donne pas automatiquement un bonus numérique.
+        Utiliser, si nécessaire, les règles de collaboration et de tests
+        collectifs de COF2 applicables à la situation.</p>
+
+        <p>Un forgeron et un ingénieur peuvent contribuer au même projet, chacun
+        sur la partie correspondant à son métier. <strong>Le PJ principal ne
+        s’approprie pas les rangs du second</strong> ; l’entraide permet de
+        répartir les tâches, pas de cumuler toutes les capacités sur une
+        fiche.</p>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435076018
+      modifiedTime: 1792435076018
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!kJL5BBW05pO708bQ.PzJZEMw7iZtHHTyn'
+  - sort: 600000
+    name: 05 — Matériaux et récolte
+    type: text
+    _id: t6EIIoZ9nhZXFrrD
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>5. Matériaux, récolte, recyclage et économie</h2>
+
+        <h3>5.1. Inventaire léger [VALIDÉ pour le principe]</h3>
+
+        <p>On ne tient <strong>pas</strong> une liste obligatoire de cinquante
+        minerais, racines, morceaux de peau ou essences pour chaque recette.
+        Regrouper les composants ordinaires par <strong>familles
+        fonctionnelles</strong>.</p>
+
+        <table>
+
+        <thead>
+
+        <tr>
+
+        <th>Famille</th>
+
+        <th>Usages typiques</th>
+
+        <th>Exemple de description fictionnelle</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+
+        <td>Métaux et minerais</td>
+
+        <td>Forge, armatures, pièces</td>
+
+        <td>Fer usuel, métal récupéré d’une armure</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Bois, os et matériaux organiques</td>
+
+        <td>Outils, manches, constructions</td>
+
+        <td>Bois sec, corne, os travaillé</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Cuir, peaux, fibres et tissus</td>
+
+        <td>Équipements, protections, couture</td>
+
+        <td>Cuir souple, étoffe résistante</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Réactifs végétaux ou animaux</td>
+
+        <td>Alchimie, soins, poisons</td>
+
+        <td>Plante apaisante, venin de scorpide</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Pièces et mécanismes</td>
+
+        <td>Ingénierie, réparations</td>
+
+        <td>Ressorts, axes, rouages récupérés</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Essences ou matières magiques</td>
+
+        <td>Enchantement, procédés surnaturels</td>
+
+        <td>Substance chargée d’énergie élémentaire</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <p>Deux ingrédients peuvent être substituables <strong>si leur fonction
+        est compatible</strong>, pas simplement parce qu’ils valent autant
+        d’argent. Ce principe vient notamment du <em>Kibbles’ Crafting
+        Guide</em>, mais les effets numériques de ses composants D&amp;D 5e ne
+        sont <strong>pas repris</strong>.</p>
+
+        <h3>5.2. Une propriété descriptive n’est pas un bonus</h3>
+
+        <p>Les matériaux inhabituels peuvent être qualifiés de « corrosif », «
+        isolant », « inflammable », « résistant à la chaleur », « chargé
+        d’énergie », « soporifique », etc. Ce sont des <strong>indices de ce
+        qu’ils pourraient permettre</strong>. Leur découverte n’accorde pas
+        instantanément +1, des DM supplémentaires ou une immunité.</p>
+
+        <p>Le PJ doit proposer ce qu’il cherche à obtenir, et le MJ détermine si
+        :</p>
+
+        <ul>
+
+        <li>la matière suffit pour un usage ordinaire ;</li>
+
+        <li>une recette particulière est nécessaire ;</li>
+
+        <li>il faut une technique de rang supérieur ;</li>
+
+        <li>il s’agit d’un effet magique relevant d’un autre cadre.</li>
+
+        </ul>
+
+        <h3>5.3. Récolte et extraction</h3>
+
+        <p><strong>Pas de voies de récolte dans cette version.</strong> La
+        question porte sur les moyens et le contexte.</p>
+
+        <p>Exemples :</p>
+
+        <ul>
+
+        <li>Récolter une plante commune connue sur un trajet habituel : souvent
+        aucun jet.</li>
+
+        <li>Chercher une plante spécifique sous la pression d’un orage : test
+        approprié, temps engagé et conséquence annoncée.</li>
+
+        <li>Prélever une poche de venin sans se blesser : outils adaptés et test
+        lorsque l’opération est risquée.</li>
+
+        <li>Extraire un minerai d’une paroi : pic, accès au gisement, temps et
+        éventuellement soutien ; ce n’est pas une capacité « minage rang 2
+        ».</li>
+
+        <li>Récupérer les ferrures d’un chariot brisé : les ferrures existent
+        réellement et leur état compte.</li>
+
+        </ul>
+
+        <p>La récolte est une <strong>action située dans le monde</strong>, pas
+        un quota à optimiser. Le groupe doit pouvoir ignorer la plupart des
+        ressources sans handicaper sa progression principale.</p>
+
+        <h3>5.4. Récupération et recyclage</h3>
+
+        <p><strong>Rang 2 de la forge [V0.2] :</strong> au maximum <strong>25 %
+        de la valeur des matériaux ordinaires nécessaires à la
+        fabrication</strong> peut être remplacée par des pièces récupérées
+        <strong>réellement possédées et compatibles</strong>. Celles-ci sont
+        consommées.</p>
+
+        <p>Ce plafond n’autorise <strong>ni duplication d’objets ni création de
+        métal gratuit</strong> : un morceau de récupération utilisé pour une
+        fabrication n’existe plus dans la réserve. Les composants rares
+        indispensables ne sont pas remplacés automatiquement.</p>
+
+        <p><strong>Exemple :</strong> si une fabrication nécessite des matériaux
+        ordinaires évalués à 8 pa, le forgeron de rang 2 peut, avec suffisamment
+        de pièces compatibles, remplacer au plus <strong>2 pa</strong> de
+        matériaux ordinaires par ces pièces. Il doit encore fournir l’équivalent
+        des <strong>6 pa</strong> restants et les éventuels matériaux
+        particuliers.</p>
+
+        <p><strong>Important :</strong> ce plafond de 25 % est un avantage
+        professionnel propre à la V0.2 de la forge. Il ne veut pas dire qu’un
+        artisan ne peut jamais fondre ou recycler davantage de métal dans le
+        monde : de tels travaux peuvent être traités séparément par le MJ.</p>
+
+        <h3>5.5. Valeur marchande et coût de fabrication</h3>
+
+        <p><strong>Ne pas confondre :</strong></p>
+
+        <ol>
+
+        <li>le <strong>prix public</strong> d’un objet vendu par un marchand
+        ;</li>
+
+        <li>la <strong>valeur des matériaux</strong> réellement nécessaires
+        ;</li>
+
+        <li>le <strong>temps de travail</strong> ;</li>
+
+        <li>le <strong>prix de rachat</strong> qu’un marchand accepterait de
+        payer.</li>
+
+        </ol>
+
+        <p><strong>[COF2]</strong> Le prix indicatif d’un objet de qualité est
+        <strong>2 × prix ordinaire + 100 pa</strong>. C’est une <strong>valeur
+        de référence</strong>, pas le coût en matières premières imposé à chaque
+        artisan.</p>
+
+        <p><strong>[COF2]</strong> La potion de soins ordinaire 1d4° PV a un
+        prix marchand de référence de <strong>10 pa</strong>.</p>
+
+        <p><strong>[À TRANCHER]</strong> Aucun barème universel « fabriquer
+        coûte 50 % du prix de vente » n’est validé. Une proposition préliminaire
+        de <strong>5 pa de ressources pour une potion de 10 pa</strong> a été
+        évoquée comme <strong>hypothèse de playtest</strong>, non comme règle de
+        l’économie Warbound. Elle ne doit pas s’étendre automatiquement aux
+        armes, objets rares et objets magiques.</p>
+
+        <p><strong>Pratique recommandée [MJ] :</strong> avant la fabrication,
+        annoncer un coût approximatif et les éléments spéciaux. Ne fixer un prix
+        exact que si la dépense compte dans la scène. Éviter les cycles d’achat,
+        fabrication et revente garantissant un profit mathématique infini.</p>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435076018
+      modifiedTime: 1792435076018
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!kJL5BBW05pO708bQ.t6EIIoZ9nhZXFrrD'
+  - sort: 700000
+    name: 06 — Recettes et recherche
+    type: text
+    _id: 4xDJs6Aai9zJ8W56
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>6. Recettes, recherches et transmission des savoirs</h2>
+
+        <h3>6.1. À quoi sert une recette ?</h3>
+
+        <p>Une recette est <strong>un ensemble de connaissances</strong> :
+        formule, méthode de trempe, dispositif, séquence opératoire, traitement
+        d’un réactif, secret d’assemblage, etc. C’est un <strong>objet
+        d’exploration et de narration</strong> : elle peut être vendue, copiée,
+        transmise, volée, discutée avec un maître, retrouvée dans un coffre ou
+        reconstituée en étudiant un objet.</p>
+
+        <p>Une recette n’est <strong>pas</strong> un rang de métier, n’accorde
+        <strong>pas</strong> de PC et ne débloque <strong>pas</strong> toute une
+        famille de créations.</p>
+
+        <h3>6.2. Trois catégories</h3>
+
+        <table>
+
+        <thead>
+
+        <tr>
+
+        <th>Catégorie</th>
+
+        <th>Accès</th>
+
+        <th>Effet en jeu</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+
+        <td><strong>Technique courante</strong></td>
+
+        <td>Formation générale, pratique, mentor</td>
+
+        <td>Les objets habituels du métier sont fabriqués sans recette nommée
+        pour chaque variante</td>
+
+        </tr>
+
+        <tr>
+
+        <td><strong>Recette spécialisée</strong></td>
+
+        <td>Maître, livre, butin, échange, investigation, expérimentation</td>
+
+        <td>Apporte une technique ou une formule particulière que l’on ne déduit
+        pas simplement du savoir courant</td>
+
+        </tr>
+
+        <tr>
+
+        <td><strong>Recette exceptionnelle</strong></td>
+
+        <td>Secret, aventure, manuscrit rare, projet de recherche</td>
+
+        <td>Fournit les conditions d’une création hors norme ; peut rester
+        inutilisable tant que les prérequis manquent</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <p><strong>Exemples :</strong></p>
+
+        <ul>
+
+        <li>Forge : pas besoin de recette distincte pour chaque dague, épée
+        courte ou épée à deux mains <strong>ordinaire</strong>.</li>
+
+        <li>Forge : un traité sur la manière de travailler un alliage très
+        inhabituel peut constituer une <strong>recette
+        spécialisée</strong>.</li>
+
+        <li>Alchimie : apprendre un <strong>antidote spécifique</strong> est une
+        découverte utile, même si le PJ connaît déjà les méthodes générales de
+        mélange.</li>
+
+        <li>Alchimie : une formule exceptionnelle consignant une préparation
+        rare peut être découverte bien avant le niveau requis pour la
+        réaliser.</li>
+
+        </ul>
+
+        <h3>6.3. Ce que possède le PJ : recette, compréhension et maîtrise</h3>
+
+        <p>Consigner trois informations distinctes :</p>
+
+        <ol>
+
+        <li><strong>La recette a-t-elle été trouvée ?</strong> (support matériel
+        ou enseignement)</li>
+
+        <li><strong>A-t-elle été comprise ou apprise ?</strong> (lecture,
+        enseignement, étude)</li>
+
+        <li><strong>Le PJ sait-il l’exécuter maintenant ?</strong> (rang,
+        outils, réactifs, environnement)</li>
+
+        </ol>
+
+        <p>Cela évite une confusion courante : un personnage peut conserver
+        précieusement une recette qu’il comprend partiellement, ou savoir quel
+        effet il recherche sans disposer du matériel pour le produire.</p>
+
+        <p><strong>[MJ]</strong> Si la recette est rédigée dans une langue
+        inconnue, codée, incomplète ou liée à un procédé perdu, sa compréhension
+        peut devenir une scène ou un projet. Mais ne mettez pas un verrou
+        supplémentaire arbitraire sur toutes les recettes acquises.</p>
+
+        <h3>6.4. Inventer une recette</h3>
+
+        <p>La <strong>Forge rang 4</strong> peut développer une méthode
+        produisant une propriété technique. L’<strong>Alchimie rang 4</strong>
+        peut développer une formule reproductible à <strong>une propriété
+        utilitaire</strong> ; le <strong>rang 5</strong> permet une association
+        de propriétés ou une formule magistrale selon ses limites.</p>
+
+        <p><strong>Procédure courte :</strong></p>
+
+        <ol>
+
+        <li>Le joueur énonce <strong>l’effet précis souhaité</strong>.</li>
+
+        <li>Le MJ vérifie s’il existe un équivalent déjà défini dans COF2 et
+        s’il n’empiète pas sur une capacité de classe.</li>
+
+        <li>Le groupe identifie les connaissances, outils et ressources
+        indispensables.</li>
+
+        <li>Le MJ décide d’une expérience simple ou d’un projet à jalons.</li>
+
+        <li>La recette obtenue est inscrite dans le carnet du personnage avec
+        <strong>son effet exact et ses limites</strong>.</li>
+
+        </ol>
+
+        <p><strong>Important :</strong> « rang 4 = invention » ne veut
+        <strong>pas</strong> dire « inventer une potion ayant n’importe quel
+        effet que je décris ». Une formule d’invisibilité magique ou une arme
+        infligeant des DM élémentaires relève potentiellement d’un autre cadre
+        de règles.</p>
+
+        <h3>6.5. Modèle de fiche de recette</h3>
+
+        <pre><code class="language-markdown">#### Nom de la recette
+
+        - Métier :
+
+        - Catégorie : courante / spécialisée / exceptionnelle
+
+        - Rang de référence :
+
+        - Origine ou inventeur :
+
+        - Effet recherché :
+
+        - Effet mécanique exact :
+
+        - Limites / durée / cible / conditions d'utilisation :
+
+        - Ingrédients ordinaires :
+
+        - Composant particulier (s'il existe) :
+
+        - Outils / atelier :
+
+        - Temps / difficulté si un jet est nécessaire :
+
+        - Coût matériel convenu avec le MJ :
+
+        - Qui possède ou maîtrise la recette ? :
+
+        - Statut : connue / incomplète / comprise / réalisable
+
+        </code></pre>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435076018
+      modifiedTime: 1792435076018
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!kJL5BBW05pO708bQ.4xDJs6Aai9zJ8W56'
+  - sort: 800000
+    name: 07 — Qualité, magie et potions
+    type: text
+    _id: GSDQm1nfUCLYvRfM
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>7. Qualité, magie et consommables</h2>
+
+        <h3>7.1. Armes et armures de qualité [COF2]</h3>
+
+        <p>Le livre de base de COF2 prévoit :</p>
+
+        <table>
+
+        <thead>
+
+        <tr>
+
+        <th>Équipement de qualité</th>
+
+        <th>Avantage officiel</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+
+        <td><strong>Arme</strong></td>
+
+        <td><strong>+1 aux tests d’attaque OU +1 aux DM</strong>, choix stable,
+        pas les deux</td>
+
+        </tr>
+
+        <tr>
+
+        <td><strong>Armure</strong></td>
+
+        <td>La pénalité d’encombrement aux tests d’AGI est <strong>réduite de
+        1</strong></td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <p>La fabrication exige des matériaux exceptionnels et précieux et
+        applique :</p>
+
+        <ul>
+
+        <li><strong>difficulté normale de fabrication +10</strong> ;</li>
+
+        <li><strong>temps de travail normal ×3</strong> ;</li>
+
+        <li>valeur marchande indicative <strong>2 × prix normal + 100
+        pa</strong>.</li>
+
+        </ul>
+
+        <p><strong>[V0.2]</strong> Pour un PJ utilisant la voie de la forge, la
+        capacité <strong>Forge de qualité (rang 3)</strong> formalise l’accès à
+        cette fabrication et lui donne une reprise de finition décrite au §8.4.
+        Ce prérequis <strong>n’est pas dans COF2</strong> : il sert à structurer
+        l’évolution des PJ de Warbound, sans nier que des artisans PNJ de haut
+        niveau puissent réaliser de tels ouvrages.</p>
+
+        <p><strong>Exemple :</strong> une épée longue ordinaire à 6 pa a, selon
+        la formule COF2, une valeur de référence <strong>(6 × 2) + 100 = 112
+        pa</strong> en qualité supérieure. Ce montant n’est pas un devis
+        automatique de matériaux.</p>
+
+        <h3>7.2. La qualité ne s’accumule pas</h3>
+
+        <p>Un objet de qualité ne gagne pas un second +1 parce qu’il est poli,
+        reforgé puis retrempé. Une arme ne peut pas cumuler « +1 attaque » et «
+        +1 DM » au seul titre de cette qualité.</p>
+
+        <p>Aux rangs 4 et 5, une <strong>propriété technique</strong> peut être
+        ajoutée <strong>si elle est distincte et compatible</strong> : par
+        exemple une épée de qualité dont les parties démontables permettent une
+        configuration non-combattante. Cela ne crée ni bonus de DEF ni nouveau
+        bonus d’attaque implicite.</p>
+
+        <h3>7.3. Forge remarquable ≠ objet magique</h3>
+
+        <p>Une fabrication sophistiquée peut être <strong>exceptionnelle sans
+        être magique</strong>. Les effets permanents magiques relèvent de la
+        création d’objets magiques, traitée séparément par COF2.</p>
+
+        <p>COF2 présente notamment une <strong>voie de prestige de
+        l’enchanteur</strong> et des <strong>règles de création d’objets
+        magiques</strong>, dont l’accès doit être encadré par le MJ (réf. §17).
+        <strong>La future voie professionnelle d’enchantement de Warbound n’est
+        pas encore écrite</strong> : ne pas la confondre avec la voie de
+        prestige ni considérer qu’elle confère automatiquement celle-ci.</p>
+
+        <p><strong>[COF2]</strong> Le livre donne également un cadre de
+        fabrication magique différent des objets ordinaires. Ne pas le remplacer
+        silencieusement par la simple difficulté 20 de l’artisanat.</p>
+
+        <h3>7.4. Potion de soins ordinaire [COF2]</h3>
+
+        <ul>
+
+        <li><strong>Effet :</strong> restitue <strong>1d4° PV</strong>.</li>
+
+        <li><strong>Prix marchand indicatif :</strong> <strong>10
+        pa</strong>.</li>
+
+        <li><strong>Limitation :</strong> un personnage ne bénéficie pas des
+        effets de plus d’<strong>une potion de soins par récupération rapide (30
+        min)</strong>.</li>
+
+        </ul>
+
+        <p>Le signe <strong><code>°</code></strong> est important : dans COF2,
+        c’est un <strong>dé évolutif</strong>, et non un dé explosif. Son
+        évolution générale suit le niveau du personnage : <strong>d4 aux niveaux
+        1–5, d6 aux niveaux 6–8, d8 aux niveaux 9–11, d10 aux niveaux 12–14, d12
+        à partir du niveau 15</strong>. <strong>Ne pas lire <code>1d4°</code>
+        comme <code>1d4</code> fixe à tous les niveaux.</strong></p>
+
+        <p><strong>[À TRANCHER]</strong> Pour une <strong>formule magistrale
+        inventée par Warbound</strong>, le niveau de référence à employer
+        lorsqu’un artisan fabrique la préparation et qu’un autre personnage la
+        consomme n’a pas été explicitement fixé dans nos décisions. En
+        attendant, appliquer les règles de COF2 aux potions ordinaires sans
+        introduire discrètement une règle de « niveau du fabricant » dans le
+        système. Déterminer et noter l’effet exact d’une préparation magistrale
+        lors de sa validation par le MJ.</p>
+
+        <h3>7.5. Consommables et actions [COF2]</h3>
+
+        <p>Le chapitre consacré aux objets magiques indique que <strong>boire
+        une potion</strong> utilise normalement <strong>une action de
+        mouvement</strong>, avec un arbitrage possible du MJ pour une
+        consommation en pleine mêlée. Cela concerne les potions appropriées à ce
+        cadre ; ne pas supposer qu’appliquer un onguent, utiliser un bandage ou
+        administrer un antidote suit nécessairement le même temps d’action sans
+        que sa fiche le dise.</p>
+
+        <p>Le livre propose également des <strong>risques de mélange
+        d’effets</strong> lorsque plusieurs potions restent actives. Pour ces
+        situations, appliquer les règles de potions de COF2, et non une table
+        inventée par Warbound. Le plafond spécifique des <strong>potions de
+        soins</strong> reste applicable.</p>
+
+        <h3>7.6. Alchimie ≠ voie des élixirs du forgesort</h3>
+
+        <p>Le <strong>forgesort</strong> de COF2 dispose de capacités magiques
+        de classe, notamment d’une <strong>voie des élixirs</strong>. L’alchimie
+        professionnelle de Warbound <strong>ne copie pas</strong>
+        automatiquement ses effets, ses durées, son économie de préparations ni
+        ses capacités de combat.</p>
+
+        <p><strong>[V0.2]</strong> Le rang 5 d’alchimie propose à titre
+        expérimental une <strong>formule magistrale de soins à <code>2d4°
+        PV</code></strong>, mais :</p>
+
+        <ul>
+
+        <li>elle exige un projet important et un ingrédient rare approprié
+        ;</li>
+
+        <li>elle ne se produit pas en lots ;</li>
+
+        <li>elle reste soumise aux limites de consommation des soins ;</li>
+
+        <li>elle n’autorise pas à doubler librement toutes les autres potions
+        ;</li>
+
+        <li><strong>son équilibrage et le traitement exact du <code>°</code>
+        lors de son utilisation restent à confirmer</strong>.</li>
+
+        </ul>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435076018
+      modifiedTime: 1792435076018
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!kJL5BBW05pO708bQ.GSDQm1nfUCLYvRfM'
+  - sort: 900000
+    name: 08 — Voie de la forge
+    type: text
+    _id: fGxDCK2qZ3dTFj9M
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>8. Voie de la forge — cinq rangs</h2>
+
+        <p><strong>Voie professionnelle de Warbound — entièrement [V0.2], non
+        officielle COF2.</strong></p>
+
+        <p><strong>Domaine :</strong> armes métalliques, armures métalliques,
+        ferrures, outils, pièces forgées, réparations et transformations.
+        <strong>Caractéristique :</strong> principalement FOR pour le travail
+        physique, parfois INT pour l’étude et la conception.</p>
+
+        <blockquote>
+
+        <p><strong>Rappel :</strong> une dague, une épée à une main, une épée à
+        deux mains, une pointe de lance ou une ferrure ne sont pas autant de
+        capacités différentes. Le rang exprime la maîtrise, non un type d’arme
+        débloqué.</p>
+
+        </blockquote>
+
+        <h3>8.1. Rang 1 — Main du forgeron (1 PC)</h3>
+
+        <p><strong>Effets :</strong></p>
+
+        <ul>
+
+        <li>Bonus professionnel <strong>rang + 2</strong> aux tests de
+        forge.</li>
+
+        <li>Reconnaît sans jet les caractéristiques ordinaires d’un ouvrage
+        métallique dont le fonctionnement est apparent.</li>
+
+        <li>Fabrique les objets métalliques courants à partir d’outils,
+        ressources et installations appropriés.</li>
+
+        <li>Peut accomplir une <strong>réparation légère en 30 minutes</strong>
+        avec l’outillage adapté.</li>
+
+        </ul>
+
+        <p><strong>Limites :</strong> pas de restauration instantanée d’un objet
+        détruit ; les réparations importantes exigent des pièces, davantage de
+        travail et parfois une installation fixe.</p>
+
+        <p><strong>Exemple :</strong> dans un village, le forgeron réalise une
+        dague de fer ordinaire. Si les matériaux sont disponibles et qu’aucune
+        contrainte n’existe, aucun test n’est nécessaire.</p>
+
+        <h3>8.2. Rang 2 — Ingéniosité du forgeron (1 PC)</h3>
+
+        <p><strong>Effets :</strong></p>
+
+        <ul>
+
+        <li><strong>Divise par deux le temps</strong> d’une <strong>réparation
+        ou transformation maîtrisée</strong> (pas celui de toutes les
+        fabrications).</li>
+
+        <li>Lors d’une fabrication, peut remplacer <strong>jusqu’à 25 % de la
+        valeur des matériaux ordinaires</strong> par des pièces récupérées
+        compatibles et réellement possédées.</li>
+
+        <li>Peut effectuer les <strong>travaux physiquement réalisables</strong>
+        avec un outillage ou un atelier de fortune, sous réserve des limites
+        annoncées par le MJ.</li>
+
+        </ul>
+
+        <p><strong>Limites :</strong> ne crée ni métal ni composants rares ; pas
+        de réduction générale de moitié du temps de fabrication des armes de
+        qualité ; pas de dispense de forge pour une opération exigeant une
+        forge.</p>
+
+        <p><strong>Exemple :</strong> une réparation normalement estimée à 2
+        heures peut prendre <strong>1 heure</strong> avec ce rang, si le travail
+        est maîtrisé. Les pièces récupérées utilisées dans l’opération sont
+        retirées de l’inventaire.</p>
+
+        <h3>8.3. Rang 3 — Forge de qualité (2 PC)</h3>
+
+        <p><strong>Effets :</strong></p>
+
+        <ul>
+
+        <li>Peut fabriquer des <strong>armes et armures de qualité</strong>
+        conformément à COF2 (§7.1).</li>
+
+        <li>Après un <strong>échec au test final de qualité</strong>, peut
+        effectuer <strong>une seule reprise</strong> : <strong>+50 % du temps de
+        fabrication initial</strong> et <strong>un nouveau test</strong>,
+        <strong>sans dépense de nouveaux matériaux</strong>.</li>
+
+        </ul>
+
+        <p><strong>Résolution de la reprise :</strong></p>
+
+        <ul>
+
+        <li>Si le second test réussit : la qualité recherchée est obtenue.</li>
+
+        <li>Si le second test échoue <strong>sans critique</strong> : l’objet
+        existe et reste utilisable <strong>comme un objet ordinaire</strong>,
+        sans bonus de qualité. Les matériaux exceptionnels ont été
+        consommés.</li>
+
+        <li>Si un échec critique survient : appliquer une conséquence appropriée
+        annoncée par le MJ ; la reprise n’annule pas automatiquement ce
+        risque.</li>
+
+        </ul>
+
+        <p><strong>Limites :</strong> une seule reprise, uniquement après
+        l’échec du test final de qualité. Pas d’annulation générale de tous les
+        échecs d’artisanat.</p>
+
+        <p><strong>Exemple détaillé :</strong> le MJ fixe une épée de qualité à
+        <strong>difficulté 20</strong> (base 10 + 10 COF2) et <strong>12 heures
+        de travail</strong> (base 4 h ×3). Le forgeron échoue. Il peut
+        travailler <strong>6 heures supplémentaires</strong> et retenter le test
+        <strong>une fois</strong>. À défaut, l’épée est ordinaire.</p>
+
+        <h3>8.4. Rang 4 — Métallurgie inventive (2 PC)</h3>
+
+        <p><strong>Effet :</strong> peut concevoir un objet possédant
+        <strong>une propriété technique non magique</strong> issue de la table
+        suivante ou une propriété de puissance comparable validée <strong>avant
+        fabrication</strong>.</p>
+
+        <table>
+
+        <thead>
+
+        <tr>
+
+        <th>Propriété [V0.2]</th>
+
+        <th>Effet mécanique exact</th>
+
+        <th>Ce que cela <strong>ne fait pas</strong></th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+
+        <td><strong>Modulaire</strong></td>
+
+        <td>L’objet possède deux configurations correspondant chacune à un objet
+        standard existant. <strong>10 min</strong> pour changer de
+        configuration.</td>
+
+        <td>Pas de cumul simultané des caractéristiques des deux
+        configurations.</td>
+
+        </tr>
+
+        <tr>
+
+        <td><strong>Renforcé</strong></td>
+
+        <td><strong>+5 aux tests</strong> effectués pour savoir si
+        <strong>l’objet lui-même</strong> résiste à une casse ou une
+        détérioration physique.</td>
+
+        <td>Pas de bonus à la <strong>DEF du porteur</strong>, aux DM ni aux
+        attaques.</td>
+
+        </tr>
+
+        <tr>
+
+        <td><strong>Outil spécialisé</strong></td>
+
+        <td><strong>Un dé bonus</strong> à une <strong>catégorie très étroite de
+        tests hors combat</strong>, déterminée à la conception, lorsque l’outil
+        est réellement utilisé.</td>
+
+        <td>Pas de bonus général à toutes les compétences ni de dé bonus à
+        l’attaque.</td>
+
+        </tr>
+
+        <tr>
+
+        <td><strong>Adaptable</strong></td>
+
+        <td>Peut être ajusté à <strong>deux conditions d’usage</strong> définies
+        à la création, en <strong>10 min</strong>.</td>
+
+        <td>Pas de nouvel effet chiffré offensif ou défensif.</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <p>Une propriété technique n’est pas nécessairement une invention «
+        faite sur place en quelques minutes » : conception, essais, atelier,
+        matériaux ou recette peuvent être nécessaires. Elle peut coexister avec
+        une <strong>qualité COF2</strong> si toutes les conditions de celle-ci
+        sont aussi remplies.</p>
+
+        <p><strong>Attention à la portée de l’outil spécialisé :</strong> « dé
+        bonus pour utiliser ce cric sur la serrure d’une grille minière rouillée
+        » est étroit ; « dé bonus à tous les tests de bricolage » est
+        <strong>trop large</strong>. Le MJ contrôle ce point.</p>
+
+        <h3>8.5. Rang 5 — Chef-d’œuvre du maître forgeron (2 PC)</h3>
+
+        <p><strong>Effets :</strong></p>
+
+        <ul>
+
+        <li>Peut entreprendre un ouvrage singulier combinant <strong>jusqu’à
+        deux propriétés techniques différentes</strong> compatibles, et
+        éventuellement la qualité COF2 si elle a été obtenue séparément.</li>
+
+        <li>Peut mettre au point <strong>sa propre méthode</strong> plutôt que
+        devoir trouver une recette préexistante, à condition de disposer des
+        savoirs, des outils et des ressources plausibles.</li>
+
+        <li>Lors du projet, peut <strong>reprendre une fois un jalon technique
+        raté sans devoir réunir à nouveau les matériaux de ce jalon</strong>,
+        mais doit investir le temps correspondant. Cette reprise n’assure pas le
+        succès.</li>
+
+        <li>La création exige un <strong>projet d’au moins trois jalons
+        significatifs</strong> (§10).</li>
+
+        </ul>
+
+        <p><strong>Limites :</strong> pas de troisième propriété technique ; pas
+        de bonus automatique aux attaques ou aux DM ; pas d’enchantement
+        permanent gratuit ; pas de procédé impossible rendu possible par un seul
+        jet.</p>
+
+        <p><strong>Exemple :</strong> un outil de franchissement exceptionnel
+        pourrait combiner <strong>Modulaire</strong> (deux configurations) et
+        <strong>Renforcé</strong> (résistance à la casse) dans un projet long.
+        Une épée de qualité comportant ces deux fonctions garde <strong>un seul
+        bonus de qualité COF2</strong> si les conditions de qualité sont
+        remplies.</p>
+
+        <h3>8.6. Douze demandes à la forge — référence de table</h3>
+
+        <table>
+
+        <thead>
+
+        <tr>
+
+        <th>Demande</th>
+
+        <th style="text-align:right">Rang indicatif</th>
+
+        <th>Traitement</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+
+        <td>Entretenir une dague</td>
+
+        <td style="text-align:right">Sans voie ou 1</td>
+
+        <td>Entretien simple, selon l’historique</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Forger une dague de fer</td>
+
+        <td style="text-align:right">1</td>
+
+        <td>Fabrication courante</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Forger une épée longue</td>
+
+        <td style="text-align:right">1</td>
+
+        <td>Fabrication ordinaire, forge et temps appropriés</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Forger une épée à deux mains</td>
+
+        <td style="text-align:right">1</td>
+
+        <td>Plus de matière et de temps, <strong>pas</strong> de nouvelle
+        capacité</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Réparer une armure</td>
+
+        <td style="text-align:right">1</td>
+
+        <td>Travail proportionné aux dégâts</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Réaliser une lame argentée</td>
+
+        <td style="text-align:right">2</td>
+
+        <td>Traitement/adaptation ; <strong>aucune propriété magique
+        implicite</strong></td>
+
+        </tr>
+
+        <tr>
+
+        <td>Transformer une vieille hache en pointe de lance</td>
+
+        <td style="text-align:right">2</td>
+
+        <td>Recyclage réel et transformation</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Réparer une ferrure pendant un voyage</td>
+
+        <td style="text-align:right">2</td>
+
+        <td>Temps réduit si réparation maîtrisée et outils suffisants</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Forger une épée de qualité (+1 attaque)</td>
+
+        <td style="text-align:right">3</td>
+
+        <td>Qualité COF2, coût et risque associés</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Fabriquer une armure de qualité</td>
+
+        <td style="text-align:right">3</td>
+
+        <td>Qualité COF2, pas de bonus automatique en DEF</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Créer un outil renforcé dans un matériau étrange</td>
+
+        <td style="text-align:right">4</td>
+
+        <td>Étude, une propriété technique, matériau compatible</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Forger un chef-d’œuvre à deux propriétés</td>
+
+        <td style="text-align:right">5</td>
+
+        <td>Projet ≥3 jalons, deux propriétés au maximum</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435076018
+      modifiedTime: 1792435076018
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!kJL5BBW05pO708bQ.fGxDCK2qZ3dTFj9M'
+  - sort: 1000000
+    name: 09 — Voie de l’alchimie
+    type: text
+    _id: YefPJvR9BkWbvb8X
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>9. Voie de l’alchimie — cinq rangs</h2>
+
+        <p><strong>Voie professionnelle de Warbound — entièrement [V0.2], non
+        officielle COF2.</strong></p>
+
+        <p><strong>Domaine :</strong> préparations non magiques ou alchimiques
+        adaptées (soins ordinaires, remèdes, analyses, huiles, antidotes,
+        réactifs), puis innovations et formules magistrales.
+        <strong>Caractéristique :</strong> INT principalement, PER pour
+        certaines observations.</p>
+
+        <blockquote>
+
+        <p><strong>Attention à l’équilibrage :</strong> l’alchimie fabrique des
+        <strong>consommables</strong>. Le rang 3 améliore la
+        <strong>productivité</strong>, sans produire de doses gratuites ni
+        modifier arbitrairement la puissance d’une potion.</p>
+
+        </blockquote>
+
+        <h3>9.1. Rang 1 — Art des préparations (1 PC)</h3>
+
+        <p><strong>Effets :</strong></p>
+
+        <ul>
+
+        <li>Bonus professionnel <strong>rang + 2</strong> aux tests
+        d’alchimie.</li>
+
+        <li>Fabrique les préparations courantes dont il maîtrise le principe,
+        avec ingrédients et installations adaptés.</li>
+
+        <li>Peut examiner un composant <strong>non magique</strong> pendant
+        <strong>10 minutes</strong> et tenter d’identifier sa propriété
+        dominante par un test <strong>INT (Alchimie)</strong> difficulté
+        <strong>10 ou 15</strong>.</li>
+
+        <li>Peut apprendre à fabriquer une <strong>potion de soins
+        ordinaire</strong> de COF2 (<code>1d4° PV</code>) ; la formule doit
+        néanmoins être connue.</li>
+
+        </ul>
+
+        <p><strong>Limites :</strong> identifier une propriété n’est pas
+        découvrir instantanément toutes les recettes auxquelles le réactif peut
+        servir ; une potion ordinaire n’annule pas les limites de consommation
+        COF2.</p>
+
+        <h3>9.2. Rang 2 — Science des réactifs (1 PC)</h3>
+
+        <p><strong>Effets :</strong></p>
+
+        <ul>
+
+        <li>Peut <strong>substituer</strong> un ingrédient ordinaire d’une
+        recette par un autre <strong>réellement compatible</strong> : si
+        l’équivalence est connue, aucune vérification supplémentaire ; sinon
+        test <strong>INT (Alchimie) difficulté 15</strong>, avec <strong>+1
+        heure</strong> de préparation.</li>
+
+        <li>Peut analyser un <strong>poison non magique</strong> en <strong>30
+        minutes</strong> pour déterminer sa propriété dominante et les
+        conditions d’un <strong>possible antidote</strong> : test de difficulté
+        <strong>15 ou plus</strong> selon le poison.</li>
+
+        </ul>
+
+        <p><strong>Limites :</strong> l’analyse ne constitue pas un antidote ;
+        le remplacement d’un ingrédient ne contourne pas les composants
+        véritablement uniques d’une recette.</p>
+
+        <p><strong>Exemple :</strong> après l’examen d’un venin de scorpide,
+        l’alchimiste sait quel type d’effet l’antidote doit neutraliser, mais
+        doit encore trouver les ressources et élaborer ou obtenir la formule
+        adaptée.</p>
+
+        <h3>9.3. Rang 3 — Art des dosages (2 PC)</h3>
+
+        <p><strong>Effet :</strong> pour une formule <strong>ordinaire et
+        maîtrisée</strong>, fabriquer <strong>jusqu’à trois doses en un seul
+        lot</strong> en fournissant <strong>tous les ingrédients pour chaque
+        dose</strong>, avec <strong>+1 h par dose au-delà de la
+        première</strong>. Un <strong>seul test final éventuel</strong> est
+        effectué pour le lot.</p>
+
+        <table>
+
+        <thead>
+
+        <tr>
+
+        <th style="text-align:right">Doses</th>
+
+        <th style="text-align:right">Temps pour une formule prenant normalement
+        2 h</th>
+
+        <th>Ingrédients consommés</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+
+        <td style="text-align:right">1</td>
+
+        <td style="text-align:right">2 h</td>
+
+        <td>Une dose</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="text-align:right">2</td>
+
+        <td style="text-align:right">3 h</td>
+
+        <td>Deux doses</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="text-align:right">3</td>
+
+        <td style="text-align:right">4 h</td>
+
+        <td>Trois doses</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <p><strong>Limites :</strong> pas de gain d’ingrédients, pas de
+        quatrième dose par lot, pas de fabrication automatique en lots pour des
+        recettes instables, rares, exceptionnelles ou magistrales. Le MJ annonce
+        avant le test ce qu’un échec du lot compromet ; pas de triple réussite
+        automatique sur un seul jet.</p>
+
+        <h3>9.4. Rang 4 — Recherche alchimique (2 PC)</h3>
+
+        <p><strong>Effet :</strong> concevoir et mettre au point une
+        <strong>recette nouvelle, reproductible, dotée d’une seule propriété
+        utilitaire</strong>, à partir de réactifs étudiés. Le joueur et le MJ
+        définissent avant la recherche : l’effet, sa portée, sa durée
+        éventuelle, ses conditions et les ressources nécessaires.</p>
+
+        <p>Ce rang peut aussi permettre de <strong>modifier la forme ou le mode
+        d’application d’une préparation connue</strong> sans en augmenter
+        automatiquement l’effet.</p>
+
+        <p><strong>Exemples de fonctions acceptables à étudier :</strong>
+        neutraliser une odeur précise, nettoyer une substance identifiée,
+        stabiliser une préparation fragile, protéger ponctuellement un matériel
+        contre un agent défini. Chaque nouvelle recette exige une analyse de
+        faisabilité.</p>
+
+        <p><strong>Limites :</strong> pas de potion reproduisant librement des
+        sorts, ni de « dé bonus à tous les tests », ni de DM élémentaires créés
+        sans règle spécifique.</p>
+
+        <p><strong>Différence avec le rang 5 :</strong> le rang 4 développe
+        <strong>une fonction utilitaire</strong> ; le rang 5 peut associer
+        <strong>deux fonctions</strong> ou élaborer une formule magistrale à
+        effet borné.</p>
+
+        <h3>9.5. Rang 5 — Formule magistrale (2 PC)</h3>
+
+        <p><strong>Effets :</strong></p>
+
+        <ul>
+
+        <li>Peut entreprendre un <strong>projet d’au moins trois jalons</strong>
+        pour créer <strong>une préparation unique</strong>, combinant
+        <strong>deux propriétés utilitaires compatibles</strong> ou renforçant
+        un effet simple <strong>dans une limite acceptée par le
+        MJ</strong>.</li>
+
+        <li>Exige au moins <strong>un réactif rare adapté</strong> et une
+        méthode spécialement mise au point.</li>
+
+        <li>Une <strong>formule magistrale ne bénéficie pas du lot de trois
+        doses du rang 3</strong>.</li>
+
+        <li><strong>Exemple expérimental de référence :</strong> une potion
+        magistrale de soins pouvant restaurer <strong><code>2d4°
+        PV</code></strong>, au lieu de la potion ordinaire de <code>1d4°</code>,
+        sous contrôle des règles de consommation de COF2 (§7.4 et §7.6).</li>
+
+        </ul>
+
+        <p><strong>Limites :</strong> ce cas <strong>ne généralise pas</strong>
+        un doublement de toutes les potions. Il ne remplace pas les capacités
+        magiques du forgesort. Le statut et l’évolution du dé doivent être
+        arbitrés clairement pour cette nouvelle formule avant sa première
+        utilisation.</p>
+
+        <h3>9.6. Huit demandes à l’alchimie — référence de table</h3>
+
+        <table>
+
+        <thead>
+
+        <tr>
+
+        <th>Demande</th>
+
+        <th style="text-align:right">Rang indicatif</th>
+
+        <th>Traitement</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+
+        <td>Préparer un baume banal</td>
+
+        <td style="text-align:right">Sans voie ou 1</td>
+
+        <td>Geste simple selon historique, ou préparation courante</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Fabriquer une potion de soins ordinaire</td>
+
+        <td style="text-align:right">1</td>
+
+        <td>Formule connue ; <code>1d4° PV</code> ; limite COF2 de
+        consommation</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Reconnaître un composant végétal</td>
+
+        <td style="text-align:right">1</td>
+
+        <td>Observation 10 min ; test si incertain</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Remplacer une plante d’une formule</td>
+
+        <td style="text-align:right">2</td>
+
+        <td>Substitution compatible, test si équivalence inconnue</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Étudier le venin d’un scorpide</td>
+
+        <td style="text-align:right">2</td>
+
+        <td>Analyse 30 min ; ne soigne pas le venin par elle-même</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Préparer trois doses d’une formule ordinaire</td>
+
+        <td style="text-align:right">3</td>
+
+        <td>Lot et ingrédients ×3 ; temps réduit ; un test éventuel</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Mettre au point un liquide qui masque une odeur donnée</td>
+
+        <td style="text-align:right">4</td>
+
+        <td>Une propriété utilitaire clairement bornée</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Créer une préparation magistrale de soins</td>
+
+        <td style="text-align:right">5</td>
+
+        <td>Projet ≥3 jalons ; réactif rare ; équilibre à vérifier</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435076018
+      modifiedTime: 1792435076018
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!kJL5BBW05pO708bQ.YefPJvR9BkWbvb8X'
+  - sort: 1100000
+    name: 10 — Projets à jalons
+    type: text
+    _id: UuGB3PUJ2k8QfFIK
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>10. Créations exceptionnelles et projets à jalons</h2>
+
+        <h3>10.1. Pourquoi des jalons ?</h3>
+
+        <p>Un projet à jalons sert pour une création qui mérite
+        <strong>plusieurs choix ou étapes significatives</strong>. Il ne
+        transforme pas chaque journée de forge en jet obligatoire.</p>
+
+        <p>La structure s’inspire de l’idée de projets et de progrès fictionnels
+        présente dans certains jeux de rôle, mais <strong>les jalons décrits ici
+        sont une règle maison Warbound</strong>.</p>
+
+        <h3>10.2. La fiche de projet</h3>
+
+        <pre><code class="language-markdown">### Projet : [nom]
+
+        - Artisan principal / rang :
+
+        - Collaborateurs :
+
+        - Objet / effet exact convenu :
+
+        - Métier(s) mobilisé(s) :
+
+        - Recette ou méthode :
+
+        - Atelier et outils :
+
+        - Matériaux ordinaires :
+
+        - Matériaux rares :
+
+        - Risque principal :
+
+        - Jalons :
+          - [ ] 1. [...]
+          - [ ] 2. [...]
+          - [ ] 3. [...]
+        - Tests éventuels et conséquences en cas d'échec :
+
+        - Résultat obtenu :
+
+        </code></pre>
+
+        <h3>10.3. Trois jalons <strong>significatifs</strong> au minimum pour un
+        chef-d’œuvre ou une formule magistrale [V0.2]</h3>
+
+        <p>Un jalon peut être :</p>
+
+        <ul>
+
+        <li>analyser un alliage inconnu ;</li>
+
+        <li>obtenir l’accès à un atelier ou convaincre un maître ;</li>
+
+        <li>acquérir une substance adaptée ;</li>
+
+        <li>vérifier expérimentalement une propriété ;</li>
+
+        <li>concevoir un assemblage ;</li>
+
+        <li>exécuter une opération réellement délicate ;</li>
+
+        <li>éprouver la création dans des conditions représentatives.</li>
+
+        </ul>
+
+        <p><strong>Ce qui ne constitue pas un bon jalon :</strong> « travailler
+        deux heures », « travailler encore deux heures », « travailler deux
+        heures de plus ».</p>
+
+        <p>Le MJ précise quels jalons demandent <strong>un test</strong>,
+        lesquels demandent seulement <strong>du temps</strong>, et lesquels sont
+        de véritables <strong>situations d’aventure</strong>.</p>
+
+        <h3>10.4. Exemple : un outil de mine remarquable</h3>
+
+        <p><strong>But :</strong> fabriquer un outil capable de passer d’une
+        configuration de levage à une configuration de maintien
+        (<strong>Modulaire</strong>) et de résister aux efforts d’un chantier
+        dangereux (<strong>Renforcé</strong>).</p>
+
+        <p><strong>Pré requis :</strong> Forge rang 5, matière adaptée, atelier,
+        accord sur les propriétés.</p>
+
+        <p><strong>Jalons possibles :</strong></p>
+
+        <ol>
+
+        <li>Examiner les contraintes de la galerie et établir deux
+        configurations compatibles.</li>
+
+        <li>Se procurer ou fabriquer les pièces et les mécanismes
+        indispensables.</li>
+
+        <li>Assembler l’outil, puis vérifier son fonctionnement et sa
+        résistance.</li>
+
+        </ol>
+
+        <p>Le travail d’étude peut bénéficier de l’aide d’un ingénieur ; ce
+        dernier apporte ses propres connaissances, pas un transfert automatique
+        de rang.</p>
+
+        <p><strong>En cas d’échec :</strong> le MJ applique les risques fixés
+        pour le jalon. <strong>Une reprise de jalon technique raté sans nouveaux
+        matériaux</strong>, mais avec temps supplémentaire, est permise
+        <strong>une seule fois</strong> grâce au rang 5 de forge.</p>
+
+        <h3>10.5. Exemple : un antidote encore inconnu</h3>
+
+        <p>Un alchimiste découvre un venin qu’il ne sait pas traiter. Au rang 2,
+        il peut l’analyser ; <strong>il n’obtient pas automatiquement une
+        recette de guérison</strong>. À partir des connaissances et ressources
+        réelles, une recherche peut être entreprise.</p>
+
+        <ul>
+
+        <li>Comprendre la propriété nocive et rechercher un réactif susceptible
+        de la contrer.</li>
+
+        <li>Consulter un spécialiste, découvrir une formule ancienne ou mener
+        une expérimentation appropriée.</li>
+
+        <li>Préparer puis vérifier l’antidote dans des conditions sûres.</li>
+
+        </ul>
+
+        <p>Si la demande consiste seulement à <strong>retrouver une formule
+        existante</strong>, un alchimiste moins avancé peut participer à ces
+        scènes. Si elle consiste à <strong>inventer une formule
+        nouvelle</strong>, le rang 4 est normalement la référence de la
+        V0.2.</p>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435076018
+      modifiedTime: 1792435076018
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!kJL5BBW05pO708bQ.UuGB3PUJ2k8QfFIK'
+  - sort: 1200000
+    name: 11 — Exemples de forge et d’analyse
+    type: text
+    _id: iqZuRCxNPgvYOJD0
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>11. Exemples détaillés de résolution</h2>
+
+        <p>Les exemples ci-dessous montrent <strong>la manière dont le MJ
+        applique les règles</strong>, et distinguent les chiffres fixés par COF2
+        de ceux choisis pour l’exemple.</p>
+
+        <h3>Exemple 1 — Une épée ordinaire, sans recette individuelle</h3>
+
+        <p><strong>Situation :</strong> un PJ Forge rang 1 demande à fabriquer
+        une épée en fer pour un compagnon. La forge est accessible et les
+        matériaux ordinaires sont disponibles.</p>
+
+        <ol>
+
+        <li><strong>Intention :</strong> épée ordinaire correspondant à un
+        modèle connu.</li>
+
+        <li><strong>Métier :</strong> forge, rang 1 suffisant.</li>
+
+        <li><strong>Recette :</strong> pas de recette individuelle à
+        trouver.</li>
+
+        <li><strong>Moyens :</strong> métal, forge, outils, temps.</li>
+
+        <li><strong>Incertitude :</strong> aucune si les conditions sont
+        normales.</li>
+
+        <li><strong>Résultat :</strong> l’épée possède les caractéristiques
+        <strong>normales</strong> de l’arme COF2 correspondante.</li>
+
+        </ol>
+
+        <p><strong>Ce que le MJ n’ajoute pas :</strong> une recette d’« épée en
+        fer » comme capacité, un jet automatique toutes les deux heures, un
+        bonus de DM parce que le joueur a fait une belle description.</p>
+
+        <h3>Exemple 2 — Une réparation urgente sur la route</h3>
+
+        <p><strong>Situation :</strong> une ferrure est abîmée. Le groupe doit
+        repartir rapidement. Un PJ Forge rang 2 possède quelques outils
+        portatifs et des morceaux de métal compatibles.</p>
+
+        <p>Le MJ estime qu’une réparation maîtrisée prendrait normalement
+        <strong>2 heures</strong>. Grâce au rang 2, elle prend <strong>1
+        heure</strong>.</p>
+
+        <ul>
+
+        <li>Si le travail reste réalisable avec le matériel disponible, il peut
+        réussir sans jet.</li>
+
+        <li>Si l’urgence, la chaleur ou l’improvisation rendent la réparation
+        incertaine, le MJ demande un test, par exemple <strong>FOR (Forge)
+        difficulté 15</strong>, en annonçant le risque d’une réparation fragile
+        ou d’un retard.</li>
+
+        <li>Si une pièce essentielle manque complètement, la capacité n’invente
+        pas le métal nécessaire.</li>
+
+        </ul>
+
+        <p><strong>Valeur de jeu :</strong> le métier offre une autre solution
+        que « abandonner le chariot ».</p>
+
+        <h3>Exemple 3 — Fabriquer une arme de qualité : calcul complet</h3>
+
+        <p><strong>Situation :</strong> une PJ Forge rang 3, <strong>FOR
+        +3</strong>, veut produire une épée de qualité conférant <strong>+1 à
+        l’attaque</strong>.</p>
+
+        <p>Pour l’illustration, le MJ estime le travail ordinaire à <strong>4
+        heures</strong> et sa difficulté de base à <strong>10</strong>.</p>
+
+        <p><strong>Calcul :</strong></p>
+
+        <ul>
+
+        <li><strong>Difficulté de qualité :</strong> 10 + 10 (COF2) =
+        <strong>20</strong>.</li>
+
+        <li><strong>Durée de qualité :</strong> 4 h × 3 (COF2) = <strong>12
+        heures</strong>.</li>
+
+        <li><strong>Bonus au test :</strong> FOR +3 + (rang 3 + 2) =
+        <strong>+8</strong>.</li>
+
+        <li><strong>Réussite :</strong> un résultat naturel de <strong>12 ou
+        davantage</strong> au d20 permet d’atteindre 20 ; cela représente
+        <strong>9 résultats sur 20, soit 45 %</strong>, en dehors des éventuels
+        traitements particuliers des critiques.</li>
+
+        <li><strong>Reprise [V0.2] :</strong> si le test final échoue, ajouter
+        <strong>6 heures</strong> (50 % de 12 h), et refaire <strong>une seule
+        fois</strong> le test, sans nouveaux matériaux.</li>
+
+        <li><strong>Issue :</strong> si les deux tests échouent normalement,
+        l’épée reste une épée <strong>ordinaire</strong> ; les matériaux
+        exceptionnels de la tentative ont été dépensés.</li>
+
+        </ul>
+
+        <p><strong>Repère d’équilibrage :</strong> avec deux tentatives
+        indépendantes à <strong>45 %</strong> chacune, la probabilité d’obtenir
+        au moins une réussite ordinaire serait de <strong>1 − (0,55 × 0,55) =
+        69,75 %</strong>, avant particularités des échecs critiques. Ce calcul
+        est <strong>un exemple</strong>, pas une nouvelle règle.</p>
+
+        <p><strong>À ne pas confondre avec le prix :</strong> une épée longue à
+        <strong>6 pa</strong> vaudrait <strong>112 pa</strong> en qualité
+        supérieure selon la formule marchande COF2 ; cela <strong>ne signifie
+        pas</strong> que la PJ paie automatiquement 112 pa de matières
+        premières.</p>
+
+        <h3>Exemple 4 — Modifier une arme ne lui confère pas une magie
+        gratuite</h3>
+
+        <p><strong>Situation :</strong> un PJ Forge rang 2 veut recouvrir une
+        lame d’argent « pour qu’elle soit magique contre toutes les créatures
+        surnaturelles ».</p>
+
+        <p>Le MJ distingue deux demandes :</p>
+
+        <ul>
+
+        <li><strong>Réaliser un traitement de surface ou une lame argentée
+        :</strong> adaptation de forge plausible si les moyens existent.</li>
+
+        <li><strong>Obtenir un effet particulier contre une créature :</strong>
+        à vérifier dans les règles propres à cette créature, à l’argent ou à
+        l’équipement magique ; <strong>pas d’effet supplémentaire
+        automatique</strong> parce que le métal a changé.</li>
+
+        </ul>
+
+        <p>Le joueur peut obtenir un résultat matériel réel sans que le MJ
+        invente une immunité contournée ou un bonus de DM.</p>
+
+        <h3>Exemple 5 — Une propriété technique au rang 4</h3>
+
+        <p><strong>Situation :</strong> un PJ Forge rang 4 conçoit un appareil
+        de levage pour récupérer une charrette dans un ravin. Il choisit la
+        propriété <strong>Outil spécialisé</strong>, dédiée à l’emploi de cet
+        appareil pour soulever et maintenir des charges dans des conditions
+        déterminées.</p>
+
+        <p>Le MJ valide : « Donne <strong>un dé bonus</strong> aux tests hors
+        combat visant à utiliser <strong>cet appareil précis</strong> pour
+        soulever ou stabiliser une charge lourde ». Il refuse la formulation «
+        dé bonus à tous les tests de Force ».</p>
+
+        <p>Une fois l’outil construit, son effet est écrit sur sa fiche. Aucun
+        bonus aux attaques, aux DM ou à la DEF.</p>
+
+        <h3>Exemple 6 — Analyser un ingrédient alchimique</h3>
+
+        <p><strong>Situation :</strong> un PJ Alchimie rang 1 trouve une sève
+        inconnue. <strong>INT +2</strong>, rang 1 : bonus professionnel
+        <strong>+3</strong>, total <strong>+5</strong>.</p>
+
+        <p>Il l’étudie <strong>10 minutes</strong>. Le MJ demande <strong>INT
+        (Alchimie) difficulté 15</strong> : le d20 doit afficher <strong>10 ou
+        plus</strong>. Une réussite révèle une <strong>propriété
+        principale</strong>, par exemple irritante ; cela ne révèle ni toutes
+        les recettes possibles ni sa toxicité exacte à chaque dose.</p>
+
+        <p>En cas d’échec, le MJ peut dire que l’analyse n’est pas concluante et
+        qu’un meilleur laboratoire ou un échantillon supplémentaire est
+        nécessaire. Il ne doit pas inventer un effet létal sur simple échec si
+        aucun risque de ce type n’avait été établi.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435076018
+      modifiedTime: 1792435076018
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!kJL5BBW05pO708bQ.iqZuRCxNPgvYOJD0'
+  - sort: 1300000
+    name: 12 — Exemples d’alchimie et de recettes
+    type: text
+    _id: 9YAXoS0Cbz8dVYtZ
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Exemples détaillés — suite</h2>
+
+        <h3>Exemple 7 — Un antidote contre un venin de scorpide</h3>
+
+        <p><strong>Situation :</strong> un personnage a été empoisonné par un
+        scorpide. Un PJ Alchimie rang 2 souhaite élaborer un antidote.</p>
+
+        <ol>
+
+        <li>Il prélève ou étudie un échantillon du venin.</li>
+
+        <li>L’analyse de rang 2 prend <strong>30 minutes</strong> et, si le
+        poison n’est pas familier, appelle un test <strong>INT (Alchimie) de
+        difficulté au moins 15</strong>.</li>
+
+        <li>La réussite renseigne la <strong>propriété nocive</strong> et une
+        piste d’antidote ; elle ne guérit personne.</li>
+
+        <li>Le PJ cherche une formule existante, un mentor ou des ingrédients
+        appropriés ; si la formule doit être réellement inventée, les capacités
+        de rang supérieur peuvent devenir pertinentes.</li>
+
+        <li>Une fois la recette et les moyens réunis, il prépare un
+        <strong>antidote à effet précis</strong>, limité au venin concerné.</li>
+
+        </ol>
+
+        <p><strong>Enjeu de scénario :</strong> si le patient est en danger
+        immédiat, les 30 minutes d’analyse sont une contrainte réelle ; d’autres
+        PJ peuvent chercher simultanément une aide ou une solution
+        différente.</p>
+
+        <h3>Exemple 8 — Trois potions en un seul lot</h3>
+
+        <p><strong>Situation :</strong> un PJ Alchimie rang 3 connaît une
+        formule ordinaire, normalement réalisable en <strong>2 heures pour une
+        dose</strong>, et dispose des ingrédients pour <strong>trois
+        doses</strong>.</p>
+
+        <ul>
+
+        <li><strong>Sans rang 3 :</strong> repère de travail <strong>6
+        heures</strong> si on traite successivement les doses.</li>
+
+        <li><strong>Avec rang 3 :</strong> <strong>2 h + 1 h + 1 h = 4
+        heures</strong>.</li>
+
+        <li><strong>Matières consommées :</strong> exactement l’équivalent de
+        <strong>trois doses</strong>, pas une.</li>
+
+        <li><strong>Test :</strong> un seul test final <strong>si un jet est
+        pertinent</strong>.</li>
+
+        <li><strong>Échec :</strong> conséquence annoncée avant le jet, qui peut
+        affecter la totalité du lot.</li>
+
+        </ul>
+
+        <p><strong>Limite :</strong> on ne produit pas trois potions magistrales
+        grâce à cette capacité. L’utilisation des potions de soins reste limitée
+        par COF2.</p>
+
+        <h3>Exemple 9 — Une formule alchimique originale mais non magique</h3>
+
+        <p><strong>Situation :</strong> une PJ Alchimie rang 4 veut créer une
+        pâte pour masquer temporairement l’odeur d’un chargement de viande aux
+        animaux pisteurs.</p>
+
+        <p>Le MJ accepte <strong>une propriété utilitaire ciblée</strong> : «
+        masque l’odeur de ce chargement pendant une période définie tant que la
+        pâte tient ». Il convient du temps, du mode d’application et des
+        réactifs.</p>
+
+        <p>Le MJ <strong>ne promet pas</strong> de « rendre automatiquement
+        toutes les créatures incapables de détecter le groupe » ni d’accorder un
+        dé bonus général à tous les tests de Discrétion. Une créature peut
+        encore repérer le chargement autrement.</p>
+
+        <p>La formule peut être <strong>reproduite</strong> lorsque ses
+        conditions et ingrédients sont réunis.</p>
+
+        <h3>Exemple 10 — Formule magistrale de soins</h3>
+
+        <p><strong>Situation :</strong> au rang 5, un alchimiste tente une
+        préparation unique plus puissante qu’une potion ordinaire.</p>
+
+        <ul>
+
+        <li><strong>Projet :</strong> trois jalons significatifs minimum.</li>
+
+        <li><strong>Ingrédients :</strong> réactifs usuels appropriés et au
+        moins un élément rare.</li>
+
+        <li><strong>Fabrication :</strong> pas de lot de trois doses.</li>
+
+        <li><strong>Effet expérimental :</strong> <strong><code>2d4°
+        PV</code></strong>, sous réserve de l’arbitrage explicite du MJ
+        concernant la puissance et l’évolution du dé (§7.6).</li>
+
+        <li><strong>Consommation :</strong> le plafond des potions de soins
+        reste applicable.</li>
+
+        </ul>
+
+        <p><strong>Pourquoi encadrer ?</strong> Un objet consommable répétable
+        peut concurrencer le rôle d’une capacité de soin ; ni les PC investis ni
+        la rareté annoncée dans la fiction ne suffisent à eux seuls à en
+        garantir l’équilibre.</p>
+
+        <h3>Exemple 11 — Une recette découverte avant de pouvoir la
+        réaliser</h3>
+
+        <p><strong>Situation :</strong> un guerrier Forge rang 1 découvre un
+        manuscrit décrivant un procédé métallurgique exceptionnel.</p>
+
+        <p>Le MJ inscrit la recette dans son carnet. Le personnage peut
+        l’étudier, la négocier ou la montrer à un maître, mais <strong>le
+        document ne lui confère pas automatiquement le rang 4</strong> ni des
+        matériaux impossibles à trouver.</p>
+
+        <p><strong>Récompense réelle :</strong> le savoir découvert peut servir
+        plus tard, déclencher une rencontre, faire gagner du temps de recherche
+        ou constituer un objet d’échange.</p>
+
+        <h3>Exemple 12 — Deux métiers sur un même objet</h3>
+
+        <p><strong>Situation :</strong> la troupe veut fabriquer un piège
+        combinant une armature métallique et un mécanisme sophistiqué.</p>
+
+        <ul>
+
+        <li>Le <strong>forgeron</strong> réalise les éléments métalliques dans
+        les limites de sa voie.</li>
+
+        <li>L’<strong>ingénieur</strong>, s’il est présent, traite la conception
+        et l’assemblage mécanique.</li>
+
+        <li>À défaut, le groupe peut chercher une recette, solliciter un PNJ
+        compétent, réduire l’ambition ou faire une autre proposition.</li>
+
+        </ul>
+
+        <p>Le MJ n’autorise pas le forgeron à reproduire automatiquement toute
+        l’ingénierie du monde au motif qu’il sait travailler le métal.</p>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435076018
+      modifiedTime: 1792435076018
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!kJL5BBW05pO708bQ.9YAXoS0Cbz8dVYtZ'
+  - sort: 1400000
+    name: 13 — Questions fréquentes
+    type: text
+    _id: fdIXC239S6Atatmi
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>12. Arbitrages du MJ et questions fréquentes</h2>
+
+        <h3>12.1. « Puis-je fabriquer n’importe quoi puisque je suis rang 1 ?
+        »</h3>
+
+        <p><strong>Non.</strong> Le rang 1 couvre les <strong>objets
+        ordinaires</strong> relevant du métier. L’absence de liste fermée ne
+        supprime ni les limites physiques, ni les installations, ni les
+        difficultés inhabituelles, ni les domaines des autres métiers.</p>
+
+        <h3>12.2. « Une épée à deux mains demande-t-elle un rang supérieur à une
+        dague ? »</h3>
+
+        <p><strong>Pas par principe.</strong> Plus de matière et de temps ne
+        signifie pas toujours une nouvelle capacité. Une arme très particulière
+        peut en revanche demander un savoir spécialisé.</p>
+
+        <h3>12.3. « Une recette rare permet-elle de contourner le rang ? »</h3>
+
+        <p><strong>Non, pas automatiquement.</strong> Elle fournit une méthode.
+        Le rang requis, les matériaux et les outils restent pertinents. Un
+        apprentissage auprès d’un artisan peut permettre de réaliser une
+        opération ponctuelle sous sa conduite, sans octroyer sa capacité au
+        PJ.</p>
+
+        <h3>12.4. « Puis-je avoir deux métiers et toutes les récoltes ? »</h3>
+
+        <p><strong>Oui pour les savoir-faire de récolte</strong>, dans la mesure
+        où le personnage les apprend et possède le matériel ; ils n’ont pas de
+        voie propre en V0.2. <strong>Non</strong> pour un troisième métier parmi
+        les huit voies.</p>
+
+        <h3>12.5. « L’artisan peut-il vendre toutes ses fabrications ? »</h3>
+
+        <p><strong>Oui si un acheteur existe</strong>, mais il n’existe pas de
+        vente automatique au prix public, ni de prix d’achat des matières fixé
+        universellement. Le MJ tient compte de la demande locale, du temps, des
+        installations et du risque. La campagne ne devient pas une simulation
+        économique indépendante.</p>
+
+        <h3>12.6. « Les outils spécialisés rendent-ils inutiles les autres
+        personnages ? »</h3>
+
+        <p>C’est un risque à surveiller. La propriété de rang 4 doit toujours
+        viser <strong>une tâche étroite</strong>. Un outil qui donne un dé bonus
+        à presque toutes les actions d’exploration ne respecte pas la V0.2.</p>
+
+        <h3>12.7. « Puis-je faire une potion d’invisibilité, un explosif ou une
+        arme enflammée ? »</h3>
+
+        <p><strong>Pas par simple liberté narrative du craft.</strong> Vérifier
+        d’abord si l’effet existe dans COF2 et de quel système il relève : sort,
+        capacité de classe, objet magique, piège ou autre. Une <strong>recette
+        particulière</strong> et un <strong>mécanisme encadré</strong> peuvent
+        permettre d’étudier la demande ultérieurement ; ce n’est pas un droit
+        accordé par la voie générale.</p>
+
+        <h3>12.8. « Peut-on cumuler qualité, propriété technique et magie ?
+        »</h3>
+
+        <p>La qualité COF2 et une propriété <strong>technique non
+        magique</strong> peuvent coexister si elles ont chacune été obtenues et
+        sont compatibles. <strong>Leur coexistence n’ouvre pas des bonus
+        chiffrés implicites</strong>. La <strong>magie</strong>, si elle
+        intervient, suit ses propres règles de fabrication et de cumul COF2.</p>
+
+        <h3>12.9. « Un rang 5 peut-il fabriquer dix chefs-d’œuvre ? »</h3>
+
+        <p>Il peut <strong>entreprendre</strong> des projets si la fiction, les
+        ingrédients, l’atelier et le temps le permettent. Le rang 5 n’accorde
+        pas des objets gratuits ; chaque projet exige ses propres jalons et
+        ressources. Pour une formule magistrale, la V0.2 prévoit une
+        <strong>préparation unique par projet</strong> et non une production
+        industrielle. La disponibilité et l’éventuelle répétition des composants
+        rares relèvent de la campagne.</p>
+
+        <h3>12.10. « Qu’en est-il des créatures et ressources de Durotar ?
+        »</h3>
+
+        <p>Ne pas attribuer mécaniquement une propriété à une partie de créature
+        sur la seule base de son nom. Un venin de scorpide peut être intéressant
+        pour une recherche contre un poison ; cela ne définit
+        <strong>pas</strong> automatiquement un antidote universel, une dose de
+        poison offensif et une nouvelle potion de soins.</p>
+
+        <h3>12.11. « Que faire si l’effet demandé n’est prévu nulle part ?
+        »</h3>
+
+        <p>Utiliser la <strong>grille d’arbitrage</strong> :</p>
+
+        <ol>
+
+        <li>L’effet est-il <strong>purement narratif ou matériel</strong>, ou
+        donne-t-il un avantage mécanique ?</li>
+
+        <li>Existe-t-il déjà <strong>une capacité ou un objet COF2</strong>
+        accomplissant le même effet ?</li>
+
+        <li>Son usage est-il <strong>permanent, réutilisable ou
+        consommable</strong> ?</li>
+
+        <li>Un rang <strong>4 ou 5</strong> est-il nécessaire ? Une
+        <strong>recette</strong> existe-t-elle ?</li>
+
+        <li>Quel <strong>coût réel</strong> en temps, ressources et risques le
+        justifie ?</li>
+
+        <li>Le MJ est-il prêt à <strong>réutiliser exactement cette même
+        règle</strong> lors de la prochaine fabrication ?</li>
+
+        </ol>
+
+        <p>Si l’effet modifie directement le combat et n’a pas de référence
+        d’équilibre claire, <strong>différer sa validation</strong> plutôt que
+        d’improviser un gros bonus définitif.</p>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435076018
+      modifiedTime: 1792435076018
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!kJL5BBW05pO708bQ.fdIXC239S6Atatmi'
+  - sort: 1500000
+    name: 14 — L’artisanat en Durotar
+    type: text
+    _id: 1RH3PovZYZ0xrMj7
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>13. Artisanat dans la campagne de Durotar</h2>
+
+        <p>L’artisanat doit soutenir la promesse de la saison : une
+        <strong>Horde encore jeune</strong> s’installe en Kalimdor et tente de
+        construire un territoire durable. Les artisans ne sont pas seulement des
+        fabricants d’équipement de combat ; leur métier leur permet de
+        participer à cette construction.</p>
+
+        <p>Les exemples suivants sont <strong>des situations proposées pour
+        Warbound</strong>, non des affirmations de canon sur des recettes ou PNJ
+        existants.</p>
+
+        <h3>13.1. Tranchecolline — un atelier qui compte</h3>
+
+        <p>Tranchecolline est le point d’ancrage de la saison. Une forge locale,
+        un marchand d’outils ou un artisan itinérant peuvent offrir <strong>un
+        atelier, des ressources, un enseignement ou des commandes</strong>.</p>
+
+        <p><strong>Scènes possibles :</strong></p>
+
+        <ul>
+
+        <li>Réparer rapidement les ferrures d’une charrette pour permettre à un
+        groupe de reprendre la route.</li>
+
+        <li>Rendre service à un maître artisan pour obtenir l’accès à une
+        installation.</li>
+
+        <li>Découvrir qu’une pièce récupérée présente une propriété
+        inconnue.</li>
+
+        <li>Apprendre une <strong>recette spécialisée</strong> sans être obligé
+        de se lancer dans une longue quête d’ingrédients.</li>
+
+        </ul>
+
+        <p>Le métier donne ainsi des <strong>contacts</strong>, de la
+        <strong>reconnaissance</strong>, des <strong>occasions de choix</strong>
+        et une utilité pratique.</p>
+
+        <h3>13.2. Village de Sen’jin — recettes et transmission</h3>
+
+        <p>Une préparation contre un venin local peut être transmise par un
+        spécialiste ou étudiée avec son aide. Le joueur doit alors décider s’il
+        partage ses connaissances, échange un service ou recherche une solution
+        par lui-même.</p>
+
+        <p><strong>Exemple de recette fictive, créée pour Warbound
+        :</strong></p>
+
+        <pre><code class="language-markdown">#### Baume contre le venin des
+        scorpides
+
+        - Catégorie : recette spécialisée [WARBOUND, non canon WoW]
+
+        - Métier : alchimie
+
+        - Rang de référence : 2 recommandé pour analyser ou adapter la
+        préparation
+
+        - Effet : traitement d'un venin de scorpide explicitement identifié
+
+        - Limite : pas un remède universel contre tous les poisons
+
+        - Composants : réactif curatif compatible, échantillon étudié, excipient
+
+        - Temps de référence : 2 h (V0.2, ajustable)
+
+        - Test : seulement en cas d'incertitude ou de contrainte ; difficulté à
+        fixer
+
+        - Acquisition : enseignement, document, étude en jeu
+
+        </code></pre>
+
+        <p>La découverte de cette recette doit fournir <strong>une occasion de
+        jouer</strong>, pas un objectif consistant à tuer dix scorpides pour
+        monter une compétence.</p>
+
+        <h3>13.3. Une ressource rare peut créer une décision</h3>
+
+        <p>Le groupe récupère un minerai ou une substance inhabituelle.
+        Plusieurs choix s’offrent à lui :</p>
+
+        <ul>
+
+        <li>l’utiliser immédiatement pour une réparation urgente ;</li>
+
+        <li>le confier à un artisan compétent ;</li>
+
+        <li>l’échanger contre des fournitures nécessaires ;</li>
+
+        <li>l’étudier pour un projet futur ;</li>
+
+        <li>le remettre à une communauté qui en a besoin.</li>
+
+        </ul>
+
+        <p>La récompense est intéressante précisément parce qu’<strong>elle n’a
+        pas une utilisation unique imposée par un menu de recettes</strong>.</p>
+
+        <h3>13.4. Préserver le rythme de la campagne</h3>
+
+        <p>Une campagne de <strong>10 à 15 séances</strong> se terminant vers le
+        <strong>niveau 4</strong> ne doit pas devenir une chaîne de fabrication
+        sans fin.</p>
+
+        <p>En pratique :</p>
+
+        <ul>
+
+        <li>Introduire une <strong>occasion de craft significative</strong>
+        lorsqu’elle découle d’une situation, non à chaque halte.</li>
+
+        <li>Autoriser les <strong>fabrications courantes hors champ</strong>
+        quand elles ne génèrent aucun choix.</li>
+
+        <li>Faire des <strong>recettes spécialisées</strong> des récompenses
+        ponctuelles et identifiables.</li>
+
+        <li>Garder les <strong>composants exceptionnels</strong> rares et liés à
+        des découvertes plutôt qu’à une répétition de combats.</li>
+
+        <li>Ne pas laisser le métier d’un PJ résoudre à lui seul tous les
+        problèmes d’une faction ou d’un village : il offre <strong>des
+        options</strong>, pas des solutions automatiques.</li>
+
+        </ul>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435076018
+      modifiedTime: 1792435076018
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!kJL5BBW05pO708bQ.1RH3PovZYZ0xrMj7'
+  - sort: 1600000
+    name: 15 — Suivi des métiers dans Foundry
+    type: text
+    _id: QPC3KKgRquaiWum3
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>14. Outils de table et suivi sur Foundry VTT</h2>
+
+        <p>La V0.2 ne requiert <strong>aucune macro, automatisation ou module
+        Foundry supplémentaire</strong> pour être jouée. Le guide officiel du
+        système COF2 pour Foundry v14 documente déjà les voies, capacités et
+        équipements. On peut commencer par un simple <strong>journal de campagne
+        et une fiche de personnage</strong>.</p>
+
+        <h3>14.1. Ce que le joueur doit noter</h3>
+
+        <pre><code class="language-markdown">#### Métiers du personnage
+
+        - Métier 1 : Forge — rang 2
+
+        - Métier 2 : Alchimie — rang 1
+
+
+        #### Bonus professionnel
+
+        - Forge : rang 2 + 2 = +4 (en plus de la caractéristique appropriée)
+
+        - Alchimie : rang 1 + 2 = +3 (en plus de la caractéristique appropriée)
+
+
+        #### Recettes connues
+
+        - [Recette] — catégorie — effet — source — réalisable ?
+
+
+        #### Ressources particulières
+
+        - [Composant] — quantité si nécessaire — propriété — origine
+
+
+        #### Projets en cours
+
+        - [Projet] — jalons effectués — ressources engagées — reste à faire
+
+        </code></pre>
+
+        <p>Un suivi de ressources <strong>par lots narratifs</strong> suffit
+        normalement ; quantifiez précisément uniquement les consommables, les
+        composants coûteux ou ceux dont la quantité crée un véritable choix.</p>
+
+        <h3>14.2. Ce que le MJ doit garder dans son journal</h3>
+
+        <ul>
+
+        <li>Liste des <strong>recettes effectivement introduites en jeu</strong>
+        et de leurs effets validés.</li>
+
+        <li>Accès aux <strong>ateliers</strong> et aux
+        <strong>mentors</strong>.</li>
+
+        <li>Réserve des <strong>composants rares</strong> mis en circulation et
+        leur utilisation.</li>
+
+        <li>Projets à jalons et conséquences éventuelles.</li>
+
+        <li>Liste des <strong>arbitrages précédents</strong> afin de résoudre
+        les situations semblables de manière cohérente.</li>
+
+        </ul>
+
+        <p><strong>Conseil :</strong> si une recette ou un objet maison revient
+        plusieurs fois, rédiger sa fiche définitive. Si l’objet était ponctuel,
+        une description courte suffit.</p>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435076018
+      modifiedTime: 1792435076018
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!kJL5BBW05pO708bQ.QPC3KKgRquaiWum3'
+  - sort: 1700000
+    name: 16 — Fiche réflexe
+    type: text
+    _id: qN7HLhWZy9H8bJPY
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>16. Fiche réflexe du MJ</h2>
+
+        <blockquote>
+
+        <p><strong>À garder près de l’écran : fabrication en 60
+        secondes</strong></p>
+
+        <ol>
+
+        <li><strong>Objet voulu ?</strong> Obtenir une description fonctionnelle
+        précise.</li>
+
+        <li><strong>Métier / rang ?</strong> Pas de recette individuelle pour un
+        objet ordinaire.</li>
+
+        <li><strong>Recette spéciale ?</strong> Oui seulement si technique ou
+        effet particuliers.</li>
+
+        <li><strong>Moyens ?</strong> Outils, atelier, matériaux, temps ; sans
+        eux, pas d’objet « par magie ».</li>
+
+        <li><strong>Incertitude ?</strong> Si non, réussite sans jet. Si oui :
+        <code>1d20 + carac + rang + 2</code>.</li>
+
+        <li><strong>Difficulté ?</strong> Repère 10 / 15 / 20 / 25 ;
+        <strong>+10</strong> si équipement de qualité COF2.</li>
+
+        <li><strong>Temps ?</strong> Estimation adaptée ; <strong>×3</strong> si
+        équipement de qualité COF2.</li>
+
+        <li><strong>Échec ?</strong> Conséquence annoncée avant le jet ; ne pas
+        effacer gratuitement tous les efforts.</li>
+
+        <li><strong>Résultat ?</strong> Noter objet, effet exact, limites,
+        ressources consommées et éventuelle recette.</li>
+
+        </ol>
+
+        </blockquote>
+
+        <h4>Récapitulatif des deux voies V0.2</h4>
+
+        <table>
+
+        <thead>
+
+        <tr>
+
+        <th>Rang</th>
+
+        <th>Forge</th>
+
+        <th>Alchimie</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+
+        <td><strong>1</strong></td>
+
+        <td>Bonus rang + 2, objets courants, réparation légère 30 min</td>
+
+        <td>Bonus rang + 2, préparations courantes, analyse 10 min</td>
+
+        </tr>
+
+        <tr>
+
+        <td><strong>2</strong></td>
+
+        <td>Réparations/transfos deux fois plus rapides, récupération jusqu’à 25
+        % des matériaux ordinaires</td>
+
+        <td>Substitution, analyse de poison 30 min</td>
+
+        </tr>
+
+        <tr>
+
+        <td><strong>3</strong></td>
+
+        <td>Qualité COF2, une reprise de finition (+50 % du temps)</td>
+
+        <td>Jusqu’à 3 doses, ingrédients × doses, +1 h par dose
+        additionnelle</td>
+
+        </tr>
+
+        <tr>
+
+        <td><strong>4</strong></td>
+
+        <td>Une propriété technique non magique par conception</td>
+
+        <td>Une nouvelle recette reproductible à une propriété utilitaire</td>
+
+        </tr>
+
+        <tr>
+
+        <td><strong>5</strong></td>
+
+        <td>Deux propriétés techniques, projet ≥3 jalons, reprise d’un
+        jalon</td>
+
+        <td>Deux propriétés ou formule magistrale, projet ≥3 jalons, dose
+        unique</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <h4>Petit glossaire COF2 / Warbound</h4>
+
+        <table>
+
+        <thead>
+
+        <tr>
+
+        <th>Abréviation / terme</th>
+
+        <th>Sens dans ce guide</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+
+        <td><strong>MJ / PJ</strong></td>
+
+        <td>Maître de jeu / personnage joueur</td>
+
+        </tr>
+
+        <tr>
+
+        <td><strong>PC</strong></td>
+
+        <td>Points de capacité investis dans les rangs des voies</td>
+
+        </tr>
+
+        <tr>
+
+        <td><strong>Rang</strong></td>
+
+        <td>Degré acquis dans une voie de métier, de 1 à 5</td>
+
+        </tr>
+
+        <tr>
+
+        <td><strong>FOR / INT / PER / AGI / CON</strong></td>
+
+        <td>Caractéristiques de COF2 : Force, Intelligence, Perception, Agilité,
+        Constitution</td>
+
+        </tr>
+
+        <tr>
+
+        <td><strong>DM / DEF / PV</strong></td>
+
+        <td>Dommages / Défense / points de vigueur du personnage (souvent
+        appelés points de vie dans la conversation)</td>
+
+        </tr>
+
+        <tr>
+
+        <td><strong>pa / po</strong></td>
+
+        <td>Pièce d’argent / pièce d’or, selon l’économie du livre COF2</td>
+
+        </tr>
+
+        <tr>
+
+        <td><strong>d4°</strong></td>
+
+        <td>Dé évolutif de COF2 ; ce n’est <strong>pas</strong> un dé
+        explosif</td>
+
+        </tr>
+
+        <tr>
+
+        <td><strong>Dé bonus</strong></td>
+
+        <td>Mécanisme de test COF2 ; ne pas le remplacer par un +5
+        improvisé</td>
+
+        </tr>
+
+        <tr>
+
+        <td><strong>Recette</strong></td>
+
+        <td>Connaissance ou méthode de fabrication, distincte d’un rang</td>
+
+        </tr>
+
+        <tr>
+
+        <td><strong>Jalon</strong></td>
+
+        <td>Étape significative d’un projet exceptionnel, pas une tranche
+        horaire obligatoire</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <h4>Le test final de cohérence</h4>
+
+        <p>Avant de valider une fabrication, demander :</p>
+
+        <p><strong>« Si j’accorde cet objet maintenant, suis-je prêt à laisser
+        les mêmes personnages ou d’autres artisans le reproduire dans des
+        circonstances similaires, avec les mêmes règles et les mêmes coûts ?
+        »</strong></p>
+
+        <p>Si la réponse est non, il faut préciser ce qui rend cette création
+        véritablement <strong>unique</strong> (ressource non reproductible,
+        condition exceptionnelle, recette incomplète, intervention d’un tiers,
+        etc.) ou modifier son effet.</p>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435076018
+      modifiedTime: 1792435076018
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!kJL5BBW05pO708bQ.qN7HLhWZy9H8bJPY'
+  - sort: 1800000
+    name: 17 — Références et statut des règles
+    type: text
+    _id: ClgXGl6nzQe5mFED
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>17. Références et limites de la version</h2>
+
+        <h3>17.1. Règles de référence COF2</h3>
+
+        <p><strong>Laurent Bernasconi</strong>, <em>Chroniques Oubliées Fantasy,
+        deuxième édition</em>, <strong>Black Book Éditions, 2024</strong>, PDF
+        fourni dans le projet. Passages utilisés :</p>
+
+        <ul>
+
+        <li><strong>p. 39–42</strong> : progression, coûts en PC, niveaux
+        minimaux des rangs, voies et limites ;</li>
+
+        <li><strong>p. 43</strong> : signification et progression du dé évolutif
+        <code>d4°</code> ;</li>
+
+        <li><strong>p. 98–99</strong> : forgesort et voie des élixirs, référence
+        de puissance et de distinction entre artisanat et capacités magiques
+        ;</li>
+
+        <li><strong>p. 157</strong> : voie de prestige de l’enchanteur ;</li>
+
+        <li><strong>p. 190</strong> : équipement courant, potion de soins
+        <code>1d4° PV</code>, prix de 10 pa et limite par récupération rapide
+        ;</li>
+
+        <li><strong>p. 193</strong> : équipement de qualité, avantages, coût
+        marchand de référence, difficulté et temps de fabrication ;</li>
+
+        <li><strong>p. 242–249</strong> : objets magiques, leur fabrication,
+        potions et risques d’utilisation.</li>
+
+        </ul>
+
+        <p><strong>Guide officiel du système COF2 pour Foundry VTT</strong>,
+        version documentée de 2026, PDF fourni dans le projet : organisation des
+        voies, capacités et équipements pour le suivi numérique. Aucun
+        automatisme de craft n’en a été déduit.</p>
+
+        <h3>17.2. Source d’inspiration du modèle libre</h3>
+
+        <p><strong>KibblesTasty</strong>, <em>Kibbles’ Crafting Guide — Simply
+        and Specific Crafting Rules for 5th Edition</em>,
+        <strong>v1.0.7</strong>, PDF fourni. En particulier : introduction et
+        moteur de crafting, matériaux interchangeables, récolte et recyclage,
+        alchimie, forge et annexe sur la création de nouveaux objets (notamment
+        p. 4–9, 24 et suivantes, 41 et suivantes, 133 et suivantes du document).
+        <strong>Ce guide est conçu pour D&amp;D 5e et n’est pas une source des
+        règles COF2</strong> ; ses recettes chiffrées, prix, tests de compétence
+        et temps par tranches ne sont pas transplantés tels quels.</p>
+
+        <h3>17.3. Références internes Warbound</h3>
+
+        <ul>
+
+        <li><strong>Échanges de conception du système d’artisanat</strong> :
+        décisions de limiter à deux métiers, conserver les recettes
+        découvrables, adopter cinq rangs, utiliser les PC, éviter la fabrication
+        par listes fermées et maintenir le principe freeform.</li>
+
+        <li><strong><code>Warbound_Artisanat_V0.2_Forge_Alchimie.md</code></strong>
+        : premier état détaillé des capacités, propriétés, limites et cas de
+        test, consolidé dans le présent document.</li>
+
+        <li><strong><code>Au_Nom_de_la_Horde_S1_Charte_de_direction_narrative.md</code></strong>
+        : cadre de Durotar, identité de la Horde et distinction entre contenu
+        canonique, adaptation et pistes de campagne.</li>
+
+        <li><strong><code>Warbound_Synthese_Regles_de_Voyage.md</code></strong>
+        : contexte des déplacements, temps de voyage et haltes, à prendre en
+        compte si les PJ travaillent durant une expédition.</li>
+
+        </ul>
+
+        <h3>17.4. Hiérarchie des règles</h3>
+
+        <ol>
+
+        <li><strong>Règles COF2</strong> pour les mécanismes fondamentaux,
+        lorsqu’ils n’ont pas été explicitement modifiés par Warbound.</li>
+
+        <li><strong>Décisions validées Warbound</strong> pour l’architecture des
+        métiers.</li>
+
+        <li><strong>Règles V0.2 en test</strong> pour les capacités de forge et
+        d’alchimie et la procédure universelle proposée.</li>
+
+        <li><strong>Arbitrages du MJ</strong> lorsque la situation n’est pas
+        couverte, <strong>notés comme tels</strong> pour pouvoir être
+        revus.</li>
+
+        </ol>
+
+        <p>Les <strong>noms, exemples de recettes et projets nouveaux</strong>
+        inclus dans ce guide sont des <strong>créations Warbound</strong>. Ils
+        ne doivent pas être présentés comme des recettes ou objets établis dans
+        le canon de <em>World of Warcraft</em>.</p>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435076018
+      modifiedTime: 1792435076018
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!kJL5BBW05pO708bQ.ClgXGl6nzQe5mFED'
+  - sort: 1900000
+    name: 18 — Équilibrage et suivi de playtest (MJ)
+    type: text
+    _id: MNccAW9HsiwuaUfB
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p><em>Page réservée au MJ — le contenu ci-dessous relève de la
+        conception et des tests.</em></p>
+
+        <h2>15. Vérification de l’équilibrage et protocole de test</h2>
+
+        <p>Cette version est <strong>jouable à l’essai</strong>, mais plusieurs
+        paramètres demandent une vérification. Le guide doit favoriser les
+        retours de table plutôt que masquer les incertitudes.</p>
+
+        <h3>15.1. Les questions à suivre</h3>
+
+        <table>
+
+        <thead>
+
+        <tr>
+
+        <th>Sujet</th>
+
+        <th>Risque</th>
+
+        <th>Ce qu’il faut observer</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+
+        <td><strong>Coût en PC</strong></td>
+
+        <td>L’artisan perd trop de possibilités de classe pour trop peu de
+        scènes</td>
+
+        <td>Fréquence réelle des occasions de métier, satisfaction du
+        joueur</td>
+
+        </tr>
+
+        <tr>
+
+        <td><strong>Forge rang 3</strong></td>
+
+        <td>Le +1 permanent banalise la qualité d’équipement</td>
+
+        <td>Rareté des matériaux, taux de succès et nombre d’objets
+        produits</td>
+
+        </tr>
+
+        <tr>
+
+        <td><strong>Reprise de forge</strong></td>
+
+        <td>L’échec devient presque sans effet</td>
+
+        <td>Coût du temps supplémentaire et conséquences en cas de second
+        échec</td>
+
+        </tr>
+
+        <tr>
+
+        <td><strong>Forge rang 4</strong></td>
+
+        <td>Le dé bonus d’un outil est trop général</td>
+
+        <td>Utilisations concrètes et domaines couverts</td>
+
+        </tr>
+
+        <tr>
+
+        <td><strong>Forge rang 5</strong></td>
+
+        <td>Deux propriétés semblent anecdotiques ou, au contraire, trop
+        fortes</td>
+
+        <td>Intérêt d’un chef-d’œuvre face au coût en PC et ressources</td>
+
+        </tr>
+
+        <tr>
+
+        <td><strong>Alchimie rang 3</strong></td>
+
+        <td>Trop de consommables accumulés</td>
+
+        <td>Quantité de ressources, demande réelle, possibilités de vente</td>
+
+        </tr>
+
+        <tr>
+
+        <td><strong>Alchimie rang 4</strong></td>
+
+        <td>« Une propriété » reste trop floue</td>
+
+        <td>Comparaison avec les capacités et consommables COF2</td>
+
+        </tr>
+
+        <tr>
+
+        <td><strong>Alchimie rang 5</strong></td>
+
+        <td>Une potion magistrale concurrence les soins de classe</td>
+
+        <td>Fréquence d’accès, puissance du dé évolutif, contraintes</td>
+
+        </tr>
+
+        <tr>
+
+        <td><strong>Économie</strong></td>
+
+        <td>Fabrication/revente procure un revenu infini</td>
+
+        <td>Coût effectif, disponibilité des ingrédients, prix de rachat</td>
+
+        </tr>
+
+        <tr>
+
+        <td><strong>Rythme de table</strong></td>
+
+        <td>Le craft détourne la séance de l’aventure</td>
+
+        <td>Temps passé à régler les calculs et les procédures</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <h3>15.2. Trois essais courts recommandés</h3>
+
+        <p><strong>Essai A — Forge de rang 1–2 :</strong> un PJ doit fabriquer
+        un équipement ordinaire, puis réparer un chariot abîmé avec des
+        matériaux récupérés. Tester surtout la fluidité de la décision et le
+        caractère utile du rang 2.</p>
+
+        <p><strong>Essai B — Forge de rang 3 :</strong> choisir un objet de
+        qualité, calculer difficulté, durée, ressources exceptionnelles et
+        éventuelle reprise. Vérifier si la probabilité de succès justifie
+        l’investissement.</p>
+
+        <p><strong>Essai C — Alchimie de rang 1–3 :</strong> préparer une potion
+        ordinaire, analyser un poison, puis fabriquer trois doses d’une même
+        formule. Vérifier le temps de résolution et le stock de consommables
+        obtenu.</p>
+
+        <p>Les rangs 4–5 sont à tester ensuite avec des personnages simulés de
+        niveau approprié, car la saison 1 n’y donnera normalement pas accès.</p>
+
+        <h3>15.3. Décisions restant ouvertes [À TRANCHER]</h3>
+
+        <ol>
+
+        <li><strong>Économie :</strong> coûts exacts en matériaux des objets
+        courants, potions et matériaux rares ; aucun taux universel n’est encore
+        validé.</li>
+
+        <li><strong>Équilibrage :</strong> confirmer ou réviser les propriétés
+        techniques de forge, notamment <strong>Outil spécialisé</strong>.</li>
+
+        <li><strong>Puissance magistrale :</strong> valider ou supprimer
+        l’exemple d’effet <strong>2d4° PV</strong>, et fixer explicitement le
+        traitement des dés évolutifs pour les nouvelles préparations fabriquées
+        et utilisées par des PJ différents.</li>
+
+        <li><strong>Changement de métier :</strong> procédure pour abandonner un
+        métier ou remplacer une voie, et éventuelle récupération de PC.</li>
+
+        <li><strong>Enchantement professionnel :</strong> articulation avec la
+        voie de prestige et les règles de fabrication magique COF2.</li>
+
+        <li><strong>Six voies restantes :</strong> ingénierie, travail du cuir,
+        couture, enchantement, cuisine et secourisme ; aucune capacité chiffrée
+        n’est validée à ce stade.</li>
+
+        <li><strong>Équipement exotique :</strong> interactions futures avec les
+        règles de matériaux et équipements exotiques de COF2.</li>
+
+        <li><strong>Cas de règles spécifiques :</strong> traitements
+        particuliers des poisons, explosifs, pièges, capacités offensives et
+        effets surnaturels, non couverts par les deux voies présentées.</li>
+
+        </ol>
+
+        <p><strong>Ne pas considérer la résolution de ces points comme acquise
+        par le simple fait qu’un MJ tranche ponctuellement pour une
+        scène.</strong> Consigner les arbitrages si l’on souhaite les
+        transformer plus tard en règles durables.</p>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435076018
+      modifiedTime: 1792435076018
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!kJL5BBW05pO708bQ.MNccAW9HsiwuaUfB'
+categories: []
+sort: 0
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792435076018
+  modifiedTime: 1792435076018
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!kJL5BBW05pO708bQ'

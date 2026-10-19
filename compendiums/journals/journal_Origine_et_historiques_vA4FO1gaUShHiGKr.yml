@@ -1,0 +1,1184 @@
+folder: DiweRaOz1zGF7Ap6
+name: Origine et historiques
+flags: {}
+_id: vA4FO1gaUShHiGKr
+pages:
+  - sort: 100000
+    name: Origine et historique
+    type: text
+    _id: DjieV73PSg7Ohw4W
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Choisir son passé et ses attaches</h2><p>Commencez par la table de
+        votre race. Vous pouvez ensuite ajouter une raison de venir à
+        Tranchecolline et un secret intime. Votre historique décrit ce que vous
+        avez appris <em>avant</em> votre vocation actuelle, quelle que soit
+        votre classe.</p><p><em>Création de personnage · Règles optionnelles de
+        Warbound · Campagne Au Nom de la
+        Horde</em></p><blockquote><p><strong>Qui étais-tu avant de partir à
+        l’aventure ?</strong> Avant les batailles et les exploits, tu as eu une
+        vie : un métier, des proches, des maîtres, des erreurs, des rêves. Ton
+        historique raconte ce que tu apportes avec toi dans la nouvelle
+        Horde.</p></blockquote><p>Un <strong>historique</strong> représente la
+        vie de ton personnage <strong>avant</strong> sa carrière d’aventurier.
+        Il ne remplace ni sa <strong>race</strong> ni sa <strong>classe</strong>
+        : un guerrier peut avoir été brasseur, un mage pêcheur et un voleur
+        apprenti guérisseur.</p><h2>Choisir son
+        historique</h2><ol><li><p><strong>Choisis ou tire</strong> dans la table
+        de ta race : [[/r 1d20]] pour les Elfes de sang, les Orcs et les Trolls
+        sombrelances ; [[/r 1d12]] pour les Taurens et les Réprouvés. Un tirage
+        qui ne te plaît pas peut être remplacé par un choix en accord avec le
+        MJ.</p></li><li><p><strong>Adopte ou adapte</strong> le passé décrit. Il
+        s’agit d’une proposition à personnaliser, pas d’une biographie
+        imposée.</p></li><li><p><strong>Facultatif :</strong> tire ou choisis
+        une chose laissée derrière toi et une raison de venir à
+        Tranchecolline.</p></li><li><p><strong>Complète en une phrase :</strong>
+        « Aujourd’hui, je veux… » Tu n’es pas obligé de poursuivre un grand
+        destin.</p></li></ol><h2>Savoir-faire issus du passé</h2><p>L’historique
+        d’un personnage lui donne les <strong>connaissances et savoir-faire
+        ordinaires</strong> correspondant à son ancienne activité. Il définit ce
+        que le personnage a eu l’occasion d’apprendre, sans se substituer aux
+        capacités de sa classe ou de ses voies.</p><p>Un ancien marin sait
+        manœuvrer un bateau et reconnaître les dangers habituels de la
+        navigation. Un ancien guérisseur connaît les plantes médicinales
+        courantes et les pratiques de soin de sa
+        profession.</p><table><thead><tr><th
+        style="width:42%"><p>Situation</p></th><th><p>Résolution dans
+        Warbound</p></th></tr></thead><tbody><tr><td><p><strong>Connaissance ou
+        geste ordinaire</strong> directement lié au passé, sans difficulté
+        particulière</p></td><td><p><strong>Réussite automatique</strong> :
+        aucun jet n’est demandé.</p></td></tr><tr><td><p><strong>Action
+        incertaine, difficile ou risquée</strong> relevant de cette
+        expérience</p></td><td><p><strong>Test de caractéristique COF2</strong>
+        approprié, avec le nom de la compétence quand il est pertinent : par
+        exemple INT (Médecine) ou AGI
+        (Discrétion).</p></td></tr><tr><td><p><strong>Expertise
+        exceptionnelle</strong>, pouvoir ou effet réservé à une
+        spécialisation</p></td><td><p>Seules les <strong>capacités du
+        personnage</strong> et les autres règles applicables permettent
+        d’obtenir les effets correspondants. L’historique ne les remplace
+        pas.</p></td></tr></tbody></table><p><strong>Aucun bonus de compétence
+        chiffré.</strong> L’historique n’accorde ni bonus de compétence, ni
+        point de capacité, ni talent supplémentaire, ni pouvoir, ni équipement
+        de valeur. Dans COF2, les bonus de compétence sont obtenus grâce aux
+        capacités, notamment celles des voies de profil, de peuple et de
+        prestige : ils ne découlent pas automatiquement du passé
+        raconté.</p><p><strong>Relation et souvenir.</strong> Si tu le
+        souhaites, définis avec le MJ un contact issu de cette vie passée et un
+        objet ordinaire conservé en souvenir. Ce contact n’est ni un serviteur
+        ni une faveur automatique.</p><blockquote><p><strong>Exemple :</strong>
+        un ancien guérisseur peut reconnaître sans jet des plantes médicinales
+        habituelles. Identifier un poison inconnu peut nécessiter un test d’INT
+        (Médecine). En revanche, son historique ne lui donne aucun bonus de
+        Médecine ni l’accès aux effets d’une capacité de
+        soin.</p></blockquote><blockquote><p><strong>À distinguer :</strong>
+        COF2 prévoit aussi une règle optionnelle de « talent secondaire » (p.
+        37), accordé avec l’autorisation du MJ en remplacement d’une langue.
+        Cette option est <strong>indépendante des historiques</strong> et n’est
+        pas octroyée par les présentes
+        tables.</p></blockquote><blockquote><p><strong>Important :</strong> ton
+        historique donne des connaissances ordinaires de ton ancien milieu, pas
+        les secrets d’une intrigue. Les informations exceptionnelles sont fixées
+        avec le MJ.</p></blockquote><h2>Le cadre de la campagne</h2><p>Durotar
+        est le territoire principal de la première saison et
+        <strong>Tranchecolline</strong> son point d’ancrage. La jeune Horde
+        cherche à faire de Kalimdor une terre d’avenir. Les personnages peuvent
+        la soutenir sans partager tous ses choix.</p><p><strong>Elfes de sang
+        :</strong> leur peuple n’a pas encore rejoint politiquement la Horde à
+        cette époque. Un PJ sin’dorei présent en Durotar est un voyageur ou un
+        allié individuel, dont le parcours doit être précisé avec le MJ. Un
+        paladin sin’dorei de cette période n’appartient pas d’office aux futurs
+        Chevaliers de sang.</p><p><strong>Trolls sombrelances :</strong> la
+        table vise les Sombrelances, pas tous les peuples trolls d’Azeroth. Les
+        loas et leurs traditions ne sont pas intrinsèquement
+        maléfiques.</p><p><strong>Réprouvés :</strong> leur présence loin de
+        Lordaeron mérite un motif personnel ; leur acceptation par les habitants
+        dépend des circonstances.</p><hr><p><em>Références des règles COF2 :
+        Laurent Bernasconi, Chroniques Oubliées Fantasy 2, Black Book Éditions,
+        2024, p. 34, 37, 202–203 et 205.</em></p><h2>Secret intime
+        (facultatif)</h2><p>Les deux tables <strong>Secrets intimes — table
+        I</strong> et <strong>Secrets intimes — table II</strong> sont deux
+        réserves distinctes de vingt propositions fournies pour la campagne.
+        Vous pouvez en sélectionner une, ou lancer [[/r 1d20]] sur la table
+        choisie. Aucun secret n’est exigé.</p><p>Votre personnage peut partager
+        son secret avec le MJ seulement. Ce n’est ni un prétexte pour
+        compromettre l’aventure collective ni un pouvoir supplémentaire. Les
+        révélations, prophéties, pactes et objets évoqués restent à construire
+        avec le MJ.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435076025
+      modifiedTime: 1792435076025
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!vA4FO1gaUShHiGKr.DjieV73PSg7Ohw4W'
+  - sort: 200000
+    name: Elfes de sang
+    type: text
+    _id: FP4nj9OnmDWUx6Hx
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>1. Elfes de sang — [[/r 1d20]]</h2>
+
+        <p><em>Héritiers de Quel’Thalas : survivants, artisans, érudits et
+        exilés, encore étrangers à la Horde de Kalimdor.</em></p>
+
+        <table><thead><tr><th style="text-align:center;width:8%">Dé</th><th
+        style="width:28%">Historique</th><th>Ce que tu as vécu et ce que tu
+        connais</th></tr></thead><tbody>
+
+        <tr><td style="text-align:center">1</td><td><strong>Pérégrin de
+        Quel’Thalas</strong></td><td>Tu patrouillais les forêts de ton royaume.
+        Tu connais la chasse, les traces et la surveillance des
+        frontières.</td></tr>
+
+        <tr><td style="text-align:center">2</td><td><strong>Apprenti
+        magistère</strong></td><td>Tu étudiais les arcanes auprès d’un maître
+        exigeant. Tu reconnais les écritures magiques et les traditions savantes
+        de Quel’Thalas.</td></tr>
+
+        <tr><td style="text-align:center">3</td><td><strong>Noble
+        déchu</strong></td><td>Ta famille possédait titres, terres et
+        serviteurs. Tu connais l’étiquette et les intrigues des grandes maisons,
+        même si tu ne possèdes presque plus rien.</td></tr>
+
+        <tr><td style="text-align:center">4</td><td><strong>Guérisseur de
+        guerre</strong></td><td>Tu soignais les victimes de la Troisième Guerre.
+        Tu sais traiter les blessures, reconnaître les infections et improviser
+        des soins.</td></tr>
+
+        <tr><td style="text-align:center">5</td><td><strong>Gardien des
+        reliques</strong></td><td>Tu as sauvé des objets précieux lors de la
+        chute de Quel’Thalas. Tu connais leur histoire, leurs symboles et
+        parfois leurs anciens propriétaires.</td></tr>
+
+        <tr><td style="text-align:center">6</td><td><strong>Novice de la
+        Lumière</strong></td><td>Tu servais dans une communauté religieuse. Tu
+        connais ses prières, ses rites et les devoirs de ceux qui se réclament
+        de la Lumière.</td></tr>
+
+        <tr><td style="text-align:center">7</td><td><strong>Marchand
+        ruiné</strong></td><td>Tu négociais étoffes, vins ou bijoux. Tu connais
+        la valeur des marchandises et sais reconnaître un négociant honnête d’un
+        escroc.</td></tr>
+
+        <tr><td style="text-align:center">8</td><td><strong>Survivant de la
+        Malebrèche</strong></td><td>Tu as traversé les terres ravagées par le
+        Fléau. Tu reconnais les traces de morts-vivants et sais éviter certains
+        dangers des régions maudites.</td></tr>
+
+        <tr><td style="text-align:center">9</td><td><strong>Artisan
+        joaillier</strong></td><td>Tu travaillais les pierres précieuses et les
+        ornements enchantés. Tu sais juger la qualité d’un joyau et repérer un
+        travail contrefait.</td></tr>
+
+        <tr><td style="text-align:center">10</td><td><strong>Archiviste
+        royal</strong></td><td>Tu recopiais contrats, chroniques et généalogies.
+        Tu connais les usages administratifs et peux reconnaître certains sceaux
+        et documents anciens.</td></tr>
+
+        <tr><td style="text-align:center">11</td><td><strong>Apprenti
+        botaniste</strong></td><td>Tu étudiais les plantes et préparais des
+        remèdes. Tu sais distinguer les herbes médicinales, toxiques ou
+        simplement rares.</td></tr>
+
+        <tr><td style="text-align:center">12</td><td><strong>Messager
+        clandestin</strong></td><td>Tu transportais des lettres et des objets
+        entre communautés isolées. Tu sais dissimuler un message, préparer une
+        couverture et éviter les contrôles.</td></tr>
+
+        <tr><td style="text-align:center">13</td><td><strong>Érudit des trolls
+        amani</strong></td><td>Tu étudiais les anciennes guerres et les peuples
+        voisins de Quel’Thalas. Tu connais certains symboles, coutumes et récits
+        amani.</td></tr>
+
+        <tr><td style="text-align:center">14</td><td><strong>Artiste de
+        Lune-d’Argent</strong></td><td>Tu étais musicien, danseur, peintre ou
+        sculpteur. Tu connais les arts de ton peuple et sais te produire devant
+        un public.</td></tr>
+
+        <tr><td style="text-align:center">15</td><td><strong>Ancien
+        prisonnier</strong></td><td>Tu as connu les chaînes, les interrogatoires
+        ou le travail forcé pendant les troubles récents. Tu sais observer tes
+        gardiens et reconnaître les routines d’une prison.</td></tr>
+
+        <tr><td style="text-align:center">16</td><td><strong>Navigateur des
+        royaumes de l’Est</strong></td><td>Tu voyageais à bord de navires
+        marchands. Tu connais les ports, la navigation côtière et les usages des
+        marins humains.</td></tr>
+
+        <tr><td style="text-align:center">17</td><td><strong>Chercheur de magie
+        perdue</strong></td><td>Tu parcourais des sanctuaires abandonnés à la
+        recherche de savoirs oubliés. Tu sais étudier les anciennes inscriptions
+        et reconnaître les dispositifs arcaniques.</td></tr>
+
+        <tr><td
+        style="text-align:center">18</td><td><strong>Précepteur</strong></td><td>Tu
+        enseignais à de jeunes Elfes issus de différentes familles. Tu connais
+        l’histoire, les lettres et les méthodes pour transmettre un
+        savoir.</td></tr>
+
+        <tr><td style="text-align:center">19</td><td><strong>Exilé
+        volontaire</strong></td><td>Tu as quitté Quel’Thalas après un désaccord
+        religieux, politique ou familial. Tu connais les usages de ton ancienne
+        communauté et ceux qui t’ont conduit à partir.</td></tr>
+
+        <tr><td style="text-align:center">20</td><td><strong>Agent d’une maison
+        disparue</strong></td><td>Tu étais serviteur, intendant, garde ou
+        confident d’une puissante famille. Tu connais ses anciens secrets et les
+        personnes qui pourraient vouloir les récupérer.</td></tr>
+
+        </tbody></table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435076025
+      modifiedTime: 1792435076025
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!vA4FO1gaUShHiGKr.FP4nj9OnmDWUx6Hx'
+  - sort: 300000
+    name: Orcs
+    type: text
+    _id: 3dAFJ8jVBItLiA4I
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>2. Orcs — [[/r 1d20]]</h2>
+
+        <p><em>Bâtisseurs de la nouvelle Horde : travailleurs, vétérans,
+        familles de clans et habitants d’une patrie encore en
+        construction.</em></p>
+
+        <table><thead><tr><th style="text-align:center;width:8%">Dé</th><th
+        style="width:28%">Historique</th><th>Ce que tu as vécu et ce que tu
+        connais</th></tr></thead><tbody>
+
+        <tr><td style="text-align:center">1</td><td><strong>Ancien
+        péon</strong></td><td>Tu as abattu des arbres, creusé des fossés et
+        monté des bâtiments. Tu connais les travaux manuels, les outils et la
+        vie des ouvriers.</td></tr>
+
+        <tr><td style="text-align:center">2</td><td><strong>Vétéran de la
+        Troisième Guerre</strong></td><td>Tu as combattu sous les bannières de
+        la Horde. Tu connais les campements militaires, les formations et les
+        usages des soldats.</td></tr>
+
+        <tr><td style="text-align:center">3</td><td><strong>Enfant des camps
+        d’internement</strong></td><td>Tu as grandi derrière les palissades
+        humaines. Tu connais la discipline des gardes, les ruses des prisonniers
+        et certaines habitudes humaines.</td></tr>
+
+        <tr><td style="text-align:center">4</td><td><strong>Apprenti
+        chaman</strong></td><td>Tu as servi un chaman, entretenu ses offrandes
+        et accompagné ses rites. Tu reconnais les lieux sacrés et les usages de
+        ta tradition.</td></tr>
+
+        <tr><td style="text-align:center">5</td><td><strong>Chasseur de
+        sangliers</strong></td><td>Tu vivais de la chasse et du dépeçage. Tu
+        sais poser des pièges, préparer les peaux et reconnaître les traces
+        animales.</td></tr>
+
+        <tr><td style="text-align:center">6</td><td><strong>Forgeron de
+        campagne</strong></td><td>Tu réparais les outils et les armes de ton
+        clan. Tu sais juger la qualité du métal, réparer un équipement simple et
+        utiliser une forge.</td></tr>
+
+        <tr><td style="text-align:center">7</td><td><strong>Ancien garde de
+        caravane</strong></td><td>Tu protégeais voyageurs et marchandises sur
+        les pistes de Kalimdor. Tu connais les embuscades, les bivouacs et les
+        marchands itinérants.</td></tr>
+
+        <tr><td style="text-align:center">8</td><td><strong>Sang de
+        clan</strong></td><td>Tu as grandi dans une famille attachée aux
+        traditions d’un ancien clan orc. Tu connais ses récits, ses coutumes et
+        ses vieilles rivalités.</td></tr>
+
+        <tr><td style="text-align:center">9</td><td><strong>Apprenti maître des
+        bêtes</strong></td><td>Tu soignais et dressais les animaux utilisés par
+        ton peuple. Tu connais leurs comportements, leurs maladies et leurs
+        besoins.</td></tr>
+
+        <tr><td style="text-align:center">10</td><td><strong>Éclaireur des
+        Tarides</strong></td><td>Tu parcourais les plaines pour observer les
+        mouvements ennemis. Tu connais les pistes, les points d’eau et les
+        méthodes de reconnaissance.</td></tr>
+
+        <tr><td style="text-align:center">11</td><td><strong>Déserteur
+        repenti</strong></td><td>Tu as abandonné ton poste lors d’une campagne
+        ou d’une crise. Tu connais la discipline militaire et les moyens
+        d’échapper à une poursuite.</td></tr>
+
+        <tr><td style="text-align:center">12</td><td><strong>Brasseur de
+        clan</strong></td><td>Tu fabriquais des boissons et préparais les
+        festins. Tu connais la fermentation, les ingrédients et les traditions
+        d’hospitalité.</td></tr>
+
+        <tr><td style="text-align:center">13</td><td><strong>Assistant
+        guérisseur</strong></td><td>Tu aidais à soigner les malades et blessés.
+        Tu sais préparer des cataplasmes, poser des bandages et reconnaître les
+        blessures courantes.</td></tr>
+
+        <tr><td style="text-align:center">14</td><td><strong>Champion des arènes
+        improvisées</strong></td><td>Tu participais à des luttes, duels et
+        concours de force. Tu connais les règles des défis, les paris et les
+        rivalités entre combattants.</td></tr>
+
+        <tr><td style="text-align:center">15</td><td><strong>Ancien serviteur
+        d’un démoniste</strong></td><td>Tu travaillais pour un adepte des arts
+        interdits, volontairement ou non. Tu reconnais certains signes de
+        corruption et les précautions des occultistes.</td></tr>
+
+        <tr><td style="text-align:center">16</td><td><strong>Artisan des
+        fortifications</strong></td><td>Tu construisais palissades, portes et
+        tours. Tu sais repérer les points faibles d’une défense et organiser des
+        travaux simples.</td></tr>
+
+        <tr><td style="text-align:center">17</td><td><strong>Négociateur des
+        frontières</strong></td><td>Tu participais aux échanges avec Taurens,
+        Trolls ou communautés indépendantes. Tu connais plusieurs coutumes et
+        les usages du troc.</td></tr>
+
+        <tr><td style="text-align:center">18</td><td><strong>Fossoyeur des
+        champs de bataille</strong></td><td>Tu ramassais les morts et
+        entretenais leurs sépultures. Tu connais les rites funéraires et les
+        traces laissées par les combats.</td></tr>
+
+        <tr><td style="text-align:center">19</td><td><strong>Raconteur des
+        clans</strong></td><td>Tu conservais les récits de Draenor et des
+        guerres passées. Tu connais les anciennes lignées, les chants et les
+        légendes orques.</td></tr>
+
+        <tr><td style="text-align:center">20</td><td><strong>Hors-la-loi
+        gracié</strong></td><td>Tu as été pillard, voleur ou contrebandier avant
+        d’obtenir une nouvelle chance. Tu connais les filières clandestines et
+        les cachettes des marges de Durotar.</td></tr>
+
+        </tbody></table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435076025
+      modifiedTime: 1792435076025
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!vA4FO1gaUShHiGKr.3dAFJ8jVBItLiA4I'
+  - sort: 400000
+    name: Trolls sombrelances
+    type: text
+    _id: M9qvW7kGFS5h5wi4
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>3. Trolls sombrelances — [[/r 1d20]]</h2>
+
+        <p><em>Peuple des jungles et des îles : pêcheurs, guérisseurs,
+        chasseurs, féticheurs et gardiens des traditions.</em></p>
+
+        <table><thead><tr><th style="text-align:center;width:8%">Dé</th><th
+        style="width:28%">Historique</th><th>Ce que tu as vécu et ce que tu
+        connais</th></tr></thead><tbody>
+
+        <tr><td style="text-align:center">1</td><td><strong>Chasseur de la
+        jungle</strong></td><td>Tu traquais les bêtes dans les jungles de la
+        vallée de Strangleronce. Tu connais la chasse, les poisons naturels et
+        les techniques de camouflage.</td></tr>
+
+        <tr><td style="text-align:center">2</td><td><strong>Pêcheur des Îles de
+        l’Écho</strong></td><td>Tu vivais de la mer, des filets et des pièges à
+        crustacés. Tu sais naviguer en pirogue et lire les courants
+        côtiers.</td></tr>
+
+        <tr><td style="text-align:center">3</td><td><strong>Apprenti
+        féticheur</strong></td><td>Tu aidais un praticien du vaudou à préparer
+        ses objets rituels. Tu connais les ingrédients, les fétiches et les
+        cérémonies de sa tradition.</td></tr>
+
+        <tr><td style="text-align:center">4</td><td><strong>Gardien des
+        crânes</strong></td><td>Tu entretenais les reliques et les souvenirs de
+        tes ancêtres. Tu connais les rites funéraires et les histoires
+        familiales de ton village.</td></tr>
+
+        <tr><td style="text-align:center">5</td><td><strong>Dompteur de
+        raptors</strong></td><td>Tu élevais, surveillais ou tentais
+        d’apprivoiser des raptors. Tu connais leurs habitudes, leurs blessures
+        et leurs réactions.</td></tr>
+
+        <tr><td style="text-align:center">6</td><td><strong>Ancien captif d’une
+        tribu rivale</strong></td><td>Tu as passé du temps au sein d’une
+        communauté troll hostile. Tu connais certaines de ses pratiques et sais
+        survivre en captivité.</td></tr>
+
+        <tr><td style="text-align:center">7</td><td><strong>Fabricant de
+        poisons</strong></td><td>Tu préparais des mixtures pour les chasseurs.
+        Tu sais reconnaître des venins, récolter des ingrédients et éviter les
+        accidents.</td></tr>
+
+        <tr><td style="text-align:center">8</td><td><strong>Guetteur du
+        littoral</strong></td><td>Tu surveillais les côtes et annonçais
+        l’arrivée des embarcations. Tu sais lire des signaux, observer de loin
+        et identifier différents navires.</td></tr>
+
+        <tr><td style="text-align:center">9</td><td><strong>Apprenti prêtre d’un
+        loa</strong></td><td>Tu servais un officiant et participais aux
+        cérémonies. Tu connais les récits, les offrandes et les tabous liés à
+        ton culte.</td></tr>
+
+        <tr><td style="text-align:center">10</td><td><strong>Danseur des
+        cérémonies</strong></td><td>Tu menais ou accompagnais les célébrations
+        communautaires. Tu connais les rythmes, les danses et les usages des
+        rassemblements.</td></tr>
+
+        <tr><td style="text-align:center">11</td><td><strong>Survivant de
+        l’exil</strong></td><td>Tu as participé aux déplacements de ton peuple
+        vers Kalimdor. Tu connais la vie en mer, les campements précaires et la
+        solidarité des voyageurs.</td></tr>
+
+        <tr><td style="text-align:center">12</td><td><strong>Ramasseur de
+        juju</strong></td><td>Tu récoltais des ingrédients et préparais des
+        composants rituels. Tu connais les lieux de cueillette et certaines
+        pratiques des féticheurs.</td></tr>
+
+        <tr><td style="text-align:center">13</td><td><strong>Porte-lance de
+        Vol’jin</strong></td><td>Tu as servi parmi les combattants sombrelances.
+        Tu connais la défense des villages, les rondes et les traditions
+        guerrières de ta tribu.</td></tr>
+
+        <tr><td style="text-align:center">14</td><td><strong>Soigneur
+        tribal</strong></td><td>Tu préparais infusions, baumes et remèdes. Tu
+        connais les maladies, les plantes médicinales et les soins
+        quotidiens.</td></tr>
+
+        <tr><td style="text-align:center">15</td><td><strong>Messager entre
+        villages</strong></td><td>Tu transportais nouvelles et invitations entre
+        communautés trolls. Tu sais suivre des sentiers discrets et identifier
+        les marques tribales.</td></tr>
+
+        <tr><td style="text-align:center">16</td><td><strong>Pirate des mers du
+        Sud</strong></td><td>Tu naviguais avec des marins peu recommandables. Tu
+        connais les abordages, les ports clandestins et les pratiques de
+        contrebande.</td></tr>
+
+        <tr><td style="text-align:center">17</td><td><strong>Conteur des
+        anciens</strong></td><td>Tu mémorisais les légendes, les exploits et les
+        disputes de ton peuple. Tu connais la tradition orale et sais captiver
+        un auditoire.</td></tr>
+
+        <tr><td style="text-align:center">18</td><td><strong>Exilé pour un tabou
+        brisé</strong></td><td>Tu as enfreint une interdiction religieuse ou
+        tribale, volontairement ou non. Tu connais les usages de ton village et
+        les conséquences d’un sacrilège.</td></tr>
+
+        <tr><td style="text-align:center">19</td><td><strong>Chasseur de trésors
+        engloutis</strong></td><td>Tu explorais épaves, récifs et petites îles.
+        Tu connais la plongée, les courants et la récupération d’objets
+        immergés.</td></tr>
+
+        <tr><td style="text-align:center">20</td><td><strong>Survivant de
+        Zalazane</strong></td><td>Tu as échappé à l’emprise ou aux violences de
+        ses partisans. Tu reconnais certains signes de leurs pratiques et
+        connais des gens restés dans les îles.</td></tr>
+
+        </tbody></table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435076025
+      modifiedTime: 1792435076025
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!vA4FO1gaUShHiGKr.M9qvW7kGFS5h5wi4'
+  - sort: 500000
+    name: Taurens
+    type: text
+    _id: X9CLPNasoCM9FsvB
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>4. Taurens — [[/r 1d12]]</h2>
+
+        <p><em>Peuple des plaines : migrations, Terre-Mère, ancêtres, troupeaux
+        et protection des communautés.</em></p>
+
+        <table><thead><tr><th style="text-align:center;width:8%">Dé</th><th
+        style="width:28%">Historique</th><th>Ce que tu as vécu et ce que tu
+        connais</th></tr></thead><tbody>
+
+        <tr><td style="text-align:center">1</td><td><strong>Gardien de troupeau
+        de kodos</strong></td><td>Tu guidais les grandes bêtes et veillais sur
+        elles. Tu connais leurs comportements et les exigences des longues
+        migrations.</td></tr>
+
+        <tr><td style="text-align:center">2</td><td><strong>Chasseur des
+        plaines</strong></td><td>Tu participais aux grandes chasses de Mulgore.
+        Tu connais les animaux des plaines et les usages de la chasse
+        communautaire.</td></tr>
+
+        <tr><td style="text-align:center">3</td><td><strong>Apprenti
+        marche-esprit</strong></td><td>Tu accompagnais les cérémonies dédiées
+        aux ancêtres. Tu connais les coutumes spirituelles et les récits de ton
+        peuple.</td></tr>
+
+        <tr><td style="text-align:center">4</td><td><strong>Guérisseur des
+        tribus</strong></td><td>Tu préparais remèdes, attelles et pansements. Tu
+        connais les plantes médicinales et les soins des voyageurs.</td></tr>
+
+        <tr><td style="text-align:center">5</td><td><strong>Survivant des raids
+        centaures</strong></td><td>Tu as échappé à une attaque contre ton
+        campement. Tu connais certaines tactiques centaures et les dangers des
+        plaines.</td></tr>
+
+        <tr><td style="text-align:center">6</td><td><strong>Artisan des
+        peaux</strong></td><td>Tu confectionnais tentes, vêtements et
+        protections. Tu connais le travail du cuir et la fabrication des
+        équipements nomades.</td></tr>
+
+        <tr><td style="text-align:center">7</td><td><strong>Gardien d’un lieu
+        sacré</strong></td><td>Tu protégeais un site consacré aux ancêtres ou à
+        la Terre-Mère. Tu connais les rites qui y étaient accomplis et les
+        devoirs de ses gardiens.</td></tr>
+
+        <tr><td style="text-align:center">8</td><td><strong>Éclaireur des
+        migrations</strong></td><td>Tu cherchais les passages sûrs pour ton
+        peuple. Tu connais l’orientation, les pistes et les dangers
+        naturels.</td></tr>
+
+        <tr><td style="text-align:center">9</td><td><strong>Conteur des
+        plaines</strong></td><td>Tu conservais chants, généalogies et légendes.
+        Tu connais la mémoire des tribus et l’art de raconter devant une
+        assemblée.</td></tr>
+
+        <tr><td style="text-align:center">10</td><td><strong>Gardien des
+        jeunes</strong></td><td>Tu protégeais et instruisais les enfants lors
+        des déplacements. Tu sais apaiser les conflits et prendre soin d’un
+        groupe.</td></tr>
+
+        <tr><td style="text-align:center">11</td><td><strong>Émissaire auprès
+        des Orcs</strong></td><td>Tu as participé à des échanges entre
+        communautés taurènes et orques. Tu connais leurs coutumes respectives et
+        les difficultés de la coopération.</td></tr>
+
+        <tr><td style="text-align:center">12</td><td><strong>Ermite des
+        sommets</strong></td><td>Tu as vécu longtemps à l’écart, dans un lieu
+        isolé. Tu connais les chemins escarpés, la méditation et la vie loin des
+        campements.</td></tr>
+
+        </tbody></table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435076025
+      modifiedTime: 1792435076025
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!vA4FO1gaUShHiGKr.X9CLPNasoCM9FsvB'
+  - sort: 600000
+    name: Réprouvés
+    type: text
+    _id: y9KHRZy8EajSOPgl
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>5. Réprouvés — [[/r 1d12]]</h2>
+
+        <p><em>Libérés de l’emprise du Fléau : une existence nouvelle, parfois
+        nourrie des métiers et souvenirs de Lordaeron.</em></p>
+
+        <table><thead><tr><th style="text-align:center;width:8%">Dé</th><th
+        style="width:28%">Historique</th><th>Ce que tu as vécu et ce que tu
+        connais</th></tr></thead><tbody>
+
+        <tr><td style="text-align:center">1</td><td><strong>Ancien soldat de
+        Lordaeron</strong></td><td>Tu as servi dans une armée humaine avant ta
+        mort. Tu connais ses tactiques, son organisation et ses usages
+        militaires.</td></tr>
+
+        <tr><td style="text-align:center">2</td><td><strong>Apprenti
+        apothicaire</strong></td><td>Tu as appris à préparer des substances
+        alchimiques. Tu connais les réactifs, les poisons et les précautions de
+        laboratoire.</td></tr>
+
+        <tr><td
+        style="text-align:center">3</td><td><strong>Fossoyeur</strong></td><td>Tu
+        travaillais dans les cimetières avant ou après ta mort. Tu connais les
+        sépultures, les cryptes et les usages funéraires.</td></tr>
+
+        <tr><td style="text-align:center">4</td><td><strong>Ancien érudit de
+        Lordaeron</strong></td><td>Tu étais étudiant, copiste ou précepteur. Tu
+        connais l’histoire humaine, les archives et certains savoirs du royaume
+        disparu.</td></tr>
+
+        <tr><td style="text-align:center">5</td><td><strong>Espion du Fléau
+        libéré</strong></td><td>Tu as retrouvé ta volonté après avoir servi le
+        Fléau. Tu connais certains signes de ses agents et leurs méthodes de
+        surveillance.</td></tr>
+
+        <tr><td style="text-align:center">6</td><td><strong>Ancien
+        médecin</strong></td><td>Tu soignais autrefois des patients vivants. Tu
+        connais l’anatomie, la chirurgie et les maladies ordinaires.</td></tr>
+
+        <tr><td style="text-align:center">7</td><td><strong>Noble
+        oublié</strong></td><td>Tu appartenais à une famille importante de
+        Lordaeron. Tu connais ses lignées, ses alliances et les codes de la
+        noblesse humaine.</td></tr>
+
+        <tr><td style="text-align:center">8</td><td><strong>Éclaireur de
+        Tirisfal</strong></td><td>Tu parcourais les bois et les ruines autour de
+        Fossoyeuse. Tu connais les lieux abandonnés et les moyens de t’y
+        déplacer discrètement.</td></tr>
+
+        <tr><td style="text-align:center">9</td><td><strong>Ancien
+        artisan</strong></td><td>Tu exerçais un métier avant ta mort et as
+        repris tes outils depuis. Tu connais ton artisanat et les communautés
+        qui le pratiquent.</td></tr>
+
+        <tr><td style="text-align:center">10</td><td><strong>Déserteur du
+        Fléau</strong></td><td>Tu as retrouvé ta liberté et fui les serviteurs
+        du Roi-liche. Tu connais leurs habitudes et certaines de leurs méthodes
+        d’intimidation.</td></tr>
+
+        <tr><td style="text-align:center">11</td><td><strong>Marin
+        mort-vivant</strong></td><td>Tu as navigué autrefois et peux encore
+        servir sur un navire. Tu connais les cartes marines, les manœuvres et
+        les dangers de la mer.</td></tr>
+
+        <tr><td style="text-align:center">12</td><td><strong>Émissaire
+        solitaire</strong></td><td>Tu voyages pour nouer des contacts au nom de
+        ta communauté ou pour ton propre compte. Tu connais les usages
+        diplomatiques et sais composer avec la méfiance des vivants.</td></tr>
+
+        </tbody></table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435076025
+      modifiedTime: 1792435076025
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!vA4FO1gaUShHiGKr.y9KHRZy8EajSOPgl'
+  - sort: 700000
+    name: Tables complémentaires
+    type: text
+    _id: 3u9X174RMpEiORMW
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <hr>
+
+        <h2>Tables complémentaires (facultatives)</h2>
+
+        <p>Ces tirages ajoutent de la couleur à ton passé, sans te donner une
+        mission obligatoire. Tu peux répondre toi-même, choisir un résultat ou
+        lancer les dés.</p>
+
+        <h3>Ce que tu as laissé derrière toi — [[/r 1d12]]</h3>
+
+        <table><thead><tr><th
+        style="text-align:center;width:12%">1d12</th><th>Résultat</th></tr></thead><tbody>
+
+        <tr><td style="text-align:center">1</td><td>Une personne à qui tu dois
+        la vie.</td></tr>
+
+        <tr><td style="text-align:center">2</td><td>Un ancien rival qui ne t’a
+        pas oublié.</td></tr>
+
+        <tr><td style="text-align:center">3</td><td>Une dette que tu n’as jamais
+        pu rembourser.</td></tr>
+
+        <tr><td style="text-align:center">4</td><td>Un objet modeste dont tu
+        ignores la véritable importance.</td></tr>
+
+        <tr><td style="text-align:center">5</td><td>Une promesse faite à un
+        mourant.</td></tr>
+
+        <tr><td style="text-align:center">6</td><td>Un ami qui a choisi un camp
+        opposé au tien.</td></tr>
+
+        <tr><td style="text-align:center">7</td><td>Une réputation que tu ne
+        mérites peut-être pas.</td></tr>
+
+        <tr><td style="text-align:center">8</td><td>Un maître, mentor ou parent
+        qui attend ton retour.</td></tr>
+
+        <tr><td style="text-align:center">9</td><td>Une erreur qui a coûté cher
+        à quelqu’un.</td></tr>
+
+        <tr><td style="text-align:center">10</td><td>Un secret que tu as choisi
+        de protéger.</td></tr>
+
+        <tr><td style="text-align:center">11</td><td>Un proche qui a disparu
+        sans explication.</td></tr>
+
+        <tr><td style="text-align:center">12</td><td>Une petite victoire dont tu
+        restes fier.</td></tr>
+
+        </tbody></table>
+
+        <h3>Pourquoi es-tu à Tranchecolline ? — [[/r 1d12]]</h3>
+
+        <table><thead><tr><th
+        style="text-align:center;width:12%">1d12</th><th>Résultat</th></tr></thead><tbody>
+
+        <tr><td style="text-align:center">1</td><td>Tu cherches du travail et
+        une vie meilleure.</td></tr>
+
+        <tr><td style="text-align:center">2</td><td>Tu accompagnes un ami ou un
+        membre de ta famille.</td></tr>
+
+        <tr><td style="text-align:center">3</td><td>Tu as entendu dire que la
+        Horde avait besoin de volontaires.</td></tr>
+
+        <tr><td style="text-align:center">4</td><td>Tu fuis un conflit, une
+        dette ou une accusation.</td></tr>
+
+        <tr><td style="text-align:center">5</td><td>Tu souhaites retrouver une
+        personne.</td></tr>
+
+        <tr><td style="text-align:center">6</td><td>Tu veux comprendre ce que
+        devient la nouvelle Horde.</td></tr>
+
+        <tr><td style="text-align:center">7</td><td>Tu as été engagé pour un
+        travail temporaire.</td></tr>
+
+        <tr><td style="text-align:center">8</td><td>Tu cherches un maître
+        capable de poursuivre ta formation.</td></tr>
+
+        <tr><td style="text-align:center">9</td><td>Tu suis la trace d’un objet
+        ou d’une information.</td></tr>
+
+        <tr><td style="text-align:center">10</td><td>Tu veux faire tes preuves
+        loin de chez toi.</td></tr>
+
+        <tr><td style="text-align:center">11</td><td>Tu avais une autre
+        destination, mais un imprévu t’a retenu ici.</td></tr>
+
+        <tr><td style="text-align:center">12</td><td>Tu es venu par curiosité et
+        n’as pas encore décidé de repartir.</td></tr>
+
+        </tbody></table>
+
+        <h2>Exemple de création</h2>
+
+        <p><strong>Grosh — Orc guerrier.</strong> Historique : <strong>Brasseur
+        de clan</strong> (12). Passé : <strong>Une petite victoire dont tu
+        restes fier</strong> (12). Arrivée : <strong>Tu cherches du travail et
+        une vie meilleure</strong> (1).</p>
+
+        <p>Grosh a remporté un concours de brassage et rêve désormais d’ouvrir
+        une petite brasserie à Tranchecolline. Il sait choisir des ingrédients,
+        faire fermenter une boisson et discuter avec les artisans. Il peut
+        connaître un habitué de l’auberge de Grosk, avec l’accord du MJ. Son
+        passé ne lui donne ni bonus au combat ni privilège particulier : il lui
+        donne <strong>une place dans le monde</strong>.</p>
+
+        <h2>Trois questions pour terminer</h2>
+
+        <ul>
+
+        <li><strong>Qui connais-tu encore</strong> grâce à ton ancien métier ou
+        ta communauté ?</li>
+
+        <li><strong>Qu’est-ce que tu ne veux pas revivre ?</strong></li>
+
+        <li><strong>Quelle place souhaites-tu prendre</strong> dans cette
+        nouvelle Horde ?</li>
+
+        </ul>
+
+        <blockquote><p><strong>Le meilleur historique n’est pas celui qui promet
+        la plus grande destinée. C’est celui qui rend ton personnage capable
+        d’agir, de connaître quelqu’un et d’avoir une raison de s’intéresser à
+        ce qui l’entoure.</strong></p></blockquote>
+
+        <p><em>Document de règles maison Warbound ; historiques et tables conçus
+        pour la campagne Au Nom de la Horde. Les peuples, lieux et références à
+        Warcraft appartiennent à l’univers de Blizzard Entertainment. Les
+        situations personnelles sont des propositions de jeu, non des faits
+        canoniques.</em></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435076025
+      modifiedTime: 1792435076025
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!vA4FO1gaUShHiGKr.3u9X174RMpEiORMW'
+  - sort: 800000
+    name: Secrets intimes — table I
+    type: text
+    _id: b9thwrg81DE1tLpD
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Secrets intimes — table I</h1><p><em>Table facultative de création
+        de personnage — choisissez une proposition, tirez [[/r 1d20]] ou
+        inventez votre propre secret avec le MJ.</em></p><p>Un secret est un
+        <strong>élément de récit</strong>, pas une obligation de jouer contre le
+        groupe. Il ne crée automatiquement aucun objet magique, pouvoir,
+        malédiction, avantage ou information de scénario. Si un résultat
+        implique un autre PJ, convenez-en avec son joueur et le
+        MJ.</p><table><thead><tr><th
+        style="width:9%;text-align:center">d20</th><th>Secret
+        intime</th></tr></thead><tbody><tr><td
+        style="text-align:center">1</td><td><strong>Je ne suis pas celui que je
+        prétends être.</strong> Mon nom, mon origine ou mon allégeance véritable
+        doit rester caché.</td></tr>
+
+        <tr><td style="text-align:center">2</td><td><strong>Je recherche un
+        proche disparu</strong> pendant une guerre, un exil ou une migration de
+        mon peuple.</td></tr>
+
+        <tr><td style="text-align:center">3</td><td><strong>Une malédiction ou
+        une corruption me ronge.</strong> Pour l’instant, j’arrive encore à la
+        dissimuler.</td></tr>
+
+        <tr><td style="text-align:center">4</td><td><strong>Je suis recherché
+        pour un crime ou une trahison.</strong> Même moi, je ne suis pas certain
+        de connaître toute la vérité.</td></tr>
+
+        <tr><td style="text-align:center">5</td><td><strong>Une partie de mes
+        souvenirs a disparu</strong> après une bataille, un rituel, une
+        captivité ou un événement surnaturel.</td></tr>
+
+        <tr><td style="text-align:center">6</td><td><strong>Une chose que tout
+        héros devrait pouvoir affronter me terrifie.</strong> Je fais tout pour
+        que personne ne le découvre.</td></tr>
+
+        <tr><td style="text-align:center">7</td><td><strong>Je dépends d’une
+        substance, d’un rituel ou d’une forme de magie</strong> dont je sais
+        qu’elle finira par me coûter cher.</td></tr>
+
+        <tr><td style="text-align:center">8</td><td><strong>Une blessure
+        ancienne suffit à me faire perdre tout contrôle</strong> : un symbole,
+        un peuple, une faction, une insulte ou un souvenir précis.</td></tr>
+
+        <tr><td style="text-align:center">9</td><td><strong>Un membre de ma
+        famille, de mon clan ou de ma tribu a rejoint mes ennemis.</strong> Il
+        connaît mes faiblesses mieux que personne.</td></tr>
+
+        <tr><td style="text-align:center">10</td><td><strong>Je sers secrètement
+        une seconde cause.</strong> Pour l’instant, mes deux loyautés ne sont
+        pas encore entrées en conflit.</td></tr>
+
+        <tr><td style="text-align:center">11</td><td><strong>J’ai déjà été
+        déclaré mort.</strong> Ce qui s’est réellement passé ensuite est quelque
+        chose que je préfère cacher.</td></tr>
+
+        <tr><td style="text-align:center">12</td><td><strong>J’ai une dette que
+        l’or ne peut pas rembourser.</strong> Une vie sauvée, une faveur, un
+        serment ou une dette de sang me lie à quelqu’un.</td></tr>
+
+        <tr><td style="text-align:center">13</td><td><strong>Je ne suis jamais
+        vraiment seul dans mon propre esprit.</strong> Une voix, un esprit ou
+        une présence m’accompagne.</td></tr>
+
+        <tr><td style="text-align:center">14</td><td><strong>J’ai brisé un
+        serment sacré</strong> envers mon peuple, mes ancêtres, les esprits, les
+        éléments, la Lumière ou une autre puissance.</td></tr>
+
+        <tr><td style="text-align:center">15</td><td><strong>Je transporte un
+        objet dangereux ou interdit</strong> que beaucoup seraient prêts à tuer
+        pour obtenir.</td></tr>
+
+        <tr><td style="text-align:center">16</td><td><strong>Je porte le deuil
+        de quelqu’un dont je n’ai jamais retrouvé le corps.</strong> Au fond de
+        moi, je ne suis pas certain qu’il soit vraiment mort.</td></tr>
+
+        <tr><td style="text-align:center">17</td><td><strong>J’ai abandonné
+        quelqu’un qui comptait sur moi.</strong> Cette personne, ou ceux qui lui
+        étaient fidèles, pourraient un jour me retrouver.</td></tr>
+
+        <tr><td style="text-align:center">18</td><td><strong>Le même rêve me
+        poursuit nuit après nuit.</strong> Je ne sais pas s’il s’agit d’un
+        traumatisme, d’un avertissement ou de quelque chose qui cherche à me
+        parler.</td></tr>
+
+        <tr><td style="text-align:center">19</td><td><strong>Je n’ai pas réussi
+        à empêcher une tragédie.</strong> Certaines personnes pensent même que
+        j’en suis responsable.</td></tr>
+
+        <tr><td style="text-align:center">20</td><td><strong>J’ai appartenu à
+        une organisation, un culte, un ordre ou une société secrète.</strong> Je
+        la sers encore… ou j’essaie désespérément de lui
+        échapper.</td></tr></tbody></table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435076025
+      modifiedTime: 1792435076025
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!vA4FO1gaUShHiGKr.b9thwrg81DE1tLpD'
+  - sort: 900000
+    name: Secrets intimes — table II
+    type: text
+    _id: KvO2q1hl0VAgxqe1
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Secrets intimes — table II</h1><p><em>Table facultative de création
+        de personnage — choisissez une proposition, tirez [[/r 1d20]] ou
+        inventez votre propre secret avec le MJ.</em></p><p>Un secret est un
+        <strong>élément de récit</strong>, pas une obligation de jouer contre le
+        groupe. Il ne crée automatiquement aucun objet magique, pouvoir,
+        malédiction, avantage ou information de scénario. Si un résultat
+        implique un autre PJ, convenez-en avec son joueur et le
+        MJ.</p><table><thead><tr><th
+        style="width:9%;text-align:center">d20</th><th>Secret
+        intime</th></tr></thead><tbody><tr><td
+        style="text-align:center">1</td><td><strong>Ma famille, mon clan ou ma
+        tribu a été massacré, dispersé ou m’a renié.</strong> On ne m’a jamais
+        dit toute la vérité sur ce qui s’est passé.</td></tr>
+
+        <tr><td style="text-align:center">2</td><td><strong>On m’a chargé de
+        surveiller, protéger ou espionner secrètement un autre membre du
+        groupe.</strong> Il ignore pourquoi.</td></tr>
+
+        <tr><td style="text-align:center">3</td><td><strong>Un voyant, un esprit
+        ou une vision m’a annoncé que je provoquerais un jour une terrible
+        catastrophe.</strong></td></tr>
+
+        <tr><td style="text-align:center">4</td><td><strong>Je porte depuis
+        toujours une marque étrange</strong> : cicatrice, rune, tatouage, tache
+        ou signe dont j’ignore l’origine et la signification.</td></tr>
+
+        <tr><td style="text-align:center">5</td><td><strong>Une personne qui
+        m’est chère a disparu sans laisser de traces.</strong> Je refuse de
+        croire qu’elle est morte.</td></tr>
+
+        <tr><td style="text-align:center">6</td><td><strong>Je possède un
+        héritage de mon peuple ou de ma famille</strong> et je préférerais
+        mourir plutôt que de le perdre.</td></tr>
+
+        <tr><td style="text-align:center">7</td><td><strong>J’ai conclu un pacte
+        que je regrette aujourd’hui</strong> avec un démon, un esprit, une
+        puissance magique ou une autre entité.</td></tr>
+
+        <tr><td style="text-align:center">8</td><td><strong>Quelqu’un en qui
+        j’avais une confiance absolue m’a trahi.</strong> Depuis, j’accorde
+        difficilement ma confiance.</td></tr>
+
+        <tr><td style="text-align:center">9</td><td><strong>Une ancienne
+        blessure, une mutilation ou une séquelle me poursuit.</strong> Je refuse
+        qu’elle définisse ce que je suis capable d’accomplir.</td></tr>
+
+        <tr><td style="text-align:center">10</td><td><strong>Mon nom est connu
+        pour un événement dont je préférerais que personne ne parle.</strong> La
+        version racontée n’est peut-être même pas la vérité.</td></tr>
+
+        <tr><td style="text-align:center">11</td><td><strong>Je veux accomplir
+        quelque chose d’assez grand pour qu’une personne qui compte pour moi
+        entende enfin parler de moi.</strong></td></tr>
+
+        <tr><td style="text-align:center">12</td><td><strong>Je dois prouver ma
+        valeur à ma famille, mon clan, ma tribu ou mon ancien maître.</strong>
+        Leur jugement continue de me hanter.</td></tr>
+
+        <tr><td style="text-align:center">13</td><td><strong>J’ai désespérément
+        besoin de richesses ou de ressources</strong>, non pour moi, mais pour
+        sauver quelqu’un, reconstruire quelque chose ou honorer une
+        dette.</td></tr>
+
+        <tr><td style="text-align:center">14</td><td><strong>La raison que je
+        donne pour voyager avec mes compagnons n’est pas la véritable raison de
+        ma présence ici.</strong></td></tr>
+
+        <tr><td style="text-align:center">15</td><td><strong>Je cherche à
+        devenir assez puissant pour abattre un ennemi que je ne pourrais pas
+        encore affronter.</strong> Chef de guerre, démon, créature, sorcier ou
+        autre menace.</td></tr>
+
+        <tr><td style="text-align:center">16</td><td><strong>J’ai commis quelque
+        chose que je considère impardonnable.</strong> Tout ce que je fais
+        depuis vise, d’une manière ou d’une autre, à réparer cette
+        faute.</td></tr>
+
+        <tr><td style="text-align:center">17</td><td><strong>J’ai vu ma propre
+        mort.</strong> Vision, prophétie ou souvenir impossible : je sais où,
+        comment ou par qui elle devrait survenir.</td></tr>
+
+        <tr><td style="text-align:center">18</td><td><strong>Je prétends avoir
+        un passé beaucoup plus extraordinaire qu’il ne l’est
+        réellement.</strong> Plus je mens, plus il devient difficile d’avouer la
+        vérité.</td></tr>
+
+        <tr><td style="text-align:center">19</td><td><strong>Je me comporte en
+        compagnon loyal, mais je suis convaincu d’être destiné à commander un
+        jour.</strong> Peut-être même à ceux qui voyagent actuellement à mes
+        côtés.</td></tr>
+
+        <tr><td style="text-align:center">20</td><td><strong>Je viens d’un
+        endroit que presque personne ici ne connaît réellement.</strong> Une
+        autre terre, un autre plan ou un territoire si lointain que ce monde me
+        paraît encore étranger.</td></tr></tbody></table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435076025
+      modifiedTime: 1792435076025
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!vA4FO1gaUShHiGKr.KvO2q1hl0VAgxqe1'
+categories: []
+sort: 200000
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792435076025
+  modifiedTime: 1792435076025
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!vA4FO1gaUShHiGKr'

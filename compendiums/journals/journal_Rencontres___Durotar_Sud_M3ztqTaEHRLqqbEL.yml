@@ -1,0 +1,1892 @@
+name: Rencontres — Durotar Sud
+folder: 3VPmgbVDF9VHIO2W
+flags:
+  warbound-campaign-content:
+    markdownImport:
+      schema: 1
+      collectionId: durotar-sud-tranchecolline-senjin-vallee-epreuves-encounters
+      collectionType: encounter
+pages:
+  - name: Contexte
+    type: text
+    sort: 0
+    text:
+      content: >-
+        <h1>Rencontres — Durotar Sud</h1><blockquote><p>Tranchecolline, Sen’jin
+        et Vallée des Épreuves</p></blockquote><h2>Périmètre</h2><p>Cette table
+        couvre le sud de Durotar compris entre <strong>Tranchecolline</strong>,
+        <strong>Sen’jin</strong> et les accès de la <strong>Vallée des
+        Épreuves</strong>. Elle est adaptée à la grande route du sud, aux pistes
+        secondaires entre les collines rouges, aux abords des camps de travail,
+        aux chemins de chasse <strong>Sombrelance</strong> et aux terres sèches
+        qui annoncent la Vallée.</p><p>Elle ne couvre pas les <strong>Îles de
+        l’Écho</strong>, <strong>Tiragarde</strong>, les <strong>Terriers de
+        l’Épine-Rouge</strong> ni les secteurs du nord de Durotar. Plus on
+        approche de <strong>Sen’jin</strong>, plus les chasseurs, les voyageurs
+        Sombrelance et la pression <strong>Kolkar</strong> deviennent visibles.
+        Plus on se rapproche de la Vallée des Épreuves, plus les recrues, les
+        péons, les <strong>sangliers</strong>, les <strong>scorpides</strong> et
+        les traces de petites menaces locales prennent de
+        l’importance.</p><h2>Identité du territoire</h2><p>La terre est rouge,
+        sèche et poussiéreuse. La chaleur déforme l’horizon. Des buissons
+        épineux, des cactus, des ravines et des affleurements de roche découpent
+        les lignes de vue. Les pas soulèvent une poussière fine qui révèle
+        souvent un passage avant qu’on voie ceux qui arrivent.</p><p>Sur la
+        route principale, on croise des chariots, des travailleurs, des
+        chasseurs, des gardes et des voyageurs entre les deux communautés. Hors
+        de la route, les traces de sabots, les pistes animales et les marques
+        laissées par les recrues ou les éclaireurs deviennent plus nombreuses
+        que les panneaux.</p><h2>Qui circule ici ?</h2><ul><li><p><strong>Gardes
+        et travailleurs de la Horde</strong> : ils relient Tranchecolline aux
+        installations du sud, transportent outils, vivres et nouvelles, ou
+        maintiennent les chemins praticables.</p></li><li><p><strong>Sombrelance
+        de Sen’jin</strong> : chasseurs, pêcheurs, messagers, éclaireurs et
+        artisans circulent entre le village, les terrains de chasse et
+        Tranchecolline.</p></li><li><p><strong>Recrues et encadrants de la
+        Vallée des Épreuves</strong> : certains gagnent Tranchecolline, d’autres
+        s’égarent, se blessent ou transportent des
+        fournitures.</p></li><li><p><strong>Kolkar</strong> : leurs éclaireurs
+        et petites bandes observent les itinéraires de chasse et testent les
+        réactions de Sen’jin sans nécessairement rechercher un affrontement
+        immédiat.</p></li><li><p><strong>Faune locale</strong> : sangliers
+        tachetés, scorpides et tigres de Durotar occupent réellement le terrain
+        et réagissent aux mouvements des habitants autant qu’aux
+        PJ.</p></li><li><p><strong>Voyageurs ordinaires</strong> : porteurs,
+        chasseurs, artisans, familles et petits commerçants donnent au sud de
+        Durotar l’impression d’un territoire habité plutôt que d’une succession
+        de zones de quête.</p></li></ul><h2>Ce qui se passe
+        actuellement</h2><p><strong>Sen’jin</strong> subit une pression diffuse
+        : les mouvements Kolkar compliquent la chasse, déplacent la faune et
+        obligent les habitants à surveiller plusieurs accès. Les besoins
+        ordinaires du village — peaux, nourriture, préparations, matériaux —
+        continuent pourtant d’exiger des sorties.</p><p>La <strong>Vallée des
+        Épreuves</strong> reste active : péons, recrues et encadrants y gèrent
+        des problèmes très concrets. Des traces de corruption ou de la Lame
+        ardente peuvent parfois affleurer, mais elles ne doivent pas expliquer
+        chaque incident du sud.</p><p>Entre les deux, la route reste fréquentée.
+        La plupart des rencontres concernent donc la vie quotidienne, les
+        ressources, la chaleur, les déplacements, les maladresses, la faune ou
+        les tensions locales. Le sud de Durotar doit sembler vivre
+        indépendamment du fil rouge de la campagne.</p><h2>Utilisation de la
+        table</h2><p>Cette table répond à :</p><blockquote><p><strong>« Quelle
+        rencontre se produit ? »</strong></p></blockquote><p>Elle ne répond pas
+        à :</p><blockquote><p>« Une rencontre se produit-elle ?
+        »</p></blockquote><p>Le MJ décide quand effectuer un tirage. Il peut
+        notamment tirer pour donner de la vie à un déplacement, montrer l’état
+        du territoire, introduire une complication, faire apparaître une
+        opportunité ou rappeler que les factions et habitants continuent d’agir
+        hors champ.</p><h2>Quand ne pas tirer</h2><p>Ne tire pas si une scène
+        importante est déjà engagée, si les PJ viennent de prendre une décision
+        qui mérite d’être résolue immédiatement, si le trajet n’a aucune
+        importance fictionnelle ou si une rencontre supplémentaire casserait le
+        rythme.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sud-tranchecolline-senjin-vallee-epreuves-encounters
+          entryId: context
+          sourceHash: 53901ef8
+    _id: 9oSXQXEhcqNRFoX6
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435077337
+      modifiedTime: 1792435077337
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!M3ztqTaEHRLqqbEL.9oSXQXEhcqNRFoX6'
+  - name: La roue fendue
+    type: text
+    sort: 100000
+    text:
+      content: >-
+        <h2>La roue fendue</h2>
+
+        <h3>En un regard</h3>
+
+        <p>Un chariot penche dans un fossé, une roue presque arrachée de son
+        moyeu. Deux péons tentent de le retenir avec une corde tout en
+        s’accusant mutuellement d’avoir trop chargé l’essieu.</p>
+
+        <h3>Ce qui se passe réellement</h3>
+
+        <p>Le chariot fait partie d’un trajet ordinaire entre Tranchecolline et
+        le sud. La roue a cédé à cause d’une ornière et d’un chargement mal
+        réparti, pas d’un sabotage. Les péons veulent sauver les outils et les
+        sacs avant que l’essieu ne casse complètement.</p>
+
+        <h3>Acteurs</h3>
+
+        <p><strong>Péon expérimenté — sauver le chariot — agacé et
+        pragmatique</strong></p>
+
+        <p><strong>Jeune porteur — éviter d’être tenu responsable — nerveux et
+        bavard</strong></p>
+
+        <h3>Tension</h3>
+
+        <p>Le chariot glisse lentement. S’il bascule, une partie du chargement
+        sera perdue dans la ravine et la route restera partiellement
+        bloquée.</p>
+
+        <h3>Ce qui peut attirer l’attention</h3>
+
+        <ul><li>aucune trace d’attaque autour du chariot ;</li><li>une roue
+        réparée plusieurs fois ;</li><li>des outils, des vivres et des
+        fournitures ordinaires mélangés dans le chargement ;</li><li>les deux
+        péons connaissent les nouvelles récentes de la route.</li></ul>
+
+        <h3>Leviers des PJ</h3>
+
+        <p>Aider à stabiliser ou réparer, redistribuer la charge, simplement
+        dégager la route, profiter de l’arrêt pour parler aux voyageurs ou
+        poursuivre sans intervenir.</p>
+
+        <h3>Évolution</h3>
+
+        <p>Sans aide, les péons finissent par sacrifier une partie du chargement
+        pour redresser le chariot. Le reste du trajet se fera lentement et
+        l’incident alimentera les plaintes sur l’état de la route.</p>
+
+        <h3>Retombées possibles</h3>
+
+        <p>Une petite faveur auprès des travailleurs, des informations sur le
+        trafic récent ou la certitude utile qu’un incident banal peut réellement
+        n’être qu’un accident.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sud-tranchecolline-senjin-vallee-epreuves-encounters
+          entryId: roue-fendue-sur-la-route
+          sourceHash: 35093fed
+    _id: LYSwHYso9DAAEQca
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435077337
+      modifiedTime: 1792435077337
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!M3ztqTaEHRLqqbEL.LYSwHYso9DAAEQca'
+  - name: Le mauvais croisement
+    type: text
+    sort: 200000
+    text:
+      content: >-
+        <h2>Le mauvais croisement</h2>
+
+        <h3>En un regard</h3>
+
+        <p>Trois recrues couvertes de poussière débattent devant un croisement
+        secondaire. Chacune affirme avoir reçu de son instructeur une indication
+        différente pour rejoindre Tranchecolline.</p>
+
+        <h3>Ce qui se passe réellement</h3>
+
+        <p>Les recrues ont quitté la Vallée des Épreuves par des pistes
+        différentes après une série d’exercices. Elles se sont retrouvées ici
+        par hasard. L’une d’elles a pris un raccourci réel, une autre a suivi de
+        vieilles marques, la troisième s’est simplement trompée.</p>
+
+        <h3>Acteurs</h3>
+
+        <p><strong>Recrue orque — arriver la première — fière et
+        pressée</strong></p>
+
+        <p><strong>Recrue troll — comprendre où elle s’est trompée — amusée mais
+        attentive</strong></p>
+
+        <p><strong>Recrue blessée — ne pas ralentir les autres — cache une
+        piqûre de scorpide</strong></p>
+
+        <h3>Tension</h3>
+
+        <p>La compétition les pousse à minimiser la blessure et à repartir trop
+        vite.</p>
+
+        <h3>Ce qui peut attirer l’attention</h3>
+
+        <ul><li>la recrue blessée pose mal un pied ;</li><li>l’une des pistes
+        porte des marques anciennes mais cohérentes ;</li><li>un détour mène
+        effectivement vers un sentier peu utilisé ;</li><li>les trois versions
+        permettent de reconstituer la géographie locale.</li></ul>
+
+        <h3>Leviers des PJ</h3>
+
+        <p>Soigner, guider, vérifier les pistes, laisser les recrues résoudre
+        seules leur problème, les accompagner un moment ou exploiter leurs
+        informations sur la Vallée.</p>
+
+        <h3>Évolution</h3>
+
+        <p>Si personne n’intervient, le groupe repart ensemble mais ralentit
+        rapidement à cause de la blessure. Leur arrivée tardive deviendra
+        surtout une histoire embarrassante racontée à Tranchecolline.</p>
+
+        <h3>Retombées possibles</h3>
+
+        <p>Un repère de terrain, un futur contact parmi les recrues ou la
+        découverte d’une piste secondaire entre la route et la Vallée.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sud-tranchecolline-senjin-vallee-epreuves-encounters
+          entryId: recrues-au-mauvais-croisement
+          sourceHash: a0bc8b85
+    _id: 03UYjRFRRb8c5x5J
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435077337
+      modifiedTime: 1792435077337
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!M3ztqTaEHRLqqbEL.03UYjRFRRb8c5x5J'
+  - name: Les chasseurs sans proie
+    type: text
+    sort: 300000
+    text:
+      content: >-
+        <h2>Les chasseurs sans proie</h2><h3>En un regard</h3><p>Deux
+        <strong>chasseurs Sombrelance</strong> reviennent vers Sen’jin les mains
+        presque vides. Leurs armes portent de la poussière et des marques
+        récentes, mais aucune dépouille n’est attachée à leurs sacs.</p><h3>Ce
+        qui se passe réellement</h3><p>Ils ont trouvé leurs terrains de chasse
+        habituels perturbés. Des passages <strong>Kolkar</strong> plus nombreux
+        ont déplacé plusieurs bêtes et rendu certaines pistes dangereuses. Ils
+        ont préféré abandonner leur chasse plutôt que risquer un affrontement
+        inutile.</p><h3>Acteurs</h3><p><strong>Chasseuse Sombrelance — prévenir
+        Sen’jin — méfiante et lucide</strong></p><p><strong>Jeune pisteur —
+        retourner chercher une proie coûte que coûte —
+        frustré</strong></p><h3>Tension</h3><p>Le village a besoin de
+        ressources, mais repartir immédiatement transforme un manque matériel en
+        risque humain.</p><h3>Ce qui peut attirer l’attention</h3><ul><li><p>les
+        chasseurs ne prétendent pas avoir subi un raid ;</p></li><li><p>ils ont
+        vu des traces <strong>Kolkar</strong>, pas une armée
+        ;</p></li><li><p>plusieurs pistes de tigres changent de direction avant
+        la zone observée ;</p></li><li><p>le jeune pisteur veut sauver la
+        face.</p></li></ul><h3>Leviers des PJ</h3><p>Questionner, accompagner
+        une nouvelle tentative, proposer un autre terrain, suivre les traces
+        Kolkar, aider à convaincre le jeune pisteur de rentrer ou simplement
+        transmettre l’information.</p><h3>Évolution</h3><p>Sans intervention,
+        ils rentrent à Sen’jin. Le manque de peaux et de viande devient plus
+        visible lors des jours suivants et d’autres chasseurs prennent davantage
+        de risques.</p><h3>Retombées possibles</h3><p>Confiance auprès des
+        chasseurs, information sur les mouvements Kolkar ou accès à un
+        itinéraire de chasse moins connu.</p><p>Amélioration de la faction avec
+        les <strong>Sombrelance</strong>.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sud-tranchecolline-senjin-vallee-epreuves-encounters
+          entryId: chasseurs-rentrent-sans-proie
+          sourceHash: 13bc75b9
+    _id: XG62q30u6ckkEt7s
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435077337
+      modifiedTime: 1792435077337
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!M3ztqTaEHRLqqbEL.XG62q30u6ckkEt7s'
+  - name: L’éclaireur isolé
+    type: text
+    sort: 400000
+    text:
+      content: >-
+        <h2><span>L’éclaireur isolé</span></h2><h3><span>En un
+        regard</span></h3><p><span>Un éclaireur Kolkar s’est abrité derrière un
+        promontoire rocheux. Une de ses pattes arrière est blessée et il
+        s’appuie difficilement dessus. Il garde son arme en main, mais cherche
+        davantage à maintenir une voie de retraite qu’à prendre une position
+        d’attaque.</span></p><h3><span>Ce qui se passe
+        réellement</span></h3><p><span>Il observait les pistes utilisées par les
+        chasseurs de Sen’jin lorsqu’il a fait une mauvaise chute dans les
+        rochers et s’est sérieusement blessé à la jambe.</span></p><p><span>Sa
+        bande a poursuivi sa reconnaissance sans lui : rester groupés aurait
+        ralenti tout le monde et risqué d’attirer l’attention des
+        Trolls.</span></p><p><span>Il cherche maintenant à rejoindre les siens
+        sans être capturé. À son allure actuelle, il sait qu’il ne pourra pas
+        distancer longtemps des
+        poursuivants.</span></p><h3><span>Acteurs</span></h3><p><span><strong>Éclaireur
+        Kolkar — rejoindre les siens vivant — tendu et
+        calculateur</strong></span></p><p><span>Il est blessé, isolé et
+        conscient de sa vulnérabilité. Il préférera mentir, négocier, intimider
+        ou céder une information plutôt que mourir
+        inutilement.</span></p><h3><span>Tension</span></h3><p><span>L’éclaireur
+        possède des informations utiles sur les mouvements des Kolkar, mais il
+        sait aussi que sa blessure le place en mauvaise
+        posture.</span></p><p><span>Tout geste brusque peut transformer une
+        rencontre négociable en affrontement : s’il pense que les PJ veulent le
+        capturer ou l’achever, il frappera pour créer une ouverture et tenter de
+        disparaître dans les reliefs.</span></p><h3><span>Ce qui peut attirer
+        l’attention</span></h3><ul><li><p><span>il ne protège aucun camp,
+        réserve ou butin ;</span></p></li><li><p><span>ses traces montrent de
+        longs arrêts sur des hauteurs et des points d’observation
+        ;</span></p></li><li><p><span>une partie des empreintes est irrégulière
+        depuis sa chute ;</span></p></li><li><p><span>il évite instinctivement
+        de prendre appui sur une patte arrière ;</span></p></li><li><p><span>il
+        regarde souvent vers une crête où les traces de plusieurs autres Kolkar
+        disparaissent ;</span></p></li><li><p><span>son équipement est léger,
+        adapté à la reconnaissance plutôt qu’à un raid
+        prolongé.</span></p></li></ul><h3><span>Leviers des
+        PJ</span></h3><p><span>Parler, intimider, proposer de soigner sa
+        blessure, échanger des soins ou sa liberté contre des informations, le
+        laisser partir, le suivre discrètement ou tenter de le
+        capturer.</span></p><p><span>Les PJ peuvent également comprendre qu’un
+        Kolkar blessé constitue potentiellement une occasion rare de parler avec
+        l’un d’eux sans avoir immédiatement toute une bande
+        autour.</span></p><h3><span>Évolution</span></h3><p><span>Si les PJ
+        passent leur chemin, il reste caché jusqu’à la tombée du jour puis
+        reprend lentement la direction suivie par sa
+        bande.</span></p><p><span>Sa blessure l’oblige à avancer prudemment et à
+        faire plusieurs haltes.</span></p><p><span>S’il rejoint les siens, il
+        rapportera avoir croisé les PJ et décrira précisément leur comportement
+        envers lui.</span></p><h3><span>Retombées
+        possibles</span></h3><p><span>Information sur un itinéraire Kolkar,
+        localisation approximative d’une bande, réputation de clémence ou de
+        brutalité, prisonnier éventuel, contact inattendu avec les Kolkar ou
+        piste vers un groupe plus important.</span></p><p><span>Le comportement
+        des PJ peut également influencer la manière dont cette bande Kolkar les
+        considérera lors d’une rencontre future.</span></p><h3><span>Combat
+        éventuel</span></h3><p><span>Le combat éclate surtout si les PJ tentent
+        de le saisir sans discussion, l’encerclent ou bloquent clairement toute
+        retraite.</span></p><p><span>L’éclaireur ne cherche pas à vaincre le
+        groupe. Il cherche à <strong>ouvrir une brèche puis
+        fuir</strong>.</span></p><p><span>Sa blessure limite cependant fortement
+        ses déplacements : il peut encore charger sur quelques mètres sous
+        l’effet de l’adrénaline, mais une poursuite prolongée lui est
+        impossible.</span></p><p><span>Le terrain rocheux lui offre plusieurs
+        couverts, des passages étroits et des ruptures de ligne de vue qu’il
+        connaît suffisamment pour tenter de semer ses
+        poursuivants.</span></p><p><span>Cette version fonctionne même un peu
+        mieux que celle avec une monture : <strong>la blessure devient
+        directement son point de vulnérabilité</strong>, donc le dilemme «
+        ennemi / blessé / source d’information » est beaucoup plus
+        immédiat.</span></p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sud-tranchecolline-senjin-vallee-epreuves-encounters
+          entryId: eclaireur-kolkar-isole
+          sourceHash: 7ea755dc
+    _id: RVlDnzZEN34fp12D
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435077337
+      modifiedTime: 1792435077337
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!M3ztqTaEHRLqqbEL.RVlDnzZEN34fp12D'
+  - name: La jarre fendue
+    type: text
+    sort: 500000
+    text:
+      content: >-
+        <h2>La jarre fendue</h2>
+
+        <h3>En un regard</h3>
+
+        <p>Une jeune préparatrice de Sen’jin est agenouillée devant une caisse
+        renversée. Une matière collante s’écoule d’une jarre brisée et menace de
+        ruiner le reste du chargement.</p>
+
+        <h3>Ce qui se passe réellement</h3>
+
+        <p>Elle transporte des composants destinés à des préparations utiles au
+        village. Le trajet s’est mal passé et la casse est purement
+        accidentelle. Elle tente de séparer ce qui peut encore être utilisé
+        avant que tout ne colle ensemble ou ne soit contaminé.</p>
+
+        <h3>Acteurs</h3>
+
+        <p><strong>Préparatrice Darkspear — sauver les composants — concentrée
+        et contrariée</strong></p>
+
+        <p><strong>Porteur orc — éviter une seconde catastrophe — serviable mais
+        maladroit</strong></p>
+
+        <h3>Tension</h3>
+
+        <p>Chaque minute réduit ce qui peut être récupéré. La jeune troll hésite
+        entre sauver la cargaison ou repartir immédiatement chercher de nouveaux
+        composants.</p>
+
+        <h3>Ce qui peut attirer l’attention</h3>
+
+        <ul><li>des yeux de makrura soigneusement emballés ;</li><li>du mucus de
+        crustacé conservé dans des récipients séparés ;</li><li>aucune trace
+        d’agression ;</li><li>la préparatrice sait quels besoins de Sen’jin sont
+        actuellement les plus urgents.</li></ul>
+
+        <h3>Leviers des PJ</h3>
+
+        <p>Aider à trier, improviser des contenants, proposer de remplacer
+        certains composants, escorter le chargement restant, marchander ou
+        simplement demander ce qui se passe à Sen’jin.</p>
+
+        <h3>Évolution</h3>
+
+        <p>Sans aide, elle sauve une partie du contenu mais renonce au reste. Un
+        autre groupe devra repartir sur la côte, ce qui augmente la pression sur
+        les chasseurs et cueilleurs du village.</p>
+
+        <h3>Retombées possibles</h3>
+
+        <p>Petite dette auprès d’un artisan de Sen’jin, accès à une préparation
+        utile, information sur les besoins du village ou future demande de
+        composants si les pertes sont importantes.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sud-tranchecolline-senjin-vallee-epreuves-encounters
+          entryId: jarre-de-solvant-fendue
+          sourceHash: 9e4cf162
+    _id: 8kj5fYDcU5bdbxYE
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435077337
+      modifiedTime: 1792435077337
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!M3ztqTaEHRLqqbEL.8kj5fYDcU5bdbxYE'
+  - name: Le repas sous l’auvent
+    type: text
+    sort: 600000
+    text:
+      content: >-
+        <h2>Le repas sous l’auvent</h2>
+
+        <h3>En un regard</h3>
+
+        <p>Une toile tendue entre deux rochers offre un carré d’ombre. Plusieurs
+        voyageurs Darkspear y mangent du poisson fumé et font signe aux passants
+        de venir boire avant de reprendre la route.</p>
+
+        <h3>Ce qui se passe réellement</h3>
+
+        <p>Rien ne va mal. Ces voyageurs font régulièrement la liaison entre
+        Sen’jin et Tranchecolline et profitent du milieu de journée pour
+        attendre que la chaleur baisse.</p>
+
+        <h3>Acteurs</h3>
+
+        <p><strong>Voyageuse âgée — échanger des nouvelles — curieuse et
+        chaleureuse</strong></p>
+
+        <p><strong>Pêcheur Darkspear — vendre ou troquer quelques provisions —
+        détendu</strong></p>
+
+        <p><strong>Jeune voyageur — entendre des histoires de la route —
+        enthousiaste</strong></p>
+
+        <h3>Tension</h3>
+
+        <p>La scène n’a pas besoin d’un conflit. Le seul choix est de prendre le
+        temps de s’arrêter ou de poursuivre.</p>
+
+        <h3>Ce qui peut attirer l’attention</h3>
+
+        <ul><li>des nouvelles différentes selon ce que les voyageurs ont entendu
+        à Sen’jin ou à Tranchecolline ;</li><li>un itinéraire conseillé pour
+        éviter une portion exposée au soleil ;</li><li>quelques rumeurs
+        clairement présentées comme telles ;</li><li>le jeune voyageur reconnaît
+        certains PJ s’ils sont déjà connus dans la région.</li></ul>
+
+        <h3>Leviers des PJ</h3>
+
+        <p>Partager le repas, troquer, écouter, raconter leurs propres
+        nouvelles, demander un conseil de route ou continuer sans s’arrêter.</p>
+
+        <h3>Évolution</h3>
+
+        <p>Après un moment, le groupe replie l’auvent et reprend la route. Les
+        nouvelles qu’il transporte continueront de circuler, y compris les
+        histoires racontées par les PJ.</p>
+
+        <h3>Retombées possibles</h3>
+
+        <p>Information légère, provisions, réputation, contact ordinaire à
+        Sen’jin ou simple respiration donnant au sud de Durotar une vie
+        quotidienne crédible.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sud-tranchecolline-senjin-vallee-epreuves-encounters
+          entryId: repas-sous-lauvent
+          sourceHash: f53297ea
+    _id: EVktvNRFhPrpvFEd
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435077337
+      modifiedTime: 1792435077337
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!M3ztqTaEHRLqqbEL.EVktvNRFhPrpvFEd'
+  - name: Quelque chose bouge sous la bâche
+    type: text
+    sort: 700000
+    text:
+      content: >-
+        <h2>Quelque chose bouge sous la bâche</h2>
+
+        <h3>En un regard</h3>
+
+        <p>Un porteur s’est arrêté au milieu de la route. Sous la bâche de son
+        chargement, quelque chose gratte, heurte un panier puis se tait dès
+        qu’on approche.</p>
+
+        <h3>Ce qui se passe réellement</h3>
+
+        <p>Un jeune scorpide s’est glissé dans les paniers lors d’un arrêt près
+        de la Vallée des Épreuves. Il est maintenant coincé, paniqué et
+        dangereux uniquement si on le force à sortir brutalement.</p>
+
+        <h3>Acteurs</h3>
+
+        <p><strong>Porteur — récupérer son chargement intact — embarrassé et
+        prudent</strong></p>
+
+        <p><strong>Jeune scorpide — trouver une issue — affolé</strong></p>
+
+        <h3>Tension</h3>
+
+        <p>Ouvrir la bâche au mauvais endroit peut libérer l’animal au milieu
+        des voyageurs ou provoquer une piqûre.</p>
+
+        <h3>Ce qui peut attirer l’attention</h3>
+
+        <ul><li>les griffures viennent de l’intérieur ;</li><li>le porteur a
+        chargé ses paniers près d’un terrain connu pour les scorpides
+        ;</li><li>l’animal cherche surtout l’ombre ;</li><li>un espace libre
+        derrière les rochers permettrait de le relâcher sans foule.</li></ul>
+
+        <h3>Leviers des PJ</h3>
+
+        <p>Déplacer le chariot, attirer l’animal, démonter les paniers, utiliser
+        nourriture ou bâton, laisser le porteur gérer seul ou transformer
+        l’incident en petite démonstration pour les recrues présentes.</p>
+
+        <h3>Évolution</h3>
+
+        <p>Sans aide, le porteur finit par renverser un panier et le scorpide
+        s’échappe sous les cris, laissant plusieurs marchandises au sol.</p>
+
+        <h3>Retombées possibles</h3>
+
+        <p>Aucune conséquence majeure nécessaire : gratitude, anecdote locale ou
+        information sur la proximité de la faune autour des pistes de la
+        Vallée.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sud-tranchecolline-senjin-vallee-epreuves-encounters
+          entryId: scorpide-dans-le-chargement
+          sourceHash: d1a06805
+    _id: NmWKUHxBiBnng4wS
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435077337
+      modifiedTime: 1792435077337
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!M3ztqTaEHRLqqbEL.NmWKUHxBiBnng4wS'
+  - name: Le tigre dans la ravine
+    type: text
+    sort: 800000
+    text:
+      content: >-
+        <h2>Le tigre dans la ravine</h2>
+
+        <h3>En un regard</h3>
+
+        <p>Un tigre de Durotar blessé occupe tout le fond d’une ravine étroite.
+        Il montre les crocs mais ne bondit pas, et une patte arrière porte une
+        plaie récente.</p>
+
+        <h3>Ce qui se passe réellement</h3>
+
+        <p>L’animal s’est pris dans un piège rudimentaire puis a réussi à s’en
+        arracher. Il cherche un endroit sûr pour se coucher et réagit à toute
+        approche comme à une menace.</p>
+
+        <h3>Acteurs</h3>
+
+        <p><strong>Tigre blessé — quitter la zone ou se cacher — paniqué et
+        défensif</strong></p>
+
+        <h3>Tension</h3>
+
+        <p>Le passage est le chemin le plus court. Forcer l’animal à bouger peut
+        déclencher une attaque ; attendre coûte du temps ; contourner impose un
+        détour.</p>
+
+        <h3>Ce qui peut attirer l’attention</h3>
+
+        <ul><li>un morceau de corde ou de cuir reste pris dans la plaie
+        ;</li><li>les traces du piège se trouvent plus loin ;</li><li>le
+        dispositif n’est pas assez sophistiqué pour identifier son auteur avec
+        certitude ;</li><li>l’animal ne poursuit pas ceux qui
+        reculent.</li></ul>
+
+        <h3>Leviers des PJ</h3>
+
+        <p>Attendre, contourner, calmer, soigner à distance, chercher l’origine
+        du piège, attirer l’animal hors du passage ou l’abattre s’ils estiment
+        le danger trop grand.</p>
+
+        <h3>Évolution</h3>
+
+        <p>Si les PJ patientent suffisamment, le tigre finit par quitter
+        lentement la ravine. S’ils l’effraient, il peut se réfugier plus près
+        d’une autre piste fréquentée.</p>
+
+        <h3>Retombées possibles</h3>
+
+        <p>Information sur les terrains de chasse, relation avec des chasseurs
+        si l’animal est sauvé ou tué proprement, ou déplacement futur du
+        danger.</p>
+
+        <h3>Combat éventuel</h3>
+
+        <p>Le tigre n’attaque que s’il est acculé, surpris à très courte
+        distance ou blessé davantage. Il cherche ensuite à rompre le contact dès
+        qu’une voie de fuite s’ouvre.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sud-tranchecolline-senjin-vallee-epreuves-encounters
+          entryId: tigre-blesse-dans-la-ravine
+          sourceHash: 719a9a59
+    _id: xzFS7uRPws4OEeaM
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435077337
+      modifiedTime: 1792435077337
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!M3ztqTaEHRLqqbEL.xzFS7uRPws4OEeaM'
+  - name: Les dernières pommes de cactus
+    type: text
+    sort: 900000
+    text:
+      content: >-
+        <h2>Les dernières pommes de cactus</h2>
+
+        <h3>En un regard</h3>
+
+        <p>Autour d’un petit groupe de cactus presque dépouillé, des péons et
+        deux recrues se disputent les derniers fruits encore accessibles.</p>
+
+        <h3>Ce qui se passe réellement</h3>
+
+        <p>Les péons veulent compléter des provisions pour un chantier. Les
+        recrues cherchent de quoi améliorer un repas médiocre avant de retourner
+        à la Vallée. Personne ne ment vraiment, mais tout le monde estime sa
+        raison prioritaire.</p>
+
+        <h3>Acteurs</h3>
+
+        <p><strong>Péon responsable des provisions — finir sa tournée —
+        irrité</strong></p>
+
+        <p><strong>Deux recrues — rapporter quelque chose à leur groupe —
+        compétitives</strong></p>
+
+        <h3>Tension</h3>
+
+        <p>La dispute est dérisoire en apparence, mais elle révèle une vraie
+        pression sur les petites ressources accessibles près des routes.</p>
+
+        <h3>Ce qui peut attirer l’attention</h3>
+
+        <ul><li>plusieurs cactus proches ont déjà été récoltés
+        ;</li><li>certains fruits ne sont pas encore mûrs ;</li><li>les péons
+        connaissent un autre secteur mais il impose un détour ;</li><li>les
+        recrues pourraient repartir les mains vides sans conséquence
+        grave.</li></ul>
+
+        <h3>Leviers des PJ</h3>
+
+        <p>Arbitrer, proposer un partage, indiquer un autre endroit, acheter les
+        fruits pour les redistribuer, se moquer gentiment de la dispute ou ne
+        pas s’en mêler.</p>
+
+        <h3>Évolution</h3>
+
+        <p>Sans intervention, les péons prennent la majorité des fruits et les
+        recrues repartent vexées. La dispute devient une anecdote plutôt qu’un
+        conflit durable.</p>
+
+        <h3>Retombées possibles</h3>
+
+        <p>Petit gain de sympathie, information sur les ressources locales ou
+        simple scène de vie rappelant que les besoins ordinaires produisent eux
+        aussi des tensions.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sud-tranchecolline-senjin-vallee-epreuves-encounters
+          entryId: pommes-de-cactus-disputees
+          sourceHash: 08f557d7
+    _id: hqMd4WxYByUU5tB2
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435077337
+      modifiedTime: 1792435077337
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!M3ztqTaEHRLqqbEL.hqMd4WxYByUU5tB2'
+  - name: Le garde qui tient encore
+    type: text
+    sort: 1000000
+    text:
+      content: >-
+        <h2>Le garde qui tient encore</h2>
+
+        <h3>En un regard</h3>
+
+        <p>Un garde orc tient son poste au bord de la route avec une rigidité
+        presque comique. Son souffle est court, ses lèvres sèches et il répond
+        trop lentement aux voyageurs.</p>
+
+        <h3>Ce qui se passe réellement</h3>
+
+        <p>Sa relève est en retard. Il a décidé de ne pas quitter le poste, même
+        après plusieurs heures supplémentaires sous le soleil. Il a besoin
+        d’ombre, d’eau et surtout de quelqu’un qui prenne temporairement le
+        relais.</p>
+
+        <h3>Acteurs</h3>
+
+        <p><strong>Garde de route — ne pas abandonner son devoir — épuisé et
+        obstiné</strong></p>
+
+        <h3>Tension</h3>
+
+        <p>Il minimise son état. S’il s’effondre, le poste restera vide et les
+        prochains voyageurs devront décider eux-mêmes quoi faire.</p>
+
+        <h3>Ce qui peut attirer l’attention</h3>
+
+        <ul><li>son outre est presque vide ;</li><li>il se trompe sur l’heure de
+        la dernière patrouille ;</li><li>il a observé plusieurs passages récents
+        et peut les décrire ;</li><li>aucune menace immédiate n’explique son
+        obstination.</li></ul>
+
+        <h3>Leviers des PJ</h3>
+
+        <p>Le forcer à s’asseoir, partager de l’eau, rester jusqu’à la relève,
+        aller chercher celle-ci, exploiter ses observations ou passer leur
+        chemin.</p>
+
+        <h3>Évolution</h3>
+
+        <p>Sans aide, il finit par s’asseoir puis s’endort malgré lui. La relève
+        le trouvera honteux mais vivant.</p>
+
+        <h3>Retombées possibles</h3>
+
+        <p>Bonne relation avec les gardes, détails sur les circulations récentes
+        ou réputation de personnes fiables auprès de Tranchecolline.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sud-tranchecolline-senjin-vallee-epreuves-encounters
+          entryId: garde-terrasse-par-la-chaleur
+          sourceHash: d129b773
+    _id: cmJ1fdfVZY3b5wmh
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435077337
+      modifiedTime: 1792435077337
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!M3ztqTaEHRLqqbEL.cmJ1fdfVZY3b5wmh'
+  - name: Les traces qui se séparent
+    type: text
+    sort: 1100000
+    text:
+      content: >-
+        <h2>Les traces qui se séparent</h2>
+
+        <h3>En un regard</h3>
+
+        <p>Une piste claire de sabots Kolkar coupe la route puis se divise en
+        trois directions. Un éclaireur Darkspear étudie les marques depuis
+        plusieurs minutes sans réussir à choisir laquelle suivre.</p>
+
+        <h3>Ce qui se passe réellement</h3>
+
+        <p>Les Kolkar ont volontairement dispersé leurs traces. Une piste
+        correspond au groupe principal, une seconde à deux éclaireurs, la
+        troisième est un leurre créé par plusieurs passages répétés.</p>
+
+        <h3>Acteurs</h3>
+
+        <p><strong>Éclaireur Darkspear — comprendre le mouvement avant d’alerter
+        Sen’jin — prudent et frustré</strong></p>
+
+        <h3>Tension</h3>
+
+        <p>Suivre la mauvaise piste coûte du temps et peut faire manquer le
+        prochain mouvement du groupe principal.</p>
+
+        <h3>Ce qui peut attirer l’attention</h3>
+
+        <ul><li>une piste s’enfonce dans un terrain peu logique pour un groupe
+        nombreux ;</li><li>une autre comporte des traces de montures chargées
+        ;</li><li>certains sabots ont repassé plusieurs fois au même endroit
+        ;</li><li>l’éclaireur préfère une bonne information à une poursuite
+        héroïque.</li></ul>
+
+        <h3>Leviers des PJ</h3>
+
+        <p>Aider à lire les traces, suivre séparément plusieurs pistes, observer
+        depuis une hauteur, prévenir Sen’jin sans poursuivre ou décider que
+        l’information ne vaut pas le risque.</p>
+
+        <h3>Évolution</h3>
+
+        <p>Sans aide, l’éclaireur marque les trois directions puis rentre
+        transmettre son incertitude. Sen’jin renforcera plusieurs accès au lieu
+        d’un seul.</p>
+
+        <h3>Retombées possibles</h3>
+
+        <p>Une piste Kolkar exploitable, un lien avec les éclaireurs de Sen’jin
+        ou un choix futur facilité si les PJ comprennent leurs méthodes.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sud-tranchecolline-senjin-vallee-epreuves-encounters
+          entryId: traces-qui-se-separent
+          sourceHash: cd5d690a
+    _id: DKBhE6QrenlWv9uj
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435077337
+      modifiedTime: 1792435077337
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!M3ztqTaEHRLqqbEL.DKBhE6QrenlWv9uj'
+  - name: Sous le panier
+    type: text
+    sort: 1200000
+    text:
+      content: >-
+        <h2>Sous le panier</h2>
+
+        <h3>En un regard</h3>
+
+        <p>Un péon maintient un grand panier retourné avec son pied. Dessous,
+        une petite créature griffe la terre et pousse des cris aigus tandis que
+        le péon appelle quiconque passe à l’aide.</p>
+
+        <h3>Ce qui se passe réellement</h3>
+
+        <p>Un familier gangrené venu des environs de la Vallée s’est éloigné de
+        son maître ou de son groupe. Le péon l’a surpris près de ses outils et
+        l’a capturé par réflexe. Il ne sait pas quoi en faire.</p>
+
+        <h3>Acteurs</h3>
+
+        <p><strong>Péon — se débarrasser du problème sans être blessé — fier de
+        sa capture mais inquiet</strong></p>
+
+        <p><strong>Familier gangrené — s’échapper — agressif et
+        affolé</strong></p>
+
+        <h3>Tension</h3>
+
+        <p>La créature est petite mais dangereuse. La relâcher n’importe où peut
+        simplement déplacer le problème vers d’autres voyageurs.</p>
+
+        <h3>Ce qui peut attirer l’attention</h3>
+
+        <ul><li>elle porte des traces de corruption évidentes ;</li><li>aucune
+        piste ne prouve qu’un groupe important se trouve à proximité
+        ;</li><li>le péon affirme l’avoir vue seule ;</li><li>elle réagit à
+        certaines directions comme si elle cherchait à rejoindre un lieu
+        précis.</li></ul>
+
+        <h3>Leviers des PJ</h3>
+
+        <p>La neutraliser, l’observer, la suivre si elle est relâchée, prévenir
+        un spécialiste, interroger le péon sur l’endroit exact de la capture ou
+        décider que le risque ne justifie pas une enquête.</p>
+
+        <h3>Évolution</h3>
+
+        <p>Sans aide, le péon appelle finalement une patrouille qui tue
+        probablement la créature et consigne l’incident comme menace locale.</p>
+
+        <h3>Retombées possibles</h3>
+
+        <p>Petit indice vers une présence gangrenée du sud, contact avec un
+        spécialiste de la Vallée ou simple rappel que toutes les menaces ne sont
+        pas liées aux Kolkar.</p>
+
+        <h3>Combat éventuel</h3>
+
+        <p>La créature attaque surtout si le panier est soulevé sans précaution.
+        Elle tente ensuite de fuir vers les rochers plutôt que de rester au
+        contact.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sud-tranchecolline-senjin-vallee-epreuves-encounters
+          entryId: familier-gangrene-egare
+          sourceHash: 30e16db5
+    _id: bUL70JOzLZfUmji9
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435077337
+      modifiedTime: 1792435077337
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!M3ztqTaEHRLqqbEL.bUL70JOzLZfUmji9'
+  - name: La sieste impossible
+    type: text
+    sort: 1300000
+    text:
+      content: >-
+        <h2>La sieste impossible</h2>
+
+        <h3>En un regard</h3>
+
+        <p>Un péon dort profondément à l’ombre d’un chariot vide. Au loin,
+        plusieurs voix l’appellent. À côté de lui repose un petit paquet
+        soigneusement ficelé qui ne ressemble pas à son équipement.</p>
+
+        <h3>Ce qui se passe réellement</h3>
+
+        <p>Le péon s’est éclipsé pour dormir quelques minutes et a trouvé le
+        paquet déjà présent. Il n’en connaît ni le propriétaire ni le contenu et
+        a préféré ne pas y toucher.</p>
+
+        <h3>Acteurs</h3>
+
+        <p><strong>Péon endormi — éviter de retourner trop vite au travail —
+        inconscient du remue-ménage</strong></p>
+
+        <p><strong>Compagnons hors champ — retrouver leur collègue — agacés
+        plutôt qu’inquiets</strong></p>
+
+        <h3>Tension</h3>
+
+        <p>Le paquet peut susciter plus de suspicion que la disparition
+        elle-même. Il contient des effets ordinaires perdus par un voyageur
+        précédent, pas un secret de campagne.</p>
+
+        <h3>Ce qui peut attirer l’attention</h3>
+
+        <ul><li>le paquet n’est pas caché ;</li><li>aucune trace de lutte
+        ;</li><li>le péon ronfle assez fort pour être retrouvé facilement
+        ;</li><li>le contenu peut identifier son propriétaire par un détail
+        banal.</li></ul>
+
+        <h3>Leviers des PJ</h3>
+
+        <p>Réveiller le péon, ouvrir ou laisser le paquet, retrouver son
+        propriétaire, appeler les compagnons, jouer un tour au dormeur ou
+        poursuivre leur route.</p>
+
+        <h3>Évolution</h3>
+
+        <p>Les compagnons finissent par retrouver le péon et le ramènent au
+        travail sous les moqueries. Le paquet reste sur place si personne ne
+        s’en occupe.</p>
+
+        <h3>Retombées possibles</h3>
+
+        <p>Rencontre humoristique, objet rendu à un voyageur reconnaissant ou
+        petite relation avec les travailleurs de la route.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sud-tranchecolline-senjin-vallee-epreuves-encounters
+          entryId: peon-endormi-au-mauvais-endroit
+          sourceHash: e945262c
+    _id: fC8kXaVBoCnypJwW
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435077337
+      modifiedTime: 1792435077337
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!M3ztqTaEHRLqqbEL.fC8kXaVBoCnypJwW'
+  - name: Le feu court plus vite
+    type: text
+    sort: 1400000
+    text:
+      content: >-
+        <h2>Le feu court plus vite</h2>
+
+        <h3>En un regard</h3>
+
+        <p>Une ligne de fumée basse se rapproche de la route. Le vent pousse les
+        flammes dans les broussailles sèches tandis qu’un petit convoi arrive de
+        l’autre côté sans encore percevoir le danger.</p>
+
+        <h3>Ce qui se passe réellement</h3>
+
+        <p>Un feu de cuisson mal éteint a embrasé des herbes sèches. Il n’y a
+        aucune intention hostile. La topographie canalise cependant le feu vers
+        un passage fréquenté.</p>
+
+        <h3>Acteurs</h3>
+
+        <p><strong>Voyageurs du convoi — traverser avant d’être bloqués —
+        inconscients du danger immédiat</strong></p>
+
+        <p><strong>Deux travailleurs responsables du feu — l’éteindre avant
+        d’être identifiés — paniqués</strong></p>
+
+        <h3>Tension</h3>
+
+        <p>Le feu progresse rapidement et réduit les options. Sauver la
+        cargaison, les personnes et les animaux ne demande pas forcément les
+        mêmes choix.</p>
+
+        <h3>Ce qui peut attirer l’attention</h3>
+
+        <ul><li>la fumée part d’un ancien emplacement de bivouac ;</li><li>des
+        traces de pas fuient le point de départ ;</li><li>une bande de terre nue
+        peut servir de coupe-feu ;</li><li>le vent peut changer la direction des
+        flammes.</li></ul>
+
+        <h3>Leviers des PJ</h3>
+
+        <p>Alerter le convoi, créer un coupe-feu, guider vers un détour,
+        rechercher les responsables, protéger une partie précise du chargement
+        ou se mettre eux-mêmes à l’abri.</p>
+
+        <h3>Évolution</h3>
+
+        <p>Sans intervention, le convoi recule trop tard et abandonne une partie
+        de ses biens. Le feu finit par mourir sur un terrain pierreux mais
+        laisse la route noircie et une zone de pâture détruite.</p>
+
+        <h3>Retombées possibles</h3>
+
+        <p>Gratitude, perte ou sauvetage de ressources, modification temporaire
+        d’un itinéraire et nouvelles tensions sur les zones de chasse
+        proches.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sud-tranchecolline-senjin-vallee-epreuves-encounters
+          entryId: feu-dans-les-broussailles
+          sourceHash: c0a7d6db
+    _id: lKOGRkg7w8aVFzvr
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435077337
+      modifiedTime: 1792435077337
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!M3ztqTaEHRLqqbEL.lKOGRkg7w8aVFzvr'
+  - name: Le vieux sentier
+    type: text
+    sort: 1500000
+    text:
+      content: >-
+        <h2>Le vieux sentier</h2>
+
+        <h3>En un regard</h3>
+
+        <p>Des pierres empilées et de vieilles entailles sur un rocher indiquent
+        qu’une piste presque effacée quitte la route. Elle semble couper à
+        travers un terrain que les voyageurs contournent habituellement.</p>
+
+        <h3>Ce qui se passe réellement</h3>
+
+        <p>Il s’agit d’un ancien passage utilisé par des recrues et des
+        travailleurs entre les abords de la Vallée et les pistes du sud. Un
+        petit éboulement l’a rendu moins pratique, puis il est tombé en
+        désuétude.</p>
+
+        <h3>Acteurs</h3>
+
+        <p>Aucun acteur n’est nécessaire : le lieu lui-même constitue la
+        rencontre.</p>
+
+        <h3>Tension</h3>
+
+        <p>Le sentier est réellement plus court, mais une portion instable peut
+        ralentir ou blesser les voyageurs chargés.</p>
+
+        <h3>Ce qui peut attirer l’attention</h3>
+
+        <ul><li>des marques anciennes de bottes et de roues légères ;</li><li>un
+        cairn récemment déplacé, preuve que quelqu’un utilise encore le passage
+        ;</li><li>une vue permettant de repérer la route principale plus loin
+        ;</li><li>une zone éboulée franchissable avec un peu de
+        travail.</li></ul>
+
+        <h3>Leviers des PJ</h3>
+
+        <p>Explorer, cartographier, sécuriser le passage, l’utiliser
+        immédiatement, le garder secret ou signaler son existence aux habitants
+        de Tranchecolline ou Sen’jin.</p>
+
+        <h3>Évolution</h3>
+
+        <p>Sans intervention, le sentier reste discret et se dégrade lentement.
+        D’autres voyageurs peuvent toutefois laisser de nouvelles traces
+        montrant qu’il n’est pas complètement oublié.</p>
+
+        <h3>Retombées possibles</h3>
+
+        <p>Raccourci de pointcrawl, avantage logistique lors d’un trajet futur
+        ou ressource à partager avec une faction ou une communauté.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sud-tranchecolline-senjin-vallee-epreuves-encounters
+          entryId: vieux-sentier-des-recrues
+          sourceHash: 54f8ebed
+    _id: OOHgthThCznpHNFH
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435077337
+      modifiedTime: 1792435077337
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!M3ztqTaEHRLqqbEL.OOHgthThCznpHNFH'
+  - name: Le premier compagnon
+    type: text
+    sort: 1600000
+    text:
+      content: >-
+        <h2>Le premier compagnon</h2>
+
+        <h3>En un regard</h3>
+
+        <p>Un jeune chasseur reste parfaitement immobile face à une bête
+        nerveuse. Il lui parle à voix basse depuis plusieurs minutes et fait
+        signe aux PJ de ne surtout pas avancer trop vite.</p>
+
+        <h3>Ce qui se passe réellement</h3>
+
+        <p>Le chasseur tente d’établir son premier véritable lien avec une bête
+        qu’il suit depuis plusieurs jours. Il n’est pas en danger immédiat, mais
+        l’arrivée de voyageurs peut faire échouer l’approche.</p>
+
+        <h3>Acteurs</h3>
+
+        <p><strong>Jeune chasseur — gagner la confiance de la bête — concentré
+        et anxieux</strong></p>
+
+        <p><strong>Bête sauvage — décider si l’humanoïde représente une menace —
+        méfiante</strong></p>
+
+        <h3>Tension</h3>
+
+        <p>Un simple bruit peut tout faire recommencer. Le chasseur hésite entre
+        demander de l’aide et vouloir réussir seul.</p>
+
+        <h3>Ce qui peut attirer l’attention</h3>
+
+        <ul><li>il a laissé de la nourriture à plusieurs distances ;</li><li>il
+        connaît très bien les traces locales ;</li><li>il a déjà renoncé à
+        utiliser une arme ;</li><li>la bête tolère sa présence mais pas encore
+        son contact.</li></ul>
+
+        <h3>Leviers des PJ</h3>
+
+        <p>Attendre en silence, détourner d’autres voyageurs, conseiller le
+        chasseur, observer, effrayer involontairement la bête ou simplement
+        contourner la scène.</p>
+
+        <h3>Évolution</h3>
+
+        <p>Sans intervention, l’approche réussit ou échoue selon le ton voulu
+        par le MJ, mais le chasseur reste vivant et apprend de l’expérience.</p>
+
+        <h3>Retombées possibles</h3>
+
+        <p>Contact avec un jeune chasseur, information sur la faune locale,
+        futur guide ou simple moment de reconnaissance pour les joueurs
+        familiers des traditions de chasse de la Horde.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sud-tranchecolline-senjin-vallee-epreuves-encounters
+          entryId: chasseur-et-bete-indecise
+          sourceHash: 908c2d10
+    _id: ztKN9SMTvoDSP4S8
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435077337
+      modifiedTime: 1792435077337
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!M3ztqTaEHRLqqbEL.ztKN9SMTvoDSP4S8'
+  - name: À qui vont les peaux ?
+    type: text
+    sort: 1700000
+    text:
+      content: >-
+        <h2>À qui vont les peaux ?</h2>
+
+        <h3>En un regard</h3>
+
+        <p>Un chariot chargé de peaux est arrêté en travers de la route. Un
+        représentant de Tranchecolline et deux chasseurs de Sen’jin discutent de
+        plus en plus fort autour de la cargaison.</p>
+
+        <h3>Ce qui se passe réellement</h3>
+
+        <p>Les peaux ont été obtenues par les chasseurs de Sen’jin. Un
+        responsable de Tranchecolline affirme qu’une partie doit être
+        réquisitionnée pour des besoins urgents de la route. Les chasseurs
+        répondent que leur village en manque déjà.</p>
+
+        <h3>Acteurs</h3>
+
+        <p><strong>Chasseuse Darkspear — ramener la cargaison à Sen’jin — ferme
+        et méfiante</strong></p>
+
+        <p><strong>Responsable orc — répondre à une pénurie locale — autoritaire
+        mais pas malhonnête</strong></p>
+
+        <h3>Tension</h3>
+
+        <p>Les deux besoins sont réels. Une solution qui satisfait totalement un
+        camp laisse probablement l’autre sans ressource.</p>
+
+        <h3>Ce qui peut attirer l’attention</h3>
+
+        <ul><li>le responsable possède un ordre valable mais général
+        ;</li><li>les chasseurs peuvent expliquer précisément à quoi servent les
+        peaux ;</li><li>la cargaison n’est pas assez grande pour tout le monde
+        ;</li><li>plusieurs voyageurs attendent déjà que la route se
+        libère.</li></ul>
+
+        <h3>Leviers des PJ</h3>
+
+        <p>Négocier un partage, trouver une compensation, vérifier l’urgence
+        invoquée, soutenir un camp, proposer une livraison différée ou refuser
+        de devenir arbitres.</p>
+
+        <h3>Évolution</h3>
+
+        <p>Sans intervention, le responsable prend une petite partie des peaux
+        pour libérer la route, mais les chasseurs repartent irrités et
+        raconteront l’épisode à Sen’jin.</p>
+
+        <h3>Retombées possibles</h3>
+
+        <p>Dette ou ressentiment auprès d’une communauté, meilleur aperçu des
+        besoins matériels du sud ou possibilité de créer un arrangement
+        récurrent entre Tranchecolline et Sen’jin.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sud-tranchecolline-senjin-vallee-epreuves-encounters
+          entryId: chariot-de-peaux-requisitionne
+          sourceHash: 55b874c6
+    _id: AwHMoxx5b2rUiAOH
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435077337
+      modifiedTime: 1792435077337
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!M3ztqTaEHRLqqbEL.AwHMoxx5b2rUiAOH'
+  - name: Deux versions du même raid
+    type: text
+    sort: 1800000
+    text:
+      content: >-
+        <h2>Deux versions du même raid</h2>
+
+        <h3>En un regard</h3>
+
+        <p>Un garde orc blessé et une chasseuse Darkspear parlent du même
+        affrontement récent. Ils s’interrompent sans cesse pour corriger le
+        nombre d’assaillants, leur direction et même ce qu’ils ont tenté de
+        prendre.</p>
+
+        <h3>Ce qui se passe réellement</h3>
+
+        <p>Ils ont tous deux vu une courte action Kolkar depuis des positions
+        différentes. Le groupe ennemi cherchait surtout à récupérer un éclaireur
+        ou un équipement laissé derrière lui, pas à lancer un assaut contre
+        Sen’jin. Chaque témoin a sincèrement interprété la scène selon ce qu’il
+        pouvait voir.</p>
+
+        <h3>Acteurs</h3>
+
+        <p><strong>Garde orc — convaincre qu’une attaque plus large se prépare —
+        inquiet et catégorique</strong></p>
+
+        <p><strong>Chasseuse Darkspear — éviter une réaction disproportionnée —
+        sceptique et précise</strong></p>
+
+        <h3>Tension</h3>
+
+        <p>Une mauvaise interprétation peut pousser la Horde à renforcer le
+        mauvais endroit ou à déclencher une poursuite inutile.</p>
+
+        <h3>Ce qui peut attirer l’attention</h3>
+
+        <ul><li>les deux témoins s’accordent sur certains détails physiques
+        ;</li><li>ils divergent surtout sur l’intention ;</li><li>aucun civil
+        n’a été poursuivi ;</li><li>les Kolkar se sont retirés dès qu’ils ont
+        récupéré quelque chose au sol.</li></ul>
+
+        <h3>Leviers des PJ</h3>
+
+        <p>Comparer les récits, inspecter les lieux, calmer ou soutenir
+        l’alerte, prévenir Sen’jin, rechercher ce qui a été récupéré ou laisser
+        les autorités trancher.</p>
+
+        <h3>Évolution</h3>
+
+        <p>Sans intervention, les deux versions circulent séparément. La rumeur
+        grossit et Sen’jin reçoit des avertissements contradictoires.</p>
+
+        <h3>Retombées possibles</h3>
+
+        <p>Meilleure compréhension des intentions Kolkar, confiance d’un témoin
+        ou exemple concret d’information imparfaite dans le sandbox.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sud-tranchecolline-senjin-vallee-epreuves-encounters
+          entryId: deux-versions-du-meme-raid
+          sourceHash: e762017b
+    _id: IJetl0vhsk4y47SC
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435077337
+      modifiedTime: 1792435077337
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!M3ztqTaEHRLqqbEL.IJetl0vhsk4y47SC'
+  - name: Le messager qui refuse l’escorte
+    type: text
+    sort: 1900000
+    text:
+      content: >-
+        <h2>Le messager qui refuse l’escorte</h2>
+
+        <h3>En un regard</h3>
+
+        <p>Un jeune messager Darkspear reprend son souffle derrière un rocher.
+        Lorsqu’il voit les PJ, il plaque une main sur sa sacoche et affirme
+        immédiatement qu’il n’a besoin de personne.</p>
+
+        <h3>Ce qui se passe réellement</h3>
+
+        <p>Il transporte un rapport ordinaire pour Sen’jin après avoir observé
+        des mouvements inhabituels sur une piste de chasse. Il a surtout peur
+        qu’on considère sa première mission en solitaire comme un échec s’il
+        accepte une escorte.</p>
+
+        <h3>Acteurs</h3>
+
+        <p><strong>Messager Darkspear — terminer seul sa mission — fier,
+        essoufflé et sur la défensive</strong></p>
+
+        <h3>Tension</h3>
+
+        <p>Il a peut-être réellement été suivi, mais il n’en est pas certain.
+        Son orgueil rend difficile de distinguer prudence et bravade.</p>
+
+        <h3>Ce qui peut attirer l’attention</h3>
+
+        <ul><li>ses traces montrent qu’il a couru plus qu’un simple trajet
+        normal ;</li><li>il regarde souvent derrière lui ;</li><li>sa sacoche
+        est scellée mais ne contient rien de mystérieux pour la campagne
+        ;</li><li>il peut décrire ce qu’il a vu sans révéler le contenu du
+        message.</li></ul>
+
+        <h3>Leviers des PJ</h3>
+
+        <p>L’accompagner discrètement, lui proposer de marcher ensemble sans
+        parler d’escorte, vérifier s’il est suivi, le laisser continuer ou lui
+        transmettre des conseils de route.</p>
+
+        <h3>Évolution</h3>
+
+        <p>Sans intervention, il repart après quelques minutes. Selon l’état du
+        secteur, il atteint Sen’jin sans incident ou arrive très tard après
+        avoir fait un long détour.</p>
+
+        <h3>Retombées possibles</h3>
+
+        <p>Contact à Sen’jin, information locale, réputation de respect envers
+        les Darkspear ou simple aperçu de la manière dont les nouvelles
+        circulent dans le sud.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sud-tranchecolline-senjin-vallee-epreuves-encounters
+          entryId: messager-qui-refuse-escorte
+          sourceHash: 9d1907d5
+    _id: 5g97dB7PwyoP7S5h
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435077337
+      modifiedTime: 1792435077337
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!M3ztqTaEHRLqqbEL.5g97dB7PwyoP7S5h'
+  - name: Les tambours dans la poussière
+    type: text
+    sort: 2000000
+    text:
+      content: >-
+        <h2>Les tambours dans la poussière</h2>
+
+        <h3>En un regard</h3>
+
+        <p>Trois battements sourds viennent d’une crête. Après quelques
+        secondes, deux autres leur répondent au loin. Les voyageurs sur la route
+        cessent de parler et cherchent instinctivement les hauteurs du
+        regard.</p>
+
+        <h3>Ce qui se passe réellement</h3>
+
+        <p>Deux petits groupes Kolkar communiquent à distance. Le signal sert à
+        coordonner un déplacement et à vérifier si les routes de chasse sont
+        surveillées. Ce n’est pas forcément le début d’une attaque
+        immédiate.</p>
+
+        <h3>Acteurs</h3>
+
+        <p><strong>Éclaireurs Kolkar hors vue — coordonner leur mouvement sans
+        se montrer — prudents</strong></p>
+
+        <p><strong>Voyageurs de la route — comprendre s’ils sont en danger —
+        nerveux</strong></p>
+
+        <h3>Tension</h3>
+
+        <p>Personne ne sait ce que signifient les signaux. Une réaction trop
+        agressive peut révéler les défenses de la Horde ; l’inaction peut
+        laisser les Kolkar se déplacer librement.</p>
+
+        <h3>Ce qui peut attirer l’attention</h3>
+
+        <ul><li>les signaux viennent de deux directions, pas d’un seul camp
+        ;</li><li>ils s’interrompent si quelqu’un monte ouvertement vers la
+        crête ;</li><li>certaines pistes de chasse proches deviennent soudain
+        silencieuses ;</li><li>un Darkspear expérimenté peut reconnaître qu’il
+        s’agit d’une coordination, sans connaître le message exact.</li></ul>
+
+        <h3>Leviers des PJ</h3>
+
+        <p>Observer depuis une hauteur, suivre une direction, prévenir Sen’jin,
+        tendre une observation discrète, escorter les voyageurs, répondre avec
+        un faux signal s’ils savent ce qu’ils font ou décider de ne pas se
+        laisser détourner.</p>
+
+        <h3>Évolution</h3>
+
+        <p>Sans intervention, les groupes Kolkar se déplacent puis disparaissent
+        du secteur. Quelques heures plus tard, des traces montrent qu’ils ont
+        testé plusieurs passages sans engager le village.</p>
+
+        <h3>Retombées possibles</h3>
+
+        <p>Information sur les méthodes Kolkar, déplacement futur de
+        patrouilles, tension accrue à Sen’jin ou possibilité de préparer une
+        rencontre avec leurs éclaireurs avant qu’un véritable raid ne soit
+        envisagé.</p>
+
+        <h3>Combat éventuel</h3>
+
+        <p>Un affrontement n’est probable que si les PJ remontent directement
+        jusqu’à un groupe Kolkar et cherchent à l’empêcher de se retirer. Les
+        éclaireurs privilégient la fuite, le terrain élevé et les signaux à
+        leurs alliés plutôt qu’un combat prolongé.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sud-tranchecolline-senjin-vallee-epreuves-encounters
+          entryId: tambours-dans-la-poussiere
+          sourceHash: c24e63fd
+    _id: LwA4gDGRbpF4re0o
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435077337
+      modifiedTime: 1792435077337
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!M3ztqTaEHRLqqbEL.LwA4gDGRbpF4re0o'
+_id: M3ztqTaEHRLqqbEL
+categories: []
+sort: 100000
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792435077337
+  modifiedTime: 1792435077337
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!M3ztqTaEHRLqqbEL'

@@ -1,0 +1,956 @@
+folder: 8Y36mqs2XUEJZEcW
+name: Le Venin de l’Ancienne — Quêtes de Sarkoth
+flags:
+  campaign-codex:
+    type: ''
+  core:
+    sheetClass: ''
+_id: 1JpNMw2R673sTp7C
+pages:
+  - _id: 6185fb2080472dc9
+    name: Situation et enjeux
+    type: text
+    sort: 100000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h1>Sarkoth — Le Venin de l’Ancienne</h1><h2>Quêtes — Vallée des
+        Épreuves, sud de Durotar</h2><blockquote><p><strong>Lieu :</strong>
+        l’Antre, les sentiers de la Vallée des Épreuves, le plateau de
+        Sarkoth<br><strong>Personnages :</strong> Hana’zua, Gornek, Sarkoth,
+        péons, chasseurs et guérisseurs<br><strong>Enjeux :</strong> sauver
+        Hana’zua, obtenir du venin, sécuriser un passage, décider du sort de la
+        Mère rouge</p></blockquote><hr><h2>La
+        situation</h2><p><strong>Hana’zua</strong>, un jeune Troll Sombrelance,
+        a affronté seul
+        <strong>@UUID[JournalEntry.w3CKHMrGxXxe1GEr]{Sarkoth}</strong>,
+        l’immense scorpide appelée la Mère rouge. Il a ouvert une profonde
+        entaille dans l’une de ses pinces, mais la créature l’a saisi à la jambe
+        puis piqué à la poitrine. Le blessé est désormais incapable de rejoindre
+        seul l’Antre.</p><p>Son état empire. Les antidotes habituels contre les
+        scorpides ralentissent les effets du poison sans les neutraliser. Un
+        guérisseur peut préparer un remède efficace à partir de <strong>venin
+        frais de Sarkoth</strong>. Il faut d’abord retrouver la matriarche et
+        obtenir ce venin.</p><p>De son côté, Sarkoth s’est rapprochée des pistes
+        empruntées par les recrues et les chariots. Elle cherche à rejoindre son
+        ancien lieu de ponte : une fissure rocheuse dont les péons ont bouché
+        l’entrée en consolidant un chemin. Sa pince blessée complique sa chasse
+        et renforce sa méfiance.</p><p><strong>Hana’zua veut sa mort. Gornek
+        veut sauver le blessé et protéger la vallée. Sarkoth veut retrouver
+        l’accès à ses jeunes.</strong></p><hr>
+      markdown: ''
+    image:
+      caption: ''
+    video:
+      controls: true
+      volume: 0.5
+      autoplay: false
+      loop: false
+      timestamp: 0
+    src: null
+    system: {}
+    flags: {}
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067327
+      modifiedTime: 1792435067327
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!1JpNMw2R673sTp7C.6185fb2080472dc9'
+  - _id: 3a0a05424240c2b5
+    name: 1. Le Troll sous l’arbre
+    type: text
+    sort: 200000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h2>1. Le Troll sous l’arbre</h2>
+
+        <p>Les personnages peuvent découvrir l’affaire de plusieurs manières :
+        Hana’zua gémit à l’écart d’un sentier ; Gornek s’inquiète de sa
+        disparition ; des péons signalent une énorme scorpide près de leurs
+        travaux ; un chasseur remarque d’étranges déplacements autour du
+        plateau.</p>
+
+        <h3>Découverte</h3>
+
+        <p><em>À lire aux personnages :</em></p>
+
+        <blockquote>
+
+        <p>Au pied d’un arbre tordu, un jeune Troll respire péniblement. Sa
+        jambe porte les marques profondes de deux pinces. Une tache sombre
+        s’étend autour d’une piqûre à la poitrine. Il essaie de se redresser à
+        votre approche, puis grimace et retombe contre le tronc.</p>
+
+        </blockquote>
+
+        <p><strong>Hana’zua</strong> explique qu’il traquait Sarkoth pour
+        prouver sa valeur. Il a frappé le premier et blessé une pince. Le
+        scorpide lui a saisi la jambe ; il n’a pas vu venir l’aiguillon. Le
+        Troll est certain que la bête doit mourir et demande qu’on lui rapporte
+        <strong>sa pince abîmée</strong> comme preuve.</p>
+
+        <p>Il est sincère, mais ignore pourquoi Sarkoth se trouvait près des
+        rochers.</p>
+
+        <p><strong>Hana’zua sait :</strong> Sarkoth est beaucoup plus grande que
+        les autres scorpides ; il a profondément entaillé sa pince droite ; son
+        poison est anormalement violent.</p>
+
+        <p><strong>Hana’zua ignore :</strong> l’existence du lieu de ponte, les
+        conséquences des travaux des péons et la possibilité d’obtenir du venin
+        sans tuer la matriarche.</p>
+
+        <h3>Secours immédiats</h3>
+
+        <p>Les personnages peuvent installer Hana’zua à l’abri, le transporter,
+        faire prévenir Gornek ou demander l’aide d’un guérisseur. Les soins et
+        l’antidote ordinaire peuvent ralentir son déclin, mais il faut du venin
+        frais de Sarkoth, convenablement préparé, pour neutraliser le
+        poison.</p>
+
+        <hr>
+      markdown: ''
+    image:
+      caption: ''
+    video:
+      controls: true
+      volume: 0.5
+      autoplay: false
+      loop: false
+      timestamp: 0
+    src: null
+    system: {}
+    flags: {}
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067327
+      modifiedTime: 1792435067327
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!1JpNMw2R673sTp7C.3a0a05424240c2b5'
+  - _id: e1ddf7cb8237e6d9
+    name: 2. Prévenir Gornek
+    type: text
+    sort: 300000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h2>2. Prévenir Gornek</h2>
+
+        <p><strong>Gornek</strong> connaît la réputation de Sarkoth et la
+        dangerosité du venin de scorpide. Il veut faire soigner Hana’zua et
+        empêcher d’autres attaques sur les recrues.</p>
+
+        <p>Il peut mobiliser des secouristes, faire apporter des antidotes
+        ordinaires pour gagner du temps et transmettre des informations sur les
+        travaux récents. Il peut également orienter les personnages vers des
+        chasseurs ou des soigneurs capables de préparer l’antivenin.</p>
+
+        <p>Si la seule solution paraît être de tuer Sarkoth, Gornek ne s’y
+        oppose pas. Si les aventuriers démontrent que ses incursions proviennent
+        d’un accès condamné et proposent un passage sûr, il peut accepter
+        d’écarter les voyageurs de son territoire.</p>
+
+        <p>En l’absence de solution, il finit par <strong>envoyer des
+        chasseurs</strong> sur le plateau.</p>
+
+        <hr>
+      markdown: ''
+    image:
+      caption: ''
+    video:
+      controls: true
+      volume: 0.5
+      autoplay: false
+      loop: false
+      timestamp: 0
+    src: null
+    system: {}
+    flags: {}
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067327
+      modifiedTime: 1792435067327
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!1JpNMw2R673sTp7C.e1ddf7cb8237e6d9'
+  - _id: 4b129a32474e0991
+    name: 3. La piste de Sarkoth
+    type: text
+    sort: 400000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h2>3. La piste de Sarkoth</h2>
+
+        <h3>Sur le plateau</h3>
+
+        <p><em>À lire aux personnages :</em></p>
+
+        <blockquote>
+
+        <p>Le sentier devient pierreux. Des dalles chauffées par le soleil
+        émergent du sable rouge et de petites crevasses traversent le plateau.
+        Des traces profondes de pinces rejoignent toutes un éboulis récent au
+        pied d’une paroi. Ici et là, des carapaces vides et des restes de
+        petites proies parsèment le sol.</p>
+
+        </blockquote>
+
+        <p>Des scorpides plus jeunes rôdent entre les rochers. Ils peuvent être
+        observés, contournés ou repoussés ; ils n’attaquent pas
+        systématiquement. Des restes de proies abandonnées laissent penser qu’un
+        grand prédateur peine désormais à chasser.</p>
+
+        <h3>Indices à découvrir</h3>
+
+        <table>
+
+        <thead>
+
+        <tr>
+
+        <th>Signe</th>
+
+        <th>Ce qu’il révèle</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+
+        <td>Sarkoth porte une profonde blessure à la pince droite.</td>
+
+        <td>Hana’zua l’a réellement touchée.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Ses traces convergent vers les mêmes rochers.</td>
+
+        <td>Elle cherche quelque chose à cet endroit.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Elle cesse de poursuivre ceux qui s’éloignent des rochers.</td>
+
+        <td>Son comportement est principalement défensif.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>De gros blocs ont été déplacés récemment.</td>
+
+        <td>Des travaux ont modifié le passage.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Les blocs portent des marques répétées de pinces.</td>
+
+        <td>Sarkoth tente de dégager l’ouverture.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Des mues et de petites carapaces sont visibles dans les
+        fissures.</td>
+
+        <td>Des scorpides fréquentent depuis longtemps le secteur.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Des proies mal saisies ont été abandonnées.</td>
+
+        <td>Sa pince blessée gêne sa chasse.</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <p>Les traces, les témoignages et l’exploration permettent de comprendre
+        progressivement la situation. Aucun indice essentiel ne dépend d’un
+        unique test.</p>
+
+        <hr>
+      markdown: ''
+    image:
+      caption: ''
+    video:
+      controls: true
+      volume: 0.5
+      autoplay: false
+      loop: false
+      timestamp: 0
+    src: null
+    system: {}
+    flags: {}
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067327
+      modifiedTime: 1792435067327
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!1JpNMw2R673sTp7C.4b129a32474e0991'
+  - _id: c2a281ee81bf2f4f
+    name: 4. Le passage condamné
+    type: text
+    sort: 500000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h2>4. Le passage condamné</h2>
+
+        <p>Des péons ont récemment bouché une fissure rocheuse pour consolider
+        une piste fréquentée par les recrues et les chariots. Ils ignoraient que
+        cette ouverture menait à <strong>une cavité fraîche où Sarkoth pond et
+        protège ses jeunes</strong>.</p>
+
+        <p>La matriarche cherche depuis un autre accès. Ses déplacements
+        l’amènent près des passages de la Horde, multipliant les rencontres
+        dangereuses. Les péons voulaient simplement stabiliser la piste et
+        craignent désormais qu’on leur demande de défaire leurs travaux.</p>
+
+        <p>Les personnages peuvent examiner l’éboulis, interroger les ouvriers,
+        suivre les pistes et repérer l’ancien refuge grâce aux mues et aux
+        jeunes scorpides.</p>
+
+        <p><strong>Rouvrir la fissure</strong> ou <strong>aménager un passage
+        alternatif</strong> peut éloigner Sarkoth des chemins. Il faut cependant
+        préserver la stabilité de la piste et empêcher les voyageurs de pénétrer
+        dans la zone de ponte. Une entrée dégagée ne rend pas la matriarche
+        inoffensive.</p>
+
+        <hr>
+      markdown: ''
+    image:
+      caption: ''
+    video:
+      controls: true
+      volume: 0.5
+      autoplay: false
+      loop: false
+      timestamp: 0
+    src: null
+    system: {}
+    flags: {}
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067327
+      modifiedTime: 1792435067327
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!1JpNMw2R673sTp7C.c2a281ee81bf2f4f'
+  - _id: 9f5fd5cc149e96cf
+    name: 5. Face à la Mère rouge
+    type: text
+    sort: 600000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h2>5. Face à la Mère rouge</h2>
+
+        <p><em>À lire aux personnages :</em></p>
+
+        <blockquote>
+
+        <p>Un scorpide gigantesque surgit lentement d’entre les rochers. Sa
+        carapace rouge sombre, noircie et entaillée par les saisons, brille sous
+        le soleil. Une profonde cicatrice fend sa pince droite, qui ne se
+        referme plus correctement. La créature pivote vers vous, ouvre sa pince
+        valide et dresse son aiguillon. Elle se place entre vous et l’éboulis,
+        mais ne charge pas immédiatement.</p>
+
+        </blockquote>
+
+        <p>Sarkoth est blessée et particulièrement méfiante, mais ne cherche ni
+        vengeance ni affrontement gratuit. Elle défend l’accès à son ancien
+        refuge.</p>
+
+        <table>
+
+        <thead>
+
+        <tr>
+
+        <th>Action des personnages</th>
+
+        <th>Réaction de Sarkoth</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+
+        <td>Passer à bonne distance</td>
+
+        <td>Elle observe sans poursuivre.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Approcher lentement</td>
+
+        <td>Elle se redresse et menace.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Reculer après la menace</td>
+
+        <td>Elle cesse généralement de les suivre.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Menacer sa pince blessée</td>
+
+        <td>Elle recule ou frappe pour se défendre.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>S’approcher des jeunes ou de l’entrée</td>
+
+        <td>Elle barre le passage puis attaque si l’intrusion persiste.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Déposer de la nourriture</td>
+
+        <td>Elle examine l’offrande avec prudence.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Dégager l’éboulis</td>
+
+        <td>Elle surveille le travail et essaie de rejoindre l’ouverture.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>L’encercler ou la blesser</td>
+
+        <td>Elle combat violemment, protège le refuge ou cherche à
+        s’échapper.</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <p>Les dalles élevées, le sable meuble, les crevasses et les passages
+        étroits peuvent devenir autant de refuges ou d’obstacles pendant la
+        rencontre. De jeunes scorpides peuvent surgir des fissures si leur abri
+        est menacé.</p>
+
+        <h3>La comprendre</h3>
+
+        <p>Sarkoth reconnaît des individus, des gestes répétés, les menaces et
+        les offrandes. Un chasseur patient peut analyser ses réactions. Un
+        chaman, un druide ou tout personnage disposant d’un moyen approprié peut
+        percevoir des intentions et images rudimentaires :</p>
+
+        <blockquote>
+
+        <p><em>Petits — pierre fermée — douleur — passage — danger — reculer —
+        donner.</em></p>
+
+        </blockquote>
+
+        <p>Elle ne comprend ni les lois de la Horde ni la propriété d’une route.
+        Une relation de confiance reste fragile et liée à des actes
+        concrets.</p>
+
+        <hr>
+      markdown: ''
+    image:
+      caption: ''
+    video:
+      controls: true
+      volume: 0.5
+      autoplay: false
+      loop: false
+      timestamp: 0
+    src: null
+    system: {}
+    flags: {}
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067327
+      modifiedTime: 1792435067327
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!1JpNMw2R673sTp7C.9f5fd5cc149e96cf'
+  - _id: 9cac7597bf5ee4dd
+    name: 6. Le venin de Sarkoth
+    type: text
+    sort: 700000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h2>6. Le venin de Sarkoth</h2>
+
+        <p>Le poison brut est extrêmement dangereux. En revanche, <strong>du
+        venin frais correctement préparé et dilué</strong> par un guérisseur ou
+        un alchimiste permet de fabriquer un antivenin capable de sauver
+        Hana’zua.</p>
+
+        <p>Les personnages disposent de plusieurs approches :</p>
+
+        <p><strong>Tuer Sarkoth.</strong> Ils peuvent prélever du venin sur son
+        aiguillon tant qu’il est exploitable et rapporter sa pince comme preuve
+        de sa mort.</p>
+
+        <p><strong>L’immobiliser ou la capturer.</strong> Un piège, un
+        endormissement ou une prise soigneusement préparée peut permettre un
+        prélèvement. Cette méthode est risquée et provoque une réaction violente
+        si la bête se sent menacée.</p>
+
+        <p><strong>Provoquer une piqûre contrôlée.</strong> Un récipient protégé
+        par une membrane ou une pièce de cuir peut recueillir le venin. Il est
+        également possible de chercher une proie tout juste piquée.</p>
+
+        <p><strong>Gagner sa tolérance.</strong> Des offrandes, une approche
+        prudente et la réouverture de son passage peuvent rendre possible un
+        prélèvement limité sans tuer l’Ancienne. Elle n’accorde toutefois aucune
+        garantie de coopération.</p>
+
+        <p>La matière récoltée doit être confiée rapidement à un soigneur
+        compétent. Les prélèvements supplémentaires, s’ils sont possibles,
+        peuvent fournir <strong>une réserve d’antivenin rare</strong>.</p>
+
+        <hr>
+      markdown: ''
+    image:
+      caption: ''
+    video:
+      controls: true
+      volume: 0.5
+      autoplay: false
+      loop: false
+      timestamp: 0
+    src: null
+    system: {}
+    flags: {}
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067327
+      modifiedTime: 1792435067327
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!1JpNMw2R673sTp7C.9cac7597bf5ee4dd'
+  - _id: c6ca968347c799d4
+    name: 7. Si les personnages tardent
+    type: text
+    sort: 800000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h2>7. Si les personnages tardent</h2>
+
+        <p><strong>Hana’zua s’affaiblit.</strong> L’antidote ordinaire ne fait
+        que ralentir les symptômes. Sans venin adapté et sans secours efficace,
+        sa respiration se dégrade puis il succombe.</p>
+
+        <p><strong>Sarkoth s’approche davantage des pistes.</strong> En
+        cherchant à contourner les déblais, elle provoque un incident avec un
+        péon, une recrue ou un chariot.</p>
+
+        <p><strong>Gornek prépare une chasse.</strong> Une troupe est envoyée
+        pour abattre la bête. La confrontation près du refuge peut disperser les
+        jeunes scorpides et rendre d’autres chemins dangereux.</p>
+
+        <p>Même si Hana’zua meurt, les personnages peuvent encore décider de
+        tuer Sarkoth, de déplacer la menace ou de rétablir un équilibre dans le
+        secteur.</p>
+
+        <hr>
+      markdown: ''
+    image:
+      caption: ''
+    video:
+      controls: true
+      volume: 0.5
+      autoplay: false
+      loop: false
+      timestamp: 0
+    src: null
+    system: {}
+    flags: {}
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067327
+      modifiedTime: 1792435067327
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!1JpNMw2R673sTp7C.c6ca968347c799d4'
+  - _id: 448cfa79129aeee6
+    name: 8. Conséquences
+    type: text
+    sort: 900000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h2>8. Conséquences</h2>
+
+        <h3>Sarkoth est tuée</h3>
+
+        <p>Hana’zua peut être sauvé si un venin exploitable est prélevé et
+        préparé à temps. La route redevient immédiatement plus sûre. Les jeunes
+        scorpides, privés de la présence de la matriarche, peuvent se disperser
+        et s’installer près de nouveaux chemins. Hana’zua peut ressentir de la
+        fierté, puis devoir reconnaître que d’autres ont achevé son combat.</p>
+
+        <h3>Sarkoth est chassée</h3>
+
+        <p>L’accès aux routes est dégagé, mais la bête cherche un nouveau
+        refuge. Le danger risque d’être déplacé vers d’autres pistes du sud de
+        Durotar.</p>
+
+        <h3>La fissure est rouverte</h3>
+
+        <p>La matriarche retrouve son site de ponte et fréquente moins les
+        chemins de la Horde. Gornek peut accepter la solution si la circulation
+        est protégée et le refuge respecté. Les aventuriers doivent encore
+        obtenir et faire préparer le venin pour sauver Hana’zua.</p>
+
+        <h3>Une tolérance durable s’établit</h3>
+
+        <p>Sarkoth peut reconnaître les aventuriers et les laisser approcher
+        dans certaines circonstances. Des prélèvements ultérieurs deviennent
+        possibles si elle survit et n’est pas de nouveau menacée. Elle reste une
+        bête sauvage et dangereuse, surtout près de ses jeunes.</p>
+
+        <h3>Hana’zua survit sans vengeance</h3>
+
+        <p>Le Troll doit accepter que son honneur ne dépendait pas
+        nécessairement de la mort de la matriarche. Il peut comprendre qu’il a
+        attaqué une créature sans savoir ce qu’elle défendait.</p>
+
+        <h3>Hana’zua meurt</h3>
+
+        <p>Sa mort peut déclencher des demandes de vengeance. La sécurité de la
+        vallée, le sort du refuge et la valeur du venin restent des enjeux pour
+        les habitants.</p>
+
+        <hr>
+      markdown: ''
+    image:
+      caption: ''
+    video:
+      controls: true
+      volume: 0.5
+      autoplay: false
+      loop: false
+      timestamp: 0
+    src: null
+    system: {}
+    flags: {}
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067327
+      modifiedTime: 1792435067327
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!1JpNMw2R673sTp7C.448cfa79129aeee6'
+  - _id: 21515970bf209b00
+    name: 9. Récompenses et repères MJ
+    type: text
+    sort: 1000000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h2>9. Récompenses possibles</h2>
+
+        <p>Selon leurs actes, les personnages peuvent gagner la
+        <strong>confiance de Gornek</strong>, la <strong>reconnaissance de
+        Hana’zua</strong>, une <strong>réserve d’antivenin de Sarkoth</strong>,
+        la connaissance de <strong>pistes plus sûres</strong> autour du plateau
+        et une bonne réputation auprès de certains chasseurs ou guérisseurs.</p>
+
+        <p>Si Sarkoth survit, les personnages peuvent revenir auprès d’elle ou
+        de sa descendance, sans pouvoir compter sur une docilité permanente.</p>
+
+        <p>Si la valeur de son venin se répand, des marchands et des braconniers
+        peuvent à leur tour chercher à la capturer ou à l’exploiter, provoquant
+        de nouveaux incidents autour du plateau.</p>
+
+        <hr>
+
+        <hr>
+
+        <h2>Repères MJ</h2>
+
+        <table>
+
+        <thead>
+
+        <tr>
+
+        <th>Élément</th>
+
+        <th>Réponse</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+
+        <td><strong>Danger immédiat</strong></td>
+
+        <td>Hana’zua est empoisonné et décline.</td>
+
+        </tr>
+
+        <tr>
+
+        <td><strong>Besoin</strong></td>
+
+        <td>Du venin frais de Sarkoth, préparé en antivenin.</td>
+
+        </tr>
+
+        <tr>
+
+        <td><strong>Demande de Hana’zua</strong></td>
+
+        <td>Tuer Sarkoth et lui rapporter une preuve.</td>
+
+        </tr>
+
+        <tr>
+
+        <td><strong>Priorité de Gornek</strong></td>
+
+        <td>Sauver Hana’zua et sécuriser les chemins.</td>
+
+        </tr>
+
+        <tr>
+
+        <td><strong>Désir de Sarkoth</strong></td>
+
+        <td>Retrouver l’accès à son site de ponte.</td>
+
+        </tr>
+
+        <tr>
+
+        <td><strong>Origine du conflit</strong></td>
+
+        <td>Des péons ont condamné la fissure en renforçant la piste.</td>
+
+        </tr>
+
+        <tr>
+
+        <td><strong>Indices essentiels</strong></td>
+
+        <td>Traces convergentes, pierres rayées, mues et jeunes scorpides.</td>
+
+        </tr>
+
+        <tr>
+
+        <td><strong>Autres solutions</strong></td>
+
+        <td>Capture, prélèvement prudent, observation, accès restauré,
+        tolérance.</td>
+
+        </tr>
+
+        <tr>
+
+        <td><strong>Sans intervention</strong></td>
+
+        <td>Hana’zua faiblit, les incidents augmentent, Gornek envoie des
+        chasseurs.</td>
+
+        </tr>
+
+        <tr>
+
+        <td><strong>Mort de Sarkoth</strong></td>
+
+        <td>Soulagement immédiat, possible dispersion des jeunes scorpides.</td>
+
+        </tr>
+
+        <tr>
+
+        <td><strong>Refuge restauré</strong></td>
+
+        <td>Moins d’incursions, territoire de ponte à respecter.</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+      markdown: ''
+    image:
+      caption: ''
+    video:
+      controls: true
+      volume: 0.5
+      autoplay: false
+      loop: false
+      timestamp: 0
+    src: null
+    system: {}
+    flags: {}
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067327
+      modifiedTime: 1792435067327
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!1JpNMw2R673sTp7C.21515970bf209b00'
+categories: []
+sort: 100000
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792435067327
+  modifiedTime: 1792435067327
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!1JpNMw2R673sTp7C'

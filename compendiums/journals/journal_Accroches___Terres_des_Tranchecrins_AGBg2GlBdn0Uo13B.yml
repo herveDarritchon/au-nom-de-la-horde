@@ -1,0 +1,2518 @@
+name: Accroches — Terres des Tranchecrins
+folder: WO1UdYnBW8r47e2K
+flags:
+  warbound-campaign-content:
+    markdownImport:
+      schema: 1
+      collectionId: durotar-terres-tranchecrins-hooks
+      collectionType: hook
+pages:
+  - name: Contexte
+    type: text
+    sort: 0
+    text:
+      content: >-
+        <h1>Accroches — Terres des Tranchecrins</h1>
+
+        <h2>En bref</h2>
+
+        <p>Les <strong>Terres des Tranchecrins</strong> forment une zone
+        accidentée à l’ouest de Tranchecolline : ravins, roches rouges, taillis
+        secs et passages étroits composent un territoire difficile à surveiller
+        et encore plus difficile à traverser lorsque quelque chose s’y passe
+        mal.</p>
+
+        <p>Les <strong>Tranchecrins</strong>, des quilboars Razormane,
+        constituent la présence dominante connue. Leur empiètement en fait un
+        territoire hostile du point de vue de la Horde, mais cette hostilité ne
+        signifie pas que chaque incident survenant dans les ravins est provoqué
+        par eux.</p>
+
+        <p>Pour le MJ, cette zone doit fonctionner comme une <strong>frontière
+        instable</strong>, pas comme un camp ennemi à nettoyer. Les personnages
+        peuvent y rencontrer des problèmes de circulation, des disparitions, des
+        accidents, des rivalités territoriales, des erreurs d’interprétation,
+        des négociations impossibles en apparence ou des crises mettant
+        simultanément en danger plusieurs camps.</p>
+
+        <h2>Identité</h2>
+
+        <p>Le territoire repose sur cinq repères principaux :</p>
+
+        <ul><li>les <strong>Terres des Tranchecrins</strong>, ensemble de ravins
+        et de reliefs occidentaux ;</li><li>le <strong>Tunnel des
+        Tranchecrins</strong>, passage couvert et point d’embuscade naturel
+        ;</li><li>le <strong>Cratère des Tranchecrins</strong>, dépression
+        centrale propice aux campements et aux déplacements dissimulés
+        ;</li><li>la <strong>Piste des Échineurs</strong>, sentier secondaire
+        traversant les reliefs ;</li><li>la <strong>Grotte des
+        Échineurs</strong>, refuge occidental dont la nature exacte reste à
+        déterminer dans Warbound.</li></ul>
+
+        <h3>Adaptation de campagne</h3>
+
+        <p>Les accroches ci-dessous développent des situations de jeu autour de
+        ce socle. Elles peuvent introduire :</p>
+
+        <ul><li>des voyageurs ;</li><li>des chasseurs ;</li><li>des éclaireurs
+        ;</li><li>des péons ;</li><li>des gardes ;</li><li>des groupes
+        Tranchecrins aux objectifs ponctuellement différents ;</li><li>des
+        incidents naturels ;</li><li>des activités clandestines.</li></ul>
+
+        <p>Ces éléments sont des outils de campagne et ne doivent pas être
+        considérés comme du lore Warcraft officiel.</p>
+
+        <h2>Territoire et lieux importants</h2>
+
+        <table><thead><tr><th>Lieu</th><th>Fonction de
+        jeu</th></tr></thead><tbody><tr><td><strong>Terres des
+        Tranchecrins</strong></td><td>Frontière disputée, exploration, pistage,
+        survie et erreurs d’interprétation.</td></tr><tr><td><strong>Tunnel des
+        Tranchecrins</strong></td><td>Passage stratégique où contrôle
+        territorial, circulation et embuscades se
+        rencontrent.</td></tr><tr><td><strong>Cratère des
+        Tranchecrins</strong></td><td>Zone difficile à observer pouvant abriter
+        camps, rassemblements et mouvements
+        discrets.</td></tr><tr><td><strong>Piste des
+        Échineurs</strong></td><td>Route secondaire pouvant devenir raccourci,
+        voie de fuite ou source de disparitions.</td></tr><tr><td><strong>Grotte
+        des Échineurs</strong></td><td>Lieu mal connu permettant d’introduire
+        exploration et mystère sans fixer prématurément la nature des
+        Échineurs.</td></tr></tbody></table>
+
+        <h2>Tensions utiles au MJ</h2>
+
+        <p>Le territoire peut faire naître du jeu sans qu’une intrigue
+        principale soit nécessaire :</p>
+
+        <ul><li>la Horde veut pouvoir circuler autour de Tranchecolline
+        ;</li><li>les Tranchecrins occupent et défendent une partie du
+        territoire ;</li><li>voyageurs et chasseurs cherchent des raccourcis
+        malgré les risques ;</li><li>les cartes et témoignages sont incomplets
+        ;</li><li>un accident peut facilement être interprété comme une attaque
+        ;</li><li>les intérêts de la Horde ne sont pas toujours identiques entre
+        gardes, travailleurs et voyageurs ;</li><li>les Tranchecrins peuvent
+        eux-mêmes réagir différemment selon ce qui menace leur territoire
+        ;</li><li>l’inconnu entourant les Échineurs nourrit erreurs, mensonges
+        et opportunisme.</li></ul>
+
+        <h2>Utilisation des accroches</h2>
+
+        <p>Ces situations ne sont pas conçues comme vingt missions disponibles
+        simultanément.</p>
+
+        <p>Elles peuvent apparaître :</p>
+
+        <ul><li>pendant un voyage ;</li><li>à la suite d’une rumeur
+        ;</li><li>comme conséquence d’une excursion précédente
+        ;</li><li>lorsqu’un trajet connu change d’état ;</li><li>lorsqu’une
+        faction agit sans attendre les PJ ;</li><li>lorsqu’un retour vers
+        Tranchecolline révèle que la situation locale a évolué.</li></ul>
+
+        <p>Une accroche peut rester petite. Tout incident dans les Terres des
+        Tranchecrins n’a pas besoin de cacher une menace majeure.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-terres-tranchecrins-hooks
+          entryId: context
+          sourceHash: 6ac56716
+    _id: 4G1VwH0dnQ42NZR6
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435071585
+      modifiedTime: 1792435071585
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!AGBg2GlBdn0Uo13B.4G1VwH0dnQ42NZR6'
+  - name: Le tunnel est fermé
+    type: text
+    sort: 100000
+    text:
+      content: >-
+        <h2>Le tunnel est fermé</h2>
+
+        <h3>Situation</h3>
+
+        <p>Plusieurs voyageurs reviennent vers Tranchecolline après avoir
+        renoncé à traverser le Tunnel des Tranchecrins. Certains parlent d’un
+        éboulement, d’autres de barricades, d’autres encore affirment avoir
+        aperçu des silhouettes derrière les rochers.</p>
+
+        <p>Le résultat est le même : un passage jusque-là dangereux mais
+        utilisable est devenu impraticable.</p>
+
+        <h3>Qui ?</h3>
+
+        <ul><li><strong>Voyageurs et chasseurs</strong> : veulent retrouver un
+        itinéraire praticable.</li><li><strong>Gardes de la Horde</strong> :
+        veulent savoir si la fermeture annonce une action
+        hostile.</li><li><strong>Tranchecrins du secteur</strong> : veulent
+        empêcher l’utilisation du tunnel.</li><li><strong>Usagers des routes
+        occidentales</strong> : subissent les détours et leurs
+        conséquences.</li></ul>
+
+        <h3>Quoi ?</h3>
+
+        <p>Un éboulement partiel a réellement endommagé le tunnel.</p>
+
+        <p><strong>Adaptation de campagne :</strong> les Tranchecrins ont
+        ensuite exploité l’accident en renforçant les obstacles naturels. Ils
+        n’ont pas provoqué l’effondrement initial, contrairement à ce que
+        beaucoup supposent.</p>
+
+        <p>Le passage peut encore être franchi, dégagé ou contourné, mais aucune
+        option n’est simple.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>L’effondrement est récent.</p>
+
+        <p>La situation devient visible parce que plusieurs groupes arrivent
+        simultanément aux abords du tunnel et commencent à chercher des
+        alternatives.</p>
+
+        <p>Sans décision rapide, les détours improvisés créeront de nouveaux
+        incidents.</p>
+
+        <h3>Où ?</h3>
+
+        <ul><li>entrée orientale du Tunnel ;</li><li>entrée occidentale
+        ;</li><li>hauteurs permettant d’observer le passage ;</li><li>ravins
+        permettant éventuellement de contourner l’obstacle.</li></ul>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Les Tranchecrins utilisent un changement du terrain pour renforcer
+        leur contrôle sans devoir défendre eux-mêmes chaque mètre du
+        passage.</p>
+
+        <p>La Horde interprète naturellement cette exploitation comme la preuve
+        que l’effondrement était volontaire.</p>
+
+        <h3>Portes d'entrée</h3>
+
+        <ul><li>Les PJ arrivent devant une file de voyageurs incapables de
+        poursuivre.</li><li>Un garde cherche à comprendre pourquoi plus personne
+        ne revient par le tunnel.</li><li>Les PJ doivent eux-mêmes choisir entre
+        le tunnel et un détour inconnu.</li><li>Une rumeur affirme que les
+        Tranchecrins ont détruit le passage.</li></ul>
+
+        <h3>Approches possibles</h3>
+
+        <p>Observer le tunnel, chercher un détour, dégager une partie de
+        l’éboulement, négocier un passage, espionner les positions Tranchecrins
+        ou décider que le tunnel ne mérite plus d’être utilisé.</p>
+
+        <h3>Complication</h3>
+
+        <p>Dégager brutalement l’éboulement risque de provoquer un nouvel
+        effondrement plus grave et de condamner définitivement le passage.</p>
+
+        <h3>Si les PJ ne font rien</h3>
+
+        <p>Les voyageurs créent plusieurs itinéraires improvisés. Certains
+        fonctionnent, d’autres exposent davantage les déplacements de la Horde
+        aux occupants du territoire.</p>
+
+        <p>Le tunnel cesse progressivement d’être la route normale.</p>
+
+        <h3>Conséquences possibles</h3>
+
+        <ul><li>Le tunnel redevient praticable mais reste disputé.</li><li>Un
+        nouveau raccourci est découvert.</li><li>Les Tranchecrins obtiennent le
+        contrôle durable du passage.</li><li>Une tentative de dégagement aggrave
+        l’effondrement.</li><li>Une forme d’accord tacite établit des périodes
+        ou conditions de passage.</li></ul>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-terres-tranchecrins-hooks
+          entryId: tunnel-ferme
+          sourceHash: 5b400521
+    _id: cG6jA9NPsETe9BW3
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435071585
+      modifiedTime: 1792435071585
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!AGBg2GlBdn0Uo13B.cG6jA9NPsETe9BW3'
+  - name: Trois disparus, trois directions
+    type: text
+    sort: 200000
+    text:
+      content: >-
+        <h2>Trois disparus, trois directions</h2>
+
+        <h3>Situation</h3>
+
+        <p>Trois personnes ayant traversé la même partie des Terres des
+        Tranchecrins manquent à l’appel.</p>
+
+        <p>Le problème paraît d’abord simple jusqu’à ce que les premières traces
+        soient découvertes : elles ne conduisent pas toutes dans la même
+        direction.</p>
+
+        <h3>Qui ?</h3>
+
+        <ul><li><strong>Les disparus</strong> : un voyageur, un chasseur et un
+        travailleur ayant emprunté le secteur séparément.</li><li><strong>Leurs
+        proches</strong> : veulent des réponses, mais chacun possède sa propre
+        théorie.</li><li><strong>Les gardes</strong> : veulent déterminer s’il
+        existe une menace commune.</li><li><strong>Les Tranchecrins
+        locaux</strong> : sont immédiatement soupçonnés.</li></ul>
+
+        <h3>Quoi ?</h3>
+
+        <p>Les trois disparitions ne possèdent pas une cause unique.</p>
+
+        <p><strong>Adaptation de campagne :</strong> l’un s’est perdu après
+        avoir quitté la piste, le deuxième a volontairement changé d’itinéraire,
+        et seul le troisième a réellement rencontré une opposition hostile.</p>
+
+        <p>Chercher un responsable unique risque donc d’éloigner les recherches
+        de deux des disparus.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>Les disparitions se sont produites sur quelques jours.</p>
+
+        <p>Leur rapprochement récent donne l’impression d’une série
+        organisée.</p>
+
+        <p>Plus le temps passe, plus les traces deviennent difficiles à
+        distinguer.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Plusieurs ravins autour d’un même carrefour naturel, avec des pistes
+        pouvant conduire vers le Cratère, le Tunnel ou l’ouest.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>La proximité géographique crée une fausse cohérence.</p>
+
+        <p>Chacun projette sur les trois cas son explication préférée : attaque,
+        accident ou enlèvement.</p>
+
+        <h3>Portes d'entrée</h3>
+
+        <ul><li>Des proches se disputent publiquement sur la marche à
+        suivre.</li><li>Les PJ découvrent un objet appartenant à l’un des
+        disparus.</li><li>Un garde leur montre trois ensembles de traces
+        incompatibles.</li><li>Ils rencontrent eux-mêmes l’un des disparus sans
+        savoir qu’il est recherché.</li></ul>
+
+        <h3>Approches possibles</h3>
+
+        <p>Reconstituer séparément chaque trajet, interroger les témoins, suivre
+        les traces, explorer les ravins ou concentrer les efforts sur la
+        personne paraissant la plus menacée.</p>
+
+        <h3>Complication</h3>
+
+        <p>Résoudre rapidement l’un des cas risque de renforcer à tort l’idée
+        que les trois disparitions ont la même origine.</p>
+
+        <h3>Si les PJ ne font rien</h3>
+
+        <p>Des recherches mal coordonnées commencent depuis Tranchecolline. Des
+        groupes suivent les mauvaises pistes et ajoutent de nouvelles personnes
+        en difficulté dans le secteur.</p>
+
+        <h3>Conséquences possibles</h3>
+
+        <ul><li>Les trois situations sont comprises séparément.</li><li>Une
+        seule personne est retrouvée à temps.</li><li>Les gardes déclenchent une
+        réponse contre les Tranchecrins sur la base d’une conclusion
+        erronée.</li><li>Les recherches révèlent de nouveaux itinéraires dans
+        les ravins.</li><li>Un des disparus choisit finalement de ne pas
+        revenir.</li></ul>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-terres-tranchecrins-hooks
+          entryId: trois-disparus
+          sourceHash: 9fb77fb2
+    _id: YH1kZAoHViTcqSSn
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435071585
+      modifiedTime: 1792435071585
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!AGBg2GlBdn0Uo13B.YH1kZAoHViTcqSSn'
+  - name: La frontière de pieux
+    type: text
+    sort: 300000
+    text:
+      content: >-
+        <h2>La frontière de pieux</h2>
+
+        <h3>Situation</h3>
+
+        <p>Des pieux, amas de branches et marques apparaissent progressivement
+        près des passages fréquentés à l’ouest de Tranchecolline.</p>
+
+        <p>Chaque matin semble repousser un peu plus loin la limite implicite du
+        territoire Tranchecrin.</p>
+
+        <h3>Qui ?</h3>
+
+        <ul><li><strong>Tranchecrins locaux</strong> : veulent matérialiser un
+        espace qu’ils considèrent comme leur territoire.</li><li><strong>Gardes
+        de Tranchecolline</strong> : voient une avancée
+        hostile.</li><li><strong>Voyageurs et chasseurs</strong> : veulent
+        conserver leurs itinéraires habituels.</li><li><strong>Travailleurs de
+        la Horde</strong> : risquent de perdre l’accès à certains
+        secteurs.</li></ul>
+
+        <h3>Quoi ?</h3>
+
+        <p>Les marques sont intentionnelles.</p>
+
+        <p><strong>Adaptation de campagne :</strong> elles ne préparent pas
+        nécessairement une attaque. Les Tranchecrins répondent à l’augmentation
+        du passage de membres de la Horde en créant une limite visible.</p>
+
+        <p>Le problème vient du fait que cette limite empiète sur des chemins
+        déjà utilisés.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>Les premières marques sont apparues récemment.</p>
+
+        <p>La tension augmente à mesure que gardes et Tranchecrins déplacent ou
+        détruisent mutuellement les signes.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Sur plusieurs passages orientaux des Terres des Tranchecrins.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Deux groupes utilisent le même espace sans partager la même
+        définition de la frontière.</p>
+
+        <p>Chaque déplacement de marque est interprété comme une provocation
+        plutôt que comme une réponse au mouvement précédent.</p>
+
+        <h3>Portes d'entrée</h3>
+
+        <ul><li>Les PJ trouvent un passage habituel barré.</li><li>Des gardes
+        détruisent publiquement plusieurs pieux.</li><li>Un chasseur explique
+        que les marques étaient hier plusieurs dizaines de mètres plus
+        loin.</li><li>Une patrouille prépare une démonstration de
+        force.</li></ul>
+
+        <h3>Approches possibles</h3>
+
+        <p>Observer l’évolution des marques, chercher à comprendre leur logique,
+        ouvrir une négociation, déplacer un itinéraire, soutenir l’un des camps
+        ou laisser l’escalade suivre son cours.</p>
+
+        <h3>Complication</h3>
+
+        <p>Certaines marques ont été déplacées par des voyageurs cherchant
+        simplement à préserver leur raccourci, ce qui donne aux deux camps une
+        lecture fausse de la progression adverse.</p>
+
+        <h3>Si les PJ ne font rien</h3>
+
+        <p>Les destructions de marques se multiplient. Une altercation finit par
+        provoquer des blessés et transforme une dispute de limites en véritable
+        affrontement.</p>
+
+        <h3>Conséquences possibles</h3>
+
+        <ul><li>Une frontière temporaire est reconnue.</li><li>Un chemin change
+        définitivement de contrôle.</li><li>La Horde impose le passage par la
+        force.</li><li>Les Tranchecrins ferment plusieurs accès en
+        représailles.</li><li>Les deux camps découvrent que certains incidents
+        étaient causés par des tiers.</li></ul>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-terres-tranchecrins-hooks
+          entryId: frontiere-de-pieux
+          sourceHash: b243447a
+    _id: RLJyzBpta1vE2wzP
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435071585
+      modifiedTime: 1792435071585
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!AGBg2GlBdn0Uo13B.RLJyzBpta1vE2wzP'
+  - name: Le camp du cratère
+    type: text
+    sort: 400000
+    text:
+      content: >-
+        <h2>Le camp du cratère</h2>
+
+        <h3>Situation</h3>
+
+        <p>Des feux sont observés plusieurs nuits de suite dans le Cratère des
+        Tranchecrins.</p>
+
+        <p>Cette fois, ils sont plus nombreux et restent visibles plus
+        longtemps. À Tranchecolline, certains parlent déjà d’un rassemblement
+        précédant une attaque.</p>
+
+        <h3>Qui ?</h3>
+
+        <ul><li><strong>Tranchecrins rassemblés dans le Cratère</strong> :
+        veulent utiliser la dépression comme camp
+        temporaire.</li><li><strong>Éclaireurs de la Horde</strong> : cherchent
+        à mesurer la menace.</li><li><strong>Habitants de
+        Tranchecolline</strong> : craignent une
+        offensive.</li><li><strong>Groupes Tranchecrins extérieurs au
+        camp</strong> : ne soutiennent pas nécessairement les mêmes
+        décisions.</li></ul>
+
+        <h3>Quoi ?</h3>
+
+        <p><strong>Adaptation de campagne :</strong> plusieurs groupes
+        Tranchecrins se sont regroupés temporairement après la perte ou
+        l’abandon d’un autre site.</p>
+
+        <p>Ce rassemblement est réel et potentiellement dangereux, mais il ne
+        constitue pas automatiquement une armée prête à marcher sur
+        Tranchecolline.</p>
+
+        <p>Des désaccords existent sur la conduite à adopter face à la
+        Horde.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>Le camp grandit depuis plusieurs jours.</p>
+
+        <p>Il ne pourra pas rester indéfiniment dans le Cratère sans poser des
+        problèmes de ressources et d’organisation.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Dans le Cratère, avec des postes d’observation sur les hauteurs et
+        plusieurs accès dissimulés par le relief.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Le Cratère offre un lieu protégé permettant de réunir plusieurs
+        groupes sans exposer immédiatement leur nombre.</p>
+
+        <p>La Horde ne voit que les feux et interprète le reste.</p>
+
+        <h3>Portes d'entrée</h3>
+
+        <ul><li>Des éclaireurs demandent du renfort après avoir compté les
+        feux.</li><li>Les PJ aperçoivent eux-mêmes le camp depuis une
+        hauteur.</li><li>Des voyageurs modifient leur route par peur du
+        rassemblement.</li><li>Un petit groupe Tranchecrin quitte le Cratère
+        précipitamment.</li></ul>
+
+        <h3>Approches possibles</h3>
+
+        <p>Observer, infiltrer, suivre ceux qui quittent le camp, chercher un
+        contact, préparer la défense de Tranchecolline ou provoquer une
+        dispersion avant que le rassemblement ne grossisse.</p>
+
+        <h3>Complication</h3>
+
+        <p>Une intervention agressive pourrait précisément convaincre les
+        différents groupes Tranchecrins de s’unir contre une menace commune.</p>
+
+        <h3>Si les PJ ne font rien</h3>
+
+        <p>Le rassemblement finit par devoir choisir entre dispersion,
+        déplacement ou action commune.</p>
+
+        <p>La décision dépendra de la pression exercée autour du territoire.</p>
+
+        <h3>Conséquences possibles</h3>
+
+        <ul><li>Le camp se disperse sans combat.</li><li>Une faction Tranchecrin
+        prend l’ascendant sur les autres.</li><li>Une attaque préventive crée
+        l’unité que la Horde redoutait.</li><li>Une observation patiente révèle
+        les divisions internes.</li><li>Le Cratère devient durablement un centre
+        d’activité.</li></ul>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-terres-tranchecrins-hooks
+          entryId: camp-du-cratere
+          sourceHash: 43c88948
+    _id: 3IKdbrFfFAkNMQqq
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435071585
+      modifiedTime: 1792435071585
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!AGBg2GlBdn0Uo13B.3IKdbrFfFAkNMQqq'
+  - name: L’eau rouge
+    type: text
+    sort: 500000
+    text:
+      content: >-
+        <h2>L’eau rouge</h2>
+
+        <h3>Situation</h3>
+
+        <p>Plusieurs voyageurs souffrent de douleurs et de fièvre après avoir bu
+        dans un petit point d’eau situé dans les ravins.</p>
+
+        <p>L’un d’eux affirme avoir vu des traces Tranchecrins autour de la
+        mare. Le mot « poison » commence à circuler.</p>
+
+        <h3>Qui ?</h3>
+
+        <ul><li><strong>Voyageurs malades</strong> : veulent être soignés et
+        comprendre ce qui leur est arrivé.</li><li><strong>Gardes</strong> :
+        soupçonnent un empoisonnement volontaire.</li><li><strong>Tranchecrins
+        fréquentant le secteur</strong> : utilisent eux aussi les ressources
+        locales.</li><li><strong>Chasseurs</strong> : savent que les points
+        d’eau peuvent devenir dangereux naturellement.</li></ul>
+
+        <h3>Quoi ?</h3>
+
+        <p><strong>Adaptation de campagne :</strong> l’eau a été contaminée par
+        un phénomène naturel lié à une carcasse ou à des matières organiques
+        accumulées en amont.</p>
+
+        <p>Les traces Tranchecrins sont réelles parce qu’ils utilisaient eux
+        aussi cette eau auparavant.</p>
+
+        <p>Ils ont cessé de le faire avant que les voyageurs ne comprennent
+        pourquoi.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>Le problème est récent et temporaire, mais les premiers malades
+        donnent l’impression d’un acte prémédité.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Un point d’eau encaissé et les ravins situés en amont.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Dans une frontière hostile, une contamination devient facilement une
+        attaque.</p>
+
+        <p>Les Tranchecrins n’ont aucun intérêt à expliquer pourquoi ils ont
+        abandonné une ressource locale à leurs adversaires.</p>
+
+        <h3>Portes d'entrée</h3>
+
+        <ul><li>Les PJ rencontrent un malade sur la route.</li><li>Un garde veut
+        fermer l’accès au secteur.</li><li>Un guérisseur cherche à savoir ce que
+        les victimes ont consommé.</li><li>Les PJ découvrent que les traces
+        Tranchecrins s’arrêtent avant le point d’eau.</li></ul>
+
+        <h3>Approches possibles</h3>
+
+        <p>Remonter la source, étudier les traces, interroger les survivants,
+        observer le comportement des animaux ou utiliser politiquement
+        l’incident contre l’un des camps.</p>
+
+        <h3>Complication</h3>
+
+        <p>Une patrouille est déjà partie chercher les responsables d’un
+        empoisonnement qui n’a jamais eu lieu.</p>
+
+        <h3>Si les PJ ne font rien</h3>
+
+        <p>D’autres voyageurs tombent malades jusqu’à ce que la ressource soit
+        abandonnée. La Horde retient surtout l’idée d’une attaque
+        Tranchecrin.</p>
+
+        <h3>Conséquences possibles</h3>
+
+        <ul><li>La véritable cause est comprise.</li><li>Une accusation
+        injustifiée provoque des représailles.</li><li>Le point d’eau est
+        condamné.</li><li>Les PJ découvrent d’autres ressources plus
+        sûres.</li><li>Certains refusent de croire l’explication
+        naturelle.</li></ul>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-terres-tranchecrins-hooks
+          entryId: eau-rouge
+          sourceHash: 45f0ef4c
+    _id: 3SugdakFNZ3KKp2W
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435071585
+      modifiedTime: 1792435071585
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!AGBg2GlBdn0Uo13B.3SugdakFNZ3KKp2W'
+  - name: Pris entre deux feux
+    type: text
+    sort: 600000
+    text:
+      content: >-
+        <h2>Pris entre deux feux</h2>
+
+        <h3>Situation</h3>
+
+        <p>Le Tunnel des Tranchecrins est actuellement occupé aux deux
+        extrémités.</p>
+
+        <p>Un groupe de voyageurs s’est retranché du côté oriental tandis que
+        des Tranchecrins contrôlent l’autre accès. Chacun affirme que l’autre a
+        commencé.</p>
+
+        <h3>Qui ?</h3>
+
+        <ul><li><strong>Voyageurs bloqués</strong> : veulent sortir sans
+        abandonner leurs biens.</li><li><strong>Tranchecrins</strong> : veulent
+        faire quitter le tunnel aux intrus.</li><li><strong>Autres
+        usagers</strong> : s’accumulent progressivement devant les
+        accès.</li><li><strong>Gardes de la Horde</strong> : peuvent transformer
+        l’incident en confrontation militaire.</li></ul>
+
+        <h3>Quoi ?</h3>
+
+        <p>Les voyageurs ont utilisé une alcôve du tunnel comme abri après avoir
+        cru l’entrée occidentale abandonnée.</p>
+
+        <p>Les Tranchecrins considèrent cette occupation comme une tentative
+        d’installation.</p>
+
+        <p>Aucun camp ne veut être le premier à reculer.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>La situation dure depuis plusieurs heures.</p>
+
+        <p>La tension augmente avec l’arrivée de nouveaux témoins et
+        combattants.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Dans le Tunnel et ses deux entrées.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Un simple choix d’abri a été interprété comme une violation
+        territoriale.</p>
+
+        <p>Désormais, la question du prestige compte presque autant que la
+        sécurité.</p>
+
+        <h3>Portes d'entrée</h3>
+
+        <ul><li>Les PJ arrivent devant l’un des accès bloqués.</li><li>Un
+        voyageur réussit à sortir par un passage étroit et raconte sa
+        version.</li><li>Une patrouille prépare une entrée en force.</li><li>Les
+        PJ entendent des cris venant du tunnel.</li></ul>
+
+        <h3>Approches possibles</h3>
+
+        <p>Négocier, évacuer discrètement les voyageurs, utiliser un autre
+        accès, faire pression sur un camp, créer une diversion ou attendre qu’un
+        des groupes manque de ressources.</p>
+
+        <h3>Complication</h3>
+
+        <p>Parmi les voyageurs se trouve quelqu’un qui refuse d’abandonner une
+        cargaison volumineuse, rendant toute évacuation discrète beaucoup plus
+        difficile.</p>
+
+        <h3>Si les PJ ne font rien</h3>
+
+        <p>Des renforts arrivent des deux côtés. Un incident initialement mineur
+        finit probablement en affrontement.</p>
+
+        <h3>Conséquences possibles</h3>
+
+        <ul><li>Les voyageurs évacuent sans combat.</li><li>La cargaison est
+        abandonnée comme prix du passage.</li><li>Le tunnel devient
+        temporairement fermé aux voyageurs.</li><li>Une confrontation crée
+        plusieurs victimes.</li><li>Un précédent de négociation est
+        établi.</li></ul>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-terres-tranchecrins-hooks
+          entryId: pris-entre-deux-feux
+          sourceHash: 6ab8ea4f
+    _id: lQYgLE4PIv8GH1HD
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435071585
+      modifiedTime: 1792435071585
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!AGBg2GlBdn0Uo13B.lQYgLE4PIv8GH1HD'
+  - name: Le raccourci des marchands
+    type: text
+    sort: 700000
+    text:
+      content: >-
+        <h2>Le raccourci des marchands</h2>
+
+        <h3>Situation</h3>
+
+        <p>Quelques voyageurs commencent à emprunter la Piste des Échineurs pour
+        raccourcir leurs trajets.</p>
+
+        <p>Le gain de temps est réel. Les incidents aussi.</p>
+
+        <p>Pourtant, ceux qui profitent du raccourci refusent de
+        l’abandonner.</p>
+
+        <h3>Qui ?</h3>
+
+        <ul><li><strong>Voyageurs et petits marchands</strong> : veulent réduire
+        les détours.</li><li><strong>Guides improvisés</strong> : commencent à
+        faire payer leur connaissance de la
+        piste.</li><li><strong>Gardes</strong> : préfèrent concentrer la
+        circulation sur les routes connues.</li><li><strong>Occupants du
+        territoire</strong> : voient augmenter le nombre d’étrangers.</li></ul>
+
+        <h3>Quoi ?</h3>
+
+        <p><strong>Adaptation de campagne :</strong> la piste constitue
+        réellement un raccourci dans certaines conditions.</p>
+
+        <p>Le danger vient moins d’une menace unique que de son succès croissant
+        : plus elle est utilisée, plus elle attire de personnes inexpérimentées
+        et plus elle devient visible.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>Le phénomène est récent et s’accélère à mesure que la réputation du
+        raccourci se répand.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Sur la Piste des Échineurs et ses accès orientaux.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Le temps gagné possède une valeur concrète.</p>
+
+        <p>Personne n’a besoin d’être malveillant pour qu’un raccourci rentable
+        crée progressivement un nouveau problème territorial.</p>
+
+        <h3>Portes d'entrée</h3>
+
+        <ul><li>Les PJ croisent plusieurs voyageurs empruntant une route réputée
+        hostile.</li><li>Un guide propose de leur vendre le passage.</li><li>Des
+        gardes discutent de fermer l’accès.</li><li>Une cargaison arrive à
+        Tranchecolline bien plus tôt que prévu.</li></ul>
+
+        <h3>Approches possibles</h3>
+
+        <p>Tester le raccourci, cartographier ses dangers, protéger un groupe,
+        convaincre les voyageurs de l’éviter, réglementer son usage ou garder le
+        passage secret.</p>
+
+        <h3>Complication</h3>
+
+        <p>Un guide commence à exagérer sa connaissance de la piste afin
+        d’attirer davantage de clients.</p>
+
+        <h3>Si les PJ ne font rien</h3>
+
+        <p>Le trafic augmente jusqu’à provoquer un accident grave ou une
+        réaction des occupants du territoire.</p>
+
+        <h3>Conséquences possibles</h3>
+
+        <ul><li>La piste devient un itinéraire connu.</li><li>Elle reste un
+        secret partagé par quelques initiés.</li><li>Les gardes la
+        ferment.</li><li>Des voyageurs cessent de faire confiance aux
+        guides.</li><li>Son utilisation modifie l’équilibre local.</li></ul>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-terres-tranchecrins-hooks
+          entryId: raccourci-des-marchands
+          sourceHash: cd1d02bf
+    _id: FXsf9GbG9Gi7AqZj
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435071585
+      modifiedTime: 1792435071585
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!AGBg2GlBdn0Uo13B.FXsf9GbG9Gi7AqZj'
+  - name: Le blessé dans les taillis
+    type: text
+    sort: 800000
+    text:
+      content: >-
+        <h2>Le blessé dans les taillis</h2>
+
+        <h3>Situation</h3>
+
+        <p>Un Tranchecrin grièvement blessé est découvert caché dans des taillis
+        proches d’un passage fréquenté.</p>
+
+        <p>Il est encore vivant.</p>
+
+        <p>Des voix et bruits d’armes approchent depuis le ravin voisin.</p>
+
+        <h3>Qui ?</h3>
+
+        <ul><li><strong>Le blessé</strong> : veut survivre et éviter ceux qui le
+        poursuivent.</li><li><strong>Ses poursuivants</strong> : veulent le
+        retrouver.</li><li><strong>Voyageurs de la Horde</strong> : peuvent voir
+        en lui un ennemi à capturer ou achever.</li><li><strong>Les PJ</strong>
+        : sont les premiers à disposer de toute la situation
+        immédiate.</li></ul>
+
+        <h3>Quoi ?</h3>
+
+        <p><strong>Adaptation de campagne :</strong> le blessé fuit un conflit
+        interne ponctuel entre Tranchecrins.</p>
+
+        <p>Il n’est ni un allié de la Horde ni nécessairement innocent. Son
+        différend concerne son propre groupe.</p>
+
+        <p>Ses poursuivants ignorent initialement qu’il a été trouvé par des
+        étrangers.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>La poursuite vient de se produire.</p>
+
+        <p>Les poursuivants atteindront rapidement le secteur.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Dans des taillis proches d’un ravin donnant accès à plusieurs
+        directions.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Tous les Tranchecrins ne poursuivent pas en permanence les mêmes
+        objectifs individuels.</p>
+
+        <p>Le conflit offre aux PJ une situation où « ennemi » ne signifie pas
+        automatiquement « problème à éliminer ».</p>
+
+        <h3>Portes d'entrée</h3>
+
+        <ul><li>Les PJ découvrent directement le blessé.</li><li>Ils remarquent
+        des traces de sang quittant une piste Tranchecrin.</li><li>Des
+        poursuivants les interrogent sur ce qu’ils ont vu.</li><li>Un voyageur
+        affirme avoir aperçu un quilboar rampant dans les taillis.</li></ul>
+
+        <h3>Approches possibles</h3>
+
+        <p>Cacher le blessé, le livrer, le soigner, l’interroger, négocier avec
+        les poursuivants, rester neutre ou simplement quitter les lieux.</p>
+
+        <h3>Complication</h3>
+
+        <p>Le blessé omet volontairement la raison exacte pour laquelle il est
+        poursuivi.</p>
+
+        <p>Il cherche d’abord à survivre, pas à fournir aux PJ une version
+        équilibrée du conflit.</p>
+
+        <h3>Si les PJ ne font rien</h3>
+
+        <p>Les poursuivants finissent probablement par le retrouver.</p>
+
+        <p>Le conflit interne se règle sans implication extérieure.</p>
+
+        <h3>Conséquences possibles</h3>
+
+        <ul><li>Les PJ obtiennent un contact inattendu parmi les
+        Tranchecrins.</li><li>Ils deviennent associés à un conflit qui ne les
+        concernait pas.</li><li>Le blessé est capturé.</li><li>Les poursuivants
+        interprètent leur intervention comme une ingérence.</li><li>Les PJ
+        apprennent quelque chose sur les divisions locales sans choisir de
+        camp.</li></ul>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-terres-tranchecrins-hooks
+          entryId: blesse-dans-les-taillis
+          sourceHash: 29ead56e
+    _id: Nnm7s2UggtJ9Hm75
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435071585
+      modifiedTime: 1792435071585
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!AGBg2GlBdn0Uo13B.Nnm7s2UggtJ9Hm75'
+  - name: Les cairns déplacés
+    type: text
+    sort: 900000
+    text:
+      content: >-
+        <h2>Les cairns déplacés</h2>
+
+        <h3>Situation</h3>
+
+        <p>Les petits empilements de pierres utilisés comme repères dans les
+        ravins ne mènent plus aux mêmes passages.</p>
+
+        <p>Plusieurs voyageurs se sont égarés et certains accusent déjà les
+        Tranchecrins de modifier volontairement les indications.</p>
+
+        <h3>Qui ?</h3>
+
+        <ul><li><strong>Voyageurs habitués au secteur</strong> : veulent
+        retrouver leurs repères.</li><li><strong>Nouveaux voyageurs</strong> :
+        suivent aveuglément les cairns.</li><li><strong>Un utilisateur régulier
+        de la piste</strong> : déplace certains repères pour protéger son propre
+        itinéraire.</li><li><strong>Tranchecrins</strong> : sont accusés sans
+        preuve.</li></ul>
+
+        <h3>Quoi ?</h3>
+
+        <p>Les cairns n'appartiennent pas à un système unique.</p>
+
+        <p><strong>Adaptation de campagne :</strong> un voyageur expérimenté a
+        commencé à déplacer certains repères parce que le passage qu’ils
+        signalaient mène désormais trop près d’une zone dangereuse.</p>
+
+        <p>Il pense protéger les autres mais n’a prévenu personne.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>Les modifications ont commencé récemment après un changement d’état
+        d’un des passages.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Aux bifurcations reliant les ravins orientaux à la Piste des
+        Échineurs.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Un système informel fonctionne tant que tout le monde partage
+        implicitement les mêmes habitudes.</p>
+
+        <p>Une modification bien intentionnée suffit à transformer l’ensemble en
+        piège.</p>
+
+        <h3>Portes d'entrée</h3>
+
+        <ul><li>Les PJ suivent un cairn et arrivent au mauvais
+        endroit.</li><li>Des voyageurs reviennent furieux après s’être
+        perdus.</li><li>Un chasseur remarque qu’un empilement a été reconstruit
+        différemment.</li><li>Un garde veut détruire tous les cairns.</li></ul>
+
+        <h3>Approches possibles</h3>
+
+        <p>Cartographier les repères, identifier celui qui les déplace, établir
+        un système commun, supprimer les cairns ou accepter qu’un réseau
+        informel reste volontairement ambigu.</p>
+
+        <h3>Complication</h3>
+
+        <p>Certains repères ont également été déplacés par le vent, des animaux
+        ou d’autres voyageurs. Tous les changements n’ont donc pas le même
+        responsable.</p>
+
+        <h3>Si les PJ ne font rien</h3>
+
+        <p>Les cairns perdent leur crédibilité. Les voyageurs créent chacun
+        leurs propres marques, rendant la navigation encore plus confuse.</p>
+
+        <h3>Conséquences possibles</h3>
+
+        <ul><li>Un système fiable de repérage apparaît.</li><li>Les cairns
+        disparaissent.</li><li>Le passage dangereux est identifié.</li><li>Le
+        responsable est injustement traité comme saboteur.</li><li>Les PJ
+        acquièrent leur propre connaissance fiable du terrain.</li></ul>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-terres-tranchecrins-hooks
+          entryId: cairns-deplaces
+          sourceHash: e329a535
+    _id: YZEODEEckuHSyQlA
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435071585
+      modifiedTime: 1792435071585
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!AGBg2GlBdn0Uo13B.YZEODEEckuHSyQlA'
+  - name: Quelqu’un occupe la grotte
+    type: text
+    sort: 1000000
+    text:
+      content: >-
+        <h2>Quelqu’un occupe la grotte</h2>
+
+        <h3>Situation</h3>
+
+        <p>Des traces récentes apparaissent autour de la Grotte des Échineurs :
+        passages répétés, branches déplacées et restes d’activité.</p>
+
+        <p>Les descriptions des rares témoins sont incompatibles.</p>
+
+        <h3>Qui ?</h3>
+
+        <ul><li><strong>Chasseurs et voyageurs</strong> : veulent savoir si le
+        passage voisin reste praticable.</li><li><strong>Occupants actuels de la
+        grotte</strong> : nature volontairement indépendante de la définition
+        future des Échineurs.</li><li><strong>Curieux de Tranchecolline</strong>
+        : alimentent les hypothèses.</li><li><strong>Tranchecrins du
+        secteur</strong> : peuvent eux aussi surveiller le changement.</li></ul>
+
+        <h3>Quoi ?</h3>
+
+        <p><strong>Adaptation de campagne :</strong> un petit groupe de
+        voyageurs clandestins utilise temporairement l’entrée extérieure de la
+        grotte comme refuge.</p>
+
+        <p>Ils évitent de pénétrer profondément dans les galeries et
+        entretiennent volontairement les histoires sur les Échineurs pour
+        éloigner les curieux.</p>
+
+        <p>La nature réelle des Échineurs reste entièrement non définie.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>L’occupation a commencé récemment.</p>
+
+        <p>Elle devient visible parce que le nombre de passages autour de la
+        grotte augmente.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Aux abords et dans la première partie de la Grotte des Échineurs.</p>
+
+        <p>Les profondeurs peuvent rester inconnues.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Un lieu déjà réputé dangereux constitue un excellent refuge pour ceux
+        qui souhaitent ne pas être dérangés.</p>
+
+        <h3>Portes d'entrée</h3>
+
+        <ul><li>Les PJ découvrent des traces humaines ou humanoïdes près de la
+        grotte.</li><li>Un voyageur affirme avoir vu une lumière à
+        l’intérieur.</li><li>Des affaires disparaissent sur la Piste des
+        Échineurs.</li><li>Les Tranchecrins paraissent surveiller eux aussi
+        l’entrée.</li></ul>
+
+        <h3>Approches possibles</h3>
+
+        <p>Observer, attendre la sortie des occupants, entrer discrètement, les
+        confronter, utiliser leur présence comme source d’information ou décider
+        que le mystère ne mérite pas le risque.</p>
+
+        <h3>Complication</h3>
+
+        <p>Les occupants ne connaissent pas mieux que les PJ ce qui se trouve
+        plus profondément dans la grotte et refusent eux-mêmes d’y aller.</p>
+
+        <h3>Si les PJ ne font rien</h3>
+
+        <p>Le groupe utilise le refuge quelque temps puis l’abandonne, laissant
+        derrière lui suffisamment de traces pour renforcer encore la légende des
+        Échineurs.</p>
+
+        <h3>Conséquences possibles</h3>
+
+        <ul><li>La présence clandestine est révélée.</li><li>Les occupants
+        deviennent contacts ou adversaires.</li><li>La grotte est explorée plus
+        profondément.</li><li>Le mystère des Échineurs reste intact.</li><li>De
+        nouvelles rumeurs apparaissent à partir d’une situation désormais
+        terminée.</li></ul>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-terres-tranchecrins-hooks
+          entryId: grotte-occupee
+          sourceHash: aa83938c
+    _id: jtoMwcPYRmAi16JB
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435071585
+      modifiedTime: 1792435071585
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!AGBg2GlBdn0Uo13B.jtoMwcPYRmAi16JB'
+  - name: L’embuscade sans ennemi
+    type: text
+    sort: 1100000
+    text:
+      content: >-
+        <h2>L’embuscade sans ennemi</h2>
+
+        <h3>Situation</h3>
+
+        <p>Un groupe revient blessé des ravins et affirme avoir subi une attaque
+        Tranchecrin.</p>
+
+        <p>Pourtant, les premiers observateurs ne trouvent ni projectiles, ni
+        traces d’assaillants, ni signes évidents de poursuite.</p>
+
+        <h3>Qui ?</h3>
+
+        <ul><li><strong>Les survivants</strong> : sont convaincus d’avoir été
+        attaqués.</li><li><strong>Les gardes</strong> : veulent identifier les
+        responsables.</li><li><strong>Les Tranchecrins</strong> : risquent des
+        représailles.</li><li><strong>Un pisteur expérimenté</strong> : doute de
+        la version dominante.</li></ul>
+
+        <h3>Quoi ?</h3>
+
+        <p>Un effondrement de pierres a frappé le groupe depuis une hauteur.</p>
+
+        <p>Dans la confusion, plusieurs survivants ont cru entendre ou
+        apercevoir des assaillants.</p>
+
+        <p>L’accident n’exclut pas la présence Tranchecrin dans le secteur, mais
+        aucune attaque n’a eu lieu.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>L’incident vient de se produire.</p>
+
+        <p>Une riposte peut être organisée avant même que le site ne soit
+        inspecté.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Dans un ravin particulièrement étroit, dominé par plusieurs
+        corniches.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Le contexte hostile fournit une explication immédiate à un événement
+        violent.</p>
+
+        <p>Les témoins sont sincères mais leurs souvenirs se sont formés sous
+        stress.</p>
+
+        <h3>Portes d'entrée</h3>
+
+        <ul><li>Les PJ croisent les survivants.</li><li>Une patrouille se
+        prépare à partir.</li><li>Ils passent eux-mêmes par le lieu de
+        l’incident.</li><li>Un témoin leur demande de confirmer ce qu’il pense
+        avoir vu.</li></ul>
+
+        <h3>Approches possibles</h3>
+
+        <p>Inspecter le site, confronter les récits, suivre les supposées traces
+        ennemies, accompagner la patrouille ou laisser la Horde répondre selon
+        ses propres conclusions.</p>
+
+        <h3>Complication</h3>
+
+        <p>Une véritable présence Tranchecrin existe non loin de là. La
+        découvrir peut être interprétée à tort comme une preuve de leur
+        responsabilité.</p>
+
+        <h3>Si les PJ ne font rien</h3>
+
+        <p>La version de l’attaque devient le récit officiel local et une
+        opération punitive est probable.</p>
+
+        <h3>Conséquences possibles</h3>
+
+        <ul><li>L’accident est reconnu.</li><li>Personne ne croit totalement
+        l’explication.</li><li>Une patrouille provoque un véritable
+        affrontement.</li><li>Les survivants revoient leur
+        témoignage.</li><li>Le ravin est identifié comme danger
+        naturel.</li></ul>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-terres-tranchecrins-hooks
+          entryId: embuscade-sans-ennemi
+          sourceHash: e49904ce
+    _id: Gjz3yrLQDho5NBu5
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435071585
+      modifiedTime: 1792435071585
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!AGBg2GlBdn0Uo13B.Gjz3yrLQDho5NBu5'
+  - name: Deux prisonniers pour une frontière
+    type: text
+    sort: 1200000
+    text:
+      content: >-
+        <h2>Deux prisonniers pour une frontière</h2>
+
+        <h3>Situation</h3>
+
+        <p>Un Tranchecrin capturé est retenu près de Tranchecolline.</p>
+
+        <p>Au même moment, un éclaireur de la Horde n’est pas revenu de sa
+        patrouille. Beaucoup considèrent déjà qu’il est détenu en
+        représailles.</p>
+
+        <h3>Qui ?</h3>
+
+        <ul><li><strong>Le prisonnier Tranchecrin</strong> : veut éviter d’être
+        traité comme monnaie d’échange pour une affaire qu’il ne connaît
+        peut-être pas.</li><li><strong>L’éclaireur disparu</strong> : sa
+        situation réelle reste inconnue au départ.</li><li><strong>Les
+        gardes</strong> : veulent récupérer leur
+        camarade.</li><li><strong>Tranchecrins locaux</strong> : veulent
+        récupérer leur membre capturé.</li></ul>
+
+        <h3>Quoi ?</h3>
+
+        <p><strong>Adaptation de campagne :</strong> l’éclaireur n’a pas été
+        capturé. Il est immobilisé après un accident dans un ravin.</p>
+
+        <p>Les Tranchecrins ignorent eux aussi sa position.</p>
+
+        <p>Les deux camps risquent donc d’organiser un échange pour un
+        prisonnier qui n’existe pas.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>La disparition date de moins d’une journée.</p>
+
+        <p>Chaque heure sans nouvelle renforce la certitude d’une capture.</p>
+
+        <h3>Où ?</h3>
+
+        <ul><li>poste de garde où se trouve le prisonnier ;</li><li>territoire
+        où l’éclaireur patrouillait ;</li><li>passages pouvant servir à une
+        éventuelle négociation.</li></ul>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>La simultanéité de deux événements crée une causalité imaginaire.</p>
+
+        <p>Les deux camps possèdent de bonnes raisons de croire à une prise
+        d’otage adverse.</p>
+
+        <h3>Portes d'entrée</h3>
+
+        <ul><li>Les PJ assistent à l’interrogatoire du prisonnier.</li><li>Une
+        patrouille part chercher un lieu d’échange.</li><li>Ils découvrent une
+        trace de l’éclaireur ailleurs.</li><li>Un Tranchecrin tente de
+        transmettre un message concernant le captif.</li></ul>
+
+        <h3>Approches possibles</h3>
+
+        <p>Chercher l’éclaireur, négocier la libération du captif
+        indépendamment, utiliser l’échange comme prétexte de contact ou
+        entretenir volontairement l’erreur pour obtenir un avantage.</p>
+
+        <h3>Complication</h3>
+
+        <p>Si l’éclaireur est retrouvé, certains gardes veulent malgré tout
+        conserver le prisonnier pour obtenir d’autres concessions.</p>
+
+        <h3>Si les PJ ne font rien</h3>
+
+        <p>Les deux camps se préparent à une négociation fondée sur une
+        hypothèse fausse. La vérité peut arriver trop tard pour empêcher
+        l’escalade.</p>
+
+        <h3>Conséquences possibles</h3>
+
+        <ul><li>Les deux individus rentrent vivants.</li><li>Un premier échange
+        formel entre les camps crée un précédent.</li><li>La manipulation d’un
+        prisonnier détruit la confiance.</li><li>L’éclaireur est retrouvé mais
+        le conflit continue pour d’autres raisons.</li><li>Le prisonnier fournit
+        volontairement des informations utiles.</li></ul>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-terres-tranchecrins-hooks
+          entryId: deux-prisonniers
+          sourceHash: 56705c8f
+    _id: hQGcHtRLcXDQlqYG
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435071585
+      modifiedTime: 1792435071585
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!AGBg2GlBdn0Uo13B.hQGcHtRLcXDQlqYG'
+  - name: La piste effondrée
+    type: text
+    sort: 1300000
+    text:
+      content: >-
+        <h2>La piste effondrée</h2>
+
+        <h3>Situation</h3>
+
+        <p>Une portion de la Piste des Échineurs s’est effondrée dans un
+        ravin.</p>
+
+        <p>Les personnes situées du mauvais côté n’ont plus de voie de retour
+        évidente.</p>
+
+        <h3>Qui ?</h3>
+
+        <ul><li><strong>Voyageurs isolés</strong> : cherchent une
+        sortie.</li><li><strong>Leurs proches</strong> : ignorent encore
+        précisément où ils se trouvent.</li><li><strong>Chasseurs
+        locaux</strong> : connaissent certains détours
+        possibles.</li><li><strong>Tranchecrins</strong> : voient les mouvements
+        de voyageurs se déplacer vers leur territoire.</li></ul>
+
+        <h3>Quoi ?</h3>
+
+        <p>L’effondrement est naturel.</p>
+
+        <p>Il transforme cependant la géographie pratique du secteur : un chemin
+        auparavant secondaire devient soudain essentiel, tandis que plusieurs
+        voyageurs doivent improviser.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>L’effondrement vient de se produire.</p>
+
+        <p>Les personnes isolées disposent de ressources limitées et devront
+        bientôt décider si elles attendent ou tentent un passage risqué.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Sur la Piste des Échineurs, avec plusieurs ravins permettant des
+        détours plus ou moins dangereux.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Le relief est instable et les itinéraires de la région ne sont pas
+        garantis.</p>
+
+        <p>Le problème devient territorial lorsque les détours passent par des
+        zones contrôlées par d’autres.</p>
+
+        <h3>Portes d'entrée</h3>
+
+        <ul><li>Les PJ découvrent directement l’effondrement.</li><li>Des
+        proches signalent plusieurs voyageurs en retard.</li><li>Une personne
+        isolée réussit à envoyer un signal depuis une hauteur.</li><li>Des
+        Tranchecrins sont observés près d’un détour possible.</li></ul>
+
+        <h3>Approches possibles</h3>
+
+        <p>Chercher un nouveau passage, atteindre les isolés par un autre côté,
+        négocier un transit temporaire ou attendre qu’ils trouvent eux-mêmes une
+        sortie.</p>
+
+        <h3>Complication</h3>
+
+        <p>Le chemin le plus sûr pour atteindre les voyageurs traverse
+        précisément une zone que les Tranchecrins considèrent comme
+        interdite.</p>
+
+        <h3>Si les PJ ne font rien</h3>
+
+        <p>Les isolés tentent leur propre sortie. Certains y parviennent,
+        d’autres aggravent leur situation.</p>
+
+        <p>La circulation locale se réorganise durablement.</p>
+
+        <h3>Conséquences possibles</h3>
+
+        <ul><li>Un nouveau raccourci est découvert.</li><li>La Piste cesse
+        d’être utilisée.</li><li>Un accord temporaire de passage est
+        négocié.</li><li>Des voyageurs sont perdus ou blessés.</li><li>La carte
+        pratique du territoire est modifiée.</li></ul>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-terres-tranchecrins-hooks
+          entryId: piste-effondree
+          sourceHash: 01b6abd4
+    _id: Zt5VMVvF7ToTQ1WR
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435071585
+      modifiedTime: 1792435071585
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!AGBg2GlBdn0Uo13B.Zt5VMVvF7ToTQ1WR'
+  - name: Les outils volés
+    type: text
+    sort: 1400000
+    text:
+      content: >-
+        <h2>Les outils volés</h2>
+
+        <h3>Situation</h3>
+
+        <p>Des outils disparaissent régulièrement dans les campements
+        temporaires de travailleurs et voyageurs installés près des marges
+        occidentales.</p>
+
+        <p>Les gardes accusent les Tranchecrins de préparer un sabotage plus
+        important.</p>
+
+        <h3>Qui ?</h3>
+
+        <ul><li><strong>Travailleurs</strong> : veulent conserver leur
+        matériel.</li><li><strong>Gardes</strong> : cherchent un responsable
+        identifiable.</li><li><strong>Tranchecrins</strong> : sont les suspects
+        évidents.</li><li><strong>Un petit groupe de travailleurs</strong> :
+        récupère en secret certains outils pour ses propres besoins.</li></ul>
+
+        <h3>Quoi ?</h3>
+
+        <p><strong>Adaptation de campagne :</strong> une partie des vols est
+        interne.</p>
+
+        <p>Plusieurs travailleurs ont commencé à mettre du matériel de côté pour
+        réparer ou aménager un passage qu’ils considèrent plus sûr, sans
+        autorisation.</p>
+
+        <p>D’autres disparitions peuvent être de simples pertes ou vols
+        opportunistes.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>Les premiers objets manquants semblaient anecdotiques.</p>
+
+        <p>Le problème devient sérieux parce que le manque commence à ralentir
+        les activités.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Campements temporaires, bord des routes et ravins utilisés par les
+        travailleurs.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Les responsables pensent agir pour leur propre sécurité et ne font
+        pas confiance à ceux qui organisent officiellement les déplacements.</p>
+
+        <p>Accuser les Tranchecrins leur permet de gagner du temps.</p>
+
+        <h3>Portes d'entrée</h3>
+
+        <ul><li>Une dispute éclate autour d’une caisse vide.</li><li>Les PJ
+        découvrent un outil portant une marque identifiable ailleurs.</li><li>Un
+        garde prépare une fouille des abords Tranchecrins.</li><li>Un
+        travailleur demande discrètement qu’on ne cherche pas trop
+        loin.</li></ul>
+
+        <h3>Approches possibles</h3>
+
+        <p>Enquêter, surveiller le matériel, confronter les travailleurs,
+        laisser les vols continuer, négocier sur le véritable besoin ou utiliser
+        l’affaire pour justifier une action contre les Tranchecrins.</p>
+
+        <h3>Complication</h3>
+
+        <p>Le passage aménagé clandestinement pourrait réellement devenir un
+        itinéraire plus sûr que celui imposé aux travailleurs.</p>
+
+        <h3>Si les PJ ne font rien</h3>
+
+        <p>Les vols continuent jusqu’à ce que le projet clandestin soit
+        découvert ou que le manque de matériel interrompe certaines
+        activités.</p>
+
+        <h3>Conséquences possibles</h3>
+
+        <ul><li>Les responsables sont sanctionnés.</li><li>Leur passage est
+        officiellement adopté.</li><li>Les Tranchecrins subissent des
+        représailles injustifiées.</li><li>Les travailleurs gagnent davantage
+        d’autonomie.</li><li>La confiance entre gardes et travailleurs se
+        dégrade.</li></ul>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-terres-tranchecrins-hooks
+          entryId: outils-voles
+          sourceHash: 7a1c6e0c
+    _id: y2PkJWlBeReWQspz
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435071585
+      modifiedTime: 1792435071585
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!AGBg2GlBdn0Uo13B.y2PkJWlBeReWQspz'
+  - name: Le feu dans les ravins
+    type: text
+    sort: 1500000
+    text:
+      content: >-
+        <h2>Le feu dans les ravins</h2>
+
+        <h3>Situation</h3>
+
+        <p>Un feu se propage rapidement à travers les taillis secs.</p>
+
+        <p>La fumée remplit plusieurs ravins et rend certains passages
+        impossibles à utiliser. Des silhouettes sont visibles des deux côtés du
+        front de flammes.</p>
+
+        <h3>Qui ?</h3>
+
+        <ul><li><strong>Voyageurs et habitants pris dans le secteur</strong> :
+        veulent sortir.</li><li><strong>Tranchecrins</strong> : voient une
+        partie de leur territoire menacée.</li><li><strong>Gardes de la
+        Horde</strong> : cherchent d’abord à protéger les routes
+        orientales.</li><li><strong>Animaux</strong> : fuient le feu et créent
+        leurs propres dangers.</li></ul>
+
+        <h3>Quoi ?</h3>
+
+        <p>L’incendie n’est pas une attaque.</p>
+
+        <p>Son origine peut rester banale : feu mal éteint, étincelle ou
+        accident.</p>
+
+        <p>Le problème est que la géographie canalise les flammes, la fumée et
+        les fuyards vers les mêmes passages.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>L’incendie vient de commencer et évolue rapidement.</p>
+
+        <p>Le vent peut transformer en quelques heures un incident local en
+        crise régionale.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Plusieurs ravins, taillis et accès autour des Terres des
+        Tranchecrins.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>La sécheresse du terrain et l’étroitesse des passages rendent la
+        circulation plus dangereuse que les flammes elles-mêmes.</p>
+
+        <p>Chaque groupe protège naturellement son propre côté du
+        territoire.</p>
+
+        <h3>Portes d'entrée</h3>
+
+        <ul><li>Les PJ voient la colonne de fumée.</li><li>Ils rencontrent des
+        voyageurs fuyant vers Tranchecolline.</li><li>Une patrouille bloque une
+        route devenue dangereuse.</li><li>Des Tranchecrins apparaissent sur un
+        passage habituellement hostile mais semblent eux aussi fuir.</li></ul>
+
+        <h3>Approches possibles</h3>
+
+        <p>Participer aux évacuations, ouvrir un passage, créer un coupe-feu,
+        profiter du chaos pour explorer une zone abandonnée ou se retirer
+        entièrement.</p>
+
+        <h3>Complication</h3>
+
+        <p>Le passage le plus sûr pour plusieurs voyageurs traverse
+        temporairement le territoire Tranchecrin, tandis qu’une voie sûre pour
+        les Tranchecrins mène vers les positions de la Horde.</p>
+
+        <h3>Si les PJ ne font rien</h3>
+
+        <p>Le feu finit par s’éteindre ou dépasser le secteur, mais laisse des
+        blessés, des zones brûlées et de nouveaux itinéraires.</p>
+
+        <h3>Conséquences possibles</h3>
+
+        <ul><li>Une coopération temporaire apparaît.</li><li>Chaque camp bloque
+        les fuyards adverses.</li><li>Le paysage ouvre de nouveaux
+        passages.</li><li>D’anciens chemins deviennent inutilisables.</li><li>Le
+        comportement des PJ durant la crise modifie durablement leur réputation
+        locale.</li></ul>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-terres-tranchecrins-hooks
+          entryId: feu-dans-les-ravins
+          sourceHash: 6b22015f
+    _id: 6EKOlutLmNhIa3Ta
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435071585
+      modifiedTime: 1792435071585
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!AGBg2GlBdn0Uo13B.6EKOlutLmNhIa3Ta'
+  - name: Les guetteurs des hauteurs
+    type: text
+    sort: 1600000
+    text:
+      content: >-
+        <h2>Les guetteurs des hauteurs</h2>
+
+        <h3>Situation</h3>
+
+        <p>Depuis plusieurs jours, des silhouettes sont aperçues sur les
+        hauteurs dominant les passages.</p>
+
+        <p>Elles observent les voyageurs mais ne descendent presque jamais.</p>
+
+        <p>Les gardes commencent à parler de préparation d’embuscades.</p>
+
+        <h3>Qui ?</h3>
+
+        <ul><li><strong>Guetteurs Tranchecrins</strong> : surveillent
+        l’évolution du trafic.</li><li><strong>Gardes de la Horde</strong> :
+        veulent faire cesser cette
+        observation.</li><li><strong>Voyageurs</strong> : modifient leur
+        comportement parce qu’ils se savent
+        surveillés.</li><li><strong>Chasseurs</strong> : remarquent que les
+        guetteurs s’intéressent surtout à certains trajets.</li></ul>
+
+        <h3>Quoi ?</h3>
+
+        <p>Les guetteurs collectent réellement des informations.</p>
+
+        <p>Ils cherchent principalement à identifier quels passages deviennent
+        régulièrement utilisés par la Horde.</p>
+
+        <p>Ils ne préparent pas nécessairement une attaque immédiate.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>La surveillance s’intensifie depuis que le nombre de voyageurs a
+        augmenté sur plusieurs routes secondaires.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Sur les crêtes dominant les ravins orientaux et certains accès au
+        Tunnel.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Une faction occupant un territoire hostile a intérêt à connaître les
+        mouvements de ses voisins.</p>
+
+        <p>La présence visible des guetteurs peut aussi servir
+        d’avertissement.</p>
+
+        <h3>Portes d'entrée</h3>
+
+        <ul><li>Les PJ repèrent une silhouette les suivant depuis une
+        hauteur.</li><li>Un garde veut organiser une opération pour capturer un
+        observateur.</li><li>Un chasseur constate que certains itinéraires ne
+        sont jamais surveillés.</li><li>Un guetteur abandonne précipitamment un
+        poste d’observation.</li></ul>
+
+        <h3>Approches possibles</h3>
+
+        <p>Suivre les guetteurs, les éviter, leur fournir volontairement de
+        fausses informations, chercher à établir un contact ou modifier les
+        routes utilisées.</p>
+
+        <h3>Complication</h3>
+
+        <p>Les mouvements agressifs de la Horde contre les guetteurs deviennent
+        eux-mêmes une information confirmant que certains passages sont
+        importants.</p>
+
+        <h3>Si les PJ ne font rien</h3>
+
+        <p>Les Tranchecrins améliorent progressivement leur connaissance des
+        déplacements locaux et adaptent leurs propres mouvements.</p>
+
+        <h3>Conséquences possibles</h3>
+
+        <ul><li>Les PJ découvrent les habitudes de surveillance.</li><li>Les
+        gardes chassent les guetteurs mais révèlent leurs priorités.</li><li>Un
+        contact indirect devient possible.</li><li>Les routes
+        changent.</li><li>Une future action Tranchecrin bénéficie des
+        informations accumulées.</li></ul>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-terres-tranchecrins-hooks
+          entryId: guetteurs-des-hauteurs
+          sourceHash: df6841c7
+    _id: v1tZ0FhQkv1swQUn
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435071585
+      modifiedTime: 1792435071585
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!AGBg2GlBdn0Uo13B.v1tZ0FhQkv1swQUn'
+  - name: Le mort sans blessure
+    type: text
+    sort: 1700000
+    text:
+      content: >-
+        <h2>Le mort sans blessure</h2>
+
+        <h3>Situation</h3>
+
+        <p>Un voyageur est retrouvé mort au fond d’un ravin.</p>
+
+        <p>Son équipement est encore présent et son corps ne porte aucune
+        blessure évidente provoquée par une arme.</p>
+
+        <p>Cela n’empêche personne de proposer immédiatement un responsable.</p>
+
+        <h3>Qui ?</h3>
+
+        <ul><li><strong>Proches du voyageur</strong> : veulent comprendre sa
+        mort.</li><li><strong>Gardes</strong> : cherchent à déterminer s’il
+        existe une menace.</li><li><strong>Voyageurs</strong> : commencent à
+        éviter le secteur.</li><li><strong>Tranchecrins</strong> : sont
+        suspectés malgré l’absence de preuve directe.</li></ul>
+
+        <h3>Quoi ?</h3>
+
+        <p><strong>Adaptation de campagne :</strong> le voyageur est mort après
+        avoir subi une combinaison d’épuisement, de chaleur et d’une mauvaise
+        décision d’orientation.</p>
+
+        <p>Des traces indiquent qu’il a longtemps marché en cercle avant de
+        s’effondrer.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>Le décès est récent.</p>
+
+        <p>Plus le corps reste exposé, plus il devient difficile de distinguer
+        les indices utiles des traces laissées ensuite.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Dans un ravin secondaire accessible depuis plusieurs directions.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Une mort sans explication visible paraît plus inquiétante qu’une
+        attaque.</p>
+
+        <p>La réputation hostile du territoire encourage l’hypothèse
+        criminelle.</p>
+
+        <h3>Portes d'entrée</h3>
+
+        <ul><li>Les PJ découvrent le corps.</li><li>Un proche leur parle d’un
+        objet manquant.</li><li>Une patrouille commence à suivre des traces
+        proches.</li><li>Un voyageur raconte avoir vu la victime plusieurs
+        heures avant sa mort.</li></ul>
+
+        <h3>Approches possibles</h3>
+
+        <p>Reconstituer le trajet, examiner l’environnement, rechercher des
+        témoins, suivre les traces voisines ou accepter l’hypothèse dominante
+        sans enquêter davantage.</p>
+
+        <h3>Complication</h3>
+
+        <p>Un objet appartenant au mort a réellement disparu, mais il a été
+        récupéré après son décès par quelqu’un ignorant encore son identité.</p>
+
+        <h3>Si les PJ ne font rien</h3>
+
+        <p>La mort est progressivement attribuée aux Tranchecrins ou aux
+        Échineurs selon celui qui raconte l’histoire.</p>
+
+        <h3>Conséquences possibles</h3>
+
+        <ul><li>La cause probable est comprise.</li><li>Un innocent est accusé
+        de vol ou de meurtre.</li><li>Le ravin acquiert une réputation
+        sinistre.</li><li>Les PJ découvrent une faiblesse dans les itinéraires
+        utilisés.</li><li>Le décès provoque des mesures de sécurité utiles ou
+        excessives.</li></ul>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-terres-tranchecrins-hooks
+          entryId: mort-sans-blessure
+          sourceHash: 2bbeda9b
+    _id: bwaDPkxyQOTqmyEc
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435071585
+      modifiedTime: 1792435071585
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!AGBg2GlBdn0Uo13B.bwaDPkxyQOTqmyEc'
+  - name: La charrette dans le passage
+    type: text
+    sort: 1800000
+    text:
+      content: >-
+        <h2>La charrette dans le passage</h2>
+
+        <h3>Situation</h3>
+
+        <p>Une lourde charrette s’est immobilisée dans l’un des goulets reliant
+        les routes de Tranchecolline aux reliefs occidentaux.</p>
+
+        <p>Impossible de passer avec une autre charge importante.</p>
+
+        <p>Très vite, chaque voyageur considère son propre besoin comme
+        prioritaire.</p>
+
+        <h3>Qui ?</h3>
+
+        <ul><li><strong>Conducteur de la charrette</strong> : veut sauver son
+        véhicule et sa cargaison.</li><li><strong>Voyageurs bloqués</strong> :
+        veulent passer.</li><li><strong>Gardes</strong> : veulent maintenir la
+        circulation.</li><li><strong>Tranchecrins</strong> : peuvent profiter du
+        ralentissement ou simplement constater l’intrusion croissante.</li></ul>
+
+        <h3>Quoi ?</h3>
+
+        <p>Il s’agit d’abord d’un problème logistique.</p>
+
+        <p>Un essieu endommagé empêche tout déplacement simple.</p>
+
+        <p>La vraie tension naît de l’accumulation de personnes et de biens dans
+        un passage exposé.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>L’incident vient de se produire.</p>
+
+        <p>Chaque heure ajoute de nouveaux voyageurs, animaux et tensions autour
+        du goulet.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Dans un passage étroit où il est difficile de faire demi-tour avec un
+        véhicule chargé.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Personne n’a prévu qu’une route secondaire devienne suffisamment
+        fréquentée pour qu’un simple accident bloque tout le secteur.</p>
+
+        <h3>Portes d'entrée</h3>
+
+        <ul><li>Les PJ arrivent derrière la file.</li><li>Ils se trouvent devant
+        lorsque quelqu’un vient annoncer le blocage.</li><li>Un conducteur leur
+        propose de contourner par un ravin.</li><li>Des gardes demandent à tout
+        le monde de rebrousser chemin.</li></ul>
+
+        <h3>Approches possibles</h3>
+
+        <p>Réparer, décharger, abandonner la charrette, trouver un passage
+        parallèle, organiser la circulation ou profiter du chaos pour poursuivre
+        autrement.</p>
+
+        <h3>Complication</h3>
+
+        <p>Une partie de la cargaison ne peut pas être laissée sans surveillance
+        et plusieurs voyageurs refusent de participer à une réparation qui ne
+        les concerne pas directement.</p>
+
+        <h3>Si les PJ ne font rien</h3>
+
+        <p>Le groupe finit par démonter ou abandonner une partie du véhicule.
+        Des voyageurs partent seuls chercher des détours.</p>
+
+        <h3>Conséquences possibles</h3>
+
+        <ul><li>Le passage est dégagé rapidement.</li><li>La cargaison est
+        partiellement perdue.</li><li>Un détour devient une nouvelle
+        route.</li><li>L’incident attire une présence hostile.</li><li>La
+        nécessité d’organiser réellement la circulation occidentale devient
+        évidente.</li></ul>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-terres-tranchecrins-hooks
+          entryId: charrette-dans-le-passage
+          sourceHash: 1faac83c
+    _id: Ov2WkrSx8Y0ZuNKU
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435071585
+      modifiedTime: 1792435071585
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!AGBg2GlBdn0Uo13B.Ov2WkrSx8Y0ZuNKU'
+  - name: Les téméraires de Tranchecolline
+    type: text
+    sort: 1900000
+    text:
+      content: >-
+        <h2>Les téméraires de Tranchecolline</h2>
+
+        <h3>Situation</h3>
+
+        <p>Plusieurs jeunes habitants sont partis vers les Terres des
+        Tranchecrins après avoir affirmé que les adultes exagéraient tous les
+        dangers de la région.</p>
+
+        <p>Ils auraient prévu de revenir avant la nuit.</p>
+
+        <p>La nuit approche.</p>
+
+        <h3>Qui ?</h3>
+
+        <ul><li><strong>Les jeunes téméraires</strong> : veulent prouver leur
+        courage et revenir avec une histoire à raconter.</li><li><strong>Leurs
+        proches</strong> : oscillent entre colère et
+        inquiétude.</li><li><strong>Quelques amis restés à
+        Tranchecolline</strong> : savent davantage qu’ils ne veulent
+        l’avouer.</li><li><strong>Occupants du territoire</strong> : ignorent
+        probablement tout de leur défi.</li></ul>
+
+        <h3>Quoi ?</h3>
+
+        <p>Les jeunes ne sont pas partis combattre les Tranchecrins.</p>
+
+        <p>Ils voulaient atteindre un point remarquable, laisser une marque et
+        rentrer.</p>
+
+        <p><strong>Adaptation de campagne :</strong> ils ont été séparés après
+        avoir fui un danger qu’ils n’avaient pas anticipé.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>Ils sont partis quelques heures plus tôt.</p>
+
+        <p>La tombée de la nuit transforme progressivement une imprudence en
+        véritable situation de survie.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Entre les marges orientales, plusieurs petits ravins et une hauteur
+        visible depuis Tranchecolline.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Les récits répétés sur le territoire ont fini par transformer le
+        danger en défi.</p>
+
+        <p>Pour certains jeunes, ne pas y aller revient à admettre qu’ils ont
+        peur.</p>
+
+        <h3>Portes d'entrée</h3>
+
+        <ul><li>Une dispute familiale éclate à Tranchecolline.</li><li>Un ami
+        finit par révéler leur itinéraire.</li><li>Les PJ trouvent une marque
+        récente laissée sur un rocher.</li><li>Ils croisent l’un des jeunes
+        revenant seul et paniqué.</li></ul>
+
+        <h3>Approches possibles</h3>
+
+        <p>Pister le groupe, attendre leur retour, obtenir des informations
+        auprès de leurs amis, utiliser les hauteurs pour les repérer ou
+        organiser plusieurs groupes de recherche.</p>
+
+        <h3>Complication</h3>
+
+        <p>Les jeunes se sont séparés volontairement après s’être disputés sur
+        la direction à suivre.</p>
+
+        <p>Les retrouver exige donc plusieurs décisions de priorité.</p>
+
+        <h3>Si les PJ ne font rien</h3>
+
+        <p>Certains finissent par revenir seuls. Les autres passent la nuit dans
+        les ravins et leur situation devient plus dangereuse.</p>
+
+        <h3>Conséquences possibles</h3>
+
+        <ul><li>Tous rentrent avec une sérieuse leçon.</li><li>Certains cachent
+        encore ce qu’ils ont réellement vu.</li><li>L’incident crée de nouvelles
+        interdictions à Tranchecolline.</li><li>Une famille reproche aux autres
+        d’avoir entraîné son enfant.</li><li>Les jeunes ont découvert par hasard
+        un passage ou une activité jusque-là inconnue.</li></ul>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-terres-tranchecrins-hooks
+          entryId: jeunes-temeraires
+          sourceHash: fc52a17f
+    _id: onuLaOU4t5Vcr1jg
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435071585
+      modifiedTime: 1792435071585
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!AGBg2GlBdn0Uo13B.onuLaOU4t5Vcr1jg'
+  - name: Qui utilise le nom des Échineurs ?
+    type: text
+    sort: 2000000
+    text:
+      content: >-
+        <h2>Qui utilise le nom des Échineurs ?</h2>
+
+        <h3>Situation</h3>
+
+        <p>Depuis quelque temps, presque tout incident inexpliqué sur la Piste
+        ou près de la Grotte est attribué aux « Échineurs ».</p>
+
+        <p>Le problème est simple : les descriptions ne correspondent
+        jamais.</p>
+
+        <p>Certains parlent de traces. D’autres de silhouettes. D’autres encore
+        n’ont absolument rien vu.</p>
+
+        <h3>Qui ?</h3>
+
+        <ul><li><strong>Voyageurs</strong> : utilisent le nom pour désigner un
+        danger mal identifié.</li><li><strong>Chasseurs</strong> : se divisent
+        sur ce que le terme signifie réellement.</li><li><strong>Personnes
+        menant des activités discrètes dans le secteur</strong> : profitent de
+        la confusion.</li><li><strong>Tranchecrins</strong> : peuvent connaître
+        le lieu sans partager les mêmes histoires.</li></ul>
+
+        <h3>Quoi ?</h3>
+
+        <p>La nature exacte des Échineurs reste volontairement non définie dans
+        Warbound.</p>
+
+        <p><strong>Adaptation de campagne :</strong> plusieurs individus ont
+        compris que le nom constitue une explication pratique. Des vols, erreurs
+        d’orientation ou activités clandestines sans lien entre elles sont
+        désormais attribués à la même menace.</p>
+
+        <p>Le problème jouable n’est donc pas encore « découvrir ce qu’est un
+        Échineur », mais déterminer quels incidents possèdent réellement un
+        lien.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>La confusion s’est amplifiée à mesure que davantage de voyageurs ont
+        commencé à emprunter la Piste.</p>
+
+        <p>Chaque nouvelle histoire absorbe les précédentes.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Piste des Échineurs, Grotte des Échineurs et ravins occidentaux.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Un nom permet de donner une forme à ce que personne ne comprend.</p>
+
+        <p>Il devient également très utile pour quelqu’un souhaitant expliquer
+        une perte, cacher une activité ou détourner l’attention.</p>
+
+        <h3>Portes d'entrée</h3>
+
+        <ul><li>Deux témoins se disputent parce que leurs descriptions sont
+        incompatibles.</li><li>Les PJ trouvent des traces manifestement
+        produites par un voyageur alors qu’on leur affirme qu’elles viennent des
+        Échineurs.</li><li>Quelqu’un attribue une disparition récente aux
+        Échineurs sans aucune preuve.</li><li>Une personne surprise dans une
+        activité suspecte invoque immédiatement leur présence.</li></ul>
+
+        <h3>Approches possibles</h3>
+
+        <p>Comparer les incidents, cartographier les témoignages, surveiller la
+        piste, explorer les abords de la grotte, confronter ceux qui utilisent
+        trop facilement le nom ou accepter que plusieurs mystères distincts
+        coexistent.</p>
+
+        <h3>Complication</h3>
+
+        <p>Démontrer que certains incidents n’ont rien à voir avec les Échineurs
+        ne prouve absolument pas qu’ils n’existent pas.</p>
+
+        <p>Les PJ peuvent dissiper une partie du folklore tout en rendant le
+        véritable mystère plus net.</p>
+
+        <h3>Si les PJ ne font rien</h3>
+
+        <p>Le terme « Échineur » devient progressivement une explication
+        universelle pour tout ce qui survient dans l’ouest.</p>
+
+        <p>Les informations réellement utiles deviennent de plus en plus
+        difficiles à distinguer des histoires.</p>
+
+        <h3>Conséquences possibles</h3>
+
+        <ul><li>Plusieurs faux incidents sont séparés du véritable
+        mystère.</li><li>Un opportuniste perd sa couverture.</li><li>La Grotte
+        devient le centre d’une investigation plus sérieuse.</li><li>Les PJ
+        obtiennent une meilleure cartographie des témoignages sans encore savoir
+        ce que sont les Échineurs.</li><li>La nature exacte des Échineurs reste
+        disponible pour une définition ultérieure de Warbound.</li></ul>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-terres-tranchecrins-hooks
+          entryId: nom-des-echineurs
+          sourceHash: acd041b0
+    _id: 1mTxdP7gh37rABwJ
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435071585
+      modifiedTime: 1792435071585
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!AGBg2GlBdn0Uo13B.1mTxdP7gh37rABwJ'
+_id: AGBg2GlBdn0Uo13B
+categories: []
+sort: 100000
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792435071585
+  modifiedTime: 1792435071585
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!AGBg2GlBdn0Uo13B'

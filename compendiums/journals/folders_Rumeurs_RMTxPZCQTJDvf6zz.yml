@@ -1,0 +1,20 @@
+type: JournalEntry
+folder: null
+name: Rumeurs
+color: null
+sorting: a
+_id: RMTxPZCQTJDvf6zz
+description: ''
+sort: 700000
+flags: {}
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792435079094
+  modifiedTime: 1792435079160
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!RMTxPZCQTJDvf6zz'

@@ -1,0 +1,1076 @@
+folder: 8Y36mqs2XUEJZEcW
+name: Sarkoth — Quêtes annexes du sud de Durotar
+flags:
+  campaign-codex:
+    type: ''
+  core:
+    sheetClass: ''
+_id: ppozzECHkpc65ePf
+pages:
+  - _id: aNlxoxXL8Oh0zRaX
+    name: Présentation
+    type: text
+    sort: 100000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h1>Sarkoth — Sept quêtes autour de la Mère rouge</h1>
+
+        <h2>Journal des quêtes annexes — Sud de Durotar</h2>
+
+        <blockquote>
+
+        <p><strong>Secteurs :</strong> Vallée des Épreuves, village de Sen’jin,
+        pistes vers Tranchecolline<br>
+
+        <strong>Figures récurrentes :</strong> Sarkoth, Hana’zua, Gornek, les
+        péons, chasseurs et guérisseurs<br>
+
+        <strong>Durée indicative :</strong> une scène développée à une courte
+        séance par quête<br>
+
+        <strong>Usage :</strong> ces situations sont indépendantes de l'affaire
+        du venin de Hana’zua. Les aventuriers peuvent en vivre plusieurs, dans
+        n'importe quel ordre compatible avec les événements déjà survenus.</p>
+
+        </blockquote>
+
+        <p><strong>Situation du secteur.</strong> Les scorpides ne constituent
+        pas une armée. Ils suivent leurs proies, occupent des abris, défendent
+        leurs petits et réagissent aux déplacements des autres créatures.
+        Sarkoth, appelée <strong>la Mère rouge</strong>, est une vieille
+        matriarche dont la présence influence le territoire de nombreuses bêtes
+        plus jeunes. Les travaux, les convois et les chasseurs de la Horde
+        bouleversent parfois cet équilibre. Les habitants, eux, ont de bonnes
+        raisons de vouloir rendre Durotar habitable.</p>
+
+        <table>
+
+        <thead>
+
+        <tr>
+          <th>Quête</th>
+          <th>Départ</th>
+          <th>Ton</th>
+          <th>Moment le plus naturel</th>
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+          <td><strong>1. La griffe et l'honneur</strong></td>
+          <td>Vallée des Épreuves / Sen’jin</td>
+          <td>Rôle, rivalité, secours</td>
+          <td>Après le sort de Hana’zua</td>
+        </tr>
+
+        <tr>
+          <td><strong>2. Le convoi aux roues mordues</strong></td>
+          <td>Route de Tranchecolline</td>
+          <td>Escorte, action, découverte</td>
+          <td>Avant, pendant ou après</td>
+        </tr>
+
+        <tr>
+          <td><strong>3. La couvée disparue</strong></td>
+          <td>Vallée des Épreuves / Sen’jin</td>
+          <td>Enquête, poursuite, dilemme</td>
+          <td>Dès que le refuge est connu</td>
+        </tr>
+
+        <tr>
+          <td><strong>4. Les fioles du faux guérisseur</strong></td>
+          <td>Tranchecolline</td>
+          <td>Enquête sociale, urgence</td>
+          <td>Dès que le venin est réputé</td>
+        </tr>
+
+        <tr>
+          <td><strong>5. La mue du ravin</strong></td>
+          <td>Sud de la Vallée</td>
+          <td>Exploration, sauvetage</td>
+          <td>À tout moment</td>
+        </tr>
+
+        <tr>
+          <td><strong>6. Les pierres de la frontière</strong></td>
+          <td>Piste des péons</td>
+          <td>Négociation, aménagement</td>
+          <td>Après les incidents du plateau</td>
+        </tr>
+
+        <tr>
+          <td><strong>7. Le territoire sans mère</strong></td>
+          <td>Vallée / chemin de Sen’jin</td>
+          <td>Survie, conséquences, chasse</td>
+          <td>Si Sarkoth meurt ou part</td>
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <hr>
+      markdown: ''
+    image:
+      caption: ''
+    video:
+      controls: true
+      volume: 0.5
+      autoplay: false
+      loop: false
+      timestamp: 0
+    src: null
+    system: {}
+    flags: {}
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067349
+      modifiedTime: 1792435067349
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!ppozzECHkpc65ePf.aNlxoxXL8Oh0zRaX'
+  - _id: 456NKv7aFucZ8GX2
+    name: 1. La griffe et l'honneur
+    type: text
+    sort: 200000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h2>1. La griffe et l'honneur</h2>
+
+        <h3>Qui, quoi, quand, où, comment ?</h3>
+
+        <ul>
+
+        <li><strong>Quand :</strong> Après l’affrontement entre Hana’zua et
+        Sarkoth, dès que des récits contradictoires circulent sur son courage.
+        Si Hana’zua est mort, Razu veut venger sa mémoire ; si Sarkoth est
+        morte, il cherche un autre trophée.</li>
+
+        <li><strong>Où :</strong> À l’Antre ou auprès de voyageurs venus de
+        Sen’jin, puis dans un défilé rocheux de la Vallée des Épreuves.</li>
+
+        <li><strong>Qui :</strong> Razu, jeune Troll admirateur de Hana’zua,
+        deux recrues qui l’accompagnent, Hana’zua s’il a survécu, Gornek et un
+        scorpide adulte.</li>
+
+        <li><strong>Quoi :</strong> Razu veut rapporter une griffe pour rétablir
+        l’honneur de Hana’zua. Cette recherche de trophée met trois jeunes
+        recrues en danger sur une corniche instable.</li>
+
+        <li><strong>Comment :</strong> Suivre le départ de Razu, retrouver le
+        groupe dans le défilé, gérer la corniche friable et le scorpide, puis
+        décider de la vérité à faire connaître sur Hana’zua et son combat.</li>
+
+        </ul>
+
+
+        <h3>L'accroche</h3>
+
+        <p>Razu raconte que Hana’zua aurait vaincu Sarkoth à lui seul, ou au
+        contraire qu'il aurait fui comme un lâche. Il cherche désespérément une
+        preuve pour rétablir l'honneur du jeune Troll : une griffe, une portion
+        de carapace, voire la tête d'un scorpide assez grand pour faire
+        illusion. Deux recrues l'accompagnent sur les hauteurs.</p>
+
+        <p><em>À entendre auprès des recrues :</em></p>
+
+        <blockquote>
+
+        <p>« Hana’zua aurait dû revenir avec une pince. Razu dit qu'avant demain
+        il en rapportera une, lui. Même si la vieille scorpide est toujours là.
+        »</p>
+
+        </blockquote>
+
+        <h3>Ce qui se passe</h3>
+
+        <p>Razu n'a jamais rencontré Sarkoth. Il confond courage et trophée, et
+        pense sincèrement aider son ami. Il a entraîné ses compagnons dans un
+        défilé où un <strong>scorpide adulte</strong> défend son abri. Les trois
+        jeunes sont mal équipés pour le terrain et leur retraite est coupée par
+        une corniche friable.</p>
+
+        <h3>À jouer</h3>
+
+        <p><strong>Au départ.</strong> Les personnages trouvent un paquet de
+        vivres oublié, trois séries de traces et un témoin ayant entendu Razu
+        parler de la « grande pince ».</p>
+
+        <p><strong>Dans le défilé.</strong> Un pan de roche cède sous les pieds
+        d'une recrue. Razu refuse d'abandonner la chasse tant qu'il n'a pas un
+        trophée. Le scorpide se tient devant une fissure, menaçant mais ne
+        poursuivant pas ceux qui s'éloignent.</p>
+
+        <p><strong>Au retour.</strong> Hana’zua, s'il est vivant, doit répondre
+        aux récits qui circulent ; Gornek rappelle que la vallée n'a pas besoin
+        de morts supplémentaires pour entretenir une réputation.</p>
+
+        <h3>Choix et conséquences</h3>
+
+        <p>Les PJ peuvent sauver les recrues par la ruse, tenir le scorpide à
+        distance, l'affronter ou convaincre Razu de renoncer. Ils peuvent aussi
+        fabriquer un récit glorieux, dire publiquement la vérité ou demander à
+        Hana’zua de raconter lui-même ce qui s'est passé. <strong>La vérité peut
+        coûter à Razu sa fierté, mais lui gagner une leçon durable.</strong></p>
+
+        <p>Si Hana’zua est mort, Razu veut venger sa mémoire plutôt que prouver
+        sa victoire. Si Sarkoth est morte, il tente de retrouver une autre
+        grande bête pour rapporter un trophée fictif : l'enjeu reste le
+        même.</p>
+
+        <p><strong>Suite possible :</strong> Razu devient un éclaireur prudent
+        ou, humilié, s'engage avec des chasseurs moins scrupuleux.</p>
+
+        <hr>
+      markdown: ''
+    image:
+      caption: ''
+    video:
+      controls: true
+      volume: 0.5
+      autoplay: false
+      loop: false
+      timestamp: 0
+    src: null
+    system: {}
+    flags: {}
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067349
+      modifiedTime: 1792435067349
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!ppozzECHkpc65ePf.456NKv7aFucZ8GX2'
+  - _id: ilEx76cubjcdrw7B
+    name: 2. Le convoi aux roues mordues
+    type: text
+    sort: 300000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h2>2. Le convoi aux roues mordues</h2>
+
+        <h3>Qui, quoi, quand, où, comment ?</h3>
+
+        <ul>
+
+        <li><strong>Quand :</strong> Lors d’un ravitaillement de l’Antre, avant,
+        pendant ou après les événements concernant Hana’zua et Sarkoth.</li>
+
+        <li><strong>Où :</strong> Cour des convois de Tranchecolline, puis piste
+        de ravitaillement jusqu’à l’Antre, avec un passage friable où le chariot
+        s’enlise.</li>
+
+        <li><strong>Qui :</strong> Rogza, conductrice orque, deux péons, un
+        apprenti chargé des provisions et les scorpides attirés par la
+        cargaison.</li>
+
+        <li><strong>Quoi :</strong> Un lot de viande avariée caché sous les
+        provisions attire les scorpides. Les vivres doivent parvenir aux recrues
+        sans transporter le danger avec eux.</li>
+
+        <li><strong>Comment :</strong> Inspecter les caisses et les traces,
+        protéger le chariot bloqué, identifier l’odeur qui attire les bêtes et
+        sauver les vivres sains en nettoyant ou réorganisant le convoi.</li>
+
+        </ul>
+
+
+        <h3>L'accroche</h3>
+
+        <p>Rogza paie pour des gardes : son dernier convoi a dû faire demi-tour
+        après avoir été suivi par des scorpides affamés. Elle accuse Sarkoth ou
+        ses rejetons d'avoir « pris goût aux chariots ». La prochaine livraison
+        contient des vivres attendus à l'Antre.</p>
+
+        <p><em>À lire lorsque la colonne s'arrête :</em></p>
+
+        <blockquote>
+
+        <p>La roue s'enfonce dans un sol friable. Sous le chariot, de petits
+        coups secs résonnent contre les planches. Puis une queue segmentée
+        émerge d'une ornière. Une autre apparaît près des tonneaux et, derrière
+        le convoi, le sable se met à bouger.</p>
+
+        </blockquote>
+
+        <h3>Ce qui se passe</h3>
+
+        <p>Une partie des provisions a tourné sous la chaleur. Le responsable du
+        chargement a tenté de sauver sa cargaison en enfouissant des
+        <strong>restes de viande avariée</strong> sous des sacs propres. L'odeur
+        attire les scorpides des environs. Ils ne poursuivent pas d'ordre de
+        Sarkoth : ils suivent une source de nourriture.</p>
+
+        <h3>À jouer</h3>
+
+        <p><strong>Au départ.</strong> Le garçon insiste pour qu'on ne touche
+        pas aux caisses du fond. Un jus sombre fuit d'une planche ; quelques
+        scorpides suivent déjà les roues.</p>
+
+        <p><strong>Sur la route.</strong> Le convoi traverse un passage étroit,
+        exposé à une attaque de plusieurs jeunes scorpides. Le chariot doit être
+        dégagé rapidement ; abandonner toute la cargaison condamnerait les
+        recrues à manquer de provisions.</p>
+
+        <p><strong>Le choix logistique.</strong> Les personnages peuvent isoler
+        et détruire la viande avariée, nettoyer le chariot, détourner les
+        scorpides avec un appât, chercher une piste rocheuse ou escorter des
+        vivres par petits groupes.</p>
+
+        <h3>Choix et conséquences</h3>
+
+        <p>Si Rogza livre l'essentiel de sa cargaison, les recrues mangent et
+        les convois apprennent à mieux trier les vivres. Si les PJ cachent le
+        problème, les scorpides reviennent au prochain voyage. Si le chargement
+        est perdu, Gornek doit rationner et demander un nouvel
+        approvisionnement. L'apprenti peut être sanctionné ou apprendre de son
+        erreur ; il n'a pas cherché à saboter le convoi.</p>
+
+        <p><strong>Sarkoth vivante ou morte :</strong> cette affaire fonctionne
+        dans les deux cas. Sa réputation sert de fausse explication commode à un
+        problème beaucoup plus terre à terre.</p>
+
+        <hr>
+      markdown: ''
+    image:
+      caption: ''
+    video:
+      controls: true
+      volume: 0.5
+      autoplay: false
+      loop: false
+      timestamp: 0
+    src: null
+    system: {}
+    flags: {}
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067349
+      modifiedTime: 1792435067349
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!ppozzECHkpc65ePf.ilEx76cubjcdrw7B'
+  - _id: JA9pnwXYfkvrY4o9
+    name: 3. La couvée disparue
+    type: text
+    sort: 400000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h2>3. La couvée disparue</h2>
+
+        <h3>Qui, quoi, quand, où, comment ?</h3>
+
+        <ul>
+
+        <li><strong>Quand :</strong> Dès que le refuge de ponte de Sarkoth est
+        connu, qu’elle soit encore présente ou non, avant que les jeunes
+        scorpides ne soient vendus.</li>
+
+        <li><strong>Où :</strong> Petit abri de ponte près du plateau, piste
+        vers Sen’jin, point de transaction des paniers et chariot transportant
+        du sel.</li>
+
+        <li><strong>Qui :</strong> Tzali, jeune chasseuse troll en difficulté,
+        Mogu, intermédiaire marchand, des acheteurs, trois jeunes scorpides
+        capturés et, éventuellement, Sarkoth.</li>
+
+        <li><strong>Quoi :</strong> Trois jeunes scorpides ont été capturés pour
+        être vendus. Deux sont transportés dans des paniers ; le troisième s’est
+        échappé dans un chargement de sel.</li>
+
+        <li><strong>Comment :</strong> Examiner les traces de capture, remonter
+        la piste commerciale, retrouver les trois scorpides et régler le sort
+        des captifs sans ignorer les besoins de Tzali ni mettre les voyageurs en
+        péril.</li>
+
+        </ul>
+
+
+        <h3>L'accroche</h3>
+
+        <p>Des coquilles brisées et des traces de bottes sont découvertes près
+        d'un petit abri de ponte. Au même moment, à Sen’jin, quelqu'un cherche
+        discrètement un acheteur pour « des scorpides encore petits, faciles à
+        dresser ». Les jeunes créatures ne sont pas un trésor : elles peuvent
+        blesser quiconque les manipule.</p>
+
+        <h3>Ce qui se passe</h3>
+
+        <p>Tzali a capturé <strong>trois jeunes scorpides</strong> dans des
+        paniers doublés de cuir pour obtenir de quoi nourrir sa famille. Mogu
+        lui a promis une somme importante, mais cherche surtout à revendre les
+        bêtes à des chasseurs attirés par leur venin. Un des paniers s'est
+        renversé pendant le trajet : le troisième petit s'est caché dans la
+        cargaison de sel d'un chariot.</p>
+
+        <h3>À jouer</h3>
+
+        <p><strong>Sur le plateau.</strong> Les traces de bottes et de paniers
+        mènent à un replat accessible sans entrer dans le refuge principal. Les
+        personnages peuvent découvrir une corde coupée et des empreintes de
+        sandales trolls.</p>
+
+        <p><strong>Sur la piste.</strong> Deux paniers changent de mains. Les
+        acheteurs se disputent le prix et veulent se débarrasser de la couvée si
+        elle devient difficile à transporter. Le dernier scorpide est caché dans
+        un chariot où il peut piquer un innocent.</p>
+
+        <p><strong>Au dénouement.</strong> Il faut décider où installer ou
+        relâcher les petits sans provoquer une attaque. Sarkoth, si elle vit,
+        n'accepte pas que l'on s'approche brutalement de son refuge. Si elle est
+        morte, les jeunes devront trouver un autre abri sûr.</p>
+
+        <h3>Choix et conséquences</h3>
+
+        <p>Les PJ peuvent racheter les paniers, convaincre Tzali, arrêter Mogu,
+        tromper les acheteurs, libérer les captifs ou leur trouver un enclos
+        temporaire. Tzali n'est pas une ennemie jurée : elle a besoin de
+        nourriture et a sous-estimé le danger. L'exposer publiquement peut
+        décourager le braconnage, mais aggraver sa situation familiale.</p>
+
+        <p><strong>Conséquence durable :</strong> si Mogu s'en tire, le trafic
+        se déplacera vers d'autres créatures de Durotar. Si les PJ trouvent une
+        alternative honnête à la chasse aux œufs, Tzali peut devenir une
+        informatrice utile.</p>
+
+        <hr>
+      markdown: ''
+    image:
+      caption: ''
+    video:
+      controls: true
+      volume: 0.5
+      autoplay: false
+      loop: false
+      timestamp: 0
+    src: null
+    system: {}
+    flags: {}
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067349
+      modifiedTime: 1792435067349
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!ppozzECHkpc65ePf.JA9pnwXYfkvrY4o9'
+  - _id: Hxvk1r8zTAC7Kqky
+    name: 4. Les fioles du faux guérisseur
+    type: text
+    sort: 500000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h2>4. Les fioles du faux guérisseur</h2>
+
+        <h3>Qui, quoi, quand, où, comment ?</h3>
+
+        <ul>
+
+        <li><strong>Quand :</strong> Lorsque la réputation du venin de Sarkoth
+        et des antidotes s’est diffusée dans la région, alors qu’un péon
+        empoisonné est en danger.</li>
+
+        <li><strong>Où :</strong> Auberge, étals de vente et réserves d’un
+        marchand à Tranchecolline.</li>
+
+        <li><strong>Qui :</strong> Mogu, vendeur des prétendus antidotes, une
+        guérisseuse de passage, le péon malade, sa famille, des clients trompés
+        et les gardes.</li>
+
+        <li><strong>Quoi :</strong> Mogu vend comme antivenin rare un remède
+        ordinaire fortement dilué. Son mensonge compromet les soins d’un blessé
+        et risque de provoquer la colère des habitants.</li>
+
+        <li><strong>Comment :</strong> Faire soigner le péon en priorité,
+        comparer les fioles, vérifier achats et témoignages, confronter Mogu et
+        obtenir une réparation sans laisser dégénérer la situation.</li>
+
+        </ul>
+
+
+        <h3>L'accroche</h3>
+
+        <p>Un marchand propose un « antidote de la Mère rouge », prétendument
+        efficace contre tous les scorpides. Après l'avoir bu, un péon empoisonné
+        s'affaiblit au lieu de guérir. Sa famille vient demander de l'aide aux
+        personnages, tandis que le vendeur affirme que le malade a simplement
+        trop attendu.</p>
+
+        <h3>Ce qui se passe</h3>
+
+        <p>Les fioles contiennent <strong>un remède ordinaire très
+        dilué</strong>, vendu comme une préparation rare. Le produit n'est pas
+        magique ; il est seulement insuffisant contre les intoxications graves.
+        Mogu a acheté des ingrédients bon marché et ment sur leur provenance
+        pour profiter de la peur née autour de Sarkoth.</p>
+
+        <h3>À jouer</h3>
+
+        <p><strong>Le malade.</strong> Il faut d'abord obtenir de vrais soins,
+        sans attendre la fin de l'enquête. Une guérisseuse peut administrer un
+        antidote adapté au type de scorpide responsable de la piqûre.</p>
+
+        <p><strong>Les indices.</strong> Plusieurs flacons ont une odeur
+        identique à celle de l'antidote courant. Le registre du vendeur montre
+        des achats bon marché en grande quantité ; une fiole prétendument
+        ancienne porte une étiquette trop récente. D'autres clients témoignent
+        d'effets très variables.</p>
+
+        <p><strong>La confrontation.</strong> Mogu propose un remboursement
+        discret, prétend protéger la liberté du commerce ou tente de quitter
+        Tranchecolline avec ses dernières caisses. Des clients en colère peuvent
+        vouloir le lyncher avant qu'il ait rendu l'argent et révélé ses circuits
+        d'approvisionnement.</p>
+
+        <h3>Choix et conséquences</h3>
+
+        <p>Les PJ peuvent recueillir des témoignages, saisir les stocks avec
+        l'appui des gardes, exiger des remboursements ou laisser Gornek informer
+        les postes de recrues. Un marchand arrêté ne rend pas automatiquement
+        les soins disponibles : la vraie difficulté est de rétablir la confiance
+        et les réserves médicales.</p>
+
+        <p><strong>Sarkoth vivante ou morte :</strong> la fraude utilise son
+        nom, pas son venin. Si la vraie préparation est rare, l'escroquerie
+        devient plus tentante encore.</p>
+
+        <hr>
+      markdown: ''
+    image:
+      caption: ''
+    video:
+      controls: true
+      volume: 0.5
+      autoplay: false
+      loop: false
+      timestamp: 0
+    src: null
+    system: {}
+    flags: {}
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067349
+      modifiedTime: 1792435067349
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!ppozzECHkpc65ePf.Hxvk1r8zTAC7Kqky'
+  - _id: VIFhP2tgi3QQC344
+    name: 5. La mue du ravin
+    type: text
+    sort: 600000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h2>5. La mue du ravin</h2>
+
+        <h3>Qui, quoi, quand, où, comment ?</h3>
+
+        <ul>
+
+        <li><strong>Quand :</strong> À tout moment pendant les travaux des
+        pistes, après la disparition d’un péon et avant la tombée de la
+        nuit.</li>
+
+        <li><strong>Où :</strong> Sentier méridional de la Vallée des Épreuves,
+        puis ravin escarpé où une immense mue s’est coincée entre deux
+        parois.</li>
+
+        <li><strong>Qui :</strong> Korga, responsable des travaux, un péon
+        coincé sur une corniche et les petits scorpides vivant dans les fissures
+        du ravin.</li>
+
+        <li><strong>Quoi :</strong> En tentant de récupérer de la chitine d’une
+        ancienne mue, un péon a provoqué un éboulement et s’est retrouvé bloqué,
+        la jambe prise sous les pierres.</li>
+
+        <li><strong>Comment :</strong> Repérer un accès sûr, éviter d’ébranler
+        les abris des scorpides, dégager ou hisser le blessé, puis décider si la
+        mue peut être récupérée sans causer un nouvel effondrement.</li>
+
+        </ul>
+
+
+        <h3>L'accroche</h3>
+
+        <p>Un péon chargé de repérer des pierres pour réparer une piste ne
+        revient pas. Son dernier message évoquait une <strong>carapace de
+        scorpide gigantesque</strong>, peut-être une vieille mue de Sarkoth,
+        coincée dans un ravin. Korga craint un accident et demande qu'on le
+        retrouve avant la tombée de la nuit.</p>
+
+        <p><em>À lire au bord du ravin :</em></p>
+
+        <blockquote>
+
+        <p>Une immense carapace vide, couleur de cuivre terni, est accrochée
+        entre deux parois. Elle ressemble à un scorpide pétrifié. Plus bas, un
+        souffle rauque monte d'un amas de pierres. Tout près, de petites
+        silhouettes se glissent dans les fissures.</p>
+
+        </blockquote>
+
+        <h3>Ce qui se passe</h3>
+
+        <p>Le péon voulait dégager les plaques de chitine, utilisables comme
+        matériau de protection. Un bloc s'est détaché sous son poids et l'a
+        coincé sur une corniche. Les petits scorpides qui vivent à l'ombre du
+        ravin s'agitent à chaque chute de caillou.</p>
+
+        <h3>À jouer</h3>
+
+        <p><strong>Trouver le bon accès.</strong> La descente directe est
+        dangereuse. Une fente latérale mène derrière la vieille mue ; une corde
+        ou une reconnaissance attentive permet de distinguer les pierres
+        instables.</p>
+
+        <p><strong>Récupérer le blessé.</strong> Le péon a une jambe coincée.
+        Les personnages doivent répartir leur poids, le hisser ou déblayer
+        prudemment. Des scorpides défendent leurs abris s'ils sont piétinés.</p>
+
+        <p><strong>La carapace.</strong> Elle peut être laissée sur place,
+        détachée par morceaux sans nouveaux éboulements ou récupérée plus tard,
+        lorsque le passage aura été sécurisé.</p>
+
+        <h3>Choix et conséquences</h3>
+
+        <p>Sauver le péon sans provoquer l'effondrement donne la priorité aux
+        vies plutôt qu'au matériau. Korga peut utiliser une partie de la chitine
+        pour protéger les mains des ouvriers ou consolider un équipement léger.
+        Si les personnages insistent pour prendre toute la mue immédiatement,
+        ils risquent d'endommager davantage le ravin.</p>
+
+        <p>Si Sarkoth est vivante, sa mue ne lui confère aucune propriété
+        magique ni lien de contrôle sur les autres scorpides. Si elle est morte,
+        cette carapace reste une trace tangible de son ancienneté.</p>
+
+        <hr>
+      markdown: ''
+    image:
+      caption: ''
+    video:
+      controls: true
+      volume: 0.5
+      autoplay: false
+      loop: false
+      timestamp: 0
+    src: null
+    system: {}
+    flags: {}
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067349
+      modifiedTime: 1792435067349
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!ppozzECHkpc65ePf.VIFhP2tgi3QQC344'
+  - _id: 3hEJLuWqYeKTAOj1
+    name: 6. Les pierres de la frontière
+    type: text
+    sort: 700000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h2>6. Les pierres de la frontière</h2>
+
+        <h3>Qui, quoi, quand, où, comment ?</h3>
+
+        <ul>
+
+        <li><strong>Quand :</strong> Après plusieurs incidents autour du
+        plateau, quand une décision sur la circulation devient urgente : un
+        chariot doit repartir dès le lendemain.</li>
+
+        <li><strong>Où :</strong> Poste de Gornek, piste courte longeant les
+        rochers et détour du plateau bas avec son gué et sa pente
+        difficile.</li>
+
+        <li><strong>Qui :</strong> Gornek, Korga et ses péons, un représentant
+        des convoyeurs, des chasseurs locaux et les voyageurs qui dépendent du
+        ravitaillement.</li>
+
+        <li><strong>Quoi :</strong> Il faut choisir une route durablement
+        praticable sans rendre les convois trop lents ni provoquer de nouvelles
+        rencontres dangereuses avec les scorpides.</li>
+
+        <li><strong>Comment :</strong> Reconnaître les deux tracés, constater
+        leurs faiblesses, négocier la répartition des travaux et prévoir une
+        solution provisoire pour le convoi du lendemain.</li>
+
+        </ul>
+
+
+        <h3>L'accroche</h3>
+
+        <p>Les incidents du plateau ont montré qu'un simple panneau ne suffit
+        pas. Gornek veut une route sûre ; Korga dispose de peu de péons ; les
+        convoyeurs refusent un détour trop long ; les chasseurs demandent de
+        laisser de l'espace aux scorpides. Aucun des groupes n'a les moyens
+        d'imposer seul sa solution.</p>
+
+        <h3>Les deux tracés</h3>
+
+        <p><strong>La piste courte</strong> longe les rochers où passent
+        régulièrement les scorpides. Elle facilite le ravitaillement, mais
+        expose les jeunes recrues à des rencontres dangereuses. Pour la
+        sécuriser, il faudrait maintenir des gardes ou modifier encore le
+        relief.</p>
+
+        <p><strong>Le détour du plateau bas</strong> est plus long, avec un gué
+        pierreux et une pente difficile pour les chariots. Il préserve les
+        abords du refuge, mais exige des travaux et ralentit les livraisons.</p>
+
+        <h3>À jouer</h3>
+
+        <p><strong>La reconnaissance.</strong> Les aventuriers parcourent les
+        deux pistes. Ils découvrent une portion friable sur la courte et un
+        passage à renforcer sur la longue. Des marques naturelles de scorpides
+        révèlent leurs voies habituelles, sans permettre de garantir qu'ils n'en
+        sortiront jamais.</p>
+
+        <p><strong>Les négociations.</strong> Gornek veut une décision
+        applicable rapidement. Les péons demandent des outils et des bras. Les
+        convoyeurs cherchent à partager la charge. Les chasseurs proposent de
+        marquer une limite que les recrues devront apprendre à respecter.</p>
+
+        <p><strong>Une difficulté immédiate.</strong> Un chariot doit partir le
+        lendemain. Les personnages doivent définir un trajet provisoire avant
+        que les travaux soient terminés.</p>
+
+        <h3>Choix et conséquences</h3>
+
+        <p>Les PJ peuvent choisir une piste, financer ou aider les travaux,
+        ménager un passage de faune, accompagner provisoirement les convois ou
+        établir des consignes de garde. <strong>Aucune solution ne supprime le
+        coût :</strong> temps, travail, ravitaillement ou risque devront être
+        assumés par quelqu'un.</p>
+
+        <p>Si Sarkoth vit, la route doit tenir compte de sa présence sans
+        supposer qu'elle obéira à des bornes. Si elle est morte, de nouveaux
+        scorpides peuvent occuper les lieux, ce qui rend les décisions de
+        sécurité tout aussi importantes.</p>
+
+        <p><strong>Récompense :</strong> Gornek peut confier aux PJ la
+        reconnaissance d'autres pistes ; leur avis devient écouté au poste et
+        dans la cour des convois.</p>
+
+        <hr>
+      markdown: ''
+    image:
+      caption: ''
+    video:
+      controls: true
+      volume: 0.5
+      autoplay: false
+      loop: false
+      timestamp: 0
+    src: null
+    system: {}
+    flags: {}
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067349
+      modifiedTime: 1792435067349
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!ppozzECHkpc65ePf.3hEJLuWqYeKTAOj1'
+  - _id: kPsTIdIIx3XoYY1B
+    name: 7. Le territoire sans mère
+    type: text
+    sort: 800000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h2>7. Le territoire sans mère</h2>
+
+        <h3>Qui, quoi, quand, où, comment ?</h3>
+
+        <ul>
+
+        <li><strong>Quand :</strong> Quelques jours après la mort ou le départ
+        de Sarkoth. Si elle demeure sur place, une sécheresse ou un déplacement
+        de jeunes scorpides peut produire le même déséquilibre.</li>
+
+        <li><strong>Où :</strong> Vallée des Épreuves et chemins vers Sen’jin :
+        abri à outils, point d’eau temporaire et ancien passage de la Mère
+        rouge.</li>
+
+        <li><strong>Qui :</strong> Gornek, chasseurs Sombrelance, péons des
+        pistes, deux scorpides adultes rivaux et plusieurs scorpides plus jeunes
+        déplacés.</li>
+
+        <li><strong>Quoi :</strong> Les secteurs de chasse laissés libres sont
+        disputés. Des scorpides se rapprochent des habitations et réserves
+        d’eau, tandis que les habitants envisagent de brûler ou détruire leurs
+        abris.</li>
+
+        <li><strong>Comment :</strong> Examiner les trois foyers, distinguer les
+        conflits territoriaux d’une prétendue vengeance, protéger les provisions
+        et choisir entre déplacement, surveillance, fermeture d’abris ou
+        élimination ciblée.</li>
+
+        </ul>
+
+
+        <h3>L'accroche</h3>
+
+        <p>Depuis que Sarkoth a disparu, les petites piqûres se multiplient en
+        plusieurs endroits à la fois. Les recrues parlent d'une vengeance de ses
+        rejetons. Un groupe de chasseurs demande l'autorisation de nettoyer tous
+        les abris scorpides autour de la route.</p>
+
+        <h3>Ce qui se passe</h3>
+
+        <p>La disparition de la matriarche a libéré ses secteurs de chasse. Deux
+        <strong>scorpides adultes</strong> se disputent les abris les plus frais
+        ; les plus jeunes fuient vers des crevasses proches des chemins et des
+        réserves d'eau. Il n'y a aucune attaque coordonnée et aucun esprit
+        vengeur.</p>
+
+        <h3>À jouer</h3>
+
+        <p><strong>Trois foyers.</strong> Des scorpides se sont installés sous
+        un abri à outils ; un autre groupe suit la piste d'un point d'eau
+        temporaire ; deux adultes s'affrontent près d'un ancien passage de la
+        Mère rouge. Les personnages peuvent visiter les sites dans l'ordre
+        voulu.</p>
+
+        <p><strong>Indices.</strong> Les traces montrent plusieurs tailles et
+        directions. Les attaques se produisent lorsque les habitants approchent
+        des abris ou des points d'eau. Des carcasses de petites bêtes signalent
+        la présence de nouveaux territoires de chasse.</p>
+
+        <p><strong>L'urgence.</strong> Des péons menacent de brûler l'abri à
+        outils alors que des provisions y sont entreposées. Les chasseurs
+        préfèrent tuer les adultes immédiatement, mais risquent de faire fuir
+        les plus jeunes dans d'autres crevasses.</p>
+
+        <h3>Choix et conséquences</h3>
+
+        <p>Les PJ peuvent condamner les abris accessibles depuis les chemins,
+        dégager un couloir vers des rochers moins fréquentés, déplacer
+        temporairement les vivres et les points d'eau, capturer ou abattre les
+        adultes les plus dangereux, ou organiser la surveillance de quelques
+        secteurs sensibles.</p>
+
+        <p>Éliminer les scorpides près des habitations sauve des vies, mais
+        <strong>une extermination improvisée</strong> risque de simplement les
+        disperser. Un aménagement bien pensé limite durablement les rencontres,
+        même si le plateau reste sauvage.</p>
+
+        <p><strong>Variante si Sarkoth vit :</strong> une sécheresse ou le
+        départ forcé de plusieurs jeunes scorpides crée le même déséquilibre sur
+        un secteur périphérique, sans transformer Sarkoth en responsable
+        consciente des incidents.</p>
+
+        <hr>
+      markdown: ''
+    image:
+      caption: ''
+    video:
+      controls: true
+      volume: 0.5
+      autoplay: false
+      loop: false
+      timestamp: 0
+    src: null
+    system: {}
+    flags: {}
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067349
+      modifiedTime: 1792435067349
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!ppozzECHkpc65ePf.kPsTIdIIx3XoYY1B'
+  - _id: PlSFp4FIebIE9O9b
+    name: Suivre les conséquences en campagne
+    type: text
+    sort: 900000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h2>Suivre les conséquences en campagne</h2>
+
+        <table>
+
+        <thead>
+
+        <tr>
+          <th>Ce que les personnages ont fait</th>
+          <th>Évolution possible du sud de Durotar</th>
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+          <td>Ils ont épargné Sarkoth et protégé son refuge.</td>
+          <td>Des chasseurs souhaitent profiter de son venin ; les routes doivent respecter ses abords.</td>
+        </tr>
+
+        <tr>
+          <td>Ils l'ont tuée ou chassée.</td>
+          <td>D'autres scorpides occupent les abris libérés ; les patrouilles redoutent une nouvelle vague d'incidents.</td>
+        </tr>
+
+        <tr>
+          <td>Ils ont montré l'origine réelle d'un danger.</td>
+          <td>Gornek ou les convoyeurs leur font davantage confiance pour de nouvelles reconnaissances.</td>
+        </tr>
+
+        <tr>
+          <td>Ils ont laissé courir des récits mensongers.</td>
+          <td>Les trophées et les faux remèdes gagnent en valeur aux yeux des habitants.</td>
+        </tr>
+
+        <tr>
+          <td>Ils ont aidé des péons et protégé les vivres.</td>
+          <td>L'Antre et Tranchecolline reconnaissent leur utilité dans la construction de la jeune Horde.</td>
+        </tr>
+
+        <tr>
+          <td>Ils ont livré des braconniers aux autorités.</td>
+          <td>Le commerce clandestin peut se déplacer ; certains chasseurs apprécient moins leur intervention.</td>
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <p><strong>Repère MJ :</strong> les quêtes n'exigent pas que Sarkoth
+        soit toujours en vie. Certaines parlent de sa réputation ou des traces
+        qu'elle a laissées, d'autres explorent les conséquences concrètes de sa
+        disparition. Il n'est pas nécessaire de les jouer toutes : choisis
+        celles qui découlent des décisions déjà prises par les aventuriers.</p>
+      markdown: ''
+    image:
+      caption: ''
+    video:
+      controls: true
+      volume: 0.5
+      autoplay: false
+      loop: false
+      timestamp: 0
+    src: null
+    system: {}
+    flags: {}
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067349
+      modifiedTime: 1792435067349
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!ppozzECHkpc65ePf.PlSFp4FIebIE9O9b'
+categories: []
+sort: 300000
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792435067349
+  modifiedTime: 1792435067349
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!ppozzECHkpc65ePf'

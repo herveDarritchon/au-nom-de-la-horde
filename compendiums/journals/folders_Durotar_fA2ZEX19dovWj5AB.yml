@@ -1,0 +1,20 @@
+type: JournalEntry
+folder: null
+name: Durotar
+color: null
+sorting: a
+_id: fA2ZEX19dovWj5AB
+description: ''
+sort: 100000
+flags: {}
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792435067272
+  modifiedTime: 1792435067393
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!fA2ZEX19dovWj5AB'

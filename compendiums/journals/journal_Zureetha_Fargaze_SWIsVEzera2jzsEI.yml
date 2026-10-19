@@ -1,0 +1,193 @@
+name: Zureetha Fargaze
+pages:
+  - sort: 100000
+    name: Profil MJ
+    type: text
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Zureetha Fargaze</h1>
+
+        <blockquote><p><strong>[CANON] liée aux vils familiers et à Yarrog ;
+        développement [ADAPTATION]</strong></p></blockquote>
+
+        <h2>Rôle dans la Vallée</h2><p>Elle introduit l'enquête et le doute
+        rationnel. Elle distingue ce qui a été vu de ce qui est seulement
+        supposé.</p>
+
+        <h2>Présence</h2><p>Jeune adulte, peau vert sauge, cheveux acajou,
+        carnet, pinces, sacoche d'outils et de fioles.</p>
+
+        <h2>Voix et répliques</h2><ul><li>« Montrez-moi ce que vous savez. Pas
+        ce que vous croyez. »</li><li>« Tu l'as vu ? »</li><li>« Alors dis-moi
+        qui l'a vu. »</li></ul>
+
+        <h2>Veut</h2><p>Comprendre les manifestations anormales avant qu'elles
+        ne deviennent une crise.</p>
+
+        <h2>Craint</h2><ul><li>minimiser une menace réelle</li><li>accuser un
+        innocent</li><li>provoquer une panique qui ferait disparaître la
+        véritable piste</li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _id: J4YKcYBubFoYxmCC
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067368
+      modifiedTime: 1792435067368
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!SWIsVEzera2jzsEI.J4YKcYBubFoYxmCC'
+  - sort: 200000
+    name: Relations avec les PJ
+    type: text
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Relations avec les PJ</h1>
+
+        <h2>Gagner sa confiance / son amitié</h2><p>Rapporter des observations
+        exactes ; admettre ce qu'on ignore ; conserver les indices ; distinguer
+        hypothèse et fait.</p>
+
+        <h2>La perdre / devenir son adversaire</h2><p>Inventer un détail ;
+        détruire une preuve ; accuser publiquement sans fondement ; lui cacher
+        volontairement un indice important.</p>
+
+        <h2>Liens personnels possibles</h2>
+
+        <h3>La première personne qu'elle croit</h3><p>Un PJ raconte quelque
+        chose d'étrange que tout le monde minimise. « Je te crois. Maintenant,
+        prouve-le-moi. »</p><h3>Le secret professionnel</h3><p>Un PJ lui confie
+        une information privée. Zureetha la garde tant qu'elle ne met personne
+        immédiatement en danger.</p><h3>La nuit d'autopsie</h3><p>Zureetha et un
+        PJ travaillent plusieurs heures sur une créature morte. La relation naît
+        du travail partagé.</p><h2>S'il devient un allié</h2><p>Une partenaire
+        d'enquête fiable quand quelque chose ne colle pas ; elle aide à poser
+        les bonnes questions plutôt qu'à livrer la réponse.</p><h2>S'il devient
+        hostile</h2><p>Si elle considère les PJ peu fiables, elle vérifie tout
+        et peut refuser publiquement de soutenir une accusation importante.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _id: tY01Afqis3S3B7oc
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067368
+      modifiedTime: 1792435067368
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!SWIsVEzera2jzsEI.tY01Afqis3S3B7oc'
+  - sort: 300000
+    name: Jeu et évolution
+    type: text
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Jeu et évolution</h1>
+
+        <h2>Scène prête à jouer</h2><p>Elle montre deux traces à un PJ : « Je
+        sais ce que j'en pense. Je veux savoir ce que toi tu vois. »</p>
+
+        <h2>Évolution hors champ</h2><p>Elle accumule de nouveaux indices hors
+        champ et peut devenir un contact récurrent sur les affaires
+        surnaturelles de Durotar.</p>
+
+        <h2>Suivi MJ</h2>
+
+        <table>
+
+        <thead><tr><th>Élément</th><th>Notes</th></tr></thead>
+
+        <tbody>
+
+        <tr><td>Relation avec les PJ</td><td></td></tr>
+
+        <tr><td>Dette / promesse</td><td></td></tr>
+
+        <tr><td>Ce qu'il sait sur eux</td><td></td></tr>
+
+        <tr><td>Ce qu'il veut maintenant</td><td></td></tr>
+
+        <tr><td>Prochaine évolution</td><td></td></tr>
+
+        </tbody>
+
+        </table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _id: I3zarVcwRzCD3a4l
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067368
+      modifiedTime: 1792435067368
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!SWIsVEzera2jzsEI.I3zarVcwRzCD3a4l'
+categories: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  campaign-codex:
+    type: ''
+  core:
+    sheetClass: ''
+folder: YgZ3jeiFxPjJi6iB
+_id: SWIsVEzera2jzsEI
+sort: 100000
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792435067368
+  modifiedTime: 1792435067368
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!SWIsVEzera2jzsEI'

@@ -1,0 +1,825 @@
+folder: 8Y36mqs2XUEJZEcW
+name: Sarkoth l’Ancienne
+flags:
+  campaign-codex:
+    type: ''
+  core:
+    sheetClass: ''
+_id: w3CKHMrGxXxe1GEr
+pages:
+  - _id: 953c5145ec142450
+    name: Portrait de la Mère rouge
+    type: text
+    sort: 100000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h1>Sarkoth — La Mère rouge</h1>
+
+        <h2>Rencontre — Vallée des Épreuves</h2>
+
+        <blockquote>
+
+        <p><strong>Lieu :</strong> plateau rocheux au sud de la Vallée des
+        Épreuves, Durotar<br>
+
+        <strong>Créature :</strong> scorpide ancestral, matriarche des scorpides
+        du secteur<br>
+
+        <strong>Autres noms :</strong> la Mère rouge, l’Ancienne de la
+        Vallée<br>
+
+        <strong>État actuel :</strong> blessure récente à la pince droite ;
+        comportement défensif accentué<br>
+
+        <strong>Danger :</strong> pinces puissantes, aiguillon venimeux, terrain
+        escarpé<br>
+
+        <strong>Personnes concernées :</strong> Hana’zua, Gornek, les péons et
+        les chasseurs de la vallée</p>
+
+        </blockquote>
+
+        <hr>
+
+        <h2>Une présence ancienne</h2>
+
+        <p>Sarkoth est une immense femelle scorpide aux écailles rouge sombre,
+        parcourues de plaques noircies, de rayures et d’entailles anciennes. Sa
+        carapace épaisse, son poids et ses gestes économes la distinguent des
+        scorpides ordinaires. Elle ne gaspille pas son énergie dans des
+        poursuites inutiles et connaît chaque abri du plateau.</p>
+
+        <p>La Mère rouge a survécu à de nombreuses sécheresses. Plusieurs
+        générations de scorpides du sud de Durotar descendent d’elle. Les plus
+        jeunes utilisent les mêmes abris, suivent parfois ses pistes et
+        s’écartent de son chemin. Sarkoth ne leur donne pas d’ordres : sa
+        présence suffit à organiser les territoires de chasse et de
+        reproduction.</p>
+
+        <p>Certains chasseurs la considèrent comme la plus dangereuse des bêtes
+        de la vallée. Des guérisseurs et des Sombrelances connaissent son
+        ancienneté et la valeur de son venin. Les péons et les recrues, eux,
+        redoutent surtout ses apparitions à proximité des chemins.</p>
+      markdown: ''
+    image:
+      caption: ''
+    video:
+      controls: true
+      volume: 0.5
+      autoplay: false
+      loop: false
+      timestamp: 0
+    src: null
+    system: {}
+    flags: {}
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067352
+      modifiedTime: 1792435067352
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!w3CKHMrGxXxe1GEr.953c5145ec142450'
+  - _id: 316b182a05d6d9cb
+    name: Première apparition et territoire
+    type: text
+    sort: 200000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h2>Ce que voit le groupe</h2>
+
+        <p><em>À lire lorsque les personnages découvrent Sarkoth :</em></p>
+
+        <blockquote>
+
+        <p>Une forme gigantesque se détache des rochers rougis par le soleil. Le
+        scorpide avance lentement, sa carapace sombre hérissée d’épines et
+        marquée de profondes cicatrices. Sa pince droite porte l’entaille
+        fraîche d’un coup de hache. Elle se referme avec difficulté.</p>
+
+        <p>La créature pivote pour vous faire face. Son autre pince s’ouvre avec
+        un claquement sec ; son énorme queue se dresse, l’aiguillon dirigé vers
+        vous. Elle ne charge pas. Derrière elle, un éboulement de pierres barre
+        une étroite fissure dans la falaise.</p>
+
+        </blockquote>
+
+        <p>Sarkoth surveille les intrus et se place instinctivement entre eux et
+        la fissure. Si les personnages restent à distance, elle les menace sans
+        attaquer. Un retrait calme permet généralement d’éviter
+        l’affrontement.</p>
+
+        <hr>
+
+        <h2>Le plateau de Sarkoth</h2>
+
+        <p>Le territoire de la matriarche couvre un plateau accidenté où
+        alternent dalles rocheuses, sable meuble, crevasses et éboulis.
+        Plusieurs petites bêtes y cherchent refuge ; les scorpides plus jeunes
+        occupent les interstices et les abris ombragés.</p>
+
+        <p><strong>Le passage des recrues.</strong> Une piste consolidée permet
+        aux péons et aux chariots de contourner le plateau. Des pierres et des
+        déblais y ont été déposés récemment pour sécuriser le passage. Depuis,
+        de profondes traces de scorpide traversent de plus en plus souvent la
+        route.</p>
+
+        <p><strong>La paroi remaniée.</strong> Au bord de la piste, une fissure
+        a été comblée sous les nouveaux remblais. La pierre est rayée à
+        plusieurs endroits, et le sol porte les marques de nombreuses tentatives
+        pour dégager l’entrée.</p>
+
+        <p><strong>L’ancien refuge.</strong> Derrière la fissure se trouve une
+        cavité ombragée où Sarkoth vient pondre et abriter sa descendance. Des
+        mues, de petites carapaces et des traces anciennes de scorpides
+        témoignent de cet usage.</p>
+
+        <p><strong>Le plateau de chasse.</strong> Des restes de proies et des
+        pistes interrompues indiquent que Sarkoth a des difficultés à chasser
+        depuis sa blessure. Certaines carcasses ont été abandonnées avant d’être
+        consommées.</p>
+
+        <h3>Ce qui a changé</h3>
+
+        <p>Des péons ont condamné la fissure pour stabiliser la route. Ils ne
+        savaient pas qu’ils bloquaient l’accès au site de ponte. Sarkoth cherche
+        depuis un autre passage et revient sans cesse vers la paroi. Ses
+        incursions se rapprochent désormais des voies fréquentées par la
+        Horde.</p>
+
+        <hr>
+      markdown: ''
+    image:
+      caption: ''
+    video:
+      controls: true
+      volume: 0.5
+      autoplay: false
+      loop: false
+      timestamp: 0
+    src: null
+    system: {}
+    flags: {}
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067352
+      modifiedTime: 1792435067352
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!w3CKHMrGxXxe1GEr.316b182a05d6d9cb'
+  - _id: fb87eac167b1682e
+    name: Blessure, réactions et indices
+    type: text
+    sort: 300000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h2>Une bête blessée</h2>
+
+        <p>Hana’zua a affronté Sarkoth en espérant prouver sa valeur. Il lui a
+        porté un coup de hache qui a profondément entaillé la pince droite.
+        Sarkoth lui a saisi la jambe, puis l’a piqué à la poitrine avec son
+        aiguillon. Hana’zua est parvenu à s’éloigner, mais il est resté
+        grièvement blessé et empoisonné, incapable de rejoindre seul
+        l’Antre.</p>
+
+        <p>Sarkoth ne cherche pas à se venger de Hana’zua. Elle associe
+        cependant les humanoïdes armés à une menace et réagit plus vivement
+        depuis son combat. Sa pince blessée la gêne pour capturer ses proies ;
+        elle compense avec sa pince valide et son aiguillon.</p>
+
+        <p>Son objectif reste inchangé : <strong>rouvrir l’accès à son refuge et
+        préserver ses jeunes</strong>.</p>
+
+        <h3>Réactions de Sarkoth</h3>
+
+        <table>
+
+        <thead>
+
+        <tr>
+
+        <th>Ce que font les personnages</th>
+
+        <th>Réaction de Sarkoth</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+
+        <td>Ils passent au loin sans approcher de la fissure.</td>
+
+        <td>Elle les observe et garde ses distances.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Ils avancent lentement dans sa direction.</td>
+
+        <td>Elle se redresse, claque sa pince et lève l’aiguillon.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Ils reculent après ses menaces.</td>
+
+        <td>Elle ne les poursuit pas longtemps.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Ils tentent de toucher sa pince blessée.</td>
+
+        <td>Elle se dérobe ou frappe pour se défendre.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Ils approchent de la fissure ou de ses jeunes.</td>
+
+        <td>Elle se place en travers et attaque si l’intrusion continue.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Ils déposent de la nourriture puis s’éloignent.</td>
+
+        <td>Elle examine l’offrande avec méfiance ; sa vigilance peut
+        diminuer.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Ils retirent les pierres qui barrent l’accès.</td>
+
+        <td>Elle surveille leurs gestes et tente de rejoindre l’ouverture.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Ils la blessent ou l’encerclent.</td>
+
+        <td>Elle combat violemment, cherche une issue ou protège son
+        refuge.</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <hr>
+
+        <h2>Traces et découvertes</h2>
+
+        <p>Les personnages peuvent réunir ces informations par l’observation, le
+        pistage, les témoignages ou l’exploration du plateau. Aucun indice
+        essentiel ne nécessite de réussir un unique test.</p>
+
+        <table>
+
+        <thead>
+
+        <tr>
+
+        <th>Signe observable</th>
+
+        <th>Ce qu’il permet de comprendre</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+
+        <td>Des traces convergent vers la paroi au lieu de suivre des
+        proies.</td>
+
+        <td>Sarkoth recherche quelque chose à cet endroit.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>La fissure a été obstruée récemment.</td>
+
+        <td>L’aménagement de la route a modifié son territoire.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Les pierres neuves sont marquées par des pinces.</td>
+
+        <td>Sarkoth tente régulièrement de rouvrir le passage.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Des mues et de petites carapaces se trouvent près du refuge.</td>
+
+        <td>Le secteur est fréquenté par des scorpides depuis longtemps.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Des jeunes scorpides suivent d’anciennes pistes de la
+        matriarche.</td>
+
+        <td>Sarkoth joue un rôle important dans leur présence sur le
+        plateau.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Des proies ont été mal saisies ou laissées sur place.</td>
+
+        <td>Sa blessure gêne sa chasse.</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Sarkoth cesse de poursuivre les intrus qui s’éloignent de la
+        fissure.</td>
+
+        <td>Elle défend un lieu plutôt qu’elle ne cherche à chasser des
+        voyageurs.</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <hr>
+      markdown: ''
+    image:
+      caption: ''
+    video:
+      controls: true
+      volume: 0.5
+      autoplay: false
+      loop: false
+      timestamp: 0
+    src: null
+    system: {}
+    flags: {}
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067352
+      modifiedTime: 1792435067352
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!w3CKHMrGxXxe1GEr.fb87eac167b1682e'
+  - _id: 7c3cfb6fcd94fd8a
+    name: Venin et communication
+    type: text
+    sort: 400000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h2>Le venin de la Mère rouge</h2>
+
+        <p>Le venin de Sarkoth est particulièrement virulent. Les antidotes
+        préparés contre les scorpides ordinaires peuvent ralentir ses effets,
+        sans suffire à neutraliser une intoxication grave.</p>
+
+        <p>Son venin frais possède toutefois une propriété rare : <strong>un
+        guérisseur ou un alchimiste compétent peut le préparer et le diluer pour
+        obtenir un antivenin puissant</strong>. Le venin brut demeure mortel ;
+        il ne soigne personne à l’état naturel.</p>
+
+        <p>Cette substance est précieuse pour soigner Hana’zua, mais les
+        personnages n’ont pas nécessairement besoin de tuer Sarkoth pour
+        l’obtenir. Ils peuvent essayer de :</p>
+
+        <ul>
+
+        <li>recueillir du venin après une piqûre sur une proie ou un support
+        préparé ;</li>
+
+        <li>immobiliser l’aiguillon sans blesser mortellement la matriarche
+        ;</li>
+
+        <li>l’approcher par des gestes patients et des offrandes ;</li>
+
+        <li>rétablir l’accès au refuge, puis tenter un prélèvement lorsqu’elle
+        ne se sent plus menacée.</li>
+
+        </ul>
+
+        <p>Une récolte reste dangereuse. Sarkoth n’offre pas spontanément son
+        aiguillon à un inconnu.</p>
+
+        <hr>
+
+        <h2>Comprendre Sarkoth</h2>
+
+        <p>Sarkoth est une bête, pas une interlocutrice humanoïde. Elle
+        reconnaît certains individus, les menaces répétées, les odeurs
+        familières et les comportements qui lui ont déjà apporté du danger ou du
+        répit. Elle peut tolérer progressivement la présence de personnes qui
+        respectent ses distances.</p>
+
+        <p>Un chasseur patient peut décrypter son comportement. Un druide, un
+        chaman ou un personnage capable de communiquer avec les animaux peut
+        percevoir des impressions très simples.</p>
+
+        <p><strong>Sensations et images qu’elle peut transmettre :</strong></p>
+
+        <blockquote>
+
+        <p><em>Petits. Pierre fermée. Chaleur. Douleur. Deux-jambes. Passage.
+        Reculer.</em></p>
+
+        </blockquote>
+
+        <p>Elle ne comprend ni la propriété des terres, ni les ordres de Gornek,
+        ni les raisons des travaux. Elle comprend en revanche qu’un passage est
+        dégagé, qu’une menace se retire ou qu’un individu apporte de la
+        nourriture.</p>
+
+        <p>Si des personnages établissent une relation suffisamment calme et
+        concrète, Sarkoth peut tolérer un prélèvement ponctuel de venin, en
+        particulier après la réouverture de son refuge. Cela reste une tolérance
+        fragile, jamais un accord garanti ou définitif.</p>
+
+        <hr>
+      markdown: ''
+    image:
+      caption: ''
+    video:
+      controls: true
+      volume: 0.5
+      autoplay: false
+      loop: false
+      timestamp: 0
+    src: null
+    system: {}
+    flags: {}
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067352
+      modifiedTime: 1792435067352
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!w3CKHMrGxXxe1GEr.7c3cfb6fcd94fd8a'
+  - _id: 04c0d523082a4402
+    name: Réactions des habitants
+    type: text
+    sort: 500000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h2>Réactions des habitants</h2>
+
+        <p><strong>Hana’zua</strong> considère Sarkoth comme l’adversaire qui a
+        failli le tuer. Blessé et profondément atteint dans sa fierté, il peut
+        demander que sa mort soit vengée. Il ignore la raison des déplacements
+        de la matriarche.</p>
+
+        <p><strong>Gornek</strong> veut préserver la sécurité des recrues et
+        sauver Hana’zua. S’il estime que Sarkoth demeure une menace
+        incontrôlable, il peut envoyer des chasseurs. Il peut aussi accepter
+        qu’on rétablisse un passage naturel si cela éloigne durablement la bête
+        de la route.</p>
+
+        <p><strong>Les péons</strong> ont condamné la fissure sans connaître son
+        importance. Ils souhaitent conserver une piste praticable et redoutent
+        de devoir défaire les travaux réalisés.</p>
+
+        <p><strong>Certains chasseurs et guérisseurs Sombrelance</strong>
+        connaissent le nom de la Mère rouge. Ils peuvent conseiller la prudence,
+        rappeler le rôle de la vieille femelle dans le secteur ou chercher à
+        préserver une source rare de venin.</p>
+
+        <p><strong>Les voyageurs et marchands</strong> s'intéressent surtout aux
+        détours, aux attaques et à la valeur supposée du venin. Des récits
+        exagérés peuvent attirer des chasseurs opportunistes.</p>
+
+        <hr>
+      markdown: ''
+    image:
+      caption: ''
+    video:
+      controls: true
+      volume: 0.5
+      autoplay: false
+      loop: false
+      timestamp: 0
+    src: null
+    system: {}
+    flags: {}
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067352
+      modifiedTime: 1792435067352
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!w3CKHMrGxXxe1GEr.04c0d523082a4402'
+  - _id: c98d6a2786097403
+    name: Déroulement et conséquences
+    type: text
+    sort: 600000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h2>Si personne n’intervient</h2>
+
+        <p><strong>D’abord</strong>, Sarkoth continue à gratter les pierres et à
+        chercher un autre accès. Sa blessure rend ses déplacements plus
+        erratiques et ses rencontres avec les recrues plus dangereuses.</p>
+
+        <p><strong>Ensuite</strong>, elle emprunte un passage plus fréquenté et
+        provoque un nouvel incident. La rumeur d’une bête qui attaque les
+        convois se répand.</p>
+
+        <p><strong>Enfin</strong>, Gornek peut envoyer des chasseurs sur le
+        plateau. Une confrontation près du refuge risque de disperser les jeunes
+        scorpides dans les passages voisins.</p>
+
+        <hr>
+
+        <h2>Ce que change le sort de Sarkoth</h2>
+
+        <h3>Si Sarkoth est tuée</h3>
+
+        <p>Le danger immédiat sur le plateau disparaît. Son aiguillon peut
+        fournir le venin recherché, à condition de pouvoir encore le prélever et
+        le préparer.</p>
+
+        <p>Le territoire libéré attire ou disperse les plus jeunes scorpides.
+        Des individus peuvent s’installer près de pistes et d’abris jusque-là
+        relativement épargnés.</p>
+
+        <h3>Si Sarkoth est chassée</h3>
+
+        <p>La route peut redevenir provisoirement praticable. Sarkoth cherche
+        toutefois un nouveau refuge, et les incidents risquent de se déplacer
+        vers un autre secteur du sud de Durotar.</p>
+
+        <h3>Si la fissure est rouverte</h3>
+
+        <p>Sarkoth retrouve son site de ponte. Ses incursions sur la route
+        diminuent, même si elle continue à défendre violemment ses abords. Les
+        péons doivent s'assurer que les travaux restent stables et que les
+        voyageurs ne pénètrent pas dans ce secteur.</p>
+
+        <h3>Si les personnages gagnent sa tolérance</h3>
+
+        <p>Sarkoth peut reconnaître les aventuriers et cesser de les considérer
+        comme une menace immédiate, tant qu’ils respectent son territoire. Un
+        prélèvement ultérieur de venin devient envisageable.</p>
+
+        <p>Elle demeure sauvage et dangereuse, en particulier près de ses
+        jeunes.</p>
+
+        <h3>Si son venin devient recherché</h3>
+
+        <p>La matriarche risque d’attirer des braconniers ou des chasseurs
+        attirés par sa valeur. Des tentatives de capture ou de récoltes répétées
+        peuvent à nouveau bouleverser son comportement.</p>
+
+        <hr>
+      markdown: ''
+    image:
+      caption: ''
+    video:
+      controls: true
+      volume: 0.5
+      autoplay: false
+      loop: false
+      timestamp: 0
+    src: null
+    system: {}
+    flags: {}
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067352
+      modifiedTime: 1792435067352
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!w3CKHMrGxXxe1GEr.c98d6a2786097403'
+  - _id: 70d6c1c5ba2e8eb1
+    name: Repères MJ
+    type: text
+    sort: 700000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: |-
+        <h2>Repères immédiats</h2>
+        <table>
+        <thead>
+        <tr>
+        <th></th>
+        <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td><strong>Où la trouver</strong></td>
+        <td>Plateau rocheux, au sud de la Vallée des Épreuves</td>
+        </tr>
+        <tr>
+        <td><strong>Ce qu’elle cherche</strong></td>
+        <td>Rejoindre son site de ponte condamné</td>
+        </tr>
+        <tr>
+        <td><strong>Ce qui la gêne</strong></td>
+        <td>Passage obstrué, pince droite blessée</td>
+        </tr>
+        <tr>
+        <td><strong>Ce qu’elle protège</strong></td>
+        <td>Son refuge et sa descendance</td>
+        </tr>
+        <tr>
+        <td><strong>Quand elle attaque</strong></td>
+        <td>Intrusion persistante, encerclement, menace contre ses jeunes</td>
+        </tr>
+        <tr>
+        <td><strong>Quand elle laisse partir</strong></td>
+        <td>Les intrus quittent le secteur sensible</td>
+        </tr>
+        <tr>
+        <td><strong>Ce qui peut l’apaiser</strong></td>
+        <td>Distance, nourriture, gestes réguliers, accès dégagé</td>
+        </tr>
+        <tr>
+        <td><strong>Ce qu’on peut obtenir</strong></td>
+        <td>Venin frais, accès à son territoire, tolérance progressive</td>
+        </tr>
+        <tr>
+        <td><strong>Danger principal</strong></td>
+        <td>Pince valide, aiguillon, poison et rochers difficiles</td>
+        </tr>
+        <tr>
+        <td><strong>Si elle meurt</strong></td>
+        <td>Le territoire des scorpides devient instable</td>
+        </tr>
+        </tbody>
+        </table>
+      markdown: ''
+    image:
+      caption: ''
+    video:
+      controls: true
+      volume: 0.5
+      autoplay: false
+      loop: false
+      timestamp: 0
+    src: null
+    system: {}
+    flags: {}
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067352
+      modifiedTime: 1792435067352
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!w3CKHMrGxXxe1GEr.70d6c1c5ba2e8eb1'
+  - sort: 800000
+    name: Tables aléatoires
+    type: text
+    _id: z4jzQkvN6weeUjdp
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Sen'Jin</h2><p>@UUID[RollTable.yhTtVyzsexupsv2j]{Sarkoth — Rumeurs :
+        Sen’jin}</p><h2>Vallées des
+        épreuves</h2><p>@UUID[RollTable.OSBKTSr6dGUpoGwA]{Sarkoth — Rumeurs :
+        Tranchecolline}</p><h2>TranchecoliNne</h2><p>@UUID[RollTable.PlaO9j8dWV8tylri]{Sarkoth
+        — Rumeurs : Vallée des Épreuves}</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067352
+      modifiedTime: 1792435067352
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!w3CKHMrGxXxe1GEr.z4jzQkvN6weeUjdp'
+categories: []
+sort: 400000
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792435067352
+  modifiedTime: 1792435067352
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource:
+    worldId: au-nom-de-la-horde-cof2
+    uuid: JournalEntry.w3CKHMrGxXxe1GEr
+    coreVersion: '14.367'
+    systemId: co2
+    systemVersion: 2.3.12
+_key: '!journal!w3CKHMrGxXxe1GEr'

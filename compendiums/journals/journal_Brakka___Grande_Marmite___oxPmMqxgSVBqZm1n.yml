@@ -1,0 +1,235 @@
+name: Brakka « Grande-Marmite »
+flags:
+  campaign-codex:
+    type: ''
+  core:
+    sheetClass: ''
+pages:
+  - name: 01 · Portrait et accroche
+    type: text
+    sort: 100000
+    text:
+      format: 1
+      content: >-
+        <h1>Brakka « Grande-Marmite »</h1><p><em>Adaptation Warbound · Vallée
+        des Épreuves · Journal MJ</em></p><blockquote><p>« Assieds-toi. Mange.
+        Après, tu pourras m’expliquer pourquoi tu veux casser la tête de
+        quelqu’un. »</p></blockquote><h2>En un
+        regard</h2><dl><dt><p><strong>Rôle</strong></p></dt><dd><p>La cuisinière
+        · solidarité /
+        médiation</p></dd><dt><p><strong>Aspect</strong></p></dt><dd><p>Orque
+        robuste au rire sonore, tablier de travail taché de farine et de
+        poussière. Une grande louche lui sert à distribuer le repas autant qu’à
+        interrompre les
+        disputes.</p></dd><dt><p><strong>Désir</strong></p></dt><dd><p>Tenir un
+        petit établissement où chacun peut manger chaud, idéalement à
+        Tranchecolline.</p></dd><dt><p><strong>Crainte</strong></p></dt><dd><p>Devoir
+        choisir entre nourrir ses amis et préserver les maigres réserves
+        nécessaires à son
+        projet.</p></dd><dt><p><strong>Défaut</strong></p></dt><dd><p>Elle
+        couvre les bêtises de ses proches, surtout de Grubnak, quitte à être
+        injuste avec les autres.</p></dd></dl><h2>Première impression à la
+        table</h2><p>Elle accueille les PJ quel que soit leur rang, mais n’aime
+        pas qu’on transforme sa table en interrogatoire. Un repas partagé est un
+        geste plus fort qu’un discours.</p><h2>Contact avec les PJ</h2><p>Un
+        repas préparé ensemble, une recette ratée, un mot de réconfort ou une
+        vieille promesse échangée près du feu.</p><p><em>Statut : PNJ original
+        de la campagne. Repère canonique du secteur : le contremaître Thazz’rill
+        et les péons de la Vallée.</em></p>
+    ownership:
+      default: 0
+    flags: {}
+    _id: EVt6Jcc7s03FiDfb
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067361
+      modifiedTime: 1792435067361
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!oxPmMqxgSVBqZm1n.EVt6Jcc7s03FiDfb'
+  - name: 02 · Jouer ce péon
+    type: text
+    sort: 200000
+    text:
+      format: 1
+      content: >-
+        <h1>Interprétation et liens</h1><h2>Comment l’incarner</h2><p>Elle
+        accueille les PJ quel que soit leur rang, mais n’aime pas qu’on
+        transforme sa table en interrogatoire. Un repas partagé est un geste
+        plus fort qu’un discours.</p><h2>Ce qu’il sait, croit et
+        dissimule</h2><dl><dt><strong>Sait</strong></dt><dd>Les affinités,
+        rancunes, espoirs et habitudes des péons. Elle ne révèle pas les
+        confidences sans raison
+        personnelle.</dd><dt><strong>Croit</strong></dt><dd>Qu’une table commune
+        peut désamorcer presque toutes les querelles ; certaines demandent
+        pourtant de vrais actes.</dd><dt><strong>Cache</strong></dt><dd>Elle
+        puise parfois dans ses réserves personnelles pour donner à manger à ceux
+        qui n’ont rien, et en fait porter la responsabilité à des « pertes
+        ».</dd></dl><h2>Son
+        entourage</h2><table><thead><tr><th>Personne</th><th>Relation
+        actuelle</th></tr></thead><tbody><tr><td>Grubnak</td><td>Ami de longue
+        date qu’elle protège un peu trop.</td></tr><tr><td>Dorga</td><td>Lui
+        garde une portion et voit son
+        épuisement.</td></tr><tr><td>Mogra</td><td>Admire son exigence, redoute
+        son caractère entier.</td></tr><tr><td>Zugmog</td><td>Le nourrit et rit
+        de ses récits héroïques.</td></tr></tbody></table><h2>Une phrase à
+        placer</h2><blockquote><p>« Assieds-toi. Mange. Après, tu pourras
+        m’expliquer pourquoi tu veux casser la tête de quelqu’un.
+        »</p></blockquote>
+    ownership:
+      default: 0
+    flags: {}
+    _id: vcjXbkjqcW4xAP4u
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067361
+      modifiedTime: 1792435067361
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!oxPmMqxgSVBqZm1n.vcjXbkjqcW4xAP4u'
+  - name: 03 · Scènes et réactions
+    type: text
+    sort: 300000
+    text:
+      format: 1
+      content: >-
+        <h1>Scènes et décisions</h1><h2>Trois occasions de jeu</h2><h3>Le ragoût
+        du soir</h3><p>Au feu commun, chacun raconte ses exploits. Zugmog
+        interroge les PJ ; Grubnak invente une victoire contre un
+        ogre.</p><h3>Le repas manquant</h3><p>Elle découvre que les portions
+        sont insuffisantes et doit décider qui sera servi en premier ; les PJ
+        peuvent aider ou regarder.</p><h3>La confidence</h3><p>Elle sait
+        pourquoi deux péons se sont disputés, mais demande aux PJ ce qu’ils
+        comptent faire de cette information.</p><h2>Réactions à quelques choix
+        des PJ</h2><table><thead><tr><th>Approche des PJ</th><th>Réaction ou
+        conséquence</th></tr></thead><tbody><tr><td>Respecter ses
+        confidences</td><td>Elle devient un contact discret et accueille les PJ
+        comme des proches.</td></tr><tr><td>Exiger des informations au nom de
+        l’autorité</td><td>Elle peut révéler uniquement des faits publics puis
+        fermer sa table aux intrusifs.</td></tr><tr><td>L’aider à devenir
+        indépendante</td><td>Elle accepte une aide, à condition de rester
+        maîtresse de son établissement.</td></tr></tbody></table><h2>Si les PJ
+        n’interviennent pas</h2><p>Elle nourrit toujours les autres au détriment
+        de ses économies ; son rêve s’éloigne sans qu’elle cesse de sourire
+        devant ses invités.</p><p><em>Ces scènes sont des opportunités, pas une
+        suite de quêtes imposées. Elles peuvent se résoudre sans jet de
+        dés.</em></p>
+    ownership:
+      default: 0
+    flags: {}
+    _id: n8FSEYRZ1wQxcf9w
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067361
+      modifiedTime: 1792435067361
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!oxPmMqxgSVBqZm1n.n8FSEYRZ1wQxcf9w'
+  - name: 04 · Secrets et devenir (MJ)
+    type: text
+    sort: 400000
+    text:
+      format: 1
+      content: >-
+        <h1>MJ — Secrets et continuité</h1><h2>Vérité / point de
+        vigilance</h2><p>Ne fais pas de Brakka une machine à révéler des
+        secrets. Elle protège ses amis, peut se tromper et pourrait refuser une
+        demande des PJ pour préserver la confiance de sa communauté.</p><h2>Ce
+        que le PNJ ne dit pas spontanément</h2><p>Elle puise parfois dans ses
+        réserves personnelles pour donner à manger à ceux qui n’ont rien, et en
+        fait porter la responsabilité à des « pertes ».</p><h2>Évolution
+        envisageable</h2><p>Sa future table à Tranchecolline peut devenir un
+        point de retour chaleureux, sans servir artificiellement de « panneau de
+        quêtes ».</p><h2>Fil de mémoire des PJ</h2><ul><li>Qui lui a parlé avec
+        respect, et qui l’a humilié ?</li><li>Quelle promesse les PJ ont-ils
+        faite ?</li><li>Quelle décision des PJ a réellement changé sa vie
+        ?</li><li>Que demandera-t-il aux PJ la prochaine fois qu’ils se
+        croiseront ?</li></ul><h2>Continuité ouverte</h2><p>Les événements
+        ci-dessus sont des propositions. Les faits établis pendant la partie
+        priment sur cette préparation. L’amitié, l’hostilité et le destin de ce
+        péon ne sont pas décidés à l’avance.</p>
+    ownership:
+      default: 0
+    flags: {}
+    _id: fumUBcCc2B6iO3r4
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067361
+      modifiedTime: 1792435067361
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!oxPmMqxgSVBqZm1n.fumUBcCc2B6iO3r4'
+folder: dv9pfMyi7rdDcUkj
+categories: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_id: oxPmMqxgSVBqZm1n
+sort: 300000
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792435067361
+  modifiedTime: 1792435067361
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!oxPmMqxgSVBqZm1n'

@@ -1,0 +1,196 @@
+name: Gornek
+pages:
+  - sort: 100000
+    name: Profil MJ
+    type: text
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Gornek</h1>
+
+        <blockquote><p><strong>[CANON] personnage ; développement relationnel
+        [ADAPTATION WARBAND]</strong></p></blockquote>
+
+        <h2>Rôle dans la Vallée</h2><p>Figure d'autorité de la Vallée. Il
+        observe, juge et se souvient. Son approbation est rare mais
+        signifiante.</p>
+
+        <h2>Présence</h2><p>Orc vétéran, plus âgé que la majorité des recrues :
+        peau olive sombre, cheveux et barbe grisonnants, nombreuses cicatrices,
+        grande lance et rapports roulés.</p>
+
+        <h2>Voix et répliques</h2><ul><li>« Pourquoi ? »</li><li>« Et ensuite ?
+        »</li><li>« Qu'est-ce que tu as appris ? »</li></ul>
+
+        <h2>Veut</h2><p>Que les recrues quittent la Vallée vivantes,
+        compétentes, capables d'assumer leurs décisions et conscientes de leur
+        responsabilité envers les autres.</p>
+
+        <h2>Craint</h2><ul><li>les héros de façade</li><li>l'imprudence déguisée
+        en honneur</li><li>les rapports arrangés</li><li>ceux qui refusent
+        d'assumer leurs erreurs</li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _id: 3sYNBfvwDj2MDT7W
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067365
+      modifiedTime: 1792435067365
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!IYHpaT2LmUS6WLiG.3sYNBfvwDj2MDT7W'
+  - sort: 200000
+    name: Relations avec les PJ
+    type: text
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Relations avec les PJ</h1>
+
+        <h2>Gagner sa confiance / son amitié</h2><p>Dire la vérité même
+        lorsqu'elle est peu flatteuse ; protéger quelqu'un sans en faire un
+        spectacle ; reconnaître une erreur ; prendre une décision difficile et
+        l'assumer.</p>
+
+        <h2>La perdre / devenir son adversaire</h2><p>Mentir dans un rapport ;
+        sacrifier quelqu'un pour paraître héroïque ; accuser sans preuve puis
+        refuser de reconnaître son erreur.</p>
+
+        <h2>Liens personnels possibles</h2>
+
+        <h3>Le nom qu'il connaît déjà</h3><p>Gornek connaît le clan, le parent
+        ou l'ancien supérieur d'un PJ. « Je connais ce nom. On verra si tu le
+        portes bien. »</p><h3>L'erreur pardonnée</h3><p>Un PJ commet une vraie
+        faute. Gornek ne le couvre pas, mais lui accorde une seconde chance s'il
+        assume publiquement sa responsabilité.</p><h3>Le rapport qu'il
+        conserve</h3><p>Une décision des PJ l'a marqué. Beaucoup plus tard,
+        Gornek ressort leur ancien rapport.</p><h2>S'il devient un
+        allié</h2><p>Donner sa parole pour les PJ, leur confier une
+        responsabilité importante, les défendre devant une autorité.</p><h2>S'il
+        devient hostile</h2><p>Il ne cherche pas à se venger : il cesse de leur
+        faire confiance. Il vérifie leurs récits et leur confie moins de
+        responsabilités.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _id: LKSj04ZYfHiB1Qpv
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067365
+      modifiedTime: 1792435067365
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!IYHpaT2LmUS6WLiG.LKSj04ZYfHiB1Qpv'
+  - sort: 300000
+    name: Jeu et évolution
+    type: text
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Jeu et évolution</h1>
+
+        <h2>Scène prête à jouer</h2><p>Après une situation difficile, Gornek
+        écoute le rapport. Long silence. Puis : « Bien. » Et il repart.</p>
+
+        <h2>Évolution hors champ</h2><p>Il peut confier une responsabilité à
+        quelqu'un d'autre ou faire parvenir plus tard une recommandation liée
+        aux actes des PJ.</p>
+
+        <h2>Suivi MJ</h2>
+
+        <table>
+
+        <thead><tr><th>Élément</th><th>Notes</th></tr></thead>
+
+        <tbody>
+
+        <tr><td>Relation avec les PJ</td><td></td></tr>
+
+        <tr><td>Dette / promesse</td><td></td></tr>
+
+        <tr><td>Ce qu'il sait sur eux</td><td></td></tr>
+
+        <tr><td>Ce qu'il veut maintenant</td><td></td></tr>
+
+        <tr><td>Prochaine évolution</td><td></td></tr>
+
+        </tbody>
+
+        </table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _id: FEW0CgoUU9uTuvvS
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067365
+      modifiedTime: 1792435067365
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!IYHpaT2LmUS6WLiG.FEW0CgoUU9uTuvvS'
+categories: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  campaign-codex:
+    type: ''
+  core:
+    sheetClass: ''
+folder: YgZ3jeiFxPjJi6iB
+_id: IYHpaT2LmUS6WLiG
+sort: 101563
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792435067365
+  modifiedTime: 1792435067365
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!IYHpaT2LmUS6WLiG'

@@ -1,0 +1,237 @@
+name: Yarrog Baneshadow
+pages:
+  - sort: 100000
+    name: Profil MJ
+    type: text
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Yarrog Baneshadow</h1>
+
+        <blockquote><p><strong>[CANON] Orc démoniste de la Lame ardente ; rôle
+        social [ACQUIS WARBAND]</strong></p></blockquote>
+
+        <h2>Rôle dans la Vallée</h2><p>Premier antagoniste que les joueurs
+        peuvent regretter d'avoir aimé. Certaines choses chez lui sont sincères
+        malgré sa loyauté à la Lame ardente.</p>
+
+        <h2>Présence</h2><p>Peau gris-vert pâle, cheveux noirs striés de blanc,
+        vêtements usés, bâton simple, breloques discrètes, aucune démonologie
+        ostensible en public.</p>
+
+        <h2>Voix et répliques</h2><ul><li>« Et toi, qu'est-ce que tu en penses ?
+        »</li><li>« Pourquoi ça t'énerve autant ? »</li><li>« Tu leur as dit ?
+        »</li></ul>
+
+        <h2>Veut</h2><p>Identifier les personnes utiles, influentes, isolées,
+        ambitieuses ou capables de garder un secret.</p>
+
+        <h2>Craint</h2><ul><li>que son réseau soit exposé</li><li>être forcé
+        d'agir trop vite</li><li>avoir mal jugé une recrue ou un PJ</li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _id: WEI8Ve2ZBnDv6hgc
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067364
+      modifiedTime: 1792435067364
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!GsuvaCDSMbcqNKNS.WEI8Ve2ZBnDv6hgc'
+  - sort: 200000
+    name: Relations avec les PJ
+    type: text
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Relations avec les PJ</h1>
+
+        <h2>Gagner sa confiance / son amitié</h2><p>Il ne demande pas la
+        confiance : il l'obtient en écoutant, rendant un service réel,
+        valorisant et se souvenant des confidences.</p>
+
+        <h2>La perdre / devenir son adversaire</h2><p>Le confronter avec des
+        preuves, exposer son réseau ou montrer que ses méthodes sont
+        comprises.</p>
+
+        <h2>Liens personnels possibles</h2>
+
+        <h3>Le premier adulte qui a écouté</h3><p>Un PJ a été ignoré ou
+        ridiculisé. Yarrog l'a écouté jusqu'au bout.</p><h3>Le secret
+        protégé</h3><p>Yarrog connaît une faute du PJ mais ne fait aucun
+        chantage. Il protège réellement ce secret.</p><h3>Le service qui
+        compte</h3><p>Il a aidé un proche, trouvé un médicament, réparé un objet
+        ou obtenu une information utile.</p><h3>La mauvaise cible</h3><p>Le PJ
+        croit avoir été recruté. Il découvre que Yarrog cherchait surtout à
+        atteindre quelqu'un à travers lui.</p><h2>S'il devient un
+        allié</h2><p>Avant la révélation, il peut être réellement utile et
+        chaleureux. Même après, la relation peut rester émotionnellement
+        vraie.</p><h2>S'il devient hostile</h2><p>Démasqué, il devient un
+        adversaire personnel. Capturé : relation non résolue. Échappé :
+        excellent antagoniste récurrent.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _id: nIuj36zKQ9BZYlye
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067364
+      modifiedTime: 1792435067364
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!GsuvaCDSMbcqNKNS.nIuj36zKQ9BZYlye'
+  - sort: 300000
+    name: Jeu et évolution
+    type: text
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Jeu et évolution</h1>
+
+        <h2>Scène prête à jouer</h2><p>Les PJ voient Grak rire avec Yarrog
+        pendant qu'il lui apprend simplement à réparer une boucle. La scène est
+        normale, et c'est ce qui lui donnera du poids plus tard.</p>
+
+        <h2>Évolution hors champ</h2><p>S'il n'est pas inquiété, il avance d'une
+        étape dans le recrutement d'une personne. S'il se sait surveillé, il
+        réduit sa visibilité sans devenir soudainement caricatural.</p>
+
+        <h2>Suivi MJ</h2>
+
+        <table>
+
+        <thead><tr><th>Élément</th><th>Notes</th></tr></thead>
+
+        <tbody>
+
+        <tr><td>Relation avec les PJ</td><td></td></tr>
+
+        <tr><td>Dette / promesse</td><td></td></tr>
+
+        <tr><td>Ce qu'il sait sur eux</td><td></td></tr>
+
+        <tr><td>Ce qu'il veut maintenant</td><td></td></tr>
+
+        <tr><td>Prochaine évolution</td><td></td></tr>
+
+        </tbody>
+
+        </table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _id: dUTf39ATGu3nLAhD
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067364
+      modifiedTime: 1792435067364
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!GsuvaCDSMbcqNKNS.dUTf39ATGu3nLAhD'
+  - sort: 400000
+    name: Secret MJ — Révélation
+    type: text
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Secret MJ — Révélation</h1>
+
+        <blockquote><p><strong>Ne pas montrer cette page aux joueurs avant la
+        révélation.</strong></p></blockquote>
+
+        <p>Yarrog sert la Lame ardente. Avant sa révélation, il doit accomplir
+        au moins un acte réellement positif pour un PJ ou quelqu'un qu'ils
+        apprécient. Le conflit idéal au démasquage est d'abord émotionnel : «
+        Est-ce qu'il y avait au moins quelque chose de vrai ? » — « Oui. C'est
+        justement le problème. »</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _id: XK6oKkU5mTcgXdjL
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067364
+      modifiedTime: 1792435067364
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!GsuvaCDSMbcqNKNS.XK6oKkU5mTcgXdjL'
+categories: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  campaign-codex:
+    type: ''
+  core:
+    sheetClass: ''
+folder: YgZ3jeiFxPjJi6iB
+_id: GsuvaCDSMbcqNKNS
+sort: 200000
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792435067364
+  modifiedTime: 1792435067364
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!GsuvaCDSMbcqNKNS'

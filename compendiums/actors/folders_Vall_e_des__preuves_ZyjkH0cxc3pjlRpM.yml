@@ -1,0 +1,20 @@
+type: Actor
+folder: RA6kX1urXEwvf3Lf
+name: Vallée des Épreuves
+color: null
+sorting: a
+_id: ZyjkH0cxc3pjlRpM
+description: ''
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792434965034
+  modifiedTime: 1792434965034
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!ZyjkH0cxc3pjlRpM'

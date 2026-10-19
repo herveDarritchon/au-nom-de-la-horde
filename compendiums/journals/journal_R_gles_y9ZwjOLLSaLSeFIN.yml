@@ -1,4 +1,4 @@
-name: Warbound Règles
+name: Règles
 flags:
   campaign-codex:
     type: ''
@@ -7,7 +7,7 @@ flags:
 _id: y9ZwjOLLSaLSeFIN
 pages:
   - sort: 100000
-    name: CRÉATION DE PERSONNAGE
+    name: LES PERSONNAGES
     type: text
     _id: YLQJh1WssMT3jJu8
     system: {}
@@ -20,7 +20,28 @@ pages:
       content: >-
         <h1>CRÉATION DE PERSONNAGE</h1><p class="p2">Les grands héros sont
         davantage qu’une suite de caractéristiques et de chiffres, mais dans un
-        système de jeu, c’est sans aucun doute un point de départ. </p>
+        système de jeu, c’est sans aucun doute un point de
+        départ.</p><hr><h3><span>Personnages alternatifs —
+        Rerolls</span></h3><p><span>Dans Warbound, votre personnage n'est pas
+        nécessairement le seul héros que vous pourrez incarner au cours de la
+        campagne.</span></p><p><span>Comme dans <em>World of Warcraft</em>, vous
+        pourrez avoir l'occasion de créer des <strong>personnages alternatifs
+        (rerolls)</strong> pour découvrir une autre race, une autre classe ou
+        une autre manière de vivre les aventures en
+        Azeroth.</span></p><p><span>Cette possibilité prendra notamment tout son
+        sens lorsque les objectifs des personnages les conduiront à emprunter
+        des chemins différents.</span></p><p><span>Si une partie des héros
+        décide de poursuivre une mission tandis que d'autres partent vers un
+        autre objectif, les joueurs pourront temporairement incarner d'autres
+        personnages pour rejoindre l'expédition en
+        cours.</span></p><p><span><strong>Le principe reste simple : nous
+        continuons à jouer tous ensemble, même lorsque nos personnages suivent
+        des chemins différents.</strong></span></p><p><span>Ces personnages
+        alternatifs appartiendront au même monde, pourront vivre leurs propres
+        aventures, nouer des relations et avoir une influence durable sur la
+        campagne.</span></p><p><span>La création et l'intégration de ces
+        personnages se feront en accord avec le MJ, en fonction des occasions
+        offertes par l'histoire.</span></p>
     video:
       controls: true
       volume: 0.5
@@ -34,8 +55,8 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1791788382305
-      modifiedTime: 1791788382305
+      createdTime: 1792435076033
+      modifiedTime: 1792435076033
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -82,8 +103,8 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1791788382305
-      modifiedTime: 1791788382305
+      createdTime: 1792435076033
+      modifiedTime: 1792435076033
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -119,8 +140,8 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1791788382305
-      modifiedTime: 1791788382305
+      createdTime: 1792435076033
+      modifiedTime: 1792435076033
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -172,8 +193,8 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1791788382305
-      modifiedTime: 1791788382305
+      createdTime: 1792435076033
+      modifiedTime: 1792435076033
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -222,8 +243,8 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1791788382305
-      modifiedTime: 1791788382305
+      createdTime: 1792435076033
+      modifiedTime: 1792435076033
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -280,59 +301,13 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1791788382305
-      modifiedTime: 1791788382305
+      createdTime: 1792435076033
+      modifiedTime: 1792435076033
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!y9ZwjOLLSaLSeFIN.JsCXWEgwKNmT332a'
-  - sort: 700000
-    name: Atouts & Handicaps
-    type: text
-    _id: VJTxZRumubF2mHQC
-    system: {}
-    title:
-      show: false
-      level: 2
-    image: {}
-    text:
-      format: 1
-      content: >-
-        <h2>Atouts et Handicaps</h2><p>Les grands héros sont bien plus qu’une
-        simple liste de Compétences et d’Attributs. Ce qui les rend uniques,
-        c’est ce mélange de dons particuliers, de pouvoirs spéciaux et de
-        défauts tragiques.</p><p>Un personnage choisit des Atouts en les
-        équilibrant avec des Handicaps. Vous trouverez une liste détaillée
-        d’Atouts et de Handicaps dans les paragraphes suivants. Vous en
-        découvrirez encore d’autres dans les univers Savage Worlds
-        publiés.</p><p>Vous pouvez choisir jusqu’à un Handicap Majeur et deux
-        Handicaps Mineurs. Un Handicap Majeur donne 2 points et un Handicap
-        Mineur 1 point.</p><p>Pour 2 points vous pouvez :</p><p>▶ Augmenter un
-        Attribut d’un type de dé (vous pouvez le faire avant de prendre vos
-        Compétences).</p><p>▶ Choisir un Atout.</p><p>Pour 1 point vous pouvez
-        :</p><p>▶ Gagner un point de Compétence.</p><p>▶ Doubler vos fonds de
-        départ (si vous débutez avec 500 $, vous obtenez 500 $ de plus).</p>
-    video:
-      controls: true
-      volume: 0.5
-    src: null
-    category: null
-    ownership:
-      default: -1
-      i2MQVvBnWjyhmgzX: 3
-    flags: {}
-    _stats:
-      coreVersion: '14.367'
-      systemId: co2
-      systemVersion: 2.3.12
-      createdTime: 1791788382305
-      modifiedTime: 1791788382305
-      lastModifiedBy: TjbWhMczNyKieD8D
-      compendiumSource: null
-      duplicateSource: null
-      exportSource: null
-    _key: '!journal.pages!y9ZwjOLLSaLSeFIN.VJTxZRumubF2mHQC'
   - sort: 800000
     name: Histoire Personnelle
     type: text
@@ -370,8 +345,8 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1791788382305
-      modifiedTime: 1791788382305
+      createdTime: 1792435076033
+      modifiedTime: 1792435076033
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -450,8 +425,8 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1791788382305
-      modifiedTime: 1791788382305
+      createdTime: 1792435076033
+      modifiedTime: 1792435076033
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -561,8 +536,8 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1791788382305
-      modifiedTime: 1791788382305
+      createdTime: 1792435076033
+      modifiedTime: 1792435076033
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -648,8 +623,8 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1791788382305
-      modifiedTime: 1791788382305
+      createdTime: 1792435076033
+      modifiedTime: 1792435076033
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -722,8 +697,8 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1791788382305
-      modifiedTime: 1791788382305
+      createdTime: 1792435076033
+      modifiedTime: 1792435076033
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -792,8 +767,8 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1791788382305
-      modifiedTime: 1791788382305
+      createdTime: 1792435076033
+      modifiedTime: 1792435076033
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -858,8 +833,8 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1791788382305
-      modifiedTime: 1791788382305
+      createdTime: 1792435076033
+      modifiedTime: 1792435076033
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -877,140 +852,22 @@ pages:
     text:
       format: 1
       content: >-
-        <h2>Origine et historique</h2><p class="p2">Simultanément, vous pouvez
-        déterminer l’historique et la provenance géographique de votre PJ
-        :</p><ul><li><p class="p2">D’où vient‑il ?</p></li><li><p
-        class="p2">Qu’a‑t‑il fait durant sa jeunesse ?</p></li><li><p
-        class="p2">Quel événement l’a poussé à quitter son foyer
-        ?</p></li><li><p class="p2">Quel est son but (devenir riche, puissant,
-        célèbre, rendre justice, servir sa nation, répandre ses idées, percer
-        des mystères, réparer une humiliation…) ?</p></li></ul><p
-        class="p2">Pour répondre à ces questions, vous aurez besoin de l’aide du
-        MJ, car vous devrez vous adapter au cadre de jeu, c’est‑à‑dire le monde
-        dans lequel le personnage va
-        évoluer.</p><table><thead><tr><th><p>d20</p></th><th><p>Secret
-        intime</p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p><strong>Je
-        ne suis pas celui que je prétends être.</strong> Mon nom, mon origine ou
-        mon allégeance véritable doit rester
-        caché.</p></td></tr><tr><td><p>2</p></td><td><p><strong>Je recherche un
-        proche disparu</strong> pendant une guerre, un exil ou une migration de
-        mon peuple.</p></td></tr><tr><td><p>3</p></td><td><p><strong>Une
-        malédiction ou une corruption me ronge.</strong> Pour l’instant,
-        j’arrive encore à la
-        dissimuler.</p></td></tr><tr><td><p>4</p></td><td><p><strong>Je suis
-        recherché pour un crime ou une trahison.</strong> Même moi, je ne suis
-        pas certain de connaître toute la
-        vérité.</p></td></tr><tr><td><p>5</p></td><td><p><strong>Une partie de
-        mes souvenirs a disparu</strong> après une bataille, un rituel, une
-        captivité ou un événement
-        surnaturel.</p></td></tr><tr><td><p>6</p></td><td><p><strong>Une chose
-        que tout héros devrait pouvoir affronter me terrifie.</strong> Je fais
-        tout pour que personne ne le
-        découvre.</p></td></tr><tr><td><p>7</p></td><td><p><strong>Je dépends
-        d’une substance, d’un rituel ou d’une forme de magie</strong> dont je
-        sais qu’elle finira par me coûter
-        cher.</p></td></tr><tr><td><p>8</p></td><td><p><strong>Une blessure
-        ancienne suffit à me faire perdre tout contrôle</strong> : un symbole,
-        un peuple, une faction, une insulte ou un souvenir
-        précis.</p></td></tr><tr><td><p>9</p></td><td><p><strong>Un membre de ma
-        famille, de mon clan ou de ma tribu a rejoint mes ennemis.</strong> Il
-        connaît mes faiblesses mieux que
-        personne.</p></td></tr><tr><td><p>10</p></td><td><p><strong>Je sers
-        secrètement une seconde cause.</strong> Pour l’instant, mes deux
-        loyautés ne sont pas encore entrées en
-        conflit.</p></td></tr><tr><td><p>11</p></td><td><p><strong>J’ai déjà été
-        déclaré mort.</strong> Ce qui s’est réellement passé ensuite est quelque
-        chose que je préfère
-        cacher.</p></td></tr><tr><td><p>12</p></td><td><p><strong>J’ai une dette
-        que l’or ne peut pas rembourser.</strong> Une vie sauvée, une faveur, un
-        serment ou une dette de sang me lie à
-        quelqu’un.</p></td></tr><tr><td><p>13</p></td><td><p><strong>Je ne suis
-        jamais vraiment seul dans mon propre esprit.</strong> Une voix, un
-        esprit ou une présence
-        m’accompagne.</p></td></tr><tr><td><p>14</p></td><td><p><strong>J’ai
-        brisé un serment sacré</strong> envers mon peuple, mes ancêtres, les
-        esprits, les éléments, la Lumière ou une autre
-        puissance.</p></td></tr><tr><td><p>15</p></td><td><p><strong>Je
-        transporte un objet dangereux ou interdit</strong> que beaucoup seraient
-        prêts à tuer pour
-        obtenir.</p></td></tr><tr><td><p>16</p></td><td><p><strong>Je porte le
-        deuil de quelqu’un dont je n’ai jamais retrouvé le corps.</strong> Au
-        fond de moi, je ne suis pas certain qu’il soit vraiment
-        mort.</p></td></tr><tr><td><p>17</p></td><td><p><strong>J’ai abandonné
-        quelqu’un qui comptait sur moi.</strong> Cette personne, ou ceux qui lui
-        étaient fidèles, pourraient un jour me
-        retrouver.</p></td></tr><tr><td><p>18</p></td><td><p><strong>Le même
-        rêve me poursuit nuit après nuit.</strong> Je ne sais pas s’il s’agit
-        d’un traumatisme, d’un avertissement ou de quelque chose qui cherche à
-        me parler.</p></td></tr><tr><td><p>19</p></td><td><p><strong>Je n’ai pas
-        réussi à empêcher une tragédie.</strong> Certaines personnes pensent
-        même que j’en suis
-        responsable.</p></td></tr><tr><td><p>20</p></td><td><p><strong>J’ai
-        appartenu à une organisation, un culte, un ordre ou une société
-        secrète.</strong> Je la sers encore… ou j’essaie désespérément de lui
-        échapper.</p></td></tr></tbody></table><table><thead><tr><th><p>d20</p></th><th><p>Secret
-        intime</p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p><strong>Ma
-        famille, mon clan ou ma tribu a été massacré, dispersé ou m’a
-        renié.</strong> On ne m’a jamais dit toute la vérité sur ce qui s’est
-        passé.</p></td></tr><tr><td><p>2</p></td><td><p><strong>On m’a chargé de
-        surveiller, protéger ou espionner secrètement un autre membre du
-        groupe.</strong> Il ignore
-        pourquoi.</p></td></tr><tr><td><p>3</p></td><td><p><strong>Un voyant, un
-        esprit ou une vision m’a annoncé que je provoquerais un jour une
-        terrible
-        catastrophe.</strong></p></td></tr><tr><td><p>4</p></td><td><p><strong>Je
-        porte depuis toujours une marque étrange</strong> : cicatrice, rune,
-        tatouage, tache ou signe dont j’ignore l’origine et la
-        signification.</p></td></tr><tr><td><p>5</p></td><td><p><strong>Une
-        personne qui m’est chère a disparu sans laisser de traces.</strong> Je
-        refuse de croire qu’elle est
-        morte.</p></td></tr><tr><td><p>6</p></td><td><p><strong>Je possède un
-        héritage de mon peuple ou de ma famille</strong> et je préférerais
-        mourir plutôt que de le
-        perdre.</p></td></tr><tr><td><p>7</p></td><td><p><strong>J’ai conclu un
-        pacte que je regrette aujourd’hui</strong> avec un démon, un esprit, une
-        puissance magique ou une autre
-        entité.</p></td></tr><tr><td><p>8</p></td><td><p><strong>Quelqu’un en
-        qui j’avais une confiance absolue m’a trahi.</strong> Depuis, j’accorde
-        difficilement ma
-        confiance.</p></td></tr><tr><td><p>9</p></td><td><p><strong>Une ancienne
-        blessure, une mutilation ou une séquelle me poursuit.</strong> Je refuse
-        qu’elle définisse ce que je suis capable
-        d’accomplir.</p></td></tr><tr><td><p>10</p></td><td><p><strong>Mon nom
-        est connu pour un événement dont je préférerais que personne ne
-        parle.</strong> La version racontée n’est peut-être même pas la
-        vérité.</p></td></tr><tr><td><p>11</p></td><td><p><strong>Je veux
-        accomplir quelque chose d’assez grand pour qu’une personne qui compte
-        pour moi entende enfin parler de
-        moi.</strong></p></td></tr><tr><td><p>12</p></td><td><p><strong>Je dois
-        prouver ma valeur à ma famille, mon clan, ma tribu ou mon ancien
-        maître.</strong> Leur jugement continue de me
-        hanter.</p></td></tr><tr><td><p>13</p></td><td><p><strong>J’ai
-        désespérément besoin de richesses ou de ressources</strong>, non pour
-        moi, mais pour sauver quelqu’un, reconstruire quelque chose ou honorer
-        une dette.</p></td></tr><tr><td><p>14</p></td><td><p><strong>La raison
-        que je donne pour voyager avec mes compagnons n’est pas la véritable
-        raison de ma présence
-        ici.</strong></p></td></tr><tr><td><p>15</p></td><td><p><strong>Je
-        cherche à devenir assez puissant pour abattre un ennemi que je ne
-        pourrais pas encore affronter.</strong> Chef de guerre, démon, créature,
-        sorcier ou autre
-        menace.</p></td></tr><tr><td><p>16</p></td><td><p><strong>J’ai commis
-        quelque chose que je considère impardonnable.</strong> Tout ce que je
-        fais depuis vise, d’une manière ou d’une autre, à réparer cette
-        faute.</p></td></tr><tr><td><p>17</p></td><td><p><strong>J’ai vu ma
-        propre mort.</strong> Vision, prophétie ou souvenir impossible : je sais
-        où, comment ou par qui elle devrait
-        survenir.</p></td></tr><tr><td><p>18</p></td><td><p><strong>Je prétends
-        avoir un passé beaucoup plus extraordinaire qu’il ne l’est
-        réellement.</strong> Plus je mens, plus il devient difficile d’avouer la
-        vérité.</p></td></tr><tr><td><p>19</p></td><td><p><strong>Je me comporte
-        en compagnon loyal, mais je suis convaincu d’être destiné à commander un
-        jour.</strong> Peut-être même à ceux qui voyagent actuellement à mes
-        côtés.</p></td></tr><tr><td><p>20</p></td><td><p><strong>Je viens d’un
-        endroit que presque personne ici ne connaît réellement.</strong> Une
-        autre terre, un autre plan ou un territoire si lointain que ce monde me
-        paraît encore étranger.</p></td></tr></tbody></table>
+        <h1>Origine et historique</h1><p>Simultanément, vous pouvez déterminer
+        l’historique et la provenance géographique de votre PJ
+        :</p><ul><li><p>D’où vient-il ?</p></li><li><p>Qu’a-t-il fait durant sa
+        jeunesse ?</p></li><li><p>Quel événement l’a poussé à quitter son foyer
+        ?</p></li><li><p>Quel est son but (devenir riche, puissant, célèbre,
+        rendre justice, servir sa nation, répandre ses idées, percer des
+        mystères, réparer une humiliation…) ?</p></li></ul><p>Pour répondre à
+        ces questions, vous aurez besoin de l’aide du MJ, car vous devrez vous
+        adapter au cadre de jeu, c’est-à-dire le monde dans lequel le personnage
+        va évoluer.</p><p>Dans <strong>Warbound</strong>, ces réponses se
+        construisent à partir d’un historique lié à votre peuple et, si vous le
+        souhaitez, de tables complémentaires. Les tables sont des sources
+        d’inspiration, et non des obligations de résultat.<br>Consultez les
+        règles
+        d'<strong>@UUID[JournalEntry.vA4FO1gaUShHiGKr.JournalEntryPage.DjieV73PSg7Ohw4W]{Origine
+        et Historiques}</strong><br></p>
     video:
       controls: true
       volume: 0.5
@@ -1024,8 +881,8 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1791788382305
-      modifiedTime: 1791788382305
+      createdTime: 1792435076033
+      modifiedTime: 1792435076033
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -1075,8 +932,8 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1791788382305
-      modifiedTime: 1791788382305
+      createdTime: 1792435076033
+      modifiedTime: 1792435076033
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -1116,14 +973,14 @@ pages:
         CON</p></td></tr><tr><td><p>Mystique</p></td><td><p>8 +
         CON</p></td></tr></tbody></table><h2>Lecture
         rapide</h2><p><strong>Aventurier.</strong> Mobile, polyvalent et
-        débrouillard. Warbound y place le Chasseur et le
+        débrouillard. <strong>Warbound</strong> y place le Chasseur et le
         Voleur.</p><p><strong>Combattant.</strong> Le socle martial le plus
-        solide. Warbound y place le Guerrier et le
+        solide. <strong>Warbound</strong> y place le Guerrier et le
         Paladin.</p><p><strong>Mage.</strong> Peu de vigueur mais une
-        progression magique précoce plus poussée. Warbound y place le Mage et le
-        Démoniste.</p><p><strong>Mystique.</strong> Mélange de pouvoir
-        surnaturel, soutien et capacités de combat intermédiaires. Warbound y
-        place le Druide, le Prêtre et le Chaman.</p>
+        progression magique précoce plus poussée. <strong>Warbound</strong> y
+        place le Mage et le Démoniste.</p><p><strong>Mystique.</strong> Mélange
+        de pouvoir surnaturel, soutien et capacités de combat intermédiaires.
+        <strong>Warbound</strong> y place le Druide, le Prêtre et le Chaman.</p>
     video:
       controls: true
       volume: 0.5
@@ -1137,8 +994,8 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1791788382305
-      modifiedTime: 1791788382305
+      createdTime: 1792435076033
+      modifiedTime: 1792435076033
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -1192,8 +1049,8 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1791788382305
-      modifiedTime: 1791788382305
+      createdTime: 1792435076033
+      modifiedTime: 1792435076033
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -1251,14 +1108,244 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1791788382305
-      modifiedTime: 1791788382305
+      createdTime: 1792435076033
+      modifiedTime: 1792435076033
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!y9ZwjOLLSaLSeFIN.uxkU36zfBN3i7btx'
-folder: null
+  - sort: 900000
+    name: Glossaire
+    type: text
+    _id: Ti8SmCXHQGRdKaQB
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1><span>Glossaire — Création de
+        personnage</span></h1><p><span><strong>Chroniques Oubliées Fantasy 2
+        (COF2)</strong></span></p><p><span><em>Un guide pour comprendre les
+        termes utilisés lors de la création de votre
+        héros.</em></span></p><h2><span>1. Les bases du
+        personnage</span></h2><table><tbody><tr><th><p><span>Terme</span></p></th><th><p><span>Définition</span></p></th></tr><tr><td><p><span><strong>Rôle</strong></span></p></td><td><p><span>Le
+        concept de votre personnage : sa personnalité, sa place dans le groupe
+        et ce que vous souhaitez
+        jouer.</span></p></td></tr><tr><td><p><span><strong>Profil</strong></span></p></td><td><p><span>L'archétype
+        de votre héros : guerrier, voleur, mage, druide, etc. Il détermine ses
+        possibilités de départ et ses voies de
+        capacités.</span></p></td></tr><tr><td><p><span><strong>Famille de
+        profils</strong></span></p></td><td><p><span>Catégorie à laquelle
+        appartient votre profil : Aventurier, Combattant, Mage ou Mystique. Elle
+        définit notamment votre vigueur, vos dés de récupération et un éventuel
+        avantage.</span></p></td></tr><tr><td><p><span><strong>Peuple</strong></span></p></td><td><p><span>L'origine
+        de votre personnage (humain, nain, elfe, etc.). Elle modifie certaines
+        caractéristiques et donne accès à une voie de
+        peuple.</span></p></td></tr><tr><td><p><span><strong>Niveau</strong></span></p></td><td><p><span>Mesure
+        générale de l'expérience et de la puissance d'un héros. Tous les
+        personnages commencent au niveau
+        1.</span></p></td></tr></tbody></table><h2><span>2. Les sept
+        caractéristiques</span></h2><p><span>Les caractéristiques représentent
+        les aptitudes physiques et mentales de votre personnage. Contrairement à
+        certains jeux, COF2 utilise directement des valeurs comme −1, +0, +2 ou
+        +4.</span></p><table><tbody><tr><th><p><span>Abréviation</span></p></th><th><p><span>Caractéristique</span></p></th><th><p><span>À
+        quoi sert-elle
+        ?</span></p></th></tr><tr><td><p><span><strong>FOR</strong></span></p></td><td><p><span>Force</span></p></td><td><p><span>Puissance
+        musculaire, soulever des charges, frapper au corps à
+        corps.</span></p></td></tr><tr><td><p><span><strong>AGI</strong></span></p></td><td><p><span>Agilité</span></p></td><td><p><span>Réflexes,
+        adresse, discrétion, esquive et attaques à
+        distance.</span></p></td></tr><tr><td><p><span><strong>CON</strong></span></p></td><td><p><span>Constitution</span></p></td><td><p><span>Santé,
+        résistance, endurance et nombre de points de
+        vigueur.</span></p></td></tr><tr><td><p><span><strong>PER</strong></span></p></td><td><p><span>Perception</span></p></td><td><p><span>Observation,
+        vigilance, intuition, pistage et
+        initiative.</span></p></td></tr><tr><td><p><span><strong>INT</strong></span></p></td><td><p><span>Intelligence</span></p></td><td><p><span>Mémoire,
+        connaissances, raisonnement et certaines formes de
+        magie.</span></p></td></tr><tr><td><p><span><strong>VOL</strong></span></p></td><td><p><span>Volonté</span></p></td><td><p><span>Courage,
+        force mentale, résistance à la peur, attaque magique et
+        mana.</span></p></td></tr><tr><td><p><span><strong>CHA</strong></span></p></td><td><p><span>Charisme</span></p></td><td><p><span>Présence,
+        persuasion, intimidation, certaines formes de magie et points de
+        chance.</span></p></td></tr></tbody></table><h3><span>Les trois
+        répartitions de caractéristiques</span></h3><p><span>À la création, vous
+        choisissez une série de sept valeurs, puis vous les répartissez entre
+        vos
+        caractéristiques.</span></p><table><tbody><tr><th><p><span>Série</span></p></th><th><p><span>Valeurs
+        à
+        répartir</span></p></th></tr><tr><td><p><span><strong>Polyvalent</strong></span></p></td><td><p><span>+2,
+        +2, +2, +1, +1, 0,
+        −1</span></p></td></tr><tr><td><p><span><strong>Expert</strong></span></p></td><td><p><span>+3,
+        +2, +1, +1, 0, 0,
+        −1</span></p></td></tr><tr><td><p><span><strong>Spécialiste</strong></span></p></td><td><p><span>+4,
+        +2, +1, 0, 0, −1, −1</span></p></td></tr></tbody></table><p><span>Les
+        ajustements liés au peuple s'appliquent ensuite.</span></p><h2><span>3.
+        Les voies et les
+        capacités</span></h2><table><tbody><tr><th><p><span>Terme</span></p></th><th><p><span>Définition</span></p></th></tr><tr><td><p><span><strong>Voie</strong></span></p></td><td><p><span>Ensemble
+        de capacités organisées autour d'un thème ou d'une spécialité. Chaque
+        profil possède cinq voies de
+        profil.</span></p></td></tr><tr><td><p><span><strong>Voie de
+        profil</strong></span></p></td><td><p><span>Voie correspondant aux
+        talents et compétences propres à un
+        profil.</span></p></td></tr><tr><td><p><span><strong>Voie de
+        peuple</strong></span></p></td><td><p><span>Voie représentant les
+        particularités de votre peuple. Son premier rang est normalement obtenu
+        gratuitement à la
+        création.</span></p></td></tr><tr><td><p><span><strong>Voie du
+        mage</strong></span></p></td><td><p><span>Voie spéciale que les profils
+        de la famille des Mages peuvent choisir à la place de leur voie de
+        peuple, selon des règles
+        particulières.</span></p></td></tr><tr><td><p><span><strong>Capacité</strong></span></p></td><td><p><span>Aptitude
+        particulière obtenue dans une voie : technique de combat, savoir-faire,
+        pouvoir magique ou avantage
+        spécial.</span></p></td></tr><tr><td><p><span><strong>Rang</strong></span></p></td><td><p><span>Degré
+        de progression dans une voie. Les capacités sont numérotées par rang, du
+        plus simple au plus
+        avancé.</span></p></td></tr><tr><td><p><span><strong>Points de
+        capacité</strong></span></p></td><td><p><span>Points gagnés au cours de
+        la progression et dépensés pour acquérir de nouvelles capacités. Ils
+        sont distincts des points de
+        chance.</span></p></td></tr><tr><td><p><span><strong>Sort</strong></span></p></td><td><p><span>Capacité
+        magique identifiée par un astérisque (*) dans les règles et utilisant
+        généralement des points de
+        mana.</span></p></td></tr></tbody></table><p><span><strong>Au niveau 1
+        :</strong> votre personnage choisit deux voies parmi les cinq de son
+        profil et reçoit sa voie de peuple. Il obtient gratuitement les
+        capacités de rang 1 de ces trois
+        voies.</span></p><p><span><strong>Exception des Mages :</strong> ils
+        obtiennent également une capacité de rang 2, selon les choix prévus par
+        les règles de leur famille.</span></p><h2><span>4. Les ressources du
+        personnage</span></h2><table><tbody><tr><th><p><span>Terme</span></p></th><th><p><span>Définition</span></p></th></tr><tr><td><p><span><strong>Points
+        de vigueur (PV)</strong></span></p></td><td><p><span>Représentent la
+        résistance physique et la capacité à supporter des blessures. Ils
+        diminuent lorsque vous subissez des
+        dommages.</span></p></td></tr><tr><td><p><span><strong>Dé de
+        récupération (DR)</strong></span></p></td><td><p><span>Dé utilisé pour
+        récupérer des points de vigueur lors d'une récupération. Son type dépend
+        de votre famille de
+        profils.</span></p></td></tr><tr><td><p><span><strong>Points de chance
+        (PC)</strong></span></p></td><td><p><span>Ressource permettant
+        d'influencer certains résultats et de bénéficier d'un coup de chance.
+        Leur nombre dépend notamment du
+        Charisme.</span></p></td></tr><tr><td><p><span><strong>Points de mana
+        (PM)</strong></span></p></td><td><p><span>Réserve d'énergie utilisée
+        pour lancer des sorts. Un personnage sans sort n'en possède
+        pas.</span></p></td></tr><tr><td><p><span><strong>Récupération
+        rapide</strong></span></p></td><td><p><span>Période de repos permettant
+        notamment de dépenser des dés de récupération pour regagner des
+        PV.</span></p></td></tr><tr><td><p><span><strong>Récupération
+        complète</strong></span></p></td><td><p><span>Repos prolongé permettant
+        de restaurer les ressources du personnage suivant les règles de
+        récupération.</span></p></td></tr></tbody></table><h3><span>Les quatre
+        familles de
+        profils</span></h3><table><tbody><tr><th><p><span>Famille</span></p></th><th><p><span>PV
+        de base par niveau</span></p></th><th><p><span>Type de
+        DR</span></p></th><th><p><span>Avantage de
+        famille</span></p></th></tr><tr><td><p><span><strong>Aventurier</strong></span></p></td><td><p><span>4</span></p></td><td><p><span>d8</span></p></td><td><p><span>+1
+        PC</span></p></td></tr><tr><td><p><span><strong>Combattant</strong></span></p></td><td><p><span>5</span></p></td><td><p><span>d10</span></p></td><td><p><span>Aucun
+        bonus
+        supplémentaire</span></p></td></tr><tr><td><p><span><strong>Mage</strong></span></p></td><td><p><span>3</span></p></td><td><p><span>d6</span></p></td><td><p><span>1
+        capacité de rang 2
+        supplémentaire</span></p></td></tr><tr><td><p><span><strong>Mystique</strong></span></p></td><td><p><span>4</span></p></td><td><p><span>d8</span></p></td><td><p><span>+1
+        DR</span></p></td></tr></tbody></table><h3><span>Calcul des ressources
+        au niveau 1</span></h3><p><span><strong>PV initiaux</strong> = (2 × PV
+        de base de la famille) + CON</span></p><p><span><strong>Nombre de
+        DR</strong> = 2 + CON (ou 3 + CON pour les
+        Mystiques)</span></p><p><span><strong>PC</strong> = 2 + CHA (avec +1
+        pour les Aventuriers)</span></p><p><span><strong>PM</strong> = VOL +
+        nombre de sorts connus, si le personnage connaît au moins un
+        sort.</span></p><h2><span>5. Les valeurs de
+        combat</span></h2><table><tbody><tr><th><p><span>Terme</span></p></th><th><p><span>Définition</span></p></th></tr><tr><td><p><span><strong>Initiative
+        (Init.)</strong></span></p></td><td><p><span>Détermine la rapidité de
+        réaction du personnage et l'ordre d'action en combat. Valeur de base :
+        10 + PER.</span></p></td></tr><tr><td><p><span><strong>Défense
+        (DEF)</strong></span></p></td><td><p><span>Valeur que les adversaires
+        doivent atteindre ou dépasser pour vous toucher. Valeur de base : 10 +
+        AGI, modifiée notamment par l'armure, le bouclier ou des
+        capacités.</span></p></td></tr><tr><td><p><span><strong>Attaque au
+        contact</strong></span></p></td><td><p><span>Bonus utilisé pour attaquer
+        un adversaire au corps à corps. Valeur de base : niveau +
+        FOR.</span></p></td></tr><tr><td><p><span><strong>Attaque à
+        distance</strong></span></p></td><td><p><span>Bonus utilisé pour
+        attaquer avec une arme à distance. Valeur de base : niveau +
+        AGI.</span></p></td></tr><tr><td><p><span><strong>Attaque
+        magique</strong></span></p></td><td><p><span>Bonus utilisé pour les
+        attaques magiques. Valeur de base : niveau +
+        VOL.</span></p></td></tr><tr><td><p><span><strong>Dommages
+        (DM)</strong></span></p></td><td><p><span>Quantité de dégâts infligée
+        par une attaque ou un sort, généralement exprimée en
+        dés.</span></p></td></tr><tr><td><p><span><strong>Armure</strong></span></p></td><td><p><span>Équipement
+        qui augmente la Défense. Certaines armures limitent l'utilisation de
+        l'Agilité ou de
+        capacités.</span></p></td></tr><tr><td><p><span><strong>Maîtrise des
+        armes</strong></span></p></td><td><p><span>Armes que le personnage sait
+        utiliser conformément aux possibilités de son profil et de ses
+        capacités.</span></p></td></tr></tbody></table><h2><span>6. Le
+        vocabulaire de la fiche et des
+        dés</span></h2><table><tbody><tr><th><p><span>Terme</span></p></th><th><p><span>Définition</span></p></th></tr><tr><td><p><span><strong>d4,
+        d6, d8, d10, d12, d20</strong></span></p></td><td><p><span>Dés à 4, 6,
+        8, 10, 12 ou 20
+        faces.</span></p></td></tr><tr><td><p><span><strong>2d6</strong></span></p></td><td><p><span>Signifie
+        lancer deux dés à six faces et additionner leurs
+        résultats.</span></p></td></tr><tr><td><p><span><strong>Modificateur</strong></span></p></td><td><p><span>Valeur
+        positive ou négative qui s'ajoute à un résultat ou à une
+        statistique.</span></p></td></tr><tr><td><p><span><strong>Test de
+        caractéristique</strong></span></p></td><td><p><span>Jet permettant de
+        déterminer si une action réussit, en utilisant principalement un d20 et
+        la caractéristique
+        appropriée.</span></p></td></tr><tr><td><p><span><strong>Difficulté</strong></span></p></td><td><p><span>Valeur
+        à atteindre ou dépasser lors d'un test pour réussir une
+        action.</span></p></td></tr><tr><td><p><span><strong>Dé bonus / dé
+        malus</strong></span></p></td><td><p><span>Mécanisme qui favorise ou
+        pénalise un jet en faisant lancer un dé
+        supplémentaire.</span></p></td></tr><tr><td><p><span><strong>Équipement
+        de départ</strong></span></p></td><td><p><span>Armes, protections,
+        objets et fournitures reçus lors de la
+        création.</span></p></td></tr></tbody></table><h2><span>7. Donner vie à
+        son
+        personnage</span></h2><table><tbody><tr><th><p><span>Terme</span></p></th><th><p><span>Définition</span></p></th></tr><tr><td><p><span><strong>Concept</strong></span></p></td><td><p><span>Idée
+        centrale qui résume le personnage en quelques
+        mots.</span></p></td></tr><tr><td><p><span><strong>Historique
+        (background)</strong></span></p></td><td><p><span>Passé du personnage :
+        origine, formation, événements marquants et raisons de partir à
+        l'aventure.</span></p></td></tr><tr><td><p><span><strong>Idéal
+        héroïque</strong></span></p></td><td><p><span>Valeur qui guide ses
+        décisions, comme l'honneur, la loyauté ou la
+        justice.</span></p></td></tr><tr><td><p><span><strong>Travers</strong></span></p></td><td><p><span>Défaut
+        de caractère qui peut influencer ses réactions, comme l'orgueil,
+        l'impatience ou la
+        gourmandise.</span></p></td></tr><tr><td><p><span><strong>Interprétation
+        (roleplay)</strong></span></p></td><td><p><span>Manière d'incarner son
+        personnage à travers ses paroles, ses choix et son
+        comportement.</span></p></td></tr></tbody></table><div><hr></div><h3><span>L'essentiel
+        à retenir</span></h3><p><span><strong>Le profil définit ce que votre
+        héros sait faire. Le peuple définit une partie de son héritage. Les
+        caractéristiques déterminent ses aptitudes. Les voies et capacités le
+        distinguent des autres héros.</strong></span></p><p><span>Son histoire,
+        sa personnalité et ses décisions lui donnent sa véritable
+        identité.</span></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435076033
+      modifiedTime: 1792435076033
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!y9ZwjOLLSaLSeFIN.Ti8SmCXHQGRdKaQB'
+folder: DiweRaOz1zGF7Ap6
 categories: []
 ownership:
   default: 2
@@ -1267,11 +1354,11 @@ _stats:
   coreVersion: '14.367'
   systemId: co2
   systemVersion: 2.3.12
-  createdTime: 1791788382305
-  modifiedTime: 1791788382305
+  createdTime: 1792435076033
+  modifiedTime: 1792435076033
   lastModifiedBy: TjbWhMczNyKieD8D
-  compendiumSource: null
+  compendiumSource: Compendium.warbound-campaign-content.journals.JournalEntry.y9ZwjOLLSaLSeFIN
   duplicateSource: null
   exportSource: null
-sort: 0
+sort: 400000
 _key: '!journal!y9ZwjOLLSaLSeFIN'

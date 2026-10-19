@@ -1,0 +1,229 @@
+name: Zugmog « Petit-Bras »
+flags:
+  campaign-codex:
+    type: ''
+  core:
+    sheetClass: ''
+pages:
+  - name: 01 · Portrait et accroche
+    type: text
+    sort: 100000
+    text:
+      format: 1
+      content: >-
+        <h1>Zugmog « Petit-Bras »</h1><p><em>Adaptation Warbound · Vallée des
+        Épreuves · Journal MJ</em></p><blockquote><p>« C’est vrai qu’à
+        Orgrimmar, il y a des héros qui ont combattu des démons ?
+        »</p></blockquote><h2>En un
+        regard</h2><dl><dt><strong>Rôle</strong></dt><dd>Le rêveur · admiration
+        / initiation</dd><dt><strong>Aspect</strong></dt><dd>Jeune orc encore
+        dégingandé, gants de travail trop larges, ecchymoses récentes. Il tient
+        une pelle comme une arme dès qu’il pense être
+        observé.</dd><dt><strong>Désir</strong></dt><dd>Prouver qu’il mérite sa
+        place parmi les guerriers et accomplir un exploit dont on
+        parlera.</dd><dt><strong>Crainte</strong></dt><dd>Rester péon toute sa
+        vie et décevoir ceux dont il recherche
+        l’estime.</dd><dt><strong>Défaut</strong></dt><dd>Il s’expose à des
+        dangers absurdes pour être admiré et enjolive souvent ses
+        expériences.</dd></dl><h2>Première impression à la table</h2><p>Il
+        s’attache au premier PJ qui prend réellement le temps de l’écouter. Il
+        répète ses gestes, sa façon de parler et parfois ses
+        erreurs.</p><h2>Contact avec les PJ</h2><p>Une promesse d’entraînement,
+        une imitation amusante, la première leçon sur la peur ou sur ce qu’est
+        vraiment un acte honorable.</p><p><em>Statut : PNJ original de la
+        campagne. Repère canonique du secteur : le contremaître Thazz’rill et
+        les péons de la Vallée.</em></p>
+    ownership:
+      default: 0
+    flags: {}
+    _id: LxuLHNNBn0l6yMb8
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067356
+      modifiedTime: 1792435067356
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!RIB8Qe7CrDaT79pX.LxuLHNNBn0l6yMb8'
+  - name: 02 · Jouer ce péon
+    type: text
+    sort: 200000
+    text:
+      format: 1
+      content: >-
+        <h1>Interprétation et liens</h1><h2>Comment l’incarner</h2><p>Il
+        s’attache au premier PJ qui prend réellement le temps de l’écouter. Il
+        répète ses gestes, sa façon de parler et parfois ses erreurs.</p><h2>Ce
+        qu’il sait, croit et
+        dissimule</h2><dl><dt><strong>Sait</strong></dt><dd>Les raccourcis
+        empruntés par les apprentis, les bruits de camp et les histoires qu’il a
+        entendues sur les héros — sans toujours distinguer les
+        faits.</dd><dt><strong>Croit</strong></dt><dd>Qu’un péon a échoué et que
+        seul un guerrier mérite une
+        chanson.</dd><dt><strong>Cache</strong></dt><dd>Il s’entraîne avec des
+        outils la nuit, songe à entrer seul dans l’Antre pour rapporter un
+        trophée et embellit régulièrement ses exploits.</dd></dl><h2>Son
+        entourage</h2><table><thead><tr><th>Personne</th><th>Relation
+        actuelle</th></tr></thead><tbody><tr><td>Dorga</td><td>L’encourage comme
+        un parent ; il aide parfois son frère Drog à
+        s’entraîner.</td></tr><tr><td>Brakka</td><td>Lui sert de généreuses
+        portions et l’écoute.</td></tr><tr><td>Grubnak</td><td>Lui transmet de
+        mauvais conseils sur la manière d’échapper aux
+        corvées.</td></tr><tr><td>Mogra</td><td>Le juge maladroit mais pourrait
+        lui apprendre un vrai métier.</td></tr></tbody></table><h2>Une phrase à
+        placer</h2><blockquote><p>« C’est vrai qu’à Orgrimmar, il y a des héros
+        qui ont combattu des démons ? »</p></blockquote>
+    ownership:
+      default: 0
+    flags: {}
+    _id: MkCxU8RXnMDQhjHS
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067356
+      modifiedTime: 1792435067356
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!RIB8Qe7CrDaT79pX.MkCxU8RXnMDQhjHS'
+  - name: 03 · Scènes et réactions
+    type: text
+    sort: 300000
+    text:
+      format: 1
+      content: >-
+        <h1>Scènes et décisions</h1><h2>Trois occasions de jeu</h2><h3>Le
+        premier récit</h3><p>Il réclame à un PJ l’histoire de son premier
+        combat, puis pose une question qui le touche personnellement : « Tu
+        avais peur ? »</p><h3>La pelle de guerre</h3><p>Il s’entraîne contre un
+        mannequin avec sa pelle et casse une pièce de charpente.</p><h3>La
+        disparition</h3><p>Pour se montrer digne, il part seul vers un endroit
+        dangereux ; les PJ peuvent lui donner des raisons de revenir avant
+        l’accident.</p><h2>Réactions à quelques choix des
+        PJ</h2><table><thead><tr><th>Approche des PJ</th><th>Réaction ou
+        conséquence</th></tr></thead><tbody><tr><td>Encourager ses exploits sans
+        limites</td><td>Il prend davantage de risques pour plaire à son
+        modèle.</td></tr><tr><td>Le former sans le rabaisser</td><td>Il apprend
+        la prudence et peut progresser vers le métier de son
+        choix.</td></tr><tr><td>Le ridiculiser publiquement</td><td>Il cherche
+        une reconnaissance ailleurs, peut-être auprès d’un mentor plus
+        brutal.</td></tr></tbody></table><h2>Si les PJ n’interviennent
+        pas</h2><p>Il se rapproche d’un groupe de recrues plus téméraires et
+        risque un accident ou une mauvaise rencontre.</p><p><em>Ces scènes sont
+        des opportunités, pas une suite de quêtes imposées. Elles peuvent se
+        résoudre sans jet de dés.</em></p>
+    ownership:
+      default: 0
+    flags: {}
+    _id: vMmQXFVUg7INRK3s
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067356
+      modifiedTime: 1792435067356
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!RIB8Qe7CrDaT79pX.vMmQXFVUg7INRK3s'
+  - name: 04 · Secrets et devenir (MJ)
+    type: text
+    sort: 400000
+    text:
+      format: 1
+      content: >-
+        <h1>MJ — Secrets et continuité</h1><h2>Vérité / point de
+        vigilance</h2><p>Ne décrète pas qu’il doit devenir guerrier. Le meilleur
+        développement possible peut être la découverte qu’un artisan ou un
+        protecteur mérite tout autant de respect.</p><h2>Ce que le PNJ ne dit
+        pas spontanément</h2><p>Il s’entraîne avec des outils la nuit, songe à
+        entrer seul dans l’Antre pour rapporter un trophée et embellit
+        régulièrement ses exploits.</p><h2>Évolution envisageable</h2><p>Garde,
+        apprenti guerrier, artisan ou rival amical à Tranchecolline ; sa
+        trajectoire dépend des héros qu’il choisit d’imiter.</p><h2>Fil de
+        mémoire des PJ</h2><ul><li>Qui lui a parlé avec respect, et qui l’a
+        humilié ?</li><li>Quelle promesse les PJ ont-ils faite ?</li><li>Quelle
+        décision des PJ a réellement changé sa vie ?</li><li>Que demandera-t-il
+        aux PJ la prochaine fois qu’ils se croiseront ?</li></ul><h2>Continuité
+        ouverte</h2><p>Les événements ci-dessus sont des propositions. Les faits
+        établis pendant la partie priment sur cette préparation. L’amitié,
+        l’hostilité et le destin de ce péon ne sont pas décidés à l’avance.</p>
+    ownership:
+      default: 0
+    flags: {}
+    _id: fu8mQGa6N05EqOBn
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067356
+      modifiedTime: 1792435067356
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!RIB8Qe7CrDaT79pX.fu8mQGa6N05EqOBn'
+folder: dv9pfMyi7rdDcUkj
+categories: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_id: RIB8Qe7CrDaT79pX
+sort: 400000
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792435067356
+  modifiedTime: 1792435067356
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!RIB8Qe7CrDaT79pX'

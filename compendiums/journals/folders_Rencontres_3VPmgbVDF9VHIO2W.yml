@@ -1,0 +1,20 @@
+type: JournalEntry
+folder: null
+name: Rencontres
+color: null
+sorting: a
+_id: 3VPmgbVDF9VHIO2W
+description: ''
+sort: 600000
+flags: {}
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792435077310
+  modifiedTime: 1792435077358
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!3VPmgbVDF9VHIO2W'

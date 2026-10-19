@@ -1,0 +1,196 @@
+name: Contremaître Thazz'rill
+pages:
+  - sort: 100000
+    name: Profil MJ
+    type: text
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Contremaître Thazz'rill</h1>
+
+        <blockquote><p><strong>[CANON] personnage ; développement
+        [ADAPTATION]</strong></p></blockquote>
+
+        <h2>Rôle dans la Vallée</h2><p>Il incarne la construction concrète de la
+        jeune Horde : quelqu'un doit bâtir, réparer, transporter et
+        terminer.</p>
+
+        <h2>Présence</h2><p>Orc d'âge mûr, peau jaune-verte, cheveux brun-roux,
+        tablier de cuir, pioche, corde, crochet et outils partout. Presque
+        toujours couvert de poussière.</p>
+
+        <h2>Voix et répliques</h2><ul><li>« Si je dois venir vérifier, c'est que
+        c'est déjà mal fait ! »</li><li>« Je ne demande pas vite. Je demande
+        fini. »</li></ul>
+
+        <h2>Veut</h2><p>Que les choses avancent aujourd'hui. Chaque structure
+        terminée est pour lui une victoire réelle de la Horde.</p>
+
+        <h2>Craint</h2><ul><li>être considéré comme incapable de tenir ses
+        équipes</li><li>perdre du temps</li><li>voir les problèmes réels se
+        cacher derrière la paresse apparente</li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _id: RPdaCfCiKEoWf6rR
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067367
+      modifiedTime: 1792435067367
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!OXvn73wQqgCnpSoH.RPdaCfCiKEoWf6rR'
+  - sort: 200000
+    name: Relations avec les PJ
+    type: text
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Relations avec les PJ</h1>
+
+        <h2>Gagner sa confiance / son amitié</h2><p>Travailler réellement avec
+        lui ; ne pas craindre de se salir ; rendre un outil perdu ; défendre un
+        péon quand il a raison ; proposer une meilleure solution.</p>
+
+        <h2>La perdre / devenir son adversaire</h2><p>L'humilier devant ses
+        travailleurs ; promettre de l'aide puis disparaître ; utiliser son
+        équipe sans demander ; traiter les péons comme des ressources.</p>
+
+        <h2>Liens personnels possibles</h2>
+
+        <h3>La pioche prêtée</h3><p>« Tu me la ramènes. Pas une autre. Celle-là.
+        » Si elle est perdue, cassée ou revient couverte de sang, l'objet
+        devient une histoire commune.</p><h3>Le travail terminé
+        ensemble</h3><p>Après une nuit à réparer une structure, Thazz'rill tend
+        une gourde : « T'es moins inutile que tu en as l'air. »</p><h3>Le péon
+        protégé</h3><p>Un PJ prend la défense d'un péon que Thazz'rill accuse à
+        tort. S'il découvre son erreur, il change la consigne sans grand
+        discours.</p><h2>S'il devient un allié</h2><p>Matériel, réparations,
+        ouvriers, connaissance des chantiers et reconnaissance des outils ou
+        méthodes.</p><h2>S'il devient hostile</h2><p>Terriblement peu
+        coopératif. « Vous avez besoin d'une corde ? Dommage. J'ai besoin de
+        toutes mes cordes. »</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _id: VtgwxxfoaplGycpA
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067367
+      modifiedTime: 1792435067367
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!OXvn73wQqgCnpSoH.VtgwxxfoaplGycpA'
+  - sort: 300000
+    name: Jeu et évolution
+    type: text
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Jeu et évolution</h1>
+
+        <h2>Scène prête à jouer</h2><p>Une corde casse sur un chantier.
+        Thazz'rill choisit immédiatement de sauver le péon coincé plutôt que le
+        matériel, puis passe une heure à hurler sur la corde.</p>
+
+        <h2>Évolution hors champ</h2><p>Il termine hors champ une structure
+        commencée à la première séance ou est plus tard affecté à un chantier de
+        Tranchecolline ou d'Orgrimmar.</p>
+
+        <h2>Suivi MJ</h2>
+
+        <table>
+
+        <thead><tr><th>Élément</th><th>Notes</th></tr></thead>
+
+        <tbody>
+
+        <tr><td>Relation avec les PJ</td><td></td></tr>
+
+        <tr><td>Dette / promesse</td><td></td></tr>
+
+        <tr><td>Ce qu'il sait sur eux</td><td></td></tr>
+
+        <tr><td>Ce qu'il veut maintenant</td><td></td></tr>
+
+        <tr><td>Prochaine évolution</td><td></td></tr>
+
+        </tbody>
+
+        </table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _id: VimrzAY71O9YQHHb
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067367
+      modifiedTime: 1792435067367
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!OXvn73wQqgCnpSoH.VimrzAY71O9YQHHb'
+categories: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  campaign-codex:
+    type: ''
+  core:
+    sheetClass: ''
+folder: YgZ3jeiFxPjJi6iB
+_id: OXvn73wQqgCnpSoH
+sort: 100196
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792435067367
+  modifiedTime: 1792435067367
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!OXvn73wQqgCnpSoH'

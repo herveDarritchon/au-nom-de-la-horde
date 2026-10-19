@@ -1,0 +1,187 @@
+name: Hana'zua
+pages:
+  - sort: 100000
+    name: Profil MJ
+    type: text
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Hana'zua</h1>
+
+        <blockquote><p><strong>[CANON] lié à Sarkoth ; développement
+        [ADAPTATION]</strong></p></blockquote>
+
+        <h2>Rôle dans la Vallée</h2><p>Il incarne la pression sociale autour des
+        épreuves et la question : jusqu'où faut-il aller pour prouver sa valeur
+        ?</p>
+
+        <h2>Présence</h2><p>Jeune Orc, peau verte vive, cheveux très sombres,
+        athlétique, lance de chasse, couteau et quelques bandages anciens.</p>
+
+        <h2>Voix et répliques</h2><ul><li>« Pas encore. »</li><li>« On n'avait
+        pas fini. »</li><li>« J'ai eu peur. Tu ne le racontes pas. »</li></ul>
+
+        <h2>Veut</h2><p>Être quelqu'un dont on se souvient.</p>
+
+        <h2>Craint</h2><ul><li>être ordinaire</li><li>être pris en
+        pitié</li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _id: OrNaQVQSv9W4tU6M
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067362
+      modifiedTime: 1792435067362
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!4FB7TQ1IrmKxa6A1.OrNaQVQSv9W4tU6M'
+  - sort: 200000
+    name: Relations avec les PJ
+    type: text
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Relations avec les PJ</h1>
+
+        <h2>Gagner sa confiance / son amitié</h2><p>Accepter un défi ; le battre
+        sans l'humilier ; rire avec lui ; le sauver sans exhiber sa peur ; lui
+        dire franchement lorsqu'il a été stupide.</p>
+
+        <h2>La perdre / devenir son adversaire</h2><p>L'humilier devant les
+        autres ; utiliser sa blessure pour gagner du prestige ; mentir sur
+        Sarkoth ; traiter sa peur comme de la lâcheté.</p>
+
+        <h2>Liens personnels possibles</h2>
+
+        <h3>Tu ne le racontes pas</h3><p>Après l'attaque de Sarkoth, il avoue à
+        un PJ qu'il a eu peur et lui demande de garder le secret.</p><h3>Le défi
+        jamais terminé</h3><p>Avant Sarkoth, Hana'zua et un PJ se lancent un
+        défi ridicule. Après sa blessure : « On n'avait pas fini. »</p><h2>S'il
+        devient un allié</h2><p>Ami, rival loyal ou dette vivante. Il peut plus
+        tard revenir comme combattant ou éclaireur.</p><h2>S'il devient
+        hostile</h2><p>Une humiliation publique ou une trahison de confiance
+        peut transformer la rivalité en blessure durable.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _id: ucMZq3J1UUNmmA56
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067362
+      modifiedTime: 1792435067362
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!4FB7TQ1IrmKxa6A1.ucMZq3J1UUNmmA56'
+  - sort: 300000
+    name: Jeu et évolution
+    type: text
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Jeu et évolution</h1>
+
+        <h2>Scène prête à jouer</h2><p>Une recrue raconte qu'Hana'zua a affronté
+        trois scorpides. Il est là et peut accepter la gloire ou corriger
+        l'histoire selon ce qu'il est devenu.</p>
+
+        <h2>Évolution hors champ</h2><p>Il reprend l'entraînement hors champ. Sa
+        manière de raconter Sarkoth change selon la relation avec les PJ.</p>
+
+        <h2>Suivi MJ</h2>
+
+        <table>
+
+        <thead><tr><th>Élément</th><th>Notes</th></tr></thead>
+
+        <tbody>
+
+        <tr><td>Relation avec les PJ</td><td></td></tr>
+
+        <tr><td>Dette / promesse</td><td></td></tr>
+
+        <tr><td>Ce qu'il sait sur eux</td><td></td></tr>
+
+        <tr><td>Ce qu'il veut maintenant</td><td></td></tr>
+
+        <tr><td>Prochaine évolution</td><td></td></tr>
+
+        </tbody>
+
+        </table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _id: yrFUH79rIZqfH6Dy
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067362
+      modifiedTime: 1792435067362
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!4FB7TQ1IrmKxa6A1.yrFUH79rIZqfH6Dy'
+categories: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  campaign-codex:
+    type: ''
+  core:
+    sheetClass: ''
+folder: YgZ3jeiFxPjJi6iB
+_id: 4FB7TQ1IrmKxa6A1
+sort: 106250
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792435067362
+  modifiedTime: 1792435067362
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!4FB7TQ1IrmKxa6A1'

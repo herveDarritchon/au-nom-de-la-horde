@@ -1,0 +1,232 @@
+name: Mogra « Trois-Clous »
+flags:
+  campaign-codex:
+    type: ''
+  core:
+    sheetClass: ''
+pages:
+  - name: 01 · Portrait et accroche
+    type: text
+    sort: 100000
+    text:
+      format: 1
+      content: >-
+        <h1>Mogra « Trois-Clous »</h1><p><em>Adaptation Warbound · Vallée des
+        Épreuves · Journal MJ</em></p><blockquote><p>« Donnez-moi du bois, je
+        bâtirai un pont. Donnez-moi des ordres idiots, et bâtissez-le
+        vous-mêmes. »</p></blockquote><h2>En un
+        regard</h2><dl><dt><strong>Rôle</strong></dt><dd>La contestataire ·
+        compétence / dignité</dd><dt><strong>Aspect</strong></dt><dd>Grande
+        orque aux cheveux ras et à la ceinture d’outils entretenus avec soin.
+        Trois vieux clous pendent à son cou ; elle examine chaque construction
+        du regard.</dd><dt><strong>Désir</strong></dt><dd>Que ses compétences de
+        charpentière soient reconnues et qu’elle participe à l’organisation des
+        travaux.</dd><dt><strong>Crainte</strong></dt><dd>Que des ordres
+        absurdes provoquent des blessures et qu’elle reste traitée comme une
+        exécutante interchangeable.</dd><dt><strong>Défaut</strong></dt><dd>Elle
+        est rancunière et peut laisser un chantier se compliquer pour démontrer
+        qu’elle avait raison.</dd></dl><h2>Première impression à la
+        table</h2><p>Évalue les actes plutôt que les titres. Les PJ qui portent
+        réellement des poutres ou apprennent à manier un outil
+        l’impressionnent.</p><h2>Contact avec les PJ</h2><p>Une alliée qui aide
+        à construire quelque chose que les PJ retrouvent plusieurs séances plus
+        tard. Elle peut aussi conserver une humiliation comme un grief
+        durable.</p><p><em>Statut : PNJ original de la campagne. Repère
+        canonique du secteur : le contremaître Thazz’rill et les péons de la
+        Vallée.</em></p>
+    ownership:
+      default: 0
+    flags: {}
+    _id: Jq5KgNW9WgO705dZ
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067354
+      modifiedTime: 1792435067354
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!98PNbXf43M4qHtak.Jq5KgNW9WgO705dZ'
+  - name: 02 · Jouer ce péon
+    type: text
+    sort: 200000
+    text:
+      format: 1
+      content: >-
+        <h1>Interprétation et liens</h1><h2>Comment l’incarner</h2><p>Évalue les
+        actes plutôt que les titres. Les PJ qui portent réellement des poutres
+        ou apprennent à manier un outil l’impressionnent.</p><h2>Ce qu’il sait,
+        croit et dissimule</h2><dl><dt><strong>Sait</strong></dt><dd>Où le bois
+        manque, quels abris sont mal étayés, et comment sécuriser une passerelle
+        avec peu de matériaux.</dd><dt><strong>Croit</strong></dt><dd>Que
+        Thazz’rill l’ignore volontairement par mépris ; il peut aussi agir dans
+        l’urgence et sous des contraintes qu’elle connaît
+        mal.</dd><dt><strong>Cache</strong></dt><dd>Elle a déjà envisagé de
+        quitter la Vallée pour bâtir ailleurs, ce qui laisserait ses proches
+        sans artisan qualifié.</dd></dl><h2>Son
+        entourage</h2><table><thead><tr><th>Personne</th><th>Relation
+        actuelle</th></tr></thead><tbody><tr><td>Dorga</td><td>Amie qu’elle
+        protège parfois sans écouter ses
+        préférences.</td></tr><tr><td>Rukgar</td><td>Le croit lorsqu’il évoque
+        le danger des galeries.</td></tr><tr><td>Kragosh</td><td>S’oppose à sa
+        discipline aveugle.</td></tr><tr><td>Thazz’rill</td><td>Cherche une
+        place dans les décisions, pas forcément sa
+        destitution.</td></tr></tbody></table><h2>Une phrase à
+        placer</h2><blockquote><p>« Donnez-moi du bois, je bâtirai un pont.
+        Donnez-moi des ordres idiots, et bâtissez-le vous-mêmes.
+        »</p></blockquote>
+    ownership:
+      default: 0
+    flags: {}
+    _id: adwsZv0tRMAGgGpY
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067354
+      modifiedTime: 1792435067354
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!98PNbXf43M4qHtak.adwsZv0tRMAGgGpY'
+  - name: 03 · Scènes et réactions
+    type: text
+    sort: 300000
+    text:
+      format: 1
+      content: >-
+        <h1>Scènes et décisions</h1><h2>Trois occasions de jeu</h2><h3>Deux
+        plans pour un abri</h3><p>Elle propose une structure plus lente mais
+        plus solide que celle défendue par Kragosh ; elle demande aux PJ
+        d’inspecter les deux projets.</p><h3>Une passerelle instable</h3><p>Elle
+        refuse de signer la sécurité d’une réparation qu’elle juge
+        bâclée.</p><h3>Le travail bien fait</h3><p>Elle apprend à un PJ à
+        tailler une cheville ou à poser un renfort — conversation calme qui peut
+        valoir davantage qu’un sermon.</p><h2>Réactions à quelques choix des
+        PJ</h2><table><thead><tr><th>Approche des PJ</th><th>Réaction ou
+        conséquence</th></tr></thead><tbody><tr><td>Soutenir son
+        expertise</td><td>Thazz’rill peut lui confier une responsabilité ;
+        Kragosh craint pour sa position.</td></tr><tr><td>La contraindre sans
+        débat</td><td>Elle peut démissionner, exécuter le strict minimum ou
+        faire savoir que les PJ méprisent les artisans.</td></tr><tr><td>Imposer
+        un compromis concret</td><td>Le contremaître fixe l’objectif, Mogra
+        propose les méthodes ; l’accord tient seulement si chacun respecte sa
+        parole.</td></tr></tbody></table><h2>Si les PJ n’interviennent
+        pas</h2><p>Après une dispute de plus, Mogra quitte le chantier ou refuse
+        les travaux les plus délicats ; les réparations deviennent plus longues
+        et moins sûres.</p><p><em>Ces scènes sont des opportunités, pas une
+        suite de quêtes imposées. Elles peuvent se résoudre sans jet de
+        dés.</em></p>
+    ownership:
+      default: 0
+    flags: {}
+    _id: s2zLgwE6lGzJId55
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067354
+      modifiedTime: 1792435067354
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!98PNbXf43M4qHtak.s2zLgwE6lGzJId55'
+  - name: 04 · Secrets et devenir (MJ)
+    type: text
+    sort: 400000
+    text:
+      format: 1
+      content: >-
+        <h1>MJ — Secrets et continuité</h1><h2>Vérité / point de
+        vigilance</h2><p>Ne présume pas que Mogra a toujours raison : son talent
+        n’empêche ni l’orgueil ni les erreurs. L’enjeu est la reconnaissance et
+        la responsabilité, pas la victoire morale assurée de l’un des
+        camps.</p><h2>Ce que le PNJ ne dit pas spontanément</h2><p>Elle a déjà
+        envisagé de quitter la Vallée pour bâtir ailleurs, ce qui laisserait ses
+        proches sans artisan qualifié.</p><h2>Évolution
+        envisageable</h2><p>Artisane expérimentée à Tranchecolline : ateliers,
+        équipements, réparations, chantier d’un refuge.</p><h2>Fil de mémoire
+        des PJ</h2><ul><li>Qui lui a parlé avec respect, et qui l’a humilié
+        ?</li><li>Quelle promesse les PJ ont-ils faite ?</li><li>Quelle décision
+        des PJ a réellement changé sa vie ?</li><li>Que demandera-t-il aux PJ la
+        prochaine fois qu’ils se croiseront ?</li></ul><h2>Continuité
+        ouverte</h2><p>Les événements ci-dessus sont des propositions. Les faits
+        établis pendant la partie priment sur cette préparation. L’amitié,
+        l’hostilité et le destin de ce péon ne sont pas décidés à l’avance.</p>
+    ownership:
+      default: 0
+    flags: {}
+    _id: UHz4Fg2r6TaMsO2d
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067354
+      modifiedTime: 1792435067354
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!98PNbXf43M4qHtak.UHz4Fg2r6TaMsO2d'
+folder: dv9pfMyi7rdDcUkj
+categories: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_id: 98PNbXf43M4qHtak
+sort: 200000
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792435067354
+  modifiedTime: 1792435067354
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!98PNbXf43M4qHtak'

@@ -1,0 +1,2119 @@
+name: Rumeurs — Terres des Tranchecrins
+folder: P4MlTjUWYXMDwUE8
+flags:
+  warbound-campaign-content:
+    markdownImport:
+      schema: 1
+      collectionId: durotar-terres-tranchecrins-rumors
+      collectionType: rumor
+pages:
+  - name: Contexte
+    type: text
+    sort: 0
+    text:
+      content: >-
+        <h1>Rumeurs — Terres des Tranchecrins</h1>
+
+        <h2>En bref</h2>
+
+        <p>Les <strong>Terres des Tranchecrins</strong> désignent une zone
+        accidentée située à l’ouest de Tranchecolline. Ravins, roches rouges,
+        taillis secs et passages étroits en font un territoire difficile à
+        parcourir et particulièrement favorable aux embuscades.</p>
+
+        <p>Les <strong>Tranchecrins</strong>, des quilboars Razormane, y
+        constituent la présence dominante connue. Leur occupation est considérée
+        comme hostile par la Horde et participe à un conflit territorial autour
+        des marges occidentales de Tranchecolline.</p>
+
+        <p>Pour le MJ, cette zone fonctionne surtout comme une <strong>frontière
+        dangereuse</strong> : un espace assez proche des routes de la Horde pour
+        que les incidents aient des conséquences concrètes, mais suffisamment
+        sauvage et mal connu pour que les témoignages soient
+        contradictoires.</p>
+
+        <p>Les rumeurs qui circulent à son sujet doivent entretenir trois
+        sensations : <strong>on connaît approximativement le danger, on connaît
+        mal le territoire, et ceux qui prétendent tout savoir exagèrent
+        probablement quelque chose</strong>.</p>
+
+        <h2>Identité</h2>
+
+        <p>Les éléments établis dans les informations fournies sont :</p>
+
+        <ul><li>relief accidenté ;</li><li>roches rouges ;</li><li>ravins
+        ;</li><li>taillis ;</li><li>passages étroits ;</li><li>présence hostile
+        des Tranchecrins ;</li><li>existence d'un tunnel traversant leur
+        territoire ;</li><li>existence d'un cratère central ;</li><li>existence
+        d'une piste et d'une grotte associées aux <strong>Échineurs</strong>,
+        dont la nature exacte n'est pas encore définie dans Warbound.</li></ul>
+
+        <h3>Adaptation de campagne</h3>
+
+        <p>Pour rendre le territoire immédiatement exploitable en jeu, les
+        Terres des Tranchecrins sont traitées comme un espace où :</p>
+
+        <ul><li>les lignes de vue sont souvent courtes ;</li><li>plusieurs
+        passages se ressemblent ;</li><li>les traces disparaissent facilement
+        sur la roche ;</li><li>certains itinéraires permettent de contourner les
+        zones les plus surveillées ;</li><li>les occupants connaissent mieux les
+        reliefs que les voyageurs ;</li><li>des lieux paraissant proches peuvent
+        nécessiter un long détour.</li></ul>
+
+        <p>Ces éléments décrivent une logique de terrain et ne constituent pas
+        du lore Warcraft supplémentaire.</p>
+
+        <h2>Territoire et lieux importants</h2>
+
+        <table><thead><tr><th>Lieu</th><th>Usage
+        MJ</th></tr></thead><tbody><tr><td><strong>Terres des
+        Tranchecrins</strong></td><td>Ensemble du territoire hostile, composé de
+        ravins, reliefs rouges et passages
+        difficiles.</td></tr><tr><td><strong>Tunnel des
+        Tranchecrins</strong></td><td>Passage à couvert et point d'embuscade
+        naturel.</td></tr><tr><td><strong>Cratère des
+        Tranchecrins</strong></td><td>Dépression centrale favorable aux
+        campements et aux déplacements
+        dissimulés.</td></tr><tr><td><strong>Piste des
+        Échineurs</strong></td><td>Sentier secondaire reliant les reliefs
+        occidentaux aux terres sauvages. La nature exacte des Échineurs reste à
+        fixer.</td></tr><tr><td><strong>Grotte des
+        Échineurs</strong></td><td>Refuge ou tanière occidentale associée aux
+        Échineurs. Sa fonction précise reste à
+        définir.</td></tr></tbody></table>
+
+        <h2>Relations</h2>
+
+        <h3>Tranchecolline</h3>
+
+        <p>Les Terres des Tranchecrins représentent une menace proche des
+        espaces fréquentés par la Horde. Les rumeurs venant de Tranchecolline
+        tendent donc à présenter le territoire à travers les préoccupations des
+        voyageurs, des gardes, des chasseurs et des habitants : routes menacées,
+        disparitions, mouvements ennemis et sécurité des abords.</p>
+
+        <h3>Tranchecrins</h3>
+
+        <p><strong>Canon / établi dans les informations fournies :</strong> les
+        Tranchecrins sont des quilboars Razormane et constituent la présence
+        hostile dominante du territoire.</p>
+
+        <p>Leur organisation locale précise, leurs motivations et leur
+        répartition entre les différents lieux ne sont pas établies dans les
+        sources fournies.</p>
+
+        <h3>Échineurs</h3>
+
+        <p><strong>Information à vérifier / non établie dans les sources
+        fournies.</strong></p>
+
+        <p>La Piste des Échineurs et la Grotte des Échineurs existent dans le
+        découpage de zone fourni, mais la nature exacte des Échineurs doit
+        encore être définie dans Warbound.</p>
+
+        <p>Les rumeurs peuvent donc volontairement leur attribuer des
+        descriptions contradictoires sans établir immédiatement laquelle est
+        exacte.</p>
+
+        <h2>Tensions actuelles</h2>
+
+        <p>Les informations fournies permettent de poser plusieurs tensions
+        directement utilisables :</p>
+
+        <ul><li>empiètement Tranchecrin sur les marges occidentales de
+        Tranchecolline ;</li><li>contrôle incertain des passages à travers les
+        ravins ;</li><li>risque d'embuscade dans le Tunnel des Tranchecrins
+        ;</li><li>difficulté à savoir ce qui se passe dans le Cratère
+        ;</li><li>circulation sur la Piste des Échineurs malgré son caractère
+        hostile ;</li><li>méconnaissance de la Grotte des Échineurs
+        ;</li><li>confusion possible entre dangers réels, traces Tranchecrins et
+        phénomènes naturels.</li></ul>
+
+        <h3>Adaptation de campagne</h3>
+
+        <p>Les rumeurs suivantes partent volontairement de ce socle limité et
+        ajoutent des témoignages, erreurs, superstitions et situations locales
+        destinées à donner de la profondeur au territoire.</p>
+
+        <p>Aucune de ces adaptations ne doit être considérée comme du lore
+        Warcraft officiel.</p>
+
+        <h2>Secrets et zones d'ombre</h2>
+
+        <h3>Canon / établi</h3>
+
+        <ul><li>Les Tranchecrins occupent le territoire.</li><li>La zone est
+        hostile.</li><li>Le Tunnel des Tranchecrins constitue un passage naturel
+        propice aux embuscades.</li><li>Le Cratère est une dépression centrale
+        utilisable pour des campements et des déplacements
+        dissimulés.</li><li>La Piste et la Grotte des Échineurs existent comme
+        lieux de la zone.</li></ul>
+
+        <h3>Déduction raisonnable</h3>
+
+        <ul><li>Les Tranchecrins connaissent vraisemblablement mieux leurs
+        propres passages que les voyageurs.</li><li>Les reliefs peuvent masquer
+        les mouvements d'un groupe à faible distance.</li><li>Plusieurs versions
+        contradictoires d'un même incident peuvent être sincères en raison de la
+        mauvaise visibilité du territoire.</li></ul>
+
+        <h3>Adaptation de campagne</h3>
+
+        <ul><li>Certaines marques laissées sur les chemins servent de repères
+        plutôt que de menaces.</li><li>Plusieurs itinéraires secondaires
+        changent d'utilité selon les mouvements des occupants.</li><li>Certaines
+        rumeurs sur les Échineurs sont entretenues précisément parce que presque
+        personne ne sait ce qu'ils sont réellement.</li></ul>
+
+        <h2>Ce qu'un voyageur remarque</h2>
+
+        <ul><li>Les roches rouges découpent rapidement l'horizon en couloirs
+        étroits.</li><li>Les taillis secs accrochent vêtements, sacs et
+        équipements.</li><li>Des pierres roulent parfois dans un ravin sans que
+        l'on distingue ce qui les a déplacées.</li><li>Les traces sont faciles à
+        suivre dans la poussière et presque impossibles à lire sur les plaques
+        rocheuses.</li><li>Certains passages paraissent praticables de loin
+        avant de se terminer brutalement.</li><li>Le vent transporte des sons
+        difficiles à localiser entre les parois.</li><li>Les hauteurs offrent
+        d'excellents points d'observation à ceux qui les occupent
+        déjà.</li><li>Les voyageurs expérimentés évitent de rester longtemps au
+        fond des ravins.</li><li>Plusieurs marques sur les rochers peuvent être
+        prises pour des signes intentionnels ou de simples griffures
+        naturelles.</li><li>À proximité des passages les plus étroits, les
+        conversations deviennent spontanément plus discrètes.</li></ul>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-terres-tranchecrins-rumors
+          entryId: context
+          sourceHash: 17136a18
+    _id: sgLD8kpvEGYD5Dim
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435079148
+      modifiedTime: 1792435079148
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!PErNej1RfP7NIzyr.sgLD8kpvEGYD5Dim'
+  - name: Personne ne prend le tunnel
+    type: text
+    sort: 100000
+    text:
+      content: >-
+        <h2>Personne ne prend le tunnel</h2>
+
+        <h3>Ce que l'on raconte</h3>
+
+        <blockquote><p>« Le tunnel ? Si quelqu'un te conseille de passer par là,
+        demande-lui d'abord pourquoi il tient tant à récupérer tes bottes après
+        ta mort. »</p></blockquote>
+
+        <h3>Statut MJ</h3>
+
+        <p>Partiellement vraie.</p>
+
+        <h3>Qui ?</h3>
+
+        <p>Les voyageurs réguliers entre Tranchecolline et les terres
+        occidentales répètent volontiers cet avertissement.</p>
+
+        <p>Les gardes et les chasseurs expérimentés connaissent réellement le
+        danger du passage, tandis que ceux qui n'y sont jamais allés amplifient
+        souvent sa réputation.</p>
+
+        <p>Les Tranchecrins ont évidemment intérêt à ce que les étrangers
+        utilisent un passage facile à surveiller.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p>Le Tunnel des Tranchecrins est effectivement un excellent point
+        d'embuscade.</p>
+
+        <p>Il n'est cependant ni infranchissable ni systématiquement gardé.</p>
+
+        <p><strong>Adaptation de campagne :</strong> sa réputation est devenue
+        si mauvaise que certains voyageurs préfèrent emprunter des détours
+        objectivement plus dangereux.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>La rumeur circule depuis suffisamment longtemps pour être devenue un
+        conseil presque automatique à Tranchecolline.</p>
+
+        <p>Elle reprend de la vigueur chaque fois qu'un voyageur manque à
+        l'appel.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Elle peut être entendue à Tranchecolline, sur les routes occidentales
+        ou auprès de chasseurs revenant des ravins.</p>
+
+        <p>Elle peut être vérifiée directement au Tunnel des Tranchecrins ou
+        depuis les hauteurs qui le dominent.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Le terrain rend l'histoire crédible et chaque disparition confirme le
+        récit, même lorsqu'elle n'a rien à voir avec le tunnel.</p>
+
+        <p>La peur transforme progressivement un danger tactique réel en lieu
+        supposément suicidaire.</p>
+
+        <h3>Si les PJ s'y intéressent</h3>
+
+        <p>Ils peuvent observer le tunnel avant de l'emprunter, chercher des
+        traces de passages récents, interroger des voyageurs l'ayant réellement
+        traversé ou tenter de trouver une autre route.</p>
+
+        <p>La rumeur peut surtout leur apprendre qu'un lieu dangereux n'est pas
+        nécessairement un lieu inutilisable.</p>
+
+        <h3>Si personne n'agit</h3>
+
+        <p>Le tunnel reste utilisé sporadiquement par ceux qui acceptent le
+        risque.</p>
+
+        <p>Sa mauvaise réputation continue de croître à chaque incident non
+        expliqué.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-terres-tranchecrins-rumors
+          entryId: personne-ne-prend-le-tunnel
+          sourceHash: 5978f9e7
+    _id: p9BiAqvyqoPM2Vo6
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435079148
+      modifiedTime: 1792435079148
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!PErNej1RfP7NIzyr.p9BiAqvyqoPM2Vo6'
+  - name: Des feux dans le cratère
+    type: text
+    sort: 200000
+    text:
+      content: >-
+        <h2>Des feux dans le cratère</h2>
+
+        <h3>Ce que l'on raconte</h3>
+
+        <blockquote><p>« La nuit, on voit des feux là-dessous. Pas un grand
+        camp. Un feu ici, puis un autre plus loin. Comme si quelque chose se
+        déplaçait dans le cratère. »</p></blockquote>
+
+        <h3>Statut MJ</h3>
+
+        <p>Vraie.</p>
+
+        <h3>Qui ?</h3>
+
+        <p>Des voyageurs ayant contourné le secteur au crépuscule sont les
+        principales sources de cette rumeur.</p>
+
+        <p>Les gardes y voient volontiers la preuve d'une activité Tranchecrin
+        croissante.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p>Des feux sont réellement allumés dans le Cratère.</p>
+
+        <p>Les informations fournies établissent que la dépression est favorable
+        aux campements et aux déplacements dissimulés.</p>
+
+        <p><strong>Adaptation de campagne :</strong> les feux correspondent à
+        plusieurs petits foyers temporaires plutôt qu'à un unique grand camp
+        permanent.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>Les observations sont récentes et irrégulières.</p>
+
+        <p>Les feux ne sont pas visibles chaque nuit.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Le phénomène concerne le Cratère des Tranchecrins.</p>
+
+        <p>Il est surtout observable depuis certaines hauteurs à l'est ou au
+        nord de la dépression.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Le relief masque suffisamment les occupants pour que seules les
+        lueurs trahissent leur présence.</p>
+
+        <p>Les témoins comblent ensuite les lacunes avec leurs propres
+        interprétations.</p>
+
+        <h3>Si les PJ s'y intéressent</h3>
+
+        <p>Ils peuvent chercher un meilleur point d'observation, tenter de
+        distinguer combien de foyers existent réellement ou comparer les
+        témoignages selon les nuits.</p>
+
+        <p>Observer peut fournir davantage d'informations qu'une descente
+        immédiate dans le cratère.</p>
+
+        <h3>Si personne n'agit</h3>
+
+        <p>Les feux continuent d'apparaître et d'alimenter les spéculations sur
+        l'importance de la présence Tranchecrin.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-terres-tranchecrins-rumors
+          entryId: feux-dans-le-cratere
+          sourceHash: 46619d72
+    _id: gdgRYl7iIjAEs4jo
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435079148
+      modifiedTime: 1792435079148
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!PErNej1RfP7NIzyr.gdgRYl7iIjAEs4jo'
+  - name: Les pierres qui sifflent
+    type: text
+    sort: 300000
+    text:
+      content: >-
+        <h2>Les pierres qui sifflent</h2>
+
+        <h3>Ce que l'on raconte</h3>
+
+        <blockquote><p>« Quand les pierres se mettent à siffler, baisse-toi. Les
+        Tranchecrins sont déjà au-dessus de toi. »</p></blockquote>
+
+        <h3>Statut MJ</h3>
+
+        <p>Déformée.</p>
+
+        <h3>Qui ?</h3>
+
+        <p>La rumeur circule surtout parmi les voyageurs nerveux et les
+        personnes ayant entendu parler d'embuscades sans y avoir assisté.</p>
+
+        <p>Quelques survivants sont persuadés que le phénomène est réel.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p>Il n'existe pas, dans les informations fournies, de système
+        Tranchecrin établi reposant sur des pierres sifflantes.</p>
+
+        <p><strong>Adaptation de campagne :</strong> le vent peut produire des
+        sons aigus lorsqu'il traverse certaines fissures étroites. Les mêmes
+        reliefs constituent aussi de bons postes d'embuscade.</p>
+
+        <p>Les deux phénomènes ont été associés.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>Le bruit apparaît uniquement lorsque le vent souffle selon certains
+        angles.</p>
+
+        <p>La rumeur existe probablement depuis qu'un témoin a entendu le son
+        juste avant une attaque.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Principalement dans les ravins et passages rocheux étroits.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Une coïncidence marquante est devenue un avertissement populaire.</p>
+
+        <p>Comme il est parfois effectivement prudent de lever les yeux lorsque
+        le vent change, la superstition continue de sembler utile.</p>
+
+        <h3>Si les PJ s'y intéressent</h3>
+
+        <p>Ils peuvent découvrir que le sifflement révèle surtout la forme du
+        terrain et les courants d'air.</p>
+
+        <p>Un groupe observateur pourrait même apprendre à l'utiliser comme
+        repère géographique.</p>
+
+        <h3>Si personne n'agit</h3>
+
+        <p>Aucune évolution particulière.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-terres-tranchecrins-rumors
+          entryId: pierres-qui-sifflent
+          sourceHash: 347db703
+    _id: BUN5358s5RfaeHTp
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435079148
+      modifiedTime: 1792435079148
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!PErNej1RfP7NIzyr.BUN5358s5RfaeHTp'
+  - name: La piste sans retour
+    type: text
+    sort: 400000
+    text:
+      content: >-
+        <h2>La piste sans retour</h2>
+
+        <h3>Ce que l'on raconte</h3>
+
+        <blockquote><p>« Sur la Piste des Échineurs, tu crois toujours revenir
+        sur tes pas. Puis le soleil descend et tu découvres que tu marches vers
+        l'ouest depuis deux heures. »</p></blockquote>
+
+        <h3>Statut MJ</h3>
+
+        <p>Exagération.</p>
+
+        <h3>Qui ?</h3>
+
+        <p>La rumeur est répétée par des voyageurs peu familiers du secteur et
+        par ceux qui préfèrent justifier une mauvaise orientation par la
+        réputation du lieu.</p>
+
+        <p>Les chasseurs expérimentés la prennent moins au sérieux.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p>La piste n'altère pas magiquement l'orientation des voyageurs.</p>
+
+        <p><strong>Adaptation de campagne :</strong> plusieurs ravins et courbes
+        du terrain rendent les repères visuels trompeurs. Des embranchements
+        secondaires peuvent ramener vers des paysages presque identiques.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>Le risque augmente lorsque la lumière baisse ou lorsque le ciel ne
+        permet plus de s'orienter facilement.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Sur la Piste des Échineurs et ses abords immédiats.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Le territoire possède peu de repères distinctifs pour quelqu'un qui
+        ne le connaît pas.</p>
+
+        <p>Chaque voyageur perdu renforce ensuite l'idée que la piste elle-même
+        est responsable.</p>
+
+        <h3>Si les PJ s'y intéressent</h3>
+
+        <p>Ils peuvent cartographier les bifurcations, identifier des repères
+        fiables ou demander à un habitué comment reconnaître les mauvais
+        embranchements.</p>
+
+        <h3>Si personne n'agit</h3>
+
+        <p>Aucune évolution particulière.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-terres-tranchecrins-rumors
+          entryId: piste-sans-retour
+          sourceHash: 930d9493
+    _id: QR6sjSCu9h2McSE2
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435079148
+      modifiedTime: 1792435079148
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!PErNej1RfP7NIzyr.QR6sjSCu9h2McSE2'
+  - name: Les trois passages
+    type: text
+    sort: 500000
+    text:
+      content: >-
+        <h2>Les trois passages</h2>
+
+        <h3>Ce que l'on raconte</h3>
+
+        <blockquote><p>« Le tunnel est pour ceux qui ne connaissent pas le pays.
+        Il existe trois autres passages. J'en ai pris deux. Le troisième, je ne
+        veux plus en parler. »</p></blockquote>
+
+        <h3>Statut MJ</h3>
+
+        <p>Partiellement vraie.</p>
+
+        <h3>Qui ?</h3>
+
+        <p>L'origine actuelle de la rumeur est attribuée à un ancien éclaireur
+        dont plusieurs versions de l'histoire circulent.</p>
+
+        <p>Les voyageurs cherchent régulièrement à lui faire préciser ses
+        indications.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p>Les informations fournies ne définissent pas trois routes
+        alternatives précises.</p>
+
+        <p><strong>Adaptation de campagne :</strong> plusieurs passages
+        secondaires existent effectivement dans le relief, mais leur
+        praticabilité varie et le nombre de routes réellement utilisables dépend
+        du point de départ et de la destination.</p>
+
+        <p>Le fameux « troisième passage » est surtout devenu un élément de
+        folklore.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>La rumeur ressurgit chaque fois que le Tunnel des Tranchecrins paraît
+        trop dangereux.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Les passages supposés se trouveraient dans les reliefs entourant le
+        tunnel et le cratère.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>La possibilité d'éviter un passage contrôlé est crédible dans un
+        terrain aussi accidenté.</p>
+
+        <p>L'imprécision du récit permet à chacun d'y ajouter son propre
+        raccourci.</p>
+
+        <h3>Si les PJ s'y intéressent</h3>
+
+        <p>Ils peuvent rechercher des itinéraires réellement praticables et
+        éventuellement transformer une rumeur confuse en connaissance utile du
+        pointcrawl.</p>
+
+        <h3>Si personne n'agit</h3>
+
+        <p>Les versions continuent de diverger et certains voyageurs se perdent
+        en cherchant un raccourci qui n'existe peut-être que dans leur
+        récit.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-terres-tranchecrins-rumors
+          entryId: trois-passages
+          sourceHash: 615ccac2
+    _id: tprBHDlmDOV5faVI
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435079148
+      modifiedTime: 1792435079148
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!PErNej1RfP7NIzyr.tprBHDlmDOV5faVI'
+  - name: Les Tranchecrins descendent
+    type: text
+    sort: 600000
+    text:
+      content: >-
+        <h2>Les Tranchecrins descendent</h2>
+
+        <h3>Ce que l'on raconte</h3>
+
+        <blockquote><p>« Ils étaient plus loin avant. Maintenant, on retrouve
+        leurs traces presque aux portes de Tranchecolline. »</p></blockquote>
+
+        <h3>Statut MJ</h3>
+
+        <p>Partiellement vraie.</p>
+
+        <h3>Qui ?</h3>
+
+        <p>Des gardes, voyageurs et habitants préoccupés par l'empiètement
+        Tranchecrin font circuler cette rumeur.</p>
+
+        <p>Certains ont vu des traces réelles ; d'autres répètent simplement ce
+        qu'ils ont entendu.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p>Les informations fournies établissent déjà une situation
+        d'empiètement territorial.</p>
+
+        <p>La rumeur transforme cependant chaque trace isolée en preuve d'une
+        avancée organisée.</p>
+
+        <p>Il n'est pas établi que tous les mouvements observés correspondent à
+        une expansion coordonnée.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>La rumeur est actuelle et gagne en importance lorsque plusieurs
+        incidents surviennent dans un intervalle court.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Sur les marges orientales des Terres des Tranchecrins, en direction
+        de Tranchecolline.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Une frontière mal définie donne facilement l'impression qu'elle se
+        déplace.</p>
+
+        <p>Les gardes interprètent logiquement toute présence nouvelle comme une
+        menace potentielle.</p>
+
+        <h3>Si les PJ s'y intéressent</h3>
+
+        <p>Ils peuvent comparer d'anciennes traces avec les plus récentes,
+        observer les mouvements réellement effectués ou chercher à comprendre si
+        certains groupes Tranchecrins agissent différemment des autres.</p>
+
+        <h3>Si personne n'agit</h3>
+
+        <p>La méfiance augmente et les voyageurs commencent à considérer comme
+        hostile une portion toujours plus large du territoire.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-terres-tranchecrins-rumors
+          entryId: tranchecrins-descendent
+          sourceHash: 8399a14b
+    _id: TolfXBsdPbPuGk3X
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435079148
+      modifiedTime: 1792435079148
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!PErNej1RfP7NIzyr.TolfXBsdPbPuGk3X'
+  - name: Il n'y a rien dans la grotte
+    type: text
+    sort: 700000
+    text:
+      content: >-
+        <h2>Il n'y a rien dans la grotte</h2>
+
+        <h3>Ce que l'on raconte</h3>
+
+        <blockquote><p>« Les Échineurs ? Une histoire pour les enfants. La
+        grotte est vide. Elle l'a toujours été. »</p></blockquote>
+
+        <h3>Statut MJ</h3>
+
+        <p>Information dépassée.</p>
+
+        <h3>Qui ?</h3>
+
+        <p>Quelques chasseurs ayant visité ou approché la Grotte des Échineurs
+        par le passé affirment n'y avoir rien trouvé.</p>
+
+        <p>D'autres utilisent cette version pour ridiculiser les histoires les
+        plus inquiétantes.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p>La nature exacte des Échineurs et l'occupation actuelle de la grotte
+        ne sont pas définies dans les sources fournies.</p>
+
+        <p><strong>Adaptation de campagne :</strong> il est tout à fait possible
+        que la grotte ait effectivement été vide lors de certaines visites.</p>
+
+        <p>Cela ne prouve rien concernant son état actuel.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>Les témoignages les plus catégoriques sont anciens.</p>
+
+        <p>C'est précisément leur âge qui est souvent omis lorsqu'ils sont
+        répétés.</p>
+
+        <h3>Où ?</h3>
+
+        <p>La Grotte des Échineurs, dans la partie occidentale du
+        territoire.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Un témoignage direct possède beaucoup de poids, même lorsqu'il décrit
+        une situation ancienne.</p>
+
+        <p>La rumeur persiste parce qu'elle fournit une explication
+        rassurante.</p>
+
+        <h3>Si les PJ s'y intéressent</h3>
+
+        <p>Ils peuvent chercher à dater les témoignages, savoir qui a réellement
+        pénétré dans la grotte ou observer ses abords avant de conclure.</p>
+
+        <h3>Si personne n'agit</h3>
+
+        <p>Aucune évolution définie tant que la nature des Échineurs n'est pas
+        fixée dans Warbound.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-terres-tranchecrins-rumors
+          entryId: rien-dans-la-grotte
+          sourceHash: 3572b4ed
+    _id: FswnLxfvEy3hWWWh
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435079148
+      modifiedTime: 1792435079148
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!PErNej1RfP7NIzyr.FswnLxfvEy3hWWWh'
+  - name: Les marques sur les rochers
+    type: text
+    sort: 800000
+    text:
+      content: >-
+        <h2>Les marques sur les rochers</h2>
+
+        <h3>Ce que l'on raconte</h3>
+
+        <blockquote><p>« Tu verras des entailles sur les pierres. Une marque
+        signifie que tu es observé. Deux que tu dois faire demi-tour. Personne
+        ne sait ce que trois veulent dire. »</p></blockquote>
+
+        <h3>Statut MJ</h3>
+
+        <p>Mauvaise interprétation.</p>
+
+        <h3>Qui ?</h3>
+
+        <p>Les voyageurs découvrant les marques pour la première fois leur
+        attribuent volontiers une fonction d'avertissement.</p>
+
+        <p>Les récits diffèrent tellement que presque chaque groupe possède son
+        propre système d'interprétation.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p>Aucune signification canonique n'est établie dans les informations
+        fournies.</p>
+
+        <p><strong>Adaptation de campagne :</strong> certaines marques sont de
+        simples traces naturelles, d'autres peuvent avoir été laissées par des
+        voyageurs ou par les occupants du territoire comme repères.</p>
+
+        <p>Elles n'appartiennent pas toutes au même système.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>Les marques ont des âges différents.</p>
+
+        <p>Certaines sont anciennes, d'autres récentes.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Aux bifurcations, près des passages étroits et sur plusieurs hauteurs
+        rocheuses.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Les voyageurs cherchent naturellement un langage dans des motifs
+        répétés.</p>
+
+        <p>La menace Tranchecrin encourage à interpréter tout signe comme
+        hostile.</p>
+
+        <h3>Si les PJ s'y intéressent</h3>
+
+        <p>Comparer les marques, leur usure et leur emplacement peut permettre
+        d'identifier lesquelles ont réellement été faites
+        intentionnellement.</p>
+
+        <h3>Si personne n'agit</h3>
+
+        <p>Aucune évolution particulière.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-terres-tranchecrins-rumors
+          entryId: marques-sur-les-rochers
+          sourceHash: 1906204a
+    _id: AQXnBnk1hZiVkuea
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435079148
+      modifiedTime: 1792435079148
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!PErNej1RfP7NIzyr.AQXnBnk1hZiVkuea'
+  - name: Le quilboar seul
+    type: text
+    sort: 900000
+    text:
+      content: >-
+        <h2>Le quilboar seul</h2>
+
+        <h3>Ce que l'on raconte</h3>
+
+        <blockquote><p>« Il y en a un qui voyage seul. Il te regarde depuis les
+        hauteurs mais ne descend jamais. Même quand il pourrait te prendre
+        facilement. »</p></blockquote>
+
+        <h3>Statut MJ</h3>
+
+        <p>Vraie.</p>
+
+        <h3>Qui ?</h3>
+
+        <p>Plusieurs voyageurs indépendants disent avoir aperçu un Tranchecrin
+        solitaire.</p>
+
+        <p>Certains pensent qu'il s'agit d'un éclaireur ; d'autres d'un
+        banni.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p><strong>Adaptation de campagne :</strong> un individu Tranchecrin
+        circule effectivement seul sur une partie du territoire.</p>
+
+        <p>Sa fonction et ses motivations ne sont volontairement pas fixées par
+        la rumeur.</p>
+
+        <p>Il peut simplement observer, éviter les groupes plus nombreux ou
+        poursuivre une préoccupation qui lui est propre.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>Les observations sont espacées de plusieurs jours.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Principalement sur les hauteurs dominant les ravins orientaux.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Son comportement inhabituel attire l'attention précisément parce
+        qu'il ne correspond pas à l'image d'une présence systématiquement
+        agressive.</p>
+
+        <h3>Si les PJ s'y intéressent</h3>
+
+        <p>Ils peuvent tenter de le suivre, de comprendre ses déplacements, de
+        l'éviter ou éventuellement de provoquer une interaction.</p>
+
+        <p>Aucune de ces options ne garantit qu'il souhaite communiquer.</p>
+
+        <h3>Si personne n'agit</h3>
+
+        <p>Il continue ses déplacements jusqu'à ce que ses propres objectifs
+        l'amènent ailleurs.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-terres-tranchecrins-rumors
+          entryId: quilboar-seul
+          sourceHash: '896935e0'
+    _id: WzoHJqxETjrS5UmK
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435079148
+      modifiedTime: 1792435079148
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!PErNej1RfP7NIzyr.WzoHJqxETjrS5UmK'
+  - name: Le tunnel a deux sorties
+    type: text
+    sort: 1000000
+    text:
+      content: >-
+        <h2>Le tunnel a deux sorties</h2>
+
+        <h3>Ce que l'on raconte</h3>
+
+        <blockquote><p>« Tu crois que le tunnel traverse la roche en ligne
+        droite ? Alors explique-moi comment ils disparaissent toujours avant
+        qu'on atteigne l'autre côté. »</p></blockquote>
+
+        <h3>Statut MJ</h3>
+
+        <p>Secret ayant fuité.</p>
+
+        <h3>Qui ?</h3>
+
+        <p>Des voyageurs ayant aperçu des Tranchecrins entrer dans le tunnel
+        puis perdu leur trace alimentent cette histoire.</p>
+
+        <p>Certains gardes la considèrent comme une excuse inventée après une
+        poursuite ratée.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p><strong>Adaptation de campagne :</strong> le Tunnel des Tranchecrins
+        possède un passage secondaire étroit ou difficile à repérer permettant
+        de quitter l'axe principal.</p>
+
+        <p>Il ne s'agit pas nécessairement d'une véritable grande « seconde
+        sortie ».</p>
+
+        <h3>Quand ?</h3>
+
+        <p>La rumeur est relativement récente et encore contestée.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Dans le Tunnel des Tranchecrins.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Un passage secondaire expliquerait plusieurs témoignages sans exiger
+        que les Tranchecrins disparaissent mystérieusement.</p>
+
+        <p>Sa discrétion lui donne cependant une réputation presque
+        surnaturelle.</p>
+
+        <h3>Si les PJ s'y intéressent</h3>
+
+        <p>Ils peuvent examiner les parois, observer les courants d'air,
+        chercher des traces de passages latéraux ou surveiller discrètement les
+        utilisateurs du tunnel.</p>
+
+        <h3>Si personne n'agit</h3>
+
+        <p>Le passage reste un avantage pour ceux qui le connaissent.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-terres-tranchecrins-rumors
+          entryId: tunnel-deux-sorties
+          sourceHash: 039f6624
+    _id: JiB509KKRFu2Zxgd
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435079148
+      modifiedTime: 1792435079148
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!PErNej1RfP7NIzyr.JiB509KKRFu2Zxgd'
+  - name: Le camp abandonné
+    type: text
+    sort: 1100000
+    text:
+      content: >-
+        <h2>Le camp abandonné</h2>
+
+        <h3>Ce que l'on raconte</h3>
+
+        <blockquote><p>« Couvertures, gourdes, même de quoi faire du feu. Ils
+        ont tout laissé. Mais il n'y avait ni sang ni corps. »</p></blockquote>
+
+        <h3>Statut MJ</h3>
+
+        <p>Vraie.</p>
+
+        <h3>Qui ?</h3>
+
+        <p>Un petit groupe de chasseurs affirme avoir découvert le
+        campement.</p>
+
+        <p>Le récit a rapidement été repris par ceux qui veulent démontrer que
+        quelque chose de plus dangereux que les Tranchecrins rôde dans les
+        ravins.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p><strong>Adaptation de campagne :</strong> un camp temporaire a
+        effectivement été abandonné précipitamment.</p>
+
+        <p>Les raisons ne sont pas visibles sur place.</p>
+
+        <p>Ses occupants peuvent avoir fui une menace réelle, évité une
+        patrouille ou simplement choisi de partir sans avoir le temps de
+        récupérer tout leur matériel.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>Le camp a été découvert récemment, mais personne ne sait exactement
+        quand il a été abandonné.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Dans un petit ravin secondaire à l'écart des passages les plus
+        fréquentés.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>L'absence d'explication laisse un vide immédiatement rempli par les
+        hypothèses les plus inquiétantes.</p>
+
+        <h3>Si les PJ s'y intéressent</h3>
+
+        <p>Les objets, traces de départ et environs du camp peuvent permettre de
+        reconstituer une partie de ce qui s'est passé.</p>
+
+        <p>Ils peuvent également rechercher ses anciens occupants.</p>
+
+        <h3>Si personne n'agit</h3>
+
+        <p>Les traces deviennent progressivement illisibles et le camp est
+        récupéré, dispersé ou pillé par les prochains visiteurs.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-terres-tranchecrins-rumors
+          entryId: camp-abandonne
+          sourceHash: 0274a7f3
+    _id: uNvye5dc50IrKdlM
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435079148
+      modifiedTime: 1792435079148
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!PErNej1RfP7NIzyr.uNvye5dc50IrKdlM'
+  - name: L'eau du cratère
+    type: text
+    sort: 1200000
+    text:
+      content: >-
+        <h2>L'eau du cratère</h2>
+
+        <h3>Ce que l'on raconte</h3>
+
+        <blockquote><p>« Ils ne défendent pas ces cailloux pour rien. Il y a de
+        l'eau au fond du cratère. Assez pour tenir tout un camp.
+        »</p></blockquote>
+
+        <h3>Statut MJ</h3>
+
+        <p>Partiellement vraie.</p>
+
+        <h3>Qui ?</h3>
+
+        <p>La rumeur circule parmi les voyageurs qui cherchent une explication
+        simple à l'intérêt des Tranchecrins pour le Cratère.</p>
+
+        <p>Les personnes préoccupées par les ressources de Durotar lui accordent
+        facilement du crédit.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p>Aucune ressource en eau n'est établie dans les informations
+        fournies.</p>
+
+        <p><strong>Adaptation de campagne :</strong> une petite réserve
+        saisonnière ou un suintement peut exister dans une partie protégée du
+        cratère, sans constituer la source importante décrite par la rumeur.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>La présence d'eau varie selon les conditions locales.</p>
+
+        <p>La rumeur devient naturellement plus populaire lorsqu'elle est
+        difficile à vérifier.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Dans une partie basse et difficilement visible du Cratère des
+        Tranchecrins.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Dans une terre rude, une ressource en eau fournit une explication
+        crédible à presque toute occupation durable.</p>
+
+        <p>L'idée est suffisamment plausible pour être répétée comme un
+        fait.</p>
+
+        <h3>Si les PJ s'y intéressent</h3>
+
+        <p>Ils peuvent rechercher les traces d'animaux, la végétation ou les
+        chemins régulièrement empruntés vers les points les plus bas.</p>
+
+        <h3>Si personne n'agit</h3>
+
+        <p>Aucune évolution particulière.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-terres-tranchecrins-rumors
+          entryId: eau-du-cratere
+          sourceHash: f088fe5a
+    _id: BriAuHh0QAbLvtFP
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435079148
+      modifiedTime: 1792435079148
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!PErNej1RfP7NIzyr.BriAuHh0QAbLvtFP'
+  - name: Les Échineurs ne sont jamais les mêmes
+    type: text
+    sort: 1300000
+    text:
+      content: >-
+        <h2>Les Échineurs ne sont jamais les mêmes</h2>
+
+        <h3>Ce que l'on raconte</h3>
+
+        <blockquote><p>« Demande à cinq personnes ce qu'est un Échineur. Tu
+        auras six réponses. Alors moi, je n'appelle plus rien comme ça.
+        »</p></blockquote>
+
+        <h3>Statut MJ</h3>
+
+        <p>Vraie.</p>
+
+        <h3>Qui ?</h3>
+
+        <p>Voyageurs, chasseurs et habitants ayant entendu différentes versions
+        des histoires liées à la Piste et à la Grotte des Échineurs.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p>La nature exacte des Échineurs n'est effectivement pas établie dans
+        les informations fournies.</p>
+
+        <p>En jeu, cela se traduit par des descriptions contradictoires :
+        créature, groupe, surnom, menace précise ou terme local mal compris.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>La confusion existe tant qu'aucune observation suffisamment fiable ne
+        vient imposer une définition commune.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Principalement autour de la Piste des Échineurs et de la Grotte du
+        même nom.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Très peu de témoins peuvent comparer directement leur expérience avec
+        celle des autres.</p>
+
+        <p>Le même nom peut donc être appliqué à plusieurs traces ou
+        incidents.</p>
+
+        <h3>Si les PJ s'y intéressent</h3>
+
+        <p>Ils peuvent commencer par collecter les versions plutôt que chercher
+        immédiatement une créature précise.</p>
+
+        <p>Les contradictions elles-mêmes constituent une information.</p>
+
+        <h3>Si personne n'agit</h3>
+
+        <p>La réputation des Échineurs devient progressivement plus confuse et
+        plus inquiétante.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-terres-tranchecrins-rumors
+          entryId: echineurs-changent
+          sourceHash: 9bff25ec
+    _id: NAian4NXXTMi1fYr
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435079148
+      modifiedTime: 1792435079148
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!PErNej1RfP7NIzyr.NAian4NXXTMi1fYr'
+  - name: La route des chasseurs
+    type: text
+    sort: 1400000
+    text:
+      content: >-
+        <h2>La route des chasseurs</h2>
+
+        <h3>Ce que l'on raconte</h3>
+
+        <blockquote><p>« Les gardes disent d'éviter les Tranchecrins. Les
+        chasseurs, eux, passent là chaque semaine. Cherche l'erreur.
+        »</p></blockquote>
+
+        <h3>Statut MJ</h3>
+
+        <p>Vraie.</p>
+
+        <h3>Qui ?</h3>
+
+        <p>Des habitants de Tranchecolline critiquent parfois les avertissements
+        officiels en constatant que certains chasseurs continuent d'emprunter
+        les marges du territoire.</p>
+
+        <p>Les chasseurs concernés évitent généralement de détailler leurs
+        itinéraires.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p><strong>Adaptation de campagne :</strong> certains chasseurs
+        utilisent effectivement une portion relativement praticable des reliefs
+        lorsque les conditions semblent favorables.</p>
+
+        <p>Cela ne signifie pas que la zone soit sûre.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>Le passage est utilisé irrégulièrement selon l'activité observée sur
+        le territoire.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Sur les marges des Terres des Tranchecrins, sans nécessairement
+        pénétrer jusqu'au Cratère.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Un trajet risqué peut rester rentable s'il permet d'éviter un long
+        détour.</p>
+
+        <p>Les habitués acceptent parfois un niveau de danger que les autorités
+        déconseillent au voyageur ordinaire.</p>
+
+        <h3>Si les PJ s'y intéressent</h3>
+
+        <p>Un chasseur pourrait partager certains repères s'il leur fait
+        confiance, ou simplement leur montrer comment reconnaître les signes
+        indiquant qu'il vaut mieux rebrousser chemin.</p>
+
+        <h3>Si personne n'agit</h3>
+
+        <p>Le passage continue d'être utilisé jusqu'à ce qu'un incident
+        suffisamment grave pousse les chasseurs à changer leurs habitudes.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-terres-tranchecrins-rumors
+          entryId: route-des-chasseurs
+          sourceHash: 22c1dd99
+    _id: s8LK4IU5gvfkijJU
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435079148
+      modifiedTime: 1792435079148
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!PErNej1RfP7NIzyr.s8LK4IU5gvfkijJU'
+  - name: Des tambours sous la roche
+    type: text
+    sort: 1500000
+    text:
+      content: >-
+        <h2>Des tambours sous la roche</h2>
+
+        <h3>Ce que l'on raconte</h3>
+
+        <blockquote><p>« On les entend surtout le soir. Boum… silence… boum…
+        comme si la montagne avait un cœur. »</p></blockquote>
+
+        <h3>Statut MJ</h3>
+
+        <p>Déformée.</p>
+
+        <h3>Qui ?</h3>
+
+        <p>Des voyageurs ayant campé près des reliefs occidentaux sont à
+        l'origine des témoignages.</p>
+
+        <p>Les versions les plus récentes parlent déjà de cérémonies ou de
+        signaux de guerre, sans preuve.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p><strong>Adaptation de campagne :</strong> des chocs réguliers
+        résonnent effectivement parfois dans les ravins.</p>
+
+        <p>Ils peuvent provenir d'activités ordinaires, de déplacements sur la
+        roche ou d'un phénomène acoustique amplifiant des sons produits très
+        loin.</p>
+
+        <p>La rumeur leur attribue immédiatement une fonction rituelle.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>Le phénomène est intermittent et plus facile à percevoir lorsque les
+        autres bruits diminuent.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Dans plusieurs zones rocheuses, particulièrement autour des passages
+        où l'écho porte loin.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Un rythme régulier paraît intentionnel.</p>
+
+        <p>L'impossibilité d'en déterminer la direction renforce l'impression
+        qu'il vient « de sous la roche ».</p>
+
+        <h3>Si les PJ s'y intéressent</h3>
+
+        <p>Ils peuvent comparer l'intensité du son depuis plusieurs positions ou
+        chercher sa source plutôt que se fier à sa direction apparente.</p>
+
+        <h3>Si personne n'agit</h3>
+
+        <p>Aucune évolution particulière.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-terres-tranchecrins-rumors
+          entryId: tambours-sous-la-roche
+          sourceHash: 9e0cbcb8
+    _id: 5HGPrncV6jtrJdXz
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435079148
+      modifiedTime: 1792435079148
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!PErNej1RfP7NIzyr.5HGPrncV6jtrJdXz'
+  - name: La charrette disparue
+    type: text
+    sort: 1600000
+    text:
+      content: >-
+        <h2>La charrette disparue</h2>
+
+        <h3>Ce que l'on raconte</h3>
+
+        <blockquote><p>« Elle est entrée dans les ravins avec deux bêtes et
+        trois personnes. De l'autre côté : rien. Pas même une roue cassée.
+        »</p></blockquote>
+
+        <h3>Statut MJ</h3>
+
+        <p>Partiellement vraie.</p>
+
+        <h3>Qui ?</h3>
+
+        <p>Des voyageurs ayant croisé la charrette avant son entrée dans le
+        secteur constituent la base du récit.</p>
+
+        <p>Les détails varient déjà concernant le nombre de passagers et son
+        chargement.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p><strong>Adaptation de campagne :</strong> une charrette n'est
+        effectivement pas arrivée à destination.</p>
+
+        <p>Il n'est cependant pas établi qu'elle ait disparu dans les Terres des
+        Tranchecrins : elle a pu changer de route, subir un incident ou être
+        volontairement détournée.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>La disparition supposée est récente, ce qui explique la circulation
+        rapide de la rumeur.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Le dernier témoignage fiable la situe près d'un accès aux ravins.</p>
+
+        <p>Sa destination exacte peut être connue de certaines personnes à
+        Tranchecolline.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>L'absence de débris sur la route principale paraît plus mystérieuse
+        qu'un accident ordinaire.</p>
+
+        <p>La réputation du territoire fournit immédiatement un coupable
+        plausible.</p>
+
+        <h3>Si les PJ s'y intéressent</h3>
+
+        <p>Ils peuvent vérifier les témoignages, identifier le chargement,
+        retrouver les traces de roues ou chercher si la charrette a réellement
+        emprunté la route que tout le monde suppose.</p>
+
+        <h3>Si personne n'agit</h3>
+
+        <p>Les traces s'effacent et les versions deviennent de moins en moins
+        fiables.</p>
+
+        <p>La disparition finit par être automatiquement attribuée aux
+        Tranchecrins.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-terres-tranchecrins-rumors
+          entryId: charrette-disparue
+          sourceHash: 67b15b25
+    _id: ApCbQF3RPDASYLki
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435079148
+      modifiedTime: 1792435079148
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!PErNej1RfP7NIzyr.ApCbQF3RPDASYLki'
+  - name: Les Tranchecrins évitent la piste
+    type: text
+    sort: 1700000
+    text:
+      content: >-
+        <h2>Les Tranchecrins évitent la piste</h2>
+
+        <h3>Ce que l'on raconte</h3>
+
+        <blockquote><p>« Suis leurs traces si tu veux savoir où ils vont.
+        Regarde où elles s'arrêtent si tu veux savoir ce qu'ils craignent.
+        »</p></blockquote>
+
+        <h3>Statut MJ</h3>
+
+        <p>Partiellement vraie.</p>
+
+        <h3>Qui ?</h3>
+
+        <p>Des chasseurs et pisteurs ayant étudié les déplacements autour de la
+        Piste des Échineurs répètent cette observation.</p>
+
+        <p>Les versions populaires affirment déjà que les Tranchecrins ont peur
+        des Échineurs.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p><strong>Adaptation de campagne :</strong> certaines traces
+        Tranchecrins deviennent effectivement moins fréquentes sur une portion
+        de la piste.</p>
+
+        <p>La raison n'est pas nécessairement la peur : mauvaise visibilité,
+        absence de ressources, terrain inutile, autre itinéraire ou danger réel
+        peuvent produire le même comportement.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>L'observation est actuelle mais peut changer si les habitudes des
+        occupants évoluent.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Sur une portion occidentale de la Piste des Échineurs.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Les voyageurs interprètent instinctivement l'évitement comme une
+        crainte.</p>
+
+        <p>Cette conclusion est plausible mais non démontrée.</p>
+
+        <h3>Si les PJ s'y intéressent</h3>
+
+        <p>Ils peuvent observer ce qui change précisément à l'endroit où les
+        traces se raréfient et chercher si d'autres animaux ou voyageurs évitent
+        eux aussi le secteur.</p>
+
+        <h3>Si personne n'agit</h3>
+
+        <p>Le comportement reste inexpliqué et renforce la réputation
+        inquiétante des Échineurs.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-terres-tranchecrins-rumors
+          entryId: tranchecrins-evitent-piste
+          sourceHash: ef5c6d9d
+    _id: ip6i6nLSamoSGiSu
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435079148
+      modifiedTime: 1792435079148
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!PErNej1RfP7NIzyr.ip6i6nLSamoSGiSu'
+  - name: Les pierres en équilibre
+    type: text
+    sort: 1800000
+    text:
+      content: >-
+        <h2>Les pierres en équilibre</h2>
+
+        <h3>Ce que l'on raconte</h3>
+
+        <blockquote><p>« Si tu trouves trois pierres empilées, ne les touche
+        pas. Quelqu'un compte sur elles pour retrouver son chemin.
+        »</p></blockquote>
+
+        <h3>Statut MJ</h3>
+
+        <p>Vraie.</p>
+
+        <h3>Qui ?</h3>
+
+        <p>Les chasseurs et voyageurs expérimentés reconnaissent certains de ces
+        petits empilements comme des repères.</p>
+
+        <p>Les personnes moins familières les prennent parfois pour des marques
+        Tranchecrins ou des signes rituels.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p><strong>Adaptation de campagne :</strong> plusieurs voyageurs
+        utilisent réellement de petits cairns temporaires pour signaler une
+        bifurcation, un passage praticable ou leur trajet de retour.</p>
+
+        <p>Ils ne suivent cependant aucun code universel.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>Les empilements apparaissent et disparaissent au gré des passages, du
+        vent, des animaux ou des personnes qui les déplacent.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Principalement aux bifurcations discrètes et à proximité des sorties
+        de ravins.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Dans un paysage répétitif, un repère artificiel simple peut être
+        extrêmement utile.</p>
+
+        <p>L'absence de système commun crée cependant de nombreuses mauvaises
+        interprétations.</p>
+
+        <h3>Si les PJ s'y intéressent</h3>
+
+        <p>Ils peuvent apprendre quels voyageurs utilisent quels types de
+        repères ou créer leurs propres marques pour faciliter de futures
+        traversées.</p>
+
+        <h3>Si personne n'agit</h3>
+
+        <p>Aucune évolution particulière.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-terres-tranchecrins-rumors
+          entryId: pierres-en-equilibre
+          sourceHash: ad47b584
+    _id: old1twh0U9e8Hs7d
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435079148
+      modifiedTime: 1792435079148
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!PErNej1RfP7NIzyr.old1twh0U9e8Hs7d'
+  - name: Le bruit attire les Tranchecrins
+    type: text
+    sort: 1900000
+    text:
+      content: >-
+        <h2>Le bruit attire les Tranchecrins</h2>
+
+        <h3>Ce que l'on raconte</h3>
+
+        <blockquote><p>« Tu peux parler dans la plaine. Dans les ravins, même
+        ton voisin n'a pas besoin de connaître ton opinion. »</p></blockquote>
+
+        <h3>Statut MJ</h3>
+
+        <p>Partiellement vraie.</p>
+
+        <h3>Qui ?</h3>
+
+        <p>Les éclaireurs, chasseurs et voyageurs prudents transmettent ce
+        conseil.</p>
+
+        <p>Les versions les plus alarmistes prétendent que les Tranchecrins
+        peuvent entendre une conversation à travers plusieurs parois
+        rocheuses.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p>Le relief peut transporter ou amplifier certains sons.</p>
+
+        <p>Cela ne signifie pas qu'un ennemi puisse localiser automatiquement
+        leur source.</p>
+
+        <p>Le conseil de discrétion reste néanmoins pertinent dans un territoire
+        hostile.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>Le phénomène dépend du vent, de la position dans les ravins et de la
+        nature des parois.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Dans les passages étroits des Terres des Tranchecrins.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Quelques expériences où des groupes bruyants ont été repérés ont
+        transformé une règle de prudence ordinaire en capacité presque
+        surnaturelle attribuée aux occupants.</p>
+
+        <h3>Si les PJ s'y intéressent</h3>
+
+        <p>Ils peuvent expérimenter avec les échos, utiliser volontairement un
+        bruit pour détourner l'attention ou simplement comprendre quels passages
+        transmettent le mieux les sons.</p>
+
+        <h3>Si personne n'agit</h3>
+
+        <p>Aucune évolution particulière.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-terres-tranchecrins-rumors
+          entryId: bruit-attire-ennemis
+          sourceHash: 126d6898
+    _id: o6n94Cnh7vTs9S6N
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435079148
+      modifiedTime: 1792435079148
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!PErNej1RfP7NIzyr.o6n94Cnh7vTs9S6N'
+  - name: Le territoire bouge
+    type: text
+    sort: 2000000
+    text:
+      content: >-
+        <h2>Le territoire bouge</h2>
+
+        <h3>Ce que l'on raconte</h3>
+
+        <blockquote><p>« Les cartes mentent. Pas les mauvaises cartes : toutes.
+        Chaque fois que tu reviens, un passage a disparu et un autre s'est
+        ouvert. »</p></blockquote>
+
+        <h3>Statut MJ</h3>
+
+        <p>Exagération.</p>
+
+        <h3>Qui ?</h3>
+
+        <p>Les voyageurs frustrés par les détours et les erreurs de navigation
+        utilisent cette formule pour expliquer la difficulté à cartographier la
+        zone.</p>
+
+        <p>Les cartes anciennes entretiennent particulièrement cette
+        réputation.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p>Le territoire ne se transforme pas constamment.</p>
+
+        <p><strong>Adaptation de campagne :</strong> certains passages peuvent
+        cependant être temporairement bloqués par des éboulis, des branches, un
+        camp, une surveillance ennemie ou simplement devenir impraticables avec
+        les conditions locales.</p>
+
+        <p>À l'inverse, un détour autrefois ignoré peut être découvert.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>Les différences deviennent visibles surtout entre deux visites
+        espacées.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Dans l'ensemble des Terres des Tranchecrins, particulièrement dans
+        les ravins secondaires.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Une carte représente la géographie, mais pas toujours l'état actuel
+        du terrain ni le contrôle exercé par ses occupants.</p>
+
+        <p>Pour un voyageur, la distinction importe peu lorsqu'un itinéraire
+        dessiné sur sa carte ne peut plus être emprunté.</p>
+
+        <h3>Si les PJ s'y intéressent</h3>
+
+        <p>Ils peuvent maintenir leur propre carte, noter l'état actuel des
+        passages et progressivement acquérir une connaissance du territoire
+        supérieure aux informations disponibles à Tranchecolline.</p>
+
+        <h3>Si personne n'agit</h3>
+
+        <p>La réputation d'un territoire « impossible à cartographier » persiste
+        alors même que de nombreux changements ont des causes parfaitement
+        ordinaires.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-terres-tranchecrins-rumors
+          entryId: territoire-bouge
+          sourceHash: '91851312'
+    _id: JhdJpUSwBdvLKRqL
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435079148
+      modifiedTime: 1792435079148
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!PErNej1RfP7NIzyr.JhdJpUSwBdvLKRqL'
+_id: PErNej1RfP7NIzyr
+categories: []
+sort: 100000
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792435079148
+  modifiedTime: 1792435079148
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!PErNej1RfP7NIzyr'

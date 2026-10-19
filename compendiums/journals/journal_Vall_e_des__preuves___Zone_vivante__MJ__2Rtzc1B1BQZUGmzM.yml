@@ -1,0 +1,3693 @@
+name: Vallée des Épreuves · Zone vivante (MJ)
+flags:
+  core:
+    sheetClass: ''
+_id: 2Rtzc1B1BQZUGmzM
+pages:
+  - sort: 100000
+    name: 00 · Présentation et intentions
+    type: text
+    _id: 237f0abf25762328
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Vallée des Épreuves — Zone vivante</h1>
+
+        <blockquote>
+
+        <p><strong>Warbound — Au Nom de la Horde</strong><br>
+
+        <strong>Région :</strong> Durotar<br>
+
+        <strong>Usage :</strong> document MJ opérationnel<br>
+
+        <strong>Fonction :</strong> faire de la Vallée des Épreuves une zone de
+        jeu avec enjeux, conflits, choix et conséquences<br>
+
+        <strong>Principe :</strong> reconnaissance WoW → incertitude → choix →
+        conséquence → récompense</p>
+
+        </blockquote>
+
+        <hr>
+
+        <h1>1. Intention de jeu</h1>
+
+        <p>La Vallée des Épreuves ne doit pas être une zone tutorielle où les PJ
+        enchaînent :</p>
+
+        <blockquote>
+
+        <p>tuer des sangliers → tuer des scorpides → réveiller des péons → tuer
+        Sarkoth → tuer Yarrog.</p>
+
+        </blockquote>
+
+        <p>Elle doit donner immédiatement le ton de <strong>Warbound</strong>
+        :</p>
+
+        <blockquote>
+
+        <p><strong>La Horde est en train de se construire. Ses membres essaient
+        de trouver leur place, ses cadres prennent des décisions parfois
+        discutables, la nature de Durotar reste dangereuse, et des ennemis
+        exploitent déjà les fissures de cette jeune société.</strong></p>
+
+        </blockquote>
+
+        <p>Les personnages arrivent dans une Vallée qu'ils reconnaissent, mais
+        où les situations n'ont plus une solution écrite d'avance.</p>
+
+        <p>La zone doit permettre de :</p>
+
+        <ul>
+
+        <li>se faire une réputation ;</li>
+
+        <li>choisir qui écouter ;</li>
+
+        <li>défendre ou contester une décision ;</li>
+
+        <li>nouer des relations récurrentes ;</li>
+
+        <li>résoudre certaines situations autrement que dans WoW ;</li>
+
+        <li>laisser derrière eux une Vallée différente de celle qu'ils ont
+        trouvée.</li>
+
+        </ul>
+
+        <hr>
+
+        <h1>2. Statut des éléments</h1>
+
+        <h2>[CANON] — socle Warcraft Classic</h2>
+
+        <p>La Vallée des Épreuves et l'Antre concentrent notamment :</p>
+
+        <ul>
+
+        <li><strong>Gornek</strong> ;</li>
+
+        <li>les sangliers de <strong>La dent tranchante</strong> ;</li>
+
+        <li>les scorpides de <strong>L'aiguillon du scorpide</strong> ;</li>
+
+        <li><strong>Galgar</strong> et ses pommes de cactus ;</li>
+
+        <li>les <strong>vils familiers</strong> ;</li>
+
+        <li><strong>Contremaître Thazz'rill</strong>, les péons et sa pioche
+        ;</li>
+
+        <li><strong>Hana'zua</strong> et <strong>Sarkoth</strong> ;</li>
+
+        <li><strong>Zureetha Fargaze</strong> et la présence de la Lame ardente
+        ;</li>
+
+        <li><strong>Yarrog Baneshadow</strong>, son médaillon et le Burning
+        Blade Coven ;</li>
+
+        <li>plusieurs scènes d'introduction vers des mentors de classe.</li>
+
+        </ul>
+
+        <h2>[ACQUIS] — Warbound</h2>
+
+        <ul>
+
+        <li><strong>Sarkoth est lié à l'historique d'un PJ.</strong></li>
+
+        <li>Sarkoth reste un animal territorial : il n'est pas secrètement au
+        service de la Lame ardente.</li>
+
+        <li><strong>Yarrog</strong> est un recruteur clandestin, observateur et
+        espion de la Lame ardente.</li>
+
+        <li>Yarrog peut avoir un lien préalable avec un PJ et doit être
+        intéressant <strong>avant</strong> d'être suspect.</li>
+
+        <li>Le <strong>Burning Blade Coven</strong> devient dans la campagne le
+        <strong>Repaire de la Lame ardente</strong>.</li>
+
+        <li>Sa chambre de réunion est appelée <strong>le Cénacle</strong>.</li>
+
+        <li>Le Repaire doit révéler une organisation, pas seulement fournir un
+        boss à tuer.</li>
+
+        </ul>
+
+        <h2>[ADAPTATION]</h2>
+
+        <p>Les tensions, personnalités détaillées, lieux secondaires, scènes de
+        vie et conséquences ci-dessous sont des outils de campagne Warbound.</p>
+
+        <hr>
+
+        <h1>3. Question dramatique de la Vallée</h1>
+
+        <blockquote>
+
+        <p><strong>Que signifie « faire ses preuves » dans la nouvelle Horde
+        ?</strong></p>
+
+        </blockquote>
+
+        <p>Pour certains :</p>
+
+        <blockquote>
+
+        <p>obéir, tenir bon et montrer qu'on est capable d'affronter
+        Durotar.</p>
+
+        </blockquote>
+
+        <p>Pour d'autres :</p>
+
+        <blockquote>
+
+        <p>savoir quand un ordre est stupide, protéger les siens et ne pas
+        gaspiller des vies.</p>
+
+        </blockquote>
+
+        <p>Pour Yarrog :</p>
+
+        <blockquote>
+
+        <p>comprendre que la Horde n'a peut-être pas de place pour vous… et
+        qu'il existe d'autres personnes prêtes à vous écouter.</p>
+
+        </blockquote>
+
+        <p>La Vallée est donc un lieu d'<strong>initiation sociale autant que
+        martiale</strong>.</p>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067343
+      modifiedTime: 1792435067343
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!2Rtzc1B1BQZUGmzM.237f0abf25762328'
+  - sort: 200000
+    name: 01 · Tension A — Faire ses preuves
+    type: text
+    _id: 5b820669f41c0b55
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>4. Cinq tensions actives</h1>
+
+        <p>Il n'est pas nécessaire de faire jouer les cinq simultanément. Deux
+        ou trois suffisent.</p>
+
+        <h2>A — Faire ses preuves… mais jusqu'où ?</h2>
+
+        <p>Les jeunes recrues sont encouragées à montrer qu'elles peuvent
+        survivre dans Durotar. Le problème commence lorsque certains confondent
+        <strong>courage</strong> et <strong>prise de risque
+        absurde</strong>.</p>
+
+        <p><strong>Acteurs :</strong> Gornek, Hana'zua, recrues ambitieuses,
+        PJ.</p>
+
+        <p><strong>Conflit :</strong> trop protéger les recrues vide les
+        épreuves de leur sens ; laisser tout faire transforme la Vallée en
+        machine à produire des blessés.</p>
+
+        <p><strong>Choix possibles :</strong></p>
+
+        <ul>
+
+        <li>valoriser les défis traditionnels ;</li>
+
+        <li>imposer des règles de sécurité ;</li>
+
+        <li>sauver discrètement un imprudent ;</li>
+
+        <li>humilier publiquement quelqu'un ;</li>
+
+        <li>proposer une autre manière de faire ses preuves.</li>
+
+        </ul>
+
+        <p><strong>Conséquences :</strong></p>
+
+        <ul>
+
+        <li>valoriser l'audace brute augmente le prestige martial des PJ, mais
+        encourage l'imitation ;</li>
+
+        <li>valoriser la maîtrise donne aux PJ une image plus responsable, mais
+        certains vétérans les trouvent mous ;</li>
+
+        <li>humilier quelqu'un règle le problème immédiat, mais crée une
+        rancune.</li>
+
+        </ul>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067343
+      modifiedTime: 1792435067343
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!2Rtzc1B1BQZUGmzM.5b820669f41c0b55'
+  - sort: 300000
+    name: 02 · Tension B — Le travail des péons
+    type: text
+    _id: 54b13dbd6264d0d2
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>B — Qui porte réellement la nouvelle Horde ?</h2>
+
+        <p>La Vallée est un lieu d'entraînement, mais aussi un lieu où l'on
+        travaille. Les péons réparent, transportent, creusent et bâtissent.</p>
+
+        <p><strong>Thazz'rill</strong> veut des résultats.</p>
+
+        <p>Tous les péons n'ont pas la même raison de ralentir :</p>
+
+        <ul>
+
+        <li>l'un est réellement paresseux ;</li>
+
+        <li>l'un est épuisé ;</li>
+
+        <li>l'un refuse de retourner près d'une zone qu'il juge dangereuse
+        ;</li>
+
+        <li>un autre en a simplement assez d'être traité comme un idiot.</li>
+
+        </ul>
+
+        <p><strong>Choix possibles :</strong></p>
+
+        <ul>
+
+        <li>soutenir l'autorité de Thazz'rill ;</li>
+
+        <li>défendre les péons ;</li>
+
+        <li>travailler avec eux ;</li>
+
+        <li>enquêter au cas par cas ;</li>
+
+        <li>transformer le travail en compétition ;</li>
+
+        <li>confronter Thazz'rill.</li>
+
+        </ul>
+
+        <p><strong>Conséquences :</strong></p>
+
+        <ul>
+
+        <li>soutenir Thazz'rill rend le contremaître loyal aux PJ, mais les
+        péons leur parlent moins ;</li>
+
+        <li>défendre les travailleurs leur donne des contacts utiles, mais
+        irrite Thazz'rill ;</li>
+
+        <li>trouver un compromis crée une relation durable avec les deux
+        côtés.</li>
+
+        </ul>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067343
+      modifiedTime: 1792435067343
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!2Rtzc1B1BQZUGmzM.54b13dbd6264d0d2'
+  - sort: 400000
+    name: 03 · Tension C — Sarkoth
+    type: text
+    _id: 6c19c942c702f425
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>C — Sarkoth : trophée, menace ou animal ?</h2>
+
+        <p>Hana'zua a été grièvement blessé par Sarkoth. Pour plusieurs jeunes,
+        tuer le scorpide serait un exploit.</p>
+
+        <p>Mais Sarkoth est territorial.</p>
+
+        <p><strong>Question :</strong></p>
+
+        <blockquote>
+
+        <p><strong>Les PJ doivent-ils réellement le tuer ?</strong></p>
+
+        </blockquote>
+
+        <p>Ils peuvent :</p>
+
+        <ul>
+
+        <li>le tuer ;</li>
+
+        <li>sauver Hana'zua et partir ;</li>
+
+        <li>le chasser ;</li>
+
+        <li>comprendre ce qu'il protège ;</li>
+
+        <li>empêcher d'autres recrues de le provoquer ;</li>
+
+        <li>utiliser le terrain pour éviter le combat.</li>
+
+        </ul>
+
+        <p><strong>Conséquences :</strong></p>
+
+        <ul>
+
+        <li>Sarkoth tué : prestige, dette possible de Hana'zua, territoire
+        modifié ;</li>
+
+        <li>Sarkoth vivant : débat sur les choix des PJ, animal récurrent de la
+        Vallée ;</li>
+
+        <li>Sarkoth déplacé : problème potentiellement reporté ailleurs.</li>
+
+        </ul>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067343
+      modifiedTime: 1792435067343
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!2Rtzc1B1BQZUGmzM.6c19c942c702f425'
+  - sort: 500000
+    name: 04 · Tension D — Les vils familiers
+    type: text
+    _id: 3c089ba6566ccf71
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>D — Quelque chose ne devrait pas être ici</h2>
+
+        <p>Des <strong>vils familiers</strong> apparaissent.</p>
+
+        <p>Contrairement aux sangliers et scorpides, ils ne font pas partie du
+        paysage naturel de Durotar.</p>
+
+        <p><strong>Zureetha Fargaze</strong> prend la menace au sérieux.</p>
+
+        <p>Les PJ peuvent :</p>
+
+        <ul>
+
+        <li>tuer les familiers ;</li>
+
+        <li>en suivre un ;</li>
+
+        <li>en capturer un ;</li>
+
+        <li>surveiller les reliefs ;</li>
+
+        <li>interroger les recrues ;</li>
+
+        <li>alerter tout le camp.</li>
+
+        </ul>
+
+        <p><strong>Conséquences :</strong></p>
+
+        <ul>
+
+        <li>les tuer sécurise la zone à court terme mais détruit des pistes
+        ;</li>
+
+        <li>les suivre rapproche du Repaire ;</li>
+
+        <li>alerter publiquement la Vallée pousse Yarrog à devenir plus
+        prudent.</li>
+
+        </ul>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067343
+      modifiedTime: 1792435067343
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!2Rtzc1B1BQZUGmzM.3c089ba6566ccf71'
+  - sort: 600000
+    name: 05 · Tension E — Yarrog écoute
+    type: text
+    _id: 23fc1e35deba5f02
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>E — Yarrog écoute</h2>
+
+        <p>Yarrog se présente comme un démoniste de la Horde parmi d'autres.</p>
+
+        <p>Il ne demande pas :</p>
+
+        <blockquote>
+
+        <p>« Veux-tu rejoindre la Lame ardente ? »</p>
+
+        </blockquote>
+
+        <p>Il demande :</p>
+
+        <blockquote>
+
+        <p>« Alors ? Comment ça se passe avec Gornek ? »</p>
+
+        </blockquote>
+
+        <p>Sa méthode :</p>
+
+        <ol>
+
+        <li>écouter ;</li>
+
+        <li>rendre un service ;</li>
+
+        <li>valoriser ;</li>
+
+        <li>demander un petit service ;</li>
+
+        <li>tester le secret ;</li>
+
+        <li>seulement ensuite révéler davantage.</li>
+
+        </ol>
+
+        <p>Les PJ peuvent lui faire confiance, l'utiliser, le surveiller,
+        l'accuser, le suivre, le capturer, le tuer ou le laisser croire qu'il
+        n'est pas découvert.</p>
+
+        <p><strong>Conséquences :</strong></p>
+
+        <ul>
+
+        <li>accusation sans preuve : Yarrog peut gagner en crédibilité et
+        réduire ses activités visibles ;</li>
+
+        <li>surveillance : accès possible à son réseau ;</li>
+
+        <li>capture : informations mais interrogatoire difficile ;</li>
+
+        <li>mort : preuve grâce au médaillon, mais réseau plus difficile à
+        remonter ;</li>
+
+        <li>démasquage public : crise de confiance parmi les jeunes
+        recrutés.</li>
+
+        </ul>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067343
+      modifiedTime: 1792435067343
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!2Rtzc1B1BQZUGmzM.23fc1e35deba5f02'
+  - sort: 700000
+    name: 06 · Lieu 1 — L’Antre
+    type: text
+    _id: 5dfe2f766a9585a0
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>5. Lieux de la Vallée</h1>
+
+        <h2>1 — L'Antre</h2>
+
+        <p><strong>[CANON] lieu ; détails [ADAPTATION].</strong></p>
+
+        <p>Cœur social de la Vallée.</p>
+
+        <p>On y trouve :</p>
+
+        <ul>
+
+        <li>consignes ;</li>
+
+        <li>entraînement ;</li>
+
+        <li>mentors ;</li>
+
+        <li>travailleurs ;</li>
+
+        <li>rumeurs ;</li>
+
+        <li>recrues qui comparent leurs blessures ;</li>
+
+        <li>Yarrog lorsqu'il entretient sa couverture.</li>
+
+        </ul>
+
+        <p>L'Antre doit paraître <strong>en construction</strong>, pas
+        parfaitement organisé : bois fraîchement taillé, abris réparés, armes
+        contre les murs, peaux tendues, poussière, disputes, exercice
+        martial.</p>
+
+        <h3>À chaque retour</h3>
+
+        <p>Montrer au moins un changement :</p>
+
+        <ul>
+
+        <li>un blessé aidé reprend l'entraînement ;</li>
+
+        <li>une recrue humiliée détourne le regard ;</li>
+
+        <li>un péon salue les PJ ;</li>
+
+        <li>Yarrog parle à quelqu'un qu'ils connaissent ;</li>
+
+        <li>une rumeur circule sur leur dernier exploit.</li>
+
+        </ul>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067343
+      modifiedTime: 1792435067343
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!2Rtzc1B1BQZUGmzM.5dfe2f766a9585a0'
+  - sort: 800000
+    name: 07 · Lieu 2 — L’aire des épreuves
+    type: text
+    _id: 68ef9c867f2f565d
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>2 — L'aire des épreuves</h2>
+
+        <p><strong>[ADAPTATION].</strong></p>
+
+        <p>Espace ouvert près de l'Antre : cercle dans la poussière, mannequins,
+        pierres de lancer, cibles.</p>
+
+        <p>Usage :</p>
+
+        <ul>
+
+        <li>duel ;</li>
+
+        <li>pari ;</li>
+
+        <li>entraînement ;</li>
+
+        <li>concours ;</li>
+
+        <li>humiliation ;</li>
+
+        <li>démonstration de classe.</li>
+
+        </ul>
+
+        <p>Ceux qui brillent ici deviennent connus très vite.</p>
+
+        <p>Ceux qui trichent aussi.</p>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067343
+      modifiedTime: 1792435067343
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!2Rtzc1B1BQZUGmzM.68ef9c867f2f565d'
+  - sort: 900000
+    name: 08 · Lieu 3 — Chantier de Thazz’rill
+    type: text
+    _id: 8f6ed733ea713c47
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>3 — Le chantier de Thazz'rill</h2>
+
+        <p><strong>[CANON] Thazz'rill, péons, pioche ; organisation
+        [ADAPTATION].</strong></p>
+
+        <p>Tas de bois, outils, cordages, charrettes, fosses, abris de
+        repos.</p>
+
+        <p>Ce lieu montre que la Horde n'est pas seulement une armée :</p>
+
+        <blockquote>
+
+        <p><strong>des gens fabriquent réellement un foyer.</strong></p>
+
+        </blockquote>
+
+        <p>La pioche de Thazz'rill peut être :</p>
+
+        <ul>
+
+        <li>oubliée dans une zone dangereuse ;</li>
+
+        <li>empruntée sans permission ;</li>
+
+        <li>utilisée pour ouvrir une cavité ;</li>
+
+        <li>cachée par un péon voulant forcer une pause.</li>
+
+        </ul>
+
+        <p>Choisir la version qui crée le meilleur conflit au moment où les PJ
+        s'y intéressent.</p>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067343
+      modifiedTime: 1792435067343
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!2Rtzc1B1BQZUGmzM.8f6ed733ea713c47'
+  - sort: 1000000
+    name: 09 · Lieu 4 — Sangliers et cactus
+    type: text
+    _id: 22e30158e9c692cd
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>4 — Les pistes des sangliers et des cactus</h2>
+
+        <p><strong>[CANON] sangliers, pommes de cactus ; détails
+        [ADAPTATION].</strong></p>
+
+        <p>Zone ouverte de chasse et de cueillette.</p>
+
+        <p>On y croise :</p>
+
+        <ul>
+
+        <li>sangliers tachetés ;</li>
+
+        <li>cactus ;</li>
+
+        <li>chasseurs débutants ;</li>
+
+        <li>cueilleurs ;</li>
+
+        <li>traces de combats maladroits.</li>
+
+        </ul>
+
+        <p><strong>Galgar</strong> peut y lancer des défis culinaires ou de
+        cueillette.</p>
+
+        <p>Cette zone sert aussi de respiration : une scène agréable peut
+        simplement rester agréable.</p>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067343
+      modifiedTime: 1792435067343
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!2Rtzc1B1BQZUGmzM.22e30158e9c692cd'
+  - sort: 1100000
+    name: 10 · Lieu 5 — Terres à scorpides
+    type: text
+    _id: e587eeed4dcbb4f9
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: |-
+        <h2>5 — Les terres à scorpides</h2>
+        <p><strong>[CANON] scorpides ; détails [ADAPTATION].</strong></p>
+        <p>Terrain plus cassé et dangereux.</p>
+        <p>Les scorpides ordinaires sont un danger du territoire.</p>
+        <p>Ils ne sont pas tous « les serviteurs de Sarkoth ».</p>
+        <p>Usage :</p>
+        <ul>
+        <li>récolte de venin ;</li>
+        <li>pistage ;</li>
+        <li>sauvetage ;</li>
+        <li>apprentissage de la faune ;</li>
+        <li>première piste vers le plateau de Sarkoth.</li>
+        </ul>
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067343
+      modifiedTime: 1792435067343
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!2Rtzc1B1BQZUGmzM.e587eeed4dcbb4f9'
+  - sort: 1200000
+    name: 11 · Lieu 6 — Plateau de Sarkoth
+    type: text
+    _id: d37f01788fdced3d
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>6 — Le plateau de Sarkoth</h2>
+
+        <p><strong>[ACQUIS Warbound].</strong></p>
+
+        <p>Plateau au relief cassé avec :</p>
+
+        <ul>
+
+        <li>rampe exposée ;</li>
+
+        <li>ressaut rocheux ;</li>
+
+        <li>fissures ;</li>
+
+        <li>vieille carcasse ;</li>
+
+        <li>traces profondes ;</li>
+
+        <li>zone protégée par Sarkoth.</li>
+
+        </ul>
+
+        <p>La scène doit permettre observation, pistage, contournement, fuite et
+        combat éventuel.</p>
+
+        <p>Le comportement territorial de Sarkoth doit être compréhensible sans
+        dépendre d'un jet unique.</p>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067343
+      modifiedTime: 1792435067343
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!2Rtzc1B1BQZUGmzM.d37f01788fdced3d'
+  - sort: 1300000
+    name: 12 · Lieu 7 — Reliefs corrompus
+    type: text
+    _id: c820fa09c156ffc6
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>7 — Les reliefs corrompus</h2>
+
+        <p><strong>[ADAPTATION] à partir des vils familiers.</strong></p>
+
+        <p>Crevasses et petits reliefs où apparaissent les premières traces
+        anormales :</p>
+
+        <ul>
+
+        <li>animaux locaux absents ;</li>
+
+        <li>os rongés ;</li>
+
+        <li>odeur âcre ;</li>
+
+        <li>petites empreintes griffues ;</li>
+
+        <li>pierres noircies.</li>
+
+        </ul>
+
+        <p>Fonction :</p>
+
+        <blockquote>
+
+        <p>faire passer les PJ du danger naturel à la présence organisée.</p>
+
+        </blockquote>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067343
+      modifiedTime: 1792435067343
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!2Rtzc1B1BQZUGmzM.c820fa09c156ffc6'
+  - sort: 1400000
+    name: 13 · Lieu 8 — Repaire de la Lame ardente
+    type: text
+    _id: f6a134b0bc061f10
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>8 — Le Repaire de la Lame ardente</h2>
+
+        <p><strong>[ACQUIS Warbound] à partir du Burning Blade Coven
+        canonique.</strong></p>
+
+        <p>Petit poste clandestin servant à observer, recruter, stocker et
+        communiquer.</p>
+
+        <p>Sous-lieux :</p>
+
+        <ul>
+
+        <li>faille d'entrée ;</li>
+
+        <li>chambre des familiers ;</li>
+
+        <li>cache ;</li>
+
+        <li>bassin noir ;</li>
+
+        <li>galerie basse ;</li>
+
+        <li>Cénacle ;</li>
+
+        <li>sortie haute.</li>
+
+        </ul>
+
+        <p>Le payoff doit être :</p>
+
+        <blockquote>
+
+        <p><strong>Yarrog n'était pas seul, il observait des gens, et quelqu'un
+        attendait ses informations.</strong></p>
+
+        </blockquote>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067343
+      modifiedTime: 1792435067343
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!2Rtzc1B1BQZUGmzM.f6a134b0bc061f10'
+  - sort: 1500000
+    name: 14 · PNJ — Gornek
+    type: text
+    _id: 0597aadb2929e37d
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>6. PNJ principaux</h1>
+
+        <h2>GORNEK</h2>
+
+        <p><strong>[CANON] personnage et rôle de point de contact ; personnalité
+        [ADAPTATION].</strong></p>
+
+        <h3>Fonction à la table</h3>
+
+        <p>Gornek permet aux PJ de comprendre ce que la Vallée attend d'eux.</p>
+
+        <p>Ce n'est pas un distributeur de quêtes.</p>
+
+        <p>Il :</p>
+
+        <ul>
+
+        <li>écoute les rapports ;</li>
+
+        <li>évalue les recrues ;</li>
+
+        <li>oriente vers les mentors ;</li>
+
+        <li>décide qui mérite plus de responsabilité ;</li>
+
+        <li>se souvient des personnes qui tiennent parole.</li>
+
+        </ul>
+
+        <h3>Jeu</h3>
+
+        <p>Il parle peu et pose des questions courtes.</p>
+
+        <p>Quand une recrue raconte un exploit :</p>
+
+        <blockquote>
+
+        <p>« Et qu'est-ce que tu as appris ? »</p>
+
+        </blockquote>
+
+        <h3>Veut</h3>
+
+        <p>Que ceux qui quittent la Vallée soient capables, fiables et
+        lucides.</p>
+
+        <h3>Craint</h3>
+
+        <ul>
+
+        <li>la vantardise qui gaspille des recrues ;</li>
+
+        <li>la perte d'autorité des cadres ;</li>
+
+        <li>l'illusion de compétence.</li>
+
+        </ul>
+
+        <h3>Relations</h3>
+
+        <p><strong>Avec Thazz'rill :</strong> respect mutuel mais conflit
+        possible sur l'usage des recrues comme main-d'œuvre.</p>
+
+        <p><strong>Avec Zureetha :</strong> il écoute les faits, mais refuse de
+        transformer chaque rumeur en crise.</p>
+
+        <h3>Avec les PJ</h3>
+
+        <p>Il apprécie :</p>
+
+        <ul>
+
+        <li>un rapport clair ;</li>
+
+        <li>l'aveu d'une erreur ;</li>
+
+        <li>une initiative qui produit un résultat.</li>
+
+        </ul>
+
+        <p>Il méprise :</p>
+
+        <ul>
+
+        <li>la vantardise vide ;</li>
+
+        <li>les excuses permanentes ;</li>
+
+        <li>le sacrifice d'autrui pour paraître fort.</li>
+
+        </ul>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067343
+      modifiedTime: 1792435067343
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!2Rtzc1B1BQZUGmzM.0597aadb2929e37d'
+  - sort: 1600000
+    name: 15 · PNJ — Contremaître Thazz’rill
+    type: text
+    _id: ed2aaad9d0717b99
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>CONTREMAÎTRE THAZZ'RILL</h2>
+
+        <p><strong>[CANON] personnage lié aux péons et à sa pioche ;
+        personnalité [ADAPTATION].</strong></p>
+
+        <h3>Fonction</h3>
+
+        <p>Faire sentir que la Horde se construit grâce à du travail réel.</p>
+
+        <p>Il produit humour, friction et choix sociaux.</p>
+
+        <h3>Jeu</h3>
+
+        <p>Toujours couvert de poussière.</p>
+
+        <p>Il considère qu'un outil mal rangé est une offense personnelle.</p>
+
+        <h3>Veut</h3>
+
+        <p>Que le travail soit fait <strong>aujourd'hui</strong>.</p>
+
+        <h3>Craint</h3>
+
+        <p>Être considéré comme incapable de tenir ses équipes.</p>
+
+        <h3>Qualité</h3>
+
+        <p>Il ne demande pas à un péon de porter une charge qu'il serait
+        lui-même incapable de soulever.</p>
+
+        <h3>Défaut</h3>
+
+        <p>Il suppose trop facilement :</p>
+
+        <blockquote>
+
+        <p>problème = paresse.</p>
+
+        </blockquote>
+
+        <h3>Avec les PJ</h3>
+
+        <p>Ils gagnent sa confiance en :</p>
+
+        <ul>
+
+        <li>travaillant vraiment ;</li>
+
+        <li>réglant un conflit sans tout bloquer ;</li>
+
+        <li>lui rapportant sa pioche ;</li>
+
+        <li>tenant leur parole.</li>
+
+        </ul>
+
+        <p><strong>Ils l'humilient :</strong> il s'en souvient.</p>
+
+        <p><strong>Ils lui donnent toujours raison :</strong> les péons les
+        voient comme ses auxiliaires.</p>
+
+        <p><strong>Ils lui prouvent qu'un péon avait raison :</strong> il râle,
+        mais change sa consigne si les faits sont clairs.</p>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067343
+      modifiedTime: 1792435067343
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!2Rtzc1B1BQZUGmzM.ed2aaad9d0717b99'
+  - sort: 1700000
+    name: 16 · PNJ — Zureetha Fargaze
+    type: text
+    _id: 672900fa20f6f8a7
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>ZUREETHA FARGAZE</h2>
+
+        <p><strong>[CANON] liée aux vils familiers et au médaillon de la Lame
+        ardente ; personnalité [ADAPTATION].</strong></p>
+
+        <h3>Fonction</h3>
+
+        <p>Introduire la différence entre :</p>
+
+        <blockquote>
+
+        <p><strong>danger naturel</strong> et <strong>menace qui n'a rien à
+        faire ici</strong>.</p>
+
+        </blockquote>
+
+        <h3>Jeu</h3>
+
+        <p>Zureetha examine avant de conclure.</p>
+
+        <p>Une carcasse, une trace, une brûlure ou un morceau de tissu
+        l'intéresse davantage qu'une rumeur.</p>
+
+        <h3>Veut</h3>
+
+        <p>Comprendre l'origine des manifestations démoniaques avant qu'elles ne
+        s'installent durablement.</p>
+
+        <h3>Craint</h3>
+
+        <p>Deux erreurs :</p>
+
+        <ul>
+
+        <li>sous-estimer une infiltration réelle ;</li>
+
+        <li>déclencher une chasse aux sorcières inutile.</li>
+
+        </ul>
+
+        <h3>Relation avec Gornek</h3>
+
+        <p>Même objectif général, méthode différente.</p>
+
+        <ul>
+
+        <li>Gornek veut éviter la panique.</li>
+
+        <li>Zureetha veut éviter le déni.</li>
+
+        </ul>
+
+        <p>Aucun des deux n'a automatiquement raison.</p>
+
+        <h3>Avec les PJ</h3>
+
+        <p>Elle valorise ceux qui distinguent clairement :</p>
+
+        <ul>
+
+        <li><strong>ce qu'ils ont vu</strong> ;</li>
+
+        <li><strong>ce qu'ils pensent</strong> ;</li>
+
+        <li><strong>ce qu'on leur a raconté</strong>.</li>
+
+        </ul>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067343
+      modifiedTime: 1792435067343
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!2Rtzc1B1BQZUGmzM.672900fa20f6f8a7'
+  - sort: 1800000
+    name: 17 · PNJ — Hana’zua
+    type: text
+    _id: ce9a3368861fa73f
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>HANA'ZUA</h2>
+
+        <p><strong>[CANON] lié à Sarkoth ; personnalité
+        [ADAPTATION].</strong></p>
+
+        <h3>Fonction</h3>
+
+        <p>Donner un visage humain à la pression sociale autour des
+        épreuves.</p>
+
+        <h3>Première apparition recommandée</h3>
+
+        <p>Blessé et empoisonné, mais surtout furieux contre lui-même.</p>
+
+        <p>Il ne veut pas devenir :</p>
+
+        <blockquote>
+
+        <p>« celui qui a perdu contre Sarkoth ».</p>
+
+        </blockquote>
+
+        <h3>Veut</h3>
+
+        <p>Survivre sans perdre complètement la face.</p>
+
+        <h3>Craint</h3>
+
+        <p>La pitié davantage que la douleur.</p>
+
+        <h3>Défaut</h3>
+
+        <p>Il minimise sa blessure.</p>
+
+        <h3>Qualité</h3>
+
+        <p>Une fois sauvé, il ne ment pas sur ce qu'il a vu.</p>
+
+        <h3>Dilemme</h3>
+
+        <p>Il peut vouloir la mort de Sarkoth.</p>
+
+        <p>Les PJ ne sont pas obligés d'être d'accord.</p>
+
+        <p>S'ils épargnent l'animal, Hana'zua devra décider si cela représente
+        pour lui :</p>
+
+        <ul>
+
+        <li>une sagesse ;</li>
+
+        <li>une humiliation ;</li>
+
+        <li>une dette.</li>
+
+        </ul>
+
+        <p>Cette réaction peut évoluer en jeu.</p>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067343
+      modifiedTime: 1792435067343
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!2Rtzc1B1BQZUGmzM.ce9a3368861fa73f'
+  - sort: 1900000
+    name: 18 · PNJ — Yarrog Baneshadow
+    type: text
+    _id: 1aa32c49846758bd
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>YARROG BANESHADOW</h2>
+
+        <p><strong>[CANON] Orc démoniste de la Lame ardente ; rôle social
+        [ACQUIS Warbound].</strong></p>
+
+        <h3>Fonction</h3>
+
+        <p>Premier antagoniste pouvant être :</p>
+
+        <blockquote>
+
+        <p><strong>connu avant d'être identifié comme ennemi.</strong></p>
+
+        </blockquote>
+
+        <h3>Apparence publique</h3>
+
+        <ul>
+
+        <li>vêtements de voyage usés ;</li>
+
+        <li>protections simples ;</li>
+
+        <li>attitude calme ;</li>
+
+        <li>rien de démoniaque ostensiblement visible ;</li>
+
+        <li>écoute plus qu'il ne parle.</li>
+
+        </ul>
+
+        <h3>Veut</h3>
+
+        <p>Identifier deux ou trois personnes utiles :</p>
+
+        <ul>
+
+        <li>recrues ;</li>
+
+        <li>informateurs ;</li>
+
+        <li>futurs relais.</li>
+
+        </ul>
+
+        <h3>Ce qui le rend dangereux</h3>
+
+        <p>Il n'invente pas tous les problèmes.</p>
+
+        <p>Il voit quelqu'un d'humilié, frustré ou isolé et lui dit :</p>
+
+        <blockquote>
+
+        <p>« Je comprends. »</p>
+
+        </blockquote>
+
+        <h3>Règle de jeu</h3>
+
+        <p>Yarrog doit rendre <strong>au moins un véritable service</strong>
+        avant que sa couverture ne soit révélée.</p>
+
+        <p>S'il paraît immédiatement coupable, son potentiel est perdu.</p>
+
+        <h3>Entrée possible</h3>
+
+        <p>S'il connaît déjà un PJ :</p>
+
+        <blockquote>
+
+        <p>« Ah. Toi. Ça fait un moment. »</p>
+
+        </blockquote>
+
+        <h3>Questions innocentes</h3>
+
+        <ul>
+
+        <li>« Vous partez où demain ? »</li>
+
+        <li>« Gornek vous a confié quoi ? »</li>
+
+        <li>« Thazz'rill râle encore ? »</li>
+
+        <li>« Zureetha s'intéresse toujours à ces créatures ? »</li>
+
+        </ul>
+
+        <p>Chaque réponse lui apprend quelque chose.</p>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067343
+      modifiedTime: 1792435067343
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!2Rtzc1B1BQZUGmzM.1aa32c49846758bd'
+  - sort: 2000000
+    name: 19 · PNJ — Galgar
+    type: text
+    _id: e8079a0657881af6
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>GALGAR</h2>
+
+        <p><strong>[CANON] lié aux pommes de cactus ; développement
+        [ADAPTATION].</strong></p>
+
+        <h3>Fonction</h3>
+
+        <p>Respiration et vie locale.</p>
+
+        <p>Galgar rappelle que chaque PNJ n'est pas une conspiration.</p>
+
+        <h3>Jeu</h3>
+
+        <p>Il est excessivement fier de ses recettes.</p>
+
+        <p>Il peut lancer des défis inoffensifs sur :</p>
+
+        <ul>
+
+        <li>le choix des pommes ;</li>
+
+        <li>la cueillette ;</li>
+
+        <li>la résistance aux épines ;</li>
+
+        <li>la meilleure cuisson.</li>
+
+        </ul>
+
+        <p>Il peut fournir une rumeur parce que les jeunes viennent manger chez
+        lui.</p>
+
+        <p>Mais parfois :</p>
+
+        <blockquote>
+
+        <p>il veut simplement faire goûter quelque chose aux PJ.</p>
+
+        </blockquote>
+
+        <p>Et c'est très bien.</p>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067343
+      modifiedTime: 1792435067343
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!2Rtzc1B1BQZUGmzM.e8079a0657881af6'
+  - sort: 2100000
+    name: 20 · Sarkoth — Rencontre majeure
+    type: text
+    _id: 5bfa9e64d196fab5
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>7. Rencontre majeure — Sarkoth</h1>
+
+        <p>Sarkoth n'est pas un PNJ social, mais une présence identifiable.</p>
+
+        <h3>Signes</h3>
+
+        <ul>
+
+        <li>énorme dard sombre ;</li>
+
+        <li>carapace balafrée ;</li>
+
+        <li>pince déformée ;</li>
+
+        <li>traces profondes ;</li>
+
+        <li>territoire nettement marqué.</li>
+
+        </ul>
+
+        <h3>Comportement</h3>
+
+        <ul>
+
+        <li>observe ;</li>
+
+        <li>menace ;</li>
+
+        <li>cherche à faire reculer ;</li>
+
+        <li>attaque si l'intrus persiste ;</li>
+
+        <li>peut fuir s'il est gravement blessé.</li>
+
+        </ul>
+
+        <h3>Règle</h3>
+
+        <p>Ne pas le jouer comme un monstre qui attend immobile dans une zone
+        d'aggro.</p>
+
+        <p>Il possède :</p>
+
+        <ul>
+
+        <li>un territoire ;</li>
+
+        <li>des habitudes ;</li>
+
+        <li>une logique animale.</li>
+
+        </ul>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067343
+      modifiedTime: 1792435067343
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!2Rtzc1B1BQZUGmzM.5bfa9e64d196fab5'
+  - sort: 2200000
+    name: 21 · PNJ secondaires
+    type: text
+    _id: 942472105b0499cb
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>8. PNJ secondaires prêts à jouer</h1>
+
+        <p>Tous sont <strong>[ADAPTATION]</strong>.</p>
+
+        <h2>Korga — recrue trop pressée</h2>
+
+        <p>Jeune Orque persuadée que chaque problème est une occasion de prouver
+        sa valeur.</p>
+
+        <p><strong>Veut :</strong> être remarquée par Gornek.<br>
+
+        <strong>Craint :</strong> passer pour ordinaire.<br>
+
+        <strong>Détail :</strong> compte à voix haute les cicatrices qu'elle
+        considère « méritées ».<br>
+
+        <strong>Produit :</strong> défi, rivalité, accident, admiration sincère
+        des PJ.</p>
+
+        <h2>Druk — péon qui connaît tout le monde</h2>
+
+        <p>Il travaille lentement, mais voit tout.</p>
+
+        <p><strong>Veut :</strong> travailler sans se faire hurler dessus.<br>
+
+        <strong>Craint :</strong> être envoyé dans un endroit vraiment
+        dangereux.<br>
+
+        <strong>Détail :</strong> donne un surnom à chaque outil.<br>
+
+        <strong>Produit :</strong> humour, rumeurs, informations de terrain.</p>
+
+        <p>Il n'est pas secrètement un grand espion.</p>
+
+        <h2>Morka — chasseuse en devenir</h2>
+
+        <p>Jeune chasseuse qui observe les bêtes plus qu'elle ne raconte ses
+        exploits.</p>
+
+        <p><strong>Veut :</strong> comprendre Durotar assez bien pour partir
+        seule.<br>
+
+        <strong>Craint :</strong> devoir tuer un animal uniquement pour
+        impressionner quelqu'un.<br>
+
+        <strong>Produit :</strong> contrepoint lors de l'affaire Sarkoth.</p>
+
+        <h2>Grak — admirateur de Yarrog</h2>
+
+        <p>Recrue qui cite souvent Yarrog :</p>
+
+        <blockquote>
+
+        <p>« Yarrog dit que… »</p>
+
+        </blockquote>
+
+        <p><strong>Veut :</strong> être pris au sérieux.<br>
+
+        <strong>Craint :</strong> redevenir quelqu'un que personne n'écoute.</p>
+
+        <p>Il n'est pas encore membre de la Lame ardente.</p>
+
+        <p>Le sauver de Yarrog peut signifier simplement :</p>
+
+        <blockquote>
+
+        <p>lui offrir une autre relation dans laquelle il se sent reconnu.</p>
+
+        </blockquote>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067343
+      modifiedTime: 1792435067343
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!2Rtzc1B1BQZUGmzM.942472105b0499cb'
+  - sort: 2300000
+    name: 22 · Relations entre PNJ
+    type: text
+    _id: 37fe214c2a9b665d
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>9. Relations entre les principaux PNJ</h1>
+
+        <pre><code class="language-text">                         GORNEK
+                          autorité / évaluation
+                          /                 \
+                         /                   \
+                THAZZ'RILL ---------------- ZUREETHA
+                travail / ordre            vigilance
+                     \                       /
+                      \                     /
+                       \                   /
+                         recrues de la Vallée
+                             /         \
+                            /           \
+                        HANA'ZUA       YARROG
+                       prestige        écoute / influence
+                            \           /
+                             \         /
+                               les PJ
+        </code></pre>
+
+        <h3>Gornek ↔ Thazz'rill</h3>
+
+        <p>Ils ont besoin l'un de l'autre.</p>
+
+        <p>Gornek veut des recrues prêtes.<br>
+
+        Thazz'rill veut des bras capables de travailler.</p>
+
+        <p>Ils peuvent se disputer la même main-d'œuvre.</p>
+
+        <h3>Gornek ↔ Zureetha</h3>
+
+        <p>Même but général : protéger la Vallée.</p>
+
+        <p>Différence :</p>
+
+        <ul>
+
+        <li>Gornek veut des preuves avant de bouleverser le camp ;</li>
+
+        <li>Zureetha considère parfois qu'attendre la preuve parfaite laisse le
+        problème s'installer.</li>
+
+        </ul>
+
+        <h3>Thazz'rill ↔ Yarrog</h3>
+
+        <p>Yarrog trouve naturellement des personnes frustrées parmi les
+        travailleurs.</p>
+
+        <p>Thazz'rill peut ne pas voir le danger :</p>
+
+        <blockquote>
+
+        <p>« S'il arrive à les faire travailler, qu'il leur parle autant qu'il
+        veut. »</p>
+
+        </blockquote>
+
+        <h3>Zureetha ↔ Yarrog</h3>
+
+        <p>Au départ, elle cherche une <strong>cause</strong>, pas forcément
+        Yarrog.</p>
+
+        <p>Elle ne doit pas résoudre l'enquête à la place des PJ.</p>
+
+        <h3>Hana'zua ↔ recrues</h3>
+
+        <p>Son accident devient un récit.</p>
+
+        <p>Selon les actions des PJ, il peut être vu comme :</p>
+
+        <ul>
+
+        <li>un avertissement ;</li>
+
+        <li>un héros malchanceux ;</li>
+
+        <li>un imprudent ;</li>
+
+        <li>un survivant respecté.</li>
+
+        </ul>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067343
+      modifiedTime: 1792435067343
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!2Rtzc1B1BQZUGmzM.37fe214c2a9b665d'
+  - sort: 2400000
+    name: 23 · Scènes courtes (d10)
+    type: text
+    _id: 41c34c488be4fc68
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>10. Scènes courtes pour animer la Vallée</h1>
+
+        <p>Utiliser une scène lorsque les PJ traversent la zone ou reviennent à
+        l'Antre.</p>
+
+        <p>Ne pas transformer chaque scène en quête.</p>
+
+        <table>
+
+        <thead>
+
+        <tr>
+
+        <th style="text-align:right">d10</th>
+
+        <th>Scène</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+
+        <td style="text-align:right">1</td>
+
+        <td>Deux recrues se disputent pour savoir laquelle a réellement tué le
+        sanglier dont elles rapportent la défense.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="text-align:right">2</td>
+
+        <td>Un péon dort réellement au travail. Thazz'rill arrive dans quelques
+        secondes.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="text-align:right">3</td>
+
+        <td>Galgar cherche un volontaire pour goûter une recette beaucoup trop
+        épicée.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="text-align:right">4</td>
+
+        <td>Une jeune recrue demande à un PJ comment il a obtenu une
+        cicatrice.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="text-align:right">5</td>
+
+        <td>Zureetha compare les blessures laissées sur deux carcasses
+        différentes.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="text-align:right">6</td>
+
+        <td>Yarrog aide calmement quelqu'un à réparer une sangle et écoute ses
+        problèmes.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="text-align:right">7</td>
+
+        <td>Un scorpide s'est glissé sous un tas de matériel. Personne ne veut
+        mettre la main dessous.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="text-align:right">8</td>
+
+        <td>Un mentor corrige brutalement mais efficacement la posture d'un
+        élève.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="text-align:right">9</td>
+
+        <td>Hana'zua, s'il a survécu, entend quelqu'un raconter une version
+        complètement fausse de son combat contre Sarkoth.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="text-align:right">10</td>
+
+        <td>Un groupe quitte la Vallée pour le reste de Durotar : pendant
+        quelques instants, l'endroit redevient ce qu'il est vraiment, un lieu de
+        départ.</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067343
+      modifiedTime: 1792435067343
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!2Rtzc1B1BQZUGmzM.41c34c488be4fc68'
+  - sort: 2500000
+    name: 24 · Rumeurs (d8)
+    type: text
+    _id: f537bbb4db7d6397
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>11. Rumeurs</h1>
+
+        <p>Toutes les rumeurs ne sont pas exactes.</p>
+
+        <p>Mais aucune ne doit être un mensonge artificiel du MJ uniquement
+        destiné à piéger les joueurs.</p>
+
+        <table>
+
+        <thead>
+
+        <tr>
+
+        <th style="text-align:right">d8</th>
+
+        <th>Rumeur</th>
+
+        <th>Lecture MJ</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+
+        <td style="text-align:right">1</td>
+
+        <td>« Sarkoth a déjà tué trois Orcs. »</td>
+
+        <td>Exagération d'un danger réel.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="text-align:right">2</td>
+
+        <td>« Thazz'rill a perdu sa pioche et accuse tout le monde. »</td>
+
+        <td>Vrai ou presque.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="text-align:right">3</td>
+
+        <td>« Les petites créatures rouges ont peur de certains mots. »</td>
+
+        <td>Piste exploitable.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="text-align:right">4</td>
+
+        <td>« Yarrog connaît quelqu'un à Orgrimmar qui peut trouver du travail à
+        n'importe qui. »</td>
+
+        <td>Mélange de vrai et de manipulation.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="text-align:right">5</td>
+
+        <td>« Hana'zua est allé défier Sarkoth pour impressionner quelqu'un.
+        »</td>
+
+        <td>À décider selon ce qui sert le PJ lié à Sarkoth.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="text-align:right">6</td>
+
+        <td>« Zureetha voit des démons partout. »</td>
+
+        <td>Jugement d'un sceptique.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="text-align:right">7</td>
+
+        <td>« Un péon a vu une lumière verte dans les rochers. »</td>
+
+        <td>Vrai mais incomplet.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="text-align:right">8</td>
+
+        <td>« Gornek se souvient de tous ceux qui mentent dans leur premier
+        rapport. »</td>
+
+        <td>Probablement une légende utile.</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067343
+      modifiedTime: 1792435067343
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!2Rtzc1B1BQZUGmzM.f537bbb4db7d6397'
+  - sort: 2600000
+    name: 25 · Situation 1 — Les péons
+    type: text
+    _id: f123ac6e60b13668
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>12. Situations ouvertes prêtes à jouer</h1>
+
+        <h2>SITUATION 1 — Qui a besoin d'être réveillé ?</h2>
+
+        <p>Trois péons ne travaillent pas.</p>
+
+        <p>Leurs raisons sont différentes :</p>
+
+        <ul>
+
+        <li>l'un est réellement paresseux ;</li>
+
+        <li>l'un a travaillé toute la nuit après un accident ;</li>
+
+        <li>le troisième refuse de retourner près d'une crevasse où il a entendu
+        quelque chose.</li>
+
+        </ul>
+
+        <p>Thazz'rill veut une solution immédiate.</p>
+
+        <h3>Choix</h3>
+
+        <p>Punir tout le monde ?<br>
+
+        Enquêter ?<br>
+
+        Réorganiser le travail ?<br>
+
+        Aller voir la crevasse ?</p>
+
+        <h3>Impact</h3>
+
+        <p>La décision façonne :</p>
+
+        <ul>
+
+        <li>la relation avec Thazz'rill ;</li>
+
+        <li>la manière dont les travailleurs parlent aux PJ ;</li>
+
+        <li>éventuellement une première piste vers les familiers.</li>
+
+        </ul>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067343
+      modifiedTime: 1792435067343
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!2Rtzc1B1BQZUGmzM.f123ac6e60b13668'
+  - sort: 2700000
+    name: 26 · Situation 2 — La meilleure histoire
+    type: text
+    _id: ac5a13a89fa73212
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>SITUATION 2 — La meilleure histoire gagne</h2>
+
+        <p>Deux recrues reviennent avec la même défense de sanglier et deux
+        versions incompatibles de la chasse.</p>
+
+        <p>Gornek refuse de trancher :</p>
+
+        <blockquote>
+
+        <p>« Vous étiez dehors. Pas moi. Réglez ça. »</p>
+
+        </blockquote>
+
+        <h3>Vérité</h3>
+
+        <p>Les deux ont contribué.</p>
+
+        <p>L'une a porté le coup final.</p>
+
+        <p>L'autre a empêché le sanglier de tuer son camarade.</p>
+
+        <h3>Choix</h3>
+
+        <p>Qui mérite le crédit ?</p>
+
+        <p>Ou faut-il refuser le principe même du « seul vainqueur » ?</p>
+
+        <h3>Impact</h3>
+
+        <p>Les recrues observent comment les PJ définissent :</p>
+
+        <blockquote>
+
+        <p><strong>l'honneur.</strong></p>
+
+        </blockquote>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067343
+      modifiedTime: 1792435067343
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!2Rtzc1B1BQZUGmzM.ac5a13a89fa73212'
+  - sort: 2800000
+    name: 27 · Situation 3 — Hana’zua et Sarkoth
+    type: text
+    _id: 1453818dcfffd4b5
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>SITUATION 3 — Hana'zua et Sarkoth</h2>
+
+        <p>Utiliser la fiche détaillée de Sarkoth.</p>
+
+        <h3>Nœud</h3>
+
+        <p>Hana'zua est en danger.</p>
+
+        <p>Sarkoth représente un enjeu personnel pour un PJ.</p>
+
+        <p>Deux recrues peuvent également vouloir intervenir pour gagner du
+        prestige.</p>
+
+        <h3>Choix</h3>
+
+        <ul>
+
+        <li>tuer ;</li>
+
+        <li>sauver ;</li>
+
+        <li>contenir ;</li>
+
+        <li>observer ;</li>
+
+        <li>détourner ;</li>
+
+        <li>laisser les autres agir.</li>
+
+        </ul>
+
+        <h3>Impact</h3>
+
+        <p>Modifier au moins :</p>
+
+        <ul>
+
+        <li>un lien personnel ;</li>
+
+        <li>la réputation des PJ ;</li>
+
+        <li>l'état du plateau.</li>
+
+        </ul>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067343
+      modifiedTime: 1792435067343
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!2Rtzc1B1BQZUGmzM.1453818dcfffd4b5'
+  - sort: 2900000
+    name: 28 · Situation 4 — Le familier qui fuit
+    type: text
+    _id: 8fee0f1e91db0157
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>SITUATION 4 — Le familier qui fuit</h2>
+
+        <p>Un vil familier est surpris près de l'Antre.</p>
+
+        <p>S'il est attaqué, il tente de fuir.</p>
+
+        <h3>Choix</h3>
+
+        <p><strong>Le tuer :</strong> danger supprimé.</p>
+
+        <p><strong>Le suivre :</strong> danger encore actif, mais piste
+        nouvelle.</p>
+
+        <p><strong>Le capturer :</strong> Zureetha peut l'étudier.</p>
+
+        <h3>Impact</h3>
+
+        <p>La manière d'agir détermine combien de temps Yarrog dispose pour
+        comprendre qu'on se rapproche de lui.</p>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067343
+      modifiedTime: 1792435067343
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!2Rtzc1B1BQZUGmzM.8fee0f1e91db0157'
+  - sort: 3000000
+    name: 29 · Situation 5 — Yarrog rend service
+    type: text
+    _id: ba53bbc21cb5e80a
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>SITUATION 5 — Yarrog rend service</h2>
+
+        <p>Avant toute révélation, Yarrog aide réellement les PJ ou quelqu'un
+        qu'ils apprécient.</p>
+
+        <p>Exemples :</p>
+
+        <ul>
+
+        <li>conseil sur une piste ;</li>
+
+        <li>remède simple contre une brûlure ;</li>
+
+        <li>intervention contre une créature ;</li>
+
+        <li>recommandation auprès d'un artisan ;</li>
+
+        <li>défense d'une recrue injustement humiliée.</li>
+
+        </ul>
+
+        <h3>Règle</h3>
+
+        <p>Le service doit être <strong>réel</strong>.</p>
+
+        <p>Yarrog n'a pas organisé le problème.</p>
+
+        <h3>Impact</h3>
+
+        <p>Quand la vérité apparaîtra, les joueurs ne pourront pas réduire toute
+        la relation à :</p>
+
+        <blockquote>
+
+        <p>« Tout était faux. »</p>
+
+        </blockquote>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067343
+      modifiedTime: 1792435067343
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!2Rtzc1B1BQZUGmzM.ba53bbc21cb5e80a'
+  - sort: 3100000
+    name: 30 · Évolutions sans les PJ
+    type: text
+    _id: 2d899d4e15eb4df0
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>13. Faire évoluer la Vallée sans les PJ</h1>
+
+        <p>L'inaction n'est pas automatiquement une punition.</p>
+
+        <p>Mais les autres personnages continuent d'agir.</p>
+
+        <p>Après une excursion importante, faire évoluer <strong>une ou deux
+        situations maximum</strong>.</p>
+
+        <h3>Si les PJ ignorent Sarkoth</h3>
+
+        <ul>
+
+        <li>Hana'zua se dégrade ;</li>
+
+        <li>d'autres recrues peuvent tenter leur chance ;</li>
+
+        <li>Sarkoth reste territorial.</li>
+
+        </ul>
+
+        <h3>Si les PJ ignorent les tensions des péons</h3>
+
+        <ul>
+
+        <li>Thazz'rill durcit temporairement la discipline ;</li>
+
+        <li>certains travailleurs accélèrent ;</li>
+
+        <li>d'autres cessent de lui signaler leurs problèmes.</li>
+
+        </ul>
+
+        <h3>Si les PJ ignorent les familiers</h3>
+
+        <ul>
+
+        <li>Zureetha enquête par ses propres moyens ;</li>
+
+        <li>une nouvelle apparition confirme que le phénomène n'est pas
+        accidentel.</li>
+
+        </ul>
+
+        <h3>Si les PJ ignorent Yarrog</h3>
+
+        <p>Yarrog choisit une personne et avance d'une seule étape :</p>
+
+        <ul>
+
+        <li>gagne sa confiance ;</li>
+
+        <li>demande un service ;</li>
+
+        <li>obtient une information ;</li>
+
+        <li>l'amène éventuellement au Cénacle.</li>
+
+        </ul>
+
+        <p>Ne pas tout faire d'un coup.</p>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067343
+      modifiedTime: 1792435067343
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!2Rtzc1B1BQZUGmzM.2d899d4e15eb4df0'
+  - sort: 3200000
+    name: 31 · Matrice d’impact
+    type: text
+    _id: c0faa2cfc47b0af7
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>14. Matrice d'impact</h1>
+
+        <p>Le but n'est pas d'ajouter une jauge de réputation.</p>
+
+        <p>La question est :</p>
+
+        <blockquote>
+
+        <p><strong>Qu'est-ce qui sera différent quand les PJ reviendront
+        ?</strong></p>
+
+        </blockquote>
+
+        <table>
+
+        <thead>
+
+        <tr>
+
+        <th>Décision</th>
+
+        <th>Effet immédiat</th>
+
+        <th>Effet visible plus tard</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+
+        <td>Soutenir durement Thazz'rill</td>
+
+        <td>chantier discipliné</td>
+
+        <td>les péons parlent moins spontanément aux PJ</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Défendre les péons</td>
+
+        <td>reconnaissance des travailleurs</td>
+
+        <td>Thazz'rill exige que leur méthode prouve son efficacité</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Tuer Sarkoth</td>
+
+        <td>prestige</td>
+
+        <td>plateau libéré, nouvelle faune ou nouveaux chasseurs</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Épargner Sarkoth</td>
+
+        <td>débat</td>
+
+        <td>certains admirent les PJ, d'autres les trouvent trop tendres</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Sauver Hana'zua</td>
+
+        <td>dette</td>
+
+        <td>Hana'zua devient allié ou rival selon sa manière de vivre
+        l'affaire</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Suivre un familier</td>
+
+        <td>piste vers la source</td>
+
+        <td>Yarrog peut comprendre qu'il est surveillé</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Accuser Yarrog trop tôt</td>
+
+        <td>agitation</td>
+
+        <td>il réduit son exposition et exploite le doute</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Capturer Yarrog</td>
+
+        <td>preuve + prisonnier</td>
+
+        <td>réseau perturbé mais pas détruit</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Tuer Yarrog</td>
+
+        <td>menace immédiate supprimée</td>
+
+        <td>informations perdues, réseau survivant plus difficile à lire</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Démasquer Yarrog avec preuves</td>
+
+        <td>crise de confiance</td>
+
+        <td>les recrues réévaluent leurs relations et certains contacts
+        disparaissent</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067343
+      modifiedTime: 1792435067343
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!2Rtzc1B1BQZUGmzM.c0faa2cfc47b0af7'
+  - sort: 3300000
+    name: 32 · Mémoire de la zone
+    type: text
+    _id: e1169c0a0576285e
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>15. Mémoire de la zone</h1>
+
+        <p>Après chaque séance dans la Vallée, ajouter une petite section :</p>
+
+        <h2>ÉTABLI EN JEU</h2>
+
+        <h3>Personnes</h3>
+
+        <ul>
+
+        <li>Qui apprécie les PJ ?</li>
+
+        <li>Qui leur en veut ?</li>
+
+        <li>Qui leur doit quelque chose ?</li>
+
+        <li>Qui les prend comme exemple ?</li>
+
+        </ul>
+
+        <h3>Lieux</h3>
+
+        <ul>
+
+        <li>Sarkoth est-il encore vivant ?</li>
+
+        <li>Le plateau est-il toujours dangereux ?</li>
+
+        <li>Le Repaire est-il secret, surveillé, abandonné ou contrôlé ?</li>
+
+        <li>Le chantier a-t-il changé ?</li>
+
+        </ul>
+
+        <h3>Informations</h3>
+
+        <ul>
+
+        <li>Que savent les PJ sur Yarrog ?</li>
+
+        <li>Que sait Yarrog sur les PJ ?</li>
+
+        <li>Zureetha dispose-t-elle de preuves ?</li>
+
+        <li>Gornek considère-t-il les PJ comme fiables ?</li>
+
+        </ul>
+
+        <h3>Une conséquence visible au prochain passage</h3>
+
+        <p>Écrire <strong>une seule phrase</strong>.</p>
+
+        <p>Exemples :</p>
+
+        <blockquote>
+
+        <p>« Deux recrues imitent désormais la manière de combattre du guerrier
+        PJ. »</p>
+
+        </blockquote>
+
+        <blockquote>
+
+        <p>« Les péons cessent de parler quand les PJ arrivent. »</p>
+
+        </blockquote>
+
+        <blockquote>
+
+        <p>« Une griffe de Sarkoth est accrochée près de l'Antre. »</p>
+
+        </blockquote>
+
+        <blockquote>
+
+        <p>« Yarrog n'est plus visible depuis deux jours. »</p>
+
+        </blockquote>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067343
+      modifiedTime: 1792435067343
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!2Rtzc1B1BQZUGmzM.e1169c0a0576285e'
+  - sort: 3400000
+    name: 33 · Introductions de classe
+    type: text
+    _id: 16c0cb9b320ba5fe
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>16. Introductions de classe</h1>
+
+        <p>Les quêtes Classic de tablette et de parchemin doivent rester de
+        <strong>petites scènes de personnage</strong>, pas devenir des aventures
+        autonomes.</p>
+
+        <h3>Usage</h3>
+
+        <p>Quand un PJ rencontre un mentor :</p>
+
+        <ul>
+
+        <li>donner un conseil concret ;</li>
+
+        <li>poser une question sur ce qu'il veut devenir ;</li>
+
+        <li>introduire un détail de tradition ;</li>
+
+        <li>éventuellement lancer un micro-défi de quelques minutes.</li>
+
+        </ul>
+
+        <h3>Mentors présents dans le matériau Classic</h3>
+
+        <p>Selon la race et la classe :</p>
+
+        <ul>
+
+        <li><strong>Jen'shan</strong> ;</li>
+
+        <li><strong>Rwag</strong> ;</li>
+
+        <li><strong>Shikrik</strong> ;</li>
+
+        <li><strong>Nartok</strong> ;</li>
+
+        <li><strong>Mai'ah</strong> ;</li>
+
+        <li><strong>Ken'jai</strong>.</li>
+
+        </ul>
+
+        <p>Ne pas forcer une scène pour chaque personnage.</p>
+
+        <p>Utiliser seulement celles qui donnent du relief au PJ.</p>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067343
+      modifiedTime: 1792435067343
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!2Rtzc1B1BQZUGmzM.16c0cb9b320ba5fe'
+  - sort: 3500000
+    name: 34 · Trois registres de jeu
+    type: text
+    _id: cd377d402646c700
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: |-
+        <h1>17. Trois registres à alterner</h1>
+        <h2>Vie</h2>
+        <ul>
+        <li>Galgar ;</li>
+        <li>entraînement ;</li>
+        <li>cuisine ;</li>
+        <li>paris ;</li>
+        <li>rivalités ;</li>
+        <li>départs vers le reste de Durotar.</li>
+        </ul>
+        <h2>Danger</h2>
+        <ul>
+        <li>sangliers ;</li>
+        <li>scorpides ;</li>
+        <li>Sarkoth ;</li>
+        <li>accidents ;</li>
+        <li>terrain.</li>
+        </ul>
+        <h2>Ombre</h2>
+        <ul>
+        <li>familiers ;</li>
+        <li>questions de Zureetha ;</li>
+        <li>influence de Yarrog ;</li>
+        <li>Repaire.</li>
+        </ul>
+        <h3>Règle</h3>
+        <p>Ne jamais enchaîner systématiquement :</p>
+        <blockquote>
+        <p>vie → indice démoniaque<br>
+        animal → indice démoniaque<br>
+        péon → indice démoniaque<br>
+        dispute → indice démoniaque.</p>
+        </blockquote>
+        <p>La Lame ardente est une menace réelle.</p>
+        <p>Elle n'est pas l'explication de toute la Vallée.</p>
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067343
+      modifiedTime: 1792435067343
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!2Rtzc1B1BQZUGmzM.cd377d402646c700'
+  - sort: 3600000
+    name: 35 · Préparation de séance
+    type: text
+    _id: c40724f4f15063dd
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>18. Préparation minimale avant la séance</h1>
+
+        <p>Avant que les PJ entrent dans la Vallée, décider seulement :</p>
+
+        <ol>
+
+        <li>
+
+        <p><strong>Quel PJ est lié à Sarkoth ?</strong><br>
+
+        Choisir le lien dans sa fiche dédiée.</p>
+
+        </li>
+
+        <li>
+
+        <p><strong>Quel PJ possède un lien avec Yarrog ?</strong><br>
+
+        Même léger.</p>
+
+        </li>
+
+        <li>
+
+        <p><strong>Quelle recrue ou quel péon les joueurs peuvent-ils rapidement
+        apprécier ?</strong><br>
+
+        Korga, Druk, Morka, Grak ou une création liée à leurs historiques.</p>
+
+        </li>
+
+        <li>
+
+        <p><strong>Quelle tension est déjà visible ?</strong><br>
+
+        Épreuve / péons / Sarkoth / familiers / Yarrog.</p>
+
+        </li>
+
+        <li>
+
+        <p><strong>Que se passera-t-il si les PJ ne s'en mêlent pas
+        ?</strong><br>
+
+        Une phrase suffit.</p>
+
+        </li>
+
+        </ol>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067343
+      modifiedTime: 1792435067343
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!2Rtzc1B1BQZUGmzM.c40724f4f15063dd'
+  - sort: 3700000
+    name: 36 · Première heure de jeu
+    type: text
+    _id: 87d2a86429febfdd
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>19. Exemple de première heure de jeu</h1>
+
+        <p>Cet exemple n'est <strong>pas un scénario obligatoire</strong>.</p>
+
+        <h3>Arrivée</h3>
+
+        <p>Les PJ découvrent l'Antre en activité.</p>
+
+        <p>Thazz'rill hurle sur un péon.</p>
+
+        <p>Deux recrues se disputent pour une histoire de sanglier.</p>
+
+        <p>Yarrog discute tranquillement avec quelqu'un en réparant une
+        sangle.</p>
+
+        <h3>Contact</h3>
+
+        <p>Gornek accueille les PJ et demande :</p>
+
+        <blockquote>
+
+        <p>« Vous savez pourquoi vous êtes ici ? »</p>
+
+        </blockquote>
+
+        <p>Il écoute leurs réponses.</p>
+
+        <p>Il ne leur donne pas quatre quêtes.</p>
+
+        <h3>Mouvement</h3>
+
+        <p>Les PJ choisissent ce qui les attire :</p>
+
+        <ul>
+
+        <li>parler aux recrues ;</li>
+
+        <li>aider le péon ;</li>
+
+        <li>chercher leur mentor ;</li>
+
+        <li>parler à Yarrog ;</li>
+
+        <li>quitter l'Antre ;</li>
+
+        <li>demander où trouver à manger.</li>
+
+        </ul>
+
+        <h3>Première conséquence</h3>
+
+        <p>Quel que soit leur choix, <strong>quelqu'un se souvient
+        d'eux</strong>.</p>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067343
+      modifiedTime: 1792435067343
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!2Rtzc1B1BQZUGmzM.87d2a86429febfdd'
+  - sort: 3800000
+    name: 37 · Départ et retours ultérieurs
+    type: text
+    _id: cba93a07d5e4ceaf
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>20. Sortir de la Vallée</h1>
+
+        <p>La Vallée n'est pas destinée à devenir le hub permanent de la
+        saison.</p>
+
+        <p>Son rôle est de donner aux PJ :</p>
+
+        <ul>
+
+        <li>des premières relations ;</li>
+
+        <li>une première réputation ;</li>
+
+        <li>une histoire personnelle ;</li>
+
+        <li>une perception de la jeune Horde ;</li>
+
+        <li>éventuellement une première menace non résolue.</li>
+
+        </ul>
+
+        <p>Ils peuvent emporter :</p>
+
+        <ul>
+
+        <li>la dette de Hana'zua ;</li>
+
+        <li>le respect ou la rancune de Thazz'rill ;</li>
+
+        <li>la confiance de Gornek ;</li>
+
+        <li>un contact avec Zureetha ;</li>
+
+        <li>un lien ambigu avec Yarrog ;</li>
+
+        <li>une réputation liée à Sarkoth ;</li>
+
+        <li>une piste vers la Lame ardente.</li>
+
+        </ul>
+
+        <p>Tous ces fils n'ont pas besoin d'être résolus avant le départ.</p>
+
+        <blockquote>
+
+        <p><strong>Un bon lieu de campagne continue d'exister après que les PJ
+        l'ont quitté.</strong></p>
+
+        </blockquote>
+
+        <hr>
+
+        <h1>21. Retour ultérieur</h1>
+
+        <p>Si les PJ reviennent plus tard, ne présenter jamais exactement la
+        même Vallée.</p>
+
+        <p>Choisir :</p>
+
+        <ol>
+
+        <li><strong>une conséquence de leur passage</strong> ;</li>
+
+        <li><strong>une évolution indépendante</strong> ;</li>
+
+        <li><strong>une personne connue</strong>.</li>
+
+        </ol>
+
+        <h3>Exemples</h3>
+
+        <p><strong>Sarkoth mort :</strong> des chasseurs utilisent désormais le
+        plateau comme terrain d'épreuve.</p>
+
+        <p><strong>Sarkoth vivant :</strong> on raconte que les PJ sont « ceux
+        qui ont laissé le vieux scorpide en vie ».</p>
+
+        <p><strong>Thazz'rill allié :</strong> il leur réserve un coin sec et du
+        matériel.</p>
+
+        <p><strong>Thazz'rill hostile :</strong></p>
+
+        <blockquote>
+
+        <p>« J'ai du travail. Vous aussi, sûrement. »</p>
+
+        </blockquote>
+
+        <p><strong>Yarrog échappé :</strong> une recrue a disparu.</p>
+
+        <p><strong>Yarrog capturé :</strong> certains refusent encore de croire
+        qu'il appartenait à la Lame ardente.</p>
+
+        <p><strong>Repaire repris :</strong> la Horde utilise la sortie haute
+        comme poste d'observation.</p>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067343
+      modifiedTime: 1792435067343
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!2Rtzc1B1BQZUGmzM.cba93a07d5e4ceaf'
+  - sort: 3900000
+    name: 38 · Checklist et synthèse MJ
+    type: text
+    _id: 605839b1e525afac
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>22. Checklist MJ</h1>
+
+        <p>Avant la séance :</p>
+
+        <ul>
+
+        <li>☐ au moins deux PNJ veulent quelque chose maintenant ;</li>
+
+        <li>☐ aucun conflit n'attend passivement l'activation d'une quête ;</li>
+
+        <li>☐ les PJ peuvent parler, contourner, aider, combattre ou refuser
+        ;</li>
+
+        <li>☐ Sarkoth reste indépendant de la Lame ardente ;</li>
+
+        <li>☐ Yarrog n'est pas immédiatement caricatural ;</li>
+
+        <li>☐ au moins une scène ne contient aucun danger caché ;</li>
+
+        <li>☐ une décision peut modifier une relation ou un lieu ;</li>
+
+        <li>☐ une situation ignorée possède une évolution plausible ;</li>
+
+        <li>☐ aucune révélation essentielle ne dépend d'un seul jet ;</li>
+
+        <li>☐ la Vallée reste reconnaissable comme Warcraft ;</li>
+
+        <li>☐ les souvenirs du MMO ne donnent pas automatiquement la
+        solution.</li>
+
+        </ul>
+
+        <hr>
+
+        <h1>23. Résumé opérationnel</h1>
+
+        <h3>Quand les PJ arrivent</h3>
+
+        <p>Montrer :</p>
+
+        <ul>
+
+        <li><strong>Gornek</strong> : « Trouvez votre place. »</li>
+
+        <li><strong>Thazz'rill</strong> : « Il faut bâtir. »</li>
+
+        <li><strong>Hana'zua / Sarkoth</strong> : « Prouver sa valeur peut
+        coûter cher. »</li>
+
+        <li><strong>Zureetha</strong> : « Quelque chose d'anormal est ici.
+        »</li>
+
+        <li><strong>Yarrog</strong> : « Je peux t'écouter. »</li>
+
+        </ul>
+
+        <h3>Les choix peuvent changer</h3>
+
+        <ul>
+
+        <li>qui leur fait confiance ;</li>
+
+        <li>qui les admire ;</li>
+
+        <li>qui leur en veut ;</li>
+
+        <li>l'état d'un lieu ;</li>
+
+        <li>la survie d'un PNJ ;</li>
+
+        <li>la présence de Sarkoth ;</li>
+
+        <li>la couverture de Yarrog ;</li>
+
+        <li>les informations disponibles plus tard.</li>
+
+        </ul>
+
+        <h3>Payoff</h3>
+
+        <p>Les joueurs doivent quitter la Vallée avec l'impression :</p>
+
+        <blockquote>
+
+        <p><strong>« Nous n'avons pas seulement terminé une zone de départ. Nous
+        avons déjà commencé à laisser une trace dans la Horde. »</strong></p>
+
+        </blockquote>
+
+        <hr>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067343
+      modifiedTime: 1792435067343
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!2Rtzc1B1BQZUGmzM.605839b1e525afac'
+  - sort: 4000000
+    name: 39 · Sources internes
+    type: text
+    _id: 09f4cf00299d731a
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>24. Sources internes utilisées</h1>
+
+        <ul>
+
+        <li><code>Au_Nom_de_la_Horde_S1_Charte_de_direction_narrative.md</code>
+        — liberté des PJ, conséquences, diversité, monde vivant.</li>
+
+        <li><code>Durotar_Quetes_WoW_adaptees_Champions_of_Azeroth(1).md</code>
+        — quêtes Classic de la Vallée fusionnées en situations de JdR.</li>
+
+        <li><code>deep-research-report(2).md</code> — inventaire des quêtes et
+        PNJ de la Vallée.</li>
+
+        <li><code>Sarkoth_Warbound(1).md</code> — traitement territorial et
+        personnel de Sarkoth.</li>
+
+        <li><code>Yarrog_Baneshadow_Warbound(2).md</code> — Yarrog comme
+        recruteur, observateur et manipulateur.</li>
+
+        <li><code>Repaire_de_la_Lame_Ardente_Warbound(1).md</code> et version 5
+        salles — fonctionnement du Repaire.</li>
+
+        <li><code>Concevoir des factions RPG.txt</code> — acteurs actifs,
+        désirs, contraintes et conséquences.</li>
+
+        <li><code>COF2_45-Imaginarium_v0.pdf</code> — principes de PNJ
+        mémorables et de mondes vivants.</li>
+
+        </ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067343
+      modifiedTime: 1792435067343
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!2Rtzc1B1BQZUGmzM.09f4cf00299d731a'
+folder: 8Y36mqs2XUEJZEcW
+categories: []
+sort: 500000
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792435067343
+  modifiedTime: 1792435067343
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!2Rtzc1B1BQZUGmzM'

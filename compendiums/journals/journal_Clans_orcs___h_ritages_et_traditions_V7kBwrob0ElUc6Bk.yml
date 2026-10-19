@@ -1,0 +1,1093 @@
+folder: ZllJcfY2lGCvQAap
+name: 'Clans orcs : héritages et traditions'
+flags:
+  campaign-codex:
+    type: ''
+  core:
+    sheetClass: ''
+_id: V7kBwrob0ElUc6Bk
+pages:
+  - _id: EoeATHdsKruBpENY
+    name: Clans orcs
+    type: text
+    category: null
+    text:
+      content: >-
+        <h1>Héritages et traditions</h1><p><strong>Document de lore joueur —
+        Warbound : Au Nom de la Horde</strong></p><p>Les Orcs de la Nouvelle
+        Horde ne forment pas un peuple sans passé. Derrière la bannière de
+        Thrall subsistent les noms, les souvenirs, les coutumes et les blessures
+        des anciens clans de Draenor.</p><blockquote><p><strong>Dans Warbound,
+        le clan est un héritage culturel et familial, pas une sous-race ni une
+        classe.</strong></p></blockquote><p>Un clan peut avoir façonné
+        l'éducation d'un personnage, sa manière de parler d'honneur, sa relation
+        aux chamans, sa vision de la guerre ou les attentes que d'autres Orcs
+        projettent sur lui. Il ne dicte cependant ni sa personnalité ni ses
+        choix.</p><h2>Cadre utilisé</h2><ul><li><p><strong>Période de référence
+        :</strong> ambiance <em>World of Warcraft Classic / Vanilla</em>, avant
+        le Cataclysme.</p></li><li><p><strong>Principe :</strong> les
+        informations visibles dans le WoW original et les héritages établis
+        avant ou autour de cette période sont
+        prioritaires.</p></li><li><p><strong>Prudence :</strong> des extensions
+        ultérieures ont énormément développé les cultures claniques. Ces détails
+        ne sont pas automatiquement rétro-injectés dans
+        Warbound.</p></li><li><p><strong>Jeu :</strong> aucun clan ne donne, par
+        lui-même, de bonus mécanique.</p></li></ul><h2>Question
+        centrale</h2><p>Ne demandez pas seulement : <em>« De quel clan suis-je ?
+        »</em> Demandez surtout : <strong>« Qu'est-ce que mon clan m'a appris —
+        et qu'ai-je décidé d'en faire ? »</strong></p>
+      format: 1
+    title:
+      show: false
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 100000
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435072899
+      modifiedTime: 1792435072899
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!V7kBwrob0ElUc6Bk.EoeATHdsKruBpENY'
+  - _id: UyzXYgAoGfz1R0SC
+    name: La Nouvelle Horde et les clans
+    type: text
+    category: null
+    text:
+      content: >-
+        <h1>La Nouvelle Horde et les clans</h1>
+
+        <p>L'ancienne Horde avait été construite à partir de clans distincts,
+        chacun avec ses chefs, ses territoires, ses rivalités et ses traditions.
+        Après la défaite de la Deuxième Guerre, nombre d'Orcs restés sur Azeroth
+        furent enfermés dans des camps d'internement. Des années plus tard,
+        Thrall libéra ces captifs et rassembla plusieurs lignées sous une même
+        bannière.</p>
+
+        <p>La Nouvelle Horde ne supprime donc pas nécessairement l'identité
+        clanique. Elle lui superpose une loyauté plus large : <strong>être
+        Frostwolf, Warsong ou Blackrock n'empêche pas d'être d'abord membre de
+        la Horde de Thrall.</strong></p>
+
+        <h2>Ce que signifie « appartenir à un clan » dans Warbound</h2>
+
+        <table>
+
+        <thead><tr><th>Le clan peut influencer…</th><th>Mais il ne détermine
+        pas…</th></tr></thead>
+
+        <tbody>
+
+        <tr><td>les récits racontés pendant l'enfance</td><td>l'alignement moral
+        du personnage</td></tr>
+
+        <tr><td>les modèles héroïques ou honteux</td><td>sa classe</td></tr>
+
+        <tr><td>la façon d'envisager force, honneur et communauté</td><td>son
+        tempérament</td></tr>
+
+        <tr><td>certaines relations avec d'autres Orcs</td><td>son opinion sur
+        tous les membres d'un autre clan</td></tr>
+
+        <tr><td>des coutumes familiales ou militaires</td><td>une obligation de
+        rester fidèle à ces coutumes</td></tr>
+
+        </tbody>
+
+        </table>
+
+        <h2>Une génération de transition</h2>
+
+        <p>Pour beaucoup d'Orcs de Durotar, le passé clanique est vécu à travers
+        des parents, des vétérans, des récits de guerre et des traditions
+        fragmentaires. Certains ont connu Draenor. D'autres sont nés sur
+        Azeroth. Les plus jeunes peuvent connaître davantage Orgrimmar, Razor
+        Hill et les idéaux de Thrall que les terres ancestrales de leur
+        clan.</p>
+
+        <p>Cela autorise des identités multiples : <strong>Orc de Durotar,
+        membre de la Horde, héritier d'un clan</strong> — parfois dans cet
+        ordre.</p>
+      format: 1
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 200000
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435072899
+      modifiedTime: 1792435072899
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!V7kBwrob0ElUc6Bk.UyzXYgAoGfz1R0SC'
+  - _id: 9fBw7kOQtD2vQpnc
+    name: Frostwolf — Loup-de-givre
+    type: text
+    category: null
+    text:
+      content: >-
+        <h1>Frostwolf — Loup-de-givre</h1>
+
+        <p><strong>Figures de référence :</strong> Durotan, Thrall, Drek'Thar,
+        Nazgrel.</p>
+
+        <p><strong>Situation à l'époque de Classic :</strong> le clan
+        Loup-de-givre reste une identité vivante. Drek'Thar dirige les Frostwolf
+        de la vallée d'Alterac, tandis que Thrall et Nazgrel illustrent
+        directement l'influence de cet héritage sur la Nouvelle Horde.</p>
+
+        <h2>Héritage culturel</h2>
+
+        <p>Le socle le plus sûr pour Warbound est celui d'un clan associé au
+        <strong>chamanisme, à la communauté, au respect de la famille et à une
+        relation étroite avec les loups</strong>. Thrall y retrouve les
+        anciennes traditions spirituelles de son peuple sous l'enseignement de
+        Drek'Thar.</p>
+
+        <p>Dans une campagne Classic, le Frostwolf n'est pas « le clan gentil ».
+        Son identité met plutôt l'accent sur une idée : <strong>la force doit
+        servir le peuple au lieu de l'asservir</strong>.</p>
+
+        <h2>Ce qu'un enfant Frostwolf pourrait avoir appris</h2>
+
+        <ul>
+
+        <li>La puissance d'un guerrier n'a de sens que si elle protège les
+        siens.</li>
+
+        <li>Les anciens et les chamans méritent d'être écoutés, même lorsqu'on
+        décide finalement d'agir autrement.</li>
+
+        <li>Un loup est un partenaire et un symbole de la communauté, pas
+        seulement une monture.</li>
+
+        <li>La corruption démoniaque fait partie de l'histoire orque : elle ne
+        doit jamais être traitée comme une abstraction lointaine.</li>
+
+        </ul>
+
+        <h2>Tensions possibles</h2>
+
+        <ul>
+
+        <li>Admiration pour la fougue Warsong, mais crainte qu'elle ne
+        redevienne incontrôlable.</li>
+
+        <li>Méfiance envers les traditions liées aux démonistes et aux anciens
+        serviteurs de la Légion.</li>
+
+        <li>Difficulté à concilier spiritualité et construction rapide d'une
+        nouvelle nation à Durotar.</li>
+
+        </ul>
+
+        <blockquote><p><strong>Piste de personnage :</strong> « On m'a appris
+        que la rage est une force. On m'a aussi appris que celui qui ne la
+        maîtrise pas finit par lui appartenir. »</p></blockquote>
+
+        <p><em>Note de période :</em> de nombreux rites Frostwolf très détaillés
+        ont été développés dans des œuvres et extensions postérieures. Warbound
+        n'en fait pas automatiquement des traditions connues à l'époque de
+        Classic.</p>
+      format: 1
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 300000
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435072899
+      modifiedTime: 1792435072899
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!V7kBwrob0ElUc6Bk.9fBw7kOQtD2vQpnc'
+  - _id: L0humuUjv5k4GQ7a
+    name: Warsong — Chanteguerre
+    type: text
+    category: null
+    text:
+      content: >-
+        <h1>Warsong — Chanteguerre</h1>
+
+        <p><strong>Figure de référence :</strong> Grom Hellscream.</p>
+
+        <p><strong>Situation à l'époque de Classic :</strong> le clan
+        Chanteguerre reste fortement identifiable. Ses cavaliers et combattants
+        sont engagés en Ashenvale et dans le goulet des Chanteguerres face aux
+        Sentinelles d'Aile-argent.</p>
+
+        <h2>Héritage culturel</h2>
+
+        <p>Le Warsong est l'un des grands héritages martiaux des Orcs. Le clan
+        est associé à la <strong>fierté guerrière, à l'audace, aux cris et
+        chants de bataille, à la mobilité et au refus de la
+        soumission</strong>.</p>
+
+        <p>Son histoire contient pourtant une contradiction essentielle. Grom
+        incarne à la fois la résistance farouche, la rechute dans la corruption
+        démoniaque et le sacrifice qui contribue à libérer les Orcs de l'emprise
+        de Mannoroth.</p>
+
+        <h2>Ce qu'un enfant Warsong pourrait avoir appris</h2>
+
+        <ul>
+
+        <li>La peur n'est pas une raison suffisante pour reculer.</li>
+
+        <li>Une victoire doit être arrachée, pas attendue.</li>
+
+        <li>La réputation d'un guerrier se construit par les actes.</li>
+
+        <li>L'histoire de Grom peut être racontée comme une gloire, un
+        avertissement — ou les deux à la fois.</li>
+
+        </ul>
+
+        <h2>Tensions possibles</h2>
+
+        <ul>
+
+        <li>La guerre d'Ashenvale rend les rapports avec les Elfes de la nuit
+        particulièrement lourds.</li>
+
+        <li>Les Warsong peuvent trouver certains Frostwolf trop prudents ; les
+        Frostwolf peuvent juger les Warsong trop prompts à transformer un
+        conflit en épreuve de force.</li>
+
+        <li>Un héritier Warsong peut adorer Grom sans souhaiter répéter ses
+        erreurs.</li>
+
+        </ul>
+
+        <blockquote><p><strong>Piste de personnage :</strong> « Lok'tar ogar
+        n'est pas une invitation à mourir stupidement. C'est le refus de vivre à
+        genoux. »</p></blockquote>
+      format: 1
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 400000
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435072899
+      modifiedTime: 1792435072899
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!V7kBwrob0ElUc6Bk.L0humuUjv5k4GQ7a'
+  - _id: H8s5JVT9Yre6LbkH
+    name: Blackrock — Rochenoire
+    type: text
+    category: null
+    text:
+      content: >-
+        <h1>Blackrock — Rochenoire</h1>
+
+        <p><strong>Figures de référence :</strong> Blackhand, Orgrim Doomhammer,
+        Eitrigg, Rend Blackhand.</p>
+
+        <p><strong>Situation à l'époque de Classic :</strong> l'identité
+        Blackrock est profondément divisée. Des Orcs issus du clan ont rejoint
+        la Nouvelle Horde après leur libération, tandis que Rend Blackhand et
+        ses partisans constituent encore une puissance hostile à Blackrock
+        Spire.</p>
+
+        <h2>Héritage culturel</h2>
+
+        <p>Les Blackrock sont associés à une <strong>forte discipline militaire,
+        à l'organisation, aux mines et à la forge</strong>. Le clan a fourni
+        plusieurs figures majeures de l'ancienne Horde, dont Blackhand et Orgrim
+        Doomhammer.</p>
+
+        <p>Cette histoire rend l'héritage Blackrock particulièrement intéressant
+        dans la Horde de Thrall : <strong>le clan n'est ni automatiquement loyal
+        ni automatiquement ennemi</strong>.</p>
+
+        <h2>Ce qu'un enfant Blackrock pourrait avoir appris</h2>
+
+        <ul>
+
+        <li>Une guerre se gagne par la préparation, les lignes de ravitaillement
+        et la discipline autant que par la bravoure.</li>
+
+        <li>Une arme mal entretenue révèle un guerrier négligent.</li>
+
+        <li>L'autorité mérite d'être efficace ; la question de savoir si elle
+        mérite d'être obéie est plus difficile.</li>
+
+        <li>Le nom Blackrock peut évoquer Doomhammer et Eitrigg aussi bien que
+        Blackhand et Rend.</li>
+
+        </ul>
+
+        <h2>Tensions possibles</h2>
+
+        <ul>
+
+        <li>Devoir sans cesse préciser de quel côté de l'histoire familiale on
+        se place.</li>
+
+        <li>Respect de la chaîne de commandement face à une Horde de Thrall
+        moins autoritaire que l'ancienne.</li>
+
+        <li>Fierté pour les savoir-faire du clan, honte ou colère face à ses
+        anciens dirigeants.</li>
+
+        </ul>
+
+        <blockquote><p><strong>Piste de personnage :</strong> « Je n'ai pas
+        renié mon clan. J'ai renié ceux qui prétendent parler pour lui.
+        »</p></blockquote>
+      format: 1
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 500000
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435072899
+      modifiedTime: 1792435072899
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!V7kBwrob0ElUc6Bk.H8s5JVT9Yre6LbkH'
+  - _id: mylyVbDi855rXggm
+    name: Bleeding Hollow — Orbite-Sanglante
+    type: text
+    category: null
+    text:
+      content: >-
+        <h1>Bleeding Hollow — Orbite-Sanglante</h1>
+
+        <p><strong>Figure de référence :</strong> Kilrogg Deadeye.</p>
+
+        <p><strong>Situation à l'époque de Classic :</strong> après la Deuxième
+        Guerre, les membres restés sur Azeroth finirent par être capturés et
+        enfermés dans les camps avant d'être libérés avec les autres Orcs de
+        Thrall. D'autres survivants avaient regagné Draenor.</p>
+
+        <h2>Héritage culturel</h2>
+
+        <p>Les sources décrivent l'Orbite-Sanglante comme un clan
+        <strong>endurci, superstitieux, très expérimenté dans la guerre, le raid
+        et la reconnaissance</strong>. Son histoire est celle d'un clan qui a
+        longtemps survécu dans des conditions extrêmes et dont le chef, Kilrogg,
+        est devenu une figure légendaire de l'ancienne Horde.</p>
+
+        <h2>Ce qu'un héritier pourrait avoir appris</h2>
+
+        <ul>
+
+        <li>Survivre aujourd'hui permet de choisir le combat de demain.</li>
+
+        <li>Un présage n'est pas nécessairement un ordre, mais l'ignorer sans
+        réfléchir est une forme d'orgueil.</li>
+
+        <li>Un bon éclaireur vaut parfois davantage qu'une dizaine de guerriers
+        arrivant trop tard.</li>
+
+        <li>Les vétérans portent des souvenirs que la jeune Horde préférerait
+        parfois oublier.</li>
+
+        </ul>
+
+        <h2>Prudence de lore</h2>
+
+        <p>Les extensions ultérieures ont énormément développé les rites de
+        sang, visions et pratiques occultes des Bleeding Hollow.
+        <strong>Warbound ne considère pas automatiquement ces détails
+        postérieurs — en particulier ceux liés au Draenor alternatif — comme la
+        culture ordinaire d'un personnage de Durotar à l'époque
+        Classic.</strong></p>
+
+        <blockquote><p><strong>Piste de personnage :</strong> « Les autres
+        appellent cela du fatalisme. Chez nous, on appelle cela regarder la mort
+        en face et continuer d'avancer. »</p></blockquote>
+      format: 1
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 600000
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435072899
+      modifiedTime: 1792435072899
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!V7kBwrob0ElUc6Bk.mylyVbDi855rXggm'
+  - _id: HaR8wWsUgOcXzGk1
+    name: Shattered Hand — Main-Brisée
+    type: text
+    category: null
+    text:
+      content: >-
+        <h1>Shattered Hand — Main-Brisée</h1>
+
+        <p><strong>Figure historique :</strong> Kargath Bladefist.
+        <strong>Figure Classic à Orgrimmar :</strong> Shenthul.</p>
+
+        <p><strong>Cas particulier :</strong> dans WoW Classic, la Main-Brisée
+        n'est pas seulement un ancien clan de naissance. À Orgrimmar, son nom
+        désigne aussi une <strong>organisation de voleurs, espions et
+        assassins</strong> dans laquelle un personnage peut être recruté.</p>
+
+        <h2>Ce que montre directement Classic</h2>
+
+        <p>Les quêtes de voleur conduisent à Shenthul dans la Faille de l'Ombre.
+        Elles insistent sur la <strong>furtivité, la tromperie, la collecte
+        d'informations et la frappe discrète</strong>. Un candidat peut
+        accomplir les épreuves de l'organisation, apprendre son salut et devenir
+        explicitement un nouveau membre.</p>
+
+        <h2>Conséquence pour Warbound</h2>
+
+        <p>Deux histoires sont donc possibles et ne doivent pas être confondues
+        :</p>
+
+        <ul>
+
+        <li><strong>Héritier de l'ancien clan :</strong> la Main-Brisée
+        appartient à l'histoire familiale du personnage.</li>
+
+        <li><strong>Membre de l'organisation moderne :</strong> le personnage a
+        été recruté ou formé à Orgrimmar, quelle que soit son origine
+        familiale.</li>
+
+        </ul>
+
+        <h2>Valeurs et tensions</h2>
+
+        <ul>
+
+        <li>Pragmatisme : le résultat compte plus que la démonstration de
+        force.</li>
+
+        <li>Secret : toute information n'a pas vocation à être partagée.</li>
+
+        <li>Vigilance : les ennemis de la Horde ne se trouvent pas seulement sur
+        un champ de bataille.</li>
+
+        <li>Tension naturelle avec les traditions qui assimilent l'honneur à un
+        affrontement ouvert.</li>
+
+        </ul>
+
+        <blockquote><p><strong>Piste de personnage :</strong> « Un guerrier veut
+        que l'ennemi sache qui l'a vaincu. Moi, je préfère qu'il ne sache jamais
+        que j'étais là. »</p></blockquote>
+      format: 1
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 700000
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435072899
+      modifiedTime: 1792435072899
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!V7kBwrob0ElUc6Bk.HaR8wWsUgOcXzGk1'
+  - _id: IgThCwzRAuWz3t25
+    name: Héritages difficiles — Dragonmaw et Burning Blade
+    type: text
+    category: null
+    text:
+      content: >-
+        <h1>Héritages difficiles — Dragonmaw et Burning Blade</h1>
+
+        <p>Certains noms appartiennent bien à l'histoire des Orcs mais
+        <strong>ne doivent pas être présentés comme des clans ordinaires de la
+        Nouvelle Horde de Durotar à l'époque de Classic</strong>.</p>
+
+        <h2>Dragonmaw — Gueule-de-dragon</h2>
+
+        <p>Les Dragonmaw ont joué un rôle majeur pendant la Deuxième Guerre en
+        asservissant des dragons rouges. Dans le WoW original, leurs survivants
+        vivent encore dans les Wetlands, sous l'autorité de Nek'rosh
+        Skullcrusher, et sont hostiles.</p>
+
+        <p>Pour un PJ loyal à Thrall, une origine Dragonmaw demande donc une
+        histoire particulière : <strong>transfuge, enfant séparé du clan,
+        survivant ayant rejeté ses chefs ou descendant d'une branche
+        dissidente</strong>.</p>
+
+        <p>Le poids de l'héritage est plus intéressant que l'imitation :
+        puissance, domination, rapport aux dragons, honte familiale et volonté
+        éventuelle de rupture.</p>
+
+        <h2>Burning Blade — Lame ardente</h2>
+
+        <p>La Lame ardente possède une histoire ancienne complexe. Mais dans
+        Durotar à l'époque de Classic, le nom désigne surtout un <strong>culte
+        démoniaque hostile</strong> dont les agents sont déjà présents dans la
+        Vallée des Épreuves et ailleurs dans la région.</p>
+
+        <p>Un personnage ne devrait donc pas simplement inscrire « Burning Blade
+        » comme clan loyal à la Horde sans en parler au MJ. En revanche,
+        l'héritage peut produire des concepts puissants : famille compromise,
+        ancien adepte ayant fui le culte, descendant d'un blademaster ayant
+        choisi la Horde plutôt que les démons.</p>
+
+        <blockquote><p><strong>Règle Warbound :</strong> Dragonmaw et Burning
+        Blade sont des <em>origines problématiques</em>, pas des options
+        équivalentes à Frostwolf ou Warsong.</p></blockquote>
+      format: 1
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 800000
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435072899
+      modifiedTime: 1792435072899
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!V7kBwrob0ElUc6Bk.IgThCwzRAuWz3t25'
+  - _id: Vsjm7rVc8j6LjnVW
+    name: Origines rares — autres clans
+    type: text
+    category: null
+    text:
+      content: >-
+        <h1>Origines rares — autres clans</h1>
+
+        <p>Le passé orc comprend bien davantage de clans que ceux rencontrés
+        couramment en Durotar. Cependant, leur simple existence dans le lore ne
+        signifie pas qu'ils constituent des communautés normales de la Nouvelle
+        Horde de Classic.</p>
+
+        <table>
+
+        <thead><tr><th>Clan / héritage</th><th>Repère</th><th>Usage dans
+        Warbound</th></tr></thead>
+
+        <tbody>
+
+        <tr><td><strong>Shadowmoon / Ombrelune</strong></td><td>Ancien clan
+        associé à Ner'zhul et aux traditions spirituelles de
+        Draenor.</td><td>Origine exceptionnelle. Éviter d'importer sans filtre
+        les développements de <em>Warlords of Draenor</em>.</td></tr>
+
+        <tr><td><strong>Stormreaver</strong></td><td>Clan fortement associé à
+        Gul'dan et aux démonistes de l'ancienne Horde.</td><td>Héritage
+        extrêmement lourd ; branche familiale, survivant ou descendant plutôt
+        que communauté de Durotar.</td></tr>
+
+        <tr><td><strong>Black Tooth Grin</strong></td><td>Clan historiquement
+        lié aux fils de Blackhand.</td><td>À relier au problème de la Dark
+        Horde, pas à traiter comme origine courante.</td></tr>
+
+        <tr><td><strong>Bonechewer</strong></td><td>Clan de Draenor, davantage
+        présent dans les récits et contenus liés à l'Outreterre.</td><td>Rare ;
+        nécessite une raison crédible pour se trouver avec la Horde de
+        Thrall.</td></tr>
+
+        <tr><td><strong>Laughing Skull</strong></td><td>Clan de Draenor connu
+        pour ses alliances changeantes et son indépendance.</td><td>Rare ; à
+        construire avec le MJ.</td></tr>
+
+        <tr><td><strong>Thunderlord</strong></td><td>Clan de chasseurs de
+        Draenor, peu pertinent pour le Durotar du WoW original.</td><td>À
+        réserver à une histoire exceptionnelle.</td></tr>
+
+        </tbody>
+
+        </table>
+
+        <h2>Attention aux anachronismes</h2>
+
+        <p><em>Warlords of Draenor</em> présente un <strong>Draenor
+        alternatif</strong> et développe fortement l'identité visuelle, les
+        rites et les spécialités de nombreux clans. Ces idées peuvent être
+        inspirantes, mais elles ne doivent pas être présentées automatiquement
+        comme des faits connus et pratiqués par les Orcs de Warbound.</p>
+
+        <p>Lorsque le lore Classic est mince, il vaut mieux laisser un espace au
+        joueur que remplir cet espace avec une tradition apparue dix ans plus
+        tard dans la franchise.</p>
+      format: 1
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 900000
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435072899
+      modifiedTime: 1792435072899
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!V7kBwrob0ElUc6Bk.Vsjm7rVc8j6LjnVW'
+  - _id: pfn9uWbiF3Ix1VQZ
+    name: Relations claniques — pistes de jeu Warbound
+    type: text
+    category: null
+    text:
+      content: >-
+        <h1>Relations claniques — pistes de jeu Warbound</h1>
+
+        <p><strong>Cette page est une aide de roleplay Warbound.</strong> Les
+        relations ci-dessous sont des tensions plausibles construites à partir
+        des histoires claniques ; elles ne constituent pas un tableau officiel
+        de diplomatie entre clans dans WoW Classic.</p>
+
+        <table>
+
+        <thead><tr><th>Rencontre</th><th>Tension possible</th></tr></thead>
+
+        <tbody>
+
+        <tr><td>Frostwolf ↔ Warsong</td><td>Maîtrise et prudence contre audace
+        et recherche de l'épreuve ; admiration mutuelle possible entre deux
+        traditions profondément liées à Thrall.</td></tr>
+
+        <tr><td>Frostwolf ↔ Blackrock</td><td>Renouveau chamanique face au poids
+        de la machine militaire de l'ancienne Horde.</td></tr>
+
+        <tr><td>Warsong ↔ Blackrock</td><td>Élan, mobilité et gloire personnelle
+        face à discipline, planification et chaîne de commandement.</td></tr>
+
+        <tr><td>Tout clan ↔ Shattered Hand</td><td>Un membre de la Main-Brisée
+        peut être respecté pour son efficacité ou méprisé parce qu'il agit sans
+        gloire visible.</td></tr>
+
+        <tr><td>Nouvelle Horde ↔ Dragonmaw</td><td>Un héritier Dragonmaw doit
+        souvent expliquer ce qu'il a rejeté — ou ce qu'il refuse de
+        renier.</td></tr>
+
+        <tr><td>Nouvelle Horde ↔ Burning Blade</td><td>Le nom évoque la
+        corruption démoniaque et des ennemis présents en Durotar ; la méfiance
+        est naturelle.</td></tr>
+
+        </tbody>
+
+        </table>
+
+        <h2>À éviter</h2>
+
+        <ul>
+
+        <li>« Tous les Warsong sont des brutes. »</li>
+
+        <li>« Tous les Frostwolf sont sages. »</li>
+
+        <li>« Tous les Blackrock sont suspects. »</li>
+
+        <li>« Tous les membres d'un clan pensent pareil. »</li>
+
+        </ul>
+
+        <p>Une tradition devient intéressante quand le personnage peut
+        <strong>l'accepter, la réinterpréter, la contester ou la
+        trahir</strong>.</p>
+      format: 1
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 1000000
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435072899
+      modifiedTime: 1792435072899
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!V7kBwrob0ElUc6Bk.pfn9uWbiF3Ix1VQZ'
+  - _id: r3CL7h2KDTZB6jYY
+    name: Créer son héritage orc
+    type: text
+    category: null
+    text:
+      content: >-
+        <h1>Créer son héritage orc</h1>
+
+        <p>Choisissez un clan seulement si cela produit quelque chose à jouer.
+        Puis répondez à quelques questions.</p>
+
+        <ol>
+
+        <li><strong>Qui vous a transmis cet héritage ?</strong> Parent,
+        grand-parent, vétéran, chaman, maître d'armes, autre survivant ?</li>
+
+        <li><strong>Êtes-vous né dans ce clan ou l'avez-vous rejoint
+        ?</strong></li>
+
+        <li><strong>Quelle histoire de votre clan connaissez-vous par cœur
+        ?</strong></li>
+
+        <li><strong>Quel membre historique admirez-vous ?</strong> Pourquoi
+        ?</li>
+
+        <li><strong>Quel épisode de votre histoire familiale vous met mal à
+        l'aise ?</strong></li>
+
+        <li><strong>Quelle tradition avez-vous conservée ?</strong></li>
+
+        <li><strong>Quelle tradition avez-vous rejetée ?</strong></li>
+
+        <li><strong>Qu'attendent les anciens de vous que vous n'êtes pas certain
+        de vouloir devenir ?</strong></li>
+
+        <li><strong>Quelle idée vous oppose naturellement à un autre Orc du
+        groupe ?</strong></li>
+
+        <li><strong>Qu'est-ce qui compte davantage pour vous aujourd'hui : votre
+        clan, votre famille, la Horde ou vos compagnons ?</strong></li>
+
+        </ol>
+
+        <h2>Trois phrases suffisent</h2>
+
+        <p>Pour éviter un background encyclopédique, résumez ensuite votre
+        héritage ainsi :</p>
+
+        <blockquote>
+
+        <p><strong>On m'a appris que…</strong></p>
+
+        <p><strong>Je suis fier de…</strong></p>
+
+        <p><strong>Mais je refuse de…</strong></p>
+
+        </blockquote>
+
+        <h2>Exemple</h2>
+
+        <p><em>« Je suis Blackrock. On m'a appris qu'une bataille est gagnée
+        avant le premier coup si les armes, les hommes et le terrain sont prêts.
+        Je suis fier que Doomhammer soit sorti de notre clan. Mais je refuse de
+        confondre discipline et obéissance aveugle. »</em></p>
+      format: 1
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 1100000
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435072899
+      modifiedTime: 1792435072899
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!V7kBwrob0ElUc6Bk.r3CL7h2KDTZB6jYY'
+  - _id: yt7lXyhD2noKG8sl
+    name: Canon, adaptation et limites
+    type: text
+    category: null
+    text:
+      content: >-
+        <h1>Canon, adaptation et limites</h1>
+
+        <h2>Canon retenu</h2>
+
+        <p>Le document privilégie les informations établies par
+        <em>Warcraft</em>, <em>Warcraft II</em>, <em>Warcraft III</em>, le
+        manuel du <em>World of Warcraft</em> original et le contenu visible dans
+        WoW Classic.</p>
+
+        <h2>Adaptation Warbound</h2>
+
+        <p>Les rubriques « ce qu'un enfant pourrait avoir appris », certaines
+        tensions interclaniques et les phrases de personnage sont des
+        <strong>outils de roleplay</strong>. Elles synthétisent le lore sans
+        prétendre être des citations ou des doctrines officielles de
+        Blizzard.</p>
+
+        <h2>Développements postérieurs</h2>
+
+        <p>Les extensions ultérieures ont enrichi, précisé ou parfois
+        recontextualisé l'histoire des clans. Warbound peut s'en inspirer, mais
+        le projet applique une règle simple :</p>
+
+        <blockquote><p><strong>Un détail apparu plus tard n'est pas
+        automatiquement une tradition connue et pratiquée dans notre Durotar
+        Classic.</strong></p></blockquote>
+
+        <h2>Cas où le lore est volontairement laissé ouvert</h2>
+
+        <p>Pour plusieurs clans mineurs, les sources Vanilla donnent peu de
+        matière sur la vie quotidienne, les rites ou l'éducation. Dans ces cas,
+        Warbound préfère écrire <em>« non établi pour notre période »</em>
+        plutôt que d'inventer une coutume présentée comme canonique.</p>
+      format: 1
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 1200000
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435072899
+      modifiedTime: 1792435072899
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!V7kBwrob0ElUc6Bk.yt7lXyhD2noKG8sl'
+  - _id: YGF6YPXKn8g4yXFO
+    name: Sources de lore
+    type: text
+    category: null
+    text:
+      content: >-
+        <h1>Sources de lore</h1>
+
+        <p><strong>Sources consultées pour ce journal.</strong> Les pages
+        Warcraft Wiki servent de synthèse et renvoient elles-mêmes aux jeux,
+        manuels, romans et quêtes dont elles tirent leurs informations. Pour les
+        éléments directement visibles dans Vanilla, les quêtes WoW Classic sont
+        privilégiées lorsque possible.</p>
+
+        <h2>Source primaire / période Classic</h2>
+
+        <ul>
+
+        <li><strong>Blizzard Entertainment — World of Warcraft Game Manual
+        (2004)</strong> : présentation des Orcs, de Thrall, Drek'Thar et
+        Nazgrel. <a
+        href="https://warcraft.wiki.gg/wiki/World_of_Warcraft_manual">Warcraft
+        Wiki — copie et références du manuel</a>.</li>
+
+        <li><strong>WoW Classic — The Shattered Hand, quête 1963</strong> :
+        doctrine de la Main-Brisée dans la Horde de Thrall. <a
+        href="https://www.wowhead.com/classic/quest=1963/the-shattered-hand">Wowhead
+        Classic</a>.</li>
+
+        <li><strong>WoW Classic — The Shattered Hand, quête 1858</strong> :
+        admission explicite du PJ comme nouveau membre de la Main-Brisée. <a
+        href="https://www.wowhead.com/classic/quest=1858/the-shattered-hand">Wowhead
+        Classic</a>.</li>
+
+        <li><strong>WoW Classic — Eitrigg's Wisdom, quête 4941</strong> :
+        Eitrigg à Orgrimmar et conflit avec les Blackrock de Rend. <a
+        href="https://www.wowhead.com/classic/quest=4941/eitriggs-wisdom">Wowhead
+        Classic</a>.</li>
+
+        <li><strong>WoW Classic — Burning Blade Medallion, quête 794</strong> :
+        présence du culte de la Lame ardente dans la Vallée des Épreuves. <a
+        href="https://www.wowhead.com/classic/quest=794/burning-blade-medallion">Wowhead
+        Classic</a>.</li>
+
+        </ul>
+
+        <h2>Synthèses de lore</h2>
+
+        <ul>
+
+        <li><a href="https://warcraft.wiki.gg/wiki/Frostwolf_clan">Warcraft Wiki
+        — Frostwolf clan</a></li>
+
+        <li><a href="https://warcraft.wiki.gg/wiki/Warsong_clan">Warcraft Wiki —
+        Warsong clan</a></li>
+
+        <li><a href="https://warcraft.wiki.gg/wiki/Blackrock_orc">Warcraft Wiki
+        — Blackrock clan</a></li>
+
+        <li><a href="https://warcraft.wiki.gg/wiki/Bleeding_Hollow">Warcraft
+        Wiki — Bleeding Hollow clan</a></li>
+
+        <li><a href="https://warcraft.wiki.gg/wiki/Dragonmaw_clan">Warcraft Wiki
+        — Dragonmaw clan</a></li>
+
+        <li><a href="https://warcraft.wiki.gg/wiki/Burning_Blade">Warcraft Wiki
+        — Burning Blade</a></li>
+
+        <li><a href="https://warcraft.wiki.gg/wiki/Clan">Warcraft Wiki —
+        Clan</a></li>
+
+        </ul>
+
+        <p><em>Vérification du contenu : 23 septembre 2026.</em></p>
+      format: 1
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 1300000
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435072899
+      modifiedTime: 1792435072899
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!V7kBwrob0ElUc6Bk.YGF6YPXKn8g4yXFO'
+categories: []
+sort: 100000
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792435072899
+  modifiedTime: 1792435072899
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource:
+    worldId: au-nom-de-la-horde-cof2
+    uuid: JournalEntry.Nm4ZgYPSueiJkq04
+    coreVersion: '14.367'
+    systemId: co2
+    systemVersion: 2.3.12
+_key: '!journal!V7kBwrob0ElUc6Bk'

@@ -4130,7 +4130,7 @@ journal:
                   - uuid: Actor.vZ85XbeOu8dHT6QH
                     value: 0
                     name: Personnage joueur
-                    img: icons/svg/mystery-man.svg
+                    img: systems/dnd5e/icons/svg/actors/character.svg
         image: modules/warbound-campaign-content/assets/images/icons/factions/coa-icone-faction-cartel_baille-fonds.png
       core:
         sheetClass: campaign-codex.TagSheet
@@ -5520,7 +5520,7 @@ journal:
                   - uuid: Actor.vZ85XbeOu8dHT6QH
                     value: -4
                     name: Personnage joueur
-                    img: icons/svg/mystery-man.svg
+                    img: systems/dnd5e/icons/svg/actors/character.svg
           linkedShops:
             - JournalEntry.CGTq9fPzdD50Sw5y
       core:
@@ -5789,7 +5789,7 @@ journal:
                   - uuid: Actor.vZ85XbeOu8dHT6QH
                     value: -3
                     name: Personnage joueur
-                    img: icons/svg/mystery-man.svg
+                    img: systems/dnd5e/icons/svg/actors/character.svg
             progressclock:
               yToiXAYLjzouNkAP:
                 max: 8
@@ -9663,7 +9663,7 @@ journal:
                   - uuid: Actor.vZ85XbeOu8dHT6QH
                     value: 2
                     name: Personnage joueur
-                    img: icons/svg/mystery-man.svg
+                    img: systems/dnd5e/icons/svg/actors/character.svg
             progressclock:
               K1MwLUqmyVC2LCfp:
                 title: La Forteresse Inexpugnable
@@ -9839,7 +9839,7 @@ journal:
                   - uuid: Actor.vZ85XbeOu8dHT6QH
                     value: 2
                     name: Personnage joueur
-                    img: icons/svg/mystery-man.svg
+                    img: systems/dnd5e/icons/svg/actors/character.svg
             progressclock:
               K1MwLUqmyVC2LCfp:
                 title: L'Éveil de Ragefeu
@@ -10161,13 +10161,13 @@ journal:
                   - uuid: Actor.vZ85XbeOu8dHT6QH
                     value: 0
                     name: Personnage joueur
-                    img: icons/svg/mystery-man.svg
+                    img: systems/dnd5e/icons/svg/actors/character.svg
               KpVf8K5z3RZODxY6:
                 relationships:
                   - uuid: Actor.vZ85XbeOu8dHT6QH
                     value: 0
                     name: Personnage joueur
-                    img: icons/svg/mystery-man.svg
+                    img: systems/dnd5e/icons/svg/actors/character.svg
             relationship tracker scale: {}
             progressclock:
               mE6NxVKGUl7efyWI:

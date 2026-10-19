@@ -1,0 +1,579 @@
+folder: 2C14tKZNaxYFQ3AE
+name: Mutiledent
+flags:
+  campaign-codex:
+    type: ''
+  core:
+    sheetClass: ''
+_id: MT3R4SREpO2rYuUU
+pages:
+  - _id: 6zpJTv3Q7v3v2ddi
+    name: Mutiledent — Vue d’ensemble
+    type: text
+    sort: 100000
+    flags: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Mutiledent</h2>
+
+        <p><em>Mangletooth — Huran Tranchecrin</em></p>
+
+
+        <table>
+          <tbody>
+            <tr><th>Nom</th><td><strong>Mutiledent</strong> (Mangletooth)</td></tr>
+            <tr><th>Peuple</th><td>Huran</td></tr>
+            <tr><th>Tribu</th><td>Tranchecrins (Razormane)</td></tr>
+            <tr><th>Lieu</th><td>Camp Taurajo, Tarides</td></tr>
+            <tr><th>Situation</th><td>Prisonnier dans une cage, abandonné par une partie des siens</td></tr>
+            <tr><th>Rôle</th><td>Mystique huran, informateur potentiel, manipulateur et intermédiaire culturel</td></tr>
+            <tr><th>Disposition</th><td>Hostile à la Horde comme puissance, mais pragmatique avec les individus utiles</td></tr>
+          </tbody>
+        </table>
+
+
+        <h3>En une phrase</h3>
+
+        <p><strong>Mutiledent est un Tranchecrin emprisonné qui a encore assez
+        de savoir, de rancune et de pouvoir rituel pour transformer sa cage en
+        position de négociation.</strong></p>
+
+
+        <h3>Pourquoi il est intéressant pour Warbound</h3>
+
+        <p>Il permet de montrer que les Hurans ne sont pas seulement des
+        adversaires occupant des camps : ils possèdent des rivalités tribales,
+        une spiritualité, des lieux sacrés, une mémoire et une politique
+        interne.</p>
+
+        <p>Pour les PJ, Mutiledent peut devenir une source d’informations sur
+        les Tranchecrins sans jamais devenir un allié docile.</p>
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435080669
+      modifiedTime: 1792435080669
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!MT3R4SREpO2rYuUU.6zpJTv3Q7v3v2ddi'
+  - _id: ssK1quyJJR7ZSAvE
+    name: Situation canonique — WoW Classic
+    type: text
+    sort: 200000
+    flags: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Situation canonique</h2>
+
+
+        <p>À l’époque de <strong>World of Warcraft Classic</strong>, Mutiledent
+        se trouve au <strong>Camp Taurajo</strong>, dans les Tarides, enfermé
+        dans une cage.</p>
+
+
+        <p>Il appartient aux <strong>Tranchecrins</strong>. Malgré sa captivité,
+        il continue d’abord à chercher l’avantage de sa tribu : il pousse des
+        aventuriers de la Horde à frapper les <strong>Dos-hirsute</strong>,
+        rivaux des Tranchecrins.</p>
+
+
+        <h3>Tribus en guerre</h3>
+
+        <p>Mutiledent explique que les Tranchecrins et les Dos-hirsute sont deux
+        tribus fortement liées à la terre et à la spiritualité. Il veut
+        affaiblir les chefs spirituels Dos-hirsute afin que les Tranchecrins
+        puissent prendre l’avantage.</p>
+
+
+        <p>Mais une fois l’opération accomplie, son ressentiment éclate : sa
+        propre tribu l’a laissé croupir dans sa cage et personne n’est venu le
+        délivrer.</p>
+
+
+        <h3>Une trahison de l’intérieur</h3>
+
+        <p>Mutiledent livre ensuite les noms de trois membres importants de sa
+        propre tribu : <strong>Nak</strong>, <strong>Kuz</strong> et <strong>Lok
+        Plaie-des-orcs</strong>.</p>
+
+
+        <ul>
+          <li><strong>Nak</strong> : pisteur.</li>
+          <li><strong>Kuz</strong> : lanceur de sorts.</li>
+          <li><strong>Lok Plaie-des-orcs</strong> : guerrier et chef du groupe.</li>
+        </ul>
+
+
+        <p>Il demande leur élimination. Son retournement n’est donc pas une
+        conversion à la cause de la Horde : c’est une vengeance contre ceux qui
+        l’ont abandonné.</p>
+
+
+        <h3>Point important</h3>
+
+        <p><strong>Mutiledent n’est pas à traiter comme le chef des Tranchecrins
+        de Durotar à cette époque.</strong> Le contenu Classic permet surtout de
+        l’identifier comme un Tranchecrin influent, spirituellement compétent et
+        très bien informé sur sa tribu.</p>
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435080669
+      modifiedTime: 1792435080669
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!MT3R4SREpO2rYuUU.ssK1quyJJR7ZSAvE'
+  - _id: HKx1sg5iuomxvY5M
+    name: Personnalité, objectifs et manière de le jouer
+    type: text
+    sort: 300000
+    flags: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Personnalité</h2>
+
+
+        <p>Mutiledent ne supplie pas. Il négocie.</p>
+
+
+        <p>Sa cage lui retire sa liberté, mais pas sa capacité à comprendre les
+        rapports de force. Il sait que la Horde a besoin d’informations et que
+        son savoir est désormais sa principale monnaie.</p>
+
+
+        <h3>Traits de jeu</h3>
+
+        <ul>
+          <li><strong>Pragmatique :</strong> il traite avec ses ennemis si cela sert ses intérêts.</li>
+          <li><strong>Rancunier :</strong> l’abandon par les siens est devenu une blessure politique et personnelle.</li>
+          <li><strong>Manipulateur :</strong> il donne rarement une information sans obtenir quelque chose en échange.</li>
+          <li><strong>Fier :</strong> il refuse d’être réduit au statut de prisonnier pitoyable.</li>
+          <li><strong>Spirituel :</strong> sa connaissance d’Agamaggan et des Joyaux de sang est réelle et directement exploitable.</li>
+        </ul>
+
+
+        <h3>Ce qu’il veut maintenant</h3>
+
+        <ol>
+          <li>Survivre.</li>
+          <li>Conserver une capacité d’action malgré sa captivité.</li>
+          <li>Faire payer ceux qui l’ont abandonné.</li>
+          <li>Utiliser les conflits entre Horde, Tranchecrins et Dos-hirsute à son avantage.</li>
+        </ol>
+
+
+        <h3>Ce qu’il ne veut pas</h3>
+
+        <ul>
+          <li>Être traité comme un informateur subalterne.</li>
+          <li>Donner gratuitement tout ce qu’il sait.</li>
+          <li>Voir les PJ confondre coopération ponctuelle et loyauté envers la Horde.</li>
+        </ul>
+
+
+        <h3>Interprétation à la table</h3>
+
+        <p>Parle lentement, observe les PJ avant de répondre et laisse
+        régulièrement entendre qu’il en sait davantage.</p>
+
+        <p>Il peut volontairement répondre à une question par une autre : <em>«
+        Pourquoi veux-tu savoir cela, Orc ? »</em></p>
+
+        <p>Les phrases de jeu proposées dans cette page sont une
+        <strong>adaptation Warbound</strong>, pas des citations du jeu
+        vidéo.</p>
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435080669
+      modifiedTime: 1792435080669
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!MT3R4SREpO2rYuUU.HKx1sg5iuomxvY5M'
+  - _id: hbCEz0X0BBRP2XJk
+    name: Agamaggan, Joyaux de sang et spiritualité hurane
+    type: text
+    sort: 400000
+    flags: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Agamaggan et les Joyaux de sang</h2>
+
+
+        <p>Mutiledent connaît les secrets des <strong>Joyaux de sang
+        d’Agamaggan</strong>, des pierres rouge sang que les Hurans utilisent
+        comme totems et comme supports de leur magie.</p>
+
+
+        <p>Il affirme que les tribus huranes se rassemblent dans les régions
+        couvertes de ronces parce qu’elles sont <strong>sacrées</strong>. Dans
+        cette tradition, les grandes zones de ronces sont associées au corps et
+        à l’héritage d’<strong>Agamaggan</strong>, le grand Sanglier
+        sauvage.</p>
+
+
+        <h3>Ce que Mutiledent peut faire</h3>
+
+        <p>Dans WoW Classic, il échange des Joyaux de sang contre différentes
+        bénédictions d’Agamaggan, notamment liées à :</p>
+
+
+        <ul>
+          <li>la force ;</li>
+          <li>l’agilité ;</li>
+          <li>la sagesse ;</li>
+          <li>l’esprit ;</li>
+          <li>la vitesse ;</li>
+          <li>une peau protectrice et hérissée.</li>
+        </ul>
+
+
+        <h3>Lecture Warbound</h3>
+
+        <p>Pour la campagne, ce savoir permet de présenter Mutiledent comme un
+        <strong>mystique huran compétent</strong>, sans devoir immédiatement lui
+        attribuer un profil mécanique de chaman PJ.</p>
+
+
+        <p>Il peut identifier des objets rituels, interpréter certaines marques
+        territoriales, reconnaître les lieux considérés comme sacrés par les
+        Hurans et expliquer pourquoi une terre que la Horde considère comme
+        disponible peut être perçue tout autrement par les Tranchecrins.</p>
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435080669
+      modifiedTime: 1792435080669
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!MT3R4SREpO2rYuUU.hbCEz0X0BBRP2XJk'
+  - _id: llqS9WQxR1yauSxe
+    name: Ce qu’il sait sur les Hurans
+    type: text
+    sort: 500000
+    flags: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Ce que Mutiledent sait</h2>
+
+
+        <p>Mutiledent constitue une excellente source d’informations, mais il ne
+        doit jamais fonctionner comme une encyclopédie automatique.</p>
+
+
+        <h3>Informations qu’il peut raisonnablement posséder</h3>
+
+        <ul>
+          <li>Les rivalités entre <strong>Tranchecrins</strong> et <strong>Dos-hirsute</strong>.</li>
+          <li>Le rôle des chefs spirituels, géomanciens et tisseurs d’épines.</li>
+          <li>Les traditions et rituels associés à <strong>Agamaggan</strong>.</li>
+          <li>L’utilisation des <strong>Joyaux de sang</strong>.</li>
+          <li>Les habitudes de déplacement et de guerre de sa tribu.</li>
+          <li>Les noms, fonctions et rivalités de certains Tranchecrins importants.</li>
+          <li>La signification de certaines marques territoriales, totems ou amas de ronces aménagés.</li>
+        </ul>
+
+
+        <h3>Ce qu’il ne faut pas considérer comme automatiquement canonique</h3>
+
+        <p>Le canon Classic ne détaille pas suffisamment l’organisation exacte
+        des Tranchecrins présents dans les <strong>Terres des Tranchecrins de
+        Durotar</strong>, ni leur relation personnelle avec Mutiledent.</p>
+
+
+        <p>Les informations précises sur leurs chefs locaux, leurs objectifs
+        immédiats et leur progression vers Tranchecolline doivent donc être
+        établies par Warbound.</p>
+
+
+        <h3>Principe de négociation</h3>
+
+        <p>Une information importante doit avoir un prix : un service, une
+        preuve, un Joyau de sang, la mort d’un rival, la transmission d’un
+        message ou simplement une information que Mutiledent cherche
+        lui-même.</p>
+
+
+        <p>Plus les PJ lui donnent de leviers, plus il devient utile — et
+        dangereux.</p>
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435080669
+      modifiedTime: 1792435080669
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!MT3R4SREpO2rYuUU.llqS9WQxR1yauSxe'
+  - _id: 1jfrvotEDzycTjFK
+    name: Utilisation dans Au Nom de la Horde
+    type: text
+    sort: 600000
+    flags: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Utilisation dans la campagne</h2>
+
+
+        <p><strong>Recommandation :</strong> ne pas déplacer immédiatement
+        Mutiledent à Durotar.</p>
+
+
+        <p>Son emplacement canonique au <strong>Camp Taurajo</strong> est plus
+        intéressant : il donne aux PJ une raison organique de sortir
+        temporairement de Durotar lorsqu’ils veulent réellement comprendre les
+        Tranchecrins.</p>
+
+
+        <h3>Accroche</h3>
+
+        <p>Lorsque les PJ commencent à chercher les raisons de l’empiètement
+        Tranchecrin autour de Tranchecolline, un éclaireur, un Tauren ou un
+        vétéran peut leur parler d’un prisonnier huran détenu plus au sud :</p>
+
+
+        <blockquote>
+
+        <p>« Il y en a un qui parlera. Il est en cage à Taurajo. Mais ne crois
+        pas qu’il nous aime. »</p>
+
+        </blockquote>
+
+
+        <p><em>Cette réplique est une proposition Warbound.</em></p>
+
+
+        <h3>Statut Warbound recommandé</h3>
+
+        <p>Mutiledent connaît les groupes Tranchecrins présents à Durotar, mais
+        <strong>il n’en est pas leur chef actuel</strong>.</p>
+
+
+        <p>Il connaît certains de leurs responsables, leurs routes, leurs usages
+        du terrain et une partie des raisons culturelles ou spirituelles de leur
+        présence.</p>
+
+
+        <p>Il n’a cependant plus aucune raison de protéger aveuglément ceux qui
+        l’ont abandonné.</p>
+
+
+        <h3>Fonctions possibles dans le bac à sable</h3>
+
+        <ul>
+          <li><strong>Informateur :</strong> il révèle progressivement l’organisation hurane.</li>
+          <li><strong>Intermédiaire culturel :</strong> il explique ce que la Horde interprète mal.</li>
+          <li><strong>Manipulateur :</strong> il utilise les PJ pour régler des comptes internes.</li>
+          <li><strong>Source de rites :</strong> il peut reconnaître ou exploiter les Joyaux de sang.</li>
+          <li><strong>Pont géographique :</strong> il relie naturellement Durotar aux Tarides.</li>
+          <li><strong>Graine d’avenir :</strong> les PJ peuvent involontairement restaurer son influence chez les Tranchecrins.</li>
+        </ul>
+
+
+        <h3>Tension centrale</h3>
+
+        <p>Mutiledent peut avoir raison sur la culture et les revendications de
+        son peuple tout en étant parfaitement disposé à envoyer les PJ tuer ses
+        propres rivaux.</p>
+
+
+        <p>Les personnages doivent donc apprendre à distinguer <strong>ce qui
+        est vrai dans ce qu’il raconte</strong> de <strong>ce qu’il cherche à
+        leur faire faire avec cette vérité</strong>.</p>
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435080669
+      modifiedTime: 1792435080669
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!MT3R4SREpO2rYuUU.1jfrvotEDzycTjFK'
+  - _id: 0nn3UIPCwaJ91ufZ
+    name: Canon, adaptation et sources
+    type: text
+    sort: 700000
+    flags: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: |-
+        <h2>Canon et adaptation</h2>
+
+        <h3>Canon Warcraft / WoW Classic</h3>
+        <ul>
+          <li>Mutiledent / Mangletooth est un Huran Tranchecrin.</li>
+          <li>Il est retenu dans une cage au Camp Taurajo dans les Tarides.</li>
+          <li>Il pousse d’abord la Horde à affaiblir les Dos-hirsute.</li>
+          <li>Il se retourne ensuite contre Nak, Kuz et Lok Plaie-des-orcs après avoir été abandonné par les siens.</li>
+          <li>Il connaît la magie des Joyaux de sang et les bénédictions d’Agamaggan.</li>
+          <li>Il décrit les grandes zones de ronces comme des lieux sacrés pour les Hurans.</li>
+        </ul>
+
+        <h3>Adaptation Warbound</h3>
+        <ul>
+          <li>Mutiledent connaît personnellement une partie des Tranchecrins de Durotar.</li>
+          <li>Il peut expliquer leurs motivations locales, une fois celles-ci définies dans la campagne.</li>
+          <li>Il fonctionne comme intermédiaire culturel et informateur récurrent.</li>
+          <li>Il peut devenir une pièce importante de la politique interne hurane si les PJ renforcent son influence.</li>
+        </ul>
+
+        <h3>À ne pas figer sans décision de campagne</h3>
+        <ul>
+          <li>Le nom exact du chef local des Tranchecrins de Durotar.</li>
+          <li>Le lien hiérarchique précis entre ce chef et Mutiledent.</li>
+          <li>La raison exacte de l’empiètement vers Tranchecolline.</li>
+          <li>Le statut futur de Mutiledent après une éventuelle libération.</li>
+        </ul>
+
+        <h3>Sources de vérification</h3>
+        <ul>
+          <li><a href="https://www.wowhead.com/classic/fr/quest=878/tribus-en-guerre">Wowhead Classic — Tribus en guerre (878)</a></li>
+          <li><a href="https://www.wowhead.com/classic/fr/quest=879/une-trahison-de-lint%C3%A9rieur">Wowhead Classic — Une trahison de l’intérieur (879)</a></li>
+          <li><a href="https://www.wowhead.com/classic/fr/quest=5052/joyaux-de-sang-dagammagan">Wowhead Classic — Joyaux de sang d’Agammagan (5052)</a></li>
+          <li><a href="https://www.wowhead.com/classic/fr/npc=3430/mangletooth">Wowhead Classic — Mangletooth (3430)</a></li>
+        </ul>
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435080669
+      modifiedTime: 1792435080669
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!MT3R4SREpO2rYuUU.0nn3UIPCwaJ91ufZ'
+categories: []
+sort: 0
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792435080669
+  modifiedTime: 1792435080669
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource:
+    worldId: au-nom-de-la-horde-cof2
+    uuid: null
+    coreVersion: '14.367'
+    systemId: co2
+    systemVersion: 2.3.12
+_key: '!journal!MT3R4SREpO2rYuUU'

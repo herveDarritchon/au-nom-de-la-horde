@@ -1,0 +1,479 @@
+folder: OpnmIDlljCZlhyIc
+name: Accroches taurènes — Durotar
+flags:
+  campaign-codex:
+    type: ''
+  core:
+    sheetClass: ''
+_id: SemHzDwR5Jny8kSf
+pages:
+  - name: Utilisation MJ
+    type: text
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Accroches taurènes — Durotar</h1>
+
+        <p><strong>Fonction :</strong> faire entrer les Taurens dans la vie de
+        Durotar sans en faire une nouvelle faction territoriale.</p>
+
+        <p>Les Taurens apparaissent comme <strong>voyageurs, chasseurs, chamans,
+        artisans, émissaires, caravanes et membres de la Horde</strong>. Une
+        accroche doit créer une situation à laquelle les PJ peuvent choisir de
+        réagir, pas une mission obligatoire.</p>
+
+
+        <h2>Mode d'emploi</h2>
+
+        <ul>
+
+        <li>Expose <strong>1 accroche à la fois</strong>, exceptionnellement 2
+        si elles se croisent naturellement.</li>
+
+        <li>Commence par le <strong>symptôme visible</strong> : un disparu, une
+        cargaison, une dispute, une bête, une anomalie.</li>
+
+        <li>Ne donne pas immédiatement la vérité derrière la situation.</li>
+
+        <li>Si les PJ ignorent l'accroche, fais évoluer la situation hors
+        champ.</li>
+
+        <li>Ne relie pas automatiquement toutes les accroches au fil rouge de
+        Ragefire.</li>
+
+        <li>Les Taurens doivent élargir le monde de la Horde, pas voler la
+        vedette à Durotar.</li>
+
+        </ul>
+
+
+        <p><em>Ces situations sont des adaptations Warbound. Elles ne prétendent
+        pas décrire des événements canoniques de WoW Classic.</em></p>
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    flags: {}
+    _id: E7qcONNQHRMFLGFo
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435071565
+      modifiedTime: 1792435071565
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!SemHzDwR5Jny8kSf.E7qcONNQHRMFLGFo'
+  - name: 12 accroches par tribu
+    type: text
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>12 accroches par tribu</h1>
+
+        <p>Choisis une accroche selon le lieu, l'état de la campagne et les
+        intérêts des PJ. La colonne <strong>Ce qui se passe réellement</strong>
+        est réservée au MJ.</p>
+
+        <table>
+
+        <thead>
+
+        <tr><th>Tribu</th><th>Horde</th><th>Accroche / rumeur</th><th>Réalité
+        MJ</th><th>Lieu</th><th>Fonction</th></tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr><td><strong>Bloodhoof</strong></td><td
+        style="text-align:center">✅</td><td>« Cairne aurait envoyé quelqu'un
+        vérifier ce que les Orcs creusent sous Orgrimmar. »</td><td>Un émissaire
+        Bloodhoof accompagne simplement une mission diplomatique et logistique.
+        Il s'étonne toutefois de la quantité de matériel de soutènement envoyée
+        vers le nord.</td><td>Razor Hill → route d'Orgrimmar</td><td>Diplomatie
+        / logistique</td></tr><tr><td><strong>Hawkwind</strong></td><td
+        style="text-align:center">✅</td><td>« Un jeune Tauren parti seul de Camp
+        Narache aurait disparu dans les ravins. »</td><td>Le jeune Hawkwind
+        accomplit un rite personnel et refuse d'abandonner une bête blessée
+        qu'il piste. Il a cependant aperçu quelque chose qu'il n'aurait pas dû
+        voir.</td><td>Thunder Ridge / Drygulch</td><td>Recherche /
+        témoin</td></tr><tr><td><strong>Runetotem</strong></td><td
+        style="text-align:center">✅</td><td>« Un druide tauren prétend que les
+        animaux fuient le nord de Durotar. »</td><td>C'est vrai, mais il ignore
+        pourquoi. Certains prédateurs quittent leurs territoires et déplacent le
+        problème vers les routes de la Horde.</td><td>Thunder
+        Ridge</td><td>Nature /
+        symptôme</td></tr><tr><td><strong>Thunderhorn</strong></td><td
+        style="text-align:center">✅</td><td>« Les Thunderhorn disent qu'il n'y a
+        plus rien à chasser près des crêtes. »</td><td>Un pisteur a découvert
+        plusieurs migrations anormales. Son enquête peut conduire les PJ à des
+        traces de saboteurs… ou simplement à un phénomène naturel.</td><td>Route
+        nord-ouest</td><td>Pistage /
+        ambiguïté</td></tr><tr><td><strong>Wildmane</strong></td><td
+        style="text-align:center">✅</td><td>« Une wyverne est revenue seule avec
+        sa selle couverte de sang. »</td><td>Son cavalier Wildmane est vivant
+        mais bloqué dans un ravin. Avant sa chute, il avait repéré un passage
+        dissimulé utilisé par plusieurs inconnus.</td><td>Sentier vers Skull
+        Rock</td><td>Sauvetage /
+        exploration</td></tr><tr><td><strong>Ragetotem</strong></td><td
+        style="text-align:center">✅</td><td>« Les Taurens commencent à penser
+        que les Orcs ne savent plus tenir leurs propres routes. »</td><td>Un
+        vétéran Ragetotem propose d'organiser des patrouilles taurènes. Il veut
+        sincèrement aider, mais son intervention risque d'humilier certains
+        Grunts et d'envenimer les relations.</td><td>Razor Hill</td><td>Social /
+        tensions internes</td></tr><tr><td><strong>Dawnstrider</strong></td><td
+        style="text-align:center">✅</td><td>« Un chaman affirme qu'une caisse
+        d'outils chante quand on l'approche du feu. »</td><td>Certains éléments
+        métalliques destinés aux travaux du nord portent une résonance
+        élémentaire inhabituelle. Impossible encore de dire si c'est
+        dangereux.</td><td>Dépôt de Razor Hill</td><td>Mystère /
+        élémentaire</td></tr><tr><td><strong>Skychaser</strong></td><td
+        style="text-align:center">✅</td><td>« Les esprits ne répondraient plus
+        sur une vieille hauteur de Durotar. »</td><td>Ils répondent encore, mais
+        quelque chose brouille les signes. Le problème peut venir d'un phénomène
+        élémentaire, d'une perturbation souterraine ou d'une mauvaise
+        interprétation du chaman.</td><td>Hauteurs de Thunder
+        Ridge</td><td>Spirituel /
+        investigation</td></tr><tr><td><strong>Winterhoof</strong></td><td
+        style="text-align:center">✅</td><td>« Les Taurens achètent toutes les
+        plantes médicinales qu'ils trouvent. Il doit y avoir une épidémie à
+        Thunder Bluff. »</td><td>Faux. Une herboriste Winterhoof cherche à
+        comprendre pourquoi plusieurs plantes de Durotar développent des
+        propriétés inhabituelles.</td><td>Razor Hill / Sen'jin</td><td>Enquête /
+        plantes</td></tr><tr><td><strong>Stonehoof</strong></td><td
+        style="text-align:center">✅</td><td>« Une énorme commande de pièces de
+        forge vient de partir vers Orgrimmar. »</td><td>Vrai. Les Stonehoof ont
+        fabriqué des renforts, rails, coins, chaînes et outils destinés aux
+        travaux souterrains. Certaines pièces disparaissent en
+        route.</td><td>Fil rouge idéal</td><td>Fil rouge /
+        sabotage</td></tr><tr><td><strong>Stonespire</strong></td><td
+        style="text-align:center">✅⚠️</td><td>« Un vieux Tauren raconte que les
+        peuples qui creusent trop profondément finissent toujours par voler la
+        terre de quelqu'un. »</td><td>Un membre de la famille Stonespire
+        traverse Durotar. Son histoire de Bael Modan donne une lecture
+        troublante des travaux orcs sans qu'il sache quoi que ce soit du
+        véritable danger.</td><td>Razor Hill / feu de camp</td><td>Thème /
+        foreshadowing</td></tr><tr><td><strong>Grimtotem</strong></td><td
+        style="text-align:center">❌</td><td>« Les Grimtotem seraient déjà en
+        Durotar. »</td><td>Peut-être. Quelqu'un diffuse effectivement des
+        discours accusant Cairne d'avoir livré les Taurens à une Horde qui
+        éventre désormais les terres sacrées. Reste à déterminer qui parle
+        réellement au nom des Grimtotem.</td><td>Partout, surtout Razor
+        Hill</td><td>Politique / fausse piste</td></tr>
+
+        </tbody>
+
+        </table>
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 1000
+    flags: {}
+    _id: QBX7nrOhH5FAW7ZI
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435071565
+      modifiedTime: 1792435071565
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!SemHzDwR5Jny8kSf.QBX7nrOhH5FAW7ZI'
+  - name: 4 situations récurrentes
+    type: text
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>4 situations récurrentes recommandées</h1>
+
+        <p>Ces quatre fils peuvent revenir plusieurs fois au cours de la saison.
+        Ils donnent une présence taurène cohérente sans transformer Durotar en
+        catalogue de tribus.</p>
+
+
+        <h2>1. Le convoi Stonehoof</h2>
+
+        <p>Une caravane taurène arrive à Razor Hill avec des pièces métalliques
+        inhabituellement lourdes : poutrelles ferrées, chaînes, pointes de
+        forage et ferrures de soutènement.</p>
+
+        <p>Les Stonehoof livrent simplement du matériel commandé par la Horde.
+        Quelques jours plus tard, une partie du chargement disparaît.</p>
+
+        <p><strong>Indice essentiel :</strong> les voleurs ont laissé armes,
+        nourriture, argent et marchandises ordinaires. Ils ont pris uniquement
+        ce qui sert à <strong>creuser, renforcer ou soutenir des
+        galeries</strong>.</p>
+
+        <p><strong>Ce que les PJ peuvent faire :</strong> inspecter le convoi,
+        pister les voleurs, interroger les convoyeurs, tendre une embuscade,
+        suivre les commandes ou ignorer l'incident.</p>
+
+        <p><strong>Si personne n'agit :</strong> une autre livraison technique
+        est ciblée plus tard et la Horde renforce les escortes.</p>
+
+        <p><strong>Fonction de campagne :</strong> fil rouge direct, sans
+        révéler pourquoi les travaux sont sabotés.</p>
+
+
+        <h2>2. Les bêtes quittent les crêtes</h2>
+
+        <p>Un chasseur <strong>Thunderhorn</strong> et un druide
+        <strong>Runetotem</strong> constatent séparément des migrations
+        inhabituelles au nord.</p>
+
+        <p>Ils sont d'accord sur le symptôme mais pas sur la cause : le
+        Thunderhorn soupçonne un prédateur, des chasseurs ou une présence
+        hostile ; le Runetotem parle d'un territoire perturbé.</p>
+
+        <p>Les conséquences deviennent concrètes autour de Razor Hill :
+        scorpides, sangliers et autres créatures apparaissent près des routes et
+        des convois.</p>
+
+        <p><strong>Ce que les PJ peuvent faire :</strong> tuer les bêtes
+        déplacées, les repousser, remonter leur piste, comparer les observations
+        des deux Taurens ou chercher une cause commune.</p>
+
+        <p><strong>Si personne n'agit :</strong> la Horde organise des battues
+        qui règlent temporairement le symptôme et aggravent potentiellement le
+        déséquilibre.</p>
+
+        <p><strong>Fonction de campagne :</strong> faire arriver les
+        conséquences avant l'explication.</p>
+
+
+        <h2>3. Le vieux Stonespire</h2>
+
+        <p>Un vieux Tauren fait halte à Razor Hill sur la route d'Orgrimmar. Le
+        soir, quelqu'un vante les nouveaux tunnels, carrières et travaux de la
+        Horde.</p>
+
+        <blockquote>« Les nains aussi appelaient cela construire. »</blockquote>
+
+        <p>Le Tauren raconte alors ce que sa famille a connu autour de Bael
+        Modan. Il n'est ni prophète ni opposant secret au projet d'Orgrimmar et
+        ne sait rien de Ragefire.</p>
+
+        <p><strong>Ce que les PJ peuvent faire :</strong> discuter avec lui,
+        rejeter sa comparaison, chercher à comprendre Bael Modan, confronter ses
+        paroles à celles d'un ingénieur ou simplement garder ce récit en
+        mémoire.</p>
+
+        <p><strong>Fonction de campagne :</strong> poser la question de la
+        terre, de l'exploitation et de la construction d'un foyer sans livrer
+        d'indice factuel sur le climax.</p>
+
+
+        <h2>4. Les paroles des Grimtotem</h2>
+
+        <p>Des propos hostiles aux travaux et à l'alliance de Cairne avec Thrall
+        circulent à Razor Hill :</p>
+
+        <blockquote>« Même certains Taurens disent que Cairne s'est trompé en
+        rejoignant Thrall. »</blockquote>
+
+        <blockquote>« Les Orcs creusent sous leur propre capitale comme les
+        nains creusent partout où ils passent. »</blockquote>
+
+        <blockquote>« Les esprits finiront par leur répondre. »</blockquote>
+
+        <p>Beaucoup concluent immédiatement qu'un <strong>Grimtotem</strong> se
+        trouve à Durotar. Il n'existe pourtant aucune preuve.</p>
+
+        <p><strong>Vérités possibles :</strong> véritable agent Grimtotem ;
+        Tauren loyal à la Horde mais critique ; saboteur utilisant leur
+        réputation ; simple rumeur devenue certitude collective.</p>
+
+        <p><strong>Fonction de campagne :</strong> fausse piste politique et
+        révélateur des préjugés internes à la Horde.</p>
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 2000
+    flags: {}
+    _id: CrLxmrzuD2rjSWhn
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435071565
+      modifiedTime: 1792435071565
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!SemHzDwR5Jny8kSf.CrLxmrzuD2rjSWhn'
+  - name: Activation et évolution
+    type: text
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Faire vivre les accroches</h1>
+
+
+        <h2>Quand déclencher une accroche ?</h2>
+
+        <ul>
+
+        <li><strong>Retour à Razor Hill :</strong> une conséquence ou un nouveau
+        voyageur est arrivé pendant l'absence des PJ.</li>
+
+        <li><strong>Voyage :</strong> l'accroche est rencontrée directement sur
+        une route.</li>
+
+        <li><strong>Temps calme :</strong> un Tauren donne un autre regard sur
+        ce que les PJ viennent de vivre.</li>
+
+        <li><strong>Après une décision :</strong> utiliser une accroche comme
+        conséquence indirecte d'un choix antérieur.</li>
+
+        </ul>
+
+
+        <h2>Structure rapide</h2>
+
+        <ol>
+
+        <li><strong>Signal :</strong> ce que les PJ voient ou entendent.</li>
+
+        <li><strong>Incertitude :</strong> deux explications au moins restent
+        plausibles.</li>
+
+        <li><strong>Choix :</strong> les PJ décident s'ils s'impliquent et
+        comment.</li>
+
+        <li><strong>Réaction :</strong> PNJ, tribus et Horde agissent en
+        retour.</li>
+
+        <li><strong>Trace :</strong> la situation modifie une relation, une
+        route, une information ou l'état du territoire.</li>
+
+        </ol>
+
+
+        <h2>Ne pas faire</h2>
+
+        <ul>
+
+        <li>Transformer chaque Tauren en donneur de quête.</li>
+
+        <li>Faire de chaque phénomène un présage de Ragefire.</li>
+
+        <li>Présenter une tribu comme monolithique : un individu peut avoir sa
+        propre opinion.</li>
+
+        <li>Résoudre les tensions Horde/Taurens par un simple jet social
+        unique.</li>
+
+        <li>Faire des Grimtotem les coupables par défaut dès qu'une situation
+        est hostile.</li>
+
+        </ul>
+
+
+        <h2>Mini-front tauren recommandé</h2>
+
+        <table>
+
+        <thead><tr><th>Fil</th><th>Rôle</th></tr></thead>
+
+        <tbody>
+
+        <tr><td><strong>Stonehoof</strong></td><td>Matériel, travaux et fil
+        rouge.</td></tr>
+
+        <tr><td><strong>Thunderhorn / Runetotem</strong></td><td>Environnement,
+        faune et symptômes.</td></tr>
+
+        <tr><td><strong>Stonespire</strong></td><td>Thème de la terre et de
+        l'exploitation.</td></tr>
+
+        <tr><td><strong>Grimtotem</strong></td><td>Tension politique, soupçon et
+        fausse piste.</td></tr>
+
+        </tbody>
+
+        </table>
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 3000
+    flags: {}
+    _id: lue0MVk8HRyXojP9
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435071565
+      modifiedTime: 1792435071565
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!SemHzDwR5Jny8kSf.lue0MVk8HRyXojP9'
+categories: []
+sort: 100000
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792435071565
+  modifiedTime: 1792435071565
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource:
+    worldId: au-nom-de-la-horde-cof2
+    uuid: JournalEntry.cpqnnOUYZVPccdrE
+    coreVersion: '14.367'
+    systemId: co2
+    systemVersion: 2.3.12
+_key: '!journal!SemHzDwR5Jny8kSf'

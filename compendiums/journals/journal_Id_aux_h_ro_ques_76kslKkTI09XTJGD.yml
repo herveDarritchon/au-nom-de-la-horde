@@ -1,4 +1,4 @@
-folder: null
+folder: DiweRaOz1zGF7Ap6
 name: Idéaux héroïques
 flags:
   campaign-codex:
@@ -188,8 +188,8 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1791788393930
-      modifiedTime: 1791788393930
+      createdTime: 1792435075989
+      modifiedTime: 1792435075989
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -296,8 +296,8 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1791788393930
-      modifiedTime: 1791788393930
+      createdTime: 1792435075989
+      modifiedTime: 1792435075989
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -431,8 +431,8 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1791788393930
-      modifiedTime: 1791788393930
+      createdTime: 1792435075989
+      modifiedTime: 1792435075989
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -570,8 +570,8 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1791788393930
-      modifiedTime: 1791788393930
+      createdTime: 1792435075989
+      modifiedTime: 1792435075989
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -689,8 +689,8 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1791788393930
-      modifiedTime: 1791788393930
+      createdTime: 1792435075989
+      modifiedTime: 1792435075989
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -814,8 +814,8 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1791788393930
-      modifiedTime: 1791788393930
+      createdTime: 1792435075989
+      modifiedTime: 1792435075989
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -824,6 +824,7 @@ pages:
       default: -1
     _key: '!journal.pages!76kslKkTI09XTJGD.7263bb83d93c9c94'
 categories: []
+sort: 100000
 ownership:
   default: 0
   TjbWhMczNyKieD8D: 3
@@ -831,11 +832,10 @@ _stats:
   coreVersion: '14.367'
   systemId: co2
   systemVersion: 2.3.12
-  createdTime: 1791788393930
-  modifiedTime: 1791788393930
+  createdTime: 1792435075989
+  modifiedTime: 1792435075989
   lastModifiedBy: TjbWhMczNyKieD8D
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-sort: 0
 _key: '!journal!76kslKkTI09XTJGD'

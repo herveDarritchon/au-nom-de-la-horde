@@ -1,4 +1,4 @@
-folder: null
+folder: DiweRaOz1zGF7Ap6
 name: Travers
 flags:
   campaign-codex:
@@ -215,8 +215,8 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1791788391559
-      modifiedTime: 1791788391559
+      createdTime: 1792435075999
+      modifiedTime: 1792435075999
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -348,8 +348,8 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1791788391559
-      modifiedTime: 1791788391559
+      createdTime: 1792435075999
+      modifiedTime: 1792435075999
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -529,8 +529,8 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1791788391559
-      modifiedTime: 1791788391559
+      createdTime: 1792435075999
+      modifiedTime: 1792435075999
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -613,8 +613,8 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1791788391559
-      modifiedTime: 1791788391559
+      createdTime: 1792435075999
+      modifiedTime: 1792435075999
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -792,8 +792,8 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1791788391559
-      modifiedTime: 1791788391559
+      createdTime: 1792435075999
+      modifiedTime: 1792435075999
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -862,8 +862,8 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1791788391559
-      modifiedTime: 1791788391559
+      createdTime: 1792435075999
+      modifiedTime: 1792435075999
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -1023,8 +1023,8 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1791788391559
-      modifiedTime: 1791788391559
+      createdTime: 1792435075999
+      modifiedTime: 1792435075999
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -1033,6 +1033,7 @@ pages:
       default: -1
     _key: '!journal.pages!Nm4ZgYPSueiJkq04.77d2b7c6a8be4f6c'
 categories: []
+sort: 300000
 ownership:
   default: 0
   TjbWhMczNyKieD8D: 3
@@ -1040,11 +1041,15 @@ _stats:
   coreVersion: '14.367'
   systemId: co2
   systemVersion: 2.3.12
-  createdTime: 1791788391559
-  modifiedTime: 1791788391559
+  createdTime: 1792435075999
+  modifiedTime: 1792435075999
   lastModifiedBy: TjbWhMczNyKieD8D
   compendiumSource: null
   duplicateSource: null
-  exportSource: null
-sort: 0
+  exportSource:
+    worldId: au-nom-de-la-horde-cof2
+    uuid: JournalEntry.Nm4ZgYPSueiJkq04
+    coreVersion: '14.367'
+    systemId: co2
+    systemVersion: 2.3.12
 _key: '!journal!Nm4ZgYPSueiJkq04'

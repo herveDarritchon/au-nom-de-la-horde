@@ -1,0 +1,2493 @@
+folder: ZllJcfY2lGCvQAap
+name: Clans trolls — identités et traditions
+flags:
+  campaign-codex:
+    type: ''
+  core:
+    sheetClass: ''
+_id: rX27YUxJWed5pb9W
+pages:
+  - name: Cadre Warbound
+    type: text
+    text:
+      format: 1
+      content: >-
+        <h1>WARBOUND — Les clans trolls d’Azeroth</h1>
+
+        <h2>Guide de lore et d’utilisation en campagne</h2>
+
+        <blockquote>
+
+        <p><strong>Périmètre : WoW Vanilla / Classic.</strong><br>
+
+        Ce document privilégie l’état du lore correspondant au <em>World of
+        Warcraft</em> original, en particulier l’ancien <strong>Troll
+        Compendium</strong> de Blizzard et le contenu Classic. Les évolutions
+        introduites dans les extensions ultérieures ne sont pas utilisées pour
+        définir l’état du monde de Warbound, sauf mention explicite.</p>
+
+        </blockquote>
+
+        <blockquote>
+
+        <p><strong>Règle Warbound — Personnages joueurs</strong><br>
+
+        <strong>Seuls les trolls Sombrelance (Darkspear) sont
+        jouables.</strong><br>
+
+        Dans le cadre Classic retenu pour la campagne, les Sombrelance
+        constituent la tribu troll pleinement intégrée à la Horde de Thrall. Les
+        Revantusk entretiennent un pacte d’amitié et d’assistance avec la Horde,
+        mais demeurent une tribu distincte : ils peuvent être alliés, contacts
+        ou PNJ, pas une option de PJ.</p>
+
+        </blockquote>
+
+        <hr>
+      markdown: >-
+        # WARBOUND — Les clans trolls d’Azeroth
+
+        ## Guide de lore et d’utilisation en campagne
+
+
+        > **Périmètre : WoW Vanilla / Classic.**  
+
+        > Ce document privilégie l’état du lore correspondant au *World of
+        Warcraft* original, en particulier l’ancien **Troll Compendium** de
+        Blizzard et le contenu Classic. Les évolutions introduites dans les
+        extensions ultérieures ne sont pas utilisées pour définir l’état du
+        monde de Warbound, sauf mention explicite.
+
+
+        > **Règle Warbound — Personnages joueurs**  
+
+        > **Seuls les trolls Sombrelance (Darkspear) sont jouables.**  
+
+        > Dans le cadre Classic retenu pour la campagne, les Sombrelance
+        constituent la tribu troll pleinement intégrée à la Horde de Thrall. Les
+        Revantusk entretiennent un pacte d’amitié et d’assistance avec la Horde,
+        mais demeurent une tribu distincte : ils peuvent être alliés, contacts
+        ou PNJ, pas une option de PJ.
+
+
+        ---
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 0
+    flags: {}
+    system: {}
+    _id: ddsyhPZRR36RXU3D
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435072911
+      modifiedTime: 1792435072911
+      lastModifiedBy: TjbWhMczNyKieD8D
+    category: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!rX27YUxJWed5pb9W.ddsyhPZRR36RXU3D'
+  - name: 1 — Terminologie et socle culturel
+    type: text
+    text:
+      format: 1
+      content: >-
+        <h1>1. Terminologie : « clan » ou « tribu » ?</h1>
+
+        <p>Les sources Warcraft utilisent principalement le terme anglais
+        <strong>tribe</strong>, traduit ici par <strong>tribu</strong>. Le mot
+        <strong>clan</strong> apparaît parfois dans les jeux ou adaptations,
+        mais il vaut mieux considérer que, chez les trolls, l’unité politique et
+        culturelle fondamentale est la <strong>tribu</strong>.</p>
+
+        <p>Une tribu troll n’est pas seulement une origine géographique. Elle
+        porte généralement :</p>
+
+        <ul>
+
+        <li>un territoire ;</li>
+
+        <li>une mémoire historique ;</li>
+
+        <li>des ennemis héréditaires ;</li>
+
+        <li>des pratiques religieuses ;</li>
+
+        <li>des loa particulièrement honorés ;</li>
+
+        <li>des traditions propres ;</li>
+
+        <li>une conception de ce que les trolls ont perdu et de ce qu’ils
+        doivent reconquérir.</li>
+
+        </ul>
+
+        <p>La meilleure manière de différencier les tribus en jeu n’est donc pas
+        de changer uniquement leur apparence, mais de leur donner une
+        <strong>blessure historique et un objectif collectif</strong>.</p>
+
+        <hr>
+
+        <h1>2. Ce qui relie les peuples trolls</h1>
+
+        <p>Les trolls sont l’un des peuples les plus anciens d’Azeroth. Malgré
+        leur fragmentation politique, plusieurs traits culturels se retrouvent
+        dans de nombreuses tribus.</p>
+
+        <h2>Les loa</h2>
+
+        <p>La spiritualité troll s’organise largement autour des
+        <strong>loa</strong> : esprits, puissances, ancêtres ou divinités avec
+        lesquels les trolls entretiennent des relations de culte, de pacte, de
+        dette ou d’échange.</p>
+
+        <p>Toutes les tribus ne servent pas les mêmes loa et une même puissance
+        peut être comprise différemment selon les peuples.</p>
+
+        <p>Pour Warbound, un loa ne doit pas être traité comme une simple «
+        divinité de classe ». Il peut être :</p>
+
+        <ul>
+
+        <li>protecteur d’une lignée ;</li>
+
+        <li>maître d’un territoire ;</li>
+
+        <li>puissance à satisfaire ;</li>
+
+        <li>ancêtre consulté ;</li>
+
+        <li>patron d’un rite ;</li>
+
+        <li>force dangereuse dont il faut respecter les interdits.</li>
+
+        </ul>
+
+        <h2>Voodoo, sorcellerie et traditions spirituelles</h2>
+
+        <p>Le <strong>voodoo</strong> est très répandu chez les trolls, sans
+        être universel. Les savoirs rituels sont souvent jalousement conservés
+        par les tribus. Chamans, prêtres, sorciers-docteurs et chasseurs des
+        ombres peuvent donc appartenir à des traditions différentes tout en
+        partageant un vocabulaire culturel commun.</p>
+
+        <h2>Régénération</h2>
+
+        <p>Les trolls possèdent une capacité de régénération exceptionnelle. Le
+        <em>Troll Compendium</em> en fait un trait biologique général du peuple
+        troll, et <em>Champions of Azeroth</em> en fait également un élément
+        mécanique central de la race.</p>
+
+        <h2>Cannibalisme</h2>
+
+        <p>Le cannibalisme existe chez de nombreuses tribus, mais <strong>il
+        n’est ni universel ni obligatoire</strong>.</p>
+
+        <p>Le <em>Troll Compendium</em> précise notamment que :</p>
+
+        <ul>
+
+        <li>les Zandalar ne le pratiquent pas ;</li>
+
+        <li>les Revantusk ne le pratiquent pas ;</li>
+
+        <li>les Sombrelance le pratiquaient autrefois mais l’ont
+        <strong>officiellement abandonné après leur intégration à la
+        Horde</strong>.</li>
+
+        </ul>
+
+        <p>Pour Warbound, ce point est important : un PJ Sombrelance n’est pas
+        supposé pratiquer le cannibalisme sous prétexte qu’il est troll.</p>
+
+        <hr>
+      markdown: >-
+        # 1. Terminologie : « clan » ou « tribu » ?
+
+
+        Les sources Warcraft utilisent principalement le terme anglais
+        **tribe**, traduit ici par **tribu**. Le mot **clan** apparaît parfois
+        dans les jeux ou adaptations, mais il vaut mieux considérer que, chez
+        les trolls, l’unité politique et culturelle fondamentale est la
+        **tribu**.
+
+
+        Une tribu troll n’est pas seulement une origine géographique. Elle porte
+        généralement :
+
+
+        - un territoire ;
+
+        - une mémoire historique ;
+
+        - des ennemis héréditaires ;
+
+        - des pratiques religieuses ;
+
+        - des loa particulièrement honorés ;
+
+        - des traditions propres ;
+
+        - une conception de ce que les trolls ont perdu et de ce qu’ils doivent
+        reconquérir.
+
+
+        La meilleure manière de différencier les tribus en jeu n’est donc pas de
+        changer uniquement leur apparence, mais de leur donner une **blessure
+        historique et un objectif collectif**.
+
+
+        ---
+
+
+        # 2. Ce qui relie les peuples trolls
+
+
+        Les trolls sont l’un des peuples les plus anciens d’Azeroth. Malgré leur
+        fragmentation politique, plusieurs traits culturels se retrouvent dans
+        de nombreuses tribus.
+
+
+        ## Les loa
+
+
+        La spiritualité troll s’organise largement autour des **loa** : esprits,
+        puissances, ancêtres ou divinités avec lesquels les trolls entretiennent
+        des relations de culte, de pacte, de dette ou d’échange.
+
+
+        Toutes les tribus ne servent pas les mêmes loa et une même puissance
+        peut être comprise différemment selon les peuples.
+
+
+        Pour Warbound, un loa ne doit pas être traité comme une simple «
+        divinité de classe ». Il peut être :
+
+
+        - protecteur d’une lignée ;
+
+        - maître d’un territoire ;
+
+        - puissance à satisfaire ;
+
+        - ancêtre consulté ;
+
+        - patron d’un rite ;
+
+        - force dangereuse dont il faut respecter les interdits.
+
+
+        ## Voodoo, sorcellerie et traditions spirituelles
+
+
+        Le **voodoo** est très répandu chez les trolls, sans être universel. Les
+        savoirs rituels sont souvent jalousement conservés par les tribus.
+        Chamans, prêtres, sorciers-docteurs et chasseurs des ombres peuvent donc
+        appartenir à des traditions différentes tout en partageant un
+        vocabulaire culturel commun.
+
+
+        ## Régénération
+
+
+        Les trolls possèdent une capacité de régénération exceptionnelle. Le
+        *Troll Compendium* en fait un trait biologique général du peuple troll,
+        et *Champions of Azeroth* en fait également un élément mécanique central
+        de la race.
+
+
+        ## Cannibalisme
+
+
+        Le cannibalisme existe chez de nombreuses tribus, mais **il n’est ni
+        universel ni obligatoire**.
+
+
+        Le *Troll Compendium* précise notamment que :
+
+
+        - les Zandalar ne le pratiquent pas ;
+
+        - les Revantusk ne le pratiquent pas ;
+
+        - les Sombrelance le pratiquaient autrefois mais l’ont **officiellement
+        abandonné après leur intégration à la Horde**.
+
+
+        Pour Warbound, ce point est important : un PJ Sombrelance n’est pas
+        supposé pratiquer le cannibalisme sous prétexte qu’il est troll.
+
+
+        ---
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 100000
+    flags: {}
+    system: {}
+    _id: 47DRNl6TPqdVRIwJ
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435072911
+      modifiedTime: 1792435072911
+      lastModifiedBy: TjbWhMczNyKieD8D
+    category: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!rX27YUxJWed5pb9W.47DRNl6TPqdVRIwJ'
+  - name: 2 — Panorama des tribus
+    type: text
+    text:
+      format: 1
+      content: |-
+        <h1>3. Panorama des principales tribus à l’époque Classic</h1>
+        <table>
+        <thead>
+        <tr>
+          <th>Famille</th>
+          <th>Tribu / faction</th>
+          <th>Implantation Classic</th>
+          <th>Rapport à la Horde de Thrall</th>
+          <th>Idée directrice</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td><strong>Jungle</strong></td>
+          <td><strong>Sombrelance / Darkspear</strong></td>
+          <td>Durotar, Sen’jin, Îles de l’Écho</td>
+          <td><strong>Membre de la Horde — jouable</strong></td>
+          <td>Exil, survie, nouveau foyer</td>
+        </tr>
+        <tr>
+          <td>Jungle</td>
+          <td>Bloodscalp</td>
+          <td>Nord-ouest de Strangleronce</td>
+          <td>Hostile</td>
+          <td>Défendre les terres prises après la chute gurubashi</td>
+        </tr>
+        <tr>
+          <td>Jungle</td>
+          <td>Skullsplitter</td>
+          <td>Centre de Strangleronce</td>
+          <td>Hostile</td>
+          <td>Défense territoriale et rivalité tribale</td>
+        </tr>
+        <tr>
+          <td>Jungle</td>
+          <td>Gurubashi</td>
+          <td>Zul’Gurub</td>
+          <td>Hostile / Hakkar</td>
+          <td>Héritage d’un empire déchu</td>
+        </tr>
+        <tr>
+          <td>Jungle</td>
+          <td>Shatterspear</td>
+          <td>Nord-est de Sombrivage</td>
+          <td>Indépendant à l’époque Classic</td>
+          <td>Isolement et préservation</td>
+        </tr>
+        <tr>
+          <td>Culte troll</td>
+          <td>Hakkari / Atal’ai</td>
+          <td>Zul’Gurub, Temple d’Atal’Hakkar</td>
+          <td>Hostile</td>
+          <td>Restaurer Hakkar</td>
+        </tr>
+        <tr>
+          <td><strong>Forêt</strong></td>
+          <td>Amani</td>
+          <td>Zul’Aman, frontières de Quel’Thalas</td>
+          <td>Hostile / ancienne Horde</td>
+          <td>Reprendre les terres perdues face aux Elfes</td>
+        </tr>
+        <tr>
+          <td>Forêt</td>
+          <td><strong>Revantusk</strong></td>
+          <td>Hinterlands</td>
+          <td><strong>Allié / pacte avec la Horde</strong></td>
+          <td>Survivre par pragmatisme et alliances</td>
+        </tr>
+        <tr>
+          <td>Forêt</td>
+          <td>Vilebranch</td>
+          <td>Hinterlands, Jintha’Alor</td>
+          <td>Hostile</td>
+          <td>Domination régionale, sacrifices, guerre aux Revantusk</td>
+        </tr>
+        <tr>
+          <td>Forêt</td>
+          <td>Witherbark</td>
+          <td>Hinterlands, Arathi</td>
+          <td>Hostile</td>
+          <td>Défense territoriale et revanche</td>
+        </tr>
+        <tr>
+          <td>Forêt</td>
+          <td>Mossflayer</td>
+          <td>Maleterres de l’Est</td>
+          <td>Hostile</td>
+          <td>Reconquête opportuniste de terres anciennes</td>
+        </tr>
+        <tr>
+          <td>Forêt</td>
+          <td>Firetree</td>
+          <td>Pic Rochenoire</td>
+          <td><strong>Horde noire</strong></td>
+          <td>Continuer la Deuxième Guerre</td>
+        </tr>
+        <tr>
+          <td>Forêt</td>
+          <td>Smolderthorn</td>
+          <td>Pic Rochenoire</td>
+          <td><strong>Horde noire</strong></td>
+          <td>Fidélité à Rend et nostalgie guerrière</td>
+        </tr>
+        <tr>
+          <td><strong>Glace</strong></td>
+          <td>Frostmane</td>
+          <td>Dun Morogh</td>
+          <td>Hostile</td>
+          <td>Lutte contre les Nains</td>
+        </tr>
+        <tr>
+          <td>Glace</td>
+          <td>Winterax</td>
+          <td>Anciennement Vallée d’Alterac</td>
+          <td>Indépendant</td>
+          <td>Défense d’un territoire perdu</td>
+        </tr>
+        <tr>
+          <td>Glace</td>
+          <td>Drakkari</td>
+          <td>Zul’Drak, Norfendre</td>
+          <td>Indépendant</td>
+          <td>Puissance guerrière et survie face au Fléau</td>
+        </tr>
+        <tr>
+          <td><strong>Sable</strong></td>
+          <td>Sandfury / Farraki</td>
+          <td>Zul’Farrak, Tanaris</td>
+          <td>Hostile / indépendant</td>
+          <td>Défendre les restes d’une civilisation isolée</td>
+        </tr>
+        <tr>
+          <td><strong>Sombre</strong></td>
+          <td>Shadowtooth</td>
+          <td>Mont Hyjal</td>
+          <td>Indépendant, ancien allié de circonstance</td>
+          <td>Loa sauvages et protection d’Hyjal</td>
+        </tr>
+        <tr>
+          <td><strong>Zandalar</strong></td>
+          <td>Zandalar Tribe</td>
+          <td>Zandalar ; Yojamba en Classic</td>
+          <td>Indépendant / coopère contre Hakkar</td>
+          <td>Mémoire, autorité religieuse et unité troll</td>
+        </tr>
+        </tbody>
+        </table>
+        <hr>
+      markdown: >-
+        # 3. Panorama des principales tribus à l’époque Classic
+
+
+        | Famille | Tribu / faction | Implantation Classic | Rapport à la Horde
+        de Thrall | Idée directrice |
+
+        |---|---|---|---|---|
+
+        | **Jungle** | **Sombrelance / Darkspear** | Durotar, Sen’jin, Îles de
+        l’Écho | **Membre de la Horde — jouable** | Exil, survie, nouveau foyer
+        |
+
+        | Jungle | Bloodscalp | Nord-ouest de Strangleronce | Hostile | Défendre
+        les terres prises après la chute gurubashi |
+
+        | Jungle | Skullsplitter | Centre de Strangleronce | Hostile | Défense
+        territoriale et rivalité tribale |
+
+        | Jungle | Gurubashi | Zul’Gurub | Hostile / Hakkar | Héritage d’un
+        empire déchu |
+
+        | Jungle | Shatterspear | Nord-est de Sombrivage | Indépendant à
+        l’époque Classic | Isolement et préservation |
+
+        | Culte troll | Hakkari / Atal’ai | Zul’Gurub, Temple d’Atal’Hakkar |
+        Hostile | Restaurer Hakkar |
+
+        | **Forêt** | Amani | Zul’Aman, frontières de Quel’Thalas | Hostile /
+        ancienne Horde | Reprendre les terres perdues face aux Elfes |
+
+        | Forêt | **Revantusk** | Hinterlands | **Allié / pacte avec la Horde**
+        | Survivre par pragmatisme et alliances |
+
+        | Forêt | Vilebranch | Hinterlands, Jintha’Alor | Hostile | Domination
+        régionale, sacrifices, guerre aux Revantusk |
+
+        | Forêt | Witherbark | Hinterlands, Arathi | Hostile | Défense
+        territoriale et revanche |
+
+        | Forêt | Mossflayer | Maleterres de l’Est | Hostile | Reconquête
+        opportuniste de terres anciennes |
+
+        | Forêt | Firetree | Pic Rochenoire | **Horde noire** | Continuer la
+        Deuxième Guerre |
+
+        | Forêt | Smolderthorn | Pic Rochenoire | **Horde noire** | Fidélité à
+        Rend et nostalgie guerrière |
+
+        | **Glace** | Frostmane | Dun Morogh | Hostile | Lutte contre les Nains
+        |
+
+        | Glace | Winterax | Anciennement Vallée d’Alterac | Indépendant |
+        Défense d’un territoire perdu |
+
+        | Glace | Drakkari | Zul’Drak, Norfendre | Indépendant | Puissance
+        guerrière et survie face au Fléau |
+
+        | **Sable** | Sandfury / Farraki | Zul’Farrak, Tanaris | Hostile /
+        indépendant | Défendre les restes d’une civilisation isolée |
+
+        | **Sombre** | Shadowtooth | Mont Hyjal | Indépendant, ancien allié de
+        circonstance | Loa sauvages et protection d’Hyjal |
+
+        | **Zandalar** | Zandalar Tribe | Zandalar ; Yojamba en Classic |
+        Indépendant / coopère contre Hakkar | Mémoire, autorité religieuse et
+        unité troll |
+
+
+        ---
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 200000
+    flags: {}
+    system: {}
+    _id: oxbvF2ycTklGPVzt
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435072911
+      modifiedTime: 1792435072911
+      lastModifiedBy: TjbWhMczNyKieD8D
+    category: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!rX27YUxJWed5pb9W.oxbvF2ycTklGPVzt'
+  - name: 3 — Trolls des jungles
+    type: text
+    text:
+      format: 1
+      content: >-
+        <h1>4. Les trolls des jungles</h1><p>Les trolls des jungles sont
+        particulièrement importants pour un PJ Sombrelance, car les principales
+        tribus de Strangleronce partagent un héritage lié à l’ancien Empire
+        gurubashi.</p><h2>Sombrelance / Darkspear — la tribu
+        jouable</h2><p><strong>Implantation :</strong> Durotar, village de
+        Sen’jin, Îles de l’Écho.<br><strong>Chef à l’époque Classic :</strong>
+        Vol’jin.<br><strong>Statut Warbound :</strong> <strong>seule tribu troll
+        jouable.</strong></p><p>Les Sombrelance descendent de l’ancien ensemble
+        gurubashi. Plus petits et moins puissants que plusieurs tribus rivales,
+        ils furent finalement chassés de Strangleronce et contraints à
+        l’exil.</p><p>La rencontre avec Thrall change leur histoire. Sen’jin
+        s’allie aux Orcs lorsque son peuple est menacé ; après sa mort, Vol’jin
+        conduit les survivants au sein de la nouvelle Horde.</p><p>En Durotar,
+        les Sombrelance tentent d’établir un foyer durable. Leur première
+        installation sur les Îles de l’Écho est compromise par la trahison du
+        sorcier-docteur <strong>Zalazane</strong>, qui asservit une partie de la
+        tribu. Les trolls libres se replient sur le continent et fondent le
+        village de Sen’jin.</p><h3>Ce qu’ils veulent</h3><ul><li><p>préserver la
+        tribu ;</p></li><li><p>conserver leur identité au sein de la Horde
+        ;</p></li><li><p>défendre Durotar avec leurs nouveaux alliés
+        ;</p></li><li><p>libérer les Sombrelance soumis à Zalazane
+        ;</p></li><li><p>reprendre les Îles de l’Écho
+        ;</p></li><li><p>transmettre les traditions sans revenir nécessairement
+        à toutes les anciennes pratiques.</p></li></ul><h3>Rapport aux autres
+        trolls</h3><p>Les Sombrelance n’ont pas oublié que leurs cousins de
+        Strangleronce les ont chassés. Le <em>Troll Compendium</em> indique
+        qu’ils entretiennent une hostilité particulière envers les autres trolls
+        des jungles.</p><p>Pour un PJ, cela produit une identité intéressante :
+        <strong>être troll ne signifie pas automatiquement considérer les autres
+        trolls comme des
+        frères</strong>.</p><hr><h2>Bloodscalp</h2><p><strong>Lieu :</strong>
+        nord-ouest de Strangleronce.<br><strong>Chef Classic :</strong>
+        Gan’zulah.<br><strong>Rapport aux Sombrelance :</strong> mépris et
+        hostilité.</p><p>Après l’éclatement du pouvoir gurubashi, les Bloodscalp
+        s’installent dans le nord-ouest de la jungle et défendent violemment
+        leurs territoires. Ils sont également en conflit avec les
+        Skullsplitter.</p><h3>Moteur narratif</h3><p><strong>« Cette terre est à
+        nous parce que nous avons réussi à la garder. »</strong></p><p>Ils
+        peuvent considérer les Sombrelance comme des faibles qui ont abandonné
+        Strangleronce, puis leurs traditions, pour se mettre sous la protection
+        des Orcs.</p><hr><h2>Skullsplitter</h2><p><strong>Lieu :</strong> centre
+        de Strangleronce.<br><strong>Chef Classic :</strong> Ana’thek le
+        Cruel.<br><strong>Rapport aux Sombrelance :</strong> mépris et
+        hostilité.</p><p>Les Skullsplitter partagent avec les Bloodscalp une
+        culture de défense territoriale agressive et une rivalité ancienne pour
+        le contrôle des jungles.</p><h3>Moteur narratif</h3><p><strong>« Nous
+        avons survécu parce que nous n’avons jamais cédé notre place.
+        »</strong></p><p>Un Skullsplitter n’a aucune raison de voir la Horde
+        comme une réussite Sombrelance. À ses yeux, elle peut être la preuve que
+        les exilés ont remplacé leur tribu par une puissance
+        étrangère.</p><hr><h2>Gurubashi</h2><p><strong>Lieu :</strong>
+        Zul’Gurub.<br><strong>Importance :</strong> héritiers directs du cœur de
+        l’ancien Empire gurubashi.</p><p>Les Gurubashi portent le poids d’un
+        passé impérial. Après la Fracture, leur civilisation affaiblie chercha
+        l’aide de <strong>Hakkar l’Écorcheur d’âmes</strong>, dont la puissance
+        exigeait des sacrifices de plus en plus terribles.</p><p>La révolte
+        contre Hakkar brisa davantage encore l’ancien ordre. À l’époque Classic,
+        Zul’Gurub devient de nouveau le centre du danger lorsque Hakkar est
+        rappelé.</p><h3>Moteur narratif</h3><p><strong>« Nous étions un empire.
+        Regardez ce que nous sommes devenus. »</strong></p><p>Leur identité
+        fonctionne bien autour de la nostalgie, du ressentiment et de la
+        tentation de retrouver une puissance perdue à n’importe quel
+        prix.</p><hr><h2>Shatterspear</h2><p><strong>Lieu :</strong> enclave
+        isolée au nord-est de Sombrivage.<br><strong>Statut Classic :</strong>
+        indépendant et très reclus.</p><p>Les Shatterspear descendent eux aussi
+        de l’éclatement gurubashi, mais ont quitté Strangleronce pour
+        s’installer très loin de leurs cousins, dans une vallée difficile
+        d’accès entourée de territoires kaldorei.</p><p>Le <em>Troll
+        Compendium</em> souligne que leurs motivations exactes demeurent
+        inconnues à l’époque.</p><h3>Moteur narratif</h3><p><strong>« Nous
+        survivons parce que personne ne nous trouve. »</strong></p><p>Pour
+        Warbound, ils fonctionnent mieux comme mystère que comme faction
+        militaire.</p><hr><h2>Hakkari et Atal’ai — des cultes, pas un peuple
+        distinct</h2><p>Les <strong>Hakkari</strong> sont les serviteurs
+        religieux d’Hakkar. Les <strong>Atal’ai</strong> constituent une faction
+        extrémiste de ce courant, déterminée à permettre à Hakkar de prendre
+        forme physiquement en Azeroth.</p><p>Les Atal’ai s’installent dans le
+        <strong>Temple d’Atal’Hakkar</strong>, dans le Marais des Chagrins, et
+        pratiquent des magies interdites, notamment la nécromancie.</p><p>Pour
+        le MJ, c’est une distinction importante
+        :</p><blockquote><p><strong>Hakkari / Atal’ai décrivent d’abord une
+        fidélité religieuse. Ils ne doivent pas être utilisés comme une simple
+        “couleur de peau” troll supplémentaire.</strong></p></blockquote><p>Cela
+        permet à l’influence d’Hakkar de traverser les frontières
+        tribales.</p><hr>
+      markdown: ''
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 300000
+    flags: {}
+    system: {}
+    _id: gZZvbPATseXfGkV5
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435072911
+      modifiedTime: 1792435072911
+      lastModifiedBy: TjbWhMczNyKieD8D
+    category: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!rX27YUxJWed5pb9W.gZZvbPATseXfGkV5'
+  - name: 4 — Trolls des forêts
+    type: text
+    text:
+      format: 1
+      content: >-
+        <h1>5. Les trolls des forêts</h1>
+
+        <p>Les trolls des forêts héritent principalement de l’ancien monde
+        <strong>Amani</strong>. Leur grande blessure historique est la perte de
+        territoires face aux Hauts-Elfes et l’échec des Guerres trolls.</p>
+
+        <p>Pendant la Deuxième Guerre, Zul’jin rallie plusieurs tribus à la
+        Horde d’Orgrim Doomhammer en échange d’une promesse : aider les trolls à
+        écraser Quel’Thalas et restaurer leur puissance. La défaite de la Horde
+        laisse une profonde rancœur.</p>
+
+        <h2>Amani</h2>
+
+        <p><strong>Lieu :</strong> Zul’Aman et frontières de Quel’Thalas.<br>
+
+        <strong>Figure majeure :</strong> Zul’jin.</p>
+
+        <p>Les Amani refusent l’idée que les terres de Quel’Thalas appartiennent
+        légitimement aux Elfes. Leur guerre est une guerre de mémoire, de
+        territoire et de revanche.</p>
+
+        <h3>Moteur narratif</h3>
+
+        <p><strong>« Les Elfes vivent sur nos terres. Le temps ne transforme pas
+        un vol en droit. »</strong></p>
+
+        <p>Pour Warbound, les Amani sont particulièrement intéressants si un
+        personnage sin’dorei entre en contact avec eux : l’hostilité n’est pas
+        récente, elle plonge dans plusieurs millénaires de conflit.</p>
+
+        <hr>
+
+        <h2>Revantusk</h2>
+
+        <p><strong>Lieu :</strong> côte des Hinterlands.<br>
+
+        <strong>Statut :</strong> pacte d’amitié et d’assistance avec la Horde
+        de Thrall.</p>
+
+        <p>Les Revantusk ont presque été anéantis lors des anciennes guerres.
+        Leur faiblesse numérique les a poussés vers une forme de pragmatisme que
+        d’autres trolls des forêts méprisent.</p>
+
+        <p>Lorsqu’ils apprennent l’existence de la nouvelle Horde de Thrall, ils
+        voient une possibilité différente de l’ancienne alliance avec les Orcs.
+        Ils concluent avec elle un accord de coopération.</p>
+
+        <h3>Important pour Warbound</h3>
+
+        <p>Les Revantusk sont <strong>les trolls non-Sombrelance les plus
+        proches de la Horde</strong>, mais ils ne sont pas une option de PJ dans
+        la campagne.</p>
+
+        <p>Ils constituent en revanche d’excellents :</p>
+
+        <ul>
+
+        <li>ambassadeurs ;</li>
+
+        <li>éclaireurs ;</li>
+
+        <li>alliés ponctuels ;</li>
+
+        <li>sources d’informations sur les Royaumes de l’Est ;</li>
+
+        <li>contrepoint culturel aux Sombrelance.</li>
+
+        </ul>
+
+        <h3>Moteur narratif</h3>
+
+        <p><strong>« Survivre vaut mieux que mourir pour prouver que l’on n’a
+        besoin de personne. »</strong></p>
+
+        <hr>
+
+        <h2>Vilebranch</h2>
+
+        <p><strong>Lieu :</strong> Hinterlands, notamment Jintha’Alor.<br>
+
+        <strong>Rapport :</strong> ennemis des Revantusk.</p>
+
+        <p>Après la Deuxième Guerre, les Vilebranch retournent dans les
+        Hinterlands et considèrent les Revantusk comme une cible facile. Ils
+        utilisent notamment des captifs pour leurs sacrifices rituels.</p>
+
+        <h3>Moteur narratif</h3>
+
+        <p><strong>« Notre nombre nous donne le droit de reprendre ce qui nous
+        appartient. »</strong></p>
+
+        <hr>
+
+        <h2>Witherbark</h2>
+
+        <p><strong>Lieu :</strong> Hinterlands et Hautes-terres d’Arathi.</p>
+
+        <p>Les Witherbark sont eux aussi d’anciens alliés de la Horde de la
+        Deuxième Guerre. Après la défaite, leurs différents groupes se
+        retrouvent opposés aux Revantusk, aux Nains Wildhammer et, dans les
+        Hautes-terres d’Arathi, aux forces de la Horde de Thrall.</p>
+
+        <h3>Moteur narratif</h3>
+
+        <p><strong>« Les anciennes alliances n’ont apporté que des promesses
+        brisées. »</strong></p>
+
+        <hr>
+
+        <h2>Mossflayer</h2>
+
+        <p><strong>Lieu :</strong> Maleterres de l’Est.</p>
+
+        <p>Les Mossflayer avaient déjà perdu une grande partie de leur
+        territoire face aux humains avant la Deuxième Guerre. Lorsque le Fléau
+        ravage Lordaeron, ils profitent de l’effondrement des défenses humaines
+        pour reprendre des terres anciennes.</p>
+
+        <h3>Moteur narratif</h3>
+
+        <p><strong>« La catastrophe de nos ennemis est notre chance de rentrer
+        chez nous. »</strong></p>
+
+        <p>Ils illustrent bien la logique troll selon laquelle la disparition
+        d’un occupant n’efface pas une revendication territoriale vieille de
+        plusieurs siècles.</p>
+
+        <hr>
+
+        <h2>Firetree et Smolderthorn — les trolls de la Horde noire</h2>
+
+        <p><strong>Lieu :</strong> Pic Rochenoire.<br>
+
+        <strong>Affiliation :</strong> Horde noire de Rend Blackhand.</p>
+
+        <p>Ces deux tribus constituent un excellent miroir de la Horde de
+        Thrall.</p>
+
+        <p>Elles continuent à servir une Horde héritière de la Deuxième Guerre,
+        mêlée à la magie démoniaque et alliée au vol draconique noir. Le
+        <em>Troll Compendium</em> les présente comme des forces qui savent leur
+        guerre presque perdue mais continuent malgré tout.</p>
+
+        <p>Ils vénèrent la mémoire de Zul’jin et méprisent notamment les
+        Revantusk, qu’ils considèrent comme des déserteurs. Les Revantusk
+        retournent exactement l’accusation : pour eux, <strong>Thrall dirige la
+        véritable Horde</strong>.</p>
+
+        <h3>Moteur narratif</h3>
+
+        <p><strong>« Nous n’avons pas trahi la Horde. C’est vous qui avez
+        abandonné la guerre. »</strong></p>
+
+        <p>Pour Warbound, cette opposition permet de poser une question beaucoup
+        plus intéressante que « Horde contre Alliance » :</p>
+
+        <blockquote>
+
+        <p><strong>Qu’est-ce qui fait de la Horde de Thrall la “vraie” Horde
+        ?</strong></p>
+
+        </blockquote>
+
+        <hr>
+      markdown: >-
+        # 5. Les trolls des forêts
+
+
+        Les trolls des forêts héritent principalement de l’ancien monde
+        **Amani**. Leur grande blessure historique est la perte de territoires
+        face aux Hauts-Elfes et l’échec des Guerres trolls.
+
+
+        Pendant la Deuxième Guerre, Zul’jin rallie plusieurs tribus à la Horde
+        d’Orgrim Doomhammer en échange d’une promesse : aider les trolls à
+        écraser Quel’Thalas et restaurer leur puissance. La défaite de la Horde
+        laisse une profonde rancœur.
+
+
+        ## Amani
+
+
+        **Lieu :** Zul’Aman et frontières de Quel’Thalas.  
+
+        **Figure majeure :** Zul’jin.
+
+
+        Les Amani refusent l’idée que les terres de Quel’Thalas appartiennent
+        légitimement aux Elfes. Leur guerre est une guerre de mémoire, de
+        territoire et de revanche.
+
+
+        ### Moteur narratif
+
+
+        **« Les Elfes vivent sur nos terres. Le temps ne transforme pas un vol
+        en droit. »**
+
+
+        Pour Warbound, les Amani sont particulièrement intéressants si un
+        personnage sin’dorei entre en contact avec eux : l’hostilité n’est pas
+        récente, elle plonge dans plusieurs millénaires de conflit.
+
+
+        ---
+
+
+        ## Revantusk
+
+
+        **Lieu :** côte des Hinterlands.  
+
+        **Statut :** pacte d’amitié et d’assistance avec la Horde de Thrall.
+
+
+        Les Revantusk ont presque été anéantis lors des anciennes guerres. Leur
+        faiblesse numérique les a poussés vers une forme de pragmatisme que
+        d’autres trolls des forêts méprisent.
+
+
+        Lorsqu’ils apprennent l’existence de la nouvelle Horde de Thrall, ils
+        voient une possibilité différente de l’ancienne alliance avec les Orcs.
+        Ils concluent avec elle un accord de coopération.
+
+
+        ### Important pour Warbound
+
+
+        Les Revantusk sont **les trolls non-Sombrelance les plus proches de la
+        Horde**, mais ils ne sont pas une option de PJ dans la campagne.
+
+
+        Ils constituent en revanche d’excellents :
+
+
+        - ambassadeurs ;
+
+        - éclaireurs ;
+
+        - alliés ponctuels ;
+
+        - sources d’informations sur les Royaumes de l’Est ;
+
+        - contrepoint culturel aux Sombrelance.
+
+
+        ### Moteur narratif
+
+
+        **« Survivre vaut mieux que mourir pour prouver que l’on n’a besoin de
+        personne. »**
+
+
+        ---
+
+
+        ## Vilebranch
+
+
+        **Lieu :** Hinterlands, notamment Jintha’Alor.  
+
+        **Rapport :** ennemis des Revantusk.
+
+
+        Après la Deuxième Guerre, les Vilebranch retournent dans les Hinterlands
+        et considèrent les Revantusk comme une cible facile. Ils utilisent
+        notamment des captifs pour leurs sacrifices rituels.
+
+
+        ### Moteur narratif
+
+
+        **« Notre nombre nous donne le droit de reprendre ce qui nous
+        appartient. »**
+
+
+        ---
+
+
+        ## Witherbark
+
+
+        **Lieu :** Hinterlands et Hautes-terres d’Arathi.
+
+
+        Les Witherbark sont eux aussi d’anciens alliés de la Horde de la
+        Deuxième Guerre. Après la défaite, leurs différents groupes se
+        retrouvent opposés aux Revantusk, aux Nains Wildhammer et, dans les
+        Hautes-terres d’Arathi, aux forces de la Horde de Thrall.
+
+
+        ### Moteur narratif
+
+
+        **« Les anciennes alliances n’ont apporté que des promesses brisées. »**
+
+
+        ---
+
+
+        ## Mossflayer
+
+
+        **Lieu :** Maleterres de l’Est.
+
+
+        Les Mossflayer avaient déjà perdu une grande partie de leur territoire
+        face aux humains avant la Deuxième Guerre. Lorsque le Fléau ravage
+        Lordaeron, ils profitent de l’effondrement des défenses humaines pour
+        reprendre des terres anciennes.
+
+
+        ### Moteur narratif
+
+
+        **« La catastrophe de nos ennemis est notre chance de rentrer chez nous.
+        »**
+
+
+        Ils illustrent bien la logique troll selon laquelle la disparition d’un
+        occupant n’efface pas une revendication territoriale vieille de
+        plusieurs siècles.
+
+
+        ---
+
+
+        ## Firetree et Smolderthorn — les trolls de la Horde noire
+
+
+        **Lieu :** Pic Rochenoire.  
+
+        **Affiliation :** Horde noire de Rend Blackhand.
+
+
+        Ces deux tribus constituent un excellent miroir de la Horde de Thrall.
+
+
+        Elles continuent à servir une Horde héritière de la Deuxième Guerre,
+        mêlée à la magie démoniaque et alliée au vol draconique noir. Le *Troll
+        Compendium* les présente comme des forces qui savent leur guerre presque
+        perdue mais continuent malgré tout.
+
+
+        Ils vénèrent la mémoire de Zul’jin et méprisent notamment les Revantusk,
+        qu’ils considèrent comme des déserteurs. Les Revantusk retournent
+        exactement l’accusation : pour eux, **Thrall dirige la véritable
+        Horde**.
+
+
+        ### Moteur narratif
+
+
+        **« Nous n’avons pas trahi la Horde. C’est vous qui avez abandonné la
+        guerre. »**
+
+
+        Pour Warbound, cette opposition permet de poser une question beaucoup
+        plus intéressante que « Horde contre Alliance » :
+
+
+        > **Qu’est-ce qui fait de la Horde de Thrall la “vraie” Horde ?**
+
+
+        ---
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 400000
+    flags: {}
+    system: {}
+    _id: ct3jY3sNTQrLWEfM
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435072911
+      modifiedTime: 1792435072911
+      lastModifiedBy: TjbWhMczNyKieD8D
+    category: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!rX27YUxJWed5pb9W.ct3jY3sNTQrLWEfM'
+  - name: 5 — Glace, sable, trolls sombres et Zandalar
+    type: text
+    text:
+      format: 1
+      content: >-
+        <h1>6. Trolls des glaces, des sables et trolls sombres</h1>
+
+        <h2>Frostmane</h2>
+
+        <p><strong>Lieu :</strong> Dun Morogh.<br>
+
+        <strong>Famille :</strong> trolls des glaces.</p>
+
+        <p>Les Frostmane descendent de l’ancien monde drakkari et mènent à
+        l’époque Classic des attaques répétées contre les Nains de Dun
+        Morogh.</p>
+
+        <h3>Moteur narratif</h3>
+
+        <p><strong>« Les Nains ont bâti leurs foyers sur un territoire que nous
+        n’avons jamais cessé de considérer comme nôtre. »</strong></p>
+
+        <hr>
+
+        <h2>Winterax</h2>
+
+        <p><strong>Ancien territoire :</strong> Vallée d’Alterac.<br>
+
+        <strong>Chef :</strong> Korrak le Bloodrager.</p>
+
+        <p>Les Winterax ont longtemps défendu leur territoire contre les Nains
+        Stormpike et les Orcs Frostwolf. Dans le <em>Troll Compendium</em>, ils
+        ont récemment abandonné la vallée et leur destination est inconnue.</p>
+
+        <h3>Moteur narratif</h3>
+
+        <p><strong>« Quand rester signifie disparaître, même un peuple obstiné
+        doit partir. »</strong></p>
+
+        <p>Ils sont intéressants comme peuple déplacé, sans qu’il soit
+        nécessaire de définir immédiatement où ils se sont installés.</p>
+
+        <hr>
+
+        <h2>Drakkari</h2>
+
+        <p><strong>Lieu :</strong> Zul’Drak, Norfendre.</p>
+
+        <p>Les Drakkari représentent la principale puissance troll des glaces.
+        Dans le lore disponible à l’époque Classic, ils sont décrits comme
+        particulièrement belliqueux et déjà sous la pression croissante du
+        Fléau, qui s’empare notamment de Drak’Tharon.</p>
+
+        <h3>Moteur narratif</h3>
+
+        <p><strong>« Nous survivrons seuls, même face au roi des morts.
+        »</strong></p>
+
+        <p>Pour une campagne centrée sur Durotar, ils doivent rester lointains
+        et presque légendaires.</p>
+
+        <hr>
+
+        <h2>Sandfury / Farraki</h2>
+
+        <p><strong>Lieu :</strong> Zul’Farrak, Tanaris.<br>
+
+        <strong>Famille :</strong> trolls des sables.</p>
+
+        <p>Leurs ancêtres appartenaient au monde gurubashi avant que la Grande
+        Fracture ne les isole dans ce qui devint le désert de Tanaris.</p>
+
+        <p>Ils ont perdu une grande partie de leur territoire au fil des âges et
+        défendent férocement les ruines et terres qu’ils contrôlent encore. Ils
+        vénèrent notamment <strong>Gahz’rilla</strong>, l’immense hydre associée
+        à Zul’Farrak.</p>
+
+        <h3>Moteur narratif</h3>
+
+        <p><strong>« Tout ce qui nous reste est entouré d’étrangers venus
+        fouiller nos ruines. »</strong></p>
+
+        <h3>Connexion directe à Durotar</h3>
+
+        <p>Dans WoW Classic, la chaîne liée à <strong>The Spider God</strong>
+        conduit la Horde vers Zul’Farrak et passe par <strong>Maître Gadrin à
+        Sen’jin</strong>. Cela fournit une excellente passerelle canonique si
+        Warbound veut un jour envoyer les PJ de Durotar vers Tanaris.</p>
+
+        <hr>
+
+        <h2>Shadowtooth — trolls sombres</h2>
+
+        <p><strong>Lieu :</strong> mont Hyjal.</p>
+
+        <p>Les Shadowtooth constituent le principal groupe connu de trolls
+        sombres dans le lore de cette période. Ils honorent les puissances
+        sauvages d’Hyjal comme des loa, notamment Agamaggan.</p>
+
+        <p>Ils ont combattu pendant la bataille du mont Hyjal aux côtés des
+        forces opposées à la Légion ardente, y compris la Horde, l’Alliance et
+        les Elfes de la nuit.</p>
+
+        <p>À l’époque Classic, un émissaire Shadowtooth intervient encore dans
+        une affaire liée aux esprits sauvages d’Hyjal.</p>
+
+        <h3>Moteur narratif</h3>
+
+        <p><strong>« Nos alliances durent le temps nécessaire pour protéger les
+        puissances qui gardent cette montagne. »</strong></p>
+
+        <p>Ils constituent une bonne manière de rappeler que <strong>tribu troll
+        ne signifie pas automatiquement ennemi</strong>.</p>
+
+        <hr>
+
+        <h1>7. Les Zandalar : l’ancienne autorité du monde troll</h1>
+
+        <p><strong>Implantation Classic visible :</strong> île de Yojamba, au
+        large de Strangleronce.<br>
+
+        <strong>Statut :</strong> indépendant.</p>
+
+        <p>Dans les textes Classic, les Zandalar sont présentés comme les plus
+        anciens trolls connus et comme les gardiens d’une grande part de la
+        mémoire religieuse et historique de leur peuple.</p>
+
+        <p>Lors du retour d’Hakkar à Zul’Gurub, ils viennent à Yojamba pour
+        recruter des champions capables de combattre le Dieu du Sang et ses
+        serviteurs.</p>
+
+        <p>Ils coopèrent avec les aventuriers sans pour autant rejoindre la
+        Horde ou l’Alliance.</p>
+
+        <h3>Moteur narratif</h3>
+
+        <p><strong>« Vos royaumes et vos guerres sont récents. Nous nous
+        souvenons de ce qui existait avant eux. »</strong></p>
+
+        <p>Pour Warbound, un Zandalar doit être rare. Sa présence doit signifier
+        qu’un problème dépasse une simple querelle locale.</p>
+
+        <h3>Usage recommandé</h3>
+
+        <p>Un émissaire Zandalar peut :</p>
+
+        <ul>
+
+        <li>reconnaître chez un Sombrelance une tradition ancienne que celui-ci
+        connaît mal ;</li>
+
+        <li>rappeler que les Darkspear ne sont qu’une branche du vaste monde
+        troll ;</li>
+
+        <li>transmettre un avertissement lié à Hakkar ;</li>
+
+        <li>demander une médiation ou un service sans se placer sous l’autorité
+        de la Horde ;</li>
+
+        <li>traiter Orcs, Humains et Elfes comme des puissances relativement
+        récentes.</li>
+
+        </ul>
+
+        <hr>
+      markdown: >-
+        # 6. Trolls des glaces, des sables et trolls sombres
+
+
+        ## Frostmane
+
+
+        **Lieu :** Dun Morogh.  
+
+        **Famille :** trolls des glaces.
+
+
+        Les Frostmane descendent de l’ancien monde drakkari et mènent à l’époque
+        Classic des attaques répétées contre les Nains de Dun Morogh.
+
+
+        ### Moteur narratif
+
+
+        **« Les Nains ont bâti leurs foyers sur un territoire que nous n’avons
+        jamais cessé de considérer comme nôtre. »**
+
+
+        ---
+
+
+        ## Winterax
+
+
+        **Ancien territoire :** Vallée d’Alterac.  
+
+        **Chef :** Korrak le Bloodrager.
+
+
+        Les Winterax ont longtemps défendu leur territoire contre les Nains
+        Stormpike et les Orcs Frostwolf. Dans le *Troll Compendium*, ils ont
+        récemment abandonné la vallée et leur destination est inconnue.
+
+
+        ### Moteur narratif
+
+
+        **« Quand rester signifie disparaître, même un peuple obstiné doit
+        partir. »**
+
+
+        Ils sont intéressants comme peuple déplacé, sans qu’il soit nécessaire
+        de définir immédiatement où ils se sont installés.
+
+
+        ---
+
+
+        ## Drakkari
+
+
+        **Lieu :** Zul’Drak, Norfendre.
+
+
+        Les Drakkari représentent la principale puissance troll des glaces. Dans
+        le lore disponible à l’époque Classic, ils sont décrits comme
+        particulièrement belliqueux et déjà sous la pression croissante du
+        Fléau, qui s’empare notamment de Drak’Tharon.
+
+
+        ### Moteur narratif
+
+
+        **« Nous survivrons seuls, même face au roi des morts. »**
+
+
+        Pour une campagne centrée sur Durotar, ils doivent rester lointains et
+        presque légendaires.
+
+
+        ---
+
+
+        ## Sandfury / Farraki
+
+
+        **Lieu :** Zul’Farrak, Tanaris.  
+
+        **Famille :** trolls des sables.
+
+
+        Leurs ancêtres appartenaient au monde gurubashi avant que la Grande
+        Fracture ne les isole dans ce qui devint le désert de Tanaris.
+
+
+        Ils ont perdu une grande partie de leur territoire au fil des âges et
+        défendent férocement les ruines et terres qu’ils contrôlent encore. Ils
+        vénèrent notamment **Gahz’rilla**, l’immense hydre associée à
+        Zul’Farrak.
+
+
+        ### Moteur narratif
+
+
+        **« Tout ce qui nous reste est entouré d’étrangers venus fouiller nos
+        ruines. »**
+
+
+        ### Connexion directe à Durotar
+
+
+        Dans WoW Classic, la chaîne liée à **The Spider God** conduit la Horde
+        vers Zul’Farrak et passe par **Maître Gadrin à Sen’jin**. Cela fournit
+        une excellente passerelle canonique si Warbound veut un jour envoyer les
+        PJ de Durotar vers Tanaris.
+
+
+        ---
+
+
+        ## Shadowtooth — trolls sombres
+
+
+        **Lieu :** mont Hyjal.
+
+
+        Les Shadowtooth constituent le principal groupe connu de trolls sombres
+        dans le lore de cette période. Ils honorent les puissances sauvages
+        d’Hyjal comme des loa, notamment Agamaggan.
+
+
+        Ils ont combattu pendant la bataille du mont Hyjal aux côtés des forces
+        opposées à la Légion ardente, y compris la Horde, l’Alliance et les
+        Elfes de la nuit.
+
+
+        À l’époque Classic, un émissaire Shadowtooth intervient encore dans une
+        affaire liée aux esprits sauvages d’Hyjal.
+
+
+        ### Moteur narratif
+
+
+        **« Nos alliances durent le temps nécessaire pour protéger les
+        puissances qui gardent cette montagne. »**
+
+
+        Ils constituent une bonne manière de rappeler que **tribu troll ne
+        signifie pas automatiquement ennemi**.
+
+
+        ---
+
+
+        # 7. Les Zandalar : l’ancienne autorité du monde troll
+
+
+        **Implantation Classic visible :** île de Yojamba, au large de
+        Strangleronce.  
+
+        **Statut :** indépendant.
+
+
+        Dans les textes Classic, les Zandalar sont présentés comme les plus
+        anciens trolls connus et comme les gardiens d’une grande part de la
+        mémoire religieuse et historique de leur peuple.
+
+
+        Lors du retour d’Hakkar à Zul’Gurub, ils viennent à Yojamba pour
+        recruter des champions capables de combattre le Dieu du Sang et ses
+        serviteurs.
+
+
+        Ils coopèrent avec les aventuriers sans pour autant rejoindre la Horde
+        ou l’Alliance.
+
+
+        ### Moteur narratif
+
+
+        **« Vos royaumes et vos guerres sont récents. Nous nous souvenons de ce
+        qui existait avant eux. »**
+
+
+        Pour Warbound, un Zandalar doit être rare. Sa présence doit signifier
+        qu’un problème dépasse une simple querelle locale.
+
+
+        ### Usage recommandé
+
+
+        Un émissaire Zandalar peut :
+
+
+        - reconnaître chez un Sombrelance une tradition ancienne que celui-ci
+        connaît mal ;
+
+        - rappeler que les Darkspear ne sont qu’une branche du vaste monde troll
+        ;
+
+        - transmettre un avertissement lié à Hakkar ;
+
+        - demander une médiation ou un service sans se placer sous l’autorité de
+        la Horde ;
+
+        - traiter Orcs, Humains et Elfes comme des puissances relativement
+        récentes.
+
+
+        ---
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 500000
+    flags: {}
+    system: {}
+    _id: hbhWVs4OMCesMIY3
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435072911
+      modifiedTime: 1792435072911
+      lastModifiedBy: TjbWhMczNyKieD8D
+    category: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!rX27YUxJWed5pb9W.hbhWVs4OMCesMIY3'
+  - name: 6 — Horde et personnages joueurs
+    type: text
+    text:
+      format: 1
+      content: >-
+        <h1>8. Relations avec la Horde — règle de lecture Warbound</h1>
+
+        <table>
+
+        <thead>
+
+        <tr>
+          <th>Groupe</th>
+          <th>Statut envers la Horde de Thrall</th>
+          <th style="text-align:right">Jouable ?</th>
+          <th>Usage recommandé</th>
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+          <td><strong>Sombrelance</strong></td>
+          <td>Membre constitutif de la nouvelle Horde</td>
+          <td style="text-align:right"><strong>Oui</strong></td>
+          <td>PJ, PNJ, famille, mentors, rivaux internes</td>
+        </tr>
+
+        <tr>
+          <td><strong>Revantusk</strong></td>
+          <td>Pacte d’amitié et d’assistance / affiliation lâche</td>
+          <td style="text-align:right"><strong>Non</strong></td>
+          <td>Alliés, ambassadeurs, contacts</td>
+        </tr>
+
+        <tr>
+          <td>Bloodscalp</td>
+          <td>Hostile</td>
+          <td style="text-align:right">Non</td>
+          <td>Cousins ennemis des Sombrelance</td>
+        </tr>
+
+        <tr>
+          <td>Skullsplitter</td>
+          <td>Hostile</td>
+          <td style="text-align:right">Non</td>
+          <td>Cousins ennemis des Sombrelance</td>
+        </tr>
+
+        <tr>
+          <td>Gurubashi</td>
+          <td>Hostile / liés à Zul’Gurub</td>
+          <td style="text-align:right">Non</td>
+          <td>Menace religieuse et impériale</td>
+        </tr>
+
+        <tr>
+          <td>Shatterspear</td>
+          <td>Indépendant à l’époque Classic</td>
+          <td style="text-align:right">Non</td>
+          <td>Mystère, enclave lointaine</td>
+        </tr>
+
+        <tr>
+          <td>Amani</td>
+          <td>Hostile ; ancienne alliance avec la Horde</td>
+          <td style="text-align:right">Non</td>
+          <td>Ennemi historique, conflit avec Quel’Thalas</td>
+        </tr>
+
+        <tr>
+          <td>Vilebranch / Witherbark / Mossflayer</td>
+          <td>Hostiles</td>
+          <td style="text-align:right">Non</td>
+          <td>Factions régionales</td>
+        </tr>
+
+        <tr>
+          <td>Firetree / Smolderthorn</td>
+          <td>Horde noire</td>
+          <td style="text-align:right">Non</td>
+          <td>Rivaux idéologiques de la Horde de Thrall</td>
+        </tr>
+
+        <tr>
+          <td>Frostmane / Winterax / Drakkari</td>
+          <td>Indépendants ou hostiles</td>
+          <td style="text-align:right">Non</td>
+          <td>Factions régionales / lointaines</td>
+        </tr>
+
+        <tr>
+          <td>Sandfury</td>
+          <td>Indépendant / hostile</td>
+          <td style="text-align:right">Non</td>
+          <td>Zul’Farrak, Tanaris</td>
+        </tr>
+
+        <tr>
+          <td>Shadowtooth</td>
+          <td>Indépendant, allié de circonstance contre la Légion</td>
+          <td style="text-align:right">Non</td>
+          <td>Mystère spirituel</td>
+        </tr>
+
+        <tr>
+          <td>Zandalar</td>
+          <td>Indépendant, coopération contre Hakkar</td>
+          <td style="text-align:right">Non</td>
+          <td>Diplomatie, savoir, menace majeure</td>
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <h2>Pourquoi la restriction Sombrelance fonctionne</h2>
+
+        <p>Elle est cohérente avec les deux piliers du projet :</p>
+
+        <ol>
+
+        <li><strong>Le lore Classic :</strong> le <em>Troll Compendium</em>
+        décrit les Sombrelance comme la tribu troll intégrée à la Horde, tandis
+        que les Revantusk ne sont que liés par un pacte et une affiliation
+        lâche.</li>
+
+        <li><strong>Champions of Azeroth :</strong> la présentation de la race
+        Troll jouable décrit explicitement les <strong>Darkspear</strong>
+        chassés de Strangleronce puis accueillis dans la Horde de Thrall.</li>
+
+        </ol>
+
+        <p>Warbound n’a donc pas besoin de créer plusieurs sous-races trolls
+        jouables pour être fidèle au matériau de départ.</p>
+
+        <hr>
+
+        <h1>9. Ce qu’un PJ Sombrelance sait probablement</h1>
+
+        <p>La totalité de ce document est une ressource MJ. Un PJ troll ne
+        connaît pas automatiquement la situation de toutes les tribus
+        d’Azeroth.</p>
+
+        <h2>Connaissance courante</h2>
+
+        <p>Un Sombrelance adulte connaît probablement :</p>
+
+        <ul>
+
+        <li>Sen’jin, Vol’jin et l’histoire récente de l’alliance avec Thrall
+        ;</li>
+
+        <li>l’exil de Strangleronce ;</li>
+
+        <li>l’existence des Bloodscalp, Skullsplitter et Gurubashi ;</li>
+
+        <li>la haine entre les Sombrelance et plusieurs tribus des jungles
+        ;</li>
+
+        <li>Zalazane et la perte des Îles de l’Écho ;</li>
+
+        <li>le rôle des loa dans la culture troll ;</li>
+
+        <li>l’existence de grands peuples trolls au-delà de Durotar.</li>
+
+        </ul>
+
+        <h2>Connaissance culturelle ou historique</h2>
+
+        <p>Un personnage instruit, un prêtre, un chaman ou un spécialiste des
+        traditions peut davantage connaître :</p>
+
+        <ul>
+
+        <li>l’ancien Empire gurubashi ;</li>
+
+        <li>Hakkar, les Hakkari et les Atal’ai ;</li>
+
+        <li>l’histoire des Amani et de Zul’jin ;</li>
+
+        <li>le rôle particulier des Zandalar ;</li>
+
+        <li>l’existence des Revantusk et leurs rapports avec la Horde.</li>
+
+        </ul>
+
+        <h2>Connaissance spécialisée</h2>
+
+        <p>Les détails concernant :</p>
+
+        <ul>
+
+        <li>les Drakkari du Norfendre ;</li>
+
+        <li>les Winterax après leur départ d’Alterac ;</li>
+
+        <li>les Shadowtooth d’Hyjal ;</li>
+
+        <li>la politique interne précise des tribus des Hinterlands ;</li>
+
+        </ul>
+
+        <p>doivent plutôt venir d’un contact, d’un voyage, d’un récit, d’un
+        mentor ou d’une recherche en jeu.</p>
+
+        <hr>
+
+        <h1>10. Jouer un Sombrelance dans Warbound</h1>
+
+        <p>Un Sombrelance ne doit pas être réduit à « l’Orc bleu qui parle avec
+        un accent ».</p>
+
+        <p>Quelques tensions beaucoup plus intéressantes peuvent structurer un
+        personnage.</p>
+
+        <h2>La Horde est-elle devenue ta tribu ?</h2>
+
+        <p>Les Sombrelance doivent une partie de leur survie à Thrall. Pour
+        certains, la Horde est désormais une famille choisie. Pour d’autres,
+        elle reste une alliance indispensable mais extérieure à l’identité
+        troll.</p>
+
+        <h2>Que reste-t-il des anciennes traditions ?</h2>
+
+        <p>La tribu a officiellement abandonné certaines pratiques, dont le
+        cannibalisme, mais n’a pas renié son héritage spirituel.</p>
+
+        <p>Un personnage peut être :</p>
+
+        <ul>
+
+        <li>fier de l’évolution des Sombrelance ;</li>
+
+        <li>inquiet de voir les anciennes coutumes disparaître ;</li>
+
+        <li>convaincu qu’il faut distinguer tradition et barbarie ;</li>
+
+        <li>attiré par des rites que Vol’jin ou les anciens jugent
+        dangereux.</li>
+
+        </ul>
+
+        <h2>Comment vois-tu les cousins de Strangleronce ?</h2>
+
+        <p>Un Bloodscalp est à la fois :</p>
+
+        <ul>
+
+        <li>un ennemi potentiel ;</li>
+
+        <li>un troll ;</li>
+
+        <li>un héritier du même monde gurubashi ;</li>
+
+        <li>le descendant de ceux qui ont contribué à chasser ton peuple.</li>
+
+        </ul>
+
+        <p>Cette contradiction est plus intéressante qu’une haine
+        automatique.</p>
+
+        <h2>Que signifie reprendre les Îles de l’Écho ?</h2>
+
+        <p>Pour certains, c’est une question militaire. Pour d’autres, c’est
+        retrouver un foyer, des sanctuaires, des morts, des souvenirs ou la
+        preuve que la tribu n’est plus condamnée à l’exil.</p>
+
+        <hr>
+      markdown: >-
+        # 8. Relations avec la Horde — règle de lecture Warbound
+
+
+        | Groupe | Statut envers la Horde de Thrall | Jouable ? | Usage
+        recommandé |
+
+        |---|---|---:|---|
+
+        | **Sombrelance** | Membre constitutif de la nouvelle Horde | **Oui** |
+        PJ, PNJ, famille, mentors, rivaux internes |
+
+        | **Revantusk** | Pacte d’amitié et d’assistance / affiliation lâche |
+        **Non** | Alliés, ambassadeurs, contacts |
+
+        | Bloodscalp | Hostile | Non | Cousins ennemis des Sombrelance |
+
+        | Skullsplitter | Hostile | Non | Cousins ennemis des Sombrelance |
+
+        | Gurubashi | Hostile / liés à Zul’Gurub | Non | Menace religieuse et
+        impériale |
+
+        | Shatterspear | Indépendant à l’époque Classic | Non | Mystère, enclave
+        lointaine |
+
+        | Amani | Hostile ; ancienne alliance avec la Horde | Non | Ennemi
+        historique, conflit avec Quel’Thalas |
+
+        | Vilebranch / Witherbark / Mossflayer | Hostiles | Non | Factions
+        régionales |
+
+        | Firetree / Smolderthorn | Horde noire | Non | Rivaux idéologiques de
+        la Horde de Thrall |
+
+        | Frostmane / Winterax / Drakkari | Indépendants ou hostiles | Non |
+        Factions régionales / lointaines |
+
+        | Sandfury | Indépendant / hostile | Non | Zul’Farrak, Tanaris |
+
+        | Shadowtooth | Indépendant, allié de circonstance contre la Légion |
+        Non | Mystère spirituel |
+
+        | Zandalar | Indépendant, coopération contre Hakkar | Non | Diplomatie,
+        savoir, menace majeure |
+
+
+        ## Pourquoi la restriction Sombrelance fonctionne
+
+
+        Elle est cohérente avec les deux piliers du projet :
+
+
+        1. **Le lore Classic :** le *Troll Compendium* décrit les Sombrelance
+        comme la tribu troll intégrée à la Horde, tandis que les Revantusk ne
+        sont que liés par un pacte et une affiliation lâche.
+
+        2. **Champions of Azeroth :** la présentation de la race Troll jouable
+        décrit explicitement les **Darkspear** chassés de Strangleronce puis
+        accueillis dans la Horde de Thrall.
+
+
+        Warbound n’a donc pas besoin de créer plusieurs sous-races trolls
+        jouables pour être fidèle au matériau de départ.
+
+
+        ---
+
+
+        # 9. Ce qu’un PJ Sombrelance sait probablement
+
+
+        La totalité de ce document est une ressource MJ. Un PJ troll ne connaît
+        pas automatiquement la situation de toutes les tribus d’Azeroth.
+
+
+        ## Connaissance courante
+
+
+        Un Sombrelance adulte connaît probablement :
+
+
+        - Sen’jin, Vol’jin et l’histoire récente de l’alliance avec Thrall ;
+
+        - l’exil de Strangleronce ;
+
+        - l’existence des Bloodscalp, Skullsplitter et Gurubashi ;
+
+        - la haine entre les Sombrelance et plusieurs tribus des jungles ;
+
+        - Zalazane et la perte des Îles de l’Écho ;
+
+        - le rôle des loa dans la culture troll ;
+
+        - l’existence de grands peuples trolls au-delà de Durotar.
+
+
+        ## Connaissance culturelle ou historique
+
+
+        Un personnage instruit, un prêtre, un chaman ou un spécialiste des
+        traditions peut davantage connaître :
+
+
+        - l’ancien Empire gurubashi ;
+
+        - Hakkar, les Hakkari et les Atal’ai ;
+
+        - l’histoire des Amani et de Zul’jin ;
+
+        - le rôle particulier des Zandalar ;
+
+        - l’existence des Revantusk et leurs rapports avec la Horde.
+
+
+        ## Connaissance spécialisée
+
+
+        Les détails concernant :
+
+
+        - les Drakkari du Norfendre ;
+
+        - les Winterax après leur départ d’Alterac ;
+
+        - les Shadowtooth d’Hyjal ;
+
+        - la politique interne précise des tribus des Hinterlands ;
+
+
+        doivent plutôt venir d’un contact, d’un voyage, d’un récit, d’un mentor
+        ou d’une recherche en jeu.
+
+
+        ---
+
+
+        # 10. Jouer un Sombrelance dans Warbound
+
+
+        Un Sombrelance ne doit pas être réduit à « l’Orc bleu qui parle avec un
+        accent ».
+
+
+        Quelques tensions beaucoup plus intéressantes peuvent structurer un
+        personnage.
+
+
+        ## La Horde est-elle devenue ta tribu ?
+
+
+        Les Sombrelance doivent une partie de leur survie à Thrall. Pour
+        certains, la Horde est désormais une famille choisie. Pour d’autres,
+        elle reste une alliance indispensable mais extérieure à l’identité
+        troll.
+
+
+        ## Que reste-t-il des anciennes traditions ?
+
+
+        La tribu a officiellement abandonné certaines pratiques, dont le
+        cannibalisme, mais n’a pas renié son héritage spirituel.
+
+
+        Un personnage peut être :
+
+
+        - fier de l’évolution des Sombrelance ;
+
+        - inquiet de voir les anciennes coutumes disparaître ;
+
+        - convaincu qu’il faut distinguer tradition et barbarie ;
+
+        - attiré par des rites que Vol’jin ou les anciens jugent dangereux.
+
+
+        ## Comment vois-tu les cousins de Strangleronce ?
+
+
+        Un Bloodscalp est à la fois :
+
+
+        - un ennemi potentiel ;
+
+        - un troll ;
+
+        - un héritier du même monde gurubashi ;
+
+        - le descendant de ceux qui ont contribué à chasser ton peuple.
+
+
+        Cette contradiction est plus intéressante qu’une haine automatique.
+
+
+        ## Que signifie reprendre les Îles de l’Écho ?
+
+
+        Pour certains, c’est une question militaire. Pour d’autres, c’est
+        retrouver un foyer, des sanctuaires, des morts, des souvenirs ou la
+        preuve que la tribu n’est plus condamnée à l’exil.
+
+
+        ---
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 600000
+    flags: {}
+    system: {}
+    _id: ywnIKHJqFQEZyMvw
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435072911
+      modifiedTime: 1792435072911
+      lastModifiedBy: TjbWhMczNyKieD8D
+    category: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!rX27YUxJWed5pb9W.ywnIKHJqFQEZyMvw'
+  - name: 7 — Accroches et ligne directrice MJ
+    type: text
+    text:
+      format: 1
+      content: >-
+        <h1>11. Accroches pour la campagne Warbound</h1>
+
+        <p>Ces éléments ne sont pas des événements canoniques imposés : ce sont
+        des <strong>usages possibles du lore</strong> pour nourrir la
+        campagne.</p>
+
+        <h2>L’émissaire Revantusk</h2>
+
+        <p>Un troll des forêts arrive à Razor Hill avec des nouvelles des
+        Royaumes de l’Est. Il traite les Sombrelance comme des alliés de la même
+        Horde, mais ses coutumes, sa mémoire de Zul’jin et son rapport aux Elfes
+        sont profondément différents.</p>
+
+        <p><strong>Fonction :</strong> révéler qu’il existe une autre manière
+        troll d’être proche de la Horde.</p>
+
+        <h2>Le messager de Yojamba</h2>
+
+        <p>Un Zandalar cherche un membre précis de la communauté de Sen’jin. Il
+        refuse de traiter l’affaire comme une mission de la Horde : le problème
+        concerne « les trolls avant de concerner vos nouvelles nations ».</p>
+
+        <p><strong>Fonction :</strong> ouvrir une piste future vers Hakkar ou
+        Zul’Gurub.</p>
+
+        <h2>Le prisonnier Bloodscalp</h2>
+
+        <p>Une patrouille de la Horde capture un troll venu de très loin. Les
+        gardes voient un ennemi. Un ancien Sombrelance reconnaît ses tatouages
+        et comprend que son arrivée en Kalimdor n’est probablement pas
+        fortuite.</p>
+
+        <p><strong>Fonction :</strong> confronter un PJ troll à l’histoire de
+        son exil.</p>
+
+        <h2>Une relique gurubashi à Durotar</h2>
+
+        <p>Un objet transmis pendant l’exil refait surface. Plusieurs
+        Sombrelance le considèrent comme un héritage ; un sorcier-docteur pense
+        au contraire qu’il aurait dû rester enterré.</p>
+
+        <p><strong>Fonction :</strong> introduire l’histoire de Strangleronce
+        sans quitter Durotar.</p>
+
+        <h2>L’ombre de la Horde noire</h2>
+
+        <p>Un Firetree ou Smolderthorn capturé refuse d’être qualifié de
+        traître.</p>
+
+        <blockquote>
+
+        <p>« Moi, j’ai jamais quitté la Horde. »</p>
+
+        </blockquote>
+
+        <p><strong>Fonction :</strong> opposer directement l’héritage de la
+        Horde de Doomhammer à la Horde de Thrall.</p>
+
+        <h2>La route de Zul’Farrak</h2>
+
+        <p>Une information obtenue auprès de Maître Gadrin renvoie à une
+        croyance ou à une créature vénérée à Zul’Farrak.</p>
+
+        <p><strong>Fonction :</strong> préparer naturellement une future
+        expédition vers Tanaris en utilisant une connexion déjà présente dans
+        WoW Classic.</p>
+
+        <hr>
+
+        <h1>12. Ligne directrice MJ</h1>
+
+        <p>Les tribus trolls ne doivent jamais servir uniquement de palette de
+        monstres.</p>
+
+        <p>Pour chacune, poser quatre questions :</p>
+
+        <ol>
+
+        <li><strong>Qu’avons-nous perdu ?</strong></li>
+
+        <li><strong>Qu’est-ce que nous refusons d’abandonner ?</strong></li>
+
+        <li><strong>Qui tenons-nous pour responsable ?</strong></li>
+
+        <li><strong>Jusqu’où sommes-nous prêts à aller pour survivre ou
+        reconquérir ?</strong></li>
+
+        </ol>
+
+        <p>Quelques réponses-types :</p>
+
+        <ul>
+
+        <li><strong>Sombrelance</strong> — nous avons perdu notre terre ; nous
+        avons choisi une nouvelle famille.</li>
+
+        <li><strong>Bloodscalp / Skullsplitter</strong> — nous refusons de céder
+        le territoire que nous avons réussi à garder.</li>
+
+        <li><strong>Gurubashi</strong> — nous avons perdu un empire et certains
+        sont prêts à payer n’importe quel prix pour retrouver sa puissance.</li>
+
+        <li><strong>Amani</strong> — nous n’acceptons pas que le temps rende
+        légitime la conquête de nos terres.</li>
+
+        <li><strong>Revantusk</strong> — nous avons appris que survivre exige
+        parfois de traiter avec d’autres peuples.</li>
+
+        <li><strong>Firetree / Smolderthorn</strong> — nous refusons d’admettre
+        que notre guerre et notre Horde appartiennent au passé.</li>
+
+        <li><strong>Mossflayer</strong> — si nos anciens ennemis s’effondrent,
+        nous reprendrons ce qu’ils nous avaient pris.</li>
+
+        <li><strong>Sandfury</strong> — nous sommes encerclés et chaque étranger
+        venu fouiller nos ruines confirme que nous devons les défendre.</li>
+
+        <li><strong>Zandalar</strong> — les autres tribus se divisent ; nous
+        devons préserver la mémoire du peuple troll et empêcher certaines
+        catastrophes de recommencer.</li>
+
+        </ul>
+
+        <p>Cette logique produit des factions avec lesquelles les PJ peuvent
+        négocier, se tromper, pactiser ou entrer en conflit — pas simplement des
+        variantes de « troll hostile ».</p>
+
+        <hr>
+      markdown: >-
+        # 11. Accroches pour la campagne Warbound
+
+
+        Ces éléments ne sont pas des événements canoniques imposés : ce sont des
+        **usages possibles du lore** pour nourrir la campagne.
+
+
+        ## L’émissaire Revantusk
+
+
+        Un troll des forêts arrive à Razor Hill avec des nouvelles des Royaumes
+        de l’Est. Il traite les Sombrelance comme des alliés de la même Horde,
+        mais ses coutumes, sa mémoire de Zul’jin et son rapport aux Elfes sont
+        profondément différents.
+
+
+        **Fonction :** révéler qu’il existe une autre manière troll d’être
+        proche de la Horde.
+
+
+        ## Le messager de Yojamba
+
+
+        Un Zandalar cherche un membre précis de la communauté de Sen’jin. Il
+        refuse de traiter l’affaire comme une mission de la Horde : le problème
+        concerne « les trolls avant de concerner vos nouvelles nations ».
+
+
+        **Fonction :** ouvrir une piste future vers Hakkar ou Zul’Gurub.
+
+
+        ## Le prisonnier Bloodscalp
+
+
+        Une patrouille de la Horde capture un troll venu de très loin. Les
+        gardes voient un ennemi. Un ancien Sombrelance reconnaît ses tatouages
+        et comprend que son arrivée en Kalimdor n’est probablement pas fortuite.
+
+
+        **Fonction :** confronter un PJ troll à l’histoire de son exil.
+
+
+        ## Une relique gurubashi à Durotar
+
+
+        Un objet transmis pendant l’exil refait surface. Plusieurs Sombrelance
+        le considèrent comme un héritage ; un sorcier-docteur pense au contraire
+        qu’il aurait dû rester enterré.
+
+
+        **Fonction :** introduire l’histoire de Strangleronce sans quitter
+        Durotar.
+
+
+        ## L’ombre de la Horde noire
+
+
+        Un Firetree ou Smolderthorn capturé refuse d’être qualifié de traître.
+
+
+        > « Moi, j’ai jamais quitté la Horde. »
+
+
+        **Fonction :** opposer directement l’héritage de la Horde de Doomhammer
+        à la Horde de Thrall.
+
+
+        ## La route de Zul’Farrak
+
+
+        Une information obtenue auprès de Maître Gadrin renvoie à une croyance
+        ou à une créature vénérée à Zul’Farrak.
+
+
+        **Fonction :** préparer naturellement une future expédition vers Tanaris
+        en utilisant une connexion déjà présente dans WoW Classic.
+
+
+        ---
+
+
+        # 12. Ligne directrice MJ
+
+
+        Les tribus trolls ne doivent jamais servir uniquement de palette de
+        monstres.
+
+
+        Pour chacune, poser quatre questions :
+
+
+        1. **Qu’avons-nous perdu ?**
+
+        2. **Qu’est-ce que nous refusons d’abandonner ?**
+
+        3. **Qui tenons-nous pour responsable ?**
+
+        4. **Jusqu’où sommes-nous prêts à aller pour survivre ou reconquérir ?**
+
+
+        Quelques réponses-types :
+
+
+        - **Sombrelance** — nous avons perdu notre terre ; nous avons choisi une
+        nouvelle famille.
+
+        - **Bloodscalp / Skullsplitter** — nous refusons de céder le territoire
+        que nous avons réussi à garder.
+
+        - **Gurubashi** — nous avons perdu un empire et certains sont prêts à
+        payer n’importe quel prix pour retrouver sa puissance.
+
+        - **Amani** — nous n’acceptons pas que le temps rende légitime la
+        conquête de nos terres.
+
+        - **Revantusk** — nous avons appris que survivre exige parfois de
+        traiter avec d’autres peuples.
+
+        - **Firetree / Smolderthorn** — nous refusons d’admettre que notre
+        guerre et notre Horde appartiennent au passé.
+
+        - **Mossflayer** — si nos anciens ennemis s’effondrent, nous reprendrons
+        ce qu’ils nous avaient pris.
+
+        - **Sandfury** — nous sommes encerclés et chaque étranger venu fouiller
+        nos ruines confirme que nous devons les défendre.
+
+        - **Zandalar** — les autres tribus se divisent ; nous devons préserver
+        la mémoire du peuple troll et empêcher certaines catastrophes de
+        recommencer.
+
+
+        Cette logique produit des factions avec lesquelles les PJ peuvent
+        négocier, se tromper, pactiser ou entrer en conflit — pas simplement des
+        variantes de « troll hostile ».
+
+
+        ---
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 700000
+    flags: {}
+    system: {}
+    _id: 3aOrKVjdHvzn3a7e
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435072911
+      modifiedTime: 1792435072911
+      lastModifiedBy: TjbWhMczNyKieD8D
+    category: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!rX27YUxJWed5pb9W.3aOrKVjdHvzn3a7e'
+  - name: 8 — Sources
+    type: text
+    text:
+      format: 1
+      content: >-
+        <h1>13. Sources</h1>
+
+        <h2>Sources Warcraft / Classic prioritaires</h2>
+
+        <ul>
+
+        <li><strong>Blizzard Entertainment — The Troll Compendium</strong>,
+        copie archivistique conservée sur Warcraft Wiki :<br>
+
+        https://warcraft.wiki.gg/wiki/Troll_Compendium</li>
+
+        <li><strong>Troll Compendium — Jungle Troll Tribes</strong> :<br>
+
+        https://warcraft.wiki.gg/wiki/Troll_Compendium/Jungle_Troll_Tribes</li>
+
+        <li><strong>Troll Compendium — Forest Trolls</strong> :<br>
+
+        https://warcraft.wiki.gg/wiki/Troll_Compendium/Forest_Trolls</li>
+
+        <li><strong>Troll Compendium — Forest Troll Tribes</strong> :<br>
+
+        https://warcraft.wiki.gg/wiki/Troll_Compendium/Forest_Troll_Tribes</li>
+
+        <li><strong>Troll Compendium — Ice Troll Tribes</strong> :<br>
+
+        https://warcraft.wiki.gg/wiki/Troll_Compendium/Ice_Troll_Tribes</li>
+
+        <li><strong>Troll Compendium — Sand Troll Tribes</strong> :<br>
+
+        https://warcraft.wiki.gg/wiki/Troll_Compendium/Sand_Troll_Tribes</li>
+
+        <li><strong>Troll Compendium — Troll Traits</strong> :<br>
+
+        https://warcraft.wiki.gg/wiki/Troll_Compendium/Troll_Traits</li>
+
+        <li><strong>Zandalar Tribe — contenu Classic / Yojamba</strong> :<br>
+
+        https://warcraft.wiki.gg/wiki/Zandalar_Tribe</li>
+
+        <li><strong>Zul’Gurub (Classic)</strong> :<br>
+
+        https://warcraft.wiki.gg/wiki/Zul%27Gurub_(Classic)</li>
+
+        <li><strong>Shadowtooth clan</strong> :<br>
+
+        https://warcraft.wiki.gg/wiki/Shadowtooth_clan</li>
+
+        <li><strong>Sandfury / Farraki</strong> :<br>
+
+        https://warcraft.wiki.gg/wiki/Farraki</li>
+
+        </ul>
+
+        <h2>Sources du projet Warbound</h2>
+
+        <ul>
+
+        <li><em>Champions of Azeroth</em>, p. 11 : la race Troll jouable est
+        explicitement présentée à travers les <strong>Darkspear</strong> et leur
+        intégration à la Horde.</li>
+
+        <li><em>Durotar — Guide de zone pour le MJ</em> : Sen’jin constitue
+        l’ancrage Sombrelance du sud de Durotar et les Îles de l’Écho leur sont
+        directement liées.</li>
+
+        <li><em>Durotar — Synthèse des arcs narratifs</em> : l’arc des Îles de
+        l’Écho met déjà en scène Zalazane, Minshina et des Sombrelance
+        ensorcelés.</li>
+
+        </ul>
+
+        <hr>
+
+        <p><strong>Statut Warbound :</strong> document de référence MJ.<br>
+
+        <strong>Règle de création :</strong> seul un <strong>Troll
+        Sombrelance</strong> peut être choisi comme PJ troll.</p>
+      markdown: >-
+        # 13. Sources
+
+
+        ## Sources Warcraft / Classic prioritaires
+
+
+        - **Blizzard Entertainment — The Troll Compendium**, copie archivistique
+        conservée sur Warcraft Wiki :  
+          https://warcraft.wiki.gg/wiki/Troll_Compendium
+        - **Troll Compendium — Jungle Troll Tribes** :  
+          https://warcraft.wiki.gg/wiki/Troll_Compendium/Jungle_Troll_Tribes
+        - **Troll Compendium — Forest Trolls** :  
+          https://warcraft.wiki.gg/wiki/Troll_Compendium/Forest_Trolls
+        - **Troll Compendium — Forest Troll Tribes** :  
+          https://warcraft.wiki.gg/wiki/Troll_Compendium/Forest_Troll_Tribes
+        - **Troll Compendium — Ice Troll Tribes** :  
+          https://warcraft.wiki.gg/wiki/Troll_Compendium/Ice_Troll_Tribes
+        - **Troll Compendium — Sand Troll Tribes** :  
+          https://warcraft.wiki.gg/wiki/Troll_Compendium/Sand_Troll_Tribes
+        - **Troll Compendium — Troll Traits** :  
+          https://warcraft.wiki.gg/wiki/Troll_Compendium/Troll_Traits
+        - **Zandalar Tribe — contenu Classic / Yojamba** :  
+          https://warcraft.wiki.gg/wiki/Zandalar_Tribe
+        - **Zul’Gurub (Classic)** :  
+          https://warcraft.wiki.gg/wiki/Zul%27Gurub_(Classic)
+        - **Shadowtooth clan** :  
+          https://warcraft.wiki.gg/wiki/Shadowtooth_clan
+        - **Sandfury / Farraki** :  
+          https://warcraft.wiki.gg/wiki/Farraki
+
+        ## Sources du projet Warbound
+
+
+        - *Champions of Azeroth*, p. 11 : la race Troll jouable est
+        explicitement présentée à travers les **Darkspear** et leur intégration
+        à la Horde.
+
+        - *Durotar — Guide de zone pour le MJ* : Sen’jin constitue l’ancrage
+        Sombrelance du sud de Durotar et les Îles de l’Écho leur sont
+        directement liées.
+
+        - *Durotar — Synthèse des arcs narratifs* : l’arc des Îles de l’Écho met
+        déjà en scène Zalazane, Minshina et des Sombrelance ensorcelés.
+
+
+        ---
+
+
+        **Statut Warbound :** document de référence MJ.  
+
+        **Règle de création :** seul un **Troll Sombrelance** peut être choisi
+        comme PJ troll.
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 800000
+    flags: {}
+    system: {}
+    _id: H7LxPJft66t9X59x
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435072911
+      modifiedTime: 1792435072911
+      lastModifiedBy: TjbWhMczNyKieD8D
+    category: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!rX27YUxJWed5pb9W.H7LxPJft66t9X59x'
+categories: []
+sort: 0
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792435072911
+  modifiedTime: 1792435072911
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource:
+    worldId: au-nom-de-la-horde-cof2
+    uuid: JournalEntry.Nm4ZgYPSueiJkq04
+    coreVersion: '14.367'
+    systemId: co2
+    systemVersion: 2.3.12
+_key: '!journal!rX27YUxJWed5pb9W'

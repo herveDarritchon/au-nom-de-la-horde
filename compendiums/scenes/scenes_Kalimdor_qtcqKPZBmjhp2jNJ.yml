@@ -1,7 +1,7 @@
 name: Kalimdor
 _id: qtcqKPZBmjhp2jNJ
 navigation: false
-thumb: modules/warbound-campaign-content/assets/scenes/thumb-henYHDwEmvDf0LFqFnhSRw.webp
+thumb: worlds/au-nom-de-la-horde-cof2/assets/scenes/thumb-henYHDwEmvDf0LFqFnhSRw.webp
 width: 1491
 height: 1055
 padding: 0.25
@@ -119,8 +119,8 @@ _stats:
   coreVersion: '14.367'
   systemId: co2
   systemVersion: 2.3.12
-  createdTime: 1791788435182
-  modifiedTime: 1791788435182
+  createdTime: 1792435021505
+  modifiedTime: 1792435021505
   lastModifiedBy: TjbWhMczNyKieD8D
   compendiumSource: null
   duplicateSource: null

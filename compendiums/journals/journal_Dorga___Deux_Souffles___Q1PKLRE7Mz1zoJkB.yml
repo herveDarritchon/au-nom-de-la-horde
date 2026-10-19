@@ -1,0 +1,229 @@
+name: Dorga « Deux-Souffles »
+flags:
+  campaign-codex:
+    type: ''
+  core:
+    sheetClass: ''
+pages:
+  - name: 01 · Portrait et accroche
+    type: text
+    sort: 100000
+    text:
+      format: 1
+      content: >-
+        <h1>Dorga « Deux-Souffles »</h1><p><em>Adaptation Warbound · Vallée des
+        Épreuves · Journal MJ</em></p><blockquote><p>« Je peux encore porter un
+        sac. Mais après, il faudra que quelqu’un me relève.
+        »</p></blockquote><h2>En un
+        regard</h2><dl><dt><strong>Rôle</strong></dt><dd>L’épuisée · solidarité
+        / fierté</dd><dt><strong>Aspect</strong></dt><dd>Orque massive et
+        vieillissante, mains crevassées, dos raide, regard doux et vigilant.
+        Elle s’arrête parfois au milieu d’une phrase pour reprendre son
+        souffle.</dd><dt><strong>Désir</strong></dt><dd>Que son jeune frère Drog
+        réussisse son entraînement et qu’ils puissent obtenir une affectation
+        stable et digne.</dd><dt><strong>Crainte</strong></dt><dd>Être perçue
+        comme inutile ; faire perdre à Drog sa chance de devenir
+        guerrier.</dd><dt><strong>Défaut</strong></dt><dd>Elle refuse l’aide,
+        minimise ses douleurs et peut brusquer ceux qui cherchent à lui éviter
+        un effort.</dd></dl><h2>Première impression à la table</h2><p>Elle parle
+        peu, aide sans le dire et donne plus qu’elle ne possède. Elle est
+        sensible aux gestes simples, jamais aux grands discours.</p><h2>Contact
+        avec les PJ</h2><p>La promesse faite à Drog, le souvenir d’un repas
+        partagé ou le respect gagné en traitant Dorga comme une personne et non
+        une victime.</p><p><em>Statut : PNJ original de la campagne. Repère
+        canonique du secteur : le contremaître Thazz’rill et les péons de la
+        Vallée.</em></p>
+    ownership:
+      default: 0
+    flags: {}
+    _id: KTBrq9WXPZYFBSel
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067355
+      modifiedTime: 1792435067355
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!Q1PKLRE7Mz1zoJkB.KTBrq9WXPZYFBSel'
+  - name: 02 · Jouer ce péon
+    type: text
+    sort: 200000
+    text:
+      format: 1
+      content: >-
+        <h1>Interprétation et liens</h1><h2>Comment l’incarner</h2><p>Elle parle
+        peu, aide sans le dire et donne plus qu’elle ne possède. Elle est
+        sensible aux gestes simples, jamais aux grands discours.</p><h2>Ce qu’il
+        sait, croit et dissimule</h2><dl><dt><strong>Sait</strong></dt><dd>Qui
+        remplace qui au chantier, quelles charges sont trop lourdes, quels
+        ouvriers tirent sur leurs
+        forces.</dd><dt><strong>Croit</strong></dt><dd>Que sa valeur dépend du
+        travail qu’elle peut encore
+        accomplir.</dd><dt><strong>Cache</strong></dt><dd>Elle cumule ses
+        corvées et celles de Grubnak. Sa fatigue est plus grave qu’elle ne
+        l’admet à Drog.</dd></dl><h2>Son
+        entourage</h2><table><thead><tr><th>Personne</th><th>Relation
+        actuelle</th></tr></thead><tbody><tr><td>Drog</td><td>Son petit frère,
+        jeune recrue de la Vallée ; sa fierté et sa principale
+        inquiétude.</td></tr><tr><td>Mogra</td><td>Amie proche qui veut la
+        protéger, parfois contre son avis.</td></tr><tr><td>Grubnak</td><td>Elle
+        reprend ses tâches et commence à en
+        souffrir.</td></tr><tr><td>Zugmog</td><td>Elle l’aide et l’encourage
+        comme un jeune parent éloigné.</td></tr></tbody></table><h2>Une phrase à
+        placer</h2><blockquote><p>« Je peux encore porter un sac. Mais après, il
+        faudra que quelqu’un me relève. »</p></blockquote>
+    ownership:
+      default: 0
+    flags: {}
+    _id: R8YoWS7CVtMEX8Kr
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067355
+      modifiedTime: 1792435067355
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!Q1PKLRE7Mz1zoJkB.R8YoWS7CVtMEX8Kr'
+  - name: 03 · Scènes et réactions
+    type: text
+    sort: 300000
+    text:
+      format: 1
+      content: >-
+        <h1>Scènes et décisions</h1><h2>Trois occasions de jeu</h2><h3>Le
+        fardeau</h3><p>Lors d’une tâche banale, Dorga chancelle et se rattrape
+        discrètement à une poutre. Quelqu’un doit finir son portage.</p><h3>La
+        visite de Drog</h3><p>Drog vient lui raconter son entraînement ; elle
+        cache ses mains tremblantes sous la table.</p><h3>Une place près du
+        feu</h3><p>Au repas, elle remercie timidement le PJ qui lui a apporté de
+        l’eau, puis lui demande de ne rien dire à son frère.</p><h2>Réactions à
+        quelques choix des PJ</h2><table><thead><tr><th>Approche des
+        PJ</th><th>Réaction ou conséquence</th></tr></thead><tbody><tr><td>La
+        forcer à se reposer</td><td>Sa santé s’améliore, mais elle peut
+        considérer qu’on lui retire sa dignité si rien n’est décidé avec
+        elle.</td></tr><tr><td>Réorganiser le travail avec son
+        accord</td><td>Elle accepte un rôle moins épuisant et aide à enseigner
+        aux plus jeunes. Thazz’rill demande qui prendra les charges
+        restantes.</td></tr><tr><td>Ignorer le signal</td><td>Elle se blesse ou
+        s’effondre lors d’une autre corvée ; Drog cherche un
+        responsable.</td></tr></tbody></table><h2>Si les PJ n’interviennent
+        pas</h2><p>Elle accumule les tâches jusqu’à une blessure qui la rend
+        temporairement incapable de travailler ; Drog se met en colère contre
+        l’encadrement.</p><p><em>Ces scènes sont des opportunités, pas une suite
+        de quêtes imposées. Elles peuvent se résoudre sans jet de dés.</em></p>
+    ownership:
+      default: 0
+    flags: {}
+    _id: WHF0aCPZqiKRROu7
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067355
+      modifiedTime: 1792435067355
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!Q1PKLRE7Mz1zoJkB.WHF0aCPZqiKRROu7'
+  - name: 04 · Secrets et devenir (MJ)
+    type: text
+    sort: 400000
+    text:
+      format: 1
+      content: >-
+        <h1>MJ — Secrets et continuité</h1><h2>Vérité / point de
+        vigilance</h2><p>Ne transforme pas Dorga en simple objet de compassion.
+        Même épuisée, elle reste compétente, décidée et parfois désagréable
+        lorsqu’elle se sent diminuée.</p><h2>Ce que le PNJ ne dit pas
+        spontanément</h2><p>Elle cumule ses corvées et celles de Grubnak. Sa
+        fatigue est plus grave qu’elle ne l’admet à Drog.</p><h2>Évolution
+        envisageable</h2><p>Drog devient potentiellement garde à Tranchecolline.
+        Il connaît les noms de ceux qui ont pris soin de sa sœur — ou de ceux
+        qui l’ont humiliée.</p><h2>Fil de mémoire des PJ</h2><ul><li>Qui lui a
+        parlé avec respect, et qui l’a humilié ?</li><li>Quelle promesse les PJ
+        ont-ils faite ?</li><li>Quelle décision des PJ a réellement changé sa
+        vie ?</li><li>Que demandera-t-il aux PJ la prochaine fois qu’ils se
+        croiseront ?</li></ul><h2>Continuité ouverte</h2><p>Les événements
+        ci-dessus sont des propositions. Les faits établis pendant la partie
+        priment sur cette préparation. L’amitié, l’hostilité et le destin de ce
+        péon ne sont pas décidés à l’avance.</p>
+    ownership:
+      default: 0
+    flags: {}
+    _id: 2rjEu6y46E54wnkP
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067355
+      modifiedTime: 1792435067355
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!Q1PKLRE7Mz1zoJkB.2rjEu6y46E54wnkP'
+folder: dv9pfMyi7rdDcUkj
+categories: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_id: Q1PKLRE7Mz1zoJkB
+sort: 0
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792435067355
+  modifiedTime: 1792435067355
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!Q1PKLRE7Mz1zoJkB'

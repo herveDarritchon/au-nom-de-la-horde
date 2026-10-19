@@ -1,0 +1,2022 @@
+name: Rencontres — Terres des Tranchecrins
+folder: 3VPmgbVDF9VHIO2W
+flags:
+  warbound-campaign-content:
+    markdownImport:
+      schema: 1
+      collectionId: terres-tranchecrins-encounters
+      collectionType: encounter
+pages:
+  - name: Contexte
+    type: text
+    sort: 0
+    text:
+      content: >-
+        <h1>Rencontres — Terres des Tranchecrins</h1>
+
+        <h2>Périmètre</h2>
+
+        <p>Cette table est destinée aux déplacements et explorations dans les
+        <strong>Terres des Tranchecrins</strong>, à l’ouest de
+        Tranchecolline.</p>
+
+        <p>Elle couvre principalement :</p>
+
+        <ul><li>les ravins et passages étroits du territoire Tranchecrin
+        ;</li><li>le <strong>Tunnel des Tranchecrins</strong> ;</li><li>le
+        <strong>Cratère des Tranchecrins</strong> ;</li><li>la <strong>Piste des
+        Échineurs</strong> ;</li><li>les abords de la <strong>Grotte des
+        Échineurs</strong>.</li></ul>
+
+        <p>Le relief compartimente fortement le territoire. Deux groupes séparés
+        de quelques dizaines de mètres peuvent ne ni se voir ni s’entendre. Les
+        hauteurs permettent en revanche de surveiller les passages obligés.</p>
+
+        <p>La table n’est pas destinée à représenter tout Durotar : elle doit
+        faire sentir que les PJ ont pénétré dans un espace où les
+        <strong>quilboars Tranchecrins occupent, surveillent et aménagent le
+        terrain</strong>.</p>
+
+        <h2>Identité du territoire</h2>
+
+        <p>Roche rouge, ravins secs, taillis épineux, pentes friables et
+        passages resserrés donnent au secteur une impression d’enfermement
+        inhabituelle pour Durotar.</p>
+
+        <p>La visibilité change constamment : un promontoire peut offrir une vue
+        remarquable sur les environs, tandis qu’un détour suffit ensuite à
+        masquer totalement le chemin parcouru.</p>
+
+        <p>Les traces d’occupation sont fréquentes :</p>
+
+        <ul><li>branchages coupés ;</li><li>pierres déplacées ;</li><li>sentiers
+        élargis ou volontairement obstrués ;</li><li>traces de passage
+        ;</li><li>postes d’observation improvisés ;</li><li>restes de campements
+        ;</li><li>marques territoriales ;</li><li>passages connus des seuls
+        habitués.</li></ul>
+
+        <p>Le danger principal vient autant de cette <strong>maîtrise du
+        terrain</strong> que de la présence des Tranchecrins eux-mêmes.</p>
+
+        <h2>Background utile au MJ</h2>
+
+        <p>Les Tranchecrins empiètent sur les terres proches de Tranchecolline.
+        Ils ne doivent donc pas apparaître comme une succession de groupes
+        attendant immobiles d’être combattus : ils circulent, surveillent,
+        transportent des ressources et consolident leur présence.</p>
+
+        <p>Leur hostilité envers les intrus est réelle, mais chaque rencontre ne
+        provoque pas automatiquement une attaque. Un éclaireur isolé peut
+        préférer prévenir les siens, un groupe chargé peut chercher à éviter un
+        affrontement, et certains individus peuvent privilégier leur propre
+        survie.</p>
+
+        <p>La <strong>Piste des Échineurs</strong> et la <strong>Grotte des
+        Échineurs</strong> signalent une autre présence régulière dans le
+        secteur. La nature exacte des Échineurs n’est volontairement <strong>pas
+        définie à ce stade de Warbound</strong>. Cette collection peut montrer
+        leurs traces, leurs effets et les réactions qu’ils provoquent, mais elle
+        ne fixe ni leur espèce, ni leur origine, ni leurs capacités.</p>
+
+        <p>Le principe de conception utilisé ici est celui d’une rencontre comme
+        <strong>situation déjà en train de se produire avant l’arrivée des
+        PJ</strong>, et non comme simple apparition d’un groupe d’adversaires.
+        :chatgpt-content-reference{index="0"}</p>
+
+        <h2>Qui circule ici ?</h2>
+
+        <p><strong>Tranchecrins</strong> — Ils constituent la présence
+        dominante. Éclaireurs, gardes, transporteurs ou petits groupes utilisent
+        les ravins et les passages couverts pour circuler sans être facilement
+        repérés.</p>
+
+        <p><strong>Patrouilles et éclaireurs de la Horde</strong> — Ils peuvent
+        s’aventurer depuis Tranchecolline pour surveiller l’empiètement,
+        reconnaître un passage ou rechercher des disparus, mais ils sont ici en
+        territoire dangereux.</p>
+
+        <p><strong>Voyageurs imprudents ou égarés</strong> — Peu nombreux. Ceux
+        qui quittent les pistes sûres peuvent se retrouver bloqués dans les
+        reliefs.</p>
+
+        <p><strong>Faune et charognards</strong> — Le relief leur procure abris
+        et points d’observation. Leur comportement peut également révéler la
+        présence d’un danger invisible.</p>
+
+        <p><strong>Échineurs</strong> — Leur fréquentation de la partie
+        occidentale est perceptible, mais leur nature reste à fixer. Les
+        rencontres qui leur sont liées doivent entretenir cette incertitude.</p>
+
+        <h2>Ce qui se passe actuellement</h2>
+
+        <p>Le territoire est dans son <strong>état de base hostile</strong>.</p>
+
+        <p>Les Tranchecrins cherchent à conserver leur liberté de circulation et
+        à maintenir leur emprise sur les passages qu’ils utilisent. La Horde
+        sait que le secteur est dangereux, mais il ne s’agit pas encore d’un
+        front militaire organisé.</p>
+
+        <p>Le Tunnel et le Cratère permettent aux Tranchecrins de se déplacer à
+        couvert et de dissimuler une partie de leur activité.</p>
+
+        <p>À l’ouest, les traces liées aux Échineurs compliquent encore la
+        lecture du territoire : certaines marques peuvent appartenir aux
+        Tranchecrins, d’autres à la faune, d’autres enfin à cette présence
+        encore mal connue.</p>
+
+        <h2>Modificateurs du contexte actuel</h2>
+
+        <p>Aucun événement exceptionnel ni conséquence antérieure des actions
+        des PJ n’a été fourni.</p>
+
+        <p>La table représente donc l’<strong>état normal actuel</strong> du
+        territoire :</p>
+
+        <ul><li>présence Tranchecrin régulière ;</li><li>vigilance envers les
+        intrus ;</li><li>circulation difficile ;</li><li>contrôle imparfait mais
+        réel des passages ;</li><li>présence des Échineurs encore indéterminée
+        ;</li><li>absence d’alerte générale.</li></ul>
+
+        <p>Si les PJ provoquent ultérieurement les Tranchecrins, détruisent un
+        poste ou découvrent un raccourci, certaines entrées pourront être
+        désactivées ou réinterprétées pour refléter ce changement.</p>
+
+        <h2>Utilisation de la table</h2>
+
+        <p>Cette table répond à :</p>
+
+        <blockquote><p><strong>« Quelle rencontre se produit ?
+        »</strong></p></blockquote>
+
+        <p>Elle ne détermine pas si une rencontre doit avoir lieu.</p>
+
+        <p>Effectue un tirage lorsque tu veux :</p>
+
+        <ul><li>matérialiser l’entrée en territoire hostile ;</li><li>rappeler
+        que les Tranchecrins vivent et circulent ici ;</li><li>rendre un trajet
+        moins abstrait ;</li><li>introduire un choix de route ;</li><li>révéler
+        progressivement l’organisation du territoire ;</li><li>montrer les
+        traces des Échineurs sans encore les définir ;</li><li>créer une
+        complication pendant une exploration.</li></ul>
+
+        <h2>Quand ne pas tirer</h2>
+
+        <p>Ne tire pas lorsque :</p>
+
+        <ul><li>une confrontation importante est déjà en cours ;</li><li>les PJ
+        viennent de prendre une décision qui mérite d’être résolue immédiatement
+        ;</li><li>le déplacement est volontairement traité par ellipse
+        ;</li><li>une nouvelle rencontre casserait la tension d’une scène
+        existante ;</li><li>le résultat n’apporterait rien d’autre que du
+        remplissage.</li></ul>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: terres-tranchecrins-encounters
+          entryId: context
+          sourceHash: 249b0d98
+    _id: ipxXUTU50PSbkbHf
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435077349
+      modifiedTime: 1792435077349
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!SUo222qLeyUz6N3g.ipxXUTU50PSbkbHf'
+  - name: Le passage qui se referme
+    type: text
+    sort: 100000
+    text:
+      content: >-
+        <h2>Le passage qui se referme</h2>
+
+        <h3>En un regard</h3>
+
+        <p>Plusieurs Tranchecrins tirent des amas de branches épineuses à
+        travers l’un des passages les plus étroits du ravin. Ils travaillent
+        vite et regardent régulièrement vers les hauteurs.</p>
+
+        <h3>Ce qui se passe réellement</h3>
+
+        <p>Les Tranchecrins ferment un accès qu’ils ne souhaitent plus laisser
+        praticable aux étrangers. Le barrage n’est pas encore terminé et peut
+        toujours être franchi.</p>
+
+        <p>Le groupe travaille depuis plusieurs heures et veut achever
+        l’obstacle avant de repartir vers l’intérieur du territoire.</p>
+
+        <h3>Acteurs</h3>
+
+        <p><strong>Tranchecrins chargés du barrage — terminer le travail —
+        concentrés mais vigilants</strong></p>
+
+        <p><strong>Éclaireur en hauteur — éviter une surprise — attentif aux
+        crêtes plus qu’au fond du ravin</strong></p>
+
+        <h3>Tension</h3>
+
+        <p>Le passage constitue probablement l’itinéraire le plus direct des
+        PJ.</p>
+
+        <p>Intervenir signifie révéler leur présence. Attendre laisse aux
+        Tranchecrins le temps de rendre le passage beaucoup plus difficile à
+        emprunter.</p>
+
+        <h3>Ce qui peut attirer l’attention</h3>
+
+        <ul><li>Les matériaux proviennent des taillis voisins.</li><li>Le
+        barrage est conçu pour empêcher le passage, pas simplement pour se
+        protéger derrière.</li><li>L’éclaireur regarde régulièrement vers
+        l’extérieur du territoire.</li><li>Un espace étroit demeure praticable
+        sur un côté.</li></ul>
+
+        <h3>Leviers des PJ</h3>
+
+        <p>Ils peuvent attendre la fin des travaux, contourner le secteur,
+        profiter de l’ouverture restante, observer la manière dont les
+        Tranchecrins circulent ou tenter de détourner leur attention.</p>
+
+        <p>Ils peuvent également décider de détruire le barrage, immédiatement
+        ou plus tard.</p>
+
+        <h3>Évolution</h3>
+
+        <p>Une fois le travail terminé, les Tranchecrins quittent les lieux.</p>
+
+        <p>Le passage devient alors un obstacle durable du pointcrawl tant qu’il
+        n’est pas dégagé ou contourné.</p>
+
+        <h3>Retombées possibles</h3>
+
+        <p>Les PJ peuvent découvrir un itinéraire utilisé par les Tranchecrins,
+        identifier un changement territorial ou créer eux-mêmes un futur
+        raccourci en neutralisant l’obstacle.</p>
+
+        <h3>Combat éventuel</h3>
+
+        <p>Si les PJ sont repérés alors qu’ils tentent de franchir ou détruire
+        le barrage, les Tranchecrins cherchent surtout à les <strong>repousser
+        du passage</strong>.</p>
+
+        <p>Ils utilisent l’étroitesse du ravin et les branches pour limiter les
+        déplacements. Ils peuvent rompre le combat si les intrus battent en
+        retraite.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: terres-tranchecrins-encounters
+          entryId: barrage-epines
+          sourceHash: bd62b8b2
+    _id: GXo2oOzDiXWbJMKj
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435077349
+      modifiedTime: 1792435077349
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!SUo222qLeyUz6N3g.GXo2oOzDiXWbJMKj'
+  - name: Le guetteur dans la poussière
+    type: text
+    sort: 200000
+    text:
+      content: >-
+        <h2>Le guetteur dans la poussière</h2>
+
+        <h3>En un regard</h3>
+
+        <p>Une silhouette apparaît une fraction de seconde sur une crête avant
+        de disparaître. Peu après, un petit nuage de poussière s’élève bien plus
+        loin.</p>
+
+        <h3>Ce qui se passe réellement</h3>
+
+        <p>Un éclaireur Tranchecrin vient d’apercevoir les PJ.</p>
+
+        <p>Il ne cherche pas à les affronter. Il utilise les hauteurs et les
+        ravins pour transmettre leur présence à d’autres occupants du
+        territoire.</p>
+
+        <h3>Acteurs</h3>
+
+        <p><strong>Éclaireur Tranchecrin — prévenir les siens — prudent et
+        mobile</strong></p>
+
+        <h3>Tension</h3>
+
+        <p>Les PJ ne savent pas encore s’ils ont véritablement été repérés.</p>
+
+        <p>S’ils continuent sans modifier leur comportement, leur présence
+        cessera bientôt d’être une surprise.</p>
+
+        <h3>Ce qui peut attirer l’attention</h3>
+
+        <ul><li>Aucun cri d’alarme.</li><li>La silhouette ne réapparaît jamais
+        au même endroit.</li><li>Le nuage de poussière se déplace vers
+        l’intérieur du territoire.</li><li>Plusieurs hauteurs offrent une ligne
+        de vue les unes sur les autres.</li></ul>
+
+        <h3>Leviers des PJ</h3>
+
+        <p>Ils peuvent poursuivre le guetteur, accélérer, changer d’itinéraire,
+        se dissimuler, rebrousser chemin ou simplement accepter que leur
+        présence soit connue.</p>
+
+        <p>Observer les déplacements peut également révéler une route utilisée
+        par les Tranchecrins.</p>
+
+        <h3>Évolution</h3>
+
+        <p>L’éclaireur transmet l’information puis disparaît dans le réseau de
+        ravins.</p>
+
+        <p>Les rencontres suivantes peuvent être jouées avec des Tranchecrins
+        davantage préparés à la présence d’intrus.</p>
+
+        <h3>Retombées possibles</h3>
+
+        <p>La scène peut révéler la logique de surveillance du territoire et
+        apprendre aux PJ à considérer les crêtes comme faisant partie intégrante
+        du réseau de circulation local.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: terres-tranchecrins-encounters
+          entryId: guetteur-poussiere
+          sourceHash: 3bdc62a7
+    _id: e1Zq26enFfzJ0XRm
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435077349
+      modifiedTime: 1792435077349
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!SUo222qLeyUz6N3g.e1Zq26enFfzJ0XRm'
+  - name: La gorge coupée
+    type: text
+    sort: 300000
+    text:
+      content: >-
+        <h2>La gorge coupée</h2>
+
+        <h3>En un regard</h3>
+
+        <p>Une partie du sentier vient de glisser dans le ravin. Des pierres
+        roulent encore tandis qu’une corniche plus élevée semble rejoindre
+        l’autre côté.</p>
+
+        <h3>Ce qui se passe réellement</h3>
+
+        <p>Le terrain friable s’est effondré récemment. Rien n’indique que
+        l’éboulement ait été provoqué volontairement.</p>
+
+        <p>Le passage habituel est inutilisable sans effort, mais l’accident
+        vient de révéler d’autres possibilités.</p>
+
+        <h3>Acteurs</h3>
+
+        <p>Aucun acteur intelligent n’est nécessaire à cette rencontre.</p>
+
+        <h3>Tension</h3>
+
+        <p>Revenir en arrière coûte du temps.</p>
+
+        <p>Escalader expose les PJ sur les hauteurs.</p>
+
+        <p>Descendre dans le ravin permet peut-être de contourner l’obstacle
+        mais les fait quitter les passages connus.</p>
+
+        <h3>Ce qui peut attirer l’attention</h3>
+
+        <ul><li>L’effondrement est encore frais.</li><li>Des traces anciennes
+        apparaissent sur la corniche supérieure.</li><li>Le fond du ravin semble
+        rejoindre un autre couloir rocheux.</li><li>Quelques pierres continuent
+        de céder sous le poids.</li></ul>
+
+        <h3>Leviers des PJ</h3>
+
+        <p>Ils peuvent escalader, sécuriser un passage, descendre, chercher un
+        détour ou marquer les lieux pour une future expédition.</p>
+
+        <h3>Évolution</h3>
+
+        <p>Sans intervention, le passage continue à se dégrader et devient
+        progressivement impraticable.</p>
+
+        <h3>Retombées possibles</h3>
+
+        <p>Les PJ peuvent découvrir une connexion nouvelle entre deux secteurs
+        ou identifier un passage utilisable lors de prochaines excursions.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: terres-tranchecrins-encounters
+          entryId: passage-eboule
+          sourceHash: '80262661'
+    _id: 42rxKmkYmDsv43pZ
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435077349
+      modifiedTime: 1792435077349
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!SUo222qLeyUz6N3g.42rxKmkYmDsv43pZ'
+  - name: Ceux qui descendent au cratère
+    type: text
+    sort: 400000
+    text:
+      content: >-
+        <h2>Ceux qui descendent au cratère</h2>
+
+        <h3>En un regard</h3>
+
+        <p>Une file de Tranchecrins descend lentement vers le Cratère avec des
+        charges de bois, de peaux et de fagots. Deux éclaireurs ferment la
+        marche.</p>
+
+        <h3>Ce qui se passe réellement</h3>
+
+        <p>Le groupe transporte du matériel nécessaire à l’occupation du
+        secteur.</p>
+
+        <p>Cette rencontre montre que le Cratère n’est pas seulement un repaire
+        de combattants : il faut l’approvisionner et l’entretenir.</p>
+
+        <h3>Acteurs</h3>
+
+        <p><strong>Porteurs Tranchecrins — acheminer leurs charges — fatigués et
+        concentrés</strong></p>
+
+        <p><strong>Éclaireurs — protéger le déplacement — méfiants</strong></p>
+
+        <h3>Tension</h3>
+
+        <p>Le groupe est vulnérable pendant la descente mais n’a aucun intérêt à
+        abandonner son chargement pour poursuivre des intrus.</p>
+
+        <p>Suivre les porteurs peut cependant conduire les PJ vers une zone plus
+        fréquentée.</p>
+
+        <h3>Ce qui peut attirer l’attention</h3>
+
+        <ul><li>Les charges sont utilitaires plutôt que
+        militaires.</li><li>Certains porteurs connaissent parfaitement les
+        appuis de la pente.</li><li>Les éclaireurs surveillent surtout les accès
+        latéraux.</li><li>La piste disparaît presque totalement une fois le
+        groupe engagé dans la descente.</li></ul>
+
+        <h3>Leviers des PJ</h3>
+
+        <p>Observer, suivre à distance, laisser passer, chercher l’origine du
+        convoi ou profiter de son passage pour apprendre le meilleur chemin vers
+        le Cratère sont autant d’options.</p>
+
+        <h3>Évolution</h3>
+
+        <p>Le groupe atteint le fond du Cratère puis se disperse.</p>
+
+        <p>La trace qu’il laisse reste visible quelque temps.</p>
+
+        <h3>Retombées possibles</h3>
+
+        <p>Les PJ peuvent apprendre comment le Cratère est approvisionné,
+        identifier une voie sûre vers son fond ou comprendre que l’occupation
+        Tranchecrin du territoire est durable.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: terres-tranchecrins-encounters
+          entryId: porteurs-cratere
+          sourceHash: 5aca8232
+    _id: pfZ1dK1ZzlYgmUSd
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435077349
+      modifiedTime: 1792435077349
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!SUo222qLeyUz6N3g.pfZ1dK1ZzlYgmUSd'
+  - name: Le verrou du tunnel
+    type: text
+    sort: 500000
+    text:
+      content: >-
+        <h2>Le verrou du tunnel</h2>
+
+        <h3>En un regard</h3>
+
+        <p>Des bruits de pierres déplacées résonnent depuis l’entrée du Tunnel
+        des Tranchecrins. Plusieurs silhouettes travaillent derrière une
+        protection sommaire.</p>
+
+        <h3>Ce qui se passe réellement</h3>
+
+        <p>Un petit groupe consolide un point de contrôle dans le Tunnel.</p>
+
+        <p>Les Tranchecrins exploitent son étroitesse pour surveiller le passage
+        avec peu de monde.</p>
+
+        <h3>Acteurs</h3>
+
+        <p><strong>Gardes du tunnel — contrôler l’accès — vigilants</strong></p>
+
+        <p><strong>Travailleurs — terminer les protections — occupés et peu
+        désireux de se battre</strong></p>
+
+        <h3>Tension</h3>
+
+        <p>Passer maintenant signifie affronter un poste encore incomplet.</p>
+
+        <p>Attendre peut rendre le passage beaucoup plus difficile à
+        utiliser.</p>
+
+        <h3>Ce qui peut attirer l’attention</h3>
+
+        <ul><li>Les défenses sont tournées vers l’entrée la plus
+        accessible.</li><li>Une partie du tunnel reste hors de leur champ de
+        vision.</li><li>Des pierres sont préparées pour obstruer rapidement le
+        passage.</li><li>Les travailleurs réagissent aux ordres des
+        gardes.</li></ul>
+
+        <h3>Leviers des PJ</h3>
+
+        <p>Ils peuvent observer, rebrousser chemin, tenter une diversion,
+        chercher un autre accès, attendre le départ des travailleurs ou forcer
+        le passage.</p>
+
+        <h3>Évolution</h3>
+
+        <p>Le poste devient plus solide au fil des heures.</p>
+
+        <p>Plus tard, les Tranchecrins peuvent contrôler efficacement cette
+        portion du Tunnel.</p>
+
+        <h3>Retombées possibles</h3>
+
+        <p>La rencontre peut modifier l’accessibilité d’une liaison du
+        pointcrawl ou révéler l’importance stratégique du Tunnel.</p>
+
+        <h3>Combat éventuel</h3>
+
+        <p>Les gardes cherchent à <strong>tenir l’accès</strong>, pas à
+        poursuivre les PJ à travers tout le territoire.</p>
+
+        <p>Les travailleurs essaient d’obstruer le passage ou de se mettre à
+        l’abri. Faire céder la position, créer une diversion ou forcer le
+        passage peut suffire à terminer la confrontation.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: terres-tranchecrins-encounters
+          entryId: poste-tunnel
+          sourceHash: 333153b8
+    _id: QQdUTpqR70N6HrGh
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435077349
+      modifiedTime: 1792435077349
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!SUo222qLeyUz6N3g.QQdUTpqR70N6HrGh'
+  - name: La bête abandonnée
+    type: text
+    sort: 600000
+    text:
+      content: >-
+        <h2>La bête abandonnée</h2>
+
+        <h3>En un regard</h3>
+
+        <p>Une bête de bât affolée tire sur une longe coincée entre deux blocs
+        de roche. Elle porte encore plusieurs sacs et une partie de son
+        harnachement est déchirée.</p>
+
+        <h3>Ce qui se passe réellement</h3>
+
+        <p>Son propriétaire a été séparé d’elle plus loin dans les ravins.</p>
+
+        <p>La bête a fui jusqu’ici avant de se retrouver bloquée.</p>
+
+        <h3>Acteurs</h3>
+
+        <p><strong>Bête de bât — se libérer et fuir — paniquée</strong></p>
+
+        <p><strong>Propriétaire absent — situation inconnue — laissé
+        volontairement indéterminé</strong></p>
+
+        <h3>Tension</h3>
+
+        <p>Les mouvements et les cris de l’animal peuvent attirer
+        l’attention.</p>
+
+        <p>La cargaison peut également fournir des indices sur l’identité de son
+        propriétaire sans expliquer ce qui lui est arrivé.</p>
+
+        <h3>Ce qui peut attirer l’attention</h3>
+
+        <ul><li>Une longe rompue traîne derrière elle.</li><li>Une partie du
+        chargement manque.</li><li>Les traces remontent vers un autre
+        ravin.</li><li>L’animal réagit fortement à certaines
+        directions.</li></ul>
+
+        <h3>Leviers des PJ</h3>
+
+        <p>Ils peuvent calmer et libérer la bête, examiner les sacs, suivre ses
+        traces, l’emmener avec eux ou poursuivre leur route.</p>
+
+        <h3>Évolution</h3>
+
+        <p>Si personne n’intervient, la longe finit par céder ou l’animal
+        s’épuise sur place.</p>
+
+        <h3>Retombées possibles</h3>
+
+        <p>La rencontre peut fournir une piste vers un voyageur disparu, une
+        ressource temporaire ou simplement un avertissement sur ce qui se passe
+        plus loin.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: terres-tranchecrins-encounters
+          entryId: bete-de-bat
+          sourceHash: 2b3e7e7f
+    _id: CaI1qANNAOrcmlrS
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435077349
+      modifiedTime: 1792435077349
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!SUo222qLeyUz6N3g.CaI1qANNAOrcmlrS'
+  - name: L’ennemi sous les ronces
+    type: text
+    sort: 700000
+    text:
+      content: >-
+        <h2>L’ennemi sous les ronces</h2>
+
+        <h3>En un regard</h3>
+
+        <p>Un Tranchecrin blessé est coincé sous un amas de branches et de
+        pierres. Il cesse immédiatement de bouger lorsqu’il aperçoit les PJ.</p>
+
+        <h3>Ce qui se passe réellement</h3>
+
+        <p>Il a été victime d’un accident du terrain pendant un déplacement
+        solitaire.</p>
+
+        <p>Il ne peut pas se dégager rapidement sans aide.</p>
+
+        <h3>Acteurs</h3>
+
+        <p><strong>Tranchecrin blessé — survivre et rejoindre les siens —
+        hostile mais inquiet</strong></p>
+
+        <h3>Tension</h3>
+
+        <p>Les deux camps savent qu’ils sont ennemis.</p>
+
+        <p>Pourtant, le Tranchecrin est momentanément vulnérable et les PJ ne
+        savent pas si d’autres membres de son groupe se trouvent à
+        proximité.</p>
+
+        <h3>Ce qui peut attirer l’attention</h3>
+
+        <ul><li>Ses blessures correspondent à une chute, pas à un
+        combat.</li><li>Son arme reste à portée mais il ne peut pas l’utiliser
+        correctement.</li><li>Il observe surtout la sortie du ravin.</li><li>Il
+        tente de dissimuler son inquiétude.</li></ul>
+
+        <h3>Leviers des PJ</h3>
+
+        <p>Ils peuvent l’aider, le questionner, le désarmer, le laisser sur
+        place, l’utiliser pour comprendre les chemins locaux ou tenter de le
+        suivre s’il repart.</p>
+
+        <h3>Évolution</h3>
+
+        <p>Sans aide, il finit par se libérer difficilement ou par être retrouvé
+        par d’autres Tranchecrins.</p>
+
+        <h3>Retombées possibles</h3>
+
+        <p>Une aide peut créer une dette individuelle sans transformer la
+        faction entière en alliée.</p>
+
+        <p>Une brutalité inutile peut au contraire nourrir une hostilité
+        personnelle ultérieure.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: terres-tranchecrins-encounters
+          entryId: tranchecrin-blesse
+          sourceHash: 38b5263a
+    _id: mkafjEUNIyrrFOso
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435077349
+      modifiedTime: 1792435077349
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!SUo222qLeyUz6N3g.mkafjEUNIyrrFOso'
+  - name: Des pas au-dessus des pas
+    type: text
+    sort: 800000
+    text:
+      content: >-
+        <h2>Des pas au-dessus des pas</h2>
+
+        <h3>En un regard</h3>
+
+        <p>Les PJ découvrent que des empreintes parallèles aux leurs suivent les
+        crêtes depuis plusieurs centaines de mètres.</p>
+
+        <h3>Ce qui se passe réellement</h3>
+
+        <p>Quelqu’un accompagne leur déplacement sans descendre dans les
+        ravins.</p>
+
+        <p>L’identité du pisteur n’est pas immédiatement visible et n’a pas
+        besoin d’être déterminée avant que les PJ décident de réagir.</p>
+
+        <h3>Acteurs</h3>
+
+        <p><strong>Pisteur invisible — conserver l’avantage de l’observation —
+        prudent</strong></p>
+
+        <h3>Tension</h3>
+
+        <p>Le poursuivant connaît la position des PJ, tandis qu’eux ignorent la
+        sienne.</p>
+
+        <p>Quitter le fond du ravin permettrait de renverser cette asymétrie
+        mais les exposerait davantage.</p>
+
+        <h3>Ce qui peut attirer l’attention</h3>
+
+        <ul><li>Les traces s’interrompent aux points offrant une bonne
+        vue.</li><li>Elles évitent les zones découvertes.</li><li>Elles ne
+        descendent jamais jusqu’au sentier principal.</li><li>Leur rythme
+        correspond à celui des PJ.</li></ul>
+
+        <h3>Leviers des PJ</h3>
+
+        <p>Ils peuvent tendre une contre-observation, changer brutalement de
+        direction, accélérer, s’arrêter, monter vers les crêtes ou ignorer la
+        présence.</p>
+
+        <h3>Évolution</h3>
+
+        <p>Le pisteur finit par quitter les PJ lorsqu’il estime avoir obtenu ce
+        qu’il cherchait ou lorsqu’il risque d’être découvert.</p>
+
+        <h3>Retombées possibles</h3>
+
+        <p>Les PJ peuvent repérer un réseau de chemins en hauteur et comprendre
+        qu’une grande partie du territoire se surveille depuis les crêtes.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: terres-tranchecrins-encounters
+          entryId: traces-sur-cretes
+          sourceHash: b99c7f64
+    _id: Swl8FczFGsGx9ld3
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435077349
+      modifiedTime: 1792435077349
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!SUo222qLeyUz6N3g.Swl8FczFGsGx9ld3'
+  - name: La piste devenue silencieuse
+    type: text
+    sort: 900000
+    text:
+      content: >-
+        <h2>La piste devenue silencieuse</h2>
+
+        <h3>En un regard</h3>
+
+        <p>Sur une portion de la Piste des Échineurs, les bruits ordinaires du
+        terrain disparaissent presque totalement.</p>
+
+        <h3>Ce qui se passe réellement</h3>
+
+        <p>Quelque chose perturbe régulièrement la faune du secteur.</p>
+
+        <p>La rencontre ne révèle volontairement pas s’il s’agit des Échineurs
+        eux-mêmes, d’un autre prédateur ou simplement d’une conséquence de leurs
+        passages.</p>
+
+        <h3>Acteurs</h3>
+
+        <p>Aucun acteur visible au début de la rencontre.</p>
+
+        <h3>Tension</h3>
+
+        <p>Le silence transforme un chemin praticable en espace
+        d’incertitude.</p>
+
+        <p>Les PJ peuvent continuer sans savoir ce qui rend cette portion
+        différente du reste de la piste.</p>
+
+        <h3>Ce qui peut attirer l’attention</h3>
+
+        <ul><li>De petites traces quittent la piste plutôt que de la
+        traverser.</li><li>Les empreintes Tranchecrins récentes font un
+        détour.</li><li>Plusieurs pierres ont été déplacées sur la
+        pente.</li><li>Le silence cesse progressivement après une certaine
+        distance.</li></ul>
+
+        <h3>Leviers des PJ</h3>
+
+        <p>Ils peuvent observer, attendre, contourner la portion, suivre les
+        traces de fuite ou continuer normalement.</p>
+
+        <h3>Évolution</h3>
+
+        <p>Si rien ne se manifeste, le silence finit par redevenir un simple
+        indice que les PJ pourront relier à d’autres observations
+        ultérieures.</p>
+
+        <h3>Retombées possibles</h3>
+
+        <p>La rencontre construit progressivement l’identité de la Piste des
+        Échineurs sans imposer immédiatement une explication.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: terres-tranchecrins-encounters
+          entryId: piste-silencieuse
+          sourceHash: 305cf2f3
+    _id: OjFqmkYW414TY3cP
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435077349
+      modifiedTime: 1792435077349
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!SUo222qLeyUz6N3g.OjFqmkYW414TY3cP'
+  - name: Les marques sur la roche
+    type: text
+    sort: 1000000
+    text:
+      content: >-
+        <h2>Les marques sur la roche</h2>
+
+        <h3>En un regard</h3>
+
+        <p>De profondes marques traversent plusieurs blocs rocheux avant de
+        disparaître vers la Grotte des Échineurs.</p>
+
+        <h3>Ce qui se passe réellement</h3>
+
+        <p>Ces marques témoignent du passage régulier de quelque chose dans
+        cette partie du territoire.</p>
+
+        <p>Elles doivent rester compatibles avec la future définition des
+        Échineurs et ne permettent donc pas d’identifier leur nature avec
+        certitude.</p>
+
+        <h3>Acteurs</h3>
+
+        <p>Aucun acteur visible.</p>
+
+        <h3>Tension</h3>
+
+        <p>Les marques croisent un ancien passage Tranchecrin puis le font
+        disparaître sous les pierres et la terre déplacées.</p>
+
+        <p>Quelque chose a modifié la circulation habituelle.</p>
+
+        <h3>Ce qui peut attirer l’attention</h3>
+
+        <ul><li>Plusieurs marques sont anciennes.</li><li>D’autres sont
+        nettement plus fraîches.</li><li>Les Tranchecrins semblent éviter la
+        trajectoire.</li><li>Le chemin rejoint indirectement les abords de la
+        Grotte.</li></ul>
+
+        <h3>Leviers des PJ</h3>
+
+        <p>Ils peuvent suivre les traces, comparer leur ancienneté, observer les
+        réactions d’autres occupants du territoire ou mémoriser l’itinéraire
+        sans l’explorer immédiatement.</p>
+
+        <h3>Évolution</h3>
+
+        <p>Les traces restent en place mais leur fraîcheur devient plus
+        difficile à déterminer avec le temps.</p>
+
+        <h3>Retombées possibles</h3>
+
+        <p>Les PJ gagnent un indice tangible sur la fréquentation de la Grotte
+        et sur l’influence des Échineurs dans la partie occidentale du
+        territoire.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: terres-tranchecrins-encounters
+          entryId: marques-echineurs
+          sourceHash: 326eb2bf
+    _id: vIZbX98io1nBrlaY
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435077349
+      modifiedTime: 1792435077349
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!SUo222qLeyUz6N3g.vIZbX98io1nBrlaY'
+  - name: La fumée basse
+    type: text
+    sort: 1100000
+    text:
+      content: >-
+        <h2>La fumée basse</h2>
+
+        <h3>En un regard</h3>
+
+        <p>Une fumée épaisse reste emprisonnée au fond du Cratère. Des
+        silhouettes apparaissent puis disparaissent derrière les rochers.</p>
+
+        <h3>Ce qui se passe réellement</h3>
+
+        <p>Un petit camp Tranchecrin utilise la protection naturelle du Cratère
+        pour effectuer des tâches ordinaires à l’abri des regards
+        extérieurs.</p>
+
+        <p>La fumée rend leur activité difficile à observer depuis les
+        hauteurs.</p>
+
+        <h3>Acteurs</h3>
+
+        <p><strong>Occupants du camp — poursuivre leurs activités sans être
+        dérangés — relativement détendus</strong></p>
+
+        <p><strong>Guetteur — surveiller les accès — attentif</strong></p>
+
+        <h3>Tension</h3>
+
+        <p>Les PJ disposent d’un excellent point d’observation mais risquent
+        d’être repérés s’ils cherchent à mieux voir.</p>
+
+        <p>La fumée masque également le nombre exact d’occupants.</p>
+
+        <h3>Ce qui peut attirer l’attention</h3>
+
+        <ul><li>Les déplacements suivent une routine.</li><li>Tous les occupants
+        ne portent pas d’armes en main.</li><li>Des arrivées et départs
+        empruntent toujours la même portion du Cratère.</li><li>La fumée révèle
+        la direction du vent dans la dépression.</li></ul>
+
+        <h3>Leviers des PJ</h3>
+
+        <p>Observer, contourner, mémoriser les accès, attendre un départ ou
+        utiliser la fumée comme couverture sont des options naturelles.</p>
+
+        <h3>Évolution</h3>
+
+        <p>Le camp finit par réduire son activité puis plusieurs occupants
+        quittent les lieux.</p>
+
+        <h3>Retombées possibles</h3>
+
+        <p>Les PJ peuvent apprendre les rythmes d’occupation du Cratère et
+        cesser de le considérer comme un simple espace de combat.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: terres-tranchecrins-encounters
+          entryId: fumee-cratere
+          sourceHash: b822481e
+    _id: 6IpNKz5JsuwyRELS
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435077349
+      modifiedTime: 1792435077349
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!SUo222qLeyUz6N3g.6IpNKz5JsuwyRELS'
+  - name: La marque renversée
+    type: text
+    sort: 1200000
+    text:
+      content: >-
+        <h2>La marque renversée</h2>
+
+        <h3>En un regard</h3>
+
+        <p>Une marque territoriale faite de bois, de pierres et d’éléments
+        récupérés gît brisée au milieu du chemin. Des Tranchecrins approchent
+        pour l’examiner.</p>
+
+        <h3>Ce qui se passe réellement</h3>
+
+        <p>La marque a été détruite récemment, mais rien ne permet d’identifier
+        immédiatement le responsable.</p>
+
+        <p>Les Tranchecrins venus constater les dégâts pensent d’abord à une
+        intrusion.</p>
+
+        <h3>Acteurs</h3>
+
+        <p><strong>Tranchecrins du secteur — comprendre ce qui s’est passé —
+        soupçonneux</strong></p>
+
+        <h3>Tension</h3>
+
+        <p>Si les PJ sont découverts près de la marque, leur présence constitue
+        une explication évidente, même s’ils n’ont rien fait.</p>
+
+        <h3>Ce qui peut attirer l’attention</h3>
+
+        <ul><li>Les morceaux sont dispersés dans une direction
+        précise.</li><li>Certaines cassures ressemblent davantage à un choc qu’à
+        un sabotage méthodique.</li><li>Des traces différentes se superposent
+        autour de la marque.</li><li>Les Tranchecrins examinent le sol avant de
+        chercher des ennemis.</li></ul>
+
+        <h3>Leviers des PJ</h3>
+
+        <p>Ils peuvent s’éloigner, observer discrètement l’enquête, examiner
+        eux-mêmes les traces, se montrer ou utiliser la confusion pour traverser
+        le secteur.</p>
+
+        <h3>Évolution</h3>
+
+        <p>Les Tranchecrins finissent par reconstruire la marque et deviennent
+        temporairement plus attentifs aux passages proches.</p>
+
+        <h3>Retombées possibles</h3>
+
+        <p>La scène peut créer un malentendu, révéler une frontière invisible
+        aux PJ ou fournir des indices sur une autre présence ayant traversé le
+        secteur.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: terres-tranchecrins-encounters
+          entryId: frontiere-renversee
+          sourceHash: c297d234
+    _id: lMuvENNQLXF7STg1
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435077349
+      modifiedTime: 1792435077349
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!SUo222qLeyUz6N3g.lMuvENNQLXF7STg1'
+  - name: Le passage révélé
+    type: text
+    sort: 1300000
+    text:
+      content: >-
+        <h2>Le passage révélé</h2>
+
+        <h3>En un regard</h3>
+
+        <p>L’érosion a arraché une partie d’un talus et révélé une étroite
+        corniche invisible depuis le chemin principal.</p>
+
+        <h3>Ce qui se passe réellement</h3>
+
+        <p>La corniche existait déjà et certains habitués du secteur l’utilisent
+        depuis longtemps.</p>
+
+        <p>L’effondrement vient simplement de la rendre beaucoup plus facile à
+        repérer.</p>
+
+        <h3>Acteurs</h3>
+
+        <p>Aucun acteur nécessaire.</p>
+
+        <h3>Tension</h3>
+
+        <p>Le passage promet un véritable raccourci mais il est étroit, exposé
+        et rejoint une partie inconnue du réseau de ravins.</p>
+
+        <h3>Ce qui peut attirer l’attention</h3>
+
+        <ul><li>Plusieurs pierres portent des traces d’usure.</li><li>Des appuis
+        ont manifestement été utilisés à plusieurs reprises.</li><li>La corniche
+        contourne une portion particulièrement encaissée.</li><li>Une extrémité
+        disparaît derrière une crête.</li></ul>
+
+        <h3>Leviers des PJ</h3>
+
+        <p>Ils peuvent l’explorer immédiatement, le marquer sur leur carte, le
+        sécuriser ou simplement retenir son existence pour une prochaine
+        excursion.</p>
+
+        <h3>Évolution</h3>
+
+        <p>L’érosion peut continuer à élargir l’accès ou au contraire provoquer
+        un nouvel effondrement.</p>
+
+        <h3>Retombées possibles</h3>
+
+        <p>La découverte peut devenir un <strong>raccourci permanent du
+        pointcrawl</strong> si les PJ prennent le temps de comprendre où il
+        débouche.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: terres-tranchecrins-encounters
+          entryId: raccourci-erosion
+          sourceHash: 84e6d980
+    _id: nq5n6DO9kcqAJBAG
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435077349
+      modifiedTime: 1792435077349
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!SUo222qLeyUz6N3g.nq5n6DO9kcqAJBAG'
+  - name: Ceux qui reviennent trop vite
+    type: text
+    sort: 1400000
+    text:
+      content: >-
+        <h2>Ceux qui reviennent trop vite</h2>
+
+        <h3>En un regard</h3>
+
+        <p>Deux éclaireurs de la Horde sortent précipitamment d’un ravin en
+        soutenant un troisième compagnon blessé.</p>
+
+        <h3>Ce qui se passe réellement</h3>
+
+        <p>Le groupe est allé plus loin qu’il ne le souhaitait et cherche
+        maintenant à regagner Tranchecolline.</p>
+
+        <p>Les éclaireurs ne possèdent pas une explication complète de ce qu’ils
+        ont rencontré.</p>
+
+        <h3>Acteurs</h3>
+
+        <p><strong>Éclaireurs de la Horde — ramener leur compagnon vivant —
+        tendus</strong></p>
+
+        <p><strong>Blessé — atteindre un lieu sûr — épuisé</strong></p>
+
+        <h3>Tension</h3>
+
+        <p>Les éclaireurs veulent partir immédiatement.</p>
+
+        <p>Prendre le temps de raconter ce qu’ils ont vu augmente selon eux le
+        risque d’être rejoints.</p>
+
+        <h3>Ce qui peut attirer l’attention</h3>
+
+        <ul><li>Le blessé présente plusieurs types de blessures.</li><li>Les
+        éclaireurs ne sont pas d’accord sur leur origine.</li><li>Leur carte
+        sommaire comporte un passage absent de celle des PJ.</li><li>Ils
+        abandonnent volontiers du matériel pour alléger leur
+        compagnon.</li></ul>
+
+        <h3>Leviers des PJ</h3>
+
+        <p>Ils peuvent aider au transport, soigner, échanger rapidement des
+        informations, escorter le groupe, reprendre sa piste ou simplement lui
+        indiquer l’itinéraire le plus sûr.</p>
+
+        <h3>Évolution</h3>
+
+        <p>Sans aide, les éclaireurs continuent vers Tranchecolline en
+        abandonnant une partie de leur équipement.</p>
+
+        <h3>Retombées possibles</h3>
+
+        <p>Les PJ peuvent obtenir une information imparfaite mais utile, un
+        contact à Tranchecolline ou une indication sur un secteur encore
+        inexploré.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: terres-tranchecrins-encounters
+          entryId: retour-patrouille
+          sourceHash: 67dcd877
+    _id: hP5mtbTZ1bEvtuEt
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435077349
+      modifiedTime: 1792435077349
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!SUo222qLeyUz6N3g.hP5mtbTZ1bEvtuEt'
+  - name: Les ronces prennent feu
+    type: text
+    sort: 1500000
+    text:
+      content: >-
+        <h2>Les ronces prennent feu</h2>
+
+        <h3>En un regard</h3>
+
+        <p>Une fumée âcre envahit le ravin tandis qu’un feu court rapidement
+        dans les broussailles sèches. Des cris résonnent plus loin derrière le
+        front de flammes.</p>
+
+        <h3>Ce qui se passe réellement</h3>
+
+        <p>Un incendie local s’est déclaré et le relief canalise la fumée comme
+        les flammes.</p>
+
+        <p>Des occupants du territoire se trouvent coupés de leur itinéraire
+        habituel.</p>
+
+        <h3>Acteurs</h3>
+
+        <p><strong>Occupants pris au piège — trouver une sortie —
+        paniqués</strong></p>
+
+        <p><strong>Incendie — progresser avec le vent et le terrain</strong></p>
+
+        <h3>Tension</h3>
+
+        <p>Le danger ignore les frontières de faction.</p>
+
+        <p>Certains passages vont devenir temporairement impraticables tandis
+        que d’autres s’ouvrent lorsque les occupants fuient.</p>
+
+        <h3>Ce qui peut attirer l’attention</h3>
+
+        <ul><li>Le vent pousse le feu vers un passage encaissé.</li><li>Une zone
+        rocheuse offre un refuge temporaire.</li><li>Des silhouettes cherchent
+        également une issue de l’autre côté.</li><li>La fumée masque presque
+        totalement les hauteurs.</li></ul>
+
+        <h3>Leviers des PJ</h3>
+
+        <p>Ils peuvent fuir, guider d’autres victimes, profiter de la confusion,
+        créer une coupure dans les broussailles ou choisir un passage
+        normalement trop surveillé.</p>
+
+        <h3>Évolution</h3>
+
+        <p>Le feu traverse le secteur puis s’épuise sur les zones rocheuses.</p>
+
+        <p>Il laisse derrière lui un terrain noirci et temporairement beaucoup
+        plus ouvert.</p>
+
+        <h3>Retombées possibles</h3>
+
+        <p>Des passages deviennent visibles, certaines caches peuvent être
+        révélées et les déplacements locaux sont modifiés pendant quelque
+        temps.</p>
+
+        <h3>Combat éventuel</h3>
+
+        <p>Un affrontement peut éclater si deux groupes paniqués tentent
+        d’utiliser simultanément le même passage étroit.</p>
+
+        <p>L’objectif n’est alors pas de tuer l’adversaire, mais de
+        <strong>franchir la zone avant l’arrivée des flammes</strong>. La menace
+        environnementale doit pousser tous les participants à rompre rapidement
+        le combat.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: terres-tranchecrins-encounters
+          entryId: feu-taillis
+          sourceHash: 4bdd57b0
+    _id: eqdy9zErKUlKWrzJ
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435077349
+      modifiedTime: 1792435077349
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!SUo222qLeyUz6N3g.eqdy9zErKUlKWrzJ'
+  - name: La cache ouverte
+    type: text
+    sort: 1600000
+    text:
+      content: >-
+        <h2>La cache ouverte</h2>
+
+        <h3>En un regard</h3>
+
+        <p>Derrière plusieurs pierres déplacées se trouve une petite réserve
+        vidée à la hâte. Quelques objets encombrants restent au sol.</p>
+
+        <h3>Ce qui se passe réellement</h3>
+
+        <p>La cache servait de point de stockage temporaire à des occupants
+        réguliers du secteur.</p>
+
+        <p>Elle a été abandonnée récemment pour une raison inconnue.</p>
+
+        <h3>Acteurs</h3>
+
+        <p>Aucun acteur présent.</p>
+
+        <h3>Tension</h3>
+
+        <p>Une cache vide peut signifier un simple déplacement, une fuite ou la
+        préparation d’une opération ailleurs.</p>
+
+        <p>Les PJ disposent de peu de temps pour l’examiner avant que son
+        propriétaire éventuel ne revienne.</p>
+
+        <h3>Ce qui peut attirer l’attention</h3>
+
+        <ul><li>Rien n’a été détruit volontairement.</li><li>Les objets laissés
+        sont surtout encombrants.</li><li>Plusieurs traces quittent les lieux
+        dans la même direction.</li><li>Une petite niche reste dissimulée
+        derrière les pierres.</li></ul>
+
+        <h3>Leviers des PJ</h3>
+
+        <p>Ils peuvent examiner, prendre, déplacer ou laisser les objets, suivre
+        les traces ou surveiller la cache pour voir qui revient.</p>
+
+        <h3>Évolution</h3>
+
+        <p>Les propriétaires peuvent revenir plus tard ou considérer la cache
+        définitivement abandonnée selon les besoins de la campagne.</p>
+
+        <h3>Retombées possibles</h3>
+
+        <p>La rencontre peut fournir du matériel ordinaire, une piste de
+        déplacement ou un emplacement utilisable comme cache par les PJ
+        eux-mêmes.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: terres-tranchecrins-encounters
+          entryId: cache-abandonnee
+          sourceHash: 4994e01c
+    _id: hBLVuPpvGJUEeCUO
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435077349
+      modifiedTime: 1792435077349
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!SUo222qLeyUz6N3g.hBLVuPpvGJUEeCUO'
+  - name: Trop loin de Tranchecolline
+    type: text
+    sort: 1700000
+    text:
+      content: >-
+        <h2>Trop loin de Tranchecolline</h2>
+
+        <h3>En un regard</h3>
+
+        <p>Un petit groupe venu de Tranchecolline tente difficilement de faire
+        demi-tour avec un chargement encombrant dans un ravin trop étroit.</p>
+
+        <h3>Ce qui se passe réellement</h3>
+
+        <p>Le groupe a cru emprunter un raccourci et s’est enfoncé bien plus
+        loin que prévu dans le territoire Tranchecrin.</p>
+
+        <p>Il essaie maintenant de repartir sans attirer l’attention.</p>
+
+        <h3>Acteurs</h3>
+
+        <p><strong>Voyageurs de la Horde — ressortir avec leur chargement —
+        nerveux</strong></p>
+
+        <p><strong>Responsable du groupe — éviter d’avouer son erreur —
+        obstiné</strong></p>
+
+        <h3>Tension</h3>
+
+        <p>Faire demi-tour est bruyant et lent.</p>
+
+        <p>Abandonner une partie du chargement permettrait de repartir
+        rapidement mais représente une perte importante.</p>
+
+        <h3>Ce qui peut attirer l’attention</h3>
+
+        <ul><li>Les roues ou les charges raclent constamment la
+        roche.</li><li>Le groupe possède une mauvaise représentation du
+        secteur.</li><li>Certains membres veulent abandonner le
+        matériel.</li><li>Plusieurs traces Tranchecrins récentes traversent le
+        passage.</li></ul>
+
+        <h3>Leviers des PJ</h3>
+
+        <p>Ils peuvent aider à manœuvrer, indiquer une autre route, convaincre
+        le groupe d’abandonner une partie du chargement, masquer ses traces ou
+        le laisser gérer seul son erreur.</p>
+
+        <h3>Évolution</h3>
+
+        <p>Plus le temps passe, plus le bruit augmente la probabilité d’attirer
+        les occupants du territoire.</p>
+
+        <h3>Retombées possibles</h3>
+
+        <p>Une aide peut créer des contacts à Tranchecolline, permettre aux PJ
+        de négocier du matériel ou révéler les conséquences très concrètes d’une
+        mauvaise connaissance du terrain.</p>
+
+        <h3>Combat éventuel</h3>
+
+        <p>Si des Tranchecrins arrivent, ils cherchent prioritairement à
+        <strong>chasser les intrus et récupérer ce qui reste sur leur
+        territoire</strong>.</p>
+
+        <p>Les voyageurs veulent dégager leur chargement ou fuir. Un départ
+        réussi, l’abandon du matériel ou une diversion suffit à résoudre la
+        confrontation.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: terres-tranchecrins-encounters
+          entryId: convoi-perdu
+          sourceHash: 281baf65
+    _id: FYnh37cbb4ZeokyB
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435077349
+      modifiedTime: 1792435077349
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!SUo222qLeyUz6N3g.FYnh37cbb4ZeokyB'
+  - name: L’air derrière la pierre
+    type: text
+    sort: 1800000
+    text:
+      content: >-
+        <h2>L’air derrière la pierre</h2>
+
+        <h3>En un regard</h3>
+
+        <p>Dans le Tunnel des Tranchecrins, un courant d’air passe entre des
+        pierres empilées contre une paroi.</p>
+
+        <h3>Ce qui se passe réellement</h3>
+
+        <p>La paroi dissimule un ancien passage ou une connexion secondaire.</p>
+
+        <p>Quelqu’un connaît son existence : plusieurs pierres ont été déplacées
+        puis remises en place.</p>
+
+        <h3>Acteurs</h3>
+
+        <p>Aucun acteur visible.</p>
+
+        <h3>Tension</h3>
+
+        <p>Dégager le passage demande du temps et risque de produire du
+        bruit.</p>
+
+        <p>Le laisser intact préserve la discrétion mais signifie renoncer à une
+        connexion potentiellement importante.</p>
+
+        <h3>Ce qui peut attirer l’attention</h3>
+
+        <ul><li>Le courant d’air est régulier.</li><li>Les pierres ne portent
+        pas la même poussière que la paroi.</li><li>Certaines sont placées pour
+        pouvoir être retirées facilement.</li><li>Une faible odeur différente
+        provient de l’autre côté.</li></ul>
+
+        <h3>Leviers des PJ</h3>
+
+        <p>Ils peuvent ouvrir le passage, mémoriser sa position, surveiller son
+        utilisation ou replacer les pierres après exploration.</p>
+
+        <h3>Évolution</h3>
+
+        <p>Si rien n’est fait, un utilisateur habituel peut finir par traverser
+        le passage à un autre moment.</p>
+
+        <h3>Retombées possibles</h3>
+
+        <p>Cette rencontre peut révéler une nouvelle connexion dans le Tunnel et
+        devenir un raccourci particulièrement précieux pour de futures
+        incursions.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: terres-tranchecrins-encounters
+          entryId: tunnel-secondaire
+          sourceHash: c9c7dd02
+    _id: XuHnxuR2iTiQNh8T
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435077349
+      modifiedTime: 1792435077349
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!SUo222qLeyUz6N3g.XuHnxuR2iTiQNh8T'
+  - name: La grotte momentanément vide
+    type: text
+    sort: 1900000
+    text:
+      content: >-
+        <h2>La grotte momentanément vide</h2>
+
+        <h3>En un regard</h3>
+
+        <p>L’entrée de la Grotte des Échineurs est silencieuse. De nombreuses
+        traces quittent les lieux, mais presque aucune n’y revient.</p>
+
+        <h3>Ce qui se passe réellement</h3>
+
+        <p>La présence habituellement associée à la grotte s’est déplacée
+        ailleurs.</p>
+
+        <p>La raison de cette absence n’est pas définie par la rencontre.</p>
+
+        <h3>Acteurs</h3>
+
+        <p>Aucun acteur visible.</p>
+
+        <h3>Tension</h3>
+
+        <p>L’absence constitue une occasion rare d’examiner les abords de la
+        grotte.</p>
+
+        <p>Elle implique aussi que ce qui la fréquente se trouve actuellement
+        quelque part ailleurs dans le territoire.</p>
+
+        <h3>Ce qui peut attirer l’attention</h3>
+
+        <ul><li>Les traces sortantes sont nombreuses.</li><li>Leur ancienneté
+        n’est pas identique.</li><li>Les Tranchecrins n’ont pas profité de
+        l’absence pour occuper les lieux.</li><li>Certains débris près de
+        l’entrée ont été déplacés récemment.</li></ul>
+
+        <h3>Leviers des PJ</h3>
+
+        <p>Ils peuvent explorer les abords, entrer, suivre les traces sortantes,
+        surveiller la grotte ou simplement profiter de cette fenêtre pour
+        traverser le secteur.</p>
+
+        <h3>Évolution</h3>
+
+        <p>L’absence n’est que temporaire.</p>
+
+        <p>À un moment choisi par le MJ, la fréquentation normale de la grotte
+        peut reprendre.</p>
+
+        <h3>Retombées possibles</h3>
+
+        <p>Les PJ peuvent obtenir leurs premiers renseignements concrets sur la
+        manière dont la Grotte des Échineurs est utilisée sans que la nature
+        exacte de ses occupants soit encore révélée.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: terres-tranchecrins-encounters
+          entryId: grotte-vide
+          sourceHash: 7e19f61e
+    _id: ukA1MEB9n3IeDjbV
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435077349
+      modifiedTime: 1792435077349
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!SUo222qLeyUz6N3g.ukA1MEB9n3IeDjbV'
+  - name: Quelque chose revient
+    type: text
+    sort: 2000000
+    text:
+      content: >-
+        <h2>Quelque chose revient</h2>
+
+        <h3>En un regard</h3>
+
+        <p>Alors que les PJ approchent de la Grotte des Échineurs, plusieurs
+        pierres roulent sur le chemin derrière eux. Quelque chose suit le même
+        itinéraire.</p>
+
+        <h3>Ce qui se passe réellement</h3>
+
+        <p>Une présence revient vers la grotte.</p>
+
+        <p>La scène doit rester compatible avec la future définition des
+        Échineurs : le MJ décrit d’abord les signes de son approche plutôt que
+        sa nature.</p>
+
+        <h3>Acteurs</h3>
+
+        <p><strong>Présence revenant vers la grotte — rejoindre son refuge ou
+        son territoire — comportement à préciser lorsque les Échineurs seront
+        définis</strong></p>
+
+        <h3>Tension</h3>
+
+        <p>Les PJ se trouvent entre la grotte et ce qui s’en approche.</p>
+
+        <p>Plus ils attendent, moins ils disposent d’espace pour quitter
+        discrètement la zone.</p>
+
+        <h3>Ce qui peut attirer l’attention</h3>
+
+        <ul><li>Le rythme des pierres indique une progression
+        régulière.</li><li>Le déplacement emprunte manifestement la Piste des
+        Échineurs.</li><li>La présence ne semble pas se cacher.</li><li>Aucun
+        Tranchecrin n’est visible dans les environs immédiats.</li></ul>
+
+        <h3>Leviers des PJ</h3>
+
+        <p>Ils peuvent entrer dans la grotte, quitter la piste, prendre de la
+        hauteur, se dissimuler, attendre pour observer ou repartir avant d’être
+        rejoints.</p>
+
+        <h3>Évolution</h3>
+
+        <p>La présence continue vers la grotte indépendamment des PJ.</p>
+
+        <p>S’ils partent, ils peuvent n’en conserver que des indices. S’ils
+        restent, cette rencontre peut devenir le premier contact direct avec les
+        Échineurs lorsque leur nature aura été définie dans Warbound.</p>
+
+        <h3>Retombées possibles</h3>
+
+        <p>La scène permet de transformer progressivement les Échineurs d’un
+        simple nom de carte en présence tangible, tout en conservant
+        volontairement leur définition ouverte.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: terres-tranchecrins-encounters
+          entryId: retour-grotte
+          sourceHash: dca1a672
+    _id: HiIv3XRJ71K74AbD
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435077349
+      modifiedTime: 1792435077349
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!SUo222qLeyUz6N3g.HiIv3XRJ71K74AbD'
+_id: SUo222qLeyUz6N3g
+categories: []
+sort: 200000
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792435077349
+  modifiedTime: 1792435077349
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!SUo222qLeyUz6N3g'

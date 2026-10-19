@@ -1,0 +1,193 @@
+name: Galgar
+pages:
+  - sort: 100000
+    name: Profil MJ
+    type: text
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Galgar</h1>
+
+        <blockquote><p><strong>[CANON] lié aux pommes de cactus ; développement
+        [ADAPTATION]</strong></p></blockquote>
+
+        <h2>Rôle dans la Vallée</h2><p>Une personne et un endroit où il fait
+        simplement bon revenir. Sa valeur est affective avant d'être
+        utilitaire.</p>
+
+        <h2>Présence</h2><p>Orc d'âge mûr, peau vert mousse, cheveux bruns
+        éclaircis par le soleil, grand panier, louche, marmite et couteaux de
+        cuisine.</p>
+
+        <h2>Voix et répliques</h2><ul><li>« Tu peux raconter après. Mange
+        d'abord. »</li><li>« T'es empoisonné ou tu n'aimes juste pas ma sauce ?
+        Parce que c'est pas pareil. »</li></ul>
+
+        <h2>Veut</h2><p>Que les gens mangent et reconnaissent que sa recette est
+        la meilleure de Durotar.</p>
+
+        <h2>Craint</h2><ul><li>que son hospitalité soit utilisée pour nuire à
+        quelqu'un</li><li>voir les jeunes partir sans rien dans le
+        ventre</li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _id: Tpy2KQDLspKHO4Ba
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067370
+      modifiedTime: 1792435067370
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!WcppjktTt1txRx1c.Tpy2KQDLspKHO4Ba'
+  - sort: 200000
+    name: Relations avec les PJ
+    type: text
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Relations avec les PJ</h1>
+
+        <h2>Gagner sa confiance / son amitié</h2><p>Manger ; aider ; critiquer
+        honnêtement une recette ; rapporter un ingrédient inhabituel ; surtout
+        revenir.</p>
+
+        <h2>La perdre / devenir son adversaire</h2><p>Utiliser son hospitalité
+        pour piéger quelqu'un, mettre volontairement ses clients en danger ou
+        voler dans ses réserves.</p>
+
+        <h2>Liens personnels possibles</h2>
+
+        <h3>Le bol réservé</h3><p>Galgar sert toujours le même PJ dans le même
+        bol. Un jour, le bol n'est plus là : la rupture d'habitude signale
+        immédiatement un problème.</p><h3>Le plat du retour</h3><p>« Quand vous
+        reviendrez, je vous fais quelque chose de correct. » Plusieurs séances
+        plus tard, il tient parole.</p><h2>S'il devient un allié</h2><p>Refuge
+        social, rumeurs, repas, témoin des présences et absences, lieu naturel
+        où les PNJ se croisent.</p><h2>S'il devient hostile</h2><p>Il n'est pas
+        conçu comme grand antagoniste, mais peut être profondément blessé par
+        une trahison de son hospitalité.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _id: GkxhO1DiAmFSdBQL
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067370
+      modifiedTime: 1792435067370
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!WcppjktTt1txRx1c.GkxhO1DiAmFSdBQL'
+  - sort: 300000
+    name: Jeu et évolution
+    type: text
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Jeu et évolution</h1>
+
+        <h2>Scène prête à jouer</h2><p>Galgar fait goûter une recette trop
+        épicée ; Hana'zua prétend qu'elle ne l'est pas assez, Korga accepte le
+        défi et Thazz'rill veut juste manger.</p>
+
+        <h2>Évolution hors champ</h2><p>Il baptise une recette du nom d'un PJ ou
+        se souvient exactement de ce que chacun aime quand ils reviennent
+        plusieurs séances plus tard.</p>
+
+        <h2>Suivi MJ</h2>
+
+        <table>
+
+        <thead><tr><th>Élément</th><th>Notes</th></tr></thead>
+
+        <tbody>
+
+        <tr><td>Relation avec les PJ</td><td></td></tr>
+
+        <tr><td>Dette / promesse</td><td></td></tr>
+
+        <tr><td>Ce qu'il sait sur eux</td><td></td></tr>
+
+        <tr><td>Ce qu'il veut maintenant</td><td></td></tr>
+
+        <tr><td>Prochaine évolution</td><td></td></tr>
+
+        </tbody>
+
+        </table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _id: gXhwMxPbLqYKhAo0
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067370
+      modifiedTime: 1792435067370
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!WcppjktTt1txRx1c.gXhwMxPbLqYKhAo0'
+categories: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  campaign-codex:
+    type: ''
+  core:
+    sheetClass: ''
+folder: YgZ3jeiFxPjJi6iB
+_id: WcppjktTt1txRx1c
+sort: 100782
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792435067370
+  modifiedTime: 1792435067370
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!WcppjktTt1txRx1c'

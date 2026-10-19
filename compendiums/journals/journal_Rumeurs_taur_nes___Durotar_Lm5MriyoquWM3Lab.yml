@@ -1,0 +1,336 @@
+folder: RMTxPZCQTJDvf6zz
+name: Rumeurs taurènes — Durotar
+flags:
+  campaign-codex:
+    type: ''
+  core:
+    sheetClass: ''
+_id: Lm5MriyoquWM3Lab
+pages:
+  - name: Utilisation MJ
+    type: text
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Rumeurs taurènes de Durotar</h1>
+
+        <p><strong>Fonction :</strong> faire sentir que Durotar appartient à un
+        monde plus vaste et que des Taurens de Mulgore, Thunder Bluff et des
+        Tarides traversent réellement les routes de la Horde.</p>
+
+        <p>Ces rumeurs ne sont pas des quêtes à distribuer. Elles servent à
+        <strong>amorcer une piste, annoncer une conséquence, faire exister une
+        tribu</strong> ou introduire un doute.</p>
+
+        <h2>Règle simple</h2>
+
+        <ul>
+
+        <li>À chaque retour important à Razor Hill, choisis <strong>1 ou 2
+        rumeurs maximum</strong>.</li>
+
+        <li>Ne précise jamais immédiatement si elles sont vraies.</li>
+
+        <li>Une rumeur ignorée peut revenir plus tard, déformée ou
+        aggravée.</li>
+
+        <li>Les rumeurs taurènes ne doivent pas toutes pointer vers le fil rouge
+        : certaines sont locales, culturelles ou fausses.</li>
+
+        <li>Si les PJ s'intéressent à une rumeur, transforme-la en
+        <strong>situation</strong>, pas en objectif imposé.</li>
+
+        </ul>
+
+        <p><em>Tout le contenu ci-dessous est une adaptation Warbound pour la
+        campagne ; ce ne sont pas des événements canoniques de WoW
+        Classic.</em></p>
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    flags: {}
+    _id: xy7xctLbKROlcDsh
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435079122
+      modifiedTime: 1792435079122
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!Lm5MriyoquWM3Lab.xy7xctLbKROlcDsh'
+  - name: Rumeurs à faire entendre
+    type: text
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Rumeurs à Razor Hill</h1>
+
+        <p>Lance <strong>1d10</strong> ou choisis la rumeur la plus adaptée à
+        l'état actuel de Durotar.</p>
+
+        <table>
+
+        <thead><tr><th>d10</th><th>Tribu</th><th>Rumeur</th></tr></thead>
+
+        <tbody><tr><td
+        style="text-align:center"><strong>1</strong></td><td><strong>Stonehoof</strong></td><td>«
+        Trois kodos de Thunder Bluff sont arrivés hier. Ils transportaient assez
+        de fer pour construire un pont. Tout est parti vers Orgrimmar.
+        »</td></tr><tr><td
+        style="text-align:center"><strong>2</strong></td><td><strong>Thunderhorn</strong></td><td>«
+        Le grand Tauren au comptoir ? Un Thunderhorn. Il dit que les scorpides
+        remontent vers les routes. Moi je dis qu'il a simplement perdu son
+        flair. »</td></tr><tr><td
+        style="text-align:center"><strong>3</strong></td><td><strong>Skychaser</strong></td><td>«
+        Les chamans Skychaser n'aiment pas Thunder Ridge. Apparemment, le vent y
+        parle de travers. »</td></tr><tr><td
+        style="text-align:center"><strong>4</strong></td><td><strong>Runetotem</strong></td><td>«
+        Un Runetotem a demandé qu'on arrête de tuer les bêtes qui descendent des
+        collines. Il dit qu'elles ne chassent pas. Elles fuient.
+        »</td></tr><tr><td
+        style="text-align:center"><strong>5</strong></td><td><strong>Wildmane</strong></td><td>«
+        Ils ont retrouvé une wyverne Wildmane sans cavalier. La bête refusait de
+        repartir vers le nord. »</td></tr><tr><td
+        style="text-align:center"><strong>6</strong></td><td><strong>Stonehoof</strong></td><td>«
+        Les Stonehoof ont perdu une cargaison entière. Pas une pièce d'or volée.
+        Seulement les outils. Des voleurs bien étranges. »</td></tr><tr><td
+        style="text-align:center"><strong>7</strong></td><td><strong>Winterhoof</strong></td><td>«
+        Les Winterhoof paient deux fois le prix habituel pour certaines racines
+        de Durotar. Quelque chose doit se préparer à Thunder Bluff.
+        »</td></tr><tr><td
+        style="text-align:center"><strong>8</strong></td><td><strong>Ragetotem</strong></td><td>«
+        Un Ragetotem a proposé de garder la route lui-même. Les Grunts lui ont
+        expliqué que Durotar n'avait pas besoin des Taurens pour être défendu.
+        Ça a failli finir avec les tables par terre. »</td></tr><tr><td
+        style="text-align:center"><strong>9</strong></td><td><strong>Stonespire</strong></td><td>«
+        Le vieux Stonespire dit que chaque fois qu'un peuple commence à creuser
+        sous les pieds des autres, quelqu'un finit par mourir. Charmant
+        compagnon de boisson. »</td></tr><tr><td
+        style="text-align:center"><strong>10</strong></td><td><strong>Grimtotem</strong></td><td>«
+        On raconte qu'un Grimtotem est passé par ici. Personne ne l'a vu,
+        évidemment. Mais depuis quand faut-il voir quelqu'un pour savoir qu'il
+        est coupable ? »</td></tr></tbody>
+
+        </table>
+
+        <h2>Variantes de mise en scène</h2>
+
+        <p>Une rumeur peut être entendue dans l'auberge, au marché, auprès d'un
+        garde, pendant le déchargement d'un convoi, autour d'un feu de camp ou
+        durant une halte sur la route.</p>
+
+        <p><strong>Conseil :</strong> ne demande pas de jet pour « trouver une
+        rumeur ». Si elle doit être en circulation, les PJ l'entendent. Les jets
+        servent ensuite à enquêter, vérifier, pister, convaincre ou
+        interpréter.</p>
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 1000
+    flags: {}
+    _id: O2bPfH1rBBnX0A3g
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435079122
+      modifiedTime: 1792435079122
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!Lm5MriyoquWM3Lab.O2bPfH1rBBnX0A3g'
+  - name: Derrière les rumeurs — MJ
+    type: text
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Ce qu'il y a réellement derrière les rumeurs</h1>
+
+        <p><strong>Réservé au MJ.</strong> La rumeur n'est jamais une vérité
+        brute : même lorsqu'elle est correcte, elle reste partielle, interprétée
+        ou sortie de son contexte.</p>
+
+        <table>
+
+        <thead><tr><th>#</th><th>Statut</th><th>Réalité</th><th>Usage</th></tr></thead>
+
+        <tbody><tr><td
+        style="text-align:center"><strong>1</strong></td><td><strong>Vraie mais
+        banale en apparence</strong></td><td>Le matériel est réellement destiné
+        à des travaux liés au nord. Ce détail ne devient important que lorsque
+        les PJ constatent que les sabotages ciblent précisément ce type
+        d'équipement.</td><td>Fil rouge / logistique</td></tr><tr><td
+        style="text-align:center"><strong>2</strong></td><td><strong>Vraie</strong></td><td>Le
+        déplacement des scorpides et d'autres bêtes est anormal. Le Thunderhorn
+        ne connaît pas la cause et peut très bien se tromper dans son
+        interprétation.</td><td>Environnement / symptôme</td></tr><tr><td
+        style="text-align:center"><strong>3</strong></td><td><strong>Vraie mais
+        obscure</strong></td><td>Le chaman perçoit une perturbation réelle dans
+        la zone. Il n'est pas capable d'en donner l'origine ni de relier cela à
+        Ragefire.</td><td>Spirituel / présage sans révélation</td></tr><tr><td
+        style="text-align:center"><strong>4</strong></td><td><strong>Vraie</strong></td><td>Certaines
+        bêtes fuient effectivement leurs territoires habituels. Le Runetotem
+        veut éviter que la Horde ne traite le symptôme en massacrant les animaux
+        déplacés.</td><td>Choix / nature</td></tr><tr><td
+        style="text-align:center"><strong>5</strong></td><td><strong>Vraie</strong></td><td>Le
+        cavalier est vivant mais isolé dans un ravin. Il a aperçu un passage
+        discret et des mouvements inhabituels avant sa
+        chute.</td><td>Exploration / raccourci</td></tr><tr><td
+        style="text-align:center"><strong>6</strong></td><td><strong>Vraie et
+        importante</strong></td><td>Les voleurs ont volontairement laissé
+        l'argent, les vivres et la plupart des armes. Les outils de forage, de
+        soutènement et d'excavation étaient la cible.</td><td>Fil rouge
+        direct</td></tr><tr><td
+        style="text-align:center"><strong>7</strong></td><td><strong>Vraie,
+        conclusion fausse</strong></td><td>Il n'y a pas d'épidémie à Thunder
+        Bluff. Une Winterhoof étudie plusieurs plantes de Durotar dont les
+        propriétés semblent changer.</td><td>Faune &amp; flore /
+        enquête</td></tr><tr><td
+        style="text-align:center"><strong>8</strong></td><td><strong>Vraie</strong></td><td>Le
+        Ragetotem veut réellement aider. Le problème est politique et culturel :
+        certains Grunts prennent son offre comme une remise en cause de leur
+        capacité à tenir Durotar.</td><td>Social / Horde</td></tr><tr><td
+        style="text-align:center"><strong>9</strong></td><td><strong>Opinion
+        fondée sur une expérience réelle</strong></td><td>Le Stonespire ne sait
+        rien du danger sous Orgrimmar. Son récit sert de miroir thématique :
+        construire, creuser et s'approprier une terre ne sont jamais des gestes
+        neutres.</td><td>Thème / foreshadowing</td></tr><tr><td
+        style="text-align:center"><strong>10</strong></td><td><strong>Incertaine</strong></td><td>Aucune
+        preuve ne confirme la présence d'un Grimtotem. La rumeur peut venir d'un
+        véritable agent, d'un Tauren critique, d'un saboteur qui exploite leur
+        réputation ou d'une simple déformation collective.</td><td>Fausse piste
+        / politique</td></tr></tbody>
+
+        </table>
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 2000
+    flags: {}
+    _id: M1lwExgJpmS7QbJB
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435079122
+      modifiedTime: 1792435079122
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!Lm5MriyoquWM3Lab.M1lwExgJpmS7QbJB'
+  - name: 4 intrigues à développer
+    type: text
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Quand une rumeur devient une aventure</h1>
+
+        <p>Ces quatre rumeurs méritent particulièrement de devenir des
+        situations récurrentes dans Durotar.</p>
+
+        <h2>Le convoi Stonehoof</h2><p>Une livraison de pièces métalliques
+        destinées aux travaux du nord passe par Razor Hill. Quelques jours plus
+        tard, une partie du chargement disparaît. Les voleurs n'ont pris que ce
+        qui sert à creuser, renforcer ou soutenir des
+        galeries.</p><p><strong>Fonction :</strong> Indice du fil rouge sans
+        révéler sa cause.</p><h2>Les bêtes quittent les crêtes</h2><p>Un
+        Thunderhorn et un Runetotem constatent séparément des migrations
+        inhabituelles. Ils sont d'accord sur le symptôme, pas sur sa cause.
+        Pendant ce temps, les animaux déplacés commencent à créer de vrais
+        problèmes sur les routes.</p><p><strong>Fonction :</strong> Faire
+        arriver les conséquences avant l'explication.</p><h2>Le vieux
+        Stonespire</h2><p>Un vieux Tauren fait halte à Razor Hill. En entendant
+        parler avec fierté des nouveaux travaux de la Horde, il raconte ce que
+        sa famille a connu lorsque d'autres peuples ont commencé à creuser et
+        bâtir sur des terres qu'ils considéraient
+        disponibles.</p><p><strong>Fonction :</strong> Installer le thème de
+        l'exploitation de la terre sans donner d'information sur
+        Ragefire.</p><h2>Les paroles des Grimtotem</h2><p>Des propos hostiles
+        aux travaux et à l'alliance de Cairne avec Thrall circulent. Tout le
+        monde conclut rapidement qu'un Grimtotem en est à l'origine, mais
+        personne n'en a la preuve.</p><p><strong>Fonction :</strong> Créer une
+        hypothèse politique crédible, pas une solution automatique.</p>
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 3000
+    flags: {}
+    _id: HkmSVxysS5lLmpI2
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435079122
+      modifiedTime: 1792435079122
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!Lm5MriyoquWM3Lab.HkmSVxysS5lLmpI2'
+categories: []
+sort: 0
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792435079122
+  modifiedTime: 1792435079122
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource:
+    worldId: au-nom-de-la-horde-cof2
+    uuid: JournalEntry.Fu6jeq4oHwhi28vd
+    coreVersion: '14.367'
+    systemId: co2
+    systemVersion: 2.3.12
+_key: '!journal!Lm5MriyoquWM3Lab'

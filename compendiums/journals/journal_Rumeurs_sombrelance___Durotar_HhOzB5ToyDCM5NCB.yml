@@ -1,0 +1,2236 @@
+name: Rumeurs sombrelance — Durotar
+folder: P4MlTjUWYXMDwUE8
+flags:
+  warbound-campaign-content:
+    markdownImport:
+      schema: 1
+      collectionId: durotar-sombrelance-rumors
+pages:
+  - name: Contexte
+    type: text
+    sort: 0
+    text:
+      content: >-
+        <h1>Rumeurs sombrelance — Durotar</h1>
+
+        <h2>En bref</h2>
+
+        <p>Les Sombrelance ne constituent pas une campagne parallèle à Durotar :
+        ils forment une couche vivante du sandbox. Sen’jin est à la fois un
+        foyer de la Horde, un point d’accès aux routes côtières et au sud de
+        Durotar, et une communauté qui garde les yeux tournés vers les Îles de
+        l’Écho. Les Kolkar, les ressources rares, les pratiques spirituelles et
+        l’influence de Zalazane donnent naturellement naissance à des histoires
+        qui circulent entre pêcheurs, chasseurs, anciens et voyageurs.
+        :chatgpt-content-reference{index="0"}</p>
+
+        <p>Les rumeurs ci-dessous ne sont donc pas vingt quêtes déguisées.
+        Certaines signalent un problème réel, d’autres reflètent une inquiétude,
+        une superstition, une frustration politique ou une mauvaise
+        interprétation. Elles peuvent être lancées à Sen’jin, sur les routes du
+        sud ou à Razor Hill pour donner l’impression que les Sombrelance vivent,
+        parlent et s’inquiètent même lorsque les PJ s’occupent d’autre
+        chose.</p>
+
+        <h2>Identité</h2>
+
+        <p>La communauté sombrelance de Durotar est marquée par une tension
+        simple : elle participe à la construction d’un nouveau foyer au sein de
+        la Horde tout en vivant face aux Îles de l’Écho, associées à Zalazane,
+        aux proches restés derrière et aux Sombrelance placés sous emprise.</p>
+
+        <p>La mer, la pêche, la chasse, les pirogues, les petits sanctuaires,
+        les rites, les tambours et les histoires racontées par les anciens sont
+        autant de vecteurs naturels pour faire circuler l’information.</p>
+
+        <p>La parole a ici une valeur particulière. Une rumeur peut être un
+        avertissement, un souvenir, une manière de tester un étranger, une peur
+        partagée ou une tentative de donner du sens à quelque chose que personne
+        ne comprend encore.</p>
+
+        <h2>Histoire utile</h2>
+
+        <p>Le passé n’a besoin d’être rappelé que lorsqu’il agit sur le
+        présent.</p>
+
+        <p>Pour cette collection, trois éléments suffisent :</p>
+
+        <ul><li>les Sombrelance vivent désormais sur le continent autour de
+        Sen’jin ;</li><li>les Îles de l’Écho restent liées au problème de
+        Zalazane ;</li><li>certains trolls présents auprès de Zalazane peuvent
+        être des Sombrelance sous emprise plutôt que des ennemis
+        volontaires.</li></ul>
+
+        <p>Le souvenir des exils successifs nourrit également les discussions
+        sur ce que signifie désormais « avoir un foyer ».</p>
+
+        <h2>Territoire et lieux importants</h2>
+
+        <p><strong>Sen’jin</strong> est le principal lieu de circulation de ces
+        rumeurs. Les pêcheurs, chasseurs, familles, anciens et visiteurs y
+        confrontent leurs versions des événements.</p>
+
+        <p><strong>Les Îles de l’Écho</strong> restent visibles au large et
+        forment un horizon permanent. On peut les observer, en revenir, y
+        disparaître ou prétendre avoir vu quelque chose sur leurs plages.</p>
+
+        <p><strong>La côte sud</strong> relie Sen’jin aux pêcheurs, aux épaves,
+        aux déplacements par mer et aux incidents pouvant provenir de Tiragarde
+        ou d’au-delà.</p>
+
+        <p><strong>Les pistes du sud de Durotar</strong> sont fréquentées par
+        les chasseurs, les patrouilles et les Kolkar.</p>
+
+        <p><strong>Razor Hill</strong> relaie certaines histoires sombrelance,
+        souvent déjà transformées par ceux qui les répètent.</p>
+
+        <h2>Population et organisation</h2>
+
+        <p>Il n’est pas nécessaire de nommer chaque habitant de Sen’jin.</p>
+
+        <p>Les principaux relais de rumeurs sont :</p>
+
+        <ul><li>les pêcheurs qui observent la côte et les Îles ;</li><li>les
+        chasseurs qui connaissent les pistes et les sanctuaires ;</li><li>les
+        anciens qui interprètent les événements à travers la mémoire de la tribu
+        ;</li><li>les familles séparées de proches restés sur les Îles
+        ;</li><li>les jeunes Sombrelance impatients d’agir ;</li><li>les chamans
+        et autres gardiens de pratiques spirituelles ;</li><li>les patrouilles
+        de la Horde qui rapportent ce qu’elles voient sans nécessairement
+        comprendre le contexte troll ;</li><li>les voyageurs qui transforment
+        rapidement une observation locale en histoire spectaculaire.</li></ul>
+
+        <h2>Personnalités importantes</h2>
+
+        <p><strong>Vol’jin — chef associé aux Sombrelance —</strong> son nom
+        suffit à donner du poids à une rumeur, ce qui explique que certains lui
+        attribuent des projets qu’il n’a jamais annoncés dans les sources
+        fournies.</p>
+
+        <p><strong>Zalazane — menace associée aux Îles de l’Écho —</strong> son
+        influence réelle nourrit quantité de récits exagérés sur ce qu’il peut
+        ou ne peut pas faire.</p>
+
+        <p><strong>Maître Gadrin — figure sombrelance —</strong> ses recherches
+        et son savoir peuvent naturellement devenir l’objet de spéculations.</p>
+
+        <p><strong>Minshina — mémoire liée à l’arc des Îles —</strong> son nom
+        et son crâne peuvent refaire surface dans les récits touchant aux rites
+        et à Zalazane.</p>
+
+        <h2>Relations</h2>
+
+        <p>Les Sombrelance appartiennent au même foyer politique que les Orcs de
+        Durotar, mais leurs priorités locales ne sont pas toujours
+        identiques.</p>
+
+        <p>Une pénurie d’eau, un usage différent du territoire ou l’urgence de
+        la situation aux Îles peuvent créer des désaccords sans remettre en
+        cause l’appartenance commune à la Horde.</p>
+
+        <p>Les Kolkar exercent une pression réelle sur le sud et les routes
+        proches de Sen’jin.</p>
+
+        <p>Les trolls de Strangleronce occupent une place particulière dans
+        l’imaginaire sombrelance : ils rappellent un passé et des appartenances
+        plus anciennes que l’installation en Durotar.</p>
+
+        <h2>Tensions actuelles</h2>
+
+        <p>Les principales tensions susceptibles d’alimenter les conversations
+        sont :</p>
+
+        <ul><li>la présence durable de Zalazane aux Îles de l’Écho ;</li><li>le
+        sort des Sombrelance placés sous emprise ;</li><li>le désir de certains
+        jeunes de reprendre l’initiative ;</li><li>la rareté de l’eau et des
+        ressources ;</li><li>la pression Kolkar ;</li><li>le rapport entre les
+        traditions anciennes et le nouveau foyer de Durotar
+        ;</li><li>l’apparition possible de signes spirituels difficiles à
+        interpréter ;</li><li>les récits venus de Strangleronce ;</li><li>la
+        question de savoir quand une inquiétude mérite réellement une
+        action.</li></ul>
+
+        <h2>Secrets et zones d’ombre</h2>
+
+        <h3>Canon / établi dans les sources fournies</h3>
+
+        <p>Les sources de campagne utilisées pour cette collection établissent
+        notamment la présence de Sen’jin, le problème posé par Zalazane aux Îles
+        de l’Écho, l’existence de Sombrelance sous emprise et la pression Kolkar
+        dans le sud. :chatgpt-content-reference{index="1"}</p>
+
+        <p>Cela ne signifie pas que chaque détail de cette collection constitue
+        du lore officiel Warcraft.</p>
+
+        <h3>Déduction raisonnable</h3>
+
+        <p>Une communauté séparée d’un ancien foyer et confrontée à des proches
+        sous emprise produit naturellement :</p>
+
+        <ul><li>des témoignages contradictoires ;</li><li>des récits de
+        survivants ;</li><li>des accusations ;</li><li>des superstitions
+        ;</li><li>des projets de retour ;</li><li>des histoires de dettes et de
+        familles séparées.</li></ul>
+
+        <h3>Adaptation de campagne</h3>
+
+        <p>Les détails précis concernant les feux clandestins, les offrandes
+        disparues, certains survivants, les réactions spirituelles et plusieurs
+        incidents décrits ci-dessous sont des éléments de campagne destinés à
+        produire du jeu.</p>
+
+        <p>Ils ne doivent pas être présentés comme du lore officiel de
+        Warcraft.</p>
+
+        <h2>Ce qu’un voyageur remarque</h2>
+
+        <ul><li>Des pirogues sont tirées loin au-dessus de la ligne d’eau
+        lorsqu’elles ne servent pas.</li><li>Au crépuscule, plusieurs habitants
+        de Sen’jin regardent spontanément vers les Îles.</li><li>Les histoires
+        importantes sont rarement racontées une seule fois de la même
+        manière.</li><li>De petits lieux d’offrandes peuvent être trouvés près
+        des pistes utilisées par les chasseurs.</li><li>Les pêcheurs savent
+        reconnaître certaines lumières ordinaires sur la côte et s’inquiètent
+        lorsque quelque chose ne correspond pas à leurs habitudes.</li><li>Les
+        discussions sur Zalazane deviennent rapidement plus silencieuses
+        lorsqu’elles touchent une famille précise.</li><li>Les jeunes parlent
+        plus volontiers de reprendre les Îles que ceux qui ont déjà perdu
+        quelqu’un.</li><li>Un étranger qui confond tous les trolls entre eux est
+        immédiatement identifié comme quelqu’un qui connaît mal la
+        région.</li></ul>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sombrelance-rumors
+          entryId: context
+          sourceHash: 27fc900d
+    _id: sRaz0QMcedDnR1Xi
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435079141
+      modifiedTime: 1792435079141
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!HhOzB5ToyDCM5NCB.sRaz0QMcedDnR1Xi'
+  - name: Les feux des Îles
+    type: text
+    sort: 100000
+    text:
+      content: >-
+        <h2>Les feux des Îles</h2>
+
+        <h3>Ce que l'on raconte</h3>
+
+        <blockquote><p>« Regarde bien les Îles quand la nuit tombe. Y a des feux
+        là-bas que Zalazane n’a jamais allumés. »</p></blockquote>
+
+        <h3>Statut MJ</h3>
+
+        <p>Vraie.</p>
+
+        <h3>Qui ?</h3>
+
+        <p>Les pêcheurs de Sen’jin sont les premiers à faire circuler cette
+        histoire.</p>
+
+        <p>Les familles ayant encore des proches disparus sur les Îles veulent
+        particulièrement y croire.</p>
+
+        <p>Les plus prudents pensent simplement qu’il s’agit de patrouilles ou
+        de feux déplacés.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p><strong>Adaptation de campagne.</strong></p>
+
+        <p>De petits groupes de Sombrelance libres ou fugitifs peuvent encore se
+        cacher sur certaines parties des Îles.</p>
+
+        <p>Ils évitent les grands feux et utilisent parfois de brèves lumières
+        pour se signaler entre eux.</p>
+
+        <p>Tous les feux observés ne viennent cependant pas de fugitifs.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>Les observations sont irrégulières.</p>
+
+        <p>La rumeur circule davantage lorsqu’un pêcheur rentre tard ou
+        lorsqu’une lumière inhabituelle reste visible plusieurs nuits au même
+        endroit.</p>
+
+        <h3>Où ?</h3>
+
+        <p>La rumeur est surtout entendue à Sen’jin.</p>
+
+        <p>Les meilleurs points d’observation se trouvent sur la côte face aux
+        Îles de l’Écho.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Les habitants connaissent suffisamment les habitudes des Îles pour
+        remarquer certaines anomalies.</p>
+
+        <p>L’espoir transforme ensuite rapidement une lumière lointaine en
+        preuve qu’un proche est encore vivant.</p>
+
+        <h3>Si les PJ s'y intéressent</h3>
+
+        <p>Ils peuvent comparer plusieurs témoignages, observer les Îles
+        plusieurs nuits, demander quelles lumières sont considérées comme
+        normales ou tenter d’identifier un éventuel système de signaux.</p>
+
+        <p>Rien ne les oblige à traverser immédiatement.</p>
+
+        <h3>Si personne n'agit</h3>
+
+        <p>Les fugitifs continuent à survivre discrètement tant qu’ils ne sont
+        pas découverts.</p>
+
+        <p>Si les feux deviennent trop fréquents, les hommes de Zalazane peuvent
+        finir par comprendre qu’une présence leur échappe.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sombrelance-rumors
+          entryId: feux-des-iles
+          sourceHash: e10a0ecb
+    _id: f5cj1fyzQqKEF5bN
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435079141
+      modifiedTime: 1792435079141
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!HhOzB5ToyDCM5NCB.f5cj1fyzQqKEF5bN'
+  - name: La voix du mort
+    type: text
+    sort: 200000
+    text:
+      content: >-
+        <h2>La voix du mort</h2>
+
+        <h3>Ce que l'on raconte</h3>
+
+        <blockquote><p>« Taz’ko a entendu son frère l’appeler depuis la plage.
+        Son frère est mort depuis deux saisons. Alors explique-moi ça.
+        »</p></blockquote>
+
+        <h3>Statut MJ</h3>
+
+        <p>Partiellement vraie.</p>
+
+        <h3>Qui ?</h3>
+
+        <p>Un pêcheur de Sen’jin affirme avoir entendu la voix.</p>
+
+        <p>Sa famille le croit suffisamment pour lui demander de ne plus
+        retourner seul sur la côte.</p>
+
+        <p>D’autres habitants pensent qu’il a simplement entendu ce qu’il
+        voulait entendre.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p>Le pêcheur a réellement entendu une voix qu’il a reconnue.</p>
+
+        <p>La source fournie ne fixe pas l’explication.</p>
+
+        <p><strong>Information à vérifier / non établie dans les sources
+        fournies.</strong></p>
+
+        <p>Il peut s’agir d’une imitation, d’un rite lié aux esprits, d’une
+        confusion ou d’un phénomène encore incompris.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>L’incident est récent et s’est produit de nuit.</p>
+
+        <p>La rumeur se répand rapidement parce que le pêcheur refuse désormais
+        de retourner à l’endroit concerné.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Sur une portion de côte permettant d’entendre les sons provenant
+        d’une petite île ou d’un banc rocheux.</p>
+
+        <p>Elle est principalement répétée à Sen’jin.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>La rumeur touche une peur très simple : les Îles contiennent
+        suffisamment de morts, de disparus et de captifs pour que chacun puisse
+        imaginer reconnaître une voix.</p>
+
+        <h3>Si les PJ s'y intéressent</h3>
+
+        <p>Ils peuvent parler au témoin, revenir au même endroit à la même
+        heure, chercher d’autres personnes ayant entendu quelque chose ou
+        observer la côte depuis un autre point.</p>
+
+        <h3>Si personne n'agit</h3>
+
+        <p>Aucune évolution certaine.</p>
+
+        <p>Le pêcheur évite simplement l’endroit et son récit devient
+        progressivement plus spectaculaire à mesure qu’il est répété.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sombrelance-rumors
+          entryId: voix-du-frere-mort
+          sourceHash: abe7871e
+    _id: NJ8vDq8OQRFfDUL3
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435079141
+      modifiedTime: 1792435079141
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!HhOzB5ToyDCM5NCB.NJ8vDq8OQRFfDUL3'
+  - name: Ne donne pas ton nom
+    type: text
+    sort: 300000
+    text:
+      content: >-
+        <h2>Ne donne pas ton nom</h2>
+
+        <h3>Ce que l'on raconte</h3>
+
+        <blockquote><p>« Si un homme de Zalazane te demande ton vrai nom, mens.
+        Avec ton nom, son maître peut entrer dans ta tête. »</p></blockquote>
+
+        <h3>Statut MJ</h3>
+
+        <p>Déformée.</p>
+
+        <h3>Qui ?</h3>
+
+        <p>La rumeur circule surtout parmi ceux qui n’ont qu’une compréhension
+        indirecte des maléfices de Zalazane.</p>
+
+        <p>Elle est prise très au sérieux par certains jeunes ou voyageurs qui
+        n’ont jamais approché les Îles.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p>Les Sombrelance prennent réellement au sérieux la capacité de
+        Zalazane à placer des individus sous son influence.</p>
+
+        <p>En revanche, les sources fournies n’établissent pas qu’il puisse
+        ensorceler quelqu’un simplement en connaissant son nom.</p>
+
+        <p>L’histoire transforme donc un danger réel en règle magique facile à
+        retenir.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>Personne ne sait précisément quand cette version est apparue.</p>
+
+        <p>Elle revient chaque fois qu’un nouveau cas d’ensorcellement est
+        évoqué.</p>
+
+        <h3>Où ?</h3>
+
+        <p>À Sen’jin, dans les bivouacs du sud et parfois à Razor Hill lorsque
+        des voyageurs répètent ce qu’ils ont entendu.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Une menace invisible devient plus facile à supporter lorsque les gens
+        pensent connaître une règle permettant de s’en protéger.</p>
+
+        <h3>Si les PJ s'y intéressent</h3>
+
+        <p>Ils peuvent demander aux anciens ou aux personnes familières des
+        pratiques de Zalazane ce qui est réellement connu de ses maléfices.</p>
+
+        <p>Ils peuvent également découvrir plusieurs versions incompatibles de
+        la même histoire.</p>
+
+        <h3>Si personne n'agit</h3>
+
+        <p>Aucune évolution particulière.</p>
+
+        <p>La superstition continue simplement à influencer la manière dont
+        certains habitants parlent aux étrangers et aux prisonniers.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sombrelance-rumors
+          entryId: nom-ensorcele
+          sourceHash: af6476c1
+    _id: 02QEoAJWHnXcDJpR
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435079141
+      modifiedTime: 1792435079141
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!HhOzB5ToyDCM5NCB.02QEoAJWHnXcDJpR'
+  - name: Prisonniers dans leur tête
+    type: text
+    sort: 400000
+    text:
+      content: >-
+        <h2>Prisonniers dans leur tête</h2>
+
+        <h3>Ce que l'on raconte</h3>
+
+        <blockquote><p>« Tous ceux qui se battent pour Zalazane ne se battent
+        pas pour lui. Certains te frappent pendant qu’au fond d’eux ils te
+        supplient d’arrêter. »</p></blockquote>
+
+        <h3>Statut MJ</h3>
+
+        <p>Vraie.</p>
+
+        <h3>Qui ?</h3>
+
+        <p>Cette rumeur circule surtout parmi les familles ayant perdu quelqu’un
+        aux Îles et parmi ceux qui ont déjà observé les effets de l’emprise de
+        Zalazane.</p>
+
+        <p>Les guerriers les plus pragmatiques peuvent la trouver dangereuse si
+        elle fait hésiter au mauvais moment.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p>Certains des trolls associés à Zalazane sont des Sombrelance placés
+        sous son emprise.</p>
+
+        <p>Ils ne doivent donc pas tous être considérés automatiquement comme
+        des alliés volontaires du sorcier.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>La rumeur existe depuis que des cas d’ensorcellement sont connus.</p>
+
+        <p>Elle revient fortement lorsqu’un fugitif ou un survivant revient des
+        Îles.</p>
+
+        <h3>Où ?</h3>
+
+        <p>À Sen’jin et partout où l’on discute d’une éventuelle expédition vers
+        les Îles de l’Écho.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>La distinction est essentielle pour les familles concernées.</p>
+
+        <p>Elle complique cependant toute réponse militaire simple au
+        problème.</p>
+
+        <h3>Si les PJ s'y intéressent</h3>
+
+        <p>Ils peuvent chercher comment reconnaître une personne sous emprise,
+        demander si quelqu’un en a déjà été libéré ou observer les comportements
+        de trolls rencontrés aux Îles avant de choisir comment agir.</p>
+
+        <h3>Si personne n'agit</h3>
+
+        <p>Les captifs restent sous la domination de Zalazane.</p>
+
+        <p>La rumeur, elle, peut progressivement être oubliée par ceux qui
+        préfèrent une distinction simple entre alliés et ennemis.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sombrelance-rumors
+          entryId: prisonniers-dans-leur-tete
+          sourceHash: b0203daf
+    _id: 2mA3S4ZfT9akSYXT
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435079141
+      modifiedTime: 1792435079141
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!HhOzB5ToyDCM5NCB.2mA3S4ZfT9akSYXT'
+  - name: Vol’jin va reprendre les Îles
+    type: text
+    sort: 500000
+    text:
+      content: >-
+        <h2>Vol’jin va reprendre les Îles</h2>
+
+        <h3>Ce que l'on raconte</h3>
+
+        <blockquote><p>« Garde ta lance prête. Vol’jin attend juste le bon
+        moment. Bientôt, on rentre aux Îles. »</p></blockquote>
+
+        <h3>Statut MJ</h3>
+
+        <p>Déformée.</p>
+
+        <h3>Qui ?</h3>
+
+        <p>La rumeur est surtout portée par de jeunes Sombrelance impatients,
+        des familles ayant perdu leur foyer et ceux qui souhaitent voir la
+        communauté reprendre l’initiative.</p>
+
+        <p>Les anciens peuvent l’accueillir avec davantage de prudence.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p>Beaucoup de Sombrelance peuvent espérer une reprise des Îles.</p>
+
+        <p>Les sources fournies ne donnent cependant aucun plan concret et
+        immédiat de reconquête ordonné par Vol’jin.</p>
+
+        <p>La rumeur transforme un espoir collectif en décision politique
+        supposée.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>Elle resurgit après chaque signe de faiblesse attribué à Zalazane,
+        chaque retour de fugitif ou chaque observation inhabituelle sur les
+        Îles.</p>
+
+        <h3>Où ?</h3>
+
+        <p>À Sen’jin principalement.</p>
+
+        <p>Elle peut atteindre Razor Hill sous une forme encore plus
+        catégorique.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Dire que le chef prépare déjà quelque chose évite d’admettre que la
+        communauté ne possède peut-être pas encore de solution.</p>
+
+        <p>La rumeur peut aussi servir à convaincre des hésitants de soutenir
+        une initiative locale.</p>
+
+        <h3>Si les PJ s'y intéressent</h3>
+
+        <p>Ils peuvent demander qui aurait réellement reçu des ordres, constater
+        que chacun cite une source différente ou découvrir que certains jeunes
+        utilisent volontairement le nom de Vol’jin pour donner du poids à leurs
+        propres projets.</p>
+
+        <h3>Si personne n'agit</h3>
+
+        <p>Aucune reconquête générale ne se déclenche sur la seule base de cette
+        rumeur.</p>
+
+        <p>Elle peut toutefois encourager une initiative non autorisée de
+        volontaires.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sombrelance-rumors
+          entryId: reconquete-imminente
+          sourceHash: 3a0f6d9f
+    _id: pIhl8TfTCcUN5cMd
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435079141
+      modifiedTime: 1792435079141
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!HhOzB5ToyDCM5NCB.pIhl8TfTCcUN5cMd'
+  - name: Les Orcs ont oublié
+    type: text
+    sort: 600000
+    text:
+      content: >-
+        <h2>Les Orcs ont oublié</h2>
+
+        <h3>Ce que l'on raconte</h3>
+
+        <blockquote><p>« Les Orcs nous avaient promis qu’on reprendrait les
+        Îles. Maintenant ils ont leur grande ville à construire et plus personne
+        ne regarde vers la mer. »</p></blockquote>
+
+        <h3>Statut MJ</h3>
+
+        <p>Déformée.</p>
+
+        <h3>Qui ?</h3>
+
+        <p>Cette version circule parmi certains Sombrelance frustrés par la
+        durée de la situation.</p>
+
+        <p>Elle peut être répétée par des jeunes qui n’ont pas eux-mêmes entendu
+        la prétendue promesse.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p>La frustration est réelle.</p>
+
+        <p>En revanche, les sources fournies n’établissent pas l’existence d’une
+        promesse formelle des Orcs concernant une reconquête des Îles.</p>
+
+        <p>La rumeur transforme donc un sentiment politique en fait
+        historique.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>Elle apparaît surtout lorsque des ressources ou des guerriers de la
+        Horde sont mobilisés ailleurs.</p>
+
+        <h3>Où ?</h3>
+
+        <p>À Sen’jin, particulièrement lors de discussions sur l’avenir des Îles
+        ou sur la répartition des ressources en Durotar.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>La rumeur donne une cause identifiable à une situation qui dure.</p>
+
+        <p>Elle permet aussi de déplacer une partie de la colère dirigée contre
+        Zalazane vers des alliés considérés comme trop occupés par leurs propres
+        priorités.</p>
+
+        <h3>Si les PJ s'y intéressent</h3>
+
+        <p>Ils peuvent demander qui aurait entendu cette promesse, comparer les
+        versions ou discuter avec des habitants ayant connu les premiers temps
+        de l’installation en Durotar.</p>
+
+        <h3>Si personne n'agit</h3>
+
+        <p>Aucune évolution particulière.</p>
+
+        <p>La rumeur reste une expression de frustration et peut gagner ou
+        perdre en force selon la manière dont la Horde traite les préoccupations
+        de Sen’jin.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sombrelance-rumors
+          entryId: orcs-ont-oublie
+          sourceHash: 2f2d95a3
+    _id: xVCh40AL1OC0ieYV
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435079141
+      modifiedTime: 1792435079141
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!HhOzB5ToyDCM5NCB.xVCh40AL1OC0ieYV'
+  - name: Des trolls venus de l’est
+    type: text
+    sort: 700000
+    text:
+      content: >-
+        <h2>Des trolls venus de l’est</h2>
+
+        <h3>Ce que l'on raconte</h3>
+
+        <blockquote><p>« Un marchand des Tarides a vu des trolls avec des
+        peintures qu’aucun Sombrelance ne porte. Des trolls de Strangleronce,
+        ici, en Kalimdor. »</p></blockquote>
+
+        <h3>Statut MJ</h3>
+
+        <p>Partiellement vraie.</p>
+
+        <h3>Qui ?</h3>
+
+        <p>La rumeur vient de voyageurs et de marchands avant d’être reprise par
+        des Sombrelance capables de reconnaître que la description ne correspond
+        pas à leur tribu.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p>Quelqu’un a bien signalé un troll inconnu.</p>
+
+        <p>Son appartenance exacte n’est pas établie.</p>
+
+        <p>Il pourrait s’agir d’un Bloodscalp, d’un Skullsplitter, d’un autre
+        voyageur troll ou simplement d’une mauvaise identification.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>La rumeur est récente.</p>
+
+        <p>Elle devient plus crédible si d’autres voyageurs rapportent ensuite
+        des observations similaires.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Elle peut naître dans les Tarides puis atteindre Razor Hill et
+        Sen’jin.</p>
+
+        <p>Les PJ pourraient chercher à la vérifier sur les routes du sud ou
+        auprès des patrouilles.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Pour les Sombrelance, un troll venu de Strangleronce ne représente
+        pas simplement « un autre troll ».</p>
+
+        <p>Il peut rappeler des alliances, des rivalités, des dettes ou un passé
+        que l’installation en Durotar n’a pas effacé.</p>
+
+        <h3>Si les PJ s'y intéressent</h3>
+
+        <p>Ils peuvent chercher le témoin initial, comparer les descriptions des
+        marques tribales ou tenter de retrouver la piste du voyageur.</p>
+
+        <h3>Si personne n'agit</h3>
+
+        <p>L’étranger poursuit sa route ou disparaît du réseau de rumeurs.</p>
+
+        <p>Son passage peut ne produire aucune conséquence immédiate.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sombrelance-rumors
+          entryId: trolls-de-strangleronce
+          sourceHash: fb6cda8c
+    _id: mQXtqrCyv53wpVMO
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435079141
+      modifiedTime: 1792435079141
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!HhOzB5ToyDCM5NCB.mQXtqrCyv53wpVMO'
+  - name: Les vieux maléfices
+    type: text
+    sort: 800000
+    text:
+      content: >-
+        <h2>Les vieux maléfices</h2>
+
+        <h3>Ce que l'on raconte</h3>
+
+        <blockquote><p>« Zalazane n’a rien inventé. Ces choses-là existaient
+        déjà dans les jungles bien avant qu’on mette les pieds en Durotar.
+        »</p></blockquote>
+
+        <h3>Statut MJ</h3>
+
+        <p>Superstition.</p>
+
+        <h3>Qui ?</h3>
+
+        <p>La rumeur est attribuée à des anciens ou à ceux qui aiment expliquer
+        les événements présents par l’héritage ancien des peuples trolls.</p>
+
+        <p>Elle intrigue particulièrement les jeunes qui connaissent
+        Strangleronce surtout à travers les récits.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p>Les sources fournies indiquent seulement que l’idée est
+        plausible.</p>
+
+        <p>Elles n’établissent pas l’origine exacte des pratiques de
+        Zalazane.</p>
+
+        <p><strong>Information à vérifier / non établie dans les sources
+        fournies.</strong></p>
+
+        <h3>Quand ?</h3>
+
+        <p>Il s’agit moins d’une nouvelle rumeur que d’une explication ancienne
+        qui revient chaque fois qu’un nouveau maléfice est découvert.</p>
+
+        <h3>Où ?</h3>
+
+        <p>À Sen’jin, particulièrement auprès des anciens et des personnes
+        discutant des rites ou de Zalazane.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Relier une menace récente à un héritage plus ancien permet de lui
+        donner un sens.</p>
+
+        <p>Cela peut aussi refléter les rapports complexes que les Sombrelance
+        entretiennent avec leur passé.</p>
+
+        <h3>Si les PJ s'y intéressent</h3>
+
+        <p>Ils peuvent demander quelles histoires parlent de pratiques
+        similaires, chercher plusieurs versions du même récit ou tenter de
+        distinguer mémoire historique et interprétation actuelle.</p>
+
+        <h3>Si personne n'agit</h3>
+
+        <p>Aucune évolution particulière.</p>
+
+        <p>La rumeur reste une grille d’interprétation des événements liés à
+        Zalazane.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sombrelance-rumors
+          entryId: malefices-de-strangleronce
+          sourceHash: e4fb9f91
+    _id: DSRe9XsLeFdaD9mG
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435079141
+      modifiedTime: 1792435079141
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!HhOzB5ToyDCM5NCB.DSRe9XsLeFdaD9mG'
+  - name: Les sanctuaires dépouillés
+    type: text
+    sort: 900000
+    text:
+      content: >-
+        <h2>Les sanctuaires dépouillés</h2>
+
+        <h3>Ce que l'on raconte</h3>
+
+        <blockquote><p>« Quelqu’un vide les petits sanctuaires autour de
+        Sen’jin. Même les coquillages et les bouts de bois sans valeur
+        disparaissent. Ce n’est pas un voleur ordinaire. »</p></blockquote>
+
+        <h3>Statut MJ</h3>
+
+        <p>Vraie.</p>
+
+        <h3>Qui ?</h3>
+
+        <p>Les chasseurs qui utilisent ces sanctuaires sont les premiers
+        concernés.</p>
+
+        <p>Les soupçons peuvent rapidement viser les Kolkar, Zalazane, de jeunes
+        trolls ou des voyageurs orcs.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p><strong>Adaptation de campagne.</strong></p>
+
+        <p>Les offrandes sont réellement déplacées.</p>
+
+        <p>Le gardien d’au moins un sanctuaire peut les avoir retirées lui-même
+        parce qu’il pense que le lieu n’est plus approprié ou que le loa ne
+        répond plus comme auparavant.</p>
+
+        <p>Il ne cherche pas à voler quoi que ce soit.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>Les disparitions ont commencé récemment et touchent plusieurs
+        passages de chasse.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Dans de petits sanctuaires proches de Sen’jin et des pistes
+        fréquentées par les chasseurs.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>L’absence de traces et la disparition d’objets sans valeur rendent
+        l’hypothèse d’un simple pillage peu convaincante.</p>
+
+        <p>Les habitants remplissent donc le vide avec leurs propres
+        inquiétudes.</p>
+
+        <h3>Si les PJ s'y intéressent</h3>
+
+        <p>Ils peuvent surveiller un sanctuaire, parler aux chasseurs, chercher
+        qui possède réellement la responsabilité de ces lieux ou comparer les
+        objets retirés.</p>
+
+        <h3>Si personne n'agit</h3>
+
+        <p>Le gardien continue à vider les sanctuaires qu’il juge
+        problématiques.</p>
+
+        <p>Les accusations contre des innocents risquent de devenir plus fortes
+        que le phénomène lui-même.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sombrelance-rumors
+          entryId: offrandes-disparues
+          sourceHash: de78c061
+    _id: ECmGEQ2lQmTsLfk4
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435079141
+      modifiedTime: 1792435079141
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!HhOzB5ToyDCM5NCB.ECmGEQ2lQmTsLfk4'
+  - name: Les Kolkar nous comptent
+    type: text
+    sort: 1000000
+    text:
+      content: >-
+        <h2>Les Kolkar nous comptent</h2>
+
+        <h3>Ce que l'on raconte</h3>
+
+        <blockquote><p>« Les Kolkar ne viennent plus seulement voler. Ils
+        regardent. Ils comptent les chasseurs qui sortent et ceux qui
+        reviennent. »</p></blockquote>
+
+        <h3>Statut MJ</h3>
+
+        <p>Vraie.</p>
+
+        <h3>Qui ?</h3>
+
+        <p>Les chasseurs, pisteurs et patrouilleurs du sud font circuler
+        l’information.</p>
+
+        <p>Les habitants de Sen’jin la prennent au sérieux parce que la pression
+        Kolkar est déjà connue.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p>Les Kolkar observent réellement certaines pistes et cherchent à
+        évaluer les habitudes de circulation autour de Sen’jin.</p>
+
+        <p>Cela ne signifie pas nécessairement qu’une attaque générale est
+        imminente.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>Les signes sont récents : traces interrompues, silhouettes aperçues à
+        distance et observateurs qui évitent le contact.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Sur les pistes reliant Sen’jin aux zones de chasse et aux routes du
+        sud.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Observer coûte moins cher qu’attaquer.</p>
+
+        <p>Les Kolkar peuvent chercher des opportunités, des routes mal
+        protégées ou simplement comprendre comment les Sombrelance réagissent à
+        leur présence.</p>
+
+        <h3>Si les PJ s'y intéressent</h3>
+
+        <p>Ils peuvent suivre les observateurs, modifier les habitudes de
+        circulation, organiser une contre-observation ou chercher à comprendre
+        ce que les Kolkar surveillent réellement.</p>
+
+        <h3>Si personne n'agit</h3>
+
+        <p>Les Kolkar obtiennent une meilleure connaissance des habitudes
+        locales.</p>
+
+        <p>Ils peuvent ensuite exploiter une faiblesse précise plutôt que lancer
+        une attaque frontale.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sombrelance-rumors
+          entryId: kolkar-testent-les-pistes
+          sourceHash: c155531a
+    _id: zX4tNSW2KEXURoOf
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435079141
+      modifiedTime: 1792435079141
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!HhOzB5ToyDCM5NCB.zX4tNSW2KEXURoOf'
+  - name: Ce que cherche Gadrin
+    type: text
+    sort: 1100000
+    text:
+      content: >-
+        <h2>Ce que cherche Gadrin</h2>
+
+        <h3>Ce que l'on raconte</h3>
+
+        <blockquote><p>« Maître Gadrin cherche quelque chose qu’on ne trouve pas
+        en Durotar. Et s’il ne dit pas quoi, c’est que ça doit être important.
+        »</p></blockquote>
+
+        <h3>Statut MJ</h3>
+
+        <p>Vraie.</p>
+
+        <h3>Qui ?</h3>
+
+        <p>La rumeur vient de personnes ayant remarqué les questions, les
+        échanges ou les recherches de Maître Gadrin.</p>
+
+        <p>Chacun propose ensuite sa propre explication.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p>La source fournie établit cette recherche comme une porte possible
+        vers des traditions trolls situées au-delà de Durotar.</p>
+
+        <p>La nature précise de ce que Gadrin recherche n’est pas définie.</p>
+
+        <p><strong>Information à vérifier / non établie dans les sources
+        fournies.</strong></p>
+
+        <h3>Quand ?</h3>
+
+        <p>La recherche est actuelle mais ne possède pas nécessairement
+        d’urgence.</p>
+
+        <h3>Où ?</h3>
+
+        <p>La rumeur peut être entendue à Sen’jin.</p>
+
+        <p>Elle peut conduire vers des voyageurs, des connaissances venues
+        d’ailleurs ou de futures pistes hors de Durotar.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Un personnage reconnu qui pose des questions sans expliquer son
+        objectif devient naturellement un sujet de conversation.</p>
+
+        <h3>Si les PJ s'y intéressent</h3>
+
+        <p>Ils peuvent simplement demander à Gadrin, observer les interlocuteurs
+        qu’il consulte ou attendre qu’une information supplémentaire arrive.</p>
+
+        <p>Il n’est pas nécessaire que sa recherche devienne immédiatement une
+        aventure.</p>
+
+        <h3>Si personne n'agit</h3>
+
+        <p>Aucune évolution particulière.</p>
+
+        <p>Gadrin poursuit ses recherches par ses propres moyens.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sombrelance-rumors
+          entryId: recherche-de-gadrin
+          sourceHash: 5a13937c
+    _id: 98YjrvW6NgoCwFUU
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435079141
+      modifiedTime: 1792435079141
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!HhOzB5ToyDCM5NCB.98YjrvW6NgoCwFUU'
+  - name: Les esprits et les travaux
+    type: text
+    sort: 1200000
+    text:
+      content: >-
+        <h2>Les esprits et les travaux</h2>
+
+        <h3>Ce que l'on raconte</h3>
+
+        <blockquote><p>« Depuis qu’ils creusent davantage au nord, quelque chose
+        répond autrement quand on parle aux esprits. »</p></blockquote>
+
+        <h3>Statut MJ</h3>
+
+        <p>Partiellement vraie.</p>
+
+        <h3>Qui ?</h3>
+
+        <p>Des Sombrelance sensibles aux pratiques spirituelles font circuler
+        cette inquiétude.</p>
+
+        <p>Les ouvriers et soldats peuvent y voir une interprétation
+        superstitieuse de phénomènes naturels.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p><strong>Adaptation de campagne.</strong></p>
+
+        <p>Des signes spirituels inhabituels peuvent réellement être
+        observés.</p>
+
+        <p>Leur lien direct avec les travaux de la Horde n’est toutefois pas
+        encore démontré.</p>
+
+        <p>Cette rumeur peut constituer un indice très léger vers le fil rouge
+        de la campagne sans fournir de réponse.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>Les observations deviennent suffisamment fréquentes pour être
+        comparées seulement depuis peu.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Les effets sont évoqués autour de certains lieux de Durotar tandis
+        que leur cause supposée est située plus au nord, vers les zones où la
+        Horde creuse et construit.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Les travaux visibles offrent une cause évidente à un phénomène que
+        personne ne comprend encore.</p>
+
+        <p>Les Sombrelance ne disposent pas nécessairement de davantage de
+        réponses que les autres : ils possèdent simplement un vocabulaire
+        différent pour décrire le problème.</p>
+
+        <h3>Si les PJ s'y intéressent</h3>
+
+        <p>Ils peuvent comparer plusieurs témoignages, rechercher si les
+        phénomènes suivent réellement une direction ou une distance, ou
+        interroger des personnes qui ne partagent pas l’interprétation
+        spirituelle.</p>
+
+        <h3>Si personne n'agit</h3>
+
+        <p>Les signes restent faibles pour le moment.</p>
+
+        <p>Ils peuvent se renforcer plus tard si le fil rouge de la campagne
+        progresse.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sombrelance-rumors
+          entryId: esprits-agites-au-nord
+          sourceHash: 6ead548b
+    _id: oooSL4slbzedCwUR
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435079141
+      modifiedTime: 1792435079141
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!HhOzB5ToyDCM5NCB.oooSL4slbzedCwUR'
+  - name: Celui qui ne parle plus
+    type: text
+    sort: 1300000
+    text:
+      content: >-
+        <h2>Celui qui ne parle plus</h2>
+
+        <h3>Ce que l'on raconte</h3>
+
+        <blockquote><p>« Il est revenu des Îles vivant. Depuis, il parle orc
+        quand il doit parler, mais pas un seul mot en troll. Même dans son
+        sommeil. »</p></blockquote>
+
+        <h3>Statut MJ</h3>
+
+        <p>Vraie.</p>
+
+        <h3>Qui ?</h3>
+
+        <p>Le Sombrelance revenu des Îles est directement concerné.</p>
+
+        <p>Sa famille évite de répondre aux questions trop insistantes.</p>
+
+        <p>Certains pensent qu’il est encore sous l’influence de Zalazane.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p>Le survivant refuse réellement de parler troll depuis son retour.</p>
+
+        <p>La raison exacte n’est pas définie par la source.</p>
+
+        <p><strong>Information à vérifier / non établie dans les sources
+        fournies.</strong></p>
+
+        <p>Ce refus peut être traumatique, rituel, volontaire ou lié à ce qu’il
+        croit que Zalazane peut faire.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>Il est revenu récemment et son comportement est devenu visible dès
+        les premières heures.</p>
+
+        <h3>Où ?</h3>
+
+        <p>À Sen’jin.</p>
+
+        <p>Les événements à l’origine de son silence se sont produits quelque
+        part sur les Îles de l’Écho.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Son comportement est suffisamment précis et étrange pour susciter des
+        interprétations.</p>
+
+        <p>Chaque personne projette sur lui sa propre compréhension des pouvoirs
+        de Zalazane.</p>
+
+        <h3>Si les PJ s'y intéressent</h3>
+
+        <p>Ils peuvent chercher à communiquer autrement, parler à sa famille,
+        attendre qu’il prenne lui-même l’initiative ou vérifier s’il réagit à
+        certains noms, lieux ou sons.</p>
+
+        <h3>Si personne n'agit</h3>
+
+        <p>Il continue à vivre à Sen’jin en évitant le sujet.</p>
+
+        <p>Avec le temps, les histoires racontées à son propos deviennent
+        probablement plus inquiétantes que son comportement réel.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sombrelance-rumors
+          entryId: revenu-sans-sa-langue
+          sourceHash: d4eec4ba
+    _id: CBLaarkzqiFtGdMp
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435079141
+      modifiedTime: 1792435079141
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!HhOzB5ToyDCM5NCB.CBLaarkzqiFtGdMp'
+  - name: Le masque disparu
+    type: text
+    sort: 1400000
+    text:
+      content: >-
+        <h2>Le masque disparu</h2>
+
+        <h3>Ce que l'on raconte</h3>
+
+        <blockquote><p>« Un masque funéraire a disparu cette nuit. Et si
+        personne ne veut te dire à qui il appartenait, c’est peut-être ça le
+        plus important. »</p></blockquote>
+
+        <h3>Statut MJ</h3>
+
+        <p>Vraie.</p>
+
+        <h3>Qui ?</h3>
+
+        <p>Une famille de Sen’jin est directement concernée.</p>
+
+        <p>Quelques anciens savent à qui appartenait le masque mais préfèrent
+        éviter que l’affaire devienne publique.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p><strong>Adaptation de campagne.</strong></p>
+
+        <p>Le masque a réellement disparu.</p>
+
+        <p>La source ne fixe ni le responsable ni sa motivation.</p>
+
+        <p>Il peut s’agir d’un vol, d’un conflit familial, d’un objet repris par
+        quelqu’un estimant avoir un droit dessus ou d’une décision liée aux
+        pratiques funéraires.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>La disparition vient d’être constatée.</p>
+
+        <p>La rumeur se répand plus vite que les informations fiables.</p>
+
+        <h3>Où ?</h3>
+
+        <p>À Sen’jin.</p>
+
+        <p>Le masque peut encore se trouver dans le village ou avoir déjà quitté
+        celui-ci.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Le silence de la famille attire davantage l’attention qu’une
+        accusation ouverte.</p>
+
+        <p>Les habitants supposent donc que l’identité du défunt ou la fonction
+        du masque explique l’affaire.</p>
+
+        <h3>Si les PJ s'y intéressent</h3>
+
+        <p>Ils peuvent chercher pourquoi la famille refuse d’en parler,
+        découvrir qui savait où l’objet était conservé ou simplement attendre
+        qu’un second événement donne un sens à la disparition.</p>
+
+        <h3>Si personne n'agit</h3>
+
+        <p>Le responsable poursuit son objectif.</p>
+
+        <p>Si le masque n’était recherché que pour une affaire personnelle, la
+        situation peut se résoudre sans intervention extérieure.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sombrelance-rumors
+          entryId: masque-funeraire-disparu
+          sourceHash: c400c271
+    _id: Qbx705IFiNEzGyhY
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435079141
+      modifiedTime: 1792435079141
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!HhOzB5ToyDCM5NCB.Qbx705IFiNEzGyhY'
+  - name: Le loa parti
+    type: text
+    sort: 1500000
+    text:
+      content: >-
+        <h2>Le loa parti</h2>
+
+        <h3>Ce que l'on raconte</h3>
+
+        <blockquote><p>« Je chasse ici depuis assez longtemps pour savoir quand
+        quelque chose manque. Un loa a quitté Durotar. Vous ne l’avez juste pas
+        encore remarqué. »</p></blockquote>
+
+        <h3>Statut MJ</h3>
+
+        <p>Superstition.</p>
+
+        <h3>Qui ?</h3>
+
+        <p>Un vieux chasseur est à l’origine de cette affirmation.</p>
+
+        <p>Certains jeunes se moquent de lui ; d’autres commencent à relire
+        chaque comportement inhabituel de la faune à travers cette histoire.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p>Les sources fournies ne permettent pas d’établir qu’un loa ait
+        réellement quitté Durotar.</p>
+
+        <p>Le chasseur interprète plusieurs changements comme les signes d’une
+        même absence.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>Il affirme avoir observé une évolution progressive plutôt qu’un
+        événement précis.</p>
+
+        <p>La rumeur commence seulement à se répandre.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Autour des territoires de chasse fréquentés par les Sombrelance.</p>
+
+        <p>Elle est surtout entendue à Sen’jin.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>L’expérience du chasseur lui donne suffisamment d’autorité pour que
+        son intuition soit prise au sérieux même lorsqu’il ne peut pas la
+        prouver.</p>
+
+        <h3>Si les PJ s'y intéressent</h3>
+
+        <p>Ils peuvent lui demander quels signes précis il a observés, comparer
+        ses affirmations avec celles d’autres chasseurs ou simplement garder
+        l’information en tête lors de leurs déplacements.</p>
+
+        <h3>Si personne n'agit</h3>
+
+        <p>Aucune évolution particulière.</p>
+
+        <p>La rumeur peut disparaître d’elle-même ou devenir plus importante si
+        d’autres phénomènes semblent lui donner raison.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sombrelance-rumors
+          entryId: loa-a-quitte-durotar
+          sourceHash: f66c1792
+    _id: OmDJ8ZN0WQa5pNm0
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435079141
+      modifiedTime: 1792435079141
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!HhOzB5ToyDCM5NCB.OmDJ8ZN0WQa5pNm0'
+  - name: Le pêcheur revenu deux fois
+    type: text
+    sort: 1600000
+    text:
+      content: >-
+        <h2>Le pêcheur revenu deux fois</h2>
+
+        <h3>Ce que l'on raconte</h3>
+
+        <blockquote><p>« Il est rentré à Sen’jin au lever du soleil. À midi, une
+        patrouille a juré avoir trouvé son corps sur la côte. Alors lequel des
+        deux est revenu ? »</p></blockquote>
+
+        <h3>Statut MJ</h3>
+
+        <p>Partiellement vraie.</p>
+
+        <h3>Qui ?</h3>
+
+        <p>Le pêcheur revenu à Sen’jin, sa famille et les personnes affirmant
+        avoir découvert un cadavre sont au centre de l’histoire.</p>
+
+        <p>Les habitants se divisent rapidement entre ceux qui font confiance au
+        survivant et ceux qui veulent vérifier son identité.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p>Les deux témoignages existent réellement : un pêcheur porté disparu
+        est revenu et un corps lui ressemblant aurait été retrouvé.</p>
+
+        <p>La source ne fixe pas l’explication.</p>
+
+        <p><strong>Information à vérifier / non établie dans les sources
+        fournies.</strong></p>
+
+        <p>Erreur d’identification, parent ressemblant au disparu, manipulation,
+        magie ou simple récit déformé restent possibles.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>Les deux événements se produisent le même jour, ce qui explique la
+        vitesse de propagation de la rumeur.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Le survivant se trouve à Sen’jin.</p>
+
+        <p>Le corps aurait été découvert sur une portion de côte située à
+        quelque distance du village.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Deux faits apparemment incompatibles forcent immédiatement chacun à
+        choisir lequel il juge crédible.</p>
+
+        <p>Les expériences passées avec Zalazane rendent les explications
+        surnaturelles particulièrement séduisantes.</p>
+
+        <h3>Si les PJ s'y intéressent</h3>
+
+        <p>Ils peuvent voir le survivant, demander à observer le corps, vérifier
+        qui a procédé à l’identification ou rechercher les événements ayant
+        précédé la disparition.</p>
+
+        <h3>Si personne n'agit</h3>
+
+        <p>La famille protège probablement le survivant tandis que d’autres
+        habitants deviennent méfiants.</p>
+
+        <p>Si aucun élément nouveau n’apparaît, l’affaire peut rester longtemps
+        non résolue.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sombrelance-rumors
+          entryId: pecheur-revenu-deux-fois
+          sourceHash: ca6c54e0
+    _id: 8aR3hV6lQKnTjDEI
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435079141
+      modifiedTime: 1792435079141
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!HhOzB5ToyDCM5NCB.8aR3hV6lQKnTjDEI'
+  - name: Le tambour au large
+    type: text
+    sort: 1700000
+    text:
+      content: >-
+        <h2>Le tambour au large</h2>
+
+        <h3>Ce que l'on raconte</h3>
+
+        <blockquote><p>« Trois nuits que le vieux rythme vient des Îles. Mais
+        écoute bien après le dernier battement : quelqu’un répond depuis notre
+        rive. »</p></blockquote>
+
+        <h3>Statut MJ</h3>
+
+        <p>Vraie.</p>
+
+        <h3>Qui ?</h3>
+
+        <p>Les anciens reconnaissant le rythme sont les premiers à prendre le
+        phénomène au sérieux.</p>
+
+        <p>La personne qui répond depuis Sen’jin n’a pas encore expliqué
+        publiquement ses raisons.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p><strong>Adaptation de campagne.</strong></p>
+
+        <p>Un tambour joue réellement depuis les Îles de l’Écho.</p>
+
+        <p>Le rythme est reconnu comme un ancien signal sombrelance associé à un
+        rassemblement.</p>
+
+        <p>Quelqu’un à Sen’jin répond également au signal.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>Le phénomène dure depuis trois nuits.</p>
+
+        <p>Chaque répétition rend plus difficile l’idée d’un hasard.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Le premier tambour vient d’une île ou d’une portion des Îles de
+        l’Écho.</p>
+
+        <p>La réponse est émise depuis Sen’jin ou ses abords immédiats.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Le rythme constitue un moyen de communication que beaucoup de
+        non-Sombrelance ne comprennent pas.</p>
+
+        <p>La personne qui répond peut chercher à établir un contact sans
+        attirer davantage l’attention.</p>
+
+        <h3>Si les PJ s'y intéressent</h3>
+
+        <p>Ils peuvent écouter les échanges, demander aux anciens ce que
+        signifie le rythme, chercher la personne répondant depuis Sen’jin ou
+        observer la côte lorsqu’un nouveau signal arrive.</p>
+
+        <h3>Si personne n'agit</h3>
+
+        <p>Le dialogue continue quelques nuits.</p>
+
+        <p>Il peut ensuite s’interrompre brutalement si l’un des deux groupes
+        estime avoir été repéré.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sombrelance-rumors
+          entryId: tambour-des-iles
+          sourceHash: 284a35c9
+    _id: 4ZtY0dLi0hV6NsvQ
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435079141
+      modifiedTime: 1792435079141
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!HhOzB5ToyDCM5NCB.4ZtY0dLi0hV6NsvQ'
+  - name: Le mauvais troll
+    type: text
+    sort: 1800000
+    text:
+      content: >-
+        <h2>Le mauvais troll</h2>
+
+        <h3>Ce que l'on raconte</h3>
+
+        <blockquote><p>« Les gardes ont attrapé un troll au sud et ils disent
+        que c’est un espion. Seulement voilà : les Sombrelance disent qu’il
+        n’est pas des leurs. »</p></blockquote>
+
+        <h3>Statut MJ</h3>
+
+        <p>Vraie.</p>
+
+        <h3>Qui ?</h3>
+
+        <p>Une patrouille de la Horde détient le prisonnier.</p>
+
+        <p>Des Sombrelance ayant observé ses marques estiment qu’il pourrait
+        venir de Strangleronce.</p>
+
+        <p>Certains gardes considèrent son origine étrangère comme une raison
+        supplémentaire de se méfier.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p>Le prisonnier n’est effectivement pas Sombrelance.</p>
+
+        <p>Ses marques rappellent celles de tribus de Strangleronce, mais son
+        identité exacte et les raisons de sa présence ne sont pas encore
+        établies.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>La capture vient d’avoir lieu.</p>
+
+        <p>La rumeur précède probablement tout interrogatoire sérieux.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Le troll a été capturé près de la frontière sud ou sur une route
+        entrant en Durotar.</p>
+
+        <p>Il peut être retenu temporairement dans un poste ou conduit vers un
+        lieu plus sûr.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Pour certains Orcs, l’affaire est d’abord sécuritaire.</p>
+
+        <p>Pour les Sombrelance, les marques tribales donnent au prisonnier un
+        contexte culturel que les gardes ne possèdent pas.</p>
+
+        <h3>Si les PJ s'y intéressent</h3>
+
+        <p>Ils peuvent assister à son interrogatoire, demander à quelqu’un
+        connaissant les tribus de l’est de l’identifier, chercher son point
+        d’entrée en Durotar ou simplement écouter sa version des faits.</p>
+
+        <h3>Si personne n'agit</h3>
+
+        <p>La Horde traite l’affaire selon ses propres procédures.</p>
+
+        <p>Le prisonnier peut être transféré, libéré faute de preuve ou
+        considéré comme hostile selon ce que révèle l’interrogatoire.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sombrelance-rumors
+          entryId: mauvais-prisonnier
+          sourceHash: 2d0e32e8
+    _id: xDYUDMIcVTcFg8FE
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435079141
+      modifiedTime: 1792435079141
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!HhOzB5ToyDCM5NCB.xDYUDMIcVTcFg8FE'
+  - name: Les jeunes vont partir
+    type: text
+    sort: 1900000
+    text:
+      content: >-
+        <h2>Les jeunes vont partir</h2>
+
+        <h3>Ce que l'on raconte</h3>
+
+        <blockquote><p>« Ils disent qu’ils vont seulement reconnaître une petite
+        île. Quand des jeunes commencent à cacher des lances dans une pirogue,
+        ce n’est jamais seulement pour regarder. »</p></blockquote>
+
+        <h3>Statut MJ</h3>
+
+        <p>Vraie.</p>
+
+        <h3>Qui ?</h3>
+
+        <p>Un petit groupe de jeunes Sombrelance prépare une expédition.</p>
+
+        <p>Leurs proches ignorent peut-être encore l’ampleur de leurs
+        intentions.</p>
+
+        <p>Certains habitants pourraient secrètement les soutenir sans vouloir
+        partir eux-mêmes.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p><strong>Adaptation de campagne.</strong></p>
+
+        <p>Les volontaires ont réellement identifié ce qu’ils pensent être une
+        faiblesse sur une petite île périphérique tenue ou fréquentée par les
+        hommes de Zalazane.</p>
+
+        <p>Ils sont courageux et leur information peut même être correcte.</p>
+
+        <p>Le problème est qu’ils sous-estiment les risques.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>Le départ est proche, probablement dès que la mer ou l’obscurité leur
+        donnera une occasion favorable.</p>
+
+        <h3>Où ?</h3>
+
+        <p>La préparation a lieu autour de Sen’jin.</p>
+
+        <p>La destination est une petite île périphérique des Îles de
+        l’Écho.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>L’attente est devenue insupportable pour certains jeunes.</p>
+
+        <p>Ils préfèrent risquer une action limitée plutôt que continuer à
+        parler d’une reconquête qui n’arrive jamais.</p>
+
+        <h3>Si les PJ s'y intéressent</h3>
+
+        <p>Ils peuvent vérifier ce que les volontaires savent réellement,
+        essayer de modifier leur plan, les accompagner, prévenir les anciens ou
+        décider que ce n’est pas leur affaire.</p>
+
+        <h3>Si personne n'agit</h3>
+
+        <p>Les volontaires partent.</p>
+
+        <p>Ils peuvent réussir une reconnaissance partielle, revenir blessés ou
+        provoquer une réaction de Zalazane sans pour autant déclencher une
+        catastrophe automatique.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sombrelance-rumors
+          entryId: jeunes-volontaires
+          sourceHash: 471e78e3
+    _id: 7dojY8dccFiPJsQz
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435079141
+      modifiedTime: 1792435079141
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!HhOzB5ToyDCM5NCB.7dojY8dccFiPJsQz'
+  - name: L’eau de Sen’jin
+    type: text
+    sort: 2000000
+    text:
+      content: >-
+        <h2>L’eau de Sen’jin</h2>
+
+        <h3>Ce que l'on raconte</h3>
+
+        <blockquote><p>« Les chasseurs disent que le puits est à eux. Les Orcs
+        disent qu’une route de la Horde appartient à toute la Horde. On verra
+        combien de temps ça reste une discussion. »</p></blockquote>
+
+        <h3>Statut MJ</h3>
+
+        <p>Vraie.</p>
+
+        <h3>Qui ?</h3>
+
+        <p>Des chasseurs sombrelance utilisent régulièrement un point d’eau
+        proche de Sen’jin.</p>
+
+        <p>Une caravane ou des voyageurs venus de Razor Hill ont également
+        besoin de cette ressource.</p>
+
+        <p>Les deux groupes pensent avoir de bonnes raisons de passer en
+        priorité.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p><strong>Adaptation de campagne.</strong></p>
+
+        <p>Une véritable dispute a éclaté autour de l’accès à l’eau.</p>
+
+        <p>Il ne s’agit pas d’une rupture entre Orcs et Sombrelance ni d’une
+        haine raciale organisée.</p>
+
+        <p>Deux groupes vivant sur une terre pauvre veulent simplement sécuriser
+        une ressource indispensable.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>La tension vient d’apparaître, probablement après plusieurs passages
+        rapprochés de caravanes ou une période où le point d’eau donne moins
+        qu’à l’habitude.</p>
+
+        <h3>Où ?</h3>
+
+        <p>À proximité de Sen’jin, sur un point d’eau également accessible
+        depuis une route utilisée par des voyageurs de Razor Hill.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Durotar offre peu de ressources faciles.</p>
+
+        <p>Les chasseurs pensent que l’usage régulier crée une priorité.</p>
+
+        <p>Les voyageurs pensent qu’une ressource située sur un axe de la Horde
+        doit être partagée.</p>
+
+        <h3>Si les PJ s'y intéressent</h3>
+
+        <p>Ils peuvent écouter les deux groupes, rechercher un autre point
+        d’eau, comprendre l’usage réel du site ou simplement empêcher qu’une
+        dispute immédiate ne dégénère.</p>
+
+        <p>Ils peuvent aussi décider que la communauté réglera elle-même le
+        problème.</p>
+
+        <h3>Si personne n'agit</h3>
+
+        <p>Les responsables locaux finissent probablement par trouver un
+        arrangement.</p>
+
+        <p>Mais d’ici là, une altercation, un retard de caravane ou une rancœur
+        personnelle peut transformer un problème pratique en conflit plus
+        durable.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sombrelance-rumors
+          entryId: querelle-du-puits
+          sourceHash: 03a38393
+    _id: ytmeJ0dkxiwZjdQA
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435079141
+      modifiedTime: 1792435079141
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!HhOzB5ToyDCM5NCB.ytmeJ0dkxiwZjdQA'
+_id: HhOzB5ToyDCM5NCB
+categories: []
+sort: 0
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792435079141
+  modifiedTime: 1792435079141
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!HhOzB5ToyDCM5NCB'

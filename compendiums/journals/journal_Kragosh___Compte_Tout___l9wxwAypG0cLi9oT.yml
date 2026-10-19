@@ -1,0 +1,228 @@
+name: Kragosh « Compte-Tout »
+flags:
+  campaign-codex:
+    type: ''
+  core:
+    sheetClass: ''
+pages:
+  - name: 01 · Portrait et accroche
+    type: text
+    sort: 100000
+    text:
+      format: 1
+      content: >-
+        <h1>Kragosh « Compte-Tout »</h1><p><em>Adaptation Warbound · Vallée des
+        Épreuves · Journal MJ</em></p><blockquote><p>« Il faut bien que
+        quelqu’un travaille pendant que vous discutez de justice.
+        »</p></blockquote><h2>En un
+        regard</h2><dl><dt><strong>Rôle</strong></dt><dd>L’ambitieux · autorité
+        / rivalité</dd><dt><strong>Aspect</strong></dt><dd>Orc grand et maigre,
+        le regard incisif. Il transporte une tablette de pointage et sait
+        exactement combien de paniers ont été déplacés durant chaque
+        quart.</dd><dt><strong>Désir</strong></dt><dd>Devenir contremaître et
+        prouver qu’un péon compétent peut gravir les échelons par le
+        mérite.</dd><dt><strong>Crainte</strong></dt><dd>Revenir à la misère
+        qu’il a connue avant que Thazz’rill ne lui donne du
+        travail.</dd><dt><strong>Défaut</strong></dt><dd>Il confond loyauté
+        envers l’autorité et justice. Il peut dénoncer un ami pour ne pas perdre
+        sa place.</dd></dl><h2>Première impression à la table</h2><p>S’adresse
+        aux PJ comme à des collègues à évaluer. Il note les manquements mais
+        respecte la constance et les promesses tenues.</p><h2>Contact avec les
+        PJ</h2><p>Un allié rigoureux qui honore les accords, ou un rival
+        administratif qui connaît les petites failles des
+        aventuriers.</p><p><em>Statut : PNJ original de la campagne. Repère
+        canonique du secteur : le contremaître Thazz’rill et les péons de la
+        Vallée.</em></p>
+    ownership:
+      default: 0
+    flags: {}
+    _id: sc2bMOdms3BoD97Y
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067360
+      modifiedTime: 1792435067360
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!l9wxwAypG0cLi9oT.sc2bMOdms3BoD97Y'
+  - name: 02 · Jouer ce péon
+    type: text
+    sort: 200000
+    text:
+      format: 1
+      content: >-
+        <h1>Interprétation et liens</h1><h2>Comment l’incarner</h2><p>S’adresse
+        aux PJ comme à des collègues à évaluer. Il note les manquements mais
+        respecte la constance et les promesses tenues.</p><h2>Ce qu’il sait,
+        croit et dissimule</h2><dl><dt><strong>Sait</strong></dt><dd>Les
+        présences, les horaires, les retards, les outils prêtés et les demandes
+        officielles du chantier.</dd><dt><strong>Croit</strong></dt><dd>Que
+        Mogra fomente une contestation pour obtenir un traitement de faveur ; il
+        sous-estime ses compétences et l’état de
+        Dorga.</dd><dt><strong>Cache</strong></dt><dd>Une partie de sa dureté
+        vient d’une dette de gratitude envers Thazz’rill, qui l’a aidé lorsqu’il
+        n’avait plus de travail.</dd></dl><h2>Son
+        entourage</h2><table><thead><tr><th>Personne</th><th>Relation
+        actuelle</th></tr></thead><tbody><tr><td>Thazz’rill</td><td>Le respecte
+        comme celui qui lui a donné une
+        chance.</td></tr><tr><td>Mogra</td><td>Sa rivale sur la manière
+        d’organiser les
+        travailleurs.</td></tr><tr><td>Grubnak</td><td>L’incarnation de ce qu’il
+        méprise.</td></tr><tr><td>Dorga</td><td>Il apprécie son travail sans
+        mesurer le coût humain.</td></tr></tbody></table><h2>Une phrase à
+        placer</h2><blockquote><p>« Il faut bien que quelqu’un travaille pendant
+        que vous discutez de justice. »</p></blockquote>
+    ownership:
+      default: 0
+    flags: {}
+    _id: 2qL57IEUdLAohWmo
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067360
+      modifiedTime: 1792435067360
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!l9wxwAypG0cLi9oT.2qL57IEUdLAohWmo'
+  - name: 03 · Scènes et réactions
+    type: text
+    sort: 300000
+    text:
+      format: 1
+      content: >-
+        <h1>Scènes et décisions</h1><h2>Trois occasions de jeu</h2><h3>Le
+        registre</h3><p>Il montre aux PJ ses comptes pour prouver qu’un péon
+        ment sur ses absences ; le registre est exact mais pas les raisons de
+        l’absence.</p><h3>Le mérite</h3><p>Il propose une compétition de
+        rendement dont le vainqueur recevra un outil ou la meilleure
+        affectation.</p><h3>Le témoin</h3><p>Un ami lui demande de taire une
+        faute mineure ; les PJ assistent à son hésitation avant de signaler
+        l’incident.</p><h2>Réactions à quelques choix des
+        PJ</h2><table><thead><tr><th>Approche des PJ</th><th>Réaction ou
+        conséquence</th></tr></thead><tbody><tr><td>Lui donner de l’autorité
+        sans contrôle</td><td>Il devient efficace mais dur, et accroît les
+        tensions avec Mogra.</td></tr><tr><td>L’humilier publiquement</td><td>Il
+        fait des PJ des adversaires personnels, même si leur critique est
+        fondée.</td></tr><tr><td>Lui confier un poste avec responsabilités
+        claires</td><td>Il peut apprendre à protéger son équipe autant qu’à la
+        faire travailler.</td></tr></tbody></table><h2>Si les PJ n’interviennent
+        pas</h2><p>Son influence grandit ; la productivité progresse un temps,
+        puis les ouvriers les plus compétents s’éloignent et les conflits
+        augmentent.</p><p><em>Ces scènes sont des opportunités, pas une suite de
+        quêtes imposées. Elles peuvent se résoudre sans jet de dés.</em></p>
+    ownership:
+      default: 0
+    flags: {}
+    _id: 5Tzkb1jVfmpiemEF
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067360
+      modifiedTime: 1792435067360
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!l9wxwAypG0cLi9oT.5Tzkb1jVfmpiemEF'
+  - name: 04 · Secrets et devenir (MJ)
+    type: text
+    sort: 400000
+    text:
+      format: 1
+      content: >-
+        <h1>MJ — Secrets et continuité</h1><h2>Vérité / point de
+        vigilance</h2><p>Il n’est pas secrètement corrompu. Il croit sincèrement
+        qu’une Horde fragile doit travailler dur. Ses fautes viennent de son
+        ambition et de sa peur, pas d’un complot.</p><h2>Ce que le PNJ ne dit
+        pas spontanément</h2><p>Une partie de sa dureté vient d’une dette de
+        gratitude envers Thazz’rill, qui l’a aidé lorsqu’il n’avait plus de
+        travail.</p><h2>Évolution envisageable</h2><p>Contremaître à
+        Tranchecolline ou Orgrimmar, selon sa trajectoire. Ses registres peuvent
+        contenir des informations précieuses ou compromettantes.</p><h2>Fil de
+        mémoire des PJ</h2><ul><li>Qui lui a parlé avec respect, et qui l’a
+        humilié ?</li><li>Quelle promesse les PJ ont-ils faite ?</li><li>Quelle
+        décision des PJ a réellement changé sa vie ?</li><li>Que demandera-t-il
+        aux PJ la prochaine fois qu’ils se croiseront ?</li></ul><h2>Continuité
+        ouverte</h2><p>Les événements ci-dessus sont des propositions. Les faits
+        établis pendant la partie priment sur cette préparation. L’amitié,
+        l’hostilité et le destin de ce péon ne sont pas décidés à l’avance.</p>
+    ownership:
+      default: 0
+    flags: {}
+    _id: FQ73dAJeaAPANP0v
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067360
+      modifiedTime: 1792435067360
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!l9wxwAypG0cLi9oT.FQ73dAJeaAPANP0v'
+folder: dv9pfMyi7rdDcUkj
+categories: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_id: l9wxwAypG0cLi9oT
+sort: 100000
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792435067360
+  modifiedTime: 1792435067360
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!l9wxwAypG0cLi9oT'

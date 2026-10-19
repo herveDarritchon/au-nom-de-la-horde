@@ -1,0 +1,20 @@
+type: JournalEntry
+folder: null
+name: Tarides
+color: null
+sorting: a
+_id: 2C14tKZNaxYFQ3AE
+description: ''
+sort: 800000
+flags: {}
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792435080659
+  modifiedTime: 1792435080676
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!2C14tKZNaxYFQ3AE'

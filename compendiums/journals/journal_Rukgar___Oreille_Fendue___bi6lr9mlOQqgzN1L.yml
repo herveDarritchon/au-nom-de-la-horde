@@ -1,0 +1,229 @@
+name: Rukgar « Oreille-Fendue »
+flags:
+  campaign-codex:
+    type: ''
+  core:
+    sheetClass: ''
+pages:
+  - name: 01 · Portrait et accroche
+    type: text
+    sort: 100000
+    text:
+      format: 1
+      content: >-
+        <h1>Rukgar « Oreille-Fendue »</h1><p><em>Adaptation Warbound · Vallée
+        des Épreuves · Journal MJ</em></p><blockquote><p>« J’ai entendu la roche
+        bouger. Vous pouvez rire. Moi, je n’y retourne pas.
+        »</p></blockquote><h2>En un
+        regard</h2><dl><dt><strong>Rôle</strong></dt><dd>Le réfractaire · peur /
+        témoignage</dd><dt><strong>Aspect</strong></dt><dd>Orc nerveux à
+        l’oreille déchirée. Il surveille les sorties, écoute le bruit des
+        galeries et évite de se placer sous les lourdes
+        poutres.</dd><dt><strong>Désir</strong></dt><dd>Ne plus être envoyé dans
+        une galerie qu’il estime dangereuse ; obtenir qu’un responsable prenne
+        ses observations au
+        sérieux.</dd><dt><strong>Crainte</strong></dt><dd>Être enseveli vivant
+        ou passer pour un lâche devant les nouvelles
+        recrues.</dd><dt><strong>Défaut</strong></dt><dd>Il devient agressif
+        sous la pression et est capable d’accuser injustement un
+        collègue.</dd></dl><h2>Première impression à la table</h2><p>Ne donne
+        pas sa confiance facilement. Il parle franchement à ceux qui l’écoutent
+        sans l’interrompre.</p><h2>Contact avec les PJ</h2><p>Un guide prudent
+        qui a besoin d’être cru mais peut rendre service aux aventuriers dans
+        les passages difficiles.</p><p><em>Statut : PNJ original de la campagne.
+        Repère canonique du secteur : le contremaître Thazz’rill et les péons de
+        la Vallée.</em></p>
+    ownership:
+      default: 0
+    flags: {}
+    _id: SCt5eZjaNjXRNnAn
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067357
+      modifiedTime: 1792435067357
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!bi6lr9mlOQqgzN1L.SCt5eZjaNjXRNnAn'
+  - name: 02 · Jouer ce péon
+    type: text
+    sort: 200000
+    text:
+      format: 1
+      content: >-
+        <h1>Interprétation et liens</h1><h2>Comment l’incarner</h2><p>Ne donne
+        pas sa confiance facilement. Il parle franchement à ceux qui l’écoutent
+        sans l’interrompre.</p><h2>Ce qu’il sait, croit et
+        dissimule</h2><dl><dt><strong>Sait</strong></dt><dd>Un chemin vers
+        l’Antre, l’état de certains étais, les bruits et les mouvements
+        ressentis avant un récent
+        éboulement.</dd><dt><strong>Croit</strong></dt><dd>Que les coups
+        entendus avant la chute annonçaient un danger inhabituel ; il ne sait
+        pas ce qui les provoquait.</dd><dt><strong>Cache</strong></dt><dd>Il a
+        omis de signaler une petite fissure avant son dernier départ, de peur de
+        prolonger son quart.</dd></dl><h2>Son
+        entourage</h2><table><thead><tr><th>Personne</th><th>Relation
+        actuelle</th></tr></thead><tbody><tr><td>Mogra</td><td>Reconnaît sa
+        compétence en construction ; ils sont en désaccord sur la conduite à
+        tenir.</td></tr><tr><td>Thazz’rill</td><td>Le contremaître doute de son
+        témoignage.</td></tr><tr><td>Kragosh</td><td>Le traite comme un mauvais
+        exemple.</td></tr><tr><td>Dorga</td><td>Compatit sans pouvoir le
+        défendre ouvertement.</td></tr></tbody></table><h2>Une phrase à
+        placer</h2><blockquote><p>« J’ai entendu la roche bouger. Vous pouvez
+        rire. Moi, je n’y retourne pas. »</p></blockquote>
+    ownership:
+      default: 0
+    flags: {}
+    _id: 0UVFxrI1Am9ZlTrZ
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067357
+      modifiedTime: 1792435067357
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!bi6lr9mlOQqgzN1L.0UVFxrI1Am9ZlTrZ'
+  - name: 03 · Scènes et réactions
+    type: text
+    sort: 300000
+    text:
+      format: 1
+      content: >-
+        <h1>Scènes et décisions</h1><h2>Trois occasions de jeu</h2><h3>Le
+        refus</h3><p>Au moment d’entrer dans la galerie, Rukgar pose sa pioche
+        et refuse l’ordre devant tout le monde.</p><h3>Des coups dans la
+        pierre</h3><p>Les PJ peuvent l’accompagner pour inspecter la zone,
+        regarder les étais, écouter et se faire une
+        opinion.</p><h3>L’accusation</h3><p>Sous pression, Rukgar accuse un
+        collègue de sabotage sans preuve solide. Les PJ doivent distinguer ses
+        craintes des faits.</p><h2>Réactions à quelques choix des
+        PJ</h2><table><thead><tr><th>Approche des PJ</th><th>Réaction ou
+        conséquence</th></tr></thead><tbody><tr><td>Le forcer à retourner sous
+        terre</td><td>Il obéit peut-être, mais panique ou quitte le chantier ;
+        sa confiance est détruite.</td></tr><tr><td>Examiner le
+        risque</td><td>Des étais mal placés peuvent expliquer une part du danger
+        ; sa peur n’est pas feinte, même s’il n’a pas raison sur
+        tout.</td></tr><tr><td>Le réaffecter provisoirement</td><td>Un conflit
+        se déplace vers Kragosh, qui réclame la même rigueur pour les
+        autres.</td></tr></tbody></table><h2>Si les PJ n’interviennent
+        pas</h2><p>Thazz’rill envoie d’autres péons ; un étai mal fixé provoque
+        une frayeur ou un accident, sans nécessairement confirmer toute
+        l’interprétation de Rukgar.</p><p><em>Ces scènes sont des opportunités,
+        pas une suite de quêtes imposées. Elles peuvent se résoudre sans jet de
+        dés.</em></p>
+    ownership:
+      default: 0
+    flags: {}
+    _id: m4wBzyYxBeMv9AfU
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067357
+      modifiedTime: 1792435067357
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!bi6lr9mlOQqgzN1L.m4wBzyYxBeMv9AfU'
+  - name: 04 · Secrets et devenir (MJ)
+    type: text
+    sort: 400000
+    text:
+      format: 1
+      content: >-
+        <h1>MJ — Secrets et continuité</h1><h2>Vérité / point de
+        vigilance</h2><p>Proposition de vérité locale : les étais étaient mal
+        posés et les bruits venaient d’une cavité fréquentée par des scorpides.
+        Ne l’associe pas automatiquement à la grande intrigue des profondeurs
+        d’Orgrimmar.</p><h2>Ce que le PNJ ne dit pas spontanément</h2><p>Il a
+        omis de signaler une petite fissure avant son dernier départ, de peur de
+        prolonger son quart.</p><h2>Évolution envisageable</h2><p>Pisteur,
+        prospecteur ou guide à Tranchecolline. Il respecte les héros qui savent
+        dire « je ne sais pas » ou « j’ai peur ».</p><h2>Fil de mémoire des
+        PJ</h2><ul><li>Qui lui a parlé avec respect, et qui l’a humilié
+        ?</li><li>Quelle promesse les PJ ont-ils faite ?</li><li>Quelle décision
+        des PJ a réellement changé sa vie ?</li><li>Que demandera-t-il aux PJ la
+        prochaine fois qu’ils se croiseront ?</li></ul><h2>Continuité
+        ouverte</h2><p>Les événements ci-dessus sont des propositions. Les faits
+        établis pendant la partie priment sur cette préparation. L’amitié,
+        l’hostilité et le destin de ce péon ne sont pas décidés à l’avance.</p>
+    ownership:
+      default: 0
+    flags: {}
+    _id: nAw7bcmYzyXUVnjt
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067357
+      modifiedTime: 1792435067357
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!bi6lr9mlOQqgzN1L.nAw7bcmYzyXUVnjt'
+folder: dv9pfMyi7rdDcUkj
+categories: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_id: bi6lr9mlOQqgzN1L
+sort: 50000
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792435067357
+  modifiedTime: 1792435067357
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!bi6lr9mlOQqgzN1L'

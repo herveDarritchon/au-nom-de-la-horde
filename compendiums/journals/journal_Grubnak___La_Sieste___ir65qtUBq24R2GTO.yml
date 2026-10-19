@@ -1,0 +1,232 @@
+name: Grubnak « La Sieste »
+flags:
+  campaign-codex:
+    type: ''
+  core:
+    sheetClass: ''
+pages:
+  - name: 01 · Portrait et accroche
+    type: text
+    sort: 100000
+    text:
+      format: 1
+      content: >-
+        <h1>Grubnak « La Sieste »</h1><p><em>Adaptation Warbound · Vallée des
+        Épreuves · Journal MJ</em></p><blockquote><p>« Si un boulot demande
+        trois péons, c’est sûrement parce que deux ne savent pas se débrouiller.
+        »</p></blockquote><h2>En un
+        regard</h2><dl><dt><strong>Rôle</strong></dt><dd>Le vrai paresseux ·
+        comique / opportuniste</dd><dt><strong>Aspect</strong></dt><dd>Petit orc
+        ventru, dent inférieure cassée. Une pelle traîne toujours près de lui,
+        souvent intacte. Il choisit les endroits ombragés avec un talent
+        remarquable.</dd><dt><strong>Désir</strong></dt><dd>Des repas chauds,
+        peu d’efforts et la liberté de vivre à son rythme. Il aimerait à terme
+        tenir un petit commerce de combines et de
+        paris.</dd><dt><strong>Crainte</strong></dt><dd>Qu’on le force à assumer
+        durablement ses engagements et qu’on lui retire la convivialité du
+        camp.</dd><dt><strong>Défaut</strong></dt><dd>Il laisse délibérément sa
+        part de travail aux autres, notamment à Dorga. Sa drôlerie ne supprime
+        pas le tort qu’il cause.</dd></dl><h2>Première impression à la
+        table</h2><p>Il adore jouer avec les PJ, les flatter et leur raconter
+        une histoire trop belle. Quand il est pris en faute, il fait d’abord une
+        plaisanterie, puis négocie.</p><h2>Contact avec les PJ</h2><p>Une dette,
+        une soirée de jeu, une bonne blague commune ou une trahison mineure dont
+        les PJ se souviendront.</p><p><em>Statut : PNJ original de la campagne.
+        Repère canonique du secteur : le contremaître Thazz’rill et les péons de
+        la Vallée.</em></p>
+    ownership:
+      default: 0
+    flags: {}
+    _id: 1Am0Uaf2ahwDf76E
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067358
+      modifiedTime: 1792435067358
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!ir65qtUBq24R2GTO.1Am0Uaf2ahwDf76E'
+  - name: 02 · Jouer ce péon
+    type: text
+    sort: 200000
+    text:
+      format: 1
+      content: >-
+        <h1>Interprétation et liens</h1><h2>Comment l’incarner</h2><p>Il adore
+        jouer avec les PJ, les flatter et leur raconter une histoire trop belle.
+        Quand il est pris en faute, il fait d’abord une plaisanterie, puis
+        négocie.</p><h2>Ce qu’il sait, croit et
+        dissimule</h2><dl><dt><strong>Sait</strong></dt><dd>Les horaires du
+        chantier, les lieux où se cacher, les habitudes de Kragosh et les
+        petites dettes entre travailleurs. Il n’a pas de vérité secrète sur le
+        fil rouge.</dd><dt><strong>Croit</strong></dt><dd>Qu’un individu
+        débrouillard peut se tirer de n’importe quelle situation en
+        plaisantant.</dd><dt><strong>Cache</strong></dt><dd>Il a laissé Dorga
+        terminer plusieurs corvées à sa place. Brakka lui accorde régulièrement
+        des repas non réglés.</dd></dl><h2>Son
+        entourage</h2><table><thead><tr><th>Personne</th><th>Relation
+        actuelle</th></tr></thead><tbody><tr><td>Dorga</td><td>Profite de sa
+        conscience professionnelle ; elle commence à lui en
+        vouloir.</td></tr><tr><td>Brakka</td><td>Vieille amie, le nourrit
+        parfois et le défend trop.</td></tr><tr><td>Kragosh</td><td>Rivalité
+        ouverte : accusations, provocations et mauvais
+        tours.</td></tr><tr><td>Zugmog</td><td>Lui apprend surtout l’art de ne
+        pas se faire prendre.</td></tr></tbody></table><h2>Une phrase à
+        placer</h2><blockquote><p>« Si un boulot demande trois péons, c’est
+        sûrement parce que deux ne savent pas se débrouiller. »</p></blockquote>
+    ownership:
+      default: 0
+    flags: {}
+    _id: v2sBxNimiw9vI51N
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067358
+      modifiedTime: 1792435067358
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!ir65qtUBq24R2GTO.v2sBxNimiw9vI51N'
+  - name: 03 · Scènes et réactions
+    type: text
+    sort: 300000
+    text:
+      format: 1
+      content: >-
+        <h1>Scènes et décisions</h1><h2>Trois occasions de jeu</h2><h3>La
+        charrette oubliée</h3><p>Il demande aux PJ de pousser une charrette à sa
+        place en promettant de payer leur prochain repas. Dorga apparaît et
+        reconnaît sa corvée.</p><h3>L’ogre et la pelle</h3><p>Au dîner, il
+        affirme avoir vaincu un ogre. Il se contredit si un PJ lui demande des
+        détails ; il peut néanmoins faire rire toute la tablée.</p><h3>Le pari
+        de trop</h3><p>Il lance un concours de vitesse entre deux équipes et
+        parie les quelques outils qu’il était censé rapporter.</p><h2>Réactions
+        à quelques choix des PJ</h2><table><thead><tr><th>Approche des
+        PJ</th><th>Réaction ou conséquence</th></tr></thead><tbody><tr><td>Le
+        dénoncer</td><td>Thazz’rill serre la discipline ; Kragosh se félicite.
+        Dorga récupère du temps mais Grubnak gardera rancune s’il a été
+        humilié.</td></tr><tr><td>Faire son travail</td><td>Grubnak remercie
+        puis recommence, sauf si les PJ imposent une contrepartie
+        claire.</td></tr><tr><td>Lui trouver un rôle utile</td><td>Ses talents
+        de bavard peuvent servir à négocier ou organiser les repas ; il devra
+        prouver sa fiabilité sur une tâche
+        concrète.</td></tr></tbody></table><h2>Si les PJ n’interviennent
+        pas</h2><p>Continue à se reposer sur Dorga, finit publiquement pris en
+        défaut par Kragosh ; Brakka essaie d’éviter qu’il soit chassé du
+        camp.</p><p><em>Ces scènes sont des opportunités, pas une suite de
+        quêtes imposées. Elles peuvent se résoudre sans jet de dés.</em></p>
+    ownership:
+      default: 0
+    flags: {}
+    _id: 01c1bEoGpqfQ0ahZ
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067358
+      modifiedTime: 1792435067358
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!ir65qtUBq24R2GTO.01c1bEoGpqfQ0ahZ'
+  - name: 04 · Secrets et devenir (MJ)
+    type: text
+    sort: 400000
+    text:
+      format: 1
+      content: >-
+        <h1>MJ — Secrets et continuité</h1><h2>Vérité / point de
+        vigilance</h2><p>Ce n’est pas un brave homme mystérieusement incompris :
+        il choisit souvent la facilité. Le rendre sympathique ne doit pas
+        effacer ses responsabilités.</p><h2>Ce que le PNJ ne dit pas
+        spontanément</h2><p>Il a laissé Dorga terminer plusieurs corvées à sa
+        place. Brakka lui accorde régulièrement des repas non
+        réglés.</p><h2>Évolution envisageable</h2><p>À Tranchecolline, il peut
+        organiser des paris ou une petite échoppe. Il se souvient de tout
+        service et de toute humiliation.</p><h2>Fil de mémoire des
+        PJ</h2><ul><li>Qui lui a parlé avec respect, et qui l’a humilié
+        ?</li><li>Quelle promesse les PJ ont-ils faite ?</li><li>Quelle décision
+        des PJ a réellement changé sa vie ?</li><li>Que demandera-t-il aux PJ la
+        prochaine fois qu’ils se croiseront ?</li></ul><h2>Continuité
+        ouverte</h2><p>Les événements ci-dessus sont des propositions. Les faits
+        établis pendant la partie priment sur cette préparation. L’amitié,
+        l’hostilité et le destin de ce péon ne sont pas décidés à l’avance.</p>
+    ownership:
+      default: 0
+    flags: {}
+    _id: u9EtE6QLEm4zX0V0
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067358
+      modifiedTime: 1792435067358
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!ir65qtUBq24R2GTO.u9EtE6QLEm4zX0V0'
+folder: dv9pfMyi7rdDcUkj
+categories: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_id: ir65qtUBq24R2GTO
+sort: 150000
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792435067358
+  modifiedTime: 1792435067358
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!ir65qtUBq24R2GTO'

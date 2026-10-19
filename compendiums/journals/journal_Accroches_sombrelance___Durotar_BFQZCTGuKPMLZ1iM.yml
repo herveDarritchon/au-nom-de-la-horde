@@ -1,0 +1,2580 @@
+name: Accroches sombrelance — Durotar
+folder: WO1UdYnBW8r47e2K
+flags:
+  warbound-campaign-content:
+    markdownImport:
+      schema: 1
+      collectionId: durotar-sombrelance-hooks
+pages:
+  - name: Contexte
+    type: text
+    sort: 0
+    text:
+      content: >-
+        <h1>Accroches sombrelance — Durotar</h1>
+
+        <h2>En bref</h2>
+
+        <p>Les Sombrelance constituent une couche vivante du sandbox de Durotar
+        plutôt qu’une campagne secondaire isolée. Sen’jin est relié
+        naturellement aux Îles de l’Écho, aux routes côtières, aux ressources
+        rares du sud, aux Kolkar et aux autres communautés de la Horde. Les
+        situations proposées ici doivent pouvoir apparaître pendant que les PJ
+        poursuivent d’autres objectifs et continuer d’évoluer s’ils les
+        ignorent. :chatgpt-content-reference{index="0"}</p>
+
+        <p>Le principal noyau narratif disponible dans les sources concerne
+        Zalazane, les Sombrelance sous emprise et la relation inachevée de la
+        communauté avec les Îles de l’Écho. Autour de ce noyau s’ajoutent des
+        problèmes beaucoup plus ordinaires : eau, chasse, familles, dettes,
+        voyageurs, traditions, relations avec les Orcs ou mémoire de
+        Strangleronce. :chatgpt-content-reference{index="1"}</p>
+
+        <h2>Identité</h2>
+
+        <p>Sen’jin raconte une autre facette du thème central de Durotar.</p>
+
+        <p>À Razor Hill, la Horde bâtit une nouvelle terre.</p>
+
+        <p>À Sen’jin, les Sombrelance bâtissent également cette nouvelle terre
+        alors que leur ancien foyer proche reste en partie inaccessible.</p>
+
+        <p>Cette tension permet de faire exister simultanément :</p>
+
+        <ul><li>l’appartenance à la Horde ;</li><li>les priorités particulières
+        des Sombrelance ;</li><li>la mémoire des exils ;</li><li>la pression de
+        Zalazane ;</li><li>les traditions spirituelles ;</li><li>la nécessité
+        très concrète de vivre dans une région pauvre.</li></ul>
+
+        <h2>Histoire utile</h2>
+
+        <p>Les éléments nécessaires pour jouer ces accroches sont simples :</p>
+
+        <ul><li>Sen’jin constitue l’ancrage sombrelance du sud de Durotar
+        ;</li><li>les Îles de l’Écho restent liées à Zalazane ;</li><li>certains
+        trolls sous son contrôle ne sont pas des adversaires volontaires
+        ;</li><li>la pression Kolkar menace également les ressources et les
+        routes du sud ;</li><li>les Sombrelance portent avec eux une histoire
+        plus ancienne liée aux terres trolls de l’est.</li></ul>
+
+        <p>Il n’est pas nécessaire de transformer tous ces éléments en une même
+        intrigue.</p>
+
+        <h2>Territoire et lieux importants</h2>
+
+        <p><strong>Sen’jin</strong> sert de hub social et de point de
+        retour.</p>
+
+        <p><strong>Les Îles de l’Écho</strong> offrent exploration,
+        infiltration, sauvetage et situations liées à Zalazane.</p>
+
+        <p><strong>La côte sud</strong> permet de faire entrer pêcheurs, épaves,
+        étrangers et relations avec Tiragarde.</p>
+
+        <p><strong>Les pistes de chasse</strong> mettent en jeu Kolkar,
+        ressources et sanctuaires.</p>
+
+        <p><strong>Razor Hill</strong> reste suffisamment proche pour que les
+        choix faits au sud puissent affecter les relations avec les Orcs et la
+        logistique de la Horde.</p>
+
+        <h2>Population et organisation</h2>
+
+        <p>Les accroches utilisent surtout des rôles plutôt qu’une multitude de
+        PNJ nommés :</p>
+
+        <ul><li>anciens ;</li><li>pêcheurs ;</li><li>chasseurs
+        ;</li><li>familles de disparus ;</li><li>jeunes volontaires
+        ;</li><li>chamans et gardiens de sanctuaires ;</li><li>patrouilles de la
+        Horde ;</li><li>voyageurs ;</li><li>étrangers trolls ;</li><li>habitants
+        de Razor Hill.</li></ul>
+
+        <p>Un nom n’est nécessaire que lorsqu’un personnage devient réellement
+        important à la table.</p>
+
+        <h2>Personnalités importantes</h2>
+
+        <p><strong>Vol’jin — figure majeure des Sombrelance —</strong> son
+        autorité ou son nom peuvent être invoqués par d’autres, y compris sans
+        qu’il ait personnellement donné d’ordre.</p>
+
+        <p><strong>Zalazane — menace des Îles de l’Écho —</strong> son influence
+        crée des captifs, des peurs et des divisions sans devoir expliquer tous
+        les problèmes du sud.</p>
+
+        <p><strong>Maître Gadrin — figure de savoir —</strong> ses recherches
+        peuvent ouvrir des perspectives au-delà de Durotar.</p>
+
+        <p><strong>Minshina — figure liée aux traditions et à l’arc des Îles
+        —</strong> son souvenir et les objets qui lui sont associés peuvent
+        servir de point d’entrée vers l’histoire de Zalazane.</p>
+
+        <h2>Relations</h2>
+
+        <p>Les Sombrelance et les Orcs appartiennent au même ensemble politique,
+        mais cela n’efface pas les conflits pratiques.</p>
+
+        <p>Une ressource rare peut être disputée.</p>
+
+        <p>Une priorité militaire peut être différente.</p>
+
+        <p>Une tradition peut être mal comprise.</p>
+
+        <p>Ces désaccords doivent rester des situations concrètes plutôt qu’une
+        hostilité artificielle entre peuples.</p>
+
+        <p>Les Kolkar représentent une pression indépendante de Zalazane.</p>
+
+        <p>Les trolls venus de Strangleronce peuvent réveiller des identités et
+        obligations antérieures à la Horde.</p>
+
+        <h2>Tensions actuelles</h2>
+
+        <p>Les accroches reposent principalement sur :</p>
+
+        <ul><li>le sort des captifs de Zalazane ;</li><li>l’impatience face à
+        l’inaction autour des Îles ;</li><li>les ressources limitées
+        ;</li><li>la pression Kolkar ;</li><li>les traditions spirituelles
+        ;</li><li>les familles séparées ;</li><li>les visiteurs étrangers
+        ;</li><li>la mémoire de Strangleronce ;</li><li>l’équilibre entre
+        nouveau foyer et ancien héritage.</li></ul>
+
+        <h2>Secrets et zones d’ombre</h2>
+
+        <h3>Canon / établi dans les sources fournies</h3>
+
+        <p>Le matériau fourni établit l’existence de Zalazane, de Sombrelance
+        placés sous son emprise, de la pression Kolkar et de l’importance de
+        Sen’jin et des Îles de l’Écho dans le sud de Durotar.</p>
+
+        <h3>Déduction raisonnable</h3>
+
+        <p>Une communauté confrontée à des proches captifs, à un territoire
+        difficile et à plusieurs exils peut produire :</p>
+
+        <ul><li>volontaires impatients ;</li><li>familles divisées
+        ;</li><li>débats sur le retour ;</li><li>conflits sur les ressources
+        ;</li><li>obligations anciennes ;</li><li>récits et traditions
+        contradictoires.</li></ul>
+
+        <h3>Adaptation de campagne</h3>
+
+        <p>Les situations précises ci-dessous — prisonnier étranger, sanctuaire
+        déplacé, bateau échoué, point d’eau contesté, expéditions clandestines,
+        survivants cachés ou phénomènes spirituels — sont des créations
+        destinées à produire du jeu.</p>
+
+        <h2>Ce qu’un voyageur remarque</h2>
+
+        <ul><li>Les Îles restent toujours présentes à l’horizon de
+        Sen’jin.</li><li>Les pêcheurs regardent la mer autant que leurs
+        filets.</li><li>Les jeunes parlent plus facilement de reprendre les Îles
+        que les anciens.</li><li>Les chasseurs connaissent précisément les
+        points d’eau et leurs usages.</li><li>Certaines conversations sur
+        Zalazane deviennent brusquement personnelles.</li><li>Les rites et
+        petits sanctuaires existent au milieu des activités
+        quotidiennes.</li><li>Les Orcs et les Trolls coopèrent constamment sans
+        nécessairement partager toutes les mêmes priorités.</li><li>Les
+        histoires venues de Strangleronce attirent immédiatement l’attention de
+        certains Sombrelance.</li></ul>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sombrelance-hooks
+          entryId: context
+          sourceHash: f1de1cf0
+    _id: MTPVTifCOhPysC7A
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435071594
+      modifiedTime: 1792435071594
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!BFQZCTGuKPMLZ1iM.MTPVTifCOhPysC7A'
+  - name: Le pêcheur revenu deux fois
+    type: text
+    sort: 100000
+    text:
+      content: >-
+        <h2>Le pêcheur revenu deux fois</h2>
+
+        <h3>Situation</h3>
+
+        <p>Un pêcheur sombrelance disparu depuis plusieurs jours revient seul à
+        Sen’jin.</p>
+
+        <p>Quelques heures plus tard, une patrouille arrivant par la côte
+        affirme avoir retrouvé son cadavre.</p>
+
+        <p>Les deux événements sont suffisamment proches pour rendre impossible
+        une explication confortable.</p>
+
+        <h3>Qui ?</h3>
+
+        <p><strong>Le pêcheur revenu</strong> veut retrouver les siens et
+        comprendre pourquoi tout le monde le regarde comme une menace.</p>
+
+        <p><strong>Sa famille</strong> veut croire qu’il est bien celui qu’il
+        prétend être.</p>
+
+        <p><strong>La patrouille</strong> veut que quelqu’un identifie le corps
+        avant qu’il se décompose.</p>
+
+        <p><strong>Les habitants les plus inquiets</strong> craignent une
+        manipulation liée aux Îles.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p>La source ne définit pas la réponse.</p>
+
+        <p><strong>Adaptation de campagne.</strong></p>
+
+        <p>Le corps et le survivant peuvent tous deux être réels sans nécessiter
+        un double magique : erreur d’identification, parent ressemblant au
+        disparu, corps défiguré, mensonge sincère ou événement lié aux pratiques
+        de Zalazane.</p>
+
+        <p>Le MJ peut choisir l’explication seulement lorsqu’elle devient
+        nécessaire.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>Le pêcheur a disparu quelques jours auparavant.</p>
+
+        <p>Son retour et la découverte du corps se produisent le même jour.</p>
+
+        <p>Si personne ne vérifie rapidement, le corps devient plus difficile à
+        identifier.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Sen’jin pour le survivant.</p>
+
+        <p>Une portion isolée de la côte pour le cadavre.</p>
+
+        <p>Les derniers lieux où le pêcheur a réellement été vu peuvent
+        constituer un troisième site.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>La puissance de la situation vient de deux témoignages crédibles qui
+        semblent incompatibles.</p>
+
+        <p>Les expériences liées à Zalazane rendent immédiatement plausible une
+        explication surnaturelle, même si elle n’est pas nécessairement
+        correcte.</p>
+
+        <h3>Portes d'entrée</h3>
+
+        <ul><li>Les PJ assistent au retour du pêcheur.</li><li>La patrouille
+        demande simplement quelqu’un connaissant l’homme pour identifier le
+        corps.</li><li>Une dispute éclate devant la famille lorsqu’un habitant
+        accuse le survivant d’être un imposteur.</li></ul>
+
+        <h3>Approches possibles</h3>
+
+        <p>Interroger séparément les témoins, inspecter le corps, retracer le
+        trajet du survivant, rechercher son embarcation, attendre de voir si son
+        comportement devient anormal ou refuser de participer à la panique.</p>
+
+        <h3>Complication</h3>
+
+        <p>Le survivant connaît un détail familial intime que personne
+        d’extérieur ne devrait connaître.</p>
+
+        <p>Le cadavre porte pourtant également un objet personnel qui lui
+        appartenait.</p>
+
+        <h3>Si les PJ ne font rien</h3>
+
+        <p>La famille protège le survivant.</p>
+
+        <p>Une partie de Sen’jin commence à l’éviter.</p>
+
+        <p>Le corps est finalement enterré sans certitude et l’affaire devient
+        une histoire que chacun raconte différemment.</p>
+
+        <h3>Conséquences possibles</h3>
+
+        <p>Les PJ peuvent restaurer la confiance envers le survivant, révéler
+        une seconde identité, découvrir une piste vers les Îles ou simplement
+        démontrer que la communauté s’est emballée sans disposer des faits.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sombrelance-hooks
+          entryId: pecheur-revenu-deux-fois
+          sourceHash: ec5838f5
+    _id: JPs5iCVLCzd15Hx7
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435071594
+      modifiedTime: 1792435071594
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!BFQZCTGuKPMLZ1iM.JPs5iCVLCzd15Hx7'
+  - name: Ceux qu’on ne doit pas tuer
+    type: text
+    sort: 200000
+    text:
+      content: >-
+        <h2>Ceux qu’on ne doit pas tuer</h2>
+
+        <h3>Situation</h3>
+
+        <p>Une petite pirogue arrive de nuit depuis les Îles de l’Écho avec
+        trois Sombrelance épuisés.</p>
+
+        <p>Deux supplient qu’on les aide.</p>
+
+        <p>Le troisième attaque brutalement quiconque approche.</p>
+
+        <h3>Qui ?</h3>
+
+        <p><strong>Les deux fugitifs libres</strong> veulent mettre leur
+        compagnon en sécurité sans le tuer.</p>
+
+        <p><strong>Le captif sous emprise</strong> agit contre sa volonté.</p>
+
+        <p><strong>Les gardes de Sen’jin</strong> veulent empêcher qu’un
+        individu dangereux entre dans le village.</p>
+
+        <p><strong>Une famille locale</strong> peut reconnaître le captif comme
+        un proche disparu.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p>Le troisième troll est encore sous l’influence de Zalazane.</p>
+
+        <p>Il n’est pas venu volontairement attaquer Sen’jin.</p>
+
+        <p>Les deux autres ont réussi à l’emmener parce qu’ils espéraient qu’une
+        fois loin des Îles quelqu’un saurait le libérer.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>Les fugitifs viennent de réussir leur évasion.</p>
+
+        <p>Ils savent que leur disparition peut être remarquée rapidement.</p>
+
+        <h3>Où ?</h3>
+
+        <p>La scène commence sur la plage ou à proximité de Sen’jin.</p>
+
+        <p>Les informations qu’ils transportent concernent les Îles de
+        l’Écho.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Les fugitifs ont préféré prendre le risque d’emporter leur compagnon
+        plutôt que l’abandonner à Zalazane.</p>
+
+        <p>Les gardes, eux, voient d’abord un individu violent représentant un
+        danger immédiat.</p>
+
+        <h3>Portes d'entrée</h3>
+
+        <ul><li>Les PJ assistent à l’arrivée de la pirogue.</li><li>Un garde les
+        appelle lorsqu’il reconnaît un PJ capable de maîtriser quelqu’un sans le
+        tuer.</li><li>Les cris réveillent une partie du village.</li></ul>
+
+        <h3>Approches possibles</h3>
+
+        <p>Immobiliser le captif, tenter de communiquer, utiliser des moyens
+        spirituels ou magiques, interroger les fugitifs, isoler l’individu,
+        chercher une personne ayant déjà vu ce type d’emprise.</p>
+
+        <h3>Complication</h3>
+
+        <p>Les fugitifs affirment que d’autres captifs peuvent encore être
+        sauvés.</p>
+
+        <p>Mais ils refusent de révéler immédiatement où ils se cachent, de peur
+        que l’information ne remonte jusqu’à Zalazane.</p>
+
+        <h3>Si les PJ ne font rien</h3>
+
+        <p>Les gardes finissent par maîtriser le captif par la force.</p>
+
+        <p>Il peut survivre, mais l’épisode renforce l’idée qu’il est plus sûr
+        de tuer les serviteurs de Zalazane que de tenter de les libérer.</p>
+
+        <h3>Conséquences possibles</h3>
+
+        <p>Cette scène peut modifier durablement la manière dont les PJ abordent
+        les trolls des Îles, créer un contact parmi les fugitifs ou révéler
+        qu’une approche non létale peut ouvrir des possibilités que le combat
+        fermerait.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sombrelance-hooks
+          entryId: ceux-qu-on-ne-doit-pas-tuer
+          sourceHash: cbadd0d7
+    _id: yAqXKCwzjZ8CWhG9
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435071594
+      modifiedTime: 1792435071594
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!BFQZCTGuKPMLZ1iM.yAqXKCwzjZ8CWhG9'
+  - name: Le tambour des Îles
+    type: text
+    sort: 300000
+    text:
+      content: >-
+        <h2>Le tambour des Îles</h2>
+
+        <h3>Situation</h3>
+
+        <p>Depuis trois nuits, un tambour résonne au large.</p>
+
+        <p>Les anciens reconnaissent un ancien rythme sombrelance associé à un
+        rassemblement.</p>
+
+        <p>Quelqu’un répond depuis les environs de Sen’jin.</p>
+
+        <h3>Qui ?</h3>
+
+        <p><strong>Les anciens</strong> veulent comprendre qui utilise un signal
+        connu.</p>
+
+        <p><strong>La personne qui répond</strong> veut conserver son
+        anonymat.</p>
+
+        <p><strong>L’émetteur des Îles</strong> cherche manifestement à obtenir
+        une réaction.</p>
+
+        <p><strong>Les habitants</strong> projettent leurs propres espoirs et
+        peurs sur les sons.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p><strong>Adaptation de campagne.</strong></p>
+
+        <p>Les signaux sont réellement intentionnels.</p>
+
+        <p>La personne de Sen’jin possède une raison personnelle de répondre :
+        parent resté sur les Îles, ancien contact ou tentative discrète de
+        confirmer qu’un groupe libre existe encore.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>Le phénomène a commencé trois nuits auparavant.</p>
+
+        <p>Le rythme est envoyé peu après la tombée de la nuit.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Sen’jin et la côte pour la réponse.</p>
+
+        <p>Une portion des Îles pour le signal initial.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Le tambour permet de communiquer sans envoyer immédiatement une
+        embarcation.</p>
+
+        <p>Le secret protège également ceux qui émettent le signal.</p>
+
+        <h3>Portes d'entrée</h3>
+
+        <ul><li>Les PJ entendent eux-mêmes le tambour.</li><li>Un ancien leur
+        explique sa signification.</li><li>Ils surprennent quelqu’un quittant
+        discrètement Sen’jin avec un petit tambour.</li></ul>
+
+        <h3>Approches possibles</h3>
+
+        <p>Observer, répondre au signal, suivre la personne de Sen’jin,
+        attendre, interroger les anciens ou tenter une traversée discrète.</p>
+
+        <h3>Complication</h3>
+
+        <p>Le rythme utilisé est ancien et plusieurs interprétations de sa
+        signification existent.</p>
+
+        <p>Les PJ peuvent parfaitement comprendre qu’il s’agit d’un appel sans
+        savoir exactement ce que l’appel demande.</p>
+
+        <h3>Si les PJ ne font rien</h3>
+
+        <p>Les échanges continuent quelques nuits puis cessent.</p>
+
+        <p>Personne ne sait si l’arrêt signifie que le contact a réussi ou que
+        l’émetteur a été découvert.</p>
+
+        <h3>Conséquences possibles</h3>
+
+        <p>Les PJ peuvent établir un nouveau canal vers les Îles, exposer
+        involontairement les émetteurs, apprendre l’existence de survivants ou
+        simplement comprendre qu’une activité indépendante de Zalazane persiste
+        là-bas.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sombrelance-hooks
+          entryId: tambour-des-iles
+          sourceHash: baabd032
+    _id: lKwZRsNkUmsY1xea
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435071594
+      modifiedTime: 1792435071594
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!BFQZCTGuKPMLZ1iM.lKwZRsNkUmsY1xea'
+  - name: La dette de Sen’jin
+    type: text
+    sort: 400000
+    text:
+      content: >-
+        <h2>La dette de Sen’jin</h2>
+
+        <h3>Situation</h3>
+
+        <p>Un ancien guerrier affirme que son père avait promis assistance à une
+        famille désormais coincée sur les Îles.</p>
+
+        <p>La promesse n’a aucune force officielle.</p>
+
+        <p>Pour lui, cela ne change rien.</p>
+
+        <h3>Qui ?</h3>
+
+        <p><strong>L’ancien guerrier</strong> veut honorer la parole
+        familiale.</p>
+
+        <p><strong>Ses proches</strong> craignent qu’il se lance lui-même dans
+        une expédition impossible.</p>
+
+        <p><strong>La famille des Îles</strong> peut encore être vivante,
+        dispersée ou sous emprise.</p>
+
+        <p><strong>Les anciens de Sen’jin</strong> ne sont pas nécessairement
+        d’accord sur ce que vaut aujourd’hui cette promesse.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p><strong>Adaptation de campagne.</strong></p>
+
+        <p>La dette est authentique mais ancienne.</p>
+
+        <p>Elle peut porter sur une personne, une urne, un masque, une arme
+        familiale ou la simple obligation de vérifier ce qu’est devenue la
+        famille concernée.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>L’ancien agit maintenant parce qu’un récent témoignage laisse penser
+        que quelqu’un de cette famille est encore vivant.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Sen’jin pour les témoignages.</p>
+
+        <p>Les Îles de l’Écho pour la vérification éventuelle.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Pour l’ancien, la construction d’un nouveau foyer ne permet pas
+        d’effacer les obligations contractées avant l’exil.</p>
+
+        <h3>Portes d'entrée</h3>
+
+        <ul><li>Les PJ entendent une dispute familiale.</li><li>L’ancien cherche
+        une embarcation plutôt que des aventuriers.</li><li>Un pêcheur affirme
+        avoir reconnu un symbole familial sur une île.</li></ul>
+
+        <h3>Approches possibles</h3>
+
+        <p>Vérifier d’abord les témoignages, accompagner l’ancien, convaincre
+        quelqu’un d’autre de prendre la relève, établir un contact depuis la
+        côte ou considérer que la dette ne concerne pas les PJ.</p>
+
+        <h3>Complication</h3>
+
+        <p>Les personnes recherchées peuvent ne pas vouloir être « sauvées »
+        immédiatement.</p>
+
+        <p>Elles peuvent protéger d’autres captifs et refuser de partir tant
+        qu’ils ne le peuvent pas eux aussi.</p>
+
+        <h3>Si les PJ ne font rien</h3>
+
+        <p>L’ancien finit par trouver quelques jeunes volontaires et tente
+        l’expédition avec des moyens insuffisants.</p>
+
+        <h3>Conséquences possibles</h3>
+
+        <p>La dette peut être honorée autrement que prévu, transmise à une
+        nouvelle génération, considérée comme accomplie par un simple témoignage
+        ou transformer une famille de Sen’jin en alliée durable des PJ.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sombrelance-hooks
+          entryId: dette-de-senjin
+          sourceHash: ab08a995
+    _id: 8hifFlh5kbvDzCYP
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435071594
+      modifiedTime: 1792435071594
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!BFQZCTGuKPMLZ1iM.8hifFlh5kbvDzCYP'
+  - name: Le mauvais prisonnier
+    type: text
+    sort: 500000
+    text:
+      content: >-
+        <h2>Le mauvais prisonnier</h2>
+
+        <h3>Situation</h3>
+
+        <p>Une patrouille de la Horde capture un troll inconnu près de la
+        frontière sud.</p>
+
+        <p>Il n’est pas Sombrelance.</p>
+
+        <p>Ses marques évoquent les tribus de Strangleronce.</p>
+
+        <h3>Qui ?</h3>
+
+        <p><strong>Le prisonnier</strong> veut éviter d’être exécuté avant
+        d’avoir expliqué pourquoi il est venu.</p>
+
+        <p><strong>Les gardes</strong> veulent savoir s’il s’agit d’un
+        espion.</p>
+
+        <p><strong>Les Sombrelance</strong> reconnaissent que son identité
+        tribale change la nature de l’affaire.</p>
+
+        <p><strong>Certains habitants</strong> préféreraient ne pas réveiller de
+        vieilles histoires de Strangleronce.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p>La source ne fixe pas son identité.</p>
+
+        <p><strong>Adaptation de campagne.</strong></p>
+
+        <p>Il peut être messager, naufragé, exilé, pèlerin, mercenaire ou
+        individu venu spécifiquement chercher quelqu’un.</p>
+
+        <p>Sa présence doit avoir une raison compréhensible, pas annoncer
+        automatiquement une invasion.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>Il vient d’être capturé.</p>
+
+        <p>Le temps joue surtout contre lui parce qu’une décision peut être
+        prise avant que quelqu’un comprenne ses marques.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Route du sud, poste de garde puis éventuellement Sen’jin.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>La patrouille voit un étranger armé.</p>
+
+        <p>Les Sombrelance voient une personne portant une histoire culturelle
+        identifiable.</p>
+
+        <h3>Portes d'entrée</h3>
+
+        <ul><li>Les PJ croisent la patrouille.</li><li>On leur demande s’ils
+        connaissent quelqu’un capable d’identifier les marques
+        tribales.</li><li>Le prisonnier reconnaît un Sombrelance et l’appelle
+        par un ancien titre.</li></ul>
+
+        <h3>Approches possibles</h3>
+
+        <p>Interroger, vérifier son trajet, contacter des anciens, le libérer
+        sous surveillance, le considérer comme ennemi ou attendre que la Horde
+        tranche.</p>
+
+        <h3>Complication</h3>
+
+        <p>Le prisonnier dit vrai sur son identité mais ment sur la personne
+        qu’il cherche.</p>
+
+        <p>Il sait que donner immédiatement le véritable nom rendrait son
+        objectif impossible.</p>
+
+        <h3>Si les PJ ne font rien</h3>
+
+        <p>La Horde prend une décision pragmatique selon les informations dont
+        elle dispose.</p>
+
+        <p>Le prisonnier peut être transféré, détenu ou expulsé.</p>
+
+        <h3>Conséquences possibles</h3>
+
+        <p>La situation peut ouvrir un contact vers Strangleronce, réveiller une
+        ancienne dette, créer un conflit personnel ou ne produire qu’une
+        rencontre révélant que tous les trolls étrangers ne constituent pas une
+        menace collective.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sombrelance-hooks
+          entryId: mauvais-prisonnier
+          sourceHash: 584bccc0
+    _id: hW6PzVqGcDhKxzHA
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435071594
+      modifiedTime: 1792435071594
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!BFQZCTGuKPMLZ1iM.hW6PzVqGcDhKxzHA'
+  - name: Le sanctuaire vide
+    type: text
+    sort: 600000
+    text:
+      content: >-
+        <h2>Le sanctuaire vide</h2>
+
+        <h3>Situation</h3>
+
+        <p>Un petit sanctuaire fréquenté par les chasseurs sombrelance a été
+        entièrement débarrassé de ses offrandes.</p>
+
+        <p>Même les coquillages, os gravés et objets sans valeur ont
+        disparu.</p>
+
+        <h3>Qui ?</h3>
+
+        <p><strong>Les chasseurs</strong> veulent savoir qui a profané le
+        lieu.</p>
+
+        <p><strong>Le gardien du sanctuaire</strong> évite les questions.</p>
+
+        <p><strong>Des habitants</strong> accusent déjà les Kolkar, des Orcs ou
+        les hommes de Zalazane.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p><strong>Adaptation de campagne.</strong></p>
+
+        <p>Le gardien a lui-même déplacé les offrandes.</p>
+
+        <p>Il estime que le loa auquel elles étaient destinées ne répond plus
+        correctement à cet endroit.</p>
+
+        <p>Il n’est cependant pas certain de comprendre la cause.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>Les objets ont été déplacés récemment.</p>
+
+        <p>Le gardien comptait agir discrètement mais quelqu’un a découvert le
+        sanctuaire vide avant qu’il puisse expliquer sa décision.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Sur une piste de chasse à proximité de Sen’jin.</p>
+
+        <p>Le gardien a caché les offrandes dans un autre lieu qu’il considère
+        plus approprié.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Il veut protéger une pratique qu’il juge devenue incorrecte.</p>
+
+        <p>Les autres habitants interprètent son silence comme la preuve qu’un
+        ennemi a agi.</p>
+
+        <h3>Portes d'entrée</h3>
+
+        <ul><li>Les PJ entendent les premières accusations.</li><li>Ils
+        découvrent eux-mêmes le sanctuaire.</li><li>Un chasseur demande
+        simplement s’ils ont vu quelqu’un transporter des objets
+        rituels.</li></ul>
+
+        <h3>Approches possibles</h3>
+
+        <p>Chercher les traces, parler au gardien, surveiller le lieu, examiner
+        d’autres sanctuaires ou laisser les Sombrelance régler leur propre
+        affaire.</p>
+
+        <h3>Complication</h3>
+
+        <p>Un second sanctuaire montre effectivement un phénomène
+        inhabituel.</p>
+
+        <p>Le gardien n’a donc peut-être pas raison sur l’explication, mais il
+        n’a pas entièrement tort sur le problème.</p>
+
+        <h3>Si les PJ ne font rien</h3>
+
+        <p>Les accusations se renforcent.</p>
+
+        <p>Le gardien continue de déplacer discrètement d’autres offrandes.</p>
+
+        <h3>Conséquences possibles</h3>
+
+        <p>Les PJ peuvent éviter un conflit injustifié, révéler un véritable
+        phénomène spirituel, discréditer le gardien ou au contraire faire de lui
+        une source importante pour comprendre des changements plus larges.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sombrelance-hooks
+          entryId: sanctuaire-vide
+          sourceHash: 2142aa98
+    _id: 4FzI9HglW3X2cQim
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435071594
+      modifiedTime: 1792435071594
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!BFQZCTGuKPMLZ1iM.4FzI9HglW3X2cQim'
+  - name: Les volontaires
+    type: text
+    sort: 700000
+    text:
+      content: >-
+        <h2>Les volontaires</h2>
+
+        <h3>Situation</h3>
+
+        <p>Plusieurs jeunes Sombrelance accumulent discrètement nourriture,
+        cordages et armes près d’une pirogue.</p>
+
+        <p>Ils affirment vouloir seulement reconnaître une petite île.</p>
+
+        <p>Personne ne les croit vraiment.</p>
+
+        <h3>Qui ?</h3>
+
+        <p><strong>Les volontaires</strong> veulent prouver qu’il est possible
+        de reprendre l’initiative.</p>
+
+        <p><strong>Leurs familles</strong> veulent éviter une expédition
+        suicidaire.</p>
+
+        <p><strong>Certains anciens</strong> comprennent leur frustration mais
+        contestent leur méthode.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p><strong>Adaptation de campagne.</strong></p>
+
+        <p>Les jeunes ont découvert une vraie faiblesse : une petite position de
+        Zalazane semble temporairement moins surveillée.</p>
+
+        <p>Leur renseignement est correct.</p>
+
+        <p>Leur plan, lui, est incomplet.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>Ils veulent partir lors de la prochaine nuit favorable.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Sen’jin pour la préparation.</p>
+
+        <p>Une petite île périphérique pour l’objectif.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>L’attente et les récits de reconquête future ne leur suffisent
+        plus.</p>
+
+        <p>Ils veulent obtenir un résultat limité maintenant.</p>
+
+        <h3>Portes d'entrée</h3>
+
+        <ul><li>Les PJ découvrent les réserves cachées.</li><li>Un parent
+        inquiet leur parle.</li><li>Un volontaire tente d’acheter discrètement
+        du matériel auprès d’eux.</li></ul>
+
+        <h3>Approches possibles</h3>
+
+        <p>Les convaincre d’attendre, améliorer leur plan, les accompagner,
+        informer les anciens, exploiter leur renseignement autrement ou ne pas
+        intervenir.</p>
+
+        <h3>Complication</h3>
+
+        <p>L’île est faiblement gardée parce qu’un autre problème mobilise les
+        hommes de Zalazane.</p>
+
+        <p>Cette faiblesse est donc réelle mais temporaire.</p>
+
+        <h3>Si les PJ ne font rien</h3>
+
+        <p>Les jeunes partent.</p>
+
+        <p>Ils peuvent revenir avec une information importante, revenir blessés
+        ou ne pas revenir du tout.</p>
+
+        <h3>Conséquences possibles</h3>
+
+        <p>Leur initiative peut ouvrir une nouvelle route, créer une génération
+        de jeunes éclaireurs, provoquer une réaction de Zalazane ou produire une
+        rancœur durable si les adultes les ont empêchés d’agir sans proposer
+        d’alternative.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sombrelance-hooks
+          entryId: jeunes-volontaires
+          sourceHash: 5ea784bc
+    _id: NGX7upXK2TpjW2vu
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435071594
+      modifiedTime: 1792435071594
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!BFQZCTGuKPMLZ1iM.NGX7upXK2TpjW2vu'
+  - name: La querelle du puits
+    type: text
+    sort: 800000
+    text:
+      content: >-
+        <h2>La querelle du puits</h2>
+
+        <h3>Situation</h3>
+
+        <p>Une caravane venue de Razor Hill arrive à un point d’eau
+        habituellement utilisé par les chasseurs de Sen’jin.</p>
+
+        <p>Les deux groupes ont besoin de remplir leurs réserves
+        immédiatement.</p>
+
+        <h3>Qui ?</h3>
+
+        <p><strong>Les chasseurs sombrelance</strong> veulent conserver un accès
+        fiable avant plusieurs jours de chasse.</p>
+
+        <p><strong>Les convoyeurs orcs</strong> doivent poursuivre leur
+        route.</p>
+
+        <p><strong>Les responsables locaux</strong> veulent empêcher qu’un
+        problème de logistique devienne une affaire politique.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p><strong>Adaptation de campagne.</strong></p>
+
+        <p>Personne n’a organisé le conflit.</p>
+
+        <p>Le point d’eau fournit simplement moins que nécessaire pour répondre
+        aux besoins simultanés des deux groupes.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>La tension apparaît pendant une période de forte utilisation ou de
+        baisse temporaire du niveau d’eau.</p>
+
+        <h3>Où ?</h3>
+
+        <p>À proximité de Sen’jin, sur une piste utilisée par les chasseurs et
+        les voyageurs.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Dans Durotar, l’eau constitue une ressource concrète.</p>
+
+        <p>Chaque groupe possède une justification raisonnable et estime que
+        céder maintenant lui coûtera davantage plus tard.</p>
+
+        <h3>Portes d'entrée</h3>
+
+        <ul><li>Les PJ arrivent pendant la dispute.</li><li>La caravane qu’ils
+        accompagnent s’arrête au point d’eau.</li><li>Les chasseurs viennent se
+        plaindre à Sen’jin après avoir dû renoncer à remplir leurs
+        réserves.</li></ul>
+
+        <h3>Approches possibles</h3>
+
+        <p>Négocier un partage, trouver une seconde source, organiser des
+        horaires, réparer ou améliorer l’accès, prendre parti ou simplement
+        empêcher la violence immédiate.</p>
+
+        <h3>Complication</h3>
+
+        <p>Le débit réduit peut avoir une cause naturelle sans rapport avec le
+        conflit : obstruction, déplacement du terrain, contamination locale ou
+        simple variation temporaire.</p>
+
+        <h3>Si les PJ ne font rien</h3>
+
+        <p>Les responsables locaux trouvent probablement un compromis, mais une
+        altercation peut laisser une rancœur personnelle durable.</p>
+
+        <h3>Conséquences possibles</h3>
+
+        <p>Une solution pratique peut améliorer la route, créer une règle
+        d’usage reconnue ou révéler une ressource secondaire. Une décision
+        injuste peut au contraire transformer une dispute ponctuelle en symbole
+        d’un ressentiment plus large.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sombrelance-hooks
+          entryId: querelle-du-puits
+          sourceHash: f9ca267f
+    _id: epcVNYi2xUz5YJDo
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435071594
+      modifiedTime: 1792435071594
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!BFQZCTGuKPMLZ1iM.epcVNYi2xUz5YJDo'
+  - name: Les traces de Minshina
+    type: text
+    sort: 900000
+    text:
+      content: >-
+        <h2>Les traces de Minshina</h2>
+
+        <h3>Situation</h3>
+
+        <p>Un étranger ou un habitant discret interroge plusieurs anciens sur
+        Minshina.</p>
+
+        <p>Il cherche surtout à savoir où certains objets rituels ont été
+        déplacés après l’exode des Îles.</p>
+
+        <h3>Qui ?</h3>
+
+        <p><strong>Le chercheur</strong> poursuit un objectif qu’il ne révèle
+        pas entièrement.</p>
+
+        <p><strong>Les anciens</strong> n’apprécient pas tous que ces questions
+        soient posées publiquement.</p>
+
+        <p><strong>Les familles liées aux objets</strong> peuvent considérer
+        l’affaire comme privée.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p>La source ne fixe pas l’identité du chercheur.</p>
+
+        <p>Il peut être parent d’une victime, jeune initié, partisan de Zalazane
+        ou personne sincèrement intéressée par les rites.</p>
+
+        <p>L’important est qu’il connaît suffisamment le sujet pour poser des
+        questions précises.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>Il vient de commencer ses recherches.</p>
+
+        <p>Les questions répétées finissent par attirer l’attention.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Sen’jin pour les témoignages.</p>
+
+        <p>D’anciens lieux de stockage, sanctuaires ou caches peuvent être
+        concernés ensuite.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Minshina et les objets liés à sa mémoire peuvent fournir des éléments
+        utiles pour comprendre ou affronter l’influence de Zalazane.</p>
+
+        <h3>Portes d'entrée</h3>
+
+        <ul><li>Les PJ entendent le même nom revenir dans plusieurs
+        conversations.</li><li>Un ancien leur demande s’ils savent qui pose ces
+        questions.</li><li>Le chercheur les approche directement après avoir
+        appris qu’ils connaissent les Îles.</li></ul>
+
+        <h3>Approches possibles</h3>
+
+        <p>Observer, interroger le chercheur, consulter les anciens, chercher
+        les objets avant lui, l’aider ou décider que l’affaire relève uniquement
+        des Sombrelance.</p>
+
+        <h3>Complication</h3>
+
+        <p>Le chercheur peut être parfaitement sincère sur son but immédiat tout
+        en travaillant pour quelqu’un d’autre.</p>
+
+        <h3>Si les PJ ne font rien</h3>
+
+        <p>Il finit par découvrir au moins une partie des informations qu’il
+        cherche.</p>
+
+        <h3>Conséquences possibles</h3>
+
+        <p>Les PJ peuvent accélérer l’arc autour de Minshina, protéger une
+        cache, révéler une connaissance oubliée ou attirer l’attention sur un
+        objet que personne ne surveillait jusque-là.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sombrelance-hooks
+          entryId: traces-de-minshina
+          sourceHash: 057b56dc
+    _id: 7S5xBqi1yxveL3lB
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435071594
+      modifiedTime: 1792435071594
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!BFQZCTGuKPMLZ1iM.7S5xBqi1yxveL3lB'
+  - name: Le bateau de Tiragarde
+    type: text
+    sort: 1000000
+    text:
+      content: >-
+        <h2>Le bateau de Tiragarde</h2>
+
+        <h3>Situation</h3>
+
+        <p>Des pêcheurs sombrelance découvrent une embarcation humaine échouée
+        au sud.</p>
+
+        <p>À bord : un blessé, des vivres, une carte et un objet que les
+        pêcheurs affirment reconnaître comme appartenant aux leurs.</p>
+
+        <h3>Qui ?</h3>
+
+        <p><strong>Le survivant humain</strong> veut être soigné et repartir
+        vivant.</p>
+
+        <p><strong>Les pêcheurs</strong> veulent récupérer l’objet.</p>
+
+        <p><strong>Les autorités de la Horde</strong> peuvent s’intéresser à la
+        carte et à l’origine du bateau.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p>Le survivant affirme ne pas avoir volé l’objet.</p>
+
+        <p>Il peut dire vrai.</p>
+
+        <p><strong>Adaptation de campagne.</strong></p>
+
+        <p>Il a pu l’acheter, le recevoir d’un tiers, le trouver dans une épave
+        ou ignorer complètement son origine.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>Le bateau s’est échoué récemment.</p>
+
+        <p>L’état du blessé impose une décision plus rapide que l’enquête sur
+        l’objet.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Côte sud de Durotar.</p>
+
+        <p>La carte peut éventuellement renvoyer vers Tiragarde ou vers un autre
+        point côtier.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Les pêcheurs reconnaissent quelque chose possédant une valeur
+        culturelle que le survivant ne comprend peut-être pas.</p>
+
+        <h3>Portes d'entrée</h3>
+
+        <ul><li>Les PJ accompagnent les pêcheurs.</li><li>Le survivant est amené
+        à Sen’jin.</li><li>Une patrouille de la Horde arrive avant que les
+        pêcheurs aient décidé quoi faire.</li></ul>
+
+        <h3>Approches possibles</h3>
+
+        <p>Soigner d’abord, interroger, examiner la carte, rechercher la
+        provenance de l’objet, restituer l’objet sans autre enquête ou retenir
+        le survivant.</p>
+
+        <h3>Complication</h3>
+
+        <p>La carte possède une importance militaire sans que le survivant
+        lui-même soit un soldat ou un espion.</p>
+
+        <h3>Si les PJ ne font rien</h3>
+
+        <p>Les pêcheurs récupèrent probablement l’objet et les autorités de la
+        Horde prennent en charge l’humain.</p>
+
+        <p>Les deux affaires deviennent alors séparées.</p>
+
+        <h3>Conséquences possibles</h3>
+
+        <p>La situation peut améliorer ou dégrader les relations locales avec
+        des humains, fournir une information sur Tiragarde, révéler un trafic ou
+        simplement montrer qu’un objet volé peut changer plusieurs fois de mains
+        avant d’être retrouvé.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sombrelance-hooks
+          entryId: bateau-de-tiragarde
+          sourceHash: 8ee9f9b8
+    _id: tpRJusmhSYzHvTBC
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435071594
+      modifiedTime: 1792435071594
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!BFQZCTGuKPMLZ1iM.tpRJusmhSYzHvTBC'
+  - name: La chasse interdite
+    type: text
+    sort: 1100000
+    text:
+      content: >-
+        <h2>La chasse interdite</h2>
+
+        <h3>Situation</h3>
+
+        <p>Une bête inhabituelle apparaît près de Sen’jin et attaque du bétail
+        ou menace les chasseurs.</p>
+
+        <p>Un vieux pisteur refuse pourtant catégoriquement qu’on la tue.</p>
+
+        <h3>Qui ?</h3>
+
+        <p><strong>Le chasseur</strong> affirme reconnaître un signe associé à
+        un loa.</p>
+
+        <p><strong>Les habitants menacés</strong> veulent simplement que le
+        danger disparaisse.</p>
+
+        <p><strong>D’autres chasseurs</strong> ne sont pas certains de
+        l’interprétation de leur ancien.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p>La bête est réellement inhabituelle.</p>
+
+        <p>Le signe observé par le chasseur est également réel.</p>
+
+        <p>Ce que cela signifie reste ouvert.</p>
+
+        <p>Il peut s’agir d’un comportement animal, d’une marque rituelle posée
+        par quelqu’un ou d’un phénomène spirituel.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>La créature vient d’apparaître dans un territoire où elle n’était pas
+        observée auparavant.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Pistes et terrains de chasse autour de Sen’jin.</p>
+
+        <p>Son origine peut se situer plus loin.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Le conflit vient du fait que les deux interprétations ont une
+        logique.</p>
+
+        <p>La créature est dangereuse.</p>
+
+        <p>La tuer immédiatement peut cependant détruire la seule piste
+        permettant de comprendre pourquoi elle est là.</p>
+
+        <h3>Portes d'entrée</h3>
+
+        <ul><li>Les PJ rencontrent la créature.</li><li>Un chasseur les empêche
+        de poursuivre une traque.</li><li>Des habitants demandent simplement
+        qu’on protège les alentours.</li></ul>
+
+        <h3>Approches possibles</h3>
+
+        <p>Observer, suivre, capturer, repousser, accomplir un rite, rechercher
+        l’origine du signe ou tuer la créature malgré l’interdiction.</p>
+
+        <h3>Complication</h3>
+
+        <p>La bête ne cherche peut-être pas à s’installer.</p>
+
+        <p>Elle fuit elle-même quelque chose.</p>
+
+        <h3>Si les PJ ne font rien</h3>
+
+        <p>Les chasseurs finissent par agir.</p>
+
+        <p>La créature est probablement tuée ou repoussée avant que la raison de
+        son déplacement soit comprise.</p>
+
+        <h3>Conséquences possibles</h3>
+
+        <p>Les PJ peuvent découvrir une nouvelle menace, confirmer ou contredire
+        l’interprétation spirituelle, éviter des pertes ou provoquer une tension
+        avec ceux qui considéraient l’animal comme porteur d’un signe.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sombrelance-hooks
+          entryId: chasse-interdite
+          sourceHash: de0058b5
+    _id: ecRxSmJwXjx0LnhE
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435071594
+      modifiedTime: 1792435071594
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!BFQZCTGuKPMLZ1iM.ecRxSmJwXjx0LnhE'
+  - name: Celui qui veut repartir
+    type: text
+    sort: 1200000
+    text:
+      content: >-
+        <h2>Celui qui veut repartir</h2>
+
+        <h3>Situation</h3>
+
+        <p>Un Sombrelance annonce publiquement qu’il quitte Durotar.</p>
+
+        <p>Il ne rejoint pas Zalazane.</p>
+
+        <p>Il veut retourner à Strangleronce.</p>
+
+        <h3>Qui ?</h3>
+
+        <p><strong>Le départant</strong> pense que son peuple a trop sacrifié de
+        son identité en multipliant les exils.</p>
+
+        <p><strong>Sa famille</strong> ne partage pas nécessairement son
+        choix.</p>
+
+        <p><strong>Quelques jeunes</strong> trouvent ses arguments
+        convaincants.</p>
+
+        <p><strong>Les anciens</strong> peuvent accepter son droit à partir sans
+        approuver son discours.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p>Il n’y a pas de conspiration.</p>
+
+        <p>Le personnage exprime une position personnelle : une nouvelle terre
+        ne remplace pas forcément celle des ancêtres.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>Son départ est prévu prochainement.</p>
+
+        <p>La discussion devient importante parce qu’il ne cherche plus à
+        convaincre en privé.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Sen’jin.</p>
+
+        <p>La destination annoncée est Strangleronce.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>L’installation en Durotar a donné un nouveau foyer aux Sombrelance,
+        mais elle n’efface pas l’existence d’une histoire antérieure.</p>
+
+        <h3>Portes d'entrée</h3>
+
+        <ul><li>Les PJ assistent à son annonce.</li><li>Un jeune leur demande ce
+        qu’ils pensent de son discours.</li><li>Sa famille cherche quelqu’un
+        connaissant les routes vers l’est.</li></ul>
+
+        <h3>Approches possibles</h3>
+
+        <p>Discuter, aider à préparer le voyage, tenter de le convaincre de
+        rester, écouter sans intervenir ou chercher à comprendre pourquoi il
+        choisit précisément maintenant.</p>
+
+        <h3>Complication</h3>
+
+        <p>Il possède peut-être une raison privée qu’il ne veut pas exposer :
+        personne à retrouver, dette ancienne, héritage familial ou crainte de
+        mourir loin de sa terre natale.</p>
+
+        <h3>Si les PJ ne font rien</h3>
+
+        <p>Il part.</p>
+
+        <p>Quelques autres peuvent le suivre, mais cela ne provoque pas un exode
+        général.</p>
+
+        <h3>Conséquences possibles</h3>
+
+        <p>Le départ peut créer un contact futur vers Strangleronce, ouvrir une
+        discussion identitaire durable ou rester simplement le choix personnel
+        d’un membre de la communauté.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sombrelance-hooks
+          entryId: celui-qui-veut-repartir
+          sourceHash: 784546fe
+    _id: zs5mS6S1PIbee2t2
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435071594
+      modifiedTime: 1792435071594
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!BFQZCTGuKPMLZ1iM.zs5mS6S1PIbee2t2'
+  - name: Les voix des Îles
+    type: text
+    sort: 1300000
+    text:
+      content: >-
+        <h2>Les voix des Îles</h2>
+
+        <h3>Situation</h3>
+
+        <p>Des signaux intermittents apparaissent depuis une zone des Îles
+        considérée comme contrôlée par Zalazane.</p>
+
+        <p>Ils proviennent de Sombrelance encore libres.</p>
+
+        <h3>Qui ?</h3>
+
+        <p><strong>Les survivants cachés</strong> veulent évacuer plusieurs
+        proches sous emprise.</p>
+
+        <p><strong>Les captifs</strong> ne comprennent pas nécessairement qu’on
+        cherche à les sauver.</p>
+
+        <p><strong>Les hommes de Zalazane</strong> ignorent encore précisément
+        où se trouve le groupe.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p><strong>Adaptation de campagne.</strong></p>
+
+        <p>Un petit groupe libre survit clandestinement sur les Îles.</p>
+
+        <p>Il ne cherche pas à vaincre Zalazane.</p>
+
+        <p>Son objectif immédiat est beaucoup plus limité : sortir quelques
+        personnes avant d’être découvert.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>Le groupe ne pourra pas rester caché indéfiniment.</p>
+
+        <p>Les patrouilles se rapprochent progressivement de sa zone.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Une île ou un secteur côtier des Îles de l’Écho.</p>
+
+        <p>Un point d’accostage discret peut exister.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Les survivants refusent d’abandonner leurs proches mais n’ont pas
+        assez de moyens pour les maîtriser et les transporter seuls.</p>
+
+        <h3>Portes d'entrée</h3>
+
+        <ul><li>Les signaux sont remarqués depuis Sen’jin.</li><li>Un fugitif
+        atteint la côte.</li><li>Un pêcheur découvre un objet laissé
+        volontairement comme message.</li></ul>
+
+        <h3>Approches possibles</h3>
+
+        <p>Reconnaissance, infiltration, contact discret, rituel, diversion,
+        extraction nocturne, négociation avec des captifs ou abandon de
+        l’opération.</p>
+
+        <h3>Complication</h3>
+
+        <p>Certaines personnes que les survivants veulent évacuer occupent
+        désormais des fonctions utiles dans le dispositif de Zalazane.</p>
+
+        <p>Les retirer peut immédiatement alerter les autres.</p>
+
+        <h3>Si les PJ ne font rien</h3>
+
+        <p>Le groupe tente une extraction seul ou change de cache.</p>
+
+        <p>Il peut disparaître sans que Sen’jin sache s’il a fui ou été
+        capturé.</p>
+
+        <h3>Conséquences possibles</h3>
+
+        <p>Une réussite peut ouvrir un point d’accostage secret, fournir des
+        témoins directs des Îles ou créer un réseau de survivants. Une opération
+        trop visible peut rendre les futures incursions beaucoup plus
+        difficiles.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sombrelance-hooks
+          entryId: voix-des-iles
+          sourceHash: eeb8b044
+    _id: j5hWzZyllEqBmLMZ
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435071594
+      modifiedTime: 1792435071594
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!BFQZCTGuKPMLZ1iM.j5hWzZyllEqBmLMZ'
+  - name: Le sang de Strangleronce
+    type: text
+    sort: 1400000
+    text:
+      content: >-
+        <h2>Le sang de Strangleronce</h2>
+
+        <h3>Situation</h3>
+
+        <p>Un troll venu de l’est arrive à Sen’jin.</p>
+
+        <p>Il ne cherche ni Vol’jin ni une confrontation avec la Horde.</p>
+
+        <p>Il réclame un vieil exilé par son nom.</p>
+
+        <h3>Qui ?</h3>
+
+        <p><strong>Le visiteur</strong> veut que l’exilé honore une dette
+        antérieure à son installation en Durotar.</p>
+
+        <p><strong>L’exilé sombrelance</strong> considère cette partie de sa vie
+        comme terminée.</p>
+
+        <p><strong>Sa famille actuelle</strong> ne connaissait peut-être pas
+        cette dette.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p><strong>Adaptation de campagne.</strong></p>
+
+        <p>La dette peut concerner une promesse, un objet, un crime, une
+        protection reçue autrefois ou une personne abandonnée.</p>
+
+        <p>Le visiteur n’a pas nécessairement l’intention de recourir à la
+        violence.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>Le visiteur a entrepris un long voyage pour retrouver cette
+        personne.</p>
+
+        <p>Il n’acceptera probablement pas de repartir après une simple fin de
+        non-recevoir.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Sen’jin pour la confrontation.</p>
+
+        <p>Les preuves ou témoins éventuels se trouvent peut-être bien au-delà
+        de Durotar.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Pour le visiteur, changer de tribu, de continent ou d’alliance
+        politique n’efface pas automatiquement une obligation ancienne.</p>
+
+        <h3>Portes d'entrée</h3>
+
+        <ul><li>Les PJ assistent à la confrontation.</li><li>L’exilé leur
+        demande de vérifier les affirmations du visiteur.</li><li>Le visiteur
+        cherche un médiateur qui ne soit pas directement impliqué.</li></ul>
+
+        <h3>Approches possibles</h3>
+
+        <p>Médiation, enquête sur l’ancienne dette, négociation d’un nouvel
+        accord, refus d’intervenir ou accompagnement vers une personne
+        susceptible de témoigner.</p>
+
+        <h3>Complication</h3>
+
+        <p>Le visiteur dit la vérité sur la dette.</p>
+
+        <p>Mais l’exilé possède lui aussi une bonne raison de ne pas l’honorer
+        selon les termes originaux.</p>
+
+        <h3>Si les PJ ne font rien</h3>
+
+        <p>La communauté finit par devoir prendre position sur une affaire
+        qu’elle aurait préféré laisser privée.</p>
+
+        <h3>Conséquences possibles</h3>
+
+        <p>La dette peut être payée autrement, publiquement annulée, transmise
+        ou devenir la base d’un futur contact avec une autre tribu troll.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sombrelance-hooks
+          entryId: sang-de-strangleronce
+          sourceHash: c10bfad1
+    _id: zdyvTGwJG8lm27r0
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435071594
+      modifiedTime: 1792435071594
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!BFQZCTGuKPMLZ1iM.zdyvTGwJG8lm27r0'
+  - name: Le loa qui ne répond plus
+    type: text
+    sort: 1500000
+    text:
+      content: >-
+        <h2>Le loa qui ne répond plus</h2>
+
+        <h3>Situation</h3>
+
+        <p>Plusieurs chasseurs rapportent séparément que des rites habituels
+        donnent des signes inhabituels autour d’un même secteur.</p>
+
+        <p>Personne ne s’accorde sur leur signification.</p>
+
+        <h3>Qui ?</h3>
+
+        <p><strong>Les chasseurs</strong> veulent savoir si le territoire reste
+        sûr.</p>
+
+        <p><strong>Les anciens</strong> proposent plusieurs interprétations.</p>
+
+        <p><strong>Les plus sceptiques</strong> pensent que les changements sont
+        naturels.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p><strong>Adaptation de campagne.</strong></p>
+
+        <p>Quelque chose perturbe réellement certains phénomènes observés lors
+        des rites.</p>
+
+        <p>La cause n’est pas nécessairement spirituelle.</p>
+
+        <p>Un indice très léger peut pointer vers des vibrations, une chaleur
+        souterraine ou d’autres changements physiques liés au nord.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>Les premiers signes isolés remontent à quelque temps, mais leur
+        répétition les rend seulement maintenant visibles comme motif.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Un secteur précis de Durotar fréquenté par les chasseurs.</p>
+
+        <p>Les anomalies semblent plus fortes dans une direction donnée.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Les pratiques spirituelles servent ici de moyen d’observation du
+        monde autant que de croyance.</p>
+
+        <p>Les Sombrelance remarquent un changement sans automatiquement en
+        connaître la cause.</p>
+
+        <h3>Portes d'entrée</h3>
+
+        <ul><li>Un chasseur raconte son expérience.</li><li>Les PJ assistent à
+        un rite dont le résultat surprend tout le monde.</li><li>Une piste
+        animale se comporte anormalement dans le même secteur.</li></ul>
+
+        <h3>Approches possibles</h3>
+
+        <p>Comparer les observations, explorer le terrain, consulter plusieurs
+        interprètes, rechercher une cause matérielle, attendre ou considérer
+        qu’il n’y a pas encore suffisamment d’éléments.</p>
+
+        <h3>Complication</h3>
+
+        <p>Deux traditions différentes donnent des interprétations opposées du
+        même phénomène.</p>
+
+        <p>Aucune ne dispose encore de preuve décisive.</p>
+
+        <h3>Si les PJ ne font rien</h3>
+
+        <p>Les chasseurs commencent à éviter certaines zones.</p>
+
+        <p>La modification de leurs habitudes peut suffire à créer de nouveaux
+        problèmes de ressources.</p>
+
+        <h3>Conséquences possibles</h3>
+
+        <p>Les PJ peuvent identifier tôt un signe du fil rouge, révéler une
+        cause indépendante, modifier les routes de chasse ou simplement établir
+        qu’un phénomène réel existe sans encore savoir pourquoi.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sombrelance-hooks
+          entryId: loa-qui-ne-repond-plus
+          sourceHash: 75cefc22
+    _id: O6NJTWP8bWeU1leb
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435071594
+      modifiedTime: 1792435071594
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!BFQZCTGuKPMLZ1iM.O6NJTWP8bWeU1leb'
+  - name: Une île pour les vivants
+    type: text
+    sort: 1600000
+    text:
+      content: >-
+        <h2>Une île pour les vivants</h2>
+
+        <h3>Situation</h3>
+
+        <p>Plusieurs Sombrelance proposent un projet limité : ne pas reprendre
+        toutes les Îles de l’Écho, mais seulement une petite île
+        périphérique.</p>
+
+        <p>Ils veulent en faire un refuge et un poste d’observation.</p>
+
+        <h3>Qui ?</h3>
+
+        <p><strong>Les promoteurs du projet</strong> veulent créer une présence
+        permanente.</p>
+
+        <p><strong>Les prudents</strong> craignent de provoquer Zalazane.</p>
+
+        <p><strong>Les familles de captifs</strong> voient immédiatement l’île
+        comme une base possible pour de futurs sauvetages.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p><strong>Adaptation de campagne.</strong></p>
+
+        <p>L’idée est réaliste mais exige de comprendre qui occupe réellement
+        l’île, comment y débarquer et si elle peut être approvisionnée.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>Une récente observation laisse penser que l’île est moins occupée
+        qu’auparavant.</p>
+
+        <p>Cette occasion peut ne pas durer.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Une petite île périphérique de l’archipel.</p>
+
+        <p>Sen’jin fournit les personnes et ressources nécessaires.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Un objectif limité paraît plus atteignable qu’une reconquête
+        générale.</p>
+
+        <p>Le projet transforme également la géographie du sandbox si les
+        Sombrelance réussissent.</p>
+
+        <h3>Portes d'entrée</h3>
+
+        <ul><li>Le projet est discuté publiquement à Sen’jin.</li><li>Des
+        éclaireurs recherchent des informations.</li><li>Une famille propose une
+        pirogue en échange d’une place sur la future île.</li></ul>
+
+        <h3>Approches possibles</h3>
+
+        <p>Reconnaître le terrain, négocier avec ses occupants, débarquer
+        discrètement, créer un accord avec des survivants locaux, repousser une
+        menace ou conseiller d’abandonner le projet.</p>
+
+        <h3>Complication</h3>
+
+        <p>L’île n’est pas vide.</p>
+
+        <p>Quelques Sombrelance sous emprise y vivent également, rendant toute
+        prise par la force beaucoup plus problématique.</p>
+
+        <h3>Si les PJ ne font rien</h3>
+
+        <p>Le projet peut attendre, être tenté avec des moyens limités ou être
+        abandonné après une nouvelle observation inquiétante.</p>
+
+        <h3>Conséquences possibles</h3>
+
+        <p>Une réussite crée un nouveau nœud de pointcrawl, raccourcit les
+        futures incursions et change concrètement l’équilibre autour des Îles.
+        Un échec peut rendre Zalazane plus attentif sans supprimer
+        définitivement l’idée.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sombrelance-hooks
+          entryId: ile-pour-les-vivants
+          sourceHash: f0ae7943
+    _id: U1pj9VrNAfOwm5uN
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435071594
+      modifiedTime: 1792435071594
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!BFQZCTGuKPMLZ1iM.U1pj9VrNAfOwm5uN'
+  - name: Le masque sans famille
+    type: text
+    sort: 1700000
+    text:
+      content: >-
+        <h2>Le masque sans famille</h2>
+
+        <h3>Situation</h3>
+
+        <p>Un masque funéraire disparaît d’une habitation de Sen’jin.</p>
+
+        <p>Étrangement, la famille concernée refuse de signaler officiellement
+        le vol.</p>
+
+        <h3>Qui ?</h3>
+
+        <p><strong>La famille</strong> veut récupérer l’objet sans révéler
+        certains détails.</p>
+
+        <p><strong>Le voleur éventuel</strong> poursuit un objectif encore
+        inconnu.</p>
+
+        <p><strong>Les voisins</strong> transforment le silence en rumeurs.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p><strong>Adaptation de campagne.</strong></p>
+
+        <p>Le masque a réellement disparu.</p>
+
+        <p>Le silence de la famille peut venir d’un conflit d’héritage, de
+        l’identité du défunt ou du fait qu’un membre de la famille a lui-même
+        pris l’objet.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>La disparition a été constatée récemment.</p>
+
+        <p>Chaque jour augmente la probabilité que quelqu’un vende, cache ou
+        utilise l’objet ailleurs.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Sen’jin d’abord.</p>
+
+        <p>La piste peut rester entièrement locale.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Le masque possède surtout une valeur familiale et rituelle.</p>
+
+        <p>Rendre l’affaire publique obligerait peut-être la famille à expliquer
+        quelque chose qu’elle préfère garder privé.</p>
+
+        <h3>Portes d'entrée</h3>
+
+        <ul><li>Les PJ entendent parler de la disparition.</li><li>Un membre
+        plus jeune de la famille les approche sans prévenir ses
+        anciens.</li><li>Ils voient quelqu’un tenter de transporter discrètement
+        l’objet.</li></ul>
+
+        <h3>Approches possibles</h3>
+
+        <p>Enquête discrète, médiation familiale, surveillance, confrontation ou
+        refus de s’impliquer dans une affaire privée.</p>
+
+        <h3>Complication</h3>
+
+        <p>Le masque n’a peut-être jamais appartenu légalement ou
+        traditionnellement à la branche de la famille qui le conservait.</p>
+
+        <h3>Si les PJ ne font rien</h3>
+
+        <p>La famille règle probablement l’affaire elle-même.</p>
+
+        <p>La résolution peut cependant laisser une rancœur durable.</p>
+
+        <h3>Conséquences possibles</h3>
+
+        <p>Les PJ peuvent gagner la confiance d’une famille, révéler un conflit
+        d’héritage, restaurer un objet à son propriétaire légitime ou découvrir
+        qu’aucun crime n’a réellement été commis.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sombrelance-hooks
+          entryId: masque-sans-famille
+          sourceHash: 127b5b63
+    _id: BDZ85rDqU2zMsRt1
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435071594
+      modifiedTime: 1792435071594
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!BFQZCTGuKPMLZ1iM.BDZ85rDqU2zMsRt1'
+  - name: Ce que cherche Gadrin
+    type: text
+    sort: 1800000
+    text:
+      content: >-
+        <h2>Ce que cherche Gadrin</h2>
+
+        <h3>Situation</h3>
+
+        <p>Maître Gadrin pose depuis quelque temps des questions sur des
+        traditions, substances ou connaissances qui ne semblent pas exister en
+        Durotar.</p>
+
+        <p>Plusieurs personnes cherchent à comprendre pourquoi.</p>
+
+        <h3>Qui ?</h3>
+
+        <p><strong>Maître Gadrin</strong> poursuit une recherche dont le contenu
+        exact n’est pas établi dans les sources.</p>
+
+        <p><strong>Les curieux</strong> imaginent qu’il prépare quelque chose
+        d’important.</p>
+
+        <p><strong>Des voyageurs trolls</strong> peuvent posséder des fragments
+        d’information.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p>La source fournit seulement l’idée que sa recherche peut ouvrir vers
+        d’autres traditions trolls et éventuellement vers des régions
+        extérieures à Durotar.</p>
+
+        <p><strong>Information à vérifier / non établie dans les sources
+        fournies.</strong></p>
+
+        <h3>Quand ?</h3>
+
+        <p>La recherche est déjà en cours mais n’a pas nécessairement
+        d’échéance.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Sen’jin pour les premiers contacts.</p>
+
+        <p>Les réponses peuvent se trouver hors de Durotar.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Gadrin possède suffisamment de savoir pour avoir identifié une lacune
+        qu’il ne peut pas résoudre localement.</p>
+
+        <h3>Portes d'entrée</h3>
+
+        <ul><li>Les PJ croisent plusieurs voyageurs interrogés par
+        Gadrin.</li><li>Gadrin leur pose une question liée à un lieu qu’ils
+        connaissent.</li><li>Un marchand propose de vendre une information qu’il
+        pense recherchée par Gadrin.</li></ul>
+
+        <h3>Approches possibles</h3>
+
+        <p>Aider, observer, questionner directement Gadrin, chercher des sources
+        extérieures ou laisser la recherche évoluer en arrière-plan.</p>
+
+        <h3>Complication</h3>
+
+        <p>Plusieurs personnes prétendent posséder l’information recherchée et
+        certaines cherchent simplement à profiter de la réputation de
+        Gadrin.</p>
+
+        <h3>Si les PJ ne font rien</h3>
+
+        <p>Gadrin poursuit sa recherche lentement par ses propres réseaux.</p>
+
+        <h3>Conséquences possibles</h3>
+
+        <p>Cette accroche peut ouvrir une future route hors de Durotar, fournir
+        un contact ou rester une simple preuve que les habitants importants ont
+        leurs propres activités indépendamment des PJ.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sombrelance-hooks
+          entryId: recherche-de-gadrin
+          sourceHash: 4ae2f392
+    _id: G1MyiW7lkleLYGhj
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435071594
+      modifiedTime: 1792435071594
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!BFQZCTGuKPMLZ1iM.G1MyiW7lkleLYGhj'
+  - name: Les yeux des Kolkar
+    type: text
+    sort: 1900000
+    text:
+      content: >-
+        <h2>Les yeux des Kolkar</h2>
+
+        <h3>Situation</h3>
+
+        <p>Les attaques Kolkar diminuent brusquement autour de plusieurs
+        pistes.</p>
+
+        <p>Les chasseurs n’en sont pas rassurés.</p>
+
+        <p>Ils voient davantage d’observateurs qu’auparavant.</p>
+
+        <h3>Qui ?</h3>
+
+        <p><strong>Les éclaireurs Kolkar</strong> veulent comprendre les
+        habitudes locales.</p>
+
+        <p><strong>Les chasseurs sombrelance</strong> craignent qu’une attaque
+        plus organisée se prépare.</p>
+
+        <p><strong>Les gardes de la Horde</strong> peuvent interpréter
+        l’accalmie comme une amélioration.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p>Les Kolkar observent réellement les déplacements.</p>
+
+        <p>Ils ne préparent pas nécessairement un assaut général.</p>
+
+        <p>Ils peuvent chercher une route, une ressource mal défendue ou une
+        occasion particulière.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>Le changement de comportement date de quelques jours.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Pistes de chasse, points d’eau et routes secondaires au sud.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>L’observation permet aux Kolkar de choisir où exercer leur pression
+        plutôt que gaspiller des hommes dans des raids sans objectif.</p>
+
+        <h3>Portes d'entrée</h3>
+
+        <ul><li>Les PJ découvrent un observateur.</li><li>Un chasseur rapporte
+        plusieurs traces identiques.</li><li>Une patrouille annonce fièrement
+        que les raids diminuent, déclenchant la réaction sceptique des
+        Sombrelance.</li></ul>
+
+        <h3>Approches possibles</h3>
+
+        <p>Contre-pistage, surveillance, capture d’un éclaireur, modification
+        volontaire des habitudes, désinformation ou attente.</p>
+
+        <h3>Complication</h3>
+
+        <p>Les Kolkar peuvent s’intéresser à une ressource dont les Sombrelance
+        eux-mêmes ignorent encore l’importance.</p>
+
+        <h3>Si les PJ ne font rien</h3>
+
+        <p>Les Kolkar finissent par identifier une faiblesse exploitable.</p>
+
+        <p>Le prochain incident sera plus ciblé que les précédents.</p>
+
+        <h3>Conséquences possibles</h3>
+
+        <p>Les PJ peuvent anticiper une attaque, découvrir la véritable cible,
+        créer une fausse piste ou provoquer une escalade en attaquant des
+        observateurs qui n’avaient encore reçu aucun ordre offensif.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sombrelance-hooks
+          entryId: kolkar-dans-la-poussiere
+          sourceHash: 8d9b22ab
+    _id: 5rGRc4HYUNHf51xL
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435071594
+      modifiedTime: 1792435071594
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!BFQZCTGuKPMLZ1iM.5rGRc4HYUNHf51xL'
+  - name: Quelque chose change sous la terre
+    type: text
+    sort: 2000000
+    text:
+      content: >-
+        <h2>Quelque chose change sous la terre</h2>
+
+        <h3>Situation</h3>
+
+        <p>Des Sombrelance habitués aux rites et aux signes naturels rapportent
+        plusieurs anomalies difficiles à expliquer.</p>
+
+        <p>Elles semblent devenir plus nettes lorsqu’on se dirige vers le
+        nord.</p>
+
+        <h3>Qui ?</h3>
+
+        <p><strong>Les observateurs sombrelance</strong> veulent comprendre
+        avant de tirer des conclusions.</p>
+
+        <p><strong>Les ouvriers et responsables de la Horde</strong> peuvent
+        considérer ces inquiétudes comme trop vagues.</p>
+
+        <p><strong>D’autres habitants</strong> relient immédiatement le
+        phénomène aux travaux menés plus au nord.</p>
+
+        <h3>Quoi ?</h3>
+
+        <p><strong>Adaptation de campagne.</strong></p>
+
+        <p>Cette situation constitue un lien extrêmement léger avec le fil rouge
+        de Ragefire.</p>
+
+        <p>Les signes peuvent inclure :</p>
+
+        <ul><li>vibrations inhabituelles ;</li><li>chaleur souterraine
+        ;</li><li>comportements animaux modifiés ;</li><li>réactions
+        spirituelles difficiles à interpréter.</li></ul>
+
+        <p>Ils ne révèlent pas encore la cause.</p>
+
+        <h3>Quand ?</h3>
+
+        <p>Les phénomènes existaient peut-être auparavant, mais leur répétition
+        commence seulement à produire un motif identifiable.</p>
+
+        <h3>Où ?</h3>
+
+        <p>Plusieurs points de Durotar, avec une intensité ou une fréquence qui
+        semble augmenter vers le nord.</p>
+
+        <h3>Pourquoi ?</h3>
+
+        <p>Les travaux et excavations constituent une explication plausible mais
+        encore non démontrée.</p>
+
+        <p>Il est également possible que certains phénomènes n’aient aucun
+        rapport entre eux.</p>
+
+        <h3>Portes d'entrée</h3>
+
+        <ul><li>Un chaman ou un chasseur mentionne une observation.</li><li>Les
+        PJ ressentent eux-mêmes une vibration pendant une autre
+        aventure.</li><li>Deux témoins décrivent séparément le même
+        phénomène.</li></ul>
+
+        <h3>Approches possibles</h3>
+
+        <p>Comparer les lieux, cartographier les occurrences, interroger
+        ouvriers et chasseurs, inspecter le terrain, ignorer pour l’instant ou
+        conserver simplement l’information.</p>
+
+        <h3>Complication</h3>
+
+        <p>Une partie des témoignages est faussement reliée au phénomène.</p>
+
+        <p>Durotar possède déjà ses propres dangers naturels et tout n’est pas
+        nécessairement le signe d’une seule cause.</p>
+
+        <h3>Si les PJ ne font rien</h3>
+
+        <p>Les anomalies restent d’abord mineures.</p>
+
+        <p>Si le fil rouge progresse, elles deviennent progressivement plus
+        difficiles à ignorer.</p>
+
+        <h3>Conséquences possibles</h3>
+
+        <p>Les PJ peuvent disposer d’un avertissement précoce, se tromper de
+        cause, convaincre certains responsables de surveiller les travaux ou
+        simplement accumuler une information qui ne prendra son sens que
+        beaucoup plus tard.</p>
+      format: 1
+    flags:
+      warbound-campaign-content:
+        markdownImport:
+          collectionId: durotar-sombrelance-hooks
+          entryId: esprits-du-nord
+          sourceHash: 484f6f1c
+    _id: Jox0Obg2EArVUgm4
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435071594
+      modifiedTime: 1792435071594
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!BFQZCTGuKPMLZ1iM.Jox0Obg2EArVUgm4'
+_id: BFQZCTGuKPMLZ1iM
+categories: []
+sort: 0
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792435071594
+  modifiedTime: 1792435071594
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!BFQZCTGuKPMLZ1iM'

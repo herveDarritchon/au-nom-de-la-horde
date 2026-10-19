@@ -1,0 +1,190 @@
+name: Druk
+pages:
+  - sort: 100000
+    name: Profil MJ
+    type: text
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Druk</h1>
+
+        <blockquote><p><strong>[ADAPTATION WARBAND]</strong></p></blockquote>
+
+        <h2>Rôle dans la Vallée</h2><p>Le point de vue des travailleurs. Il
+        n'est pas espion : il est simplement là tout le temps et entend ce que
+        les autres disent devant lui.</p>
+
+        <h2>Présence</h2><p>Péon observateur entouré d'outils, de charges et de
+        cordes ; il donne un nom à chaque outil.</p>
+
+        <h2>Voix et répliques</h2><ul><li>« Non. Pas celui-là. Ça c'est Gurka.
+        Gurka casse les manches. »</li><li>« J'en parle pas au contremaître tant
+        que toi tu l'as pas vu. »</li></ul>
+
+        <h2>Veut</h2><p>Faire son travail sans mourir ni être insulté toutes les
+        dix minutes.</p>
+
+        <h2>Craint</h2><ul><li>être considéré comme lâche lorsqu'il signale un
+        vrai danger</li><li>être envoyé dans une zone qu'il sait
+        dangereuse</li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _id: KWNxU1gH6Vdi3TSh
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067363
+      modifiedTime: 1792435067363
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!9SOP65G2XQGUS62P.KWNxU1gH6Vdi3TSh'
+  - sort: 200000
+    name: Relations avec les PJ
+    type: text
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Relations avec les PJ</h1>
+
+        <h2>Gagner sa confiance / son amitié</h2><p>Prendre ses observations au
+        sérieux, l'aider sans le traiter comme un incapable, défendre un fait
+        plutôt qu'un statut.</p>
+
+        <h2>La perdre / devenir son adversaire</h2><p>Le ridiculiser, l'utiliser
+        comme chair à canon ou promettre de vérifier un danger puis
+        l'oublier.</p>
+
+        <h2>Liens personnels possibles</h2>
+
+        <h3>La première personne à qui il parle</h3><p>Un PJ prend sa défense.
+        Plus tard, Druk vient d'abord voir ce PJ lorsqu'il remarque quelque
+        chose.</p><h3>Le nom des outils</h3><p>Un outil prêté ou cassé devient
+        une petite histoire commune dont Druk se souvient.</p><h2>S'il devient
+        un allié</h2><p>Informateur social et matériel crédible ; témoin de
+        chantier ; ami discret autour du feu.</p><h2>S'il devient
+        hostile</h2><p>Il ne devient pas un grand adversaire : il cesse surtout
+        de parler spontanément devant les PJ.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _id: 0MxifMaobzvUfJhQ
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067363
+      modifiedTime: 1792435067363
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!9SOP65G2XQGUS62P.0MxifMaobzvUfJhQ'
+  - sort: 300000
+    name: Jeu et évolution
+    type: text
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Jeu et évolution</h1>
+
+        <h2>Scène prête à jouer</h2><p>Thazz'rill l'accuse de paresse alors que
+        Druk refuse de retourner près d'une crevasse où il a entendu quelque
+        chose.</p>
+
+        <h2>Évolution hors champ</h2><p>Il peut être déplacé sur un autre
+        chantier et devenir plus tard un contact familier à Tranchecolline ou
+        Orgrimmar.</p>
+
+        <h2>Suivi MJ</h2>
+
+        <table>
+
+        <thead><tr><th>Élément</th><th>Notes</th></tr></thead>
+
+        <tbody>
+
+        <tr><td>Relation avec les PJ</td><td></td></tr>
+
+        <tr><td>Dette / promesse</td><td></td></tr>
+
+        <tr><td>Ce qu'il sait sur eux</td><td></td></tr>
+
+        <tr><td>Ce qu'il veut maintenant</td><td></td></tr>
+
+        <tr><td>Prochaine évolution</td><td></td></tr>
+
+        </tbody>
+
+        </table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _id: tctHFfVPYeqsAunr
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792435067363
+      modifiedTime: 1792435067363
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!9SOP65G2XQGUS62P.tctHFfVPYeqsAunr'
+categories: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  campaign-codex:
+    type: ''
+  core:
+    sheetClass: ''
+folder: YgZ3jeiFxPjJi6iB
+_id: 9SOP65G2XQGUS62P
+sort: 100391
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792435067363
+  modifiedTime: 1792435067363
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!9SOP65G2XQGUS62P'
