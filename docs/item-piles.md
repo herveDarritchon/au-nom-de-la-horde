@@ -21,16 +21,16 @@ Tous les points critiques sont résolus. Aucun [À TESTER] bloquant ne subsiste.
 
 ### Champs et chemins COF2 vérifiés
 
-| Chemin | Rôle | Statut | Référence code |
-|---|---|---|---|
-| `system.properties.stackable` | flag empilabilité par objet | **CONFIRMÉ** | `items.mjs:31` |
-| `system.quantity.current` | quantité portée | **CONFIRMÉ** | `config.mjs:41` |
-| `system.price.value` | valeur du prix | **CONFIRMÉ** | `config.mjs:42` |
-| `system.price.unit` | unité de prix (`"po"/"pa"/"pc"`) | **CONFIRMÉ** | `currency.mjs:15` |
-| `system.wealth.gp.value` | richesse PO | **CONFIRMÉ** | `config.mjs:20` |
-| `system.wealth.sp.value` | richesse PA | **CONFIRMÉ** | `config.mjs:21` |
-| `system.wealth.cp.value` | richesse PC | **CONFIRMÉ** | `config.mjs:22` |
-| `system.contents` | UUIDs des objets d'un `container` | **CONFIRMÉ** | `container.mjs` (COF2 2.3.12) |
+| Chemin                        | Rôle                              | Statut       | Référence code                |
+|-------------------------------|-----------------------------------|--------------|-------------------------------|
+| `system.properties.stackable` | flag empilabilité par objet       | **CONFIRMÉ** | `items.mjs:31`                |
+| `system.quantity.current`     | quantité portée                   | **CONFIRMÉ** | `config.mjs:41`               |
+| `system.price.value`          | valeur du prix                    | **CONFIRMÉ** | `config.mjs:42`               |
+| `system.price.unit`           | unité de prix (`"po"/"pa"/"pc"`)  | **CONFIRMÉ** | `currency.mjs:15`             |
+| `system.wealth.gp.value`      | richesse PO                       | **CONFIRMÉ** | `config.mjs:20`               |
+| `system.wealth.sp.value`      | richesse PA                       | **CONFIRMÉ** | `config.mjs:21`               |
+| `system.wealth.cp.value`      | richesse PC                       | **CONFIRMÉ** | `config.mjs:22`               |
+| `system.contents`             | UUIDs des objets d'un `container` | **CONFIRMÉ** | `container.mjs` (COF2 2.3.12) |
 
 ---
 
@@ -62,19 +62,19 @@ Tous les points critiques sont résolus. Aucun [À TESTER] bloquant ne subsiste.
 
 #### `addSystemIntegration` — paramètres validés
 
-| Paramètre | Type contractuel | Obligatoire | Validé dans notre config |
-|---|---|---|---|
-| `VERSION` | `string` | Oui | `'1'` ✓ |
-| `ACTOR_CLASS_TYPE` | `string` | Oui | `'encounter'` ✓ |
-| `ITEM_QUANTITY_ATTRIBUTE` | `string` | Oui | `'system.quantity.current'` ✓ |
-| `ITEM_PRICE_ATTRIBUTE` | `string` | Oui | `'system.price.value'` ✓ |
-| `ITEM_FILTERS` | `Array<{path: string, filters: string}>` | Oui | filtre `type` CSV ✓ |
-| `ITEM_SIMILARITIES` | `Array<string>` | Oui | 4 chemins ✓ |
-| `CURRENCIES` | `Array<{primary: boolean, name: string, abbreviation: string, exchangeRate: number, data: {path: string}}>` | Oui | PO/PA/PC ✓ |
-| `PILE_DEFAULTS` | `object` (clés de `CONSTANTS.PILE_DEFAULTS` uniquement) | Oui | `{}` ✓ |
-| `ITEM_TRANSFORMER` | `function` (async accepté) | Non | `applyStackingFlag` ✓ |
-| `ITEM_COST_TRANSFORMER` | `function` | Non | `toPrimaryAmount` ✓ |
-| `UNSTACKABLE_ITEM_TYPES` | `Array<string>` | Non | `[]` ✓ |
+| Paramètre                 | Type contractuel                                                                                            | Obligatoire | Validé dans notre config       |
+|---------------------------|-------------------------------------------------------------------------------------------------------------|-------------|--------------------------------|
+| `VERSION`                 | `string`                                                                                                    | Oui         | `'1'` ✓                       |
+| `ACTOR_CLASS_TYPE`        | `string`                                                                                                    | Oui         | `'encounter'` ✓               |
+| `ITEM_QUANTITY_ATTRIBUTE` | `string`                                                                                                    | Oui         | `'system.quantity.current'` ✓ |
+| `ITEM_PRICE_ATTRIBUTE`    | `string`                                                                                                    | Oui         | `'system.price.value'` ✓      |
+| `ITEM_FILTERS`            | `Array<{path: string, filters: string}>`                                                                    | Oui         | filtre `type` CSV ✓           |
+| `ITEM_SIMILARITIES`       | `Array<string>`                                                                                             | Oui         | 4 chemins ✓                   |
+| `CURRENCIES`              | `Array<{primary: boolean, name: string, abbreviation: string, exchangeRate: number, data: {path: string}}>` | Oui         | PO/PA/PC ✓                    |
+| `PILE_DEFAULTS`           | `object` (clés de `CONSTANTS.PILE_DEFAULTS` uniquement)                                                     | Oui         | `{}` ✓                        |
+| `ITEM_TRANSFORMER`        | `function` (async accepté)                                                                                  | Non         | `applyStackingFlag` ✓         |
+| `ITEM_COST_TRANSFORMER`   | `function`                                                                                                  | Non         | `toPrimaryAmount` ✓           |
+| `UNSTACKABLE_ITEM_TYPES`  | `Array<string>`                                                                                             | Non         | `[]` ✓                        |
 
 #### Enregistrement asynchrone
 
@@ -90,25 +90,25 @@ Tous les points critiques sont résolus. Aucun [À TESTER] bloquant ne subsiste.
 
 Contrat exact du flag (bundle 3.3.4) :
 
-| Élément | Valeur vérifiée |
-|---|---|
-| Chemin | `flags.item-piles.item.canStack` (`CONSTANTS.FLAGS.ITEM = "flags.item-piles.item"`) |
-| Type | `string` — **pas** un booléen |
-| Valeurs | `"default"` \| `"yes"` \| `"no"` |
-| Défaut | `"default"` (`CONSTANTS.ITEM_DEFAULTS.canStack`, l. 81) |
+| Élément | Valeur vérifiée                                                                                                             |
+|---------|-----------------------------------------------------------------------------------------------------------------------------|
+| Chemin  | `flags.item-piles.item.canStack` (`CONSTANTS.FLAGS.ITEM = "flags.item-piles.item"`)                                         |
+| Type    | `string` — **pas** un booléen                                                                                               |
+| Valeurs | `"default"` \| `"yes"` \| `"no"`                                                                                            |
+| Défaut  | `"default"` (`CONSTANTS.ITEM_DEFAULTS.canStack`, l. 81)                                                                     |
 | Lecture | `canItemStack(item, targetActor)` (l. 34790) : `{ default, yes, no }[itemFlagData?.canStack ?? "default"]` (l. 34805-34809) |
 
 La décision finale combine le flag objet et le réglage acteur (`actorFlagData.canStackItems`, valeurs `default`/`yes`/`no`/`always*`, l. 34798-34808) ; les devises empilent toujours (l. 34797) et les objets non stackables ne fusionnent jamais (l. 34801).
 
 **Moments de lecture — tous les chemins de transfert** appellent `canItemStack` :
 
-| Chemin | Référence |
-|---|---|
+| Chemin                                                              | Référence                                   |
+|---------------------------------------------------------------------|---------------------------------------------|
 | Transfert vers/depuis un acteur (drop, pickup, achat, vente, trade) | l. 41746, 41752, 41761, 41791, 41872, 41959 |
-| Rendu / item store / marchand | l. 42278, 42314, 44914, 70335, 70545 |
-| Vault (fusion) | l. 36367 |
-| Drop sur scène (`dropItemOn`) | l. 85228, 85282, 85350 |
-| Vault UI (rendu réactif) | l. 37401, 37498 |
+| Rendu / item store / marchand                                       | l. 42278, 42314, 44914, 70335, 70545        |
+| Vault (fusion)                                                      | l. 36367                                    |
+| Drop sur scène (`dropItemOn`)                                       | l. 85228, 85282, 85350                      |
+| Vault UI (rendu réactif)                                            | l. 37401, 37498                             |
 
 **Conséquence pour notre design** : le flag étant lu à chaque transfert, `applyStackingFlag` doit être posé sur l'objet **à chaque entrée** (c'est le rôle de `ITEM_TRANSFORMER`, exécuté avant comparaison). Un booléen au lieu d'une chaîne, ou un chemin erroné, ferait retomber silencieusement sur `"default"`.
 
@@ -120,15 +120,15 @@ La décision finale combine le flag objet et le réglage acteur (`actorFlagData.
 
 `ITEM_TYPE_HANDLERS` est un objet `{ [itemType]: { [handler]: Function } }`, avec `itemType = "GLOBAL"` par défaut. Résolution par `getItemTypeHandler(handler, itemType)` / `hasItemTypeHandler(handler, itemType)` (l. 34574-34578). Handlers reconnus (`CONSTANTS.ITEM_TYPE_METHODS`, l. 36-44) :
 
-| Handler | Rôle |
-|---|---|
-| `hasCurrency` | le type porte de la monnaie |
-| `contents` | le type détient d'autres objets |
-| `transfer` | autorise/adapte le transfert d'un objet de ce type |
-| `isContained` | l'objet est-il contenu dans un autre |
-| `isContainedPath` | chemin vers le conteneur |
-| `containerIdGenerator` / `containerIdRetriever` | id de conteneur |
-| `containerTransformer` | transformation à l'insertion |
+| Handler                                         | Rôle                                               |
+|-------------------------------------------------|----------------------------------------------------|
+| `hasCurrency`                                   | le type porte de la monnaie                        |
+| `contents`                                      | le type détient d'autres objets                    |
+| `transfer`                                      | autorise/adapte le transfert d'un objet de ce type |
+| `isContained`                                   | l'objet est-il contenu dans un autre               |
+| `isContainedPath`                               | chemin vers le conteneur                           |
+| `containerIdGenerator` / `containerIdRetriever` | id de conteneur                                    |
+| `containerTransformer`                          | transformation à l'insertion                       |
 
 **Comportement sans handler déclaré** : `getItemTypeHandler` retourne `undefined` → Item Piles retombe sur sa logique générique. Pour `container` (aucun handler générique livré, pas de `system.quantity.current`), cela signifiait que la quantité n'était pas interprétée : d'où l'exclusion historique. Un handler `container` complet via `ITEM_TYPE_HANDLERS.container` (mécanisme officiel) est désormais **livré** en P5 — #117.
 
@@ -138,15 +138,15 @@ La décision finale combine le flag objet et le réglage acteur (`actorFlagData.
 
 Item Piles pilote nativement marchands, prix et stock ; le cadrage §5 impose de **ne pas réimplémenter** cette logique dans Warbound. Flags lus par Item Piles sous `flags.item-piles.item` :
 
-| Flag | Type | Rôle | Lecture (bundle) |
-|---|---|---|---|
-| `notForSale` | `boolean` | objet non proposé à la vente | `ITEM_DEFAULTS.notForSale:false` ; posé à `true` quand quantité 0 (l. 41767/41772) |
-| `cantBeSoldToMerchants` | `boolean` | objet non revendable à un marchand | l. 35724 |
-| `hidden` | `boolean` | masqué dans l'inventaire marchand | l. 44774 |
-| `isService` | `boolean` | service : paiement sans livraison d'Item | l. 58085 |
-| `infiniteQuantity` | `string` `"default"`/`"yes"`/`"no"` | stock infini, tri-état (résolu avec la valeur du marchand) | l. 85716-85719 |
-| `displayQuantity` | `string`/`boolean` | affichage de la disponibilité (`always`, …) | l. 58009-58020 |
-| `buyPriceModifier` / `sellPriceModifier` | `number` | facteurs achat / vente | l. 64-65, 35433-35441 |
+| Flag                                     | Type                                | Rôle                                                       | Lecture (bundle)                                                                   |
+|------------------------------------------|-------------------------------------|------------------------------------------------------------|------------------------------------------------------------------------------------|
+| `notForSale`                             | `boolean`                           | objet non proposé à la vente                               | `ITEM_DEFAULTS.notForSale:false` ; posé à `true` quand quantité 0 (l. 41767/41772) |
+| `cantBeSoldToMerchants`                  | `boolean`                           | objet non revendable à un marchand                         | l. 35724                                                                           |
+| `hidden`                                 | `boolean`                           | masqué dans l'inventaire marchand                          | l. 44774                                                                           |
+| `isService`                              | `boolean`                           | service : paiement sans livraison d'Item                   | l. 58085                                                                           |
+| `infiniteQuantity`                       | `string` `"default"`/`"yes"`/`"no"` | stock infini, tri-état (résolu avec la valeur du marchand) | l. 85716-85719                                                                     |
+| `displayQuantity`                        | `string`/`boolean`                  | affichage de la disponibilité (`always`, …)                | l. 58009-58020                                                                     |
+| `buyPriceModifier` / `sellPriceModifier` | `number`                            | facteurs achat / vente                                     | l. 64-65, 35433-35441                                                              |
 
 Points d'extension **réels** pour les prix :
 
@@ -228,13 +228,13 @@ Implémentation : commentaire de politique dans `src/integrations/item-piles/ite
 
 Le fichier `warbound-item-piles-prototype.zip` (référencé au cadrage §8) est **introuvable** dans le dépôt à la clôture de #112. L'évaluation porte donc sur la description du prototype au cadrage §5.2/§8 confrontée au contrat 3.3.4 vérifié :
 
-| Aspect du prototype | Verdict vs 3.3.4 | Justification |
-|---|---|---|
-| Écriture de `flags['item-piles'].item.canStack` | **RÉUTILISABLE (corrigé)** | Le nom/chemin est exact ; le type doit être `string` (`"yes"/"no"`), pas un booléen (cf. `canItemStack` l. 34805). Repris dans `applyStackingFlag`. |
-| `ITEM_SIMILARITIES` valué par une **fonction** | **INVALIDÉ** | 3.3.4 exige `Array<string>` ; une fonction échoue la validation `addSystemIntegration`. |
-| `ITEM_FILTERS[].filters` valué par un **tableau** | **INVALIDÉ** | 3.3.4 exige une string CSV (`"a,b,c"`). |
-| Absence de `primary`/`type`/`img` sur `CURRENCIES` | **INVALIDÉ** | Champs requis / attendus par la validation et le rendu de monnaie. |
-| Signature `ITEM_TRANSFORMER` synchrone | **RÉUTILISABLE** | Item Piles `await` indifféremment ; version `async` retenue par robustesse. |
+| Aspect du prototype                                | Verdict vs 3.3.4           | Justification                                                                                                                                       |
+|----------------------------------------------------|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| Écriture de `flags['item-piles'].item.canStack`    | **RÉUTILISABLE (corrigé)** | Le nom/chemin est exact ; le type doit être `string` (`"yes"/"no"`), pas un booléen (cf. `canItemStack` l. 34805). Repris dans `applyStackingFlag`. |
+| `ITEM_SIMILARITIES` valué par une **fonction**     | **INVALIDÉ**               | 3.3.4 exige `Array<string>` ; une fonction échoue la validation `addSystemIntegration`.                                                             |
+| `ITEM_FILTERS[].filters` valué par un **tableau**  | **INVALIDÉ**               | 3.3.4 exige une string CSV (`"a,b,c"`).                                                                                                             |
+| Absence de `primary`/`type`/`img` sur `CURRENCIES` | **INVALIDÉ**               | Champs requis / attendus par la validation et le rendu de monnaie.                                                                                  |
+| Signature `ITEM_TRANSFORMER` synchrone             | **RÉUTILISABLE**           | Item Piles `await` indifféremment ; version `async` retenue par robustesse.                                                                         |
 
 **Conclusion** : le prototype n'est **pas** réutilisable tel quel ; son intention (flag par objet) est conservée, ses signatures sont remplacées par celles de P1 (#113, PR #119). Si une archive est fournie ultérieurement, réévaluer le seul point non couvert : compatibilité des `flags` personnalisés posés par le prototype.
 
@@ -242,11 +242,11 @@ Le fichier `warbound-item-piles-prototype.zip` (référencé au cadrage §8) est
 
 ### Écarts documentés (résumé P0)
 
-| Écart | Statut | Traitement |
-|---|---|---|
-| Archive `warbound-item-piles-prototype.zip` absente du dépôt | **ÉCART documenté** | Évaluation faite sur la description du cadrage §8 (voir ci-dessus). |
-| `container` sans handler dédié (quantité non interprétable) | **RÉSOLU (P5 — #117)** | Handler `ITEM_TYPE_HANDLERS.container` (`contents` + `transfer`) livré ; `container` retiré des filtres. |
-| Nature exacte des UUIDs d'un `container` peuplé en monde | **CONFIRMÉ (modèle)** | Modèle COF2 vérifié ; recette live A19 (`117-recette-f11-f12-f15.md`). Écart remap inter-acteur documenté. |
+| Écart                                                        | Statut                 | Traitement                                                                                                 |
+|--------------------------------------------------------------|------------------------|------------------------------------------------------------------------------------------------------------|
+| Archive `warbound-item-piles-prototype.zip` absente du dépôt | **ÉCART documenté**    | Évaluation faite sur la description du cadrage §8 (voir ci-dessus).                                        |
+| `container` sans handler dédié (quantité non interprétable)  | **RÉSOLU (P5 — #117)** | Handler `ITEM_TYPE_HANDLERS.container` (`contents` + `transfer`) livré ; `container` retiré des filtres.   |
+| Nature exacte des UUIDs d'un `container` peuplé en monde     | **CONFIRMÉ (modèle)**  | Modèle COF2 vérifié ; recette live A19 (`117-recette-f11-f12-f15.md`). Écart remap inter-acteur documenté. |
 
 ---
 
@@ -288,10 +288,10 @@ Item Piles fournit l'UI d'échange, la double validation, la sécurité par poss
 (`ongoingTrades` + transaction atomique) et la gestion des annulations. **Warbound ne peut pas
 intercepter ni annuler un échange PJ↔PJ.**
 
-| Hook réel | Émission | Signature | Rôle |
-|---|---|---|---|
-| `item-piles-tradeStarted` | socket `callHook`/`callHookForUsers` (`callAll`) | `(leftParticipant, rightParticipant, tradeId, isPrivate)` | notification d'ouverture |
-| `item-piles-tradeComplete` | `Hooks.callAll` (l. 90776/90792) | `(instigator, leftTraderData, rightTraderData, tradeId)` | notification de clôture |
+| Hook réel                  | Émission                                         | Signature                                                 | Rôle                     |
+|----------------------------|--------------------------------------------------|-----------------------------------------------------------|--------------------------|
+| `item-piles-tradeStarted`  | socket `callHook`/`callHookForUsers` (`callAll`) | `(leftParticipant, rightParticipant, tradeId, isPrivate)` | notification d'ouverture |
+| `item-piles-tradeComplete` | `Hooks.callAll` (l. 90776/90792)                 | `(instigator, leftTraderData, rightTraderData, tradeId)`  | notification de clôture  |
 
 - **Non annulables** (`callAll`) : ni `tradeStarted` ni `tradeComplete` ne peuvent être veto par un retour `false`.
 - Il **n'existe pas** de hook `preTradeComplete`.
@@ -418,14 +418,14 @@ Les objets de type `container` COF2 sont pris en charge depuis P5 (#117) :
 
 ### Débogage
 
-| Symptôme | Cause probable | Action |
-|---|---|---|
-| Objets ne s'empilent pas | `system.properties.stackable` à `false` | Vérifier la fiche de l'objet dans COF2 |
-| Prix affiché à 0 | `system.price.value` absent ou nul | Renseigner le prix sur l'objet COF2 |
-| Monnaie du marchand ne diminue pas après achat | Réglage *Stock infini* activé | Désactiver `infiniteQuantity` sur le marchand |
-| Conteneur transféré sans contenu | Contenu non embarqué sur l'acteur | Vérifier `system.contents` et ajouter les objets à l'acteur |
-| Échange PJ bloqué | Un des deux joueurs n'a pas validé ou a annulé | Relancer l'échange ; consulter le chat Item Piles si *Output to chat* est activé, ou `flags.warbound.tradeHistory` de l'acteur |
-| Module non détecté par Item Piles | Chargement hors ordre | Recharger la page ; vérifier que `item-piles-ready` est émis dans la console |
+| Symptôme                                       | Cause probable                                 | Action                                                                                                                         |
+|------------------------------------------------|------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
+| Objets ne s'empilent pas                       | `system.properties.stackable` à `false`        | Vérifier la fiche de l'objet dans COF2                                                                                         |
+| Prix affiché à 0                               | `system.price.value` absent ou nul             | Renseigner le prix sur l'objet COF2                                                                                            |
+| Monnaie du marchand ne diminue pas après achat | Réglage *Stock infini* activé                  | Désactiver `infiniteQuantity` sur le marchand                                                                                  |
+| Conteneur transféré sans contenu               | Contenu non embarqué sur l'acteur              | Vérifier `system.contents` et ajouter les objets à l'acteur                                                                    |
+| Échange PJ bloqué                              | Un des deux joueurs n'a pas validé ou a annulé | Relancer l'échange ; consulter le chat Item Piles si *Output to chat* est activé, ou `flags.warbound.tradeHistory` de l'acteur |
+| Module non détecté par Item Piles              | Chargement hors ordre                          | Recharger la page ; vérifier que `item-piles-ready` est émis dans la console                                                   |
 
 Pour inspecter l'état de l'intégration en console Foundry (API publique `game.itempiles.API`) :
 
@@ -445,13 +445,13 @@ game.itempiles.API.ITEM_FILTERS                  // exclut profile/feature/capac
 
 ### Limites connues
 
-| Limite | Détail |
-|---|---|
-| Compatibilité Item Piles | Testée sur la version **3.3.4** uniquement. Les versions antérieures et postérieures ne sont pas garanties. |
+| Limite                       | Détail                                                                                                                                                                                                                                                         |
+|------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Compatibilité Item Piles     | Testée sur la version **3.3.4** uniquement. Les versions antérieures et postérieures ne sont pas garanties.                                                                                                                                                    |
 | Remap conteneur inter-acteur | Après un transfert de conteneur entre deux acteurs différents, les UUIDs `system.contents`/`system.container` ne sont pas remappés (logique COF2 hors portée Item Piles). Le contenu est conservé mais l'association conteneur↔contenu peut devenir orpheline. |
-| Simple Calendar | Non intégré dans cette version. Le réapprovisionnement automatique lié au calendrier n'est pas pris en charge. |
-| Échanges PJ — annulation | Item Piles ne fournit pas de hook annulable sur les échanges PJ↔PJ. Warbound ne peut qu'observer. |
-| AppV2 Foundry 14 | Non testée explicitement contre l'interface AppV2 (non bloquant). |
+| Simple Calendar              | Non intégré dans cette version. Le réapprovisionnement automatique lié au calendrier n'est pas pris en charge.                                                                                                                                                 |
+| Échanges PJ — annulation     | Item Piles ne fournit pas de hook annulable sur les échanges PJ↔PJ. Warbound ne peut qu'observer.                                                                                                                                                              |
+| AppV2 Foundry 14             | Non testée explicitement contre l'interface AppV2 (non bloquant).                                                                                                                                                                                              |
 
 ---
 

@@ -70,13 +70,7 @@ Hooks.on("preCreateActor", (actor, data) => {
     null,
     "",
     "icons/svg/mystery-man.svg",
-    "icons/svg/mystery-man-black.svg",
-
-    /*
-     * Confirmé dans ton monde :
-     * le nouvel Actor SWADE utilise actuellement cette image.
-     */
-    "systems/dnd5e/icons/svg/actors/character.svg"
+    "icons/svg/mystery-man-black.svg"
   ];
 
   if (!defaultImages.includes(img)) return;
