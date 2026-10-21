@@ -118,7 +118,7 @@ function printHeader(scanReport, mode) {
   console.log(`  Images PNG..................... ${scanReport.images.length}`);
   console.log(`  Fichiers audio.................. ${scanReport.audio.length}`);
   console.log(`  Fichiers sources analysés...... ${scanReport.sources.length}`);
-  console.log(`  Fichiers avec refs PNG......... ${scanReport.refs.length}`);
+  console.log(`  Fichiers avec refs médias...... ${scanReport.refs.length}`);
   console.log("");
 }
 
