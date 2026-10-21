@@ -16,7 +16,8 @@
     "media:scan": "node ./tools/mediaScanner.mjs",
     "media:convert:images": "node ./tools/convertImages.mjs",
     "media:migrate-refs": "node ./tools/migrateRefs.mjs",
-    "media:optimize": "node ./tools/mediaOptimize.mjs"
+    "media:optimize": "node ./tools/mediaOptimize.mjs",
+    "media:optimize:dry-run": "node ./tools/mediaOptimize.mjs --dry-run"
   },
   "devDependencies": {
     "@foundryvtt/foundryvtt-cli": "^3.0.4",

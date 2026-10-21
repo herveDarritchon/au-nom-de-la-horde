@@ -66,25 +66,53 @@ function formatBytes(bytes) {
 /**
  * Analyse les arguments de la ligne de commande.
  * @param {string[]} argv
- * @returns {{ write: boolean, help: boolean, error: string|null }}
+ * @returns {{ write: boolean, type: string, quality: number|null, updateReferences: boolean, clean: boolean, confirm: boolean, help: boolean, error: string|null }}
  */
 function parseArgs(argv) {
   let write = false;
   let help = false;
+  let type = "all";
+  let quality = null;
+  let updateReferences = false;
+  let clean = false;
+  let confirm = false;
 
-  for (const arg of argv) {
+  const VALID_TYPES = new Set(["images", "audio", "all"]);
+
+  for (let i = 0; i < argv.length; i++) {
+    const arg = argv[i];
+
     if (arg === "--write") {
       write = true;
     } else if (arg === "--dry-run") {
       write = false;
     } else if (arg === "--help" || arg === "-h") {
       help = true;
+    } else if (arg === "--update-references") {
+      updateReferences = true;
+    } else if (arg === "--clean") {
+      clean = true;
+    } else if (arg === "--confirm") {
+      confirm = true;
+    } else if (arg === "--type") {
+      const val = argv[++i];
+      if (!val || !VALID_TYPES.has(val)) {
+        return { write, type, quality, updateReferences, clean, confirm, help, error: `Option --type invalide : ${val ?? "(manquante)"}` };
+      }
+      type = val;
+    } else if (arg === "--quality") {
+      const val = argv[++i];
+      const n = Number(val);
+      if (!val || !Number.isInteger(n) || n < 0 || n > 100) {
+        return { write, type, quality, updateReferences, clean, confirm, help, error: `Option --quality invalide : ${val ?? "(manquante)"}` };
+      }
+      quality = n;
     } else {
-      return { write, help, error: `Option inconnue : ${arg}` };
+      return { write, type, quality, updateReferences, clean, confirm, help, error: `Option inconnue : ${arg}` };
     }
   }
 
-  return { write, help, error: null };
+  return { write, type, quality, updateReferences, clean, confirm, help, error: null };
 }
 
 function printHelp() {
@@ -92,14 +120,19 @@ function printHelp() {
 WARBOUND — Media Optimize
 
 Usage :
-  pnpm media:optimize [--dry-run | --write]
+  pnpm media:optimize [options]
 
 Options :
-  --dry-run   Inventorie et projette les modifications sans rien écrire
-              (comportement par défaut).
-  --write     Convertit les PNG en WebP, migre les références, optimise les
-              OGG, recompile les packs puis supprime les PNG devenus inutiles.
-  -h, --help  Affiche cette aide.
+  --dry-run              Inventorie et projette les modifications sans rien écrire
+                         (comportement par défaut).
+  --write                Applique les modifications sur le disque.
+  --type images|audio|all
+                         Limite le traitement au type de média indiqué (défaut : all).
+  --quality <n>          Override global de la qualité WebP (0-100).
+  --update-references    Migre les références YAML après conversion.
+  --clean                Supprime les PNG devenus inutiles (requiert --confirm).
+  --confirm              Confirme les opérations destructives (ex. : --clean).
+  -h, --help             Affiche cette aide.
 
 Rapport JSON : ${REPORTS_DIR}/media-optimize-<horodatage>.json
 `);
@@ -259,7 +292,7 @@ async function writeReport(report) {
 }
 
 async function main() {
-  const { write, help, error } = parseArgs(process.argv.slice(2));
+  const { write, type, quality, updateReferences, clean, confirm, help, error } = parseArgs(process.argv.slice(2));
 
   if (help) {
     printHelp();
@@ -269,6 +302,12 @@ async function main() {
   if (error) {
     console.error(`❌ ${error}`);
     printHelp();
+    process.exitCode = 2;
+    return;
+  }
+
+  if (clean && !confirm) {
+    console.error("❌ --clean requiert --confirm pour éviter les suppressions accidentelles.");
     process.exitCode = 2;
     return;
   }
@@ -285,21 +324,30 @@ async function main() {
   printHeader(scanReport, mode);
 
   const { manifest } = await readManifest(ROOT);
-  const imageResult = await convertImages(scanReport.images, { write, manifest });
 
-  // En dry-run, sans Sharp, la projection des tailles est impossible : on
-  // migre alors toutes les références résolubles (estimation optimiste).
-  const migratableAssets = imageResult.sizes.probed
-    ? imageResult.webpAssets
-    : undefined;
+  const runImages = type === "images" || type === "all";
+  const runAudio = type === "audio" || type === "all";
 
-  const refResult = await migrateRefs(scanReport.refs, write, {
-    root: ROOT,
-    migratableAssets
-  });
+  const imageResult = runImages
+    ? await convertImages(scanReport.images, { write, quality, manifest })
+    : { converted: 0, reencoded: 0, written: 0, skipped: scanReport.images.length, keptPng: 0, keptPngDetails: [], byProfile: {}, byReason: {}, sizes: { probed: false, pngBytes: 0, webpBytes: 0 }, webpAssets: new Set(), manifestEntries: [], errors: [] };
 
-  const audioResult = await optimizeAudio(scanReport.audio, write);
-  const videoResult = await convertVideos(scanReport.videos, write);
+  // Les références ne peuvent viser que les WebP validés par l'étape image.
+  // Une sélection audio seule ne doit donc jamais déclencher un remplacement
+  // PNG→WebP non contrôlé.
+  const migratableAssets = imageResult.webpAssets;
+
+  const refResult = updateReferences
+    ? await migrateRefs(scanReport.refs, write, { root: ROOT, migratableAssets })
+    : { migrated: 0, skipped: 0, replacements: 0, files: [], errors: [] };
+
+  const audioResult = runAudio
+    ? await optimizeAudio(scanReport.audio, write)
+    : { optimized: 0, skipped: scanReport.audio.length, savedBytes: 0, errors: [] };
+
+  const videoResult = type === "all"
+    ? await convertVideos(scanReport.videos, write)
+    : { skipped: scanReport.videos?.length ?? 0, errors: [] };
 
   printResults(imageResult, refResult, audioResult, videoResult);
   printErrors([imageResult, refResult, audioResult, videoResult]);
@@ -308,6 +356,7 @@ async function main() {
     timestamp: new Date().toISOString(),
     mode,
     module: MODULE_ID,
+    options: { type, quality, updateReferences, clean, confirm },
     scan: {
       images: scanReport.images.length,
       audio: scanReport.audio.length,
@@ -353,15 +402,15 @@ async function main() {
     return;
   }
 
-  // Le manifeste est réécrit : la conversion laisse une trace des réglages
-  // appliqués, que le passage suivant peut comparer.
-  await writeManifest(
-    ROOT,
-    mergeManifest(manifest, imageResult.manifestEntries, {
-      module: MODULE_ID,
-      pruneTo: new Set(scanReport.images.map((image) => image.assetPath))
-    })
-  );
+  if (runImages) {
+    await writeManifest(
+      ROOT,
+      mergeManifest(manifest, imageResult.manifestEntries, {
+        module: MODULE_ID,
+        pruneTo: new Set(scanReport.images.map((image) => image.assetPath))
+      })
+    );
+  }
 
   const allErrors = [
     ...imageResult.errors,
@@ -380,39 +429,43 @@ async function main() {
     return;
   }
 
-  const remaining = await collectRemainingPngRefs(
-    scanReport.sources,
-    scanReport.assets
-  );
-  report.results.refs.stillReferenced = [...remaining].sort();
+  if (updateReferences) {
+    const remaining = await collectRemainingPngRefs(
+      scanReport.sources,
+      scanReport.assets
+    );
+    report.results.refs.stillReferenced = [...remaining].sort();
 
-  console.log("Recompilation des packs LevelDB (pnpm build)...");
-  report.build = { ran: true, ok: false };
+    console.log("Recompilation des packs LevelDB (pnpm build)...");
+    report.build = { ran: true, ok: false };
 
-  try {
-    execSync("pnpm build", { stdio: "inherit", cwd: ROOT });
-    report.build.ok = true;
-    console.log("✅ pnpm build réussi.");
-  } catch {
-    console.error("❌ pnpm build a échoué. PNG originaux conservés.");
-    await writeReport(report);
-    process.exitCode = 1;
-    return;
-  }
+    try {
+      execSync("pnpm build", { stdio: "inherit", cwd: ROOT });
+      report.build.ok = true;
+      console.log("✅ pnpm build réussi.");
+    } catch {
+      console.error("❌ pnpm build a échoué. PNG originaux conservés.");
+      await writeReport(report);
+      process.exitCode = 1;
+      return;
+    }
 
-  console.log("Nettoyage des PNG devenus inutiles...");
-  const cleanup = await cleanupPng(
-    scanReport.images,
-    imageResult.webpAssets,
-    remaining
-  );
+    if (clean) {
+      console.log("Nettoyage des PNG devenus inutiles...");
+      const cleanup = await cleanupPng(
+        scanReport.images,
+        imageResult.webpAssets,
+        remaining
+      );
 
-  report.cleanup = { deletedPng: cleanup.deleted, keptPng: cleanup.kept };
+      report.cleanup = { deletedPng: cleanup.deleted, keptPng: cleanup.kept };
 
-  console.log(`  ${cleanup.deleted} PNG supprimé(s).`);
+      console.log(`  ${cleanup.deleted} PNG supprimé(s).`);
 
-  if (cleanup.kept.length > 0) {
-    console.log(`  ${cleanup.kept.length} PNG conservé(s).`);
+      if (cleanup.kept.length > 0) {
+        console.log(`  ${cleanup.kept.length} PNG conservé(s).`);
+      }
+    }
   }
 
   await writeReport(report);
@@ -420,7 +473,7 @@ async function main() {
   console.log("\n✅ Optimisation terminée.");
 }
 
-export { collectRemainingPngRefs, isMainModule, main, parseArgs };
+export { collectRemainingPngRefs, isMainModule, main, parseArgs, printHelp };
 
 try {
   if (isMainModule()) {

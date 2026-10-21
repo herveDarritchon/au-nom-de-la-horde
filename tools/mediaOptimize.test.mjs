@@ -48,6 +48,85 @@ test("parseArgs — option inconnue => erreur", () => {
   assert.equal(result.error, "Option inconnue : --convertir");
 });
 
+test("parseArgs — --type images", () => {
+  assert.equal(parseArgs(["--type", "images"]).type, "images");
+});
+
+test("parseArgs — --type audio", () => {
+  assert.equal(parseArgs(["--type", "audio"]).type, "audio");
+});
+
+test("parseArgs — --type all", () => {
+  assert.equal(parseArgs(["--type", "all"]).type, "all");
+});
+
+test("parseArgs — --type invalide => erreur", () => {
+  const result = parseArgs(["--type", "video"]);
+
+  assert.ok(result.error !== null);
+  assert.match(result.error, /--type invalide/);
+});
+
+test("parseArgs — --type sans valeur => erreur", () => {
+  const result = parseArgs(["--type"]);
+
+  assert.ok(result.error !== null);
+  assert.match(result.error, /--type invalide/);
+});
+
+test("parseArgs — --quality 80", () => {
+  assert.equal(parseArgs(["--quality", "80"]).quality, 80);
+});
+
+test("parseArgs — --quality 0 est accepté", () => {
+  assert.equal(parseArgs(["--quality", "0"]).quality, 0);
+});
+
+test("parseArgs — --quality 101 hors plage => erreur", () => {
+  const result = parseArgs(["--quality", "101"]);
+
+  assert.ok(result.error !== null);
+  assert.match(result.error, /--quality invalide/);
+});
+
+test("parseArgs — --quality abc => erreur", () => {
+  const result = parseArgs(["--quality", "abc"]);
+
+  assert.ok(result.error !== null);
+  assert.match(result.error, /--quality invalide/);
+});
+
+test("parseArgs — --quality sans valeur => erreur", () => {
+  const result = parseArgs(["--quality"]);
+
+  assert.ok(result.error !== null);
+  assert.match(result.error, /--quality invalide/);
+});
+
+test("parseArgs — --update-references", () => {
+  assert.equal(parseArgs(["--update-references"]).updateReferences, true);
+});
+
+test("parseArgs — updateReferences false par défaut", () => {
+  assert.equal(parseArgs([]).updateReferences, false);
+});
+
+test("parseArgs — --clean", () => {
+  assert.equal(parseArgs(["--clean"]).clean, true);
+});
+
+test("parseArgs — --confirm", () => {
+  assert.equal(parseArgs(["--confirm"]).confirm, true);
+});
+
+test("parseArgs — type all par défaut", () => {
+  assert.equal(parseArgs([]).type, "all");
+});
+
+test("parseArgs — quality null par défaut", () => {
+  assert.equal(parseArgs([]).quality, null);
+});
+
 test("isMainModule — false quand le module est importé", () => {
   assert.equal(isMainModule(), false);
 });
