@@ -3,6 +3,7 @@ import assert from "node:assert/strict";
 import path from "node:path";
 
 import {
+  collectAssetRefs,
   collectPngAssetRefs,
   pngToWebpPath,
   resolveAssetRef,
@@ -227,6 +228,52 @@ test("collectPngAssetRefs ignore les références déjà WebP", () => {
   const found = collectPngAssetRefs(content, CONTEXT);
 
   assert.equal(found.size, 0);
+});
+
+// collectAssetRefs
+
+test("collectAssetRefs liste les assets de toutes les extensions demandées", () => {
+  const content = [
+    `a: ${PREFIX}assets/images/hero.png`,
+    `b: ${PREFIX}assets/musics/ambiance.ogg`,
+    `c: ${PREFIX}assets/scenes/thumb-1.webp`
+  ].join("\n");
+
+  const found = collectAssetRefs(content, CONTEXT, [".png", ".ogg", ".webp"]);
+
+  assert.equal(found.size, 3);
+  assert.ok(found.has("assets/images/hero.png"));
+  assert.ok(found.has("assets/musics/ambiance.ogg"));
+  assert.ok(found.has("assets/scenes/thumb-1.webp"));
+});
+
+test("collectAssetRefs ignore les extensions non demandées", () => {
+  const content = `a: ${PREFIX}assets/images/hero.png\nb: ${PREFIX}assets/musics/ambiance.ogg`;
+  const found = collectAssetRefs(content, CONTEXT, [".png"]);
+
+  assert.equal(found.size, 1);
+  assert.ok(found.has("assets/images/hero.png"));
+});
+
+test("collectAssetRefs détecte une référence suivie d'un point de fin de phrase", () => {
+  const content = `description: voir ${PREFIX}assets/images/hero.png.`;
+  const found = collectAssetRefs(content, CONTEXT, [".png"]);
+
+  assert.deepEqual([...found], ["assets/images/hero.png"]);
+});
+
+test("collectAssetRefs ne confond pas une extension suivi d'un suffixe", () => {
+  const content = `a: ${PREFIX}assets/images/hero.pngx`;
+  const found = collectAssetRefs(content, CONTEXT, [".png"]);
+
+  assert.equal(found.size, 0);
+});
+
+test("collectAssetRefs détecte un template littéral JavaScript", () => {
+  const content = "img: `modules/${MODULE_ID}/assets/ui/logo.png`";
+  const found = collectAssetRefs(content, CONTEXT, [".png"]);
+
+  assert.deepEqual([...found], ["assets/ui/logo.png"]);
 });
 
 // resolveImageProfile

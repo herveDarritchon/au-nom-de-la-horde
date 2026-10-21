@@ -11,16 +11,29 @@
 import path from "node:path";
 
 /**
- * Motif de détection d'une référence PNG dans un contenu texte.
+ * Parties d'un chemin de référence, hors extension.
  *
  * Le jeu de caractères exclut les espaces et les guillemets : une référence
  * contenant un espace doit être encodée en pourcentage (`%20`), comme c'est
- * le cas dans les YAML du module. Les interpolations `${...}` sont admises
- * pour supporter les templates littéraux JavaScript
+ * le cas dans les YAML du module. Les accolades admettent les interpolations
+ * `${...}` des templates littéraux JavaScript
  * (`modules/${MODULE_ID}/assets/...`).
+ *
+ * L'alternative sur les accolades est regroupée dans la classe de caractères
+ * plutôt qu'en seconde branche d'alternance : une alternance de deux motifs
+ * de longueur variable sur un seul caractère ferait démarrer la
+ * correspondance au milieu du chemin.
  */
-const PNG_REF_PATTERN =
-  /(?:[A-Za-z0-9_@%+~$:.\-/]|\{[A-Za-z0-9_]*\})+\.png/gi;
+const REF_TOKEN = "[A-Za-z0-9_@%+~$:.{}/\\-]+";
+
+/**
+ * Un caractère de mot ne peut pas suivre l'extension : `hero.pngx` ne doit
+ * pas être lu comme une référence à `hero.png`.
+ *
+ * La borne reste volontairement laxiste sur la ponctuation, pour ne pas rater
+ * une référence suivie d'un point de fin de phrase (`assets/hero.png.`).
+ */
+const REF_TOKEN_BOUNDARY = "(?![\\w%+])";
 
 /** Capture le segment de module dans `modules/<segment>/...`. */
 const MODULE_REF_PATTERN = /(?:^|\/)modules\/([^/]+)\//;
@@ -31,6 +44,27 @@ const RELATIVE_REF_PATTERN = /^\.\.?[\\/]/;
 function escapeRegex(str) {
   return str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
+
+/**
+ * Construit le motif de détection de références pour une liste d'extensions.
+ *
+ * Exemples d'extensions acceptées : `.png`, `.ogg`, `.webp`.
+ *
+ * @param {string[]} extensions
+ * @returns {RegExp}
+ */
+function buildAssetRefPattern(extensions) {
+  const alternatives = extensions.map(escapeRegex).join("|");
+
+  return new RegExp(`${REF_TOKEN}(?:${alternatives})${REF_TOKEN_BOUNDARY}`, "gi");
+}
+
+/**
+ * Motif de détection d'une référence PNG dans un contenu texte.
+ *
+ * @type {RegExp}
+ */
+const PNG_REF_PATTERN = buildAssetRefPattern([".png"]);
 
 function toPosix(filePath) {
   return filePath.split(path.sep).join("/");
@@ -159,22 +193,36 @@ function rewriteAssetRefs(content, options) {
 }
 
 /**
+ * Liste les assets correspondant aux extensions données et encore référencés
+ * dans un contenu (YAML, CSS, JS...).
+ *
+ * @param {string} content
+ * @param {{ root: string, fileDir: string, moduleId: string }} context
+ * @param {string[]} extensions extensions à rechercher (`.png`, `.ogg`...)
+ * @returns {Set<string>} chemins d'assets relatifs à la racine du dépôt
+ */
+function collectAssetRefs(content, context, extensions) {
+  const regex = buildAssetRefPattern(extensions);
+  const found = new Set();
+
+  for (const match of content.matchAll(regex)) {
+    const raw = match[0];
+    const assetPath = resolveAssetRef(raw, context);
+
+    if (assetPath) found.add(assetPath);
+  }
+
+  return found;
+}
+
+/**
  * Liste les assets PNG encore référencés dans un contenu.
  * @param {string} content
  * @param {{ root: string, fileDir: string, moduleId: string }} context
  * @returns {Set<string>}
  */
 function collectPngAssetRefs(content, context) {
-  const regex = new RegExp(PNG_REF_PATTERN.source, "gi");
-  const found = new Set();
-
-  for (const match of content.matchAll(regex)) {
-    const assetPath = resolveAssetRef(match[0], context);
-
-    if (assetPath) found.add(assetPath);
-  }
-
-  return found;
+  return collectAssetRefs(content, context, [".png"]);
 }
 
 /**
@@ -193,6 +241,8 @@ function resolveImageProfile(assetPath, rules) {
 
 export {
   PNG_REF_PATTERN,
+  buildAssetRefPattern,
+  collectAssetRefs,
   collectPngAssetRefs,
   escapeRegex,
   pngToWebpPath,

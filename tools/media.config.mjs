@@ -47,6 +47,11 @@ export const IMAGE_PROFILE_RULES = [
 export const IMAGE_EXTENSIONS = [".png"];
 
 /**
+ * Extensions déjà optimisées (WebP).
+ */
+export const WEBP_EXTENSIONS = [".webp"];
+
+/**
  * Extensions audio optimisées par FFmpeg.
  */
 export const AUDIO_EXTENSIONS = [".ogg", ".oga"];
@@ -55,6 +60,22 @@ export const AUDIO_EXTENSIONS = [".ogg", ".oga"];
  * Extensions vidéo (conversion hors périmètre, stub).
  */
 export const VIDEO_EXTENSIONS = [".mp4", ".mov", ".m4v", ".webm"];
+
+/**
+ * Extensions pour lesquelles on recherche des références dans les sources.
+ *
+ * Couvre tout média pouvant être référencé par un YAML, une feuille de style
+ * ou un script — le scanner doit pouvoir attribuer ses références aux OGG et
+ * aux WebP existants, pas seulement aux PNG.
+ */
+export const MEDIA_REF_EXTENSIONS = [
+  ...IMAGE_EXTENSIONS,
+  ...WEBP_EXTENSIONS,
+  ".jpg",
+  ".jpeg",
+  ...AUDIO_EXTENSIONS,
+  ...VIDEO_EXTENSIONS
+];
 
 export const AUDIO_CONFIG = {
   /** Bitrate cible des fichiers audio. */
