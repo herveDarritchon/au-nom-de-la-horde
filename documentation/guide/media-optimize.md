@@ -154,12 +154,28 @@ de profil. Le manifeste n'est écrit qu'en mode `--write` ; en dry-run, il est s
 ## Utilisation
 
 ```bash
-pnpm media:optimize            # dry-run : rien n'est écrit sur le disque
-pnpm media:optimize --write    # applique les conversions
-pnpm media:optimize --help     # aide
+pnpm media:optimize                              # dry-run complet
+pnpm media:optimize:dry-run                      # alias du dry-run
+pnpm media:optimize --write                      # applique les étapes sélectionnées
+pnpm media:optimize --write --type images \
+  --update-references                            # convertit, migre et rebuild les packs
+pnpm media:optimize --write --clean --confirm    # supprime les PNG devenus inutiles
+pnpm media:optimize --help                       # aide
 ```
 
 Sans `--write`, l'outil n'écrit **que** le rapport JSON dans `reports/`. C'est le mode par défaut.
+
+Options :
+
+| Option | Effet |
+|---|---|
+| `--type images\|audio\|all` | limite les étapes au type de média demandé (`all` par défaut) |
+| `--quality <n>` | override global WebP entre 0 et 100 |
+| `--update-references` | migre les références PNG du module avec `conversion-table.json` |
+| `--clean --confirm` | supprime les PNG uniquement après migration et build réussis |
+
+Le rebuild `pnpm build` est exécuté en mode écriture lorsque `--update-references` est activé.
+`--clean` seul est refusé ; l'option `--confirm` est obligatoire pour toute suppression.
 
 ## Codes de sortie
 
@@ -185,7 +201,7 @@ Sans `--write`, l'outil n'écrit **que** le rapport JSON dans `reports/`. C'est 
    y compris sous forme encodée (`%20`).
 4. **Audio** — réencode les OGG au bitrate cible et pose une balise
    `warbound-media-optimize:96k`. Un fichier déjà porteur de cette balise est ignoré.
-5. **Build** — en mode `--write`, relance `pnpm build` (audit + compilation des packs).
+5. **Build** — avec `--write --update-references`, relance `pnpm build` (audit + compilation des packs).
 6. **Nettoyage** — supprime les PNG devenus inutiles, uniquement si le build est vert
    **et** qu'aucune source ne les référence encore.
 
