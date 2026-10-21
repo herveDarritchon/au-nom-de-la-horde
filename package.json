@@ -14,6 +14,7 @@
     "test:coverage": "c8 node --test",
     "check:html-inline": "bash tools/check-inline-html.sh",
     "media:scan": "node ./tools/mediaScanner.mjs",
+    "media:convert:images": "node ./tools/convertImages.mjs",
     "media:optimize": "node ./tools/mediaOptimize.mjs"
   },
   "devDependencies": {

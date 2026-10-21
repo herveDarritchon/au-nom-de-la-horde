@@ -582,3 +582,6 @@ packs/
 
 # Rapports JSON de l'outil media:optimize
 reports/
+
+# Table de conversion PNG→WebP (générée par media:convert:images)
+conversion-table.json
