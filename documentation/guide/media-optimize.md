@@ -56,38 +56,100 @@ Convertit les PNG du module en WebP via Sharp, sans toucher aux références ni 
 originaux — cette commande ne fait que la conversion.
 
 ```bash
-pnpm media:convert:images            # dry-run : projection, aucun asset modifié
-pnpm media:convert:images --write    # convertit les PNG et produit conversion-table.json
-pnpm media:convert:images --help     # aide
+pnpm media:convert:images                          # dry-run : projection, aucun asset modifié
+pnpm media:convert:images --write                  # convertit les PNG et produit conversion-table.json
+pnpm media:convert:images --write --quality 90     # force la qualité de tous les profils
+pnpm media:convert:images --help                   # aide
 ```
 
-Les profils de qualité sont appliqués selon le sous-dossier :
+### Profils de compression
 
-| Répertoire | Profil | Qualité |
-|---|---|---|
-| `assets/images/avatar/` | `portrait` | 85, avec perte |
-| `assets/images/battlemaps/` | `map` | 88, avec perte |
-| `assets/images/tokens/` | `token` | 87, avec perte |
-| `assets/images/icons/` | `icon` | lossless |
-| autres | `default` | 85, avec perte |
+Les profils sont appliqués selon le sous-dossier. Chaque profil fixe une qualité Sharp, un mode
+(`lossless` ou avec perte) et un `effort` (niveau de compression WebP, 0-6) :
 
-`ui` (92) et `illustration` (82) affinent la ligne « autres » pour l'habillage d'interface et
-les illustrations décoratives, volontairement plus compressées.
+| Répertoire | Profil | Qualité | Mode | Effort |
+|---|---|---|---|---|
+| `assets/ui/` | `ui` | 92 | avec perte | 4 |
+| `assets/images/icons/` | `icon` | — | `lossless` | 4 |
+| `assets/images/tokens/`, `assets/images/frames/` | `token` | 87 | avec perte | 4 |
+| `assets/images/avatar/` | `portrait` | 85 | avec perte | 4 |
+| `assets/images/illustrations/`, `assets/elements/`, `assets/pages/` | `illustration` | 82 | avec perte | 4 |
+| `assets/images/battlemaps/`, `assets/images/maps/`, `assets/landing-page/maps/` | `map` | 88 | avec perte | 4 |
+| autres | `default` | 85 | avec perte | 4 |
 
-Règles appliquées :
+La liste se modifie dans `tools/media.config.mjs` (`IMAGE_PROFILES`) : une entrée =
+`{ profile, match, quality, lossless, effort }`, où `match` est une expression régulière
+appliquée au chemin de l'asset. La première entrée qui correspond gagne ; la dernière sert de
+repli (`match: /^/`).
+
+`quality: null` signifie « laisser Sharp décider » (cas du profil `icon` en `lossless`).
+
+### Override global de la qualité
+
+`--quality <n>` force la qualité de **tous** les profils (0-100). Le mode `lossless` et l'`effort`
+sont conservés ; seule la qualité est remplacée. La valeur est appliquée au rapport
+(`qualityOverride`) et au manifeste, ce qui rend l'override traçable.
+
+```bash
+pnpm media:convert:images --write --quality 90
+```
+
+Attention : une qualité plus haute produit des fichiers plus lourds (331 PNG : 280 Mo avec les
+profils par défaut, 291 Mo en `--quality 90`).
+
+### L'effort WebP : pourquoi 4 par défaut
+
+L'`effort` (0-6, 4 par défaut chez Sharp) trade du temps de calcul contre quelques pourcents de
+taille. Mesures réelles sur ce dépôt (21/10/2026) :
+
+| Cas | `effort 4` | `effort 6` | Écart |
+|---|---|---|---|
+| Icône 1254×1254, `lossless` | 1819 Ko / 739 ms | 1760 Ko / 956 ms | −3 % / ×1,3 |
+| Icône 1254×1254, `q90` | 407 Ko / 344 ms | 393 Ko / 6214 ms | −3 % / ×18 |
+| Battlemaps (8 fichiers) | 0,6 Mo | 0,5 Mo | −0,4 % / ×2,5 |
+
+Le gain est marginal face au coût : `effort 4` reste le défaut, `effort 6` est disponible dans la
+config pour qui veut compresser davantage. À noter aussi que `q100` + `lossless` + `effort 6`
+dégrade fortement le temps d'encodage (15 s pour une icône) pour un gain marginal.
+
+### Règles appliquées
 
 - les dimensions d'origine sont conservées (aucun redimensionnement) ;
 - le canal alpha est préservé (tokens) ;
-- les PNG dont le WebP serait plus lourd sont conservés en PNG, et le WebP est supprimé ;
+- un WebP plus lourd que son PNG n'est pas écrit, le PNG est conservé (`SKIP_LARGER`) ; un WebP
+  antérieur, s'il existe, n'est jamais supprimé ;
 - les vignettes `assets/scenes/thumb-*.webp` générées par Foundry sont ignorées ;
-- les PNG déjà convertis (WebP présent) ne sont pas réencodés — l'opération est idempotente.
+- un WebP produit par un autre outil est laissé intact (`SKIP_EXISTING`) ;
+- un WebP déjà produit par l'outil **au même profil** et pour la **même source** n'est pas
+  réencodé (`SKIP_OPTIMIZED`) ; un changement de profil ou de source force le réencodage
+  (`REENCODED`).
 
-Deux fichiers sont produits, tous deux gitignorés :
+### Motifs de décision
+
+Chaque image reçoit un motif, reporté dans le rapport et la console :
+
+| Motif | Signification |
+|---|---|
+| `CONVERTED` | PNG converti en WebP pour la première fois |
+| `REENCODED` | WebP réécrit (profil changé, override changé ou source modifiée) |
+| `SKIP_LARGER` | WebP plus lourd que le PNG : PNG conservé, WebP non écrit |
+| `SKIP_EXISTING` | WebP présent mais produit hors de l'outil : laissé intact |
+| `SKIP_OPTIMIZED` | WebP déjà optimisé au profil courant : rien à faire |
+| `SKIP_THUMBNAIL` | vignette de scène Foundry : hors périmètre |
+
+### Fichiers produits
+
+Tous gitignorés :
 
 | Fichier | Contenu |
 |---|---|
 | `conversion-table.json` (racine) | table `PNG → WebP` des PNG dispose d'un WebP valide (un asset écarté pour poids y est absent) |
-| `reports/media-convert-images-<horodatage>.json` | rapport détaillé : répartition par profil, WebP écartés pour poids, erreurs, vignettes ignorées |
+| `conversion-manifest.json` (racine) | manifeste de conversion : pour chaque asset, le profil et les réglages appliqués, l'empreinte de la source et les tailles obtenues |
+| `reports/media-convert-images-<horodatage>.json` | rapport détaillé : répartition par profil, économie totale, décision par fichier, erreurs, vignettes ignorées |
+
+Le manifeste est ce qui rend l'**idempotence au même profil** possible : sans lui, un WebP déjà
+présent serait indéterminé (`SKIP_EXISTING`) et ne pourrait pas être réencodé en cas de changement
+de profil. Le manifeste n'est écrit qu'en mode `--write` ; en dry-run, il est seulement lu.
 
 ## Utilisation
 
@@ -112,9 +174,11 @@ Sans `--write`, l'outil n'écrit **que** le rapport JSON dans `reports/`. C'est 
 1. **Scan** — inventorie `assets/` (PNG, OGG, MP4/MOV) et analyse les fichiers sources
    (`compendiums/**`, `styles/**`, `scripts/**`, `src/**`, `examples/**`, `module.json`)
    pour y repérer les références `.png`.
-2. **Images** — convertit chaque PNG en WebP selon un profil de qualité
+2. **Images** — convertit chaque PNG en WebP selon un profil de compression
    (interface, icône, token, portrait, illustration, carte). Si le WebP obtenu n'est pas
-   plus léger que le PNG source, il est supprimé et le PNG est conservé.
+   plus léger que le PNG source, il n'est pas écrit et le PNG est conservé. Un WebP déjà
+   optimisé au profil courant n'est pas réencodé ; un changement de profil ou de source
+   déclenche un réencodage.
 3. **Références** — réécrit `.png` → `.webp` dans les sources. Les références préfixées
    `modules/warbound-campaign-content/…`, relatives en CSS (`url("../assets/…")`) et en
    template littéral JavaScript (`modules/${MODULE_ID}/assets/…`) sont prises en charge,
@@ -131,14 +195,38 @@ Relancer l'outil ne refait rien : un WebP existant, une référence déjà en `.
 déjà balisé sont détectés et ignorés. Une seconde exécution en `--write` ne modifie aucun
 fichier et le rapport indique `0 PNG supprimé(s)`.
 
+Pour les images, l'idempotence est **au profil près** : le manifeste retient les réglages
+appliqués et l'empreinte de la source. Relancer sans changer de profil donne
+`331 SKIP_OPTIMIZED` et n'écrit rien ; changer de profil (ou passer `--quality`) donne
+`331 REENCODED`. Modifier un PNG source ne réencode que cet asset.
+
 ## Rapport JSON
 
 `pnpm media:scan` écrit `reports/media-scan-<horodatage>.json` (inventaire détaillé, décrit
 plus haut).
 
 `pnpm media:convert:images` écrit `reports/media-convert-images-<horodatage>.json` :
-répartition par profil, WebP écartés pour poids (avec les deux tailles), erreurs et vignettes
-Foundry ignorées.
+répartition par profil, économie totale, décision par fichier (avec les deux tailles et le
+pourcentage d'économie), erreurs et vignettes Foundry ignorées.
+
+```json
+{
+  "mode": "WRITE",
+  "qualityOverride": null,
+  "results": {
+    "converted": 331,
+    "reencoded": 0,
+    "written": 331,
+    "skipped": 0,
+    "byReason": { "CONVERTED": 331, "REENCODED": 0, "SKIP_LARGER": 0, "SKIP_EXISTING": 0, "SKIP_OPTIMIZED": 0 },
+    "savings": { "pngBytes": 695111158, "webpBytes": 293301823, "savedBytes": 401809335, "pngMb": 662.9, "webpMb": 279.8, "savedMb": 383.3, "pct": 58 },
+    "perFile": [
+      { "assetPath": "assets/images/icons/soin.png", "profile": "icon", "reason": "CONVERTED", "pngBytes": 100000, "webpBytes": 40000, "savingsPct": 60 }
+    ]
+  },
+  "manifest": { "path": "conversion-manifest.json", "entries": 331, "written": true }
+}
+```
 
 `pnpm media:optimize` écrit `reports/media-optimize-<horodatage>.json` :
 
@@ -162,8 +250,9 @@ Les réglages vivent dans `tools/media.config.mjs` :
 
 | Constante | Rôle |
 |---|---|
-| `IMAGE_PROFILES` | qualité Sharp WebP par type d'image |
-| `IMAGE_PROFILE_RULES` | règles d'affectation d'un profil à un chemin d'asset |
+| `IMAGE_PROFILES` | profils de compression (qualité, mode, effort) et règles d'affectation à un chemin d'asset |
+| `DEFAULT_WEBP_EFFORT` | effort WebP par défaut (`4`) |
+| `WEBP_EFFORT_RANGE` | bornes acceptées pour l'effort (`0` à `6`) |
 | `FOUNDRY_THUMBNAIL_PATTERN` | vignettes de scènes Foundry, exclues de la conversion |
 | `MEDIA_REF_EXTENSIONS` | extensions cherchées dans les sources lors du scan |
 | `AUDIO_CONFIG.bitrate` | bitrate cible Opus (`96k` par défaut) |

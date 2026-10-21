@@ -13,10 +13,33 @@ export const COMPENDIUMS_DIR = "compendiums";
 export const REPORTS_DIR = "reports";
 
 /**
- * Profils de qualité WebP par type d'image.
+ * Effort d'encodage Sharp par défaut (0-6).
  *
- * `quality` est le paramètre `sharp` (0-100) ; `lossless` produit des WebP
- * sans perte, nettement plus lourds.
+ * 4 est la valeur par défaut de `sharp.webp()` : les réglages par défaut
+ * produisent donc exactement les mêmes WebP que la version précédente de
+ * l'outil. Monter à 6 gagne environ 3 % de poids sur les icônes `lossless`,
+ * pour environ 0,2 s de plus par image ; sur les profils avec perte, l'effort 6
+ * multiplie le temps d'encodage par ~18 pour le même gain, il n'est donc pas
+ * activé par défaut.
+ */
+export const DEFAULT_WEBP_EFFORT = 4;
+
+/**
+ * Bornes de l'effort d'encodage acceptées par `sharp.webp()`.
+ */
+export const WEBP_EFFORT_RANGE = { min: 0, max: 6 };
+
+/**
+ * Profils de compression WebP, par motif de chemin.
+ *
+ * Chaque entrée regroupe le motif d'affectation et les réglages d'encodage :
+ * ajouter ou ajuster un profil se fait à un seul endroit, sans toucher au
+ * code de conversion. Les entrées sont évaluées dans l'ordre, la première
+ * correspondance l'emporte ; `default` rattrape tout le reste.
+ *
+ * - `quality` : paramètre `sharp` (0-100), ignoré en mode `lossless` ;
+ * - `lossless` : encodage sans perte, nettement plus lourd ;
+ * - `effort` : niveau d'effort CPU de `sharp` (0-6), défaut 4.
  *
  * Correspondance avec la table de l'issue #128 :
  *
@@ -32,27 +55,14 @@ export const REPORTS_DIR = "reports";
  * d'images qui s'y apparentent : l'habillage d'interface (5 images) et les
  * illustrations décoratives (88 images), volontairement plus compressées.
  */
-export const IMAGE_PROFILES = {
-  default:      { quality: 85, lossless: false },
-  ui:           { quality: 92, lossless: false },
-  icon:         { lossless: true },
-  token:        { quality: 87, lossless: false },
-  portrait:     { quality: 85, lossless: false },
-  illustration: { quality: 82, lossless: false },
-  map:          { quality: 88, lossless: false }
-};
-
-/**
- * Règles d'affectation d'un profil, évaluées dans l'ordre.
- * Le motif est appliqué au chemin POSIX de l'asset (`assets/...`).
- */
-export const IMAGE_PROFILE_RULES = [
-  { profile: "ui", match: /^assets\/ui\// },
-  { profile: "icon", match: /^assets\/images\/icons\// },
-  { profile: "token", match: /^assets\/images\/(tokens|frames)\// },
-  { profile: "portrait", match: /^assets\/images\/avatar\// },
-  { profile: "illustration", match: /^assets\/(images\/illustrations|elements|pages)\// },
-  { profile: "map", match: /^assets\/(images\/(battlemaps|maps)|landing-page\/maps)\// }
+export const IMAGE_PROFILES = [
+  { profile: "ui",           match: /^assets\/ui\//,                                      quality: 92, lossless: false, effort: 4 },
+  { profile: "icon",         match: /^assets\/images\/icons\//,                            quality: null, lossless: true,  effort: 4 },
+  { profile: "token",        match: /^assets\/images\/(tokens|frames)\//,                  quality: 87, lossless: false, effort: 4 },
+  { profile: "portrait",     match: /^assets\/images\/avatar\//,                           quality: 85, lossless: false, effort: 4 },
+  { profile: "illustration", match: /^assets\/(images\/illustrations|elements|pages)\//, quality: 82, lossless: false, effort: 4 },
+  { profile: "map",          match: /^assets\/(images\/(battlemaps|maps)|landing-page\/maps)\//, quality: 88, lossless: false, effort: 4 },
+  { profile: "default",      match: /^/,                                                  quality: 85, lossless: false, effort: 4 }
 ];
 
 /**

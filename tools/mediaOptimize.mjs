@@ -25,9 +25,11 @@ import { execSync } from "node:child_process";
 import { pathToFileURL } from "node:url";
 
 import { collectPngAssetRefs } from "../src/tools/mediaPaths.mjs";
+import { mergeManifest } from "../src/tools/conversionManifest.mjs";
 
 import { scan } from "./mediaScanner.mjs";
 import { run as convertImages } from "./convertImages.mjs";
+import { readManifest, writeManifest } from "./manifestStore.mjs";
 import { run as migrateRefs } from "./migrateRefs.mjs";
 import { run as optimizeAudio } from "./optimizeAudio.mjs";
 import { run as convertVideos } from "./convertVideos.mjs";
@@ -127,6 +129,9 @@ function printResults(imageResult, refResult, audioResult, videoResult) {
 
   console.log(
     `  Images converties (PNG→WebP)... ${imageResult.converted}`
+  );
+  console.log(
+    `  Images réencodées.............. ${imageResult.reencoded}`
   );
   console.log(
     `  Images ignorées (déjà WebP).... ${imageResult.skipped}`
@@ -279,7 +284,8 @@ async function main() {
   const scanReport = await scan(ROOT);
   printHeader(scanReport, mode);
 
-  const imageResult = await convertImages(scanReport.images, write);
+  const { manifest } = await readManifest(ROOT);
+  const imageResult = await convertImages(scanReport.images, { write, manifest });
 
   // En dry-run, sans Sharp, la projection des tailles est impossible : on
   // migre alors toutes les références résolubles (estimation optimiste).
@@ -312,11 +318,13 @@ async function main() {
     results: {
       images: {
         converted: imageResult.converted,
+        reencoded: imageResult.reencoded,
         written: imageResult.written,
         skipped: imageResult.skipped,
         keptPng: imageResult.keptPng,
         keptPngDetails: imageResult.keptPngDetails,
         byProfile: imageResult.byProfile,
+        byReason: imageResult.byReason,
         sizes: imageResult.sizes,
         errors: imageResult.errors
       },
@@ -344,6 +352,16 @@ async function main() {
     );
     return;
   }
+
+  // Le manifeste est réécrit : la conversion laisse une trace des réglages
+  // appliqués, que le passage suivant peut comparer.
+  await writeManifest(
+    ROOT,
+    mergeManifest(manifest, imageResult.manifestEntries, {
+      module: MODULE_ID,
+      pruneTo: new Set(scanReport.images.map((image) => image.assetPath))
+    })
+  );
 
   const allErrors = [
     ...imageResult.errors,

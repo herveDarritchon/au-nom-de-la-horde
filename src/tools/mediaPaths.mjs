@@ -27,6 +27,13 @@ import path from "node:path";
 const REF_TOKEN = "[A-Za-z0-9_@%+~$:.{}/\\-]+";
 
 /**
+ * Effort d'encodage par défaut, aligné sur la valeur de `sharp.webp()` et sur
+ * `DEFAULT_WEBP_EFFORT` de `tools/media.config.mjs`. Sert de repli pour les
+ * listes de profils qui ne préciseraient pas d'effort.
+ */
+const DEFAULT_EFFORT = 4;
+
+/**
  * Un caractère de mot ne peut pas suivre l'extension : `hero.pngx` ne doit
  * pas être lu comme une référence à `hero.png`.
  *
@@ -239,6 +246,45 @@ function resolveImageProfile(assetPath, rules) {
   return "default";
 }
 
+/**
+ * Détermine le profil et les réglages d'encodage effectifs d'un asset image.
+ *
+ * L'entrée « default » sert de repli : elle porte les réglages appliqués à
+ * tout asset qui ne correspond à aucun motif plus précis.
+ *
+ * @param {string} assetPath  chemin POSIX relatif au dépôt (`assets/...`)
+ * @param {Array<{profile: string, match: RegExp, quality?: number|null, lossless?: boolean, effort?: number}>} profiles
+ * @returns {{profile: string, quality: number|null, lossless: boolean, effort: number}}
+ */
+function resolveImageSettings(assetPath, profiles) {
+  const matched = profiles.find((entry) => entry.match.test(assetPath))
+    ?? profiles.find((entry) => entry.profile === "default");
+
+  if (!matched) {
+    throw new Error(`Aucun profil de compression applicable à « ${assetPath} »`);
+  }
+
+  return {
+    profile: matched.profile,
+    quality: matched.quality ?? null,
+    lossless: Boolean(matched.lossless),
+    effort: matched.effort ?? DEFAULT_EFFORT
+  };
+}
+
+/**
+ * Applique un override de qualité à des réglages d'encodage.
+ *
+ * @param {{quality: number|null, lossless: boolean, effort: number}} settings
+ * @param {number|null} quality  qualité à forcer, ou `null` pour conserver celle du profil
+ * @returns {{quality: number|null, lossless: boolean, effort: number}}
+ */
+function withQualityOverride(settings, quality) {
+  if (quality == null) return { ...settings };
+
+  return { ...settings, quality };
+}
+
 export {
   PNG_REF_PATTERN,
   buildAssetRefPattern,
@@ -248,6 +294,8 @@ export {
   pngToWebpPath,
   resolveAssetRef,
   resolveImageProfile,
+  resolveImageSettings,
   rewriteAssetRefs,
-  toPosix
+  toPosix,
+  withQualityOverride
 };
