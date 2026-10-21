@@ -15,6 +15,7 @@
     "check:html-inline": "bash tools/check-inline-html.sh",
     "media:scan": "node ./tools/mediaScanner.mjs",
     "media:convert:images": "node ./tools/convertImages.mjs",
+    "media:migrate-refs": "node ./tools/migrateRefs.mjs",
     "media:optimize": "node ./tools/mediaOptimize.mjs"
   },
   "devDependencies": {
