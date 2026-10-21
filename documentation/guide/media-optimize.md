@@ -1,7 +1,12 @@
 # Optimisation des médias (`pnpm media:optimize`)
 
-Outil CLI en ligne de commande qui réduit le poids des médias du module
-(`PNG → WebP`, `OGG → OGG recalculé`) et migre les références correspondantes.
+Outils CLI qui inventorient les médias du module, réduisent leur poids
+(`PNG → WebP`, `OGG → OGG recalculé`) et migrent les références correspondantes.
+
+| Commande | Rôle |
+|---|---|
+| `pnpm media:scan` | inventaire en lecture seule : fichiers, tailles, références |
+| `pnpm media:optimize` | conversion, migration des références, recompilation des packs |
 
 ## Prérequis
 
@@ -11,6 +16,38 @@ Outil CLI en ligne de commande qui réduit le poids des médias du module
   ```
 - **Node.js** ≥ 20 et **pnpm**.
 - `sharp` est installé automatiquement comme dépendance de développement (`pnpm install`).
+
+## Inventaire (`pnpm media:scan`)
+
+Commande **strictement en lecture seule** : elle n'écrit aucun fichier du module, seulement
+son rapport JSON dans `reports/`.
+
+```bash
+pnpm media:scan
+```
+
+Sortie console :
+
+```
+PNG: 331  |  WebP autonomes (thumbnails): 20  |  OGG: 56  |  Vidéos: 0
+Taille totale : 571.4 MB  |  Actifs sans référence dans les sources : 197
+Rapport : reports/media-scan-2026-10-21T15-07-10-602Z.json
+```
+
+Le rapport JSON contient :
+
+| Champ | Contenu |
+|---|---|
+| `summary` | comptages par type, taille totale, nombre d'assets référencés |
+| `images` | chaque PNG : taille, profil de qualité, présence d'un WebP, sources qui le référencent |
+| `standaloneWebp` | WebP sans PNG jumeau (thumbnails Foundry auto-générés) |
+| `audio` | chaque OGG : taille et sources qui le référencent |
+| `videos` | chaque vidéo : taille et sources qui le référencent |
+| `unreferenced` | assets PNG/OGG/vidéo dont aucune source ne dépend |
+
+`referencedBy` remonte les fichiers sources (YAML, CSS, JS) qui référencent l'asset. Les
+références sont résolues depuis les YAML des compendiums, les feuilles de style et les scripts,
+y compris sous forme encodée (`%20`) ou en template littéral JavaScript.
 
 ## Utilisation
 
@@ -56,7 +93,10 @@ fichier et le rapport indique `0 PNG supprimé(s)`.
 
 ## Rapport JSON
 
-Chaque exécution écrit `reports/media-optimize-<horodatage>.json` :
+`pnpm media:scan` écrit `reports/media-scan-<horodatage>.json` (inventaire détaillé, décrit
+plus haut).
+
+`pnpm media:optimize` écrit `reports/media-optimize-<horodatage>.json` :
 
 ```json
 {
@@ -80,6 +120,7 @@ Les réglages vivent dans `tools/media.config.mjs` :
 |---|---|
 | `IMAGE_PROFILES` | qualité Sharp WebP par type d'image |
 | `IMAGE_PROFILE_RULES` | règles d'affectation d'un profil à un chemin d'asset |
+| `MEDIA_REF_EXTENSIONS` | extensions cherchées dans les sources lors du scan |
 | `AUDIO_CONFIG.bitrate` | bitrate cible Opus (`96k` par défaut) |
 | `AUDIO_CONFIG.encoderCandidates` | ordre de préférence des encodeurs FFmpeg |
 | `VIDEO_CONFIG` | stub (MP4/MOV → WebM non implémenté) |
