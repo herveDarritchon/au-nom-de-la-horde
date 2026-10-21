@@ -585,3 +585,6 @@ reports/
 
 # Table de conversion PNG→WebP (générée par media:convert:images)
 conversion-table.json
+
+# Manifeste de conversion PNG→WebP (réglages appliqués, sources)
+conversion-manifest.json

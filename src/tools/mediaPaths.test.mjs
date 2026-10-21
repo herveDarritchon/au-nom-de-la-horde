@@ -8,7 +8,9 @@ import {
   pngToWebpPath,
   resolveAssetRef,
   resolveImageProfile,
-  rewriteAssetRefs
+  resolveImageSettings,
+  rewriteAssetRefs,
+  withQualityOverride
 } from "./mediaPaths.mjs";
 
 const MODULE_ID = "warbound-campaign-content";
@@ -294,4 +296,61 @@ test("resolveImageProfile renvoie le premier profil correspondant", () => {
     resolveImageProfile("assets/images/icons/soin.png", rules),
     "icon"
   );
+});
+
+// resolveImageSettings
+
+const PROFILES = [
+  { profile: "icon", match: /^assets\/images\/icons\//, quality: null, lossless: true, effort: 6 },
+  { profile: "token", match: /^assets\/images\/tokens\//, quality: 87, lossless: false, effort: 4 },
+  { profile: "default", match: /^/, quality: 85, lossless: false, effort: 4 }
+];
+
+test("resolveImageSettings renvoie les réglages du profil correspondant", () => {
+  assert.deepEqual(resolveImageSettings("assets/images/icons/soin.png", PROFILES), {
+    profile: "icon",
+    quality: null,
+    lossless: true,
+    effort: 6
+  });
+});
+
+test("resolveImageSettings retombe sur le profil par défaut", () => {
+  assert.deepEqual(resolveImageSettings("assets/images/items/epée.png", PROFILES), {
+    profile: "default",
+    quality: 85,
+    lossless: false,
+    effort: 4
+  });
+});
+
+test("resolveImageSettings complète l'effort manquant", () => {
+  const profiles = [{ profile: "default", match: /^/, quality: 80, lossless: false }];
+
+  assert.equal(resolveImageSettings("assets/x.png", profiles).effort, 4);
+});
+
+test("resolveImageSettings échoue sans profil applicable", () => {
+  assert.throws(
+    () => resolveImageSettings("assets/x.png", []),
+    /Aucun profil de compression applicable/
+  );
+});
+
+// withQualityOverride
+
+test("withQualityOverride remplace la qualité sans toucher au reste", () => {
+  const settings = { profile: "icon", quality: null, lossless: true, effort: 6 };
+  const overridden = withQualityOverride(settings, 90);
+
+  assert.equal(overridden.quality, 90);
+  assert.equal(overridden.lossless, true);
+  assert.equal(overridden.effort, 6);
+  assert.equal(settings.quality, null, "les réglages d'origine ne doivent pas être modifiés");
+});
+
+test("withQualityOverride sans valeur conserve la qualité du profil", () => {
+  const settings = { profile: "icon", quality: null, lossless: true, effort: 6 };
+
+  assert.deepEqual(withQualityOverride(settings, null), settings);
 });

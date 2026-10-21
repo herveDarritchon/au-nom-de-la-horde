@@ -19,6 +19,7 @@ import { fileURLToPath } from "node:url";
 import {
   collectAssetRefs,
   resolveImageProfile,
+  resolveImageSettings,
   toPosix
 } from "../src/tools/mediaPaths.mjs";
 
@@ -31,7 +32,7 @@ import {
   ASSETS_DIR,
   AUDIO_EXTENSIONS,
   IMAGE_EXTENSIONS,
-  IMAGE_PROFILE_RULES,
+  IMAGE_PROFILES,
   MEDIA_REF_EXTENSIONS,
   MODULE_ID,
   SOURCE_EXCLUDE_PATTERNS,
@@ -144,7 +145,7 @@ function toSource(root, filePath) {
  *
  * @param {string} [root] racine du dépôt (par défaut : cwd)
  * @returns {Promise<{
- *   images: Array<{assetPath:string,pngPath:string,webpPath:string,profile:string,hasWebp:boolean}>,
+ *   images: Array<{assetPath:string,pngPath:string,webpPath:string,profile:string,settings:object,hasWebp:boolean}>,
  *   audio: Array<{assetPath:string,filePath:string}>,
  *   videos: Array<{assetPath:string,filePath:string}>,
  *   webp: Array<{assetPath:string,filePath:string}>,
@@ -168,7 +169,8 @@ async function scan(root = ROOT) {
         assetPath,
         pngPath,
         webpPath: pngPath.replace(/\.png$/i, ".webp"),
-        profile: resolveImageProfile(assetPath, IMAGE_PROFILE_RULES),
+        profile: resolveImageProfile(assetPath, IMAGE_PROFILES),
+        settings: resolveImageSettings(assetPath, IMAGE_PROFILES),
         hasWebp: assets.has(webpAssetPath)
       };
     });
