@@ -4,7 +4,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import os from "node:os";
 
-import { run } from "./migrateRefs.mjs";
+import { run, parseArgs } from "./migrateRefs.mjs";
 
 const PREFIX = "modules/warbound-campaign-content/";
 const ROOT = "/repo";
@@ -126,6 +126,47 @@ test("run ignore les assets absents de migratableAssets", async () => {
   });
 });
 
+test("run migre les champs YAML et le HTML uniquement pour les assets de la table", async () => {
+  await withTmpDir(async (dir) => {
+    const yamlPath = path.join(dir, "journal.yml");
+    const content = [
+      `img: ${PREFIX}assets/hero.png`,
+      `prototypeToken:\n  texture:\n    src: ${PREFIX}assets/token.png`,
+      `background:\n  src: ${PREFIX}assets/map.png`,
+      `path: ${PREFIX}assets/audio.png`,
+      `thumb: ${PREFIX}assets/thumb.png`,
+      `text: '<img src="${PREFIX}assets/portrait.png"><video src="${PREFIX}assets/cinematic.png">'`,
+      `other: ${PREFIX}assets/not-in-table.png`
+    ].join("\n");
+    await fs.writeFile(yamlPath, content, "utf8");
+
+    const result = await run([toRef(yamlPath)], true, {
+      root: dir,
+      migratableAssets: new Set([
+        "assets/hero.png",
+        "assets/token.png",
+        "assets/map.png",
+        "assets/audio.png",
+        "assets/thumb.png",
+        "assets/portrait.png",
+        "assets/cinematic.png"
+      ])
+    });
+
+    assert.equal(result.replacements, 7);
+
+    const updated = await fs.readFile(yamlPath, "utf8");
+    assert.ok(updated.includes("assets/hero.webp"));
+    assert.ok(updated.includes("assets/token.webp"));
+    assert.ok(updated.includes("assets/map.webp"));
+    assert.ok(updated.includes("assets/audio.webp"));
+    assert.ok(updated.includes("assets/thumb.webp"));
+    assert.ok(updated.includes("assets/portrait.webp"));
+    assert.ok(updated.includes("assets/cinematic.webp"));
+    assert.ok(updated.includes("assets/not-in-table.png"));
+  });
+});
+
 test("run retourne errors si la lecture échoue", async () => {
   const result = await run(
     [toRef("/nonexistent/path/test.yml")],
@@ -134,4 +175,46 @@ test("run retourne errors si la lecture échoue", async () => {
   );
 
   assert.equal(result.errors.length, 1);
+});
+
+test("parseArgs retourne write=false par défaut", () => {
+  const result = parseArgs([]);
+
+  assert.equal(result.write, false);
+  assert.equal(result.help, false);
+  assert.equal(result.error, null);
+});
+
+test("parseArgs reconnaît --write", () => {
+  const result = parseArgs(["--write"]);
+
+  assert.equal(result.write, true);
+  assert.equal(result.error, null);
+});
+
+test("parseArgs reconnaît --dry-run", () => {
+  const result = parseArgs(["--dry-run"]);
+
+  assert.equal(result.write, false);
+  assert.equal(result.error, null);
+});
+
+test("parseArgs reconnaît --help", () => {
+  const result = parseArgs(["--help"]);
+
+  assert.equal(result.help, true);
+  assert.equal(result.error, null);
+});
+
+test("parseArgs reconnaît -h", () => {
+  const result = parseArgs(["-h"]);
+
+  assert.equal(result.help, true);
+});
+
+test("parseArgs retourne error sur option inconnue", () => {
+  const result = parseArgs(["--unknown"]);
+
+  assert.ok(result.error !== null);
+  assert.ok(result.error.includes("--unknown"));
 });
