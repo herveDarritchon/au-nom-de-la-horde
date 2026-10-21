@@ -6,6 +6,7 @@ Outils CLI qui inventorient les médias du module, réduisent leur poids
 | Commande | Rôle |
 |---|---|
 | `pnpm media:scan` | inventaire en lecture seule : fichiers, tailles, références |
+| `pnpm media:convert:images` | conversion `PNG → WebP` seule, avec table de conversion |
 | `pnpm media:optimize` | conversion, migration des références, recompilation des packs |
 
 ## Prérequis
@@ -48,6 +49,45 @@ Le rapport JSON contient :
 `referencedBy` remonte les fichiers sources (YAML, CSS, JS) qui référencent l'asset. Les
 références sont résolues depuis les YAML des compendiums, les feuilles de style et les scripts,
 y compris sous forme encodée (`%20`) ou en template littéral JavaScript.
+
+## Conversion des images (`pnpm media:convert:images`)
+
+Convertit les PNG du module en WebP via Sharp, sans toucher aux références ni supprimer les
+originaux — cette commande ne fait que la conversion.
+
+```bash
+pnpm media:convert:images            # dry-run : projection, aucun asset modifié
+pnpm media:convert:images --write    # convertit les PNG et produit conversion-table.json
+pnpm media:convert:images --help     # aide
+```
+
+Les profils de qualité sont appliqués selon le sous-dossier :
+
+| Répertoire | Profil | Qualité |
+|---|---|---|
+| `assets/images/avatar/` | `portrait` | 85, avec perte |
+| `assets/images/battlemaps/` | `map` | 88, avec perte |
+| `assets/images/tokens/` | `token` | 87, avec perte |
+| `assets/images/icons/` | `icon` | lossless |
+| autres | `default` | 85, avec perte |
+
+`ui` (92) et `illustration` (82) affinent la ligne « autres » pour l'habillage d'interface et
+les illustrations décoratives, volontairement plus compressées.
+
+Règles appliquées :
+
+- les dimensions d'origine sont conservées (aucun redimensionnement) ;
+- le canal alpha est préservé (tokens) ;
+- les PNG dont le WebP serait plus lourd sont conservés en PNG, et le WebP est supprimé ;
+- les vignettes `assets/scenes/thumb-*.webp` générées par Foundry sont ignorées ;
+- les PNG déjà convertis (WebP présent) ne sont pas réencodés — l'opération est idempotente.
+
+Deux fichiers sont produits, tous deux gitignorés :
+
+| Fichier | Contenu |
+|---|---|
+| `conversion-table.json` (racine) | table `PNG → WebP` des PNG dispose d'un WebP valide (un asset écarté pour poids y est absent) |
+| `reports/media-convert-images-<horodatage>.json` | rapport détaillé : répartition par profil, WebP écartés pour poids, erreurs, vignettes ignorées |
 
 ## Utilisation
 
@@ -96,6 +136,10 @@ fichier et le rapport indique `0 PNG supprimé(s)`.
 `pnpm media:scan` écrit `reports/media-scan-<horodatage>.json` (inventaire détaillé, décrit
 plus haut).
 
+`pnpm media:convert:images` écrit `reports/media-convert-images-<horodatage>.json` :
+répartition par profil, WebP écartés pour poids (avec les deux tailles), erreurs et vignettes
+Foundry ignorées.
+
 `pnpm media:optimize` écrit `reports/media-optimize-<horodatage>.json` :
 
 ```json
@@ -120,6 +164,7 @@ Les réglages vivent dans `tools/media.config.mjs` :
 |---|---|
 | `IMAGE_PROFILES` | qualité Sharp WebP par type d'image |
 | `IMAGE_PROFILE_RULES` | règles d'affectation d'un profil à un chemin d'asset |
+| `FOUNDRY_THUMBNAIL_PATTERN` | vignettes de scènes Foundry, exclues de la conversion |
 | `MEDIA_REF_EXTENSIONS` | extensions cherchées dans les sources lors du scan |
 | `AUDIO_CONFIG.bitrate` | bitrate cible Opus (`96k` par défaut) |
 | `AUDIO_CONFIG.encoderCandidates` | ordre de préférence des encodeurs FFmpeg |
@@ -130,9 +175,14 @@ Les réglages vivent dans `tools/media.config.mjs` :
 
 | Support | Avant | Après | Gain |
 |---|---|---|---|
-| 331 PNG | 663 Mo | 96 Mo | −85 % |
+| 331 PNG | 662 Mo | 280 Mo | −58 % |
 | 56 OGG | 555 Mo | 414 Mo | −25 % |
-| `assets/` total | 1,2 Go | 562 Mo | −53 % |
+| `assets/` total | 1,2 Go | 710 Mo | −42 % |
+
+Les 280 Mo de WebP se répartissent en 48 Mo pour les 167 images hors icônes et 231 Mo pour
+les 164 icônes, encodées en `lossless` conformément à l'issue #128. Une icône lossless pèse
+en moyenne 1,4 Mo contre 0,3 Mo en `q90` avec perte : un encodage avec perte ramènerait
+le total du module à environ 530 Mo.
 
 ## Précaution
 

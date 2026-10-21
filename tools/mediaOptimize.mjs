@@ -315,6 +315,8 @@ async function main() {
         written: imageResult.written,
         skipped: imageResult.skipped,
         keptPng: imageResult.keptPng,
+        keptPngDetails: imageResult.keptPngDetails,
+        byProfile: imageResult.byProfile,
         sizes: imageResult.sizes,
         errors: imageResult.errors
       },

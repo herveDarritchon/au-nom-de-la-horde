@@ -17,15 +17,29 @@ export const REPORTS_DIR = "reports";
  *
  * `quality` est le paramètre `sharp` (0-100) ; `lossless` produit des WebP
  * sans perte, nettement plus lourds.
+ *
+ * Correspondance avec la table de l'issue #128 :
+ *
+ * | Répertoire                 | Profil         | Qualité         |
+ * |----------------------------|----------------|-----------------|
+ * | `assets/images/avatar/`    | `portrait`     | 85, avec perte  |
+ * | `assets/images/battlemaps/`| `map`          | 88, avec perte  |
+ * | `assets/images/tokens/`    | `token`        | 87, avec perte  |
+ * | `assets/images/icons/`     | `icon`         | lossless        |
+ * | autres                     | `default`      | 85, avec perte  |
+ *
+ * `ui` et `illustration` affinent la ligne « autres » pour deux familles
+ * d'images qui s'y apparentent : l'habillage d'interface (5 images) et les
+ * illustrations décoratives (88 images), volontairement plus compressées.
  */
 export const IMAGE_PROFILES = {
-  default: { quality: 85, lossless: false },
-  ui: { quality: 92, lossless: false },
-  icon: { quality: 90, lossless: false },
-  token: { quality: 85, lossless: false },
-  portrait: { quality: 82, lossless: false },
+  default:      { quality: 85, lossless: false },
+  ui:           { quality: 92, lossless: false },
+  icon:         { lossless: true },
+  token:        { quality: 87, lossless: false },
+  portrait:     { quality: 85, lossless: false },
   illustration: { quality: 82, lossless: false },
-  map: { quality: 78, lossless: false }
+  map:          { quality: 88, lossless: false }
 };
 
 /**
@@ -45,6 +59,19 @@ export const IMAGE_PROFILE_RULES = [
  * Extensions d'images converties en WebP.
  */
 export const IMAGE_EXTENSIONS = [".png"];
+
+/**
+ * Répertoire des vignettes de scènes générées par Foundry.
+ */
+export const THUMBNAIL_DIR = "assets/scenes";
+
+/**
+ * Vignettes de scènes auto-générées par Foundry (`thumb-*.webp`).
+ *
+ * Elles sont déjà au bon format et Foundry les régénère : ni converties, ni
+ * supprimées. Le motif couvre aussi le cas d'une vignette servie en PNG.
+ */
+export const FOUNDRY_THUMBNAIL_PATTERN = /^assets\/scenes\/thumb-.*\.(webp|png)$/;
 
 /**
  * Extensions déjà optimisées (WebP).
