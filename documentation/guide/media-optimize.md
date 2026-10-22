@@ -159,7 +159,9 @@ pnpm media:optimize:dry-run                      # alias du dry-run
 pnpm media:optimize --write                      # applique les étapes sélectionnées
 pnpm media:optimize --write --type images \
   --update-references                            # convertit, migre et rebuild les packs
-pnpm media:optimize --write --clean --confirm    # supprime les PNG devenus inutiles
+pnpm media:optimize --clean                      # liste les PNG supprimables
+pnpm media:optimize --clean --confirm            # supprime après validation et audit
+pnpm media:optimize --write --clean --confirm    # pipeline complet puis nettoyage
 pnpm media:optimize --help                       # aide
 ```
 
@@ -172,10 +174,14 @@ Options :
 | `--type images\|audio\|all` | limite les étapes au type de média demandé (`all` par défaut) |
 | `--quality <n>` | override global WebP entre 0 et 100 |
 | `--update-references` | migre les références PNG du module avec `conversion-table.json` |
-| `--clean --confirm` | supprime les PNG uniquement après migration et build réussis |
+| `--clean` | prévisualise les suppressions, sans modifier les fichiers |
+| `--clean --confirm` | supprime les PNG validés, avec dépôt Git propre et audit réussi |
+| `--force-clean` | contourne le garde Git pour `--clean --confirm` |
 
-Le rebuild `pnpm build` est exécuté en mode écriture lorsque `--update-references` est activé.
-`--clean` seul est refusé ; l'option `--confirm` est obligatoire pour toute suppression.
+Le rebuild `pnpm build` est exécuté en mode écriture lorsque `--update-references` ou `--clean`
+est activé. Avec `--write --clean`, la migration des références est donc incluse avant le build.
+`--clean` seul liste les candidats ; l'option `--confirm` est obligatoire pour supprimer.
+Sans `--force-clean`, le dépôt Git doit être propre avant une suppression réelle.
 
 ## Codes de sortie
 
@@ -201,7 +207,8 @@ Le rebuild `pnpm build` est exécuté en mode écriture lorsque `--update-refere
    y compris sous forme encodée (`%20`).
 4. **Audio** — réencode les OGG au bitrate cible et pose une balise
    `warbound-media-optimize:96k`. Un fichier déjà porteur de cette balise est ignoré.
-5. **Build** — avec `--write --update-references`, relance `pnpm build` (audit + compilation des packs).
+5. **Build** — avec `--write --update-references` ou `--write --clean`, relance `pnpm build`
+   (audit + compilation des packs).
 6. **Nettoyage** — supprime les PNG devenus inutiles, uniquement si le build est vert
    **et** qu'aucune source ne les référence encore.
 
