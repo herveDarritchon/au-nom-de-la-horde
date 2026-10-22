@@ -115,8 +115,8 @@ export const MEDIA_REF_EXTENSIONS = [
 ];
 
 export const AUDIO_CONFIG = {
-  /** Bitrate cible des fichiers audio. */
-  bitrate: "96k",
+  /** Bitrate par défaut (utilisé par le profil `default`). */
+  defaultBitrate: "96k",
 
   /** Préfixe de la balise de métadonnée marquant un fichier optimisé. */
   markerPrefix: "warbound-media-optimize",
@@ -134,6 +134,23 @@ export const AUDIO_CONFIG = {
   /** Tolérance (en %) sur la durée lors de la validation du fichier produit. */
   durationToleranceRatio: 0.02
 };
+
+/**
+ * Profils de bitrate OGG, par motif de chemin asset.
+ *
+ * Évalués dans l'ordre — premier match retenu. Modèle identique à `IMAGE_PROFILES`.
+ *
+ * | Répertoire                   | Profil    | Bitrate |
+ * |------------------------------|-----------|---------|
+ * | `assets/musics/ambient/`     | `ambient` | 128 kbps (diffusion Foundry recommandée) |
+ * | `assets/musics/sfx/`         | `sfx`     | 96 kbps |
+ * | autres                       | `default` | 96 kbps |
+ */
+export const AUDIO_PROFILES = [
+  { profile: "ambient", match: /^assets\/musics\/ambient\//, bitrate: "128k" },
+  { profile: "sfx",     match: /^assets\/musics\/sfx\//,     bitrate: "96k"  },
+  { profile: "default", match: /^/,                          bitrate: "96k"  }
+];
 
 export const VIDEO_CONFIG = {
   codec: "libvpx-vp9",

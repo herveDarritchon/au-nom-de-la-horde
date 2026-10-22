@@ -6,7 +6,8 @@ import os from "node:os";
 import { spawn } from "node:child_process";
 
 import { detectEncoders, ffmpegAvailable, probeMedia, run } from "./optimizeAudio.mjs";
-import { AUDIO_CONFIG } from "./media.config.mjs";
+import { AUDIO_CONFIG, AUDIO_PROFILES } from "./media.config.mjs";
+import { selectAudioProfile } from "../src/tools/mediaAudio.mjs";
 
 function exec(command, args) {
   return new Promise((resolve, reject) => {
@@ -108,9 +109,10 @@ test(
       assert.equal(first.skipped, 0);
 
       const after = await probeMedia(filePath);
+      const expectedProfile = selectAudioProfile("assets/ambiance.ogg", AUDIO_PROFILES);
       assert.equal(
         after.marker,
-        `${AUDIO_CONFIG.markerPrefix}:${AUDIO_CONFIG.bitrate}`
+        `${AUDIO_CONFIG.markerPrefix}:${expectedProfile.bitrate}`
       );
       assert.ok(
         after.bitrate < before.bitrate,
@@ -122,6 +124,38 @@ test(
       assert.equal(second.errors.length, 0);
       assert.equal(second.optimized, 0);
       assert.equal(second.skipped, 1);
+    });
+  }
+);
+
+test(
+  "run applique le profil ambient (128k) pour un chemin assets/musics/ambient/",
+  { skip: hasFfmpeg ? false : "FFmpeg indisponible" },
+  async () => {
+    await withTmpDir(async (dir) => {
+      const encoders = await detectEncoders();
+      const encoder =
+        encoders.get("libopus") ? { name: "libopus", experimental: false } :
+        encoders.get("opus") ? { name: "opus", experimental: true } :
+        null;
+
+      assert.ok(encoder, "aucun encodeur Opus disponible");
+
+      const filePath = path.join(dir, "rain.ogg");
+      await createOgg(filePath, encoder);
+
+      const audio = [{ assetPath: "assets/musics/ambient/rain.ogg", filePath }];
+
+      const result = await run(audio, true);
+
+      assert.equal(result.errors.length, 0);
+      assert.equal(result.optimized, 1);
+
+      const after = await probeMedia(filePath);
+      assert.equal(
+        after.marker,
+        `${AUDIO_CONFIG.markerPrefix}:128k`
+      );
     });
   }
 );

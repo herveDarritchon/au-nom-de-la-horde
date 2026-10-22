@@ -5,6 +5,7 @@ import {
   buildAudioMarker,
   parseBitrate,
   parseEncoders,
+  selectAudioProfile,
   selectEncoder,
   shouldOptimizeAudio
 } from "./mediaAudio.mjs";
@@ -140,4 +141,43 @@ test("shouldOptimizeAudio ré-encode un fichier de bitrate inconnu", () => {
     shouldOptimizeAudio({ ...BASE_STATE, currentBitrate: null }),
     true
   );
+});
+
+// selectAudioProfile
+
+const TEST_PROFILES = [
+  { profile: "ambient", match: /^assets\/musics\/ambient\//, bitrate: "128k" },
+  { profile: "sfx",     match: /^assets\/musics\/sfx\//,     bitrate: "96k"  },
+  { profile: "default", match: /^/,                          bitrate: "96k"  }
+];
+
+test("selectAudioProfile retourne le profil ambient pour un chemin ambient", () => {
+  const profile = selectAudioProfile("assets/musics/ambient/rain.ogg", TEST_PROFILES);
+
+  assert.equal(profile.profile, "ambient");
+  assert.equal(profile.bitrate, "128k");
+});
+
+test("selectAudioProfile retourne le profil sfx pour un chemin sfx", () => {
+  const profile = selectAudioProfile("assets/musics/sfx/sword.ogg", TEST_PROFILES);
+
+  assert.equal(profile.profile, "sfx");
+  assert.equal(profile.bitrate, "96k");
+});
+
+test("selectAudioProfile retourne le profil default pour un chemin inconnu", () => {
+  const profile = selectAudioProfile("assets/sounds/other.ogg", TEST_PROFILES);
+
+  assert.equal(profile.profile, "default");
+  assert.equal(profile.bitrate, "96k");
+});
+
+test("selectAudioProfile retourne le dernier profil si aucun ne correspond (sans default /^/)", () => {
+  const profiles = [
+    { profile: "ambient", match: /^assets\/musics\/ambient\//, bitrate: "128k" },
+    { profile: "sfx",     match: /^assets\/musics\/sfx\//,     bitrate: "96k"  }
+  ];
+  const profile = selectAudioProfile("assets/other.ogg", profiles);
+
+  assert.equal(profile.profile, "sfx");
 });
