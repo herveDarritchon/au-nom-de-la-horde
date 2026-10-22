@@ -125,11 +125,31 @@ function shouldOptimizeAudio(state) {
   return true;
 }
 
+/**
+ * Sélectionne le profil audio correspondant à un chemin asset.
+ *
+ * Itère les profils dans l'ordre ; retourne le premier dont `match` réussit.
+ * Le profil `default` (dernier de la liste) garantit qu'un résultat est
+ * toujours retourné.
+ *
+ * @param {string} assetPath  chemin relatif au module (ex. `assets/musics/ambient/foo.ogg`)
+ * @param {Array<{profile:string, match:RegExp, bitrate:string}>} profiles
+ * @returns {{profile:string, match:RegExp, bitrate:string}}
+ */
+function selectAudioProfile(assetPath, profiles) {
+  for (const entry of profiles) {
+    if (entry.match.test(assetPath)) return entry;
+  }
+
+  return profiles[profiles.length - 1];
+}
+
 export {
   BITRATE_UNITS,
   buildAudioMarker,
   parseBitrate,
   parseEncoders,
+  selectAudioProfile,
   selectEncoder,
   shouldOptimizeAudio
 };

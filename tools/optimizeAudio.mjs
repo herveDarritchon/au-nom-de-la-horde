@@ -18,17 +18,20 @@
 
 import fs from "node:fs/promises";
 import path from "node:path";
+import process from "node:process";
 import { spawn } from "node:child_process";
+import { pathToFileURL } from "node:url";
 
 import {
   buildAudioMarker,
   parseBitrate,
   parseEncoders,
+  selectAudioProfile,
   selectEncoder,
   shouldOptimizeAudio
 } from "../src/tools/mediaAudio.mjs";
 
-import { AUDIO_CONFIG } from "./media.config.mjs";
+import { AUDIO_CONFIG, AUDIO_PROFILES } from "./media.config.mjs";
 
 /**
  * Exécute une commande et capture sa sortie.
@@ -115,9 +118,10 @@ async function probeMedia(filePath) {
 
 /**
  * Ré-encode un fichier audio vers un fichier temporaire.
+ * @param {string} bitrate  cible du profil, ex. "128k"
  * @returns {Promise<{tmpPath: string}>}
  */
-async function encodeToTemp(inputPath, encoder, marker) {
+async function encodeToTemp(inputPath, encoder, marker, bitrate) {
   const tmpPath = `${inputPath}.tmp.ogg`;
 
   const args = [
@@ -132,7 +136,7 @@ async function encodeToTemp(inputPath, encoder, marker) {
   }
 
   args.push(
-    "-b:a", AUDIO_CONFIG.bitrate,
+    "-b:a", bitrate,
     "-metadata", `comment=${marker}`,
     "-y", tmpPath
   );
@@ -204,16 +208,17 @@ async function run(audioPaths, write) {
     }
 
     const encoders = await detectEncoders();
-    const targetBitrate = parseBitrate(AUDIO_CONFIG.bitrate);
 
     for (const audio of audioPaths) {
       try {
+        const profile = selectAudioProfile(audio.assetPath, AUDIO_PROFILES);
+        const targetBitrate = parseBitrate(profile.bitrate);
         const source = await probeMedia(audio.filePath);
         const needsOptimization = shouldOptimizeAudio({
           currentBitrate: source.bitrate,
           currentMarker: source.marker,
           targetBitrate,
-          targetLabel: AUDIO_CONFIG.bitrate,
+          targetLabel: profile.bitrate,
           markerPrefix: AUDIO_CONFIG.markerPrefix
         });
 
@@ -235,6 +240,18 @@ async function run(audioPaths, write) {
         }
 
         optimized++;
+
+        if (
+          typeof source.bitrate === "number" &&
+          typeof source.duration === "number"
+        ) {
+          const estimatedBytes =
+            Math.max(0, source.bitrate - targetBitrate) *
+            source.duration /
+            8;
+
+          savedBytes += Math.round(estimatedBytes);
+        }
       } catch (err) {
         errors.push({ file: audio.assetPath, error: err.message });
       }
@@ -250,18 +267,19 @@ async function run(audioPaths, write) {
   }
 
   const encoders = await detectEncoders();
-  const targetBitrate = parseBitrate(AUDIO_CONFIG.bitrate);
-  const marker = buildAudioMarker(AUDIO_CONFIG.markerPrefix, AUDIO_CONFIG.bitrate);
 
   for (const audio of audioPaths) {
     try {
+      const profile = selectAudioProfile(audio.assetPath, AUDIO_PROFILES);
+      const targetBitrate = parseBitrate(profile.bitrate);
+      const marker = buildAudioMarker(AUDIO_CONFIG.markerPrefix, profile.bitrate);
       const source = await probeMedia(audio.filePath);
 
       const needsOptimization = shouldOptimizeAudio({
         currentBitrate: source.bitrate,
         currentMarker: source.marker,
         targetBitrate,
-        targetLabel: AUDIO_CONFIG.bitrate,
+        targetLabel: profile.bitrate,
         markerPrefix: AUDIO_CONFIG.markerPrefix
       });
 
@@ -282,7 +300,7 @@ async function run(audioPaths, write) {
         );
       }
 
-      const { tmpPath } = await encodeToTemp(audio.filePath, encoder, marker);
+      const { tmpPath } = await encodeToTemp(audio.filePath, encoder, marker, profile.bitrate);
 
       try {
         await validateOutput(tmpPath, source);
@@ -309,3 +327,89 @@ async function run(audioPaths, write) {
 }
 
 export { detectEncoders, ffmpegAvailable, probeMedia, run };
+
+// ─── CLI entry point ────────────────────────────────────────────────────────
+
+function isMainModule() {
+  const entry = process.argv[1];
+
+  if (!entry) return false;
+
+  return pathToFileURL(path.resolve(entry)).href === import.meta.url;
+}
+
+function formatBytes(bytes) {
+  if (!bytes) return "0 o";
+
+  const units = ["o", "Ko", "Mo", "Go"];
+  const exponent = Math.min(
+    units.length - 1,
+    Math.floor(Math.log(bytes) / Math.log(1024))
+  );
+  const value = bytes / 1024 ** exponent;
+
+  return `${value.toFixed(value >= 10 || exponent === 0 ? 0 : 1)} ${units[exponent]}`;
+}
+
+if (isMainModule()) {
+  const { scan } = await import("./mediaScanner.mjs");
+
+  const args = process.argv.slice(2);
+  const write = args.includes("--write");
+  const dryRun = !write;
+
+  console.log(
+    dryRun
+      ? "\nWarbound — Optimisation audio (dry-run)\n"
+      : "\nWarbound — Optimisation audio\n"
+  );
+
+  let scanReport;
+
+  try {
+    scanReport = await scan(process.cwd());
+  } catch (err) {
+    console.error(`Erreur de scan : ${err.message}`);
+    process.exit(1);
+  }
+
+  console.log(`  Fichiers audio trouvés.......... ${scanReport.audio.length}`);
+
+  let result;
+
+  try {
+    result = await run(scanReport.audio, write);
+  } catch (err) {
+    console.error(`Erreur : ${err.message}`);
+    process.exit(1);
+  }
+
+  console.log();
+  console.log(
+    dryRun
+      ? `  Fichiers à optimiser............ ${result.optimized}`
+      : `  Fichiers optimisés.............. ${result.optimized}`
+  );
+  console.log(`  Fichiers ignorés................ ${result.skipped}`);
+
+  if (result.savedBytes > 0) {
+    console.log(
+      dryRun
+        ? `  Gain estimé..................... ${formatBytes(result.savedBytes)}`
+        : `  Gain réalisé.................... ${formatBytes(result.savedBytes)}`
+    );
+  }
+
+  if (result.errors.length > 0) {
+    console.log();
+    console.error(`  Erreurs (${result.errors.length}) :`);
+
+    for (const { file, error } of result.errors) {
+      console.error(`    ${file} — ${error}`);
+    }
+
+    process.exit(1);
+  }
+
+  console.log();
+}

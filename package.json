@@ -17,7 +17,9 @@
     "media:convert:images": "node ./tools/convertImages.mjs",
     "media:migrate-refs": "node ./tools/migrateRefs.mjs",
     "media:optimize": "node ./tools/mediaOptimize.mjs",
-    "media:optimize:dry-run": "node ./tools/mediaOptimize.mjs --dry-run"
+    "media:optimize:dry-run": "node ./tools/mediaOptimize.mjs --dry-run",
+    "media:optimize:audio": "node ./tools/optimizeAudio.mjs --dry-run",
+    "media:optimize:audio:write": "node ./tools/optimizeAudio.mjs --write"
   },
   "devDependencies": {
     "@foundryvtt/foundryvtt-cli": "^3.0.4",
