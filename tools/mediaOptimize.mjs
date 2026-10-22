@@ -66,7 +66,7 @@ function formatBytes(bytes) {
 /**
  * Analyse les arguments de la ligne de commande.
  * @param {string[]} argv
- * @returns {{ write: boolean, type: string, quality: number|null, updateReferences: boolean, clean: boolean, confirm: boolean, help: boolean, error: string|null }}
+ * @returns {{ write: boolean, type: string, quality: number|null, updateReferences: boolean, clean: boolean, confirm: boolean, forceClean: boolean, help: boolean, error: string|null }}
  */
 function parseArgs(argv) {
   let write = false;
@@ -76,6 +76,7 @@ function parseArgs(argv) {
   let updateReferences = false;
   let clean = false;
   let confirm = false;
+  let forceClean = false;
 
   const VALID_TYPES = new Set(["images", "audio", "all"]);
 
@@ -94,25 +95,27 @@ function parseArgs(argv) {
       clean = true;
     } else if (arg === "--confirm") {
       confirm = true;
+    } else if (arg === "--force-clean") {
+      forceClean = true;
     } else if (arg === "--type") {
       const val = argv[++i];
       if (!val || !VALID_TYPES.has(val)) {
-        return { write, type, quality, updateReferences, clean, confirm, help, error: `Option --type invalide : ${val ?? "(manquante)"}` };
+        return { write, type, quality, updateReferences, clean, confirm, forceClean, help, error: `Option --type invalide : ${val ?? "(manquante)"}` };
       }
       type = val;
     } else if (arg === "--quality") {
       const val = argv[++i];
       const n = Number(val);
       if (!val || !Number.isInteger(n) || n < 0 || n > 100) {
-        return { write, type, quality, updateReferences, clean, confirm, help, error: `Option --quality invalide : ${val ?? "(manquante)"}` };
+        return { write, type, quality, updateReferences, clean, confirm, forceClean, help, error: `Option --quality invalide : ${val ?? "(manquante)"}` };
       }
       quality = n;
     } else {
-      return { write, type, quality, updateReferences, clean, confirm, help, error: `Option inconnue : ${arg}` };
+      return { write, type, quality, updateReferences, clean, confirm, forceClean, help, error: `Option inconnue : ${arg}` };
     }
   }
 
-  return { write, type, quality, updateReferences, clean, confirm, help, error: null };
+  return { write, type, quality, updateReferences, clean, confirm, forceClean, help, error: null };
 }
 
 function printHelp() {
@@ -130,8 +133,10 @@ Options :
                          Limite le traitement au type de média indiqué (défaut : all).
   --quality <n>          Override global de la qualité WebP (0-100).
   --update-references    Migre les références YAML après conversion.
-  --clean                Supprime les PNG devenus inutiles (requiert --confirm).
+  --clean                Sans --confirm : liste les PNG candidats à la suppression (dry-run).
+                         Avec --confirm : supprime les PNG validés (WebP valide, refs migrées, Git propre).
   --confirm              Confirme les opérations destructives (ex. : --clean).
+  --force-clean          Contourne le garde Git pour --clean --confirm (CI ou post-squash).
   -h, --help             Affiche cette aide.
 
 Rapport JSON : ${REPORTS_DIR}/media-optimize-<horodatage>.json
@@ -249,34 +254,180 @@ async function collectRemainingPngRefs(sources, knownAssets) {
 }
 
 /**
- * Supprime les PNG qui ne sont plus référencés et dont le WebP existe.
- * @returns {Promise<{deleted: number, kept: string[]}>}
+ * Supprime (ou prévisualise la suppression de) PNG originaux devenus inutiles.
+ *
+ * Gardes cumulatives (dans l'ordre) :
+ *   1. Git propre — sauf si forceClean ou dryRun
+ *   2. Collision — deux sources différentes → même WebP
+ *   3. Validation Sharp — WebP doit être lisible
+ *   4. Taille — WebP doit être plus petit que le PNG
+ *   5. Références restantes — aucune ref YAML vers ce PNG
+ *
+ * @param {Array<{assetPath:string,pngPath:string,webpPath:string,hasWebp:boolean}>} images
+ * @param {Set<string>} remaining - PNG asset paths encore référencés dans les YAML
+ * @param {{ dryRun?: boolean, forceClean?: boolean, webpAssets?: Set<string>|null }} options
+ *   webpAssets : Set des assetPaths WebP produits dans ce run (pipeline) ;
+ *                null pour un nettoyage autonome → utilise image.hasWebp du scan.
+ * @returns {Promise<{deleted:number, kept:Array<{path:string,reason:string}>, candidates:string[], collisions:Array<{webp:string,sources:string[]}>, gitDirty:boolean}>}
  */
-async function cleanupPng(images, webpAssets, remaining) {
-  let deleted = 0;
-  const kept = [];
-
-  for (const image of images) {
-    if (!webpAssets.has(image.assetPath)) {
-      kept.push(image.assetPath);
-      continue;
-    }
-
-    if (remaining.has(image.assetPath)) {
-      kept.push(image.assetPath);
-      continue;
-    }
-
+async function cleanupPng(images, remaining, { dryRun = false, forceClean = false, webpAssets = null } = {}) {
+  // Garde Git (inutile en dry-run)
+  if (!dryRun && !forceClean) {
     try {
-      await fs.access(image.webpPath);
-      await fs.unlink(image.pngPath);
-      deleted++;
+      const status = execSync("git status --porcelain", { encoding: "utf8", cwd: ROOT }).trim();
+      if (status) return { deleted: 0, kept: [], candidates: [], collisions: [], gitDirty: true };
     } catch {
-      kept.push(image.assetPath);
+      return { deleted: 0, kept: [], candidates: [], collisions: [], gitDirty: true };
     }
   }
 
-  return { deleted, kept };
+  // Détection des collisions : webpPath → [sources]. Le scanner ne traite que
+  // les PNG ; on inspecte donc aussi les JPEG voisins portant le même stem.
+  const webpIndex = new Map();
+  for (const image of images) {
+    const hasWebp = webpAssets !== null ? webpAssets.has(image.assetPath) : image.hasWebp;
+    if (!hasWebp) continue;
+    if (!webpIndex.has(image.webpPath)) webpIndex.set(image.webpPath, []);
+
+    const sources = [image.assetPath];
+    try {
+      const entries = await fs.readdir(path.dirname(image.pngPath), { withFileTypes: true });
+      const stem = path.basename(image.pngPath).replace(/\.[^.]+$/, "");
+
+      for (const entry of entries) {
+        if (!entry.isFile() || !/\.(?:jpe?g)$/i.test(entry.name)) continue;
+
+        const siblingStem = entry.name.replace(/\.[^.]+$/, "");
+        if (siblingStem !== stem) continue;
+
+        sources.push(
+          path.relative(ROOT, path.join(path.dirname(image.pngPath), entry.name)).replaceAll(path.sep, "/")
+        );
+      }
+    } catch {
+      // Le test de validité du WebP produira le motif de conservation adéquat.
+    }
+
+    webpIndex.get(image.webpPath).push({ image, sources });
+  }
+
+  const collisions = [];
+  const collisionAssets = new Set();
+  for (const [webpPath, entries] of webpIndex) {
+    const sources = [...new Set(entries.flatMap((entry) => entry.sources))];
+
+    if (sources.length > 1) {
+      collisions.push({ webp: path.relative(ROOT, webpPath), sources });
+      for (const entry of entries) collisionAssets.add(entry.image.assetPath);
+    }
+  }
+
+  // Chargement de sharp (une seule fois)
+  let sharp;
+  try {
+    sharp = (await import("sharp")).default;
+  } catch {
+    const kept = images.map((i) => ({ path: i.assetPath, reason: "webp_invalid" }));
+    return { deleted: 0, kept, candidates: [], collisions, gitDirty: false };
+  }
+
+  let deleted = 0;
+  const kept = [];
+  const candidates = [];
+
+  for (const image of images) {
+    const hasWebp = webpAssets !== null ? webpAssets.has(image.assetPath) : image.hasWebp;
+
+    if (!hasWebp) {
+      kept.push({ path: image.assetPath, reason: "no_webp" });
+      continue;
+    }
+
+    if (collisionAssets.has(image.assetPath)) {
+      kept.push({ path: image.assetPath, reason: "collision" });
+      continue;
+    }
+
+    // Validation Sharp
+    try {
+      await sharp(image.webpPath).metadata();
+    } catch {
+      kept.push({ path: image.assetPath, reason: "webp_invalid" });
+      continue;
+    }
+
+    // Comparaison de taille
+    try {
+      const [webpStat, pngStat] = await Promise.all([
+        fs.stat(image.webpPath),
+        fs.stat(image.pngPath)
+      ]);
+      if (webpStat.size >= pngStat.size) {
+        kept.push({ path: image.assetPath, reason: "webp_larger" });
+        continue;
+      }
+    } catch {
+      kept.push({ path: image.assetPath, reason: "webp_invalid" });
+      continue;
+    }
+
+    // Références restantes
+    if (remaining.has(image.assetPath)) {
+      kept.push({ path: image.assetPath, reason: "refs_remaining" });
+      continue;
+    }
+
+    // Suppression ou enregistrement comme candidat
+    if (dryRun) {
+      candidates.push(image.assetPath);
+    } else {
+      try {
+        await fs.unlink(image.pngPath);
+        deleted++;
+      } catch {
+        kept.push({ path: image.assetPath, reason: "webp_invalid" });
+      }
+    }
+  }
+
+  return { deleted, kept, candidates, collisions, gitDirty: false };
+}
+
+function printCleanPreview(result) {
+  console.log("\nWARBOUND — Aperçu nettoyage PNG");
+  console.log("=================================");
+
+  if (result.collisions.length > 0) {
+    console.log(`\n⚠️  Collisions (${result.collisions.length}) — conservés :`);
+    for (const { webp, sources } of result.collisions) {
+      console.log(`  ${webp} ← ${sources.join(", ")}`);
+    }
+  }
+
+  if (result.candidates.length > 0) {
+    console.log(`\n  ${result.candidates.length} PNG supprimable(s) :`);
+    for (const p of result.candidates) {
+      console.log(`  🗑  ${p}`);
+    }
+  } else {
+    console.log("\n  Aucun PNG éligible à la suppression.");
+  }
+
+  const significantKept = result.kept.filter((k) => k.reason !== "no_webp");
+  if (significantKept.length > 0) {
+    const LABELS = {
+      webp_invalid: "WebP invalide",
+      webp_larger: "WebP plus grand que PNG",
+      refs_remaining: "références YAML restantes",
+      collision: "collision de noms"
+    };
+    console.log(`\n  ${significantKept.length} PNG conservé(s) :`);
+    for (const { path: p, reason } of significantKept) {
+      console.log(`  ✓ ${p} (${LABELS[reason] ?? reason})`);
+    }
+  }
+
+  console.log(`\nRelance avec --clean --confirm pour appliquer ${result.candidates.length} suppression(s).`);
 }
 
 async function writeReport(report) {
@@ -292,7 +443,7 @@ async function writeReport(report) {
 }
 
 async function main() {
-  const { write, type, quality, updateReferences, clean, confirm, help, error } = parseArgs(process.argv.slice(2));
+  const { write, type, quality, updateReferences, clean, confirm, forceClean, help, error } = parseArgs(process.argv.slice(2));
 
   if (help) {
     printHelp();
@@ -306,9 +457,43 @@ async function main() {
     return;
   }
 
+  // --clean seul (sans --confirm) : aperçu dry-run puis exit
   if (clean && !confirm) {
-    console.error("❌ --clean requiert --confirm pour éviter les suppressions accidentelles.");
-    process.exitCode = 2;
+    const scanReport = await scan(ROOT);
+    const remaining = await collectRemainingPngRefs(scanReport.sources, scanReport.assets);
+    const result = await cleanupPng(scanReport.images, remaining, { dryRun: true, forceClean });
+    printCleanPreview(result);
+    return;
+  }
+
+  // --clean --confirm sans --write : nettoyage autonome puis exit
+  if (clean && confirm && !write) {
+    const scanReport = await scan(ROOT);
+    const remaining = await collectRemainingPngRefs(scanReport.sources, scanReport.assets);
+    const cleanup = await cleanupPng(scanReport.images, remaining, { dryRun: false, forceClean });
+    if (cleanup.gitDirty) {
+      console.error("❌ Dépôt Git non propre — nettoyage annulé. Utilise --force-clean pour contourner.");
+      process.exitCode = 1;
+      return;
+    }
+    if (cleanup.collisions.length > 0) {
+      console.warn(`⚠️  ${cleanup.collisions.length} collision(s) détectée(s) — PNG concernés conservés.`);
+      for (const { webp, sources } of cleanup.collisions) {
+        console.warn(`   ${webp} ← ${sources.join(", ")}`);
+      }
+    }
+    console.log(`  ${cleanup.deleted} PNG supprimé(s).`);
+    if (cleanup.kept.length > 0) {
+      console.log(`  ${cleanup.kept.length} PNG conservé(s).`);
+    }
+
+    try {
+      execSync("pnpm packs:audit", { stdio: "inherit", cwd: ROOT });
+    } catch {
+      console.error("❌ pnpm packs:audit a échoué après nettoyage.");
+      process.exitCode = 1;
+    }
+
     return;
   }
 
@@ -337,7 +522,8 @@ async function main() {
   // PNG→WebP non contrôlé.
   const migratableAssets = imageResult.webpAssets;
 
-  const refResult = updateReferences
+  const migrateReferences = updateReferences || (clean && write);
+  const refResult = migrateReferences
     ? await migrateRefs(scanReport.refs, write, { root: ROOT, migratableAssets })
     : { migrated: 0, skipped: 0, replacements: 0, files: [], errors: [] };
 
@@ -356,7 +542,7 @@ async function main() {
     timestamp: new Date().toISOString(),
     mode,
     module: MODULE_ID,
-    options: { type, quality, updateReferences, clean, confirm },
+    options: { type, quality, updateReferences, clean, confirm, forceClean },
     scan: {
       images: scanReport.images.length,
       audio: scanReport.audio.length,
@@ -389,7 +575,7 @@ async function main() {
       videos: videoResult
     },
     build: { ran: false, ok: null },
-    cleanup: { deletedPng: 0, keptPng: [] }
+    cleanup: { dryRun: false, deletedPng: 0, keptPng: [], collisions: [] }
   };
 
   if (!write) {
@@ -429,7 +615,7 @@ async function main() {
     return;
   }
 
-  if (updateReferences) {
+  if (migrateReferences) {
     const remaining = await collectRemainingPngRefs(
       scanReport.sources,
       scanReport.assets
@@ -450,15 +636,30 @@ async function main() {
       return;
     }
 
-    if (clean) {
+    if (clean && confirm) {
       console.log("Nettoyage des PNG devenus inutiles...");
       const cleanup = await cleanupPng(
         scanReport.images,
-        imageResult.webpAssets,
-        remaining
+        remaining,
+        { dryRun: false, forceClean, webpAssets: imageResult.webpAssets }
       );
 
-      report.cleanup = { deletedPng: cleanup.deleted, keptPng: cleanup.kept };
+      if (cleanup.gitDirty) {
+        console.error("❌ Dépôt Git non propre — nettoyage annulé. Utilise --force-clean pour contourner.");
+        report.cleanup = { dryRun: false, deletedPng: 0, keptPng: [], collisions: [], gitDirty: true };
+        await writeReport(report);
+        process.exitCode = 1;
+        return;
+      }
+
+      if (cleanup.collisions.length > 0) {
+        console.warn(`⚠️  ${cleanup.collisions.length} collision(s) détectée(s) — PNG concernés conservés.`);
+        for (const { webp, sources } of cleanup.collisions) {
+          console.warn(`   ${webp} ← ${sources.join(", ")}`);
+        }
+      }
+
+      report.cleanup = { dryRun: false, deletedPng: cleanup.deleted, keptPng: cleanup.kept, collisions: cleanup.collisions };
 
       console.log(`  ${cleanup.deleted} PNG supprimé(s).`);
 
@@ -473,7 +674,7 @@ async function main() {
   console.log("\n✅ Optimisation terminée.");
 }
 
-export { collectRemainingPngRefs, isMainModule, main, parseArgs, printHelp };
+export { cleanupPng, collectRemainingPngRefs, isMainModule, main, parseArgs, printCleanPreview, printHelp };
 
 try {
   if (isMainModule()) {
