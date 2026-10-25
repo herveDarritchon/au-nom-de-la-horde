@@ -61,8 +61,12 @@ test("parseArgs — --type all", () => {
   assert.equal(parseArgs(["--type", "all"]).type, "all");
 });
 
+test("parseArgs — --type video => valide", () => {
+  assert.equal(parseArgs(["--type", "video"]).type, "video");
+});
+
 test("parseArgs — --type invalide => erreur", () => {
-  const result = parseArgs(["--type", "video"]);
+  const result = parseArgs(["--type", "unknown"]);
 
   assert.ok(result.error !== null);
   assert.match(result.error, /--type invalide/);

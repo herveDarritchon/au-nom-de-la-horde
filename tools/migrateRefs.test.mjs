@@ -45,6 +45,31 @@ test("run migre les refs .png → .webp en mode write", async () => {
   });
 });
 
+test("run migre les refs vidéo .mp4/.mov → .webm", async () => {
+  await withTmpDir(async (dir) => {
+    const yamlPath = path.join(dir, "scene.yml");
+    const content = [
+      `intro: ${PREFIX}assets/intro.mp4`,
+      `outro: ${PREFIX}assets/outro.mov`,
+      `external: https://example.test/remote.mp4`
+    ].join("\n");
+    await fs.writeFile(yamlPath, content, "utf8");
+
+    const result = await run([toRef(yamlPath)], true, {
+      root: dir,
+      extensions: [".mp4", ".mov"],
+      targetExtension: ".webm",
+      migratableAssets: new Set(["assets/intro.mp4", "assets/outro.mov"])
+    });
+
+    assert.equal(result.replacements, 2);
+    const updated = await fs.readFile(yamlPath, "utf8");
+    assert.ok(updated.includes("assets/intro.webm"));
+    assert.ok(updated.includes("assets/outro.webm"));
+    assert.ok(updated.includes("remote.mp4"));
+  });
+});
+
 test("run est idempotent (refs déjà .webp → skipped)", async () => {
   await withTmpDir(async (dir) => {
     const yamlPath = path.join(dir, "test.yml");

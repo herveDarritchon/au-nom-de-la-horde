@@ -78,7 +78,7 @@ function parseArgs(argv) {
   let confirm = false;
   let forceClean = false;
 
-  const VALID_TYPES = new Set(["images", "audio", "all"]);
+  const VALID_TYPES = new Set(["images", "audio", "video", "all"]);
 
   for (let i = 0; i < argv.length; i++) {
     const arg = argv[i];
@@ -129,7 +129,7 @@ Options :
   --dry-run              Inventorie et projette les modifications sans rien écrire
                          (comportement par défaut).
   --write                Applique les modifications sur le disque.
-  --type images|audio|all
+  --type images|audio|video|all
                          Limite le traitement au type de média indiqué (défaut : all).
   --quality <n>          Override global de la qualité WebP (0-100).
   --update-references    Migre les références YAML après conversion.
@@ -157,6 +157,7 @@ function printHeader(scanReport, mode) {
   console.log("SCAN");
   console.log(`  Images PNG..................... ${scanReport.images.length}`);
   console.log(`  Fichiers audio.................. ${scanReport.audio.length}`);
+  console.log(`  Fichiers vidéo.................. ${scanReport.videos.length}`);
   console.log(`  Fichiers sources analysés...... ${scanReport.sources.length}`);
   console.log(`  Fichiers avec refs médias...... ${scanReport.refs.length}`);
   console.log("");
@@ -187,7 +188,10 @@ function printResults(imageResult, refResult, audioResult, videoResult) {
     `  Fichiers audio ignorés.......... ${audioResult.skipped}`
   );
   console.log(
-    `  Vidéos (hors périmètre)......... ${videoResult.skipped}`
+    `  Vidéos converties (MP4→WebM)... ${videoResult.converted ?? 0}`
+  );
+  console.log(
+    `  Vidéos ignorées................. ${videoResult.skipped ?? 0}`
   );
 
   if (imageResult.sizes.probed) {
@@ -200,6 +204,12 @@ function printResults(imageResult, refResult, audioResult, videoResult) {
   if (audioResult.savedBytes > 0) {
     console.log(
       `  Gain audio...................... ${formatBytes(audioResult.savedBytes)}`
+    );
+  }
+
+  if ((videoResult.savedBytes ?? 0) > 0) {
+    console.log(
+      `  Gain vidéo...................... ${formatBytes(videoResult.savedBytes)}`
     );
   }
 
@@ -512,28 +522,36 @@ async function main() {
 
   const runImages = type === "images" || type === "all";
   const runAudio = type === "audio" || type === "all";
+  const runVideos = type === "video" || type === "all";
 
   const imageResult = runImages
     ? await convertImages(scanReport.images, { write, quality, manifest })
     : { converted: 0, reencoded: 0, written: 0, skipped: scanReport.images.length, keptPng: 0, keptPngDetails: [], byProfile: {}, byReason: {}, sizes: { probed: false, pngBytes: 0, webpBytes: 0 }, webpAssets: new Set(), manifestEntries: [], errors: [] };
 
-  // Les références ne peuvent viser que les WebP validés par l'étape image.
-  // Une sélection audio seule ne doit donc jamais déclencher un remplacement
-  // PNG→WebP non contrôlé.
-  const migratableAssets = imageResult.webpAssets;
-
-  const migrateReferences = updateReferences || (clean && write);
-  const refResult = migrateReferences
-    ? await migrateRefs(scanReport.refs, write, { root: ROOT, migratableAssets })
-    : { migrated: 0, skipped: 0, replacements: 0, files: [], errors: [] };
-
   const audioResult = runAudio
     ? await optimizeAudio(scanReport.audio, write)
     : { optimized: 0, skipped: scanReport.audio.length, savedBytes: 0, errors: [] };
 
-  const videoResult = type === "all"
+  const videoResult = runVideos
     ? await convertVideos(scanReport.videos, write)
-    : { skipped: scanReport.videos?.length ?? 0, errors: [] };
+    : { converted: 0, skipped: scanReport.videos?.length ?? 0, savedBytes: 0, webmAssets: new Set(), errors: [] };
+
+  // Migrate only assets validated by the conversion steps that ran. In
+  // `all`, both image and video extensions share one safe reference pass.
+  const migratableAssets = new Set([
+    ...imageResult.webpAssets,
+    ...videoResult.webmAssets
+  ]);
+  const migrateReferences = updateReferences || (clean && write);
+  const refResult = migrateReferences
+    ? await migrateRefs(scanReport.refs, write, {
+        root: ROOT,
+        migratableAssets,
+        extensions: [".png", ".mp4", ".mov"],
+        targetExtension: (rawRef) =>
+          /\.png$/i.test(rawRef) ? ".webp" : ".webm"
+      })
+    : { migrated: 0, skipped: 0, replacements: 0, files: [], errors: [] };
 
   printResults(imageResult, refResult, audioResult, videoResult);
   printErrors([imageResult, refResult, audioResult, videoResult]);
@@ -581,7 +599,11 @@ async function main() {
   if (!write) {
     await writeReport(report);
 
-    const total = imageResult.converted + refResult.migrated + audioResult.optimized;
+    const total =
+      imageResult.converted +
+      refResult.migrated +
+      audioResult.optimized +
+      videoResult.converted;
     console.log(
       `Relance avec --write pour appliquer ${total} opération(s).`
     );

@@ -1,7 +1,7 @@
 /**
  * Warbound — Migrate Refs
  *
- * Réécriture des références `.png` vers `.webp` dans les fichiers sources du
+ * Réécriture des références médias vers leur format optimisé dans les fichiers sources du
  * module : compendiums YAML, feuilles de style et scripts.
  *
  * Les références ne vivent pas uniquement dans les compendiums : `styles/` et
@@ -28,7 +28,7 @@ import { scan } from "./mediaScanner.mjs";
 /**
  * @param {Array<{filePath:string,fileDir:string,relativePath:string}>} refs
  * @param {boolean} write
- * @param {{ root: string, migratableAssets?: Set<string> }} options
+ * @param {{ root: string, migratableAssets?: Set<string>, extensions?: string[], targetExtension?: string | ((rawRef: string) => string) }} options
  * @returns {Promise<{
  *   migrated: number,
  *   skipped: number,
@@ -38,7 +38,12 @@ import { scan } from "./mediaScanner.mjs";
  * }>}
  */
 async function run(refs, write, options = {}) {
-  const { root, migratableAssets } = options;
+  const {
+    root,
+    migratableAssets,
+    extensions = [".png"],
+    targetExtension = ".webp"
+  } = options;
 
   const errors = [];
   const files = [];
@@ -55,6 +60,8 @@ async function run(refs, write, options = {}) {
         root,
         fileDir: ref.fileDir,
         moduleId: MODULE_ID,
+        extensions,
+        targetExtension,
         isKnownAsset: migratableAssets
           ? (assetPath) => migratableAssets.has(assetPath)
           : undefined

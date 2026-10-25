@@ -19,7 +19,9 @@
     "media:optimize": "node ./tools/mediaOptimize.mjs",
     "media:optimize:dry-run": "node ./tools/mediaOptimize.mjs --dry-run",
     "media:optimize:audio": "node ./tools/optimizeAudio.mjs --dry-run",
-    "media:optimize:audio:write": "node ./tools/optimizeAudio.mjs --write"
+    "media:optimize:audio:write": "node ./tools/optimizeAudio.mjs --write",
+    "media:optimize:video": "node ./tools/mediaOptimize.mjs --type video --dry-run",
+    "media:optimize:video:write": "node ./tools/mediaOptimize.mjs --type video --write"
   },
   "devDependencies": {
     "@foundryvtt/foundryvtt-cli": "^3.0.4",

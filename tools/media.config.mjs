@@ -152,9 +152,33 @@ export const AUDIO_PROFILES = [
   { profile: "default", match: /^/,                          bitrate: "96k"  }
 ];
 
+/**
+ * Profils de conversion WebM VP9, par motif de chemin asset.
+ *
+ * | Répertoire                  | Profil    | CRF | Description                  |
+ * |-----------------------------|-----------|-----|------------------------------|
+ * | `assets/videos/scenes/`     | `scene`   |  28 | Qualité visuelle prioritaire |
+ * | `assets/videos/tokens/`     | `token`   |  33 | Balance qualité/taille       |
+ * | autres                      | `default` |  33 | Balance qualité/taille       |
+ *
+ * En mode constant-quality VP9 (`-b:v 0 -crf <n>`) : plus le CRF est bas,
+ * meilleure est la qualité (et plus le fichier est lourd).
+ */
+export const VIDEO_PROFILES = [
+  { profile: "scene",   match: /^assets\/videos\/scenes\//, crf: 28, tileColumns: 2, threads: 4 },
+  { profile: "token",   match: /^assets\/videos\/tokens\//, crf: 33, tileColumns: 1, threads: 2 },
+  { profile: "default", match: /^/,                         crf: 33, tileColumns: 1, threads: 2 }
+];
+
 export const VIDEO_CONFIG = {
   codec: "libvpx-vp9",
-  container: "webm"
+  container: "webm",
+
+  /** Préfixe de la balise de métadonnée marquant un fichier converti. */
+  markerPrefix: "warbound-media-optimize",
+
+  /** Tolérance (en %) sur la durée lors de la validation du fichier produit. */
+  durationToleranceRatio: 0.02
 };
 
 /**

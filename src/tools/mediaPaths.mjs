@@ -160,20 +160,33 @@ function resolveAssetRef(rawRef, context) {
 }
 
 /**
- * Réécrit les références PNG d'assets du module en WebP.
+ * Réécrit les références d'assets du module vers une extension cible.
  *
  * @param {string} content
  * @param {{
  *   root: string,
  *   fileDir: string,
  *   moduleId: string,
+ *   extensions?: string[],
+ *   targetExtension?: string | ((rawRef: string) => string),
  *   isKnownAsset?: (assetPath: string) => boolean
  * }} options
  * @returns {{ updated: string, count: number, rewritten: Array<{from: string, to: string, assetPath: string}> }}
  */
 function rewriteAssetRefs(content, options) {
-  const { root, fileDir, moduleId, isKnownAsset } = options;
-  const regex = new RegExp(PNG_REF_PATTERN.source, "gi");
+  const {
+    root,
+    fileDir,
+    moduleId,
+    extensions = [".png"],
+    targetExtension = ".webp",
+    isKnownAsset
+  } = options;
+  const regex = buildAssetRefPattern(extensions);
+  const extensionPattern = new RegExp(
+    `(?:${extensions.map(escapeRegex).join("|")})$`,
+    "i"
+  );
 
   let count = 0;
   const rewritten = [];
@@ -186,7 +199,10 @@ function rewriteAssetRefs(content, options) {
       return raw;
     }
 
-    const next = raw.replace(/\.png$/i, ".webp");
+    const replacement = typeof targetExtension === "function"
+      ? targetExtension(raw)
+      : targetExtension;
+    const next = raw.replace(extensionPattern, replacement);
 
     if (next === raw) return raw;
 
