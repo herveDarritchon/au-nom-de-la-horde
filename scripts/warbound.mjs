@@ -6,8 +6,8 @@
 const MODULE_ID = "warbound-campaign-content";
 
 const PATHS = {
-  logo: `modules/${MODULE_ID}/assets/ui/warbound-logo.png`,
-  defaultActor: `modules/${MODULE_ID}/assets/ui/actor-default.png`
+  logo: `modules/${MODULE_ID}/assets/ui/warbound-logo.webp`,
+  defaultActor: `modules/${MODULE_ID}/assets/ui/actor-default.webp`
 };
 
 /* ==========================================================================

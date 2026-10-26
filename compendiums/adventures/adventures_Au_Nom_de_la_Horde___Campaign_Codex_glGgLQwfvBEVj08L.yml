@@ -1,5 +1,5 @@
 name: Au Nom de la Horde - Campaign Codex
-img: modules/warbound-campaign-content/assets/images/illustrations/cof2-banner-image-au-nom-de-la-horde.png
+img: modules/warbound-campaign-content/assets/images/illustrations/cof2-banner-image-au-nom-de-la-horde.webp
 caption: >-
   Durotar, aux premières heures d'une nouvelle Horde.
 
@@ -43,7 +43,7 @@ actors:
   - folder: h8KtK9ZcdlVqcdfk
     name: Brakka Main-de-Pierre
     type: encounter
-    img: modules/warbound-campaign-content/assets/images/avatar/durotar/tranchecolline/cof2-tranchecolline-brakka-main-de-pierre-illustration.png
+    img: modules/warbound-campaign-content/assets/images/avatar/durotar/tranchecolline/cof2-tranchecolline-brakka-main-de-pierre-illustration.webp
     system:
       currentEffects: []
       abilities:
@@ -229,7 +229,7 @@ actors:
       height: 1
       depth: 1
       texture:
-        src: modules/warbound-campaign-content/assets/images/tokens/npcs/durotar/tranchecolline/cof2-tranchecolline-brakka-main-de-pierre-token.png
+        src: modules/warbound-campaign-content/assets/images/tokens/npcs/durotar/tranchecolline/cof2-tranchecolline-brakka-main-de-pierre-token.webp
         anchorX: 0.5
         anchorY: 0.5
         fit: contain
@@ -326,7 +326,7 @@ actors:
   - folder: Jdlru5PQWEMbOKh3
     name: Estafette Kolkar
     type: encounter
-    img: modules/warbound-campaign-content/assets/images/avatar/kolkar/coa-kolkar-guetteur-illustration.png
+    img: modules/warbound-campaign-content/assets/images/avatar/kolkar/coa-kolkar-guetteur-illustration.webp
     system:
       abilities:
         agi:
@@ -593,7 +593,7 @@ actors:
     items:
       - name: Sabots
         type: attack
-        img: modules/warbound-campaign-content/assets/images/items/weapons/kolkar/cof2-sabots-kolkar.png
+        img: modules/warbound-campaign-content/assets/images/items/weapons/kolkar/cof2-sabots-kolkar.webp
         _id: nTFFTuHDiB6ZfqBB
         system:
           description: ''
@@ -668,7 +668,7 @@ actors:
       - folder: cPDNoeItbSV5jtX2
         name: Charge (13)
         type: capacity
-        img: modules/warbound-campaign-content/assets/images/icons/capacites/rencontres/kolkar/cof2-charge-kolkar.png
+        img: modules/warbound-campaign-content/assets/images/icons/capacites/rencontres/kolkar/cof2-charge-kolkar.webp
         system:
           description: >-
             <p>La créature parcourt une distance maximale de 20 m et réalise une
@@ -794,7 +794,7 @@ actors:
       - folder: cPDNoeItbSV5jtX2
         name: Tireur mobile
         type: capacity
-        img: modules/warbound-campaign-content/assets/images/icons/capacites/rencontres/kolkar/cof2-tireur-mobile.png
+        img: modules/warbound-campaign-content/assets/images/icons/capacites/rencontres/kolkar/cof2-tireur-mobile.webp
         system:
           description: >-
             <p dir="auto" data-start="2745" data-end="2873">L'Estafette peut
@@ -889,7 +889,7 @@ actors:
       - folder: GeQlbBRZecgaU1Nw
         name: arc court
         type: attack
-        img: modules/warbound-campaign-content/assets/images/items/weapons/kolkar/cof2-tranche-sangle-kolkar.png
+        img: modules/warbound-campaign-content/assets/images/items/weapons/kolkar/cof2-tranche-sangle-kolkar.webp
         system:
           description: ''
           source: ''
@@ -996,7 +996,7 @@ actors:
     name: Grosk
     type: encounter
     _id: yvvxamnzonrCwXUN
-    img: modules/warbound-campaign-content/assets/images/avatar/durotar/tranchecolline/cof2-tranchecolline-grosk-illustration.png
+    img: modules/warbound-campaign-content/assets/images/avatar/durotar/tranchecolline/cof2-tranchecolline-grosk-illustration.webp
     system:
       currentEffects: []
       abilities:
@@ -1182,7 +1182,7 @@ actors:
       height: 1
       depth: 1
       texture:
-        src: modules/warbound-campaign-content/assets/images/tokens/npcs/durotar/tranchecolline/cof2-tranchecolline-grosk-token.png
+        src: modules/warbound-campaign-content/assets/images/tokens/npcs/durotar/tranchecolline/cof2-tranchecolline-grosk-token.webp
         anchorX: 0.5
         anchorY: 0.5
         fit: contain
@@ -1278,7 +1278,7 @@ actors:
   - folder: Jdlru5PQWEMbOKh3
     name: Manoeuvre Kolkar
     type: encounter
-    img: modules/warbound-campaign-content/assets/images/avatar/kolkar/coa-kolkar-coupe-sangle-illustration.png
+    img: modules/warbound-campaign-content/assets/images/avatar/kolkar/coa-kolkar-coupe-sangle-illustration.webp
     system:
       abilities:
         agi:
@@ -1546,7 +1546,7 @@ actors:
       - folder: GeQlbBRZecgaU1Nw
         name: coupe-sangle
         type: attack
-        img: modules/warbound-campaign-content/assets/images/items/weapons/kolkar/cof2-tranche-sangle-kolkar.png
+        img: modules/warbound-campaign-content/assets/images/items/weapons/kolkar/cof2-tranche-sangle-kolkar.webp
         _id: bv4vy2L4UG6TLx4n
         system:
           description: ''
@@ -1619,7 +1619,7 @@ actors:
           exportSource: null
       - name: Sabots
         type: attack
-        img: modules/warbound-campaign-content/assets/images/items/weapons/kolkar/cof2-sabots-kolkar.png
+        img: modules/warbound-campaign-content/assets/images/items/weapons/kolkar/cof2-sabots-kolkar.webp
         _id: nTFFTuHDiB6ZfqBB
         system:
           description: ''
@@ -1694,7 +1694,7 @@ actors:
       - folder: cPDNoeItbSV5jtX2
         name: Nuage de poussière
         type: capacity
-        img: modules/warbound-campaign-content/assets/images/icons/capacites/rencontres/kolkar/cof2-nuage-de-poussiere-kolkar.png
+        img: modules/warbound-campaign-content/assets/images/icons/capacites/rencontres/kolkar/cof2-nuage-de-poussiere-kolkar.webp
         _id: pLa83pfekCtTBpvL
         system:
           description: >-
@@ -1808,7 +1808,7 @@ actors:
       - folder: cPDNoeItbSV5jtX2
         name: Charge (13)
         type: capacity
-        img: modules/warbound-campaign-content/assets/images/icons/capacites/rencontres/kolkar/cof2-charge-kolkar.png
+        img: modules/warbound-campaign-content/assets/images/icons/capacites/rencontres/kolkar/cof2-charge-kolkar.webp
         system:
           description: >-
             <p>La créature parcourt une distance maximale de 20 m et réalise une
@@ -1954,7 +1954,7 @@ actors:
   - folder: h8KtK9ZcdlVqcdfk
     name: Morga Sangleroue
     type: encounter
-    img: modules/warbound-campaign-content/assets/images/avatar/durotar/tranchecolline/cof2-tranchecolline-morga-sangleroue-illustration.png
+    img: modules/warbound-campaign-content/assets/images/avatar/durotar/tranchecolline/cof2-tranchecolline-morga-sangleroue-illustration.webp
     system:
       currentEffects: []
       abilities:
@@ -2140,7 +2140,7 @@ actors:
       height: 1
       depth: 1
       texture:
-        src: modules/warbound-campaign-content/assets/images/tokens/npcs/durotar/tranchecolline/cof2-tranchecolline-morga-sangleroue-token.png
+        src: modules/warbound-campaign-content/assets/images/tokens/npcs/durotar/tranchecolline/cof2-tranchecolline-morga-sangleroue-token.webp
         anchorX: 0.5
         anchorY: 0.5
         fit: contain
@@ -2237,7 +2237,7 @@ actors:
   - folder: h8KtK9ZcdlVqcdfk
     name: Orgnil
     type: encounter
-    img: modules/warbound-campaign-content/assets/images/avatar/durotar/tranchecolline/cof2-tranchecolline-orgnil-illustration.png
+    img: modules/warbound-campaign-content/assets/images/avatar/durotar/tranchecolline/cof2-tranchecolline-orgnil-illustration.webp
     system:
       currentEffects: []
       abilities:
@@ -2423,7 +2423,7 @@ actors:
       height: 1
       depth: 1
       texture:
-        src: modules/warbound-campaign-content/assets/images/tokens/npcs/durotar/tranchecolline/cof2-tranchecolline-orgnil-token.png
+        src: modules/warbound-campaign-content/assets/images/tokens/npcs/durotar/tranchecolline/cof2-tranchecolline-orgnil-token.webp
         anchorX: 0.5
         anchorY: 0.5
         fit: contain
@@ -2521,7 +2521,7 @@ actors:
     name: Sarkoth
     type: encounter
     _id: YiOIcj9q2L0OrHxe
-    img: modules/warbound-campaign-content/assets/images/avatar/animals/cof2-sarkoth-avatar.png
+    img: modules/warbound-campaign-content/assets/images/avatar/animals/cof2-sarkoth-avatar.webp
     system:
       currentEffects: []
       abilities:
@@ -2707,7 +2707,7 @@ actors:
       height: 1
       depth: 1
       texture:
-        src: modules/warbound-campaign-content/assets/images/avatar/animals/cof2-sarkoth-avatar.png
+        src: modules/warbound-campaign-content/assets/images/avatar/animals/cof2-sarkoth-avatar.webp
         anchorX: 0.5
         anchorY: 0.5
         fit: contain
@@ -2801,7 +2801,7 @@ actors:
   - folder: h8KtK9ZcdlVqcdfk
     name: Swart
     type: encounter
-    img: modules/warbound-campaign-content/assets/images/avatar/durotar/tranchecolline/cof2-tranchecolline-swart-illustration.png
+    img: modules/warbound-campaign-content/assets/images/avatar/durotar/tranchecolline/cof2-tranchecolline-swart-illustration.webp
     system:
       currentEffects: []
       abilities:
@@ -2987,7 +2987,7 @@ actors:
       height: 1
       depth: 1
       texture:
-        src: modules/warbound-campaign-content/assets/images/tokens/npcs/durotar/tranchecolline/cof2-tranchecolline-swart-token.png
+        src: modules/warbound-campaign-content/assets/images/tokens/npcs/durotar/tranchecolline/cof2-tranchecolline-swart-token.webp
         anchorX: 0.5
         anchorY: 0.5
         fit: contain
@@ -3084,7 +3084,7 @@ actors:
   - folder: h8KtK9ZcdlVqcdfk
     name: Thotar
     type: encounter
-    img: modules/warbound-campaign-content/assets/images/avatar/durotar/tranchecolline/cof2-tranchecolline-thotar-illustration.png
+    img: modules/warbound-campaign-content/assets/images/avatar/durotar/tranchecolline/cof2-tranchecolline-thotar-illustration.webp
     system:
       currentEffects: []
       abilities:
@@ -3270,7 +3270,7 @@ actors:
       height: 1
       depth: 1
       texture:
-        src: modules/warbound-campaign-content/assets/images/tokens/npcs/durotar/tranchecolline/cof2-tranchecolline-thotar-token.png
+        src: modules/warbound-campaign-content/assets/images/tokens/npcs/durotar/tranchecolline/cof2-tranchecolline-thotar-token.webp
         anchorX: 0.5
         anchorY: 0.5
         fit: contain
@@ -3368,7 +3368,7 @@ actors:
     name: Yarrog
     type: encounter
     _id: NXJZf3XwjX6r7qr4
-    img: modules/warbound-campaign-content/assets/images/avatar/orcs/lame-sanglante/cof2-yarrog-avatar-uc.png
+    img: modules/warbound-campaign-content/assets/images/avatar/orcs/lame-sanglante/cof2-yarrog-avatar-uc.webp
     system:
       currentEffects: []
       abilities:
@@ -3554,7 +3554,7 @@ actors:
       height: 1
       depth: 1
       texture:
-        src: modules/warbound-campaign-content/assets/images/avatar/orcs/lame-sanglante/cof2-yarrog-avatar-uc.png
+        src: modules/warbound-campaign-content/assets/images/avatar/orcs/lame-sanglante/cof2-yarrog-avatar-uc.webp
         anchorX: 0.5
         anchorY: 0.5
         fit: contain
@@ -3665,7 +3665,7 @@ journal:
         contentPages:
           info: GGbghqt1yGgvfs9b
           notes: gqPOxieAK8uQcQeI
-        image: modules/warbound-campaign-content/assets/images/illustrations/durotar/mine-roche-seche/coa-mrs-atelier-de-maintenance.png
+        image: modules/warbound-campaign-content/assets/images/illustrations/durotar/mine-roche-seche/coa-mrs-atelier-de-maintenance.webp
       core:
         sheetClass: campaign-codex.ShopSheet
     pages:
@@ -3762,7 +3762,7 @@ journal:
         contentPages:
           info: rMzhXOI8bEaWuOAk
           notes: FN3DeqOEHDqQAglU
-        image: modules/warbound-campaign-content/assets/images/avatar/durotar/tranchecolline/cof2-tranchecolline-brakka-main-de-pierre-illustration.png
+        image: modules/warbound-campaign-content/assets/images/avatar/durotar/tranchecolline/cof2-tranchecolline-brakka-main-de-pierre-illustration.webp
         data:
           mapMarker: BMP
           linkedLocations:
@@ -3902,7 +3902,7 @@ journal:
         contentPages:
           info: ju3WSb8f26VKbkdA
           notes: CxB5UMCGnHo6Skpy
-        image: modules/warbound-campaign-content/assets/images/avatar/coa-brazzik_main-froide_avatar.png
+        image: modules/warbound-campaign-content/assets/images/avatar/coa-brazzik_main-froide_avatar.webp
         data:
           linkedActor: Actor.59xA0uozsrB4lOvv
           sheetTypeLabelOverride: 'Journal : PNJ'
@@ -4009,7 +4009,7 @@ journal:
         contentPages:
           info: NO1hNkePDlfbG3O3
           notes: 6yLpEfyMtZs39vSQ
-        image: modules/warbound-campaign-content/assets/images/illustrations/durotar/mine-roche-seche/coa-mrs-bureau.png
+        image: modules/warbound-campaign-content/assets/images/illustrations/durotar/mine-roche-seche/coa-mrs-bureau.webp
       core:
         sheetClass: campaign-codex.ShopSheet
     pages:
@@ -4131,7 +4131,7 @@ journal:
                     value: 0
                     name: Personnage joueur
                     img: systems/dnd5e/icons/svg/actors/character.svg
-        image: modules/warbound-campaign-content/assets/images/icons/factions/coa-icone-faction-cartel_baille-fonds.png
+        image: modules/warbound-campaign-content/assets/images/icons/factions/coa-icone-faction-cartel_baille-fonds.webp
       core:
         sheetClass: campaign-codex.TagSheet
     _id: sTry2ekVrtg71TQo
@@ -4429,7 +4429,7 @@ journal:
         contentPages:
           info: Mt6jU9zHgogbFXFb
           notes: DycM6JtCiVlrFJb7
-        image: modules/warbound-campaign-content/assets/images/avatar/orcs/convoi/coa-dorga-tire-rene-avatar.png
+        image: modules/warbound-campaign-content/assets/images/avatar/orcs/convoi/coa-dorga-tire-rene-avatar.webp
         data:
           linkedActor: Actor.0EGDjh6P90ClokR2
           linkedLocations:
@@ -4769,7 +4769,7 @@ journal:
           tags:
             - sc1
             - durotar
-        image: modules/warbound-campaign-content/assets/images/battlemaps/coa-battlemap-attaque-centaure.png
+        image: modules/warbound-campaign-content/assets/images/battlemaps/coa-battlemap-attaque-centaure.webp
       core:
         sheetClass: campaign-codex.ShopSheet
     _id: CGTq9fPzdD50Sw5y
@@ -4873,7 +4873,7 @@ journal:
         contentPages:
           info: XUZrkjvKXzfIh02c
           notes: WC8KF9zvyOLStgxC
-        image: modules/warbound-campaign-content/assets/images/illustrations/durotar/mine-roche-seche/coa-mrs-entrepot.png
+        image: modules/warbound-campaign-content/assets/images/illustrations/durotar/mine-roche-seche/coa-mrs-entrepot.webp
       core:
         sheetClass: campaign-codex.ShopSheet
     pages:
@@ -5035,7 +5035,7 @@ journal:
         contentPages:
           info: Muq0UwD1hkT0sv3F
           notes: XQq56G7Or4SJYuvq
-        image: modules/warbound-campaign-content/assets/images/illustrations/coa-convoie-pour-tranchecolline.png
+        image: modules/warbound-campaign-content/assets/images/illustrations/coa-convoie-pour-tranchecolline.webp
         sheet-widgets: []
         widgets-position:
           info: true
@@ -5100,7 +5100,7 @@ journal:
           format: 1
           content: >-
             <figure><img
-            src="modules/warbound-campaign-content/assets/images/illustrations/aides-de-jeu/coa-lettre-takrin-convoi.png"
+            src="modules/warbound-campaign-content/assets/images/illustrations/aides-de-jeu/coa-lettre-takrin-convoi.webp"
             width="500"><figcaption>Lettre de Mission</figcaption></figure>
         ownership:
           default: 0
@@ -5160,7 +5160,7 @@ journal:
         contentPages:
           info: yDFImtjGEg29jlDz
           notes: E6fcOCQd1M6Bd49h
-        image: modules/warbound-campaign-content/assets/images/avatar/kolkar/coa-kolkar-guetteur-illustration.png
+        image: modules/warbound-campaign-content/assets/images/avatar/kolkar/coa-kolkar-guetteur-illustration.webp
       core:
         sheetClass: campaign-codex.NPCSheet
     pages:
@@ -5354,7 +5354,7 @@ journal:
         contentPages:
           info: 40mGp1QGJFyVlwmv
           notes: BsTPKZS2T2ycxtlK
-        image: modules/warbound-campaign-content/assets/images/avatar/durotar/tranchecolline/cof2-tranchecolline-grosk-illustration.png
+        image: modules/warbound-campaign-content/assets/images/avatar/durotar/tranchecolline/cof2-tranchecolline-grosk-illustration.webp
         data:
           linkedShops:
             - JournalEntry.KUuoGwehoJo1r8py
@@ -5496,7 +5496,7 @@ journal:
         contentPages:
           info: LYR7Wa0ILUNCpdF0
           notes: 4WcVeYUYb4eqU8O1
-        image: modules/warbound-campaign-content/assets/images/icons/factions/coa-icone-faction-korkal.png
+        image: modules/warbound-campaign-content/assets/images/icons/factions/coa-icone-faction-korkal.webp
         sheet-widgets:
           - id: WV6ISFetWStVaDA7
             widgetName: Progress Clock
@@ -5664,7 +5664,7 @@ journal:
           notes: RilojrcjI7wIeNNW
         data:
           linkedActor: Actor.mSSqlS09TdA8oRgI
-        image: modules/warbound-campaign-content/assets/images/avatar/coa-krosh_pese-charge-avatar.png
+        image: modules/warbound-campaign-content/assets/images/avatar/coa-krosh_pese-charge-avatar.webp
       core:
         sheetClass: campaign-codex.NPCSheet
     _id: vC91ivaZT7R8IJdF
@@ -5800,7 +5800,7 @@ journal:
         contentPages:
           info: NhanUKGZbWO2mkwQ
           notes: yLd6t5k4lrmLWirK
-        image: modules/warbound-campaign-content/assets/images/icons/factions/coa-icone-faction-alliance.png
+        image: modules/warbound-campaign-content/assets/images/icons/factions/coa-icone-faction-alliance.webp
         sheet-widgets:
           - id: gPK2EYEwU3w5sH0U
             widgetName: Relationship Tracker Scale
@@ -5966,7 +5966,7 @@ journal:
           linkedNPCs:
             - JournalEntry.VdBucNVnB6r311r7
             - JournalEntry.yWqSuSmq7d7CyDlu
-        image: modules/warbound-campaign-content/assets/images/illustrations/durotar/tranchecolline/cof2-tranchecolline-auberge-illustration.png
+        image: modules/warbound-campaign-content/assets/images/illustrations/durotar/tranchecolline/cof2-tranchecolline-auberge-illustration.webp
       core:
         sheetClass: campaign-codex.ShopSheet
     _id: KUuoGwehoJo1r8py
@@ -9517,7 +9517,7 @@ journal:
           linkedNPCs:
             - JournalEntry.8P86TA4tw69FsXcs
             - JournalEntry.yWqSuSmq7d7CyDlu
-        image: modules/warbound-campaign-content/assets/images/illustrations/durotar/tranchecolline/cof2-tranchecolline-cou-des-convois-illustration.png
+        image: modules/warbound-campaign-content/assets/images/illustrations/durotar/tranchecolline/cof2-tranchecolline-cou-des-convois-illustration.webp
       core:
         sheetClass: campaign-codex.ShopSheet
     _id: MZhx3D4mdo5HcAtC
@@ -9673,7 +9673,7 @@ journal:
         contentPages:
           info: NhanUKGZbWO2mkwQ
           notes: yLd6t5k4lrmLWirK
-        image: modules/warbound-campaign-content/assets/images/icons/factions/coa-icone-faction-horde.png
+        image: modules/warbound-campaign-content/assets/images/icons/factions/coa-icone-faction-horde.webp
         sheet-widgets:
           - id: gPK2EYEwU3w5sH0U
             widgetName: Relationship Tracker Scale
@@ -9849,7 +9849,7 @@ journal:
         contentPages:
           info: NhanUKGZbWO2mkwQ
           notes: yLd6t5k4lrmLWirK
-        image: modules/warbound-campaign-content/assets/images/icons/factions/coa-icone-faction-lame-brulante.png
+        image: modules/warbound-campaign-content/assets/images/icons/factions/coa-icone-faction-lame-brulante.webp
         sheet-widgets:
           - id: gPK2EYEwU3w5sH0U
             widgetName: Relationship Tracker Scale
@@ -10009,7 +10009,7 @@ journal:
           sheetTypeLabelOverride: La Horde qui prend racine
           mapMarker: B
           linkedScene: Scene.bHOtETzPJHvH4IiV
-        image: modules/warbound-campaign-content/assets/images/illustrations/durotar/tranchecolline/cof2-tranchecolline-terrasse-des-batisseurs-illustration.png
+        image: modules/warbound-campaign-content/assets/images/illustrations/durotar/tranchecolline/cof2-tranchecolline-terrasse-des-batisseurs-illustration.webp
       core:
         sheetClass: campaign-codex.ShopSheet
     _id: YnEHbCZqBjvLsNXE
@@ -10174,7 +10174,7 @@ journal:
                 max: 6
                 current: 0
                 title: L’escalade vers l’irréparable
-        image: modules/warbound-campaign-content/assets/images/icons/factions/coa-icone-faction-cercle-pierre-brisee.png
+        image: modules/warbound-campaign-content/assets/images/icons/factions/coa-icone-faction-cercle-pierre-brisee.webp
       core:
         sheetClass: campaign-codex.TagSheet
     _id: IA98XHgxRxeHoo3y
@@ -10431,7 +10431,7 @@ journal:
           sheetTypeLabelOverride: Écouter la terre
           mapMarker: S
           linkedScene: Scene.bHOtETzPJHvH4IiV
-        image: modules/warbound-campaign-content/assets/images/illustrations/durotar/tranchecolline/cof2-tranchecolline-cercle-swart-illustration.png
+        image: modules/warbound-campaign-content/assets/images/illustrations/durotar/tranchecolline/cof2-tranchecolline-cercle-swart-illustration.webp
       core:
         sheetClass: campaign-codex.ShopSheet
     _id: XWNNYmuudm8UZjH5
@@ -10572,7 +10572,7 @@ journal:
           linkedLocation: JournalEntry.z1hyQIBP6XaWzdmu
           linkedNPCs:
             - JournalEntry.mWSHY5ukjF2wbpuI
-        image: modules/warbound-campaign-content/assets/images/illustrations/durotar/tranchecolline/cof2-tranchecolline-poste-orgnil-illustration.png
+        image: modules/warbound-campaign-content/assets/images/illustrations/durotar/tranchecolline/cof2-tranchecolline-poste-orgnil-illustration.webp
       core:
         sheetClass: campaign-codex.ShopSheet
     _id: TBjmgR1t6omNnldP
@@ -10708,7 +10708,7 @@ journal:
         contentPages:
           info: oFctDEPjQTghKhen
           notes: LUjnhdR7dxODKBVr
-        image: modules/warbound-campaign-content/assets/images/illustrations/durotar/lame-ardente/cof2-repaire-de-lame-ardente.png
+        image: modules/warbound-campaign-content/assets/images/illustrations/durotar/lame-ardente/cof2-repaire-de-lame-ardente.webp
         data:
           linkedLocation: JournalEntry.Lo1WAvAnHLizBKkM
           linkedNPCs:
@@ -10819,7 +10819,7 @@ journal:
         contentPages:
           info: uEzX8hqTppygMyvL
           notes: j7qZq7PNucxSUn5O
-        image: modules/warbound-campaign-content/assets/images/illustrations/durotar/lame-ardente/cof2-repaire-de-lame-ardente.png
+        image: modules/warbound-campaign-content/assets/images/illustrations/durotar/lame-ardente/cof2-repaire-de-lame-ardente.webp
         data:
           linkedNPCs:
             - JournalEntry.v9KbuqpD9OhYl0JA
@@ -10970,7 +10970,7 @@ journal:
           linkedScene: Scene.bHOtETzPJHvH4IiV
           linkedNPCs:
             - JournalEntry.uTBXvcNMnAIjBH9n
-        image: modules/warbound-campaign-content/assets/images/illustrations/durotar/tranchecolline/cof2-tranchecolline-enclos-thotar-illustration.png
+        image: modules/warbound-campaign-content/assets/images/illustrations/durotar/tranchecolline/cof2-tranchecolline-enclos-thotar-illustration.webp
       core:
         sheetClass: campaign-codex.ShopSheet
     _id: vpH7M6ZCZE7FZDUD
@@ -11104,7 +11104,7 @@ journal:
         contentPages:
           info: BMWVXpivIrRrX3aN
           notes: rC41DmHG3iJZwDV8
-        image: modules/warbound-campaign-content/assets/images/illustrations/durotar/cof2-les-iles-de-l-echo.png
+        image: modules/warbound-campaign-content/assets/images/illustrations/durotar/cof2-les-iles-de-l-echo.webp
       core:
         sheetClass: campaign-codex.RegionSheet
     _id: UI4Q7QVkwV3HwJnD
@@ -11204,7 +11204,7 @@ journal:
           linkedNPCs:
             - JournalEntry.RqNlgyfKaNiUgdWX
           parentRegions: []
-        image: modules/warbound-campaign-content/assets/images/illustrations/tarides/cof2-les-tarides-illustration.png
+        image: modules/warbound-campaign-content/assets/images/illustrations/tarides/cof2-les-tarides-illustration.webp
       core:
         sheetClass: campaign-codex.RegionSheet
     _id: i5TrdswgSguK7dgX
@@ -11308,7 +11308,7 @@ journal:
         contentPages:
           info: 6jdJHDE605T688wB
           notes: A17TCAkylolrkRVR
-        image: modules/warbound-campaign-content/assets/images/illustrations/durotar/mine-roche-seche/coa-mrs-lieu-de-vie.png
+        image: modules/warbound-campaign-content/assets/images/illustrations/durotar/mine-roche-seche/coa-mrs-lieu-de-vie.webp
       core:
         sheetClass: campaign-codex.ShopSheet
     pages:
@@ -11405,7 +11405,7 @@ journal:
         contentPages:
           info: f9174UZU6CBKOJZ1
           notes: oYSwll9Yw5DyXmKR
-        image: modules/warbound-campaign-content/assets/images/illustrations/coa-illustration-mache-roc.png
+        image: modules/warbound-campaign-content/assets/images/illustrations/coa-illustration-mache-roc.webp
       core:
         sheetClass: campaign-codex.ShopSheet
     _id: H8dpEah73C7TluZP
@@ -11590,7 +11590,7 @@ journal:
         contentPages:
           info: qXSSdz1b8WRors5E
           notes: Ee63J70pkE37HeUe
-        image: modules/warbound-campaign-content/assets/images/avatar/kolkar/coa-kolkar-coupe-sangle-illustration.png
+        image: modules/warbound-campaign-content/assets/images/avatar/kolkar/coa-kolkar-coupe-sangle-illustration.webp
       core:
         sheetClass: campaign-codex.NPCSheet
     pages:
@@ -11687,7 +11687,7 @@ journal:
         contentPages:
           info: ZBTJqytnLDTqNPdB
           notes: mDzatVsIU8E9NH2Q
-        image: modules/warbound-campaign-content/assets/images/illustrations/coa-mine-de-roche-seche.png
+        image: modules/warbound-campaign-content/assets/images/illustrations/coa-mine-de-roche-seche.webp
         data:
           linkedLocation: JournalEntry.3804DaSpkWC1bBzY
       core:
@@ -11799,7 +11799,7 @@ journal:
         contentPages:
           info: oJeTfgUZjif8xWBu
           notes: xC9SV4iavRSi5ilY
-        image: modules/warbound-campaign-content/assets/images/illustrations/coa-mine-de-roche-seche.png
+        image: modules/warbound-campaign-content/assets/images/illustrations/coa-mine-de-roche-seche.webp
       core:
         sheetClass: campaign-codex.LocationSheet
     pages:
@@ -11896,7 +11896,7 @@ journal:
         contentPages:
           info: Dbsy26biZ303KSCN
           notes: vfyadB1i2bc0Tp9f
-        image: modules/warbound-campaign-content/assets/images/avatar/durotar/tranchecolline/cof2-tranchecolline-morga-sangleroue-illustration.png
+        image: modules/warbound-campaign-content/assets/images/avatar/durotar/tranchecolline/cof2-tranchecolline-morga-sangleroue-illustration.webp
         data:
           linkedShops:
             - JournalEntry.MZhx3D4mdo5HcAtC
@@ -12711,7 +12711,7 @@ journal:
         contentPages:
           info: JqfgRA4WB4fR3DhU
           notes: RscxkrbplA8ictKM
-        image: modules/warbound-campaign-content/assets/images/avatar/durotar/tranchecolline/cof2-tranchecolline-orgnil-illustration.png
+        image: modules/warbound-campaign-content/assets/images/avatar/durotar/tranchecolline/cof2-tranchecolline-orgnil-illustration.webp
         data:
           mapMarker: OBA
           linkedLocations:
@@ -13092,19 +13092,19 @@ journal:
                 tables:
                   - uuid: RollTable.PlaO9j8dWV8tylri
                     name: 'Sarkoth — Rumeurs : Vallée des Épreuves'
-                    img: modules/warbound-campaign-content/assets/images/icons/tables-aleatoires/durotar/scorpides/cof2-tables-aleatoires-scorpidde-durotar.png
+                    img: modules/warbound-campaign-content/assets/images/icons/tables-aleatoires/durotar/scorpides/cof2-tables-aleatoires-scorpidde-durotar.webp
                 tableUuid: null
               vhSQVSffj3rWaJdz:
                 tables:
                   - uuid: RollTable.yhTtVyzsexupsv2j
                     name: 'Sarkoth — Rumeurs : Sen’jin'
-                    img: modules/warbound-campaign-content/assets/images/icons/tables-aleatoires/durotar/scorpides/cof2-tables-aleatoires-scorpidde-durotar.png
+                    img: modules/warbound-campaign-content/assets/images/icons/tables-aleatoires/durotar/scorpides/cof2-tables-aleatoires-scorpidde-durotar.webp
                 tableUuid: null
               RnIj7dsKN48j9lV0:
                 tables:
                   - uuid: RollTable.OSBKTSr6dGUpoGwA
                     name: 'Sarkoth — Rumeurs : Tranchecolline'
-                    img: modules/warbound-campaign-content/assets/images/icons/tables-aleatoires/durotar/scorpides/cof2-tables-aleatoires-scorpidde-durotar.png
+                    img: modules/warbound-campaign-content/assets/images/icons/tables-aleatoires/durotar/scorpides/cof2-tables-aleatoires-scorpidde-durotar.webp
                 tableUuid: null
         sheet-widgets:
           - id: cok8WHENUDhLQRa5
@@ -14114,7 +14114,7 @@ journal:
         contentPages:
           info: wHfGadvoztcXJBjp
           notes: 1YQRKM9X1952imZS
-        image: modules/warbound-campaign-content/assets/images/illustrations/coa-convoie-pour-tranchecolline.png
+        image: modules/warbound-campaign-content/assets/images/illustrations/coa-convoie-pour-tranchecolline.webp
       core:
         sheetClass: campaign-codex.GroupSheet
     pages:
@@ -14338,7 +14338,7 @@ journal:
         contentPages:
           info: NaeATqd0hSMA3FEO
           notes: pOPQIm06bFDaswi2
-        image: modules/warbound-campaign-content/assets/images/avatar/durotar/tranchecolline/cof2-tranchecolline-swart-illustration.png
+        image: modules/warbound-campaign-content/assets/images/avatar/durotar/tranchecolline/cof2-tranchecolline-swart-illustration.webp
         data:
           mapMarker: S
           linkedLocations:
@@ -14598,7 +14598,7 @@ journal:
         contentPages:
           info: igDy2IVeK8LHt58u
           notes: 96WXXB3vnFoPcIan
-        image: modules/warbound-campaign-content/assets/images/avatar/durotar/tranchecolline/cof2-tranchecolline-thotar-illustration.png
+        image: modules/warbound-campaign-content/assets/images/avatar/durotar/tranchecolline/cof2-tranchecolline-thotar-illustration.webp
         data:
           mapMarker: T
           linkedLocations:
@@ -15080,7 +15080,7 @@ journal:
         contentPages:
           info: p7fJxxmPspVzX3OR
           notes: zePy8tewp2t5x0PU
-        image: modules/warbound-campaign-content/assets/images/illustrations/coa-tranchecolline-cc.png
+        image: modules/warbound-campaign-content/assets/images/illustrations/coa-tranchecolline-cc.webp
       core:
         sheetClass: campaign-codex.LocationSheet
     pages:
@@ -15177,7 +15177,7 @@ journal:
         contentPages:
           info: aaZy3feAW0Td4Y20
           notes: BwFQQrlqghrkRLTC
-        image: modules/warbound-campaign-content/assets/images/illustrations/durotar/tranchecolline/cof2-tranchecolline-illustration.png
+        image: modules/warbound-campaign-content/assets/images/illustrations/durotar/tranchecolline/cof2-tranchecolline-illustration.webp
         data:
           linkedShops:
             - JournalEntry.KUuoGwehoJo1r8py
@@ -15323,7 +15323,7 @@ journal:
         contentPages:
           info: XmZumuvTWLXqxaoS
           notes: J8TC4uKst3JbaT8A
-        image: modules/warbound-campaign-content/assets/images/illustrations/cof2-vallee-des-epreuves-illustration.png
+        image: modules/warbound-campaign-content/assets/images/illustrations/cof2-vallee-des-epreuves-illustration.webp
         data:
           linkedScene: Scene.BiDHfS8xigeVmCrt
           linkedNPCs:
@@ -15423,7 +15423,7 @@ journal:
         contentPages:
           info: prOe3LdgBP9Mmx3E
           notes: xAO3POaeZsQbi9yw
-        image: modules/warbound-campaign-content/assets/images/avatar/orcs/lame-sanglante/cof2-yarrog-avatar-uc.png
+        image: modules/warbound-campaign-content/assets/images/avatar/orcs/lame-sanglante/cof2-yarrog-avatar-uc.webp
         data:
           linkedActor: Actor.NXJZf3XwjX6r7qr4
           associates:
@@ -15535,7 +15535,7 @@ journal:
         contentPages:
           info: H5YqASxnvEUepDHw
           notes: jdy3UNKvXzkLvqGJ
-        image: modules/warbound-campaign-content/assets/images/avatar/lame-ardente/cof2-yarrog-avatar.png
+        image: modules/warbound-campaign-content/assets/images/avatar/lame-ardente/cof2-yarrog-avatar.webp
         data:
           linkedNPCs:
             - JournalEntry.v9KbuqpD9OhYl0JA
@@ -76396,7 +76396,7 @@ scenes:
           top: 20
         background:
           color: '#999999'
-          src: modules/warbound-campaign-content/assets/images/battlemaps/coa-battlemap-attaque-centaure.png
+          src: modules/warbound-campaign-content/assets/images/battlemaps/coa-battlemap-attaque-centaure.webp
           tint: '#ffffff'
           alphaThreshold: 0.75
         foreground:
@@ -76424,7 +76424,7 @@ scenes:
     regions: []
     tiles:
       - texture:
-          src: modules/warbound-campaign-content/assets/elements/horde/kodo/coa-asset-kodo-libre.png
+          src: modules/warbound-campaign-content/assets/elements/horde/kodo/coa-asset-kodo-libre.webp
           anchorX: 0.5
           anchorY: 0.5
           scaleX: 1
@@ -76499,7 +76499,7 @@ scenes:
         locked: false
         name: ''
       - texture:
-          src: modules/warbound-campaign-content/assets/elements/horde/cariole/coa-asset-cariole-renforcee-attache.png
+          src: modules/warbound-campaign-content/assets/elements/horde/cariole/coa-asset-cariole-renforcee-attache.webp
           anchorX: 0.5
           anchorY: 0.5
           scaleX: 1
@@ -76578,7 +76578,7 @@ scenes:
           scaleY: 1
           anchorX: 0.5
           anchorY: 0.5
-          src: modules/warbound-campaign-content/assets/elements/horde/kodo/coa-asset-kodo-lourd.png
+          src: modules/warbound-campaign-content/assets/elements/horde/kodo/coa-asset-kodo-lourd.webp
           tint: '#ffffff'
           fit: fill
           alphaThreshold: 0.75
@@ -76658,7 +76658,7 @@ scenes:
           scaleY: 1
           anchorX: 0.5
           anchorY: 0.5
-          src: modules/warbound-campaign-content/assets/elements/horde/cariole/coa-asset-cariole-vide.png
+          src: modules/warbound-campaign-content/assets/elements/horde/cariole/coa-asset-cariole-vide.webp
           tint: '#ffffff'
           fit: fill
           alphaThreshold: 0.75
@@ -76738,7 +76738,7 @@ scenes:
           scaleY: 1
           anchorX: 0.5
           anchorY: 0.5
-          src: modules/warbound-campaign-content/assets/elements/horde/foreuse/coa-asset-foreuse-bachee-sanglee-dessus.png
+          src: modules/warbound-campaign-content/assets/elements/horde/foreuse/coa-asset-foreuse-bachee-sanglee-dessus.webp
           tint: '#ffffff'
           fit: fill
           alphaThreshold: 0.75
@@ -76818,7 +76818,7 @@ scenes:
           scaleY: 1
           anchorX: 0.5
           anchorY: 0.5
-          src: modules/warbound-campaign-content/assets/elements/horde/kodo/coa-asset-kodo.png
+          src: modules/warbound-campaign-content/assets/elements/horde/kodo/coa-asset-kodo.webp
           tint: '#ffffff'
           fit: fill
           alphaThreshold: 0.75
@@ -76898,7 +76898,7 @@ scenes:
           scaleY: 1
           anchorX: 0.5
           anchorY: 0.5
-          src: modules/warbound-campaign-content/assets/elements/horde/cariole/coa-asset-cariole-remplie.png
+          src: modules/warbound-campaign-content/assets/elements/horde/cariole/coa-asset-cariole-remplie.webp
           tint: '#ffffff'
           fit: fill
           alphaThreshold: 0.75
@@ -77073,7 +77073,7 @@ scenes:
           top: 20
         background:
           color: '#999999'
-          src: modules/warbound-campaign-content/assets/images/battlemaps/tranchecolline/cof2-tranchelline-battlemap.png
+          src: modules/warbound-campaign-content/assets/images/battlemaps/tranchecolline/cof2-tranchelline-battlemap.webp
           tint: '#ffffff'
           alphaThreshold: 0.75
         foreground:
@@ -77379,7 +77379,7 @@ scenes:
           top: 20
         background:
           color: '#999999'
-          src: modules/warbound-campaign-content/assets/images/illustrations/cof2-vallee-des-epreuves-illustration.png
+          src: modules/warbound-campaign-content/assets/images/illustrations/cof2-vallee-des-epreuves-illustration.webp
           tint: '#ffffff'
           alphaThreshold: 0.75
         foreground:
@@ -77507,7 +77507,7 @@ scenes:
           top: 20
         background:
           color: '#999999'
-          src: modules/warbound-campaign-content/assets/images/battlemaps/cof2-le-repaire-lame-ardente-battlemap.png
+          src: modules/warbound-campaign-content/assets/images/battlemaps/cof2-le-repaire-lame-ardente-battlemap.webp
           tint: '#ffffff'
           alphaThreshold: 0.75
         foreground:
@@ -78729,7 +78729,7 @@ scenes:
         locked: false
         name: ''
       - texture:
-          src: modules/warbound-campaign-content/assets/landing-page/maps/coa-lp-map-durotar.png
+          src: modules/warbound-campaign-content/assets/landing-page/maps/coa-lp-map-durotar.webp
           anchorX: 0.5
           anchorY: 0.5
           scaleX: 1
@@ -78805,7 +78805,7 @@ scenes:
         locked: false
         name: ''
       - texture:
-          src: modules/warbound-campaign-content/assets/landing-page/pins/horde/capitale-pin.png
+          src: modules/warbound-campaign-content/assets/landing-page/pins/horde/capitale-pin.webp
           anchorX: 0.5
           anchorY: 0.5
           scaleX: 1
@@ -78928,7 +78928,7 @@ scenes:
         locked: false
         name: ''
       - texture:
-          src: modules/warbound-campaign-content/assets/landing-page/pins/horde/village-pin.png
+          src: modules/warbound-campaign-content/assets/landing-page/pins/horde/village-pin.webp
           anchorX: 0.5
           anchorY: 0.5
           scaleX: 1
@@ -79470,7 +79470,7 @@ scenes:
           top: 20
         background:
           color: '#999999'
-          src: modules/warbound-campaign-content/assets/images/maps/cof2-carte-kalimdor-mj.png
+          src: modules/warbound-campaign-content/assets/images/maps/cof2-carte-kalimdor-mj.webp
           tint: '#ffffff'
           alphaThreshold: 0.75
         foreground:
@@ -79529,7 +79529,7 @@ scenes:
 tables:
   - folder: aS9l5QwaSmSA9GAn
     name: 'Sarkoth — Rumeurs : Sen’jin'
-    img: modules/warbound-campaign-content/assets/images/icons/tables-aleatoires/durotar/scorpides/cof2-tables-aleatoires-scorpidde-durotar.png
+    img: modules/warbound-campaign-content/assets/images/icons/tables-aleatoires/durotar/scorpides/cof2-tables-aleatoires-scorpidde-durotar.webp
     description: >-
       <p>Rumeurs de chasse, de guérison et de traditions Sombrelance. 5 rumeurs
       à tirer au d5.</p><p><strong>MJ :</strong> Les rumeurs ne sont pas toutes
@@ -79724,7 +79724,7 @@ tables:
     formula: 1d5
   - folder: yWmpx7cN5Ydiwrw9
     name: 'Sarkoth — Rumeurs : Tranchecolline'
-    img: modules/warbound-campaign-content/assets/images/icons/tables-aleatoires/durotar/scorpides/cof2-tables-aleatoires-scorpidde-durotar.png
+    img: modules/warbound-campaign-content/assets/images/icons/tables-aleatoires/durotar/scorpides/cof2-tables-aleatoires-scorpidde-durotar.webp
     description: >-
       <p>Rumeurs de passage : convois, voyageurs et marchands. 5 rumeurs à tirer
       au d5.</p><p><strong>MJ :</strong> Les rumeurs ne sont pas toutes exactes.
@@ -79923,7 +79923,7 @@ tables:
   - folder: z7vYsvgbmTtvrTlP
     name: 'Sarkoth — Rumeurs : Vallée des Épreuves'
     _id: PlaO9j8dWV8tylri
-    img: modules/warbound-campaign-content/assets/images/icons/tables-aleatoires/durotar/scorpides/cof2-tables-aleatoires-scorpidde-durotar.png
+    img: modules/warbound-campaign-content/assets/images/icons/tables-aleatoires/durotar/scorpides/cof2-tables-aleatoires-scorpidde-durotar.webp
     description: >-
       <p>Rumeurs de terrain : recrues, péons, chasseurs et pisteurs. 5 rumeurs à
       tirer au d5.</p><p><strong>MJ :</strong> Les rumeurs ne sont pas toutes

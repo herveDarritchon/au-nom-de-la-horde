@@ -89,7 +89,7 @@ body.warbound-theme :is(.journal-sheet, .application.journal-sheet) .window-titl
 /* Sidebar / page list */
 body.warbound-theme :is(.journal-sheet, .journal-entry) :is(.journal-sidebar, .directory, .pages-list) {
     background: linear-gradient(rgba(244, 236, 216, .91), rgba(234, 223, 196, .94)),
-    url("../assets/ui/warbound-paper.png");
+    url("../assets/ui/warbound-paper.webp");
     color: #ddd0b6;
     border-right: 1px solid rgba(193, 154, 89, .55);
     font-family: var(--wb-font-ui);
@@ -169,7 +169,7 @@ body.warbound-theme .wb-title::after {
     bottom: 0;
     width: min(720px, 100%);
     height: 9px;
-    background: url("../assets/ui/warbound-divider.png") center / min(760px, 92%) auto no-repeat;
+    background: url("../assets/ui/warbound-divider.webp") center / min(760px, 92%) auto no-repeat;
     opacity: .95;
 }
 
@@ -418,7 +418,7 @@ body.warbound-theme .wb-box::after {
     top: 8px;
     width: 44px;
     height: 44px;
-    background: url("../assets/ui/warbound-corner.png") center / contain no-repeat;
+    background: url("../assets/ui/warbound-corner.webp") center / contain no-repeat;
     opacity: .22;
     pointer-events: none;
 }

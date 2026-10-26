@@ -23,7 +23,7 @@ flags:
     contentPages:
       info: wHfGadvoztcXJBjp
       notes: 1YQRKM9X1952imZS
-    image: modules/warbound-campaign-content/assets/images/illustrations/coa-convoie-pour-tranchecolline.png
+    image: modules/warbound-campaign-content/assets/images/illustrations/coa-convoie-pour-tranchecolline.webp
   core:
     sheetClass: campaign-codex.GroupSheet
 pages:
