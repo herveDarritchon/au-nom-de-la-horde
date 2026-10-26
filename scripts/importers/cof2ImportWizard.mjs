@@ -321,8 +321,9 @@ function openCof2ImportWizard() {
   return app;
 }
 
-Hooks.once("init", () => {
-  loadTemplates([`${TEMPLATE_ROOT}/partials/cof2-wizard-stepper.hbs`]);
+Hooks.once("init", async () => {
+  const [stepperTemplate] = await loadTemplates([`${TEMPLATE_ROOT}/partials/cof2-wizard-stepper.hbs`]);
+  Handlebars.registerPartial("cof2-wizard-stepper", stepperTemplate);
 });
 
 Hooks.once("ready", () => {

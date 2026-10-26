@@ -1,4 +1,4 @@
-{{#if isActive}}
+<div{{#unless isActive}} hidden{{/unless}}>
   {{> cof2-wizard-stepper}}
   <div class="form-group">
     <label><input type="checkbox" data-field="opt.createActor" {{#if options.createActor}}checked{{/if}}> Créer l'acteur Rencontre.</label>
@@ -19,4 +19,4 @@
     <button type="button" data-action="back"><i class="fa-solid fa-arrow-left"></i> Précédent</button>
     <button type="button" data-action="create" class="default"><i class="fa-solid fa-check"></i> Créer</button>
   </footer>
-{{/if}}
+</div>

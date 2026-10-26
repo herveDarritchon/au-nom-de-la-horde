@@ -1,4 +1,4 @@
-{{#if isActive}}
+<div{{#unless isActive}} hidden{{/unless}}>
   {{> cof2-wizard-stepper}}
   {{#if result.loading}}
     <p><em>Création en cours…</em></p>
@@ -39,4 +39,4 @@
       <button type="button" data-action="open-actor" class="default"><i class="fa-solid fa-up-right-from-square"></i> Ouvrir la rencontre</button>
     </footer>
   {{/if}}
-{{/if}}
+</div>

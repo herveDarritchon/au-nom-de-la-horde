@@ -1,4 +1,4 @@
-{{#if isActive}}
+<div{{#unless isActive}} hidden{{/unless}}>
   {{> cof2-wizard-stepper}}
   <div class="form-group stacked">
     <label>Collez ici un statblock COF2 provenant du Livre des règles, du Bestiaire ou d'un autre document compatible.</label>
@@ -13,4 +13,4 @@
     <button type="button" data-action="clear"><i class="fa-solid fa-eraser"></i> Effacer</button>
     <button type="button" data-action="analyze" class="default"><i class="fa-solid fa-magnifying-glass"></i> Analyser</button>
   </footer>
-{{/if}}
+</div>

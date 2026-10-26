@@ -1,4 +1,4 @@
-{{#if isActive}}
+<div{{#unless isActive}} hidden{{/unless}}>
   {{> cof2-wizard-stepper}}
   <fieldset>
     <legend>Identité</legend>
@@ -106,4 +106,4 @@
     <button type="button" data-action="back"><i class="fa-solid fa-arrow-left"></i> Précédent</button>
     <button type="button" data-action="to-options" class="default" {{#if hasUnconfirmedVariant}}disabled{{/if}}><i class="fa-solid fa-arrow-right"></i> Suivant</button>
   </footer>
-{{/if}}
+</div>
