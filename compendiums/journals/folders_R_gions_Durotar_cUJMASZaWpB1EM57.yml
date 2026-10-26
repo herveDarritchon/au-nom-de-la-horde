@@ -1,0 +1,22 @@
+name: Régions Durotar
+type: JournalEntry
+folder: null
+flags:
+  world:
+    warboundPoiRoot: true
+_id: cUJMASZaWpB1EM57
+description: ''
+sorting: a
+sort: 1800000
+color: null
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792998433018
+  modifiedTime: 1792998433253
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!cUJMASZaWpB1EM57'

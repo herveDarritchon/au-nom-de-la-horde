@@ -1,0 +1,449 @@
+name: Z04-02 — Caserne de Tranchecolline
+folder: 1zCantV2KiiLwhiX
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  campaign-codex:
+    type: ''
+  world:
+    warboundPoiId: Z04-02
+    warboundZoneId: Z04
+pages:
+  - name: Présentation
+    type: text
+    sort: 100000
+    text:
+      format: 1
+      content: >-
+        <h1>Caserne de Tranchecolline</h1>
+
+        <p><strong>Identifiant :</strong> Z04-02</p>
+
+        <p><strong>Zone géographique :</strong> Z04 — Tranchecolline et ses
+        abords</p>
+
+        <p><strong>Nature de l'entrée :</strong> Lieu / secteur —
+        Infrastructure</p>
+
+        <h2>Fonction dans la campagne</h2>
+
+        <p>Bâtiment de la garnison locale.</p>
+
+        <h2>Contexte territorial — informations MJ</h2>
+
+        <p><strong>Statut de la zone :</strong> Nœud [1] — hub principal.</p>
+
+        <p><strong>Repère géographique :</strong> Carrefour central où les PJ
+        reviennent, reçoivent des nouvelles et choisissent leurs prochaines
+        directions.</p>
+
+        <p><strong>Factions et influences :</strong> Horde ; pression des
+        Tranchecrins aux marges occidentales.</p>
+
+        <p><strong>Références et réserves :</strong> [CLASSIC]</p>
+
+        <p><em>Les lieux internes détaillés de Tranchecolline devront être
+        rapprochés de la fiche du village ; ils ne sont pas inventoriés
+        séparément dans les 45 entrées de cet atlas.</em></p>
+
+        <hr>
+
+        <p><small>Source : Warbound — Durotar, découpage des POI par zone
+        géographique V1. Certaines entrées sont des accès ou des emplacements
+        encore à définir, et non des POI visitables indépendants.</small></p>
+    _id: sgwq68qnnK6Zrops
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792998433132
+      modifiedTime: 1792998433132
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!eiIyxFKpBNYwjzcX.sgwq68qnnK6Zrops'
+  - name: Suivi MJ
+    type: text
+    sort: 200000
+    text:
+      format: 1
+      content: >-
+        <h1>Suivi MJ — Z04-02</h1>
+
+        <p><em>Fiche de suivi volontairement non renseignée : à compléter selon
+        la fiction et les séances.</em></p>
+
+        <table><tbody>
+
+        <tr><th>Connaissance des PJ</th><td>À renseigner : inconnu / repéré /
+        connu / maîtrisé</td></tr>
+
+        <tr><th>Accès</th><td>À renseigner : ouvert / conditionnel / bloqué /
+        caché</td></tr>
+
+        <tr><th>Pression actuelle</th><td>À renseigner : calme / tension /
+        crise</td></tr>
+
+        <tr><th>Transformation persistante</th><td>À renseigner</td></tr>
+
+        <tr><th>Routes liées / état</th><td>À renseigner (R01–R08 ou
+        RX-*)</td></tr>
+
+        <tr><th>Situation si les PJ arrivent</th><td>À renseigner</td></tr>
+
+        <tr><th>Dernière évolution / séance</th><td>À renseigner</td></tr>
+
+        </tbody></table>
+
+        <p><strong>Rappel :</strong> une découverte validée sur un 20 naturel du
+        Guide peut créer un nouveau POI persistant, mais ne donne pas
+        automatiquement de bonus de voyage.</p>
+    _id: ywqpMsWFj5WQZ0hB
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792998433132
+      modifiedTime: 1792998433132
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!eiIyxFKpBNYwjzcX.ywqpMsWFj5WQZ0hB'
+  - name: 01 • À jouer maintenant
+    type: text
+    sort: 300000
+    text:
+      format: 1
+      content: >-
+        <h1>À jouer maintenant</h1><p><strong>POI :</strong> Z04-02 — Caserne de
+        Tranchecolline | <strong>Catégorie :</strong> lieu</p><p><em>Compléter
+        les champs entre crochets. Cette fiche est réservée au MJ. Elle n’impose
+        pas de scène ni de jet supplémentaire.</em></p><p><strong>Fonction issue
+        de l’inventaire :</strong> Bâtiment de la garnison
+        locale.</p><p><em>Décrire une scène, deux acteurs, un choix concret et
+        une conséquence.</em></p><h2>Carte minute — 30
+        secondes</h2><table><tbody><tr><th>Pourquoi venir
+        ?</th><td>[Information, contact, ressource, passage ou
+        menace]</td></tr><tr><th>Qu’arrive-t-il maintenant ?</th><td>[Une
+        situation visible qui évolue]</td></tr><tr><th>Tension
+        centrale</th><td>[Deux intérêts en opposition]</td></tr><tr><th>Décision
+        à prendre</th><td>[Choix ouvert ; aucune solution
+        imposée]</td></tr><tr><th>Bénéfice durable possible</th><td>[Route,
+        contact, information, ressource, changement]</td></tr><tr><th>Si les PJ
+        n’interviennent pas</th><td>[Une évolution cohérente et
+        limitée]</td></tr></tbody></table><h2>Première impression — à
+        raconter</h2><blockquote><p>[2–4 phrases : image forte, détail
+        sensoriel, signe d’activité. Pas de secrets
+        MJ.]</p></blockquote><h2>Points d’interaction (2 ou 3 maximum)</h2><p>1.
+        [Élément concret] → [action possible]</p><p>2. [Élément concret] →
+        [action possible]</p><p>3. [Facultatif] → [action
+        possible]</p><h2>Acteurs présents — intentions et leviers</h2><p><em>Des
+        personnes ou groupes présents sur le site ; leurs demandes, moyens et
+        limites.</em></p><table><tbody><tr><th>Acteur A</th><td>[Qui ? Veut quoi
+        ? Peut offrir quoi ? Refuse quoi ?]</td></tr><tr><th>Acteur
+        B</th><td>[Qui ? Veut quoi ? Peut offrir quoi ? Refuse quoi
+        ?]</td></tr></tbody></table><h2>Trois façons possibles de jouer (aucune
+        n’est obligatoire)</h2><p><strong>Parler / négocier :</strong> [demande,
+        concession, prix].</p><p><strong>Observer / enquêter :</strong> [signe,
+        témoin, objet].</p><p><strong>Agir / explorer :</strong> [obstacle,
+        responsabilité, choix].</p><p><strong>Question au MJ :</strong> Quel
+        événement local fait agir les personnages maintenant ?</p>
+    flags:
+      world:
+        warboundPoiTemplateKey: jeu
+        warboundPoiTemplateVersion: '1.0'
+    _id: 4PAfCNhtRzA7pZaZ
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792998433132
+      modifiedTime: 1792998433132
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!eiIyxFKpBNYwjzcX.4PAfCNhtRzA7pZaZ'
+  - name: 02 • Coulisses MJ
+    type: text
+    sort: 400000
+    text:
+      format: 1
+      content: >-
+        <h1>Coulisses MJ</h1><p><strong>POI :</strong> Z04-02 — Caserne de
+        Tranchecolline | <strong>Catégorie :</strong> lieu</p><p><em>Compléter
+        les champs entre crochets. Cette fiche est réservée au MJ. Elle n’impose
+        pas de scène ni de jet supplémentaire.</em></p><h2>Factions et vérité
+        derrière la scène</h2><table><tbody><tr><th>Implantation / autorité
+        locale</th><td>[Qui contrôle réellement cet endroit ? Si inconnu,
+        laisser ouvert.]</td></tr><tr><th>Présences / incursions</th><td>[Qui
+        circule ou menace sans contrôler le lieu ?]</td></tr><tr><th>Influence
+        clandestine</th><td>[Uniquement si établie par les documents / la
+        campagne]</td></tr><tr><th>Secret à ne pas révéler
+        immédiatement</th><td>[Une vérité MJ facultative]</td></tr><tr><th>Ce
+        qui reste à décider</th><td>[Coupable, emplacement, nom ou lien non
+        établi]</td></tr></tbody></table><h2>Indice : trois niveaux d’accès, pas
+        trois jets</h2><table><tbody><tr><th>Visible sans test</th><td>[Fait
+        observable dès l’arrivée]</td></tr><tr><th>En agissant /
+        parlant</th><td>[Fait obtenu par question, observation active,
+        aide]</td></tr><tr><th>En approfondissant / risquant quelque
+        chose</th><td>[Fait plus sensible ou plus précis]</td></tr><tr><th>Si un
+        test échoue</th><td>[Retard, coût ou complication ; éviter de
+        verrouiller le scénario]</td></tr></tbody></table><h2>Improviser si les
+        joueurs bifurquent — palette 1d6 facultative</h2><p><em>À utiliser pour
+        nourrir une scène existante. Aucun tirage supplémentaire systématique en
+        voyage.</em></p><table><thead><tr><th>1d6</th><th>Amorce à
+        adapter</th></tr></thead><tbody><tr><th>1</th><td>Un habitant ou
+        voyageur a besoin d’aide</td></tr><tr><th>2</th><td>Deux personnes
+        revendiquent une ressource</td></tr><tr><th>3</th><td>Un témoin
+        contredit une version des faits</td></tr><tr><th>4</th><td>La sécurité
+        d’un abri ou bâtiment change</td></tr><tr><th>5</th><td>Une piste ou un
+        objet inattendu est trouvé</td></tr><tr><th>6</th><td>Une décision
+        ancienne produit une conséquence</td></tr></tbody></table><h2>Réaction
+        des acteurs aux décisions</h2><p><strong>Les PJ aident :</strong>
+        [réaction / récompense].</p><p><strong>Les PJ négocient :</strong>
+        [limite / condition].</p><p><strong>Les PJ menacent ou attaquent
+        :</strong> [réaction proportionnée].</p><p><strong>Les PJ repartent
+        :</strong> [une évolution locale si justifiée].</p><h2>Conséquences
+        persistantes</h2><table><tbody><tr><th>Si les PJ
+        interviennent</th><td>[Plusieurs suites plausibles, sans imposer
+        d’issue]</td></tr><tr><th>Si les PJ ignorent</th><td>[Prochaine
+        évolution si personne n’intervient]</td></tr><tr><th>Au prochain
+        retour</th><td>[Un effet des PJ et un changement du monde
+        maximum]</td></tr><tr><th>Gain exploitable</th><td>[Route, contact,
+        ressource, vérité, alliance, dette]</td></tr></tbody></table>
+    flags:
+      world:
+        warboundPoiTemplateKey: coulisses
+        warboundPoiTemplateVersion: '1.0'
+    _id: auJMDCVT9jTeSywM
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792998433132
+      modifiedTime: 1792998433132
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!eiIyxFKpBNYwjzcX.auJMDCVT9jTeSywM'
+  - name: 03 • Accès et voyage
+    type: text
+    sort: 500000
+    text:
+      format: 1
+      content: >-
+        <h1>Accès, exploration et voyage Warbound V2</h1><p><strong>POI
+        :</strong> Z04-02 — Caserne de Tranchecolline | <strong>Catégorie
+        :</strong> lieu</p><p><em>Compléter les champs entre crochets. Cette
+        fiche est réservée au MJ. Elle n’impose pas de scène ni de jet
+        supplémentaire.</em></p><p><strong>Attention spécifique :</strong> Voies
+        menant à ce lieu, accès réellement ouverts et conditions pour en
+        repartir.</p><table><tbody><tr><th>Zone / liaison</th><td>[Z04 ; route
+        Rxx ou RX-xx à renseigner, si existante]</td></tr><tr><th>Connaissance
+        PJ</th><td>[inconnu / repéré / connu /
+        maîtrisé]</td></tr><tr><th>Accessibilité</th><td>[ouvert / conditionnel
+        / bloqué / caché ; condition]</td></tr><tr><th>Approches et
+        alternatives</th><td>[Départ, arrivée, choix de rapidité / sûreté /
+        discrétion]</td></tr><tr><th>Terrain par tronçon</th><td>[route / hors
+        piste ÷2 / difficile ÷2 / hors piste ET difficile
+        ÷4]</td></tr><tr><th>Distance / temps</th><td>[à calibrer — aucune
+        distance déduite du MMO]</td></tr><tr><th>Danger du
+        trajet</th><td>[catégorie COF2, DD, DM ; décidés avant jet selon
+        itinéraire effectif]</td></tr><tr><th>Eau / chasse /
+        pêche</th><td>[Ressources locales plausibles, accès, enjeu si
+        scène]</td></tr><tr><th>Bivouac</th><td>[Abri, sécurité, conditions de
+        récupération COF2]</td></tr><tr><th>Indices pour l’Éclaireur</th><td>[2
+        observations utiles]</td></tr><tr><th>Choix de préparation du
+        Guide</th><td>[exploration / endurance / bivouac /
+        ravitaillement]</td></tr></tbody></table><h2>Quand lancer les dés
+        ?</h2><p>Pas de jet supplémentaire pour entrer dans le POI ni à chaque
+        frontière. Pour une journée de voyage significative : <strong>Guide INT
+        (Survie) en premier</strong>, puis <strong>Éclaireur PER
+        (Survie)</strong> et <strong>Voyageurs CON (Survie)</strong>, un seul
+        test de progression par PJ. Résultat collectif, DR, événements et repos
+        : COF2.</p><p><strong>Préparation du Guide :</strong> le dé bonus ciblé
+        sur un test pertinent après réussite est un paramètre Warbound V2 <em>à
+        tester</em>, pas une nouvelle règle automatique de
+        déplacement.</p><h2>Critiques et découvertes</h2><p><strong>20 naturel
+        du Guide :</strong> le joueur propose et raconte une opportunité locale
+        plausible (piste, abri, eau, observation). Le MJ arbitre la cohérence et
+        enregistre la découverte durable (D-Zxx-nnn). Une découverte peut être
+        repérée mais non atteinte.</p><p><strong>1 naturel du Guide :</strong>
+        le MJ peut contextualiser l’échec par une complication ; pas de deuxième
+        rencontre ni malus systématique.</p><p><strong>Donjon :</strong> une
+        fois l’entrée atteinte, se référer à sa fiche d’exploration propre ; ne
+        pas confondre la DD du voyage et celle du donjon.</p><h2>Après la
+        scène</h2><p>Mettre à jour la page « Suivi MJ » déjà présente :
+        connaissance, accès, pression, transformation, évolution si les PJ
+        reviennent.</p>
+    flags:
+      world:
+        warboundPoiTemplateKey: voyage
+        warboundPoiTemplateVersion: '1.0'
+    _id: xXW9BvVLOAO26dDj
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792998433132
+      modifiedTime: 1792998433132
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!eiIyxFKpBNYwjzcX.xXW9BvVLOAO26dDj'
+  - name: 04 • PNJ — Orgnil
+    type: text
+    sort: 400000
+    ownership:
+      default: 0
+      TjbWhMczNyKieD8D: 3
+    text:
+      format: 1
+      content: |-
+        <h1>PNJ — Orgnil</h1>
+            <p><strong>ID :</strong> PNJ-Z04-02-01 · <strong>POI :</strong> Z04-02 · <strong>Zone :</strong> Z04</p>
+            <p><strong>Origine / statut :</strong> Classic — présence dans les quêtes de liaison du hub</p>
+            <p><strong>Fonction :</strong> Responsable de la sécurité de Tranchecolline · <strong>Faction / allégeance réelle (MJ) :</strong> Horde — garnison locale</p>
+            <p><em>Fiche réservée au MJ. L'incarnation et les paroles sont proposées pour Warbound, pas des dialogues officiels du jeu.</em></p>
+            <h2>1. Carte minute — 15 secondes</h2><table><tbody>
+              <tr><th>Veut maintenant</th><td>Réouvrir une liaison sans déclencher une nouvelle guerre locale.</td></tr><tr><th>Motivation profonde</th><td>Il porte la responsabilité des civils avant celle des glorieux raids.</td></tr><tr><th>Obstacle</th><td>Il reçoit des rapports incomplets sur plusieurs factions.</td></tr>
+              <tr><th>Ligne rouge</th><td>Envoyer une expédition punitive sans indice solide.</td></tr><tr><th>Peut offrir</th><td>Laissez-passer, escorte ponctuelle, ordres de patrouille, contact institutionnel.</td></tr><tr><th>En échange</th><td>Un rapport circonstancié et une alternative aux représailles.</td></tr>
+              <tr><th>Attitude initiale</th><td>Direct, attentif aux conséquences des mots.</td></tr><tr><th>S'il n'arrive rien</th><td>Renforce une mauvaise piste par prudence administrative.</td></tr>
+            </tbody></table>
+            <h2>2. Comment l'incarner</h2>
+            <p><strong>Premier regard :</strong> Armure marquée de la poussière des marches.</p><p><strong>Voix et comportement :</strong> Écoute les faits dans l’ordre puis décide.</p><p><strong>Signe émotionnel :</strong> Frotte la poussière d’un bord de carte avant de donner un ordre difficile.</p>
+            <blockquote><p><strong>Première réplique :</strong> « Je dois protéger la route, pas nourrir dix nouvelles rancunes. »</p></blockquote>
+            <p><strong>Question posée aux PJ :</strong> « Quelle route protégez-vous en priorité ? »</p>
+            <h2>3. Informations et leviers (MJ)</h2><table><tbody>
+              <tr><th>Spontané, sans jet</th><td>Une patrouille manque à l’appel et un convoi a été retardé.</td></tr><tr><th>Après échange, aide ou observation</th><td>Montre des témoignages contradictoires sur le même incident.</td></tr>
+              <tr><th>Secret / croyance / ignorance</th><td>Ne connaît pas les secrets du Cercle ni ceux de Neeru ; les dossiers sont incomplets.</td></tr><tr><th>Il demande</th><td>Un rapport circonstancié et une alternative aux représailles.</td></tr>
+              <tr><th>Il peut proposer</th><td>Laissez-passer, escorte ponctuelle, ordres de patrouille, contact institutionnel.</td></tr><tr><th>Ne franchira pas sa ligne rouge</th><td>Envoyer une expédition punitive sans indice solide.</td></tr>
+            </tbody></table>
+            <p><em>Un indice essentiel ne dépend jamais d'un seul jet obligatoire. Aucun test de voyage supplémentaire pour lui parler.</em></p>
+            <h2>4. Réactions aux choix des PJ</h2><table><tbody>
+              <tr><th>S'ils l'aident</th><td>Accorde une autorisation ciblée avec obligation de rendre compte.</td></tr><tr><th>S'ils négocient</th><td>Négocie une escorte contre le respect des civils.</td></tr>
+              <tr><th>S'ils le menacent ou s'opposent</th><td>Saisit les preuves si les PJ présentent un danger.</td></tr><tr><th>S'ils l'ignorent</th><td>Renforce une mauvaise piste par prudence administrative.</td></tr>
+            </tbody></table>
+            <p><strong>Improviser :</strong> objectif + contrainte + ligne rouge.</p>
+            <h2>5. Relations, mobilité et présence</h2>
+            <p><strong>Attache :</strong> Z04-02. <strong>Relations / autres lieux :</strong> Poste d’Orgnil ; le PNJ peut apparaître à Z04-01 sans double fiche.</p>
+            <h2>6. Suivi après la séance</h2>
+            <p><strong>Conséquence possible :</strong> Z04/R01–R04 : accès, patrouilles et confiance dans les PJ.</p>
+            <p><strong>Statut / attitude envers les PJ :</strong> [à actualiser en jeu]</p>
+            <p><strong>Dette, engagement, prochain geste :</strong> [à actualiser en jeu]</p>
+            <p><strong>Répercussion sur le POI :</strong> à consigner dans « Suivi MJ ».</p>
+            <h2>7. COF2 et Warbound (facultatif)</h2>
+            <p><strong>Actor COF2 :</strong> non défini. <strong>Tests / POP :</strong> seulement si nécessaires, à déterminer selon la scène.</p>
+            <p><em>Ne pas accorder un succès de guide PNJ COF2 automatiquement. Aucun pouvoir de Guide PJ Warbound attribué ici.</em></p>
+    flags:
+      world:
+        warboundNpcId: PNJ-Z04-02-01
+        warboundNpcPoiId: Z04-02
+        warboundNpcSource: Warbound_Durotar_PNJ_par_POI_v1
+    _id: hEgsxNUdhS3FFjXR
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792998433132
+      modifiedTime: 1792998433132
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!eiIyxFKpBNYwjzcX.hEgsxNUdhS3FFjXR'
+_id: eiIyxFKpBNYwjzcX
+categories: []
+sort: 0
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792998433132
+  modifiedTime: 1792998433132
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!eiIyxFKpBNYwjzcX'

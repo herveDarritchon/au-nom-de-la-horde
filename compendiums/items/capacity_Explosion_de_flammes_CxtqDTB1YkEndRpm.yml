@@ -1,0 +1,81 @@
+name: Explosion de flammes
+type: capacity
+img: modules/warbound-campaign-content/assets/images/icons/capacites/classes/chaman/voie-de-l-orage/cof2-explosion-de-flammes.png
+system:
+  description: >-
+    <p>Rang 4 — Explosion de flammes (A)*, 4 PM. Désigner un point visible à 20
+    m ; rayon de 3 m autour de ce point. Attaque magique contre la DEF de chaque
+    créature présente, alliés compris, conformément au risque normal des sorts
+    de zone COF2. Sur réussite, 2d4° + VOL DM de feu ; sur échec, aucun DM. Les
+    objets fragiles manifestement exposés peuvent brûler, à l’appréciation du
+    MJ.</p>
+  source: Warbound — Chaman v0.3, 20 octobre 2026
+  origin: Warbound / Chaman
+  slug: chaman-voie-de-lorage-explosion-de-flammes
+  gmNotes: >-
+    <p>Voie : Voie de l’orage · rang 4. Actions et effets système NON configurés
+    : les deux modèles fournis sont vierges ; le schéma interne system.actions
+    CO2 2.3.12 n’est pas documenté dans les exemples. Consulter le dossier
+    README pour finaliser/tester cette automatisation.</p>
+  inGame: >-
+    A* — 4 PM. Désigner un point visible à 20 m ; rayon de 3 m autour de ce
+    point. Attaque magique contre la DEF de chaque créature présente, alliés
+    compris, conformément au risque normal des sorts de zone COF2. Sur réussite,
+    2d4° + VOL DM de feu ; sur échec, aucun DM. Les objets fragiles
+    manifestement exposés peuvent brûler, à l’appréciation du MJ.
+  subtype: ''
+  actionType: none
+  learned: false
+  rank: 4
+  frequency: none
+  charges: {}
+  properties:
+    spell: true
+  path: null
+  cost: -1
+  manaCost: 4
+  actions: []
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  warbound:
+    version: '0.3'
+    category: profile
+    sourceWay: Voie de l’orage
+    rank: 4
+    mode: A
+    spellSource: true
+    basicTotemElement: null
+    requiresNativeActions: true
+    actionSpec:
+      mode: A
+      frequency: libre
+      automationCandidate: 'attaque: candidat à résolution CO2, effets secondaires éventuels manuels'
+      manaCost: 4
+      diceFormulaWarbound: 2d4° + VOL
+      distancesMentionedMeters:
+        - 20
+        - 3
+    status: contenu complet / automatisation native non testée
+    packId: warbound-chaman-v0.3
+    catalogId: Wb5fa48e4f721dc9
+    importedByMacro: true
+folder: vJsrAEfDWztdchbL
+_id: CxtqDTB1YkEndRpm
+sort: 125000
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792998285222
+  modifiedTime: 1792998285222
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!CxtqDTB1YkEndRpm'

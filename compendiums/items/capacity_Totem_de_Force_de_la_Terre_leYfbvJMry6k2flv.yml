@@ -1,0 +1,80 @@
+name: Totem de Force de la Terre
+type: capacity
+img: modules/warbound-campaign-content/assets/images/icons/capacites/classes/chaman/voie-des-totems/cof2-totem-de-force-de-la-terre.png
+system:
+  description: >-
+    <p>Rang 2 — Totem de Force de la Terre (M)*, 2 PM. Au lieu d’un autre totem
+    de Terre, le Chaman en plante un qui donne de la vigueur au corps à corps. À
+    chaque round, la première attaque de contact réussie par un allié dans son
+    rayon de 5 m inflige +1d4° DM physiques. Maximum 3 déclenchements pendant sa
+    vie, puis le totem disparaît. Effet limité à une attaque améliorée par round
+    dans toute la zone (pas une par allié). Dure au plus 10 rounds.</p>
+  source: Warbound — Chaman v0.3, 20 octobre 2026
+  origin: Warbound / Chaman
+  slug: chaman-voie-des-totems-totem-de-force-de-la-terre
+  gmNotes: >-
+    <p>Voie : Voie des totems · rang 2. Actions et effets système NON configurés
+    : les deux modèles fournis sont vierges ; le schéma interne system.actions
+    CO2 2.3.12 n’est pas documenté dans les exemples. Consulter le dossier
+    README pour finaliser/tester cette automatisation.</p>
+  inGame: >-
+    M* — 2 PM. Au lieu d’un autre totem de Terre, le Chaman en plante un qui
+    donne de la vigueur au corps à corps. À chaque round, la première attaque de
+    contact réussie par un allié dans son rayon de 5 m inflige +1d4° DM
+    physiques. Maximum 3 déclenchements pendant sa vie, puis le totem disparaît.
+    Effet limité à une attaque améliorée par round dans toute la zone (pas une
+    par allié). Dure au plus 10 rounds.
+  subtype: ''
+  actionType: none
+  learned: false
+  rank: 2
+  frequency: none
+  charges: {}
+  properties:
+    spell: true
+  path: null
+  cost: -1
+  manaCost: 2
+  actions: []
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  warbound:
+    version: '0.3'
+    category: profile
+    sourceWay: Voie des totems
+    rank: 2
+    mode: M
+    spellSource: true
+    basicTotemElement: null
+    requiresNativeActions: true
+    actionSpec:
+      mode: M
+      frequency: libre
+      automationCandidate: 'totem: placement, aura ou déclenchements à gérer manuellement'
+      manaCost: 2
+      distancesMentionedMeters:
+        - 5
+    status: contenu complet / automatisation native non testée
+    packId: warbound-chaman-v0.3
+    catalogId: Wb918e099dfb1f04
+    importedByMacro: true
+folder: rp0FdYslS8BYeliv
+_id: leYfbvJMry6k2flv
+sort: 200000
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792998285229
+  modifiedTime: 1792998285229
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!leYfbvJMry6k2flv'

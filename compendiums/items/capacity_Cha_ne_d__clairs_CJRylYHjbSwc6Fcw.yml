@@ -1,0 +1,82 @@
+name: Chaîne d’éclairs
+type: capacity
+img: modules/warbound-campaign-content/assets/images/icons/capacites/classes/chaman/voie-de-l-orage/cof2-chaine-d-eclairs.png
+system:
+  description: >-
+    <p>Rang 3 — Chaîne d’éclairs (A)*, 3 PM. Choisir une cible visible à 20 m,
+    puis une deuxième cible visible à 5 m ou moins de la première (facultative).
+    Faire un jet d’attaque magique distinct contre la DEF de chaque cible. La
+    première subit 2d4° + VOL DM d’électricité sur une réussite ; la seconde
+    1d4° + VOL DM sur une réussite. Une créature ne peut pas être touchée deux
+    fois par la même Chaîne d’éclairs.</p>
+  source: Warbound — Chaman v0.3, 20 octobre 2026
+  origin: Warbound / Chaman
+  slug: chaman-voie-de-lorage-chaine-declairs
+  gmNotes: >-
+    <p>Voie : Voie de l’orage · rang 3. Actions et effets système NON configurés
+    : les deux modèles fournis sont vierges ; le schéma interne system.actions
+    CO2 2.3.12 n’est pas documenté dans les exemples. Consulter le dossier
+    README pour finaliser/tester cette automatisation.</p>
+  inGame: >-
+    A* — 3 PM. Choisir une cible visible à 20 m, puis une deuxième cible visible
+    à 5 m ou moins de la première (facultative). Faire un jet d’attaque magique
+    distinct contre la DEF de chaque cible. La première subit 2d4° + VOL DM
+    d’électricité sur une réussite ; la seconde 1d4° + VOL DM sur une réussite.
+    Une créature ne peut pas être touchée deux fois par la même Chaîne
+    d’éclairs.
+  subtype: ''
+  actionType: none
+  learned: false
+  rank: 3
+  frequency: none
+  charges: {}
+  properties:
+    spell: true
+  path: null
+  cost: -1
+  manaCost: 3
+  actions: []
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  warbound:
+    version: '0.3'
+    category: profile
+    sourceWay: Voie de l’orage
+    rank: 3
+    mode: A
+    spellSource: true
+    basicTotemElement: null
+    requiresNativeActions: true
+    actionSpec:
+      mode: A
+      frequency: libre
+      automationCandidate: 'attaque: candidat à résolution CO2, effets secondaires éventuels manuels'
+      manaCost: 3
+      diceFormulaWarbound: 2d4° + VOL
+      distancesMentionedMeters:
+        - 20
+        - 5
+    status: contenu complet / automatisation native non testée
+    packId: warbound-chaman-v0.3
+    catalogId: Wb244c174928cb94
+    importedByMacro: true
+folder: vJsrAEfDWztdchbL
+_id: CJRylYHjbSwc6Fcw
+sort: 150000
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792998285221
+  modifiedTime: 1792998285221
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!CJRylYHjbSwc6Fcw'

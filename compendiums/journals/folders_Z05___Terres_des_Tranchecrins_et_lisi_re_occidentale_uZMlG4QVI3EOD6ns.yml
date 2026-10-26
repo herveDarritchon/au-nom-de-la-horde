@@ -1,0 +1,22 @@
+name: Z05 — Terres des Tranchecrins et lisière occidentale
+type: JournalEntry
+folder: qTI044N1e4JGrDLC
+flags:
+  world:
+    warboundZoneId: Z05
+_id: uZMlG4QVI3EOD6ns
+description: ''
+sorting: a
+sort: 400000
+color: null
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792998433019
+  modifiedTime: 1792998433019
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!uZMlG4QVI3EOD6ns'

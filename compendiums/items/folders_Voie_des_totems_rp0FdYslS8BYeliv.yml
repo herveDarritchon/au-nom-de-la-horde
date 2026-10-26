@@ -1,0 +1,20 @@
+type: Item
+folder: 55EE7OYRBnvo6TOE
+name: Voie des totems
+color: null
+sorting: a
+_id: rp0FdYslS8BYeliv
+description: ''
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792998285082
+  modifiedTime: 1792998285082
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!rp0FdYslS8BYeliv'

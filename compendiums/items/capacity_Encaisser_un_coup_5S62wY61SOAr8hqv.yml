@@ -1,0 +1,97 @@
+name: Encaisser un coup
+type: capacity
+img: icons/skills/melee/shield-block-fire-orange.webp
+_id: 5S62wY61SOAr8hqv
+system:
+  description: >-
+    <p>Le chevalier se place de façon à dévier un coup sur son armure. Jusqu’à
+    son tour au round suivant, il peut retrancher la valeur de DEF de son armure
+    (bonus de magie inclus si elle est enchantée) aux DM d’une seule attaque au
+    contact qu’il subit (minimum 1 DM). Au rang 5, il peut ajouter son bonus de
+    bouclier (là aussi, bonus de magie inclus et cumulable au bonus d’armure).
+    Le chevalier ne peut pas être étourdi ou renversé par une attaque qu’il a
+    décidé d’encaisser.</p>
+  inGame: >-
+    <p>Cette capacité propose une action Activable/désactivable pour donner un
+    bonus de Réduction de Dommages de (DEF -10 -AGI) pour représenter
+    l'armure.</p> <p>Attention : pour le moment cela prend en compte le
+    bouclier. Il faudra coder une nouvelle variable pour pouvoir choisir juste
+    l'armure ou juste le bouclier.</p>
+  source: COF2 — Livre des règles ; sélection Warbound v0.1
+  origin: Livre des règles p85
+  slug: encaisser-un-coup
+  subtype: ''
+  actionType: m
+  learned: false
+  charges:
+    current: null
+    max: null
+  properties:
+    spell: false
+  path: null
+  actions:
+    - source: Item.5S62wY61SOAr8hqv
+      indice: 0
+      label: ''
+      chatFlavor: ''
+      type: buff
+      img: icons/svg/d20-highlight.svg
+      properties:
+        visible: false
+        enabled: false
+        activable: true
+        temporary: true
+        noManaCost: false
+        noChargesUsed: false
+      conditions:
+        - predicate: isLearned
+      modifiers:
+        - type: capacity
+          source: Item.5S62wY61SOAr8hqv
+          subtype: combat
+          target: dr
+          apply: self
+          value: '@def -10 -@agi'
+          additionalInfos: ''
+          choiceGroup: 0
+      resolvers: []
+      actionType: none
+  cost: -1
+  rank: 2
+  gmNotes: >-
+    [COF2 REPRIS] Texte et mécaniques conservés de la capacité officielle. Dans
+    Warbound, le personnage est un Paladin même si la description source dit «
+    prêtre » ou « chevalier ». Si la capacité fait référence à des voies du
+    Profil d’origine, le calcul inter-profils peut demander un arbitrage du MJ :
+    voir README.
+  frequency: none
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+flags:
+  world:
+    warbound:
+      class: paladin
+      version: '0.1'
+      key: ability_guerre_2
+      sourceId: oqbsrwqfbJmNz4D8
+      status: official-adapted
+      pathKey: guerre
+folder: EvZ8nHmuVcrHHV6Q
+sort: 200000
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792998285258
+  modifiedTime: 1792998285258
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!5S62wY61SOAr8hqv'

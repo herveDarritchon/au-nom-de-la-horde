@@ -1,0 +1,85 @@
+name: Totem de Glèbe
+type: capacity
+img: modules/warbound-campaign-content/assets/images/icons/capacites/classes/chaman/voie-des-totems/cof2-totem-de-glebe.png
+system:
+  description: >-
+    <p>Rang 4 — Totem de Glèbe (M)*, 4 PM. Un totem d’Air est posé pour 10
+    rounds, avec une seule interception. Lorsqu’un sort ennemi cible directement
+    une seule créature à 5 m ou moins du totem, le Chaman peut déclarer
+    l’interception hors de son tour, gratuitement. Il oppose son attaque magique
+    à celle du lanceur ennemi : en cas de réussite, le sort est annulé pour
+    cette cible ; en cas d’échec, le sort agit normalement. Dans les deux cas,
+    le totem est consommé. Ne fonctionne pas sur les sorts de zone ni sur les
+    effets déjà actifs ; 1 invocation par récupération rapide.</p>
+  source: Warbound — Chaman v0.3, 20 octobre 2026
+  origin: Warbound / Chaman
+  slug: chaman-voie-des-totems-totem-de-glebe
+  gmNotes: >-
+    <p>Voie : Voie des totems · rang 4. Actions et effets système NON configurés
+    : les deux modèles fournis sont vierges ; le schéma interne system.actions
+    CO2 2.3.12 n’est pas documenté dans les exemples. Consulter le dossier
+    README pour finaliser/tester cette automatisation.</p>
+  inGame: >-
+    M* — 4 PM. Un totem d’Air est posé pour 10 rounds, avec une seule
+    interception. Lorsqu’un sort ennemi cible directement une seule créature à 5
+    m ou moins du totem, le Chaman peut déclarer l’interception hors de son
+    tour, gratuitement. Il oppose son attaque magique à celle du lanceur ennemi
+    : en cas de réussite, le sort est annulé pour cette cible ; en cas d’échec,
+    le sort agit normalement. Dans les deux cas, le totem est consommé. Ne
+    fonctionne pas sur les sorts de zone ni sur les effets déjà actifs ; 1
+    invocation par récupération rapide.
+  subtype: ''
+  actionType: none
+  learned: false
+  rank: 4
+  frequency: none
+  charges: {}
+  properties:
+    spell: true
+  path: null
+  cost: -1
+  manaCost: 4
+  actions: []
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  warbound:
+    version: '0.3'
+    category: profile
+    sourceWay: Voie des totems
+    rank: 4
+    mode: M
+    spellSource: true
+    basicTotemElement: null
+    requiresNativeActions: true
+    actionSpec:
+      mode: M
+      frequency: rapide
+      automationCandidate: 'totem: placement, aura ou déclenchements à gérer manuellement'
+      manaCost: 4
+      distancesMentionedMeters:
+        - 5
+      restoreAfter: récupération rapide (30 min)
+    status: contenu complet / automatisation native non testée
+    packId: warbound-chaman-v0.3
+    catalogId: Wbb89cbe081fdc26
+    importedByMacro: true
+folder: rp0FdYslS8BYeliv
+_id: LdHULGehpenmT5ep
+sort: 300000
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792998285229
+  modifiedTime: 1792998285229
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!LdHULGehpenmT5ep'

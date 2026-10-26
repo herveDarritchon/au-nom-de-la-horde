@@ -1,0 +1,78 @@
+name: Vague de soins supérieure
+type: capacity
+img: modules/warbound-campaign-content/assets/images/icons/capacites/classes/chaman/voie-des-eaux-guerisseuses/cof2-vague-de-soins-superieur.png
+system:
+  description: >-
+    <p>Rang 3 — Vague de soins supérieure (A)*, 3 PM. Une cible consentante à 10
+    m récupère 2d4° + VOL PV (maximum ses PV initiaux). Une utilisation par
+    récupération rapide ; cette capacité ne partage pas ses utilisations avec
+    Vague de soins. Peut soigner un allié à 0 PV ; pas de brûlure de mana.</p>
+  source: Warbound — Chaman v0.3, 20 octobre 2026
+  origin: Warbound / Chaman
+  slug: chaman-voie-des-eaux-guerisseuses-vague-de-soins-superieure
+  gmNotes: >-
+    <p>Voie : Voie des eaux guérisseuses · rang 3. Actions et effets système NON
+    configurés : les deux modèles fournis sont vierges ; le schéma interne
+    system.actions CO2 2.3.12 n’est pas documenté dans les exemples. Consulter
+    le dossier README pour finaliser/tester cette automatisation.</p>
+  inGame: >-
+    A* — 3 PM. Une cible consentante à 10 m récupère 2d4° + VOL PV (maximum ses
+    PV initiaux). Une utilisation par récupération rapide ; cette capacité ne
+    partage pas ses utilisations avec Vague de soins. Peut soigner un allié à 0
+    PV ; pas de brûlure de mana.
+  subtype: ''
+  actionType: none
+  learned: false
+  rank: 3
+  frequency: none
+  charges: {}
+  properties:
+    spell: true
+  path: null
+  cost: -1
+  manaCost: 3
+  actions: []
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  warbound:
+    version: '0.3'
+    category: profile
+    sourceWay: Voie des eaux guérisseuses
+    rank: 3
+    mode: A
+    spellSource: true
+    basicTotemElement: null
+    requiresNativeActions: true
+    actionSpec:
+      mode: A
+      frequency: rapide
+      automationCandidate: 'soin: candidat à résolution CO2'
+      manaCost: 3
+      diceFormulaWarbound: 2d4° + VOL
+      distancesMentionedMeters:
+        - 10
+      restoreAfter: récupération rapide (30 min)
+    status: contenu complet / automatisation native non testée
+    packId: warbound-chaman-v0.3
+    catalogId: Wb24a5950b345136
+    importedByMacro: true
+folder: LlW7qh6NprFPEUI3
+_id: GyXewk1bOiSRAX3l
+sort: 200000
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792998285226
+  modifiedTime: 1792998285226
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!GyXewk1bOiSRAX3l'

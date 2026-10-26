@@ -1,0 +1,82 @@
+name: Vision élémentaire
+type: capacity
+img: modules/warbound-campaign-content/assets/images/icons/capacites/classes/chaman/voie-des-esprits/cof2-vision-elementaire.png
+system:
+  description: >-
+    <p>Rang 3 — Vision élémentaire (A)*, 3 PM. Pendant 3 rounds, le Chaman
+    distingue à 10 m les manifestations spirituelles/élémentaires, perturbations
+    magiques récentes et traces d’un rituel, même si elles sont normalement
+    invisibles. Les créatures cachées seulement par un voile surnaturel
+    deviennent perceptibles mais ne sont pas automatiquement identifiées, ni
+    visibles par ses alliés. Un mur plein bloque la perception. Une utilisation
+    par récupération rapide.</p>
+  source: Warbound — Chaman v0.3, 20 octobre 2026
+  origin: Warbound / Chaman
+  slug: chaman-voie-des-esprits-vision-elementaire
+  gmNotes: >-
+    <p>Voie : Voie des esprits · rang 3. Actions et effets système NON
+    configurés : les deux modèles fournis sont vierges ; le schéma interne
+    system.actions CO2 2.3.12 n’est pas documenté dans les exemples. Consulter
+    le dossier README pour finaliser/tester cette automatisation.</p>
+  inGame: >-
+    A* — 3 PM. Pendant 3 rounds, le Chaman distingue à 10 m les manifestations
+    spirituelles/élémentaires, perturbations magiques récentes et traces d’un
+    rituel, même si elles sont normalement invisibles. Les créatures cachées
+    seulement par un voile surnaturel deviennent perceptibles mais ne sont pas
+    automatiquement identifiées, ni visibles par ses alliés. Un mur plein bloque
+    la perception. Une utilisation par récupération rapide.
+  subtype: ''
+  actionType: none
+  learned: false
+  rank: 3
+  frequency: none
+  charges: {}
+  properties:
+    spell: true
+  path: null
+  cost: -1
+  manaCost: 3
+  actions: []
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  warbound:
+    version: '0.3'
+    category: profile
+    sourceWay: Voie des esprits
+    rank: 3
+    mode: A
+    spellSource: true
+    basicTotemElement: null
+    requiresNativeActions: true
+    actionSpec:
+      mode: A
+      frequency: rapide
+      automationCandidate: 'spécial: résolution narrative ou conditionnelle'
+      manaCost: 3
+      distancesMentionedMeters:
+        - 10
+      restoreAfter: récupération rapide (30 min)
+    status: contenu complet / automatisation native non testée
+    packId: warbound-chaman-v0.3
+    catalogId: Wb1ef5310c29183b
+    importedByMacro: true
+folder: pqYx3cZAsPro9Kxi
+_id: 8mSgwlbTMNQjktOU
+sort: 150000
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792998285228
+  modifiedTime: 1792998285228
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!8mSgwlbTMNQjktOU'

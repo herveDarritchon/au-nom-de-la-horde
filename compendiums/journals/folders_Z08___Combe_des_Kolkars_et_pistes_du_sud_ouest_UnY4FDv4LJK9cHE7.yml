@@ -1,0 +1,22 @@
+name: Z08 — Combe des Kolkars et pistes du sud-ouest
+type: JournalEntry
+folder: qTI044N1e4JGrDLC
+flags:
+  world:
+    warboundZoneId: Z08
+_id: UnY4FDv4LJK9cHE7
+description: ''
+sorting: a
+sort: 800000
+color: null
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792998433019
+  modifiedTime: 1792998433019
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!UnY4FDv4LJK9cHE7'

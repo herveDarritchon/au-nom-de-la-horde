@@ -1,0 +1,84 @@
+name: Horion de terre
+type: capacity
+img: modules/warbound-campaign-content/assets/images/icons/capacites/classes/chaman/voie-de-l-orage/cof2-horion-de-terre.png
+system:
+  description: >-
+    <p>Rang 2 — Horion de terre (A)*, 2 PM. Cible visible à 10 m. Attaque
+    magique contre DEF ; réussite : 1d4° + VOL DM physiques élémentaires
+    (minimum 1). La cible fait ensuite un test de CON difficulté 10 + VOL. Sur
+    un échec, elle est Ralentie jusqu’à la fin de son prochain tour ; sur une
+    réussite, elle n’est pas ralentie. Une même cible ne peut subir le Ralenti
+    de cet Horion qu’une fois par récupération rapide, qu’elle résiste ou non ;
+    les DM restent possibles aux usages suivants.</p>
+  source: Warbound — Chaman v0.3, 20 octobre 2026
+  origin: Warbound / Chaman
+  slug: chaman-voie-de-lorage-horion-de-terre
+  gmNotes: >-
+    <p>Voie : Voie de l’orage · rang 2. Actions et effets système NON configurés
+    : les deux modèles fournis sont vierges ; le schéma interne system.actions
+    CO2 2.3.12 n’est pas documenté dans les exemples. Consulter le dossier
+    README pour finaliser/tester cette automatisation.</p>
+  inGame: >-
+    A* — 2 PM. Cible visible à 10 m. Attaque magique contre DEF ; réussite :
+    1d4° + VOL DM physiques élémentaires (minimum 1). La cible fait ensuite un
+    test de CON difficulté 10 + VOL. Sur un échec, elle est Ralentie jusqu’à la
+    fin de son prochain tour ; sur une réussite, elle n’est pas ralentie. Une
+    même cible ne peut subir le Ralenti de cet Horion qu’une fois par
+    récupération rapide, qu’elle résiste ou non ; les DM restent possibles aux
+    usages suivants.
+  subtype: ''
+  actionType: none
+  learned: false
+  rank: 2
+  frequency: none
+  charges: {}
+  properties:
+    spell: true
+  path: null
+  cost: -1
+  manaCost: 2
+  actions: []
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  warbound:
+    version: '0.3'
+    category: profile
+    sourceWay: Voie de l’orage
+    rank: 2
+    mode: A
+    spellSource: true
+    basicTotemElement: null
+    requiresNativeActions: true
+    actionSpec:
+      mode: A
+      frequency: rapide
+      automationCandidate: 'attaque: candidat à résolution CO2, effets secondaires éventuels manuels'
+      manaCost: 2
+      diceFormulaWarbound: 1d4° + VOL
+      distancesMentionedMeters:
+        - 10
+      restoreAfter: récupération rapide (30 min)
+    status: contenu complet / automatisation native non testée
+    packId: warbound-chaman-v0.3
+    catalogId: Wbc9e9b8774c688e
+    importedByMacro: true
+folder: vJsrAEfDWztdchbL
+_id: klGnCoOmDrCRs9m1
+sort: 200000
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792998285222
+  modifiedTime: 1792998285222
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!klGnCoOmDrCRs9m1'

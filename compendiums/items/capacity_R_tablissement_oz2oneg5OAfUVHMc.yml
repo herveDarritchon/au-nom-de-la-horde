@@ -1,0 +1,110 @@
+name: Rétablissement
+type: capacity
+img: icons/magic/life/cross-explosion-burst-green.webp
+_id: oz2oneg5OAfUVHMc
+system:
+  description: >-
+    <p style="text-align:justify">Une fois par jour, le prêtre peut soigner une
+    créature par point de CHA. Chaque patient (éventuellement lui‑même inclus)
+    obtient les mêmes effets qu’un sort de Récupération majeure. Le sort prend
+    10 min pendant lesquelles tous les patients doivent rester au repos dans un
+    rayon de 5 m autour du prêtre qui se concentre et se nimbe de lumière
+    divine. Ce sort ne peut pas être lancé avec la règle de concentration.</p>
+  inGame: >-
+    <p>Le joueur sélectionne ses cibles puis clique sur l'action pour lancer le
+    sort qui va automatiquement appliquer les soins. Actuellement il n'est pas
+    possible de mettre CHA cibles, le chiffre 5 a été mis par défaut à modifier
+    par le MJ.</p>
+
+    <p>Il faudra bien un repos complet pour réutiliser cette action. L'action
+    est mis sur "Limité" pour ne pas pouvoir utiliser la concentration et ne
+    gère pas le délais de 5-10 min de rituel.</p>
+  source: COF2 — Livre des règles ; sélection Warbound v0.1
+  origin: Livre des règles p125
+  slug: retablissement
+  subtype: ''
+  actionType: l
+  learned: false
+  charges:
+    current: 1
+    max: 1
+  properties:
+    spell: true
+  path: null
+  actions:
+    - source: Item.oz2oneg5OAfUVHMc
+      indice: 0
+      label: ''
+      chatFlavor: ''
+      type: heal
+      img: icons/svg/d20-highlight.svg
+      properties:
+        visible: false
+        enabled: false
+        activable: true
+        temporary: false
+        noManaCost: false
+        noChargesUsed: false
+      conditions:
+        - predicate: isLearned
+      resolvers:
+        - type: heal
+          bonusDiceAdd: false
+          malusDiceAdd: false
+          skill:
+            formula: 3d4°+@cha + @toutrang[5]d4°
+          target:
+            type: multiple
+            number: '@cha'
+            scope: allies
+          additionalEffect:
+            active: false
+            applyOn: success
+            successThreshold: null
+            statuses: []
+            duration: '0'
+            unit: round
+          dmg: {}
+          halfDmgOnSave: true
+          hasAttackSuccessThreshold: false
+      modifiers: []
+      actionType: none
+  cost: -1
+  rank: 5
+  frequency: daily
+  gmNotes: >-
+    [COF2 REPRIS] Texte et mécaniques conservés de la capacité officielle. Dans
+    Warbound, le personnage est un Paladin même si la description source dit «
+    prêtre » ou « chevalier ». Si la capacité fait référence à des voies du
+    Profil d’origine, le calcul inter-profils peut demander un arbitrage du MJ :
+    voir README.
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+flags:
+  world:
+    warbound:
+      class: paladin
+      version: '0.1'
+      key: ability_soins_5
+      sourceId: 85CKbM8QlqVbTewg
+      status: official-adapted
+      pathKey: soins
+folder: 0cUpYpbtOmxMnmek
+sort: 112500
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792998285265
+  modifiedTime: 1792998285265
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!oz2oneg5OAfUVHMc'

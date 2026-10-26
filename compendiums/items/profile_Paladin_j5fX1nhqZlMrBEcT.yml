@@ -1,0 +1,142 @@
+folder: 0AnxgMpLJThriJiy
+name: Paladin
+type: profile
+img: modules/warbound-campaign-content/assets/images/profils/cof2-profil-paladin.png
+system:
+  description: >-
+    <p><span><strong>Points de vigueur :</strong> 5 par
+    niveau</span></p><p><span>Le paladin est un guerrier sacré qui associe la
+    maîtrise des armes à une foi inébranlable en la Lumière. Revêtu d'une armure
+    lourde, il protège ses compagnons, soigne les blessés et combat les forces
+    des ténèbres grâce à ses pouvoirs divins. Guidé par des idéaux de justice,
+    de courage et de compassion, il consacre généralement sa vie à défendre les
+    innocents et à lutter contre le mal. Toutefois, la foi ne garantit pas la
+    vertu : certains paladins peuvent devenir fanatiques, aveuglés par leurs
+    convictions ou prêts à commettre des actes terribles au nom d'une cause
+    qu'ils estiment juste.</span></p><h2><span>Sur
+    Azeroth</span></h2><p><span>Les premiers paladins furent formés au sein de
+    l'ordre de la Main d'argent, fondé par l'archevêque Alonsus Faol pendant la
+    Deuxième Guerre. Sous le commandement d'Uther le Porteur de Lumière, ces
+    chevaliers sacrés combattirent la Horde et devinrent les défenseurs des
+    royaumes humains. Mais la Troisième Guerre et la trahison d'Arthas portèrent
+    un coup terrible à leur ordre. Nombre de paladins périrent face au Fléau,
+    tandis que les survivants poursuivirent leur combat au sein d'ordres
+    dispersés ou de nouvelles organisations, comme l'Aube
+    d'argent.</span></p><p><span>Les paladins sont principalement des Humains et
+    des Nains, traditionnellement liés à l'Alliance et à l'Église de la Lumière
+    sacrée. Quelques Hauts-Elfes de Quel'Thalas avaient également rejoint la
+    Main d'argent avant la chute de leur royaume. Parmi leurs survivants,
+    désormais appelés Sin'dorei, certains ont conservé leur foi et leurs
+    pouvoirs sacrés malgré les épreuves traversées.</span></p><p><span>Au sein
+    de la jeune Horde de Thrall, un paladin demeure donc une exception. Un
+    ancien chevalier de Quel'Thalas peut néanmoins choisir de combattre aux
+    côtés de ses nouveaux compagnons sans renoncer à ses convictions. Sa
+    présence suscitera probablement la curiosité ou la méfiance, tant la Lumière
+    reste associée aux anciens ennemis de la Horde. Pour un tel personnage,
+    concilier sa foi, son héritage et sa loyauté envers ses compagnons peut
+    constituer une épreuve aussi importante que les combats qu'il
+    mène.</span></p><h2><span>Armes &amp; armures</span></h2><p><span>Le paladin
+    sait manier toutes les armes de contact. Les voies de paladin lui permettent
+    de porter une armure allant jusqu'à l'armure de plaque (l'armure de plaque
+    complète nécessite une capacité particulière). Il peut utiliser tous les
+    boucliers.</span></p><h2><span>Équipement de départ</span></h2><p><span>Épée
+    longue (DM 1d8), grand bouclier (DEF +2), dague (DM 1d4), cotte de mailles
+    (DEF +5), symbole sacré de la Lumière.</span></p>
+  source: ''
+  origin: warbound
+  slug: chevalier
+  modifiers: []
+  proficiencies: []
+  paths:
+    - Item.DOyfXTJP1lSsiESj
+    - Item.kh7TYZb6EcGZpdgT
+    - Item.loaBajAaTd5ukGjF
+    - Item.NEtGve4kKR9kVPMD
+    - Item.9WFOzzwyr70j7iYQ
+  martialTrainingsWeapons:
+    unarmed: true
+    staff: true
+    ironStaff: true
+    dagger: true
+    greatSword: true
+    bastardSword: true
+    shortSword: true
+    longSword: true
+    spear: true
+    flail: true
+    greatFlail: true
+    club: true
+    axe: true
+    greatAxe: true
+    lance: true
+    cavalryLance: true
+    hammer: true
+    mace: true
+    pike: true
+    rapier: true
+    stiletto: true
+    swiftblade: true
+    handCrossbow: false
+    lightCrossbow: false
+    heavyCrossbow: false
+    shortBow: false
+    longBow: false
+    throwingKnife: false
+    throwingDagger: false
+    sling: false
+    throwingAxe: false
+    javelin: false
+    throwingSpear: false
+    handCannon: false
+    musket: false
+    blowgun: false
+    bola: false
+    lash: false
+    rightSaber: false
+    shortSaber: false
+    tripleStaff: false
+    warLash: false
+    warPick: false
+  martialTrainingsArmors:
+    paddedClothFur: true
+    leather: true
+    studdedLeather: true
+    chainShirt: true
+    chainMail: true
+    plateArmor: true
+    fullPlate: false
+  martialTrainingsShields:
+    smallShield: true
+    largeShield: true
+  family: combattant
+  maxDefenseArmor: 6
+  equipment:
+    - Compendium.cof2-base.cof-2-base-items.Item.QIHJs2vncOYtsEX2
+    - Compendium.cof2-base.cof-2-base-items.Item.jRm6HR7QTnRpYEDg
+    - Compendium.cof2-base.cof-2-base-items.Item.0gjyPBj5KURSdFTy
+    - Compendium.cof2-base.cof-2-base-items.Item.bwFlCTHBg9Fqa0JI
+    - Compendium.cof2-base.cof-2-base-items.Item.zo9lLSnxzCWeDBxh
+    - Compendium.cof2-base.cof-2-base-items.Item.gQxhYR1D6Ha05KjQ
+  gmNotes: ''
+  mainProfile: false
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  co: {}
+  cof2-compagnon:
+    hpPerLevelOverride: null
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.1VlnLvHTZtwpcukT
+  duplicateSource: Item.RTOzf9AgvItcFL35
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792998332692
+  modifiedTime: 1792998332692
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+sort: 100000
+_id: j5fX1nhqZlMrBEcT
+_key: '!items!j5fX1nhqZlMrBEcT'

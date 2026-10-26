@@ -1,0 +1,57 @@
+name: Voie des armes élémentaires
+type: path
+img: modules/warbound-campaign-content/assets/images/icons/voies/classes/chaman/cof2-voie-des-armes-elementaires.png
+system:
+  description: <p>Voie Warbound — Chaman v0.3. Voie de profil (5 rangs).</p>
+  source: Warbound — Chaman v0.3, 20 octobre 2026
+  origin: Warbound / Chaman
+  slug: chaman-voie-des-armes-elementaires
+  gmNotes: ''
+  subtype: profile
+  capacities:
+    - Item.kAT2leeZWjfZgaeM
+    - Item.6mksw62ybTNapovK
+    - Item.zsL4ZLXVdVjVqx7Z
+    - Item.db0dXk08myN2d6Do
+    - Item.AUYaHaOC0iVmuHXV
+  rank: 0
+  maxDefenseArmor: 0
+  pvByLevel: 0
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  warbound:
+    version: '0.3'
+    category: profile
+    capacityIds:
+      - Wb3094106393d3a7
+      - Wb4583c96372123c
+      - Wb82d509399021d2
+      - Wb522a0df51c609d
+      - Wbe0449ec7dcbc1a
+    capacityNames:
+      - Arme Croque-roc
+      - Horion de flammes
+      - Bouclier de foudre
+      - Arme Furie-des-vents
+      - Frappe-tempête
+    status: voie prête / liaisons capacites à réaliser avec modèle CO2 authentifié
+    packId: warbound-chaman-v0.3
+    catalogId: Wbb911f2eaeda281
+    importedByMacro: true
+folder: z79nUJKalACjdMSa
+_id: gbkoCFMYLuOV67SL
+sort: 150000
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792998338655
+  modifiedTime: 1792998338655
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!gbkoCFMYLuOV67SL'

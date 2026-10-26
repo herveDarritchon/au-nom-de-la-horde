@@ -1,0 +1,517 @@
+name: Z09-01 — Îles de l'Écho
+folder: EG5LE6GRRHe3CB42
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  campaign-codex:
+    type: ''
+  world:
+    warboundPoiId: Z09-01
+    warboundZoneId: Z09
+pages:
+  - name: Présentation
+    type: text
+    sort: 100000
+    text:
+      format: 1
+      content: >-
+        <h1>Îles de l'Écho</h1>
+
+        <p><strong>Identifiant :</strong> Z09-01</p>
+
+        <p><strong>Zone géographique :</strong> Z09 — Îles de l’Écho</p>
+
+        <p><strong>Nature de l'entrée :</strong> Lieu / secteur — Extension</p>
+
+        <h2>Fonction dans la campagne</h2>
+
+        <p>Archipel contrôlé par Zalazane ; extension sombrelance.</p>
+
+        <h2>Contexte territorial — informations MJ</h2>
+
+        <p><strong>Statut de la zone :</strong> Extension conditionnelle du
+        pointcrawl.</p>
+
+        <p><strong>Repère géographique :</strong> Archipel au large du sud de
+        Durotar, où des trolls vivent sous domination ou sous contrainte.</p>
+
+        <p><strong>Factions et influences :</strong> Zalazane et ses partisans ;
+        Sombrelances (revendication et perspective de reconquête).</p>
+
+        <p><strong>Références et réserves :</strong> [PC] [FAC]</p>
+
+        <p><em>Les lieux de débarquement et les sites rituels sont à localiser ;
+        aucun temps de traversée maritime n’est fixé dans l’atlas.</em></p>
+
+        <hr>
+
+        <p><small>Source : Warbound — Durotar, découpage des POI par zone
+        géographique V1. Certaines entrées sont des accès ou des emplacements
+        encore à définir, et non des POI visitables indépendants.</small></p>
+    _id: eVYM7ozZdkfPn3e6
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792998433179
+      modifiedTime: 1792998433179
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!ObEXBW1ddh3c0zU7.eVYM7ozZdkfPn3e6'
+  - name: Suivi MJ
+    type: text
+    sort: 200000
+    text:
+      format: 1
+      content: >-
+        <h1>Suivi MJ — Z09-01</h1>
+
+        <p><em>Fiche de suivi volontairement non renseignée : à compléter selon
+        la fiction et les séances.</em></p>
+
+        <table><tbody>
+
+        <tr><th>Connaissance des PJ</th><td>À renseigner : inconnu / repéré /
+        connu / maîtrisé</td></tr>
+
+        <tr><th>Accès</th><td>À renseigner : ouvert / conditionnel / bloqué /
+        caché</td></tr>
+
+        <tr><th>Pression actuelle</th><td>À renseigner : calme / tension /
+        crise</td></tr>
+
+        <tr><th>Transformation persistante</th><td>À renseigner</td></tr>
+
+        <tr><th>Routes liées / état</th><td>À renseigner (R01–R08 ou
+        RX-*)</td></tr>
+
+        <tr><th>Situation si les PJ arrivent</th><td>À renseigner</td></tr>
+
+        <tr><th>Dernière évolution / séance</th><td>À renseigner</td></tr>
+
+        </tbody></table>
+
+        <p><strong>Rappel :</strong> une découverte validée sur un 20 naturel du
+        Guide peut créer un nouveau POI persistant, mais ne donne pas
+        automatiquement de bonus de voyage.</p>
+    _id: HkUVd5My978tj7Di
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792998433179
+      modifiedTime: 1792998433179
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!ObEXBW1ddh3c0zU7.HkUVd5My978tj7Di'
+  - name: 01 • À jouer maintenant
+    type: text
+    sort: 300000
+    text:
+      format: 1
+      content: >-
+        <h1>À jouer maintenant</h1><p><strong>POI :</strong> Z09-01 — Îles de
+        l'Écho | <strong>Catégorie :</strong> lieu</p><p><em>Compléter les
+        champs entre crochets. Cette fiche est réservée au MJ. Elle n’impose pas
+        de scène ni de jet supplémentaire.</em></p><p><strong>Fonction issue de
+        l’inventaire :</strong> Archipel contrôlé par Zalazane ; extension
+        sombrelance.</p><p><em>Décrire une scène, deux acteurs, un choix concret
+        et une conséquence.</em></p><h2>Carte minute — 30
+        secondes</h2><table><tbody><tr><th>Pourquoi venir
+        ?</th><td>[Information, contact, ressource, passage ou
+        menace]</td></tr><tr><th>Qu’arrive-t-il maintenant ?</th><td>[Une
+        situation visible qui évolue]</td></tr><tr><th>Tension
+        centrale</th><td>[Deux intérêts en opposition]</td></tr><tr><th>Décision
+        à prendre</th><td>[Choix ouvert ; aucune solution
+        imposée]</td></tr><tr><th>Bénéfice durable possible</th><td>[Route,
+        contact, information, ressource, changement]</td></tr><tr><th>Si les PJ
+        n’interviennent pas</th><td>[Une évolution cohérente et
+        limitée]</td></tr></tbody></table><h2>Première impression — à
+        raconter</h2><blockquote><p>[2–4 phrases : image forte, détail
+        sensoriel, signe d’activité. Pas de secrets
+        MJ.]</p></blockquote><h2>Points d’interaction (2 ou 3 maximum)</h2><p>1.
+        [Élément concret] → [action possible]</p><p>2. [Élément concret] →
+        [action possible]</p><p>3. [Facultatif] → [action
+        possible]</p><h2>Acteurs présents — intentions et leviers</h2><p><em>Des
+        personnes ou groupes présents sur le site ; leurs demandes, moyens et
+        limites.</em></p><table><tbody><tr><th>Acteur A</th><td>[Qui ? Veut quoi
+        ? Peut offrir quoi ? Refuse quoi ?]</td></tr><tr><th>Acteur
+        B</th><td>[Qui ? Veut quoi ? Peut offrir quoi ? Refuse quoi
+        ?]</td></tr></tbody></table><h2>Trois façons possibles de jouer (aucune
+        n’est obligatoire)</h2><p><strong>Parler / négocier :</strong> [demande,
+        concession, prix].</p><p><strong>Observer / enquêter :</strong> [signe,
+        témoin, objet].</p><p><strong>Agir / explorer :</strong> [obstacle,
+        responsabilité, choix].</p><p><strong>Question au MJ :</strong> Quel
+        événement local fait agir les personnages maintenant ?</p>
+    flags:
+      world:
+        warboundPoiTemplateKey: jeu
+        warboundPoiTemplateVersion: '1.0'
+    _id: Xg980g9Zws3LT6cN
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792998433179
+      modifiedTime: 1792998433179
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!ObEXBW1ddh3c0zU7.Xg980g9Zws3LT6cN'
+  - name: 02 • Coulisses MJ
+    type: text
+    sort: 400000
+    text:
+      format: 1
+      content: >-
+        <h1>Coulisses MJ</h1><p><strong>POI :</strong> Z09-01 — Îles de l'Écho |
+        <strong>Catégorie :</strong> lieu</p><p><em>Compléter les champs entre
+        crochets. Cette fiche est réservée au MJ. Elle n’impose pas de scène ni
+        de jet supplémentaire.</em></p><h2>Factions et vérité derrière la
+        scène</h2><table><tbody><tr><th>Implantation / autorité
+        locale</th><td>[Qui contrôle réellement cet endroit ? Si inconnu,
+        laisser ouvert.]</td></tr><tr><th>Présences / incursions</th><td>[Qui
+        circule ou menace sans contrôler le lieu ?]</td></tr><tr><th>Influence
+        clandestine</th><td>[Uniquement si établie par les documents / la
+        campagne]</td></tr><tr><th>Secret à ne pas révéler
+        immédiatement</th><td>[Une vérité MJ facultative]</td></tr><tr><th>Ce
+        qui reste à décider</th><td>[Coupable, emplacement, nom ou lien non
+        établi]</td></tr></tbody></table><h2>Indice : trois niveaux d’accès, pas
+        trois jets</h2><table><tbody><tr><th>Visible sans test</th><td>[Fait
+        observable dès l’arrivée]</td></tr><tr><th>En agissant /
+        parlant</th><td>[Fait obtenu par question, observation active,
+        aide]</td></tr><tr><th>En approfondissant / risquant quelque
+        chose</th><td>[Fait plus sensible ou plus précis]</td></tr><tr><th>Si un
+        test échoue</th><td>[Retard, coût ou complication ; éviter de
+        verrouiller le scénario]</td></tr></tbody></table><h2>Improviser si les
+        joueurs bifurquent — palette 1d6 facultative</h2><p><em>À utiliser pour
+        nourrir une scène existante. Aucun tirage supplémentaire systématique en
+        voyage.</em></p><table><thead><tr><th>1d6</th><th>Amorce à
+        adapter</th></tr></thead><tbody><tr><th>1</th><td>Un habitant ou
+        voyageur a besoin d’aide</td></tr><tr><th>2</th><td>Deux personnes
+        revendiquent une ressource</td></tr><tr><th>3</th><td>Un témoin
+        contredit une version des faits</td></tr><tr><th>4</th><td>La sécurité
+        d’un abri ou bâtiment change</td></tr><tr><th>5</th><td>Une piste ou un
+        objet inattendu est trouvé</td></tr><tr><th>6</th><td>Une décision
+        ancienne produit une conséquence</td></tr></tbody></table><h2>Réaction
+        des acteurs aux décisions</h2><p><strong>Les PJ aident :</strong>
+        [réaction / récompense].</p><p><strong>Les PJ négocient :</strong>
+        [limite / condition].</p><p><strong>Les PJ menacent ou attaquent
+        :</strong> [réaction proportionnée].</p><p><strong>Les PJ repartent
+        :</strong> [une évolution locale si justifiée].</p><h2>Conséquences
+        persistantes</h2><table><tbody><tr><th>Si les PJ
+        interviennent</th><td>[Plusieurs suites plausibles, sans imposer
+        d’issue]</td></tr><tr><th>Si les PJ ignorent</th><td>[Prochaine
+        évolution si personne n’intervient]</td></tr><tr><th>Au prochain
+        retour</th><td>[Un effet des PJ et un changement du monde
+        maximum]</td></tr><tr><th>Gain exploitable</th><td>[Route, contact,
+        ressource, vérité, alliance, dette]</td></tr></tbody></table>
+    flags:
+      world:
+        warboundPoiTemplateKey: coulisses
+        warboundPoiTemplateVersion: '1.0'
+    _id: DC5mr4Jn2xLgW6F0
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792998433179
+      modifiedTime: 1792998433179
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!ObEXBW1ddh3c0zU7.DC5mr4Jn2xLgW6F0'
+  - name: 03 • Accès et voyage
+    type: text
+    sort: 500000
+    text:
+      format: 1
+      content: >-
+        <h1>Accès, exploration et voyage Warbound V2</h1><p><strong>POI
+        :</strong> Z09-01 — Îles de l'Écho | <strong>Catégorie :</strong>
+        lieu</p><p><em>Compléter les champs entre crochets. Cette fiche est
+        réservée au MJ. Elle n’impose pas de scène ni de jet
+        supplémentaire.</em></p><p><strong>Attention spécifique :</strong> Voies
+        menant à ce lieu, accès réellement ouverts et conditions pour en
+        repartir.</p><table><tbody><tr><th>Zone / liaison</th><td>[Z09 ; route
+        Rxx ou RX-xx à renseigner, si existante]</td></tr><tr><th>Connaissance
+        PJ</th><td>[inconnu / repéré / connu /
+        maîtrisé]</td></tr><tr><th>Accessibilité</th><td>[ouvert / conditionnel
+        / bloqué / caché ; condition]</td></tr><tr><th>Approches et
+        alternatives</th><td>[Départ, arrivée, choix de rapidité / sûreté /
+        discrétion]</td></tr><tr><th>Terrain par tronçon</th><td>[route / hors
+        piste ÷2 / difficile ÷2 / hors piste ET difficile
+        ÷4]</td></tr><tr><th>Distance / temps</th><td>[à calibrer — aucune
+        distance déduite du MMO]</td></tr><tr><th>Danger du
+        trajet</th><td>[catégorie COF2, DD, DM ; décidés avant jet selon
+        itinéraire effectif]</td></tr><tr><th>Eau / chasse /
+        pêche</th><td>[Ressources locales plausibles, accès, enjeu si
+        scène]</td></tr><tr><th>Bivouac</th><td>[Abri, sécurité, conditions de
+        récupération COF2]</td></tr><tr><th>Indices pour l’Éclaireur</th><td>[2
+        observations utiles]</td></tr><tr><th>Choix de préparation du
+        Guide</th><td>[exploration / endurance / bivouac /
+        ravitaillement]</td></tr></tbody></table><h2>Quand lancer les dés
+        ?</h2><p>Pas de jet supplémentaire pour entrer dans le POI ni à chaque
+        frontière. Pour une journée de voyage significative : <strong>Guide INT
+        (Survie) en premier</strong>, puis <strong>Éclaireur PER
+        (Survie)</strong> et <strong>Voyageurs CON (Survie)</strong>, un seul
+        test de progression par PJ. Résultat collectif, DR, événements et repos
+        : COF2.</p><p><strong>Préparation du Guide :</strong> le dé bonus ciblé
+        sur un test pertinent après réussite est un paramètre Warbound V2 <em>à
+        tester</em>, pas une nouvelle règle automatique de
+        déplacement.</p><h2>Critiques et découvertes</h2><p><strong>20 naturel
+        du Guide :</strong> le joueur propose et raconte une opportunité locale
+        plausible (piste, abri, eau, observation). Le MJ arbitre la cohérence et
+        enregistre la découverte durable (D-Zxx-nnn). Une découverte peut être
+        repérée mais non atteinte.</p><p><strong>1 naturel du Guide :</strong>
+        le MJ peut contextualiser l’échec par une complication ; pas de deuxième
+        rencontre ni malus systématique.</p><p><strong>Donjon :</strong> une
+        fois l’entrée atteinte, se référer à sa fiche d’exploration propre ; ne
+        pas confondre la DD du voyage et celle du donjon.</p><h2>Après la
+        scène</h2><p>Mettre à jour la page « Suivi MJ » déjà présente :
+        connaissance, accès, pression, transformation, évolution si les PJ
+        reviennent.</p>
+    flags:
+      world:
+        warboundPoiTemplateKey: voyage
+        warboundPoiTemplateVersion: '1.0'
+    _id: uxxaDKTdOtDdAq61
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792998433179
+      modifiedTime: 1792998433179
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!ObEXBW1ddh3c0zU7.uxxaDKTdOtDdAq61'
+  - name: 04 • PNJ — Zalazane
+    type: text
+    sort: 400000
+    ownership:
+      default: 0
+      TjbWhMczNyKieD8D: 3
+    text:
+      format: 1
+      content: |-
+        <h1>PNJ — Zalazane</h1>
+            <p><strong>ID :</strong> PNJ-Z09-01-01 · <strong>POI :</strong> Z09-01 · <strong>Zone :</strong> Z09</p>
+            <p><strong>Origine / statut :</strong> Classic — antagoniste de l’archipel</p>
+            <p><strong>Fonction :</strong> Sorcier-docteur dominant les Îles de l’Écho · <strong>Faction / allégeance réelle (MJ) :</strong> Partisans de Zalazane ; emprise sur des trolls soumis</p>
+            <p><em>Fiche réservée au MJ. L'incarnation et les paroles sont proposées pour Warbound, pas des dialogues officiels du jeu.</em></p>
+            <h2>1. Carte minute — 15 secondes</h2><table><tbody>
+              <tr><th>Veut maintenant</th><td>Empêcher une tête de pont sombrelance sur les îles.</td></tr><tr><th>Motivation profonde</th><td>Il refuse de perdre son pouvoir sur l’archipel.</td></tr><tr><th>Obstacle</th><td>Tous ses partisans ne lui obéissent pas librement.</td></tr>
+              <tr><th>Ligne rouge</th><td>Libérer volontairement ses sujets au premier ultimatum.</td></tr><tr><th>Peut offrir</th><td>Sursis, marché mensonger, vérité partielle sur un rituel local.</td></tr><tr><th>En échange</th><td>Retrait de la présence sombrelance ou engagement compromettant.</td></tr>
+              <tr><th>Attitude initiale</th><td>Mielleux quand il peut manipuler ; cruel si son contrôle échappe.</td></tr><tr><th>S'il n'arrive rien</th><td>Renforce les défenses et accentue la pression indirecte sur Sen’jin.</td></tr>
+            </tbody></table>
+            <h2>2. Comment l'incarner</h2>
+            <p><strong>Premier regard :</strong> Ornements rituels couverts de fils et de petits os.</p><p><strong>Voix et comportement :</strong> Rit avant d’énoncer ses conditions.</p><p><strong>Signe émotionnel :</strong> Son rire cesse net lorsqu’un captif résiste à son emprise.</p>
+            <blockquote><p><strong>Première réplique :</strong> « Chaque île a besoin d’un maître. Vous en cherchez un autre ? »</p></blockquote>
+            <p><strong>Question posée aux PJ :</strong> « Combien de proches sacrifierez-vous pour reprendre ces rivages ? »</p>
+            <h2>3. Informations et leviers (MJ)</h2><table><tbody>
+              <tr><th>Spontané, sans jet</th><td>Des trolls semblent exécuter des ordres malgré leur peur.</td></tr><tr><th>Après échange, aide ou observation</th><td>Une faiblesse dans un contrôle rituel peut permettre une libération partielle.</td></tr>
+              <tr><th>Secret / croyance / ignorance</th><td>MJ : soutient secrètement les raids Kolkar pour immobiliser Sen’jin ; il ne commande pas les Kolkar comme des soldats.</td></tr><tr><th>Il demande</th><td>Retrait de la présence sombrelance ou engagement compromettant.</td></tr>
+              <tr><th>Il peut proposer</th><td>Sursis, marché mensonger, vérité partielle sur un rituel local.</td></tr><tr><th>Ne franchira pas sa ligne rouge</th><td>Libérer volontairement ses sujets au premier ultimatum.</td></tr>
+            </tbody></table>
+            <p><em>Un indice essentiel ne dépend jamais d'un seul jet obligatoire. Aucun test de voyage supplémentaire pour lui parler.</em></p>
+            <h2>4. Réactions aux choix des PJ</h2><table><tbody>
+              <tr><th>S'ils l'aident</th><td>Tente de gagner du temps avec une promesse ciblée.</td></tr><tr><th>S'ils négocient</th><td>Accepte un échange qui le renforce politiquement.</td></tr>
+              <tr><th>S'ils le menacent ou s'opposent</th><td>Déplace une partie de ses partisans vers un lieu rituel.</td></tr><tr><th>S'ils l'ignorent</th><td>Renforce les défenses et accentue la pression indirecte sur Sen’jin.</td></tr>
+            </tbody></table>
+            <p><strong>Improviser :</strong> objectif + contrainte + ligne rouge.</p>
+            <h2>5. Relations, mobilité et présence</h2>
+            <p><strong>Attache :</strong> Z09-01. <strong>Relations / autres lieux :</strong> Présence au POI principal ou lors de scène majeure ; ne pas l’imposer au premier débarquement.</p>
+            <h2>6. Suivi après la séance</h2>
+            <p><strong>Conséquence possible :</strong> Z09/Z07/Z08 : emprise affaiblie, libération, fortification ou raid détourné.</p>
+            <p><strong>Statut / attitude envers les PJ :</strong> [à actualiser en jeu]</p>
+            <p><strong>Dette, engagement, prochain geste :</strong> [à actualiser en jeu]</p>
+            <p><strong>Répercussion sur le POI :</strong> à consigner dans « Suivi MJ ».</p>
+            <h2>7. COF2 et Warbound (facultatif)</h2>
+            <p><strong>Actor COF2 :</strong> non défini. <strong>Tests / POP :</strong> seulement si nécessaires, à déterminer selon la scène.</p>
+            <p><em>Ne pas accorder un succès de guide PNJ COF2 automatiquement. Aucun pouvoir de Guide PJ Warbound attribué ici.</em></p>
+    flags:
+      world:
+        warboundNpcId: PNJ-Z09-01-01
+        warboundNpcPoiId: Z09-01
+        warboundNpcSource: Warbound_Durotar_PNJ_par_POI_v1
+    _id: xedv2nRH8Z4uh7Jk
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792998433179
+      modifiedTime: 1792998433179
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!ObEXBW1ddh3c0zU7.xedv2nRH8Z4uh7Jk'
+  - name: 04 • PNJ — Sazu Lien-Brisé
+    type: text
+    sort: 401000
+    ownership:
+      default: 0
+      TjbWhMczNyKieD8D: 3
+    text:
+      format: 1
+      content: |-
+        <h1>PNJ — Sazu Lien-Brisé</h1>
+            <p><strong>ID :</strong> PNJ-Z09-01-02 · <strong>POI :</strong> Z09-01 · <strong>Zone :</strong> Z09</p>
+            <p><strong>Origine / statut :</strong> Original Warbound</p>
+            <p><strong>Fonction :</strong> Troll soumis au rituel qui cherche à parler librement · <strong>Faction / allégeance réelle (MJ) :</strong> Sombrelances sous contrainte de Zalazane</p>
+            <p><em>Fiche réservée au MJ. L'incarnation et les paroles sont proposées pour Warbound, pas des dialogues officiels du jeu.</em></p>
+            <h2>1. Carte minute — 15 secondes</h2><table><tbody>
+              <tr><th>Veut maintenant</th><td>Faire passer un message aux siens sans attirer l’attention.</td></tr><tr><th>Motivation profonde</th><td>Elle veut retrouver sa volonté et celle de sa sœur.</td></tr><tr><th>Obstacle</th><td>Des moments de lucidité alternent avec l’emprise rituelle.</td></tr>
+              <tr><th>Ligne rouge</th><td>Conduire des étrangers à une cache où des captifs seront massacrés.</td></tr><tr><th>Peut offrir</th><td>Indice sur un rituel, signe de reconnaissance, chemin surveillé.</td></tr><tr><th>En échange</th><td>Protection de sa sœur et prise en compte de son état changeant.</td></tr>
+              <tr><th>Attitude initiale</th><td>Inconstante en apparence, épuisée.</td></tr><tr><th>S'il n'arrive rien</th><td>Tente de fuir seule ; risque d’être reprise.</td></tr>
+            </tbody></table>
+            <h2>2. Comment l'incarner</h2>
+            <p><strong>Premier regard :</strong> Bande de tissu sombrelance délavée au poignet.</p><p><strong>Voix et comportement :</strong> Sa voix se brise sur certains noms.</p><p><strong>Signe émotionnel :</strong> Serre le tissu de son poignet quand un souvenir remonte.</p>
+            <blockquote><p><strong>Première réplique :</strong> « Si je vous oublie demain, souvenez-vous pour moi. »</p></blockquote>
+            <p><strong>Question posée aux PJ :</strong> « Pouvez-vous aider quelqu’un qui vous repoussera peut-être ? »</p>
+            <h2>3. Informations et leviers (MJ)</h2><table><tbody>
+              <tr><th>Spontané, sans jet</th><td>Son comportement change près d’un lieu de pouvoir.</td></tr><tr><th>Après échange, aide ou observation</th><td>Elle peut décrire des gestes qui précèdent une prise de contrôle.</td></tr>
+              <tr><th>Secret / croyance / ignorance</th><td>Ne connaît pas nécessairement le lien Zalazane–Kolkar ; ses souvenirs sont fragmentaires.</td></tr><tr><th>Il demande</th><td>Protection de sa sœur et prise en compte de son état changeant.</td></tr>
+              <tr><th>Il peut proposer</th><td>Indice sur un rituel, signe de reconnaissance, chemin surveillé.</td></tr><tr><th>Ne franchira pas sa ligne rouge</th><td>Conduire des étrangers à une cache où des captifs seront massacrés.</td></tr>
+            </tbody></table>
+            <p><em>Un indice essentiel ne dépend jamais d'un seul jet obligatoire. Aucun test de voyage supplémentaire pour lui parler.</em></p>
+            <h2>4. Réactions aux choix des PJ</h2><table><tbody>
+              <tr><th>S'ils l'aident</th><td>Indique un lieu de repli si sa sœur est incluse.</td></tr><tr><th>S'ils négocient</th><td>Négocie un signe permettant aux PJ de la reconnaître lors d’une crise.</td></tr>
+              <tr><th>S'ils le menacent ou s'opposent</th><td>Alerte involontairement des gardes sous influence.</td></tr><tr><th>S'ils l'ignorent</th><td>Tente de fuir seule ; risque d’être reprise.</td></tr>
+            </tbody></table>
+            <p><strong>Improviser :</strong> objectif + contrainte + ligne rouge.</p>
+            <h2>5. Relations, mobilité et présence</h2>
+            <p><strong>Attache :</strong> Z09-01. <strong>Relations / autres lieux :</strong> Ne pas représenter tous les trolls insulaires comme des ennemis volontaires.</p>
+            <h2>6. Suivi après la séance</h2>
+            <p><strong>Conséquence possible :</strong> Z09 : témoin sauvé, accès vers un site rituel ou alerte accrue.</p>
+            <p><strong>Statut / attitude envers les PJ :</strong> [à actualiser en jeu]</p>
+            <p><strong>Dette, engagement, prochain geste :</strong> [à actualiser en jeu]</p>
+            <p><strong>Répercussion sur le POI :</strong> à consigner dans « Suivi MJ ».</p>
+            <h2>7. COF2 et Warbound (facultatif)</h2>
+            <p><strong>Actor COF2 :</strong> non défini. <strong>Tests / POP :</strong> seulement si nécessaires, à déterminer selon la scène.</p>
+            <p><em>Ne pas accorder un succès de guide PNJ COF2 automatiquement. Aucun pouvoir de Guide PJ Warbound attribué ici.</em></p>
+    flags:
+      world:
+        warboundNpcId: PNJ-Z09-01-02
+        warboundNpcPoiId: Z09-01
+        warboundNpcSource: Warbound_Durotar_PNJ_par_POI_v1
+    _id: 8jLmYo0KZdGgfo5m
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792998433179
+      modifiedTime: 1792998433179
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!ObEXBW1ddh3c0zU7.8jLmYo0KZdGgfo5m'
+_id: ObEXBW1ddh3c0zU7
+categories: []
+sort: 0
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792998433179
+  modifiedTime: 1792998433179
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!ObEXBW1ddh3c0zU7'

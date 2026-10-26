@@ -1,0 +1,613 @@
+name: Z04 — Tranchecolline et ses abords
+flags:
+  campaign-codex:
+    type: ''
+  core:
+    sheetClass: ''
+  world:
+    warboundZoneId: Z04
+    warboundTerritoryAtlasVersion: '1.0'
+    warboundTravelRulesVersion: '2.0'
+    warboundJournalVersion: '1.0'
+    warboundAudience: MJ
+pages:
+  - _id: f72fb12ab911d7d1
+    name: 00 · Vue d’ensemble
+    type: text
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Repères de zone —
+        Z04</h2><table><thead><tr><th>Champ</th><th>Information</th></tr></thead><tbody><tr><td>Nom</td><td>Tranchecolline
+        et ses abords</td></tr><tr><td>Situation / limite</td><td>Centre de
+        Durotar, carrefour des itinéraires</td></tr><tr><td>Influence
+        structurante</td><td><strong>Horde</strong></td></tr><tr><td>Statut dans
+        la campagne</td><td>[1] cœur</td></tr><tr><td>Danger COF2 de départ (à
+        confirmer)</td><td><strong>Civilisée DD 10</strong> au hub ;
+        <strong>frontalière DD 10</strong> aux
+        lisières</td></tr><tr><td>Distance et durée</td><td><strong>Non
+        calibrées</strong> : à renseigner par liaison /
+        tronçon.</td></tr></tbody></table><h3>Situation de
+        départ</h3><p><strong>hub central</strong>, carrefour d'informations, de
+        convois et de ressources ; les routes partent vers les cinq autres pôles
+        principaux. [PC] [GUIDE]</p><blockquote><p><strong>Document réservé au
+        MJ.</strong> Le zonage, les DD et les incidents sont des propositions
+        Warbound. Les secrets des factions ne sont pas connus des PJ. La
+        difficulté effective est fixée <strong>par trajet avant le jet du
+        Guide</strong>, pas automatiquement pour toute la
+        zone.</p></blockquote><h3>Mémo : comment utiliser cette zone</h3><ol>
+
+        <li>Situer le trajet et les POI réellement connus.</li>
+
+        <li>Montrer les itinéraires plausibles et leurs compromis.</li>
+
+        <li>Choisir ellipse, scène ou journée de voyage Warbound V2.</li>
+
+        <li>En cas de journée jouée : Guide INT (Survie) d’abord, Éclaireur PER
+        (Survie) et Voyageurs CON (Survie) ensuite.</li>
+
+        <li>Appliquer le bilan COF2, puis mettre à jour les POI, routes et
+        factions concernés.</li>
+
+        </ol>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags:
+      world:
+        warboundZoneId: Z04
+        warboundPageType: '00'
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792998433197
+      modifiedTime: 1792998433197
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!WyalIoW0bx2UZBgs.f72fb12ab911d7d1'
+  - _id: 6e3d9d9c490bb9e9
+    name: 01 · Géographie et POI
+    type: text
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Points d’intérêt — Z04</h2><p>Chaque POI possède un rattachement
+        territorial unique. Un accès ou un sentier local n’est pas
+        nécessairement un nœud du pointcrawl.</p><table><thead><tr><th>POI /
+        ID</th><th>Nature</th><th>Origine /
+        réserve</th></tr></thead><tbody><tr><td><code>Z04-01</code>
+        Tranchecolline</td><td><strong>Nœud
+        [1]</strong></td><td>[PC]</td></tr><tr><td><code>Z04-02</code> Caserne
+        de
+        Tranchecolline</td><td>Infrastructure</td><td>[CLASSIC]</td></tr><tr><td><code>Z04-03</code>
+        Tour de
+        guet</td><td>Infrastructure</td><td>[CLASSIC]</td></tr><tr><td><code>Z04-04</code>
+        Cour des convois / halte</td><td>Fonction locale</td><td>[GUIDE] — fiche
+        fine à rapprocher</td></tr><tr><td><code>Z04-05</code> Départs des axes
+        régionaux</td><td>Nœud de
+        routes</td><td>[PC]</td></tr></tbody></table><h3>Implantation et rôle
+        des lieux</h3><p><code>Z04-01</code> Tranchecolline <strong>[1]</strong>
+        ; <code>Z04-02</code> caserne de Tranchecolline <strong>[CLASSIC /
+        GUIDE]</strong> ; <code>Z04-03</code> tour de guet
+        <strong>[CLASSIC]</strong> ; <code>Z04-04</code> cour des convois /
+        artisanat / halte <strong>[fonctions de campagne ; précision par fiche
+        de hub]</strong> ; <code>Z04-05</code> départs des routes vers Z03, Z05,
+        Z06, Z07 et la voie nord <strong>[PC]</strong>.</p><h3>Connaissance des
+        PJ (à renseigner)</h3><ul>
+
+        <li><strong>Inconnu</strong> : ne pas présenter l’accès ou le lieu comme
+        une option.</li>
+
+        <li><strong>Repéré</strong> : rumeur, indication ou repère visible.</li>
+
+        <li><strong>Connu</strong> : visité ou documenté.</li>
+
+        <li><strong>Maîtrisé</strong> : habitudes, accès, contacts et risques
+        bien compris.</li>
+
+        </ul>
+
+        <blockquote><p><strong>À compléter en séance :</strong> pour chaque POI
+        utilisé, noter sa connaissance, son accessibilité réelle et son état
+        actuel. Ne pas divulguer le contenu des entrées secrètes aux
+        joueurs.</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 100000
+    ownership:
+      default: -1
+    flags:
+      world:
+        warboundZoneId: Z04
+        warboundPageType: '01'
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792998433197
+      modifiedTime: 1792998433197
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!WyalIoW0bx2UZBgs.6e3d9d9c490bb9e9'
+  - _id: ca4e0ba68b728aee
+    name: 02 · Factions et secrets MJ
+    type: text
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Factions et influences — Z04</h2><p><strong>Horde</strong>
+        institutionnelle et locale (garnison, convois, artisanat) ; possibles
+        influences indirectes du <strong>Cercle</strong> et de la <strong>Lame
+        ardente</strong> sur les circulations, <strong>sans poste
+        public</strong> inventé pour l'un ou l'autre. Pression territoriale
+        Tranchecrins aux marges occidentales.</p><h3>Matrice des influences du
+        référentiel</h3><table><thead><tr><th>Faction</th><th>Implantation /
+        contrôle pertinent</th><th>Incursions, clandestinité ou influence
+        indirecte</th><th>Effet sur les voyages (mise en
+        scène)</th></tr></thead><tbody><tr><td><strong>Horde</strong></td><td>Z01,
+        Z04, Z07 (Sombrelances), corridors de Z03 et Z10</td><td>Patrouilles /
+        logistique en Z05, Z06, Z08</td><td>Convois, relais, pistes entretenues,
+        sécurité
+        variable</td></tr><tr><td><strong>Tranchecrins</strong></td><td>Z05</td><td>Pression
+        sur Z04 et sur couloir Z05↔Z07</td><td>Marques de territoires, raids,
+        groupes non uniformes, négociation</td></tr><tr><td><strong>Lame
+        ardente</strong></td><td>Repaire Z02</td><td>Agents infiltrés Z01 ;
+        manipulation des irréductibles Z06 ; activités ailleurs <strong>non
+        cartographiées précisément</strong></td><td>Indices discrets, fausses
+        pistes, informations partielles, tension
+        nourrie</td></tr><tr><td><strong>Cercle de la Pierre
+        Brisée</strong></td><td><strong>Pas de territoire
+        officiel</strong></td><td>Logistique Z03, abords des travaux Z01 et
+        routes de Durotar selon ses opérations</td><td>Sabotage non létal,
+        fuite, matériel ciblé, fausses accusations
+        possibles</td></tr></tbody></table><blockquote><p><strong>Attention
+        :</strong> une infiltration, un sabotage ou une manipulation ne signifie
+        pas que la faction contrôle publiquement le territoire. Les relations
+        secrètes ne doivent pas être divulguées automatiquement. Une faction
+        hostile ne rend pas mécaniquement toute la région « en guerre
+        ».</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 200000
+    ownership:
+      default: -1
+    flags:
+      world:
+        warboundZoneId: Z04
+        warboundPageType: '02'
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792998433197
+      modifiedTime: 1792998433197
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!WyalIoW0bx2UZBgs.ca4e0ba68b728aee'
+  - _id: 2fa0e8571174a349
+    name: 03 · Voyage Warbound V2
+    type: text
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Voyager dans la zone — Z04</h2><h3>Classification et
+        contraintes</h3><p>centre <strong>civilisé DD 10 / DM 1</strong>,
+        périphérie <strong>frontalière DD 10 / 1d4°</strong>, puis catégorie
+        propre à la route empruntée. <strong>Éviter tout test</strong> pour
+        simplement traverser le hub en sécurité.</p><h3>Décisions du Guide —
+        avant son jet</h3><p>choisir équipement et horaire de départ, arbitrer
+        <strong>temps / sûreté / discrétion</strong>, prévoir des pauses ou une
+        marche précoce ; l'opportunité de choisir une autre route importe
+        <strong>avant</strong> le dé.</p><h3>Ce que voit
+        l’Éclaireur</h3><p>activité aux départs, patrouilles absentes, nouveaux
+        avis, bêtes de bât fatiguées, informations contradictoires des
+        voyageurs.</p><h3>Repos, chasse, pêche et ravitaillement</h3><p>services
+        d'étape et possibilité de repos sûr <strong>selon fiction COF2</strong>
+        ; pas de jauge de provisions nouvelle.</p><h3>Rappel officiel COF2 /
+        adaptation Warbound
+        V2</h3><table><thead><tr><th>Paramètre</th><th>Application</th></tr></thead><tbody><tr><td>Période
+        / journée</td><td>4 h par période ; 2 périodes pour une journée
+        ordinaire.</td></tr><tr><td>Hors piste / terrain
+        difficile</td><td>Distance <strong>÷2</strong> pour chacun,
+        <strong>÷4</strong> si cumul sur le même segment.</td></tr><tr><td>Choix
+        de la DD</td><td>Fixée <strong>avant</strong> le jet du Guide selon
+        l’itinéraire effectivement
+        emprunté.</td></tr><tr><td>Guide</td><td><strong>INT (Survie)</strong>
+        en premier ; annonce sa priorité (passage / endurance / bivouac /
+        ravitaillement).</td></tr><tr><td>Compagnons</td><td>Éclaireur :
+        <strong>PER (Survie)</strong> ; Voyageurs : <strong>CON
+        (Survie)</strong>. Un seul test de progression
+        chacun.</td></tr><tr><td>Préparation V2 <strong>à
+        tester</strong></td><td>Réussite du Guide : <strong>un dé bonus ciblé à
+        un test pertinent d’un compagnon</strong>, non à tout le
+        groupe.</td></tr><tr><td>Bilan collectif</td><td>COF2 : de −3 (arrêt +
+        événement majeur) à +3 (progression rapide + bivouac confortable) ;
+        saturation hors bornes provisoire.</td></tr><tr><td>Événement et
+        repos</td><td>Résolution COF2 ; pas de tirage additionnel systématique
+        par zone ou période.</td></tr><tr><td>Distances</td><td><strong>À
+        calibrer</strong> ; ne pas utiliser une vitesse maritime ou un
+        kilométrage
+        inventé.</td></tr></tbody></table><blockquote><p><strong>Question
+        ouverte :</strong> si une journée franchit plusieurs zones à DD
+        différentes, la DD pertinente reste à arbitrer. Ne pas effectuer
+        automatiquement un nouveau test au franchissement d’une
+        frontière.</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 300000
+    ownership:
+      default: -1
+    flags:
+      world:
+        warboundZoneId: Z04
+        warboundPageType: '03'
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792998433197
+      modifiedTime: 1792998433197
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!WyalIoW0bx2UZBgs.2fa0e8571174a349'
+  - _id: 24a22a52a5775e9d
+    name: 04 · Incidents et rencontres
+    type: text
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Incidents et rencontres — Z04</h2><h3>Exemples situés dans la fiche
+        de zone</h3><p>embouteillage, pénurie ponctuelle, besoin d'un messager.
+        <strong>Majeur :</strong> convoi attaqué aux abords ou décision urgente
+        sur une route fermée ; pas de crise systématique à chaque
+        retour.</p><h3>Palette d’événements
+        régionaux</h3><table><thead><tr><th>Zone</th><th>Mineur : observation,
+        tension, détour</th><th>Majeur : choix significatif ou confrontation
+        possible</th><th>Intention non hostile /
+        alternative</th></tr></thead><tbody><tr><td>Z04</td><td>Information de
+        convoi, petite pénurie</td><td>Alerte sur une route, attaque aux
+        marges</td><td>Aider les ravitailleurs, recueillir des
+        nouvelles</td></tr></tbody></table><h3>Application
+        COF2</h3><table><thead><tr><th>Bilan</th><th>Événement</th></tr></thead><tbody><tr><td>−3
+        ou moins (provisoire)</td><td>Arrêt + événement
+        majeur</td></tr><tr><td>−2</td><td>Ralentissement + événement
+        majeur</td></tr><tr><td>−1</td><td>Événement mineur</td></tr><tr><td>0
+        et plus</td><td>Aucun événement <strong>imposé par le bilan</strong> ;
+        suivre la table de progression
+        COF2.</td></tr></tbody></table><blockquote><p><strong>Ne pas tirer une
+        rencontre supplémentaire toutes les quatre heures.</strong> La palette
+        sert à choisir <strong>quel incident</strong> jouer lorsqu’il est
+        déclenché ou lorsqu’une scène prévue le justifie. Combat non obligatoire
+        ; calibrer les affrontements avec les POP COF2.</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 400000
+    ownership:
+      default: -1
+    flags:
+      world:
+        warboundZoneId: Z04
+        warboundPageType: '04'
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792998433197
+      modifiedTime: 1792998433197
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!WyalIoW0bx2UZBgs.24a22a52a5775e9d'
+  - _id: 4ee8f1cabc7854c0
+    name: 05 · Critiques et découvertes
+    type: text
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Critiques et découvertes persistantes — Z04</h2><h3>Occasions
+        plausibles dans cette zone</h3><p>emplacement de relais utilisable,
+        vieille piste locale, contact ou abri pour un prochain voyage ; ne pas
+        inventer de voie directe universelle contournant Durotar. <strong>1
+        naturel :</strong> départ tardif, mauvaise répartition de charge ou
+        information obsolète.</p><h3>Réussite critique du Guide : 20
+        naturel</h3><ol>
+
+        <li>Le joueur Guide raconte une <strong>opportunité concrète et
+        plausible</strong> liée à sa préparation : passage, halte, source, piste
+        ou information.</li>
+
+        <li>Le MJ valide la cohérence géographique et politique ; il ne remplace
+        pas arbitrairement l’idée du joueur.</li>
+
+        <li>La découverte existe durablement, même si le bilan collectif empêche
+        le groupe de l’atteindre immédiatement.</li>
+
+        <li>Ajouter le lieu au journal de territoire <code>D-Zxx-nnn</code>,
+        avec son accès et son statut.</li>
+
+        </ol>
+
+        <h3>Échec critique : 1 naturel</h3><p>Le MJ <strong>peut</strong>
+        illustrer l’erreur de préparation par une complication. Le résultat du
+        Guide est déjà <strong>−2</strong> au bilan collectif : <strong>pas de
+        nouveau dé malus ni d’événement majeur automatique</strong>. La
+        complication peut expliquer l’incident collectif plutôt que s’y
+        ajouter.</p>
+
+        <h3>Découverte : trame à
+        dupliquer</h3><table><thead><tr><th>Champ</th><th>À
+        renseigner</th></tr></thead><tbody><tr><td>ID</td><td><code>D-Z04-001</code>
+        (incrémenter)</td></tr><tr><td>Origine</td><td>PJ / séance / 20 naturel
+        ou autre</td></tr><tr><td>Lieu et description</td><td>Proposition du
+        joueur approuvée par le MJ</td></tr><tr><td>Zone
+        d’attache</td><td>Z04</td></tr><tr><td>Route associée</td><td>Rxx, RX-xx
+        ou aucune</td></tr><tr><td>Connaissance</td><td>Repéré / connu /
+        maîtrisé</td></tr><tr><td>Accessibilité</td><td>Ouvert / conditionnel /
+        bloqué / caché</td></tr><tr><td>Fonction</td><td>Halte / eau / chasse /
+        pêche / raccourci / information</td></tr><tr><td>Effet de
+        règle</td><td><strong>Aucun effet chiffré automatique</strong> ; définir
+        au cas par cas</td></tr><tr><td>Évolution</td><td>Nouvelle présence,
+        détérioration ou protection éventuelle</td></tr></tbody></table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 500000
+    ownership:
+      default: -1
+    flags:
+      world:
+        warboundZoneId: Z04
+        warboundPageType: '05'
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792998433197
+      modifiedTime: 1792998433197
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!WyalIoW0bx2UZBgs.4ee8f1cabc7854c0'
+  - _id: b2d7a166c5ca845a
+    name: 06 · Routes et accès
+    type: text
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Routes, accès et compromis — Z04</h2><h3>Liaisons principales
+        R01–R08</h3><table><thead><tr><th>Route</th><th>Liaison / zones
+        d'arrivée</th><th>Tag et compromis établis</th><th>Terrain / danger **de
+        départ
+        proposé**</th><th>Statut</th></tr></thead><tbody><tr><td><strong>R01</strong></td><td>Tranchecolline
+        Z04 ↔ Sen'jin Z07</td><td><strong>Route du sud fréquentée</strong> ;
+        convois et chaleur</td><td>Route utilisable (pas de ÷2 automatique) ;
+        <strong>frontalière DD 10</strong> sur partie exposée</td><td>Connue si
+        révélée aux
+        PJ</td></tr><tr><td><strong>R02</strong></td><td>Tranchecolline Z04 ↔
+        Terres Tranchecrins Z05</td><td><strong>Piste ouest contestée</strong> ;
+        incursions, négociation</td><td>Piste <strong>sauvage DD 15</strong>
+        près du territoire</td><td>Information / sécurité
+        variables</td></tr><tr><td><strong>R03</strong></td><td>Tranchecolline
+        Z04 ↔ Tiragarde Z06</td><td><strong>Route est surveillée</strong> ;
+        approche frontale ou discrète</td><td>Terrain ouvert puis côte ;
+        <strong>frontalière DD 10</strong> hors risque, <strong>sauvage DD
+        15</strong> en approche hostile</td><td>Accès conditionné par la
+        fiction</td></tr><tr><td><strong>R04</strong></td><td>Tranchecolline Z04
+        ↔ Falaises du Tonnerre Z03</td><td><strong>Route nord-ouest
+        logistique</strong> ; chariots et matériaux</td><td>Piste entretenue
+        <strong>frontalière DD 10</strong> ; ravin sauvage <strong>DD
+        15</strong> en dehors</td><td>Variable selon
+        sabotages</td></tr><tr><td><strong>R06</strong></td><td>Tranchecolline
+        Z04 ↔ Rocher du crâne Z02</td><td><strong>Voie nord rapide et
+        exposée</strong> ; circulation vers Orgrimmar</td><td>Voie connue
+        <strong>DD 10 frontalière</strong> sur portion sûre ; sauvage <strong>DD
+        15</strong> sur l'approche finale</td><td>Visible, non forcément
+        sûr</td></tr></tbody></table><h3>Liaisons proposées non encore
+        validées</h3><table><thead><tr><th>Code provisoire</th><th>Connexion
+        logique</th><th>À régler avant
+        utilisation</th></tr></thead><tbody><tr><td><code>RX-01</code></td><td>Z04
+        / couloir nord ↔ <strong>Z01 Orgrimmar</strong></td><td>Tracé, durée,
+        nécessité d'un jet, pression
+        logistique</td></tr><tr><td><code>RX-04</code></td><td>Z04 ou Z07 ↔
+        <strong>Z10 Vallée des Épreuves</strong></td><td>Connexion prologue à
+        déterminer <strong>avant</strong> de l'affirmer
+        accessible</td></tr></tbody></table><h3>État actuel (à
+        compléter)</h3><table><thead><tr><th>Route</th><th>Connaissance des
+        PJ</th><th>Accès</th><th>État /
+        compromis</th></tr></thead><tbody><tr><td>R01</td><td>À
+        renseigner</td><td>À renseigner</td><td>À
+        renseigner</td></tr><tr><td>R02</td><td>À renseigner</td><td>À
+        renseigner</td><td>À renseigner</td></tr><tr><td>R03</td><td>À
+        renseigner</td><td>À renseigner</td><td>À
+        renseigner</td></tr><tr><td>R04</td><td>À renseigner</td><td>À
+        renseigner</td><td>À renseigner</td></tr><tr><td>R06</td><td>À
+        renseigner</td><td>À renseigner</td><td>À
+        renseigner</td></tr><tr><td>RX-01</td><td>À renseigner</td><td>À
+        renseigner</td><td>À renseigner</td></tr><tr><td>RX-04</td><td>À
+        renseigner</td><td>À renseigner</td><td>À
+        renseigner</td></tr></tbody></table><blockquote><p><strong>Les huit
+        liaisons sont des choix qualitatifs, pas des distances.</strong> Les
+        trajets Rxx et RX-xx n’ont pas de durée ni de kilométrage validés. Ne
+        pas transformer une liaison cachée en chemin connu sans découverte en
+        jeu.</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 600000
+    ownership:
+      default: -1
+    flags:
+      world:
+        warboundZoneId: Z04
+        warboundPageType: '06'
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792998433197
+      modifiedTime: 1792998433197
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!WyalIoW0bx2UZBgs.b2d7a166c5ca845a'
+  - _id: 527b5ec01d26db0f
+    name: 07 · Suivi du territoire (MJ)
+    type: text
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Suivi dynamique du territoire — Z04</h2><h3>Transformations et
+        évolutions possibles</h3><p>le hub reflète <strong>un changement des PJ
+        + un du monde au maximum</strong> à chaque retour ; les autres points ne
+        sont pas remis à zéro.</p><h3>État de campagne — mise à jour
+        MJ</h3><table><thead><tr><th>Axe</th><th>État /
+        note</th></tr></thead><tbody><tr><td>Pression actuelle</td><td><strong>À
+        renseigner :</strong> calme / tension /
+        crise.</td></tr><tr><td>Transformation persistante</td><td><strong>À
+        renseigner :</strong> non / oui et une
+        phrase.</td></tr><tr><td>Influences visibles</td><td><strong>À
+        renseigner :</strong> ce que les PJ savent
+        réellement.</td></tr><tr><td>Routes ouvertes / perdues</td><td><strong>À
+        renseigner</strong> selon les liaisons
+        ci-dessus.</td></tr><tr><td>Dernière modification</td><td><strong>À
+        renseigner :</strong> séance et conséquence.</td></tr><tr><td>Si les PJ
+        arrivent maintenant</td><td><strong>À renseigner :</strong> une scène
+        d’ouverture située.</td></tr><tr><td>Si les PJ n’interviennent
+        pas</td><td><strong>À renseigner :</strong> une évolution logique, non
+        une sanction automatique.</td></tr></tbody></table><h3>Maintenance après
+        chaque séance</h3><ul>
+
+        <li>Noter uniquement les changements qui ont une cause
+        fictionnelle.</li>
+
+        <li>Mettre à jour un POI, une route ou une influence lorsqu’un choix ou
+        une action de faction le justifie.</li>
+
+        <li>Répercuter une découverte critique dans sa zone <strong>et</strong>
+        dans le registre des routes si nécessaire.</li>
+
+        <li>Montrer au plus deux évolutions marquantes lors d’un retour : une
+        due aux PJ et une due au monde.</li>
+
+        <li>Éviter de simuler toute la région après chaque séance.</li>
+
+        </ul>
+
+        <blockquote><p><strong>Côté joueur :</strong> ne révéler que les
+        informations repérées / connues. Ce journal contient les secrets de
+        campagne et est configuré non visible par défaut pour les
+        joueurs.</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 700000
+    ownership:
+      default: -1
+    flags:
+      world:
+        warboundZoneId: Z04
+        warboundPageType: '07'
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792998433197
+      modifiedTime: 1792998433197
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!WyalIoW0bx2UZBgs.527b5ec01d26db0f'
+folder: qcqUDluTsOg8OKA9
+categories: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_id: WyalIoW0bx2UZBgs
+sort: 125000
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792998433197
+  modifiedTime: 1792998433197
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!WyalIoW0bx2UZBgs'

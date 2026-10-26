@@ -1,0 +1,524 @@
+name: Z01-03 — Travaux / approvisionnement d'excavation
+folder: ejUVBNs6DSdKd9F6
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  campaign-codex:
+    type: ''
+  world:
+    warboundPoiId: Z01-03
+    warboundZoneId: Z01
+pages:
+  - name: Présentation
+    type: text
+    sort: 100000
+    text:
+      format: 1
+      content: >-
+        <h1>Travaux / approvisionnement d'excavation</h1>
+
+        <p><strong>Identifiant :</strong> Z01-03</p>
+
+        <p><strong>Zone géographique :</strong> Z01 — Orgrimmar et ses
+        abords</p>
+
+        <p><strong>Nature de l'entrée :</strong> À localiser / détailler —
+        Projet de campagne</p>
+
+        <h2>Fonction dans la campagne</h2>
+
+        <p>Logistique de l’excavation ; emplacement opérationnel non fixé.</p>
+
+        <h2>Contexte territorial — informations MJ</h2>
+
+        <p><strong>Statut de la zone :</strong> Destination de convergence.</p>
+
+        <p><strong>Repère géographique :</strong> Capitale en construction,
+        portes, convois et chantiers liés à la progression vers Ragefeu.</p>
+
+        <p><strong>Factions et influences :</strong> Horde (administration) ;
+        Lame ardente et Cercle de la Pierre Brisée (influences
+        clandestines).</p>
+
+        <p><strong>Références et réserves :</strong> [FAC] — emplacement à
+        préciser</p>
+
+        <p><em>Le Gouffre de Ragefeu est un donjon accessible depuis ce secteur,
+        et non une zone de voyage terrestre.</em></p>
+
+        <hr>
+
+        <p><small>Source : Warbound — Durotar, découpage des POI par zone
+        géographique V1. Certaines entrées sont des accès ou des emplacements
+        encore à définir, et non des POI visitables indépendants.</small></p>
+    _id: y9hwhG7jnEd2aNdj
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792998433094
+      modifiedTime: 1792998433094
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!7wbroAZ9pYBi9RIO.y9hwhG7jnEd2aNdj'
+  - name: Suivi MJ
+    type: text
+    sort: 200000
+    text:
+      format: 1
+      content: >-
+        <h1>Suivi MJ — Z01-03</h1>
+
+        <p><em>Fiche de suivi volontairement non renseignée : à compléter selon
+        la fiction et les séances.</em></p>
+
+        <table><tbody>
+
+        <tr><th>Connaissance des PJ</th><td>À renseigner : inconnu / repéré /
+        connu / maîtrisé</td></tr>
+
+        <tr><th>Accès</th><td>À renseigner : ouvert / conditionnel / bloqué /
+        caché</td></tr>
+
+        <tr><th>Pression actuelle</th><td>À renseigner : calme / tension /
+        crise</td></tr>
+
+        <tr><th>Transformation persistante</th><td>À renseigner</td></tr>
+
+        <tr><th>Routes liées / état</th><td>À renseigner (R01–R08 ou
+        RX-*)</td></tr>
+
+        <tr><th>Situation si les PJ arrivent</th><td>À renseigner</td></tr>
+
+        <tr><th>Dernière évolution / séance</th><td>À renseigner</td></tr>
+
+        </tbody></table>
+
+        <p><strong>Rappel :</strong> une découverte validée sur un 20 naturel du
+        Guide peut créer un nouveau POI persistant, mais ne donne pas
+        automatiquement de bonus de voyage.</p>
+    _id: tcaV66usfuPqvZ7e
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792998433094
+      modifiedTime: 1792998433094
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!7wbroAZ9pYBi9RIO.tcaV66usfuPqvZ7e'
+  - name: 01 • À jouer maintenant
+    type: text
+    sort: 300000
+    text:
+      format: 1
+      content: >-
+        <h1>À jouer maintenant</h1><p><strong>POI :</strong> Z01-03 — Travaux /
+        approvisionnement d'excavation | <strong>Catégorie :</strong>
+        a_definir</p><p><em>Compléter les champs entre crochets. Cette fiche est
+        réservée au MJ. Elle n’impose pas de scène ni de jet
+        supplémentaire.</em></p><p><strong>Fonction issue de l’inventaire
+        :</strong> Logistique de l’excavation ; emplacement opérationnel non
+        fixé.</p><p><em>Placeholder de conception : garder « localisation non
+        fixée » jusqu’à établissement en jeu.</em></p><h2>Carte minute — 30
+        secondes</h2><table><tbody><tr><th>Pourquoi venir
+        ?</th><td>[Information, contact, ressource, passage ou
+        menace]</td></tr><tr><th>Qu’arrive-t-il maintenant ?</th><td>[Une
+        situation visible qui évolue]</td></tr><tr><th>Tension
+        centrale</th><td>[Deux intérêts en opposition]</td></tr><tr><th>Décision
+        à prendre</th><td>[Choix ouvert ; aucune solution
+        imposée]</td></tr><tr><th>Bénéfice durable possible</th><td>[Route,
+        contact, information, ressource, changement]</td></tr><tr><th>Si les PJ
+        n’interviennent pas</th><td>[Une évolution cohérente et
+        limitée]</td></tr></tbody></table><h2>Première impression — à
+        raconter</h2><blockquote><p>[2–4 phrases : image forte, détail
+        sensoriel, signe d’activité. Pas de secrets
+        MJ.]</p></blockquote><h2>Points d’interaction (2 ou 3 maximum)</h2><p>1.
+        [Élément concret] → [action possible]</p><p>2. [Élément concret] →
+        [action possible]</p><p>3. [Facultatif] → [action
+        possible]</p><h2>Acteurs présents — intentions et
+        leviers</h2><p><em>Faction(s) susceptibles d’y agir, à confirmer : ne
+        pas conclure par défaut à leur
+        implantation.</em></p><table><tbody><tr><th>Acteur A</th><td>[Qui ? Veut
+        quoi ? Peut offrir quoi ? Refuse quoi ?]</td></tr><tr><th>Acteur
+        B</th><td>[Qui ? Veut quoi ? Peut offrir quoi ? Refuse quoi
+        ?]</td></tr></tbody></table><h2>Trois façons possibles de jouer (aucune
+        n’est obligatoire)</h2><p><strong>Parler / négocier :</strong> [demande,
+        concession, prix].</p><p><strong>Observer / enquêter :</strong> [signe,
+        témoin, objet].</p><p><strong>Agir / explorer :</strong> [obstacle,
+        responsabilité, choix].</p><p><strong>Question au MJ :</strong> Quelle
+        scène ou quel indice permettrait de rendre ce site réel et localisé
+        ?</p>
+    flags:
+      world:
+        warboundPoiTemplateKey: jeu
+        warboundPoiTemplateVersion: '1.0'
+    _id: EOROBa6cDPaRA7FZ
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792998433094
+      modifiedTime: 1792998433094
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!7wbroAZ9pYBi9RIO.EOROBa6cDPaRA7FZ'
+  - name: 03 • Accès et voyage
+    type: text
+    sort: 500000
+    text:
+      format: 1
+      content: >-
+        <h1>Accès, exploration et voyage Warbound V2</h1><p><strong>POI
+        :</strong> Z01-03 — Travaux / approvisionnement d'excavation |
+        <strong>Catégorie :</strong> a_definir</p><p><em>Compléter les champs
+        entre crochets. Cette fiche est réservée au MJ. Elle n’impose pas de
+        scène ni de jet supplémentaire.</em></p><p><strong>Attention spécifique
+        :</strong> Localisation et raccords routiers non fixés ; noter comment
+        les PJ pourront repérer ce site.</p><table><tbody><tr><th>Zone /
+        liaison</th><td>[Z01 ; route Rxx ou RX-xx à renseigner, si
+        existante]</td></tr><tr><th>Connaissance PJ</th><td>[inconnu / repéré /
+        connu / maîtrisé]</td></tr><tr><th>Accessibilité</th><td>[ouvert /
+        conditionnel / bloqué / caché ; condition]</td></tr><tr><th>Approches et
+        alternatives</th><td>[Départ, arrivée, choix de rapidité / sûreté /
+        discrétion]</td></tr><tr><th>Terrain par tronçon</th><td>[route / hors
+        piste ÷2 / difficile ÷2 / hors piste ET difficile
+        ÷4]</td></tr><tr><th>Distance / temps</th><td>[à calibrer — aucune
+        distance déduite du MMO]</td></tr><tr><th>Danger du
+        trajet</th><td>[catégorie COF2, DD, DM ; décidés avant jet selon
+        itinéraire effectif]</td></tr><tr><th>Eau / chasse /
+        pêche</th><td>[Ressources locales plausibles, accès, enjeu si
+        scène]</td></tr><tr><th>Bivouac</th><td>[Abri, sécurité, conditions de
+        récupération COF2]</td></tr><tr><th>Indices pour l’Éclaireur</th><td>[2
+        observations utiles]</td></tr><tr><th>Choix de préparation du
+        Guide</th><td>[exploration / endurance / bivouac /
+        ravitaillement]</td></tr></tbody></table><h2>Quand lancer les dés
+        ?</h2><p>Pas de jet supplémentaire pour entrer dans le POI ni à chaque
+        frontière. Pour une journée de voyage significative : <strong>Guide INT
+        (Survie) en premier</strong>, puis <strong>Éclaireur PER
+        (Survie)</strong> et <strong>Voyageurs CON (Survie)</strong>, un seul
+        test de progression par PJ. Résultat collectif, DR, événements et repos
+        : COF2.</p><p><strong>Préparation du Guide :</strong> le dé bonus ciblé
+        sur un test pertinent après réussite est un paramètre Warbound V2 <em>à
+        tester</em>, pas une nouvelle règle automatique de
+        déplacement.</p><h2>Critiques et découvertes</h2><p><strong>20 naturel
+        du Guide :</strong> le joueur propose et raconte une opportunité locale
+        plausible (piste, abri, eau, observation). Le MJ arbitre la cohérence et
+        enregistre la découverte durable (D-Zxx-nnn). Une découverte peut être
+        repérée mais non atteinte.</p><p><strong>1 naturel du Guide :</strong>
+        le MJ peut contextualiser l’échec par une complication ; pas de deuxième
+        rencontre ni malus systématique.</p><p><strong>Donjon :</strong> une
+        fois l’entrée atteinte, se référer à sa fiche d’exploration propre ; ne
+        pas confondre la DD du voyage et celle du donjon.</p><h2>Après la
+        scène</h2><p>Mettre à jour la page « Suivi MJ » déjà présente :
+        connaissance, accès, pression, transformation, évolution si les PJ
+        reviennent.</p>
+    flags:
+      world:
+        warboundPoiTemplateKey: voyage
+        warboundPoiTemplateVersion: '1.0'
+    _id: kYncCijEL4QrE1oZ
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792998433094
+      modifiedTime: 1792998433094
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!7wbroAZ9pYBi9RIO.kYncCijEL4QrE1oZ'
+  - name: 02 • Coulisses MJ
+    type: text
+    sort: 400000
+    text:
+      format: 1
+      content: >-
+        <h1>Coulisses MJ</h1><p><strong>POI :</strong> Z01-03 — Travaux /
+        approvisionnement d'excavation | <strong>Catégorie :</strong>
+        a_definir</p><p><em>Compléter les champs entre crochets. Cette fiche est
+        réservée au MJ. Elle n’impose pas de scène ni de jet
+        supplémentaire.</em></p><h2>Factions et vérité derrière la
+        scène</h2><table><tbody><tr><th>Implantation / autorité
+        locale</th><td>[Qui contrôle réellement cet endroit ? Si inconnu,
+        laisser ouvert.]</td></tr><tr><th>Présences / incursions</th><td>[Qui
+        circule ou menace sans contrôler le lieu ?]</td></tr><tr><th>Influence
+        clandestine</th><td>[Uniquement si établie par les documents / la
+        campagne]</td></tr><tr><th>Secret à ne pas révéler
+        immédiatement</th><td>[Une vérité MJ facultative]</td></tr><tr><th>Ce
+        qui reste à décider</th><td>[Coupable, emplacement, nom ou lien non
+        établi]</td></tr></tbody></table><h2>Indice : trois niveaux d’accès, pas
+        trois jets</h2><table><tbody><tr><th>Visible sans test</th><td>[Fait
+        observable dès l’arrivée]</td></tr><tr><th>En agissant /
+        parlant</th><td>[Fait obtenu par question, observation active,
+        aide]</td></tr><tr><th>En approfondissant / risquant quelque
+        chose</th><td>[Fait plus sensible ou plus précis]</td></tr><tr><th>Si un
+        test échoue</th><td>[Retard, coût ou complication ; éviter de
+        verrouiller le scénario]</td></tr></tbody></table><h2>Improviser si les
+        joueurs bifurquent — palette 1d6 facultative</h2><p><em>À utiliser pour
+        nourrir une scène existante. Aucun tirage supplémentaire systématique en
+        voyage.</em></p><table><thead><tr><th>1d6</th><th>Amorce à
+        adapter</th></tr></thead><tbody><tr><th>1</th><td>Une rumeur situe
+        approximativement le site</td></tr><tr><th>2</th><td>Un témoin indique
+        un accès possible</td></tr><tr><th>3</th><td>Une faction revendique une
+        position</td></tr><tr><th>4</th><td>Un vestige révèle une
+        activité</td></tr><tr><th>5</th><td>Les PJ découvrent un indice de
+        localisation</td></tr><tr><th>6</th><td>Une décision des PJ fixe la
+        position du site</td></tr></tbody></table><h2>Réaction des acteurs aux
+        décisions</h2><p><strong>Les PJ aident :</strong> [réaction /
+        récompense].</p><p><strong>Les PJ négocient :</strong> [limite /
+        condition].</p><p><strong>Les PJ menacent ou attaquent :</strong>
+        [réaction proportionnée].</p><p><strong>Les PJ repartent :</strong> [une
+        évolution locale si justifiée].</p><h2>Conséquences
+        persistantes</h2><table><tbody><tr><th>Si les PJ
+        interviennent</th><td>[Plusieurs suites plausibles, sans imposer
+        d’issue]</td></tr><tr><th>Si les PJ ignorent</th><td>[Prochaine
+        évolution si personne n’intervient]</td></tr><tr><th>Au prochain
+        retour</th><td>[Un effet des PJ et un changement du monde
+        maximum]</td></tr><tr><th>Gain exploitable</th><td>[Route, contact,
+        ressource, vérité, alliance, dette]</td></tr></tbody></table>
+    flags:
+      world:
+        warboundPoiTemplateKey: coulisses
+        warboundPoiTemplateVersion: '1.0'
+    _id: 1TFC5yoZvF1Ld8Z5
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792998433094
+      modifiedTime: 1792998433094
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!7wbroAZ9pYBi9RIO.1TFC5yoZvF1Ld8Z5'
+  - name: 04 • PNJ — Horga Taille-Fer
+    type: text
+    sort: 400000
+    ownership:
+      default: 0
+      TjbWhMczNyKieD8D: 3
+    text:
+      format: 1
+      content: |-
+        <h1>PNJ — Horga Taille-Fer</h1>
+            <p><strong>ID :</strong> PNJ-Z01-03-01 · <strong>POI :</strong> Z01-03 · <strong>Zone :</strong> Z01</p>
+            <p><strong>Origine / statut :</strong> Original Warbound</p>
+            <p><strong>Fonction :</strong> Contremaîtresse du chantier logistique · <strong>Faction / allégeance réelle (MJ) :</strong> Horde — travaux d’excavation</p>
+            <p><em>Fiche réservée au MJ. L'incarnation et les paroles sont proposées pour Warbound, pas des dialogues officiels du jeu.</em></p>
+            <h2>1. Carte minute — 15 secondes</h2><table><tbody>
+              <tr><th>Veut maintenant</th><td>Récupérer les pièces manquantes avant la relève.</td></tr><tr><th>Motivation profonde</th><td>Ses équipes dorment mal et risquent de travailler dans une galerie dangereuse.</td></tr><tr><th>Obstacle</th><td>Les ordres exigent de poursuivre sans le bon matériel.</td></tr>
+              <tr><th>Ligne rouge</th><td>Mettre ses ouvriers en danger pour satisfaire un supérieur.</td></tr><tr><th>Peut offrir</th><td>Description des pièces volées, plan d’approvisionnement, appui des ouvriers.</td></tr><tr><th>En échange</th><td>Promesse de protéger les travailleurs et de ne pas interrompre tout le chantier sans preuve.</td></tr>
+              <tr><th>Attitude initiale</th><td>Pressée, méfiante envers les donneurs de leçons.</td></tr><tr><th>S'il n'arrive rien</th><td>Reprend une excavation fragile sous pression hiérarchique.</td></tr>
+            </tbody></table>
+            <h2>2. Comment l'incarner</h2>
+            <p><strong>Premier regard :</strong> Avant-bras couverts de poussière, marteau de mesure usé.</p><p><strong>Voix et comportement :</strong> Va droit au problème ; retape une pièce quand elle s’inquiète.</p><p><strong>Signe émotionnel :</strong> Serre si fort la mâchoire qu’elle interrompt sa propre phrase.</p>
+            <blockquote><p><strong>Première réplique :</strong> « Une galerie ne tient pas debout avec des promesses. »</p></blockquote>
+            <p><strong>Question posée aux PJ :</strong> « Vous répareriez d’abord les galeries ou vous poursuivriez les voleurs ? »</p>
+            <h2>3. Informations et leviers (MJ)</h2><table><tbody>
+              <tr><th>Spontané, sans jet</th><td>Des pièces de soutènement, et non des vivres, manquent en priorité.</td></tr><tr><th>Après échange, aide ou observation</th><td>Donne la liste exacte des cargaisons compromises et le nom de Rogha.</td></tr>
+              <tr><th>Secret / croyance / ignorance</th><td>Elle ignore qui bénéficie réellement de l’avancement des travaux.</td></tr><tr><th>Il demande</th><td>Promesse de protéger les travailleurs et de ne pas interrompre tout le chantier sans preuve.</td></tr>
+              <tr><th>Il peut proposer</th><td>Description des pièces volées, plan d’approvisionnement, appui des ouvriers.</td></tr><tr><th>Ne franchira pas sa ligne rouge</th><td>Mettre ses ouvriers en danger pour satisfaire un supérieur.</td></tr>
+            </tbody></table>
+            <p><em>Un indice essentiel ne dépend jamais d'un seul jet obligatoire. Aucun test de voyage supplémentaire pour lui parler.</em></p>
+            <h2>4. Réactions aux choix des PJ</h2><table><tbody>
+              <tr><th>S'ils l'aident</th><td>Suspend un poste dangereux ; montre aux PJ l’organisation du chantier.</td></tr><tr><th>S'ils négocient</th><td>Consent à un retard mesuré contre un remplacement réaliste.</td></tr>
+              <tr><th>S'ils le menacent ou s'opposent</th><td>Fait escorter les PJ hors de la zone de travail.</td></tr><tr><th>S'ils l'ignorent</th><td>Reprend une excavation fragile sous pression hiérarchique.</td></tr>
+            </tbody></table>
+            <p><strong>Improviser :</strong> objectif + contrainte + ligne rouge.</p>
+            <h2>5. Relations, mobilité et présence</h2>
+            <p><strong>Attache :</strong> Z01-03. <strong>Relations / autres lieux :</strong> Lien logique vers Z03-05 et Rogha (Z01-01).</p>
+            <h2>6. Suivi après la séance</h2>
+            <p><strong>Conséquence possible :</strong> Z01-03 : amélioration de la sûreté ou aggravation du risque sous Orgrimmar.</p>
+            <p><strong>Statut / attitude envers les PJ :</strong> [à actualiser en jeu]</p>
+            <p><strong>Dette, engagement, prochain geste :</strong> [à actualiser en jeu]</p>
+            <p><strong>Répercussion sur le POI :</strong> à consigner dans « Suivi MJ ».</p>
+            <h2>7. COF2 et Warbound (facultatif)</h2>
+            <p><strong>Actor COF2 :</strong> non défini. <strong>Tests / POP :</strong> seulement si nécessaires, à déterminer selon la scène.</p>
+            <p><em>Ne pas accorder un succès de guide PNJ COF2 automatiquement. Aucun pouvoir de Guide PJ Warbound attribué ici.</em></p>
+    flags:
+      world:
+        warboundNpcId: PNJ-Z01-03-01
+        warboundNpcPoiId: Z01-03
+        warboundNpcSource: Warbound_Durotar_PNJ_par_POI_v1
+    _id: jhUZKs9LEaoMesSa
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792998433094
+      modifiedTime: 1792998433094
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!7wbroAZ9pYBi9RIO.jhUZKs9LEaoMesSa'
+  - name: 04 • PNJ — Dara Casse-Rivet
+    type: text
+    sort: 401000
+    ownership:
+      default: 0
+      TjbWhMczNyKieD8D: 3
+    text:
+      format: 1
+      content: |-
+        <h1>PNJ — Dara Casse-Rivet</h1>
+            <p><strong>ID :</strong> PNJ-Z01-03-02 · <strong>POI :</strong> Z01-03 · <strong>Zone :</strong> Z01</p>
+            <p><strong>Origine / statut :</strong> Original Warbound — affiliation secrète</p>
+            <p><strong>Fonction :</strong> Manutentionnaire chargée du tri des outils · <strong>Faction / allégeance réelle (MJ) :</strong> Cercle de la Pierre Brisée (clandestin) ; couverture ouvrière de la Horde</p>
+            <p><em>Fiche réservée au MJ. L'incarnation et les paroles sont proposées pour Warbound, pas des dialogues officiels du jeu.</em></p>
+            <h2>1. Carte minute — 15 secondes</h2><table><tbody>
+              <tr><th>Veut maintenant</th><td>Faire sortir sans blessé une caisse d’outils destinés au forage profond.</td></tr><tr><th>Motivation profonde</th><td>Elle croit qu’une catastrophe surviendra si les travaux continuent.</td></tr><tr><th>Obstacle</th><td>Elle n’a ni autorité pour arrêter le projet ni confiance dans les chefs.</td></tr>
+              <tr><th>Ligne rouge</th><td>Bousculer un ouvrier ou provoquer un effondrement pour couvrir son sabotage.</td></tr><tr><th>Peut offrir</th><td>Un avertissement cryptique, un rendez-vous discret, une preuve matérielle partielle.</td></tr><tr><th>En échange</th><td>Engagement de protéger les ouvriers avant toute accusation.</td></tr>
+              <tr><th>Attitude initiale</th><td>Réservée, se tient toujours près d’une sortie.</td></tr><tr><th>S'il n'arrive rien</th><td>Le Cercle déplace son prochain sabotage loin de ce dépôt.</td></tr>
+            </tbody></table>
+            <h2>2. Comment l'incarner</h2>
+            <p><strong>Premier regard :</strong> Petit anneau de cuivre rongé par l’acide, gants de travail reprisés.</p><p><strong>Voix et comportement :</strong> Chuchote en cas de foule ; vérifie les issues.</p><p><strong>Signe émotionnel :</strong> Cherche les issues du regard si l’on parle de sabotage.</p>
+            <blockquote><p><strong>Première réplique :</strong> « Les outils ne tombent pas toujours en panne tout seuls. »</p></blockquote>
+            <p><strong>Question posée aux PJ :</strong> « Si des ordres mettent les nôtres en péril, obéissez-vous ? »</p>
+            <h2>3. Informations et leviers (MJ)</h2><table><tbody>
+              <tr><th>Spontané, sans jet</th><td>Constate publiquement l’usure prématurée d’un lot.</td></tr><tr><th>Après échange, aide ou observation</th><td>Admet, si mise en confiance, qu’un autre groupe surveille les chantiers.</td></tr>
+              <tr><th>Secret / croyance / ignorance</th><td>MJ : membre du Cercle ; elle sait que les sabotages doivent rester non létaux, mais pas tous les plans du réseau.</td></tr><tr><th>Il demande</th><td>Engagement de protéger les ouvriers avant toute accusation.</td></tr>
+              <tr><th>Il peut proposer</th><td>Un avertissement cryptique, un rendez-vous discret, une preuve matérielle partielle.</td></tr><tr><th>Ne franchira pas sa ligne rouge</th><td>Bousculer un ouvrier ou provoquer un effondrement pour couvrir son sabotage.</td></tr>
+            </tbody></table>
+            <p><em>Un indice essentiel ne dépend jamais d'un seul jet obligatoire. Aucun test de voyage supplémentaire pour lui parler.</em></p>
+            <h2>4. Réactions aux choix des PJ</h2><table><tbody>
+              <tr><th>S'ils l'aident</th><td>Détourne une cargaison sans accident et laisse un indice aux PJ.</td></tr><tr><th>S'ils négocient</th><td>Accepte une rencontre hors chantier en échange de garanties.</td></tr>
+              <tr><th>S'ils le menacent ou s'opposent</th><td>Fuit et détruit ses notes plutôt que blesser un poursuivant.</td></tr><tr><th>S'ils l'ignorent</th><td>Le Cercle déplace son prochain sabotage loin de ce dépôt.</td></tr>
+            </tbody></table>
+            <p><strong>Improviser :</strong> objectif + contrainte + ligne rouge.</p>
+            <h2>5. Relations, mobilité et présence</h2>
+            <p><strong>Attache :</strong> Z01-03. <strong>Relations / autres lieux :</strong> Référence possible à Z03-05, sans établir un trajet secret fixe.</p>
+            <h2>6. Suivi après la séance</h2>
+            <p><strong>Conséquence possible :</strong> Z01-03 : chemin vers une autre interprétation des vols ; le secret est à gagner, pas révélé d’office.</p>
+            <p><strong>Statut / attitude envers les PJ :</strong> [à actualiser en jeu]</p>
+            <p><strong>Dette, engagement, prochain geste :</strong> [à actualiser en jeu]</p>
+            <p><strong>Répercussion sur le POI :</strong> à consigner dans « Suivi MJ ».</p>
+            <h2>7. COF2 et Warbound (facultatif)</h2>
+            <p><strong>Actor COF2 :</strong> non défini. <strong>Tests / POP :</strong> seulement si nécessaires, à déterminer selon la scène.</p>
+            <p><em>Ne pas accorder un succès de guide PNJ COF2 automatiquement. Aucun pouvoir de Guide PJ Warbound attribué ici.</em></p>
+    flags:
+      world:
+        warboundNpcId: PNJ-Z01-03-02
+        warboundNpcPoiId: Z01-03
+        warboundNpcSource: Warbound_Durotar_PNJ_par_POI_v1
+    _id: vxpUZWFwsBMPEDKO
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792998433094
+      modifiedTime: 1792998433094
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!7wbroAZ9pYBi9RIO.vxpUZWFwsBMPEDKO'
+_id: 7wbroAZ9pYBi9RIO
+categories: []
+sort: 0
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792998433094
+  modifiedTime: 1792998433094
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!7wbroAZ9pYBi9RIO'

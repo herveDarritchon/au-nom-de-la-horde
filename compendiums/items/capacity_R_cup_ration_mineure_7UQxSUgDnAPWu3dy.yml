@@ -1,0 +1,134 @@
+name: Récupération mineure
+type: capacity
+img: icons/magic/life/cross-worn-green.webp
+_id: 7UQxSUgDnAPWu3dy
+system:
+  description: >-
+    <p>Le prêtre peut apposer les mains sur un allié au contact (ou sur
+    lui‑même) pour le soigner. Le patient récupère [1d4°+CHA du prêtre] PV. Ce
+    sort peut être lancé une fois par jour par rang atteint dans la voie, plus
+    une fois supplémentaire chaque fois que le personnage atteint le rang 3 dans
+    une autre voie de prêtre. En plus de ce sort, le prêtre ajoute son rang + 2
+    à tous les tests de médecine et de premiers soins.</p>
+  inGame: >-
+    <p>Le joueur sélectionne sa cible puis clique sur l'action pour lancer le
+    sort qui va automatiquement appliquer les soins.</p>
+
+    <p>Remarque : Pour le nombre d'utilisation par jour, il est actuellement
+    reglé sur 1/jour, vous pouvez le modifier dans l'onglet "détails" en mettant
+    une valeur fixe.</p> <p>La deuxième action donne le bonus permanent au tests
+    de médecine et de premiers soins.</p>
+  source: COF2 — Livre des règles ; sélection Warbound v0.1
+  origin: Livre des règles p124
+  slug: recuperation-mineure
+  subtype: ''
+  actionType: a
+  learned: false
+  charges:
+    current: 1
+    max: 1
+  properties:
+    spell: true
+  path: null
+  actions:
+    - source: Item.7UQxSUgDnAPWu3dy
+      indice: 0
+      label: ''
+      chatFlavor: ''
+      img: icons/svg/d20-highlight.svg
+      type: heal
+      properties:
+        visible: false
+        enabled: false
+        activable: true
+        temporary: false
+        noManaCost: false
+        noChargesUsed: false
+      conditions:
+        - predicate: isLearned
+      resolvers:
+        - type: heal
+          bonusDiceAdd: false
+          malusDiceAdd: false
+          skill:
+            formula: 1d4° + @cha
+          target:
+            type: single
+            scope: all
+            number: '0'
+          additionalEffect:
+            active: false
+            applyOn: success
+            statuses: []
+            duration: '0'
+            unit: round
+          dmg: {}
+          halfDmgOnSave: true
+          hasAttackSuccessThreshold: false
+      modifiers: []
+      actionType: none
+    - source: Item.7UQxSUgDnAPWu3dy
+      indice: 1
+      label: ''
+      chatFlavor: ''
+      img: icons/svg/d20-highlight.svg
+      type: buff
+      properties:
+        visible: false
+        enabled: false
+        activable: false
+        temporary: false
+        noManaCost: false
+        noChargesUsed: false
+      conditions:
+        - predicate: isLearned
+      modifiers:
+        - type: capacity
+          source: Item.7UQxSUgDnAPWu3dy
+          subtype: skill
+          target: int
+          value: 2 + @rang
+          apply: self
+          additionalInfos: médecine/premiers soins
+          choiceGroup: 0
+      resolvers: []
+      actionType: none
+  cost: -1
+  rank: 1
+  frequency: daily
+  gmNotes: >-
+    [COF2 REPRIS] Texte et mécaniques conservés de la capacité officielle. Dans
+    Warbound, le personnage est un Paladin même si la description source dit «
+    prêtre » ou « chevalier ». Si la capacité fait référence à des voies du
+    Profil d’origine, le calcul inter-profils peut demander un arbitrage du MJ :
+    voir README.
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+flags:
+  world:
+    warbound:
+      class: paladin
+      version: '0.1'
+      key: ability_soins_1
+      sourceId: zeLgXfX7UWCejXZT
+      status: official-adapted
+      pathKey: soins
+folder: 0cUpYpbtOmxMnmek
+sort: 100000
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792998285265
+  modifiedTime: 1792998285265
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!7UQxSUgDnAPWu3dy'

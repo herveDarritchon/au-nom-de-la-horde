@@ -1,0 +1,92 @@
+name: Bouclier de la foi
+type: capacity
+img: icons/magic/defensive/shield-barrier-flaming-diamond-teal.webp
+_id: KbNVkiHJiSTy15NE
+system:
+  description: >-
+    <p style="text-align:justify">Le prêtre porte le symbole de sa foi sur son
+    bouclier, ce qui lui confère un bonus supplémentaire de +1 en DEF lorsqu’il
+    l’utilise. Ce bonus passe à +2 au rang 5. Comme pour l’arme bénie, le
+    symbole de la foi n’est d’aucune utilité si le bouclier est utilisé par
+    quelqu’un d’autre</p>
+  inGame: >-
+    <p>Il s'agit ici d'une amélioration activable/désactivable vu la nécessité
+    d'être équipé d'un bouclier.</p>
+  source: COF2 — Livre des règles ; sélection Warbound v0.1
+  origin: Livre des règles p123
+  slug: bouclier-de-la-foi
+  subtype: ''
+  actionType: none
+  learned: false
+  charges:
+    current: null
+    max: null
+  properties:
+    spell: false
+  path: null
+  actions:
+    - source: Item.KbNVkiHJiSTy15NE
+      indice: 0
+      label: avec un bouclier
+      chatFlavor: ''
+      img: icons/svg/d20-highlight.svg
+      type: buff
+      properties:
+        visible: false
+        enabled: false
+        activable: true
+        temporary: true
+        noManaCost: false
+        noChargesUsed: false
+      conditions:
+        - predicate: isLearned
+      modifiers:
+        - type: capacity
+          source: Item.KbNVkiHJiSTy15NE
+          subtype: combat
+          target: def
+          value: '@rang[1,1,1,1,2]'
+          apply: self
+          additionalInfos: ''
+          choiceGroup: 0
+      resolvers: []
+      actionType: none
+  cost: -1
+  rank: 2
+  gmNotes: >-
+    [COF2 REPRIS] Texte et mécaniques conservés de la capacité officielle. Dans
+    Warbound, le personnage est un Paladin même si la description source dit «
+    prêtre » ou « chevalier ». Si la capacité fait référence à des voies du
+    Profil d’origine, le calcul inter-profils peut demander un arbitrage du MJ :
+    voir README.
+  frequency: none
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+flags:
+  world:
+    warbound:
+      class: paladin
+      version: '0.1'
+      key: ability_guerre_sainte_2
+      sourceId: RXQqVm91IeP8j9Dh
+      status: official-adapted
+      pathKey: guerre_sainte
+folder: nOd7GseTGu571lwT
+sort: 200000
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792998285259
+  modifiedTime: 1792998285259
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!KbNVkiHJiSTy15NE'

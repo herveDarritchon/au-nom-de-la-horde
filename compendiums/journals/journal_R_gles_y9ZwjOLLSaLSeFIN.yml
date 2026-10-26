@@ -55,8 +55,8 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1792435076033
-      modifiedTime: 1792435076033
+      createdTime: 1792998372271
+      modifiedTime: 1792998372271
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -89,7 +89,46 @@ pages:
         création, choisissez également un Atout racial ou culturel parmi ceux
         proposés pour votre race. Il représente une tradition, un héritage ou
         une aptitude particulière de votre personnage et permet de différencier
-        deux héros issus d’un même peuple.</p><p class="p1"></p>
+        deux héros issus d’un même peuple.</p><hr><h2><span>les modificateurs de
+        caractéristiques des races de la Horde</span></h2><p><span>Pour adapter
+        les races de <em>World of Warcraft</em> à <strong>Warbound</strong>,
+        nous avons choisi de conserver le principe de <em>Chroniques Oubliées
+        Fantasy 2</em> : chaque race bénéficie d'un <strong>bonus de +1 et d'un
+        malus de −1</strong> à ses
+        caractéristiques.</span></p><p><span>L'objectif est de retrouver
+        l'identité de chaque peuple de la Horde tout en préservant l'équilibre
+        du système et la liberté de création des
+        personnages.</span></p><h3><span>Modificateurs raciaux
+        proposés</span></h3><table><tbody><tr><th><p><span>Race</span></p></th><th><p><span>Bonus
+        (+1)</span></p></th><th><p><span>Malus
+        (−1)</span></p></th></tr><tr><td><p><span><strong>Orcs</strong></span></p></td><td><p><span>FOR
+        ou CON</span></p></td><td><p><span>AGI ou
+        CHA</span></p></td></tr><tr><td><p><span><strong>Trolls
+        (Sombrelances)</strong></span></p></td><td><p><span>AGI ou
+        PER</span></p></td><td><p><span>FOR ou
+        CHA</span></p></td></tr><tr><td><p><span><strong>Réprouvés</strong></span></p></td><td><p><span>INT
+        ou
+        VOL</span></p></td><td><p><span>CON</span></p></td></tr><tr><td><p><span><strong>Elfes
+        de sang</strong></span></p></td><td><p><span>INT ou
+        CHA</span></p></td><td><p><span>CON</span></p></td></tr><tr><td><p><span><strong>Taurens</strong></span></p></td><td><p><span>FOR
+        ou
+        VOL</span></p></td><td><p><span>AGI</span></p></td></tr></tbody></table><p><span>Le
+        joueur choisit une caractéristique à augmenter et une à diminuer parmi
+        les possibilités de sa race.</span></p><p><span>Ces modificateurs
+        reflètent les aptitudes générales des peuples d'Azeroth, sans imposer de
+        stéréotypes. Un Orc peut être un excellent chaman, un Troll un
+        redoutable guerrier ou un Tauren un druide
+        accompli.</span></p><p><span>Les capacités raciales emblématiques de
+        WoW, comme la <strong>Fureur sanguinaire</strong> des Orcs, la
+        <strong>Régénération</strong> des Trolls ou le <strong>Choc
+        martial</strong> des Taurens, seront traitées
+        séparément.</span></p><p><span><em>Cette première proposition reste à
+        tester et à équilibrer avec les futures capacités raciales de Warbound.
+        Les Elfes de sang constituent par ailleurs une option narrative
+        exceptionnelle à l'époque de notre campagne, avant leur entrée
+        officielle dans la Horde.</em></span></p><p><span><strong>Référence
+        :</strong> Laurent Bernasconi, <em>Chroniques Oubliées Fantasy 2</em>,
+        Black Book Éditions, 2024, p. 26-28.</span></p>
     video:
       controls: true
       volume: 0.5
@@ -103,8 +142,8 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1792435076033
-      modifiedTime: 1792435076033
+      createdTime: 1792998372271
+      modifiedTime: 1792998372271
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -140,15 +179,15 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1792435076033
-      modifiedTime: 1792435076033
+      createdTime: 1792998372271
+      modifiedTime: 1792998372271
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!y9ZwjOLLSaLSeFIN.Z2XEtK3kdF1xAlx2'
   - sort: 400000
-    name: Les Attributs
+    name: Les Caractéristiques
     type: text
     _id: 0EJ0sb7HXqXAWsHL
     system: {}
@@ -159,27 +198,172 @@ pages:
     text:
       format: 1
       content: >-
-        <h3>Les Attributs</h3><p>Chaque personnage commence le jeu avec un d4
-        dans chaque <strong>Attribut</strong>. Vous disposez de 5 points à
-        répartir comme vous le souhaitez pour les augmenter. Améliorer l’un
-        d’entre eux d’un type de dé (par exemple, de d4 à d6) coûte 1 point avec
-        une limite : vous ne pouvez aller au-delà du d12.</p><p class="p1"><span
-        class="s1">▶ </span><span class="s2"><strong>Agilité :</strong>
-        </span>elle représente la souplesse, la rapidité et la dextérité de
-        votre héros.</p><p class="p1"><span class="s1">▶ </span><span
-        class="s2"><strong>Âme :</strong> </span>elle représente la sagesse
-        innée et sa volonté. L’Âme est particulièrement importante car il aide
-        votre héros à se ressaisir après une blessure.</p><p class="p1"><span
-        class="s1">▶ </span><span class="s2"><strong>Force :</strong>
-        </span>elle reflète la puissance et la condition physique générale. La
-        Force sert également à déterminer les dégâts de votre personnage en
-        combat de corps à corps.</p><p class="p1"><span class="s1">▶
-        </span><span class="s2"><strong>Intellect :</strong> </span>il reflète
-        la connaissance de votre héros sur son monde et sa culture, sa capacité
-        de réflexion et sa finesse d’esprit.</p><p class="p1"><span class="s1">▶
-        </span><span class="s2"><strong>Vigueur :</strong> </span>il représente
-        l’endurance, la résistance aux maladies, poisons ou toxines et le niveau
-        de douleur et de dégâts physiques que votre héros peut supporter.</p>
+        <div class="journal-page-cof-base"><h2>4 · Caractéristiques</h2><p
+        class="alinea">Le personnage est défini par sept caractéristiques
+        (quatre physiques, et trois mentales) que l’on associe à certains types
+        d’action. À la création, chaque caractéristique a une valeur comprise
+        entre -2 à +5 (voir ci-après).</p><h5>Les quatre caractéristiques
+        physiques</h5><ul><li><p>L’<span class="gras">Agilité (AGI)</span>
+        évalue la coordination générale, la vitesse, la souplesse, les réflexes
+        et la dextérité.</p></li></ul><p class="COF2--Texte--Puce--2e"><span
+        class="italique">Actions type :</span> faire des acrobaties, tenir en
+        équilibre, grimper, sauter, sprinter, se déplacer en silence, crocheter,
+        chaparder. Esquiver une attaque et attaquer à distance.</p><ul><li><p>La
+        <span class="gras">Constitution (CON)</span> représente la santé, la
+        vitalité, la résistance et l’endurance.</p></li></ul><p
+        class="COF2--Texte--Puce--2e"><span class="italique">Actions type
+        :</span> résister aux éléments, à la fatigue, aux poisons, aux
+        privations, courir longtemps. Encaisser des blessures.</p><ul><li><p>La
+        <span class="gras">Force (FOR)</span> mesure la puissance physique et
+        musculaire. Elle est directement reliée au gabarit.</p></li></ul><p
+        class="COF2--Texte--Puce--2e"><span class="italique">Actions type
+        :</span> gagner un bras de fer, soulever, tordre, lancer un objet lourd,
+        immobiliser un adversaire. Attaquer au contact et infliger des
+        blessures.</p><ul><li><p>La <span class="gras">Perception (PER)</span>
+        représente les cinq sens, mais aussi l’intuition et la capacité à
+        percevoir les émotions des autres. Elle permet d’analyser son
+        environnement rapidement et donc de réagir vite. La PER <span
+        class="italique">détermine</span> aussi l’ordre d’action en
+        combat.</p></li></ul><p class="COF2--Texte--Puce--2e
+        ParaOverride-14"><span class="italique">Actions type :</span> être
+        vigilant, observer, entendre, détecter, repérer, pister, deviner,
+        ressentir, faire preuve de psychologie et de spiritualité. Utiliser la
+        magie druidique.</p><h5>Les trois caractéristiques
+        mentales</h5><ul><li><p>Le <span class="gras">Charisme (CHA)</span>
+        traduit la force de persuasion, la personnalité, les capacités de
+        séduction, mais aussi la destinée du personnage. Les points de
+        chance<span class="italique"> découl</span>ent du CHA.</p></li></ul><p
+        class="COF2--Texte--Puce--2e"><span class="italique">Actions type
+        :</span> bluffer, mentir, négocier, séduire, intimider, convaincre.
+        Utiliser la magie innée ou divine (barde, ensorceleur,
+        prêtre).</p><ul><li><p>L’<span class="gras">Intelligence (INT)</span>
+        représente l’érudition générale, la mémoire, les capacités
+        d’apprentissage et de raisonnement. Un personnage avec une INT négative
+        ne sait ni lire, ni écrire.</p></li></ul><p
+        class="COF2--Texte--Puce--2e"><span class="italique">Actions type
+        :</span> raisonner, comprendre, connaître, apprendre, se souvenir,
+        chercher, trouver une information (livre). Utiliser la magie profane
+        (magicien, forgesort, sorcier).</p><ul><li><p>La <span
+        class="gras">Volonté (VOL) </span>correspond à la force de caractère, au
+        courage, ainsi qu’à l’énergie interne. Elle <span
+        class="italique">détermine l’attaque magique et les points de
+        mana</span>, et est donc primordiale pour les lanceurs de
+        sorts.</p></li></ul><p class="COF2--Texte--Puce--2e"><span
+        class="italique">Actions type : </span>résister à la magie ou à la
+        peur.</p><p></p><p class="alinea">Dans <span class="italique">Chroniques
+        Oubliées Fantasy</span>, contrairement à d’autres jeux de rôle, les
+        caractéristiques ne représentent pas seulement l’inné, mais aussi
+        l’acquis. Ainsi, elles représentent les compétences générales du
+        personnage tant que celui-ci n’a pas acquis un entraînement particulier
+        : courir et sauter (AGI), détecter et observer (PER) ou convaincre
+        (CHA), etc. En complément, un personnage peut acquérir des capacités
+        (voir le point 5,
+        @UUID[Compendium.cof2-base.cof-2-base-regles.JournalEntry.aZtrDhRNMzVtBp84.JournalEntryPage.2G4QQMTOFpqrpl7w#5-·-voies-et-capacites]{Voies
+        et capacités}, ci-après) qui correspondent à des compétences
+        spécialisées le distinguant du commun des mortels.</p><h3>Valeur de base
+        des caractéristiques</h3><p class="alinea">À la création d’un
+        personnage, commencez par choisir l’une des trois séries de valeurs
+        suivantes (polyvalent, expert, spécialiste) selon ce qui correspond le
+        mieux à l’image que vous vous faites du personnage. L’échelle des
+        valeurs de caractéristiques ci-dessous vous permet de vous faire une
+        idée de la valeur d’une caractéristique à travers des mots.</p><table
+        class="tableau"><tbody><tr class="tableau-titre"><td
+        colspan="2"><p>Échelle des valeurs de caractéristiques</p></td></tr><tr
+        class="tableau-entete"><td><p>Valeur</p></td><td><p>Description</p></td></tr><tr><td><p>-3</p></td><td><p>Catastrophique</p></td></tr><tr><td><p>-2</p></td><td><p>Très
+        faible</p></td></tr><tr><td><p>-1</p></td><td><p>Faible, sous la moyenne
+        pour un humain</p></td></tr><tr><td><p>0</p></td><td><p>Moyen pour un
+        humain</p></td></tr><tr><td><p>+1</p></td><td><p>Supérieur à la moyenne
+        pour un
+        humain</p></td></tr><tr><td><p>+2</p></td><td><p>Bon</p></td></tr><tr><td><p>+3</p></td><td><p>Très
+        bon</p></td></tr><tr><td><p>+4</p></td><td><p>Excellent, maximum pour un
+        humain à la
+        création</p></td></tr><tr><td><p>+5</p></td><td><p>Extraordinaire,
+        maximum pour un héros non humain à la
+        création</p></td></tr><tr><td><p></p></td><td><p></p></td></tr></tbody></table><p
+        class="alinea">Répartissez les sept valeurs de la série choisie dans les
+        différentes caractéristiques dans l’ordre que vous souhaitez.
+        Rappelez-vous toutefois que <span class="gras">chaque profil est associé
+        à trois caractéristiques</span> ; il est vivement conseillé de leur
+        affecter vos trois meilleures valeurs.</p><ul><li><p><span
+        class="gras">Polyvalent</span> +2, +2, +2, +1, +1, +0,
+        -1</p></li><li><p><span class="gras">Expert</span> +3, +2, +1, +1, +0,
+        +0, -1</p></li><li><p><span class="gras">Spécialiste </span>+4, +2, +1,
+        +0, +0, -1, -1</p></li></ul><p class="alinea">M<span
+        class="gras">agie.</span> Si vous voulez que votre personnage pratique
+        la magie, veillez à mettre au moins une valeur de +1 dans la
+        caractéristique de magie correspondante (INT pour les sorts de magicien,
+        de forgesort et de sorcier, CHA pour les sorts d’ensorceleur, de barde
+        et prêtre, PER pour les sorts de druide).</p><p class="exemple"><span
+        class="gras italique">Exemple :</span> <span class="italique">Salim
+        choisit la série de l’expert. Pour utiliser la magie, il doit
+        privilégier le charisme (CHA) et la volonté (VOL), il assigne donc au
+        CHA la valeur de +3. S’il veut lancer de nombreux sorts, il lui faut
+        aussi une bonne Volonté (VOL), il assigne +2 en VOL. Il assigne enfin +1
+        en AGI et +1 en CON, car on a toujours besoin d’un peu plus de vigueur
+        pour résister aux dangers de la vie de héros ! Pour le -1 il choisit la
+        FOR, car il ne compte pas combattre au cor</span>ps à
+        corps.</p><h3>Modificateur de peuple</h3><p class="alinea">Une fois les
+        valeurs de base des caractéristiques attribuées, il convient de les
+        ajuster en appliquant des modificateurs liés au peuple du personnage
+        (voir la table « Modificateur de peuple »). Dans certains cas, vous
+        aurez à choisir entre deux caractéristiques.</p><table
+        class="tableau"><tbody><tr class="tableau-titre"><td
+        colspan="2"><p>Modificateur de peuple</p></td></tr><tr
+        class="tableau-entete"><td><p>Peuple</p></td><td><p>Ajustement à la
+        valeur</p></td></tr><tr><td><p><span
+        class="gras">Demi-elfe</span></p></td><td><p>+1 PER ou CHA, -1 FOR ou
+        CON</p></td></tr><tr><td><p><span
+        class="gras">Demi-orc</span></p></td><td><p>+1 FOR ou CON, -1 CHA ou
+        INT</p></td></tr><tr><td><p><span class="gras">Elfe
+        haut</span></p></td><td><p>+1 INT ou CHA, -1
+        FOR</p></td></tr><tr><td><p><span class="gras">Elfe
+        sylvain</span></p></td><td><p>+1 AGI ou PER, -1
+        FOR</p></td></tr><tr><td><p><span
+        class="gras">Gnome</span></p></td><td><p>+1 INT ou PER, -1
+        FOR</p></td></tr><tr><td><p><span
+        class="gras">Halfelin</span></p></td><td><p>+1 AGI ou VOL, -1
+        FOR</p></td></tr><tr><td><p><span
+        class="gras">Humain</span></p></td><td><p>+1 à une des deux plus faibles
+        carac.</p></td></tr><tr><td><p><span
+        class="gras">Nain</span></p></td><td><p>+1 CON ou VOL, -1
+        AGI</p></td></tr></tbody></table><p class="exemple"><span
+        class="gras">Exemple :</span> Ionas perd 1 point en FOR (ce qui fait un
+        total de -2) ! Il choisit d’augmenter son CHA de +1, ce qui donne
+        finalement le profil suivant : AGI +1, CON +1, FOR -2, PER +0, CHA +4,
+        INT +0, VOL +2.</p><p class="exemple">Lhagva gagne +1 à une de ses deux
+        plus faibles caractéristiques au choix. Elle peut donc choisir de
+        compenser son malus de CHA ou gagner +1 dans une caractéristique pour le
+        moment à +0. Cela lui plaît d’avoir un défaut et de se comporter comme
+        un ours, elle décide donc de conserver son -1 en CHA et elle préfère
+        mettre +1 en PER afin d’être vigilante, car elle a grandi dans une
+        nature sauvage et dangereuse.</p><p class="exemple">Finalement, elle
+        obtient : AGI +1, CON +2, FOR +3, PER +1, CHA -1, INT +0, VOL
+        +1.</p><div class="encart"><h3>Méthode rapide pour les
+        débutants</h3><p>Si vous êtes débutant et que vous hésitez, nous vous
+        conseillons la méthode suivante, gage d’efficacité et de sécurité pour
+        obtenir un personnage cohérent.</p><p>Choisissez la série de valeurs du
+        personnage <span class="gras">expert</span> et assignez les trois plus
+        hautes valeurs aux trois caractéristiques importantes indiquées pour
+        votre profil au point 2, <span class="italique">« Profil »</span>.
+        Assignez ensuite le dernier +1 et le -1, selon l’idée que vous vous
+        faites de votre personnage. Les deux dernières caractéristiques
+        reçoivent la valeur 0.</p><p class="exemple"><span class="gras">Exemple
+        : </span>Lhagva est une barbare, les trois caractéristiques indiquées
+        sont [Force, Constitution, Agilité]. Cela donne : FOR +3, CON +2, AGI
+        +1. La joueuse de Lhagva décide de mettre le dernier +1 en VOL, car
+        Lhagva est courageuse ! Elle décide d’assigner -1 en CHA car Lhagva
+        n’est pas très causante.</p></div><div class="encart"><h3>L’équité est
+        différente de l’égalité</h3><p>Alors que la somme des valeurs d’un
+        personnage polyvalent atteint +7, vous remarquerez qu’elle baisse pour
+        les experts (+6) et les spécialistes (+5). La logique derrière cette
+        répartition est double : d’une part la spécialisation à haut niveau est
+        généralement très gourmande en ressource. D’autre part, du point de vue
+        des règles, une très haute valeur dans une spécialité est beaucoup plus
+        efficace que de multiples valeurs moyennes. Cette répartition a donc été
+        pensée pour équilibrer les différents types de personnages. Vous
+        trouverez des méthodes alternatives de répartition des valeurs des
+        caractéristiques dans <span class="italique">l’Atlas d'Osgild &amp;
+        règles optionnelles</span>.</p></div></div>
     video:
       controls: true
       volume: 0.5
@@ -193,63 +377,13 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1792435076033
-      modifiedTime: 1792435076033
+      createdTime: 1792998372271
+      modifiedTime: 1792998372271
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!y9ZwjOLLSaLSeFIN.0EJ0sb7HXqXAWsHL'
-  - sort: 500000
-    name: Les Compétences
-    type: text
-    _id: EO3O7eyHUZDXrgXr
-    system: {}
-    title:
-      show: false
-      level: 3
-    image: {}
-    text:
-      format: 1
-      content: >-
-        <h3>Les Compétences</h3><p class="p2">Les Compétences représentent les
-        aptitudes apprises comme le Tir, le Combat, les connaissances
-        professionnelles ou scientifiques et ainsi de suite. Elles sont
-        générales et englobent tous les aspects qui leur sont reliés.</p><p
-        class="p2">Par exemple Tir englobe les fusils, les arcs, les
-        lance-roquettes et toutes les armes à distance.</p><p class="p2">Vous
-        disposez de 15 points à répartir entre vos Compétences. Chaque dé de
-        Compétence coûte 1 point (en commençant à d4) tant qu’il est inférieur
-        ou égal à l’Attribut dont il dépend (noté entre parenthèses près du nom
-        de la Compétence). Chaque dé de Compétence supérieur à l’Attribut dont
-        il dépend coûte 2 points.</p><p>De même que pour les Attributs, aucune
-        Compétence ne peut dépasser d12.</p><blockquote><p><span
-        style="text-decoration:underline"><strong><span
-        style="text-decoration:underline">EXEMPLE</span></strong></span></p><p
-        class="p2">Combat dépend d’Agilité. Un personnage ayant d8 en Agilité
-        peut prendre Combat en ne dépensant qu’un point par type de dé jusqu’à
-        d8. Prendre un d10 coûtera 2 points et un d12 coûtera 2 points de
-        plus.</p></blockquote>
-    video:
-      controls: true
-      volume: 0.5
-    src: null
-    category: null
-    ownership:
-      default: -1
-      i2MQVvBnWjyhmgzX: 3
-    flags: {}
-    _stats:
-      coreVersion: '14.367'
-      systemId: co2
-      systemVersion: 2.3.12
-      createdTime: 1792435076033
-      modifiedTime: 1792435076033
-      lastModifiedBy: TjbWhMczNyKieD8D
-      compendiumSource: null
-      duplicateSource: null
-      exportSource: null
-    _key: '!journal.pages!y9ZwjOLLSaLSeFIN.EO3O7eyHUZDXrgXr'
   - sort: 600000
     name: Caractéristiques Dérivées
     type: text
@@ -301,8 +435,8 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1792435076033
-      modifiedTime: 1792435076033
+      createdTime: 1792998372271
+      modifiedTime: 1792998372271
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -345,8 +479,8 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1792435076033
-      modifiedTime: 1792435076033
+      createdTime: 1792998372271
+      modifiedTime: 1792998372271
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -425,8 +559,8 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1792435076033
-      modifiedTime: 1792435076033
+      createdTime: 1792998372271
+      modifiedTime: 1792998372271
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -536,8 +670,8 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1792435076033
-      modifiedTime: 1792435076033
+      createdTime: 1792998372271
+      modifiedTime: 1792998372271
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -623,8 +757,8 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1792435076033
-      modifiedTime: 1792435076033
+      createdTime: 1792998372271
+      modifiedTime: 1792998372271
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -697,8 +831,8 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1792435076033
-      modifiedTime: 1792435076033
+      createdTime: 1792998372271
+      modifiedTime: 1792998372271
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -767,8 +901,8 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1792435076033
-      modifiedTime: 1792435076033
+      createdTime: 1792998372271
+      modifiedTime: 1792998372271
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -833,8 +967,8 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1792435076033
-      modifiedTime: 1792435076033
+      createdTime: 1792998372271
+      modifiedTime: 1792998372271
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -881,8 +1015,8 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1792435076033
-      modifiedTime: 1792435076033
+      createdTime: 1792998372271
+      modifiedTime: 1792998372271
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -932,8 +1066,8 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1792435076033
-      modifiedTime: 1792435076033
+      createdTime: 1792998372271
+      modifiedTime: 1792998372271
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -994,8 +1128,8 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1792435076033
-      modifiedTime: 1792435076033
+      createdTime: 1792998372271
+      modifiedTime: 1792998372271
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -1049,8 +1183,8 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1792435076033
-      modifiedTime: 1792435076033
+      createdTime: 1792998372271
+      modifiedTime: 1792998372271
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -1108,8 +1242,8 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1792435076033
-      modifiedTime: 1792435076033
+      createdTime: 1792998372271
+      modifiedTime: 1792998372271
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -1338,8 +1472,8 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1792435076033
-      modifiedTime: 1792435076033
+      createdTime: 1792998372271
+      modifiedTime: 1792998372271
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -1354,8 +1488,8 @@ _stats:
   coreVersion: '14.367'
   systemId: co2
   systemVersion: 2.3.12
-  createdTime: 1792435076033
-  modifiedTime: 1792435076033
+  createdTime: 1792998372271
+  modifiedTime: 1792998372271
   lastModifiedBy: TjbWhMczNyKieD8D
   compendiumSource: Compendium.warbound-campaign-content.journals.JournalEntry.y9ZwjOLLSaLSeFIN
   duplicateSource: null

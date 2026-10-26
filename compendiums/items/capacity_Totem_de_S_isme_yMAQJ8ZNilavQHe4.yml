@@ -1,0 +1,89 @@
+name: Totem de Séisme
+type: capacity
+img: modules/warbound-campaign-content/assets/images/icons/capacites/classes/chaman/voie-des-totems/cof2-totem-de-seisme.png
+system:
+  description: >-
+    <p>Rang 3 — Totem de Séisme (M)*, 3 PM. Le Chaman pose un totem de Terre
+    près de lui. À la pose puis à la fin de ses deux prochains tours (trois
+    pulsations maximum), les alliés à 5 m sont libérés d’un effet de peur ou de
+    fuite imposée non permanent chacun. Si plusieurs effets de peur coexistent
+    sur une même cible, une pulsation n’en retire qu’un. Le totem disparaît
+    après la troisième pulsation, après 10 rounds au plus ou s’il est détruit.
+    Il ne dissipe pas les charmes, dominations mentales, paralysies ou autres
+    états non liés à la peur. Une invocation par récupération rapide. Ce
+    fonctionnement reprend le rôle anti-peur du totem WoW Classic, plutôt que de
+    transformer son nom en effet de renversement.</p>
+  source: Warbound — Chaman v0.3, 20 octobre 2026
+  origin: Warbound / Chaman
+  slug: chaman-voie-des-totems-totem-de-seisme
+  gmNotes: >-
+    <p>Voie : Voie des totems · rang 3. Actions et effets système NON configurés
+    : les deux modèles fournis sont vierges ; le schéma interne system.actions
+    CO2 2.3.12 n’est pas documenté dans les exemples. Consulter le dossier
+    README pour finaliser/tester cette automatisation.</p>
+  inGame: >-
+    M* — 3 PM. Le Chaman pose un totem de Terre près de lui. À la pose puis à la
+    fin de ses deux prochains tours (trois pulsations maximum), les alliés à 5 m
+    sont libérés d’un effet de peur ou de fuite imposée non permanent chacun. Si
+    plusieurs effets de peur coexistent sur une même cible, une pulsation n’en
+    retire qu’un. Le totem disparaît après la troisième pulsation, après 10
+    rounds au plus ou s’il est détruit. Il ne dissipe pas les charmes,
+    dominations mentales, paralysies ou autres états non liés à la peur. Une
+    invocation par récupération rapide. Ce fonctionnement reprend le rôle
+    anti-peur du totem WoW Classic, plutôt que de transformer son nom en effet
+    de renversement.
+  subtype: ''
+  actionType: none
+  learned: false
+  rank: 3
+  frequency: none
+  charges: {}
+  properties:
+    spell: true
+  path: null
+  cost: -1
+  manaCost: 3
+  actions: []
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  warbound:
+    version: '0.3'
+    category: profile
+    sourceWay: Voie des totems
+    rank: 3
+    mode: M
+    spellSource: true
+    basicTotemElement: null
+    requiresNativeActions: true
+    actionSpec:
+      mode: M
+      frequency: rapide
+      automationCandidate: 'totem: placement, aura ou déclenchements à gérer manuellement'
+      manaCost: 3
+      distancesMentionedMeters:
+        - 5
+      restoreAfter: récupération rapide (30 min)
+    status: contenu complet / automatisation native non testée
+    packId: warbound-chaman-v0.3
+    catalogId: Wb6650d54d7e19b5
+    importedByMacro: true
+folder: rp0FdYslS8BYeliv
+_id: yMAQJ8ZNilavQHe4
+sort: 400000
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792998285229
+  modifiedTime: 1792998285229
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!yMAQJ8ZNilavQHe4'

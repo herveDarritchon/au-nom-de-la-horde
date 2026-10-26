@@ -1,0 +1,77 @@
+name: Arme Croque-roc
+type: capacity
+img: modules/warbound-campaign-content/assets/images/icons/capacites/classes/chaman/voie-des-armes-elementaires/cof2-arme-croque-roc.png
+system:
+  description: >-
+    <p>Rang 1 — Arme Croque-roc (M)*, 1 PM. Enchanter une arme de contact tenue
+    par le Chaman pendant 10 rounds. Elle devient magique contre les résistances
+    et inflige +1 DM physique sur la première attaque de contact réussie à
+    chaque round. Le bonus n’est pas cumulable avec une autre imprégnation
+    d’arme de cette voie ; lancer un nouveau sort d’imprégnation met fin au
+    précédent.</p>
+  source: Warbound — Chaman v0.3, 20 octobre 2026
+  origin: Warbound / Chaman
+  slug: chaman-voie-des-armes-elementaires-arme-croque-roc
+  gmNotes: >-
+    <p>Voie : Voie des armes élémentaires · rang 1. Actions et effets système
+    NON configurés : les deux modèles fournis sont vierges ; le schéma interne
+    system.actions CO2 2.3.12 n’est pas documenté dans les exemples. Consulter
+    le dossier README pour finaliser/tester cette automatisation.</p>
+  inGame: >-
+    M* — 1 PM. Enchanter une arme de contact tenue par le Chaman pendant 10
+    rounds. Elle devient magique contre les résistances et inflige +1 DM
+    physique sur la première attaque de contact réussie à chaque round. Le bonus
+    n’est pas cumulable avec une autre imprégnation d’arme de cette voie ;
+    lancer un nouveau sort d’imprégnation met fin au précédent.
+  subtype: ''
+  actionType: none
+  learned: false
+  rank: 1
+  frequency: none
+  charges: {}
+  properties:
+    spell: true
+  path: null
+  cost: -1
+  manaCost: 1
+  actions: []
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  warbound:
+    version: '0.3'
+    category: profile
+    sourceWay: Voie des armes élémentaires
+    rank: 1
+    mode: M
+    spellSource: true
+    basicTotemElement: null
+    requiresNativeActions: true
+    actionSpec:
+      mode: M
+      frequency: libre
+      automationCandidate: 'spécial: résolution narrative ou conditionnelle'
+      manaCost: 1
+    status: contenu complet / automatisation native non testée
+    packId: warbound-chaman-v0.3
+    catalogId: Wb3094106393d3a7
+    importedByMacro: true
+folder: GOzc9NFOZUVNYTS6
+_id: kAT2leeZWjfZgaeM
+sort: 100000
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792998285223
+  modifiedTime: 1792998285223
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!kAT2leeZWjfZgaeM'

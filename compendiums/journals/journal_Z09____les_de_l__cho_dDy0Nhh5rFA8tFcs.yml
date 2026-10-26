@@ -1,0 +1,565 @@
+name: Z09 — Îles de l'Écho
+flags:
+  campaign-codex:
+    type: ''
+  core:
+    sheetClass: ''
+  world:
+    warboundZoneId: Z09
+    warboundTerritoryAtlasVersion: '1.0'
+    warboundTravelRulesVersion: '2.0'
+    warboundJournalVersion: '1.0'
+    warboundAudience: MJ
+pages:
+  - _id: 6c20bdfafc657546
+    name: 00 · Vue d’ensemble
+    type: text
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Repères de zone —
+        Z09</h2><table><thead><tr><th>Champ</th><th>Information</th></tr></thead><tbody><tr><td>Nom</td><td>Îles
+        de l'Écho</td></tr><tr><td>Situation / limite</td><td>Archipel au large
+        du sud-est</td></tr><tr><td>Influence
+        structurante</td><td><strong>Zalazane</strong> ; revendication des
+        Sombrelances</td></tr><tr><td>Statut dans la
+        campagne</td><td>Extension</td></tr><tr><td>Danger COF2 de départ (à
+        confirmer)</td><td><strong>Sauvage DD 15</strong> sur les approches
+        insulaires ; secteurs rituels à qualifier
+        séparément</td></tr><tr><td>Distance et durée</td><td><strong>Non
+        calibrées</strong> : à renseigner par liaison /
+        tronçon.</td></tr></tbody></table><h3>Situation de
+        départ</h3><p>archipel au large du sud-est de Durotar, ancienne
+        implantation des Sombrelances devenue bastion de
+        <strong>Zalazane</strong>. <strong>Extension optionnelle</strong> du
+        pointcrawl, non trajet terrestre ordinaire. [PC]
+        [FAC]</p><blockquote><p><strong>Document réservé au MJ.</strong> Le
+        zonage, les DD et les incidents sont des propositions Warbound. Les
+        secrets des factions ne sont pas connus des PJ. La difficulté effective
+        est fixée <strong>par trajet avant le jet du Guide</strong>, pas
+        automatiquement pour toute la zone.</p></blockquote><h3>Mémo : comment
+        utiliser cette zone</h3><ol>
+
+        <li>Situer le trajet et les POI réellement connus.</li>
+
+        <li>Montrer les itinéraires plausibles et leurs compromis.</li>
+
+        <li>Choisir ellipse, scène ou journée de voyage Warbound V2.</li>
+
+        <li>En cas de journée jouée : Guide INT (Survie) d’abord, Éclaireur PER
+        (Survie) et Voyageurs CON (Survie) ensuite.</li>
+
+        <li>Appliquer le bilan COF2, puis mettre à jour les POI, routes et
+        factions concernés.</li>
+
+        </ol>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags:
+      world:
+        warboundZoneId: Z09
+        warboundPageType: '00'
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792998433201
+      modifiedTime: 1792998433201
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!dDy0Nhh5rFA8tFcs.6c20bdfafc657546'
+  - _id: 9d7bde8d134824f2
+    name: 01 · Géographie et POI
+    type: text
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Points d’intérêt — Z09</h2><p>Chaque POI possède un rattachement
+        territorial unique. Un accès ou un sentier local n’est pas
+        nécessairement un nœud du pointcrawl.</p><table><thead><tr><th>POI /
+        ID</th><th>Nature</th><th>Origine /
+        réserve</th></tr></thead><tbody><tr><td><code>Z09-01</code> Îles de
+        l'Écho</td><td>Extension</td><td>[PC]
+        [FAC]</td></tr><tr><td><code>Z09-02</code> Débarcadères /
+        criques</td><td>Sites à
+        définir</td><td>[PROP]</td></tr><tr><td><code>Z09-03</code> Présence
+        rituelle de Zalazane</td><td>Site à définir</td><td>[FAC] — emplacement
+        inconnu</td></tr></tbody></table><h3>Implantation et rôle des
+        lieux</h3><p><code>Z09-01</code> Îles de l'Écho
+        <strong>[extension]</strong> ; <code>Z09-02</code> éventuels sites de
+        débarquement <strong>[PROP, à choisir]</strong> ; <code>Z09-03</code>
+        présence / lieux rituels de Zalazane <strong>[FAC, localisation interne
+        non fixée]</strong>.</p><h3>Connaissance des PJ (à renseigner)</h3><ul>
+
+        <li><strong>Inconnu</strong> : ne pas présenter l’accès ou le lieu comme
+        une option.</li>
+
+        <li><strong>Repéré</strong> : rumeur, indication ou repère visible.</li>
+
+        <li><strong>Connu</strong> : visité ou documenté.</li>
+
+        <li><strong>Maîtrisé</strong> : habitudes, accès, contacts et risques
+        bien compris.</li>
+
+        </ul>
+
+        <blockquote><p><strong>À compléter en séance :</strong> pour chaque POI
+        utilisé, noter sa connaissance, son accessibilité réelle et son état
+        actuel. Ne pas divulguer le contenu des entrées secrètes aux
+        joueurs.</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 100000
+    ownership:
+      default: -1
+    flags:
+      world:
+        warboundZoneId: Z09
+        warboundPageType: '01'
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792998433201
+      modifiedTime: 1792998433201
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!dDy0Nhh5rFA8tFcs.9d7bde8d134824f2'
+  - _id: b4636649abc8aa91
+    name: 02 · Factions et secrets MJ
+    type: text
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Factions et influences — Z09</h2><p><strong>Zalazane et
+        partisans</strong>, certains soumis par magie ou par peur ;
+        <strong>Sombrelances</strong> envisagent une reconquête depuis Sen'jin.
+        La présence de partisans n'implique pas un consensus
+        politique.</p><h3>Matrice des influences du
+        référentiel</h3><table><thead><tr><th>Faction</th><th>Implantation /
+        contrôle pertinent</th><th>Incursions, clandestinité ou influence
+        indirecte</th><th>Effet sur les voyages (mise en
+        scène)</th></tr></thead><tbody><tr><td><strong>Zalazane</strong></td><td>Z09</td><td>Influence
+        secrète sur Kolkar Z08, effet indirect Z07</td><td>Soutien masqué,
+        indices d'une coopération intéressée (pas de contrôle des
+        Kolkar)</td></tr><tr><td><strong>Horde</strong></td><td>Z01, Z04, Z07
+        (Sombrelances), corridors de Z03 et Z10</td><td>Patrouilles / logistique
+        en Z05, Z06, Z08</td><td>Convois, relais, pistes entretenues, sécurité
+        variable</td></tr></tbody></table><blockquote><p><strong>Attention
+        :</strong> une infiltration, un sabotage ou une manipulation ne signifie
+        pas que la faction contrôle publiquement le territoire. Les relations
+        secrètes ne doivent pas être divulguées automatiquement. Une faction
+        hostile ne rend pas mécaniquement toute la région « en guerre
+        ».</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 200000
+    ownership:
+      default: -1
+    flags:
+      world:
+        warboundZoneId: Z09
+        warboundPageType: '02'
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792998433201
+      modifiedTime: 1792998433201
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!dDy0Nhh5rFA8tFcs.b4636649abc8aa91'
+  - _id: 3e8c07e23fdcb9b7
+    name: 03 · Voyage Warbound V2
+    type: text
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Voyager dans la zone — Z09</h2><h3>Classification et
+        contraintes</h3><p>sur terre, secteurs hostiles <strong>sauvages DD 15 /
+        2d4°</strong> à titre de départ ; forte zone rituelle éventuellement
+        <strong>dangereuse DD 20 / 3d4°</strong> <strong>uniquement après
+        qualification</strong>. <strong>Traversée maritime : aucune vitesse,
+        durée ni procédure de navigation validées</strong> par les documents de
+        voyage terrestres COF2 fournis. Ne pas appliquer abusivement les km de
+        marche à un bateau.</p><h3>Décisions du Guide — avant son
+        jet</h3><p>choisir comment et quand rejoindre l'archipel, en tenant
+        compte des savoirs et relais Sombrelances ; stratégie de
+        <strong>reconnaissance</strong> ou de <strong>bivouac</strong> après
+        débarquement. <strong>Un test maritime spécifique reste
+        ouvert</strong>.</p><h3>Ce que voit l’Éclaireur</h3><p>approches
+        accessibles, signes de surveillance, sentiers insulaires, comportement
+        étrange de trolls soumis.</p><h3>Repos, chasse, pêche et
+        ravitaillement</h3><p>pêche, eau et couvert possibles <strong>sans
+        quantité ni sûreté garanties</strong> ; un site découvert sur critique
+        n'est pas automatiquement immunisé contre les maléfices.</p><h3>Rappel
+        officiel COF2 / adaptation Warbound
+        V2</h3><table><thead><tr><th>Paramètre</th><th>Application</th></tr></thead><tbody><tr><td>Période
+        / journée</td><td>4 h par période ; 2 périodes pour une journée
+        ordinaire.</td></tr><tr><td>Hors piste / terrain
+        difficile</td><td>Distance <strong>÷2</strong> pour chacun,
+        <strong>÷4</strong> si cumul sur le même segment.</td></tr><tr><td>Choix
+        de la DD</td><td>Fixée <strong>avant</strong> le jet du Guide selon
+        l’itinéraire effectivement
+        emprunté.</td></tr><tr><td>Guide</td><td><strong>INT (Survie)</strong>
+        en premier ; annonce sa priorité (passage / endurance / bivouac /
+        ravitaillement).</td></tr><tr><td>Compagnons</td><td>Éclaireur :
+        <strong>PER (Survie)</strong> ; Voyageurs : <strong>CON
+        (Survie)</strong>. Un seul test de progression
+        chacun.</td></tr><tr><td>Préparation V2 <strong>à
+        tester</strong></td><td>Réussite du Guide : <strong>un dé bonus ciblé à
+        un test pertinent d’un compagnon</strong>, non à tout le
+        groupe.</td></tr><tr><td>Bilan collectif</td><td>COF2 : de −3 (arrêt +
+        événement majeur) à +3 (progression rapide + bivouac confortable) ;
+        saturation hors bornes provisoire.</td></tr><tr><td>Événement et
+        repos</td><td>Résolution COF2 ; pas de tirage additionnel systématique
+        par zone ou période.</td></tr><tr><td>Distances</td><td><strong>À
+        calibrer</strong> ; ne pas utiliser une vitesse maritime ou un
+        kilométrage
+        inventé.</td></tr></tbody></table><blockquote><p><strong>Question
+        ouverte :</strong> si une journée franchit plusieurs zones à DD
+        différentes, la DD pertinente reste à arbitrer. Ne pas effectuer
+        automatiquement un nouveau test au franchissement d’une
+        frontière.</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 300000
+    ownership:
+      default: -1
+    flags:
+      world:
+        warboundZoneId: Z09
+        warboundPageType: '03'
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792998433201
+      modifiedTime: 1792998433201
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!dDy0Nhh5rFA8tFcs.3e8c07e23fdcb9b7'
+  - _id: 61aed0c3ebb2d20c
+    name: 04 · Incidents et rencontres
+    type: text
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Incidents et rencontres — Z09</h2><h3>Exemples situés dans la fiche
+        de zone</h3><p>signe d'occupation récente, troll qui observe puis
+        s'éloigne. <strong>Majeur :</strong> groupe ensorcelé, piège d'approche
+        ou confrontation qui peut se résoudre par libération plutôt que
+        massacre.</p><h3>Palette d’événements
+        régionaux</h3><table><thead><tr><th>Zone</th><th>Mineur : observation,
+        tension, détour</th><th>Majeur : choix significatif ou confrontation
+        possible</th><th>Intention non hostile /
+        alternative</th></tr></thead><tbody><tr><td>Z09</td><td>Trace d'un
+        groupe soumis, guetteur</td><td>Rituel / confrontation sur une
+        arrivée</td><td>Libérer, distraire,
+        contourner</td></tr></tbody></table><h3>Application
+        COF2</h3><table><thead><tr><th>Bilan</th><th>Événement</th></tr></thead><tbody><tr><td>−3
+        ou moins (provisoire)</td><td>Arrêt + événement
+        majeur</td></tr><tr><td>−2</td><td>Ralentissement + événement
+        majeur</td></tr><tr><td>−1</td><td>Événement mineur</td></tr><tr><td>0
+        et plus</td><td>Aucun événement <strong>imposé par le bilan</strong> ;
+        suivre la table de progression
+        COF2.</td></tr></tbody></table><blockquote><p><strong>Ne pas tirer une
+        rencontre supplémentaire toutes les quatre heures.</strong> La palette
+        sert à choisir <strong>quel incident</strong> jouer lorsqu’il est
+        déclenché ou lorsqu’une scène prévue le justifie. Combat non obligatoire
+        ; calibrer les affrontements avec les POP COF2.</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 400000
+    ownership:
+      default: -1
+    flags:
+      world:
+        warboundZoneId: Z09
+        warboundPageType: '04'
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792998433201
+      modifiedTime: 1792998433201
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!dDy0Nhh5rFA8tFcs.61aed0c3ebb2d20c'
+  - _id: 42f5095967404b32
+    name: 05 · Critiques et découvertes
+    type: text
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Critiques et découvertes persistantes — Z09</h2><h3>Occasions
+        plausibles dans cette zone</h3><p>crique débarquable, abri végétal,
+        source discrète <strong>si cohérent</strong> ; pas de découverte qui
+        libère automatiquement l'ensemble des îles. <strong>1 naturel :</strong>
+        mauvais choix de débarquement ou d'exposition à un guetteur ; pas de
+        sanction nautique chiffrée improvisée.</p><h3>Réussite critique du Guide
+        : 20 naturel</h3><ol>
+
+        <li>Le joueur Guide raconte une <strong>opportunité concrète et
+        plausible</strong> liée à sa préparation : passage, halte, source, piste
+        ou information.</li>
+
+        <li>Le MJ valide la cohérence géographique et politique ; il ne remplace
+        pas arbitrairement l’idée du joueur.</li>
+
+        <li>La découverte existe durablement, même si le bilan collectif empêche
+        le groupe de l’atteindre immédiatement.</li>
+
+        <li>Ajouter le lieu au journal de territoire <code>D-Zxx-nnn</code>,
+        avec son accès et son statut.</li>
+
+        </ol>
+
+        <h3>Échec critique : 1 naturel</h3><p>Le MJ <strong>peut</strong>
+        illustrer l’erreur de préparation par une complication. Le résultat du
+        Guide est déjà <strong>−2</strong> au bilan collectif : <strong>pas de
+        nouveau dé malus ni d’événement majeur automatique</strong>. La
+        complication peut expliquer l’incident collectif plutôt que s’y
+        ajouter.</p>
+
+        <h3>Découverte : trame à
+        dupliquer</h3><table><thead><tr><th>Champ</th><th>À
+        renseigner</th></tr></thead><tbody><tr><td>ID</td><td><code>D-Z09-001</code>
+        (incrémenter)</td></tr><tr><td>Origine</td><td>PJ / séance / 20 naturel
+        ou autre</td></tr><tr><td>Lieu et description</td><td>Proposition du
+        joueur approuvée par le MJ</td></tr><tr><td>Zone
+        d’attache</td><td>Z09</td></tr><tr><td>Route associée</td><td>Rxx, RX-xx
+        ou aucune</td></tr><tr><td>Connaissance</td><td>Repéré / connu /
+        maîtrisé</td></tr><tr><td>Accessibilité</td><td>Ouvert / conditionnel /
+        bloqué / caché</td></tr><tr><td>Fonction</td><td>Halte / eau / chasse /
+        pêche / raccourci / information</td></tr><tr><td>Effet de
+        règle</td><td><strong>Aucun effet chiffré automatique</strong> ; définir
+        au cas par cas</td></tr><tr><td>Évolution</td><td>Nouvelle présence,
+        détérioration ou protection éventuelle</td></tr></tbody></table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 500000
+    ownership:
+      default: -1
+    flags:
+      world:
+        warboundZoneId: Z09
+        warboundPageType: '05'
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792998433201
+      modifiedTime: 1792998433201
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!dDy0Nhh5rFA8tFcs.42f5095967404b32'
+  - _id: 3dcbdd402a575145
+    name: 06 · Routes et accès
+    type: text
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Routes, accès et compromis — Z09</h2><p>Aucune liaison principale
+        R01–R08 n’a ici un terminus explicite ; utiliser les corridors
+        documentés dans le pointcrawl et les liaisons à créer
+        ci-dessous.</p><h3>Liaisons proposées non encore
+        validées</h3><table><thead><tr><th>Code provisoire</th><th>Connexion
+        logique</th><th>À régler avant
+        utilisation</th></tr></thead><tbody><tr><td><code>RX-03</code></td><td>Z07
+        Sen'jin ↔ <strong>Z09 Îles de l'Écho</strong></td><td><strong>Procédure
+        de traversée maritime</strong> (NON fournie par COF2 voyage
+        terrestre)</td></tr></tbody></table><h3>État actuel (à
+        compléter)</h3><table><thead><tr><th>Route</th><th>Connaissance des
+        PJ</th><th>Accès</th><th>État /
+        compromis</th></tr></thead><tbody><tr><td>RX-03</td><td>À
+        renseigner</td><td>À renseigner</td><td>À
+        renseigner</td></tr></tbody></table><blockquote><p><strong>Les huit
+        liaisons sont des choix qualitatifs, pas des distances.</strong> Les
+        trajets Rxx et RX-xx n’ont pas de durée ni de kilométrage validés. Ne
+        pas transformer une liaison cachée en chemin connu sans découverte en
+        jeu.</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 600000
+    ownership:
+      default: -1
+    flags:
+      world:
+        warboundZoneId: Z09
+        warboundPageType: '06'
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792998433201
+      modifiedTime: 1792998433201
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!dDy0Nhh5rFA8tFcs.3dcbdd402a575145'
+  - _id: e0e520e56c469023
+    name: 07 · Suivi du territoire (MJ)
+    type: text
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Suivi dynamique du territoire — Z09</h2><h3>Transformations et
+        évolutions possibles</h3><p>piste de libération des trolls, implantation
+        sûre, emprise de Zalazane affaiblie ou défense accrue ; impact indirect
+        sur les raids Kolkar.</p><h3>État de campagne — mise à jour
+        MJ</h3><table><thead><tr><th>Axe</th><th>État /
+        note</th></tr></thead><tbody><tr><td>Pression actuelle</td><td><strong>À
+        renseigner :</strong> calme / tension /
+        crise.</td></tr><tr><td>Transformation persistante</td><td><strong>À
+        renseigner :</strong> non / oui et une
+        phrase.</td></tr><tr><td>Influences visibles</td><td><strong>À
+        renseigner :</strong> ce que les PJ savent
+        réellement.</td></tr><tr><td>Routes ouvertes / perdues</td><td><strong>À
+        renseigner</strong> selon les liaisons
+        ci-dessus.</td></tr><tr><td>Dernière modification</td><td><strong>À
+        renseigner :</strong> séance et conséquence.</td></tr><tr><td>Si les PJ
+        arrivent maintenant</td><td><strong>À renseigner :</strong> une scène
+        d’ouverture située.</td></tr><tr><td>Si les PJ n’interviennent
+        pas</td><td><strong>À renseigner :</strong> une évolution logique, non
+        une sanction automatique.</td></tr></tbody></table><h3>Maintenance après
+        chaque séance</h3><ul>
+
+        <li>Noter uniquement les changements qui ont une cause
+        fictionnelle.</li>
+
+        <li>Mettre à jour un POI, une route ou une influence lorsqu’un choix ou
+        une action de faction le justifie.</li>
+
+        <li>Répercuter une découverte critique dans sa zone <strong>et</strong>
+        dans le registre des routes si nécessaire.</li>
+
+        <li>Montrer au plus deux évolutions marquantes lors d’un retour : une
+        due aux PJ et une due au monde.</li>
+
+        <li>Éviter de simuler toute la région après chaque séance.</li>
+
+        </ul>
+
+        <blockquote><p><strong>Côté joueur :</strong> ne révéler que les
+        informations repérées / connues. Ce journal contient les secrets de
+        campagne et est configuré non visible par défaut pour les
+        joueurs.</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 700000
+    ownership:
+      default: -1
+    flags:
+      world:
+        warboundZoneId: Z09
+        warboundPageType: '07'
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792998433201
+      modifiedTime: 1792998433201
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!dDy0Nhh5rFA8tFcs.e0e520e56c469023'
+folder: qcqUDluTsOg8OKA9
+categories: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_id: dDy0Nhh5rFA8tFcs
+sort: 100782
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792998433201
+  modifiedTime: 1792998433201
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!dDy0Nhh5rFA8tFcs'

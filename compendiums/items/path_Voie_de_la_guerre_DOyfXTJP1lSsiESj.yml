@@ -1,0 +1,52 @@
+name: Voie de la guerre
+type: path
+img: modules/cof2-base/assets/voies/chevalier_guerre.webp
+system:
+  description: >-
+    <p>Voie de base du Paladin Warbound, issue de la chevalier. Capacités
+    reprises de COF2.</p>
+  source: Warbound — Paladin v0.1 (19/09/2026)
+  origin: COF2 — chevalier
+  slug: voie-de-la-guerre
+  gmNotes: >-
+    Paladin Warbound v0.1 NON VALIDÉ. Les Voies de prestige sont des choix
+    alternatifs : une seule sur un même personnage. Ne pas appliquer les
+    limitations d’armure d’un profil Prêtre ; utiliser le Profil Paladin 5
+    PV/niveau, d10, armure de plaque.
+  subtype: profile
+  capacities:
+    - Item.dLX5IhZLrkaOKvBW
+    - Item.5S62wY61SOAr8hqv
+    - Item.iDwQHX8nQlKzOt8g
+    - Item.3pkLOFVESjOxNR7R
+    - Item.0nXZCaIfxVp2KptY
+  rank: 0
+  maxDefenseArmor: 0
+  pvByLevel: 0
+effects: []
+flags:
+  world:
+    warbound:
+      class: paladin
+      version: '0.1'
+      key: path_guerre
+      group: base
+      sourcePath: Voie de la guerre
+      status: playtest
+_id: DOyfXTJP1lSsiESj
+folder: JoDxcqKhfEVYVM3r
+sort: 100000
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792998338669
+  modifiedTime: 1792998338669
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!DOyfXTJP1lSsiESj'

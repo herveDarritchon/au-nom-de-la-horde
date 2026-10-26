@@ -1,0 +1,77 @@
+name: Bouclier de foudre
+type: capacity
+img: modules/warbound-campaign-content/assets/images/icons/capacites/classes/chaman/voie-des-armes-elementaires/cof2-bouclier-de-foudre.png
+system:
+  description: >-
+    <p>Rang 3 — Bouclier de foudre (M)*, 3 PM. Pendant 10 rounds, jusqu’à trois
+    fois, quand le Chaman subit une attaque de contact qui touche, l’attaquant
+    subit 1d4° DM d’électricité après la résolution de l’attaque, sans jet
+    supplémentaire. Au plus un déclenchement par round ; il perd une charge à
+    chaque déclenchement. Le sort cesse après la troisième décharge ou après 10
+    rounds.</p>
+  source: Warbound — Chaman v0.3, 20 octobre 2026
+  origin: Warbound / Chaman
+  slug: chaman-voie-des-armes-elementaires-bouclier-de-foudre
+  gmNotes: >-
+    <p>Voie : Voie des armes élémentaires · rang 3. Actions et effets système
+    NON configurés : les deux modèles fournis sont vierges ; le schéma interne
+    system.actions CO2 2.3.12 n’est pas documenté dans les exemples. Consulter
+    le dossier README pour finaliser/tester cette automatisation.</p>
+  inGame: >-
+    M* — 3 PM. Pendant 10 rounds, jusqu’à trois fois, quand le Chaman subit une
+    attaque de contact qui touche, l’attaquant subit 1d4° DM d’électricité après
+    la résolution de l’attaque, sans jet supplémentaire. Au plus un
+    déclenchement par round ; il perd une charge à chaque déclenchement. Le sort
+    cesse après la troisième décharge ou après 10 rounds.
+  subtype: ''
+  actionType: none
+  learned: false
+  rank: 3
+  frequency: none
+  charges: {}
+  properties:
+    spell: true
+  path: null
+  cost: -1
+  manaCost: 3
+  actions: []
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  warbound:
+    version: '0.3'
+    category: profile
+    sourceWay: Voie des armes élémentaires
+    rank: 3
+    mode: M
+    spellSource: true
+    basicTotemElement: null
+    requiresNativeActions: true
+    actionSpec:
+      mode: M
+      frequency: libre
+      automationCandidate: 'spécial: résolution narrative ou conditionnelle'
+      manaCost: 3
+    status: contenu complet / automatisation native non testée
+    packId: warbound-chaman-v0.3
+    catalogId: Wb82d509399021d2
+    importedByMacro: true
+folder: GOzc9NFOZUVNYTS6
+_id: zsL4ZLXVdVjVqx7Z
+sort: 125000
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792998285223
+  modifiedTime: 1792998285223
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!zsL4ZLXVdVjVqx7Z'

@@ -1,19 +1,25 @@
 # Optimisation des médias (`pnpm media:optimize`)
 
 Outils CLI qui inventorient les médias du module, réduisent leur poids
-(`PNG → WebP`, `OGG → OGG recalculé`) et migrent les références correspondantes.
+(`PNG → WebP`, `OGG → OGG recalculé`, `MP4/MOV → WebM`) et migrent les références correspondantes.
 
 | Commande | Rôle |
 |---|---|
 | `pnpm media:scan` | inventaire en lecture seule : fichiers, tailles, références |
 | `pnpm media:convert:images` | conversion `PNG → WebP` seule, avec table de conversion |
-| `pnpm media:optimize` | conversion, migration des références, recompilation des packs |
+| `pnpm media:optimize:audio` | optimisation audio OGG seule (dry-run par défaut) |
+| `pnpm media:optimize:audio:write` | optimisation audio OGG en mode écriture |
+| `pnpm media:optimize:video` | conversion `MP4/MOV → WebM` seule (dry-run par défaut) |
+| `pnpm media:optimize:video:write` | conversion `MP4/MOV → WebM` en mode écriture |
+| `pnpm media:migrate-refs` | migration des références `.png/.mp4/.mov` dans les sources |
+| `pnpm media:optimize` | orchestrateur : conversion + migration + recompilation des packs |
 
 ## Prérequis
 
-- **FFmpeg** disponible dans le `PATH` (avec un encodeur Opus : `libopus` de préférence).
+- **FFmpeg** et **FFprobe** disponibles dans le `PATH` (avec un encodeur Opus : `libopus` de préférence).
   ```bash
   ffmpeg -encoders | grep -i opus
+  ffprobe -version
   ```
 - **Node.js** ≥ 20 et **pnpm**.
 - `sharp` est installé automatiquement comme dépendance de développement (`pnpm install`).
@@ -151,7 +157,110 @@ Le manifeste est ce qui rend l'**idempotence au même profil** possible : sans l
 présent serait indéterminé (`SKIP_EXISTING`) et ne pourrait pas être réencodé en cas de changement
 de profil. Le manifeste n'est écrit qu'en mode `--write` ; en dry-run, il est seulement lu.
 
-## Utilisation
+## Optimisation audio (`pnpm media:optimize:audio`)
+
+Réencode les fichiers OGG/OGA au bitrate cible via FFmpeg. Le fichier original est remplacé
+in-place : aucun renommage d'extension, aucune référence à mettre à jour.
+
+```bash
+pnpm media:optimize:audio          # dry-run : liste les fichiers à traiter
+pnpm media:optimize:audio:write    # réencode en écriture
+```
+
+### Profils de bitrate
+
+| Répertoire | Profil | Bitrate |
+|---|---|---|
+| `assets/musics/ambient/` | `ambient` | 128 kbps |
+| `assets/musics/sfx/` | `sfx` | 96 kbps |
+| autres | `default` | 96 kbps |
+
+### Règles appliquées
+
+- l'encodeur Opus est préféré (`libopus`) avec repli sur Vorbis (`libvorbis`) ;
+- le fichier est réencodé vers `.tmp.ogg`, puis la durée et le codec sont validés
+  (tolérance ±2 %) avant de renommer sur l'original ;
+- **idempotence** : un fichier portant déjà la balise metadata `warbound-media-optimize:<bitrate>`
+  est ignoré (`SKIP_OPTIMIZED`) ; un fichier dont le bitrate mesuré est déjà inférieur ou égal
+  au bitrate cible est aussi ignoré.
+
+## Conversion des vidéos (`pnpm media:optimize:video`)
+
+Convertit les fichiers MP4/MOV en WebM via FFmpeg (codec VP9 en mode qualité constante).
+L'original **n'est pas supprimé** : les deux fichiers coexistent jusqu'à ce que les références
+soient migrées et les originaux supprimés manuellement si souhaité.
+
+```bash
+pnpm media:optimize:video          # dry-run : liste les vidéos à convertir
+pnpm media:optimize:video:write    # convertit en écriture
+```
+
+### Profils VP9
+
+| Répertoire | Profil | CRF | tileColumns | threads |
+|---|---|---|---|---|
+| `assets/videos/scenes/` | `scene` | 28 | 2 | 4 |
+| `assets/videos/tokens/` | `token` | 33 | 1 | 2 |
+| autres | `default` | 33 | — | — |
+
+Un CRF plus bas = meilleure qualité et fichier plus lourd. Le profil `scene` (CRF 28) cible
+les fonds de scène où la qualité visuelle est prioritaire ; le profil `token` (CRF 33)
+préfère la légèreté pour des animations de petite taille.
+
+### Règles appliquées
+
+- codec de sortie : `libvpx-vp9`, conteneur `.webm` ;
+- **idempotence** : un fichier WebM déjà porteur de la balise metadata
+  `warbound-media-optimize:vp9:<crf>` n'est pas réencodé ;
+- la durée de la vidéo de sortie est vérifiée (tolérance ±2 %) avant que le fichier
+  soit conservé ;
+- l'original `.mp4`/`.mov` n'est **jamais supprimé automatiquement** par cet outil.
+
+## Migration des références dans les compendiums (`pnpm media:migrate-refs`)
+
+Après conversion des images et des vidéos, les fichiers sources (YAML des compendiums, CSS,
+scripts JS, `module.json`) contiennent encore les anciens chemins `.png`, `.mp4` et `.mov`.
+`pnpm media:migrate-refs` les réécrit vers `.webp` et `.webm`.
+
+```bash
+pnpm media:migrate-refs              # dry-run : affiche les remplacements prévus sans écrire
+pnpm media:migrate-refs --write      # applique les remplacements, puis lance pnpm packs:audit
+```
+
+### Ce qui est mis à jour
+
+L'outil lit `conversion-table.json` (produit par `pnpm media:convert:images`) et ne réécrit
+que les chemins dont un équivalent converti existe. Les champs YAML concernés dans les
+acteurs, items, scènes, playlists et journaux :
+
+| Champ YAML | Objet Foundry |
+|---|---|
+| `img:` | portrait d'acteur, icône d'item |
+| `prototypeToken.texture.src:` | texture du token prototypeToken d'un acteur |
+| `background.src:` | image de fond d'une scène |
+| `texture.src:` | texture d'une tuile dans une scène |
+| `sounds[].path:` | piste audio dans une playlist |
+| HTML inline dans journaux | `<img src="...">` dans les pages de journaux |
+
+Les chemins en préfixe `modules/warbound-campaign-content/…`, les URLs relatives CSS
+(`url("../assets/…")`) et les templates littéraux JavaScript (`modules/${MODULE_ID}/assets/…`)
+sont tous pris en charge, y compris sous forme encodée (`%20`).
+
+Après un `--write`, `pnpm packs:audit` est lancé automatiquement pour vérifier qu'aucune
+référence cassée n'a été introduite. Si l'audit échoue, aucun pack n'est recompilé.
+
+### Mise à jour manuelle d'un nom de fichier
+
+Si tu renommes un asset manuellement (sans passer par la conversion), `conversion-table.json`
+ne contiendra pas cette correspondance. Procède ainsi :
+
+1. Renomme le fichier asset dans `assets/`.
+2. Lance `pnpm media:scan` pour vérifier les sources qui le référencent encore sous l'ancien nom.
+3. Modifie les YAML concernés à la main (ou via `sed`) pour remplacer l'ancien chemin.
+4. Lance `pnpm packs:audit` pour valider.
+5. Lance `pnpm build` pour recompiler les packs.
+
+## Utilisation — Orchestrateur (`pnpm media:optimize`)
 
 ```bash
 pnpm media:optimize                              # dry-run complet
@@ -171,9 +280,9 @@ Options :
 
 | Option | Effet |
 |---|---|
-| `--type images\|audio\|all` | limite les étapes au type de média demandé (`all` par défaut) |
+| `--type images\|audio\|video\|all` | limite les étapes au type de média demandé (`all` par défaut) |
 | `--quality <n>` | override global WebP entre 0 et 100 |
-| `--update-references` | migre les références PNG du module avec `conversion-table.json` |
+| `--update-references` | migre les références PNG/vidéo du module avec `conversion-table.json` |
 | `--clean` | prévisualise les suppressions, sans modifier les fichiers |
 | `--clean --confirm` | supprime les PNG validés, avec dépôt Git propre et audit réussi |
 | `--force-clean` | contourne le garde Git pour `--clean --confirm` |
@@ -195,21 +304,23 @@ Sans `--force-clean`, le dépôt Git doit être propre avant une suppression ré
 
 1. **Scan** — inventorie `assets/` (PNG, OGG, MP4/MOV) et analyse les fichiers sources
    (`compendiums/**`, `styles/**`, `scripts/**`, `src/**`, `examples/**`, `module.json`)
-   pour y repérer les références `.png`.
+   pour y repérer les références `.png`, `.mp4` et `.mov`.
 2. **Images** — convertit chaque PNG en WebP selon un profil de compression
    (interface, icône, token, portrait, illustration, carte). Si le WebP obtenu n'est pas
    plus léger que le PNG source, il n'est pas écrit et le PNG est conservé. Un WebP déjà
    optimisé au profil courant n'est pas réencodé ; un changement de profil ou de source
    déclenche un réencodage.
-3. **Références** — réécrit `.png` → `.webp` dans les sources. Les références préfixées
-   `modules/warbound-campaign-content/…`, relatives en CSS (`url("../assets/…")`) et en
-   template littéral JavaScript (`modules/${MODULE_ID}/assets/…`) sont prises en charge,
-   y compris sous forme encodée (`%20`).
+3. **Références** — réécrit `.png` → `.webp` et `.mp4`/`.mov` → `.webm` dans les sources. Les
+   références préfixées `modules/warbound-campaign-content/…`, relatives en CSS
+   (`url("../assets/…")`) et en template littéral JavaScript (`modules/${MODULE_ID}/assets/…`)
+   sont prises en charge, y compris sous forme encodée (`%20`).
 4. **Audio** — réencode les OGG au bitrate cible et pose une balise
-   `warbound-media-optimize:96k`. Un fichier déjà porteur de cette balise est ignoré.
-5. **Build** — avec `--write --update-references` ou `--write --clean`, relance `pnpm build`
+   `warbound-media-optimize:<bitrate>`. Un fichier déjà porteur de cette balise est ignoré.
+5. **Vidéo** — convertit les MP4/MOV en WebM VP9 au profil CRF adapté au répertoire.
+   Un WebM déjà porteur de la balise `warbound-media-optimize:vp9:<crf>` est ignoré.
+6. **Build** — avec `--write --update-references` ou `--write --clean`, relance `pnpm build`
    (audit + compilation des packs).
-6. **Nettoyage** — supprime les PNG devenus inutiles, uniquement si le build est vert
+7. **Nettoyage** — supprime les PNG devenus inutiles, uniquement si le build est vert
    **et** qu'aucune source ne les référence encore.
 
 ## Idempotence
@@ -278,9 +389,11 @@ Les réglages vivent dans `tools/media.config.mjs` :
 | `WEBP_EFFORT_RANGE` | bornes acceptées pour l'effort (`0` à `6`) |
 | `FOUNDRY_THUMBNAIL_PATTERN` | vignettes de scènes Foundry, exclues de la conversion |
 | `MEDIA_REF_EXTENSIONS` | extensions cherchées dans les sources lors du scan |
-| `AUDIO_CONFIG.bitrate` | bitrate cible Opus (`96k` par défaut) |
+| `AUDIO_PROFILES` | profils de bitrate audio par répertoire (`128k` ambient, `96k` sfx/défaut) |
+| `AUDIO_CONFIG.bitrate` | bitrate cible Opus par défaut (`96k`) |
 | `AUDIO_CONFIG.encoderCandidates` | ordre de préférence des encodeurs FFmpeg |
-| `VIDEO_CONFIG` | stub (MP4/MOV → WebM non implémenté) |
+| `VIDEO_PROFILES` | profils VP9 par répertoire : CRF, tileColumns, threads |
+| `VIDEO_CONFIG` | codec de sortie (`libvpx-vp9`), conteneur (`webm`), préfixe de balise idempotence, tolérance durée (2 %) |
 | `SOURCE_TARGETS` | globs des fichiers sources analysés |
 
 ## Ordre de grandeur (mesuré sur le dépôt au 21/10/2026)
@@ -296,7 +409,117 @@ les 164 icônes, encodées en `lossless` conformément à l'issue #128. Une icô
 en moyenne 1,4 Mo contre 0,3 Mo en `q90` avec perte : un encodage avec perte ramènerait
 le total du module à environ 530 Mo.
 
+## Workflow complet — optimiser un module non optimisé
+
+Voici le workflow pas-à-pas pour partir d'un module dont les assets sont bruts (PNG/MP4/OGG
+non optimisés) et arriver à un module entièrement optimisé avec tous les compendiums à jour.
+
+### Étape 1 — Inventaire (lecture seule)
+
+```bash
+pnpm media:scan
+```
+
+Inspecte le rapport JSON généré dans `reports/media-scan-*.json` : nombre de PNG, OGG, vidéos ;
+lesquels sont référencés dans les YAML ; lesquels sont orphelins. Aucun fichier n'est modifié.
+
+### Étape 2 — Conversion des images
+
+```bash
+# Projection : voir ce qui serait converti, sans écrire
+pnpm media:convert:images
+
+# Appliquer la conversion
+pnpm media:convert:images --write
+```
+
+Produit `conversion-table.json` et `conversion-manifest.json` à la racine du projet.
+Les PNG originaux sont conservés à ce stade.
+
+### Étape 3 — Migration des références YAML
+
+```bash
+# Voir les remplacements prévus (acteurs, items, scènes, playlists, journaux)
+pnpm media:migrate-refs
+
+# Appliquer (réécrit .png→.webp dans tous les YAML + sources, puis packs:audit)
+pnpm media:migrate-refs --write
+```
+
+Tous les champs `img:`, `prototypeToken.texture.src:`, `background.src:`, `texture.src:`,
+`sounds[].path:` et les `<img src="...">` dans les journaux sont mis à jour automatiquement.
+Un audit est lancé après l'écriture pour détecter toute référence cassée.
+
+### Étape 4 — Optimisation audio
+
+```bash
+# Projection
+pnpm media:optimize:audio
+
+# Appliquer
+pnpm media:optimize:audio:write
+```
+
+Les fichiers OGG sont réencodés en place (même nom, même extension). Aucune référence à
+mettre à jour.
+
+### Étape 5 — Conversion vidéo
+
+```bash
+# Projection
+pnpm media:optimize:video
+
+# Appliquer
+pnpm media:optimize:video:write
+```
+
+Les fichiers WebM sont créés à côté des originaux MP4/MOV. Si des vidéos sont référencées
+dans les YAML, relancer `pnpm media:migrate-refs --write` pour mettre à jour les chemins
+`.mp4`/`.mov` → `.webm`.
+
+### Étape 6 — Recompilation des packs
+
+```bash
+pnpm build
+```
+
+Lance l'audit des assets puis recompile les LevelDB dans `packs/`. Cette étape est
+automatique après `media:migrate-refs --write`, mais un `pnpm build` explicite est
+recommandé pour valider l'ensemble.
+
+### Étape 7 — Nettoyage des PNG d'origine (optionnel, irréversible)
+
+```bash
+# Lister les PNG supprimables (aucun fichier modifié)
+pnpm media:optimize --clean
+
+# Supprimer (nécessite un dépôt Git propre et un build vert)
+pnpm media:optimize --clean --confirm
+```
+
+Cinq gardes sont vérifiées avant toute suppression : état Git propre, absence de collision
+(deux PNG pointant vers le même WebP), validation Sharp du WebP, WebP plus léger que le PNG,
+aucune référence YAML restante.
+
+### Raccourci — tout enchaîner via l'orchestrateur
+
+Les étapes 2 à 6 peuvent être combinées en une seule commande :
+
+```bash
+pnpm media:optimize --write --update-references
+```
+
+Cela exécute scan → conversion images → migration des références → audio → build en séquence.
+La conversion vidéo peut être ajoutée avec `--type all` (déjà inclus par défaut).
+
 ## Précaution
 
-Le mode `--write` **supprime** les PNG d'origine. Avant de l'appliquer, travaille sur une
-branche dédiée et vérifie le diff. En cas de souci, restaure les fichiers avec Git.
+`--write` **ne supprime pas** les fichiers source (PNG, MP4, MOV). Ces fichiers restent
+présents jusqu'à ce que `--clean --confirm` soit explicitement utilisé (étape 7 ci-dessus).
+
+Avant `--clean --confirm`, travaille sur une branche dédiée et vérifie le diff Git.
+En cas de problème, restaure les fichiers supprimés avec :
+
+```bash
+git restore assets/
+```

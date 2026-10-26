@@ -1,0 +1,105 @@
+name: Mon armure est une arme
+type: capacity
+img: icons/equipment/shoulder/pauldron-spiked-bone.webp
+_id: 0nXZCaIfxVp2KptY
+system:
+  description: >-
+    <p style="text-align:justify">Une fois par combat, le chevalier peut donner
+    un coup avec son armure (gantelet, heaume, spallière, etc.) en action
+    gratuite. Il inflige automatiquement [1d4° + FOR] DM, et si la FOR de la
+    cible est inférieure à celle du chevalier, elle est (au choix du chevalier)
+    renversée ou étourdie pour 1 round ou recule de 3 m.</p>
+  inGame: >-
+    <p>La capacité propose une action qui va faire une attaque à réussite
+    automatique sur la cible. Il faudra un repos partielle à minima pour
+    réutiliser cette action.</p>
+  source: COF2 — Livre des règles ; sélection Warbound v0.1
+  origin: Livre des règles p85
+  slug: mon-armure-est-une-arme
+  subtype: ''
+  actionType: f
+  learned: false
+  charges:
+    current: 1
+    max: 1
+  properties:
+    spell: false
+  path: null
+  actions:
+    - source: Item.0nXZCaIfxVp2KptY
+      indice: 0
+      label: ''
+      chatFlavor: ''
+      type: melee
+      img: icons/svg/d20-highlight.svg
+      properties:
+        visible: false
+        enabled: false
+        activable: true
+        temporary: false
+        noManaCost: false
+        noChargesUsed: false
+      conditions:
+        - predicate: isLearned
+      resolvers:
+        - type: auto
+          bonusDiceAdd: false
+          malusDiceAdd: false
+          skill:
+            difficulty: '0'
+          dmg:
+            formula: 1d4° + @for
+          target:
+            type: single
+            scope: all
+            number: '0'
+          additionalEffect:
+            active: false
+            applyOn: success
+            successThreshold: null
+            statuses: []
+            duration: '0'
+            unit: round
+          halfDmgOnSave: true
+          hasAttackSuccessThreshold: false
+      modifiers: []
+      actionType: none
+  cost: -1
+  rank: 5
+  frequency: combat
+  gmNotes: >-
+    [COF2 REPRIS] Texte et mécaniques conservés de la capacité officielle. Dans
+    Warbound, le personnage est un Paladin même si la description source dit «
+    prêtre » ou « chevalier ». Si la capacité fait référence à des voies du
+    Profil d’origine, le calcul inter-profils peut demander un arbitrage du MJ :
+    voir README.
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+flags:
+  world:
+    warbound:
+      class: paladin
+      version: '0.1'
+      key: ability_guerre_5
+      sourceId: LNy16B7c5VnsmHaf
+      status: official-adapted
+      pathKey: guerre
+folder: EvZ8nHmuVcrHHV6Q
+sort: 112500
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792998285258
+  modifiedTime: 1792998285258
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!0nXZCaIfxVp2KptY'

@@ -1,0 +1,20 @@
+type: Item
+folder: 9Nu7XsgCLD3Ilzvj
+name: Voies du Paladin
+color: null
+sorting: a
+_id: JoDxcqKhfEVYVM3r
+description: ''
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792998338628
+  modifiedTime: 1792998338628
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!JoDxcqKhfEVYVM3r'

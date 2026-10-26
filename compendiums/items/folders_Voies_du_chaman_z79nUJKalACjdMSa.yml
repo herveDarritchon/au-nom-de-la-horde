@@ -1,0 +1,20 @@
+type: Item
+folder: 9Nu7XsgCLD3Ilzvj
+name: Voies du chaman
+color: null
+sorting: a
+_id: z79nUJKalACjdMSa
+description: ''
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792998338628
+  modifiedTime: 1792998338628
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!z79nUJKalACjdMSa'

@@ -1,0 +1,52 @@
+name: Voie du meneur d’hommes
+type: path
+img: modules/cof2-base/assets/voies/chevalier_meneurhomme.webp
+system:
+  description: >-
+    <p>Voie de base du Paladin Warbound, issue de la chevalier. Capacités
+    reprises de COF2.</p>
+  source: Warbound — Paladin v0.1 (19/09/2026)
+  origin: COF2 — chevalier
+  slug: voie-du-meneur-dhommes
+  gmNotes: >-
+    Paladin Warbound v0.1 NON VALIDÉ. Les Voies de prestige sont des choix
+    alternatifs : une seule sur un même personnage. Ne pas appliquer les
+    limitations d’armure d’un profil Prêtre ; utiliser le Profil Paladin 5
+    PV/niveau, d10, armure de plaque.
+  subtype: profile
+  capacities:
+    - Item.uNMyeO3cyMGebIT2
+    - Item.9bShhfJWafVZOkPp
+    - Item.XJBkV5hI9cC2Cdz0
+    - Item.liQMnWunaPgMd8IA
+    - Item.PG9ckdDUq1RLEhD2
+  rank: 0
+  maxDefenseArmor: 0
+  pvByLevel: 0
+effects: []
+flags:
+  world:
+    warbound:
+      class: paladin
+      version: '0.1'
+      key: path_meneur
+      group: base
+      sourcePath: Voie du meneur d'homme
+      status: playtest
+_id: 9WFOzzwyr70j7iYQ
+folder: JoDxcqKhfEVYVM3r
+sort: 112500
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792998338670
+  modifiedTime: 1792998338670
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!9WFOzzwyr70j7iYQ'

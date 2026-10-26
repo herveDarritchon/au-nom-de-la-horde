@@ -1,0 +1,151 @@
+folder: wx7ARxIdFr961OIa
+name: Démoniste
+type: profile
+img: modules/warbound-campaign-content/assets/images/profils/cof2-profil-demoniste.png
+system:
+  description: >-
+    <p><span><strong>Points de vigueur :</strong> 3 par
+    niveau</span></p><p><span>Le démoniste est un lanceur de sorts qui puise son
+    pouvoir dans les énergies de l'Ombre et la magie gangrenée. Maître des
+    malédictions, des flammes infernales et de l'invocation démoniaque, il
+    manipule des forces que la plupart des mortels craignent ou condamnent.
+    Contrairement aux magiciens, qui cherchent à maîtriser les arcanes, les
+    démonistes n'hésitent pas à exploiter les âmes, à drainer l'énergie vitale
+    de leurs ennemis et à soumettre des démons à leur
+    volonté.</span></p><p><span>Leur réputation est sinistre, et souvent à juste
+    titre : la recherche de puissance a conduit nombre d'entre eux à la
+    corruption et à la servitude envers la Légion ardente. Pourtant, tous les
+    démonistes ne servent pas les démons qu'ils invoquent. Certains considèrent
+    au contraire que la meilleure façon de combattre les puissances infernales
+    consiste à retourner leurs propres armes contre elles. D'autres poursuivent
+    simplement un savoir interdit ou une puissance que les voies traditionnelles
+    de la magie ne peuvent leur offrir. Mais quelle que soit leur motivation,
+    <strong>jouer avec de telles forces n'est jamais sans
+    danger.</strong></span></p><h2><span>Sur Azeroth</span></h2><p><span>La
+    magie démoniaque a profondément marqué l'histoire d'Azeroth,
+    particulièrement celle des Orcs. Sous l'influence de Gul'dan et du Conseil
+    des ombres, les anciens chamans orcs furent détournés des esprits
+    élémentaires pour embrasser les arts gangrenés. Les démonistes contribuèrent
+    ainsi à l'asservissement de l'ancienne Horde par la Légion ardente et à la
+    corruption de leur propre peuple.</span></p><p><span>Aujourd'hui, la
+    nouvelle Horde de Thrall cherche à rompre avec cet héritage. Les traditions
+    chamaniques retrouvent leur place et la sorcellerie démoniaque demeure
+    profondément suspecte. Quelques démonistes continuent néanmoins de pratiquer
+    leurs arts, souvent dans la discrétion, parfois avec la tolérance méfiante
+    des autorités. Leur savoir peut se révéler précieux face aux démons et aux
+    cultes qui menacent encore la Horde, mais la frontière entre les combattre
+    et succomber à leurs promesses reste dangereusement
+    mince.</span></p><p><span>L'apprentissage de la démonologie exige des
+    connaissances interdites, acquises auprès d'un maître, dans d'anciens
+    grimoires ou au contact des démons eux-mêmes. Certains héritent des
+    enseignements de l'ancienne Horde ; d'autres découvrent ces pratiques par
+    ambition, nécessité ou désespoir. Un pacte démoniaque peut ouvrir la voie à
+    de grands pouvoirs, mais il n'est pas indispensable pour devenir
+    démoniste.</span></p><p><span>À travers Azeroth, ces praticiens sont
+    généralement craints et tenus à l'écart. Chez les Orcs, ils rappellent les
+    heures les plus sombres de leur histoire. Les chamans se méfient de leur
+    magie corruptrice, tandis que les adeptes de la Lumière voient dans leurs
+    pratiques une menace spirituelle. Pourtant, certains démonistes parviennent
+    à mettre leurs terribles pouvoirs au service d'une cause qu'ils estiment
+    juste.</span></p><h2><span>Armes &amp; armures</span></h2><p><span>Le
+    démoniste sait manier la dague et le bâton. Les voies de démoniste
+    interdisent de porter une armure ou d'utiliser un
+    bouclier.</span></p><h2><span>Équipement de départ</span></h2><p><span>Bâton
+    ferré (DM 1d6), dague (DM 1d4), grimoire de sorts ou parchemins anciens
+    contenant des formules démoniaques.</span></p>
+  source: ''
+  origin: ''
+  slug: sorcier
+  modifiers: []
+  proficiencies: []
+  paths:
+    - Item.ZJes2LBUZIdbW4Oi
+    - Item.M5y0VMu9M9pL8svj
+    - Item.amW9hY74riLd8uyU
+    - Item.oQmXyXl9SIo5b9iY
+    - Item.rJiPNYiBMkr6vvaz
+  martialTrainingsWeapons:
+    unarmed: true
+    staff: true
+    ironStaff: true
+    dagger: true
+    greatSword: false
+    bastardSword: false
+    shortSword: false
+    longSword: false
+    spear: false
+    flail: false
+    greatFlail: false
+    club: false
+    axe: false
+    greatAxe: false
+    lance: false
+    cavalryLance: false
+    hammer: false
+    mace: false
+    pike: false
+    rapier: false
+    stiletto: false
+    swiftblade: false
+    handCrossbow: false
+    lightCrossbow: false
+    heavyCrossbow: false
+    shortBow: false
+    longBow: false
+    throwingKnife: false
+    throwingDagger: false
+    sling: false
+    throwingAxe: false
+    javelin: false
+    throwingSpear: false
+    handCannon: false
+    musket: false
+    blowgun: false
+    bola: false
+    lash: false
+    rightSaber: false
+    shortSaber: false
+    tripleStaff: false
+    warLash: false
+    warPick: false
+  martialTrainingsArmors:
+    paddedClothFur: false
+    leather: false
+    studdedLeather: false
+    chainShirt: false
+    chainMail: false
+    plateArmor: false
+    fullPlate: false
+  martialTrainingsShields:
+    smallShield: false
+    largeShield: false
+  family: mage
+  equipment:
+    - Compendium.cof2-base.cof-2-base-items.Item.w1n2zzLplJJ4BFmt
+    - Compendium.cof2-base.cof-2-base-items.Item.bwFlCTHBg9Fqa0JI
+    - Compendium.cof2-base.cof-2-base-items.Item.wyk0YQrGFFbVaahx
+    - Compendium.cof2-base.cof-2-base-items.Item.gQxhYR1D6Ha05KjQ
+  gmNotes: ''
+  maxDefenseArmor: 0
+  mainProfile: false
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  co: {}
+  cof2-compagnon:
+    hpPerLevelOverride: null
+_stats:
+  compendiumSource: Compendium.cof2-base.cof-2-base-items.Item.sqMigyLoDsv3GDlk
+  duplicateSource: Item.KZkJTiT1cVhWhUEK
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792998332693
+  modifiedTime: 1792998332693
+  lastModifiedBy: TjbWhMczNyKieD8D
+  exportSource: null
+sort: 100000
+_id: XJuTJ4NKvZyEug4w
+_key: '!items!XJuTJ4NKvZyEug4w'

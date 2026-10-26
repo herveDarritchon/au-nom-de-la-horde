@@ -1,0 +1,574 @@
+name: Z02 — Rocher du crâne et Baie de Lamepoing
+flags:
+  campaign-codex:
+    type: ''
+  core:
+    sheetClass: ''
+  world:
+    warboundZoneId: Z02
+    warboundTerritoryAtlasVersion: '1.0'
+    warboundTravelRulesVersion: '2.0'
+    warboundJournalVersion: '1.0'
+    warboundAudience: MJ
+pages:
+  - _id: ff21ecb224d8a6f4
+    name: 00 · Vue d’ensemble
+    type: text
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Repères de zone —
+        Z02</h2><table><thead><tr><th>Champ</th><th>Information</th></tr></thead><tbody><tr><td>Nom</td><td>Rocher
+        du crâne et Baie de Lamepoing</td></tr><tr><td>Situation /
+        limite</td><td>Extrémité nord-est, au-delà des accès
+        surveillés</td></tr><tr><td>Influence structurante</td><td><strong>Lame
+        ardente</strong> dans son repaire ; Horde à proximité, sans contrôle du
+        repaire</td></tr><tr><td>Statut dans la campagne</td><td>[6]
+        cœur</td></tr><tr><td>Danger COF2 de départ (à
+        confirmer)</td><td><strong>Sauvage DD 15</strong> sur approches ; danger
+        local du donjon distinct</td></tr><tr><td>Distance et
+        durée</td><td><strong>Non calibrées</strong> : à renseigner par liaison
+        / tronçon.</td></tr></tbody></table><h3>Situation de
+        départ</h3><p>reliefs du nord-est et abords du repaire de la Lame
+        ardente ; accès à distinguer des portes d'Orgrimmar et du couloir
+        logistique des Falaises du Tonnerre. [PC] [FAC]
+        [CLASSIC]</p><blockquote><p><strong>Document réservé au MJ.</strong> Le
+        zonage, les DD et les incidents sont des propositions Warbound. Les
+        secrets des factions ne sont pas connus des PJ. La difficulté effective
+        est fixée <strong>par trajet avant le jet du Guide</strong>, pas
+        automatiquement pour toute la zone.</p></blockquote><h3>Mémo : comment
+        utiliser cette zone</h3><ol>
+
+        <li>Situer le trajet et les POI réellement connus.</li>
+
+        <li>Montrer les itinéraires plausibles et leurs compromis.</li>
+
+        <li>Choisir ellipse, scène ou journée de voyage Warbound V2.</li>
+
+        <li>En cas de journée jouée : Guide INT (Survie) d’abord, Éclaireur PER
+        (Survie) et Voyageurs CON (Survie) ensuite.</li>
+
+        <li>Appliquer le bilan COF2, puis mettre à jour les POI, routes et
+        factions concernés.</li>
+
+        </ol>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags:
+      world:
+        warboundZoneId: Z02
+        warboundPageType: '00'
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792998433203
+      modifiedTime: 1792998433203
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!fRX6qS9pQZrhqIXU.ff21ecb224d8a6f4'
+  - _id: 60487c7733e11833
+    name: 01 · Géographie et POI
+    type: text
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Points d’intérêt — Z02</h2><p>Chaque POI possède un rattachement
+        territorial unique. Un accès ou un sentier local n’est pas
+        nécessairement un nœud du pointcrawl.</p><table><thead><tr><th>POI /
+        ID</th><th>Nature</th><th>Origine /
+        réserve</th></tr></thead><tbody><tr><td><code>Z02-01</code> Rocher du
+        crâne</td><td><strong>Nœud [6]</strong>, donjon</td><td>[PC]
+        [FAC]</td></tr><tr><td><code>Z02-02</code> Baie de
+        Lamepoing</td><td>Littoral</td><td>[CLASSIC]</td></tr><tr><td><code>Z02-03</code>
+        Sentier de crête depuis Z03</td><td>Route
+        secrète</td><td>[PC]</td></tr><tr><td><code>Z02-04</code> Approche nord
+        visible</td><td>Route</td><td>[GUIDE]</td></tr></tbody></table><h3>Implantation
+        et rôle des lieux</h3><p><code>Z02-01</code> Rocher du crâne <strong>[6,
+        mini-donjon]</strong> ; <code>Z02-02</code> Baie de Lamepoing
+        <strong>[CLASSIC]</strong> ; <code>Z02-03</code> sentier des crêtes vers
+        Z03 <strong>[PC, caché]</strong> ; <code>Z02-04</code> approches nord
+        depuis l'axe d'Orgrimmar <strong>[PC /
+        GUIDE]</strong>.</p><h3>Connaissance des PJ (à renseigner)</h3><ul>
+
+        <li><strong>Inconnu</strong> : ne pas présenter l’accès ou le lieu comme
+        une option.</li>
+
+        <li><strong>Repéré</strong> : rumeur, indication ou repère visible.</li>
+
+        <li><strong>Connu</strong> : visité ou documenté.</li>
+
+        <li><strong>Maîtrisé</strong> : habitudes, accès, contacts et risques
+        bien compris.</li>
+
+        </ul>
+
+        <blockquote><p><strong>À compléter en séance :</strong> pour chaque POI
+        utilisé, noter sa connaissance, son accessibilité réelle et son état
+        actuel. Ne pas divulguer le contenu des entrées secrètes aux
+        joueurs.</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 100000
+    ownership:
+      default: -1
+    flags:
+      world:
+        warboundZoneId: Z02
+        warboundPageType: '01'
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792998433203
+      modifiedTime: 1792998433203
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!fRX6qS9pQZrhqIXU.60487c7733e11833'
+  - _id: 1e90bace0196b1ef
+    name: 02 · Factions et secrets MJ
+    type: text
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Factions et influences — Z02</h2><p><strong>Lame ardente</strong>
+        dans le Rocher du crâne (Gazz'uz), <strong>Horde</strong> sur certains
+        abords ou patrouilles éventuelles ; le <strong>Cercle</strong> peut
+        enquêter, mais aucune implantation dans ce secteur n'est établie par les
+        sources.</p><h3>Matrice des influences du
+        référentiel</h3><table><thead><tr><th>Faction</th><th>Implantation /
+        contrôle pertinent</th><th>Incursions, clandestinité ou influence
+        indirecte</th><th>Effet sur les voyages (mise en
+        scène)</th></tr></thead><tbody><tr><td><strong>Lame
+        ardente</strong></td><td>Repaire Z02</td><td>Agents infiltrés Z01 ;
+        manipulation des irréductibles Z06 ; activités ailleurs <strong>non
+        cartographiées précisément</strong></td><td>Indices discrets, fausses
+        pistes, informations partielles, tension
+        nourrie</td></tr><tr><td><strong>Horde</strong></td><td>Z01, Z04, Z07
+        (Sombrelances), corridors de Z03 et Z10</td><td>Patrouilles / logistique
+        en Z05, Z06, Z08</td><td>Convois, relais, pistes entretenues, sécurité
+        variable</td></tr></tbody></table><blockquote><p><strong>Attention
+        :</strong> une infiltration, un sabotage ou une manipulation ne signifie
+        pas que la faction contrôle publiquement le territoire. Les relations
+        secrètes ne doivent pas être divulguées automatiquement. Une faction
+        hostile ne rend pas mécaniquement toute la région « en guerre
+        ».</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 200000
+    ownership:
+      default: -1
+    flags:
+      world:
+        warboundZoneId: Z02
+        warboundPageType: '02'
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792998433203
+      modifiedTime: 1792998433203
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!fRX6qS9pQZrhqIXU.1e90bace0196b1ef'
+  - _id: 86f1cca68c0b8c68
+    name: 03 · Voyage Warbound V2
+    type: text
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Voyager dans la zone — Z02</h2><h3>Classification et
+        contraintes</h3><p>approches <strong>sauvages DD 15 / 2d4°</strong>
+        proposées hors voie surveillée ; falaise ou terrain réellement difficile
+        : <strong>÷2</strong> à la distance sur le segment concerné,
+        <strong>÷4</strong> s'il est aussi hors piste ; ne pas traiter
+        automatiquement la grotte entière comme une région « en guerre
+        ».</p><h3>Décisions du Guide — avant son jet</h3><p>choisir
+        <strong>approche visible</strong> depuis la voie nord ou <strong>sentier
+        discret</strong> depuis Z03 (si découvert) ; privilégier
+        <strong>exploration</strong> ou <strong>repos</strong>. Les options
+        réellement connues aux PJ limitent la proposition.</p><h3>Ce que voit
+        l’Éclaireur</h3><p>fumée, passages répétés, talus de surveillance, odeur
+        ou traces d'activités rituelles <strong>uniquement là où
+        observables</strong>.</p><h3>Repos, chasse, pêche et
+        ravitaillement</h3><p>criques ou surplombs envisageables <strong>sans
+        garantie d'eau ni de sûreté</strong> ; le donjon n'est pas un bivouac
+        confortable automatique.</p><h3>Rappel officiel COF2 / adaptation
+        Warbound
+        V2</h3><table><thead><tr><th>Paramètre</th><th>Application</th></tr></thead><tbody><tr><td>Période
+        / journée</td><td>4 h par période ; 2 périodes pour une journée
+        ordinaire.</td></tr><tr><td>Hors piste / terrain
+        difficile</td><td>Distance <strong>÷2</strong> pour chacun,
+        <strong>÷4</strong> si cumul sur le même segment.</td></tr><tr><td>Choix
+        de la DD</td><td>Fixée <strong>avant</strong> le jet du Guide selon
+        l’itinéraire effectivement
+        emprunté.</td></tr><tr><td>Guide</td><td><strong>INT (Survie)</strong>
+        en premier ; annonce sa priorité (passage / endurance / bivouac /
+        ravitaillement).</td></tr><tr><td>Compagnons</td><td>Éclaireur :
+        <strong>PER (Survie)</strong> ; Voyageurs : <strong>CON
+        (Survie)</strong>. Un seul test de progression
+        chacun.</td></tr><tr><td>Préparation V2 <strong>à
+        tester</strong></td><td>Réussite du Guide : <strong>un dé bonus ciblé à
+        un test pertinent d’un compagnon</strong>, non à tout le
+        groupe.</td></tr><tr><td>Bilan collectif</td><td>COF2 : de −3 (arrêt +
+        événement majeur) à +3 (progression rapide + bivouac confortable) ;
+        saturation hors bornes provisoire.</td></tr><tr><td>Événement et
+        repos</td><td>Résolution COF2 ; pas de tirage additionnel systématique
+        par zone ou période.</td></tr><tr><td>Distances</td><td><strong>À
+        calibrer</strong> ; ne pas utiliser une vitesse maritime ou un
+        kilométrage
+        inventé.</td></tr></tbody></table><blockquote><p><strong>Question
+        ouverte :</strong> si une journée franchit plusieurs zones à DD
+        différentes, la DD pertinente reste à arbitrer. Ne pas effectuer
+        automatiquement un nouveau test au franchissement d’une
+        frontière.</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 300000
+    ownership:
+      default: -1
+    flags:
+      world:
+        warboundZoneId: Z02
+        warboundPageType: '03'
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792998433203
+      modifiedTime: 1792998433203
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!fRX6qS9pQZrhqIXU.86f1cca68c0b8c68'
+  - _id: 5a4d9d4776258602
+    name: 04 · Incidents et rencontres
+    type: text
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Incidents et rencontres — Z02</h2><h3>Exemples situés dans la fiche
+        de zone</h3><p>traces de passage récentes, repère trompeur.
+        <strong>Majeur :</strong> reconnaissance cultiste ou traversée exposée
+        rendant un choix urgent. Les cultistes n'attaquent pas nécessairement en
+        terrain ouvert.</p><h3>Palette d’événements
+        régionaux</h3><table><thead><tr><th>Zone</th><th>Mineur : observation,
+        tension, détour</th><th>Majeur : choix significatif ou confrontation
+        possible</th><th>Intention non hostile /
+        alternative</th></tr></thead><tbody><tr><td>Z02</td><td>Traces
+        cultistes, sentier obstrué</td><td>Guet hostile / accès du repaire
+        compromis</td><td>Observer, retirer une patrouille sans
+        combat</td></tr></tbody></table><h3>Application
+        COF2</h3><table><thead><tr><th>Bilan</th><th>Événement</th></tr></thead><tbody><tr><td>−3
+        ou moins (provisoire)</td><td>Arrêt + événement
+        majeur</td></tr><tr><td>−2</td><td>Ralentissement + événement
+        majeur</td></tr><tr><td>−1</td><td>Événement mineur</td></tr><tr><td>0
+        et plus</td><td>Aucun événement <strong>imposé par le bilan</strong> ;
+        suivre la table de progression
+        COF2.</td></tr></tbody></table><blockquote><p><strong>Ne pas tirer une
+        rencontre supplémentaire toutes les quatre heures.</strong> La palette
+        sert à choisir <strong>quel incident</strong> jouer lorsqu’il est
+        déclenché ou lorsqu’une scène prévue le justifie. Combat non obligatoire
+        ; calibrer les affrontements avec les POP COF2.</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 400000
+    ownership:
+      default: -1
+    flags:
+      world:
+        warboundZoneId: Z02
+        warboundPageType: '04'
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792998433203
+      modifiedTime: 1792998433203
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!fRX6qS9pQZrhqIXU.5a4d9d4776258602'
+  - _id: c99cce3ba040dd07
+    name: 05 · Critiques et découvertes
+    type: text
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Critiques et découvertes persistantes — Z02</h2><h3>Occasions
+        plausibles dans cette zone</h3><p>grotte sèche secondaire, observation
+        des accès ou passe locale plausible ; <strong>pas de nouveau tunnel
+        miraculeux directement vers Ragefeu</strong>. <strong>1 naturel
+        :</strong> déboucher sous un angle surveillé ou être ralenti par le
+        relief.</p><h3>Réussite critique du Guide : 20 naturel</h3><ol>
+
+        <li>Le joueur Guide raconte une <strong>opportunité concrète et
+        plausible</strong> liée à sa préparation : passage, halte, source, piste
+        ou information.</li>
+
+        <li>Le MJ valide la cohérence géographique et politique ; il ne remplace
+        pas arbitrairement l’idée du joueur.</li>
+
+        <li>La découverte existe durablement, même si le bilan collectif empêche
+        le groupe de l’atteindre immédiatement.</li>
+
+        <li>Ajouter le lieu au journal de territoire <code>D-Zxx-nnn</code>,
+        avec son accès et son statut.</li>
+
+        </ol>
+
+        <h3>Échec critique : 1 naturel</h3><p>Le MJ <strong>peut</strong>
+        illustrer l’erreur de préparation par une complication. Le résultat du
+        Guide est déjà <strong>−2</strong> au bilan collectif : <strong>pas de
+        nouveau dé malus ni d’événement majeur automatique</strong>. La
+        complication peut expliquer l’incident collectif plutôt que s’y
+        ajouter.</p>
+
+        <h3>Découverte : trame à
+        dupliquer</h3><table><thead><tr><th>Champ</th><th>À
+        renseigner</th></tr></thead><tbody><tr><td>ID</td><td><code>D-Z02-001</code>
+        (incrémenter)</td></tr><tr><td>Origine</td><td>PJ / séance / 20 naturel
+        ou autre</td></tr><tr><td>Lieu et description</td><td>Proposition du
+        joueur approuvée par le MJ</td></tr><tr><td>Zone
+        d’attache</td><td>Z02</td></tr><tr><td>Route associée</td><td>Rxx, RX-xx
+        ou aucune</td></tr><tr><td>Connaissance</td><td>Repéré / connu /
+        maîtrisé</td></tr><tr><td>Accessibilité</td><td>Ouvert / conditionnel /
+        bloqué / caché</td></tr><tr><td>Fonction</td><td>Halte / eau / chasse /
+        pêche / raccourci / information</td></tr><tr><td>Effet de
+        règle</td><td><strong>Aucun effet chiffré automatique</strong> ; définir
+        au cas par cas</td></tr><tr><td>Évolution</td><td>Nouvelle présence,
+        détérioration ou protection éventuelle</td></tr></tbody></table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 500000
+    ownership:
+      default: -1
+    flags:
+      world:
+        warboundZoneId: Z02
+        warboundPageType: '05'
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792998433203
+      modifiedTime: 1792998433203
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!fRX6qS9pQZrhqIXU.c99cce3ba040dd07'
+  - _id: 0a1227415626434c
+    name: 06 · Routes et accès
+    type: text
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Routes, accès et compromis — Z02</h2><h3>Liaisons principales
+        R01–R08</h3><table><thead><tr><th>Route</th><th>Liaison / zones
+        d'arrivée</th><th>Tag et compromis établis</th><th>Terrain / danger **de
+        départ
+        proposé**</th><th>Statut</th></tr></thead><tbody><tr><td><strong>R05</strong></td><td>Falaises
+        du Tonnerre Z03 ↔ Rocher du crâne Z02</td><td><strong>Sentier des crêtes
+        caché</strong> ; étroit, faune, discrétion</td><td>Sur le
+        <strong>sentier découvert</strong> : ne pas appliquer « hors piste » par
+        défaut ; <strong>terrain difficile ÷2</strong> si le passage le
+        justifie, <strong>hors sentier ÷2</strong> ; sauvage <strong>DD
+        15</strong></td><td><strong>Caché</strong> jusqu'à
+        découverte</td></tr><tr><td><strong>R06</strong></td><td>Tranchecolline
+        Z04 ↔ Rocher du crâne Z02</td><td><strong>Voie nord rapide et
+        exposée</strong> ; circulation vers Orgrimmar</td><td>Voie connue
+        <strong>DD 10 frontalière</strong> sur portion sûre ; sauvage <strong>DD
+        15</strong> sur l'approche finale</td><td>Visible, non forcément
+        sûr</td></tr></tbody></table><h3>État actuel (à
+        compléter)</h3><table><thead><tr><th>Route</th><th>Connaissance des
+        PJ</th><th>Accès</th><th>État /
+        compromis</th></tr></thead><tbody><tr><td>R05</td><td>À
+        renseigner</td><td>À renseigner</td><td>À
+        renseigner</td></tr><tr><td>R06</td><td>À renseigner</td><td>À
+        renseigner</td><td>À
+        renseigner</td></tr></tbody></table><blockquote><p><strong>Les huit
+        liaisons sont des choix qualitatifs, pas des distances.</strong> Les
+        trajets Rxx et RX-xx n’ont pas de durée ni de kilométrage validés. Ne
+        pas transformer une liaison cachée en chemin connu sans découverte en
+        jeu.</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 600000
+    ownership:
+      default: -1
+    flags:
+      world:
+        warboundZoneId: Z02
+        warboundPageType: '06'
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792998433203
+      modifiedTime: 1792998433203
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!fRX6qS9pQZrhqIXU.0a1227415626434c'
+  - _id: e7d5f5e0233d96ca
+    name: 07 · Suivi du territoire (MJ)
+    type: text
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Suivi dynamique du territoire — Z02</h2><h3>Transformations et
+        évolutions possibles</h3><p>découvert / repéré / accès sécurisé, sentier
+        Z03–Z02 activable ; présence cultiste modulée selon les actions des
+        PJ.</p><h3>État de campagne — mise à jour
+        MJ</h3><table><thead><tr><th>Axe</th><th>État /
+        note</th></tr></thead><tbody><tr><td>Pression actuelle</td><td><strong>À
+        renseigner :</strong> calme / tension /
+        crise.</td></tr><tr><td>Transformation persistante</td><td><strong>À
+        renseigner :</strong> non / oui et une
+        phrase.</td></tr><tr><td>Influences visibles</td><td><strong>À
+        renseigner :</strong> ce que les PJ savent
+        réellement.</td></tr><tr><td>Routes ouvertes / perdues</td><td><strong>À
+        renseigner</strong> selon les liaisons
+        ci-dessus.</td></tr><tr><td>Dernière modification</td><td><strong>À
+        renseigner :</strong> séance et conséquence.</td></tr><tr><td>Si les PJ
+        arrivent maintenant</td><td><strong>À renseigner :</strong> une scène
+        d’ouverture située.</td></tr><tr><td>Si les PJ n’interviennent
+        pas</td><td><strong>À renseigner :</strong> une évolution logique, non
+        une sanction automatique.</td></tr></tbody></table><h3>Maintenance après
+        chaque séance</h3><ul>
+
+        <li>Noter uniquement les changements qui ont une cause
+        fictionnelle.</li>
+
+        <li>Mettre à jour un POI, une route ou une influence lorsqu’un choix ou
+        une action de faction le justifie.</li>
+
+        <li>Répercuter une découverte critique dans sa zone <strong>et</strong>
+        dans le registre des routes si nécessaire.</li>
+
+        <li>Montrer au plus deux évolutions marquantes lors d’un retour : une
+        due aux PJ et une due au monde.</li>
+
+        <li>Éviter de simuler toute la région après chaque séance.</li>
+
+        </ul>
+
+        <blockquote><p><strong>Côté joueur :</strong> ne révéler que les
+        informations repérées / connues. Ce journal contient les secrets de
+        campagne et est configuré non visible par défaut pour les
+        joueurs.</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 700000
+    ownership:
+      default: -1
+    flags:
+      world:
+        warboundZoneId: Z02
+        warboundPageType: '07'
+    category: null
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792998433203
+      modifiedTime: 1792998433203
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!fRX6qS9pQZrhqIXU.e7d5f5e0233d96ca'
+folder: qcqUDluTsOg8OKA9
+categories: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_id: fRX6qS9pQZrhqIXU
+sort: 200000
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792998433203
+  modifiedTime: 1792998433203
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!fRX6qS9pQZrhqIXU'

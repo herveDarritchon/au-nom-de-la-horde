@@ -1,0 +1,377 @@
+name: Z03-03 — Canyon de Tranchevent
+folder: LcxWR8RJ0opX7TAW
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  campaign-codex:
+    type: ''
+  world:
+    warboundPoiId: Z03-03
+    warboundZoneId: Z03
+pages:
+  - name: Présentation
+    type: text
+    sort: 100000
+    text:
+      format: 1
+      content: >-
+        <h1>Canyon de Tranchevent</h1>
+
+        <p><strong>Identifiant :</strong> Z03-03</p>
+
+        <p><strong>Zone géographique :</strong> Z03 — Falaises du Tonnerre,
+        Ravin Asséché et Canyon de Tranchevent</p>
+
+        <p><strong>Nature de l'entrée :</strong> Lieu / secteur — Relief</p>
+
+        <h2>Fonction dans la campagne</h2>
+
+        <p>Relief nommé de l’inventaire Classic.</p>
+
+        <h2>Contexte territorial — informations MJ</h2>
+
+        <p><strong>Statut de la zone :</strong> Nœud [5] du pointcrawl.</p>
+
+        <p><strong>Repère géographique :</strong> Reliefs du nord intérieur,
+        ravins, faune et circulation de matériaux.</p>
+
+        <p><strong>Factions et influences :</strong> Horde (axes logistiques) ;
+        Cercle de la Pierre Brisée et Lame ardente (activités clandestines
+        possibles, non contrôle).</p>
+
+        <p><strong>Références et réserves :</strong> [CLASSIC]</p>
+
+        <p><em>Les caches, carrières et parcours de convois sont des éléments
+        fonctionnels de campagne dont les positions exactes restent à
+        fixer.</em></p>
+
+        <hr>
+
+        <p><small>Source : Warbound — Durotar, découpage des POI par zone
+        géographique V1. Certaines entrées sont des accès ou des emplacements
+        encore à définir, et non des POI visitables indépendants.</small></p>
+    _id: spgzWXlsmh3WcLWd
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792998433115
+      modifiedTime: 1792998433115
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!JRYZXN038MNSDioR.spgzWXlsmh3WcLWd'
+  - name: Suivi MJ
+    type: text
+    sort: 200000
+    text:
+      format: 1
+      content: >-
+        <h1>Suivi MJ — Z03-03</h1>
+
+        <p><em>Fiche de suivi volontairement non renseignée : à compléter selon
+        la fiction et les séances.</em></p>
+
+        <table><tbody>
+
+        <tr><th>Connaissance des PJ</th><td>À renseigner : inconnu / repéré /
+        connu / maîtrisé</td></tr>
+
+        <tr><th>Accès</th><td>À renseigner : ouvert / conditionnel / bloqué /
+        caché</td></tr>
+
+        <tr><th>Pression actuelle</th><td>À renseigner : calme / tension /
+        crise</td></tr>
+
+        <tr><th>Transformation persistante</th><td>À renseigner</td></tr>
+
+        <tr><th>Routes liées / état</th><td>À renseigner (R01–R08 ou
+        RX-*)</td></tr>
+
+        <tr><th>Situation si les PJ arrivent</th><td>À renseigner</td></tr>
+
+        <tr><th>Dernière évolution / séance</th><td>À renseigner</td></tr>
+
+        </tbody></table>
+
+        <p><strong>Rappel :</strong> une découverte validée sur un 20 naturel du
+        Guide peut créer un nouveau POI persistant, mais ne donne pas
+        automatiquement de bonus de voyage.</p>
+    _id: kMPtFcrEfhDGraOW
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792998433115
+      modifiedTime: 1792998433115
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!JRYZXN038MNSDioR.kMPtFcrEfhDGraOW'
+  - name: 03 • Accès et voyage
+    type: text
+    sort: 500000
+    text:
+      format: 1
+      content: >-
+        <h1>Accès, exploration et voyage Warbound V2</h1><p><strong>POI
+        :</strong> Z03-03 — Canyon de Tranchevent | <strong>Catégorie :</strong>
+        lieu</p><p><em>Compléter les champs entre crochets. Cette fiche est
+        réservée au MJ. Elle n’impose pas de scène ni de jet
+        supplémentaire.</em></p><p><strong>Attention spécifique :</strong> Voies
+        menant à ce lieu, accès réellement ouverts et conditions pour en
+        repartir.</p><table><tbody><tr><th>Zone / liaison</th><td>[Z03 ; route
+        Rxx ou RX-xx à renseigner, si existante]</td></tr><tr><th>Connaissance
+        PJ</th><td>[inconnu / repéré / connu /
+        maîtrisé]</td></tr><tr><th>Accessibilité</th><td>[ouvert / conditionnel
+        / bloqué / caché ; condition]</td></tr><tr><th>Approches et
+        alternatives</th><td>[Départ, arrivée, choix de rapidité / sûreté /
+        discrétion]</td></tr><tr><th>Terrain par tronçon</th><td>[route / hors
+        piste ÷2 / difficile ÷2 / hors piste ET difficile
+        ÷4]</td></tr><tr><th>Distance / temps</th><td>[à calibrer — aucune
+        distance déduite du MMO]</td></tr><tr><th>Danger du
+        trajet</th><td>[catégorie COF2, DD, DM ; décidés avant jet selon
+        itinéraire effectif]</td></tr><tr><th>Eau / chasse /
+        pêche</th><td>[Ressources locales plausibles, accès, enjeu si
+        scène]</td></tr><tr><th>Bivouac</th><td>[Abri, sécurité, conditions de
+        récupération COF2]</td></tr><tr><th>Indices pour l’Éclaireur</th><td>[2
+        observations utiles]</td></tr><tr><th>Choix de préparation du
+        Guide</th><td>[exploration / endurance / bivouac /
+        ravitaillement]</td></tr></tbody></table><h2>Quand lancer les dés
+        ?</h2><p>Pas de jet supplémentaire pour entrer dans le POI ni à chaque
+        frontière. Pour une journée de voyage significative : <strong>Guide INT
+        (Survie) en premier</strong>, puis <strong>Éclaireur PER
+        (Survie)</strong> et <strong>Voyageurs CON (Survie)</strong>, un seul
+        test de progression par PJ. Résultat collectif, DR, événements et repos
+        : COF2.</p><p><strong>Préparation du Guide :</strong> le dé bonus ciblé
+        sur un test pertinent après réussite est un paramètre Warbound V2 <em>à
+        tester</em>, pas une nouvelle règle automatique de
+        déplacement.</p><h2>Critiques et découvertes</h2><p><strong>20 naturel
+        du Guide :</strong> le joueur propose et raconte une opportunité locale
+        plausible (piste, abri, eau, observation). Le MJ arbitre la cohérence et
+        enregistre la découverte durable (D-Zxx-nnn). Une découverte peut être
+        repérée mais non atteinte.</p><p><strong>1 naturel du Guide :</strong>
+        le MJ peut contextualiser l’échec par une complication ; pas de deuxième
+        rencontre ni malus systématique.</p><p><strong>Donjon :</strong> une
+        fois l’entrée atteinte, se référer à sa fiche d’exploration propre ; ne
+        pas confondre la DD du voyage et celle du donjon.</p><h2>Après la
+        scène</h2><p>Mettre à jour la page « Suivi MJ » déjà présente :
+        connaissance, accès, pression, transformation, évolution si les PJ
+        reviennent.</p>
+    flags:
+      world:
+        warboundPoiTemplateKey: voyage
+        warboundPoiTemplateVersion: '1.0'
+    _id: BhyJ42wmqFJWXIVk
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792998433115
+      modifiedTime: 1792998433115
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!JRYZXN038MNSDioR.BhyJ42wmqFJWXIVk'
+  - name: 02 • Coulisses MJ
+    type: text
+    sort: 400000
+    text:
+      format: 1
+      content: >-
+        <h1>Coulisses MJ</h1><p><strong>POI :</strong> Z03-03 — Canyon de
+        Tranchevent | <strong>Catégorie :</strong> lieu</p><p><em>Compléter les
+        champs entre crochets. Cette fiche est réservée au MJ. Elle n’impose pas
+        de scène ni de jet supplémentaire.</em></p><h2>Factions et vérité
+        derrière la scène</h2><table><tbody><tr><th>Implantation / autorité
+        locale</th><td>[Qui contrôle réellement cet endroit ? Si inconnu,
+        laisser ouvert.]</td></tr><tr><th>Présences / incursions</th><td>[Qui
+        circule ou menace sans contrôler le lieu ?]</td></tr><tr><th>Influence
+        clandestine</th><td>[Uniquement si établie par les documents / la
+        campagne]</td></tr><tr><th>Secret à ne pas révéler
+        immédiatement</th><td>[Une vérité MJ facultative]</td></tr><tr><th>Ce
+        qui reste à décider</th><td>[Coupable, emplacement, nom ou lien non
+        établi]</td></tr></tbody></table><h2>Indice : trois niveaux d’accès, pas
+        trois jets</h2><table><tbody><tr><th>Visible sans test</th><td>[Fait
+        observable dès l’arrivée]</td></tr><tr><th>En agissant /
+        parlant</th><td>[Fait obtenu par question, observation active,
+        aide]</td></tr><tr><th>En approfondissant / risquant quelque
+        chose</th><td>[Fait plus sensible ou plus précis]</td></tr><tr><th>Si un
+        test échoue</th><td>[Retard, coût ou complication ; éviter de
+        verrouiller le scénario]</td></tr></tbody></table><h2>Improviser si les
+        joueurs bifurquent — palette 1d6 facultative</h2><p><em>À utiliser pour
+        nourrir une scène existante. Aucun tirage supplémentaire systématique en
+        voyage.</em></p><table><thead><tr><th>1d6</th><th>Amorce à
+        adapter</th></tr></thead><tbody><tr><th>1</th><td>Un habitant ou
+        voyageur a besoin d’aide</td></tr><tr><th>2</th><td>Deux personnes
+        revendiquent une ressource</td></tr><tr><th>3</th><td>Un témoin
+        contredit une version des faits</td></tr><tr><th>4</th><td>La sécurité
+        d’un abri ou bâtiment change</td></tr><tr><th>5</th><td>Une piste ou un
+        objet inattendu est trouvé</td></tr><tr><th>6</th><td>Une décision
+        ancienne produit une conséquence</td></tr></tbody></table><h2>Réaction
+        des acteurs aux décisions</h2><p><strong>Les PJ aident :</strong>
+        [réaction / récompense].</p><p><strong>Les PJ négocient :</strong>
+        [limite / condition].</p><p><strong>Les PJ menacent ou attaquent
+        :</strong> [réaction proportionnée].</p><p><strong>Les PJ repartent
+        :</strong> [une évolution locale si justifiée].</p><h2>Conséquences
+        persistantes</h2><table><tbody><tr><th>Si les PJ
+        interviennent</th><td>[Plusieurs suites plausibles, sans imposer
+        d’issue]</td></tr><tr><th>Si les PJ ignorent</th><td>[Prochaine
+        évolution si personne n’intervient]</td></tr><tr><th>Au prochain
+        retour</th><td>[Un effet des PJ et un changement du monde
+        maximum]</td></tr><tr><th>Gain exploitable</th><td>[Route, contact,
+        ressource, vérité, alliance, dette]</td></tr></tbody></table>
+    flags:
+      world:
+        warboundPoiTemplateKey: coulisses
+        warboundPoiTemplateVersion: '1.0'
+    _id: IXg167Ohy7lRnQOa
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792998433115
+      modifiedTime: 1792998433115
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!JRYZXN038MNSDioR.IXg167Ohy7lRnQOa'
+  - name: 01 • À jouer maintenant
+    type: text
+    sort: 300000
+    text:
+      format: 1
+      content: >-
+        <h1>À jouer maintenant</h1><p><strong>POI :</strong> Z03-03 — Canyon de
+        Tranchevent | <strong>Catégorie :</strong> lieu</p><p><em>Compléter les
+        champs entre crochets. Cette fiche est réservée au MJ. Elle n’impose pas
+        de scène ni de jet supplémentaire.</em></p><p><strong>Fonction issue de
+        l’inventaire :</strong> Relief nommé de l’inventaire
+        Classic.</p><p><em>Décrire une scène, deux acteurs, un choix concret et
+        une conséquence.</em></p><h2>Carte minute — 30
+        secondes</h2><table><tbody><tr><th>Pourquoi venir
+        ?</th><td>[Information, contact, ressource, passage ou
+        menace]</td></tr><tr><th>Qu’arrive-t-il maintenant ?</th><td>[Une
+        situation visible qui évolue]</td></tr><tr><th>Tension
+        centrale</th><td>[Deux intérêts en opposition]</td></tr><tr><th>Décision
+        à prendre</th><td>[Choix ouvert ; aucune solution
+        imposée]</td></tr><tr><th>Bénéfice durable possible</th><td>[Route,
+        contact, information, ressource, changement]</td></tr><tr><th>Si les PJ
+        n’interviennent pas</th><td>[Une évolution cohérente et
+        limitée]</td></tr></tbody></table><h2>Première impression — à
+        raconter</h2><blockquote><p>[2–4 phrases : image forte, détail
+        sensoriel, signe d’activité. Pas de secrets
+        MJ.]</p></blockquote><h2>Points d’interaction (2 ou 3 maximum)</h2><p>1.
+        [Élément concret] → [action possible]</p><p>2. [Élément concret] →
+        [action possible]</p><p>3. [Facultatif] → [action
+        possible]</p><h2>Acteurs présents — intentions et leviers</h2><p><em>Des
+        personnes ou groupes présents sur le site ; leurs demandes, moyens et
+        limites.</em></p><table><tbody><tr><th>Acteur A</th><td>[Qui ? Veut quoi
+        ? Peut offrir quoi ? Refuse quoi ?]</td></tr><tr><th>Acteur
+        B</th><td>[Qui ? Veut quoi ? Peut offrir quoi ? Refuse quoi
+        ?]</td></tr></tbody></table><h2>Trois façons possibles de jouer (aucune
+        n’est obligatoire)</h2><p><strong>Parler / négocier :</strong> [demande,
+        concession, prix].</p><p><strong>Observer / enquêter :</strong> [signe,
+        témoin, objet].</p><p><strong>Agir / explorer :</strong> [obstacle,
+        responsabilité, choix].</p><p><strong>Question au MJ :</strong> Quel
+        événement local fait agir les personnages maintenant ?</p>
+    flags:
+      world:
+        warboundPoiTemplateKey: jeu
+        warboundPoiTemplateVersion: '1.0'
+    _id: OSuvdAyx6RsnWtTl
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1792998433115
+      modifiedTime: 1792998433115
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!JRYZXN038MNSDioR.OSuvdAyx6RsnWtTl'
+_id: JRYZXN038MNSDioR
+categories: []
+sort: 0
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792998433115
+  modifiedTime: 1792998433115
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!JRYZXN038MNSDioR'

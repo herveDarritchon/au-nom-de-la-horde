@@ -1,0 +1,190 @@
+name: Châtiment divin
+type: capacity
+img: icons/skills/melee/sword-winged-holy-orange.webp
+system:
+  description: >-
+    <p>Le prêtre effectue une attaque de contact avec un dé bonus et ajoute son
+    CHA aux dommages. De plus, lorsqu’il utilise cette capacité, le prêtre peut
+    dépenser 1 PM pour ajouter +1d4° aux DM d’une attaque au contact qui touche.
+    Au rang 5, il peut dépenser 2 PM pour ajouter +2d4°.</p>
+  inGame: >-
+    <p>La capacité a été décomposée en 3 actions d'attaques :</p><p>La première
+    est une attaque de base ajoutant le CHA du prêtre aux dommages</p><p>La
+    deuxieme inflige en plus 1d4° (mais le joueur doit payer manuellement 1PM en
+    plus)</p><p>La troisième inflige en plus 2d4° (mais le joueur doit payer
+    manuellement 2PM en plus)</p><p>Remarque : Lorsque le personnage atteint le
+    rang 5 dans cette voie, il doit cocher la case "Activable" de la troisième
+    action afin qu'elle apparaisse dans la liste de l'onglet Principal.</p>
+  source: COF2 — Livre des règles ; sélection Warbound v0.1
+  origin: Livre des règles p123
+  slug: chatiment-divin
+  subtype: ''
+  actionType: l
+  learned: false
+  rank: 3
+  frequency: none
+  charges:
+    current: 0
+    max: 0
+  properties:
+    spell: false
+  path: null
+  cost: -1
+  manaCost: -1
+  actions:
+    - source: Item.8hLthBRrJJtELBoZ
+      indice: 0
+      label: ''
+      chatFlavor: ''
+      type: melee
+      img: icons/svg/d20-highlight.svg
+      properties:
+        visible: false
+        enabled: false
+        activable: true
+        temporary: false
+        noManaCost: false
+        noChargesUsed: false
+      conditions:
+        - predicate: isLearned
+      resolvers:
+        - type: attack
+          bonusDiceAdd: true
+          malusDiceAdd: false
+          skill:
+            formula: '@arme.skill'
+            crit: ''
+            difficulty: '@cible.def'
+          dmg:
+            formula: '@arme.dmg + @cha'
+          target:
+            type: single
+            scope: all
+            number: '0'
+          additionalEffect:
+            active: false
+            applyOn: success
+            successThreshold: null
+            statuses: []
+            duration: '0'
+            unit: round
+          halfDmgOnSave: true
+          hasAttackSuccessThreshold: false
+      modifiers: []
+      actionType: none
+    - source: Item.8hLthBRrJJtELBoZ
+      indice: 1
+      label: Châtiment divin +1PM
+      chatFlavor: ''
+      type: melee
+      img: icons/svg/d20-highlight.svg
+      properties:
+        visible: false
+        enabled: false
+        activable: true
+        temporary: false
+        noManaCost: false
+        noChargesUsed: false
+      conditions:
+        - predicate: isLearned
+      resolvers:
+        - type: attack
+          bonusDiceAdd: true
+          malusDiceAdd: false
+          skill:
+            formula: '@arme.skill'
+            crit: ''
+            difficulty: '@cible.def'
+          dmg:
+            formula: '@arme.dmg + @cha + 1d4°'
+          target:
+            type: single
+            scope: all
+            number: '0'
+          additionalEffect:
+            active: false
+            applyOn: success
+            successThreshold: null
+            statuses: []
+            duration: '0'
+            unit: round
+          halfDmgOnSave: true
+          hasAttackSuccessThreshold: false
+      modifiers: []
+      actionType: none
+    - source: Item.8hLthBRrJJtELBoZ
+      indice: 2
+      label: Châtiment divin +2PM
+      chatFlavor: ''
+      type: melee
+      img: icons/svg/d20-highlight.svg
+      properties:
+        visible: false
+        enabled: false
+        activable: false
+        temporary: false
+        noManaCost: false
+        noChargesUsed: false
+      conditions:
+        - predicate: isLearned
+      resolvers:
+        - type: attack
+          bonusDiceAdd: true
+          malusDiceAdd: false
+          skill:
+            formula: '@arme.skill'
+            crit: ''
+            difficulty: '@cible.def'
+          dmg:
+            formula: '@arme.dmg + @cha + 2d4°'
+          target:
+            type: single
+            number: '0'
+            scope: all
+          additionalEffect:
+            active: false
+            applyOn: success
+            successThreshold: null
+            statuses: []
+            duration: '0'
+            unit: round
+          halfDmgOnSave: true
+          hasAttackSuccessThreshold: false
+      modifiers: []
+      actionType: none
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+  gmNotes: >-
+    [COF2 REPRIS] Texte et mécaniques conservés de la capacité officielle. Dans
+    Warbound, le personnage est un Paladin même si la description source dit «
+    prêtre » ou « chevalier ». Si la capacité fait référence à des voies du
+    Profil d’origine, le calcul inter-profils peut demander un arbitrage du MJ :
+    voir README.
+effects: []
+flags:
+  world:
+    warbound:
+      class: paladin
+      version: '0.1'
+      key: ability_guerre_sainte_3
+      sourceId: 9guRj1F5ZYCi2iKz
+      status: official-adapted
+      pathKey: guerre_sainte
+_id: 8hLthBRrJJtELBoZ
+folder: nOd7GseTGu571lwT
+sort: 150000
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792998285259
+  modifiedTime: 1792998285259
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!8hLthBRrJJtELBoZ'

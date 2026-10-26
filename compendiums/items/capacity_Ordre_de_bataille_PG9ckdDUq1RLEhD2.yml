@@ -1,0 +1,66 @@
+name: Ordre de bataille
+type: capacity
+img: icons/magic/control/control-influence-rally-purple.webp
+_id: PG9ckdDUq1RLEhD2
+system:
+  description: >-
+    <p>Le chevalier donne des ordres tactiques pertinents au coeur de la
+    bataille. Une fois par round, il octroie une action supplémentaire gratuite
+    à un allié en vue (une action de mouvement ou une action d’attaque, mais pas
+    une action limitée). Chaque allié ne peut profiter d’un ordre de bataille
+    qu’une seule fois par combat.</p>
+  inGame: >-
+    <p>Pas d'effets automatiques. A gérer à la main par le MJ, pour
+    l'instant.</p>
+  source: COF2 — Livre des règles ; sélection Warbound v0.1
+  origin: Livre des règles p86
+  slug: ordre-de-bataille
+  subtype: ''
+  actionType: f
+  learned: false
+  charges:
+    current: null
+    max: null
+  properties:
+    spell: false
+  path: null
+  actions: []
+  cost: -1
+  rank: 5
+  gmNotes: >-
+    [COF2 REPRIS] Texte et mécaniques conservés de la capacité officielle. Dans
+    Warbound, le personnage est un Paladin même si la description source dit «
+    prêtre » ou « chevalier ». Si la capacité fait référence à des voies du
+    Profil d’origine, le calcul inter-profils peut demander un arbitrage du MJ :
+    voir README.
+  frequency: none
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+flags:
+  world:
+    warbound:
+      class: paladin
+      version: '0.1'
+      key: ability_meneur_5
+      sourceId: ZdOVPwLNWO7aon33
+      status: official-adapted
+      pathKey: meneur
+folder: TgAo07BwZZWCJx3u
+sort: 300000
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792998285266
+  modifiedTime: 1792998285266
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!PG9ckdDUq1RLEhD2'

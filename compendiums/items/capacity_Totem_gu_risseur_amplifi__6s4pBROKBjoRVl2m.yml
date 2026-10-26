@@ -1,0 +1,82 @@
+name: Totem guérisseur amplifié
+type: capacity
+img: modules/warbound-campaign-content/assets/images/icons/capacites/classes/chaman/voie-des-eaux-guerisseuses/cof2-totem-guerisseur-amplifie.png
+system:
+  description: >-
+    <p>Rang 4 — Totem guérisseur amplifié (M)*, 4 PM. Poser un totem d’Eau à 2 m
+    maximum. À la fin de chaque tour du Chaman, il rend 1d4° PV à l’allié
+    conscient le plus blessé dans son rayon de 5 m ; en cas d’égalité, le Chaman
+    choisit. Trois soins au maximum, puis disparition ; aucune charge perdue si
+    aucune cible valide. Ne soigne pas une cible à 0 PV. Ne peut pas coexister
+    avec un Totem guérisseur ou un autre totem d’Eau. Pas de brûlure de
+    mana.</p>
+  source: Warbound — Chaman v0.3, 20 octobre 2026
+  origin: Warbound / Chaman
+  slug: chaman-voie-des-eaux-guerisseuses-totem-guerisseur-amplifie
+  gmNotes: >-
+    <p>Voie : Voie des eaux guérisseuses · rang 4. Actions et effets système NON
+    configurés : les deux modèles fournis sont vierges ; le schéma interne
+    system.actions CO2 2.3.12 n’est pas documenté dans les exemples. Consulter
+    le dossier README pour finaliser/tester cette automatisation.</p>
+  inGame: >-
+    M* — 4 PM. Poser un totem d’Eau à 2 m maximum. À la fin de chaque tour du
+    Chaman, il rend 1d4° PV à l’allié conscient le plus blessé dans son rayon de
+    5 m ; en cas d’égalité, le Chaman choisit. Trois soins au maximum, puis
+    disparition ; aucune charge perdue si aucune cible valide. Ne soigne pas une
+    cible à 0 PV. Ne peut pas coexister avec un Totem guérisseur ou un autre
+    totem d’Eau. Pas de brûlure de mana.
+  subtype: ''
+  actionType: none
+  learned: false
+  rank: 4
+  frequency: none
+  charges: {}
+  properties:
+    spell: true
+  path: null
+  cost: -1
+  manaCost: 4
+  actions: []
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  warbound:
+    version: '0.3'
+    category: profile
+    sourceWay: Voie des eaux guérisseuses
+    rank: 4
+    mode: M
+    spellSource: true
+    basicTotemElement: null
+    requiresNativeActions: true
+    actionSpec:
+      mode: M
+      frequency: libre
+      automationCandidate: 'totem: placement, aura ou déclenchements à gérer manuellement'
+      manaCost: 4
+      distancesMentionedMeters:
+        - 2
+        - 5
+    status: contenu complet / automatisation native non testée
+    packId: warbound-chaman-v0.3
+    catalogId: Wbdc4f4bb5cdbf33
+    importedByMacro: true
+folder: LlW7qh6NprFPEUI3
+_id: 6s4pBROKBjoRVl2m
+sort: 125000
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792998285225
+  modifiedTime: 1792998285225
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!6s4pBROKBjoRVl2m'

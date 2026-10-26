@@ -1,0 +1,52 @@
+name: Voie de la guerre sainte
+type: path
+img: modules/cof2-base/assets/voies/pretre_guerresainte.webp
+system:
+  description: >-
+    <p>Voie de base du Paladin Warbound, issue de la prêtre. Capacités reprises
+    de COF2.</p>
+  source: Warbound — Paladin v0.1 (19/09/2026)
+  origin: COF2 — prêtre
+  slug: voie-de-la-guerre-sainte
+  gmNotes: >-
+    Paladin Warbound v0.1 NON VALIDÉ. Les Voies de prestige sont des choix
+    alternatifs : une seule sur un même personnage. Ne pas appliquer les
+    limitations d’armure d’un profil Prêtre ; utiliser le Profil Paladin 5
+    PV/niveau, d10, armure de plaque.
+  subtype: profile
+  capacities:
+    - Item.tpu8IgNJN0wZTIXH
+    - Item.KbNVkiHJiSTy15NE
+    - Item.8hLthBRrJJtELBoZ
+    - Item.iolMq5Bn68mJm4P4
+    - Item.sNBpPVtNb4GSXbut
+  rank: 0
+  maxDefenseArmor: 0
+  pvByLevel: 0
+effects: []
+flags:
+  world:
+    warbound:
+      class: paladin
+      version: '0.1'
+      key: path_guerre_sainte
+      group: base
+      sourcePath: Voie de la guerre sainte
+      status: playtest
+_id: kh7TYZb6EcGZpdgT
+folder: JoDxcqKhfEVYVM3r
+sort: 200000
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792998338669
+  modifiedTime: 1792998338669
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!kh7TYZb6EcGZpdgT'

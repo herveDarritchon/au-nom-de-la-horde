@@ -1,0 +1,57 @@
+name: Voie de l’orage
+type: path
+img: modules/warbound-campaign-content/assets/images/icons/voies/classes/chaman/cof2-voie-de-l-orage.png
+system:
+  description: <p>Voie Warbound — Chaman v0.3. Voie de profil (5 rangs).</p>
+  source: Warbound — Chaman v0.3, 20 octobre 2026
+  origin: Warbound / Chaman
+  slug: chaman-voie-de-lorage
+  gmNotes: ''
+  subtype: profile
+  capacities:
+    - Item.94ySuGLRw3gM1Hw5
+    - Item.klGnCoOmDrCRs9m1
+    - Item.CJRylYHjbSwc6Fcw
+    - Item.CxtqDTB1YkEndRpm
+    - Item.xDyKGyE53nizp1b6
+  rank: 0
+  maxDefenseArmor: 0
+  pvByLevel: 0
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  warbound:
+    version: '0.3'
+    category: profile
+    capacityIds:
+      - Wb58fdbf59cd6462
+      - Wbc9e9b8774c688e
+      - Wb244c174928cb94
+      - Wb5fa48e4f721dc9
+      - Wb79cd7c8c8595e9
+    capacityNames:
+      - Éclair
+      - Horion de terre
+      - Chaîne d’éclairs
+      - Explosion de flammes
+      - Maîtrise des tempêtes
+    status: voie prête / liaisons capacites à réaliser avec modèle CO2 authentifié
+    packId: warbound-chaman-v0.3
+    catalogId: Wb860caca0e91b53
+    importedByMacro: true
+folder: z79nUJKalACjdMSa
+_id: howmdD7gzbXboIvn
+sort: 200000
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792998338654
+  modifiedTime: 1792998338654
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!howmdD7gzbXboIvn'

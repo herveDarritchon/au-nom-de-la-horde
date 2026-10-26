@@ -1,0 +1,112 @@
+name: Marteau de la foi
+type: capacity
+img: icons/skills/melee/strike-hammer-destructive-orange.webp
+_id: iolMq5Bn68mJm4P4
+system:
+  description: >-
+    <p style="text-align:justify">Le prêtre effectue un test d’attaque magique
+    contre la DEF se sa cible (portée de 30 m). Un projectile d’énergie de la
+    forme de l’arme du prêtre va percuter la cible, lui infligeant [2d4°+CHA] DM
+    en cas de réussite. Si l’arme du prêtre est magique, il peut ajouter son
+    bonus au test d’attaque et aux DM. Les DM du marteau de la foi augmentent de
+    +1 chaque fois que le personnage atteint le rang 4 dans une autre voie de
+    prêtre.</p>
+  inGame: >-
+    <p style="text-align:left">Le joueur sélectionne sa cible puis clique sur
+    l'action pour lancer le sort qui va faire le test d'attaque magique et
+    appliquer les dommages.</p><p style="text-align:left">Note : Ne prend pas en
+    comtpe les bonus d'une arme magique et on ne peux pas utiliser @arme.skill
+    vu qu'il s'agit d'une attaque magique. Le bonus d'une arme magique sera à
+    ajouter à la main sur la capacité dans la fiche de personnage du prêtre.</p>
+  source: COF2 — Livre des règles ; sélection Warbound v0.1
+  origin: Livre des règles p123
+  slug: marteau-de-la-foi
+  subtype: ''
+  actionType: a
+  learned: false
+  charges:
+    current: null
+    max: null
+  properties:
+    spell: true
+  path: null
+  actions:
+    - source: Item.iolMq5Bn68mJm4P4
+      indice: 0
+      label: ''
+      chatFlavor: ''
+      type: magical
+      img: icons/svg/d20-highlight.svg
+      properties:
+        visible: false
+        enabled: false
+        activable: true
+        temporary: false
+        noManaCost: false
+        noChargesUsed: false
+      conditions:
+        - predicate: isLearned
+      resolvers:
+        - type: attack
+          bonusDiceAdd: false
+          malusDiceAdd: false
+          skill:
+            formula: '@atm'
+            crit: ''
+            difficulty: '@cible.def'
+          dmg:
+            formula: 2d4°+@cha + @toutrang[4] -1
+          target:
+            type: single
+            number: '0'
+            scope: all
+          additionalEffect:
+            active: false
+            applyOn: success
+            successThreshold: null
+            statuses: []
+            duration: '0'
+            unit: round
+          halfDmgOnSave: true
+          hasAttackSuccessThreshold: false
+      modifiers: []
+      actionType: none
+  cost: -1
+  rank: 4
+  gmNotes: >-
+    [COF2 REPRIS] Texte et mécaniques conservés de la capacité officielle. Dans
+    Warbound, le personnage est un Paladin même si la description source dit «
+    prêtre » ou « chevalier ». Si la capacité fait référence à des voies du
+    Profil d’origine, le calcul inter-profils peut demander un arbitrage du MJ :
+    voir README.
+  frequency: none
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+flags:
+  world:
+    warbound:
+      class: paladin
+      version: '0.1'
+      key: ability_guerre_sainte_4
+      sourceId: Tcrqztre8hbB5cUx
+      status: official-adapted
+      pathKey: guerre_sainte
+folder: nOd7GseTGu571lwT
+sort: 125000
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792998285259
+  modifiedTime: 1792998285259
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!iolMq5Bn68mJm4P4'

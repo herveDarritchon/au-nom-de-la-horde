@@ -1,0 +1,20 @@
+type: Item
+folder: pdCV5WSsPWoegmRr
+name: Voie de la Guerre
+color: null
+sorting: a
+_id: EvZ8nHmuVcrHHV6Q
+description: ''
+sort: 100000
+flags: {}
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792998285088
+  modifiedTime: 1792998285088
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!EvZ8nHmuVcrHHV6Q'

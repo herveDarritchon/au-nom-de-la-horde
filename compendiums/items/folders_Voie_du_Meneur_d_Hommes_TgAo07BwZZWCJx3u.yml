@@ -1,0 +1,20 @@
+type: Item
+folder: pdCV5WSsPWoegmRr
+name: Voie du Meneur d'Hommes
+color: null
+sorting: a
+_id: TgAo07BwZZWCJx3u
+description: ''
+sort: 300000
+flags: {}
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792998285088
+  modifiedTime: 1792998285088
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!TgAo07BwZZWCJx3u'

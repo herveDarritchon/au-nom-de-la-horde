@@ -1,0 +1,57 @@
+name: Voie des totems
+type: path
+img: modules/warbound-campaign-content/assets/images/icons/voies/classes/chaman/cof2-voie-des-totems.png
+system:
+  description: <p>Voie Warbound — Chaman v0.3. Voie de profil (5 rangs).</p>
+  source: Warbound — Chaman v0.3, 20 octobre 2026
+  origin: Warbound / Chaman
+  slug: chaman-voie-des-totems
+  gmNotes: ''
+  subtype: profile
+  capacities:
+    - Item.t1nN5LhNR6MREnsp
+    - Item.leYfbvJMry6k2flv
+    - Item.yMAQJ8ZNilavQHe4
+    - Item.LdHULGehpenmT5ep
+    - Item.Tz44MAazZsEer7Ox
+  rank: 0
+  maxDefenseArmor: 0
+  pvByLevel: 0
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  warbound:
+    version: '0.3'
+    category: profile
+    capacityIds:
+      - Wb5c44d7f472182a
+      - Wb918e099dfb1f04
+      - Wb6650d54d7e19b5
+      - Wbb89cbe081fdc26
+      - Wb1defead5939dfc
+    capacityNames:
+      - Gardien des totems
+      - Totem de Force de la Terre
+      - Totem de Séisme
+      - Totem de Glèbe
+      - Totem Furie-des-vents
+    status: voie prête / liaisons capacites à réaliser avec modèle CO2 authentifié
+    packId: warbound-chaman-v0.3
+    catalogId: Wbf5f600ad092973
+    importedByMacro: true
+folder: z79nUJKalACjdMSa
+_id: c9dbaGdBuUaeHpUc
+sort: 100000
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792998338661
+  modifiedTime: 1792998338661
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!c9dbaGdBuUaeHpUc'

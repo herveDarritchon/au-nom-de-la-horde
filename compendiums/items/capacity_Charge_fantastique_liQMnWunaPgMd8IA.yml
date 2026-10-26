@@ -1,0 +1,163 @@
+name: Charge fantastique
+type: capacity
+img: icons/sundries/flags/banner-sword-blue.webp
+_id: liQMnWunaPgMd8IA
+system:
+  description: >-
+    <p>Une fois par combat, lorsque le chevalier déclare l’utilisation de cette
+    capacité, tous ses alliés en vue et lui obtiennent 10 m de déplacement
+    supplémentaire au début de leur tour puis un dé bonus et +1d4° DM à toutes
+    leurs attaques. Ne se cumule ni avec exemplaire ni avec ordre de
+    bataille.</p>
+  inGame: >-
+    <p>Le joueur sélectionne ses cibles puis clique sur l'action pour lancer un
+    effet de 1 round sur lui et tous ses alliés et qui va leurs donner un bonus
+    de 10 en déplacement, un bonus de 1d4° DM ainsi que des dé bonus en
+    attaque</p>
+  source: COF2 — Livre des règles ; sélection Warbound v0.1
+  origin: Livre des règles p86
+  slug: charge-fantastique
+  subtype: ''
+  actionType: f
+  learned: false
+  charges:
+    current: 1
+    max: 1
+  properties:
+    spell: false
+  path: null
+  actions:
+    - source: Item.liQMnWunaPgMd8IA
+      indice: 0
+      label: ''
+      chatFlavor: ''
+      type: buff
+      img: icons/svg/d20-highlight.svg
+      properties:
+        visible: false
+        enabled: false
+        activable: true
+        temporary: false
+        noManaCost: false
+        noChargesUsed: false
+      conditions:
+        - predicate: isLearned
+      modifiers:
+        - type: capacity
+          source: Item.liQMnWunaPgMd8IA
+          subtype: attribute
+          target: mov
+          apply: both
+          value: '10'
+          additionalInfos: ''
+          choiceGroup: 0
+        - type: capacity
+          source: Item.liQMnWunaPgMd8IA
+          subtype: combat
+          target: damMelee
+          apply: both
+          value: +1d4°
+          additionalInfos: ''
+          choiceGroup: 0
+        - type: capacity
+          source: Item.liQMnWunaPgMd8IA
+          subtype: combat
+          target: damRanged
+          apply: both
+          value: +1d4°
+          additionalInfos: ''
+          choiceGroup: 0
+        - type: capacity
+          source: Item.liQMnWunaPgMd8IA
+          subtype: combat
+          target: damMagic
+          apply: both
+          value: +1d4°
+          additionalInfos: ''
+          choiceGroup: 0
+        - type: capacity
+          source: Item.liQMnWunaPgMd8IA
+          subtype: bonusDice
+          target: melee
+          apply: both
+          value: '0'
+          additionalInfos: ''
+          choiceGroup: 0
+        - type: capacity
+          source: Item.liQMnWunaPgMd8IA
+          subtype: bonusDice
+          target: ranged
+          apply: both
+          value: '0'
+          additionalInfos: ''
+          choiceGroup: 0
+        - type: capacity
+          source: Item.liQMnWunaPgMd8IA
+          subtype: malusDice
+          target: magic
+          apply: both
+          value: '0'
+          additionalInfos: ''
+          choiceGroup: 0
+      resolvers:
+        - type: buffDebuff
+          bonusDiceAdd: false
+          malusDiceAdd: false
+          target:
+            type: multiple
+            number: '0'
+            scope: all
+          additionalEffect:
+            active: true
+            applyOn: always
+            formulaType: damage
+            formula: ''
+            elementType: ''
+            statuses: []
+            duration: '1'
+            unit: round
+            successThreshold: null
+          skill: {}
+          dmg: {}
+          halfDmgOnSave: true
+          hasAttackSuccessThreshold: false
+      actionType: none
+  cost: -1
+  rank: 4
+  frequency: combat
+  gmNotes: >-
+    [COF2 REPRIS] Texte et mécaniques conservés de la capacité officielle. Dans
+    Warbound, le personnage est un Paladin même si la description source dit «
+    prêtre » ou « chevalier ». Si la capacité fait référence à des voies du
+    Profil d’origine, le calcul inter-profils peut demander un arbitrage du MJ :
+    voir README.
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+flags:
+  world:
+    warbound:
+      class: paladin
+      version: '0.1'
+      key: ability_meneur_4
+      sourceId: JNnEto6LQ1G1y6LZ
+      status: official-adapted
+      pathKey: meneur
+folder: TgAo07BwZZWCJx3u
+sort: 200000
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792998285266
+  modifiedTime: 1792998285266
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!liQMnWunaPgMd8IA'

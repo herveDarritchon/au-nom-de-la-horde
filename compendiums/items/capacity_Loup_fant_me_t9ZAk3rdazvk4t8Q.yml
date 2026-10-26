@@ -1,0 +1,83 @@
+name: Loup fantôme
+type: capacity
+img: modules/warbound-campaign-content/assets/images/icons/capacites/classes/chaman/voie-des-esprits/cof2-loup-fantome.png
+system:
+  description: >-
+    <p>Rang 2 — Loup fantôme (M)*, 2 PM. Le Chaman prend une forme lupine
+    spectrale pour 10 minutes, avec une vitesse de déplacement augmentée de 5 m
+    par action de mouvement. Il peut se déplacer, pister, sentir et fuir mais ne
+    peut ni utiliser une arme ni lancer de sort sous cette forme. Une attaque,
+    une incantation ou une dissolution volontaire met immédiatement fin à la
+    transformation. Ses totems préexistants continuent jusqu’à leur fin normale.
+    Son équipement accompagne la forme sans procurer d’action
+    supplémentaire.</p>
+  source: Warbound — Chaman v0.3, 20 octobre 2026
+  origin: Warbound / Chaman
+  slug: chaman-voie-des-esprits-loup-fantome
+  gmNotes: >-
+    <p>Voie : Voie des esprits · rang 2. Actions et effets système NON
+    configurés : les deux modèles fournis sont vierges ; le schéma interne
+    system.actions CO2 2.3.12 n’est pas documenté dans les exemples. Consulter
+    le dossier README pour finaliser/tester cette automatisation.</p>
+  inGame: >-
+    M* — 2 PM. Le Chaman prend une forme lupine spectrale pour 10 minutes, avec
+    une vitesse de déplacement augmentée de 5 m par action de mouvement. Il peut
+    se déplacer, pister, sentir et fuir mais ne peut ni utiliser une arme ni
+    lancer de sort sous cette forme. Une attaque, une incantation ou une
+    dissolution volontaire met immédiatement fin à la transformation. Ses totems
+    préexistants continuent jusqu’à leur fin normale. Son équipement accompagne
+    la forme sans procurer d’action supplémentaire.
+  subtype: ''
+  actionType: none
+  learned: false
+  rank: 2
+  frequency: none
+  charges: {}
+  properties:
+    spell: true
+  path: null
+  cost: -1
+  manaCost: 2
+  actions: []
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  warbound:
+    version: '0.3'
+    category: profile
+    sourceWay: Voie des esprits
+    rank: 2
+    mode: M
+    spellSource: true
+    basicTotemElement: null
+    requiresNativeActions: true
+    actionSpec:
+      mode: M
+      frequency: libre
+      automationCandidate: 'spécial: résolution narrative ou conditionnelle'
+      manaCost: 2
+      distancesMentionedMeters:
+        - 5
+    status: contenu complet / automatisation native non testée
+    packId: warbound-chaman-v0.3
+    catalogId: Wb59717b92891b92
+    importedByMacro: true
+folder: pqYx3cZAsPro9Kxi
+_id: t9ZAk3rdazvk4t8Q
+sort: 200000
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792998285226
+  modifiedTime: 1792998285226
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!t9ZAk3rdazvk4t8Q'

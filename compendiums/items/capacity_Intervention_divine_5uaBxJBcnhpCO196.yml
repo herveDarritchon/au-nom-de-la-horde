@@ -1,0 +1,82 @@
+name: Intervention divine
+type: capacity
+img: icons/magic/holy/prayer-hands-glowing-yellow.webp
+_id: 5uaBxJBcnhpCO196
+system:
+  description: >-
+    <p style="text-align:justify">Le prêtre fait appel à son dieu pour changer
+    le cours des événements. Une fois par combat, il peut décider qu’un test du
+    MJ ou des joueurs est une réussite ou un échec, même après que les dés ont
+    révélé leur résultat. Il ne peut pas modifier le résultat du test obtenu par
+    une créature d’un NC supérieur à son niveau.</p>
+  inGame: <p>L'action permet de prendre en compte l'utilisation.</p>
+  source: COF2 — Livre des règles ; sélection Warbound v0.1
+  origin: Livre des règles p124
+  slug: intervention-divine
+  subtype: ''
+  actionType: f
+  learned: false
+  charges:
+    current: 1
+    max: 1
+  properties:
+    spell: false
+  path: null
+  actions:
+    - source: Item.5uaBxJBcnhpCO196
+      indice: 0
+      label: Activation
+      chatFlavor: ''
+      type: spell
+      img: icons/svg/d20-highlight.svg
+      properties:
+        visible: false
+        enabled: false
+        activable: true
+        temporary: false
+        noManaCost: false
+        noChargesUsed: false
+      conditions:
+        - predicate: isLearned
+      modifiers: []
+      resolvers: []
+      actionType: none
+  cost: -1
+  rank: 5
+  frequency: combat
+  gmNotes: >-
+    [COF2 REPRIS] Texte et mécaniques conservés de la capacité officielle. Dans
+    Warbound, le personnage est un Paladin même si la description source dit «
+    prêtre » ou « chevalier ». Si la capacité fait référence à des voies du
+    Profil d’origine, le calcul inter-profils peut demander un arbitrage du MJ :
+    voir README.
+  manaCost: -1
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+flags:
+  world:
+    warbound:
+      class: paladin
+      version: '0.1'
+      key: ability_priere_5
+      sourceId: 1NgCxDejWQSVAeST
+      status: official-adapted
+      pathKey: priere
+folder: 0qdzV9uO8zI5tLwS
+sort: 150000
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792998285260
+  modifiedTime: 1792998285260
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!5uaBxJBcnhpCO196'

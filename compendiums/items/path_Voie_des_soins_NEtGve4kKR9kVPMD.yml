@@ -1,0 +1,52 @@
+name: Voie des soins
+type: path
+img: modules/cof2-base/assets/voies/pretre_soins.webp
+system:
+  description: >-
+    <p>Voie de base du Paladin Warbound, issue de la prêtre. Capacités reprises
+    de COF2.</p>
+  source: Warbound — Paladin v0.1 (19/09/2026)
+  origin: COF2 — prêtre
+  slug: voie-des-soins
+  gmNotes: >-
+    Paladin Warbound v0.1 NON VALIDÉ. Les Voies de prestige sont des choix
+    alternatifs : une seule sur un même personnage. Ne pas appliquer les
+    limitations d’armure d’un profil Prêtre ; utiliser le Profil Paladin 5
+    PV/niveau, d10, armure de plaque.
+  subtype: profile
+  capacities:
+    - Item.7UQxSUgDnAPWu3dy
+    - Item.ssXSE1aR6JEgugkz
+    - Item.z5OJPZkinmZZruJK
+    - Item.CRCbiDbEjln6yWAZ
+    - Item.oz2oneg5OAfUVHMc
+  rank: 0
+  maxDefenseArmor: 0
+  pvByLevel: 0
+effects: []
+flags:
+  world:
+    warbound:
+      class: paladin
+      version: '0.1'
+      key: path_soins
+      group: base
+      sourcePath: Voie des soins
+      status: playtest
+_id: NEtGve4kKR9kVPMD
+folder: JoDxcqKhfEVYVM3r
+sort: 125000
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792998338670
+  modifiedTime: 1792998338670
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!NEtGve4kKR9kVPMD'

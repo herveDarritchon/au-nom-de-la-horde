@@ -1,0 +1,79 @@
+name: Purification
+type: capacity
+img: modules/warbound-campaign-content/assets/images/icons/capacites/classes/chaman/voie-des-eaux-guerisseuses/cof2-purification.png
+system:
+  description: >-
+    <p>Rang 2 — Purification (A)*, 2 PM. Au contact, annuler un poison ordinaire
+    ou les symptômes d’une maladie ordinaire subis par la cible. Effectuer un
+    test d’attaque magique contre difficulté 15 (20 contre un poison ou une
+    maladie d’origine surnaturelle) ; réussite : l’effet ciblé cesse ; échec :
+    aucun changement. Ne dissipe pas une malédiction ou un sort, ne restitue pas
+    les PV perdus. Une tentative par cible et par récupération rapide.</p>
+  source: Warbound — Chaman v0.3, 20 octobre 2026
+  origin: Warbound / Chaman
+  slug: chaman-voie-des-eaux-guerisseuses-purification
+  gmNotes: >-
+    <p>Voie : Voie des eaux guérisseuses · rang 2. Actions et effets système NON
+    configurés : les deux modèles fournis sont vierges ; le schéma interne
+    system.actions CO2 2.3.12 n’est pas documenté dans les exemples. Consulter
+    le dossier README pour finaliser/tester cette automatisation.</p>
+  inGame: >-
+    A* — 2 PM. Au contact, annuler un poison ordinaire ou les symptômes d’une
+    maladie ordinaire subis par la cible. Effectuer un test d’attaque magique
+    contre difficulté 15 (20 contre un poison ou une maladie d’origine
+    surnaturelle) ; réussite : l’effet ciblé cesse ; échec : aucun changement.
+    Ne dissipe pas une malédiction ou un sort, ne restitue pas les PV perdus.
+    Une tentative par cible et par récupération rapide.
+  subtype: ''
+  actionType: none
+  learned: false
+  rank: 2
+  frequency: none
+  charges: {}
+  properties:
+    spell: true
+  path: null
+  cost: -1
+  manaCost: 2
+  actions: []
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+effects: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  warbound:
+    version: '0.3'
+    category: profile
+    sourceWay: Voie des eaux guérisseuses
+    rank: 2
+    mode: A
+    spellSource: true
+    basicTotemElement: null
+    requiresNativeActions: true
+    actionSpec:
+      mode: A
+      frequency: rapide
+      automationCandidate: 'spécial: résolution narrative ou conditionnelle'
+      manaCost: 2
+      restoreAfter: récupération rapide (30 min)
+    status: contenu complet / automatisation native non testée
+    packId: warbound-chaman-v0.3
+    catalogId: Wb23415f9c4b7123
+    importedByMacro: true
+folder: LlW7qh6NprFPEUI3
+_id: 75CdlK9q1P1JqYk0
+sort: 150000
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1792998285224
+  modifiedTime: 1792998285224
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!75CdlK9q1P1JqYk0'
