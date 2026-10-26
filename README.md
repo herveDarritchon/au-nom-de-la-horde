@@ -6,6 +6,7 @@ Documentation du module Foundry `warbound-campaign-content` : publication des co
 
 - [Processus de release](#-processus-de-release)
 - [Bibliothèque musicale externalisée et migration hors de Git LFS](#-bibliothèque-musicale-externalisée-et-migration-hors-de-git-lfs)
+- [Pipeline d'optimisation des images](#-pipeline-doptimisation-des-images)
 - [Générateur de météo](#️-générateur-de-météo)
 - [Importateur de rencontres COF2](#-importateur-de-rencontres-cof2)
 - [Importateur Warbound Markdown](#-importateur-warbound-markdown)
@@ -243,6 +244,122 @@ rg -n 'lfs:|git lfs|assets/musics/ambient|upload-artifact|zip|tar' .github/workf
 | Les packs sont corrects mais une playlist de monde reste cassée | La playlist importée possède encore l'ancien chemin ; la migrer dans le monde |
 | Le ZIP principal reste volumineux | Vérifier l'empaquetage du workflow, pas seulement `.gitignore` |
 | Les alertes Git LFS persistent | Vérifier la facturation et les anciens objets côté GitHub ; le retrait de l'index ne purge pas l'historique |
+
+---
+
+## 🖼️ Pipeline d'optimisation des images
+
+Le module intègre un pipeline de conversion et d'optimisation des assets médias : PNG → WebP, OGG (ré-encodage), MP4/MOV → WebM. L'ensemble est idempotent : relancer deux fois ne produit aucune modification supplémentaire.
+
+### Architecture du pipeline
+
+```text
+assets/ (PNG, OGG, MP4/MOV)
+        ↓
+   pnpm media:scan         # inventaire des médias
+        ↓
+   convertImages           # PNG → WebP (Sharp)
+        ↓
+   optimizeAudio           # OGG ré-encodé via FFmpeg
+        ↓
+   convertVideos           # MP4/MOV → WebM VP9
+        ↓
+   migrateRefs             # mise à jour des références YAML/CSS/JS
+        ↓
+   pnpm build              # recompilation packs LevelDB
+        ↓
+   cleanupPng              # suppression PNG devenus inutiles
+```
+
+### Profils de qualité WebP
+
+Les profils sont définis dans `tools/media.config.mjs` et attribués automatiquement selon le chemin de l'asset :
+
+| Répertoire | Profil | Qualité |
+|---|---|---|
+| `assets/ui/` | `ui` | 92, avec perte |
+| `assets/images/icons/` | `icon` | sans perte (lossless) |
+| `assets/images/tokens/`, `frames/` | `token` | 87, avec perte |
+| `assets/images/avatar/` | `portrait` | 85, avec perte |
+| `assets/images/illustrations/`, `elements/`, `pages/` | `illustration` | 82, avec perte |
+| `assets/images/battlemaps/`, `maps/`, `landing-page/maps/` | `map` | 88, avec perte |
+| autres | `default` | 85, avec perte |
+
+**Garde-fou :** si le WebP produit est plus lourd que le PNG source, le PNG est conservé et rien n'est écrit.
+
+Les vignettes de scènes Foundry (`assets/scenes/thumb-*.webp`) sont détectées et systématiquement ignorées.
+
+### Catalogue des commandes `pnpm`
+
+| Commande | Action | Modifie des fichiers ? |
+|---|---|---|
+| `pnpm media:scan` | Inventaire complet des médias (images, audio, vidéo, références) | Non |
+| `pnpm media:optimize` | Dry-run global : projette les conversions sans écrire | Non |
+| `pnpm media:optimize:dry-run` | Identique à `media:optimize` | Non |
+| `pnpm media:convert:images` | Dry-run images uniquement | Non |
+| `pnpm media:optimize:video` | Dry-run vidéo uniquement | Non |
+| `pnpm media:optimize:audio` | Dry-run audio uniquement | Non |
+| `pnpm media:optimize:audio:write` | Ré-encode les OGG via FFmpeg | **Oui**, fichiers OGG |
+| `pnpm media:optimize:video:write` | Convertit les vidéos en WebM | **Oui**, fichiers WebM |
+
+Pour le pipeline complet (images + audio + vidéo + migration des références + nettoyage) :
+
+```bash
+# Projeter sans écrire
+pnpm media:optimize
+
+# Appliquer (conversion + migration des références YAML/CSS/JS)
+node tools/mediaOptimize.mjs --write --update-references
+
+# Appliquer + nettoyage des PNG devenus inutiles (aperçu d'abord)
+node tools/mediaOptimize.mjs --clean
+node tools/mediaOptimize.mjs --write --update-references --clean --confirm
+```
+
+### Options avancées de `mediaOptimize.mjs`
+
+```bash
+node tools/mediaOptimize.mjs [options]
+
+  --dry-run              Projette sans écrire (défaut).
+  --write                Applique les modifications.
+  --type images|audio|video|all
+                         Limite au type indiqué (défaut : all).
+  --quality <n>          Override global de la qualité WebP (0-100).
+  --update-references    Migre les références YAML/CSS/JS après conversion.
+  --clean                Liste les PNG candidats à la suppression (dry-run).
+  --clean --confirm      Supprime les PNG validés (WebP valide, refs migrées, Git propre).
+  --force-clean          Contourne la garde Git (CI ou post-squash).
+  -h, --help             Affiche l'aide.
+```
+
+### Gardes cumulatives du nettoyage PNG
+
+Un PNG n'est supprimé que si **toutes** les conditions suivantes sont réunies (dans l'ordre) :
+
+1. **Git propre** — dépôt sans modifications non commitées (sauf `--force-clean`)
+2. **Pas de collision** — deux sources différentes ne produisent pas le même WebP
+3. **WebP valide** — le WebP est lisible par Sharp
+4. **WebP plus petit** — le WebP est strictement plus petit que le PNG source
+5. **Aucune référence résiduelle** — aucun YAML/CSS/JS ne pointe encore vers ce PNG
+
+### Manifeste de conversion
+
+Après `--write`, un fichier `conversion-manifest.json` trace les réglages appliqués et les empreintes des sources. À la prochaine exécution, un WebP déjà à jour (même source, même profil) est ignoré. Un WebP produit par un outil tiers (sans entrée dans le manifeste) est également conservé sans réencodage.
+
+### Rapport JSON
+
+Chaque exécution produit un rapport détaillé dans `reports/media-optimize-<horodatage>.json` : statistiques par profil, économies en octets, liste des PNG conservés avec motif, erreurs éventuelles.
+
+### Diagnostic rapide
+
+| Symptôme | Vérification |
+|---|---|
+| WebP plus lourd signalé | Normal sur icônes très simples ; le PNG est conservé automatiquement |
+| PNG non supprimé après `--clean --confirm` | Vérifier `reports/` → colonne `keptPng` avec motif (`no_webp`, `collision`, `webp_invalid`, `webp_larger`, `refs_remaining`) |
+| `media:optimize:audio` ne trouve pas FFmpeg | Installer FFmpeg et vérifier qu'il est dans le `PATH` |
+| Références non migrées | Relancer avec `--update-references` ; vérifier `compendiums/`, `styles/`, `scripts/`, `src/` |
+| Vignettes Foundry converties par erreur | Elles suivent le motif `assets/scenes/thumb-*.webp` — vérifier que `FOUNDRY_THUMBNAIL_PATTERN` dans `media.config.mjs` couvre bien le cas |
 
 ---
 
