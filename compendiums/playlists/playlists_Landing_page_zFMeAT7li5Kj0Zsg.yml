@@ -3,7 +3,7 @@ name: Landing page
 _id: zFMeAT7li5Kj0Zsg
 sounds:
   - name: Na When Life Was Slower Durotar Music Ambience
-    path: modules/warbound-campaign-content/assets/musics/ambient/durotar/na-when-life-was-slower...-durotar-music-ambience.ogg
+    path: modules/au-nom-de-la-horde-audio/assets/musics/ambient/durotar/na-when-life-was-slower...-durotar-music-ambience.ogg
     channel: ''
     volume: 0.41
     repeat: false

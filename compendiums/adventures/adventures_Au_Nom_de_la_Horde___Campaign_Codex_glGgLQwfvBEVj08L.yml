@@ -79373,7 +79373,7 @@ scenes:
           marker: null
           markerCustom: false
         defaultHoverSound: preset:fantasy_doorclose_4
-        soundSrc: modules/warbound-campaign-content/assets/musics/ambient/durotar/na-when-life-was-slower...-durotar-music-ambience.ogg
+        soundSrc: modules/au-nom-de-la-horde-audio/assets/musics/ambient/durotar/na-when-life-was-slower...-durotar-music-ambience.ogg
         soundLoop: true
         soundVolume: 0.5
         labelInterface: true

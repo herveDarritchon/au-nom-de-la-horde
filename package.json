@@ -21,7 +21,16 @@
     "media:optimize:audio": "node ./tools/optimizeAudio.mjs --dry-run",
     "media:optimize:audio:write": "node ./tools/optimizeAudio.mjs --write",
     "media:optimize:video": "node ./tools/mediaOptimize.mjs --type video --dry-run",
-    "media:optimize:video:write": "node ./tools/mediaOptimize.mjs --type video --write"
+    "media:optimize:video:write": "node ./tools/mediaOptimize.mjs --type video --write",
+    "media:music:refs:audit": "node ./tools/auditMusicPaths.mjs",
+    "media:music:refs:check": "node ./tools/auditMusicPaths.mjs --check",
+    "media:music:refs:write": "node ./tools/auditMusicPaths.mjs --write",
+    "media:music:module:check": "node ./tools/checkMusicIntegration.mjs",
+    "media:music:module:fix": "node ./tools/checkMusicIntegration.mjs --fix",
+    "media:music:assets:check": "node ./tools/checkMusicIntegration.mjs --require-audio-root",
+    "media:music:lfs:status": "node ./tools/checkMusicLfs.mjs",
+    "media:music:verify": "pnpm media:music:refs:check && pnpm media:music:module:check",
+    "build:verified": "pnpm media:music:verify && pnpm build && pnpm test"
   },
   "devDependencies": {
     "@foundryvtt/foundryvtt-cli": "^3.0.4",

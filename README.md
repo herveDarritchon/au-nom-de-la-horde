@@ -1,3 +1,17 @@
+# Au Nom de la Horde — Warbound pour Foundry VTT
+
+Documentation du module Foundry `warbound-campaign-content` : publication des compendiums, gestion de la bibliothèque musicale externe, outils MJ (météo) et importateurs COF2/Warbound. Les sources des compendiums sont dans `compendiums/` ; les packs dans `packs/` sont générés.
+
+## Sommaire
+
+- [Processus de release](#-processus-de-release)
+- [Bibliothèque musicale externalisée et migration hors de Git LFS](#-bibliothèque-musicale-externalisée-et-migration-hors-de-git-lfs)
+- [Générateur de météo](#️-générateur-de-météo)
+- [Importateur de rencontres COF2](#-importateur-de-rencontres-cof2)
+- [Importateur Warbound Markdown](#-importateur-warbound-markdown)
+
+---
+
 ## 🚀 Processus de release
 
 Les releases du module Warbound sont construites automatiquement par GitHub Actions.
@@ -24,6 +38,211 @@ compendiums/*.yml
      module.zip
         ↓
    GitHub Release
+```
+
+> **À distinguer de la bibliothèque musicale :** cette chaîne concerne la release du module principal. La bibliothèque OGG est publiée séparément comme ressource du module `au-nom-de-la-horde-audio`.
+
+---
+
+## 🎵 Bibliothèque musicale externalisée et migration hors de Git LFS
+
+Cette section documente la distribution des musiques utilisées par **Au Nom de la Horde**. L'objectif est de conserver les pistes musicales disponibles dans Foundry VTT tout en évitant de les intégrer au dépôt Git et aux archives de mise à jour du module principal.
+
+### Architecture et conventions
+
+| Élément | Valeur |
+|---|---|
+| Dépôt principal | `warbound-campaign-content` |
+| ID Foundry principal | `warbound-campaign-content` |
+| Dépôt audio | [`herveDarritchon/au-nom-de-la-horde-audio`](https://github.com/herveDarritchon/au-nom-de-la-horde-audio) |
+| ID Foundry audio | `au-nom-de-la-horde-audio` |
+| Bibliothèque musicale | `assets/musics/ambient/` (`durotar/` et `official/`) |
+| Contenu au moment de la migration | 56 OGG, environ 555 Mio |
+| Release audio initiale | [`v1.0.0`](https://github.com/herveDarritchon/au-nom-de-la-horde-audio/releases/tag/v1.0.0) |
+| Manifeste de distribution | [`module.json` de la dernière release audio](https://github.com/herveDarritchon/au-nom-de-la-horde-audio/releases/latest/download/module.json) |
+
+Deux modules Foundry coexistent :
+
+```text
+Dépôt principal                              Dépôt audio
+warbound-campaign-content/                   au-nom-de-la-horde-audio/
+├── module.json (requires → module audio)    ├── module.json (dans la release)
+├── compendiums/ (YAML, sources de vérité)    ├── assets/musics/ambient/ (sources locales ignorées par Git)
+├── packs/ (LevelDB généré)                  ├── tools/releaseAudio.mjs
+└── tools/                                    └── dist/audio-release/ (archives locales ignorées par Git)
+       │                                                │
+       └── release Warbound (code + packs)               └── GitHub Release audio (ZIP + manifeste)
+                         └──────── installation des deux modules dans Foundry ────────┘
+```
+
+Les chemins musicaux contenus dans les compendiums sources doivent pointer vers le module audio :
+
+```text
+Avant : modules/warbound-campaign-content/assets/musics/ambient/official/012-durotar-original-wow-music.ogg
+Après : modules/au-nom-de-la-horde-audio/assets/musics/ambient/official/012-durotar-original-wow-music.ogg
+```
+
+Le nom du fichier et les sous-répertoires `durotar/` et `official/` ne changent pas. Le fichier `module.json` du module principal doit déclarer **`au-nom-de-la-horde-audio` dans `relationships.requires`**, tandis que `co2` reste dans `systems` et `item-piles` dans `recommends`.
+
+### Prérequis de développement
+
+- Node.js et pnpm configurés conformément au projet (`packageManager` : `pnpm@11.24.0` dans le `package.json` fourni).
+- Les scripts du dépôt principal `tools/auditMusicPaths.mjs`, `tools/checkMusicIntegration.mjs` et `tools/checkMusicLfs.mjs` doivent être présents pour les commandes décrites ci-dessous.
+- Pour vérifier l'existence réelle des pistes, le dépôt audio doit être accessible par défaut à `../au-nom-de-la-horde-audio` ; sinon, renseigner explicitement son emplacement.
+- Pour publier les releases audio : GitHub CLI (`gh`) authentifié, dans le **dépôt audio**. Aucun accès réseau n'est nécessaire pour les contrôles locaux du dépôt principal.
+
+### Catalogue des commandes `pnpm` du dépôt principal
+
+Les **18 scripts existants** sont conservés ; les **9 commandes suivantes** complètent le `package.json` enrichi :
+
+| Commande | Action | Modifie des fichiers ? |
+|---|---|---|
+| `pnpm media:music:refs:audit` | Recherche les anciens chemins `modules/warbound-campaign-content/assets/musics/ambient/` dans les fichiers texte éligibles | Non |
+| `pnpm media:music:refs:check` | Même recherche, avec **code de sortie non nul** si une ancienne référence est détectée (utile en CI) | Non |
+| `pnpm media:music:refs:write` | Remplace les anciennes références par `modules/au-nom-de-la-horde-audio/assets/musics/ambient/` | **Oui**, fichiers texte |
+| `pnpm media:music:module:check` | Contrôle le manifeste Foundry et vérifie les OGG référencés si le dépôt audio voisin est présent | Non |
+| `pnpm media:music:module:fix` | Déplace/maintient l'entrée audio dans `relationships.requires` sans enlever `co2` ni `item-piles` | **Oui**, `module.json` |
+| `pnpm media:music:assets:check` | Exige la présence du dépôt audio local et vérifie les fichiers OGG référencés par les sources | Non |
+| `pnpm media:music:lfs:status` | Affiche l'état du suivi Git/LFS des musiques ; aucune suppression | Non |
+| `pnpm media:music:verify` | Enchaîne `refs:check` puis `module:check` | Non |
+| `pnpm build:verified` | Enchaîne `media:music:verify`, `build` et `test` | **Oui**, packs générés par `build` |
+
+**Nuance importante :** `media:music:module:check` et `media:music:verify` peuvent réussir **sans dépôt audio voisin**, avec un avertissement : les OGG ne sont alors pas vérifiés sur disque. Utiliser `media:music:assets:check` lorsqu'une validation stricte de la présence des fichiers est souhaitée. Ces commandes ne contactent pas GitHub pour vérifier les assets de release distants.
+
+Les commandes historiques continuent de fonctionner. Parmi les plus utiles :
+
+| Commande existante | Usage |
+|---|---|
+| `pnpm packs:audit` | Audit des chemins de ressources du projet |
+| `pnpm packs:build` | Compilation YAML → LevelDB (`packs/`) |
+| `pnpm build` | `packs:audit` puis `packs:build` |
+| `pnpm test` | Exécution des tests Node.js |
+| `pnpm media:scan` | Inventaire des médias |
+| `pnpm media:optimize:audio` | Simulation d'optimisation audio, sans écriture |
+| `pnpm media:optimize:audio:write` | Optimisation audio avec écriture : contrôler les fichiers modifiés |
+
+### Parcours de validation — dépôt principal
+
+Exécuter depuis la racine de `warbound-campaign-content` :
+
+```bash
+# 1. Vérifier qu'aucun ancien chemin vers le module principal ne subsiste.
+pnpm media:music:refs:check
+
+# 2. Corriger, si nécessaire, la dépendance audio du manifeste (opération d'écriture).
+pnpm media:music:module:fix
+
+# 3. Vérifier les références musicales et leur présence dans le dépôt voisin.
+pnpm media:music:assets:check
+
+# 4. Compiler les compendiums et exécuter les tests.
+pnpm build:verified
+
+# 5. Inspecter les différences produites et le suivi des fichiers.
+git status --short
+git diff --stat
+git diff -- module.json package.json compendiums/
+
+# 6. Consulter l'état de la migration LFS (lecture seule).
+pnpm media:music:lfs:status
+```
+
+Si l'audit des chemins trouve encore des références obsolètes, examiner son rapport puis lancer `pnpm media:music:refs:write` et contrôler `git diff`. L'ancienne migration a identifié **trois références** réparties entre le codex de campagne et deux playlists (`Durotar voyage`, `Landing page`) ; un nouvel audit après correction avait trouvé **zéro occurrence résiduelle**. Ce résultat concerne uniquement les sources textuelles examinées.
+
+Pour vérifier les fichiers audio situés ailleurs que dans le dossier voisin par défaut :
+
+```bash
+node tools/checkMusicIntegration.mjs \
+  --audio-root /chemin/vers/au-nom-de-la-horde-audio \
+  --require-audio-root
+```
+
+**Compilation et données Foundry :** `compendiums/` contient les sources YAML ; `packs/` est régénéré par `pnpm packs:build`. Une modification du YAML ne met **pas** à jour une playlist déjà importée dans un monde Foundry : tester sur une copie de monde, puis migrer les documents déjà importés séparément.
+
+**Limite des audits :** `pnpm packs:audit` est un script historique distinct. S'il signale les chemins du module audio comme fichiers manquants dans le dépôt principal, il faudra mettre à jour sa logique de résolution des références externes, sans supprimer globalement ces contrôles.
+
+### Publier une version musicale — dépôt audio exclusivement
+
+Les commandes ci-dessous s'exécutent depuis `au-nom-de-la-horde-audio` et **non** depuis le dépôt principal :
+
+```bash
+# Contrôler les sources musicales locales.
+node tools/releaseAudio.mjs --check
+
+# Construire localement une NOUVELLE version de l'archive.
+node tools/releaseAudio.mjs --version 1.0.1
+
+# Vérifier le ZIP et le manifeste générés.
+unzip -tq dist/audio-release/v1.0.1/au-nom-de-la-horde-audio.zip
+unzip -p dist/audio-release/v1.0.1/au-nom-de-la-horde-audio.zip module.json | jq .
+
+# Publier seulement après validation technique et des droits de distribution.
+node tools/releaseAudio.mjs --version 1.0.1 --publish
+
+# Confirmer les deux assets de la release sur GitHub.
+gh release view v1.0.1 \
+  --repo herveDarritchon/au-nom-de-la-horde-audio \
+  --json assets --jq '.assets[] | [.name, .size] | @tsv'
+```
+
+La version audio **`v1.0.0` a déjà été publiée**, selon le journal de publication. Ne pas republier ce tag pour une nouvelle évolution. Le script conserve une archive locale existante lorsque son contrôle la juge réutilisable ; les tags de release doivent rester cohérents avec la version et l'URL `download` de leur manifeste.
+
+Dans le dépôt audio, exclure de Git les sources musicales locales et les archives de distribution :
+
+```gitignore
+/assets/musics/ambient/
+/dist/audio-release/
+```
+
+**Note sur la redistribution :** les noms de fichiers fournis suggèrent des musiques originales de *World of Warcraft*. Une publication publique doit être couverte par les autorisations ou licences nécessaires ; une release techniquement valide n'établit pas ces droits.
+
+### Finaliser le retrait de Git LFS — après les tests Foundry
+
+Avant toute suppression de l'index Git, vérifier dans Foundry que le module audio s'installe depuis son manifeste, que Warbound reconnaît la dépendance, que les packs reconstruits pointent vers les nouveaux chemins et que les playlists fonctionnent réellement. Tester également une copie de monde contenant des playlists anciennement importées.
+
+Puis, **uniquement dans le dépôt principal** :
+
+```bash
+# État du suivi avant modification.
+pnpm media:music:lfs:status
+
+# Ajouter cette règle à .gitignore, si elle n'existe pas déjà :
+# /assets/musics/ambient/
+
+# Examiner .gitattributes et retirer/adapter les règles LFS qui ne sont plus utiles
+# sans casser les éventuels autres fichiers encore suivis par LFS.
+
+# Retirer les musiques de l'index Git, sans les effacer du disque local.
+git rm -r --cached -- assets/musics/ambient/
+
+# Vérifier explicitement les suppressions indexées.
+git status --short
+git diff --cached --stat
+
+# Vérifier qu'aucune musique n'est encore suivie.
+git ls-files assets/musics/ambient/
+git lfs ls-files
+```
+
+**Ne pas committer à l'aveugle :** vérifier les chemins listés par `git lfs ls-files`, préserver les autres fichiers utilisant LFS et s'assurer que `.gitignore` et `.gitattributes` ont bien été adaptés. Un `git rm --cached` n'efface pas les anciens objets LFS déjà conservés côté GitHub et ne réduit donc pas automatiquement le stockage historique facturé.
+
+**Contrôler les releases du module principal :** des fichiers ignorés par Git peuvent rester présents dans le répertoire de travail et être inclus par un `zip`/`tar` exécuté sans filtrage. Inspecter le workflow GitHub Actions et vérifier que l'archive `module.zip` du module principal n'embarque plus `assets/musics/ambient/`. Les releases audio demeurent indépendantes des releases de code.
+
+```bash
+rg -n 'lfs:|git lfs|assets/musics/ambient|upload-artifact|zip|tar' .github/workflows tools package.json
+```
+
+### Diagnostic rapide
+
+| Symptôme | Vérification |
+|---|---|
+| `media:music:refs:check` échoue | Lancer `refs:audit`, corriger les YAML/scripts, puis relancer le contrôle |
+| `media:music:module:check` échoue | Inspecter `module.json`, utiliser `module:fix` puis relire le diff |
+| `media:music:assets:check` indique des OGG manquants | Vérifier le dépôt audio voisin, le chemin `--audio-root` et les noms exacts |
+| `pnpm build:verified` échoue au stade `packs:audit` | Examiner l'auditeur des ressources externes avant de le modifier |
+| Les packs sont corrects mais une playlist de monde reste cassée | La playlist importée possède encore l'ancien chemin ; la migrer dans le monde |
+| Le ZIP principal reste volumineux | Vérifier l'empaquetage du workflow, pas seulement `.gitignore` |
+| Les alertes Git LFS persistent | Vérifier la facturation et les anciens objets côté GitHub ; le retrait de l'index ne purge pas l'historique |
 
 ---
 
@@ -247,7 +466,7 @@ Trois points d'entrée :
 - Vérifier les **plages** :
 
   | Entrée | Poids | Plage attendue |
-  |--------|------:|---------------|
+    |--------|------:|---------------|
   | A      | 1     | 1             |
   | B      | 2     | 2–3           |
   | C (inactif) | — | absent   |

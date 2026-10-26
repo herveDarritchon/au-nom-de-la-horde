@@ -3,7 +3,7 @@ name: Durotar voyage
 _id: 0YPM0bkDJiq4tEk7
 sounds:
   - name: Na Durotar Music Ambience World Of Warcraft
-    path: modules/warbound-campaign-content/assets/musics/ambient/durotar/na-durotar-music-ambience-world-of-warcraft.ogg
+    path: modules/au-nom-de-la-horde-audio/assets/musics/ambient/durotar/na-durotar-music-ambience-world-of-warcraft.ogg
     channel: ''
     volume: 0.5
     repeat: false

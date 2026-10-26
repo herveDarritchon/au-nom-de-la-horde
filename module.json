@@ -41,7 +41,7 @@
       "type": "Scene",
       "ownership": {
         "PLAYER": "NONE",
-        "TRUSTED":  "NONE",
+        "TRUSTED": "NONE",
         "ASSISTANT": "OWNER"
       }
     },
@@ -52,7 +52,7 @@
       "type": "Adventure",
       "ownership": {
         "PLAYER": "NONE",
-        "TRUSTED":  "NONE",
+        "TRUSTED": "NONE",
         "ASSISTANT": "OWNER"
       },
       "system": "co2"
@@ -64,7 +64,7 @@
       "type": "Item",
       "ownership": {
         "PLAYER": "NONE",
-        "TRUSTED":  "NONE",
+        "TRUSTED": "NONE",
         "ASSISTANT": "OWNER"
       },
       "system": "co2"
@@ -76,7 +76,7 @@
       "type": "Actor",
       "ownership": {
         "PLAYER": "NONE",
-        "TRUSTED":  "NONE",
+        "TRUSTED": "NONE",
         "ASSISTANT": "OWNER"
       },
       "system": "co2"
@@ -88,7 +88,7 @@
       "type": "Playlist",
       "ownership": {
         "PLAYER": "NONE",
-        "TRUSTED":  "NONE",
+        "TRUSTED": "NONE",
         "ASSISTANT": "OWNER"
       }
     },
@@ -136,6 +136,13 @@
           "verified": "3.3.4",
           "maximum": "3.3.4"
         }
+      }
+    ],
+    "requires": [
+      {
+        "id": "au-nom-de-la-horde-audio",
+        "type": "module",
+        "manifest": "https://github.com/herveDarritchon/au-nom-de-la-horde-audio/releases/latest/download/module.json"
       }
     ]
   },
