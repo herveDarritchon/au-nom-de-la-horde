@@ -1,0 +1,2146 @@
+name: S01 — Guide MJ de table
+flags:
+  campaign-codex:
+    type: ''
+  core:
+    sheetClass: ''
+_id: 62HEbrCjoNoL49xi
+pages:
+  - _id: i6kADn67zrr1GW2H
+    name: 00 · Tableau de bord
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h2 style="border-bottom:1px solid
+        rgba(150,115,60,.45);padding-bottom:5px">AU NOM DE LA HORDE — SESSION
+        1</h2>
+
+        <h2 style="margin-top:1em">Le mât rouge et l’escorte de Mâche-Roc</h2>
+
+        <p><strong>GUIDE DE TABLE · MJ UNIQUEMENT · WARBOUND / COF2 · 4 PJ
+        NIVEAU 1</strong><br>
+
+        Vallée des Épreuves → mine de Roche-Sèche → Tranchecolline<br>
+
+        Adaptation opérationnelle du <em>Guide MJ V5 consolidé (25 octobre
+        2026)</em>. Les propositions de rythme et d’arbitrage ci-dessous sont
+        des aides de maîtrise, pas de nouveaux faits canoniques.</p>
+
+        <h2 style="border-bottom:1px solid
+        rgba(150,115,60,.45);padding-bottom:5px">00 — TABLEAU DE BORD : GARDER
+        SOUS LES YEUX</h2>
+
+        <p><strong>La séance en une phrase.</strong> Quatre recrues nouvellement
+        réunies livrent des vivres à Tranchecolline et escortent le chargement
+        d’une foreuse depuis Roche-Sèche. Elles affrontent des dangers distincts
+        ; à l’arrivée, il apparaît que la foreuse avait déjà disparu avant leur
+        prise en charge.</p>
+
+        <table class="table-striped"
+        style="border-collapse:collapse;width:100%;margin:12px
+        0;font-size:0.95em">
+
+        <thead>
+
+        <tr>
+
+        <th style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.45);text-align:left">Temps de table*</th>
+
+        <th style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.45);text-align:left">Scène</th>
+
+        <th style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.45);text-align:left">Ce que les joueurs décident /
+        obtiennent</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">0–30 min</td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"><strong>Le mât
+        rouge</strong></td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Jazty et Sorez finissent un
+        entraînement ; Gurok lit des traces ; Volzan revient des collines.
+        Scorpide et chute du mât <strong>facultatifs</strong>.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">30–45 min</td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"><strong>Gornek</strong></td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Affectation officielle ; Jazty
+        chef du détachement ; rappel de Galadar à Gurok ; avertissement
+        Kolkar.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">45–60 min</td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"><strong>Le kodo</strong></td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Arrimage, responsabilités,
+        route et vigilance.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">60–105 min</td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"><strong>Les
+        Kolkar</strong></td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Protéger le kodo de vivres :
+        combat, discussion, ruse ou détour. <strong>Avant la mine.</strong></td>
+
+        </tr>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">105–120 min</td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"><strong>Reprendre la
+        route</strong></td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Vivres perdus ou sauvés,
+        blessures, temps écoulé. Scène compressible.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">120–155 min</td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"><strong>Roche-Sèche</strong></td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Rukha accueille selon l’état du
+        groupe ; quatre caisses scellées <strong>déjà chargées</strong> ;
+        inspection possible.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">155–195 min</td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"><strong>Les
+        sangliers</strong></td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Sauver travailleurs, attelages
+        et chariot ; anomalie magique perceptible.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">195–225 min</td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"><strong>Tiragarde</strong></td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Négocier ou gérer une
+        patrouille humaine ; combattre n’est pas obligatoire.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">225–250 min</td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"><strong>Tranchecolline</strong></td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Valider <strong>d’abord les
+        vivres</strong>, ouvrir les caisses, découvrir les pierres ou
+        officialiser un vol déjà découvert.</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <p>*Repères pour une séance de <strong>4 à 5 h</strong> ; ce ne sont ni
+        des horaires dans la fiction ni des scènes obligatoirement consommées
+        jusqu’au bout.</p>
+
+        <p style="border-left:3px solid #b56d31;padding:7px
+        10px;background:rgba(181,109,49,0.07)"><strong>Ne jamais inverser les
+        deux chargements :</strong> ① un seul <strong>kodo de bât</strong>
+        quitte la Vallée, avec les vivres de Tranchecolline ; ② à
+        <strong>Roche-Sèche</strong>, il rejoint les <strong>chariots et kodos
+        de traction</strong> déjà chargés pour Mâche-Roc. Les Kolkar s’attaquent
+        au premier, avant Roche-Sèche. Les sangliers et les humains apparaissent
+        après le départ de la mine.</p>
+
+        <p style="border-left:4px solid #9e2e2e;padding:8px
+        12px;background:rgba(190,40,40,.10);font-weight:bold"><strong>LES QUATRE
+        VÉRITÉS À NE PAS PERDRE (MJ).</strong></p>
+
+        <ul>
+
+        <li><strong>Krosh Pèse-Charge</strong> a participé à la substitution des
+        quatre caisses <strong>avant l’arrivée des PJ</strong>. Les sceaux
+        couvrent déjà des pierres et du remblai.</li>
+
+        <li><strong>Les Kolkar</strong> cherchent uniquement de la nourriture
+        et, si possible, le kodo ; ils ignorent tout de Mâche-Roc.</li>
+
+        <li><strong>Un chaman du Cercle de la Pierre Brisée</strong> perturbe à
+        distance les sangliers. Les PJ n’en découvrent pas automatiquement
+        l’origine.</li>
+
+        <li><strong>Yarrog surveille Sorez sur ordre de Neeru Lamefeu</strong>,
+        mais reste à l’arrière-plan ce soir. <strong>Le scorpide du mât est
+        ordinaire</strong> : pas Sarkoth, pas un agent du complot.</li>
+
+        </ul>
+
+        <p style="border-left:3px solid #b56d31;padding:7px
+        10px;background:rgba(181,109,49,0.07)"><strong>Si l’heure tourne
+        :</strong> terminer à <strong>Roche-Sèche</strong> avec les caisses en
+        attente, ou après la <strong>charge des sangliers</strong>. Ne précipite
+        pas Tiragarde et l’épilogue pour cocher toutes les cases. Si la
+        révélation arrive tôt, jouer les réactions ; ne pas la refermer.</p>
+      markdown: ''
+    sort: 100000
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1793042400689
+      modifiedTime: 1793042400689
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!62HEbrCjoNoL49xi.i6kADn67zrr1GW2H'
+  - _id: nb5fofpdEjgEnxmY
+    name: 00 bis · Les quatre PJ
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h2 style="border-bottom:1px solid
+        rgba(150,115,60,.45);padding-bottom:5px">00 BIS — LES PJ ET LES RÉFLEXES
+        DU MJ</h2>
+
+        <table class="table-striped"
+        style="border-collapse:collapse;width:100%;margin:12px
+        0;font-size:0.95em">
+
+        <thead>
+
+        <tr>
+
+        <th style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.45);text-align:left">PJ</th>
+
+        <th style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.45);text-align:left">Lui donner une première
+        prise</th>
+
+        <th style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.45);text-align:left">Lui rendre la main plus tard</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"><strong>Jazty</strong>, paladin
+        sin’dorei</td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Dernière passe contre Sorez ; «
+        Qu’essaies-tu de lui apprendre ? »</td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Chef du détachement,
+        <strong>pas</strong> supérieur de Rukha. Répartir les rôles, décider
+        face aux Kolkar et aux humains.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"><strong>Sorez</strong>, troll
+        démoniste</td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Réagir librement à
+        l’entraînement ; aucun résultat imposé.</td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Lire les signes d’une influence
+        magique, employer sa magie sans interprétation forcée. Yarrog en toile
+        de fond seulement.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"><strong>Gurok</strong>, orc
+        chasseur</td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Observer des indices discrets
+        au sol près du chantier.</td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Pister, choisir une route, voir
+        venir les Kolkar ; remarque de Gornek sur son père, Galadar
+        d’Alterac.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"><strong>Volzan</strong>, troll
+        chaman</td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Descendre des hauteurs après un
+        recueillement ; scorpides dérangés.</td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Rapports aux animaux et aux
+        esprits, sangliers anormaux. Son ami a survécu à l’attaque de Sarkoth
+        avec des séquelles ; <strong>détails non définis</strong>.</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <p><strong>Cinq règles de conduite :</strong> (1) Une description
+        courte, puis <strong>« Que faites-vous ? »</strong> ; (2) attendre que
+        <strong>les quatre PJ aient joué</strong> avant tout incident du mât ;
+        (3) les PNJ veulent quelque chose, ils ne distribuent pas des
+        cinématiques ; (4) si une action logique révèle un indice,
+        <strong>donne-le</strong>, sans exiger un jet gratuit ; (5) leurs
+        réussites sont vraies, même lorsque le vol est révélé.</p>
+
+        <p><strong>Résolution rapide.</strong> Ne jette les dés que lorsqu’une
+        issue est incertaine et intéressante. Pour la marche, si tu appliques
+        les rôles Warbound : <strong>Guide = INT (Survie)</strong>,
+        <strong>Éclaireur = PER (Survie)</strong>, <strong>Voyageurs = CON
+        (Survie)</strong>, sur <strong>un seul test collectif de
+        journée</strong> ; vigilance d’embuscade séparée si pertinente. Utilise
+        les difficultés, caractéristiques et blocs de créatures de tes fiches
+        Warbound/COF2. <strong>Ce guide ne remplace pas les profils chiffrés des
+        adversaires.</strong></p>
+
+        <p><strong>État à noter, pas à comptabiliser au kilo :</strong> kodo
+        (indemne / blessé / perdu), vivres (intacts / perte partielle / perte
+        majeure), temps (à l’heure / retard limité / fort retard), blessés,
+        inspection des caisses (oui/non), identité connue de Krosh, attitude de
+        Rukha, issue Tiragarde.</p>
+      markdown: ''
+    sort: 200000
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1793042400689
+      modifiedTime: 1793042400689
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!62HEbrCjoNoL49xi.nb5fofpdEjgEnxmY'
+  - _id: xvWzJSzKSUw3PEYd
+    name: 01 · Le mât rouge
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h2 style="border-bottom:1px solid
+        rgba(150,115,60,.45);padding-bottom:5px">01 — LE MÂT ROUGE : FAIRE
+        NAÎTRE LE GROUPE</h2>
+
+        <p><strong>Fonction.</strong> Présenter un Durotar vivant et une Horde
+        qui accueille de nouvelles recrues. Faire parler et agir <strong>Jazty,
+        Sorez, Gurok puis Volzan</strong> dans un espace continu. Ne pas
+        fabriquer d’amitié antérieure.</p>
+
+        <p style="margin:12px 0 4px;font-weight:bold"><strong>À DIRE —
+        ouverture.</strong>
+
+        Le bois frappe le bois dans l’air chaud de la Vallée des Épreuves.
+        Devant l’Antre, des recrues achèvent leurs exercices. Plus loin, les
+        maillets cognent : des péons aménagent un nouveau terrain d’accueil et
+        d’entraînement. Un mât de bois neuf repose à côté d’une fosse
+        fraîchement creusée. Dans l’aire d’exercice, Jazty et Sorez sont engagés
+        dans leur dernière passe.</p>
+
+        <blockquote style="border-left:4px solid #b56d31;padding:7px
+        13px;margin:4px 0 15px;background:rgba(181,109,49,0.09)"><p><strong>1 —
+        Donner la parole à Jazty et Sorez.</strong> « Jazty, qu’essaies-tu de
+        lui apprendre ou de vérifier ? » « Sorez, comment t’y prends-tu ? »
+        L’exercice peut finir sur un geste, une discussion, une feinte ou un
+        test <strong>facultatif</strong> ; n’impose ni vainqueur ni
+        chute.</p></blockquote>
+
+        <p><strong>2 — Raccorder à Gurok.</strong> Lors d’un temps de
+        respiration, montrer Gurok accroupi près de pierres au bord du chantier
+        : brindille cassée bas, poussière fraîche, petits cailloux déplacés. «
+        Gurok, comment cherches-tu à comprendre ce passage ? » Si ses gestes le
+        justifient, ajouter des frottements de carapace ou une piste vers le
+        mât. <strong>Ne dis pas “scorpide” d’entrée</strong> : les signes sont
+        d’abord ambigus.</p>
+
+        <p><strong>3 — Faire arriver Volzan sans coupe ni flashback.</strong>
+        Des pas roulent sur le gravier ; Volzan revient des hauteurs, où il
+        s’est recueilli. Il a remarqué des scorpides quittant des abris rocheux
+        depuis que l’on remue la terre. « Volzan, qu’est-ce qui te préoccupe ?
+        Et que fais-tu en voyant Gurok ? » Laisser les PJ rapprocher — ou non —
+        leurs observations.</p>
+
+        <p><strong>4 — Laisser les relations se faire.</strong> Deux à quatre
+        minutes d’échanges spontanés peuvent suffire ; aucun PNJ n’a besoin de
+        commenter leurs pensées. Thazz’rill dirige le chantier. Yarrog peut
+        apparaître <strong>une seule fois</strong>, aidant une autre recrue,
+        sans aborder Sorez.</p>
+
+        <p><strong>OPTION — incident du mât, uniquement si les 4 PJ ont
+        agi.</strong> Un <strong>scorpide ordinaire</strong> dérangé émerge près
+        de la fosse. Un péon effrayé risque de lâcher une corde ; le mât menace
+        alors de basculer. Si les PJ ont anticipé, <strong>pas d’accident
+        forcé</strong>.</p>
+
+        <p style="margin:12px 0 4px;font-weight:bold"><strong>À DIRE — si le
+        danger se déclenche.</strong>
+
+        « TIREZ ! » crie Thazz’rill. Le mât se soulève. Entre les pierres, une
+        carapace sombre remue, puis un dard apparaît. Un ouvrier recule et lâche
+        sa corde ; le bois part de côté. <strong>Que faites-vous ?</strong></p>
+
+        <blockquote style="border-left:4px solid #b56d31;padding:7px
+        13px;margin:4px 0
+        15px;background:rgba(181,109,49,0.09)"><p><strong>Issues :</strong>
+        prévenir, retenir la corde, mettre les péons à l’abri, écarter le
+        scorpide, combattre, laisser passer, ou ne pas intervenir. Les ouvriers
+        réagissent aussi. Note mât sauvé / réparations, éventuel blessé et
+        regard de Thazz’rill. <strong>Ni Sarkoth ni
+        conspiration.</strong></p></blockquote>
+
+        <p><strong>Sortie.</strong> Le chantier reprend, un appel rassemble les
+        recrues devant l’Antre : <strong>Gornek annonce les
+        affectations</strong>. Si le groupe échange déjà bien, coupe l’incident
+        facultatif et avance.</p>
+      markdown: ''
+    sort: 300000
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1793042400689
+      modifiedTime: 1793042400689
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!62HEbrCjoNoL49xi.xvWzJSzKSUw3PEYd'
+  - _id: TEdYHYIgTHE2UFwj
+    name: '02 · Gornek : l’affectation'
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h2 style="border-bottom:1px solid
+        rgba(150,115,60,.45);padding-bottom:5px">02 — GORNEK : L’AFFECTATION ET
+        LES ORDRES</h2>
+
+        <p style="margin:12px 0 4px;font-weight:bold"><strong>À DIRE —
+        rassemblement.</strong>
+
+        Gornek attend devant l’Antre, un rouleau d’ordres à la main. « Votre
+        formation est terminée. Il n’y aura plus un instructeur derrière chacun
+        de vos pas. » Il lit quelques noms. « <strong>Gurok. Sorez. Jazty.
+        Volzan.</strong> Vous quatre, approchez. »</p>
+
+        <blockquote style="border-left:4px solid #b56d31;padding:7px
+        13px;margin:4px 0
+        15px;background:rgba(181,109,49,0.09)"><p><strong>Temps de personnage —
+        Gurok.</strong> Gornek : « <strong>Gurok. Le capitaine Galadar
+        d’Alterac. Ton père.</strong> Je connais son nom. Il serait temps que tu
+        lui fasses honneur, non par tes exercices, mais quand d’autres
+        compteront sur toi. » <strong>Question au joueur :</strong> « Que
+        réponds-tu ? » C’est le jugement <strong>de Gornek</strong>, pas une
+        vérité imposée sur Gurok.</p></blockquote>
+
+        <p><strong>Temps de commandement — Jazty.</strong> Gornek : «
+        <strong>Jazty, tu prendras la tête de ce détachement.</strong> C’est à
+        toi que je demanderai des comptes. Un bon chef écoute ceux qui
+        connaissent la piste. » <strong>Question :</strong> « Adresses-tu
+        quelques mots à tes compagnons ? Répartis-tu les rôles ? » Il commande
+        la sûreté des quatre, <strong>pas Rukha ni les convoyeurs</strong>.</p>
+
+        <p><strong>Avertissement réel.</strong> Gornek montre la piste vers
+        Roche-Sèche, proche des terres de la <strong>combe des Kolkar</strong> :
+        activité récente plus forte, guetteurs et pillards. « Observez les
+        hauteurs. Ne courez pas tous après le premier assaillant.
+        <strong>N’oubliez pas ce que vous protégez. Soyez vigilants.</strong> »
+        Le danger n’est pas une attaque inévitable.</p>
+
+        <p><strong>L’ordre, en deux étapes :</strong></p>
+
+        <ol>
+
+        <li>Partir immédiatement de la Vallée avec <strong>un kodo de
+        bât</strong> : pommes, pommes-cactus de Galgar, viande de sanglier
+        séchée, eau, bois ; destination finale
+        <strong>Tranchecolline</strong>.</li>
+
+        <li>Faire étape à la <strong>mine de Roche-Sèche</strong>, où le convoi
+        <strong>déjà chargé</strong> de la foreuse gobeline
+        <strong>Mâche-Roc</strong> les attend. Rejoindre l’escorte de
+        <strong>Rukha</strong> et conduire <strong>les deux chargements</strong>
+        jusqu’à Tranchecolline. Mâche-Roc doit ensuite servir aux travaux sous
+        Orgrimmar.</li>
+
+        </ol>
+
+        <p><strong>Échéance souple.</strong> Attendus à la mine <strong>vers le
+        milieu du jour</strong> ; arriver tard pourra changer l’accueil ou
+        justifier une nuit sur place, sans faire partir le convoi à leur
+        place.</p>
+
+        <p><strong>Questions utiles :</strong> Qui prend l’ordre ? Qui vérifie
+        le kodo ? Que veulent-ils savoir des Kolkar ? Qui décide l’itinéraire ?
+        Répondre sans cacher des éléments connus pour fabriquer une
+        surprise.</p>
+
+        <p style="margin:12px 0 4px;font-weight:bold"><strong>À DIRE —
+        départ.</strong>
+
+        Le kodo renâcle sous ses sacoches. Galgar vérifie les paniers de
+        pommes-cactus. « Celles-là, c’est pour Tranchecolline. Pas pour votre
+        petit déjeuner… Enfin, pas toutes. » Le mât neuf et la bannière rouge
+        restent derrière vous ; devant, les rochers brûlants de Durotar.</p>
+
+        <blockquote style="border-left:4px solid #b56d31;padding:7px
+        13px;margin:4px 0
+        15px;background:rgba(181,109,49,0.09)"><p><strong>Sortie.</strong> Jazty
+        organise librement la marche ; chacun peut prendre une tâche. <strong>Le
+        kodo de vivres accompagne les quatre PJ, sans chariot de foreuse à ce
+        stade.</strong></p></blockquote>
+      markdown: ''
+    sort: 400000
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1793042400689
+      modifiedTime: 1793042400689
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!62HEbrCjoNoL49xi.TEdYHYIgTHE2UFwj'
+  - _id: 2mUgI4hTuBX2D2Dw
+    name: 03 · La route et les Kolkar
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h2 style="border-bottom:1px solid
+        rgba(150,115,60,.45);padding-bottom:5px">03 — LA ROUTE ET LES KOLKAR :
+        PROTÉGER, PAS “NETTOYER”</h2>
+
+        <p><strong>Situation.</strong> La piste longe la combe des Kolkar.
+        <strong>Trois centaures indicatifs</strong> (effectif à ajuster à tes
+        profils COF2) cherchent à dérober les vivres et éventuellement le kodo.
+        Le chef veut nourrir sa bande et repartir vivant.</p>
+
+        <p><strong>Indices avant le contact :</strong> sabots récents,
+        broussailles foulées, pierre déplacée sur les hauteurs, trace de
+        guetteur. Si Gurok ou un autre repère le dispositif, donne une vraie
+        possibilité : formation différente, approche prudente, cache de vivres,
+        négociation en position favorable ou détour. <strong>Ne rejoue pas quand
+        même une surprise automatique.</strong></p>
+
+        <p style="margin:12px 0 4px;font-weight:bold"><strong>À DIRE — si les PJ
+        arrivent sans avoir neutralisé la menace.</strong>
+
+        La piste se resserre entre deux talus. Le kodo ralentit ; des cailloux
+        roulent d’en haut. Une silhouette disparaît derrière un rocher. Puis une
+        voix : « <strong>Laissez la bête et les sacs. Vous pourrez continuer à
+        pied.</strong> » Deux centaures se montrent sur les hauteurs ; un
+        troisième cherche à atteindre la longe.</p>
+
+        <blockquote style="border-left:4px solid #b56d31;padding:7px
+        13px;margin:4px 0 15px;background:rgba(181,109,49,0.09)"><p><strong>Le
+        terrain en trois zones :</strong> passage du kodo (étroit), roches et
+        talus accessibles, échappée de recul ou de contournement.
+        <strong>Tactique kolkar :</strong> un tente la longe ou une sacoche ;
+        deux couvrent et menacent. Ils rompent le contact si le butin devient
+        trop coûteux.</p></blockquote>
+
+        <table class="table-striped"
+        style="border-collapse:collapse;width:100%;margin:12px
+        0;font-size:0.95em">
+
+        <thead>
+
+        <tr>
+
+        <th style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.45);text-align:left">Approche des PJ</th>
+
+        <th style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.45);text-align:left">Réaction cohérente des
+        Kolkar</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"><strong>Parler / offrir une
+        part de vivres</strong></td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Le chef peut accepter un
+        prélèvement limité pour épargner la troupe ; tenir compte du rapport de
+        force.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"><strong>Protéger le kodo /
+        tenir la piste</strong></td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Pillards cherchent sacs isolés
+        ou une ouverture ; la défense du chargement prime sur les PV
+        ennemis.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"><strong>Contourner / tromper /
+        préparer une embuscade inverse</strong></td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Leur tentative peut échouer ou
+        changer de lieu ; récompense concrète à la prudence.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"><strong>Combattre / capturer /
+        poursuivre</strong></td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Fuite possible ; un captif
+        connaît sa bande et ses besoins, <strong>pas la fraude des
+        caisses</strong>.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"><strong>Céder tout le
+        ravitaillement</strong></td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">La troupe continue, mais
+        Tranchecolline sera privée de vivres ; perte importante à assumer, pas
+        fin de l’aventure.</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <p><strong>Trois enjeux à garder visibles :</strong>
+        <strong>kodo</strong> ; <strong>eau et nourriture</strong> ;
+        <strong>sécurité des compagnons</strong>. Un PJ peut sécuriser l’un de
+        ces enjeux sans “gagner le combat”. Ne place pas toutes les conséquences
+        sur un simple jet.</p>
+
+        <p><strong>Après l’incident — demander :</strong> « Que faites-vous
+        d’abord : soigner, réarrimer, pister, poursuivre ou repartir ? » Noter :
+        cargaison intacte / partielle / majeure ; kodo blessé ? ; pertes
+        humaines ? ; à l’heure / retard limité / fort retard.</p>
+
+        <p><strong>Si les vivres sont perdus :</strong> à Roche-Sèche, les
+        mineurs peuvent éventuellement aider avec des réserves ou accepter une
+        dette ; <strong>ne rétablis pas gratuitement la cargaison</strong>. Si
+        les PJ évitent les Kolkar, <strong>ils ont réussi</strong> : ne les
+        oblige pas à combattre.</p>
+
+        <p><strong>Sortie.</strong> Route vers la mine. Un échange libre entre
+        PJ suffit, sans seconde scène de débrief imposée.</p>
+      markdown: ''
+    sort: 500000
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1793042400689
+      modifiedTime: 1793042400689
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!62HEbrCjoNoL49xi.2mUgI4hTuBX2D2Dw'
+  - _id: NzEJ8DQjJbICwZoz
+    name: 04 · Mine de Roche-Sèche
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h2 style="border-bottom:1px solid
+        rgba(150,115,60,.45);padding-bottom:5px">04 — ROCHE-SÈCHE : LE CONVOI
+        EST DÉJÀ PRÊT</h2>
+
+        <p style="margin:12px 0 4px;font-weight:bold"><strong>À DIRE —
+        arrivée.</strong>
+
+        Un marteau frappe l’acier derrière les ateliers de Roche-Sèche. Dans la
+        cour poussiéreuse, <strong>quatre caisses cerclées de fer</strong> sont
+        déjà fixées sur les chariots, attelés à leurs propres kodos. Des
+        ouvriers attendent. Une Orque au visage fatigué jauge votre troupe et
+        les sacs du kodo. « <strong>Rukha. Je m’occupe du convoi. Vous êtes les
+        gens de Gornek ?</strong> »</p>
+
+        <blockquote style="border-left:4px solid #b56d31;padding:7px
+        13px;margin:4px 0 15px;background:rgba(181,109,49,0.09)"><p><strong>PNJ
+        actifs :</strong> <strong>Rukha</strong>, responsable honnête des
+        convoyeurs (sécurité et bêtes) ; <strong>Borka</strong>, vieux mineur
+        attaché à la foreuse ; <strong>Krosh Pèse-Charge</strong>, responsable
+        des inventaires <strong>complice de la substitution</strong>. La machine
+        avait sauvé <strong>six mineurs</strong> d’un
+        éboulement.</p></blockquote>
+
+        <table class="table-striped"
+        style="border-collapse:collapse;width:100%;margin:12px
+        0;font-size:0.95em">
+
+        <thead>
+
+        <tr>
+
+        <th style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.45);text-align:left">Si les PJ arrivent…</th>
+
+        <th style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.45);text-align:left">Rukha dit / fait…</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"><strong>À l’heure, chargement
+        préservé</strong></td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">« Parfait. On est prêts. Vous
+        pouvez vérifier vos attelages. »</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"><strong>Avec retard
+        limité</strong></td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">« Qu’est-ce qui vous a retenus
+        ? » Écoute le rapport, n’accuse pas automatiquement.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"><strong>À la tombée du
+        jour</strong></td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Propose une nuit sous garde
+        puis le départ à l’aube ; un départ tardif reste discutable.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"><strong>Avec un blessé ou des
+        vivres manquants</strong></td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">S’occupe d’abord des bêtes et
+        des blessés, puis de l’horaire.</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <p><strong>Borka, près d’une caisse.</strong> « Mâche-Roc nous a tirés
+        de là-dessous. Six mineurs. Ramenez-la-nous entière, hein ? »
+        <strong>Krosh</strong>, surtout si quelqu’un veut vérifier : « Les
+        sceaux sont faits, les signatures aussi. On a déjà assez perdu de temps.
+        » Rukha peut autoriser une inspection contradictoire raisonnable.</p>
+
+        <p style="border-left:4px solid #9e2e2e;padding:8px
+        12px;background:rgba(190,40,40,.10);font-weight:bold"><strong>LES QUATRE
+        CAISSES — SECRET MJ :</strong></p>
+
+        <table class="table-striped"
+        style="border-collapse:collapse;width:100%;margin:12px
+        0;font-size:0.95em">
+
+        <thead>
+
+        <tr>
+
+        <th style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.45);text-align:left">Caisse</th>
+
+        <th style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.45);text-align:left">Étiquette officielle</th>
+
+        <th style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.45);text-align:left">Réalité</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"><strong>1</strong></td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Moteur et transmission</td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Pierres et rebuts de
+        ferraille.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"><strong>2</strong></td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Tête de forage</td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Pierres maintenues par du bois
+        de bourrage.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"><strong>3</strong></td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Châssis démonté</td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Pierres et déchets
+        miniers.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"><strong>4</strong></td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Tuyaux et rechanges</td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Roches et quincaillerie
+        banale.</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <p><strong>Indices accessibles sans accusation miracle :</strong> poids
+        très homogène ; graisse surtout <strong>sur l’extérieur</strong> ;
+        bordereaux <strong>signés par Krosh</strong> sans vérification
+        contradictoire devant les PJ. Ouvrir une caisse <strong>révèle les
+        pierres</strong>. Les scellés ne sont pas un obstacle absolu ; si les PJ
+        insistent, Rukha peut faire constater l’ouverture.</p>
+
+        <p><strong>Si le vol est trouvé maintenant :</strong> basculer en
+        enquête et décisions : inspecter les autres caisses, retenir les
+        documents, interroger Krosh, prévenir Gornek, reporter le trajet ou
+        amener la preuve à Tranchecolline. <strong>Ne fais pas partir les
+        caisses pour sauver le twist.</strong> Ne désigne pas Krosh coupable
+        sans éléments observés.</p>
+
+        <p><strong>Si départ normal :</strong> Rukha gère les convoyeurs et
+        attelages, Jazty les quatre PJ. Le <strong>kodo de vivres</strong>
+        rejoint le convoi de la foreuse ; il n’a jamais transporté les pièces de
+        Mâche-Roc.</p>
+
+        <p style="margin:12px 0 4px;font-weight:bold"><strong>À DIRE —
+        convoi.</strong>
+
+        Les chariots s’ébranlent sous les efforts des kodos de traction. Le
+        vôtre marche à côté, chargé des provisions rescapées. Devant l’entrée de
+        la mine, Borka suit longtemps du regard les lourdes caisses avant de
+        retourner au travail.</p>
+
+        <blockquote style="border-left:4px solid #b56d31;padding:7px
+        13px;margin:4px 0
+        15px;background:rgba(181,109,49,0.09)"><p><strong>Sortie.</strong> Faire
+        désigner la nouvelle formation ; une seule respiration relationnelle si
+        elle vient naturellement.</p></blockquote>
+      markdown: ''
+    sort: 600000
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1793042400689
+      modifiedTime: 1793042400689
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!62HEbrCjoNoL49xi.NzEJ8DQjJbICwZoz'
+  - _id: jHGK8fS9xZS405iu
+    name: 05 · La charge des sangliers
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h2 style="border-bottom:1px solid
+        rgba(150,115,60,.45);padding-bottom:5px">05 — LA CHARGE DES SANGLIERS :
+        TROIS URGENCES</h2>
+
+        <p><strong>Vérité MJ.</strong> Un chaman du <strong>Cercle de la Pierre
+        Brisée</strong> a perturbé la harde <strong>à distance</strong> pour
+        ralentir et déstabiliser l’escorte. Aucun chaman ennemi n’apparaît
+        automatiquement sur la piste. Les sangliers ne visent
+        <strong>pas</strong> spécifiquement les vivres.</p>
+
+        <p style="margin:12px 0 4px;font-weight:bold"><strong>À DIRE.</strong>
+
+        Les insectes se taisent. Un kodo secoue la tête. Des branches cassent en
+        cascade ; une harde de sangliers surgit des broussailles, lancée à une
+        vitesse absurde, les yeux affolés. Le premier heurte un chariot, une
+        roue saute sur une pierre, un convoyeur tombe et l’attelage se tend
+        dangereusement. <strong>Que faites-vous ?</strong></p>
+
+        <blockquote style="border-left:4px solid #b56d31;padding:7px
+        13px;margin:4px 0
+        15px;background:rgba(181,109,49,0.09)"><p><strong>Jouer la scène comme
+        une urgence, pas comme une extermination.</strong></p></blockquote>
+
+        <table class="table-striped"
+        style="border-collapse:collapse;width:100%;margin:12px
+        0;font-size:0.95em">
+
+        <thead>
+
+        <tr>
+
+        <th style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.45);text-align:left">Danger immédiat</th>
+
+        <th style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.45);text-align:left">Ce qu’un PJ peut tenter</th>
+
+        <th style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.45);text-align:left">Coût plausible si laissé sans
+        protection</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"><strong>Un convoyeur à
+        terre</strong></td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">L’extraire, couvrir,
+        soigner.</td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Blessure, travailleur
+        immobilisé.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"><strong>Le chariot de Mâche-Roc
+        penche</strong></td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Soulager, retenir, caler
+        l’essieu.</td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Caisse tombée, roue faussée,
+        <strong>contenu dévoilé si brisée</strong>.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"><strong>Les kodos tirent en
+        panique</strong></td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Dételer, rassurer, détourner la
+        charge.</td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Attelage rompu, retard et
+        réparations.</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <p><strong>Arbitrage conseillé (aide MJ, pas règle maison
+        obligatoire).</strong> Au premier tour, énonce les trois urgences ;
+        chaque action pertinente protège, améliore ou réduit un risque. Si un
+        danger est abandonné trop longtemps, applique <strong>une conséquence
+        fictionnelle proportionnée</strong>. Évite l’enchaînement de jets
+        identiques contre la même difficulté ; laisse les pouvoirs et idées des
+        PJ modifier le problème.</p>
+
+        <p><strong>Informations honnêtes :</strong> Gurok remarque <strong>sans
+        jet</strong> que les bêtes foncent contre des obstacles au lieu de les
+        éviter. Après la charge, les traces convergent puis se dispersent de
+        manière peu naturelle. Volzan peut percevoir une perturbation
+        spirituelle et Sorez un résidu de magie, <strong>sans déduire
+        automatiquement le nom du Cercle</strong>. La Lumière de Jazty
+        n’identifie pas à elle seule un rituel chamanique.</p>
+
+        <p><strong>Si une caisse s’ouvre :</strong> les pierres sont visibles,
+        maintenant. Ne retarde pas la découverte par un hasard artificiel ;
+        transformer le reste du parcours en protection d’une preuve et recherche
+        d’explication.</p>
+
+        <p><strong>Sortie.</strong> Soins, état des roues, reprise des
+        attelages, éventuellement question : « Qu’avez-vous vu d’anormal ? »
+        Puis avancer vers Tiragarde.</p>
+      markdown: ''
+    sort: 700000
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1793042400689
+      modifiedTime: 1793042400689
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!62HEbrCjoNoL49xi.jHGK8fS9xZS405iu'
+  - _id: ZTyPrXaIrKhRABmP
+    name: 06 · Tiragarde
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h2 style="border-bottom:1px solid
+        rgba(150,115,60,.45);padding-bottom:5px">06 — TIRAGARDE : LA TENSION
+        SANS COMBAT OBLIGÉ</h2>
+
+        <p><strong>Vérité MJ.</strong> Une patrouille humaine liée aux forces de
+        <strong>Tiragarde</strong> et à l’héritage de <strong>Daelin
+        Portvaillant</strong> suit les mouvements de la Horde. Elle veut de
+        l’information et ne souhaite pas perdre ses hommes dans une escarmouche
+        inutile. <strong>Aucun lien avec le vol.</strong></p>
+
+        <p style="margin:12px 0 4px;font-weight:bold"><strong>À DIRE.</strong>
+
+        Quatre silhouettes humaines émergent entre les rochers. Leurs couleurs
+        sont usées par la poussière. L’un lève la main, paume ouverte ; les
+        armes restent visibles, mais personne ne charge. « <strong>Halte. D’où
+        vient ce convoi ? Et où va-t-il ?</strong> » Son regard passe des
+        caisses scellées au kodo chargé de vivres.</p>
+
+        <blockquote style="border-left:4px solid #b56d31;padding:7px
+        13px;margin:4px 0
+        15px;background:rgba(181,109,49,0.09)"><p><strong>Rukha, à voix basse
+        :</strong> « Vous êtes l’escorte. Moi, je n’ai aucune envie de perdre un
+        kodo parce que quelqu’un veut gagner une dispute. »</p></blockquote>
+
+        <p><strong>Le soldat veut savoir :</strong> provenance, destination,
+        nature apparente du convoi et intention militaire. Il ne connaît pas
+        nécessairement Mâche-Roc. Il peut croire une explication plausible, se
+        tendre sous menace ou accepter une sortie honorable.</p>
+
+        <table class="table-striped"
+        style="border-collapse:collapse;width:100%;margin:12px
+        0;font-size:0.95em">
+
+        <thead>
+
+        <tr>
+
+        <th style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.45);text-align:left">Choix des PJ</th>
+
+        <th style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.45);text-align:left">Ce que la patrouille peut
+        faire</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"><strong>Dire une partie de la
+        vérité / parlementer</strong></td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Questions supplémentaires, puis
+        passage sans combat si l’explication paraît suffisante.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"><strong>Mentir / feinter /
+        contourner</strong></td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Se faire soupçonner, demander
+        des vérifications ou devoir accepter un détour.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"><strong>Invoquer Gornek /
+        montrer l’ordre</strong></td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Évalue le document et les
+        conséquences d’un incident diplomatique.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"><strong>Intimider /
+        attaquer</strong></td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Défense et repli possibles ;
+        descriptions des PJ susceptibles de circuler à Tiragarde.</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <p><strong>Jazty.</strong> Certains soldats peuvent s’étonner d’un
+        paladin sin’dorei aux côtés de la Horde. Pas de discours imposé sur sa
+        loyauté ni de consensus parmi les humains. Offrir la parole au joueur,
+        pas une épreuve d’identité obligée.</p>
+
+        <p><strong>Sortie.</strong> Passage obtenu, détour, rupture ou conflit ;
+        note ce que les humains <strong>ont réellement vu ou appris</strong>. Le
+        convoi continue si la voie est libre.</p>
+      markdown: ''
+    sort: 800000
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1793042400689
+      modifiedTime: 1793042400689
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!62HEbrCjoNoL49xi.ZTyPrXaIrKhRABmP'
+  - _id: Uf4nwuSGehwiw7KZ
+    name: 07 · Tranchecolline
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h2 style="border-bottom:1px solid
+        rgba(150,115,60,.45);padding-bottom:5px">07 — TRANCHECOLLINE : UNE
+        RÉUSSITE, PUIS LE MANQUE</h2>
+
+        <p style="border-left:3px solid #b56d31;padding:7px
+        10px;background:rgba(181,109,49,0.07)"><strong>Principe intangible
+        :</strong> réceptionner <strong>d’abord les vivres</strong>. Montrer les
+        conséquences réelles des choix kolkar : même après un trajet difficile,
+        les PJ ont apporté quelque chose d’utile. Seulement ensuite, réception
+        des quatre caisses.</p>
+
+        <p style="margin:12px 0 4px;font-weight:bold"><strong>À DIRE —
+        arrivée.</strong>
+
+        Les palissades de Tranchecolline dominent la piste. Des gardes viennent
+        vers les chariots poussiéreux ; les kodos soufflent bruyamment. Un
+        responsable examine l’ordre de Gornek et le rapport de Rukha. Au dépôt,
+        un quartier-maître défait les sangles de votre kodo : « <strong>Ça, au
+        moins, c’est arrivé. Les nôtres en avaient besoin.</strong> »</p>
+
+        <blockquote style="border-left:4px solid #b56d31;padding:7px
+        13px;margin:4px 0
+        15px;background:rgba(181,109,49,0.09)"><p><strong>Donner la parole au
+        détachement.</strong> Que rapportent-ils des Kolkar, de la harde, des
+        humains ? Quel état des vivres ? Le réceptionnaire ne devine pas leurs
+        fautes ou mérites : il écoute.</p></blockquote>
+
+        <p style="margin:12px 0 4px;font-weight:bold"><strong>À DIRE — si les
+        caisses n’ont pas été ouvertes plus tôt.</strong>
+
+        On rompt le premier sceau. Un ouvrier soulève le couvercle, repousse une
+        toile grasse, puis s’arrête. Il plonge la main dans le remplissage et en
+        sort… une pierre. Il la laisse tomber. Un second couvercle cède, puis un
+        troisième. <strong>Du remblai, des cailloux, des ferrailles.</strong>
+        Pas de moteur. Pas de tête de forage. <strong>Mâche-Roc n’est pas
+        là.</strong></p>
+
+        <blockquote style="border-left:4px solid #b56d31;padding:7px
+        13px;margin:4px 0
+        15px;background:rgba(181,109,49,0.09)"><p><strong>Laisser les joueurs
+        réagir immédiatement.</strong> Le responsable fait protéger les caisses,
+        les bordereaux et les témoins. Il <strong>n’accuse pas
+        automatiquement</strong> les PJ. Leur premier rapport et leur conduite
+        comptent.</p></blockquote>
+
+        <p><strong>Cinq réponses disponibles sans piège à jet unique
+        :</strong></p>
+
+        <ul>
+
+        <li><strong>Quand ?</strong> Bourrage ancien ; clous sous poussière
+        uniforme ; sceaux apposés <strong>après</strong> la substitution, avant
+        la route.</li>
+
+        <li><strong>Qui a signé ?</strong> Bordereaux au nom de <strong>Krosh
+        Pèse-Charge</strong>, Roche-Sèche ; témoin important, culpabilité encore
+        à établir aux yeux des PJ.</li>
+
+        <li><strong>Les Kolkar ?</strong> Ils visaient le kodo de vivres, pas
+        les caisses de forage.</li>
+
+        <li><strong>Les sangliers ?</strong> Comportement anormal ; cause
+        précise encore inconnue à ce stade.</li>
+
+        <li><strong>Qui connaissait l’envoi ?</strong> Responsables de la mine
+        et des transports ; recouper les documents.</li>
+
+        </ul>
+
+        <p style="margin:12px 0 4px;font-weight:bold"><strong>À DIRE — clôture
+        possible.</strong>
+
+        Le responsable pose le bordereau sur la table et montre la signature. «
+        Quelqu’un a fait escorter quatre caisses de pierres par la Horde. Et
+        quelqu’un savait exactement ce qu’elles auraient dû contenir.
+        <strong>Racontez-moi ce qui s’est passé avant votre départ de
+        Roche-Sèche.</strong> »</p>
+
+        <blockquote style="border-left:4px solid #b56d31;padding:7px
+        13px;margin:4px 0 15px;background:rgba(181,109,49,0.09)"><p><strong>Si
+        le vol était déjà connu :</strong> cette scène devient <strong>la remise
+        officielle des preuves et l’ouverture de l’enquête</strong>, pas une
+        seconde surprise. Les PJ peuvent aussi décider de ne pas venir
+        immédiatement à Tranchecolline : faire réagir les responsables selon
+        leurs actions, sans téléporter la révélation.</p></blockquote>
+      markdown: ''
+    sort: 900000
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1793042400689
+      modifiedTime: 1793042400689
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!62HEbrCjoNoL49xi.Uf4nwuSGehwiw7KZ'
+  - _id: vPu9ChltOYZU14kh
+    name: 08 · PNJ, secrets et imprévus
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h2 style="border-bottom:1px solid
+        rgba(150,115,60,.45);padding-bottom:5px">08 — PNJ, SECRETS ET BRANCHES
+        IMPREVUES</h2>
+
+        <table class="table-striped"
+        style="border-collapse:collapse;width:100%;margin:12px
+        0;font-size:0.95em">
+
+        <thead>
+
+        <tr>
+
+        <th style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.45);text-align:left">PNJ / force</th>
+
+        <th style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.45);text-align:left">Objectif immédiat</th>
+
+        <th style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.45);text-align:left">Comment le jouer</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"><strong>Gornek</strong></td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Donner les ordres et éprouver
+        un groupe de recrues.</td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Sobre et exigeant ; son avis
+        sur Galadar et Gurok est personnel.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"><strong>Thazz’rill</strong></td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Lever un mât neuf sans blesser
+        ses péons.</td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Pratique, impatient, travaille
+        avec eux.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"><strong>Galgar</strong></td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Que les vivres atteignent les
+        habitants.</td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Une pointe d’humour ; pas un
+        donneur de quête supplémentaire.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"><strong>Yarrog</strong>
+        <strong>[SECRET]</strong></td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Observer Sorez et gagner sa
+        confiance pour Neeru.</td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Serviable en apparence,
+        <strong>pas d’approche programmée</strong>.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"><strong>Rukha</strong></td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Protéger bêtes, convoyeurs et
+        chargement.</td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Directe, juste, ne couvre pas
+        Krosh.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"><strong>Borka</strong></td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Respecter la machine qui a
+        sauvé six mineurs.</td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Fier, affectivement attaché à
+        Mâche-Roc.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"><strong>Krosh</strong>
+        <strong>[COMPLICE]</strong></td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Faire partir les caisses
+        <strong>sans ouverture</strong>.</td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Administratif, presse les gens
+        ; aucune omniscience.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"><strong>Chef
+        kolkar</strong></td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Nourriture / kodo, sans y
+        laisser sa bande.</td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Calcule, menace, négocie ou
+        fuit.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"><strong>Chef
+        humain</strong></td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Informations sur les mouvements
+        de la Horde.</td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Prudent, pas suicidaire ni
+        gratuitement belliqueux.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"><strong>Réceptionnaire</strong></td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Vérifier les livraisons et
+        préserver les preuves.</td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Méthodique, suspend les
+        accusations.</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <p><strong>Trois faits personnels à respecter :</strong> Volzan a un ami
+        survivant de l’attaque de <strong>Sarkoth</strong> avec séquelles,
+        <strong>sans détails fixés</strong> ; Sorez connaît <strong>déjà
+        Yarrog</strong> mais son degré de confiance dépend du joueur ; Gurok est
+        fils de <strong>Galadar d’Alterac</strong>, sans histoire intime
+        décrétée par Gornek. Jazty est un paladin sin’dorei <strong>exceptionnel
+        à cette époque</strong>, non la preuve d’une affiliation générale des
+        Elfes de sang à la Horde.</p>
+
+        <p><strong>Si les joueurs font autrement que prévu :</strong></p>
+
+        <ul>
+
+        <li><strong>Ils évitent les Kolkar :</strong> récompenser l’observation
+        et la route choisie ; la mine est toujours là.</li>
+
+        <li><strong>Ils arrivent à Roche-Sèche à la nuit :</strong> le convoi
+        <strong>attend toujours</strong>, Rukha propose dormir / repartir ; rien
+        ne se volatilise pendant la nuit.</li>
+
+        <li><strong>Ils ouvrent les caisses à la mine :</strong> autoriser la
+        découverte et l’enquête ; la mission devient transport de preuves /
+        recherche de responsables.</li>
+
+        <li><strong>Ils accusent ou arrêtent Krosh :</strong> il proteste,
+        invoque les bordereaux et son autorité ; la suite repose sur témoignages
+        et preuves, pas sur une confession automatique.</li>
+
+        <li><strong>Ils ne rejoignent pas le convoi :</strong> Rukha protège ses
+        attelages et demande des instructions ; ne pas la faire partir sans
+        escorte comme punition scénaristique.</li>
+
+        <li><strong>Ils veulent chasser le chaman après les sangliers :</strong>
+        aucune présence immédiate garantie. Donner seulement les traces
+        réellement disponibles ; possibilité de suite ultérieure.</li>
+
+        <li><strong>Ils combattent les humains :</strong> conséquences
+        politiques et matérielles plausibles, sans transformer tout Durotar en
+        guerre ouverte d’un coup.</li>
+
+        </ul>
+
+        <p><strong>Garde-fou :</strong> le mystère du vol est
+        <strong>distinct</strong> du pillage kolkar, du scorpide naturel et de
+        la surveillance de Sorez. Les sangliers sont influencés, mais
+        <strong>l’identité du commanditaire ne tombe pas du ciel</strong>.</p>
+      markdown: ''
+    sort: 1000000
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1793042400689
+      modifiedTime: 1793042400689
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!62HEbrCjoNoL49xi.vPu9ChltOYZU14kh'
+  - _id: A3SQO8ReCN8RfDGJ
+    name: 09 · Ajuster le rythme
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h2 style="border-bottom:1px solid
+        rgba(150,115,60,.45);padding-bottom:5px">09 — AJUSTER LA SÉANCE AU
+        RYTHME RÉEL</h2>
+
+        <p><strong>Le bon critère n’est pas “avons-nous atteint le chapitre 9 ?”
+        ; c’est :</strong> les joueurs ont-ils commencé à se connaître, pris une
+        décision collective et vu sa conséquence ?</p>
+
+        <table class="table-striped"
+        style="border-collapse:collapse;width:100%;margin:12px
+        0;font-size:0.95em">
+
+        <thead>
+
+        <tr>
+
+        <th style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.45);text-align:left">Moment de table</th>
+
+        <th style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.45);text-align:left">Conduite recommandée</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"><strong>Ouverture qui
+        s’étire</strong></td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Laisser naître l’interaction ;
+        supprimer <strong>l’incident facultatif du mât</strong> plutôt que
+        presser les dialogues.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"><strong>Kolkar résolus très
+        vite</strong></td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Ne pas rajouter une vague :
+        valoriser l’évitement, avancer vers Roche-Sèche.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"><strong>Premier combat prend
+        longtemps</strong></td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Compresser l’interlude et les
+        échanges de trajet. S’arrêter à la mine si nécessaire.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"><strong>Forte enquête à la
+        mine</strong></td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Lui donner de l’espace : c’est
+        un vrai choix de PJ. Ne pas forcer le départ pour préserver le texte
+        final.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"><strong>Les joueurs sont
+        fatigués mais encore engagés</strong></td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Finir après les sangliers avec
+        une conséquence nette sur l’état du convoi ; Tiragarde attendra.</td>
+
+        </tr>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"><strong>Le groupe atteint
+        Tranchecolline</strong></td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Prendre le temps de remercier
+        pour les vivres <strong>avant</strong> l’ouverture des caisses.</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <p><strong>Trois fins de séance satisfaisantes :</strong></p>
+
+        <ol>
+
+        <li><strong>Roche-Sèche</strong> : le convoi déjà prêt, Rukha et Borka
+        présentés ; choix « inspecter ou repartir » posé. Bon arrêt après un
+        gros Kolkar.</li>
+
+        <li><strong>Après les sangliers</strong> : un convoyeur est sauvé ou
+        blessé, une roue est réparée ou une caisse s’est ouverte. Bon arrêt
+        après une scène d’action.</li>
+
+        <li><strong>Tranchecolline</strong> : livraison des vivres reconnue,
+        puis découverte des pierres ou reconnaissance officielle du vol. Fin
+        idéale mais non obligatoire.</li>
+
+        </ol>
+
+        <p><strong>Question de conclusion aux joueurs, si tu souhaites un tour
+        bref :</strong> « Quel moment vous a fait comprendre quelque chose de
+        nouveau sur l’un de vos compagnons ? » Ne remplace pas l’épilogue de
+        fiction par une discussion méta si la table est encore dans
+        l’action.</p>
+
+        <p><strong>Avant de lancer Foundry / la table :</strong> avoir à portée
+        de main les <strong>fiches COF2 du scorpide, des Kolkar et des
+        sangliers</strong> (ou une adaptation validée), les quatre fiches PJ,
+        une carte de la piste ou un croquis simple du défilé, et une note pour
+        les cargaisons. Les caractéristiques de ces adversaires <strong>ne
+        figurent pas dans le document V5</strong> : ne pas prétendre qu’elles y
+        sont définies.</p>
+      markdown: ''
+    sort: 1100000
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1793042400689
+      modifiedTime: 1793042400689
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!62HEbrCjoNoL49xi.A3SQO8ReCN8RfDGJ'
+  - _id: GAOSKRKKtVyFVegu
+    name: 10 · Feuille de suivi
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h2 style="border-bottom:1px solid
+        rgba(150,115,60,.45);padding-bottom:5px">10 — FEUILLE DE SUIVI : À
+        REMPLIR EN DIRECT</h2>
+
+        <p><strong>État de la mission</strong></p>
+
+        <ul>
+
+        <li>Heure de départ (fiction) : ___________________  <strong>Mine
+        :</strong> □ à l’heure □ retard limité □ fort retard / nuit</li>
+
+        <li><strong>Kodo de vivres :</strong> □ indemne □ blessé □ perdu 
+        <strong>Vivres :</strong> □ intacts □ pertes partielles □ pertes
+        majeures</li>
+
+        <li><strong>Attelages de la mine :</strong> □ intacts □ endommagés 
+        <strong>Blessés / réparations :</strong>
+        _______________________________</li>
+
+        <li><strong>Caisses ouvertes :</strong> □ à la mine □ pendant les
+        sangliers □ à Tranchecolline □ ailleurs : __________________</li>
+
+        <li><strong>Krosh interrogé / suspecté / retenu ?</strong>
+        ______________________________________________________________</li>
+
+        <li><strong>Tiragarde :</strong> □ passage □ détour □ tension □ combat 
+        Informations révélées : _________________________</li>
+
+        </ul>
+
+        <p><strong>Quatre personnages : première expression et premier
+        lien</strong></p>
+
+        <table class="table-striped"
+        style="border-collapse:collapse;width:100%;margin:12px
+        0;font-size:0.95em">
+
+        <thead>
+
+        <tr>
+
+        <th style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.45);text-align:left">PJ</th>
+
+        <th style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.45);text-align:left">Geste ou parole marquante</th>
+
+        <th style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.45);text-align:left">Lien / tension / entraide</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Jazty</td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"></td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"></td>
+
+        </tr>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Sorez</td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"></td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"></td>
+
+        </tr>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Gurok</td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"></td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"></td>
+
+        </tr>
+
+        <tr>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top">Volzan</td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"></td>
+
+        <td style="padding:6px 8px;border:1px solid
+        rgba(110,110,110,.3);vertical-align:top"></td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <p><strong>Décisions qui auront des conséquences à la séance
+        2</strong></p>
+
+        <ol>
+
+        <li>
+
+        <hr>
+
+        </li>
+
+        <li>
+
+        <hr>
+
+        </li>
+
+        <li>
+
+        <hr>
+
+        </li>
+
+        </ol>
+
+        <p><strong>PNJ ayant gagné / perdu leur confiance :</strong>
+        ____________________________________________________________</p>
+
+        <p><strong>Indices découverts (cocher / préciser)</strong> : □ traces de
+        scorpide □ Kolkar anticipés □ poids étrange des caisses □ graisse
+        superficielle □ signature de Krosh □ anomalies des sangliers □ preuves
+        de bourrage antérieur.</p>
+
+        <p><strong>Questions et pistes formulées par les joueurs :</strong></p>
+
+        <hr>
+
+        <hr>
+
+        <hr>
+
+        <p><strong>Éléments personnels à reprendre plus tard (sans décider ce
+        soir à la place des joueurs) :</strong></p>
+
+        <ul>
+
+        <li>Gurok / Galadar :
+        ____________________________________________________________________________</li>
+
+        <li>Volzan / ami attaqué par Sarkoth :
+        _____________________________________________________________</li>
+
+        <li>Sorez / éventuel échange spontané avec Yarrog :
+        _________________________________________________</li>
+
+        <li>Jazty / décision de commandement ou position face à Tiragarde :
+        __________________________________</li>
+
+        </ul>
+
+        <p><strong>Où s’arrête réellement la séance ?</strong>
+        _______________________________________________________________</p>
+
+        <p><strong>Prochaine situation visible pour les PJ :</strong>
+        _______________________________________________________</p>
+
+        <hr>
+
+        <p><em>Source principale : « Au Nom de la Horde — Session 1 : Le mât
+        rouge et l’escorte de Mâche-Roc », Guide MJ V5 consolidé, 25 octobre
+        2026, document fourni par le MJ. Les tables de pilotage et de rythme,
+        les condensations de dialogues et les propositions d’arbitrage sont des
+        réécritures éditoriales pour l’usage à la table. Les faits inconnus dans
+        la V5 restent inconnus.</em></p>
+      markdown: ''
+    sort: 1200000
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1793042400689
+      modifiedTime: 1793042400689
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!62HEbrCjoNoL49xi.GAOSKRKKtVyFVegu'
+folder: azWtxXBLHOWVMAw0
+categories: []
+sort: 50000
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1793042400689
+  modifiedTime: 1793042400689
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!62HEbrCjoNoL49xi'

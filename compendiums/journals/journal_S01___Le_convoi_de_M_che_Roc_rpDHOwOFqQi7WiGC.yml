@@ -1,4 +1,4 @@
-name: Sc1 — Le convoi de Mâche-Roc
+name: S01 — Le convoi de Mâche-Roc
 flags:
   campaign-codex:
     type: group
@@ -85,8 +85,8 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1792998393086
-      modifiedTime: 1792998393086
+      createdTime: 1793042400695
+      modifiedTime: 1793042400695
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -120,8 +120,8 @@ pages:
       coreVersion: '14.367'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1792998393086
-      modifiedTime: 1792998393086
+      createdTime: 1793042400695
+      modifiedTime: 1793042400695
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -138,8 +138,8 @@ _stats:
   coreVersion: '14.367'
   systemId: co2
   systemVersion: 2.3.12
-  createdTime: 1792998393086
-  modifiedTime: 1792998393086
+  createdTime: 1793042400695
+  modifiedTime: 1793042400697
   lastModifiedBy: TjbWhMczNyKieD8D
   compendiumSource: null
   duplicateSource: null

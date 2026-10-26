@@ -26,10 +26,37 @@ system:
     Sang imprégné d’arcane remplace Immortel pour exprimer une résistance
     magique plus directement liée à Warcraft.</p>
   subtype: people
-  modifiers: []
+  modifiers:
+    - type: feature
+      source: Item.tyZZLdmVrEjhBstO
+      subtype: ability
+      target: cha
+      value: '1'
+      choiceGroup: 1
+      additionalInfos: bonus CHA
+      apply: self
+    - type: feature
+      source: Item.tyZZLdmVrEjhBstO
+      subtype: ability
+      target: int
+      value: '1'
+      choiceGroup: 1
+      additionalInfos: bonu INT
+      apply: self
+    - type: feature
+      source: Item.tyZZLdmVrEjhBstO
+      subtype: ability
+      target: con
+      value: '-1'
+      choiceGroup: 2
+      additionalInfos: Malus CON
+      apply: self
   paths:
     - Item.z3Al54CGC0V3yuov
-  capacities: []
+  capacities:
+    - Item.T0awFT939t6P7GW9
+    - Item.HpH510Dun7b7mmf8
+    - Item.AT9UaOq97yXMh2JA
 effects: []
 sort: 0
 ownership:
@@ -40,8 +67,8 @@ _stats:
   coreVersion: '14.367'
   systemId: co2
   systemVersion: 2.3.12
-  createdTime: 1791752630046
-  modifiedTime: 1791752630046
+  createdTime: 1793025495895
+  modifiedTime: 1793025495895
   lastModifiedBy: TjbWhMczNyKieD8D
   compendiumSource: null
   duplicateSource: Item.k5hPsJBWpex0nofr

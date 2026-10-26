@@ -1,0 +1,636 @@
+name: Scorpide standard
+type: encounter
+system:
+  abilities:
+    for:
+      base: 3
+      superior: true
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    agi:
+      base: 4
+      superior: true
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    con:
+      base: 3
+      superior: true
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    per:
+      base: 2
+      superior: false
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    cha:
+      base: -4
+      superior: false
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    int:
+      base: -4
+      superior: false
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    vol:
+      base: 0
+      superior: false
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+  attributes:
+    nc: 3
+    hp:
+      base: 30
+      value: 30
+      temp: null
+      max: 0
+      tempmax: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    movement:
+      base: 10
+      unit: m
+      bonuses:
+        sheet: 0
+        effects: 0
+      ability: null
+      details: null
+      min: null
+      max: null
+    tempDm: 0
+  combat:
+    def:
+      base: 17
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    init:
+      base: 12
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    dr:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    crit:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    melee:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    ranged:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    magic:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+  details:
+    category: living
+    size: small
+    notes:
+      public: >-
+        <p>Les scorpions sont des arthropodes et bénéficient à ce titre des
+        mêmes avantages que les araignées : ils sont rapides, puissants et
+        capables de survivre aux pires blessures.</p><p>Tous les arthropodes
+        géants obtiennent un dé bonus en FOR, en AGI et en CON, et lorsque la
+        créature atteint 0 PV, elle peut encore agir 1 round complet. Ils sont
+        rapides et se déplacent de 15 m par action de mouvement.</p>
+      private: ''
+    description:
+      private: ''
+      public: ''
+    languages: []
+    properties: ''
+  currentEffects: []
+  magic: 0
+  pasteData: ''
+  wealth:
+    gp:
+      value: 0
+    sp:
+      value: 0
+    cp:
+      value: 0
+  companion:
+    isCompanion: false
+    master: null
+    rank: 0
+prototypeToken:
+  disposition: -1
+  name: Scorpion standard
+  displayName: 40
+  actorLink: false
+  width: 1
+  height: 1
+  depth: 1
+  texture:
+    src: modules/warbound-campaign-content/assets/images/tokens/npcs/durotar/vallee-des-epreuves/cof2-scorpide-standard-illustration.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 0.75
+    scaleY: 0.75
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  flags:
+    wall-height:
+      tokenHeight: 0
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+_id: bxhNh0xyQItxON9I
+img: modules/warbound-campaign-content/assets/images/tokens/npcs/durotar/vallee-des-epreuves/cof2-scorpide-standard-illustration.webp
+items:
+  - name: Pinces
+    type: attack
+    img: icons/svg/sword.svg
+    system:
+      description: ''
+      subtype: melee
+      learned: true
+      properties:
+        spell: false
+        reloadable: false
+      range:
+        value: null
+        unit: ''
+        base: 0
+        ability: null
+        details: null
+        min: null
+        max: null
+        bonuses:
+          sheet: 0
+          effects: 0
+      actions:
+        - indice: 0
+          label: ''
+          chatFlavor: ''
+          type: melee
+          img: icons/svg/d20-highlight.svg
+          properties:
+            activable: true
+            enabled: false
+            temporary: false
+            visible: false
+            noManaCost: false
+            noChargesUsed: false
+          conditions:
+            - predicate: isOwned
+          resolvers:
+            - type: attack
+              skill:
+                formula: '+6'
+                crit: '20'
+                difficulty: '@cible.def'
+              dmg:
+                formula: 2d6+3
+              target:
+                type: none
+                number: '0'
+                scope: all
+              bonusDiceAdd: false
+              malusDiceAdd: false
+              additionalEffect:
+                active: false
+                applyOn: success
+                statuses: []
+                duration: '0'
+                unit: round
+              halfDmgOnSave: true
+              hasAttackSuccessThreshold: false
+          modifiers: []
+          source: Actor.bxhNh0xyQItxON9I.Item.VTwppHaQNCrjVN7q
+          actionType: none
+      source: ''
+      origin: ''
+      slug: ''
+      gmNotes: ''
+      charges: {}
+    _id: VTwppHaQNCrjVN7q
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      TjbWhMczNyKieD8D: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1793039552384
+      modifiedTime: 1793039552384
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!bxhNh0xyQItxON9I.VTwppHaQNCrjVN7q'
+  - name: Dard
+    type: attack
+    img: icons/svg/sword.svg
+    system:
+      description: <p>+ poison (2d6, difficulté 12 pour ½ DM)</p>
+      subtype: melee
+      learned: true
+      properties:
+        spell: false
+        reloadable: false
+      range:
+        value: null
+        unit: ''
+        base: 0
+        ability: null
+        details: null
+        min: null
+        max: null
+        bonuses:
+          sheet: 0
+          effects: 0
+      actions:
+        - indice: 0
+          label: ''
+          chatFlavor: ''
+          type: melee
+          img: icons/svg/d20-highlight.svg
+          properties:
+            activable: true
+            enabled: false
+            temporary: false
+            visible: false
+            noManaCost: false
+            noChargesUsed: false
+          conditions:
+            - predicate: isOwned
+          resolvers:
+            - type: attack
+              skill:
+                formula: '+6'
+                crit: '20'
+                difficulty: '@cible.def'
+              dmg:
+                formula: 1d4
+              target:
+                type: none
+                number: '0'
+                scope: all
+              bonusDiceAdd: false
+              malusDiceAdd: false
+              additionalEffect:
+                active: false
+                applyOn: success
+                statuses: []
+                duration: '0'
+                unit: round
+              halfDmgOnSave: true
+              hasAttackSuccessThreshold: false
+          modifiers: []
+          source: Actor.bxhNh0xyQItxON9I.Item.VbkLAymFg3WzTeln
+          actionType: none
+      source: ''
+      origin: ''
+      slug: ''
+      gmNotes: ''
+      charges: {}
+    _id: VbkLAymFg3WzTeln
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      TjbWhMczNyKieD8D: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1793039552384
+      modifiedTime: 1793039552384
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!bxhNh0xyQItxON9I.VbkLAymFg3WzTeln'
+  - name: Cuirassé
+    type: capacity
+    system:
+      description: <p>La créature bénéficie d'une RD 5 contre les armes.</p>
+      learned: true
+      path: null
+      actionType: none
+      frequency: none
+      source: ''
+      origin: ''
+      slug: ''
+      gmNotes: ''
+      inGame: ''
+      subtype: ''
+      rank: 0
+      charges: {}
+      properties:
+        spell: false
+      cost: -1
+      manaCost: -1
+      actions: []
+      allowLinkedCapacity: false
+      linkedCapacity: null
+      parentCapacity: null
+    flags:
+      warbound:
+        imported: true
+        sourceType: pdf-text
+        parserVersion: 1.0.0
+        sourceHash: 39429f07
+        reviewStatus: generated
+    img: icons/svg/combat.svg
+    _id: xBCdb05AfODlwXz4
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1793039552384
+      modifiedTime: 1793039552384
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!bxhNh0xyQItxON9I.xBCdb05AfODlwXz4'
+  - folder: Jc9oocmI3B4cVSRG
+    name: Poison
+    type: capacity
+    img: icons/skills/toxins/poison-bottle-corked-fire-green.webp
+    system:
+      description: >-
+        <p>La victime subit <strong>1d6 DM de poison</strong> et elle doit faire
+        un<strong> test de CON difficulté 16</strong>. En cas d’échec, elle
+        subit <strong>1d6 DM supplémentaires par round pendant 5
+        rounds</strong>.</p>
+      source: ''
+      origin: ''
+      slug: poison
+      subtype: ''
+      actionType: none
+      learned: true
+      charges:
+        current: null
+        max: null
+      properties:
+        spell: false
+      path: null
+      cost: -1
+      manaCost: -1
+      actions:
+        - source: Actor.bxhNh0xyQItxON9I.Item.7os7z1cJ2mivky8r
+          indice: 0
+          label: ''
+          chatFlavor: ''
+          img: icons/svg/d20-highlight.svg
+          type: melee
+          actionType: none
+          properties:
+            activable: true
+            temporary: false
+            noChargesUsed: false
+            visible: false
+            enabled: true
+            noManaCost: false
+          conditions:
+            - predicate: isOwned
+          resolvers:
+            - type: auto
+              dmg:
+                formula: 1d6
+              target:
+                type: single
+                scope: all
+                number: '0'
+              additionalEffect:
+                active: false
+                applyOn: success
+                statuses: []
+                duration: '0'
+                unit: round
+              bonusDiceAdd: false
+              malusDiceAdd: false
+              skill: {}
+              halfDmgOnSave: true
+              hasAttackSuccessThreshold: false
+          modifiers: []
+        - source: Actor.bxhNh0xyQItxON9I.Item.7os7z1cJ2mivky8r
+          indice: 1
+          label: Test de sauvegarde
+          chatFlavor: ''
+          img: icons/svg/d20-highlight.svg
+          type: spell
+          actionType: none
+          properties:
+            activable: true
+            temporary: false
+            noChargesUsed: false
+            visible: false
+            enabled: true
+            noManaCost: false
+          conditions:
+            - predicate: isOwned
+          resolvers:
+            - type: save
+              saveAbility: con
+              saveDifficulty: '16'
+              target:
+                type: single
+                scope: all
+                number: '0'
+              additionalEffect:
+                active: true
+                applyOn: saveFailure
+                formulaType: damage
+                formula: 1d6
+                elementType: poison
+                statuses: []
+                duration: '5'
+                unit: round
+              bonusDiceAdd: false
+              malusDiceAdd: false
+              skill: {}
+              dmg: {}
+              halfDmgOnSave: true
+              hasAttackSuccessThreshold: false
+          modifiers: []
+      frequency: none
+      rank: 0
+      allowLinkedCapacity: false
+      linkedCapacity: null
+      parentCapacity: null
+      inGame: >-
+        <p>L'action permet de réaliser le test de sauveagrde et d'infliger les
+        DM pendant 5 rounds sur la cible en cas d'échec.</p>
+      gmNotes: ''
+    effects: []
+    ownership:
+      default: 0
+      dkGm1qUrVLQeAKiY: 3
+      TjbWhMczNyKieD8D: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1793039552384
+      modifiedTime: 1793039552384
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _id: 7os7z1cJ2mivky8r
+    sort: 1900000
+    _key: '!actors.items!bxhNh0xyQItxON9I.7os7z1cJ2mivky8r'
+effects: []
+folder: tZdyFWgxOLbonb5W
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1793039552384
+  modifiedTime: 1793039552384
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+sort: 0
+_key: '!actors!bxhNh0xyQItxON9I'

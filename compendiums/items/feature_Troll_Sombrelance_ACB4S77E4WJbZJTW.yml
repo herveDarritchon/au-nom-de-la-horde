@@ -22,7 +22,39 @@ system:
   slug: ''
   gmNotes: ''
   subtype: people
-  modifiers: []
+  modifiers:
+    - type: feature
+      source: Item.ACB4S77E4WJbZJTW
+      subtype: ability
+      target: agi
+      value: '1'
+      choiceGroup: 1
+      additionalInfos: ''
+      apply: self
+    - type: feature
+      source: Item.ACB4S77E4WJbZJTW
+      subtype: ability
+      target: per
+      value: '1'
+      choiceGroup: 1
+      additionalInfos: ''
+      apply: self
+    - type: feature
+      source: Item.ACB4S77E4WJbZJTW
+      subtype: ability
+      target: for
+      value: '-1'
+      choiceGroup: 2
+      additionalInfos: ''
+      apply: self
+    - type: feature
+      source: Item.ACB4S77E4WJbZJTW
+      subtype: ability
+      target: cha
+      value: '1'
+      choiceGroup: 2
+      additionalInfos: ''
+      apply: self
   paths:
     - Item.YBYNcJ0bZPhZaBDB
   capacities:
@@ -39,8 +71,8 @@ _stats:
   coreVersion: '14.367'
   systemId: co2
   systemVersion: 2.3.12
-  createdTime: 1791752630050
-  modifiedTime: 1791752630050
+  createdTime: 1793025495904
+  modifiedTime: 1793025495904
   lastModifiedBy: TjbWhMczNyKieD8D
   compendiumSource: null
   duplicateSource: null

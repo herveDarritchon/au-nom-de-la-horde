@@ -30,7 +30,31 @@ system:
     Herboristerie taurène restent des Talents raciaux indépendants afin de
     préserver des choix distincts à la création.</span></p>
   subtype: people
-  modifiers: []
+  modifiers:
+    - type: feature
+      source: Item.omWYcUjSPLVpuVBY
+      subtype: ability
+      target: for
+      value: '1'
+      choiceGroup: 1
+      additionalInfos: ''
+      apply: self
+    - type: feature
+      source: Item.omWYcUjSPLVpuVBY
+      subtype: ability
+      target: vol
+      value: '1'
+      choiceGroup: 1
+      additionalInfos: ''
+      apply: self
+    - type: feature
+      source: Item.omWYcUjSPLVpuVBY
+      subtype: ability
+      target: agi
+      value: '-1'
+      choiceGroup: 2
+      additionalInfos: ''
+      apply: self
   paths:
     - Item.bnAj6kwLHVTEMEjt
   capacities:
@@ -47,8 +71,8 @@ _stats:
   coreVersion: '14.367'
   systemId: co2
   systemVersion: 2.3.12
-  createdTime: 1791752630049
-  modifiedTime: 1791752630049
+  createdTime: 1793025495901
+  modifiedTime: 1793025495901
   lastModifiedBy: TjbWhMczNyKieD8D
   compendiumSource: null
   duplicateSource: Item.k5hPsJBWpex0nofr

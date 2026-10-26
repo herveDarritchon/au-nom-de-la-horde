@@ -27,7 +27,31 @@ system:
     Talents raciaux indépendants afin de ne pas transformer des marqueurs
     parallèles en péages de progression.</p>
   subtype: people
-  modifiers: []
+  modifiers:
+    - type: feature
+      source: Item.SRfI9YRv5VNfDcJu
+      subtype: ability
+      target: int
+      value: '1'
+      choiceGroup: 1
+      additionalInfos: ''
+      apply: self
+    - type: feature
+      source: Item.SRfI9YRv5VNfDcJu
+      subtype: ability
+      target: vol
+      value: '1'
+      choiceGroup: 1
+      additionalInfos: ''
+      apply: self
+    - type: feature
+      source: Item.SRfI9YRv5VNfDcJu
+      subtype: ability
+      target: con
+      value: '-1'
+      choiceGroup: 2
+      additionalInfos: ''
+      apply: self
   paths:
     - Item.y98MeCI9Z1LicWLX
   capacities:
@@ -44,8 +68,8 @@ _stats:
   coreVersion: '14.367'
   systemId: co2
   systemVersion: 2.3.12
-  createdTime: 1791752630048
-  modifiedTime: 1791752630048
+  createdTime: 1793025495900
+  modifiedTime: 1793025495900
   lastModifiedBy: TjbWhMczNyKieD8D
   compendiumSource: null
   duplicateSource: Item.ACB4S77E4WJbZJTW

@@ -1,0 +1,20 @@
+type: Scene
+folder: VBMvmB8bmcu5YOsE
+name: Mine de Roche-Sèche
+color: null
+sorting: a
+_id: a95k759bgbYCrG4q
+description: ''
+sort: 200000
+flags: {}
+_stats:
+  coreVersion: '14.367'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1793025869174
+  modifiedTime: 1793025874975
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!a95k759bgbYCrG4q'
