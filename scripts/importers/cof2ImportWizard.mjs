@@ -9,6 +9,7 @@
 import { parseStatblock, compareTemplateVariant, resolveAttackKind } from "../../src/importers/cof2/index.mjs";
 import { buildCapacityResolver, buildAttackTypeResolver, createEncounter } from "./cof2/encounterFactory.mjs";
 import { TEMPLATE_ROOT } from "../../src/constants/templates.mjs";
+import { markdownToStatblockText } from "../../src/importers/cof2/parsing/markdownToStatblockText.mjs";
 
 const MODULE_ID = "warbound-campaign-content";
 
@@ -190,6 +191,19 @@ class Cof2ImportWizardApp extends HandlebarsApplicationMixin(foundry.application
   }
 
   #activateListeners(content) {
+    // Au collage, montrer immédiatement le texte normalisé dans le champ source.
+    // Au clic sur « Analyser », la même normalisation couvre aussi les modifications manuelles.
+    const sourceInput = content.querySelector('textarea[name="statblock"]');
+    sourceInput?.addEventListener("paste", (event) => {
+      const pasted = event.clipboardData?.getData("text/plain");
+      if (!pasted) return;
+      const cleaned = markdownToStatblockText(pasted);
+      if (cleaned === pasted) return; // Collage ordinaire : comportement natif
+      event.preventDefault();
+      sourceInput.setRangeText(cleaned, sourceInput.selectionStart, sourceInput.selectionEnd, "end");
+      sourceInput.dispatchEvent(new Event("input", { bubbles: true }));
+    });
+
     content.querySelectorAll("[data-field]").forEach((el) => {
       const evt = el.type === "checkbox" || el.type === "radio" ? "change" : "input";
       el.addEventListener(evt, () => {
@@ -254,7 +268,9 @@ class Cof2ImportWizardApp extends HandlebarsApplicationMixin(foundry.application
 
   async #analyze() {
     const textarea = this.element.querySelector('textarea[name="statblock"]');
-    this.#sourceText = textarea?.value ?? this.#sourceText;
+    this.#sourceText = markdownToStatblockText(textarea?.value ?? this.#sourceText);
+    // Ce que l'utilisateur voit correspond exactement à ce qui est analysé.
+    if (textarea) textarea.value = this.#sourceText;
     this.#analyzeError = null;
     if (!this.#sourceText.trim()) {
       this.#analyzeError = "Collez un statblock avant d'analyser.";
