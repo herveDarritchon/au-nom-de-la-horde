@@ -1,0 +1,94 @@
+name: 05 — Suivi de l’embuscade Kolkar et du kodo
+folder: u5S81tINx4cCFIsT
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  world:
+    warboundS02Key: t05
+    warboundS02Pack: true
+pages:
+  - name: Bilan MJ — faits établis en jeu
+    type: text
+    sort: 100000
+    text:
+      format: 1
+      content: "<p><small><strong>AU NOM DE LA HORDE • S02</strong> — MJ uniquement — Annexe Warbound — Kolkar et kodo, restitution des échanges des 3 et 7 novembre 2026</small></p><p>🧭 @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Retard} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État des convois}</p><h2>À compléter après le raid — pas de conséquence pré-écrite</h2>\n<p><strong>Pour conserver la continuité :</strong> compléter les valeurs suivantes en éditant cette page ; le @UUID[JournalEntry.rtpCsLr6B1uDIraY.JournalEntryPage.bCjp2iO5Zucz6Yee]{compteur de panique} est suivi séparément par la macro <em>S02 — Panique du kodo</em>. Le <strong>retard</strong> reste dans la macro déjà existante @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{S02 — Compteur de retard}.</p>\n<table style=\"width:100%;border-collapse:collapse\"><thead><tr><th>Fait à noter</th><th>Constat / décision réelle à la table</th></tr></thead><tbody>\n<tr><td>Kolkar : éclaireur</td><td>Non joué / neutralisé / maîtrisé / échappé : __________________</td></tr>\n<tr><td>Estafette 1</td><td>Fuite / sac pris / demi-PV atteint / autre : __________________</td></tr>\n<tr><td>Estafette 2</td><td>Fuite / sac pris / dernière tentative / autre : __________________</td></tr>\n<tr><td>Sacs volés (0, 1, 2)</td><td>Nombre : ____ ; contenu réellement perdu : __________________</td></tr>\n<tr><td>Sacs tombés / sangles coupées</td><td>Récupérés ? Réarrimage ? __________________</td></tr>\n<tr><td>Panique du kodo</td><td>Score courant : consulter le compteur. Réaction fictionnelle : ______</td></tr>\n<tr><td>État physique du kodo</td><td>Blessures effectivement subies et soins : __________________</td></tr>\n<tr><td>PJ / accompagnants</td><td>Blessés, secourus, disparus, prisonniers : __________________</td></tr>\n<tr><td>Retard de la scène</td><td>Durée réelle : ____ minutes ; changement du compteur : ____ pt</td></tr>\n<tr><td>À dire à Roche-Sèche</td><td>Où ? combien ? cible du pillage ? dégâts ? informations : ______</td></tr></tbody></table>\n<h3>Arrivée à Roche-Sèche</h3>\n<p><strong>[ACQUIS]</strong> Le second convoi attend les PJ quelle que soit l’issue du raid. Un retard peut tendre l’accueil ; le responsable de la mine demandera les circonstances des attaques ; le chef du second attelage coordonne ses péons. <strong>Jazty commande l’escorte</strong>. Ce n’est qu’à Roche-Sèche qu’un <strong>chariot chargé de Mâche-Roc</strong> entre dans le voyage.</p>\n<p>@UUID[JournalEntry.NPTwTH0upnsZFYU2.JournalEntryPage.zlu5sM6eTQq7OTLN]{Scène Roche-Sèche} · @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État général des convois} · @UUID[JournalEntry.f5qnlnbAhytcPhtk.JournalEntryPage.XQnetYn9TOcJZB8b]{Conséquences} · @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Retard}.</p><p><strong>Autres pages de ce journal :</strong> @UUID[JournalEntry.rtpCsLr6B1uDIraY.JournalEntryPage.bCjp2iO5Zucz6Yee]{Panique vivante — macro MJ}</p><hr><p><strong>Renvois utiles :</strong> @UUID[JournalEntry.f5qnlnbAhytcPhtk.JournalEntryPage.Ys8Pp6kgMAGHkmcG]{À jouer — récit &amp; situations} \_ · \_ @UUID[JournalEntry.C0nayaX26AjnMFqj.JournalEntryPage.c37Mg5eMeoP52oNB]{Jauge, déclencheurs et statut} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État à renseigner à la table} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Compteur vivant — piloté par la macro}</p>"
+    flags:
+      world:
+        warboundS02PageKey: t05.main
+        warboundS02Pack: true
+    _id: Dj6dgeEyMeh9I0R1
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617946
+      modifiedTime: 1794248617946
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!rtpCsLr6B1uDIraY.Dj6dgeEyMeh9I0R1'
+  - name: Panique vivante — macro MJ
+    type: text
+    sort: 200000
+    text:
+      format: 1
+      content: "<p><small><strong>AU NOM DE LA HORDE • S02</strong> — MJ uniquement — Annexe Warbound — Kolkar et kodo, restitution des échanges des 3 et 7 novembre 2026</small></p><p>🧭 @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Retard} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État des convois}</p><p><strong>Panique du kodo — suivi non initialisé.</strong> Lancer la macro « S02 — Panique du kodo » pour initialiser manuellement la jauge sur une valeur comprise entre 0 et 4, puis consigner ses variations et leur motif.</p><p><small>Les niveaux et les seuils de conséquence ne sont pas validés : cette jauge est un carnet de suivi, pas un moteur de règles automatiques.</small></p><p><strong>Autres pages de ce journal :</strong> @UUID[JournalEntry.rtpCsLr6B1uDIraY.JournalEntryPage.Dj6dgeEyMeh9I0R1]{Bilan MJ — faits établis en jeu}</p><hr><p><strong>Renvois utiles :</strong> @UUID[JournalEntry.f5qnlnbAhytcPhtk.JournalEntryPage.Ys8Pp6kgMAGHkmcG]{À jouer — récit &amp; situations} \_ · \_ @UUID[JournalEntry.C0nayaX26AjnMFqj.JournalEntryPage.c37Mg5eMeoP52oNB]{Jauge, déclencheurs et statut} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État à renseigner à la table} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Compteur vivant — piloté par la macro}</p>"
+    flags:
+      world:
+        warboundS02PageKey: t05.compteur
+        warboundS02Pack: true
+    _id: bCjp2iO5Zucz6Yee
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617946
+      modifiedTime: 1794248617946
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!rtpCsLr6B1uDIraY.bCjp2iO5Zucz6Yee'
+_id: rtpCsLr6B1uDIraY
+categories: []
+sort: 0
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248617946
+  modifiedTime: 1794248617946
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!rtpCsLr6B1uDIraY'

@@ -1,0 +1,59 @@
+name: '04 — Crépuscule : 0–2 / 3–5 / 6+'
+folder: 7wHOeNNinUO7NaAZ
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  world:
+    warboundS02Key: r04
+    warboundS02Pack: true
+pages:
+  - name: Lire le compteur à la tombée de la nuit
+    type: text
+    sort: 100000
+    text:
+      format: 1
+      content: "<p><small><strong>AU NOM DE LA HORDE • S02</strong> — MJ uniquement — Document maître évolutif — v0.2 (5 novembre 2026)</small></p><p>🧭 @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Retard} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État des convois}</p><h3>4 bis.4 — Lire le compteur à la tombée de la nuit</h3><table style=\"width:100%;border-collapse:collapse\"><thead><tr><th>Total cumulé</th><th>Situation</th><th>Décision à proposer et effet attendu</th></tr></thead><tbody><tr><td>0–2 points</td><td>Halte atteinte de jour</td><td>Le responsable du convoi peut dételer sereinement. Les péons installent les kodos et un repas chaud ; aucun incident nocturne imposé.</td></tr><tr><td>3–5 points</td><td>Halte accessible, mais marche de nuit</td><td>Il faut poursuivre dans l’obscurité. Les péons protestent, surtout s’il y a des blessés ou des kodos épuisés ; appliquer le test de risque nocturne si nécessaire.</td></tr><tr><td>6 points et plus</td><td>Halte hors de portée dans la fenêtre normale</td><td>Choix explicite : bivouac improvisé, progression nocturne plus longue ou marche forcée si le seuil COF2 est franchi. On ne téléporte pas le camp hors d’atteinte.</td></tr></tbody></table>\n<p><small>[À VÉRIFIER] Les seuils supposent une marge d’arrivée théorique compatible avec la nuit. Avant la séance, fixer l’heure d’arrivée sans incident, le coucher du soleil et les distances de la halte sur la carte. Si un résultat de progression COF2 modifie déjà fortement la vitesse du jour, recalibrer l’horaire plutôt que cumuler arbitrairement les deux systèmes.</small></p><hr><p><strong>Renvois utiles :</strong> @UUID[JournalEntry.x3XLdzGIaU5xDuhh.JournalEntryPage.eR76EoKqNGdyiYQ7]{À jouer — récit &amp; situations} \_ · \_ @UUID[JournalEntry.6ueaE9YrYzfXxCzY.JournalEntryPage.BVe2Ow8tudCrRSVz]{À jouer — récit &amp; situations} \_ · \_ @UUID[JournalEntry.T7Oi8jfz3iDN1hbq.JournalEntryPage.YDSwd5unUaR6SHmb]{Procédure Warbound / COF2} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Compteur vivant — piloté par la macro}</p>"
+    flags:
+      world:
+        warboundS02PageKey: r04.main
+        warboundS02Pack: true
+    _id: 9zYgJGtavksZRXFz
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617940
+      modifiedTime: 1794248617940
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!lLXlYdhRh3GIeh8q.9zYgJGtavksZRXFz'
+_id: lLXlYdhRh3GIeh8q
+categories: []
+sort: 0
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248617940
+  modifiedTime: 1794248617940
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!lLXlYdhRh3GIeh8q'

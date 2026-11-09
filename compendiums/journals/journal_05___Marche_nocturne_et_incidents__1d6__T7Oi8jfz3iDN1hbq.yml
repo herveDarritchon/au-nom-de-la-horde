@@ -1,0 +1,59 @@
+name: 05 — Marche nocturne et incidents (1d6)
+folder: 7wHOeNNinUO7NaAZ
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  world:
+    warboundS02Key: r05
+    warboundS02Pack: true
+pages:
+  - name: Procédure Warbound / COF2
+    type: text
+    sort: 100000
+    text:
+      format: 1
+      content: "<p><small><strong>AU NOM DE LA HORDE • S02</strong> — MJ uniquement — Document maître évolutif — v0.2 (5 novembre 2026)</small></p><p>🧭 @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Retard} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État des convois}</p><h3>4 bis.5 — Cas B : progression nocturne et marche forcée</h3><p>[RÈGLE COF2] Une journée ordinaire compte deux périodes de déplacement de 4 h. Ajouter une période au-delà de ces deux périodes constitue une marche forcée. Un PJ à pied perd 1 DR à la fin de chaque période supplémentaire ; s’il n’en possède plus, il devient Affaibli jusqu’à une récupération complète et, s’il est déjà Affaibli, il ne peut plus avancer. Les montures suivent une procédure différente avec tests d’Équitation : ne pas l’appliquer telle quelle aux kodos de trait sans adaptation. Référence : COF2, p. 232–233.</p>\n<p>[RÈGLE COF2 / ADAPTATION] Dans le test de progression quotidien officiel, un PJ dépourvu de vision dans le noir subit un dé malus lorsqu’il voyage de nuit (p. 235). S’il a déjà effectué sa progression du jour avant que les PJ décident de poursuivre de nuit, ne pas relancer toute la progression : utiliser au besoin l’unique test de risque ci-dessous, spécifique à la scène Warbound. Ne pas imposer les deux pour le même danger.</p>\n<p>[TEST WARBOUND, FACULTATIF] Un seul PJ chargé de l’orientation fait un test de PER (Survie), difficulté 10 en terrain naturel/frontière ou 15 en zone sauvage (classement à fixer pour cette route). Si la visibilité est très mauvaise et qu’il ne voit pas dans l’obscurité, lui appliquer un dé malus par adaptation de la règle de progression nocturne. Les mesures concrètes prises par les PJ (torches, éclaireur, allure réduite, contrôle des roues) peuvent éviter le jet ou justifier une difficulté différente.</p>\n<table style=\"width:100%;border-collapse:collapse\"><thead><tr><th>Résultat du test unique</th><th>Issue à jouer</th></tr></thead><tbody><tr><td>Réussite</td><td>Aucun incident. L’arrivée demeure tardive et les convoyeurs sont fatigués, mais le convoi rejoint la halte.</td></tr><tr><td>Échec simple</td><td>Un incident logistique bref (table ci-dessous) ; les PJ choisissent comment le résoudre. +1 point de retard seulement si l’intervention consomme réellement environ 15 min.</td></tr><tr><td>Échec critique ou marge de −10</td><td>Un incident plus grave ou deux effets liés ; risque matériel ou blessure crédible, sans dégâts automatiques imposés. Faire un choix concret avant de chiffrer la perte.</td></tr></tbody></table>\n<p>Table courte d’incidents (1d6, seulement après un échec et si un aléa ajoute quelque chose) :</p>\n<table style=\"width:100%;border-collapse:collapse\"><thead><tr><th>1d6</th><th>Incident nocturne</th><th>Intervention possible</th></tr></thead><tbody><tr><td>1</td><td>Une roue s’enfonce dans une ornière.</td><td>Dégager le chariot, alléger la charge ou chercher un passage stable.</td></tr><tr><td>2</td><td>Un chargement mal sanglé glisse.</td><td>Stopper, arrimer ; une caisse abîmée doit être signalée.</td></tr><tr><td>3</td><td>Le kodo lourd refuse un passage obscur.</td><td>Le rassurer, éclairer le terrain ou contourner.</td></tr><tr><td>4</td><td>Un péon trébuche et se tord la cheville.</td><td>Soigner, alléger sa tâche ou changer les rôles.</td></tr><tr><td>5</td><td>Le chariot de tête perd la bonne trace.</td><td>Reconnaître le chemin avant de s’engager dans le mauvais couloir.</td></tr><tr><td>6</td><td>Un bruit soudain affole un attelage déjà éprouvé.</td><td>Calmer la bête ou immobiliser le train arrière.</td></tr></tbody></table>\n<p>Réaction humaine certaine, accident incertain : si la décision de poursuivre de nuit résulte des détours des PJ, le chef de convoi exprime ses réserves ; un péon peut râler ou réclamer une pause. Il ne lance pas une mutinerie. Un PJ qui explique ses choix, prend un poste pénible ou aide un blessé peut apaiser la tension. Éviter un jet social obligatoire.</p><hr><p><strong>Renvois utiles :</strong> @UUID[JournalEntry.x3XLdzGIaU5xDuhh.JournalEntryPage.eR76EoKqNGdyiYQ7]{À jouer — récit &amp; situations} \_ · \_ @UUID[JournalEntry.6ueaE9YrYzfXxCzY.JournalEntryPage.BVe2Ow8tudCrRSVz]{À jouer — récit &amp; situations} \_ · \_ @UUID[JournalEntry.fdszkHXwm6HmfSAI.JournalEntryPage.sYVKJolTDX9dVmkJ]{Conditions et DR} \_ · \_ @UUID[JournalEntry.NsTxqshtT9lLumN4.JournalEntryPage.0bD6SqPVwT3RVvJm]{Règle et barème contextuel}</p>"
+    flags:
+      world:
+        warboundS02PageKey: r05.main
+        warboundS02Pack: true
+    _id: YDSwd5unUaR6SHmb
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617938
+      modifiedTime: 1794248617938
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!T7Oi8jfz3iDN1hbq.YDSwd5unUaR6SHmb'
+_id: T7Oi8jfz3iDN1hbq
+categories: []
+sort: 0
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248617938
+  modifiedTime: 1794248617938
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!T7Oi8jfz3iDN1hbq'

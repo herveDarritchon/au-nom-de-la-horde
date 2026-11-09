@@ -1,0 +1,97 @@
+name: '02 — Retard : compteur et registre'
+folder: u5S81tINx4cCFIsT
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  world:
+    warboundS02Key: t02
+    warboundS02Pack: true
+    warboundS02State:
+      points: 0
+      history: []
+pages:
+  - name: Mode de calcul et registre papier
+    type: text
+    sort: 100000
+    text:
+      format: 1
+      content: "<p><small><strong>AU NOM DE LA HORDE • S02</strong> — MJ uniquement — Document maître évolutif — v0.2 (5 novembre 2026)</small></p><p>🧭 @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Retard} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État des convois}</p><p><strong>1 point = 15 minutes.</strong> Retard initial : 0. Retards du même arrêt à comptabiliser une seule fois ; les paliers d’enquête +0 / +1 / +2 / +3 sont cumulatifs, non additionnés.</p><h3>4 bis.2 — L’horloge de retard de la première journée</h3><p>[ACQUIS] Départ avec 0 point ; 1 point = environ 15 minutes perdues par rapport à l’horaire prévu. On additionne les conséquences réelles, pas les péripéties racontées. Ne jamais compter deux fois un même arrêt (ex. réparation et enquête faites simultanément). Annoncer le coût estimé d’un détour avant que les PJ le choisissent.</p>\n<table style=\"width:100%;border-collapse:collapse\"><thead><tr><th>Moment</th><th>Retard indicatif à inscrire</th><th>Ce qui fait varier le résultat</th></tr></thead><tbody><tr><td>Kolkar — remise en ordre</td><td>+0 à +2</td><td>+0 si le convoi repart presque immédiatement ; +1 pour regroupement/soins ; +2 si récupération de marchandises ou réparation prolongée.</td></tr><tr><td>Roche-Sèche — prise en charge</td><td>+0 à +2</td><td>Échange normal : +0 ; questions ou vérification : +1 ; recherche approfondie : +2 (valeur totale pour cet arrêt).</td></tr><tr><td>Ruée — conséquences</td><td>+0 à +2</td><td>+0 si les PJ maîtrisent les attelages ; +1 pour réarrimer ou calmer un kodo ; +2 si un chariot ou une bête nécessite une intervention longue.</td></tr><tr><td>Enquête après la ruée</td><td>+0 / +1 / +2 / +3</td><td>+0 sans s’écarter ; +1 inspection locale ; +2 remontée des traces ; +3 point d’eau. Paliers CUMULATIFS, et non additionnés entre eux.</td></tr><tr><td>Autres décisions</td><td>Selon temps réel</td><td>Détour, pause, assistance aux blessés, problème de roue : ajouter seulement le temps effectivement perdu par le convoi.</td></tr></tbody></table>\n<p><small>Ces valeurs sont des propositions de calibration Warbound, non un barème COF2. Le compteur peut aussi être réduit par une solution qui raccourcit effectivement le trajet (ex. raccourci fiable), jamais par un simple « bon jet » sans effet fictionnel.</small></p><p><strong>À la table :</strong> utiliser la macro « S02 — Compteur de retard » créée par l’installateur, ou mettre à jour manuellement la page suivante.</p><p><strong>Autres pages de ce journal :</strong> @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Compteur vivant — piloté par la macro}</p><hr><p><strong>Renvois utiles :</strong> @UUID[JournalEntry.NsTxqshtT9lLumN4.JournalEntryPage.0bD6SqPVwT3RVvJm]{Règle et barème contextuel} \_ · \_ @UUID[JournalEntry.lLXlYdhRh3GIeh8q.JournalEntryPage.9zYgJGtavksZRXFz]{Lire le compteur à la tombée de la nuit} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État à renseigner à la table}</p>"
+    flags:
+      world:
+        warboundS02PageKey: t02.main
+        warboundS02Pack: true
+    _id: SfJTd7JbfqMT4yBp
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617944
+      modifiedTime: 1794248617944
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!0HeBXOBC0dnmnedP.SfJTd7JbfqMT4yBp'
+  - name: Compteur vivant — piloté par la macro
+    type: text
+    sort: 200000
+    text:
+      format: 1
+      content: "<p><small><strong>AU NOM DE LA HORDE • S02</strong> — MJ uniquement — Suivi MJ généré — écrasement automatique uniquement de cette page par la macro de retard</small></p><p>🧭 @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Retard} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État des convois}</p><p><strong>Retard initial : 0 point (0 minute).</strong> Lancer la macro « S02 — Compteur de retard » pour changer ce compteur, avec un motif.</p><p><strong>Autres pages de ce journal :</strong> @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.SfJTd7JbfqMT4yBp]{Mode de calcul et registre papier}</p><hr><p><strong>Renvois utiles :</strong> @UUID[JournalEntry.NsTxqshtT9lLumN4.JournalEntryPage.0bD6SqPVwT3RVvJm]{Règle et barème contextuel} \_ · \_ @UUID[JournalEntry.lLXlYdhRh3GIeh8q.JournalEntryPage.9zYgJGtavksZRXFz]{Lire le compteur à la tombée de la nuit} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État à renseigner à la table}</p>"
+    flags:
+      world:
+        warboundS02PageKey: t02.compteur
+        warboundS02Pack: true
+    _id: Wivdfv9Ym5d9ewNS
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617944
+      modifiedTime: 1794248617944
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!0HeBXOBC0dnmnedP.Wivdfv9Ym5d9ewNS'
+_id: 0HeBXOBC0dnmnedP
+categories: []
+sort: 0
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248617944
+  modifiedTime: 1794248617944
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!0HeBXOBC0dnmnedP'

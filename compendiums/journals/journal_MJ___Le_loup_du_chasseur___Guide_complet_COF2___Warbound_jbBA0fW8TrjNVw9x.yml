@@ -1,0 +1,1269 @@
+name: MJ — Le loup du chasseur — Guide complet COF2 / Warbound
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  campaign-codex:
+    type: ''
+  core:
+    sheetClass: ''
+  warbound-campaign-content:
+    journalGuide: loup-compagnon
+    audience: mj
+    edition: '2026-11-07'
+    version: '1.0'
+    lockedProgression: false
+pages:
+  - name: 00 · Mode d’emploi et statut des règles
+    type: text
+    sort: 100000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <section><h1>Le loup du chasseur — Manuel MJ</h1><p><em>Warbound · Au
+        Nom de la Horde · COF2 · Référence MJ · Novembre
+        2026</em></p><blockquote><p><strong>Principe arrêté :</strong> le
+        chasseur ordinaire utilise la <em>Voie du compagnon animal</em> du
+        rôdeur de COF2, sans lui ajouter les mécaniques du familier de WoW. Une
+        future voie de prestige « Bêtes familières » pourra développer une
+        relation de combat plus poussée ; elle est hors du présent
+        guide.</p></blockquote><h2>Lire ce
+        journal</h2><ul><li><strong>[COF2]</strong> : règle tirée du Livre des
+        règles officiel fourni ; la page du livre est
+        indiquée.</li><li><strong>[APPLICATION]</strong> : conséquence directe
+        d’une règle générale ou exemple sans modification de
+        capacité.</li><li><strong>[ARBITRAGE PROPOSÉ]</strong> : solution de
+        fonctionnement pratique mais non écrite explicitement dans la voie,
+        <strong>non validée</strong> à ce
+        jour.</li><li><strong>[OUVERT]</strong> : le livre ne tranche pas
+        complètement, ou un choix Warbound
+        manque.</li><li><strong>[PRESTIGE]</strong> : piste future, non
+        accessible au chasseur ordinaire.</li></ul><h2>Organisation</h2><p>Les
+        pages 01 à 07 récapitulent le profil et les cinq rangs ; les pages 08 à
+        15 couvrent combat, exploration, repos, cas particuliers et arbitrages ;
+        la dernière page donne un aide-mémoire et la
+        bibliographie.</p><h2>Distinction importante</h2><p>Le loup est un
+        <strong>compagnon animal</strong>, et non un familier magique. Ce n’est
+        ni une créature de la fiche standard du Bestiaire ni un second PJ doté
+        automatiquement de toutes les options tactiques. Il possède cependant
+        une attaque de combat dès le rang 1. Le terme « maîtrise » utilisé dans
+        le journal joueur signifie <strong>rang dans la voie</strong>, pas
+        niveau global du PJ.</p><p><small><strong>Sources COF2 :</strong>
+        Laurent Bernasconi, <em>Chroniques Oubliées Fantasy 2</em>, Black Book
+        Éditions (2024), p. 71–72 ; p. 210–216. Le détail ci-dessus est
+        reformulé ; les éventuels arbitrages Warbound sont explicitement
+        identifiés.</small></p></section>
+      markdown: ''
+    ownership:
+      default: 0
+    flags:
+      warbound-campaign-content:
+        rank: null
+        access: mj
+    _id: g7kaSgUdgFEUbkPK
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248684984
+      modifiedTime: 1794248684984
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!jbBA0fW8TrjNVw9x.g7kaSgUdgFEUbkPK'
+  - name: 01 · Profil de référence et formules
+    type: text
+    sort: 200000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <section><h1>Profil mécanique du loup</h1><p><strong>[COF2, rang
+        1]</strong> Le loup possède des statistiques propres, qui évoluent avec
+        deux paramètres distincts : le <em>niveau du chasseur</em> pour ses PV,
+        et le <em>rang de la Voie du compagnon animal</em> pour sa DEF.
+        L’attaque au contact reprend exceptionnellement la valeur d’attaque
+        magique du rôdeur.</p><table><thead><tr><th>Statistique</th><th>Valeur /
+        traitement</th></tr></thead><tbody><tr><td>AGI ; CON ; FOR</td><td>+1 ;
+        +1 avec dé bonus aux tests ; +2</td></tr><tr><td>PER ; CHA ; INT ;
+        VOL</td><td>+2 avec dé bonus aux tests ; −2 ; −3 ;
+        +2</td></tr><tr><td>DEF au rang 1–3</td><td>12 + rang dans la voie (13,
+        14, 15) ; voir exception du rang 4</td></tr><tr><td>PV avant rang
+        4</td><td>niveau du chasseur × 4 ; pas le rang de la voie ×
+        4</td></tr><tr><td>Attaque magique du chasseur</td><td>règle générale :
+        niveau + VOL (et modificateurs éventuels) ; reprendre en pratique la
+        valeur indiquée sur sa fiche</td></tr><tr><td>Initiative</td><td>même
+        valeur d’initiative que le chasseur ; actions simultanées décrites par
+        la voie</td></tr><tr><td>Attaque</td><td>au contact ; bonus du jet =
+        valeur d’attaque <strong>magique</strong> du chasseur, non la FOR du
+        loup</td></tr><tr><td>DM de base</td><td>1d4 + 2, physiques (morsure),
+        sauf effet particulier explicite</td></tr><tr><td>Tests du
+        loup</td><td>utiliser les caractéristiques du profil ; dé bonus sur ses
+        propres tests de CON et PER.</td></tr></tbody></table><h2>Calculs
+        fréquents</h2><ul><li>Chasseur niv. 1 / rang 1 : <strong>DEF 13 ; PV
+        4</strong>.</li><li>Chasseur niv. 3 / rang 2 : <strong>DEF 14 ; PV
+        12</strong>.</li><li>Chasseur niv. 5 / rang 3 : <strong>DEF 15 ; PV
+        20</strong>.</li><li>Chasseur niv. 6 / rang 1 : <strong>DEF 13 ; PV
+        24</strong> ; le niveau ne fait pas monter la DEF
+        automatiquement.</li></ul><h2>Important : le d4° est
+        évolutif</h2><p><strong>[COF2, p. 43]</strong> Un d4° devient d6 au
+        niveau 6, d8 au niveau 9, d10 au niveau 12 et d12 au niveau 15. Il
+        <strong>n’explose pas sur un 4</strong> : le symbole ° indique une
+        progression avec le niveau. Cela concerne les DM du loup alpha et le
+        bonus du rang 5, mais pas les 1d4 ordinaires du rang 1.</p><h2>Ne pas
+        confondre les attaques</h2><p>La morsure est bien une <em>attaque au
+        contact</em> même si son bonus est celui de l’attaque magique du
+        chasseur. Elle n’est pas un sort, ne gagne pas automatiquement les
+        propriétés d’une attaque magique et n’utilise pas le score de FOR du
+        loup pour toucher. La DEF de la cible reste la difficulté habituelle du
+        test d’attaque.</p><p><small><strong>Sources COF2 :</strong> Laurent
+        Bernasconi, <em>Chroniques Oubliées Fantasy 2</em>, Black Book Éditions
+        (2024), p. 43, 71–72 et 212–213. Le détail ci-dessus est reformulé ; les
+        éventuels arbitrages Warbound sont explicitement
+        identifiés.</small></p></section>
+      markdown: ''
+    ownership:
+      default: 0
+    flags:
+      warbound-campaign-content:
+        rank: null
+        access: mj
+    _id: L4LcAv9E093GiAF6
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248684984
+      modifiedTime: 1794248684984
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!jbBA0fW8TrjNVw9x.L4LcAv9E093GiAF6'
+  - name: 02 · Rang 1 — Le loup
+    type: text
+    sort: 300000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <section><h1>Rang 1 : Le loup</h1><p><strong>[COF2]</strong> Dès
+        l’acquisition de ce rang, le rôdeur reçoit un loup, qui attaque en même
+        temps que lui en combat. Il sait répondre à des ordres élémentaires
+        (rester, garder, apporter, attaquer). Il ne faut donc pas attendre une
+        spécialisation ultérieure pour qu’il puisse mordre un
+        adversaire.</p><h2>Ce qui fonctionne</h2><ul><li>Loup présent
+        physiquement dans la fiction, capable d’accompagner, se défendre et
+        obéir à des consignes simples.</li><li>En combat, jet de morsure
+        distinct quand il peut atteindre un adversaire au corps à corps :
+        <strong>d20 + attaque magique du chasseur</strong> contre sa DEF ;
+        succès : <strong>1d4 + 2 DM</strong>.</li><li>Loup et chasseur
+        interviennent à la <strong>même initiative</strong>, tout en occupant
+        des emplacements séparés.</li><li>Le chasseur ne perd pas
+        automatiquement sa propre attaque pour permettre celle de son loup :
+        aucune règle de la voie n’impose cet échange.</li></ul><h2>Limites
+        immédiates</h2><ul><li>Aucune attaque à distance, aucun bonus de groupe,
+        aucun « ordre spécial » de WoW, aucune provocation
+        automatique.</li><li>Le loup ne franchit pas les obstacles et ne touche
+        pas des adversaires hors d’atteinte sous prétexte qu’il attaque avec son
+        maître.</li><li>Ne pas présumer d’une compréhension tactique élaborée,
+        du langage humain/orc ou d’une télépathie avant le rang
+        3.</li></ul><h2>Exemple</h2><p>La chasseuse désigne un pillard sur la
+        route. Elle tire à l’arc ; son loup, déjà au contact du pillard, tente
+        une morsure. Deux jets séparés. Si le pillard est à 20 m et que le loup
+        n’est pas en position de l’atteindre, aucune morsure « à distance »
+        n’est accordée.</p><h2>Silence des
+        règles</h2><p><strong>[OUVERT]</strong> Le coût exact d’un ordre oral et
+        l’articulation du déplacement du loup avec les actions du chasseur ne
+        sont pas détaillés dans cette voie. Voir les arbitrages page
+        14.</p><p><small><strong>Sources COF2 :</strong> Laurent Bernasconi,
+        <em>Chroniques Oubliées Fantasy 2</em>, Black Book Éditions (2024), p.
+        71 ; p. 210–212. Le détail ci-dessus est reformulé ; les éventuels
+        arbitrages Warbound sont explicitement identifiés.</small></p></section>
+      markdown: ''
+    ownership:
+      default: 0
+    flags:
+      warbound-campaign-content:
+        rank: null
+        access: mj
+    _id: CC23CgftTEhe89XY
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248684984
+      modifiedTime: 1794248684984
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!jbBA0fW8TrjNVw9x.CC23CgftTEhe89XY'
+  - name: 03 · Rang 2 — Travail d’équipe
+    type: text
+    sort: 400000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <section><h1>Rang 2 : Travail d’équipe</h1><p><strong>[COF2]</strong>
+        Quand le rôdeur et son loup sont « au contact », deux bénéfices
+        différents s’appliquent : le loup obtient un <strong>dé bonus à son
+        attaque</strong> ; le rôdeur obtient un <strong>dé bonus aux tests pour
+        pister ou éviter d’être surpris (Vigilance)</strong>. Ces avantages
+        s’ajoutent aux capacités déjà possédées, sans remplacer la morsure ni
+        les ordres simples.</p><h2>À différencier</h2><ul><li><strong>Dé bonus
+        du loup</strong> : sur le d20 de son attaque ; ne pas augmenter
+        directement les dégâts.</li><li><strong>Dé bonus du rôdeur</strong> :
+        uniquement sur les tests concernés ; pas un bonus général en PER ou à
+        toutes les compétences.</li><li>La présence du loup compte pour cette
+        capacité ; la règle n’autorise pas un bonus quand le compagnon est
+        absent, parti explorer au loin ou incapable de participer à la
+        situation.</li></ul><h2>Interprétation du « contact
+        »</h2><p><strong>[OUVERT]</strong> Le texte officiel ne définit pas
+        précisément s’il faut que les deux partenaires soient adjacents l’un à
+        l’autre, chacun au contact d’une même cible, ou impliqués dans la même
+        mêlée. Le groupe doit fixer une définition unique. <strong>[ARBITRAGE
+        PROPOSÉ]</strong> : en combat, loup et chasseur à portée de mêlée de la
+        même cible ; hors combat, le loup se tient à proximité immédiate du
+        chasseur. Ce n’est pas une citation de la règle.</p><h2>Cas de la
+        traque</h2><p>Un loup éloigné de 100 m pour flairer seul ne donne pas le
+        dé bonus de la voie au chasseur. En revanche, l’animal peut faire son
+        <em>propre</em> test de PER quand le MJ estime qu’il est en mesure de
+        détecter une odeur. Le dé bonus à ses propres tests de PER vient du
+        profil de base (rang 1).</p><p><small><strong>Sources COF2 :</strong>
+        Laurent Bernasconi, <em>Chroniques Oubliées Fantasy 2</em>, Black Book
+        Éditions (2024), p. 71 ; dés bonus, p. 198–202. Le détail ci-dessus est
+        reformulé ; les éventuels arbitrages Warbound sont explicitement
+        identifiés.</small></p></section>
+      markdown: ''
+    ownership:
+      default: 0
+    flags:
+      warbound-campaign-content:
+        rank: null
+        access: mj
+    _id: qEssNhgNtN4gfD6Y
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248684984
+      modifiedTime: 1794248684984
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!jbBA0fW8TrjNVw9x.qEssNhgNtN4gfD6Y'
+  - name: 04 · Rang 3 — Lien empathique
+    type: text
+    sort: 500000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <section><h1>Rang 3 : Lien empathique (L)</h1><p><strong>[COF2]</strong>
+        Le chasseur peut communiquer par télépathie avec son loup et le soigner
+        à distance en transférant ses propres PV : <strong>1 PV du chasseur
+        dépensé = 1 PV rendu au loup</strong>, sans limite de quantité indiquée,
+        au prix d’une <strong>action limitée
+        (L)</strong>.</p><h2>Communiquer</h2><ul><li>La télépathie permet un
+        échange avec son compagnon ; elle ne dit pas que le chasseur voit par
+        ses yeux, entend par ses oreilles ou connaît automatiquement son
+        emplacement.</li><li>Le loup reste un animal : la communication ne le
+        transforme pas en éclaireur humain, en interprète ni en tacticien
+        parfait.</li><li><strong>[OUVERT]</strong> Le livre ne fixe pas
+        explicitement portée, nécessité de visibilité ni sophistication des
+        images/concepts échangés ; éviter de les inventer en tant que règles
+        officielles.</li></ul><h2>Soigner, étape par étape</h2><ol><li>Vérifier
+        que le loup a perdu des PV et que le chasseur possède des PV
+        disponibles.</li><li>Le chasseur consacre son action limitée (L) au
+        pouvoir.</li><li>Il choisit combien de ses propres PV il sacrifie ; le
+        loup récupère autant de PV, sans dépasser son maximum.</li><li>Suivre
+        séparément les nouveaux PV du chasseur et du loup. Au rang 5, le
+        rendement double.</li></ol><h2>Exemple</h2><p>Chasseur à 16/24 PV, loup
+        à 7/20 PV : le chasseur cède 5 PV et passe à 11/24 ; le loup monte à
+        12/20 PV. Il ne s’agit ni d’une guérison gratuite ni d’une récupération
+        de DR.</p><h2>Nuances de résolution</h2><p><strong>[OUVERT]</strong> Le
+        coût (L) est explicitement associé au soin ; le texte ne détaille pas si
+        un simple échange télépathique consomme également une action. Pour une
+        lecture pratique, laisser la communication brève dans la fiction et
+        réserver l’action limitée au soin ; ceci reste à valider. Le plafond
+        concret du transfert lorsque le chasseur descendrait à 0 PV n’est pas
+        précisé : l’arbitrage prudent est d’éviter un sacrifice létal
+        automatique, sauf décision explicite du MJ.</p><p><small><strong>Sources
+        COF2 :</strong> Laurent Bernasconi, <em>Chroniques Oubliées Fantasy
+        2</em>, Black Book Éditions (2024), p. 71–72 ; p. 210–211. Le détail
+        ci-dessus est reformulé ; les éventuels arbitrages Warbound sont
+        explicitement identifiés.</small></p></section>
+      markdown: ''
+    ownership:
+      default: 0
+    flags:
+      warbound-campaign-content:
+        rank: null
+        access: mj
+    _id: caYW7BY38EnAE0oe
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248684984
+      modifiedTime: 1794248684984
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!jbBA0fW8TrjNVw9x.caYW7BY38EnAE0oe'
+  - name: 05 · Rang 4 — Loup alpha
+    type: text
+    sort: 600000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <section><h1>Rang 4 : Loup alpha</h1><p><strong>[COF2, livre PDF fourni,
+        p. 72]</strong> Le loup reçoit un profil « mâle alpha ». Les valeurs
+        ci-dessous sont celles de <strong>l’ouvrage fourni</strong> ; elles
+        diffèrent du DRS en ligne sur la DEF et les PV. Pour Warbound, cette
+        version du livre fait référence tant qu’aucun erratum n’a été
+        validé.</p><table><thead><tr><th>Statistique</th><th>Rang 4 et
+        suite</th></tr></thead><tbody><tr><td>CON</td><td>+3 avec dé bonus aux
+        tests (remplace +1*)</td></tr><tr><td>FOR</td><td>+5 (remplace
+        +2)</td></tr><tr><td>DEF</td><td><strong>18</strong> dans le livre
+        fourni ; bonus du rang 5 éventuel à ajouter ensuite</td></tr><tr><td>PV
+        maximum</td><td><strong>niveau du chasseur × 5</strong> (remplace
+        ×4)</td></tr><tr><td>DM morsure</td><td><strong>1d4° + 5</strong>
+        (remplace 1d4+2)</td></tr><tr><td>Attaque au contact</td><td>reste égale
+        à la valeur d’attaque magique du chasseur</td></tr><tr><td>AGI, PER,
+        CHA, INT, VOL</td><td>restent les valeurs du profil de base si non
+        remplacées</td></tr><tr><td>Initiative</td><td>reste identique à celle
+        du chasseur</td></tr></tbody></table><h2>Évolution des dés</h2><p>Le
+        1d4° de la morsure alpha suit le niveau du chasseur : 1d4° aux niveaux
+        1–5, 1d6 au niveau 6, 1d8 au niveau 9, 1d10 au niveau 12, 1d12 au niveau
+        15. Les points de vie dépendent du niveau du chasseur, pas du niveau de
+        créature.</p><h2>Exemple</h2><p>Chasseur niveau 6 et rang 4 :
+        <strong>DEF 18 ; PV 30 ; morsure 1d6 + 5</strong>, bonus d’attaque égal
+        à l’attaque magique du PJ. Si le loup avait subi des blessures avant de
+        monter de rang, l’ajustement de ses PV <em>actuels</em> lors du
+        changement de maximum n’est pas réglé explicitement : noter le choix
+        MJ.</p><h2>Divergence documentaire</h2><p><strong>[IMPORTANT]</strong>
+        Le DRS accessible sur <a
+        href="https://drs.chroniques-oubliees.fr/fantasy/profils/rodeur">drs.chroniques-oubliees.fr/fantasy/profils/rodeur</a>
+        affiche le profil alpha avec DEF « 12 + rang » et PV « niveau × 4 ». Il
+        ne faut pas combiner silencieusement ces formules avec celles du livre.
+        Voir page 14 pour le suivi de version.</p><p><small><strong>Sources COF2
+        :</strong> Laurent Bernasconi, <em>Chroniques Oubliées Fantasy 2</em>,
+        Black Book Éditions (2024), p. 72 et p. 43 ; DRS, consultation du 7
+        novembre 2026. Le détail ci-dessus est reformulé ; les éventuels
+        arbitrages Warbound sont explicitement identifiés.</small></p></section>
+      markdown: ''
+    ownership:
+      default: 0
+    flags:
+      warbound-campaign-content:
+        rank: null
+        access: mj
+    _id: iQadfunn5IREGXiJ
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248684984
+      modifiedTime: 1794248684984
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!jbBA0fW8TrjNVw9x.iQadfunn5IREGXiJ'
+  - name: 06 · Rang 5 — Tactiques de meute
+    type: text
+    sort: 700000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <section><h1>Rang 5 : Tactiques de meute</h1><p><strong>[COF2]</strong>
+        Trois bénéfices distincts sont acquis : dégâts coordonnés, efficacité
+        des soins empathiques et bonus progressif de DEF du
+        duo.</p><ol><li><strong>Attaque sur la même cible :</strong> si le loup
+        attaque la même cible que le chasseur, <strong>+1d4° DM</strong> sur
+        l’attaque du loup. Cela n’ajoute pas une seconde morsure : c’est un
+        bonus de dommages à la morsure qui touche.</li><li><strong>Soin
+        empathique amélioré :</strong> chaque PV sacrifié par le chasseur permet
+        au loup de récupérer <strong>2 PV</strong> (dans la limite du maximum du
+        loup) ; le soin reste une action limitée (L) par le pouvoir du rang
+        3.</li><li><strong>DEF de meute :</strong> le chasseur <em>et</em> le
+        loup gagnent <strong>+1 DEF</strong> chaque fois que le personnage
+        obtient le rang 5 dans une voie de rôdeur, y compris dans la Voie du
+        compagnon animal. Le bonus s’étend si d’autres voies de rôdeur
+        atteignent ce seuil.</li></ol><h2>Exemples</h2><ul><li>Au rang 5, avec
+        une seule voie de rôdeur de rang 5 : DEF du loup alpha = <strong>18 + 1
+        = 19</strong>. La DEF personnelle du chasseur augmente aussi de
+        +1.</li><li>Chasseur niveau 9 / rang 5 : morsure alpha <strong>1d8 +
+        5</strong>, puis <strong>+1d8</strong> DM supplémentaire si la cible est
+        bien la même que celle qu’il attaque.</li><li>Le chasseur sacrifie 3 PV
+        pendant l’action limitée de soin : le loup récupère jusqu’à 6
+        PV.</li></ul><h2>Conditions, pièges</h2><p>La condition de « même cible
+        » est plus stricte que le rang 2 : ne pas l’appliquer au loup attaquant
+        une autre menace. Si le chasseur soigne au lieu d’attaquer, il n’a pas
+        attaqué une cible pendant ce tour : il ne déclenche pas automatiquement
+        le bonus de dommages. Si la cible du chasseur résiste à ses coups ou
+        esquive, la phrase officielle ne demande pas explicitement que son
+        attaque ait réussi : c’est la cible visée qui
+        importe.</p><p><small><strong>Sources COF2 :</strong> Laurent
+        Bernasconi, <em>Chroniques Oubliées Fantasy 2</em>, Black Book Éditions
+        (2024), p. 72 ; p. 43. Le détail ci-dessus est reformulé ; les éventuels
+        arbitrages Warbound sont explicitement identifiés.</small></p></section>
+      markdown: ''
+    ownership:
+      default: 0
+    flags:
+      warbound-campaign-content:
+        rank: null
+        access: mj
+    _id: OkcCbWfU5X8UJq9S
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248684984
+      modifiedTime: 1794248684984
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!jbBA0fW8TrjNVw9x.OkcCbWfU5X8UJq9S'
+  - name: 07 · Actions, attaques et déplacement
+    type: text
+    sort: 800000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <section><h1>Le loup dans l’économie des actions</h1><p><strong>[COF2,
+        général]</strong> Au cours de son tour, un personnage dispose en
+        principe d’une action limitée (L), ou d’une action de mouvement et une
+        action d’attaque (M + A), ou de deux mouvements (2 M). Des paroles très
+        brèves peuvent constituer une action gratuite (G). Une action de
+        mouvement couvre usuellement 10 m, 5 m en terrain difficile ; certaines
+        créatures se déplacent autrement. Les deux partenaires sont placés sur
+        une même initiative selon le rang 1.</p><h2>Ce qui est fixé / ce qui ne
+        l’est
+        pas</h2><table><thead><tr><th>Question</th><th>Traitement</th></tr></thead><tbody><tr><td>Le
+        chasseur doit-il sacrifier son tir ?</td><td><strong>[COF2]</strong>
+        Non, la voie ne dit pas qu’il échange son attaque contre celle du
+        loup.</td></tr><tr><td>Le loup joue-t-il avec son propre déplacement
+        ?</td><td><strong>[OUVERT]</strong> Aucune procédure détaillée de tour
+        indépendant dans la voie. Le loup doit toutefois pouvoir rejoindre sa
+        cible dans la fiction.</td></tr><tr><td>Deux actions d’attaque parce que
+        le chasseur utilise Tir rapide ?</td><td><strong>[OUVERT]</strong> «
+        attaque en même temps » ne signifie pas explicitement « copie chaque
+        attaque » ; ne pas multiplier automatiquement les
+        morsures.</td></tr><tr><td>Ordre oral « attaque » = action
+        ?</td><td><strong>[OUVERT]</strong> Aucun coût fixé par la voie ; le
+        système général admet quelques mots en G.</td></tr><tr><td>Soin (L) du
+        chasseur puis morsure ?</td><td><strong>[OUVERT]</strong> La phrase de
+        la voie ne résout pas le cas où le chasseur n’attaque
+        pas.</td></tr><tr><td>Riposte / attaque d’opportunité automatique
+        ?</td><td><strong>[COF2]</strong> Pas d’attaque d’opportunité générique
+        sur simple déplacement ; ne pas en ajouter pour le
+        loup.</td></tr><tr><td>Distance de déplacement du
+        loup</td><td><strong>[OUVERT]</strong> Pas de vitesse chiffrée sur sa
+        fiche. La règle générale M = 10 m peut être adoptée provisoirement, sans
+        présenter ce nombre comme spécifique au
+        loup.</td></tr></tbody></table><h2>Séquence de jeu conseillée [ARBITRAGE
+        PROPOSÉ — NON VALIDÉ]</h2><ol><li>Au rang d’initiative du chasseur,
+        annoncer l’action du chasseur et une consigne simple au
+        loup.</li><li>Placer le loup sur son emplacement réel, appliquer le
+        terrain et les obstacles.</li><li>Si le chasseur a attaqué et si le loup
+        est en mesure de mordre, effectuer <strong>une seule morsure</strong> au
+        cours de cette activation partagée.</li><li>Appliquer les bonus acquis
+        et les conditions de cible/contact.</li><li>Si le chasseur n’attaque
+        pas, ou utilise une action limitée, statuer selon la convention encore à
+        valider plutôt que prétendre qu’une règle officielle donne une morsure
+        gratuite.</li></ol><p><small><strong>Sources COF2 :</strong> Laurent
+        Bernasconi, <em>Chroniques Oubliées Fantasy 2</em>, Black Book Éditions
+        (2024), p. 71, 209–216. Le détail ci-dessus est reformulé ; les
+        éventuels arbitrages Warbound sont explicitement
+        identifiés.</small></p></section>
+      markdown: ''
+    ownership:
+      default: 0
+    flags:
+      warbound-campaign-content:
+        rank: null
+        access: mj
+    _id: qhWqRyHOLJudo2y8
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248684984
+      modifiedTime: 1794248684984
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!jbBA0fW8TrjNVw9x.qhWqRyHOLJudo2y8'
+  - name: 08 · Combat avancé et menaces
+    type: text
+    sort: 900000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <section><h1>Interactions avec les règles générales de
+        combat</h1><h2>Morsure, cible et critiques</h2><ul><li>Le loup effectue
+        un jet d’attaque au contact contre la DEF de la cible. Sa valeur
+        d’attaque vient du score d’attaque magique du chasseur, <em>exception
+        explicite du profil</em>.</li><li>Les critiques d’une attaque de contact
+        suivent normalement les règles des attaques physiques. Les dés
+        supplémentaires obtenus en bonus (comme le +1d4° du rang 5) ne sont pas
+        multipliés dans les mêmes conditions que les DM de base : consulter COF2
+        p. 213.</li><li>Le loup n’est pas doté par défaut d’un effet de
+        renversement, d’immobilisation, de saignement, de ralentissement ni de
+        provocation. La morsure inflige des DM ; un effet supplémentaire exige
+        une règle ou un arbitrage ponctuel.</li></ul><h2>Terrain, obstacles,
+        tirs alliés</h2><ul><li>Une morsure réclame le contact réel avec une
+        cible ; un mur, une grille infranchissable, une porte fermée ou une
+        différence de niveau peuvent l’empêcher.</li><li>Le chasseur tirant dans
+        une mêlée où son loup combat subit les modificateurs généraux d’attaque
+        à distance selon la position des protagonistes (p. 214) : cible en mêlée
+        −2, ou −5 si un allié masque la cible.</li><li>Le loup est une cible
+        distincte, avec sa DEF, ses PV et ses états ; une attaque de zone peut
+        donc l’atteindre si sa position est dans la zone.</li><li>Immobilisé,
+        étourdi, ralenti, renversé, surpris, etc. : appliquer les définitions du
+        système aux actions/mouvements de l’animal lorsque
+        pertinents.</li></ul><h2>Soutien et tactiques : ne pas les confondre
+        avec la voie</h2><p>COF2 décrit « Soutenir (L) » (p. 216) comme une
+        option tactique permettant de donner +5 au contact à un allié contre une
+        cible désignée ; cette option coûte ses actions et ne produit pas deux
+        attaques. Elle ne doit pas être transformée en bonus passif du loup. Le
+        rang 2 de la voie, lui, donne son dé bonus sous sa condition
+        propre.</p><h2>Combats non létaux</h2><p>Si le joueur demande au loup de
+        désarmer, intimider ou immobiliser sans infliger de DM, aucune manœuvre
+        de morsure « WoW » ne le prévoit d’office. Le MJ peut arbitrer une
+        tentative circonstancielle selon les options tactiques générales, sans
+        créer une nouvelle capacité permanente.</p><p><small><strong>Sources
+        COF2 :</strong> Laurent Bernasconi, <em>Chroniques Oubliées Fantasy
+        2</em>, Black Book Éditions (2024), p. 212–217 ; p. 71–72. Le détail
+        ci-dessus est reformulé ; les éventuels arbitrages Warbound sont
+        explicitement identifiés.</small></p></section>
+      markdown: ''
+    ownership:
+      default: 0
+    flags:
+      warbound-campaign-content:
+        rank: null
+        access: mj
+    _id: sW07H9OO8oGxC7Na
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248684984
+      modifiedTime: 1794248684984
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!jbBA0fW8TrjNVw9x.sW07H9OO8oGxC7Na'
+  - name: 09 · Perception, discrétion et exploration
+    type: text
+    sort: 1000000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <section><h1>Loup éclaireur : ce qu’il peut vraiment faire</h1><p>Le
+        loup dispose de <strong>PER +2 avec dé bonus à ses tests de
+        PER</strong>, et d’<strong>INT −3</strong>. Sa physiologie et son
+        comportement lui permettent de flairer, entendre, surveiller, suivre une
+        odeur ou réagir à un danger. Les règles ne lui accordent ni lecture, ni
+        cartographie, ni identification des pièges complexes, ni capacité à
+        rapporter une description détaillée avant le rang 3.</p><h2>Déterminer
+        le résultat</h2><ol><li>Demander au joueur une <strong>intention
+        claire</strong> (« flairer une piste », « rester à l’entrée », « alerter
+        si quelqu’un arrive »).</li><li>Vérifier que l’ordre reste simple et que
+        l’environnement rend l’action possible (vent, odeurs concurrentes,
+        bruit, relief, distance).</li><li>N’appeler un test de PER, AGI, CON ou
+        autre que s’il existe un enjeu et une incertitude. Utiliser la valeur
+        propre au loup et son dé bonus de PER/CON si applicable.</li><li>Décrire
+        ce que le <em>loup</em> perçoit et comment il peut le manifester :
+        attitude, grondement, arrêt brusque, retour vers le
+        groupe.</li><li>Avant la télépathie, le maître déduit une information de
+        ce comportement ; il ne reçoit pas un compte rendu
+        verbal.</li></ol><h2>Ce qu’il ne faut pas accorder
+        gratuitement</h2><ul><li>Repérage automatique d’une embuscade, d’un
+        piège sans odeur ou d’une cible invisible.</li><li>Télépathie, vision
+        partagée, reconnaissance cartographique et ordres conditionnels
+        complexes avant les capacités adaptées.</li><li>Bonus chiffré
+        automatique au PJ sur chaque test de survie ou de vigilance. Le rang 2
+        définit déjà les bonus précis autorisés.</li></ul><h2>Exemple — le
+        chemin sous les collines de Durotar</h2><p>Un pisteur demande au loup de
+        flairer l’odeur d’un convoi passé quelques heures plus tôt. Le MJ peut
+        solliciter PER du loup, avec dé bonus de son profil. Sur une réussite,
+        il suit un sillage ; le joueur observe la direction qu’il prend. La
+        nature exacte des personnes transportées ou le contenu des caisses ne se
+        déduisent pas automatiquement de ce
+        résultat.</p><p><small><strong>Sources COF2 :</strong> Laurent
+        Bernasconi, <em>Chroniques Oubliées Fantasy 2</em>, Black Book Éditions
+        (2024), p. 71 ; système des tests p. 198–202 ; perception/surprise p.
+        208–209. Le détail ci-dessus est reformulé ; les éventuels arbitrages
+        Warbound sont explicitement identifiés.</small></p></section>
+      markdown: ''
+    ownership:
+      default: 0
+    flags:
+      warbound-campaign-content:
+        rank: null
+        access: mj
+    _id: vz16eKLDf0IJYVRo
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248684984
+      modifiedTime: 1794248684984
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!jbBA0fW8TrjNVw9x.vz16eKLDf0IJYVRo'
+  - name: 10 · Voyage, vie sociale et milieu naturel
+    type: text
+    sort: 1100000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <section><h1>Vie quotidienne, déplacement hors combat et
+        voyage</h1><h2>Nature et habitat [COF2]</h2><p>Le livre indique que le
+        loup est généralement peu à l’aise en ville : il peut rester à
+        l’extérieur de l’agglomération et y subsister en attendant son maître.
+        En variante explicite, le joueur peut choisir un très gros chien, mieux
+        adapté à la ville mais enclin à suivre son maître. Le loup n’est pas un
+        équipement rangé automatiquement dans un inventaire.</p><h2>Choix
+        concrets</h2><table><thead><tr><th>Situation</th><th>Arbitrage à partir
+        de COF2</th></tr></thead><tbody><tr><td>Auberge de
+        Tranchecolline</td><td>Se renseigner sur l’accueil des animaux ; le loup
+        peut attendre hors du village, mais ce n’est pas une invisibilité
+        hors-jeu.</td></tr><tr><td>Marche en Durotar</td><td>Il accompagne le
+        groupe tant que c’est possible ; chaleur, eau, pistes, fatigue sont des
+        contraintes fictionnelles, non de nouveaux malus
+        automatiques.</td></tr><tr><td>Bateau, échelle ou souterrain</td><td>Ne
+        pas supposer qu’il suit sans difficulté ; demander comment le groupe
+        l’aide et n’imposer un test que si l’enjeu le
+        justifie.</td></tr><tr><td>Rencontre sociale avec des civils</td><td>La
+        présence d’un prédateur peut avoir des conséquences sociales crédibles ;
+        aucun bonus/malus de CHA universel n’est
+        créé.</td></tr><tr><td>Recherche de nourriture</td><td>Le loup peut se
+        nourrir de façon plausible en milieu naturel ; aucune fonction «
+        ravitaillement illimité » automatique pour toute la
+        troupe.</td></tr></tbody></table><h2>Voyages Warbound [règle maison déjà
+        existante]</h2><p>Le projet Warbound emploie une progression quotidienne
+        avec Guide (INT Survie), Éclaireur (PER Survie), Voyageurs (CON Survie).
+        <strong>Le loup ne remplace pas un poste de PJ et ne procure pas un
+        succès collectif automatique.</strong> Il peut en revanche contribuer à
+        une scène de piste ou de vigilance ponctuelle. Cette phrase est une
+        <em>application proposée</em> pour éviter le cumul abusif dans le
+        système de voyage Warbound, et ne provient pas du chapitre COF2 sur le
+        loup.</p><p><small><strong>Sources COF2 :</strong> Laurent Bernasconi,
+        <em>Chroniques Oubliées Fantasy 2</em>, Black Book Éditions (2024), p.
+        71–72 ; règles de voyage p. 233–236 ; Warbound, Synthèse des règles de
+        voyage (règle maison). Le détail ci-dessus est reformulé ; les éventuels
+        arbitrages Warbound sont explicitement identifiés.</small></p></section>
+      markdown: ''
+    ownership:
+      default: 0
+    flags:
+      warbound-campaign-content:
+        rank: null
+        access: mj
+    _id: pRU0vX6tWe0jtTqD
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248684984
+      modifiedTime: 1794248684984
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!jbBA0fW8TrjNVw9x.pRU0vX6tWe0jtTqD'
+  - name: 11 · Soins, 0 PV, mort et remplacement
+    type: text
+    sort: 1200000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <section><h1>La survie du compagnon</h1><h2>Soins ordinaires
+        [COF2]</h2><p>Le loup peut recevoir des soins magiques. Selon le
+        paragraphe consacré au rôdeur, une <strong>récupération
+        complète</strong> lui rend <strong>tous ses PV</strong>. La récupération
+        complète est une période de 8 heures dans de bonnes conditions, sous
+        réserve de l’arbitrage général du repos (COF2 p. 221). Ne pas lui
+        imposer d’utiliser les dés de récupération d’un PJ pour contredire ce
+        paragraphe spécifique.</p><h2>À 0 PV : trois
+        situations</h2><table><thead><tr><th>Situation</th><th>Règle à
+        appliquer</th></tr></thead><tbody><tr><td>Milieu naturel et possibilité
+        de fuite</td><td>Le loup fuit et revient <strong>8 heures plus tard avec
+        tous ses PV</strong>.</td></tr><tr><td>Fuite impossible : en cage,
+        coincé ou autre</td><td>Le loup doit être <strong>soigné comme un
+        personnage</strong> : utiliser les règles pertinentes de
+        stabilisation/soins, sans déclarer un retour
+        automatique.</td></tr><tr><td>Mort réelle retenue par la fiction et le
+        MJ</td><td>Le chasseur peut obtenir un nouveau compagnon à son
+        <strong>prochain passage de niveau</strong> ; le moment et la scène se
+        définissent d’un commun accord.</td></tr></tbody></table><h2>Questions à
+        prévoir</h2><ul><li>Le loup a-t-il pu physiquement s’enfuir avant d’être
+        encerclé, immobilisé ou jeté dans une fosse ?</li><li>Le soin magique
+        peut-il être administré à un loup impossible à évacuer ?</li><li>Le
+        compagnon a-t-il été tué dans une situation où la fuite fictionnelle est
+        réellement exclue ?</li><li>Quand le joueur pourra-t-il retrouver un
+        compagnon après une perte permanente ?</li><li>Le nouveau loup
+        reprend-il immédiatement le profil lié au rang de voie ? Le texte
+        indique retrouver un compagnon au niveau suivant, mais pas un rituel
+        long ni une pénalité de rang : ne pas en inventer.</li></ul><h2>Premiers
+        soins lorsque la fuite est impossible [application de la règle
+        PJ]</h2><p>COF2 p. 220 indique pour un personnage à 0 PV un test d’INT
+        (Médecine) difficulté 10 : réussite = réveil au bout d’une minute avec
+        1d4° PV ; échec = réveil après 30 minutes avec 1 PV. La difficulté
+        augmente de +5 si le dernier coup était critique et de +5 si la cible
+        est à 0 DR. <strong>[OUVERT]</strong> Le loup n’a pas de réserve de DR
+        donnée par son profil ; appliquer la procédure de soins lorsqu’il ne
+        peut fuir, sans lui inventer automatiquement des dés de récupération.
+        Lorsque la valeur de DR importe au test, le MJ doit fixer un arbitrage
+        compatible avec le statut de compagnon.</p><h2>Méfiance sur le transfert
+        de PV</h2><p>Rang 3 : un soin à distance coûte des PV au chasseur ; rang
+        5 : 1 PV dépensé soigne 2 PV. On ne peut pas dépasser les PV maximum du
+        loup. Le texte ne fournit pas explicitement de limitation « une fois par
+        repos » pour ce soin ; lui en ajouter serait une règle
+        maison.</p><p><small><strong>Sources COF2 :</strong> Laurent Bernasconi,
+        <em>Chroniques Oubliées Fantasy 2</em>, Black Book Éditions (2024), p.
+        71–72 ; règles d’inconscience et de récupération p. 220–222. Le détail
+        ci-dessus est reformulé ; les éventuels arbitrages Warbound sont
+        explicitement identifiés.</small></p></section>
+      markdown: ''
+    ownership:
+      default: 0
+    flags:
+      warbound-campaign-content:
+        rank: null
+        access: mj
+    _id: 9RkBgf4ZdltKsBJa
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248684984
+      modifiedTime: 1794248684984
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!jbBA0fW8TrjNVw9x.9RkBgf4ZdltKsBJa'
+  - name: '12 · Scènes commentées : neuf cas de table'
+    type: text
+    sort: 1300000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <section><h1>Cas pratiques commentés</h1><ol><li><strong>Le chasseur
+        tire dans un combat où son loup est déjà engagé.</strong> Loup : morsure
+        au contact selon rang 1 ; chasseur : tir séparé avec malus éventuel de
+        cible en mêlée (p. 214).</li><li><strong>Le loup doit atteindre un
+        ennemi situé derrière une porte fermée.</strong> Il ne mord pas à
+        travers la porte ; résoudre obstacle et déplacement
+        d’abord.</li><li><strong>Le loup renifle une piste après le passage de
+        soldats de Tiragarde.</strong> Test de PER possible avec dé bonus ; pas
+        de bonus de piste du rang 2 au chasseur si le duo n’en remplit pas la
+        condition.</li><li><strong>Le joueur dit « attaque celui qui criera
+        ».</strong> Instruction conditionnelle complexe ; pas garantie comme
+        ordre simple. MJ peut demander de reformuler ou appliquer un
+        entraînement fictionnel.</li><li><strong>Le chasseur dépense tout son
+        tour en soin limité (L).</strong> Le comportement offensif du loup n’est
+        pas complètement réglé par la voie ; appliquer l’arbitrage retenu, sans
+        créer une attaque libre garantie.</li><li><strong>Rang 3 : loup blessé
+        au-delà d’un canyon.</strong> Télépathie autorisée, soin à distance
+        selon sa capacité ; portée exacte non fixée, convenir d’une limite de
+        scène plutôt que prétendre que la distance est
+        infinie.</li><li><strong>Rang 4, niveau 6 : passage alpha.</strong> DEF
+        18, PV max 30, morsure 1d6 + 5 ; ne pas appliquer par erreur « 12 + rang
+        » du DRS.</li><li><strong>Rang 5 : chasseur et loup attaquent la même
+        cible.</strong> Une morsure et son bonus de +1d4° DM, pas deux morsures.
+        Leur DEF bénéficie du rang 5.</li><li><strong>Le loup atteint 0 PV en
+        plaine mais est immobilisé au fond d’une fosse.</strong> La fuite
+        naturelle paraît impossible ; appliquer le soin comme à un personnage au
+        lieu d’imposer un retour après 8 heures.</li></ol><h2>Comment annoncer
+        les arbitrages au groupe</h2><blockquote><p>« Le livre vous donne ces
+        effets précis. La manière de combiner les déplacements et les ordres
+        n’est pas complètement définie. Voici la convention provisoire que nous
+        appliquons de façon identique pour tout le monde. Nous la modifierons si
+        elle crée un déséquilibre. »</p></blockquote><p><small><strong>Sources
+        COF2 :</strong> Laurent Bernasconi, <em>Chroniques Oubliées Fantasy
+        2</em>, Black Book Éditions (2024), p. 71–72, 210–216, 221. Le détail
+        ci-dessus est reformulé ; les éventuels arbitrages Warbound sont
+        explicitement identifiés.</small></p></section>
+      markdown: ''
+    ownership:
+      default: 0
+    flags:
+      warbound-campaign-content:
+        rank: null
+        access: mj
+    _id: lH43zFj5sY3AnwMl
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248684984
+      modifiedTime: 1794248684984
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!jbBA0fW8TrjNVw9x.lH43zFj5sY3AnwMl'
+  - name: 13 · Foundry VTT — mettre le loup en jeu
+    type: text
+    sort: 1400000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <section><h1>Paramétrage pratique dans Foundry VTT
+        v14</h1><p><strong>[MODE OPÉRATOIRE PROPOSÉ]</strong> Cette page
+        concerne l’interface, non les capacités officielles. Le monde fourni
+        indique Foundry <strong>14.369</strong> et système <strong>co2
+        2.3.12</strong>. Les noms des champs peuvent varier selon la fiche de
+        rencontre utilisée : le MJ doit vérifier les comportements en
+        jeu.</p><ol><li>Créer un acteur/une fiche de rencontre <strong>« Loup —
+        compagnon du chasseur »</strong> (ou nom choisi par son joueur), avec
+        token propre ; ne pas lui attribuer le profil du loup sauvage par
+        défaut.</li><li>Renseigner AGI +1, CON +1 (dé bonus aux tests), FOR +2,
+        PER +2 (dé bonus), CHA −2, INT −3, VOL +2 ; DM 1d4 + 2 ; DEF 12 + rang ;
+        PV max 4 × niveau du chasseur.</li><li>Configurer l’attaque au contact
+        avec le <strong>bonus d’attaque magique du chasseur</strong> (à
+        synchroniser manuellement après un changement de niveau ou de
+        VOL).</li><li>Donner à l’acteur la même initiative que son maître ; sur
+        le tracker, jouer les déplacements et la morsure dans leur séquence
+        coordonnée, sans multiplier les activations offensives.</li><li>Accorder
+        au joueur le contrôle de l’acteur loup seulement si cela correspond à la
+        pratique du groupe ; sinon le MJ peut déplacer son pion à sa
+        demande.</li><li>À chaque rang, actualiser DEF, PV, DM, bonus au jet ou
+        bonus conditionnel ; conserver une note sur les effets de rang 3 et 5
+        qui concernent aussi le chasseur.</li><li>À l’obtention du rang 4,
+        remplacer le profil par les valeurs alpha du <em>livre</em> ; au rang 5,
+        ajouter les bonus de DEF pour le duo.</li></ol><h2>Journal progressif du
+        joueur</h2><p>Le second JSON fourni comporte <strong>exactement cinq
+        pages</strong> (rangs 1 à 5). Le journal est privé par défaut. Après
+        import, accorder le droit « Observateur » sur le journal au joueur du
+        chasseur, puis ne rendre visibles que les pages atteintes : rang 1
+        visible au départ ; pages 2 à 5 explicitement masquées. Les pages
+        futures pourront être débloquées via leurs droits individuels. Ne pas
+        utiliser « Montrer aux joueurs » sur une page verrouillée si l’intention
+        est de garder son contenu secret.</p><h2>Vérification</h2><p>Faire un
+        test en se connectant comme joueur (ou avec une session de joueur
+        dédiée) : vérifier que la page rang 1 apparaît mais pas les rangs
+        ultérieurs, que le token peut être sélectionné comme souhaité et que les
+        automatismes du système n’ajoutent pas un score de FOR à
+        l’attaque.</p><p><small>Source technique : <a
+        href="https://foundryvtt.com/article/journal/">Foundry VTT — Journal
+        Entries</a> et <a
+        href="https://foundryvtt.com/api/v14/interfaces/foundry.documents.types.JournalEntryPageData.html">API
+        JournalEntryPageData v14</a> (consultés le 7 novembre
+        2026).</small></p></section>
+      markdown: ''
+    ownership:
+      default: 0
+    flags:
+      warbound-campaign-content:
+        rank: null
+        access: mj
+    _id: qq6LwB7up74OBqZX
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248684984
+      modifiedTime: 1794248684984
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!jbBA0fW8TrjNVw9x.qq6LwB7up74OBqZX'
+  - name: 14 · Registre d’arbitrage Warbound
+    type: text
+    sort: 1500000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <section><h1>Décisions ouvertes à verrouiller</h1><p>Les propositions de
+        cette page sont des <strong>arbitrages candidats</strong>, pas des
+        règles officielles ni des décisions déjà validées. Elles évitent le
+        blocage de la séance tout en réservant les vrais pouvoirs évolués à la
+        spécialisation.</p><table><thead><tr><th>Point
+        ouvert</th><th>Proposition minimale — NON
+        VALIDÉE</th></tr></thead><tbody><tr><td>Coût d’un ordre
+        simple</td><td>Quelques mots en action gratuite si le chasseur peut
+        parler ; ordre nouveau élaboré peut demander plus selon la
+        scène.</td></tr><tr><td>Nombre de morsures</td><td>Une morsure au
+        maximum par activation normale du duo ; « Tir rapide » n’en donne pas
+        automatiquement deux.</td></tr><tr><td>Chasseur sans
+        attaque</td><td>Éviter une morsure automatique quand il consacre tout
+        son tour à une action limitée ; permettre garde / déplacement
+        crédible.</td></tr><tr><td>Mouvement du loup</td><td>Utiliser
+        provisoirement la règle usuelle de M = 10 m, distincte du mouvement du
+        chasseur ; terrain difficile 5 m.</td></tr><tr><td>Rang 2, « au contact
+        »</td><td>En mêlée, deux partenaires engagés sur la même cible ; hors
+        combat, proximité immédiate du duo.</td></tr><tr><td>Télépathie,
+        portée</td><td>Au sein d’une même scène et d’un lien encore plausible ;
+        pas d’interconnexion sans borne spatiale
+        démontrée.</td></tr><tr><td>Télépathie, action</td><td>Échange bref sans
+        action limitée ; le transfert de PV, lui, utilise explicitement
+        (L).</td></tr><tr><td>Autonomie du loup hors vue</td><td>Exécuter une
+        consigne simple puis se fier à son instinct ; aucune reconnaissance
+        tactique détaillée.</td></tr><tr><td>PV du chasseur
+        sacrificiel</td><td>Éviter de réduire volontairement le chasseur à 0 PV
+        via le soin si cela n’a pas été explicitement
+        convenu.</td></tr><tr><td>Rang 4, source de chiffres</td><td>Conserver
+        DEF 18 et PV 5 × niveau selon livre officiel fourni ; documenter l’écart
+        avec le DRS.</td></tr><tr><td>Mise à niveau des PV actuels</td><td>Après
+        acquisition du rang 4, augmenter PV max ; décider si PV actuels
+        progressent du même différentiel ou non.</td></tr><tr><td>Compagnon tué
+        ou perdu en milieu urbain</td><td>Ne pas appliquer le retour 8 h par
+        défaut hors nature ; suivre soin, danger réel et remplacement au niveau
+        suivant.</td></tr></tbody></table><h2>Priorité de
+        validation</h2><p><strong>P0 :</strong> coût des ordres, attaque quand
+        chasseur n’attaque pas, nombre de morsures, déplacement, définition du
+        contact. <strong>P1 :</strong> portée télépathique, passage de PV rang
+        4, visibilité/perte de piste. <strong>P2 :</strong> habitudes urbaines
+        et comportements spécifiques au loup.</p><p><small><strong>Sources COF2
+        :</strong> Laurent Bernasconi, <em>Chroniques Oubliées Fantasy 2</em>,
+        Black Book Éditions (2024), p. 71–72 ; 210–216. Le détail ci-dessus est
+        reformulé ; les éventuels arbitrages Warbound sont explicitement
+        identifiés.</small></p></section>
+      markdown: ''
+    ownership:
+      default: 0
+    flags:
+      warbound-campaign-content:
+        rank: null
+        access: mj
+    _id: Xfmm09bSSLNYBFcf
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248684984
+      modifiedTime: 1794248684984
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!jbBA0fW8TrjNVw9x.Xfmm09bSSLNYBFcf'
+  - name: 15 · Frontière avec « Bêtes familières »
+    type: text
+    sort: 1600000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <section><h1>Périmètre de la future
+        spécialisation</h1><p><strong>[ACQUIS — DIRECTION WARBOUND]</strong> Le
+        loup doit rester fidèle à l’esprit du compagnon animal COF2 tant que le
+        chasseur n’a pas investi dans sa voie de prestige. La spécialisation
+        pourra devenir un engagement réel et visible du build du personnage,
+        plutôt qu’une amélioration gratuite accordée à tous les
+        chasseurs.</p><table><thead><tr><th>Compagnon COF2, déjà
+        acquis</th><th>Réservé à une future voie de prestige (non
+        conçu)</th></tr></thead><tbody><tr><td>Morsure normale et progression
+        1–5</td><td>Commandes tactiques plus avancées, attaques spécifiques au
+        rôle de l’animal</td></tr><tr><td>Ordres élémentaires et lien empathique
+        au rang 3</td><td>Autonomie offensive/ défensive améliorée explicitement
+        écrite</td></tr><tr><td>Dé bonus et synchronisation de meute selon
+        rangs</td><td>Protection active ou interception avec coût et limites
+        définis</td></tr><tr><td>PV/DEF/soin officiels</td><td>Capacités
+        inspirées de WoW, sans rotas ni gestion MMO
+        lourde</td></tr></tbody></table><h2>Garde-fous de design</h2><ul><li>Ne
+        pas retirer l’attaque de base COF2 pour la revendre dans la future
+        voie.</li><li>Ne pas permettre gratuitement de multiplier les morsures
+        dès qu’un autre effet offre des attaques supplémentaires au
+        chasseur.</li><li>Ne pas rendre le loup indispensable à toutes les
+        scènes : d’autres personnages doivent garder leurs niches tactiques et
+        d’exploration.</li><li>Concevoir le prestige plus tard sur des
+        situations de table (protection, choix de cible, manœuvres,
+        comportement), pas comme copie littérale de WoW
+        Classic.</li></ul><h2>Situation actuelle</h2><p>Aucun rang de « Bêtes
+        familières » n’est décrit ou attribué dans les présents journaux. Ils
+        restent consacrés au compagnon animal COF2 et à sa progression
+        native.</p><p><small>Source du choix de campagne : instruction du MJ
+        dans cette conversation ; source mécanique : COF2 p.
+        71–72.</small></p></section>
+      markdown: ''
+    ownership:
+      default: 0
+    flags:
+      warbound-campaign-content:
+        rank: null
+        access: mj
+    _id: gHgxBvE5UInScHi0
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248684984
+      modifiedTime: 1794248684984
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!jbBA0fW8TrjNVw9x.gHgxBvE5UInScHi0'
+  - name: 16 · Fiche de contrôle, FAQ et sources
+    type: text
+    sort: 1700000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <section><h1>Aide-mémoire du MJ et
+        vérifications</h1><table><thead><tr><th>Rang</th><th>Bonus / fonction
+        principale</th><th>DEF loup</th><th>PV
+        maximum</th><th>Morsure</th></tr></thead><tbody><tr><td>1</td><td>Ordres
+        simples, attaque au tour du chasseur</td><td>13</td><td>4 ×
+        niveau</td><td>1d4 + 2</td></tr><tr><td>2</td><td>Dé bonus au loup en
+        attaque et au chasseur pour piste/surprise si « au contact
+        »</td><td>14</td><td>4 × niveau</td><td>1d4 +
+        2</td></tr><tr><td>3</td><td>Télépathie et soin à distance (L)
+        1:1</td><td>15</td><td>4 × niveau</td><td>1d4 +
+        2</td></tr><tr><td>4</td><td>Profil alpha : CON +3*, FOR
+        +5</td><td>18</td><td>5 × niveau</td><td>1d4° +
+        5</td></tr><tr><td>5</td><td>+1d4° DM si même cible ; soin 1:2 ; +1 DEF
+        au duo par voie de rôdeur rang 5</td><td>18 + bonus de meute</td><td>5 ×
+        niveau</td><td>1d4° + 5 (+1d4° sous
+        condition)</td></tr></tbody></table><h2>FAQ
+        rapide</h2><ul><li><strong>Est-ce une créature supplémentaire qui
+        attaque ?</strong> Oui, dès le rang 1, mais la voie ne décrit pas une
+        économie autonome complète des actions.</li><li><strong>Doit-il toucher
+        la cible pour utiliser ses crocs ?</strong> Oui, attaque au contact
+        contre DEF.</li><li><strong>Donne-t-il la perception de son maître
+        ?</strong> Non. Il teste avec ses valeurs ; bonus au PJ seulement s’il
+        est prévu par le rang.</li><li><strong>Un loup inconscient revient-il
+        automatiquement ?</strong> La règle de retour à 8 h suppose qu’il puisse
+        s’enfuir en milieu naturel.</li><li><strong>Les bonus du rang 5 sont-ils
+        trois fois le même avantage ?</strong> Non : dommages, soin et DEF sont
+        des effets distincts.</li></ul><h2>Références
+        traçables</h2><ol><li><strong>Laurent Bernasconi</strong>,
+        <em>Chroniques Oubliées Fantasy 2e édition</em>, Black Book Éditions,
+        2024, <strong>p. 71–72</strong> : compagnon animal, gestion, cinq rangs
+        ; <strong>p. 43</strong> : dés évolutifs.</li><li><strong>COF2 p.
+        208–217</strong> : surprise, initiative, types d’action, mouvement,
+        attaques, critiques et options tactiques ; <strong>p. 220–222</strong> :
+        récupération.</li><li><a
+        href="https://drs.chroniques-oubliees.fr/fantasy/profils/rodeur"><strong>DRS
+        Chroniques Oubliées Fantasy — Rôdeur</strong></a>, consultation
+        7/11/2026 : divergence de valeurs au rang 4, non tranchée par erratum
+        retrouvé.</li><li><a
+        href="https://foundryvtt.com/article/journal/"><strong>Foundry VTT —
+        Journal Entries</strong></a> et <a
+        href="https://foundryvtt.com/api/v14/interfaces/foundry.documents.types.JournalEntryPageData.html">API
+        v14 JournalEntryPageData</a>, consultés 7/11/2026.</li><li><em>Warbound
+        — Rôles et progression du voyage</em> (document de projet) : règle
+        maison appliquée uniquement au voyage.</li></ol><p><small>Version de
+        travail v1.0 — journal exhaustif côté MJ. Les [ARBITRAGES PROPOSÉS]
+        restent à confirmer avant d’être considérés comme règles de
+        Warbound.</small></p></section>
+      markdown: ''
+    ownership:
+      default: 0
+    flags:
+      warbound-campaign-content:
+        rank: null
+        access: mj
+    _id: KswlbD8RkMim4jnu
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248684984
+      modifiedTime: 1794248684984
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!jbBA0fW8TrjNVw9x.KswlbD8RkMim4jnu'
+_id: jbBA0fW8TrjNVw9x
+folder: Sb5vhr21EPgoLqSj
+categories: []
+sort: 200000
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248684984
+  modifiedTime: 1794248684984
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!jbBA0fW8TrjNVw9x'

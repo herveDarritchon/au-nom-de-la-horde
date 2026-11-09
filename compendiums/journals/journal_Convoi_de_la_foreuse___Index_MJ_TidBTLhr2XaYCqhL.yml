@@ -1,0 +1,96 @@
+_id: TidBTLhr2XaYCqhL
+name: Convoi de la foreuse — Index MJ
+folder: tEHHHyOV0IIPmBJk
+flags:
+  campaign-codex:
+    type: ''
+  core:
+    sheetClass: ''
+  world:
+    warboundConvoi:
+      package: convoi-foreuse-v1
+      key: index
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+pages:
+  - name: Personnel du convoi
+    type: text
+    sort: 0
+    text:
+      format: 1
+      content: |-
+        <h1>Convoi de la foreuse — Personnel PNJ</h1>
+              <p><strong>Dossier MJ.</strong> Cinq convoyeurs hors PJ, deux kodos, deux carrioles : une carriole de ravitaillement et une carriole lourde transportant la foreuse Mâche-Roc.</p>
+              <p>Le kodo de la foreuse est <strong>Ruk</strong>, conduit par Dorga. Le nom du second kodo reste volontairement ouvert.</p>
+              <table><thead><tr><th>PNJ</th><th>Fonction</th><th>Journal</th><th>Rencontre</th></tr></thead><tbody><tr><td>Gorvak Tient-la-Route</td><td>Responsable du convoi</td>
+              <td>@UUID[JournalEntry.pgcZmw8WXdF3b37m]{Journal}</td>
+              <td>@UUID[Actor.FLIK1hSAtIPChXPn]{Actor}</td></tr><tr><td>Dorga Tire-Rêne</td><td>Conductrice de la carriole de la foreuse</td>
+              <td>@UUID[JournalEntry.GXG0bXJKFiDVCwFR]{Journal}</td>
+              <td>@UUID[Actor.QV8X4DNfvwFy4pkh]{Actor}</td></tr><tr><td>Zagra Poussière-Rouge</td><td>Conducteur de la carriole de ravitaillement</td>
+              <td>@UUID[JournalEntry.wkNQ1IQdxldIX7OA]{Journal}</td>
+              <td>@UUID[Actor.lr1YDAgwaWFnX6M4]{Actor}</td></tr><tr><td>Grumek Gros-Bras</td><td>Garde / manutentionnaire</td>
+              <td>@UUID[JournalEntry.unXDn8E42FSnKBZd]{Journal}</td>
+              <td>@UUID[Actor.GhDvHPN42QOdvgqn]{Actor}</td></tr><tr><td>Jarkh Dent-Cassée</td><td>Garde / éclaireur</td>
+              <td>@UUID[JournalEntry.Q3EoJE5eXAtNTsqu]{Journal}</td>
+              <td>@UUID[Actor.VHdL81KkOw9yfG1r]{Actor}</td></tr></tbody></table>
+              <h2>Relations</h2>
+              <table><thead><tr><th>Relation</th><th>État</th><th>Utilisation</th></tr></thead><tbody>
+                <tr><td>Gorvak → Dorga</td><td>Confiance forte</td><td>Il écoute son avis sur l’attelage.</td></tr>
+                <tr><td>Gorvak → Zagra</td><td>Confiance surveillée</td><td>Il apprécie son talent mais se méfie de ses raccourcis.</td></tr>
+                <tr><td>Dorga ↔ Grumek</td><td>Respect simple</td><td>Grumek ne brutalise jamais les kodos.</td></tr>
+                <tr><td>Zagra ↔ Jarkh</td><td>Piques permanentes</td><td>Leurs désaccords font vivre les temps morts.</td></tr>
+                <tr><td>Grumek → tous</td><td>Tampon social</td><td>Il coupe court aux querelles qui retardent le travail.</td></tr>
+                <tr><td>Jarkh → Gorvak</td><td>Respect professionnel</td><td>Il sait que Gorvak ne poursuit pas pour sauver la face.</td></tr>
+              </tbody></table>
+              <h2>Réflexes pendant un incident</h2>
+              <ul>
+                <li><strong>Gorvak :</strong> maintenir le convoi cohérent.</li>
+                <li><strong>Dorga :</strong> calmer Ruk et garder la carriole lourde contrôlable.</li>
+                <li><strong>Zagra :</strong> mettre le ravitaillement à l’abri ou en mouvement.</li>
+                <li><strong>Grumek :</strong> sécuriser chargement, roues et personnes proches.</li>
+                <li><strong>Jarkh :</strong> identifier l’origine de la menace et anticiper la seconde attaque.</li>
+              </ul>
+    title:
+      show: true
+      level: 1
+    flags:
+      world:
+        warboundConvoi:
+          package: convoi-foreuse-v1
+          pageKey: index
+    _id: gvOLoZEIq1yJLx95
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617949
+      modifiedTime: 1794248617949
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!TidBTLhr2XaYCqhL.gvOLoZEIq1yJLx95'
+categories: []
+sort: 0
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248617949
+  modifiedTime: 1794248617949
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!TidBTLhr2XaYCqhL'

@@ -1,0 +1,331 @@
+name: Krosh Pèse-Charge
+type: encounter
+img: modules/warbound-campaign-content/assets/images/avatar/durotar/mine-roche-seche/cof2-krosh-pese-charge-illustration.webp
+folder: d4c9166LOcXBlcX1
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+system:
+  currentEffects: []
+  abilities:
+    agi:
+      superior: false
+      base: 0
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    con:
+      superior: false
+      base: 2
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    for:
+      superior: false
+      base: 2
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    per:
+      superior: false
+      base: 1
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    cha:
+      superior: false
+      base: 1
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    int:
+      superior: true
+      base: 2
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    vol:
+      superior: false
+      base: 1
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+  attributes:
+    movement:
+      base: 10
+      unit: m
+      bonuses:
+        sheet: 0
+        effects: 0
+      ability: null
+      details: null
+      min: null
+      max: null
+    nc: 2
+    hp:
+      base: 30
+      value: 30
+      temp: null
+      max: 30
+      tempmax: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    tempDm: 0
+  combat:
+    init:
+      base: 11
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    def:
+      base: 16
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    dr:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    crit:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    melee:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    ranged:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    magic:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+  magic: 0
+  pasteData: ''
+  details:
+    category: humanoid
+    size: medium
+    description:
+      public: >-
+        <h2>Krosh Pèse-Charge</h2><p><strong>Race :</strong>
+        Orc</p><p><strong>Fonction :</strong> Responsable des cargaisons et
+        bordereaux</p><p>Contrôle le pesage, les scellés, les stocks et le
+        départ des cargaisons.</p>
+      private: >-
+        <p>Sait que les caisses de Mâche-Roc ont été remplacées par des caisses
+        lestées de pierres et de métal. Connaît l’intermédiaire qui l’a payé,
+        pas nécessairement la destination finale.</p><p>SECRET MJ — Un
+        intermédiaire du Cercle de la Pierre Brisée l’a payé. Krosh n’est pas
+        membre du Cercle et n’adhère pas à ses convictions. Il a fait déplacer
+        les vraies caisses par le treuil vers une réserve proche de l’ancien
+        chemin de service, substitué des caisses lestées et ajusté les
+        registres. Une équipe extérieure est venue prendre les pièces avant le
+        changement de garde. Krosh a accepté l’histoire d’un détournement
+        commercial temporaire, car l’argent était important. Mis devant des
+        preuves contradictoires, il peut mentir, tenter de gagner du temps, puis
+        céder. Ne jamais présenter sa culpabilité aux joueurs avant leur
+        enquête.</p>
+    notes:
+      public: ''
+      private: >-
+        <h3>Dossier</h3><p>@UUID[JournalEntry.LTqyGnqj7sthbpmB]{Histoire et
+        relations de Krosh
+        Pèse-Charge}</p><p>@UUID[JournalEntry.WH5fpMRmRdITacHZ]{Mine de
+        Roche-Sèche}</p><h3>Relations</h3><ul><li>@UUID[Actor.WZmhEhaByZJuADqs]{Ragrah
+        Brise-Pic} — Elle lui délègue les expéditions. (dossier
+        @UUID[JournalEntry.f0bge3VQIuvXJozj]{MJ})</li><li>@UUID[Actor.Xjjk7WJsMPRVpEZj]{Moj’ka
+        Main-de-Graisse} — L’a tenu à l’écart de la mise en caisse finale.
+        (dossier
+        @UUID[JournalEntry.TpJVg7OJKENxlIju]{MJ})</li><li>@UUID[Actor.XO981jkCXaPf7jDz]{Rukha}
+        — Cherche à hâter son départ ; elle n’est pas complice. (dossier
+        @UUID[JournalEntry.92Jaaithkve53hqJ]{MJ})</li><li>@UUID[Actor.xvIfsWKFd3XlxRDW]{Brazzik
+        Main-Froide} — L’ingénieur connaît la machine ; Krosh évite une
+        inspection technique. (dossier
+        @UUID[JournalEntry.awzLezii4coZp6id]{MJ})</li></ul>
+    languages: []
+    properties: >-
+      <section data-roche-seche-stats="2.0.0"><h2>Profil de rencontre — Krosh
+      Pèse-Charge (Warbound)</h2><p><em>Adaptation MJ, NC 2 ; profil non
+      officiel Warcraft. Les attaques sont données pour utilisation manuelle
+      (pas de bouton de jet intégré).</em></p><p><strong>NC 2</strong> —
+      <strong>DEF 16</strong> — <strong>PV 30</strong> — <strong>RD 0</strong> —
+      <strong>INIT 11</strong> — <strong>Déplacement 10 m</strong> —
+      <strong>Critique 20</strong></p><p><strong>Caractéristiques :</strong> AGI
+      +0 · CON +2 · FOR +2 · PER +1 · CHA +1 · INT +2* · VOL +1 (*
+      caractéristique supérieure)</p><p><strong>Attaques :</strong> contact +5,
+      distance +3, magique 0.</p><ul><li><strong>Crochet de manutention</strong>
+      (Contact) : +5 ; DM 2d6+3</li></ul><p><strong>Comportement en cas
+      d'affrontement :</strong> Privilégie les excuses, la fuite et la reddition
+      si sa fraude est prouvée ; ce n'est pas un combattant
+      fanatique.</p><p><strong>Attention :</strong> le NC reflète une opposition
+      possible, pas une obligation de combat. Il n'ajoute ni entraînement
+      militaire ni pouvoirs surnaturels au PNJ.</p></section>
+  wealth:
+    gp:
+      value: 0
+    sp:
+      value: 0
+    cp:
+      value: 0
+  companion:
+    isCompanion: false
+    master: null
+    rank: 0
+prototypeToken:
+  name: Krosh Pèse-Charge
+  displayName: 30
+  actorLink: true
+  width: 1
+  height: 1
+  texture:
+    src: modules/warbound-campaign-content/assets/images/tokens/npcs/durotar/mine-roche-seche/cof2-krosh-pese-charge-token.webp
+    scaleX: 1
+    scaleY: 1
+    fit: contain
+    tint: '#ffffff'
+    anchorX: 0.5
+    anchorY: 0.5
+    alphaThreshold: 0.75
+  disposition: 0
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  depth: 1
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  flags: {}
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+flags:
+  warbound-campaign-content:
+    rocheSecheKey: pnj-krosh
+    importedVersion: 1.0.0
+    journalUuid: JournalEntry.LTqyGnqj7sthbpmB
+    rocheSecheStatsVersion: 2.0.0
+_id: KLbUH2aOlSyHUnae
+items: []
+effects: []
+sort: 0
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248414735
+  modifiedTime: 1794248414735
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!actors!KLbUH2aOlSyHUnae'

@@ -1,0 +1,85 @@
+_id: pgcZmw8WXdF3b37m
+name: Convoi — Gorvak Tient-la-Route
+folder: tEHHHyOV0IIPmBJk
+flags:
+  campaign-codex:
+    type: ''
+  core:
+    sheetClass: ''
+  world:
+    warboundConvoi:
+      package: convoi-foreuse-v1
+      key: gorvak
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+pages:
+  - name: Fiche MJ
+    type: text
+    sort: 0
+    text:
+      format: 1
+      content: |-
+        <h1>Gorvak Tient-la-Route</h1>
+              <p><strong>Responsable du convoi</strong> • Orc • Convoi de la foreuse • <strong>[ADAPTATION WARBOND]</strong></p>
+              <p>@UUID[Actor.FLIK1hSAtIPChXPn]{Ouvrir l’Actor Rencontre}</p>
+              <figure class="image"><img src="modules/warbound-campaign-content/assets/images/avatar/orcs/convoi/coa-gorvak_tient-la-route-illustration.webp" alt="Gorvak Tient-la-Route"></figure>
+              <h2>Description courte</h2><p>Orc solide et mûr, équipé pour la route plutôt que pour la parade. Son regard sévère vient davantage de l’habitude de compter les risques que d’un goût pour l’autorité. Il porte le matériel d’un chef de caravane : ceinture utilitaire, carte roulée, hache de travail et équipement de voyage usé.</p>
+              <p><strong>Traits :</strong> Prudent • Méthodique • Responsable • Peu démonstratif</p>
+              <p><strong>Veut :</strong> Faire arriver les deux carrioles et leur équipage à destination, sans transformer le trajet en démonstration de bravoure.</p>
+              <p><strong>Craint :</strong> Prendre une décision qui coûte inutilement la vie à quelqu’un.</p>
+              <h2>Historique</h2><p>Gorvak n’a jamais cherché la gloire des grands guerriers. Une bonne partie de sa vie s’est passée dans l’ombre des campagnes : acheminer de l’eau, du bois, des armes, des peaux, des pièces, puis ramener ce qui pouvait l’être. Il a appris qu’une troupe peut survivre à une escarmouche perdue, mais qu’une roue brisée, une réserve d’eau manquante ou une bête de trait épuisée peuvent arrêter tout le monde.</p><p>Lors d’un ancien convoi, il a choisi de poursuivre la route malgré l’avertissement d’un éclaireur qui annonçait une forte tempête de poussière. Il voulait gagner une journée. Une carriole a quitté la piste et basculé dans un ravin ; un conducteur est mort. Personne ne l’a officiellement condamné pour cette décision. Gorvak, lui, ne l’a jamais classée comme un simple accident.</p><p>Depuis, il vérifie les sangles, les roues et les attelages avec une minutie qui peut agacer. Il accepte le risque lorsqu’il est nécessaire, mais déteste le risque pris pour l’orgueil. Sa prudence n’est pas de la peur : c’est le résultat d’une erreur dont il connaît le prix.</p>
+              <h2>Ce qu’il sait</h2><ul><li>L’itinéraire prévu, les haltes raisonnables et l’ordre de marche.</li><li>L’inventaire général des deux carrioles et ce qui est réellement indispensable au convoi.</li><li>Les capacités et limites des quatre autres convoyeurs.</li></ul>
+              <p><strong>Ce qu’il croit :</strong> Un responsable de convoi doit d’abord faire rentrer les gens, ensuite le matériel, et seulement après son honneur.</p>
+              <p><strong>Ce qu’il cache :</strong> La mort de l’ancien conducteur et la part de responsabilité qu’il s’attribue. Il ne raconte pas cet épisode spontanément.</p>
+              <h2>Ce que ce PNJ produit en jeu</h2><ul><li>S’oppose calmement à une poursuite qui abandonnerait les carrioles.</li><li>Peut demander aux PJ de trancher lorsqu’un choix de route oppose sécurité et rapidité.</li><li>Respecte rapidement un PJ capable de prendre une décision prudente sans se défausser sur lui.</li></ul>
+              <h2>Repères mécaniques</h2>
+              <p><strong>Profil :</strong> Travailleur robuste — variante responsable de convoi • <strong>NC :</strong> 1 • <strong>DEF :</strong> 14 • <strong>PV :</strong> 14 • <strong>Init. :</strong> 12 • <strong>Déplacement :</strong> 10 m.</p>
+              <p><strong>Spécialités :</strong></p><ul><li>Survie (routes et haltes)</li><li>Vigilance</li><li>Logistique et attelages</li></ul>
+              <p><strong>Aptitudes :</strong></p><ul><li><strong>Chef de convoi.</strong> Dé bonus aux tests d’INT ou de PER directement liés à l’état d’une route, d’un attelage ou d’un chargement.</li></ul>
+              <p><strong>Armes :</strong></p><ul><li><strong>Hache de travail.</strong> Attaque [[1d20+3]] ; DM [[1d6+2]].</li></ul>
+              <blockquote>« Un héros peut arriver en retard. Une carriole cassée n’arrive pas du tout. »</blockquote>
+              <p><strong>Navigation :</strong> @UUID[JournalEntry.TidBTLhr2XaYCqhL]{Index du convoi} • @UUID[JournalEntry.GXG0bXJKFiDVCwFR]{Dorga Tire-Rêne} • @UUID[JournalEntry.wkNQ1IQdxldIX7OA]{Zagra Poussière-Rouge} • @UUID[JournalEntry.unXDn8E42FSnKBZd]{Grumek Gros-Bras} • @UUID[JournalEntry.Q3EoJE5eXAtNTsqu]{Jarkh Dent-Cassée}</p>
+    title:
+      show: true
+      level: 1
+    flags:
+      world:
+        warboundConvoi:
+          package: convoi-foreuse-v1
+          pageKey: fiche
+    _id: jJNzoAIG8ZnRmSoG
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617949
+      modifiedTime: 1794248617949
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!pgcZmw8WXdF3b37m.jJNzoAIG8ZnRmSoG'
+categories: []
+sort: 0
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248617949
+  modifiedTime: 1794248617949
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!pgcZmw8WXdF3b37m'

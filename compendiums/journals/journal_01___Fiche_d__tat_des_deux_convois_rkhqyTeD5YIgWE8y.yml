@@ -1,0 +1,59 @@
+name: 01 — Fiche d’état des deux convois
+folder: u5S81tINx4cCFIsT
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  world:
+    warboundS02Key: t01
+    warboundS02Pack: true
+pages:
+  - name: État à renseigner à la table
+    type: text
+    sort: 100000
+    text:
+      format: 1
+      content: "<p><small><strong>AU NOM DE LA HORDE • S02</strong> — MJ uniquement — Maître v0.2 ; état initial précisé par la scène Gornek transmise par le MJ</small></p><p>🧭 @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Retard} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État des convois}</p><p>Dupliquer ou modifier les cellules directement dans l’éditeur de cette page. Aucune valeur non établie n’a été renseignée par défaut.</p><table style=\"width:100%;border-collapse:collapse\"><thead><tr><th>Indicateur</th><th>État au départ</th><th>Évolutions en jeu</th></tr></thead><tbody><tr><td>Retard</td><td>0 point</td><td>________________________________________</td></tr><tr><td>Convoi 1 : kodo de bât, sans chariot</td><td>À préciser</td><td>________________________________________</td></tr><tr><td>Convoi 2 : kodo lourd et chariot (Roche-Sèche)</td><td>À préciser</td><td>________________________________________</td></tr><tr><td>Péons / blessés</td><td>À préciser</td><td>________________________________________</td></tr><tr><td>Kolkar — sacs effectivement volés (0, 1 ou 2)</td><td>0 avant rencontre</td><td>________ ; contenu perdu : __________________</td></tr><tr><td>Kodo 1 — état de panique (0–4)</td><td>À initialiser au début de la scène</td><td>@UUID[JournalEntry.rtpCsLr6B1uDIraY.JournalEntryPage.bCjp2iO5Zucz6Yee]{Voir le suivi de panique}</td></tr><tr><td>Kolkar — déclencheur de repli</td><td>Non joué</td><td>Éclaireur neutralisé / sac(s) / estafette blessée / autre : ______</td></tr><tr><td>Vivres / colis sauvés</td><td>À inventorier</td><td>________________________________________</td></tr><tr><td>Indices Roche-Sèche</td><td>Inconnus des PJ</td><td>________________________________________</td></tr><tr><td>Indices de la ruée</td><td>Inconnus des PJ</td><td>________________________________________</td></tr><tr><td>Attitude des convoyeurs</td><td>Coopération initiale</td><td>________________________________________</td></tr><tr><td>Décision de bivouac</td><td>Non prise</td><td>________________________________________</td></tr><tr><td>Repos et état jour 2</td><td>Non déterminé</td><td>________________________________________</td></tr><tr><td>Résultat patrouille Tiragarde</td><td>Non joué</td><td>________________________________________</td></tr></tbody></table><p><strong>Après chaque scène :</strong> noter les personnes, l’état matériel, la cargaison, les informations et les retards. Les faits établis en jeu prévalent sur la préparation.</p>\n<p><strong>Après le raid :</strong> remplir @UUID[JournalEntry.rtpCsLr6B1uDIraY.JournalEntryPage.Dj6dgeEyMeh9I0R1]{le bilan Kolkar}, consulter @UUID[JournalEntry.rtpCsLr6B1uDIraY.JournalEntryPage.bCjp2iO5Zucz6Yee]{la jauge du kodo} et reporter uniquement les @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{minutes réelles} au retard.</p><hr><p><strong>Renvois utiles :</strong> @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Compteur vivant — piloté par la macro} \_ · \_ @UUID[JournalEntry.NsTxqshtT9lLumN4.JournalEntryPage.0bD6SqPVwT3RVvJm]{Règle et barème contextuel} \_ · \_ @UUID[JournalEntry.f5qnlnbAhytcPhtk.JournalEntryPage.Ys8Pp6kgMAGHkmcG]{À jouer — récit &amp; situations} \_ · \_ @UUID[JournalEntry.rtpCsLr6B1uDIraY.JournalEntryPage.Dj6dgeEyMeh9I0R1]{Bilan MJ — faits établis en jeu} \_ · \_ @UUID[JournalEntry.rtpCsLr6B1uDIraY.JournalEntryPage.bCjp2iO5Zucz6Yee]{Panique vivante — macro MJ} \_ · \_ @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire interactif}</p>"
+    flags:
+      world:
+        warboundS02PageKey: t01.main
+        warboundS02Pack: true
+    _id: 6AT60iHgtk5eqzsa
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617946
+      modifiedTime: 1794248617946
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!rkhqyTeD5YIgWE8y.6AT60iHgtk5eqzsa'
+_id: rkhqyTeD5YIgWE8y
+categories: []
+sort: 0
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248617946
+  modifiedTime: 1794248617946
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!rkhqyTeD5YIgWE8y'

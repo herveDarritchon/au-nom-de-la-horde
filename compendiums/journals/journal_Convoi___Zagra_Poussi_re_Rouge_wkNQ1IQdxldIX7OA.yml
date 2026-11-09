@@ -1,0 +1,85 @@
+_id: wkNQ1IQdxldIX7OA
+name: Convoi — Zagra Poussière-Rouge
+folder: tEHHHyOV0IIPmBJk
+flags:
+  campaign-codex:
+    type: ''
+  core:
+    sheetClass: ''
+  world:
+    warboundConvoi:
+      package: convoi-foreuse-v1
+      key: zagra
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+pages:
+  - name: Fiche MJ
+    type: text
+    sort: 0
+    text:
+      format: 1
+      content: |-
+        <h1>Zagra Poussière-Rouge</h1>
+              <p><strong>Conducteur de la carriole de ravitaillement</strong> • Orc • Convoi de la foreuse • <strong>[ADAPTATION WARBOND]</strong></p>
+              <p>@UUID[Actor.lr1YDAgwaWFnX6M4]{Ouvrir l’Actor Rencontre}</p>
+              <figure class="image"><img src="modules/warbound-campaign-content/assets/images/avatar/orcs/convoi/coa-zagra-poussière-rouge-avatar.webp" alt="Zagra Poussière-Rouge"></figure>
+              <h2>Description courte</h2><p>Orc plus léger et plus expressif que les autres, toujours chargé de sangles, de poches et de petits outils. Il sourit facilement, parle beaucoup et semble connaître chaque piste par un souvenir, une dette ou une histoire. Son équipement raconte quelqu’un qui a longtemps vécu sur les routes.</p>
+              <p><strong>Traits :</strong> Bavard • Débrouillard • Sociable • Un peu filou</p>
+              <p><strong>Veut :</strong> Prouver qu’il peut enfin être considéré comme quelqu’un de fiable et conserver un emploi stable dans la jeune Horde.</p>
+              <p><strong>Craint :</strong> Voir son ancien réseau de dettes et de petits trafics ruiner la confiance qu’on commence à lui accorder.</p>
+              <h2>Historique</h2><p>Zagra a commencé comme garçon de courses entre camps, chantiers et avant-postes. Il a vite découvert que les meilleures routes ne sont pas toujours celles qui sont tracées, et que ceux qui vivent du transport finissent par connaître des pistes que les patrouilles ignorent.</p><p>Pendant un temps, il a convoyé ce que les gens acceptaient de payer : alcool, pièces, marchandises grises, objets dont la provenance demandait parfois de ne pas poser trop de questions. Il ne se considère pas comme un voleur ; il reconnaît en revanche qu’il a travaillé pour des gens qui auraient préféré que leurs comptes ne soient jamais vérifiés.</p><p>Lorsque la Horde lui a offert une place régulière de conducteur, il a accepté. Il prétend que la stabilité l’ennuie moins qu’avant. La vérité est plus prosaïque : il a laissé derrière lui plusieurs dettes, et la perspective d’être enfin payé régulièrement lui plaît beaucoup.</p>
+              <h2>Ce qu’il sait</h2><ul><li>Les pistes secondaires, caches de voyageurs et détours qu’on ne trouve pas sur une carte officielle.</li><li>Les besoins quotidiens de la carriole de ravitaillement et ce qui peut être sacrifié sans mettre le convoi immédiatement en danger.</li><li>Quelques intermédiaires, marchands et individus douteux croisés sur les routes de Durotar.</li></ul>
+              <p><strong>Ce qu’il croit :</strong> Il existe presque toujours un autre chemin ; la vraie question est ce qu’il coûtera.</p>
+              <p><strong>Ce qu’il cache :</strong> Son passé de transporteur « gris », certaines dettes et des connaissances qu’il n’a aucune envie de présenter à Gorvak.</p>
+              <h2>Ce que ce PNJ produit en jeu</h2><ul><li>Peut proposer un raccourci crédible, mais jamais gratuit : terrain difficile, territoire disputé, dette ou vieille cache.</li><li>Un ancien contact peut le reconnaître et employer un surnom inconnu des autres.</li><li>Il raconte beaucoup d’histoires ; une partie est vraie, le reste est enjolivé. Le MJ n’a pas besoin de décider lesquelles avant qu’elles deviennent utiles.</li></ul>
+              <h2>Repères mécaniques</h2>
+              <p><strong>Profil :</strong> Travailleur robuste — variante conducteur • <strong>NC :</strong> 0.5 • <strong>DEF :</strong> 13 • <strong>PV :</strong> 9 • <strong>Init. :</strong> 11 • <strong>Déplacement :</strong> 10 m.</p>
+              <p><strong>Spécialités :</strong></p><ul><li>Survie (pistes secondaires)</li><li>Baratin</li><li>Conduite d’attelage</li></ul>
+              <p><strong>Aptitudes :</strong></p><ul><li><strong>Habitué des pistes.</strong> Dé bonus aux tests d’INT (Survie) pour trouver un détour, estimer la praticabilité d’une piste ou identifier un ancien passage de caravane.</li></ul>
+              <p><strong>Armes :</strong></p><ul><li><strong>Couteau.</strong> Attaque [[1d20+2]] ; DM [[1d4+1]].</li></ul>
+              <blockquote>« Un chemin officiel ? Non. Un chemin ? Oui. »</blockquote>
+              <p><strong>Navigation :</strong> @UUID[JournalEntry.TidBTLhr2XaYCqhL]{Index du convoi} • @UUID[JournalEntry.pgcZmw8WXdF3b37m]{Gorvak Tient-la-Route} • @UUID[JournalEntry.GXG0bXJKFiDVCwFR]{Dorga Tire-Rêne} • @UUID[JournalEntry.unXDn8E42FSnKBZd]{Grumek Gros-Bras} • @UUID[JournalEntry.Q3EoJE5eXAtNTsqu]{Jarkh Dent-Cassée}</p>
+    title:
+      show: true
+      level: 1
+    flags:
+      world:
+        warboundConvoi:
+          package: convoi-foreuse-v1
+          pageKey: fiche
+    _id: o8kU5TyxnuPns6F6
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617951
+      modifiedTime: 1794248617951
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!wkNQ1IQdxldIX7OA.o8kU5TyxnuPns6F6'
+categories: []
+sort: 0
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248617951
+  modifiedTime: 1794248617951
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!wkNQ1IQdxldIX7OA'

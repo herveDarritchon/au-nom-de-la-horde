@@ -1,0 +1,59 @@
+name: 02 — Roche-Sèche et la fraude antérieure
+folder: cU5z4CYEjaUdARUy
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  world:
+    warboundS02Key: p02
+    warboundS02Pack: true
+pages:
+  - name: Informations établies & limites
+    type: text
+    sort: 100000
+    text:
+      format: 1
+      content: "<p><small><strong>AU NOM DE LA HORDE • S02</strong> — MJ uniquement — Document maître évolutif — v0.2 (5 novembre 2026) ; Livret narratif — v0.1 (7 novembre 2026)</small></p><p>🧭 @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Retard} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État des convois}</p><p><strong>[ACQUIS]</strong> Mine souterraine importante, protégée et en activité ; le second convoi est chargé à la mine. Les PJ ne reçoivent pas une visite des profondeurs comme objectif automatique.</p><p><strong>[ACQUIS]</strong> Une cargaison associée à Mâche-Roc a été remplacée frauduleusement avant l’arrivée des PJ. Ils peuvent remarquer une discordance, ne sont pas responsables de l’opération.</p><p><strong>[OUVERT]</strong> L’identité des fraudeurs, le contenu exact des caisses, les témoignages disponibles et les preuves compatibles avec la méthode de substitution.</p><p>Un gobelin passe sur l’aire de chargement, sans exposer le dossier Mâche-Roc. Ne pas le transformer par défaut en suspect ou révélateur.</p><h3>C. Mine de Roche-Sèche — le second convoi</h3><p>[ACQUIS / À COMPLÉTER]  Le second convoi attend. Une cargaison associée à Mâche-Roc a été frauduleusement remplacée avant l’arrivée des PJ ; ceux-ci peuvent remarquer une discordance, mais ne sont pas responsables de la substitution.</p>\n<p style=\"margin-left:1em\">• Décisions ouvertes aux PJ — vérification sommaire, examen approfondi, échange avec ouvriers, rapprochement des pièces de chargement, départ sans enquêter.</p>\n<p style=\"margin-left:1em\">• Conséquences à reporter — chaque examen ou détour peut coûter du temps ; les informations recueillies modifient ce que les PJ pourront établir plus tard devant Takrin.</p>\n<p><small>À écrire / vérifier : nature exacte des éléments substitués, acteurs et témoignages réellement disponibles, seuils d’information et réaction de Mâche-Roc.</small></p><hr><p><strong>Renvois utiles :</strong> @UUID[JournalEntry.NPTwTH0upnsZFYU2.JournalEntryPage.zlu5sM6eTQq7OTLN]{À jouer — récit &amp; situations} \_ · \_ @UUID[JournalEntry.mKI7t7xC0WHoCxjY.JournalEntryPage.XzZax3Ebhu42fEJy]{À jouer — récit &amp; situations} \_ · \_ @UUID[JournalEntry.0OSSsrkorZZNsVqG.JournalEntryPage.SBZRXxq5BRejGgK4]{Trois affaires à ne pas confondre} \_ · \_ @UUID[JournalEntry.1w5SomDLshDAWOoC.JournalEntryPage.MXJysq678UIyw76D]{Points ouverts, sans réponses inventées}</p>"
+    flags:
+      world:
+        warboundS02PageKey: p02.main
+        warboundS02Pack: true
+    _id: D4UtndmnLmtqTgNQ
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617942
+      modifiedTime: 1794248617942
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!ntFjmKdDE6Mcpsuc.D4UtndmnLmtqTgNQ'
+_id: ntFjmKdDE6Mcpsuc
+categories: []
+sort: 0
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248617942
+  modifiedTime: 1794248617942
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!ntFjmKdDE6Mcpsuc'

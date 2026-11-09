@@ -1,0 +1,85 @@
+_id: Q3EoJE5eXAtNTsqu
+name: Convoi — Jarkh Dent-Cassée
+folder: tEHHHyOV0IIPmBJk
+flags:
+  campaign-codex:
+    type: ''
+  core:
+    sheetClass: ''
+  world:
+    warboundConvoi:
+      package: convoi-foreuse-v1
+      key: jarkh
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+pages:
+  - name: Fiche MJ
+    type: text
+    sort: 0
+    text:
+      format: 1
+      content: |-
+        <h1>Jarkh Dent-Cassée</h1>
+              <p><strong>Garde / éclaireur</strong> • Orc • Convoi de la foreuse • <strong>[ADAPTATION WARBOND]</strong></p>
+              <p>@UUID[Actor.VHdL81KkOw9yfG1r]{Ouvrir l’Actor Rencontre}</p>
+              <figure class="image"><img src="modules/warbound-campaign-content/assets/images/avatar/orcs/convoi/coa-jarkh-dent-cassee-avatar.webp" alt="Jarkh Dent-Cassée"></figure>
+              <h2>Description courte</h2><p>Orc sec et athlétique, armure légère de route, lance, arc et carquois. Une de ses défenses inférieures est cassée : détail qui lui a valu son surnom. Il marche souvent légèrement à l’écart du convoi et regarde les crêtes plus que la piste elle-même.</p>
+              <p><strong>Traits :</strong> Vigilant • Professionnel • Méfiant • Réactif</p>
+              <p><strong>Veut :</strong> Ne jamais être surpris comme il l’a été autrefois, et garder le convoi hors des pièges qui se referment après une première attaque.</p>
+              <p><strong>Craint :</strong> Voir un groupe se lancer dans une poursuite impulsive et tomber dans une seconde embuscade.</p>
+              <h2>Historique</h2><p>Jarkh a perdu sa dent lors d’une rencontre avec des Kolkar. Sa petite patrouille traversait un ravin lorsqu’un groupe de centaures frappa depuis les hauteurs. Un coup de hampe lui brisa une défense et le laissa sonné, mais l’escarmouche tourna court et les assaillants se replièrent.</p><p>La patrouille décida de les poursuivre. Jarkh suivit. La seconde embuscade fut plus meurtrière que la première et deux Orcs moururent. Depuis, il considère qu’un adversaire mobile qui fuit peut très bien être en train de choisir le terrain du prochain combat.</p><p>Cette expérience ne fait pas de lui un expert absolu des Kolkar. Elle lui donne au contraire un biais : il interprète plus facilement leurs mouvements comme les étapes d’un piège. Son jugement est fondé sur une expérience réelle, mais il n’est pas une vérité objective sur tous les centaures.</p>
+              <h2>Ce qu’il sait</h2><ul><li>Lecture des crêtes, des lignes de tir, des traces récentes et des positions d’embuscade.</li><li>Quelques tactiques de raid kolkar et surtout le danger d’une poursuite mal préparée.</li><li>Les zones depuis lesquelles un groupe léger pourrait observer le convoi sans se montrer.</li></ul>
+              <p><strong>Ce qu’il croit :</strong> La première attaque n’est pas toujours le vrai piège.</p>
+              <p><strong>Ce qu’il cache :</strong> Il parle peu des deux morts de sa patrouille. La dent cassée est visible ; ce qu’elle lui rappelle ne l’est pas.</p>
+              <h2>Ce que ce PNJ produit en jeu</h2><ul><li>Lors d’une attaque kolkar, il peut crier de ne pas poursuivre. Les PJ restent libres de l’ignorer.</li><li>Il peut interpréter trop vite un éclaireur ou un mouvement lointain comme hostile, ouvrant une possibilité de désaccord ou de négociation.</li><li>Une relation positive avec des Kolkar peut faire évoluer son regard sans effacer sa prudence : « Je ne leur fais pas confiance. Mais je vous fais confiance. »</li></ul>
+              <h2>Repères mécaniques</h2>
+              <p><strong>Profil :</strong> Éclaireur • <strong>NC :</strong> 1 • <strong>DEF :</strong> 15 • <strong>PV :</strong> 14 • <strong>Init. :</strong> 13 • <strong>Déplacement :</strong> 10 m.</p>
+              <p><strong>Spécialités :</strong></p><ul><li>Vigilance</li><li>Survie (pistage)</li><li>Discrétion</li></ul>
+              <p><strong>Aptitudes :</strong></p><ul><li><strong>Œil sur les crêtes.</strong> Dé bonus aux tests de PER (Vigilance) pour repérer une embuscade, un observateur dissimulé ou une position de tir.</li></ul>
+              <p><strong>Armes :</strong></p><ul><li><strong>Lance.</strong> Attaque [[1d20+2]] ; DM [[1d6+1]].</li><li><strong>Arc court.</strong> Attaque [[1d20+4]] ; DM [[1d6+2]] — portée 30 m.</li></ul>
+              <blockquote>« Là-haut. Quelque chose a bougé. »</blockquote>
+              <p><strong>Navigation :</strong> @UUID[JournalEntry.TidBTLhr2XaYCqhL]{Index du convoi} • @UUID[JournalEntry.pgcZmw8WXdF3b37m]{Gorvak Tient-la-Route} • @UUID[JournalEntry.GXG0bXJKFiDVCwFR]{Dorga Tire-Rêne} • @UUID[JournalEntry.wkNQ1IQdxldIX7OA]{Zagra Poussière-Rouge} • @UUID[JournalEntry.unXDn8E42FSnKBZd]{Grumek Gros-Bras}</p>
+    title:
+      show: true
+      level: 1
+    flags:
+      world:
+        warboundConvoi:
+          package: convoi-foreuse-v1
+          pageKey: fiche
+    _id: 3ELLe5ZvB66K6fSf
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617948
+      modifiedTime: 1794248617948
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!Q3EoJE5eXAtNTsqu.3ELLe5ZvB66K6fSf'
+categories: []
+sort: 0
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248617948
+  modifiedTime: 1794248617948
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!Q3EoJE5eXAtNTsqu'

@@ -1,0 +1,94 @@
+name: '08 — La nuit : trois bivouacs possibles'
+folder: 7RHfcfEUCLUvBRwC
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  world:
+    warboundS02Key: s08
+    warboundS02Pack: true
+pages:
+  - name: À jouer — récit & situations
+    type: text
+    sort: 100000
+    text:
+      format: 1
+      content: "<p><small><strong>AU NOM DE LA HORDE • S02</strong> — MJ uniquement — Livret narratif — v0.1 (7 novembre 2026)</small></p><p>🧭 @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Retard} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État des convois}</p><p><em>RESPIRATION · INSTALLATION, QUELQUES VOIX, REPOS</em></p><h3>A. La halte de caravanes, de jour</h3><blockquote style=\"border-left:4px solid #bd8950;padding:8px 12px\"><strong>À LIRE OU REFORMULER</strong><p>Vous quittez la route pour un espace dégagé entre des rochers protecteurs. Des emplacements de feu marquent l'endroit ; du bois sec est empilé sous un abri bas et une réserve d'eau attend près de l'aire où l'on dételle les bêtes. On sent la fumée d'un foyer déjà allumé. Les péons se dispersent aussitôt selon des gestes familiers : un au harnais, un aux roues, un autre vers l'eau. Après les heures passées sur la route, le lieu a quelque chose d'un luxe discret : on sait où poser les caisses et où dormir sans commencer par craindre le terrain.</p></blockquote>\n<p>La halte est une création de campagne, non un établissement identifié du jeu vidéo. La présence d'un gardien permanent reste une option : s'il est là, il peut saluer les convois et indiquer les foyers disponibles ; sinon les transporteurs utilisent eux-mêmes le site aménagé.</p>\n<p style=\"border-left:3px solid #a9814d;padding-left:10px\"><strong>MJ — </strong>Ce qui se joue.  Les péons assurent l'installation ; demander aux PJ seulement s'ils souhaitent aider les blessés, surveiller la cargaison ou partager le repas. S'ils ne demandent rien, laisser la nuit se dérouler sans scène supplémentaire.</p><h3>B. La halte retrouvée de nuit</h3><blockquote style=\"border-left:4px solid #bd8950;padding:8px 12px\"><strong>À LIRE OU REFORMULER</strong><p>La lumière des torches découvre enfin la halte, morceau par morceau : une pierre servant de borne, le contour de l'abri, la zone d'eau, les foyers éteints. Les kodos tirent encore quelques pas avant d'accepter l'arrêt. Un péon descend du chariot en soufflant ; un autre cherche déjà du petit bois en maugréant qu'il aurait mieux valu arriver avec le soleil. Le site est sûr, mais la nuit complique chaque geste simple.</p></blockquote>\n<p style=\"border-left:3px solid #a9814d;padding-left:10px\"><strong>MJ — </strong>Ce qui se joue.  Une tension brève au sujet du trajet ; une aide concrète des PJ peut réduire le désordre. Ne pas leur demander de prendre un poste particulier : les convoyeurs n'ont pas oublié leur métier.</p><h3>C. Un camp de fortune hors de la halte</h3><blockquote style=\"border-left:4px solid #bd8950;padding:8px 12px\"><strong>À LIRE OU REFORMULER</strong><p>Quand vous décidez finalement de vous arrêter, aucun foyer préparé ne vous attend. Le terrain est celui de la route : une pente de cailloux, un renfoncement peut-être assez large pour les deux chariots, quelques touffes sèches qu'il faudra ménager si l'on veut faire du feu. Les kodos restent debout pendant qu'on cherche où les attacher sans les laisser tirer sur les roues. Plus loin, les rochers s'assombrissent et la nuit ferme progressivement le paysage.</p></blockquote>\n<p style=\"border-left:3px solid #a9814d;padding-left:10px\"><strong>MJ — </strong>Trois questions suffisent.  « Où mettez-vous les chariots ? Que faites-vous pour les kodos et les blessés ? Qui surveille l'approche ? » Le reste du camp se met en place avec les compétences ordinaires des péons.</p>\n<p style=\"border-left:3px solid #a9814d;padding-left:10px\"><strong>MJ — </strong>Une vraie petite récompense.  Si les PJ repèrent un renfoncement abrité, installent les chariots en écran et répartissent intelligemment les gardes, montrer l'amélioration : moins de vent, animaux tranquilles, feux protégés. Les conditions de repos suivent la réalité du camp, pas l'étiquette « improvisé ».</p>\n<p style=\"border-left:3px solid #a9814d;padding-left:10px\"><strong>MJ — </strong>Une crispation possible.  « Si on avait quitté le goulet plus tôt, on aurait eu du bois sec et un toit », dit quelqu'un, sans chercher l'affrontement. Un autre pose une couverture près d'un blessé. Les deux gestes peuvent coexister.</p>\n<p><small>Renvoi au document maître v0.2 : conditions de récupération et distinction repos optimal / confortable / ordinaire / inconfortable (sections 4 bis.6–7).</small></p><p><strong>Autres pages de ce journal :</strong> @UUID[JournalEntry.6ueaE9YrYzfXxCzY.JournalEntryPage.M36XUBKaO0DrG7DJ]{Décisions &amp; conséquences}</p><hr><p><strong>Renvois utiles :</strong> @UUID[JournalEntry.T7Oi8jfz3iDN1hbq.JournalEntryPage.YDSwd5unUaR6SHmb]{Procédure Warbound / COF2} \_ · \_ @UUID[JournalEntry.fdszkHXwm6HmfSAI.JournalEntryPage.sYVKJolTDX9dVmkJ]{Conditions et DR} \_ · \_ @UUID[JournalEntry.qERFsqM51AlqFbnx.JournalEntryPage.KNf6AOB6jD73KkQF]{Comportements, limites et connaissances}</p><p><strong>Navigation :</strong> @UUID[JournalEntry.x3XLdzGIaU5xDuhh.JournalEntryPage.eR76EoKqNGdyiYQ7]{← Scène précédente} \_ · \_ @UUID[JournalEntry.mzWDxHVfwUijcWRj.JournalEntryPage.OmszLmL09nNsdQrN]{Scène suivante →}</p>"
+    flags:
+      world:
+        warboundS02PageKey: s08.play
+        warboundS02Pack: true
+    _id: BVe2Ow8tudCrRSVz
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617917
+      modifiedTime: 1794248617917
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!6ueaE9YrYzfXxCzY.BVe2Ow8tudCrRSVz'
+  - name: Décisions & conséquences
+    type: text
+    sort: 200000
+    text:
+      format: 1
+      content: "<p><small><strong>AU NOM DE LA HORDE • S02</strong> — MJ uniquement — Document maître évolutif — v0.2 (5 novembre 2026)</small></p><p>🧭 @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Retard} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État des convois}</p><h3>F. Halte prévue et bivouac</h3><p>[STRUCTURE RETENUE / À TERMINER]  Une halte caravanière de la Horde a été proposée sur la route au sud de Tranchecolline, entre Tranchecolline et Sen’jin. Il s’agirait d’une création Warbound et non d’un camp officiel identifié. Retard, lumière et état des attelages déterminent les options.</p>\n<p style=\"margin-left:1em\">• Décisions ouvertes aux PJ — installer le camp de jour ; installer à la torche ; chercher un autre emplacement ; poursuivre la route de nuit ; forcer l’allure lorsque cela reste plausible.</p>\n<p style=\"margin-left:1em\">• Conséquences à reporter — conditions de repos, sécurité et récupération ; fatigue et éventuelles tensions ; état de départ du lendemain.</p>\n<p><small>À définir : position exacte de la halte, distance et horaire de référence, description du gardien ; voir le module jouable § 4 bis pour la marche de nuit, le bivouac et la récupération.</small></p><p><strong>Autres pages de ce journal :</strong> @UUID[JournalEntry.6ueaE9YrYzfXxCzY.JournalEntryPage.BVe2Ow8tudCrRSVz]{À jouer — récit &amp; situations}</p><hr><p><strong>Renvois utiles :</strong> @UUID[JournalEntry.T7Oi8jfz3iDN1hbq.JournalEntryPage.YDSwd5unUaR6SHmb]{Procédure Warbound / COF2} \_ · \_ @UUID[JournalEntry.fdszkHXwm6HmfSAI.JournalEntryPage.sYVKJolTDX9dVmkJ]{Conditions et DR} \_ · \_ @UUID[JournalEntry.qERFsqM51AlqFbnx.JournalEntryPage.KNf6AOB6jD73KkQF]{Comportements, limites et connaissances}</p><p><strong>Navigation :</strong> @UUID[JournalEntry.x3XLdzGIaU5xDuhh.JournalEntryPage.eR76EoKqNGdyiYQ7]{← Scène précédente} \_ · \_ @UUID[JournalEntry.mzWDxHVfwUijcWRj.JournalEntryPage.OmszLmL09nNsdQrN]{Scène suivante →}</p>"
+    flags:
+      world:
+        warboundS02PageKey: s08.stakes
+        warboundS02Pack: true
+    _id: M36XUBKaO0DrG7DJ
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617917
+      modifiedTime: 1794248617917
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!6ueaE9YrYzfXxCzY.M36XUBKaO0DrG7DJ'
+_id: 6ueaE9YrYzfXxCzY
+categories: []
+sort: 0
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248617917
+  modifiedTime: 1794248617917
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!6ueaE9YrYzfXxCzY'

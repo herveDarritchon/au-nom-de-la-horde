@@ -1,0 +1,59 @@
+name: 01 — Les convoyeurs et les attelages
+folder: cU5z4CYEjaUdARUy
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  world:
+    warboundS02Key: p01
+    warboundS02Pack: true
+pages:
+  - name: Comportements, limites et connaissances
+    type: text
+    sort: 100000
+    text:
+      format: 1
+      content: "<p><small><strong>AU NOM DE LA HORDE • S02</strong> — MJ uniquement — Livret narratif v0.1 et maître v0.2 ; complété par scène Gornek communiquée par le MJ</small></p><p>🧭 @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Retard} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État des convois}</p><p><strong>Deux convois, deux attelages distincts :</strong> au départ vivres, eau et bois avec un kodo de bât <strong>sans chariot</strong> ; à Roche-Sèche jonction avec un kodo lourd, un chariot et les grandes caisses de Mâche-Roc. Ce sont des transporteurs expérimentés, pas des mineurs.</p><p><strong>Autorité :</strong> Jazti supervise l’escorte ; le responsable du second attelage garde la main sur ses bêtes et sa cargaison. Une coopération est possible, sans lutte hiérarchique obligatoire.</p><p><strong>Interlocuteurs disponibles :</strong> responsable du convoi, péon chargé des caisses, péon secouru/blessé (uniquement s’il existe en jeu), ancien transporteur. Aucune identité n’est fixée.</p><p><strong>Ce qu’ils peuvent savoir :</strong> manutention, consignes reçues, état des roues, chemins et trajets ; pas le contenu secret de Mâche-Roc ni l’auteur de la fraude.</p><p><strong>Leur réaction est concrète :</strong> reconnaissance, fatigue, réserve ou coopération selon les actes, sans jauge de moral.</p><h3>Repères des sources</h3><p>[ACQUIS] Les péons restent capables de leur métier même lorsqu’ils sont contrariés. Leurs réactions dépendent de la fatigue et des choix des PJ : entraide pendant la ruée, protection lors de l’enquête, respect de l’état des kodos, franchise au moment de rendre compte.</p>\n<table style=\"width:100%;border-collapse:collapse\"><thead><tr><th>Situation</th><th>Attitude vraisemblable</th><th>Traduction à la table</th></tr></thead><tbody><tr><td>Retard faible / convoi intact</td><td>Coopération ordinaire</td><td>Les péons se concentrent sur l’installation et les tâches habituelles.</td></tr><tr><td>Retard marqué / dégâts</td><td>Inquiétude, contestation ponctuelle</td><td>Un responsable demande pourquoi l’on prend ce risque et propose une alternative.</td></tr><tr><td>Nuit / halte lointaine</td><td>Positions divergentes</td><td>Le responsable exige un choix clair, sans retirer l’initiative aux PJ.</td></tr></tbody></table>\n<p>[À DÉFINIR] Nommer les deux responsables d’attelage et préparer une réplique ou un geste propre à chacun. Pas de nouvelle jauge de moral : noter un fait marquant et une réaction plausible suffit.</p>\n<p><strong>Rocher fendu :</strong> le kodo de bât n’est pas une monture de guerre. Pendant le raid, utiliser @UUID[JournalEntry.C0nayaX26AjnMFqj.JournalEntryPage.c37Mg5eMeoP52oNB]{la panique progressive} et @UUID[JournalEntry.rtpCsLr6B1uDIraY.JournalEntryPage.bCjp2iO5Zucz6Yee]{sa jauge} ; le responsable du second attelage n’intervient qu’à Roche-Sèche.</p><hr><p><strong>Renvois utiles :</strong> @UUID[JournalEntry.nzbiDQbliZ1X1wJV.JournalEntryPage.ZojXMuDDgUpTJ9EI]{À jouer — l’affectation de Gornek} \_ · \_ @UUID[JournalEntry.UrJ1Dw9jRnFJoV14.JournalEntryPage.btMMdwxw1qmeZCQW]{À jouer — récit &amp; situations} \_ · \_ @UUID[JournalEntry.f5qnlnbAhytcPhtk.JournalEntryPage.Ys8Pp6kgMAGHkmcG]{À jouer — récit &amp; situations} \_ · \_ @UUID[JournalEntry.C0nayaX26AjnMFqj.JournalEntryPage.c37Mg5eMeoP52oNB]{Jauge, déclencheurs et statut} \_ · \_ @UUID[JournalEntry.rtpCsLr6B1uDIraY.JournalEntryPage.bCjp2iO5Zucz6Yee]{Panique vivante — macro MJ} \_ · \_ @UUID[JournalEntry.NPTwTH0upnsZFYU2.JournalEntryPage.zlu5sM6eTQq7OTLN]{À jouer — récit &amp; situations} \_ · \_ @UUID[JournalEntry.6ueaE9YrYzfXxCzY.JournalEntryPage.BVe2Ow8tudCrRSVz]{À jouer — récit &amp; situations} \_ · \_ @UUID[JournalEntry.mzWDxHVfwUijcWRj.JournalEntryPage.OmszLmL09nNsdQrN]{À jouer — récit &amp; situations} \_ · \_ @UUID[JournalEntry.fO1uNTfX4xpUAKEP.JournalEntryPage.MbTVKN8HMQYEepVR]{Réactions, tour de garde et reprise} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État à renseigner à la table}</p>"
+    flags:
+      world:
+        warboundS02PageKey: p01.main
+        warboundS02Pack: true
+    _id: KNf6AOB6jD73KkQF
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617943
+      modifiedTime: 1794248617943
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!qERFsqM51AlqFbnx.KNf6AOB6jD73KkQF'
+_id: qERFsqM51AlqFbnx
+categories: []
+sort: 0
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248617943
+  modifiedTime: 1794248617943
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!qERFsqM51AlqFbnx'

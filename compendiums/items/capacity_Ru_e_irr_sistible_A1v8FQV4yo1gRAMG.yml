@@ -1,0 +1,53 @@
+name: Ruée irrésistible
+type: capacity
+system:
+  description: >-
+    <p>Sous l'effet de la panique, la harde se déplace jusqu'à 20 m dans la
+    direction de sa fuite. Elle ne s'arrête pas pour combattre et cherche à
+    contourner les obstacles importants.</p>
+  learned: true
+  path: null
+  actionType: none
+  frequency: none
+  source: ''
+  origin: ''
+  slug: ''
+  gmNotes: ''
+  inGame: ''
+  subtype: ''
+  rank: 0
+  charges: {}
+  properties:
+    spell: false
+  cost: -1
+  manaCost: -1
+  actions: []
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+flags:
+  warbound:
+    imported: true
+    sourceType: pdf-text
+    parserVersion: 1.0.0
+    sourceHash: 83e19996
+    reviewStatus: generated
+img: modules/warbound-campaign-content/assets/images/icons/capacites/rencontres/sanglier/ruee-irresistible.webp
+_id: A1v8FQV4yo1gRAMG
+effects: []
+folder: cPDNoeItbSV5jtX2
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248154205
+  modifiedTime: 1794248166925
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+sort: 100000
+_key: '!items!A1v8FQV4yo1gRAMG'

@@ -1,0 +1,59 @@
+name: 02 — Horloge de retard (1 pt = 15 min)
+folder: 7wHOeNNinUO7NaAZ
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  world:
+    warboundS02Key: r02
+    warboundS02Pack: true
+pages:
+  - name: Règle et barème contextuel
+    type: text
+    sort: 100000
+    text:
+      format: 1
+      content: "<p><small><strong>AU NOM DE LA HORDE • S02</strong> — MJ uniquement — Document maître évolutif — v0.2 (5 novembre 2026)</small></p><p>🧭 @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Retard} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État des convois}</p><p>[ACQUIS] 1 point de retard = 15 minutes. Le compteur commence à zéro au départ de la vallée des Épreuves et mesure le décalage par rapport au programme. Il augmente avec les arrêts, l’enquête, les incidents et les réparations ; son évolution n’est pas un jugement de valeur sur les PJ.</p>\n<table style=\"width:100%;border-collapse:collapse\"><thead><tr><th>Total au soir</th><th>Issue retenue</th><th>Effet dramatique / pratique</th></tr></thead><tbody><tr><td>0–2 points (0–30 min)</td><td>Halte atteinte de jour</td><td>Installation normale ; temps disponible pour préparer surveillance et repos.</td></tr><tr><td>3–5 points (45–75 min)</td><td>Halte atteinte de nuit</td><td>Installation en obscurité ; vigilance accrue pour chariots, kodos et travailleurs.</td></tr><tr><td>6+ points (90 min ou plus)</td><td>Halte inaccessible dans la fenêtre prévue</td><td>Choisir : bivouac de fortune, marche nocturne ou autre solution crédible.</td></tr></tbody></table>\n<p>[PROPOSITION] Barème de travail, à calibrer : inspection brève +1 ; incident prolongé +2 ; détour d’enquête marqué +3 ; réparation importante +4 ou plus. Les coûts doivent être annoncés avant qu’un joueur engage volontairement le groupe. Éviter toute « pénalité » automatique de retard en cas de réussite d’un simple jet : seul le temps fictionnel effectivement écoulé compte.</p>\n<p>Tenir distincts : (a) retard en points ; (b) pertes de cargaison ; (c) état des deux kodos, des chariots et des péons. Un convoi fragile ne peut pas toujours rattraper du temps sans risque. Une solution inventive peut réduire l’exposition au danger sans annuler mécaniquement les minutes écoulées.</p><h3>4 bis.2 — L’horloge de retard de la première journée</h3><p>[ACQUIS] Départ avec 0 point ; 1 point = environ 15 minutes perdues par rapport à l’horaire prévu. On additionne les conséquences réelles, pas les péripéties racontées. Ne jamais compter deux fois un même arrêt (ex. réparation et enquête faites simultanément). Annoncer le coût estimé d’un détour avant que les PJ le choisissent.</p>\n<table style=\"width:100%;border-collapse:collapse\"><thead><tr><th>Moment</th><th>Retard indicatif à inscrire</th><th>Ce qui fait varier le résultat</th></tr></thead><tbody><tr><td>Kolkar — remise en ordre</td><td>+0 à +2</td><td>+0 si le convoi repart presque immédiatement ; +1 pour regroupement/soins ; +2 si récupération de marchandises ou réparation prolongée.</td></tr><tr><td>Roche-Sèche — prise en charge</td><td>+0 à +2</td><td>Échange normal : +0 ; questions ou vérification : +1 ; recherche approfondie : +2 (valeur totale pour cet arrêt).</td></tr><tr><td>Ruée — conséquences</td><td>+0 à +2</td><td>+0 si les PJ maîtrisent les attelages ; +1 pour réarrimer ou calmer un kodo ; +2 si un chariot ou une bête nécessite une intervention longue.</td></tr><tr><td>Enquête après la ruée</td><td>+0 / +1 / +2 / +3</td><td>+0 sans s’écarter ; +1 inspection locale ; +2 remontée des traces ; +3 point d’eau. Paliers CUMULATIFS, et non additionnés entre eux.</td></tr><tr><td>Autres décisions</td><td>Selon temps réel</td><td>Détour, pause, assistance aux blessés, problème de roue : ajouter seulement le temps effectivement perdu par le convoi.</td></tr></tbody></table>\n<p><small>Ces valeurs sont des propositions de calibration Warbound, non un barème COF2. Le compteur peut aussi être réduit par une solution qui raccourcit effectivement le trajet (ex. raccourci fiable), jamais par un simple « bon jet » sans effet fictionnel.</small></p><hr><p><strong>Renvois utiles :</strong> @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Compteur vivant — piloté par la macro} \_ · \_ @UUID[JournalEntry.f5qnlnbAhytcPhtk.JournalEntryPage.Ys8Pp6kgMAGHkmcG]{À jouer — récit &amp; situations} \_ · \_ @UUID[JournalEntry.NPTwTH0upnsZFYU2.JournalEntryPage.zlu5sM6eTQq7OTLN]{À jouer — récit &amp; situations} \_ · \_ @UUID[JournalEntry.zg0ZrdYd7H5Uc8gY.JournalEntryPage.4Z4q8B2PkX86MtE5]{À jouer — récit &amp; situations} \_ · \_ @UUID[JournalEntry.gQ9DSemaiBWIjW0r.JournalEntryPage.M3exRvSKspw29FSl]{À jouer — récit &amp; situations} \_ · \_ @UUID[JournalEntry.x3XLdzGIaU5xDuhh.JournalEntryPage.eR76EoKqNGdyiYQ7]{À jouer — récit &amp; situations}</p>"
+    flags:
+      world:
+        warboundS02PageKey: r02.main
+        warboundS02Pack: true
+    _id: 0bD6SqPVwT3RVvJm
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617936
+      modifiedTime: 1794248617936
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!NsTxqshtT9lLumN4.0bD6SqPVwT3RVvJm'
+_id: NsTxqshtT9lLumN4
+categories: []
+sort: 0
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248617936
+  modifiedTime: 1794248617936
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!NsTxqshtT9lLumN4'

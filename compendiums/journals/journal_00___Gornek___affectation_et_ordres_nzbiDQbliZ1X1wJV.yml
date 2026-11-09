@@ -1,0 +1,94 @@
+name: '00 — Gornek : affectation et ordres'
+folder: 7RHfcfEUCLUvBRwC
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  world:
+    warboundS02Key: s00g
+    warboundS02Pack: true
+pages:
+  - name: À jouer — l’affectation de Gornek
+    type: text
+    text:
+      format: 1
+      content: "<p></p><small><p><strong>AU NOM DE LA HORDE • S02</strong> — MJ uniquement — événements de la séance 1 et scène Gornek</p></small><p>🧭 @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Retard} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État des convois}</p><p><em>APRÈS LES EXERCICES ET L’INCIDENT DU SCORPIDE · AVANT LE DÉPART DU KODO</em></p><blockquote style=\"border-left:4px solid #bd8950;padding:8px 12px\"><p><strong>À LIRE OU REFORMULER</strong></p><p>Gornek se tient devant l’entrée de la Grande Hutte, un rouleau d’ordres à la main. « Votre formation est terminée. Maintenant, il n’y aura plus un instructeur derrière chacun de vos pas, la bleusaille. »</p><p>« Gurok. Sorez. Jazty. Volzan. Vous quatre, approchez. »</p></blockquote><h3>Un mot à Gurok</h3><p>Gornek te murmure: « <strong>Gurok.  </strong>Je veux que tu gardes un oeil sur le reste du groupe. Tu es le seul <strong>\"vrai\"</strong> membre de la Horde. ». Puis reprends à haute voix: «<strong> Je connais le capitaine Galadar d’Alterac. Ton père</strong>. J'espère que tu lui feras honneur, je sais qu'il compte sur toi. »</p><p><strong>Au joueur :</strong> « Est ce que tu lui réponds ? » C’est le jugement de Gornek, pas une vérité sur Gurok.</p><h3>Le commandement de Jazty</h3><p>Gornek : « <strong>Jazti, tu prendras la tête de ce détachement.</strong> C’est toi qui rendra des comptes, blondinet. Un bon chef écoute ceux qui connaissent la piste. »</p><p><strong>Au joueur :</strong> « Est ce que tu réponds ? Adresses-tu quelques mots à tes compagnons ? Répartis-tu les rôles ? ».</p><h3>Avertissement sur les Kolkar</h3><p>Gornek montre la piste de Roche-Sèche, proche de la combe des Kolkar. L’activité des guetteurs et des pillards s’est récemment intensifiée. « Observez les hauteurs. Ne courez pas tous après le premier assaillant. <strong>N’oubliez pas ce que vous protégez. Soyez vigilants.</strong> »</p><blockquote style=\"border-left:4px solid rgb(189, 137, 80);padding:8px 12px\"><p><strong>À LIRE OU REFORMULER</strong></p><p>Gornek prend Jazti par l'épaule, montre la piste de Roche-Sèche, proche de la combe des Kolkar. « L’activité des guetteurs et des pillards Kolkar s’est récemment intensifiée mais récemment on a réussi à vérouiller l'entrée de la combe. La piste devrait être sûre ! »</p><p>« Observez les hauteurs. Ne courez pas après le premier assaillant venu comme des bourriques. <strong>Protégez-vous et protégez le convoi. Soyez une meute.</strong> »</p></blockquote><p><em>MJ :</em> ce conseil n’annonce pas une attaque obligatoire. Si les PJ prennent des précautions pertinentes, elles doivent compter.</p><h3>Les ordres : deux étapes, une seule mission</h3><ol><li><p><strong>Départ immédiat de la vallée des Épreuves</strong> avec un <strong>kodo de bât</strong> transportant pommes, pommes-cactus de Galgar, viande de sanglier séchée, eau et bois. Destination finale : <strong>Tranchecolline</strong>.</p></li><li><p><strong>Étape à la mine de Roche-Sèche</strong>, prévue vers le milieu du jour. Le convoi déjà chargé de la foreuse gobeline <strong>Mâche-Roc</strong> attend sur place. Rejoindre l’escorte de <strong>Rukha</strong>, puis conduire <strong>les deux chargements</strong> jusqu’à Tranchecolline. Mâche-Roc doit ensuite servir aux travaux sous Orgrimmar.</p></li></ol><p><strong>Échéance souple :</strong> une arrivée tardive peut modifier l’accueil ou conduire à passer la nuit à Roche-Sèche ; le second convoi ne part pas automatiquement sans les PJ.</p><h3>Avant de partir</h3><p>Qui prend l’ordre ? Qui vérifie le kodo et son chargement ? Que demandent-ils au sujet des Kolkar ? Qui décide l’itinéraire ? Répondre aux questions légitimes sans retenir artificiellement les informations connues.</p><h4>Les Pommes-Cactus</h4><p>Galgar va confier <strong>deux gros sac de pommes-cactus</strong> au PJs, qu'il installe dans des saccoches du Kodo.</p><blockquote style=\"border-left:4px solid #bd8950;padding:8px 12px\"><p><strong>À LIRE — LE DÉPART</strong></p><p>Galgar vérifie les sacs de pommes-cactus. « Celles-là, c’est pour Tranchecolline. Pas pour votre petit déjeuner… ».<br>Le kodo renâcle sous ses sacoches. <br>Il examine une corde d’arrimage : « Si celle-là se détend, c’est la moitié du repas de Tranchecolline qui finit dans la poussière. »</p></blockquote><p><strong>MJ — </strong>Ce dernier détail prépare un enjeu matériel sans imposer un incident.</p><p><strong>Sortie :</strong> Jazty organise librement la marche. <strong>À ce stade, il n’y a ni chariot ni foreuse avec les quatre PJ :</strong> seulement le kodo de vivres. Passer à @UUID[JournalEntry.UrJ1Dw9jRnFJoV14.JournalEntryPage.btMMdwxw1qmeZCQW]{Quitter la vallée et prendre la route}.</p><p><strong>Autres pages de ce journal :</strong> @UUID[JournalEntry.nzbiDQbliZ1X1wJV.JournalEntryPage.cSAfIG6ANfQMYzlm]{MJ — continuité et conséquences}</p><hr><p><strong>Renvois utiles :</strong> @UUID[JournalEntry.UrJ1Dw9jRnFJoV14.JournalEntryPage.btMMdwxw1qmeZCQW]{À jouer — récit &amp; situations} \_ · \_ @UUID[JournalEntry.f5qnlnbAhytcPhtk.JournalEntryPage.Ys8Pp6kgMAGHkmcG]{À jouer — récit &amp; situations} \_ · \_ @UUID[JournalEntry.x5IUDrYYtOGNPkrH.JournalEntryPage.k3GjUnWLeeK4ZFnN]{Rôles, progression, rythme} \_ · \_ @UUID[JournalEntry.NsTxqshtT9lLumN4.JournalEntryPage.0bD6SqPVwT3RVvJm]{Règle et barème contextuel} \_ · \_ @UUID[JournalEntry.qERFsqM51AlqFbnx.JournalEntryPage.KNf6AOB6jD73KkQF]{Comportements, limites et connaissances} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État à renseigner à la table} \_ · \_ @UUID[JournalEntry.1w5SomDLshDAWOoC.JournalEntryPage.MXJysq678UIyw76D]{Points ouverts, sans réponses inventées}</p><p><strong>Navigation :</strong> @UUID[JournalEntry.UrJ1Dw9jRnFJoV14.JournalEntryPage.btMMdwxw1qmeZCQW]{Scène suivante →}</p>"
+    flags:
+      world:
+        warboundS02PageKey: s00g.play
+        warboundS02Pack: true
+    _id: ZojXMuDDgUpTJ9EI
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    sort: 0
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617933
+      modifiedTime: 1794248617933
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!nzbiDQbliZ1X1wJV.ZojXMuDDgUpTJ9EI'
+  - name: MJ — continuité et conséquences
+    type: text
+    text:
+      format: 1
+      content: "<p><small><strong>AU NOM DE LA HORDE • S02</strong> — MJ uniquement — Adaptation Warbound — événements de la séance 1 et scène Gornek fournis par le MJ (7 novembre 2026)</small></p><p>🧭 @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Retard} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État des convois}</p><h3>Raccorder à la séance 1 sans réécrire ce qui s’est passé</h3><p>Le rassemblement se déroule <strong>après</strong> le réveil, les exercices de Jazty et Sorez, les observations de Gurok et Volzan près du chantier et l’incident du scorpide caché dans les rochers. Conserver la version réellement jouée : ne pas décider après coup que le mât est tombé, qu’un péon est blessé ou que le scorpide a été combattu.</p><p>Si des conséquences ont été établies, laisser Thazz’rill, les péons ou les recrues réagir en conséquence, par un regard ou une remarque brève. Ne pas rejouer toute la scène du mât.</p>\n<h3>Décisions immédiates</h3><ul><li>Gurok décide de sa réponse à Gornek ; aucune obligation de partager le jugement de l’instructeur.</li><li>Jazty commande le détachement de quatre PJ, sans autorité sur Rukha ni les transporteurs.</li><li>Les PJ choisissent répartition, reconnaissance, vérification des vivres et rythme du départ.</li><li>Le rendez-vous à Roche-Sèche est un objectif horaire, non un déclencheur de scène imposé.</li></ul>\n<h3>État initial à reporter</h3><p><strong>Retard :</strong> 0 point lors du départ, sauf décision explicite en jeu. <strong>Convoi 1 :</strong> un kodo de bât chargé de vivres, eau et bois, sans chariot. <strong>Convoi 2 :</strong> n’est rejoint qu’à Roche-Sèche : kodo lourd, chariot et caisses de Mâche-Roc.</p>\n<h3>Vigilance éditoriale : noms propres</h3><p><strong>[À CONFIRMER]</strong> Dans la scène transmise, Gornek dit « Galadar ». Le dossier de référence de Gurok nomme son père « Galvangar ». La macro conserve <strong>Galadar tel que fourni</strong>, sans décider de la continuité à la place du MJ. De même, la scène emploie les noms « Sorez », « Jazty » et « Volzan » tels que transmis ; vérifier les conventions de nommage du monde si nécessaire.</p>\n<p><strong>Après la scène :</strong> ouvrir @UUID[JournalEntry.UrJ1Dw9jRnFJoV14.JournalEntryPage.btMMdwxw1qmeZCQW]{Départ} ; consulter @UUID[JournalEntry.x5IUDrYYtOGNPkrH.JournalEntryPage.k3GjUnWLeeK4ZFnN]{Rôles de voyage} et @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État des convois}.</p><p><strong>Autres pages de ce journal :</strong> @UUID[JournalEntry.nzbiDQbliZ1X1wJV.JournalEntryPage.ZojXMuDDgUpTJ9EI]{À jouer — l’affectation de Gornek}</p><hr><p><strong>Renvois utiles :</strong> @UUID[JournalEntry.UrJ1Dw9jRnFJoV14.JournalEntryPage.btMMdwxw1qmeZCQW]{À jouer — récit &amp; situations} \_ · \_ @UUID[JournalEntry.f5qnlnbAhytcPhtk.JournalEntryPage.Ys8Pp6kgMAGHkmcG]{À jouer — récit &amp; situations} \_ · \_ @UUID[JournalEntry.x5IUDrYYtOGNPkrH.JournalEntryPage.k3GjUnWLeeK4ZFnN]{Rôles, progression, rythme} \_ · \_ @UUID[JournalEntry.NsTxqshtT9lLumN4.JournalEntryPage.0bD6SqPVwT3RVvJm]{Règle et barème contextuel} \_ · \_ @UUID[JournalEntry.qERFsqM51AlqFbnx.JournalEntryPage.KNf6AOB6jD73KkQF]{Comportements, limites et connaissances} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État à renseigner à la table} \_ · \_ @UUID[JournalEntry.1w5SomDLshDAWOoC.JournalEntryPage.MXJysq678UIyw76D]{Points ouverts, sans réponses inventées}</p><p><strong>Navigation :</strong> @UUID[JournalEntry.UrJ1Dw9jRnFJoV14.JournalEntryPage.btMMdwxw1qmeZCQW]{Scène suivante →}</p>"
+    flags:
+      world:
+        warboundS02PageKey: s00g.stakes
+        warboundS02Pack: true
+    _id: cSAfIG6ANfQMYzlm
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    sort: 0
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617933
+      modifiedTime: 1794248617933
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!nzbiDQbliZ1X1wJV.cSAfIG6ANfQMYzlm'
+_id: nzbiDQbliZ1X1wJV
+categories: []
+sort: 0
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248617933
+  modifiedTime: 1794248617933
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!nzbiDQbliZ1X1wJV'

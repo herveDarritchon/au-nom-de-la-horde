@@ -1,0 +1,631 @@
+name: Pillard kolkar
+type: encounter
+img: modules/warbound-campaign-content/assets/images/avatar/kolkar/coa-kolkar-pillard-illustration.webp
+system:
+  abilities:
+    for:
+      base: 3
+      superior: true
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    agi:
+      base: 0
+      superior: false
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    con:
+      base: 3
+      superior: false
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    per:
+      base: 0
+      superior: false
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    cha:
+      base: 0
+      superior: false
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    int:
+      base: -1
+      superior: false
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    vol:
+      base: 0
+      superior: false
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+  attributes:
+    nc: 1
+    hp:
+      base: 9
+      value: 9
+      temp: null
+      max: 0
+      tempmax: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    movement:
+      base: 10
+      unit: m
+      bonuses:
+        sheet: 0
+        effects: 0
+      ability: null
+      details: null
+      min: null
+      max: null
+    tempDm: 0
+  combat:
+    def:
+      base: 13
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    init:
+      base: 10
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    dr:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    crit:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    melee:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    ranged:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    magic:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+  details:
+    category: humanoid
+    size: large
+    notes:
+      public: >-
+        <p>Centaure kolkar de taille Grande, membre d’une bande de pillards de
+        Durotar. Lors de l’embuscade, il cherche à s’emparer des vivres, de
+        l’eau et des charges plutôt qu’à éliminer les convoyeurs.</p>
+      private: >-
+        <p>Rôle : saisit les lots et se retire. Tactique : charge ponctuelle,
+        puis appropriation de la cargaison. Une action au contact d’un lot libre
+        permet de le saisir ; le lot est perdu s’il sort de la carte. À deux
+        lots volés, la bande commence à décrocher. La bande ne combat pas
+        jusqu’à la mort.</p>
+    description:
+      private: ''
+      public: ''
+    languages: []
+    properties: ''
+  currentEffects: []
+  magic: 0
+  pasteData: ''
+  wealth:
+    gp:
+      value: 0
+    sp:
+      value: 0
+    cp:
+      value: 0
+  companion:
+    isCompanion: false
+    master: null
+    rank: 0
+prototypeToken:
+  name: Pillard kolkar
+  displayName: 40
+  actorLink: false
+  width: 2
+  height: 2
+  depth: 1
+  texture:
+    src: modules/warbound-campaign-content/assets/images/tokens/npcs/kolkar/coa-kolkar-pillard-token.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  flags:
+    wall-height:
+      tokenHeight: 0
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+items:
+  - name: Lance
+    type: attack
+    img: icons/svg/sword.svg
+    system:
+      description: ''
+      subtype: melee
+      learned: true
+      properties:
+        spell: false
+        reloadable: false
+      range:
+        value: null
+        unit: ''
+        base: 0
+        ability: null
+        details: null
+        min: null
+        max: null
+        bonuses:
+          sheet: 0
+          effects: 0
+      actions:
+        - indice: 0
+          label: ''
+          chatFlavor: ''
+          type: melee
+          img: icons/svg/d20-highlight.svg
+          properties:
+            activable: true
+            enabled: false
+            temporary: false
+            visible: false
+            noManaCost: false
+            noChargesUsed: false
+          conditions:
+            - predicate: isOwned
+          resolvers:
+            - type: attack
+              skill:
+                formula: '+3'
+                crit: '20'
+                difficulty: '@cible.def'
+              dmg:
+                formula: 1d6+1
+              target:
+                type: none
+                number: '0'
+                scope: all
+              bonusDiceAdd: false
+              malusDiceAdd: false
+              additionalEffect:
+                active: false
+                applyOn: success
+                statuses: []
+                duration: '0'
+                unit: round
+              halfDmgOnSave: true
+              hasAttackSuccessThreshold: false
+          modifiers: []
+          source: Actor.nLal0POeyTerbqyw.Item.gwHHO8Ra9LhqIxN0
+          actionType: none
+      source: ''
+      origin: ''
+      slug: ''
+      gmNotes: ''
+      charges: {}
+    _id: gwHHO8Ra9LhqIxN0
+    effects: []
+    sort: 0
+    flags: {}
+    folder: null
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248327661
+      modifiedTime: 1794248327661
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!s9yUXvt5GafeInaK.gwHHO8Ra9LhqIxN0'
+  - name: Sabots
+    type: attack
+    img: icons/svg/sword.svg
+    system:
+      description: ''
+      subtype: melee
+      learned: true
+      properties:
+        spell: false
+        reloadable: false
+      range:
+        value: null
+        unit: ''
+        base: 0
+        ability: null
+        details: null
+        min: null
+        max: null
+        bonuses:
+          sheet: 0
+          effects: 0
+      actions:
+        - indice: 0
+          label: ''
+          chatFlavor: ''
+          type: melee
+          img: icons/svg/d20-highlight.svg
+          properties:
+            activable: true
+            enabled: false
+            temporary: false
+            visible: false
+            noManaCost: false
+            noChargesUsed: false
+          conditions:
+            - predicate: isOwned
+          resolvers:
+            - type: attack
+              skill:
+                formula: '+3'
+                crit: '20'
+                difficulty: '@cible.def'
+              dmg:
+                formula: 1d6+1
+              target:
+                type: none
+                number: '0'
+                scope: all
+              bonusDiceAdd: false
+              malusDiceAdd: false
+              additionalEffect:
+                active: false
+                applyOn: success
+                statuses: []
+                duration: '0'
+                unit: round
+              halfDmgOnSave: true
+              hasAttackSuccessThreshold: false
+          modifiers: []
+          source: Actor.nLal0POeyTerbqyw.Item.tlXpE0OaiYuVNQou
+          actionType: none
+      source: ''
+      origin: ''
+      slug: ''
+      gmNotes: ''
+      charges: {}
+    _id: tlXpE0OaiYuVNQou
+    effects: []
+    sort: 0
+    flags: {}
+    folder: null
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248327661
+      modifiedTime: 1794248327661
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!s9yUXvt5GafeInaK.tlXpE0OaiYuVNQou'
+  - name: Charge (13)
+    type: capacity
+    img: icons/skills/melee/maneuver-greatsword-yellow.webp
+    system:
+      description: >-
+        <p>Le Pillard parcourt jusqu’à 20 m et porte une attaque de sabots avec
+        <strong>un dé bonus</strong>. Si elle réussit, une cible de taille
+        Grande ou inférieure doit réussir un <strong>test de FOR difficulté
+        13</strong> ou être <em>renversée</em>. Si elle est renversée, les DM de
+        cette attaque sont doublés.</p>
+      source: ''
+      origin: ''
+      slug: charge
+      subtype: ''
+      actionType: l
+      learned: true
+      charges:
+        current: null
+        max: null
+      properties:
+        spell: false
+      path: null
+      cost: -1
+      actions:
+        - source: Actor.s9yUXvt5GafeInaK.Item.lICFn2Hr6JoI31ZI
+          indice: 0
+          label: Dé bonus
+          chatFlavor: ''
+          img: icons/svg/d20-highlight.svg
+          type: buff
+          actionType: none
+          properties:
+            activable: true
+            temporary: true
+            noChargesUsed: false
+            visible: false
+            enabled: true
+            noManaCost: false
+          conditions:
+            - predicate: isOwned
+          modifiers:
+            - type: capacity
+              source: Actor.s9yUXvt5GafeInaK.Item.lICFn2Hr6JoI31ZI
+              subtype: bonusDice
+              target: melee
+              value: '0'
+              apply: self
+              additionalInfos: ''
+              choiceGroup: 0
+          resolvers: []
+        - source: Actor.s9yUXvt5GafeInaK.Item.lICFn2Hr6JoI31ZI
+          indice: 1
+          label: Si taille inférieure ou égale
+          chatFlavor: ''
+          img: icons/svg/d20-highlight.svg
+          type: spell
+          actionType: none
+          properties:
+            activable: true
+            temporary: false
+            noChargesUsed: false
+            visible: false
+            enabled: true
+            noManaCost: false
+          conditions:
+            - predicate: isOwned
+          resolvers:
+            - type: save
+              saveAbility: for
+              saveDifficulty: '13'
+              target:
+                type: single
+                scope: all
+                number: '0'
+              additionalEffect:
+                active: true
+                applyOn: saveFailure
+                formulaType: damage
+                formula: ''
+                elementType: ''
+                statuses:
+                  - overturned
+                unit: combat
+                duration: '0'
+              bonusDiceAdd: false
+              malusDiceAdd: false
+              skill: {}
+              dmg: {}
+              halfDmgOnSave: true
+              hasAttackSuccessThreshold: false
+          modifiers: []
+      manaCost: -1
+      inGame: >-
+        <p>La première action donne un dé bonus à l’attaque de contact ; la
+        seconde fait effectuer le test de FOR et applique Renversé en cas
+        d’échec. Supprimer manuellement l’état quand la cible se relève.
+        Appliquer le doublement des DM manuellement.</p>
+      gmNotes: Capacité issue de la voie du cogneur du Bestiaire COF2 ; coût +½ NC.
+      rank: 0
+      frequency: none
+      allowLinkedCapacity: false
+      linkedCapacity: null
+      parentCapacity: null
+    effects: []
+    flags: {}
+    _id: lICFn2Hr6JoI31ZI
+    sort: 0
+    folder: null
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248327661
+      modifiedTime: 1794248327661
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!s9yUXvt5GafeInaK.lICFn2Hr6JoI31ZI'
+  - name: Razzia
+    type: capacity
+    system:
+      description: >-
+        <p>Au contact d'un lot de provisions ou d'un chargement dégagé, le
+        Kolkar dépense une action pour s'en emparer. Le lot est perdu pour le
+        convoi si le pillard quitte la scène avec lui.</p>
+      learned: true
+      path: null
+      actionType: a
+      frequency: none
+      source: ''
+      origin: ''
+      slug: ''
+      gmNotes: ''
+      inGame: ''
+      subtype: ''
+      rank: 0
+      charges: {}
+      properties:
+        spell: false
+      cost: -1
+      manaCost: -1
+      actions: []
+      allowLinkedCapacity: false
+      linkedCapacity: null
+      parentCapacity: null
+    flags:
+      warbound:
+        imported: true
+        sourceType: pdf-text
+        parserVersion: 1.0.0
+        sourceHash: 738facda
+        reviewStatus: generated
+    img: modules/warbound-campaign-content/assets/images/icons/capacites/rencontres/razzia.webp
+    _id: tRxpY0mYt6Jpf2gH
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248327661
+      modifiedTime: 1794248327661
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: Compendium.world.warbound-imported-capacities.Item.Khys0A1AQ7Izzv6Y
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!s9yUXvt5GafeInaK.tRxpY0mYt6Jpf2gH'
+effects: []
+folder: Jdlru5PQWEMbOKh3
+sort: 125000
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248327661
+  modifiedTime: 1794248327661
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_id: s9yUXvt5GafeInaK
+_key: '!actors!s9yUXvt5GafeInaK'

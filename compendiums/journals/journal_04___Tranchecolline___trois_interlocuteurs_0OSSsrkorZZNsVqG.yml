@@ -1,0 +1,59 @@
+name: '04 — Tranchecolline : trois interlocuteurs'
+folder: cU5z4CYEjaUdARUy
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  world:
+    warboundS02Key: p04
+    warboundS02Pack: true
+pages:
+  - name: Trois affaires à ne pas confondre
+    type: text
+    sort: 100000
+    text:
+      format: 1
+      content: "<p><small><strong>AU NOM DE LA HORDE • S02</strong> — MJ uniquement — Document maître évolutif — v0.2 (5 novembre 2026) ; Livret narratif — v0.1 (7 novembre 2026)</small></p><p>🧭 @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Retard} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État des convois}</p><table><thead><tr><th>PNJ</th><th>Objet de l’échange</th><th>À conserver</th></tr></thead><tbody><tr><td><strong>Takrin</strong></td><td>Réception des deux convois, papiers et anomalies de Mâche-Roc.</td><td>Ne pas accuser les PJ d’une substitution antérieure.</td></tr><tr><td><strong>Gar’Thok</strong></td><td>Examen de la conduite de l’escorte.</td><td>Tenir compte des soins, des décisions et du récit corroboré.</td></tr><tr><td><strong>Grosk</strong></td><td>Livraison séparée de deux sacs de pommes de cactus.</td><td>Ne pas fusionner avec les caisses de la mine.</td></tr></tbody></table><p><strong>[À DÉFINIR]</strong> Répliques exactes et barème détaillé de la fiche MJ d’arrivée non fournie.</p><h3>H. Arrivée à Tranchecolline</h3><p>[ACQUIS / FICHE À INTÉGRER]  L’arrivée ouvre trois affaires distinctes : Takrin reçoit les convois et doit traiter la livraison de Mâche-Roc ; Gar’Thok considère la conduite des PJ ; Grosk s’intéresse à une livraison séparée de deux sacs de pommes de cactus.</p>\n<p style=\"margin-left:1em\">• Décisions ouvertes aux PJ — rendre compte, présenter des preuves, expliquer les retards et pertes, négocier ou demander assistance ; gérer séparément les trois interlocuteurs.</p>\n<p style=\"margin-left:1em\">• Conséquences à reporter — évaluation fondée sur actes observables et témoignages ; accueil et services potentiels ; relations locales durables.</p>\n<p><small>À écrire / vérifier : reprendre le texte exact de la fiche MJ d’arrivée si disponible ; ne pas inventer son barème ou ses répliques au-delà de la synthèse déjà échangée.</small></p><hr><p><strong>Renvois utiles :</strong> @UUID[JournalEntry.mKI7t7xC0WHoCxjY.JournalEntryPage.XzZax3Ebhu42fEJy]{À jouer — récit &amp; situations} \_ · \_ @UUID[JournalEntry.ntFjmKdDE6Mcpsuc.JournalEntryPage.D4UtndmnLmtqTgNQ]{Informations établies &amp; limites} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État à renseigner à la table} \_ · \_ @UUID[JournalEntry.1w5SomDLshDAWOoC.JournalEntryPage.MXJysq678UIyw76D]{Points ouverts, sans réponses inventées}</p>"
+    flags:
+      world:
+        warboundS02PageKey: p04.main
+        warboundS02Pack: true
+    _id: SBZRXxq5BRejGgK4
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617941
+      modifiedTime: 1794248617941
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!0OSSsrkorZZNsVqG.SBZRXxq5BRejGgK4'
+_id: 0OSSsrkorZZNsVqG
+categories: []
+sort: 0
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248617941
+  modifiedTime: 1794248617941
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!0OSSsrkorZZNsVqG'

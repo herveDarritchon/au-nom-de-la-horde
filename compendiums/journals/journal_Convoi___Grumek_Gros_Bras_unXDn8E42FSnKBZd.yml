@@ -1,0 +1,126 @@
+_id: unXDn8E42FSnKBZd
+name: Convoi — Grumek Gros-Bras
+folder: tEHHHyOV0IIPmBJk
+flags:
+  campaign-codex:
+    type: ''
+  core:
+    sheetClass: ''
+  world:
+    warboundConvoi:
+      package: convoi-foreuse-v1
+      key: grumek
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+pages:
+  - name: Fiche MJ
+    type: text
+    sort: 0
+    text:
+      format: 1
+      content: |-
+        <h1>Grumek Gros-Bras</h1>
+              <p><strong>Garde / manutentionnaire</strong> • Orc • Convoi de la foreuse • <strong>[ADAPTATION WARBOND]</strong></p>
+              <p>@UUID[Actor.GhDvHPN42QOdvgqn]{Ouvrir l’Actor Rencontre}</p>
+              <figure class="image"><img src="modules/warbound-campaign-content/assets/images/avatar/orcs/convoi/coa-grumek-gros-bras-avatar.webp" alt="Grumek Gros-Bras"></figure>
+              <h2>Description courte</h2><p>Très grand Orc aux épaules massives, équipé d’une armure de travail renforcée. Les crochets, cordes et pièces de cuir comptent autant que sa hache. Son apparence est celle d’un garde, ses gestes sont ceux d’un ouvrier : avant de regarder l’ennemi, il regarde ce qui va tomber, casser ou écraser quelqu’un.</p>
+              <p><strong>Traits :</strong> Fort • Patient • Pragmatique • Protecteur</p>
+              <p><strong>Veut :</strong> Gagner assez de réputation et d’argent pour ne plus passer sa vie à porter les charges des autres et diriger un jour une petite équipe de manutentionnaires.</p>
+              <p><strong>Craint :</strong> Être considéré comme un simple « gros bras » incapable de comprendre ce qu’il transporte ou ce qui se passe autour de lui.</p>
+              <h2>Historique</h2><p>Grumek a travaillé dans des mines, des carrières et des équipes de chargement avant de devenir garde de convoi. Il n’aime pas particulièrement le combat ; il s’y est retrouvé parce que sa carrure, sa résistance et son sang-froid le rendaient utile quand un chantier ou une route devenait dangereux.</p><p>Il préfère remettre une roue sur son axe, retenir une caisse qui glisse ou dresser un étai plutôt que poursuivre un adversaire. Il considère qu’une Horde qui veut durer aura toujours besoin de gens capables de construire, réparer et déplacer — et pas seulement de guerriers capables de détruire.</p><p>Cette expérience lui donne un intérêt réel pour la foreuse. Sans être ingénieur, il comprend les charges, les renforts, l’usage des pièces lourdes et la différence entre un outil destiné à remuer de la terre et une machine conçue pour attaquer de la roche dure.</p>
+              <h2>Ce qu’il sait</h2><ul><li>Chargement, arrimage, masses, points de rupture et réparations physiques simples.</li><li>Les principes rudimentaires d’un chantier de mine ou de carrière.</li><li>Assez de technique pour constater que la foreuse est prévue pour de la roche sérieuse, sans connaître le projet complet auquel elle est destinée.</li></ul>
+              <p><strong>Ce qu’il croit :</strong> Construire quelque chose qui tient vaut souvent davantage que gagner une bagarre.</p>
+              <p><strong>Ce qu’il cache :</strong> Il garde sur lui un petit éclat de roche sombre récupéré sur un ancien chantier. Il ne lui attribue aucune valeur magique ; c’est un souvenir de travail.</p>
+              <h2>Ce que ce PNJ produit en jeu</h2><ul><li>Devient naturellement le PNJ qui aide à redresser, retenir, soulever, arrimer ou dégager.</li><li>Peut attirer l’attention sur la puissance réelle de la foreuse avant que le fil rouge soit compris.</li><li>Le secret du vieux chantier doit rester discret : Grumek n’est ni un espion ni un complice des saboteurs.</li></ul>
+              <h2>Repères mécaniques</h2>
+              <p><strong>Profil :</strong> Garde — variante manutentionnaire • <strong>NC :</strong> 1 • <strong>DEF :</strong> 15 • <strong>PV :</strong> 18 • <strong>Init. :</strong> 11 • <strong>Déplacement :</strong> 10 m.</p>
+              <p><strong>Spécialités :</strong></p><ul><li>Athlétisme</li><li>Manutention</li><li>Mine et carrière</li></ul>
+              <p><strong>Aptitudes :</strong></p><ul><li><strong>Gros bras.</strong> Dé bonus aux tests de FOR pour soulever, retenir, pousser, redresser une charge ou effectuer une réparation physique d’urgence.</li></ul>
+              <p><strong>Armes :</strong></p><ul><li><strong>Hache.</strong> Attaque [[1d20+4]] ; DM [[1d8+3]].</li></ul>
+              <blockquote>« Tu veux courir après eux ? Très bien. Moi, je garde les caisses sur la route. »</blockquote>
+              <p><strong>Navigation :</strong> @UUID[JournalEntry.TidBTLhr2XaYCqhL]{Index du convoi} • @UUID[JournalEntry.pgcZmw8WXdF3b37m]{Gorvak Tient-la-Route} • @UUID[JournalEntry.GXG0bXJKFiDVCwFR]{Dorga Tire-Rêne} • @UUID[JournalEntry.wkNQ1IQdxldIX7OA]{Zagra Poussière-Rouge} • @UUID[JournalEntry.Q3EoJE5eXAtNTsqu]{Jarkh Dent-Cassée}</p>
+    title:
+      show: true
+      level: 1
+    flags:
+      world:
+        warboundConvoi:
+          package: convoi-foreuse-v1
+          pageKey: fiche
+    _id: eMDhum99gTl2E9YI
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617950
+      modifiedTime: 1794248617950
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!unXDn8E42FSnKBZd.eMDhum99gTl2E9YI'
+  - name: Secret MJ — Le vieux chantier
+    type: text
+    sort: 100
+    text:
+      format: 1
+      content: |-
+        <h1>Secret MJ — Le vieux chantier</h1>
+              <p><strong>Ne pas révéler automatiquement pendant le premier trajet.</strong></p>
+              <p>Grumek a déjà travaillé sur un chantier lié aux premières excavations sous ou autour du site d’Orgrimmar. Son équipe a atteint une paroi qui ne ressemblait pas à une formation naturelle : pierres ajustées, marques taillées et chaleur anormale. Le contremaître a fait interrompre le travail et les ouvriers ont été déplacés. On leur a parlé d’une ancienne galerie instable.</p><p>Grumek a gardé un petit éclat sombre arraché à cette zone, simplement parce qu’il s’agissait de l’une des premières pierres qu’il avait sorties lui-même. Il n’a aucune idée de la fonction réelle de la paroi, du scellement ou du danger enfoui. Le morceau peut devenir plus tard une preuve visuelle ou matérielle lorsque les PJ rencontrent une roche, des marques ou une chaleur similaires.</p><p>Le twist doit fonctionner en rétrospective : lorsque Grumek comprend qu’il a déjà vu quelque chose de comparable, il peut devenir un témoin inattendu du fil rouge. Il ne doit pas expliquer la vérité à la place des PJ.</p><p>Ne pas faire raconter ce souvenir pendant le premier trajet sans raison. Laisser d’abord les PJ formuler leurs propres hypothèses. Grumek peut ensuite intervenir : « J’ai déjà vu ça. » Si les PJ ne s’intéressent jamais à lui, le secret peut rester inutilisé.</p><p>Ce secret ne signifie pas que Grumek est un traître, un agent du Cercle de la Pierre brisée ou un informateur secret. Il ne connaît ni le scellement, ni la menace sous Ragefeu, ni la raison réelle de l’arrêt du chantier.</p>
+              <p><strong>Actor :</strong> @UUID[Actor.GhDvHPN42QOdvgqn]{Grumek Gros-Bras}</p>
+              <p><strong>Retour :</strong> @UUID[JournalEntry.unXDn8E42FSnKBZd]{Fiche de Grumek}</p>
+    title:
+      show: true
+      level: 1
+    flags:
+      world:
+        warboundConvoi:
+          package: convoi-foreuse-v1
+          pageKey: secret
+    _id: UvcYk7UHaKEdrmQn
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617950
+      modifiedTime: 1794248617950
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!unXDn8E42FSnKBZd.UvcYk7UHaKEdrmQn'
+categories: []
+sort: 0
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248617950
+  modifiedTime: 1794248617950
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!unXDn8E42FSnKBZd'

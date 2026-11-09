@@ -1,0 +1,319 @@
+name: Borka
+type: encounter
+img: modules/warbound-campaign-content/assets/images/avatar/durotar/mine-roche-seche/cof2-borka-illustration.webp
+folder: d4c9166LOcXBlcX1
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+system:
+  currentEffects: []
+  abilities:
+    agi:
+      superior: false
+      base: -1
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    con:
+      superior: true
+      base: 4
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    for:
+      superior: true
+      base: 3
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    per:
+      superior: false
+      base: 1
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    cha:
+      superior: false
+      base: 0
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    int:
+      superior: false
+      base: 0
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    vol:
+      superior: false
+      base: 2
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+  attributes:
+    movement:
+      base: 10
+      unit: m
+      bonuses:
+        sheet: 0
+        effects: 0
+      ability: null
+      details: null
+      min: null
+      max: null
+    nc: 3
+    hp:
+      base: 52
+      value: 52
+      temp: null
+      max: 52
+      tempmax: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    tempDm: 0
+  combat:
+    init:
+      base: 11
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    def:
+      base: 17
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    dr:
+      base: 2
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    crit:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    melee:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    ranged:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    magic:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+  magic: 0
+  pasteData: ''
+  details:
+    category: humanoid
+    size: medium
+    description:
+      public: >-
+        <h2>Borka</h2><p><strong>Race :</strong> Orc</p><p><strong>Fonction
+        :</strong> Mineur vétéran</p><p>Ancien mineur de Roche-Sèche, témoin du
+        sauvetage des six ouvriers par Mâche-Roc.</p>
+      private: >-
+        <p>Peut raconter l’éboulement et expliquer l’importance sociale de
+        Mâche-Roc. Rien n’établit qu’il ait vu la substitution.</p><p>Aucune
+        complicité connue. Borka est un témoin du quotidien de la mine, non un
+        oracle sur le complot. Il ne faut pas lui prêter des indices qu’il n’a
+        pas obtenus.</p>
+    notes:
+      public: ''
+      private: >-
+        <h3>Dossier</h3><p>@UUID[JournalEntry.NqoXip5E2kh0vxju]{Histoire et
+        relations de Borka}</p><p>@UUID[JournalEntry.WH5fpMRmRdITacHZ]{Mine de
+        Roche-Sèche}</p><h3>Relations</h3><ul><li>@UUID[Actor.WZmhEhaByZJuADqs]{Ragrah
+        Brise-Pic} — Connaît ses exigences et les conditions de travail.
+        (dossier
+        @UUID[JournalEntry.f0bge3VQIuvXJozj]{MJ})</li><li>@UUID[Actor.Xjjk7WJsMPRVpEZj]{Moj’ka
+        Main-de-Graisse} — Reconnaît le mécanicien comme celui qui comprend la
+        foreuse. (dossier
+        @UUID[JournalEntry.TpJVg7OJKENxlIju]{MJ})</li><li>@UUID[Actor.XO981jkCXaPf7jDz]{Rukha}
+        — Lui confie son inquiétude au moment du départ. (dossier
+        @UUID[JournalEntry.92Jaaithkve53hqJ]{MJ})</li></ul>
+    languages: []
+    properties: >-
+      <section data-roche-seche-stats="2.0.0"><h2>Profil de rencontre — Borka
+      (Warbound)</h2><p><em>Adaptation MJ, NC 3 ; profil non officiel Warcraft.
+      Les attaques sont données pour utilisation manuelle (pas de bouton de jet
+      intégré).</em></p><p><strong>NC 3</strong> — <strong>DEF 17</strong> —
+      <strong>PV 52</strong> — <strong>RD 2</strong> — <strong>INIT 11</strong>
+      — <strong>Déplacement 10 m</strong> — <strong>Critique
+      20</strong></p><p><strong>Caractéristiques :</strong> AGI -1 · CON +4* ·
+      FOR +3* · PER +1 · CHA +0 · INT +0 · VOL +2 (* caractéristique
+      supérieure)</p><p><strong>Attaques :</strong> contact +8, distance +2,
+      magique 0.</p><ul><li><strong>Pioche de mineur</strong> (Contact) : +8 ;
+      DM 2d6+5</li></ul><p><strong>Comportement en cas d'affrontement :</strong>
+      Encaisse et défend ses compagnons. Malgré l'âge, c'est un vétéran des
+      galeries, pas un soldat de profession.</p><p><strong>Attention :</strong>
+      le NC reflète une opposition possible, pas une obligation de combat. Il
+      n'ajoute ni entraînement militaire ni pouvoirs surnaturels au
+      PNJ.</p></section>
+  wealth:
+    gp:
+      value: 0
+    sp:
+      value: 0
+    cp:
+      value: 0
+  companion:
+    isCompanion: false
+    master: null
+    rank: 0
+prototypeToken:
+  name: Borka
+  displayName: 30
+  actorLink: true
+  width: 1
+  height: 1
+  texture:
+    src: modules/warbound-campaign-content/assets/images/tokens/npcs/durotar/mine-roche-seche/cof2-borka-token.webp
+    scaleX: 1
+    scaleY: 1
+    fit: contain
+    tint: '#ffffff'
+    anchorX: 0.5
+    anchorY: 0.5
+    alphaThreshold: 0.75
+  disposition: 0
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  depth: 1
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  flags: {}
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+flags:
+  warbound-campaign-content:
+    rocheSecheKey: pnj-borka
+    importedVersion: 1.0.0
+    journalUuid: JournalEntry.NqoXip5E2kh0vxju
+    rocheSecheStatsVersion: 2.0.0
+_id: NCPLhfMo4N80d8FV
+items: []
+effects: []
+sort: 0
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248414732
+  modifiedTime: 1794248414732
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!actors!NCPLhfMo4N80d8FV'

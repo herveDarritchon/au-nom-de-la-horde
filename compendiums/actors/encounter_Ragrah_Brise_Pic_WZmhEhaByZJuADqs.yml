@@ -1,0 +1,323 @@
+name: Ragrah Brise-Pic
+type: encounter
+img: modules/warbound-campaign-content/assets/images/avatar/durotar/mine-roche-seche/cof2-ragrah-brise-pic-illustration.webp
+folder: d4c9166LOcXBlcX1
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+system:
+  currentEffects: []
+  abilities:
+    agi:
+      superior: false
+      base: 0
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    con:
+      superior: true
+      base: 3
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    for:
+      superior: true
+      base: 3
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    per:
+      superior: false
+      base: 1
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    cha:
+      superior: false
+      base: 2
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    int:
+      superior: false
+      base: 1
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    vol:
+      superior: false
+      base: 2
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+  attributes:
+    movement:
+      base: 10
+      unit: m
+      bonuses:
+        sheet: 0
+        effects: 0
+      ability: null
+      details: null
+      min: null
+      max: null
+    nc: 3
+    hp:
+      base: 48
+      value: 48
+      temp: null
+      max: 48
+      tempmax: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    tempDm: 0
+  combat:
+    init:
+      base: 14
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    def:
+      base: 18
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    dr:
+      base: 1
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    crit:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    melee:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    ranged:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    magic:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+  magic: 0
+  pasteData: ''
+  details:
+    category: humanoid
+    size: medium
+    description:
+      public: >-
+        <h2>Ragrah Brise-Pic</h2><p><strong>Race :</strong>
+        Orque</p><p><strong>Fonction :</strong> Contremaîtresse
+        générale</p><p>Dirige Roche-Sèche, connaît les équipes et refuse de
+        sacrifier ses mineurs à la production.</p>
+      private: >-
+        <p>Connaît le fonctionnement de la mine, les équipes et les horaires. Ne
+        sait pas au départ que Krosh a substitué les caisses.</p><p>Elle est
+        contrariée par la réquisition, mais n’a pas organisé le détournement.
+        Son ressentiment envers Orgrimmar ne constitue pas une preuve de
+        complicité.</p>
+    notes:
+      public: ''
+      private: >-
+        <h3>Dossier</h3><p>@UUID[JournalEntry.f0bge3VQIuvXJozj]{Histoire et
+        relations de Ragrah
+        Brise-Pic}</p><p>@UUID[JournalEntry.WH5fpMRmRdITacHZ]{Mine de
+        Roche-Sèche}</p><h3>Relations</h3><ul><li>@UUID[Actor.Xjjk7WJsMPRVpEZj]{Moj’ka
+        Main-de-Graisse} — S’appuie sur lui pour les problèmes mécaniques.
+        (dossier
+        @UUID[JournalEntry.TpJVg7OJKENxlIju]{MJ})</li><li>@UUID[Actor.KLbUH2aOlSyHUnae]{Krosh
+        Pèse-Charge} — Lui confie les registres de chargement, sans connaître sa
+        fraude. (dossier
+        @UUID[JournalEntry.LTqyGnqj7sthbpmB]{MJ})</li><li>@UUID[Actor.XO981jkCXaPf7jDz]{Rukha}
+        — Coordonne avec elle le départ du convoi. (dossier
+        @UUID[JournalEntry.92Jaaithkve53hqJ]{MJ})</li><li>@UUID[Actor.NCPLhfMo4N80d8FV]{Borka}
+        — Respecte son expérience des galeries. (dossier
+        @UUID[JournalEntry.NqoXip5E2kh0vxju]{MJ})</li></ul>
+    languages: []
+    properties: >-
+      <section data-roche-seche-stats="2.0.0"><h2>Profil de rencontre — Ragrah
+      Brise-Pic (Warbound)</h2><p><em>Adaptation MJ, NC 3 ; profil non officiel
+      Warcraft. Les attaques sont données pour utilisation manuelle (pas de
+      bouton de jet intégré).</em></p><p><strong>NC 3</strong> — <strong>DEF
+      18</strong> — <strong>PV 48</strong> — <strong>RD 1</strong> —
+      <strong>INIT 14</strong> — <strong>Déplacement 10 m</strong> —
+      <strong>Critique 20</strong></p><p><strong>Caractéristiques :</strong> AGI
+      +0 · CON +3* · FOR +3* · PER +1 · CHA +2 · INT +1 · VOL +2 (*
+      caractéristique supérieure)</p><p><strong>Attaques :</strong> contact +8,
+      distance +4, magique 0.</p><ul><li><strong>Marteau de chantier</strong>
+      (Contact) : +8 ; DM 2d6+5</li></ul><p><strong>Comportement en cas
+      d'affrontement :</strong> Tient la position et protège les travailleurs ;
+      peut appeler les mineurs à se mettre à couvert. Pas de pouvoir
+      magique.</p><p><strong>Attention :</strong> le NC reflète une opposition
+      possible, pas une obligation de combat. Il n'ajoute ni entraînement
+      militaire ni pouvoirs surnaturels au PNJ.</p></section>
+  wealth:
+    gp:
+      value: 0
+    sp:
+      value: 0
+    cp:
+      value: 0
+  companion:
+    isCompanion: false
+    master: null
+    rank: 0
+prototypeToken:
+  name: Ragrah Brise-Pic
+  displayName: 30
+  actorLink: true
+  width: 1
+  height: 1
+  texture:
+    src: modules/warbound-campaign-content/assets/images/tokens/npcs/durotar/mine-roche-seche/cof2-ragrah-brise-pic-token.webp
+    scaleX: 1
+    scaleY: 1
+    fit: contain
+    tint: '#ffffff'
+    anchorX: 0.5
+    anchorY: 0.5
+    alphaThreshold: 0.75
+  disposition: 0
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  depth: 1
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  flags: {}
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+flags:
+  warbound-campaign-content:
+    rocheSecheKey: pnj-ragrah
+    importedVersion: 1.0.0
+    journalUuid: JournalEntry.f0bge3VQIuvXJozj
+    rocheSecheStatsVersion: 2.0.0
+_id: WZmhEhaByZJuADqs
+items: []
+effects: []
+sort: 0
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248414738
+  modifiedTime: 1794248414738
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!actors!WZmhEhaByZJuADqs'

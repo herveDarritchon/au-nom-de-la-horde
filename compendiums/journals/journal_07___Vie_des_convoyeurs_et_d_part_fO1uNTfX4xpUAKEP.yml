@@ -1,0 +1,59 @@
+name: 07 — Vie des convoyeurs et départ
+folder: 7wHOeNNinUO7NaAZ
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  world:
+    warboundS02Key: r07
+    warboundS02Pack: true
+pages:
+  - name: Réactions, tour de garde et reprise
+    type: text
+    sort: 100000
+    text:
+      format: 1
+      content: "<p><small><strong>AU NOM DE LA HORDE • S02</strong> — MJ uniquement — Document maître évolutif — v0.2 (5 novembre 2026)</small></p><p>🧭 @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Retard} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État des convois}</p><h3>4 bis.7 — Respiration : conversations et départ du lendemain</h3><p>La scène de nuit doit pouvoir se terminer en 10 à 15 minutes : installation rapide ; repas ou paroles autour du feu, uniquement si les PJ s’y intéressent ; attribution souple des tours de garde ; récupération. Aucun poste imposé à chaque joueur et aucun nouveau score de moral.</p>\n<p>Les péons sont des transporteurs missionnés pour le convoi, pas des mineurs. S’ils sont questionnés, ils peuvent parler de ce qu’ils ont vu : rotations de matériel vers Roche-Sèche, préparatifs du chargement et consignes reçues. Aucun ne connaît par défaut le contenu réel de Mâche-Roc ni l’auteur de la substitution. Une rumeur sur les soldats de Tiragarde est envisageable si une source crédible en est définie ; ne pas l’utiliser comme révélation automatique.</p>\n<p>À reporter avant la patrouille du lendemain : (1) retard restant et heure de départ ; (2) état des deux attelages, cargaisons et blessés ; (3) récupération/DR des PJ ; (4) confiance ou irritation des convoyeurs ; (5) indices éventuellement trouvés au point d’eau. Ne pas écrire à l’avance les réactions de la patrouille sur la base d’un résultat encore inconnu.</p>\n<p><small>Sources vérifiées : Laurent Bernasconi, Chroniques Oubliées Fantasy 2 (Black Book Éditions, 2024), p. 221–222 (récupération complète et DR), p. 232–233 (périodes et marche forcée), p. 235 (progression nocturne) et p. 236 (bivouac et récupération). Référence projet : « Warbound — Rôles et progression du voyage » (adaptation du test collectif). Toutes les durées indicatives, les réactions du convoi, le test d’incident nocturne et l’assimilation de la halte à un lieu de repos optimal relèvent de Warbound.</small></p><p>[ACQUIS] Les péons restent capables de leur métier même lorsqu’ils sont contrariés. Leurs réactions dépendent de la fatigue et des choix des PJ : entraide pendant la ruée, protection lors de l’enquête, respect de l’état des kodos, franchise au moment de rendre compte.</p>\n<table style=\"width:100%;border-collapse:collapse\"><thead><tr><th>Situation</th><th>Attitude vraisemblable</th><th>Traduction à la table</th></tr></thead><tbody><tr><td>Retard faible / convoi intact</td><td>Coopération ordinaire</td><td>Les péons se concentrent sur l’installation et les tâches habituelles.</td></tr><tr><td>Retard marqué / dégâts</td><td>Inquiétude, contestation ponctuelle</td><td>Un responsable demande pourquoi l’on prend ce risque et propose une alternative.</td></tr><tr><td>Nuit / halte lointaine</td><td>Positions divergentes</td><td>Le responsable exige un choix clair, sans retirer l’initiative aux PJ.</td></tr></tbody></table>\n<p>[À DÉFINIR] Nommer les deux responsables d’attelage et préparer une réplique ou un geste propre à chacun. Pas de nouvelle jauge de moral : noter un fait marquant et une réaction plausible suffit.</p><hr><p><strong>Renvois utiles :</strong> @UUID[JournalEntry.qERFsqM51AlqFbnx.JournalEntryPage.KNf6AOB6jD73KkQF]{Comportements, limites et connaissances} \_ · \_ @UUID[JournalEntry.mzWDxHVfwUijcWRj.JournalEntryPage.OmszLmL09nNsdQrN]{À jouer — récit &amp; situations} \_ · \_ @UUID[JournalEntry.eyuh7ClQeexhfd0c.JournalEntryPage.l8XmqZxFRQyZa387]{À jouer — récit &amp; situations} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État à renseigner à la table}</p>"
+    flags:
+      world:
+        warboundS02PageKey: r07.main
+        warboundS02Pack: true
+    _id: MbTVKN8HMQYEepVR
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617938
+      modifiedTime: 1794248617938
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!fO1uNTfX4xpUAKEP.MbTVKN8HMQYEepVR'
+_id: fO1uNTfX4xpUAKEP
+categories: []
+sort: 0
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248617938
+  modifiedTime: 1794248617938
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!fO1uNTfX4xpUAKEP'

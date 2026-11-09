@@ -4,7 +4,7 @@ import path from "path";
 const ROOT = path.resolve("./compendiums");
 
 const OLD_PREFIX =
-  "worlds/au-nom-de-la-horde-cof2/assets/";
+  "modules/warbound-campaign-content/assets/";
 
 const NEW_PREFIX =
   "modules/warbound-campaign-content/assets/";

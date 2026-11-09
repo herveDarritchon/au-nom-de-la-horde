@@ -1,0 +1,59 @@
+name: 03 — Enquête, convoi arrêté ou séparé
+folder: 7wHOeNNinUO7NaAZ
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  world:
+    warboundS02Key: r03
+    warboundS02Pack: true
+pages:
+  - name: Quatre dispositions possibles
+    type: text
+    sort: 100000
+    text:
+      format: 1
+      content: "<p><small><strong>AU NOM DE LA HORDE • S02</strong> — MJ uniquement — Document maître évolutif — v0.2 (5 novembre 2026)</small></p><p>🧭 @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Retard} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État des convois}</p><h3>4 bis.3 — Enquêter : que font les deux convois ?</h3><table style=\"width:100%;border-collapse:collapse\"><thead><tr><th>Dispositif décidé par les PJ</th><th>Coût temporel</th><th>Contrepartie concrète</th></tr></thead><tbody><tr><td>Les deux convois attendent</td><td>Tout le temps de l’enquête</td><td>Péons, kodos et cargaisons restent groupés ; si les PJ partent tous, plus d’escorte active sur place.</td></tr><tr><td>Les convois progressent lentement</td><td>Retard réduit selon l’allure réelle</td><td>Moins de temps perdu, mais séparation du groupe et escorte amoindrie ; chef de convoi peut demander des consignes.</td></tr><tr><td>Les convois poursuivent sans les enquêteurs</td><td>Peu ou pas de retard du convoi</td><td>Aucune protection directe des PJ partis enquêter ; risque accru si incident sur la route et retrouvailles à organiser.</td></tr><tr><td>Les PJ renoncent à l’enquête</td><td>Aucun temps supplémentaire</td><td>Ils conservent seulement les indices déjà trouvés ; la mission d’escorte reste prioritaire.</td></tr></tbody></table>\n<p>Ne pas imposer de catastrophe parce que les PJ enquêtent. Laisser les décisions de protection, l’état des animaux et la fatigue déterminer si un incident devient plausible. Répartir l’escorte et confier des tâches concrètes aux péons peut réduire le risque sans abolir le temps écoulé.</p><hr><p><strong>Renvois utiles :</strong> @UUID[JournalEntry.gQ9DSemaiBWIjW0r.JournalEntryPage.M3exRvSKspw29FSl]{À jouer — récit &amp; situations} \_ · \_ @UUID[JournalEntry.NsTxqshtT9lLumN4.JournalEntryPage.0bD6SqPVwT3RVvJm]{Règle et barème contextuel} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État à renseigner à la table}</p>"
+    flags:
+      world:
+        warboundS02PageKey: r03.main
+        warboundS02Pack: true
+    _id: eWppQeTKF6MHRLF1
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617939
+      modifiedTime: 1794248617939
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!fcZejQdm4u6iAZSe.eWppQeTKF6MHRLF1'
+_id: fcZejQdm4u6iAZSe
+categories: []
+sort: 0
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248617939
+  modifiedTime: 1794248617939
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!fcZejQdm4u6iAZSe'

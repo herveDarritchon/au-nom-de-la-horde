@@ -1,0 +1,59 @@
+name: 04 — Improviser les conséquences
+folder: u5S81tINx4cCFIsT
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  world:
+    warboundS02Key: t04
+    warboundS02Pack: true
+pages:
+  - name: Échos narratifs selon les actes
+    type: text
+    sort: 100000
+    text:
+      format: 1
+      content: "<p><small><strong>AU NOM DE LA HORDE • S02</strong> — MJ uniquement — Livret narratif — v0.1 (7 novembre 2026)</small></p><p>🧭 @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Retard} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État des convois}</p><p>La séance gagne à rappeler discrètement ce que les PJ ont fait, plutôt qu'à faire apparaître des événements nouveaux pour les punir ou les féliciter. Quelques phrases suffisent à rendre les conséquences sensibles.</p>\n<table style=\"width:100%;border-collapse:collapse\"><thead><tr><th>FAIT ÉTABLI EN JEU</th><th>ÉCHO NARRATIF POSSIBLE</th></tr></thead><tbody><tr><td>Ils ont sauvé un péon</td><td>Au feu, il leur laisse une place, propose une gourde ou reprend discrètement une parole en leur faveur.</td></tr><tr><td>Ils ont privilégié l’enquête</td><td>Un convoyeur demande ce qu’ils ont appris, puis rappelle qu’il faudra repartir tôt. Le reproche peut cohabiter avec une réelle curiosité.</td></tr><tr><td>Ils ont négligé un attelage</td><td>Le chef fait vérifier deux fois la roue ou refuse un raccourci trop cassant le lendemain.</td></tr><tr><td>Ils n’ont rien appris au goulet</td><td>Ils gardent le souvenir d’un troupeau paniqué et d’une route dangereuse. Aucun PNJ ne leur dévoile miraculeusement la piste.</td></tr><tr><td>Ils ont accepté de dormir dehors</td><td>Les péons installent le camp en grognant, mais peuvent reconnaître un bon emplacement ou une garde bien pensée.</td></tr><tr><td>Ils ont respecté les transporteurs</td><td>Le responsable accepte plus facilement une proposition de manœuvre lors de l’étape suivante.</td></tr></tbody></table><h3>Ce qui n’est pas encore verrouillé</h3><p>Avant de considérer ce livret comme version définitive, il reste à préciser dans le document maître : l'horaire et la géographie de la halte ; la composition exacte des convois et les identités des péons ; la méthode et les traces matérielles de la fraude à Roche-Sèche ; la mission de la patrouille de Tiragarde ; les réactions détaillées de Takrin, Gar’Thok et Grosk.</p>\n<p><small>Une fois ces choix effectués, le livret pourra évoluer sans changer son principe : des descriptions courtes, des personnages qui réagissent et des conséquences concrètes, avec les règles conservées à part.</small></p>\n<p><em>DOCUMENTS DE RÉFÉRENCE : « Le voyage des deux convois — Document maître évolutif », v0.2 (5 novembre 2026) ; « Au Nom de la Horde — Charte de direction narrative », v1.0 (14 octobre 2026). Les dialogues et descriptions non établis par ces sources constituent des propositions de mise en scène Warbound.</em></p><hr><p><strong>Renvois utiles :</strong> @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État à renseigner à la table} \_ · \_ @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire interactif} \_ · \_ @UUID[JournalEntry.qERFsqM51AlqFbnx.JournalEntryPage.KNf6AOB6jD73KkQF]{Comportements, limites et connaissances}</p>"
+    flags:
+      world:
+        warboundS02PageKey: t04.main
+        warboundS02Pack: true
+    _id: JoaG5R3RJCPd3Sn6
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617947
+      modifiedTime: 1794248617947
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!tMfjEy3Bifm7Vxe9.JoaG5R3RJCPd3Sn6'
+_id: tMfjEy3Bifm7Vxe9
+categories: []
+sort: 0
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248617947
+  modifiedTime: 1794248617947
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!tMfjEy3Bifm7Vxe9'

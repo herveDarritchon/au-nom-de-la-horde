@@ -1,0 +1,129 @@
+name: '03 — Roche-Sèche : voir sans explorer'
+folder: 7RHfcfEUCLUvBRwC
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  world:
+    warboundS02Key: s03
+    warboundS02Pack: true
+pages:
+  - name: À jouer — récit & situations
+    type: text
+    sort: 100000
+    text:
+      format: 1
+      content: "<p></p><small><p><strong>AU NOM DE LA HORDE • S02</strong> — MJ uniquement — Livret narratif — v0.1 (7 novembre 2026)</p></small><p>🧭 @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Retard} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État des convois}</p><p><em>MIDI APPROXIMATIF · DÉCOR STRATÉGIQUE ET JONCTION DES CONVOIS</em></p><blockquote style=\"border-left:4px solid #bd8950;padding:8px 12px\"><p><strong>À LIRE OU REFORMULER</strong></p><p>La route débouche devant une paroi entaillée de larges ouvertures sombres. Des rails disparaissent sous une voûte de roche assez haute pour laisser passer du matériel lourd. À l'intérieur, des marteaux répondent aux grincements des wagonnets ; dehors, des tréteaux soutiennent des poutres, des planches et des outils en attente. Des échafaudages courent jusqu'à des ouvertures plus élevées. Près des accès, des Orcs armés surveillent les allées et venues. On ne voit pas le fond de la mine, seulement le travail qui en sort : poussière, bras tendus, roues chargées et consignes criées au-dessus du vacarme.</p></blockquote><p>Roche-Sèche est une mine souterraine importante, protégée et en activité. Sa première apparition doit laisser une impression nette et incomplète. Les PJ voient la bouche des galeries, les rails, les plateformes et les baraquements ; ils n'ont ni invitation ni temps prévu pour une visite des profondeurs.</p><blockquote style=\"border-left:4px solid #bd8950;padding:8px 12px\"><p><strong>LA CHARGE À PRENDRE EN COMPTE</strong></p><p>Un second attelage attend près de l'aire de chargement. Le kodo qui le tire dépasse le premier de toute sa masse : encolure massive, harnais renforcé, pas lourds, regard calme mais peu patient. Derrière lui, un chariot porte de grandes caisses solidement sanglées. Un péon donne un dernier coup de maillet sur une cale. En comparaison du ravitaillement que vous avez escorté jusqu'ici, cette cargaison semble appartenir à un autre ordre de grandeur.</p></blockquote><p style=\"border-left:3px solid #a9814d;padding-left:10px\"><strong>MJ — </strong>Le gobelin, en passant. À proximité des chargements, un gobelin passe d'un groupe d'ouvriers à un autre, en parlant vite et en désignant un croquis ou une pièce métallique. Il se détourne avant que la conversation ne puisse devenir une présentation. C'est une présence à remarquer, pas une explication sur Mâche-Roc.</p><h3>Une réception sous pression</h3><p>La mine ne dispose pas d'une escorte à fournir au second convoi. L'activité Kolkar récente a renforcé ses besoins de garde. Le responsable de la mine, ou un subalterne présent sur l'aire de chargement, s'intéresse donc à ce qui est arrivé aux PJ pendant la matinée.</p><p style=\"border-left:3px solid rgb(169, 129, 77);padding-left:10px\"><strong>MJ — </strong>Accueil un peu froid. Une voix demande qui est le chef du convoi qui vient d'arriver. Quand Jazty s'avance. La réaction est « C'est quoi ça ? Mais d'où vient-il ! Je ne pars pas sur la route avec ce truc ! »<br>Il va falloir solutionner le problème.</p><p style=\"border-left:3px solid #a9814d;padding-left:10px\"><strong>MJ — </strong>Si les PJ parlent des Kolkar. « On nous a enlevé les gardes pour bloquer la Combe, comment sont-ils passés ? Où ? Combien ? Est ce qu'ils vous ont suivi jusque ici ? » La question est pratique : il veut savoir si ses gardes doivent s'attendre à un raid. Il va renforcer la garde avec des mineurs, quitte à diminuer le rendement ou le repos des mineurs.</p><p style=\"border-left:3px solid #a9814d;padding-left:10px\"><strong>MJ — </strong>Si les PJ sont en retard. « Vous étiez annoncés plus tôt. On ne va pas vous attendre toute la journée ! On a de la route et on est attendu au relais ! » Le reproche porte sur l'organisation et les heures perdues, pas sur un drame fabriqué.</p><p style=\"border-left:3px solid #a9814d;padding-left:10px\"><strong>MJ — </strong>Si les PJ sont ponctuels. L'accueil est bref, professionnel. Les travailleurs achèvent le dernier arrimage et dégagent l'espace pour laisser repartir les deux attelages.</p><h3>Une autorité à partager</h3><p>Le responsable du deuxième convoi connaît ses péons et son matériel. Jazti a reçu une responsabilité d'escorte ; l'un ne retire pas automatiquement son autorité à l'autre. L'occasion est idéale pour une petite friction de caractère, pas pour immobiliser la séance dans un conflit hiérarchique.</p><p style=\"border-left:3px solid #a9814d;padding-left:10px\"><strong>MJ — </strong>Le responsable, sobrement. « Sur la route, tu choisis où placer tes gens. Pour mes bêtes et la charge, je garde la main. Si quelque chose arrive, préviens-moi avant de leur faire faire une manœuvre impossible. »</p><p style=\"border-left:3px solid #a9814d;padding-left:10px\"><strong>MJ — </strong>Si Jazti veut tout décider. Le convoyeur résiste sur les questions de traction et de cargaison, puis propose une répartition simple : « Donne-moi le signal quand la route change ; moi je fais bouger les attelages. »</p><p style=\"border-left:3px solid #a9814d;padding-left:10px\"><strong>MJ — </strong>Si Jazti recherche sa coopération. Le convoyeur explique spontanément quel kodo prend le passage en premier, ce qui pourrait ralentir le lourd chariot et quels péons connaissent le mieux les sangles.</p><h3>Les caisses et les questions</h3><p>Les PJ ont pour mission de protéger une livraison de fournitures vers Tranchecolline. Ils n'ont pas de raison de connaître l'existence de Mâche-Roc, censé être démonté et conditionné ; le remplacement frauduleux de la cargaison a déjà eu lieu avant leur arrivée. Ce secret appartient à la préparation MJ, pas aux dialogues du chantier.</p><p style=\"border-left:3px solid #a9814d;padding-left:10px\"><strong>MJ — </strong>Questions ordinaires. Un péon peut dire : « De grosses pièces, on m'a dit. J'ai porté et calé les caisses. Je n'ai pas monté ce qu'il y a dedans. » Il reste dans la limite de ce qu'il a personnellement fait.</p><p style=\"border-left:3px solid #a9814d;padding-left:10px\"><strong>MJ — </strong>Inspection insistante. Décrire le bois, les attaches, le poids apparent, les cales et le document de transport présent dans la fiction. Ne donner un indice matériel de substitution que s'il est compatible avec la méthode réelle de fraude, encore à arrêter dans le document maître.</p><p style=\"border-left:3px solid #a9814d;padding-left:10px\"><strong>MJ — </strong>Départ. Un garde recule pour dégager le passage. Le chef d'attelage vérifie une dernière fois le collier du kodo lourd, puis hausse la voix : « On roule ! » La mine retourne à son bruit ordinaire derrière les chariots.</p><p></p><small><p>Renvoi au document maître v0.2 : jonction, fraude antérieure et coût d’une vérification (sections 2.C et 4 bis.2) ; ne pas fixer le contenu des caisses avant la consolidation du dossier Mâche-Roc.</p></small><p><strong>Autres pages de ce journal :</strong> @UUID[JournalEntry.NPTwTH0upnsZFYU2.JournalEntryPage.lgInuTYHgdvRrvTG]{Décisions &amp; conséquences} \_ · \_ @UUID[JournalEntry.NPTwTH0upnsZFYU2.JournalEntryPage.Y72hXnFxQYl6J7nJ]{Garde-fou de continuité}</p><hr><p><strong>Renvois utiles :</strong> @UUID[JournalEntry.NsTxqshtT9lLumN4.JournalEntryPage.0bD6SqPVwT3RVvJm]{Règle et barème contextuel} \_ · \_ @UUID[JournalEntry.ntFjmKdDE6Mcpsuc.JournalEntryPage.D4UtndmnLmtqTgNQ]{Informations établies &amp; limites} \_ · \_ @UUID[JournalEntry.qERFsqM51AlqFbnx.JournalEntryPage.KNf6AOB6jD73KkQF]{Comportements, limites et connaissances} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État à renseigner à la table}</p><p><strong>Navigation :</strong> @UUID[JournalEntry.f5qnlnbAhytcPhtk.JournalEntryPage.Ys8Pp6kgMAGHkmcG]{← Scène précédente} \_ · \_ @UUID[JournalEntry.CUSS9LNh1aVHmC4H.JournalEntryPage.3cuZoMID9cx1JnQ9]{Scène suivante →}</p>"
+    flags:
+      world:
+        warboundS02PageKey: s03.play
+        warboundS02Pack: true
+    _id: zlu5sM6eTQq7OTLN
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617922
+      modifiedTime: 1794248617922
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!NPTwTH0upnsZFYU2.zlu5sM6eTQq7OTLN'
+  - name: Décisions & conséquences
+    type: text
+    sort: 200000
+    text:
+      format: 1
+      content: "<p><small><strong>AU NOM DE LA HORDE • S02</strong> — MJ uniquement — Document maître évolutif — v0.2 (5 novembre 2026)</small></p><p>🧭 @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Retard} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État des convois}</p><h3>C. Mine de Roche-Sèche — le second convoi</h3><p>[ACQUIS / À COMPLÉTER]  Le second convoi attend. Une cargaison associée à Mâche-Roc a été frauduleusement remplacée avant l’arrivée des PJ ; ceux-ci peuvent remarquer une discordance, mais ne sont pas responsables de la substitution.</p>\n<p style=\"margin-left:1em\">• Décisions ouvertes aux PJ — vérification sommaire, examen approfondi, échange avec ouvriers, rapprochement des pièces de chargement, départ sans enquêter.</p>\n<p style=\"margin-left:1em\">• Conséquences à reporter — chaque examen ou détour peut coûter du temps ; les informations recueillies modifient ce que les PJ pourront établir plus tard devant Takrin.</p>\n<p><small>À écrire / vérifier : nature exacte des éléments substitués, acteurs et témoignages réellement disponibles, seuils d’information et réaction de Mâche-Roc.</small></p>\n<p><strong>Raccordement nouveau :</strong> à l’arrivée, consulter @UUID[JournalEntry.rtpCsLr6B1uDIraY.JournalEntryPage.Dj6dgeEyMeh9I0R1]{le bilan de l’embuscade} (sacs, blessés, état du kodo, retard). Le second convoi est toujours présent ; l’accueil peut être tendu si le trajet a pris du temps, sans règle d’attitude chiffrée inventée.</p><p><strong>Autres pages de ce journal :</strong> @UUID[JournalEntry.NPTwTH0upnsZFYU2.JournalEntryPage.zlu5sM6eTQq7OTLN]{À jouer — récit &amp; situations} \_ · \_ @UUID[JournalEntry.NPTwTH0upnsZFYU2.JournalEntryPage.Y72hXnFxQYl6J7nJ]{Garde-fou de continuité}</p><hr><p><strong>Renvois utiles :</strong> @UUID[JournalEntry.rtpCsLr6B1uDIraY.JournalEntryPage.Dj6dgeEyMeh9I0R1]{Bilan MJ — faits établis en jeu} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État à renseigner à la table} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Compteur vivant — piloté par la macro} \_ · \_ @UUID[JournalEntry.ntFjmKdDE6Mcpsuc.JournalEntryPage.D4UtndmnLmtqTgNQ]{Informations établies &amp; limites} \_ · \_ @UUID[JournalEntry.CUSS9LNh1aVHmC4H.JournalEntryPage.3cuZoMID9cx1JnQ9]{À jouer — récit &amp; situations}</p><p><strong>Navigation :</strong> @UUID[JournalEntry.f5qnlnbAhytcPhtk.JournalEntryPage.Ys8Pp6kgMAGHkmcG]{← Scène précédente} \_ · \_ @UUID[JournalEntry.CUSS9LNh1aVHmC4H.JournalEntryPage.3cuZoMID9cx1JnQ9]{Scène suivante →}</p>"
+    flags:
+      world:
+        warboundS02PageKey: s03.stakes
+        warboundS02Pack: true
+    _id: lgInuTYHgdvRrvTG
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617922
+      modifiedTime: 1794248617922
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!NPTwTH0upnsZFYU2.lgInuTYHgdvRrvTG'
+  - name: Garde-fou de continuité
+    type: text
+    sort: 300000
+    text:
+      format: 1
+      content: "<p><small><strong>AU NOM DE LA HORDE • S02</strong> — MJ uniquement — Synthèse explicite des réserves des deux documents</small></p><p>🧭 @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Retard} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État des convois}</p><p><strong>À respecter :</strong> Ne pas définir rétroactivement le contenu de Mâche-Roc ou la méthode de fraude. Les PJ ne sont pas auteurs de la substitution.</p><p>@UUID[JournalEntry.1w5SomDLshDAWOoC.JournalEntryPage.MXJysq678UIyw76D]{Consulter la liste des décisions encore ouvertes}</p><p><strong>Autres pages de ce journal :</strong> @UUID[JournalEntry.NPTwTH0upnsZFYU2.JournalEntryPage.zlu5sM6eTQq7OTLN]{À jouer — récit &amp; situations} \_ · \_ @UUID[JournalEntry.NPTwTH0upnsZFYU2.JournalEntryPage.lgInuTYHgdvRrvTG]{Décisions &amp; conséquences}</p><hr><p><strong>Renvois utiles :</strong> @UUID[JournalEntry.NsTxqshtT9lLumN4.JournalEntryPage.0bD6SqPVwT3RVvJm]{Règle et barème contextuel} \_ · \_ @UUID[JournalEntry.ntFjmKdDE6Mcpsuc.JournalEntryPage.D4UtndmnLmtqTgNQ]{Informations établies &amp; limites} \_ · \_ @UUID[JournalEntry.qERFsqM51AlqFbnx.JournalEntryPage.KNf6AOB6jD73KkQF]{Comportements, limites et connaissances} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État à renseigner à la table}</p><p><strong>Navigation :</strong> @UUID[JournalEntry.f5qnlnbAhytcPhtk.JournalEntryPage.Ys8Pp6kgMAGHkmcG]{← Scène précédente} \_ · \_ @UUID[JournalEntry.CUSS9LNh1aVHmC4H.JournalEntryPage.3cuZoMID9cx1JnQ9]{Scène suivante →}</p>"
+    flags:
+      world:
+        warboundS02PageKey: s03.garde
+        warboundS02Pack: true
+    _id: Y72hXnFxQYl6J7nJ
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617922
+      modifiedTime: 1794248617922
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!NPTwTH0upnsZFYU2.Y72hXnFxQYl6J7nJ'
+_id: NPTwTH0upnsZFYU2
+categories: []
+sort: 0
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248617922
+  modifiedTime: 1794248617922
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!NPTwTH0upnsZFYU2'

@@ -1,0 +1,59 @@
+name: 09 — Les voix autour du feu
+folder: 7RHfcfEUCLUvBRwC
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  world:
+    warboundS02Key: s09
+    warboundS02Pack: true
+pages:
+  - name: À jouer — récit & situations
+    type: text
+    sort: 100000
+    text:
+      format: 1
+      content: "<p><small><strong>AU NOM DE LA HORDE • S02</strong> — MJ uniquement — Livret narratif — v0.1 (7 novembre 2026)</small></p><p>🧭 @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Retard} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État des convois}</p><p><em>CINQ À HUIT MINUTES SI LES PJ S’Y INTÉRESSENT · SINON, PASSER AU MATIN</em></p>\n<p>Les travailleurs ont été missionnés pour transporter, pas pour diriger la mine. Ils n'ont aucune raison de connaître la vérité sur Mâche-Roc, et encore moins la fraude. En revanche, ils peuvent raconter ce qu'ils ont réellement vu pendant les premiers transports, le chargement du jour et la recrudescence des dangers sur la route. Donner une information au moment où un PJ la demande, pas réciter un bulletin de renseignements.</p><h3>Quatre personnes, sans biographie imposée</h3><p style=\"border-left:3px solid #a9814d;padding-left:10px\"><strong>MJ — </strong>Le responsable du convoi.  Parle du matériel et de l'état des kodos ; pose ses limites clairement. Si Jazti a bien travaillé avec lui, il peut proposer d'organiser la garde ensemble. Sinon, il répond sans chaleur, mais correctement.</p>\n<p style=\"border-left:3px solid #a9814d;padding-left:10px\"><strong>MJ — </strong>Le péon qui a assuré le chargement.  A vu des caisses, des cales et la manutention sur l'aire de Roche-Sèche. Il connaît les gestes et les horaires auxquels il a participé, pas les contenus secrets.</p>\n<p style=\"border-left:3px solid #a9814d;padding-left:10px\"><strong>MJ — </strong>Le péon blessé ou secouru.  Se souvient d'abord de la ruée ou des Kolkar : « J'ai cru passer sous la roue. » S'il a été protégé, il le dira naturellement ; sinon il peut détourner le regard ou répondre sèchement.</p>\n<p style=\"border-left:3px solid #a9814d;padding-left:10px\"><strong>MJ — </strong>Le plus ancien des transporteurs.  Connaît les mauvaises portions de route, l'usage des haltes et les habitudes des patrouilles croisées par les convois. Ses souvenirs ne sont pas des rapports militaires certifiés.</p><h3>Réponses possibles à leurs questions</h3><table style=\"width:100%;border-collapse:collapse\"><thead><tr><th>SI LES PJ DEMANDENT…</th><th>RÉPONSE À ADAPTER AU TÉMOIN</th></tr></thead><tbody><tr><td>« Depuis quand la mine travaille-t-elle autant ? »</td><td>« Depuis qu’ils ont rouvert les accès, on ne fait qu’amener du bois, des outils et ressortir des charges. Le travail, lui, se passe surtout sous terre. » [Proposition d’ambiance ; ne donne aucune chronologie officielle.]</td></tr><tr><td>« Qui a chargé le kodo lourd ? »</td><td>« Des gars de l’aire de chargement, avec nous pour les sangles. Je pourrais reconnaître celui qui donnait les ordres, pas ce qu’ils ont mis dans les caisses. » [Seulement si ce péon était présent.]</td></tr><tr><td>« Vous saviez ce que contenaient ces caisses ? »</td><td>« Non. On nous a demandé de ne pas les laisser bouger et de les livrer. Pour le reste, il faut parler à ceux qui ont préparé l’envoi. »</td></tr><tr><td>« Il y a souvent des problèmes sur la route ? »</td><td>« Pas comme aujourd’hui. Mais on garde davantage d’hommes à Roche-Sèche depuis les histoires de Kolkar. Sur la route, ça se sent. »</td></tr><tr><td>« Des Humains dans la région ? »</td><td>« J’en ai entendu parler du côté de Tiragarde. J’ai pas vu leurs ordres, moi. » [Rumeur facultative ; n’annonce pas automatiquement l’événement du lendemain.]</td></tr></tbody></table>\n<p>Un moment léger peut suffire : le plus jeune des péons essaie de persuader le lourd kodo de se coucher, puis abandonne en déclarant que l'animal obéit mieux aux rochers qu'aux ordres. On peut aussi l'omettre si la journée a laissé des blessés graves.</p>\n<p style=\"border-left:3px solid #a9814d;padding-left:10px\"><strong>MJ — </strong>Clore sans forcer une confidence.  Le feu baisse. Les voix se font rares. Un péon rabat sa couverture sur ses épaules. Le responsable demande seulement : « Qui prend la première veille ? »</p><hr><p><strong>Renvois utiles :</strong> @UUID[JournalEntry.qERFsqM51AlqFbnx.JournalEntryPage.KNf6AOB6jD73KkQF]{Comportements, limites et connaissances} \_ · \_ @UUID[JournalEntry.fO1uNTfX4xpUAKEP.JournalEntryPage.MbTVKN8HMQYEepVR]{Réactions, tour de garde et reprise}</p><p><strong>Navigation :</strong> @UUID[JournalEntry.6ueaE9YrYzfXxCzY.JournalEntryPage.BVe2Ow8tudCrRSVz]{← Scène précédente} \_ · \_ @UUID[JournalEntry.eyuh7ClQeexhfd0c.JournalEntryPage.l8XmqZxFRQyZa387]{Scène suivante →}</p>"
+    flags:
+      world:
+        warboundS02PageKey: s09.play
+        warboundS02Pack: true
+    _id: OmszLmL09nNsdQrN
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617931
+      modifiedTime: 1794248617931
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mzWDxHVfwUijcWRj.OmszLmL09nNsdQrN'
+_id: mzWDxHVfwUijcWRj
+categories: []
+sort: 0
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248617931
+  modifiedTime: 1794248617931
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!mzWDxHVfwUijcWRj'

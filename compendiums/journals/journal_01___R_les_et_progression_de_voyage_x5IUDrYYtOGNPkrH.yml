@@ -1,0 +1,59 @@
+name: 01 — Rôles et progression de voyage
+folder: 7wHOeNNinUO7NaAZ
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  world:
+    warboundS02Key: r01
+    warboundS02Pack: true
+pages:
+  - name: Rôles, progression, rythme
+    type: text
+    sort: 100000
+    text:
+      format: 1
+      content: "<p></p><small><p><strong>AU NOM DE LA HORDE • S02</strong> — MJ uniquement</p></small><p>🧭 @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Retard} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État des convois}</p><h3>Socle Warbound </h3><ul><li><p><strong>Guide</strong> = INT (Survie)</p></li><li><p><strong>Éclaireur</strong> = PER (Survie)</p></li><li><p><strong>autres Voyageurs</strong> = CON (Survie). </p></li></ul><p>Un test quotidien par PJ ; appliquer la résolution collective et la table officielle de progression. Les tests de vigilance d’une embuscade et les tests de récupération sont distincts, sans créer de second test quotidien systématique.</p><table style=\"width:100%;border-collapse:collapse\"><thead><tr><th><p>Choix nocturne</p></th><th><p>Bénéfice</p></th><th><p>Coût / risque concret à jouer</p></th></tr></thead><tbody><tr><td><p>Halte atteinte à temps</p></td><td><p>Repos organisé et emplacement connu</p></td><td><p>Aucun désagrément artificiel lié au retard.</p></td></tr><tr><td><p>Halte atteinte tard</p></td><td><p>Lieu connu mais installation à la torche</p></td><td><p>Coordination, attelage, tours de garde et confort à assurer.</p></td></tr><tr><td><p>Bivouac improvisé</p></td><td><p>Évite de continuer de nuit</p></td><td><p>Recherche du site, abri, eau, visibilité et protection incertains.</p></td></tr><tr><td><p>Poursuite nocturne</p></td><td><p>Garde la destination en vue</p></td><td><p>Progression plus difficile ; état des bêtes et fatigue déterminants.</p></td></tr><tr><td><p>Forcer l’allure</p></td><td><p>Récupère éventuellement du temps</p></td><td><p>Fatigue et usure, surtout si attelage déjà abîmé.</p></td></tr></tbody></table><h3>4 bis.1 — Faire sentir le voyage sans le rallonger</h3><p>Transition de narration (à lire ou reformuler) :</p><blockquote><blockquote style=\"border-left:4px solid rgb(189, 137, 80);padding:8px 12px\"><p><strong>À LIRE OU REFORMULER</strong></p><p>« Après la mine, la route reprend entre les reliefs rouge sombre de Durotar. Les péons économisent leurs paroles ; le martèlement des sabots et le grincement des roues donnent le rythme. La chaleur décline lentement. Plus loin, une volée d’oiseaux noirs s’arrache brusquement aux rochers. »</p></blockquote></blockquote><p>Tant que les PJ n’agissent pas ou que rien ne les menace, passer rapidement les heures ordinaires. La volée d’oiseaux annonce la ruée sans en expliquer la cause. Après l’événement, demander seulement : « Vérifiez-vous les attelages ? Reprenez-vous la route ? Cherchez-vous à comprendre ? » Les décisions lancent le suivi du temps.</p><hr><p><strong>Renvois utiles :</strong> @UUID[JournalEntry.UrJ1Dw9jRnFJoV14.JournalEntryPage.btMMdwxw1qmeZCQW]{À jouer — récit &amp; situations} \_ · \_ @UUID[JournalEntry.CUSS9LNh1aVHmC4H.JournalEntryPage.3cuZoMID9cx1JnQ9]{À jouer — récit &amp; situations} \_ · \_ @UUID[JournalEntry.eyuh7ClQeexhfd0c.JournalEntryPage.l8XmqZxFRQyZa387]{À jouer — récit &amp; situations} \_ · \_ @UUID[JournalEntry.NsTxqshtT9lLumN4.JournalEntryPage.0bD6SqPVwT3RVvJm]{Règle et barème contextuel}</p>"
+    flags:
+      world:
+        warboundS02PageKey: r01.main
+        warboundS02Pack: true
+    _id: k3GjUnWLeeK4ZFnN
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617941
+      modifiedTime: 1794248617941
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!x5IUDrYYtOGNPkrH.k3GjUnWLeeK4ZFnN'
+_id: x5IUDrYYtOGNPkrH
+categories: []
+sort: 0
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248617941
+  modifiedTime: 1794248617941
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!x5IUDrYYtOGNPkrH'

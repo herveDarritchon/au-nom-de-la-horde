@@ -1,0 +1,384 @@
+name: Chasseur — Mon loup (maîtrises 1 à 5)
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  campaign-codex:
+    type: ''
+  core:
+    sheetClass: ''
+  warbound-campaign-content:
+    journalGuide: loup-compagnon
+    audience: joueur
+    edition: '2026-11-07'
+    version: '1.0'
+    lockedProgression: true
+pages:
+  - name: 01 · Maîtrise 1 — Le loup
+    type: text
+    sort: 100000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <section><h1>Maîtrise 1 — Le loup</h1><p><em>Capacité débloquée : rang 1
+        de la Voie du compagnon animal</em></p><blockquote><p>Ton loup est un
+        compagnon animal. Il peut combattre à tes côtés dès maintenant. Il ne
+        possède pas les compétences spéciales d’un familier de
+        WoW.</p></blockquote><h2>Ce que tu sais faire</h2><ul><li><strong>Donner
+        un ordre simple :</strong> reste, garde, suis-moi, apporte, attaque. Il
+        comprend une intention brève, pas un plan
+        complexe.</li><li><strong>Combattre :</strong> le loup attaque en même
+        temps que toi quand il peut mordre une cible au contact. Il n’a pas
+        besoin que tu renonces systématiquement à ton propre
+        tir.</li><li><strong>Explorer :</strong> il peut sentir, écouter,
+        chercher une odeur ou surveiller un accès, selon ses capacités de
+        véritable loup.</li><li><strong>Protéger :</strong> il peut se poster
+        pour surveiller et réagir aux menaces, sans interception ni provocation
+        automatique.</li></ul><h2>Fiche du
+        loup</h2><table><thead><tr><th>Caractéristique</th><th>Valeur</th></tr></thead><tbody><tr><td>AGI
+        / CON / FOR</td><td>+1 / +1* / +2</td></tr><tr><td>PER / CHA / INT /
+        VOL</td><td>+2* / −2 / −3 /
+        +2</td></tr><tr><td>DEF</td><td><strong>13</strong> (12 + rang
+        1)</td></tr><tr><td>PV maximum</td><td><strong>4 × ton niveau de
+        personnage</strong></td></tr><tr><td>Initiative</td><td>la même que la
+        tienne</td></tr><tr><td>Attaque de morsure</td><td><strong>d20 + ta
+        valeur d’attaque magique</strong> contre
+        DEF</td></tr><tr><td>Dommages</td><td><strong>1d4 +
+        2</strong></td></tr><tr><td>*</td><td>dé bonus aux tests propres du loup
+        en CON et PER</td></tr></tbody></table><h2>Ton tour, en
+        pratique</h2><ol><li>Annonce ce que fait ton chasseur.</li><li>Indique
+        un ordre simple au loup et où il se trouve sur la carte.</li><li>S’il
+        peut atteindre l’adversaire au corps à corps pendant votre activation
+        commune, effectue sa morsure.</li><li>Lance séparément ta propre attaque
+        et celle du loup ; ne donne pas deux morsures parce que tu tires
+        plusieurs projectiles.</li></ol><p><strong>Règles de table à confirmer
+        avec le MJ :</strong> coût d’un ordre, mouvement précis du loup et
+        morsure quand tu n’attaques pas toi-même. Ne considère pas ces détails
+        comme des pouvoirs automatiques.</p><h2>Blessures et absence</h2><p>Il
+        peut être soigné par magie. Une récupération complète lui rend tous ses
+        PV. S’il tombe à 0 PV en milieu naturel et peut fuir, il revient après 8
+        h avec tous ses PV ; sinon il faut le soigner comme un personnage. S’il
+        meurt réellement, un remplaçant peut être trouvé à ton prochain niveau,
+        avec le MJ.</p><h2>Exemple</h2><p>Tu décoches une flèche sur un pillard.
+        Ton loup est déjà à ses pieds : il tente sa morsure. S’il est derrière
+        un éboulement et ne peut rejoindre le pillard, il ne mord pas à travers
+        les rochers.</p><p><small><strong>Sources COF2 :</strong> Laurent
+        Bernasconi, <em>Chroniques Oubliées Fantasy 2</em>, Black Book Éditions
+        (2024), p. 71–72, 210–212. Le détail ci-dessus est reformulé ; les
+        éventuels arbitrages Warbound sont explicitement
+        identifiés.</small></p></section>
+      markdown: ''
+    ownership:
+      default: 2
+    flags:
+      warbound-campaign-content:
+        rank: 1
+        access: initial
+    _id: n3JKSWQn3HfBXr8O
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248684964
+      modifiedTime: 1794248684964
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!1spQr4DNbZ2VfDPt.n3JKSWQn3HfBXr8O'
+  - name: 02 · Maîtrise 2 — Travail d’équipe
+    type: text
+    sort: 200000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <section><h1>Maîtrise 2 — Travail d’équipe</h1><p><em>Nouveau : rang 2
+        de la Voie du compagnon animal</em></p><h2>Ton nouveau
+        pouvoir</h2><p><strong>[COF2]</strong> Lorsque ton loup et toi êtes « au
+        contact », il gagne un <strong>dé bonus sur ses attaques</strong> et tu
+        gagnes un <strong>dé bonus sur tes tests pour pister ou éviter d’être
+        surpris (Vigilance)</strong>.</p><h2>Comment l’utiliser</h2><ul><li>En
+        mêlée, tu annonces au MJ votre position respective et celle de
+        l’adversaire : si la condition de contact est remplie, lance deux d20
+        pour l’attaque du loup et garde le meilleur.</li><li>Pour chercher des
+        traces ou détecter une embuscade, le dé bonus du <em>chasseur</em> ne
+        s’applique que lorsque votre proximité correspond à la condition de la
+        voie.</li><li>Le loup garde son propre dé bonus sur ses tests personnels
+        de PER et de CON, obtenu dès la maîtrise 1. Ton bonus à toi est limité à
+        la piste et à la Vigilance contre la surprise.</li></ul><h2>Sa fiche au
+        rang 2</h2><p><strong>DEF 14</strong> ; <strong>PV = 4 × ton
+        niveau</strong> ; attaque de morsure <strong>d20 + ton attaque magique,
+        DM 1d4 + 2</strong>. Sa valeur d’initiative reste la tienne. Aucun autre
+        bonus de dégâts n’est acquis.</p><h2>Exemple</h2><p>Tu examines des
+        traces à l’entrée d’un canyon, ton loup à tes côtés. Avec la condition
+        de proximité validée par le MJ, tu bénéficies du dé bonus pour pister.
+        Si ton loup est parti flairer seul loin devant, ce bonus sur ton test ne
+        suit pas magiquement.</p><p><strong>À préciser avec le MJ :</strong> «
+        au contact » n’est pas défini plus finement dans la voie. La table doit
+        fixer une lecture constante (contact de même cible en combat, proximité
+        immédiate hors combat, par exemple). Cette lecture n’est pas une
+        nouvelle capacité officielle.</p><h2>Tu conserves</h2><p>Les ordres
+        simples, la morsure coordonnée, les caractéristiques naturelles du loup
+        et les règles de soin, de fuite et de remplacement de la maîtrise
+        1.</p><p><small><strong>Sources COF2 :</strong> Laurent Bernasconi,
+        <em>Chroniques Oubliées Fantasy 2</em>, Black Book Éditions (2024), p.
+        71. Le détail ci-dessus est reformulé ; les éventuels arbitrages
+        Warbound sont explicitement identifiés.</small></p></section>
+      markdown: ''
+    ownership:
+      default: 0
+    flags:
+      warbound-campaign-content:
+        rank: 2
+        access: verrouille
+    _id: uHiQJqW0oeE43aAP
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248684964
+      modifiedTime: 1794248684964
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!1spQr4DNbZ2VfDPt.uHiQJqW0oeE43aAP'
+  - name: 03 · Maîtrise 3 — Lien empathique
+    type: text
+    sort: 300000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <section><h1>Maîtrise 3 — Lien empathique</h1><p><em>Nouveau : rang 3 de
+        la Voie du compagnon animal</em></p><h2>Un véritable lien à
+        distance</h2><p><strong>[COF2]</strong> Tu peux <strong>communiquer avec
+        ton loup par télépathie</strong>. Tu peux également <strong>le soigner à
+        distance</strong> en lui cédant tes propres PV, à raison de <strong>1 PV
+        dépensé pour 1 PV rendu</strong> au loup. Le soin demande une
+        <strong>action limitée (L)</strong>.</p><h2>Exemple de soin</h2><p>Ton
+        loup a 5 PV sur 16. Tu es à 18 PV. Tu utilises une action limitée et
+        dépenses 6 de tes PV : tu passes à 12 PV ; ton loup passe à 11 PV. Tu
+        peux choisir une autre quantité, sans dépasser les PV maximum du
+        loup.</p><h2>Les limites</h2><ul><li>La télépathie n’est
+        <strong>pas</strong> une vision partagée : tu ne regardes pas par ses
+        yeux.</li><li>Ton loup reste un loup : il peut te communiquer des
+        sensations simples, pas lire des cartes ni expliquer des stratégies
+        militaires.</li><li>La portée exacte de la télépathie n’est pas donnée
+        par le livre ; demande au MJ jusqu’où elle fonctionne dans la
+        scène.</li><li>Communiquer brièvement et soigner ne sont pas forcément
+        le même geste. L’action (L) est indiscutable pour transférer des PV ; le
+        coût d’une simple communication est un point
+        d’arbitrage.</li></ul><h2>Sa fiche, à ce rang</h2><p><strong>DEF
+        15</strong> ; <strong>PV = 4 × ton niveau</strong> ; morsure <strong>1d4
+        + 2</strong>, bonus de jet = ton attaque magique. Les dés bonus de
+        Travail d’équipe restent actifs lorsque leur condition est
+        remplie.</p><h2>Ce que tu conserves</h2><p>Tout ce que tu pouvais faire
+        aux maîtrises 1 et 2 : ordres, attaque au contact, piste, vigilance et
+        survie du compagnon.</p><p><small><strong>Sources COF2 :</strong>
+        Laurent Bernasconi, <em>Chroniques Oubliées Fantasy 2</em>, Black Book
+        Éditions (2024), p. 71–72 ; p. 210. Le détail ci-dessus est reformulé ;
+        les éventuels arbitrages Warbound sont explicitement
+        identifiés.</small></p></section>
+      markdown: ''
+    ownership:
+      default: 0
+    flags:
+      warbound-campaign-content:
+        rank: 3
+        access: verrouille
+    _id: Cv2og77x7mcr8lw3
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248684964
+      modifiedTime: 1794248684964
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!1spQr4DNbZ2VfDPt.Cv2og77x7mcr8lw3'
+  - name: 04 · Maîtrise 4 — Loup alpha
+    type: text
+    sort: 400000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <section><h1>Maîtrise 4 — Loup alpha</h1><p><em>Nouveau : rang 4 de la
+        Voie du compagnon animal</em></p><h2>Ton loup devient un mâle
+        alpha</h2><p><strong>[COF2, livre fourni]</strong> Les caractéristiques
+        ci-dessous remplacent celles du profil de base uniquement lorsqu’elles
+        sont mentionnées. Le reste est
+        conservé.</p><table><thead><tr><th>Caractéristique</th><th>Valeur de
+        maîtrise
+        4</th></tr></thead><tbody><tr><td>CON</td><td><strong>+3*</strong> (dé
+        bonus à ses tests de
+        CON)</td></tr><tr><td>FOR</td><td><strong>+5</strong></td></tr><tr><td>DEF</td><td><strong>18</strong></td></tr><tr><td>PV
+        maximum</td><td><strong>5 × ton
+        niveau</strong></td></tr><tr><td>Morsure</td><td><strong>1d4° +
+        5</strong></td></tr><tr><td>Attaque</td><td>toujours <strong>d20 + ta
+        valeur d’attaque
+        magique</strong></td></tr><tr><td>Initiative</td><td>toujours la
+        tienne</td></tr><tr><td>Autres caractéristiques</td><td>AGI +1 ; PER +2*
+        ; CHA −2 ; INT −3 ; VOL +2</td></tr></tbody></table><h2>Comprendre le
+        d4°</h2><p>Le petit ° veut dire <strong>dé évolutif</strong> : 1d4
+        jusqu’au niveau 5, <strong>1d6 dès le niveau 6</strong>, puis d8 au
+        niveau 9, d10 au niveau 12 et d12 au niveau 15. Ce n’est pas un dé qui
+        explose.</p><h2>Exemple au niveau 6</h2><p>Avec la maîtrise 4, ton loup
+        a <strong>DEF 18, 30 PV maximum</strong>, et sa morsure inflige
+        <strong>1d6 + 5 DM</strong>. Son jet pour toucher utilise toujours
+        <em>ta</em> valeur d’attaque magique.</p><h2>Ce que tu
+        conserves</h2><p>Ordres et morsure coordonnée (rang 1), Travail d’équipe
+        (rang 2), télépathie et soin à distance 1 PV pour 1 PV (rang 3), ainsi
+        que les règles de vie et de récupération.</p><p><strong>Note de
+        référence :</strong> ces chiffres suivent le livre COF2 fourni par le MJ
+        ; une version en ligne affiche des valeurs différentes, mais il ne faut
+        pas les mélanger dans la fiche.</p><p><small><strong>Sources COF2
+        :</strong> Laurent Bernasconi, <em>Chroniques Oubliées Fantasy 2</em>,
+        Black Book Éditions (2024), p. 72 ; p. 43. Le détail ci-dessus est
+        reformulé ; les éventuels arbitrages Warbound sont explicitement
+        identifiés.</small></p></section>
+      markdown: ''
+    ownership:
+      default: 0
+    flags:
+      warbound-campaign-content:
+        rank: 4
+        access: verrouille
+    _id: Iu9QqDre8XYsewpu
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248684964
+      modifiedTime: 1794248684964
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!1spQr4DNbZ2VfDPt.Iu9QqDre8XYsewpu'
+  - name: 05 · Maîtrise 5 — Tactiques de meute
+    type: text
+    sort: 500000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <section><h1>Maîtrise 5 — Tactiques de meute</h1><p><em>Nouveau : rang 5
+        de la Voie du compagnon animal</em></p><h2>Votre duo atteint sa pleine
+        coordination</h2><ol><li><strong>Même cible :</strong> lorsque ton loup
+        attaque la même cible que toi, il ajoute <strong>+1d4° DM</strong> à sa
+        morsure. Cela reste une seule morsure, avec des dégâts supplémentaires,
+        pas une attaque gratuite de plus.</li><li><strong>Soin empathique
+        renforcé :</strong> en dépensant 1 de tes PV, tu rends maintenant
+        <strong>2 PV</strong> à ton loup. Le transfert se fait toujours avec une
+        action limitée (L).</li><li><strong>Défense de meute :</strong> toi
+        <em>et</em> ton loup gagnez <strong>+1 DEF pour chaque voie de
+        rôdeur</strong> dans laquelle tu as atteint le rang 5, celle-ci
+        comprise. Ce bonus pourra encore augmenter si tu atteins rang 5 dans
+        d’autres voies de rôdeur.</li></ol><h2>Fiche complète à ce
+        rang</h2><p><strong>DEF du loup : 18 + bonus de meute</strong> (au moins
+        19 du fait de cette voie) ; <strong>PV = 5 × ton niveau</strong> ;
+        morsure <strong>1d4° + 5</strong>, avec <strong>+1d4°</strong> si vous
+        attaquez tous deux la même cible. Le jet pour toucher utilise toujours
+        ta valeur d’attaque magique. Les valeurs CON +3* et FOR +5 sont
+        conservées.</p><h2>Exemple de combat — niveau 9</h2><p>Tu attaques un
+        centaure et ton loup attaque <em>le même centaure</em> : si sa morsure
+        touche, elle inflige <strong>1d8 + 5 + 1d8 DM</strong>. Si le loup
+        attaque un second centaure pendant que tu frappes le premier, il n’a pas
+        le deuxième d8.</p><h2>Exemple de soin</h2><p>Le loup a perdu 10 PV : en
+        action limitée, tu peux lui rendre 10 PV en en dépensant 5. Si tu
+        disposes de moins de PV ou s’il lui manque moins de 10 PV, adapte la
+        quantité.</p><h2>Rappel de tes capacités cumulées</h2><p>Tu conserves
+        les ordres simples et la morsure du rang 1, les dés bonus conditionnels
+        du rang 2, le lien empathique du rang 3 et les statistiques de loup
+        alpha du rang 4. Les arbitrages d’ordres et de mouvement restent ceux
+        convenus avec ton MJ ; la maîtrise 5 ne débloque pas automatiquement une
+        « spécialisation familiers » façon WoW.</p><p><small><strong>Sources
+        COF2 :</strong> Laurent Bernasconi, <em>Chroniques Oubliées Fantasy
+        2</em>, Black Book Éditions (2024), p. 72 ; p. 43. Le détail ci-dessus
+        est reformulé ; les éventuels arbitrages Warbound sont explicitement
+        identifiés.</small></p></section>
+      markdown: ''
+    ownership:
+      default: 0
+    flags:
+      warbound-campaign-content:
+        rank: 5
+        access: verrouille
+    _id: 7f2CoYq5miUJZHgH
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248684964
+      modifiedTime: 1794248684964
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!1spQr4DNbZ2VfDPt.7f2CoYq5miUJZHgH'
+_id: 1spQr4DNbZ2VfDPt
+folder: Sb5vhr21EPgoLqSj
+categories: []
+sort: 100000
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248684964
+  modifiedTime: 1794248684964
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!1spQr4DNbZ2VfDPt'

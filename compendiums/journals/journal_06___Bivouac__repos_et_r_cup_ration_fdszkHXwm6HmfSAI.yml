@@ -1,0 +1,59 @@
+name: 06 — Bivouac, repos et récupération
+folder: 7wHOeNNinUO7NaAZ
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  world:
+    warboundS02Key: r06
+    warboundS02Pack: true
+pages:
+  - name: Conditions et DR
+    type: text
+    sort: 100000
+    text:
+      format: 1
+      content: "<p><small><strong>AU NOM DE LA HORDE • S02</strong> — MJ uniquement — Document maître évolutif — v0.2 (5 novembre 2026)</small></p><p>🧭 @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Retard} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État des convois}</p><h3>4 bis.6 — Cas A ou C : installation et récupération</h3><p>[CAS A : ARRIVÉE DE JOUR] La halte de caravanes est un site aménagé pour la Horde (création Warbound, non un lieu officiellement identifié) : espace de stationnement, foyers, réserve d’eau, abri sommaire et, proposition à fixer, un gardien. Les péons savent dételer et faire leur métier ; demander seulement qui se charge des postes de veille et si quelqu’un aide les blessés ou les kodos. Repas chaud et conversation facultative.</p>\n<p>[CAS C : BIVOUAC IMPROVISÉ] Le convoi s’arrête avant la halte. Les PJ décident en quelques phrases de trois choses : emplacement à l’abri ou non ; traitement des kodos et des blessés ; veille et feu. Pas de minijeu obligatoire. Si le lieu est incertain et que la recherche a un enjeu, un unique test pertinent de Survie peut aider à repérer un abri ; il n’est pas nécessaire si l’idée des PJ répond au problème.</p>\n<table style=\"width:100%;border-collapse:collapse\"><thead><tr><th>Lieu et conditions réellement obtenus</th><th>Récupération COF2 / adaptation Warbound</th></tr></thead><tbody><tr><td>Halte équipée, garde et nuit paisible</td><td>[WARBOUND] Si nourriture, sécurité et 8 h de repos effectif sont réunies, traiter comme des conditions optimales : récupération complète sans test. COF2 dispense de test une nuit paisible à l’auberge ; l’extension à la halte est notre choix.</td></tr><tr><td>Camp de fortune correct, repos non optimal</td><td>[COF2] Test de CON selon dangerosité de région : 10 en zone naturelle/frontalière, 15 en zone sauvage. L’échec ordinaire ne donne pas de récupération complète.</td></tr><tr><td>Camp aménagé confortable, mais repos à tester</td><td>[COF2] Dé bonus au test de récupération lorsque le bivouac est effectivement confortable ; ne pas lancer de test si le repos est déjà considéré comme optimal.</td></tr><tr><td>Camp exposé, sommeil perturbé</td><td>[COF2] Dé malus au test de récupération si le bivouac est inconfortable. Nuit trop courte ou interrompue : pas de récupération complète de 8 h sans adaptation explicite.</td></tr></tbody></table>\n<p>[RÈGLE COF2] Après 8 h de récupération complète, un PJ récupère 1 DR (sans dépasser son maximum), qu’il peut consacrer immédiatement aux PV dans les conditions décrites par le livre (p. 221–222). Lorsque le test de récupération est nécessaire, un échec critique ou d’au moins 10 points entraîne en plus la perte de 1 DR, ou l’état Affaibli le lendemain si le PJ n’a plus de DR (p. 236). Ne pas confondre dé bonus/malus au test et points de retard.</p>\n<p>[PROPOSITION DE MISE EN SCÈNE] À l’arrivée tardive, un péon marmonne qu’il aurait préféré manger au chaud ; le responsable de l’attelage rappelle qu’un kodo blessé ne marchera pas plus vite par autorité. En camp improvisé, le même péon peut néanmoins tendre une couverture au blessé. Les convoyeurs restent des professionnels, pas des figurants punis pour avoir suivi les PJ.</p><hr><p><strong>Renvois utiles :</strong> @UUID[JournalEntry.6ueaE9YrYzfXxCzY.JournalEntryPage.BVe2Ow8tudCrRSVz]{À jouer — récit &amp; situations} \_ · \_ @UUID[JournalEntry.eyuh7ClQeexhfd0c.JournalEntryPage.l8XmqZxFRQyZa387]{À jouer — récit &amp; situations} \_ · \_ @UUID[JournalEntry.T7Oi8jfz3iDN1hbq.JournalEntryPage.YDSwd5unUaR6SHmb]{Procédure Warbound / COF2} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État à renseigner à la table}</p>"
+    flags:
+      world:
+        warboundS02PageKey: r06.main
+        warboundS02Pack: true
+    _id: sYVKJolTDX9dVmkJ
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617940
+      modifiedTime: 1794248617940
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!fdszkHXwm6HmfSAI.sYVKJolTDX9dVmkJ'
+_id: fdszkHXwm6HmfSAI
+categories: []
+sort: 0
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248617940
+  modifiedTime: 1794248617940
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!fdszkHXwm6HmfSAI'

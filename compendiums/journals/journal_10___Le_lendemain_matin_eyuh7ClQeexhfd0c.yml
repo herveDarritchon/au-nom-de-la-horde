@@ -1,0 +1,59 @@
+name: 10 — Le lendemain matin
+folder: 7RHfcfEUCLUvBRwC
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  world:
+    warboundS02Key: s10
+    warboundS02Pack: true
+pages:
+  - name: À jouer — récit & situations
+    type: text
+    sort: 100000
+    text:
+      format: 1
+      content: "<p><small><strong>AU NOM DE LA HORDE • S02</strong> — MJ uniquement — Livret narratif — v0.1 (7 novembre 2026)</small></p><p>🧭 @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Retard} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État des convois}</p><p><em>OUVERTURE RAPIDE · FAIRE SENTIR LA NUIT PASSÉE</em></p>\n<p>Ne pas refaire une seconde scène complète de bivouac. Choisir une des trois ouvertures ci-dessous selon les résultats de jeu, puis rappeler un fait matériel et un fait humain (roue fragilisée, péon blessé, accueil chaleureux, irritation, information trouvée).</p>\n<blockquote style=\"border-left:4px solid #bd8950;padding:8px 12px\"><strong>SI LA NUIT A ÉTÉ BONNE</strong><p>Le jour revient sans hâte sur la terre rouge. L'air est encore frais et l'on entend les premiers coups de sabot avant les voix. Sous l'abri, les péons terminent un repas simple. La nuit a laissé au convoi l'essentiel de ses forces ; les harnais sont prêts à reprendre la route.</p></blockquote>\n<blockquote style=\"border-left:4px solid #bd8950;padding:8px 12px\"><strong>SI LA NUIT OU LE MATÉRIEL ONT SOUFFERT</strong><p>Un homme se redresse avec difficulté près d'un feu presque mort. Les outils sortent des sacs avant même le premier repas : il faut resserrer une attache, compter une dernière fois les caisses et convaincre un kodo déjà las de repartir. Personne ne dramatise. On travaille davantage, voilà tout.</p></blockquote>\n<blockquote style=\"border-left:4px solid #bd8950;padding:8px 12px\"><strong>SI LE GROUPE A CAMPÉ DEHORS</strong><p>Au petit matin, les traces des roues sont encore nettes dans la poussière. Les couvertures sont chargées en silence, et chacun sait qu'il aurait préféré ouvrir les yeux sous l'abri de la halte. La route, elle, est toujours là. Le convoi aussi.</p></blockquote>\n<p style=\"border-left:3px solid #a9814d;padding-left:10px\"><strong>MJ — </strong>À reporter immédiatement.  L'état des deux kodos, des cargaisons, des blessés, du repos des PJ et des rapports avec les péons suit le groupe. Cela doit colorer la rencontre suivante, pas déterminer d'avance ce que feront les Humains.</p><hr><p><strong>Renvois utiles :</strong> @UUID[JournalEntry.fdszkHXwm6HmfSAI.JournalEntryPage.sYVKJolTDX9dVmkJ]{Conditions et DR} \_ · \_ @UUID[JournalEntry.fO1uNTfX4xpUAKEP.JournalEntryPage.MbTVKN8HMQYEepVR]{Réactions, tour de garde et reprise} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État à renseigner à la table}</p><p><strong>Navigation :</strong> @UUID[JournalEntry.mzWDxHVfwUijcWRj.JournalEntryPage.OmszLmL09nNsdQrN]{← Scène précédente} \_ · \_ @UUID[JournalEntry.MsoGRC7psQf0kvNd.JournalEntryPage.rQLBJ5TIhx8qRgK8]{Scène suivante →}</p>"
+    flags:
+      world:
+        warboundS02PageKey: s10.play
+        warboundS02Pack: true
+    _id: l8XmqZxFRQyZa387
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617925
+      modifiedTime: 1794248617925
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!eyuh7ClQeexhfd0c.l8XmqZxFRQyZa387'
+_id: eyuh7ClQeexhfd0c
+categories: []
+sort: 0
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248617925
+  modifiedTime: 1794248617925
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!eyuh7ClQeexhfd0c'

@@ -1,0 +1,129 @@
+name: '11 — Sur la route : la patrouille de Tiragarde'
+folder: 7RHfcfEUCLUvBRwC
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  world:
+    warboundS02Key: s11
+    warboundS02Pack: true
+pages:
+  - name: À jouer — récit & situations
+    type: text
+    sort: 100000
+    text:
+      format: 1
+      content: "<p><small><strong>AU NOM DE LA HORDE • S02</strong> — MJ uniquement — Livret narratif — v0.1 (7 novembre 2026)</small></p><p>🧭 @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Retard} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État des convois}</p><p><em>JOUR 2 · ENTRÉE NARRATIVE PROVISOIRE — SCÈNE ENCORE À CONCEVOIR</em></p>\n<p>La présence d'une patrouille humaine venue du fort de Tiragarde a été décidée. Son effectif, sa mission, ses ordres et son attitude initiale ne sont pas encore établis dans le document maître. Le passage suivant fournit une entrée visuelle sans attribuer aux soldats une intention qui n'a pas été validée.</p>\n<blockquote style=\"border-left:4px solid #bd8950;padding:8px 12px\"><strong>À LIRE OU REFORMULER</strong><p>Dans la lumière du matin, un éclat de métal tranche sur le rouge de la piste. Plus loin, plusieurs silhouettes humaines se détachent près d'un relief, assez proches de la route pour être remarquées. L'une tourne la tête vers les chariots. Une autre tient quelque chose contre son épaule. Pendant quelques instants, personne ne parle : ni les hommes là-bas, ni les péons qui viennent de comprendre ce qu'ils voient.</p></blockquote>\n<p style=\"border-left:3px solid #a9814d;padding-left:10px\"><strong>MJ — </strong>La première décision revient aux PJ.  S'approchent-ils, arrêtent-ils le convoi, observent-ils d'abord, tentent-ils de contourner ? Attendre leur réaction avant de préciser la position et le comportement des soldats.</p>\n<p style=\"border-left:3px solid #a9814d;padding-left:10px\"><strong>MJ — </strong>Ce qui reste à écrire avant le jeu.  Combien d'Humains ? Que font-ils ici ? Ont-ils pour consigne d'arrêter un convoi de la Horde, de reconnaître la région ou autre chose ? Quel événement peut les faire parler ou tirer ? Ne choisir aucune de ces réponses par défaut.</p>\n<p style=\"border-left:3px solid #a9814d;padding-left:10px\"><strong>MJ — </strong>Ce qui doit déjà compter.  Si les convois sont abîmés, leur manœuvre est plus difficile. Si les travailleurs sont irrités, un péon peut demander qu'on évite une nouvelle halte. Si Jazti a protégé son monde, sa parole peut être mieux accueillie. Cela ne préjuge pas des intentions humaines.</p>\n<p><small>Renvoi au document maître v0.2 : fiche 2.G encore ouverte ; à compléter dans le livret après validation de la patrouille.</small></p><p><strong>Autres pages de ce journal :</strong> @UUID[JournalEntry.MsoGRC7psQf0kvNd.JournalEntryPage.1eT7t7Msri0uLPED]{Décisions &amp; conséquences} \_ · \_ @UUID[JournalEntry.MsoGRC7psQf0kvNd.JournalEntryPage.eUkV5vaKioneQDo7]{Garde-fou de continuité}</p><hr><p><strong>Renvois utiles :</strong> @UUID[JournalEntry.McGRaABF1Kc2N3iz.JournalEntryPage.lUmqFUpJHrpuIf2R]{Situation ouverte} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État à renseigner à la table} \_ · \_ @UUID[JournalEntry.1w5SomDLshDAWOoC.JournalEntryPage.MXJysq678UIyw76D]{Points ouverts, sans réponses inventées}</p><p><strong>Navigation :</strong> @UUID[JournalEntry.eyuh7ClQeexhfd0c.JournalEntryPage.l8XmqZxFRQyZa387]{← Scène précédente} \_ · \_ @UUID[JournalEntry.mKI7t7xC0WHoCxjY.JournalEntryPage.XzZax3Ebhu42fEJy]{Scène suivante →}</p>"
+    flags:
+      world:
+        warboundS02PageKey: s11.play
+        warboundS02Pack: true
+    _id: rQLBJ5TIhx8qRgK8
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617919
+      modifiedTime: 1794248617919
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!MsoGRC7psQf0kvNd.rQLBJ5TIhx8qRgK8'
+  - name: Décisions & conséquences
+    type: text
+    sort: 200000
+    text:
+      format: 1
+      content: "<p><small><strong>AU NOM DE LA HORDE • S02</strong> — MJ uniquement — Document maître évolutif — v0.2 (5 novembre 2026)</small></p><p>🧭 @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Retard} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État des convois}</p><h3>G. Jour 2 — la patrouille de Tiragarde</h3><p>[À DÉFINIR]  Une rencontre avec une patrouille humaine de Tiragarde a été explicitement prévue pour le lendemain. Son effectif, sa mission, son attitude initiale et la raison de sa présence sur la route ne sont pas encore fixés.</p>\n<p style=\"margin-left:1em\">• Décisions ouvertes aux PJ — la scène devra permettre plusieurs issues crédibles (contourner, dialoguer, observer, défendre le convoi, combattre si la situation dégénère).</p>\n<p style=\"margin-left:1em\">• Conséquences à reporter — exploiter le repos, les pertes et les indices du jour 1 ; ne pas décider d’avance qu’un combat est inévitable.</p>\n<p><small>À écrire / vérifier : objectif de la patrouille, autorité/ordres, informations qu’elle détient, géographie, conséquences diplomatiques et mécaniques COF2.</small></p><p><strong>Autres pages de ce journal :</strong> @UUID[JournalEntry.MsoGRC7psQf0kvNd.JournalEntryPage.rQLBJ5TIhx8qRgK8]{À jouer — récit &amp; situations} \_ · \_ @UUID[JournalEntry.MsoGRC7psQf0kvNd.JournalEntryPage.eUkV5vaKioneQDo7]{Garde-fou de continuité}</p><hr><p><strong>Renvois utiles :</strong> @UUID[JournalEntry.McGRaABF1Kc2N3iz.JournalEntryPage.lUmqFUpJHrpuIf2R]{Situation ouverte} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État à renseigner à la table} \_ · \_ @UUID[JournalEntry.1w5SomDLshDAWOoC.JournalEntryPage.MXJysq678UIyw76D]{Points ouverts, sans réponses inventées}</p><p><strong>Navigation :</strong> @UUID[JournalEntry.eyuh7ClQeexhfd0c.JournalEntryPage.l8XmqZxFRQyZa387]{← Scène précédente} \_ · \_ @UUID[JournalEntry.mKI7t7xC0WHoCxjY.JournalEntryPage.XzZax3Ebhu42fEJy]{Scène suivante →}</p>"
+    flags:
+      world:
+        warboundS02PageKey: s11.stakes
+        warboundS02Pack: true
+    _id: 1eT7t7Msri0uLPED
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617919
+      modifiedTime: 1794248617919
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!MsoGRC7psQf0kvNd.1eT7t7Msri0uLPED'
+  - name: Garde-fou de continuité
+    type: text
+    sort: 300000
+    text:
+      format: 1
+      content: "<p><small><strong>AU NOM DE LA HORDE • S02</strong> — MJ uniquement — Synthèse explicite des réserves des deux documents</small></p><p>🧭 @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Retard} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État des convois}</p><p><strong>À respecter :</strong> Mission, effectif, ordres et attitude initiale de la patrouille non fixés. Conserver le droit de contourner et de dialoguer.</p><p>@UUID[JournalEntry.1w5SomDLshDAWOoC.JournalEntryPage.MXJysq678UIyw76D]{Consulter la liste des décisions encore ouvertes}</p><p><strong>Autres pages de ce journal :</strong> @UUID[JournalEntry.MsoGRC7psQf0kvNd.JournalEntryPage.rQLBJ5TIhx8qRgK8]{À jouer — récit &amp; situations} \_ · \_ @UUID[JournalEntry.MsoGRC7psQf0kvNd.JournalEntryPage.1eT7t7Msri0uLPED]{Décisions &amp; conséquences}</p><hr><p><strong>Renvois utiles :</strong> @UUID[JournalEntry.McGRaABF1Kc2N3iz.JournalEntryPage.lUmqFUpJHrpuIf2R]{Situation ouverte} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État à renseigner à la table} \_ · \_ @UUID[JournalEntry.1w5SomDLshDAWOoC.JournalEntryPage.MXJysq678UIyw76D]{Points ouverts, sans réponses inventées}</p><p><strong>Navigation :</strong> @UUID[JournalEntry.eyuh7ClQeexhfd0c.JournalEntryPage.l8XmqZxFRQyZa387]{← Scène précédente} \_ · \_ @UUID[JournalEntry.mKI7t7xC0WHoCxjY.JournalEntryPage.XzZax3Ebhu42fEJy]{Scène suivante →}</p>"
+    flags:
+      world:
+        warboundS02PageKey: s11.garde
+        warboundS02Pack: true
+    _id: eUkV5vaKioneQDo7
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617919
+      modifiedTime: 1794248617919
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!MsoGRC7psQf0kvNd.eUkV5vaKioneQDo7'
+_id: MsoGRC7psQf0kvNd
+categories: []
+sort: 0
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248617919
+  modifiedTime: 1794248617919
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!MsoGRC7psQf0kvNd'

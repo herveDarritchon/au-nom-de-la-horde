@@ -1,0 +1,59 @@
+name: 05 — Kolkar du Rocher fendu
+folder: cU5z4CYEjaUdARUy
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  world:
+    warboundS02Key: p05
+    warboundS02Pack: true
+pages:
+  - name: Objectif, intérêts, réaction
+    type: text
+    sort: 100000
+    text:
+      format: 1
+      content: "<p><small><strong>AU NOM DE LA HORDE • S02</strong> — MJ uniquement — Annexe Warbound — Kolkar et kodo, restitution des échanges des 3 et 7 novembre 2026</small></p><p>🧭 @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Retard} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État des convois}</p><h2>Groupe Kolkar : raid opportuniste</h2>\n<p><strong>[ACQUIS — adaptation Warbound]</strong> Un éclaireur et deux estafettes rôdent près du Rocher fendu et tentent de voler <strong>les vivres et l’eau</strong> transportés pour la Horde. Ils ne servent ni la Pierre Brisée ni le fil rouge de Ragefeu.</p>\n<table style=\"width:100%;border-collapse:collapse\"><thead><tr><th>Questions MJ</th><th>Réponse utile à la table</th></tr></thead><tbody>\n<tr><td>Veut</td><td>Repartir avec jusqu’à deux sacs de ravitaillement.</td></tr>\n<tr><td>Refuse</td><td>Une bataille longue pour quelques provisions.</td></tr>\n<tr><td>Contrôle</td><td>Un éclaireur sur le talus, deux estafettes mobiles et des voies de retraite.</td></tr>\n<tr><td>Réaction au danger</td><td>Retraite lors des déclencheurs tactiques @UUID[JournalEntry.QFLNsZhnyoIjFyT6.JournalEntryPage.YPfjrbEMuFNSWRAJ]{définis}.</td></tr>\n<tr><td>Si les PJ laissent fuir</td><td>Le raid se termine ; noter le butin réel, aucune vengeance systématique.</td></tr></tbody></table>\n<p><strong>Profils mécaniques (NC, DEF, PV, attaques, Initiative, mouvement) : [À PRÉCISER].</strong> Ne pas récupérer ici des statistiques D&amp;D 5e des anciens guides Champions of Azeroth.</p>\n<p>@UUID[JournalEntry.f5qnlnbAhytcPhtk.JournalEntryPage.Ys8Pp6kgMAGHkmcG]{Scène} · @UUID[JournalEntry.QFLNsZhnyoIjFyT6.JournalEntryPage.YPfjrbEMuFNSWRAJ]{Conditions de repli} · @UUID[JournalEntry.QFLNsZhnyoIjFyT6.JournalEntryPage.XvmWhkg6jMaXiwa4]{Manœuvre de vol}.</p><hr><p><strong>Renvois utiles :</strong> @UUID[JournalEntry.QFLNsZhnyoIjFyT6.JournalEntryPage.YPfjrbEMuFNSWRAJ]{Objectifs, retrait et initiative} \_ · \_ @UUID[JournalEntry.f5qnlnbAhytcPhtk.JournalEntryPage.ZvRQjvSnNoUwN1YH]{Mémento MJ — tactique et décisions}</p>"
+    flags:
+      world:
+        warboundS02PageKey: p05.main
+        warboundS02Pack: true
+    _id: oMYpJOH47tjXsuQE
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617942
+      modifiedTime: 1794248617942
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!kWb8kvtdjrUMSU7a.oMYpJOH47tjXsuQE'
+_id: kWb8kvtdjrUMSU7a
+categories: []
+sort: 0
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248617942
+  modifiedTime: 1794248617942
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!kWb8kvtdjrUMSU7a'

@@ -1,0 +1,304 @@
+_id: GhDvHPN42QOdvgqn
+name: Grumek Gros-Bras
+type: encounter
+img: modules/warbound-campaign-content/assets/images/avatar/orcs/convoi/coa-grumek-gros-bras-avatar.webp
+folder: 8HySD8Xg3Mi8JG8z
+flags:
+  world:
+    warboundConvoi:
+      package: convoi-foreuse-v1
+      key: grumek
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+system:
+  currentEffects: []
+  abilities:
+    agi:
+      superior: false
+      base: 0
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    con:
+      superior: true
+      base: 3
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    for:
+      superior: true
+      base: 3
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    per:
+      superior: false
+      base: 1
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    cha:
+      superior: false
+      base: -1
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    int:
+      superior: false
+      base: 0
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    vol:
+      superior: false
+      base: 1
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+  attributes:
+    movement:
+      base: 10
+      unit: m
+      bonuses:
+        sheet: 0
+        effects: 0
+      ability: null
+      details: null
+      min: null
+      max: null
+    nc: 1
+    hp:
+      base: 18
+      value: 18
+      temp: null
+      max: 18
+      tempmax: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    tempDm: 0
+  combat:
+    init:
+      base: 11
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    def:
+      base: 15
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    dr:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    crit:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    melee:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    ranged:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    magic:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+  magic: 0
+  pasteData: ''
+  details:
+    category: humanoid
+    size: medium
+    description:
+      public: >-
+        <p><strong>Garde / manutentionnaire</strong>. Très grand Orc aux épaules
+        massives, équipé d’une armure de travail renforcée. Les crochets, cordes
+        et pièces de cuir comptent autant que sa hache. Son apparence est celle
+        d’un garde, ses gestes sont ceux d’un ouvrier : avant de regarder
+        l’ennemi, il regarde ce qui va tomber, casser ou écraser quelqu’un.</p>
+                            <p><strong>Profil de rencontre Warbound :</strong> Garde — variante manutentionnaire — adaptation simple pour le convoi.</p>
+                            <p><strong>Armes :</strong></p><ul><li><strong>Hache.</strong> Attaque [[1d20+4]] ; DM [[1d8+3]].</li></ul>
+      private: >-
+        <p><strong>Traits :</strong> Fort • Patient • Pragmatique •
+        Protecteur</p>
+                             <p><strong>Veut :</strong> Gagner assez de réputation et d’argent pour ne plus passer sa vie à porter les charges des autres et diriger un jour une petite équipe de manutentionnaires.</p>
+                             <p><strong>Craint :</strong> Être considéré comme un simple « gros bras » incapable de comprendre ce qu’il transporte ou ce qui se passe autour de lui.</p>
+                             <p><strong>Spécialités :</strong></p><ul><li>Athlétisme</li><li>Manutention</li><li>Mine et carrière</li></ul>
+                             <p><strong>Aptitudes :</strong></p><ul><li><strong>Gros bras.</strong> Dé bonus aux tests de FOR pour soulever, retenir, pousser, redresser une charge ou effectuer une réparation physique d’urgence.</li></ul>
+                             <p><strong>Liens :</strong> @UUID[JournalEntry.unXDn8E42FSnKBZd]{Journal — Grumek Gros-Bras} • @UUID[JournalEntry.TidBTLhr2XaYCqhL]{Index du convoi}</p>
+    notes:
+      public: ''
+      private: >-
+        <p><strong>Ce qu’il croit :</strong> Construire quelque chose qui tient
+        vaut souvent davantage que gagner une bagarre.</p>
+                             <p><strong>Ce qu’il cache :</strong> Il garde sur lui un petit éclat de roche sombre récupéré sur un ancien chantier. Il ne lui attribue aucune valeur magique ; c’est un souvenir de travail.</p>
+                             <p><strong>SECRET MJ :</strong> voir la seconde page du journal de Grumek.</p>
+                             <blockquote>« Tu veux courir après eux ? Très bien. Moi, je garde les caisses sur la route. »</blockquote>
+                             <p>@UUID[JournalEntry.unXDn8E42FSnKBZd]{Journal — Grumek Gros-Bras}</p>
+    languages:
+      - Orc
+    properties: Orc • Garde / manutentionnaire • Convoi de la foreuse
+  wealth:
+    gp:
+      value: 0
+    sp:
+      value: 0
+    cp:
+      value: 0
+  companion:
+    isCompanion: false
+    master: null
+    rank: 0
+prototypeToken:
+  name: Grumek Gros-Bras
+  displayName: 0
+  actorLink: true
+  width: 1
+  height: 1
+  depth: 1
+  texture:
+    src: modules/warbound-campaign-content/assets/images/tokens/npcs/orcs/convoi/grumek-gros-bras.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    tint: '#ffffff'
+    alphaThreshold: 0.25
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: 1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: resources.mana
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  flags: {}
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+items: []
+effects: []
+sort: 0
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248414743
+  modifiedTime: 1794248414743
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!actors!GhDvHPN42QOdvgqn'

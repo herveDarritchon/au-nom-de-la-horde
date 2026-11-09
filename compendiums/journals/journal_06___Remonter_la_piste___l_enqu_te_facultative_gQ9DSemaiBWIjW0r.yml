@@ -1,0 +1,129 @@
+name: '06 — Remonter la piste : l’enquête facultative'
+folder: 7RHfcfEUCLUvBRwC
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  world:
+    warboundS02Key: s06
+    warboundS02Pack: true
+pages:
+  - name: À jouer — récit & situations
+    type: text
+    sort: 100000
+    text:
+      format: 1
+      content: "<p><small><strong>AU NOM DE LA HORDE • S02</strong> — MJ uniquement — Livret narratif — v0.1 (7 novembre 2026)</small></p><p>🧭 @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Retard} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État des convois}</p><p><em>APRÈS LA RUÉE · UNE CONNAISSANCE QUI A UN COÛT EN TEMPS</em></p>\n<p>Cette piste ne doit jamais retenir les PJ de force. Un joueur qui demande pourquoi tant d'animaux ont fui reçoit d'abord des éléments observables. Plus il s'écarte de la route, plus l'explication devient consistante — et plus il immobilise ou fragilise l'escorte.</p><h3>Les abords du goulet</h3><blockquote style=\"border-left:4px solid #bd8950;padding:8px 12px\"><strong>À LIRE OU REFORMULER</strong><p>À l'endroit où les bêtes ont surgi, le sol est labouré de sabots et de griffes. Des traces de tailles différentes se mêlent, mais elles descendent toutes du même passage. Quelques animaux ont glissé sur les pierres ; aucun signe ne laisse penser à une attaque dirigée contre le chariot. C'est une fuite qui a traversé votre route.</p></blockquote>\n<p style=\"border-left:3px solid #a9814d;padding-left:10px\"><strong>MJ — </strong>Ce qu’ils comprennent.  Plusieurs espèces ont quitté la même zone presque au même instant. Quelque chose les a effrayées. La route a reçu de plein fouet leur fuite, sans que cela prouve encore une attaque préméditée contre les PJ.</p><h3>Remonter les traces</h3><blockquote style=\"border-left:4px solid #bd8950;padding:8px 12px\"><strong>À LIRE OU REFORMULER</strong><p>À mesure que vous remontez les marques, le terrain raconte une histoire plus nette. Les traces ne s'étalent pas au hasard : elles se resserrent vers un passage de bêtes, puis vers une dépression où l'eau se rassemble après les chaleurs. Dans un repli du sentier, des brins végétaux tressés sont pris sous une pierre fraîchement déplacée. Plus loin, le sol garde des trous droits, trop réguliers pour de simples branches tombées.</p></blockquote>\n<p style=\"border-left:3px solid #a9814d;padding-left:10px\"><strong>MJ — </strong>Ce qu’ils peuvent déduire.  Quelqu'un a installé puis retiré ou déplacé des objets près du passage des animaux. Les traces s'accordent avec un aménagement volontaire, mais ne donnent ni nom ni bannière.</p><h3>Le point d’eau</h3><blockquote style=\"border-left:4px solid #bd8950;padding:8px 12px\"><strong>À LIRE OU REFORMULER</strong><p>La petite mare est entourée de terre humide, écrasée par des dizaines de passages précipités. À quelques pas de l'eau, trois emplacements de bois sont encore visibles dans le sol tassé ; des cendres collent aux cailloux et des fibres nouées pendent à une branche basse. Les pierres ont été disposées face aux approches qu'empruntent d'ordinaire les bêtes. Ce n'est pas un campement de chasse. Quelqu'un a travaillé ici, autour de l'eau, puis est reparti.</p></blockquote>\n<p>Dans la vérité MJ déjà retenue, un chaman a disposé des totems pour affoler et orienter les animaux. Un PJ compétent en rites chamaniques ou en lecture des éléments peut reconnaître la logique générale du dispositif. Il ne faut cependant pas fournir gratuitement un nom de cercle, une signature magique unique ou la preuve que le convoi précis constituait la cible.</p>\n<p style=\"border-left:3px solid #a9814d;padding-left:10px\"><strong>MJ — </strong>Conclusion accessible.  « Ce ne sont pas seulement des animaux effrayés : quelque chose a été installé près de l'eau pour provoquer leur panique et canaliser leur fuite. »</p>\n<p style=\"border-left:3px solid #a9814d;padding-left:10px\"><strong>MJ — </strong>Question maintenue ouverte.  « La route était-elle l'objectif du dispositif, ou le lieu où la fuite devait naturellement aboutir ? Qui a posé ces objets, et pourquoi ? »</p>\n<p style=\"border-left:3px solid #a9814d;padding-left:10px\"><strong>MJ — </strong>La voix du convoi.  Si les enquêteurs tardent, faire venir une phrase simple depuis la route : « Vous comptez rentrer avant qu'il fasse noir ? » Le temps est une pression connue, pas une sanction cachée.</p>\n<p><small>Renvoi au document maître v0.2 : paliers cumulés d’investigation, protection ou déplacement des convois, retard annoncé avant engagement (sections 2.E et 4 bis.2–3).</small></p><p><strong>Autres pages de ce journal :</strong> @UUID[JournalEntry.gQ9DSemaiBWIjW0r.JournalEntryPage.CLsNKFWt65tOuN31]{Décisions &amp; conséquences} \_ · \_ @UUID[JournalEntry.gQ9DSemaiBWIjW0r.JournalEntryPage.YOoj4KIMksPOn7Gd]{Garde-fou de continuité}</p><hr><p><strong>Renvois utiles :</strong> @UUID[JournalEntry.fcZejQdm4u6iAZSe.JournalEntryPage.eWppQeTKF6MHRLF1]{Quatre dispositions possibles} \_ · \_ @UUID[JournalEntry.NsTxqshtT9lLumN4.JournalEntryPage.0bD6SqPVwT3RVvJm]{Règle et barème contextuel} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État à renseigner à la table}</p><p><strong>Navigation :</strong> @UUID[JournalEntry.zg0ZrdYd7H5Uc8gY.JournalEntryPage.4Z4q8B2PkX86MtE5]{← Scène précédente} \_ · \_ @UUID[JournalEntry.x3XLdzGIaU5xDuhh.JournalEntryPage.eR76EoKqNGdyiYQ7]{Scène suivante →}</p>"
+    flags:
+      world:
+        warboundS02PageKey: s06.play
+        warboundS02Pack: true
+    _id: M3exRvSKspw29FSl
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617929
+      modifiedTime: 1794248617929
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!gQ9DSemaiBWIjW0r.M3exRvSKspw29FSl'
+  - name: Décisions & conséquences
+    type: text
+    sort: 200000
+    text:
+      format: 1
+      content: "<p><small><strong>AU NOM DE LA HORDE • S02</strong> — MJ uniquement — Document maître évolutif — v0.2 (5 novembre 2026)</small></p><p>🧭 @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Retard} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État des convois}</p><h3>E. La piste et le point d’eau</h3><p>[ACQUIS / ENQUÊTE FACULTATIVE]  Après la ruée, une enquête peut remonter vers un point d’eau et suggérer que la panique n’était pas purement naturelle. Cette découverte n’est pas obligatoire pour poursuivre l’escorte.</p>\n<p style=\"margin-left:1em\">• Décisions ouvertes aux PJ — tous enquêtent et arrêtent le convoi ; groupe partagé et convoi arrêté ; enquête pendant que le convoi avance ; renoncement et départ.</p>\n<p style=\"margin-left:1em\">• Conséquences à reporter — retard certain si le convoi doit attendre ; exposition à un problème supplémentaire uniquement si le dispositif de protection le rend plausible ; degré d’information proportionnel aux investigations.</p>\n<p><small>À écrire / vérifier : description précise des indices et des restes rituels ; des paliers de temps sont proposés dans le module § 4 bis, à ajuster à la distance réelle.</small></p><p><strong>Autres pages de ce journal :</strong> @UUID[JournalEntry.gQ9DSemaiBWIjW0r.JournalEntryPage.M3exRvSKspw29FSl]{À jouer — récit &amp; situations} \_ · \_ @UUID[JournalEntry.gQ9DSemaiBWIjW0r.JournalEntryPage.YOoj4KIMksPOn7Gd]{Garde-fou de continuité}</p><hr><p><strong>Renvois utiles :</strong> @UUID[JournalEntry.fcZejQdm4u6iAZSe.JournalEntryPage.eWppQeTKF6MHRLF1]{Quatre dispositions possibles} \_ · \_ @UUID[JournalEntry.NsTxqshtT9lLumN4.JournalEntryPage.0bD6SqPVwT3RVvJm]{Règle et barème contextuel} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État à renseigner à la table}</p><p><strong>Navigation :</strong> @UUID[JournalEntry.zg0ZrdYd7H5Uc8gY.JournalEntryPage.4Z4q8B2PkX86MtE5]{← Scène précédente} \_ · \_ @UUID[JournalEntry.x3XLdzGIaU5xDuhh.JournalEntryPage.eR76EoKqNGdyiYQ7]{Scène suivante →}</p>"
+    flags:
+      world:
+        warboundS02PageKey: s06.stakes
+        warboundS02Pack: true
+    _id: CLsNKFWt65tOuN31
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617929
+      modifiedTime: 1794248617929
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!gQ9DSemaiBWIjW0r.CLsNKFWt65tOuN31'
+  - name: Garde-fou de continuité
+    type: text
+    sort: 300000
+    text:
+      format: 1
+      content: "<p><small><strong>AU NOM DE LA HORDE • S02</strong> — MJ uniquement — Synthèse explicite des réserves des deux documents</small></p><p>🧭 @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Retard} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État des convois}</p><p><strong>À respecter :</strong> L’enquête est facultative et ne prouve pas que la route soit la cible : ne pas inventer une signature magique ou un nom de faction.</p><p>@UUID[JournalEntry.1w5SomDLshDAWOoC.JournalEntryPage.MXJysq678UIyw76D]{Consulter la liste des décisions encore ouvertes}</p><p><strong>Autres pages de ce journal :</strong> @UUID[JournalEntry.gQ9DSemaiBWIjW0r.JournalEntryPage.M3exRvSKspw29FSl]{À jouer — récit &amp; situations} \_ · \_ @UUID[JournalEntry.gQ9DSemaiBWIjW0r.JournalEntryPage.CLsNKFWt65tOuN31]{Décisions &amp; conséquences}</p><hr><p><strong>Renvois utiles :</strong> @UUID[JournalEntry.fcZejQdm4u6iAZSe.JournalEntryPage.eWppQeTKF6MHRLF1]{Quatre dispositions possibles} \_ · \_ @UUID[JournalEntry.NsTxqshtT9lLumN4.JournalEntryPage.0bD6SqPVwT3RVvJm]{Règle et barème contextuel} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État à renseigner à la table}</p><p><strong>Navigation :</strong> @UUID[JournalEntry.zg0ZrdYd7H5Uc8gY.JournalEntryPage.4Z4q8B2PkX86MtE5]{← Scène précédente} \_ · \_ @UUID[JournalEntry.x3XLdzGIaU5xDuhh.JournalEntryPage.eR76EoKqNGdyiYQ7]{Scène suivante →}</p>"
+    flags:
+      world:
+        warboundS02PageKey: s06.garde
+        warboundS02Pack: true
+    _id: YOoj4KIMksPOn7Gd
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617929
+      modifiedTime: 1794248617929
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!gQ9DSemaiBWIjW0r.YOoj4KIMksPOn7Gd'
+_id: gQ9DSemaiBWIjW0r
+categories: []
+sort: 0
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248617929
+  modifiedTime: 1794248617929
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!gQ9DSemaiBWIjW0r'

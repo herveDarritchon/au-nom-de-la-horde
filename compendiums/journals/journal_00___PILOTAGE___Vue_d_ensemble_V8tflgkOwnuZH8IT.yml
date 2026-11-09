@@ -1,0 +1,129 @@
+name: 00 — PILOTAGE | Vue d’ensemble
+folder: Ai3m5e8LhZNTt3Bg
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  world:
+    warboundS02Key: s00
+    warboundS02Pack: true
+pages:
+  - name: Sommaire interactif
+    type: text
+    sort: 100000
+    text:
+      format: 1
+      content: "<p></p><small><p><strong>AU NOM DE LA HORDE • S02</strong> — MJ uniquement — Navigation</p></small><p>🧭 @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Retard} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État des convois}</p><p><strong>Point d’entrée pour diriger le voyage des deux convois.</strong> Deux journées indicatives. La structure propose des bifurcations ; les décisions et le temps écoulé restent souverains.</p><p><strong>En cours de partie :</strong> ouvrir la scène à jouer ; passer à sa page « Décisions / conséquences » si elle existe ; consulter les règles contextuelles ; reporter l’état du convoi et les minutes au registre.</p><h3>Scènes — Jour 1</h3><p>@UUID[JournalEntry.nzbiDQbliZ1X1wJV.JournalEntryPage.ZojXMuDDgUpTJ9EI]{00 — Gornek : affectation et ordres (après la séance 1)}</p><p>@UUID[JournalEntry.UrJ1Dw9jRnFJoV14.JournalEntryPage.btMMdwxw1qmeZCQW]{01 — Sur la route : quitter la vallée des Épreuves}</p><p>@UUID[JournalEntry.f5qnlnbAhytcPhtk.JournalEntryPage.Ys8Pp6kgMAGHkmcG]{02 — Les Kolkar et les vivres} · @UUID[JournalEntry.f5qnlnbAhytcPhtk.JournalEntryPage.ZvRQjvSnNoUwN1YH]{Mémento combat}</p><p>@UUID[JournalEntry.NPTwTH0upnsZFYU2.JournalEntryPage.zlu5sM6eTQq7OTLN]{03 — Roche-Sèche : le second convoi}</p><p>@UUID[JournalEntry.CUSS9LNh1aVHmC4H.JournalEntryPage.3cuZoMID9cx1JnQ9]{04 — La route entre les incidents}</p><p>@UUID[JournalEntry.zg0ZrdYd7H5Uc8gY.JournalEntryPage.4Z4q8B2PkX86MtE5]{05 — La ruée dans le goulet}</p><p>@UUID[JournalEntry.gQ9DSemaiBWIjW0r.JournalEntryPage.M3exRvSKspw29FSl]{06 — Piste et point d’eau (facultatif)}</p><p>@UUID[JournalEntry.x3XLdzGIaU5xDuhh.JournalEntryPage.eR76EoKqNGdyiYQ7]{07 — Le choix du crépuscule}</p><p>@UUID[JournalEntry.6ueaE9YrYzfXxCzY.JournalEntryPage.BVe2Ow8tudCrRSVz]{08 — Trois manières de passer la nuit}</p><p>@UUID[JournalEntry.mzWDxHVfwUijcWRj.JournalEntryPage.OmszLmL09nNsdQrN]{09 — Paroles autour du feu}</p><h3>Scènes — Jour 2 et arrivée</h3><p>@UUID[JournalEntry.eyuh7ClQeexhfd0c.JournalEntryPage.l8XmqZxFRQyZa387]{10 — Lendemain matin}</p><p>@UUID[JournalEntry.MsoGRC7psQf0kvNd.JournalEntryPage.rQLBJ5TIhx8qRgK8]{11 — Patrouille de Tiragarde (à définir)}</p><p>@UUID[JournalEntry.mKI7t7xC0WHoCxjY.JournalEntryPage.XzZax3Ebhu42fEJy]{12 — Tranchecolline : trois affaires}</p><h3>Références rapides</h3><p>@UUID[JournalEntry.NsTxqshtT9lLumN4.JournalEntryPage.0bD6SqPVwT3RVvJm]{Retard (15 min)} · @UUID[JournalEntry.x5IUDrYYtOGNPkrH.JournalEntryPage.k3GjUnWLeeK4ZFnN]{Voyage (rôles)} · @UUID[JournalEntry.T7Oi8jfz3iDN1hbq.JournalEntryPage.YDSwd5unUaR6SHmb]{Marche nocturne} · @UUID[JournalEntry.fdszkHXwm6HmfSAI.JournalEntryPage.sYVKJolTDX9dVmkJ]{Repos} · @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État des convois} · @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Compteur et historique}</p><h3>Embuscade Kolkar — accès direct</h3><p>@UUID[JournalEntry.QFLNsZhnyoIjFyT6.JournalEntryPage.YPfjrbEMuFNSWRAJ]{Retrait} · @UUID[JournalEntry.QFLNsZhnyoIjFyT6.JournalEntryPage.XvmWhkg6jMaXiwa4]{Coup de serpe} · @UUID[JournalEntry.C0nayaX26AjnMFqj.JournalEntryPage.c37Mg5eMeoP52oNB]{Panique du kodo} · @UUID[JournalEntry.rtpCsLr6B1uDIraY.JournalEntryPage.bCjp2iO5Zucz6Yee]{Jauge vivante} · @UUID[JournalEntry.rtpCsLr6B1uDIraY.JournalEntryPage.Dj6dgeEyMeh9I0R1]{Bilan du raid}</p><h3>Acteurs et préparation</h3><p>@UUID[JournalEntry.qERFsqM51AlqFbnx.JournalEntryPage.KNf6AOB6jD73KkQF]{Péons / attelages} · @UUID[JournalEntry.ntFjmKdDE6Mcpsuc.JournalEntryPage.D4UtndmnLmtqTgNQ]{Roche-Sèche} · @UUID[JournalEntry.McGRaABF1Kc2N3iz.JournalEntryPage.lUmqFUpJHrpuIf2R]{Tiragarde} · @UUID[JournalEntry.0OSSsrkorZZNsVqG.JournalEntryPage.SBZRXxq5BRejGgK4]{Tranchecolline} · @UUID[JournalEntry.1w5SomDLshDAWOoC.JournalEntryPage.MXJysq678UIyw76D]{Points ouverts}</p><p><strong>Autres pages de ce journal :</strong> @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.y7QBivdSPBY2IFyq]{Conduite de la table} \_ · \_ @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Pk7bkEGylXFabBDu]{Chronologie indicative}</p><hr><p><strong>Renvois utiles :</strong> @UUID[JournalEntry.nzbiDQbliZ1X1wJV.JournalEntryPage.ZojXMuDDgUpTJ9EI]{À jouer — l’affectation de Gornek} \_ · \_ @UUID[JournalEntry.f5qnlnbAhytcPhtk.JournalEntryPage.ZvRQjvSnNoUwN1YH]{Mémento MJ — tactique et décisions} \_ · \_ @UUID[JournalEntry.QFLNsZhnyoIjFyT6.JournalEntryPage.YPfjrbEMuFNSWRAJ]{Objectifs, retrait et initiative} \_ · \_ @UUID[JournalEntry.C0nayaX26AjnMFqj.JournalEntryPage.c37Mg5eMeoP52oNB]{Jauge, déclencheurs et statut} \_ · \_ @UUID[JournalEntry.rtpCsLr6B1uDIraY.JournalEntryPage.bCjp2iO5Zucz6Yee]{Panique vivante — macro MJ} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État à renseigner à la table} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Compteur vivant — piloté par la macro}</p>"
+    flags:
+      world:
+        warboundS02PageKey: s00.main
+        warboundS02Pack: true
+    _id: Az8YDJnF2w65TQwr
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617911
+      modifiedTime: 1794248617911
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!V8tflgkOwnuZH8IT.Az8YDJnF2w65TQwr'
+  - name: Conduite de la table
+    type: text
+    sort: 200000
+    text:
+      format: 1
+      content: "<p></p><small><p><strong>AU NOM DE LA HORDE • S02</strong> — MJ uniquement</p></small><p>🧭 @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Retard} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État des convois}</p><h3>Cadre narratif</h3><p>Ce document est le compagnon narratif. Il contient ce que les personnages peuvent entendre, voir, demander et provoquer. Les règles, les tableaux de retard et les effets de récupération restent dans le document maître ; on y renvoie lorsqu'une situation exige une résolution.</p><p>La narration suit deux journées de voyage, et non un découpage obligatoire en séances. Certaines parties sont prêtes à jouer, d'autres restent volontairement ouvertes : ce livret ne présume ni du contenu réel des caisses, ni de l'identité des auteurs de la substitution, ni de la mission de la patrouille humaine.</p><h3>Cadre du document maître</h3><p>RÉSERVÉ AU MJ</p><p><strong><span style=\"text-decoration:underline\">Objectif du document :</span></strong> conserver une vue d’ensemble de l’aventure tout en laissant chaque scène ouverte. Les deux journées décrites ne correspondent pas nécessairement à deux séances de jeu. La suite dépend du temps réellement pris par les PJ.</p><p style=\"border-left:3px solid #a9814d;padding-left:10px\"><strong>MJ — </strong>Textes encadrés. Ils peuvent être lus tels quels, raccourcis ou reformulés. Ne jamais décrire comme accompli un événement que les PJ auraient pu éviter.</p><p style=\"border-left:3px solid #a9814d;padding-left:10px\"><strong>MJ — </strong>Répliques des PNJ. Ce sont des phrases possibles, pas un dialogue à déclencher en entier. Un péon qui est mort, blessé ou absent ne doit pas parler depuis le camp.</p><p style=\"border-left:3px solid #a9814d;padding-left:10px\"><strong>MJ — </strong>Conséquences. À chaque clôture de scène, observer les personnes, le matériel, les informations et le temps. Le compteur du document maître rend la perte de temps mesurable.</p><p>Les scènes sont des situations et des points de bifurcation, non une suite d’événements obligatoires. À chaque modification, préciser ce qui a été décidé, proposé, à vérifier, ou établi en jeu. L’état du convoi et le retard relient les scènes sans forcer les choix.</p><table style=\"width:100%;border-collapse:collapse\"><thead><tr><th><p>Marqueur</p></th><th><p>Sens</p></th></tr></thead><tbody><tr><td><p>[ACQUIS]</p></td><td><p>Retenu dans les échanges ; conserver jusqu’à décision contraire.</p></td></tr><tr><td><p>[PROPOSITION]</p></td><td><p>Mécanique ou détail de mise en scène à éprouver et ajuster.</p></td></tr><tr><td><p>[À DÉFINIR]</p></td><td><p>Scène ou règle volontairement incomplète.</p></td></tr><tr><td><p>[À VÉRIFIER]</p></td><td><p>Géographie, horaire, canon Warcraft ou formulation mécanique à contrôler.</p></td></tr><tr><td><p>[ÉTABLI EN JEU]</p></td><td><p>Résultat des actes réels des joueurs ; prime sur la préparation.</p></td></tr></tbody></table><h3>Portée du module jouable</h3><p>[ACQUIS / ADAPTATION WARBOUND] Ce module relie l’embuscade Kolkar, l’arrêt à Roche-Sèche, la ruée des animaux et la décision de bivouac. Il prend environ 10 à 15 minutes de jeu hors enquête volontaire : peu de jets, mais des effets visibles sur le lendemain. Il ne remplace ni les scènes précédentes ni la procédure quotidienne de progression COF2.</p><p><strong>Autres pages de ce journal :</strong> @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire interactif} \_ · \_ @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Pk7bkEGylXFabBDu]{Chronologie indicative}</p><hr><p><strong>Renvois utiles :</strong> @UUID[JournalEntry.nzbiDQbliZ1X1wJV.JournalEntryPage.ZojXMuDDgUpTJ9EI]{À jouer — l’affectation de Gornek} \_ · \_ @UUID[JournalEntry.NsTxqshtT9lLumN4.JournalEntryPage.0bD6SqPVwT3RVvJm]{Règle et barème contextuel} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État à renseigner à la table} \_ · \_ @UUID[JournalEntry.1w5SomDLshDAWOoC.JournalEntryPage.MXJysq678UIyw76D]{Points ouverts, sans réponses inventées}</p>"
+    flags:
+      world:
+        warboundS02PageKey: s00.usage
+        warboundS02Pack: true
+    _id: y7QBivdSPBY2IFyq
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617911
+      modifiedTime: 1794248617911
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!V8tflgkOwnuZH8IT.y7QBivdSPBY2IFyq'
+  - name: Chronologie indicative
+    type: text
+    sort: 300000
+    text:
+      format: 1
+      content: "<p></p><small><p><strong>AU NOM DE LA HORDE • S02</strong> — MJ uniquement — Livret narratif — v0.1 (7 novembre 2026) ; Document maître évolutif — v0.2 (5 novembre 2026)</p></small><p>🧭 @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Retard} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État des convois}</p><p><strong>Continuité déjà jouée :</strong> lever et exercices du matin, scorpide découvert près du chantier de Thazz’rill. @UUID[JournalEntry.nzbiDQbliZ1X1wJV.JournalEntryPage.ZojXMuDDgUpTJ9EI]{Gornek attribue la mission} ensuite, puis @UUID[JournalEntry.UrJ1Dw9jRnFJoV14.JournalEntryPage.btMMdwxw1qmeZCQW]{le convoi prend la route} en matinée. Les incidents suivants sont des situations ouvertes.</p><table style=\"width:100%;border-collapse:collapse\"><thead><tr><th><p>MOMENT INDICATIF</p></th><th><p>SCÈNE</p></th></tr></thead><tbody><tr><td><p>Aube et matin</p></td><td><p>Ordres de Gornek, départ de la vallée ; tentative de pillage des Kolkar.</p></td></tr><tr><td><p>Vers midi</p></td><td><p>Roche-Sèche : arrivée, aperçus de la mine, jonction avec le lourd convoi.</p></td></tr><tr><td><p>Après-midi</p></td><td><p>Route calme, puis ruée d’animaux dans le goulet ; enquête facultative.</p></td></tr><tr><td><p>Crépuscule et nuit</p></td><td><p>Décision de poursuivre, rejoindre la halte ou établir un bivouac de fortune.</p></td></tr><tr><td><p>Lendemain</p></td><td><p>Départ selon l’état du groupe ; patrouille de Tiragarde ; suite vers Tranchecolline.</p></td></tr></tbody></table><p></p><small><p>Les horaires précis et la localisation cartographique de la halte restent à calibrer. Les scènes peuvent se décaler en fonction de la partie.</p></small><p>Mission : deux convois de la Horde progressent à travers le sud de Durotar. Leur voyage est ponctué d’une tentative de pillage, d’une anomalie de cargaison, d’une ruée et d’une rencontre avec des soldats humains. Les personnages doivent arbitrer entre protection, compréhension des incidents, respect du calendrier et relations avec les convoyeurs.</p><table style=\"width:100%;border-collapse:collapse\"><thead><tr><th><p>Moment indicatif</p></th><th><p>Séquence</p></th><th><p>Statut / fonction</p></th></tr></thead><tbody><tr><td><p>Jour 1 — aube</p></td><td><p>Affectation par Gornek puis départ</p></td><td><p>[ACQUIS] Définir rôle d’escorte et état initial.</p></td></tr><tr><td><p>Jour 1 — matin</p></td><td><p>Embuscade des Kolkar</p></td><td><p>[ACQUIS] Pillage tactique / panique du kodo.</p></td></tr><tr><td><p>Jour 1 — midi environ</p></td><td><p>Mine de Roche-Sèche / deuxième convoi</p></td><td><p>[ACQUIS] Anomalie de la livraison, enquête facultative.</p></td></tr><tr><td><p>Jour 1 — après-midi</p></td><td><p>Route puis ruée dans le goulet</p></td><td><p>[ACQUIS] Crise collective puis piste vers le point d’eau.</p></td></tr><tr><td><p>Jour 1 — soir/nuit</p></td><td><p>Halte prévue ou bivouac de fortune</p></td><td><p>[PROPOSITION] Déterminé par le retard et les choix.</p></td></tr><tr><td><p>Jour 2</p></td><td><p>Patrouille de Tiragarde</p></td><td><p>[À DÉFINIR] Rencontre humaine influencée par l’état du groupe.</p></td></tr><tr><td><p>Suite du voyage</p></td><td><p>Arrivée à Tranchecolline</p></td><td><p>[ACQUIS] Trois interlocuteurs, trois affaires distinctes.</p></td></tr></tbody></table><p></p><small><p><strong><span style=\"text-decoration:underline\">Horaires ci-dessus :</span></strong> repères narratifs, non calendrier validé. La localisation de la halte dans le tronçon Tranchecolline–Sen’jin, les distances précises et le détour compatible avec la rencontre de Tiragarde restent à caler sur une carte Classic. Les scènes peuvent glisser d’une séance à l’autre.</p></small><p><strong>Autres pages de ce journal :</strong> @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire interactif} \_ · \_ @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.y7QBivdSPBY2IFyq]{Conduite de la table}</p><hr><p><strong>Renvois utiles :</strong> @UUID[JournalEntry.nzbiDQbliZ1X1wJV.JournalEntryPage.ZojXMuDDgUpTJ9EI]{À jouer — l’affectation de Gornek} \_ · \_ @UUID[JournalEntry.NsTxqshtT9lLumN4.JournalEntryPage.0bD6SqPVwT3RVvJm]{Règle et barème contextuel} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État à renseigner à la table} \_ · \_ @UUID[JournalEntry.1w5SomDLshDAWOoC.JournalEntryPage.MXJysq678UIyw76D]{Points ouverts, sans réponses inventées}</p>"
+    flags:
+      world:
+        warboundS02PageKey: s00.tempo
+        warboundS02Pack: true
+    _id: Pk7bkEGylXFabBDu
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617911
+      modifiedTime: 1794248617911
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!V8tflgkOwnuZH8IT.Pk7bkEGylXFabBDu'
+_id: V8tflgkOwnuZH8IT
+categories: []
+sort: 0
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248617911
+  modifiedTime: 1794248617911
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!V8tflgkOwnuZH8IT'

@@ -1,0 +1,22 @@
+name: 02 — Règles et sous-systèmes
+type: JournalEntry
+folder: Z1H3mtOcP0saHFhB
+sorting: a
+flags:
+  world:
+    warboundS02Pack: true
+_id: 7wHOeNNinUO7NaAZ
+description: ''
+sort: 0
+color: null
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248617864
+  modifiedTime: 1794248617864
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!7wHOeNNinUO7NaAZ'

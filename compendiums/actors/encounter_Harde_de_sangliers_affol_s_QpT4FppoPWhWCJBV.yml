@@ -1,0 +1,701 @@
+name: Harde de sangliers affolés
+type: encounter
+system:
+  abilities:
+    for:
+      base: 3
+      superior: true
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    agi:
+      base: 0
+      superior: false
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    con:
+      base: 3
+      superior: true
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    per:
+      base: 1
+      superior: true
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    cha:
+      base: -2
+      superior: false
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    int:
+      base: -4
+      superior: false
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    vol:
+      base: 2
+      superior: false
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+  attributes:
+    nc: 9
+    hp:
+      base: 250
+      value: 250
+      temp: null
+      max: 0
+      tempmax: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    movement:
+      base: 10
+      unit: m
+      bonuses:
+        sheet: 0
+        effects: 0
+      ability: null
+      details: null
+      min: null
+      max: null
+    tempDm: 0
+  combat:
+    def:
+      base: 21
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    init:
+      base: 11
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    dr:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    crit:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    melee:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    ranged:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    magic:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+  details:
+    category: living
+    size: medium
+    notes:
+      public: >-
+        <p>Une harde de sangliers est un rassemblement d'une dizaine de bêtes
+        robustes, au pelage sombre, aux défenses recourbées et aux épaules
+        puissantes. Lorsqu'elles fuient ensemble, ces créatures forment une
+        masse difficile à arrêter, capable de renverser un voyageur ou de
+        disloquer un attelage.</p><p>Écologie</p><p>Les sangliers de Durotar
+        parcourent les terres arides à la recherche de nourriture et de points
+        d'eau. Habituellement prudents, ils peuvent se montrer agressifs
+        lorsqu'ils sont blessés ou acculés.</p><p>Une harde prise de panique
+        constitue un danger autrement plus imprévisible. Les animaux se pressent
+        les uns contre les autres et suivent les premiers qui trouvent une
+        issue, piétinant tout ce qui leur barre la route.</p><p>Graine
+        d'aventure</p><p>Un chaman a installé plusieurs totems élémentaires à
+        proximité d'un point d'eau fréquenté par les sangliers. Le rituel affole
+        les animaux et les contraint à fuir dans une direction précise.</p><p>La
+        harde dévale un goulet au moment où un convoi de la Horde s'y engage.
+        Les personnages doivent réagir avant que les bêtes ne percutent les
+        chariots et les kodos.</p><p>Les empreintes convergentes, le
+        comportement inhabituel des animaux et les vestiges du rituel peuvent
+        ensuite révéler que l'incident n'avait rien de naturel.</p><p>HARDE DE
+        SANGLIERS</p><p>PAQUET DE CRÉATURES VIVANTES (ANIMAUX)</p><p>10 à 15
+        sangliers de taille moyenne</p>
+      private: ''
+    description:
+      private: ''
+      public: ''
+    languages: []
+    properties: ''
+  currentEffects: []
+  magic: 0
+  pasteData: ''
+  wealth:
+    gp:
+      value: 0
+    sp:
+      value: 0
+    cp:
+      value: 0
+  companion:
+    isCompanion: false
+    master: null
+    rank: 0
+prototypeToken:
+  disposition: 0
+  name: Harde de sangliers affolés
+  displayName: 40
+  actorLink: false
+  width: 1
+  height: 1
+  depth: 3
+  texture:
+    src: modules/warbound-campaign-content/assets/images/tokens/npcs/durotar/cof2-harde-de-sangliers-sauvages-token.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  flags:
+    wall-height:
+      tokenHeight: 0
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+_id: QpT4FppoPWhWCJBV
+img: modules/warbound-campaign-content/assets/images/avatar/durotar/cof2-harde-de-sangliers-sauvages-illustration.webp
+items:
+  - name: Défenses
+    type: attack
+    img: icons/svg/sword.svg
+    system:
+      description: ''
+      subtype: melee
+      learned: true
+      properties:
+        spell: false
+        reloadable: false
+      range:
+        value: null
+        unit: ''
+        base: 0
+        ability: null
+        details: null
+        min: null
+        max: null
+        bonuses:
+          sheet: 0
+          effects: 0
+      actions:
+        - indice: 0
+          label: ''
+          chatFlavor: ''
+          type: melee
+          img: icons/svg/d20-highlight.svg
+          properties:
+            activable: true
+            enabled: false
+            temporary: false
+            visible: false
+            noManaCost: false
+            noChargesUsed: false
+          conditions:
+            - predicate: isOwned
+          resolvers:
+            - type: attack
+              skill:
+                formula: '+11'
+                crit: '20'
+                difficulty: '@cible.def'
+              dmg:
+                formula: 2d4+3
+              target:
+                type: none
+                number: '0'
+                scope: all
+              bonusDiceAdd: false
+              malusDiceAdd: false
+              additionalEffect:
+                active: false
+                applyOn: success
+                statuses: []
+                duration: '0'
+                unit: round
+              halfDmgOnSave: true
+              hasAttackSuccessThreshold: false
+          modifiers: []
+          source: Actor.QpT4FppoPWhWCJBV.Item.ssKANX2wqQHhL9fA
+          actionType: none
+      source: ''
+      origin: ''
+      slug: ''
+      gmNotes: ''
+      charges: {}
+    _id: ssKANX2wqQHhL9fA
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      TjbWhMczNyKieD8D: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248456507
+      modifiedTime: 1794248456507
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!QpT4FppoPWhWCJBV.ssKANX2wqQHhL9fA'
+  - name: En paquet
+    type: capacity
+    system:
+      description: <p>DM doublés sur une attaque réussie ; DM normaux sur un échec.</p>
+      learned: true
+      path: null
+      actionType: none
+      frequency: none
+      source: ''
+      origin: ''
+      slug: ''
+      gmNotes: ''
+      inGame: ''
+      subtype: ''
+      rank: 0
+      charges: {}
+      properties:
+        spell: false
+      cost: -1
+      manaCost: -1
+      actions: []
+      allowLinkedCapacity: false
+      linkedCapacity: null
+      parentCapacity: null
+    flags:
+      warbound:
+        imported: true
+        sourceType: pdf-text
+        parserVersion: 1.0.0
+        sourceHash: 01782dfc
+        reviewStatus: generated
+    img: modules/warbound-campaign-content/assets/images/icons/capacites/rencontres/sanglier/en-paquet.webp
+    _id: SXLpvgNj9UhKu0yP
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248456507
+      modifiedTime: 1794248456507
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!QpT4FppoPWhWCJBV.SXLpvgNj9UhKu0yP'
+  - name: Ruée irrésistible
+    type: capacity
+    system:
+      description: >-
+        <p>Sous l'effet de la panique, la harde se déplace jusqu'à 20 m dans la
+        direction de sa fuite. Elle ne s'arrête pas pour combattre et cherche à
+        contourner les obstacles importants.</p>
+      learned: true
+      path: null
+      actionType: none
+      frequency: none
+      source: ''
+      origin: ''
+      slug: ''
+      gmNotes: ''
+      inGame: ''
+      subtype: ''
+      rank: 0
+      charges: {}
+      properties:
+        spell: false
+      cost: -1
+      manaCost: -1
+      actions: []
+      allowLinkedCapacity: false
+      linkedCapacity: null
+      parentCapacity: null
+    flags:
+      warbound:
+        imported: true
+        sourceType: pdf-text
+        parserVersion: 1.0.0
+        sourceHash: 83e19996
+        reviewStatus: generated
+    img: modules/warbound-campaign-content/assets/images/icons/capacites/rencontres/sanglier/ruee-irresistible.webp
+    _id: uN3cmSpxcDz0iXhQ
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248456507
+      modifiedTime: 1794248456507
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!QpT4FppoPWhWCJBV.uN3cmSpxcDz0iXhQ'
+  - name: Sous les sabots
+    type: capacity
+    system:
+      description: >-
+        <p>Toute créature directement exposée à la ruée doit réussir un test
+        d'AGI difficulté 15 ou subir 1d6 DM et être renversée. Un test réussi
+        permet d'éviter la harde.</p>
+      learned: true
+      path: null
+      actionType: none
+      frequency: none
+      source: ''
+      origin: ''
+      slug: ''
+      gmNotes: ''
+      inGame: ''
+      subtype: ''
+      rank: 0
+      charges: {}
+      properties:
+        spell: false
+      cost: -1
+      manaCost: -1
+      actions: []
+      allowLinkedCapacity: false
+      linkedCapacity: null
+      parentCapacity: null
+    flags:
+      warbound:
+        imported: true
+        sourceType: pdf-text
+        parserVersion: 1.0.0
+        sourceHash: 426f9a55
+        reviewStatus: generated
+    img: modules/warbound-campaign-content/assets/images/icons/capacites/rencontres/sanglier/sous-les-sabots.webp
+    _id: QdiecYbQWA8A2H7X
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248456507
+      modifiedTime: 1794248456507
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!QpT4FppoPWhWCJBV.QdiecYbQWA8A2H7X'
+  - name: Masse affolée
+    type: capacity
+    system:
+      description: >-
+        <p>La harde occupe une zone de 6 × 12 m environ. Les déplacements à
+        l'intérieur de cette zone sont divisés par deux. Les créatures présentes
+        peuvent être bousculées ou piétinées.</p>
+      learned: true
+      path: null
+      actionType: none
+      frequency: none
+      source: ''
+      origin: ''
+      slug: ''
+      gmNotes: ''
+      inGame: ''
+      subtype: ''
+      rank: 0
+      charges: {}
+      properties:
+        spell: false
+      cost: -1
+      manaCost: -1
+      actions: []
+      allowLinkedCapacity: false
+      linkedCapacity: null
+      parentCapacity: null
+    flags:
+      warbound:
+        imported: true
+        sourceType: pdf-text
+        parserVersion: 1.0.0
+        sourceHash: ba9f5b38
+        reviewStatus: generated
+    img: modules/warbound-campaign-content/assets/images/icons/capacites/rencontres/sanglier/masse-affolee.webp
+    _id: ObU3F843qoVLVXgC
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248456507
+      modifiedTime: 1794248456507
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!QpT4FppoPWhWCJBV.ObU3F843qoVLVXgC'
+  - name: Panique chamanique
+    type: capacity
+    system:
+      description: >-
+        <p>Les totems élémentaires entretiennent une peur surnaturelle qui
+        oriente la fuite des animaux. Si leur influence cesse, la harde peut se
+        disperser et retrouver progressivement un comportement naturel.</p>
+      learned: true
+      path: null
+      actionType: none
+      frequency: none
+      source: ''
+      origin: ''
+      slug: ''
+      gmNotes: ''
+      inGame: ''
+      subtype: ''
+      rank: 0
+      charges: {}
+      properties:
+        spell: false
+      cost: -1
+      manaCost: -1
+      actions: []
+      allowLinkedCapacity: false
+      linkedCapacity: null
+      parentCapacity: null
+    flags:
+      warbound:
+        imported: true
+        sourceType: pdf-text
+        parserVersion: 1.0.0
+        sourceHash: 41f3b8fa
+        reviewStatus: generated
+    img: modules/warbound-campaign-content/assets/images/icons/capacites/rencontres/sanglier/panique-chamanique.webp
+    _id: gdzYXwoPgVlzu42K
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248456507
+      modifiedTime: 1794248456507
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!QpT4FppoPWhWCJBV.gdzYXwoPgVlzu42K'
+  - name: Instinct de survie
+    type: capacity
+    system:
+      description: >-
+        <p>Les sangliers cherchent avant tout à fuir. Un passage dégagé ou une
+        diversion convaincante peuvent dévier leur trajectoire sans combat.</p>
+      learned: true
+      path: null
+      actionType: none
+      frequency: none
+      source: ''
+      origin: ''
+      slug: ''
+      gmNotes: ''
+      inGame: ''
+      subtype: ''
+      rank: 0
+      charges: {}
+      properties:
+        spell: false
+      cost: -1
+      manaCost: -1
+      actions: []
+      allowLinkedCapacity: false
+      linkedCapacity: null
+      parentCapacity: null
+    flags:
+      warbound:
+        imported: true
+        sourceType: pdf-text
+        parserVersion: 1.0.0
+        sourceHash: 410a6050
+        reviewStatus: generated
+    img: modules/warbound-campaign-content/assets/images/icons/capacites/rencontres/sanglier/instinct-de-survie.webp
+    _id: cP3qPLv5PQl0MGuW
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248456507
+      modifiedTime: 1794248456507
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!QpT4FppoPWhWCJBV.cP3qPLv5PQl0MGuW'
+effects: []
+folder: RA6kX1urXEwvf3Lf
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248456507
+  modifiedTime: 1794248456507
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+sort: 0
+_key: '!actors!QpT4FppoPWhWCJBV'

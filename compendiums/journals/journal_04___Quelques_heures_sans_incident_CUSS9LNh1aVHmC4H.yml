@@ -1,0 +1,59 @@
+name: 04 — Quelques heures sans incident
+folder: 7RHfcfEUCLUvBRwC
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  world:
+    warboundS02Key: s04
+    warboundS02Pack: true
+pages:
+  - name: À jouer — récit & situations
+    type: text
+    sort: 100000
+    text:
+      format: 1
+      content: "<p></p><small><p><strong>AU NOM DE LA HORDE • S02</strong> — MJ uniquement — Livret narratif — v0.1 (7 novembre 2026)</p></small><p>🧭 @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Retard} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État des convois}</p><p><em>DÉBUT D’APRÈS-MIDI · TRANSITION À JOUER EN QUELQUES PHRASES</em></p><blockquote style=\"border-left:4px solid #bd8950;padding:8px 12px\"><p><strong>À LIRE OU REFORMULER</strong></p><p>Les deux kodos du convoi trouvent peu à peu le même rythme. Le chariot léger prend de l'avance sur les portions faciles ; le lourd attelage le rejoint dès que le terrain se resserre. Les mots se raréfient entre les péons. Il reste le bruit des roues, les souffles réguliers des kodos et cette poussière rouge qui s'attache aux habits. La chaleur baisse un peu. Les ombres des rochers s'allongent sur le chemin. Au loin, un groupe d'oiseaux noirs s'envole soudain et se disperse dans le ciel tandis que vous sentez une légère secousse dans le sol.</p></blockquote><p>Laisser une respiration, puis passer rapidement au goulet. Les oiseaux ne sont pas un indice réservé à un test : ils donnent au MJ un signe visuel, dont la cause ne sera éventuellement comprise que plus tard.</p><hr><p><strong>Renvois utiles :</strong> @UUID[JournalEntry.x5IUDrYYtOGNPkrH.JournalEntryPage.k3GjUnWLeeK4ZFnN]{Rôles, progression, rythme} \_ · \_ @UUID[JournalEntry.NsTxqshtT9lLumN4.JournalEntryPage.0bD6SqPVwT3RVvJm]{Règle et barème contextuel}</p><p><strong>Navigation :</strong> @UUID[JournalEntry.NPTwTH0upnsZFYU2.JournalEntryPage.zlu5sM6eTQq7OTLN]{← Scène précédente} \_ · \_ @UUID[JournalEntry.zg0ZrdYd7H5Uc8gY.JournalEntryPage.4Z4q8B2PkX86MtE5]{Scène suivante →}</p>"
+    flags:
+      world:
+        warboundS02PageKey: s04.play
+        warboundS02Pack: true
+    _id: 3cuZoMID9cx1JnQ9
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617918
+      modifiedTime: 1794248617918
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!CUSS9LNh1aVHmC4H.3cuZoMID9cx1JnQ9'
+_id: CUSS9LNh1aVHmC4H
+categories: []
+sort: 0
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248617918
+  modifiedTime: 1794248617918
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!CUSS9LNh1aVHmC4H'

@@ -1,0 +1,324 @@
+name: Moj’ka Main-de-Graisse
+type: encounter
+img: modules/warbound-campaign-content/assets/images/avatar/durotar/mine-roche-seche/cof2-moj-ka-main-de-graisse-illustration.webp
+folder: d4c9166LOcXBlcX1
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+system:
+  currentEffects: []
+  abilities:
+    agi:
+      superior: true
+      base: 3
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    con:
+      superior: false
+      base: 1
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    for:
+      superior: false
+      base: 1
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    per:
+      superior: false
+      base: 2
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    cha:
+      superior: false
+      base: 0
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    int:
+      superior: true
+      base: 3
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    vol:
+      superior: false
+      base: 1
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+  attributes:
+    movement:
+      base: 10
+      unit: m
+      bonuses:
+        sheet: 0
+        effects: 0
+      ability: null
+      details: null
+      min: null
+      max: null
+    nc: 2
+    hp:
+      base: 28
+      value: 28
+      temp: null
+      max: 28
+      tempmax: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    tempDm: 0
+  combat:
+    init:
+      base: 12
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    def:
+      base: 17
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    dr:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    crit:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    melee:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    ranged:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    magic:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+  magic: 0
+  pasteData: ''
+  details:
+    category: humanoid
+    size: medium
+    description:
+      public: >-
+        <h2>Moj’ka Main-de-Graisse</h2><p><strong>Race :</strong> Troll
+        sombrelance</p><p><strong>Fonction :</strong> Mécanicien de
+        Mâche-Roc</p><p>Entretient, répare et connaît mieux que personne la
+        foreuse Mâche-Roc.</p>
+      private: >-
+        <p>A préparé les quatre composants ; n’a pas vu leur mise en caisse
+        finale. Peut identifier des incohérences techniques dans un inventaire
+        ou une cargaison.</p><p>Moj’ka n’a pas participé à la substitution. Le
+        fait qu’il n’ait pas assisté au chargement final est un indice à obtenir
+        en l’interrogeant, pas une révélation automatique.</p>
+    notes:
+      public: ''
+      private: >-
+        <h3>Dossier</h3><p>@UUID[JournalEntry.TpJVg7OJKENxlIju]{Histoire et
+        relations de Moj’ka
+        Main-de-Graisse}</p><p>@UUID[JournalEntry.WH5fpMRmRdITacHZ]{Mine de
+        Roche-Sèche}</p><h3>Relations</h3><ul><li>@UUID[Actor.WZmhEhaByZJuADqs]{Ragrah
+        Brise-Pic} — Répond à la contremaîtresse pour le matériel. (dossier
+        @UUID[JournalEntry.f0bge3VQIuvXJozj]{MJ})</li><li>@UUID[Actor.KLbUH2aOlSyHUnae]{Krosh
+        Pèse-Charge} — A accepté sa version du changement d’horaire, tout en en
+        étant irrité. (dossier
+        @UUID[JournalEntry.LTqyGnqj7sthbpmB]{MJ})</li><li>@UUID[Actor.xvIfsWKFd3XlxRDW]{Brazzik
+        Main-Froide} — La foreuse est issue du travail d’ingénierie gobelin de
+        Brazzik ; leurs compétences sont complémentaires. (dossier
+        @UUID[JournalEntry.awzLezii4coZp6id]{MJ})</li><li>@UUID[Actor.NCPLhfMo4N80d8FV]{Borka}
+        — Partage son attachement à la machine. (dossier
+        @UUID[JournalEntry.NqoXip5E2kh0vxju]{MJ})</li></ul>
+    languages: []
+    properties: >-
+      <section data-roche-seche-stats="2.0.0"><h2>Profil de rencontre — Moj’ka
+      Main-de-Graisse (Warbound)</h2><p><em>Adaptation MJ, NC 2 ; profil non
+      officiel Warcraft. Les attaques sont données pour utilisation manuelle
+      (pas de bouton de jet intégré).</em></p><p><strong>NC 2</strong> —
+      <strong>DEF 17</strong> — <strong>PV 28</strong> — <strong>RD 0</strong> —
+      <strong>INIT 12</strong> — <strong>Déplacement 10 m</strong> —
+      <strong>Critique 20</strong></p><p><strong>Caractéristiques :</strong> AGI
+      +3* · CON +1 · FOR +1 · PER +2 · CHA +0 · INT +3* · VOL +1 (*
+      caractéristique supérieure)</p><p><strong>Attaques :</strong> contact +6,
+      distance +5, magique 0.</p><ul><li><strong>Clé de mécanicien</strong>
+      (Contact) : +6 ; DM 2d6+2</li><li><strong>Outil lancé</strong> (Distance
+      (10 m)) : +5 ; DM 1d6+2</li></ul><p><strong>Comportement en cas
+      d'affrontement :</strong> Cherche à gêner ou se désengager plutôt qu'à
+      tenir un duel. Son expertise mécanique est narrative et ne constitue pas
+      un sort.</p><p><strong>Attention :</strong> le NC reflète une opposition
+      possible, pas une obligation de combat. Il n'ajoute ni entraînement
+      militaire ni pouvoirs surnaturels au PNJ.</p></section>
+  wealth:
+    gp:
+      value: 0
+    sp:
+      value: 0
+    cp:
+      value: 0
+  companion:
+    isCompanion: false
+    master: null
+    rank: 0
+prototypeToken:
+  name: Moj’ka Main-de-Graisse
+  displayName: 30
+  actorLink: true
+  width: 1
+  height: 1
+  texture:
+    src: modules/warbound-campaign-content/assets/images/tokens/npcs/durotar/mine-roche-seche/cof2-moj-ka-main-de-graisse-token.webp
+    scaleX: 1
+    scaleY: 1
+    fit: contain
+    tint: '#ffffff'
+    anchorX: 0.5
+    anchorY: 0.5
+    alphaThreshold: 0.75
+  disposition: 0
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  depth: 1
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  flags: {}
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+flags:
+  warbound-campaign-content:
+    rocheSecheKey: pnj-mojka
+    importedVersion: 1.0.0
+    journalUuid: JournalEntry.TpJVg7OJKENxlIju
+    rocheSecheStatsVersion: 2.0.0
+_id: Xjjk7WJsMPRVpEZj
+items: []
+effects: []
+sort: 0
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248414736
+  modifiedTime: 1794248414736
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!actors!Xjjk7WJsMPRVpEZj'

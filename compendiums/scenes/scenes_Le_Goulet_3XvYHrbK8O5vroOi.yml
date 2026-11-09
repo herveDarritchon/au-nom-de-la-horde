@@ -1,0 +1,224 @@
+folder: mFjmSR0rCp0W3bgK
+name: Le Goulet
+_id: 3XvYHrbK8O5vroOi
+navigation: false
+thumb: modules/warbound-campaign-content/assets/scenes/thumb-FLKqhqoIwFeQ_gL_Yt9WjA.webp
+width: 1672
+height: 941
+padding: 0.25
+shiftX: 0
+shiftY: 0
+initial:
+  x: null
+  'y': null
+  scale: null
+initialLevel: defaultLevel0000
+grid:
+  type: 1
+  size: 50
+  style: solidLines
+  thickness: 1
+  color: '#000000'
+  alpha: 0.2
+  distance: 1.5
+  units: m
+tokenVision: true
+fog:
+  mode: 1
+  colors:
+    explored: null
+    unexplored: null
+environment:
+  darknessLevel: 0
+  darknessLock: false
+  globalLight:
+    enabled: false
+    alpha: 0.5
+    bright: false
+    color: null
+    coloration: 1
+    luminosity: 0
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    darkness:
+      min: 0
+      max: 1
+  cycle: true
+  base:
+    hue: 0
+    intensity: 0
+    luminosity: 0
+    saturation: 0
+    shadows: 0
+  dark:
+    hue: 0.7138888888888889
+    intensity: 0
+    luminosity: -0.25
+    saturation: 0
+    shadows: 0
+transition:
+  type: null
+  duration: 1500
+  activeOnly: false
+drawings: []
+tokens:
+  - disposition: 0
+    name: Harde de sangliers affolés
+    displayName: 40
+    actorLink: false
+    width: 3
+    height: 3
+    depth: 3
+    texture:
+      src: modules/warbound-campaign-content/assets/images/tokens/npcs/durotar/cof2-harde-de-sangliers-sauvages-token.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    displayBars: 0
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 0
+      subject:
+        scale: 1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    flags:
+      wall-height:
+        tokenHeight: 0
+    actorId: QpT4FppoPWhWCJBV
+    hidden: false
+    sort: 0
+    shape: 4
+    level: defaultLevel0000
+    _id: CGHANxbhCejbhoNP
+    delta: null
+    x: 1300
+    'y': 500
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!3XvYHrbK8O5vroOi.CGHANxbhCejbhoNP'
+levels:
+  - _id: defaultLevel0000
+    name: Level
+    elevation:
+      top: 6
+      bottom: 0
+    background:
+      color: '#999999'
+      src: modules/warbound-campaign-content/assets/images/battlemaps/durotar/cof2-goulet-de%CC%81sertique-et-bassin-turquoise.webp
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    foreground:
+      src: null
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    fog:
+      src: null
+    textures:
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+    visibility:
+      levels: []
+    sort: 0
+    flags: {}
+    _key: '!scenes.levels!3XvYHrbK8O5vroOi.defaultLevel0000'
+lights: []
+notes: []
+sounds: []
+regions: []
+tiles: []
+walls: []
+playlist: null
+playlistSound: null
+journal: null
+journalEntryPage: null
+weather: ''
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  multi-token-edit:
+    blackBars: false
+  wall-height:
+    advancedVision: true
+  baileywiki-landing-page:
+    labelInterface: true
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248257045
+  modifiedTime: 1794248257045
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+navName: Sur la route de Tranchecolline
+active: false
+navOrder: 0
+sort: 0
+_key: '!scenes!3XvYHrbK8O5vroOi'
+templates: []

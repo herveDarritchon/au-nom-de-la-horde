@@ -1,20 +1,20 @@
+name: Mine de Roche-Sèche
 type: Actor
 folder: RA6kX1urXEwvf3Lf
-name: Mine de Roche-Sèche
-color: null
-sorting: a
-_id: Iawe5NflDp5j2VjF
+color: '#8d4a38'
+_id: d4c9166LOcXBlcX1
 description: ''
-sort: 0
+sorting: a
+sort: 200000
 flags: {}
 _stats:
-  coreVersion: '14.367'
+  coreVersion: '14.369'
   systemId: co2
   systemVersion: 2.3.12
-  createdTime: 1793022592091
-  modifiedTime: 1793022592091
+  createdTime: 1794248414704
+  modifiedTime: 1794248414761
   lastModifiedBy: TjbWhMczNyKieD8D
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-_key: '!folders!Iawe5NflDp5j2VjF'
+_key: '!folders!d4c9166LOcXBlcX1'

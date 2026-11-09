@@ -1,0 +1,85 @@
+_id: GXG0bXJKFiDVCwFR
+name: Convoi — Dorga Tire-Rêne
+folder: tEHHHyOV0IIPmBJk
+flags:
+  campaign-codex:
+    type: ''
+  core:
+    sheetClass: ''
+  world:
+    warboundConvoi:
+      package: convoi-foreuse-v1
+      key: dorga
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+pages:
+  - name: Fiche MJ
+    type: text
+    sort: 0
+    text:
+      format: 1
+      content: |-
+        <h1>Dorga Tire-Rêne</h1>
+              <p><strong>Conductrice de la carriole de la foreuse</strong> • Orc • Convoi de la foreuse • <strong>[ADAPTATION WARBOND]</strong></p>
+              <p>@UUID[Actor.QV8X4DNfvwFy4pkh]{Ouvrir l’Actor Rencontre}</p>
+              <figure class="image"><img src="modules/warbound-campaign-content/assets/images/avatar/orcs/convoi/coa-dorga-tire-rene-avatar.webp" alt="Dorga Tire-Rêne"></figure>
+              <h2>Description courte</h2><p>Orque athlétique, tresses serrées, foulard rouge et cuir de voyage renforcé. Elle a les avant-bras marqués par les cordages, le harnais et le travail quotidien. Son calme contraste avec l’agitation d’un convoi : elle regarde d’abord le kodo, ensuite la route, enfin les autres.</p>
+              <p><strong>Traits :</strong> Calme • Attentive • Très bonne avec les bêtes • Têtue</p>
+              <p><strong>Veut :</strong> Ramener les deux kodos en état, et particulièrement Ruk, le kodo qui tire la foreuse.</p>
+              <p><strong>Craint :</strong> Voir une bête paniquer ou être blessée parce qu’un conducteur a voulu la forcer au mauvais moment.</p>
+              <h2>Historique</h2><p>Dorga a grandi au contact des bêtes de bât et a appris leur comportement avant de savoir expliquer ce qu’elle observait. Elle n’est pas une éleveuse au sens strict, mais elle sait reconnaître la fatigue, la peur, l’irritation et les habitudes d’un kodo avec une précision qui étonne les autres convoyeurs.</p><p>Sur un ancien trajet, un attelage s’est emballé après un incident. Plusieurs personnes ont voulu couper les traits. Dorga a pris le risque de rejoindre la bête de tête et a réussi à la calmer avant que la carriole ne se fracasse. Elle en a retenu une conviction simple : un animal ne panique pas « sans raison ». La raison existe, même si les humanoïdes ne l’ont pas encore vue.</p><p>Ruk, le kodo qui tire aujourd’hui la carriole de la foreuse, travaille avec elle depuis plusieurs mois. Dorga lui parle comme à un partenaire de travail. Elle ne prétend pas qu’il comprend ses phrases ; elle sait simplement qu’il comprend sa voix, ses gestes et ses habitudes.</p>
+              <h2>Ce qu’il sait</h2><ul><li>L’état physique de Ruk et les signes annonçant fatigue ou panique.</li><li>La manière dont la carriole lourde réagit dans les pentes, les sols meubles et les virages.</li><li>Les points de harnais, sangles et attaches qu’il faut surveiller en priorité.</li></ul>
+              <p><strong>Ce qu’il croit :</strong> Les bêtes perçoivent parfois un problème avant ceux qui les conduisent ; leur comportement est un indice, pas un caprice.</p>
+              <p><strong>Ce qu’il cache :</strong> Rien de criminel ou de dramatique. Elle est simplement plus attachée à Ruk qu’elle ne veut l’admettre devant ceux qui traitent les kodos comme du matériel.</p>
+              <h2>Ce que ce PNJ produit en jeu</h2><ul><li>Ruk peut refuser une zone, se crisper ou ralentir avant que le danger soit visible. Dorga remarque le changement mais n’en connaît pas automatiquement la cause.</li><li>Elle supporte très mal qu’on frappe une monture pour lui imposer d’avancer.</li><li>Lors d’une embuscade, sa priorité est de conserver le contrôle de la carriole lourde, pas de rejoindre la mêlée.</li></ul>
+              <h2>Repères mécaniques</h2>
+              <p><strong>Profil :</strong> Travailleur robuste — variante conducteur • <strong>NC :</strong> 0.5 • <strong>DEF :</strong> 13 • <strong>PV :</strong> 10 • <strong>Init. :</strong> 12 • <strong>Déplacement :</strong> 10 m.</p>
+              <p><strong>Spécialités :</strong></p><ul><li>Dressage</li><li>Vigilance</li><li>Conduite d’attelage</li></ul>
+              <p><strong>Aptitudes :</strong></p><ul><li><strong>Main sûre.</strong> Dé bonus aux tests de PER (Dressage) pour calmer un kodo, comprendre son comportement ou reprendre le contrôle d’un attelage.</li></ul>
+              <p><strong>Armes :</strong></p><ul><li><strong>Gourdin.</strong> Attaque [[1d20+2]] ; DM [[1d4+1]].</li></ul>
+              <blockquote>« Doucement… doucement… voilà. Lui, au moins, il écoute. »</blockquote>
+              <p><strong>Navigation :</strong> @UUID[JournalEntry.TidBTLhr2XaYCqhL]{Index du convoi} • @UUID[JournalEntry.pgcZmw8WXdF3b37m]{Gorvak Tient-la-Route} • @UUID[JournalEntry.wkNQ1IQdxldIX7OA]{Zagra Poussière-Rouge} • @UUID[JournalEntry.unXDn8E42FSnKBZd]{Grumek Gros-Bras} • @UUID[JournalEntry.Q3EoJE5eXAtNTsqu]{Jarkh Dent-Cassée}</p>
+    title:
+      show: true
+      level: 1
+    flags:
+      world:
+        warboundConvoi:
+          package: convoi-foreuse-v1
+          pageKey: fiche
+    _id: gXcPbU1arFvvVM9Q
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617947
+      modifiedTime: 1794248617947
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!GXG0bXJKFiDVCwFR.gXcPbU1arFvvVM9Q'
+categories: []
+sort: 0
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248617947
+  modifiedTime: 1794248617947
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!GXG0bXJKFiDVCwFR'

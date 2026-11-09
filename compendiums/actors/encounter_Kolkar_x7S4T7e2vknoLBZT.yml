@@ -1,0 +1,838 @@
+name: Kolkar
+type: encounter
+system:
+  abilities:
+    for:
+      base: 6
+      superior: false
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    agi:
+      base: 3
+      superior: false
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    con:
+      base: 6
+      superior: true
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    per:
+      base: 1
+      superior: true
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    cha:
+      base: 0
+      superior: false
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    int:
+      base: -1
+      superior: false
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    vol:
+      base: 0
+      superior: false
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+  attributes:
+    nc: 3
+    hp:
+      base: 30
+      value: 30
+      temp: null
+      max: 0
+      tempmax: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    movement:
+      base: 10
+      unit: m
+      bonuses:
+        sheet: 0
+        effects: 0
+      ability: null
+      details: null
+      min: null
+      max: null
+    tempDm: 0
+  combat:
+    def:
+      base: 15
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    init:
+      base: 14
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    dr:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    crit:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    melee:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    ranged:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    magic:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+  details:
+    category: humanoid
+    size: large
+    notes:
+      public: >-
+        <p>CENTAURE</p><p>Le centaure est une créature pourvue d'un corps de
+        cheval et d'un buste humanoïde.</p><p>Écologie</p><p>Les centaures
+        vivent en petites communautés sur un assez vaste territoire de forêt ou
+        de plaine. Ils sont très territoriaux. Ils habitent dans des huttes
+        coniques de bois et de peau qu'ils organisent autour du tronc d'un grand
+        arbre.</p><p>Sur les Terres d'Osgild, les centaures sont un peuple très
+        ancien, sans doute contemporain des elfes et des nains du premier âge.
+        Le peuple des hommes-cheval parcourait alors librement les grandes
+        plaines. Chassés de leur habitat naturel par les humains, ils vivent
+        désormais dans les forêts reculées, formant un peuple discret qui garde
+        une haine farouche des envahisseurs. Un centaure voit dans le noir comme
+        un elfe.</p><p>Il existe des centaures au buste d'orc, simplement
+        appelés centorcs. Fruit des mutations de la transition vers le second
+        âge, ils ont tendance à être maléfiques, ce qui explique qu'on les
+        trouve plutôt dans les forêts ténébreuses comme la Forêt sombre. Leur
+        profil technique est identique à celui du centaure.</p><p>Graine
+        d'aventure</p><p>Les PJ passent dans un village dans lequel deux
+        centaures sont rédu en esclavage et utilisés comme chevaux de bât. Le
+        village est sous la coupe d'un ancien bandit récemment fait chevalier
+        par le baron local. Les villageois ne sont guère plus sympathiques, bon
+        nombre d'entre eux étant aussi d'anciens bandits.</p>
+      private: ''
+    description:
+      private: ''
+      public: ''
+    languages: []
+    properties: ''
+  currentEffects: []
+  magic: 0
+  pasteData: ''
+  wealth:
+    gp:
+      value: 0
+    sp:
+      value: 0
+    cp:
+      value: 0
+  companion:
+    isCompanion: false
+    master: null
+    rank: 0
+prototypeToken:
+  disposition: -1
+  name: Centaure
+  displayName: 0
+  actorLink: false
+  width: 2
+  height: 2
+  depth: 1
+  texture:
+    src: modules/warbound-campaign-content/assets/ui/actor-default.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: resources.mana
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  flags: {}
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+_id: x7S4T7e2vknoLBZT
+img: modules/warbound-campaign-content/assets/ui/actor-default.webp
+items:
+  - name: Sabots
+    type: attack
+    img: icons/svg/sword.svg
+    system:
+      description: ''
+      subtype: melee
+      learned: true
+      properties:
+        spell: false
+        reloadable: false
+      range:
+        value: null
+        unit: ''
+        base: 0
+        ability: null
+        details: null
+        min: null
+        max: null
+        bonuses:
+          sheet: 0
+          effects: 0
+      actions:
+        - indice: 0
+          label: ''
+          chatFlavor: ''
+          type: melee
+          img: icons/svg/d20-highlight.svg
+          properties:
+            activable: true
+            enabled: false
+            temporary: false
+            visible: false
+            noManaCost: false
+            noChargesUsed: false
+          conditions:
+            - predicate: isOwned
+          resolvers:
+            - type: attack
+              skill:
+                formula: '+7'
+                crit: '20'
+                difficulty: '@cible.def'
+              dmg:
+                formula: 1d8+6
+              target:
+                type: none
+                number: '0'
+                scope: all
+              bonusDiceAdd: false
+              malusDiceAdd: false
+              additionalEffect:
+                active: false
+                applyOn: success
+                statuses: []
+                duration: '0'
+                unit: round
+              halfDmgOnSave: true
+              hasAttackSuccessThreshold: false
+          modifiers: []
+          source: Actor.x7S4T7e2vknoLBZT.Item.9TT5TZ4X9ol26Oe7
+          actionType: none
+      source: ''
+      origin: ''
+      slug: ''
+      gmNotes: ''
+      charges: {}
+    _id: 9TT5TZ4X9ol26Oe7
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      TjbWhMczNyKieD8D: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248327657
+      modifiedTime: 1794248327657
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!x7S4T7e2vknoLBZT.9TT5TZ4X9ol26Oe7'
+  - name: Épée longue
+    type: attack
+    img: icons/svg/sword.svg
+    system:
+      description: ''
+      subtype: melee
+      learned: true
+      properties:
+        spell: false
+        reloadable: false
+      range:
+        value: null
+        unit: ''
+        base: 0
+        ability: null
+        details: null
+        min: null
+        max: null
+        bonuses:
+          sheet: 0
+          effects: 0
+      actions:
+        - indice: 0
+          label: ''
+          chatFlavor: ''
+          type: melee
+          img: icons/svg/d20-highlight.svg
+          properties:
+            activable: true
+            enabled: false
+            temporary: false
+            visible: false
+            noManaCost: false
+            noChargesUsed: false
+          conditions:
+            - predicate: isOwned
+          resolvers:
+            - type: attack
+              skill:
+                formula: '+7'
+                crit: '20'
+                difficulty: '@cible.def'
+              dmg:
+                formula: 1d8+3
+              target:
+                type: none
+                number: '0'
+                scope: all
+              bonusDiceAdd: false
+              malusDiceAdd: false
+              additionalEffect:
+                active: false
+                applyOn: success
+                statuses: []
+                duration: '0'
+                unit: round
+              halfDmgOnSave: true
+              hasAttackSuccessThreshold: false
+          modifiers: []
+          source: Actor.x7S4T7e2vknoLBZT.Item.SdyyzfsHv0z9CGzK
+          actionType: none
+      source: ''
+      origin: ''
+      slug: ''
+      gmNotes: ''
+      charges: {}
+    _id: SdyyzfsHv0z9CGzK
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      TjbWhMczNyKieD8D: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248327657
+      modifiedTime: 1794248327657
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!x7S4T7e2vknoLBZT.SdyyzfsHv0z9CGzK'
+  - name: Arc long
+    type: attack
+    img: icons/svg/sword.svg
+    system:
+      description: ''
+      subtype: melee
+      learned: true
+      properties:
+        spell: false
+        reloadable: false
+      range:
+        value: null
+        unit: ''
+        base: 0
+        ability: null
+        details: null
+        min: null
+        max: null
+        bonuses:
+          sheet: 0
+          effects: 0
+      actions:
+        - indice: 0
+          label: ''
+          chatFlavor: ''
+          type: melee
+          img: icons/svg/d20-highlight.svg
+          properties:
+            activable: true
+            enabled: false
+            temporary: false
+            visible: false
+            noManaCost: false
+            noChargesUsed: false
+          conditions:
+            - predicate: isOwned
+          resolvers:
+            - type: attack
+              skill:
+                formula: '+4'
+                crit: '20'
+                difficulty: '@cible.def'
+              dmg:
+                formula: 1d8
+              target:
+                type: none
+                number: '0'
+                scope: all
+              bonusDiceAdd: false
+              malusDiceAdd: false
+              additionalEffect:
+                active: false
+                applyOn: success
+                statuses: []
+                duration: '0'
+                unit: round
+              halfDmgOnSave: true
+              hasAttackSuccessThreshold: false
+          modifiers: []
+          source: Actor.x7S4T7e2vknoLBZT.Item.XSyyBkTgxHZcfZKw
+          actionType: none
+      source: ''
+      origin: ''
+      slug: ''
+      gmNotes: ''
+      charges: {}
+    _id: XSyyBkTgxHZcfZKw
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      TjbWhMczNyKieD8D: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248327657
+      modifiedTime: 1794248327657
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!x7S4T7e2vknoLBZT.XSyyBkTgxHZcfZKw'
+  - name: Attaque double
+    type: capacity
+    system:
+      description: >-
+        <p>Au contact, le centaure peut mener à la fois une attaque de sabots et
+        une attaque avec son épée.</p>
+      learned: true
+      path: null
+      actionType: a
+      frequency: none
+      source: ''
+      origin: ''
+      slug: ''
+      gmNotes: ''
+      inGame: ''
+      subtype: ''
+      rank: 0
+      charges: {}
+      properties:
+        spell: false
+      cost: -1
+      manaCost: -1
+      actions: []
+      allowLinkedCapacity: false
+      linkedCapacity: null
+      parentCapacity: null
+    flags:
+      warbound:
+        imported: true
+        sourceType: pdf-text
+        parserVersion: 1.0.0
+        sourceHash: c85bccb6
+        reviewStatus: generated
+    img: icons/svg/combat.svg
+    _id: Xc3YSnMiu5R9rT8z
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248327657
+      modifiedTime: 1794248327657
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!x7S4T7e2vknoLBZT.Xc3YSnMiu5R9rT8z'
+  - folder: Jc9oocmI3B4cVSRG
+    name: Charge (13)
+    type: capacity
+    img: icons/skills/melee/maneuver-greatsword-yellow.webp
+    system:
+      description: >-
+        <p>La créature parcourt une distance maximale de 20 m et réalise une
+        attaque avec <strong>un dé bonus</strong>. Si l’attaque est réussie, en
+        plus des DM normaux, une victime de taille inférieure ou égale à la
+        créature, doit faire un <strong>test de FOR difficulté 13</strong> ou
+        être <em>renversée</em>. Dans ce cas, la créature piétine (ou embroche)
+        sa victime et les <strong>DM sont doublés</strong>.</p>
+      source: ''
+      origin: ''
+      slug: charge
+      subtype: ''
+      actionType: l
+      learned: true
+      charges:
+        current: null
+        max: null
+      properties:
+        spell: false
+      path: null
+      cost: -1
+      actions:
+        - source: Actor.x7S4T7e2vknoLBZT.Item.x80Y2nLAO7mQJlj8
+          indice: 0
+          label: Dé bonus
+          chatFlavor: ''
+          img: icons/svg/d20-highlight.svg
+          type: buff
+          actionType: none
+          properties:
+            activable: true
+            temporary: true
+            noChargesUsed: false
+            visible: false
+            enabled: true
+            noManaCost: false
+          conditions:
+            - predicate: isOwned
+          modifiers:
+            - type: capacity
+              source: Actor.x7S4T7e2vknoLBZT.Item.x80Y2nLAO7mQJlj8
+              subtype: bonusDice
+              target: melee
+              value: '0'
+              apply: self
+              additionalInfos: ''
+              choiceGroup: 0
+          resolvers: []
+        - source: Actor.x7S4T7e2vknoLBZT.Item.x80Y2nLAO7mQJlj8
+          indice: 1
+          label: Si taille inférieure ou égale
+          chatFlavor: ''
+          img: icons/svg/d20-highlight.svg
+          type: spell
+          actionType: none
+          properties:
+            activable: true
+            temporary: false
+            noChargesUsed: false
+            visible: false
+            enabled: true
+            noManaCost: false
+          conditions:
+            - predicate: isOwned
+          resolvers:
+            - type: save
+              saveAbility: for
+              saveDifficulty: '13'
+              target:
+                type: single
+                scope: all
+                number: '0'
+              additionalEffect:
+                active: true
+                applyOn: saveFailure
+                formulaType: damage
+                formula: ''
+                elementType: ''
+                statuses:
+                  - overturned
+                unit: combat
+                duration: '0'
+              bonusDiceAdd: false
+              malusDiceAdd: false
+              skill: {}
+              dmg: {}
+              halfDmgOnSave: true
+              hasAttackSuccessThreshold: false
+          modifiers: []
+      manaCost: -1
+      inGame: >-
+        <p>La première action activable/désactivable permet d'obtenir le Dé
+        Bonus pour les attaques de contact.</p><p>La deuxième action permet de
+        réaliser le test de sauvegarde de FOR et appliquer le statut Renversé
+        pendant tout le combat si le test est raté. Il faudra supprimer l'Effet
+        Personnalisé sur la feuille de la cible manuellement lorsqu'elle se
+        relève.</p>
+      gmNotes: ''
+      rank: 0
+      frequency: none
+      allowLinkedCapacity: false
+      linkedCapacity: null
+      parentCapacity: null
+    effects: []
+    ownership:
+      default: 0
+      dkGm1qUrVLQeAKiY: 3
+      TjbWhMczNyKieD8D: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248327657
+      modifiedTime: 1794248327657
+      lastModifiedBy: TjbWhMczNyKieD8D
+      exportSource: null
+    _id: x80Y2nLAO7mQJlj8
+    sort: 7500000
+    _key: '!actors.items!x7S4T7e2vknoLBZT.x80Y2nLAO7mQJlj8'
+  - name: Hybride
+    type: capacity
+    system:
+      description: >-
+        <p>Étant un mélange de deux créatures, le centaure possède des
+        caractéristiques particulières. Sa FOR de +6 correspond à sa puissance
+        globale, mais son buste humain ne lui octroie que +3 en combat. Il est
+        considéré comme une créature humanoïde pour tout ce qui concerne les
+        attaques mentales.</p>
+      learned: true
+      path: null
+      actionType: none
+      frequency: none
+      source: ''
+      origin: ''
+      slug: ''
+      gmNotes: ''
+      inGame: ''
+      subtype: ''
+      rank: 0
+      charges: {}
+      properties:
+        spell: false
+      cost: -1
+      manaCost: -1
+      actions: []
+      allowLinkedCapacity: false
+      linkedCapacity: null
+      parentCapacity: null
+    flags:
+      warbound:
+        imported: true
+        sourceType: pdf-text
+        parserVersion: 1.0.0
+        sourceHash: 6cd426c9
+        reviewStatus: generated
+    img: icons/svg/combat.svg
+    _id: v8wZ39ce3L3B3STG
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248327657
+      modifiedTime: 1794248327657
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!x7S4T7e2vknoLBZT.v8wZ39ce3L3B3STG'
+  - name: Discret
+    type: capacity
+    system:
+      description: <p>Le centaure obtient +5 en discrétion en forêt.</p>
+      learned: true
+      path: null
+      actionType: none
+      frequency: none
+      source: ''
+      origin: ''
+      slug: ''
+      gmNotes: ''
+      inGame: ''
+      subtype: ''
+      rank: 0
+      charges: {}
+      properties:
+        spell: false
+      cost: -1
+      manaCost: -1
+      actions: []
+      allowLinkedCapacity: false
+      linkedCapacity: null
+      parentCapacity: null
+    flags:
+      warbound:
+        imported: true
+        sourceType: pdf-text
+        parserVersion: 1.0.0
+        sourceHash: 3d5abd37
+        reviewStatus: generated
+    img: icons/svg/combat.svg
+    _id: ATFIiZyipvqgFFjx
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248327657
+      modifiedTime: 1794248327657
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!x7S4T7e2vknoLBZT.ATFIiZyipvqgFFjx'
+effects: []
+folder: Jdlru5PQWEMbOKh3
+sort: 137500
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248327657
+  modifiedTime: 1794248327657
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!actors!x7S4T7e2vknoLBZT'

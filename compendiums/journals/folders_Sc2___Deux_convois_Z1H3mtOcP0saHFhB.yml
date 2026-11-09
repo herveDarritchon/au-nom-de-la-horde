@@ -1,0 +1,22 @@
+name: Sc2 • Deux convois
+type: JournalEntry
+folder: null
+sorting: a
+flags:
+  world:
+    warboundS02Pack: true
+_id: Z1H3mtOcP0saHFhB
+description: ''
+sort: 2000000
+color: '#539717'
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248617863
+  modifiedTime: 1794248617969
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!Z1H3mtOcP0saHFhB'

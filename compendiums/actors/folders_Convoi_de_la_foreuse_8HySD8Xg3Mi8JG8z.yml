@@ -1,0 +1,20 @@
+name: Convoi de la foreuse
+type: Actor
+sorting: a
+_id: 8HySD8Xg3Mi8JG8z
+description: ''
+folder: d4c9166LOcXBlcX1
+sort: 100000
+color: null
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248414705
+  modifiedTime: 1794248414705
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!8HySD8Xg3Mi8JG8z'

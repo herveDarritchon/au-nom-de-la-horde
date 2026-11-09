@@ -1,0 +1,324 @@
+name: Brazzik Main-Froide
+type: encounter
+img: modules/warbound-campaign-content/assets/images/avatar/durotar/mine-roche-seche/cof2-brazzik-main-froide-illustration.webp
+folder: d4c9166LOcXBlcX1
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+system:
+  currentEffects: []
+  abilities:
+    agi:
+      superior: true
+      base: 3
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    con:
+      superior: false
+      base: 0
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    for:
+      superior: false
+      base: -1
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    per:
+      superior: false
+      base: 2
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    cha:
+      superior: false
+      base: 2
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    int:
+      superior: true
+      base: 4
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    vol:
+      superior: false
+      base: 2
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+  attributes:
+    movement:
+      base: 8
+      unit: m
+      bonuses:
+        sheet: 0
+        effects: 0
+      ability: null
+      details: null
+      min: null
+      max: null
+    nc: 2
+    hp:
+      base: 26
+      value: 26
+      temp: null
+      max: 26
+      tempmax: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    tempDm: 0
+  combat:
+    init:
+      base: 12
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    def:
+      base: 17
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    dr:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    crit:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    melee:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    ranged:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+    magic:
+      base: 0
+      ability: null
+      details: null
+      unit: null
+      min: null
+      max: null
+      bonuses:
+        sheet: 0
+        effects: 0
+      formula: ''
+  magic: 0
+  pasteData: ''
+  details:
+    category: humanoid
+    size: medium
+    description:
+      public: >-
+        <h2>Brazzik Main-Froide</h2><p><strong>Race :</strong>
+        Gobelin</p><p><strong>Fonction :</strong> Ingénieur du Cartel
+        Baille-Fonds</p><p>Ingénieur et concepteur associé à Mâche-Roc, précis
+        et méthodique.</p>
+      private: >-
+        <p>Connaît la conception de la machine et ses composants. Ses
+        connaissances sur la substitution ne sont pas établies.</p><p>Le
+        Dérivateur sismique constitue une information réservée au MJ, à ne pas
+        révéler automatiquement dans la première séance. Ne pas décréter que
+        Brazzik a facilité le vol ni qu’il se trouvait obligatoirement sur place
+        pendant la mise en caisse.</p>
+    notes:
+      public: ''
+      private: >-
+        <h3>Dossier</h3><p>@UUID[JournalEntry.awzLezii4coZp6id]{Histoire et
+        relations de Brazzik
+        Main-Froide}</p><p>@UUID[JournalEntry.WH5fpMRmRdITacHZ]{Mine de
+        Roche-Sèche}</p><h3>Relations</h3><ul><li>@UUID[Actor.Xjjk7WJsMPRVpEZj]{Moj’ka
+        Main-de-Graisse} — Lui a laissé une machine que ce dernier entretient et
+        adapte. (dossier
+        @UUID[JournalEntry.TpJVg7OJKENxlIju]{MJ})</li><li>@UUID[Actor.KLbUH2aOlSyHUnae]{Krosh
+        Pèse-Charge} — La documentation de chargement peut être comparée aux
+        besoins techniques. (dossier
+        @UUID[JournalEntry.LTqyGnqj7sthbpmB]{MJ})</li><li>@UUID[Actor.WZmhEhaByZJuADqs]{Ragrah
+        Brise-Pic} — La mine dépend de l’efficacité de la machine qu’il a
+        conçue. (dossier @UUID[JournalEntry.f0bge3VQIuvXJozj]{MJ})</li></ul>
+    languages: []
+    properties: >-
+      <section data-roche-seche-stats="2.0.0"><h2>Profil de rencontre — Brazzik
+      Main-Froide (Warbound)</h2><p><em>Adaptation MJ, NC 2 ; profil non
+      officiel Warcraft. Les attaques sont données pour utilisation manuelle
+      (pas de bouton de jet intégré).</em></p><p><strong>NC 2</strong> —
+      <strong>DEF 17</strong> — <strong>PV 26</strong> — <strong>RD 0</strong> —
+      <strong>INIT 12</strong> — <strong>Déplacement 8 m</strong> —
+      <strong>Critique 20</strong></p><p><strong>Caractéristiques :</strong> AGI
+      +3* · CON +0 · FOR -1 · PER +2 · CHA +2 · INT +4* · VOL +2 (*
+      caractéristique supérieure)</p><p><strong>Attaques :</strong> contact +3,
+      distance +6, magique 0.</p><ul><li><strong>Arbalète d'atelier à
+      rivets</strong> (Distance (20 m)) : +6 ; DM 2d6+2</li><li><strong>Petit
+      outil</strong> (Contact) : +3 ; DM 1d4</li></ul><p><strong>Comportement en
+      cas d'affrontement :</strong> Évite le contact, utilise l'environnement et
+      cherche à sauver ses prototypes. L'arbalète d'atelier est un ajout
+      d'équipement propre à cette adaptation.</p><p><strong>Attention :</strong>
+      le NC reflète une opposition possible, pas une obligation de combat. Il
+      n'ajoute ni entraînement militaire ni pouvoirs surnaturels au
+      PNJ.</p></section>
+  wealth:
+    gp:
+      value: 0
+    sp:
+      value: 0
+    cp:
+      value: 0
+  companion:
+    isCompanion: false
+    master: null
+    rank: 0
+prototypeToken:
+  name: Brazzik Main-Froide
+  displayName: 30
+  actorLink: true
+  width: 1
+  height: 1
+  texture:
+    src: modules/warbound-campaign-content/assets/images/tokens/npcs/durotar/mine-roche-seche/cof2-brazzik-main-froide-token.webp
+    scaleX: 1
+    scaleY: 1
+    fit: contain
+    tint: '#ffffff'
+    anchorX: 0.5
+    anchorY: 0.5
+    alphaThreshold: 0.75
+  disposition: 0
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  depth: 1
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  flags: {}
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+flags:
+  warbound-campaign-content:
+    rocheSecheKey: pnj-brazzik
+    importedVersion: 1.0.0
+    journalUuid: JournalEntry.awzLezii4coZp6id
+    rocheSecheStatsVersion: 2.0.0
+_id: xvIfsWKFd3XlxRDW
+items: []
+effects: []
+sort: 0
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248414734
+  modifiedTime: 1794248414734
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!actors!xvIfsWKFd3XlxRDW'

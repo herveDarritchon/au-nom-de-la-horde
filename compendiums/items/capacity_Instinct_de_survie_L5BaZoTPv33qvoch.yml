@@ -1,0 +1,52 @@
+name: Instinct de survie
+type: capacity
+system:
+  description: >-
+    <p>Les sangliers cherchent avant tout à fuir. Un passage dégagé ou une
+    diversion convaincante peuvent dévier leur trajectoire sans combat.</p>
+  learned: true
+  path: null
+  actionType: none
+  frequency: none
+  source: ''
+  origin: ''
+  slug: ''
+  gmNotes: ''
+  inGame: ''
+  subtype: ''
+  rank: 0
+  charges: {}
+  properties:
+    spell: false
+  cost: -1
+  manaCost: -1
+  actions: []
+  allowLinkedCapacity: false
+  linkedCapacity: null
+  parentCapacity: null
+flags:
+  warbound:
+    imported: true
+    sourceType: pdf-text
+    parserVersion: 1.0.0
+    sourceHash: 410a6050
+    reviewStatus: generated
+img: modules/warbound-campaign-content/assets/images/icons/capacites/rencontres/sanglier/instinct-de-survie.webp
+_id: L5BaZoTPv33qvoch
+effects: []
+folder: cPDNoeItbSV5jtX2
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248135694
+  modifiedTime: 1794248166926
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+sort: 900000
+_key: '!items!L5BaZoTPv33qvoch'

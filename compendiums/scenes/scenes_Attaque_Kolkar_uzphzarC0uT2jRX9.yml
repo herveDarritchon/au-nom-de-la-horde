@@ -2,7 +2,7 @@ folder: mFjmSR0rCp0W3bgK
 name: Attaque Kolkar
 _id: uzphzarC0uT2jRX9
 navigation: false
-thumb: modules/warbound-campaign-content/assets/scenes/thumb-H6Wtj-IHLSuyxJtk_vQA8Q.webp
+thumb: modules/warbound-campaign-content/assets/scenes/thumb-SD-dsyDV5tQt1UFT3QsoZw.webp
 width: 1672
 height: 941
 padding: 0.25
@@ -545,401 +545,6 @@ sounds: []
 regions: []
 tiles:
   - texture:
-      src: modules/warbound-campaign-content/assets/elements/horde/kodo/coa-asset-kodo-libre.webp
-      anchorX: 0.5
-      anchorY: 0.5
-      scaleX: 1
-      scaleY: 1
-      tint: '#ffffff'
-      fit: fill
-      alphaThreshold: 0.75
-    x: 700
-    'y': 550
-    width: 140
-    height: 300
-    sort: 0
-    elevation: 0
-    levels:
-      - defaultLevel0000
-    alpha: 1
-    restrictions:
-      light: false
-      weather: false
-    occlusion:
-      modes: []
-      alpha: 0
-    video:
-      loop: true
-      autoplay: true
-      volume: 0
-    flags:
-      levels:
-        blockSightMovement: false
-      tile-scroll:
-        enableScroll: false
-        scrollDirection: 0
-        enableRotate: false
-        scrollSpeed: 1
-        repeatx: 1
-        repeaty: 1
-        pivotx: 0.5
-        pivoty: 0.5
-        offsetx: 0
-        offsety: 0
-        parallax: 0
-      tagger:
-        tags: ''
-      betterroofs:
-        brMode: false
-        occlusionLinkId: ''
-        occlusionLinkSource: false
-      fxmaster:
-        restrictsParticles: false
-        restrictsFilters: false
-      monks-active-tiles:
-        active: false
-        record: false
-        restriction: all
-        controlled: all
-        trigger:
-          - enter
-        allowpaused: false
-        usealpha: false
-        pointer: false
-        vision: false
-        pertoken: false
-        minrequired: null
-        cooldown: null
-        chance: 0
-        fileindex: -1
-        actions: []
-        files: []
-    _id: qvJfEItBBO0T4Qel
-    rotation: 0
-    hidden: false
-    locked: false
-    name: ''
-    _key: '!scenes.tiles!uzphzarC0uT2jRX9.qvJfEItBBO0T4Qel'
-  - texture:
-      src: modules/warbound-campaign-content/assets/elements/horde/cariole/coa-asset-cariole-renforcee-attache.webp
-      anchorX: 0.5
-      anchorY: 0.5
-      scaleX: 1
-      scaleY: 1
-      tint: '#ffffff'
-      fit: fill
-      alphaThreshold: 0.75
-    x: 700
-    'y': 750
-    width: 159
-    height: 125
-    sort: 2
-    elevation: 0
-    levels:
-      - defaultLevel0000
-    alpha: 1
-    restrictions:
-      light: false
-      weather: false
-    occlusion:
-      modes: []
-      alpha: 0
-    video:
-      loop: true
-      autoplay: true
-      volume: 0
-    flags:
-      levels:
-        blockSightMovement: false
-      tile-scroll:
-        enableScroll: false
-        scrollDirection: 0
-        enableRotate: false
-        scrollSpeed: 1
-        repeatx: 1
-        repeaty: 1
-        pivotx: 0.5
-        pivoty: 0.5
-        offsetx: 0
-        offsety: 0
-        parallax: 0
-      tagger:
-        tags: ''
-      betterroofs:
-        brMode: false
-        occlusionLinkId: ''
-        occlusionLinkSource: false
-      fxmaster:
-        restrictsParticles: false
-        restrictsFilters: false
-      monks-active-tiles:
-        active: false
-        record: false
-        restriction: all
-        controlled: all
-        trigger:
-          - enter
-        allowpaused: false
-        usealpha: false
-        pointer: false
-        vision: false
-        pertoken: false
-        minrequired: null
-        cooldown: null
-        chance: 0
-        fileindex: -1
-        actions: []
-        files: []
-    _id: 10NBV12jb72KJSS0
-    rotation: 0
-    hidden: false
-    locked: false
-    name: ''
-    _key: '!scenes.tiles!uzphzarC0uT2jRX9.10NBV12jb72KJSS0'
-  - texture:
-      scaleX: 1
-      scaleY: 1
-      anchorX: 0.5
-      anchorY: 0.5
-      src: modules/warbound-campaign-content/assets/elements/horde/kodo/coa-asset-kodo-lourd.webp
-      tint: '#ffffff'
-      fit: fill
-      alphaThreshold: 0.75
-    width: 84
-    height: 175
-    x: 1750
-    'y': 825
-    rotation: 110
-    elevation: 0
-    sort: 3
-    levels:
-      - defaultLevel0000
-    alpha: 1
-    restrictions:
-      light: false
-      weather: false
-    occlusion:
-      modes: []
-      alpha: 0
-    video:
-      loop: true
-      autoplay: true
-      volume: 0
-    flags:
-      multi-token-edit:
-        links:
-          - id: LWTE7e7xfSRvDnqz
-            type: 0
-            label: S_LINK
-      levels:
-        blockSightMovement: false
-      tile-scroll:
-        enableScroll: false
-        scrollDirection: 0
-        enableRotate: false
-        scrollSpeed: 1
-        repeatx: 1
-        repeaty: 1
-        pivotx: 0.5
-        pivoty: 0.5
-        offsetx: 0
-        offsety: 0
-        parallax: 0
-      tagger:
-        tags: ''
-      betterroofs:
-        brMode: false
-        occlusionLinkId: ''
-        occlusionLinkSource: false
-      fxmaster:
-        restrictsParticles: false
-        restrictsFilters: false
-      monks-active-tiles:
-        active: false
-        record: false
-        restriction: all
-        controlled: all
-        trigger:
-          - enter
-        allowpaused: false
-        usealpha: false
-        pointer: false
-        vision: false
-        pertoken: false
-        minrequired: null
-        cooldown: null
-        chance: 0
-        fileindex: -1
-        actions: []
-        files: []
-    _id: Q2PwRlV24BXtbHsK
-    hidden: false
-    locked: false
-    name: ''
-    _key: '!scenes.tiles!uzphzarC0uT2jRX9.Q2PwRlV24BXtbHsK'
-  - texture:
-      scaleX: 1
-      scaleY: 1
-      anchorX: 0.5
-      anchorY: 0.5
-      src: modules/warbound-campaign-content/assets/elements/horde/cariole/coa-asset-cariole-vide.webp
-      tint: '#ffffff'
-      fit: fill
-      alphaThreshold: 0.75
-    width: 98
-    height: 225
-    x: 1826
-    'y': 852
-    rotation: 110
-    elevation: 0
-    sort: 4
-    levels:
-      - defaultLevel0000
-    alpha: 1
-    restrictions:
-      light: false
-      weather: false
-    occlusion:
-      modes: []
-      alpha: 0
-    video:
-      loop: true
-      autoplay: true
-      volume: 0
-    flags:
-      multi-token-edit:
-        links:
-          - id: LWTE7e7xfSRvDnqz
-            type: 0
-            label: S_LINK
-      levels:
-        blockSightMovement: false
-      tile-scroll:
-        enableScroll: false
-        scrollDirection: 0
-        enableRotate: false
-        scrollSpeed: 1
-        repeatx: 1
-        repeaty: 1
-        pivotx: 0.5
-        pivoty: 0.5
-        offsetx: 0
-        offsety: 0
-        parallax: 0
-      tagger:
-        tags: ''
-      betterroofs:
-        brMode: false
-        occlusionLinkId: ''
-        occlusionLinkSource: false
-      fxmaster:
-        restrictsParticles: false
-        restrictsFilters: false
-      monks-active-tiles:
-        active: false
-        record: false
-        restriction: all
-        controlled: all
-        trigger:
-          - enter
-        allowpaused: false
-        usealpha: false
-        pointer: false
-        vision: false
-        pertoken: false
-        minrequired: null
-        cooldown: null
-        chance: 0
-        fileindex: -1
-        actions: []
-        files: []
-    _id: GEwEk6YPhVo19M9j
-    hidden: false
-    locked: false
-    name: ''
-    _key: '!scenes.tiles!uzphzarC0uT2jRX9.GEwEk6YPhVo19M9j'
-  - texture:
-      scaleX: 1
-      scaleY: 1
-      anchorX: 0.5
-      anchorY: 0.5
-      src: modules/warbound-campaign-content/assets/elements/horde/foreuse/coa-asset-foreuse-bachee-sanglee-dessus.webp
-      tint: '#ffffff'
-      fit: fill
-      alphaThreshold: 0.75
-    width: 75
-    height: 75
-    x: 1867
-    'y': 866
-    rotation: 20
-    elevation: 0
-    sort: 5
-    levels:
-      - defaultLevel0000
-    alpha: 1
-    restrictions:
-      light: false
-      weather: false
-    occlusion:
-      modes: []
-      alpha: 0
-    video:
-      loop: true
-      autoplay: true
-      volume: 0
-    flags:
-      multi-token-edit:
-        links:
-          - id: LWTE7e7xfSRvDnqz
-            type: 0
-            label: S_LINK
-      levels:
-        blockSightMovement: false
-      tile-scroll:
-        enableScroll: false
-        scrollDirection: 0
-        enableRotate: false
-        scrollSpeed: 1
-        repeatx: 1
-        repeaty: 1
-        pivotx: 0.5
-        pivoty: 0.5
-        offsetx: 0
-        offsety: 0
-        parallax: 0
-      tagger:
-        tags: ''
-      betterroofs:
-        brMode: false
-        occlusionLinkId: ''
-        occlusionLinkSource: false
-      fxmaster:
-        restrictsParticles: false
-        restrictsFilters: false
-      monks-active-tiles:
-        active: false
-        record: false
-        restriction: all
-        controlled: all
-        trigger:
-          - enter
-        allowpaused: false
-        usealpha: false
-        pointer: false
-        vision: false
-        pertoken: false
-        minrequired: null
-        cooldown: null
-        chance: 0
-        fileindex: -1
-        actions: []
-        files: []
-    _id: rZ1InC6coJBNGaRK
-    hidden: false
-    locked: false
-    name: ''
-    _key: '!scenes.tiles!uzphzarC0uT2jRX9.rZ1InC6coJBNGaRK'
-  - texture:
       scaleX: 1
       scaleY: 1
       anchorX: 0.5
@@ -950,8 +555,8 @@ tiles:
       alphaThreshold: 0.75
     width: 81
     height: 175
-    x: 1425
-    'y': 750
+    x: 1630
+    'y': 795
     rotation: 105
     elevation: 0
     sort: 6
@@ -1031,8 +636,8 @@ tiles:
       alphaThreshold: 0.75
     width: 119
     height: 250
-    x: 1520
-    'y': 780
+    x: 1725
+    'y': 825
     rotation: 105
     elevation: 0
     sort: 7
@@ -1108,18 +713,19 @@ journalEntryPage: PLG6SPi1r9s6Jqgy
 weather: fxmaster.crows
 ownership:
   default: 0
-  TjbWhMczNyKieD8D: 3
 flags:
   multi-token-edit:
     blackBars: false
   wall-height:
     advancedVision: true
+  baileywiki-landing-page:
+    labelInterface: true
 _stats:
-  coreVersion: '14.367'
+  coreVersion: '14.369'
   systemId: co2
   systemVersion: 2.3.12
-  createdTime: 1793022579315
-  modifiedTime: 1793022579330
+  createdTime: 1794248253221
+  modifiedTime: 1794248253221
   lastModifiedBy: TjbWhMczNyKieD8D
   compendiumSource: null
   duplicateSource: null

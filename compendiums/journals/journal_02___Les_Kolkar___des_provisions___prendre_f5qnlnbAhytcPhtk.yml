@@ -1,0 +1,129 @@
+name: '02 — Les Kolkar : des provisions à prendre'
+folder: 7RHfcfEUCLUvBRwC
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  world:
+    warboundS02Key: s02
+    warboundS02Pack: true
+pages:
+  - name: À jouer — récit & situations
+    type: text
+    sort: 100000
+    text:
+      format: 1
+      content: "<p></p><small><p><strong>AU NOM DE LA HORDE • S02</strong> — MJ uniquement </p></small><p>🧭 @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Retard} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État des convois}</p><p>Cette scène se déroule au passage du <strong>Rocher fendu</strong>, avant Roche-Sèche. <strong>Gurok conduit un kodo de bât, chargé de provisions et d’eau, sans chariot.</strong> Jazty dirige l’escorte. Le chariot de Mâche-Roc n’apparaît qu’à Roche-Sèche.</p><p><strong>Accès MJ pendant le combat :</strong> @UUID[JournalEntry.f5qnlnbAhytcPhtk.JournalEntryPage.ZvRQjvSnNoUwN1YH]{Mémento tactique de l’embuscade} · @UUID[JournalEntry.QFLNsZhnyoIjFyT6.JournalEntryPage.YPfjrbEMuFNSWRAJ]{Objectifs et fuite des Kolkar} · @UUID[JournalEntry.QFLNsZhnyoIjFyT6.JournalEntryPage.XvmWhkg6jMaXiwa4]{Coup de serpe} · @UUID[JournalEntry.C0nayaX26AjnMFqj.JournalEntryPage.c37Mg5eMeoP52oNB]{Panique du kodo} · @UUID[JournalEntry.rtpCsLr6B1uDIraY.JournalEntryPage.bCjp2iO5Zucz6Yee]{Compteur vivant du kodo} · @UUID[JournalEntry.rtpCsLr6B1uDIraY.JournalEntryPage.Dj6dgeEyMeh9I0R1]{Bilan à reporter}.</p><p><em>MATIN · TENSION, ACTION, PUIS APRÈS-COUP</em></p><blockquote style=\"border-left:4px solid #bd8950;padding:8px 12px\"><p><strong>À LIRE OU REFORMULER</strong></p><p>Un grondement de sabots trouble le rythme du kodo. Sur les hauteurs, un mouvement soulève la poussière. Une silhouette centaure apparaît, puis une seconde, plus bas, déjà à portée du chemin. L'un des Kolkar tient une lame courte à la main. Il ne regarde ni vos armes ni vos bourses : ses yeux suivent les sacs attachés aux flancs du kodo. Puis les autres surgissent, vite, assez près pour vous forcer à réagir.</p></blockquote><p>Jouer l'intention des assaillants sans la déclarer comme une information de MJ : ils cherchent les vivres. Un éclaireur sur le talus couvre deux estafettes : chacune vise un sac, puis se replie. Ils décrochent dès que l'opération tourne mal ; l'affrontement n'a pas pour objet d'exterminer l'escorte.</p><p style=\"border-left:3px solid #a9814d;padding-left:10px\"><strong>MJ — </strong>Ce que les PJ perçoivent. Les Kolkar jettent des coups d'œil aux sacs, cherchent à atteindre les sangles du bât et hésitent à s'engager dans une mêlée prolongée. Si un PJ défend le chargement, l'adversaire peut renoncer à ce côté et tenter l'autre.</p><p style=\"border-left:3px solid #a9814d;padding-left:10px\"><strong>MJ — </strong>Si le kodo panique. Le kodo se cabre ; les sacoches tirent sur leurs sangles et un péon se jette sur le côté pour ne pas être renversé. Décrire d'abord le danger physique ; proposer une possibilité d'intervention avant de raconter une perte irréversible.</p><p style=\"border-left:3px solid #a9814d;padding-left:10px\"><strong>MJ — </strong>Si un péon est menacé. Un travailleur attrape un paquet tombé, puis comprend trop tard qu'il est sous les pattes du kodo affolé. Ce danger peut remplacer une tentative de vol, sans imposer qu'il survienne si les PJ ont déjà mis les personnes à l'abri.</p><p>Ne pas chercher à faire durer l'affrontement après que son enjeu est résolu. Les survivants s'éloignent avec ce qu'ils ont pu emporter, ou sans rien. L'important est ce qui reste sur la route.</p><blockquote style=\"border-left:4px solid #bd8950;padding:8px 12px\"><p><strong>APRÈS LE DANGER</strong></p><p>Quand le bruit des sabots s'éloigne, la poussière retombe lentement sur les sacs et les épaules. Le kodo souffle fort. Un péon compte les ballots du bout des doigts ; un autre reste accroupi près d’un ballot tombé, à reprendre son souffle. La route n'a pas changé. Le convoi, si.</p></blockquote><table style=\"width:100%;border-collapse:collapse\"><thead><tr><th><p>SITUATION</p></th><th><p>À FAIRE VIVRE</p></th></tr></thead><tbody><tr><td><p>Chargement préservé</p></td><td><p>Un convoyeur remercie ceux qui sont restés près des vivres. Il repart volontiers dès que les sangles sont vérifiées.</p></td></tr><tr><td><p>Marchandises perdues</p></td><td><p>Le responsable fait compter les pièces disparues ; il demande un récit précis, sans attribuer automatiquement les pertes à une faute des PJ.</p></td></tr><tr><td><p>Péon aidé ou abandonné</p></td><td><p>La personne concernée se souviendra des gestes reçus. Son attitude au bivouac sera plus parlante qu’un score de réputation.</p></td></tr><tr><td><p>Attelage éprouvé</p></td><td><p>Le travail de remise en ordre devient visible : corde à remplacer, bête à apaiser, sacs à réarrimer. Cela peut coûter du temps.</p></td></tr></tbody></table><p></p><small><p>Renvoi au document maître v0.2 : actions de pillage, panique du kodo et retards (sections 2.B, 3 et 4 bis.2) ; résultats mécaniques encore à finaliser dans le maître.</p></small><p><strong>Autres pages de ce journal :</strong> @UUID[JournalEntry.f5qnlnbAhytcPhtk.JournalEntryPage.XQnetYn9TOcJZB8b]{Décisions &amp; conséquences} \_ · \_ @UUID[JournalEntry.f5qnlnbAhytcPhtk.JournalEntryPage.ZvRQjvSnNoUwN1YH]{Mémento MJ — tactique et décisions}</p><hr><p><strong>Renvois utiles :</strong> @UUID[JournalEntry.QFLNsZhnyoIjFyT6.JournalEntryPage.YPfjrbEMuFNSWRAJ]{Objectifs, retrait et initiative} \_ · \_ @UUID[JournalEntry.QFLNsZhnyoIjFyT6.JournalEntryPage.XvmWhkg6jMaXiwa4]{Action « Coup de serpe »} \_ · \_ @UUID[JournalEntry.C0nayaX26AjnMFqj.JournalEntryPage.c37Mg5eMeoP52oNB]{Jauge, déclencheurs et statut} \_ · \_ @UUID[JournalEntry.rtpCsLr6B1uDIraY.JournalEntryPage.bCjp2iO5Zucz6Yee]{Panique vivante — macro MJ} \_ · \_ @UUID[JournalEntry.rtpCsLr6B1uDIraY.JournalEntryPage.Dj6dgeEyMeh9I0R1]{Bilan MJ — faits établis en jeu} \_ · \_ @UUID[JournalEntry.NPTwTH0upnsZFYU2.JournalEntryPage.zlu5sM6eTQq7OTLN]{À jouer — récit &amp; situations} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État à renseigner à la table}</p><p><strong>Navigation :</strong> @UUID[JournalEntry.UrJ1Dw9jRnFJoV14.JournalEntryPage.btMMdwxw1qmeZCQW]{← Scène précédente} \_ · \_ @UUID[JournalEntry.NPTwTH0upnsZFYU2.JournalEntryPage.zlu5sM6eTQq7OTLN]{Scène suivante →}</p>"
+    flags:
+      world:
+        warboundS02PageKey: s02.play
+        warboundS02Pack: true
+    _id: Ys8Pp6kgMAGHkmcG
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617928
+      modifiedTime: 1794248617928
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!f5qnlnbAhytcPhtk.Ys8Pp6kgMAGHkmcG'
+  - name: Décisions & conséquences
+    type: text
+    sort: 200000
+    text:
+      format: 1
+      content: "<p><small><strong>AU NOM DE LA HORDE • S02</strong> — MJ uniquement — Mécanique Kolkar–kodo, restitution des échanges du 3 novembre et continuité du 7 novembre 2026 ; règles proposées signalées</small></p><p>🧭 @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Retard} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État des convois}</p><h2>Résolution MJ — les trois objectifs qui comptent</h2>\n<p><strong>[ACQUIS]</strong> Ce raid Kolkar vise à <strong>emporter jusqu’à deux sacs de provisions/eau</strong> et à repartir ; ce n’est pas un combat à mort. Les PJ choisissent s’ils défendent le bât, protègent le kodo et les péons, poursuivent ou laissent décrocher les assaillants. La scène produit plusieurs issues légitimes.</p>\n<table style=\"width:100%;border-collapse:collapse\"><thead><tr><th>Déclencheur observable</th><th>Consigne MJ acquise</th></tr></thead><tbody>\n<tr><td>Éclaireur sur le talus <strong>neutralisé ou maîtrisé</strong></td><td>Opération caduque : <strong>les deux estafettes abandonnent le vol et fuient</strong>.</td></tr>\n<tr><td>Les <strong>deux sacs</strong> visés ont été pris</td><td>Objectif atteint : <strong>repli</strong> ; les Kolkar ne prolongent pas le combat.</td></tr>\n<tr><td>Une estafette tombe à <strong>la moitié de ses PV</strong></td><td>Elle décroche ; <strong>l’autre peut tenter un dernier vol</strong>, puis fuit, succès ou non.</td></tr>\n<tr><td>Défense devenue trop dangereuse</td><td><strong>[PROPOSITION]</strong> Retrait anticipé plausible ; aucun seuil chiffré établi.</td></tr>\n</tbody></table>\n<p>« Fuir immédiatement » indique une <strong>décision tactique</strong> ; appliquer les actions et mouvements disponibles dans l’ordre d’initiative COF2. Ne pas téléporter les estafettes hors de la battlemap.</p>\n<h3>Ce qui change après la rencontre</h3>\n<p>Noter <strong>les sacs réellement volés</strong>, les liens coupés, les sacs tombés/récupérés, les blessures du kodo et des personnes, les éventuels prisonniers, les détours et le <strong>retard réellement subi</strong>. Ni dommages ni pénurie n’apparaissent sans événement joué. Le second convoi <strong>attend toujours</strong> à Roche-Sèche.</p>\n<p><strong>Renvois :</strong> @UUID[JournalEntry.QFLNsZhnyoIjFyT6.JournalEntryPage.XvmWhkg6jMaXiwa4]{Action de vol} · @UUID[JournalEntry.C0nayaX26AjnMFqj.JournalEntryPage.c37Mg5eMeoP52oNB]{Kodo} · @UUID[JournalEntry.rtpCsLr6B1uDIraY.JournalEntryPage.Dj6dgeEyMeh9I0R1]{Bilan MJ} · @UUID[JournalEntry.NsTxqshtT9lLumN4.JournalEntryPage.0bD6SqPVwT3RVvJm]{Retard S02} · @UUID[JournalEntry.NPTwTH0upnsZFYU2.JournalEntryPage.zlu5sM6eTQq7OTLN]{Accueil à Roche-Sèche}.</p>\n<p><small><strong>Restent ouverts :</strong> profils Warbound/COF2 des Kolkar et du kodo ; DD définitifs ; coûts d’action non confirmés ; effets des quatre niveaux de panique. Les valeurs proposées ne sont pas des règles COF2 officielles.</small></p><p><strong>Autres pages de ce journal :</strong> @UUID[JournalEntry.f5qnlnbAhytcPhtk.JournalEntryPage.Ys8Pp6kgMAGHkmcG]{À jouer — récit &amp; situations} \_ · \_ @UUID[JournalEntry.f5qnlnbAhytcPhtk.JournalEntryPage.ZvRQjvSnNoUwN1YH]{Mémento MJ — tactique et décisions}</p><hr><p><strong>Renvois utiles :</strong> @UUID[JournalEntry.QFLNsZhnyoIjFyT6.JournalEntryPage.YPfjrbEMuFNSWRAJ]{Objectifs, retrait et initiative} \_ · \_ @UUID[JournalEntry.QFLNsZhnyoIjFyT6.JournalEntryPage.XvmWhkg6jMaXiwa4]{Action « Coup de serpe »} \_ · \_ @UUID[JournalEntry.C0nayaX26AjnMFqj.JournalEntryPage.c37Mg5eMeoP52oNB]{Jauge, déclencheurs et statut} \_ · \_ @UUID[JournalEntry.rtpCsLr6B1uDIraY.JournalEntryPage.bCjp2iO5Zucz6Yee]{Panique vivante — macro MJ} \_ · \_ @UUID[JournalEntry.rtpCsLr6B1uDIraY.JournalEntryPage.Dj6dgeEyMeh9I0R1]{Bilan MJ — faits établis en jeu} \_ · \_ @UUID[JournalEntry.NPTwTH0upnsZFYU2.JournalEntryPage.zlu5sM6eTQq7OTLN]{À jouer — récit &amp; situations} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État à renseigner à la table}</p><p><strong>Navigation :</strong> @UUID[JournalEntry.UrJ1Dw9jRnFJoV14.JournalEntryPage.btMMdwxw1qmeZCQW]{← Scène précédente} \_ · \_ @UUID[JournalEntry.NPTwTH0upnsZFYU2.JournalEntryPage.zlu5sM6eTQq7OTLN]{Scène suivante →}</p>"
+    flags:
+      world:
+        warboundS02PageKey: s02.stakes
+        warboundS02Pack: true
+    _id: XQnetYn9TOcJZB8b
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617928
+      modifiedTime: 1794248617928
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!f5qnlnbAhytcPhtk.XQnetYn9TOcJZB8b'
+  - name: Mémento MJ — tactique et décisions
+    type: text
+    sort: 300000
+    text:
+      format: 1
+      content: "<p><small><strong>AU NOM DE LA HORDE • S02</strong> — MJ uniquement — Annexe Warbound — Kolkar et kodo, restitution des échanges des 3 et 7 novembre 2026</small></p><p>🧭 @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Retard} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État des convois}</p><h2>En plein combat — mémento</h2>\n<p><strong>Terrain :</strong> passage du Rocher fendu ; talus de l’éclaireur, couvert rocheux, deux voies de repli. <strong>Cible :</strong> sacs du bât (aucune charrette).</p>\n<table style=\"width:100%;border-collapse:collapse\"><thead><tr><th>Acteur</th><th>Priorité</th><th>Seuil de fin</th></tr></thead><tbody>\n<tr><td>Éclaireur</td><td>Observer, donner le signal, couvrir le vol depuis la hauteur.</td><td>Sa neutralisation/maîtrise déclenche le retrait des deux estafettes.</td></tr>\n<tr><td>Estafette 1</td><td>Prendre un sac par @UUID[JournalEntry.QFLNsZhnyoIjFyT6.JournalEntryPage.XvmWhkg6jMaXiwa4]{Coup de serpe}, puis fuir.</td><td>Se replie à la moitié de ses PV, ou après le vol.</td></tr>\n<tr><td>Estafette 2</td><td>Prendre le deuxième sac, puis fuir.</td><td>Si l’autre décroche à mi-PV : <strong>une ultime tentative</strong>, puis fuite.</td></tr>\n</tbody></table>\n<h3>Ordre de vérification à chaque action significative</h3>\n<ol><li>Le commandement Kolkar est-il neutralisé ? Si oui, repli immédiat des estafettes.</li><li>Une estafette vient-elle d’atteindre la moitié de ses PV ? Si oui, elle fuit et l’autre ne peut tenter qu’un dernier vol.</li><li>Deux sacs sont-ils emportés ? Si oui, les Kolkar quittent l’affrontement.</li><li>Un événement menace-t-il le kodo ? Si oui, regarder @UUID[JournalEntry.C0nayaX26AjnMFqj.JournalEntryPage.c37Mg5eMeoP52oNB]{le cadre de panique}, <em>sans jet systématique à chaque round</em>.</li><li>Après le combat : consigner @UUID[JournalEntry.rtpCsLr6B1uDIraY.JournalEntryPage.Dj6dgeEyMeh9I0R1]{le bilan} et le @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{retard}.</li></ol>\n<p><strong>Éviter :</strong> faire combattre les Kolkar jusqu’au dernier PV ; créer un piétinement automatique ; imposer un seuil de fuite de groupe non validé ; confondre kodo de bât et chariot de Mâche-Roc.</p>\n<p><strong>Règles :</strong> @UUID[JournalEntry.QFLNsZhnyoIjFyT6.JournalEntryPage.YPfjrbEMuFNSWRAJ]{Fuite des Kolkar} · @UUID[JournalEntry.QFLNsZhnyoIjFyT6.JournalEntryPage.XvmWhkg6jMaXiwa4]{Coup de serpe} · @UUID[JournalEntry.C0nayaX26AjnMFqj.JournalEntryPage.c37Mg5eMeoP52oNB]{Kodo} · @UUID[JournalEntry.rtpCsLr6B1uDIraY.JournalEntryPage.bCjp2iO5Zucz6Yee]{Panique vivante}.</p><p><strong>Autres pages de ce journal :</strong> @UUID[JournalEntry.f5qnlnbAhytcPhtk.JournalEntryPage.Ys8Pp6kgMAGHkmcG]{À jouer — récit &amp; situations} \_ · \_ @UUID[JournalEntry.f5qnlnbAhytcPhtk.JournalEntryPage.XQnetYn9TOcJZB8b]{Décisions &amp; conséquences}</p><hr><p><strong>Renvois utiles :</strong> @UUID[JournalEntry.QFLNsZhnyoIjFyT6.JournalEntryPage.YPfjrbEMuFNSWRAJ]{Objectifs, retrait et initiative} \_ · \_ @UUID[JournalEntry.QFLNsZhnyoIjFyT6.JournalEntryPage.XvmWhkg6jMaXiwa4]{Action « Coup de serpe »} \_ · \_ @UUID[JournalEntry.C0nayaX26AjnMFqj.JournalEntryPage.c37Mg5eMeoP52oNB]{Jauge, déclencheurs et statut} \_ · \_ @UUID[JournalEntry.rtpCsLr6B1uDIraY.JournalEntryPage.bCjp2iO5Zucz6Yee]{Panique vivante — macro MJ} \_ · \_ @UUID[JournalEntry.rtpCsLr6B1uDIraY.JournalEntryPage.Dj6dgeEyMeh9I0R1]{Bilan MJ — faits établis en jeu} \_ · \_ @UUID[JournalEntry.NPTwTH0upnsZFYU2.JournalEntryPage.zlu5sM6eTQq7OTLN]{À jouer — récit &amp; situations} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État à renseigner à la table}</p><p><strong>Navigation :</strong> @UUID[JournalEntry.UrJ1Dw9jRnFJoV14.JournalEntryPage.btMMdwxw1qmeZCQW]{← Scène précédente} \_ · \_ @UUID[JournalEntry.NPTwTH0upnsZFYU2.JournalEntryPage.zlu5sM6eTQq7OTLN]{Scène suivante →}</p>"
+    flags:
+      world:
+        warboundS02PageKey: s02.tactics
+        warboundS02Pack: true
+    _id: ZvRQjvSnNoUwN1YH
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617928
+      modifiedTime: 1794248617928
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!f5qnlnbAhytcPhtk.ZvRQjvSnNoUwN1YH'
+_id: f5qnlnbAhytcPhtk
+categories: []
+sort: 0
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248617928
+  modifiedTime: 1794248617928
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!f5qnlnbAhytcPhtk'

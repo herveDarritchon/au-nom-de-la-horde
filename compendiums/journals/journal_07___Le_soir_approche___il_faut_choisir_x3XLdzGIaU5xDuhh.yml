@@ -1,0 +1,59 @@
+name: '07 — Le soir approche : il faut choisir'
+folder: 7RHfcfEUCLUvBRwC
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  world:
+    warboundS02Key: s07
+    warboundS02Pack: true
+pages:
+  - name: À jouer — récit & situations
+    type: text
+    sort: 100000
+    text:
+      format: 1
+      content: "<p><small><strong>AU NOM DE LA HORDE • S02</strong> — MJ uniquement — Livret narratif — v0.1 (7 novembre 2026)</small></p><p>🧭 @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Retard} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État des convois}</p><p><em>CRÉPUSCULE · LIRE LE RETARD, PUIS LAISSER DÉCIDER</em></p>\n<blockquote style=\"border-left:4px solid #bd8950;padding:8px 12px\"><strong>À LIRE OU REFORMULER</strong><p>Lorsque la route reprend, le soleil a changé de place. Les ombres arrivent désormais bien avant les chariots au pied des rochers. Un péon noue sa veste autour de ses épaules. Celui qui tient le kodo lourd regarde le ciel, puis les roues, puis de nouveau le ciel. Il n'y a pas besoin de donner l'heure : chacun comprend que le temps perdu aujourd'hui ne se rattrapera plus tout seul.</p></blockquote>\n<p>À ce moment précis, le MJ lit le compteur du document maître. Les convoyeurs savent vers quelle halte ils se dirigeaient, et ils peuvent estimer s'ils l'atteindront de jour, dans la nuit, ou au prix d'un effort risqué. Les nombres ne remplacent pas les paroles : c'est le responsable du convoi qui expose les alternatives.</p>\n<table style=\"width:100%;border-collapse:collapse\"><thead><tr><th>ÉTAT DU TEMPS</th><th>PAROLE POSSIBLE</th></tr></thead><tbody><tr><td>0 à 2 points : encore le jour</td><td>« Ça passe. On pourra dételer avant que tout disparaisse dans l’ombre. » Les péons accélèrent le pas sans crispation particulière.</td></tr><tr><td>3 à 5 points : la nuit sur la route</td><td>« On connaît la halte. Mais il faudra traverser la dernière portion dans le noir. » Les travailleurs évoquent la fatigue ; le chef demande comment l’escorte compte sécuriser la suite.</td></tr><tr><td>6 points ou plus : il faut arbitrer</td><td>« On ne rejoindra pas le camp à l’heure. On s’arrête ici, ou vous nous faites continuer de nuit ? » Le responsable exprime une préférence, sans confisquer la décision.</td></tr></tbody></table>\n<p style=\"border-left:3px solid #a9814d;padding-left:10px\"><strong>MJ — </strong>Si les PJ imposent de continuer.  Un péon ne peut cacher sa mauvaise humeur : « On vous a suivis dans les cailloux toute la journée. Le kodo, lui, n'a rien demandé. » Un autre peut soutenir qu'un bon camp vaut encore quelques heures de marche. Les désaccords restent ordinaires et crédibles.</p>\n<p style=\"border-left:3px solid #a9814d;padding-left:10px\"><strong>MJ — </strong>Si les PJ prennent soin des blessés et des bêtes.  Le ton change même si le retard demeure. Quelqu'un tend de l'eau à l'escorte ; un péon accepte de repartir parce qu'il voit que ses avertissements sont entendus.</p>\n<p style=\"border-left:3px solid #a9814d;padding-left:10px\"><strong>MJ — </strong>Si une marche nocturne est tentée.  Avant le test prévu par Warbound, montrer le passage sombre, l'ornière, la charge qui oscille. Une complication ne surgit qu'en fonction du résultat et des précautions effectivement prises.</p>\n<p><small>Renvoi au document maître v0.2 : seuils de retard, progression de nuit et marche forcée (sections 3, 4 bis.4–5).</small></p><hr><p><strong>Renvois utiles :</strong> @UUID[JournalEntry.NsTxqshtT9lLumN4.JournalEntryPage.0bD6SqPVwT3RVvJm]{Règle et barème contextuel} \_ · \_ @UUID[JournalEntry.lLXlYdhRh3GIeh8q.JournalEntryPage.9zYgJGtavksZRXFz]{Lire le compteur à la tombée de la nuit} \_ · \_ @UUID[JournalEntry.T7Oi8jfz3iDN1hbq.JournalEntryPage.YDSwd5unUaR6SHmb]{Procédure Warbound / COF2} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Compteur vivant — piloté par la macro}</p><p><strong>Navigation :</strong> @UUID[JournalEntry.gQ9DSemaiBWIjW0r.JournalEntryPage.M3exRvSKspw29FSl]{← Scène précédente} \_ · \_ @UUID[JournalEntry.6ueaE9YrYzfXxCzY.JournalEntryPage.BVe2Ow8tudCrRSVz]{Scène suivante →}</p>"
+    flags:
+      world:
+        warboundS02PageKey: s07.play
+        warboundS02Pack: true
+    _id: eR76EoKqNGdyiYQ7
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617933
+      modifiedTime: 1794248617933
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!x3XLdzGIaU5xDuhh.eR76EoKqNGdyiYQ7'
+_id: x3XLdzGIaU5xDuhh
+categories: []
+sort: 0
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248617933
+  modifiedTime: 1794248617933
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!x3XLdzGIaU5xDuhh'

@@ -1,0 +1,94 @@
+name: 01 — Quitter la vallée des Épreuves
+folder: 7RHfcfEUCLUvBRwC
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  world:
+    warboundS02Key: s01
+    warboundS02Pack: true
+pages:
+  - name: À jouer — récit & situations
+    type: text
+    sort: 100000
+    text:
+      format: 1
+      content: "<p></p><small><p><strong>AU NOM DE LA HORDE • S02</strong> — MJ uniquement</p></small><p>🧭 @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Retard} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État des convois}</p><h3>MATINÉE AVANCÉE · PREMIERS PAS DU DÉTACHEMENT</h3><blockquote style=\"border-left:4px solid #bd8950;padding:8px 12px\"><p><strong>À LIRE OU REFORMULER</strong></p><p>Le soleil monte déjà au-dessus de la vallée des Épreuves. Derrière vous, le nouveau mât et la bannière de la Horde, les exercices du matin ont repris et les péons s’affairent encore autour du chantier, là où un scorpide vous a donné votre dernière leçon bien malgré lui. <br>Les dernières consignes de Gornek en tête, vous gagnez la route : terre sèche, pierres rougies, chaleur grandissante. <br>Le kodo avance d’un pas lourd, ses sacoches balançant au rythme de ses pas et la carriole qu'il tire grince sous le poids de sa cargaison. Bientôt, le nouveau mât disparaît derrière une crête, et la vallée laisse place aux pistes de Durotar. Vous êtes maintenant seuls et au commande.</p></blockquote><p>Vous escortez <strong>un kodo de bât avec un chariot</strong>, portant deux saccoches de pommes-cactus, et dans la cariole de la viande de sanglier séchée, et une cargaison d'eau et bois.</p><p style=\"border-left:3px solid #a9814d;padding-left:10px\"><strong>MJ — </strong>Si Jazty a déjà réparti les rôles devant Gornek, ne pas recommencer la discussion. Demander seulement où chacun marche, qui observe les hauteurs et si le groupe reconnaît la piste. Sinon, laisser les PJ se répartir les postes maintenant. Voir @UUID[JournalEntry.x5IUDrYYtOGNPkrH.JournalEntryPage.k3GjUnWLeeK4ZFnN]{Voyage : guide, éclaireur, voyageurs}.</p><small><p><span style=\"text-decoration:underline\"><strong><span style=\"text-decoration:underline\">Départ :</span></strong></span> @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{état initial du premier convoi} ; @UUID[JournalEntry.NsTxqshtT9lLumN4.JournalEntryPage.0bD6SqPVwT3RVvJm]{retard à 0} sauf faits établis en jeu. Les ordres complets se trouvent dans @UUID[JournalEntry.nzbiDQbliZ1X1wJV.JournalEntryPage.ZojXMuDDgUpTJ9EI]{l’affectation de Gornek}.</p></small><p><strong>Autres pages de ce journal :</strong> @UUID[JournalEntry.UrJ1Dw9jRnFJoV14.JournalEntryPage.3kKuxwg91Pyw0JQb]{Décisions &amp; conséquences}</p><hr><p><strong>Renvois utiles :</strong> @UUID[JournalEntry.nzbiDQbliZ1X1wJV.JournalEntryPage.ZojXMuDDgUpTJ9EI]{À jouer — l’affectation de Gornek} \_ · \_ @UUID[JournalEntry.x5IUDrYYtOGNPkrH.JournalEntryPage.k3GjUnWLeeK4ZFnN]{Rôles, progression, rythme} \_ · \_ @UUID[JournalEntry.NsTxqshtT9lLumN4.JournalEntryPage.0bD6SqPVwT3RVvJm]{Règle et barème contextuel} \_ · \_ @UUID[JournalEntry.qERFsqM51AlqFbnx.JournalEntryPage.KNf6AOB6jD73KkQF]{Comportements, limites et connaissances} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État à renseigner à la table}</p><p><strong>Navigation :</strong> @UUID[JournalEntry.nzbiDQbliZ1X1wJV.JournalEntryPage.ZojXMuDDgUpTJ9EI]{← Scène précédente} \_ · \_ @UUID[JournalEntry.f5qnlnbAhytcPhtk.JournalEntryPage.Ys8Pp6kgMAGHkmcG]{Scène suivante →}</p>"
+    flags:
+      world:
+        warboundS02PageKey: s01.play
+        warboundS02Pack: true
+    _id: btMMdwxw1qmeZCQW
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617924
+      modifiedTime: 1794248617924
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!UrJ1Dw9jRnFJoV14.btMMdwxw1qmeZCQW'
+  - name: Décisions & conséquences
+    type: text
+    sort: 200000
+    text:
+      format: 1
+      content: "<p></p><small><p><strong>AU NOM DE LA HORDE • S02</strong> — MJ uniquement — Adaptation Warbound — événements de la séance 1 et scène Gornek fournis par le MJ (7 novembre 2026)</p></small><p>🧭 @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Retard} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État des convois}</p><h3>Départ — décisions et conséquences</h3><p>Après le rassemblement de @UUID[JournalEntry.nzbiDQbliZ1X1wJV.JournalEntryPage.ZojXMuDDgUpTJ9EI]{Gornek}, les PJ partent avec un kodo de bât transportant les vivres destinés à Tranchecolline. Le convoi de Mâche-Roc, déjà chargé, les attend à @UUID[JournalEntry.NPTwTH0upnsZFYU2.JournalEntryPage.zlu5sM6eTQq7OTLN]{Roche-Sèche}.</p><p><strong>Décisions ouvertes :</strong> confirmer ou ajuster les postes de surveillance, rythme, reconnaissance de la route, vérification du bât ; déterminer qui tranche pour l’itinéraire. Jazty commande les quatre PJ et la sûreté du détachement, <strong>pas Rukha ni les convoyeurs</strong>.</p><p><strong>Conséquences à noter :</strong> retard initial (normalement 0), état de l’animal, des sangles et des vivres ; relation avec les convoyeurs. Reporter uniquement des événements effectivement survenus.</p><p><strong>Autres pages de ce journal :</strong> @UUID[JournalEntry.UrJ1Dw9jRnFJoV14.JournalEntryPage.btMMdwxw1qmeZCQW]{À jouer — récit &amp; situations}</p><hr><p><strong>Renvois utiles :</strong> @UUID[JournalEntry.nzbiDQbliZ1X1wJV.JournalEntryPage.ZojXMuDDgUpTJ9EI]{À jouer — l’affectation de Gornek} \_ · \_ @UUID[JournalEntry.x5IUDrYYtOGNPkrH.JournalEntryPage.k3GjUnWLeeK4ZFnN]{Rôles, progression, rythme} \_ · \_ @UUID[JournalEntry.NsTxqshtT9lLumN4.JournalEntryPage.0bD6SqPVwT3RVvJm]{Règle et barème contextuel} \_ · \_ @UUID[JournalEntry.qERFsqM51AlqFbnx.JournalEntryPage.KNf6AOB6jD73KkQF]{Comportements, limites et connaissances} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État à renseigner à la table}</p><p><strong>Navigation :</strong> @UUID[JournalEntry.nzbiDQbliZ1X1wJV.JournalEntryPage.ZojXMuDDgUpTJ9EI]{← Scène précédente} \_ · \_ @UUID[JournalEntry.f5qnlnbAhytcPhtk.JournalEntryPage.Ys8Pp6kgMAGHkmcG]{Scène suivante →}</p>"
+    flags:
+      world:
+        warboundS02PageKey: s01.stakes
+        warboundS02Pack: true
+    _id: 3kKuxwg91Pyw0JQb
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617924
+      modifiedTime: 1794248617924
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!UrJ1Dw9jRnFJoV14.3kKuxwg91Pyw0JQb'
+_id: UrJ1Dw9jRnFJoV14
+categories: []
+sort: 0
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248617924
+  modifiedTime: 1794248617924
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!UrJ1Dw9jRnFJoV14'

@@ -1,0 +1,94 @@
+name: '05 — Le goulet : un troupeau qui fuit'
+folder: 7RHfcfEUCLUvBRwC
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  world:
+    warboundS02Key: s05
+    warboundS02Pack: true
+pages:
+  - name: À jouer — récit & situations
+    type: text
+    sort: 100000
+    text:
+      format: 1
+      content: "<p><small><strong>AU NOM DE LA HORDE • S02</strong> — MJ uniquement — Livret narratif — v0.1 (7 novembre 2026)</small></p><p>🧭 @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Retard} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État des convois}</p><p><em>FIN D’APRÈS-MIDI · CRISE COURTE, SANS COMBAT CLASSIQUE</em></p>\n<blockquote style=\"border-left:4px solid #bd8950;padding:8px 12px\"><strong>À LIRE OU REFORMULER</strong><p>Le bruit arrive avant les bêtes. Un roulement sourd entre les parois, suivi d'un cri rauque et d'un claquement de pierres. Un sanglier surgit au détour du goulet, couvert de poussière, les yeux écarquillés. Il ne charge personne : il court comme s'il voulait laisser derrière lui quelque chose de pire. Deux autres débouchent, puis des silhouettes plus petites se glissent entre leurs pattes. Toute une masse d'animaux sauvages se précipite vers la route, et les deux chariots occupent l'espace où elle va passer.</p></blockquote>\n<p style=\"border-left:3px solid #a9814d;padding-left:10px\"><strong>MJ — </strong>La première question.  « Qu'est-ce que vous faites ? » Laisser les PJ se répartir immédiatement. Ne pas faire une ronde de préparation où ils pourraient tout sécuriser avant le choc.</p>\n<p>Le troupeau fuit une menace invisible depuis la route. Les animaux n'essaient pas de combattre les PJ. La scène doit révéler plusieurs responsabilités concurrentes : écarter la ruée, maintenir les attelages, dégager les péons, préserver les caisses. Récompenser les décisions coordonnées par leurs effets réels ; ne pas distribuer automatiquement des bonus parce que chacun fait une action différente.</p><h3>Faire évoluer le danger, pas multiplier les attaques</h3><p>À la première décision, montrer les conséquences immédiatement. Si les PJ protègent les bêtes, un péon peut rester à proximité de la roue. S'ils dégagent les travailleurs, le chariot lourd peut se déporter. Si quelqu'un détourne le flot des animaux, l'espace libéré permet à un autre de retenir un attelage. N'activer une complication que lorsqu'un front reste exposé ou qu'une intervention échoue.</p>\n<table style=\"width:100%;border-collapse:collapse\"><thead><tr><th>PRESSION POSSIBLE</th><th>SIGNE À MONTRER AVANT SA CONSÉQUENCE</th></tr></thead><tbody><tr><td>Un péon près de la roue</td><td>Il tente de dégager une sangle tombée ; son pied glisse et il doit lâcher ou être tiré hors du passage.</td></tr><tr><td>Le kodo léger se cabre</td><td>La tête part de côté, le trait se tend ; quelqu’un peut se placer pour l’apaiser ou empêcher le chariot de pivoter.</td></tr><tr><td>Les caisses bougent</td><td>Une cale recule, le chariot penche ; il reste le temps d’arrimer ou d’abandonner un autre geste.</td></tr><tr><td>La masse des bêtes se scinde</td><td>Le détour créé par les PJ peut ouvrir un couloir sûr… ou envoyer les dernières bêtes vers l’autre attelage.</td></tr></tbody></table>\n<p style=\"border-left:3px solid #a9814d;padding-left:10px\"><strong>MJ — </strong>Fin rapide.  Quand le troupeau a traversé, arrêter la scène. Il ne revient pas pour un deuxième « round » gratuit. Décrire seulement ce que les actions ont laissé : harnais intacts ou rompus, personnes debout ou blessées, caisses en place ou à relever.</p>\n<blockquote style=\"border-left:4px solid #bd8950;padding:8px 12px\"><strong>APRÈS LA RUÉE</strong><p>Le goulet retrouve brutalement le silence. Plus loin, les dernières bêtes disparaissent entre les pierres sans même regarder derrière elles. De la poussière flotte encore au ras du sol. Un kodo renifle une trace fraîche. Les péons se cherchent du regard, comme s'ils comptaient d'abord les visages avant les caisses. Là-haut, les oiseaux ont disparu.</p></blockquote>\n<p><small>Renvoi au document maître v0.2 : coordination, complications et conséquences matérielles (sections 2.D et 4 bis.2).</small></p><p><strong>Autres pages de ce journal :</strong> @UUID[JournalEntry.zg0ZrdYd7H5Uc8gY.JournalEntryPage.VGQvWN9iTKr2Ji4L]{Décisions &amp; conséquences}</p><hr><p><strong>Renvois utiles :</strong> @UUID[JournalEntry.NsTxqshtT9lLumN4.JournalEntryPage.0bD6SqPVwT3RVvJm]{Règle et barème contextuel} \_ · \_ @UUID[JournalEntry.fcZejQdm4u6iAZSe.JournalEntryPage.eWppQeTKF6MHRLF1]{Quatre dispositions possibles} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État à renseigner à la table}</p><p><strong>Navigation :</strong> @UUID[JournalEntry.CUSS9LNh1aVHmC4H.JournalEntryPage.3cuZoMID9cx1JnQ9]{← Scène précédente} \_ · \_ @UUID[JournalEntry.gQ9DSemaiBWIjW0r.JournalEntryPage.M3exRvSKspw29FSl]{Scène suivante →}</p>"
+    flags:
+      world:
+        warboundS02PageKey: s05.play
+        warboundS02Pack: true
+    _id: 4Z4q8B2PkX86MtE5
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617935
+      modifiedTime: 1794248617935
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!zg0ZrdYd7H5Uc8gY.4Z4q8B2PkX86MtE5'
+  - name: Décisions & conséquences
+    type: text
+    sort: 200000
+    text:
+      format: 1
+      content: "<p><small><strong>AU NOM DE LA HORDE • S02</strong> — MJ uniquement — Document maître évolutif — v0.2 (5 novembre 2026)</small></p><p>🧭 @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Retard} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État des convois}</p><h3>D. La ruée dans le goulet</h3><p>[ACQUIS / RÉSOLUTION À AFFINER]  Des animaux affolés traversent un passage étroit. L’événement exige de coordonner le groupe plutôt que de combattre les bêtes. Tous les éléments du convoi ne peuvent pas être protégés simultanément.</p>\n<p style=\"margin-left:1em\">• Décisions ouvertes aux PJ — tenir un attelage, éloigner les péons, dégager un passage, sauver une caisse, immobiliser ou faire avancer les chariots.</p>\n<p style=\"margin-left:1em\">• Conséquences à reporter — dégâts matériels, blessures, dispersion possible, retard pour remettre les convois en ordre ; les actes envers les péons influencent leur confiance.</p>\n<p><small>À écrire / vérifier : séquençage des vagues, déclencheurs exacts et coûts de remises en route. Les effets sur le retard sont désormais suivis dans le module § 4 bis.</small></p><p><strong>Autres pages de ce journal :</strong> @UUID[JournalEntry.zg0ZrdYd7H5Uc8gY.JournalEntryPage.4Z4q8B2PkX86MtE5]{À jouer — récit &amp; situations}</p><hr><p><strong>Renvois utiles :</strong> @UUID[JournalEntry.NsTxqshtT9lLumN4.JournalEntryPage.0bD6SqPVwT3RVvJm]{Règle et barème contextuel} \_ · \_ @UUID[JournalEntry.fcZejQdm4u6iAZSe.JournalEntryPage.eWppQeTKF6MHRLF1]{Quatre dispositions possibles} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État à renseigner à la table}</p><p><strong>Navigation :</strong> @UUID[JournalEntry.CUSS9LNh1aVHmC4H.JournalEntryPage.3cuZoMID9cx1JnQ9]{← Scène précédente} \_ · \_ @UUID[JournalEntry.gQ9DSemaiBWIjW0r.JournalEntryPage.M3exRvSKspw29FSl]{Scène suivante →}</p>"
+    flags:
+      world:
+        warboundS02PageKey: s05.stakes
+        warboundS02Pack: true
+    _id: VGQvWN9iTKr2Ji4L
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617935
+      modifiedTime: 1794248617935
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!zg0ZrdYd7H5Uc8gY.VGQvWN9iTKr2Ji4L'
+_id: zg0ZrdYd7H5Uc8gY
+categories: []
+sort: 0
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248617935
+  modifiedTime: 1794248617935
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!zg0ZrdYd7H5Uc8gY'

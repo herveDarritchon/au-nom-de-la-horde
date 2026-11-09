@@ -1,0 +1,129 @@
+name: '12 — Tranchecolline : trois affaires distinctes'
+folder: 7RHfcfEUCLUvBRwC
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+flags:
+  world:
+    warboundS02Key: s12
+    warboundS02Pack: true
+pages:
+  - name: À jouer — récit & situations
+    type: text
+    sort: 100000
+    text:
+      format: 1
+      content: "<p><small><strong>AU NOM DE LA HORDE • S02</strong> — MJ uniquement — Livret narratif — v0.1 (7 novembre 2026)</small></p><p>🧭 @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Retard} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État des convois}</p><p><em>SUITE DU VOYAGE · PREMIER CONTACT, SANS PRÉJUGER DU DÉNOUEMENT</em></p>\n<blockquote style=\"border-left:4px solid #bd8950;padding:8px 12px\"><strong>À LIRE OU REFORMULER</strong><p>Les bâtiments de Tranchecolline apparaissent enfin au-delà des poussières de la route. On entend des ordres, des conversations, le mouvement continu d'un poste où l'on reçoit plus de gens et de marchandises qu'on ne voudrait l'avouer. Un péon desserre sa gourde avant même l'arrêt. Le kodo lourd avance encore de quelques pas, puis s'immobilise comme s'il attendait depuis des heures qu'on lui en donne la permission. Des hommes viennent vers les chargements ; la livraison peut commencer, et avec elle le récit de tout ce qui s'est passé en chemin.</p></blockquote>\n<p>L'arrivée ne résout pas d'un bloc les trois questions de la mission. Elle ouvre trois échanges distincts, chacun avec son interlocuteur, ses critères et ses éventuelles preuves.</p>\n<table style=\"width:100%;border-collapse:collapse\"><thead><tr><th>INTERLOCUTEUR</th><th>SON AFFAIRE</th></tr></thead><tbody><tr><td>Takrin : livraison</td><td>Il veut savoir ce qui arrive, dans quel état, avec quels papiers et quelles anomalies déclarées. Les PJ ne sont pas automatiquement responsables de la substitution antérieure à Roche-Sèche.</td></tr><tr><td>Gar’Thok : conduite</td><td>Il s’intéresse aux décisions d’escorte et à leur justification : pertes, secours apportés, prise de risques, rapports. Il ne juge pas seulement le nombre de caisses sauvées.</td></tr><tr><td>Grosk : sacs de cactus</td><td>Il traite séparément la livraison des deux sacs de pommes de cactus ; son accueil dépend de cette affaire et de la manière dont les PJ l’ont menée.</td></tr></tbody></table>\n<p style=\"border-left:3px solid #a9814d;padding-left:10px\"><strong>MJ — </strong>Si les PJ reviennent éprouvés.  Ils ont le droit d'être sales, blessés, pressés de manger ou de s'expliquer. Un péon peut apporter une précision factuelle ou contredire un récit exagéré. L'important est que les faits observés sur la route restent disponibles à la table.</p>\n<p style=\"border-left:3px solid #a9814d;padding-left:10px\"><strong>MJ — </strong>La fraude.  Ne révéler l'absence ou le remplacement de Mâche-Roc qu'au moment où une procédure crédible de réception ou d'ouverture le permet. Les PJ ont pu remarquer des discordances, mais le scénario ne doit pas leur imputer une substitution qu'ils n'ont pas commise.</p>\n<p><small>Renvoi au document maître v0.2 : fiche 2.H ; la fiche détaillée d’arrivée à Tranchecolline doit encore être rapprochée du document maître.</small></p><p><strong>Autres pages de ce journal :</strong> @UUID[JournalEntry.mKI7t7xC0WHoCxjY.JournalEntryPage.wxXXEXhqP3v9YyRk]{Décisions &amp; conséquences} \_ · \_ @UUID[JournalEntry.mKI7t7xC0WHoCxjY.JournalEntryPage.hDqWnLNlaF3QBVhe]{Garde-fou de continuité}</p><hr><p><strong>Renvois utiles :</strong> @UUID[JournalEntry.0OSSsrkorZZNsVqG.JournalEntryPage.SBZRXxq5BRejGgK4]{Trois affaires à ne pas confondre} \_ · \_ @UUID[JournalEntry.ntFjmKdDE6Mcpsuc.JournalEntryPage.D4UtndmnLmtqTgNQ]{Informations établies &amp; limites} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État à renseigner à la table} \_ · \_ @UUID[JournalEntry.1w5SomDLshDAWOoC.JournalEntryPage.MXJysq678UIyw76D]{Points ouverts, sans réponses inventées}</p><p><strong>Navigation :</strong> @UUID[JournalEntry.MsoGRC7psQf0kvNd.JournalEntryPage.rQLBJ5TIhx8qRgK8]{← Scène précédente}</p>"
+    flags:
+      world:
+        warboundS02PageKey: s12.play
+        warboundS02Pack: true
+    _id: XzZax3Ebhu42fEJy
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617931
+      modifiedTime: 1794248617931
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mKI7t7xC0WHoCxjY.XzZax3Ebhu42fEJy'
+  - name: Décisions & conséquences
+    type: text
+    sort: 200000
+    text:
+      format: 1
+      content: "<p><small><strong>AU NOM DE LA HORDE • S02</strong> — MJ uniquement — Document maître évolutif — v0.2 (5 novembre 2026)</small></p><p>🧭 @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Retard} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État des convois}</p><h3>H. Arrivée à Tranchecolline</h3><p>[ACQUIS / FICHE À INTÉGRER]  L’arrivée ouvre trois affaires distinctes : Takrin reçoit les convois et doit traiter la livraison de Mâche-Roc ; Gar’Thok considère la conduite des PJ ; Grosk s’intéresse à une livraison séparée de deux sacs de pommes de cactus.</p>\n<p style=\"margin-left:1em\">• Décisions ouvertes aux PJ — rendre compte, présenter des preuves, expliquer les retards et pertes, négocier ou demander assistance ; gérer séparément les trois interlocuteurs.</p>\n<p style=\"margin-left:1em\">• Conséquences à reporter — évaluation fondée sur actes observables et témoignages ; accueil et services potentiels ; relations locales durables.</p>\n<p><small>À écrire / vérifier : reprendre le texte exact de la fiche MJ d’arrivée si disponible ; ne pas inventer son barème ou ses répliques au-delà de la synthèse déjà échangée.</small></p><p><strong>Autres pages de ce journal :</strong> @UUID[JournalEntry.mKI7t7xC0WHoCxjY.JournalEntryPage.XzZax3Ebhu42fEJy]{À jouer — récit &amp; situations} \_ · \_ @UUID[JournalEntry.mKI7t7xC0WHoCxjY.JournalEntryPage.hDqWnLNlaF3QBVhe]{Garde-fou de continuité}</p><hr><p><strong>Renvois utiles :</strong> @UUID[JournalEntry.0OSSsrkorZZNsVqG.JournalEntryPage.SBZRXxq5BRejGgK4]{Trois affaires à ne pas confondre} \_ · \_ @UUID[JournalEntry.ntFjmKdDE6Mcpsuc.JournalEntryPage.D4UtndmnLmtqTgNQ]{Informations établies &amp; limites} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État à renseigner à la table} \_ · \_ @UUID[JournalEntry.1w5SomDLshDAWOoC.JournalEntryPage.MXJysq678UIyw76D]{Points ouverts, sans réponses inventées}</p><p><strong>Navigation :</strong> @UUID[JournalEntry.MsoGRC7psQf0kvNd.JournalEntryPage.rQLBJ5TIhx8qRgK8]{← Scène précédente}</p>"
+    flags:
+      world:
+        warboundS02PageKey: s12.stakes
+        warboundS02Pack: true
+    _id: wxXXEXhqP3v9YyRk
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617931
+      modifiedTime: 1794248617931
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mKI7t7xC0WHoCxjY.wxXXEXhqP3v9YyRk'
+  - name: Garde-fou de continuité
+    type: text
+    sort: 300000
+    text:
+      format: 1
+      content: "<p><small><strong>AU NOM DE LA HORDE • S02</strong> — MJ uniquement — Synthèse explicite des réserves des deux documents</small></p><p>🧭 @UUID[JournalEntry.V8tflgkOwnuZH8IT.JournalEntryPage.Az8YDJnF2w65TQwr]{Sommaire} \_ · \_ @UUID[JournalEntry.0HeBXOBC0dnmnedP.JournalEntryPage.Wivdfv9Ym5d9ewNS]{Retard} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État des convois}</p><p><strong>À respecter :</strong> Évaluer séparément livraison, escorte et sacs de cactus. Ne pas inventer le barème d’une fiche d’arrivée non jointe.</p><p>@UUID[JournalEntry.1w5SomDLshDAWOoC.JournalEntryPage.MXJysq678UIyw76D]{Consulter la liste des décisions encore ouvertes}</p><p><strong>Autres pages de ce journal :</strong> @UUID[JournalEntry.mKI7t7xC0WHoCxjY.JournalEntryPage.XzZax3Ebhu42fEJy]{À jouer — récit &amp; situations} \_ · \_ @UUID[JournalEntry.mKI7t7xC0WHoCxjY.JournalEntryPage.wxXXEXhqP3v9YyRk]{Décisions &amp; conséquences}</p><hr><p><strong>Renvois utiles :</strong> @UUID[JournalEntry.0OSSsrkorZZNsVqG.JournalEntryPage.SBZRXxq5BRejGgK4]{Trois affaires à ne pas confondre} \_ · \_ @UUID[JournalEntry.ntFjmKdDE6Mcpsuc.JournalEntryPage.D4UtndmnLmtqTgNQ]{Informations établies &amp; limites} \_ · \_ @UUID[JournalEntry.rkhqyTeD5YIgWE8y.JournalEntryPage.6AT60iHgtk5eqzsa]{État à renseigner à la table} \_ · \_ @UUID[JournalEntry.1w5SomDLshDAWOoC.JournalEntryPage.MXJysq678UIyw76D]{Points ouverts, sans réponses inventées}</p><p><strong>Navigation :</strong> @UUID[JournalEntry.MsoGRC7psQf0kvNd.JournalEntryPage.rQLBJ5TIhx8qRgK8]{← Scène précédente}</p>"
+    flags:
+      world:
+        warboundS02PageKey: s12.garde
+        warboundS02Pack: true
+    _id: hDqWnLNlaF3QBVhe
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      TjbWhMczNyKieD8D: 3
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794248617931
+      modifiedTime: 1794248617931
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mKI7t7xC0WHoCxjY.hDqWnLNlaF3QBVhe'
+_id: mKI7t7xC0WHoCxjY
+categories: []
+sort: 0
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794248617931
+  modifiedTime: 1794248617931
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!mKI7t7xC0WHoCxjY'
