@@ -18,6 +18,7 @@ body.warbound-theme {
     --wb-bronze-light: #c19a59;
     --wb-crimson: #7d241f;
     --wb-crimson-dark: #4b1513;
+    --wb-crimson-dark-hover: #bd3631;
     --wb-ember: #ad4a25;
     --wb-green: #526443;
     --wb-danger: #9c2e24;
@@ -255,13 +256,13 @@ body.warbound-theme .wb-dropcap::first-letter {
 }
 
 body.warbound-theme :is(.journal-page-content, .editor-content, .prosemirror, .wb-page) a {
-    color: #704220;
+    color: var(--wb-bronze-light);
     text-decoration-color: rgba(112, 66, 32, .55);
     text-underline-offset: 2px;
 }
 
 body.warbound-theme :is(.journal-page-content, .editor-content, .prosemirror, .wb-page) a:hover {
-    color: var(--wb-crimson);
+    color: var(--wb-crimson-dark-hover);
 }
 
 body.warbound-theme :is(.journal-page-content, .editor-content, .prosemirror, .wb-page) hr {
