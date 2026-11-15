@@ -135112,7 +135112,7 @@ scenes:
     name: Attaque Kolkar
     _id: uzphzarC0uT2jRX9
     navigation: false
-    thumb: worlds/au-nom-de-la-horde-cof2/assets/scenes/thumb-SD-dsyDV5tQt1UFT3QsoZw.webp
+    thumb: modules/warbound-campaign-content/assets/scenes/thumb-SD-dsyDV5tQt1UFT3QsoZw.webp
     width: 1672
     height: 941
     padding: 0.25
@@ -139496,7 +139496,7 @@ scenes:
     _id: y5zSPdhyjfNXsETp
     navigation: false
     navOrder: 0
-    thumb: worlds/au-nom-de-la-horde-cof2/assets/scenes/thumb-W8Cd-9GSDRA4OEhdYj79Dw.webp
+    thumb: modules/warbound-campaign-content/assets/scenes/thumb-W8Cd-9GSDRA4OEhdYj79Dw.webp
     width: 1024
     height: 1536
     padding: 0.25
@@ -139622,7 +139622,7 @@ scenes:
     name: PJs
     navigation: false
     navOrder: 0
-    thumb: worlds/au-nom-de-la-horde-cof2/assets/scenes/thumb-S6vMVMm2g8uJ4jAnvtD6-A.webp
+    thumb: modules/warbound-campaign-content/assets/scenes/thumb-S6vMVMm2g8uJ4jAnvtD6-A.webp
     width: 1024
     height: 1536
     padding: 0.25
@@ -139750,7 +139750,7 @@ scenes:
     _id: OR2WdVn8wPvE7Hbc
     navigation: true
     navOrder: 0
-    thumb: worlds/au-nom-de-la-horde-cof2/assets/scenes/thumb-TpyFOV4ypPtZfubtfeoV1g.webp
+    thumb: modules/warbound-campaign-content/assets/scenes/thumb-TpyFOV4ypPtZfubtfeoV1g.webp
     width: 1672
     height: 941
     padding: 0.25
@@ -140407,7 +140407,7 @@ scenes:
     _id: 3XvYHrbK8O5vroOi
     navigation: true
     navOrder: 0
-    thumb: worlds/au-nom-de-la-horde-cof2/assets/scenes/thumb-FLKqhqoIwFeQ_gL_Yt9WjA.webp
+    thumb: modules/warbound-campaign-content/assets/scenes/thumb-FLKqhqoIwFeQ_gL_Yt9WjA.webp
     width: 1672
     height: 941
     padding: 0.25
@@ -146858,7 +146858,7 @@ scenes:
     _id: cXobusFCWai3kZO7
     navigation: true
     navOrder: 0
-    thumb: worlds/au-nom-de-la-horde-cof2/assets/scenes/thumb-IRStvjHjjR29mCiDnKjm9Q.webp
+    thumb: modules/warbound-campaign-content/assets/scenes/thumb-IRStvjHjjR29mCiDnKjm9Q.webp
     width: 1672
     height: 941
     padding: 0.25
