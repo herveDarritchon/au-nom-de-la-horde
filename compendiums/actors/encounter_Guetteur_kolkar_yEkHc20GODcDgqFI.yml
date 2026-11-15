@@ -3,21 +3,21 @@ type: encounter
 system:
   abilities:
     for:
-      base: 2
+      base: 0
       superior: true
       bonuses:
         sheet: 0
         effects: 0
       formula: ''
     agi:
-      base: 3
+      base: 2
       superior: true
       bonuses:
         sheet: 0
         effects: 0
       formula: ''
     con:
-      base: 2
+      base: 0
       superior: false
       bonuses:
         sheet: 0
@@ -31,7 +31,7 @@ system:
         effects: 0
       formula: ''
     cha:
-      base: 0
+      base: -1
       superior: false
       bonuses:
         sheet: 0
@@ -64,7 +64,7 @@ system:
         effects: 0
       formula: ''
     movement:
-      base: 10
+      base: 14
       unit: m
       bonuses:
         sheet: 0
@@ -87,7 +87,7 @@ system:
         effects: 0
       formula: ''
     init:
-      base: 12
+      base: 13
       ability: null
       details: null
       unit: null
@@ -154,10 +154,19 @@ system:
       formula: ''
   details:
     category: humanoid
-    size: large
+    size: medium
     notes:
-      public: ''
-      private: ''
+      public: >-
+        <p><span>Centaure aux aguets, souvent posté en hauteur. Il scrute les
+        environs, communique par sifflements et garde ses distances.</span></p>
+      private: >-
+        <ul><li><p><span><strong>Objectif :</strong> repérer les intrus et
+        prévenir la bande.</span></p></li><li><p><span><strong>Tactique
+        :</strong> observe à distance, donne l'alerte et tente d'attirer les
+        ennemis vers ses
+        compagnons.</span></p></li><li><p><span><strong>Réaction :</strong>
+        privilégie la fuite pour avertir les siens plutôt que de mourir au
+        combat.</span></p></li></ul>
     description:
       private: ''
       public: ''
@@ -182,8 +191,8 @@ prototypeToken:
   name: Guetteur kolkar
   displayName: 40
   actorLink: false
-  width: 2
-  height: 2
+  width: 1
+  height: 1
   depth: 1
   texture:
     src: modules/warbound-campaign-content/assets/images/tokens/npcs/kolkar/coa-kolkar-guetteur-token.webp
@@ -255,6 +264,9 @@ prototypeToken:
   flags:
     wall-height:
       tokenHeight: 0
+    healthEstimate:
+      dontMarkDead: false
+      hideHealthEstimate: false
   randomImg: false
   appendNumber: false
   prependAdjective: false
@@ -333,14 +345,13 @@ items:
     sort: 0
     ownership:
       default: 0
-      TjbWhMczNyKieD8D: 3
     flags: {}
     _stats:
       coreVersion: '14.369'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1794248327650
-      modifiedTime: 1794248327650
+      createdTime: 1794759535663
+      modifiedTime: 1794759535663
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -418,14 +429,13 @@ items:
     sort: 0
     ownership:
       default: 0
-      TjbWhMczNyKieD8D: 3
     flags: {}
     _stats:
       coreVersion: '14.369'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1794248327650
-      modifiedTime: 1794248327650
+      createdTime: 1794759535663
+      modifiedTime: 1794759535663
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -472,13 +482,12 @@ items:
     sort: 0
     ownership:
       default: 0
-      TjbWhMczNyKieD8D: 3
     _stats:
       coreVersion: '14.369'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1794248327650
-      modifiedTime: 1794248327650
+      createdTime: 1794759535663
+      modifiedTime: 1794759535663
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: Compendium.world.warbound-imported-capacities.Item.eghoL7fkqARqBiPG
       duplicateSource: null
@@ -525,13 +534,12 @@ items:
     sort: 0
     ownership:
       default: 0
-      TjbWhMczNyKieD8D: 3
     _stats:
       coreVersion: '14.369'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1794248327650
-      modifiedTime: 1794248327650
+      createdTime: 1794759535663
+      modifiedTime: 1794759535663
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: Compendium.world.warbound-imported-capacities.Item.Lal2OQh9iG9fhsbS
       duplicateSource: null
@@ -543,15 +551,23 @@ sort: 150000
 ownership:
   default: 0
   TjbWhMczNyKieD8D: 3
-flags: {}
+flags:
+  scene-packer:
+    hash: d216af4054e5d2be2916030e0842b23980526b8e
+    sourceId: Actor.yEkHc20GODcDgqFI
 _stats:
   coreVersion: '14.369'
   systemId: co2
   systemVersion: 2.3.12
-  createdTime: 1794248327650
-  modifiedTime: 1794248327650
+  createdTime: 1794759535663
+  modifiedTime: 1794759535663
   lastModifiedBy: TjbWhMczNyKieD8D
   compendiumSource: null
   duplicateSource: null
-  exportSource: null
+  exportSource:
+    worldId: au-nom-de-la-horde-cof2
+    uuid: Actor.yEkHc20GODcDgqFI
+    coreVersion: '14.367'
+    systemId: co2
+    systemVersion: 2.3.14
 _key: '!actors!yEkHc20GODcDgqFI'

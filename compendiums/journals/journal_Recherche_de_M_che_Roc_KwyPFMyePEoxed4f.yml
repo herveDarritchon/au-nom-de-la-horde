@@ -1,0 +1,129 @@
+folder: nt0VsRVzNJtGG9l1
+name: Recherche de Mâche-Roc
+flags:
+  campaign-codex:
+    type: quest
+    contentStorageVersion: 1
+    contentPages:
+      info: J8ncWx4iZiVD3tgI
+      notes: a87V6OWNmKs3npFx
+    data:
+      quests:
+        - id: D7Zp5HskGX0QFErO
+          title: Recherche de Mâche-Roc
+          description: ''
+          inactive: false
+          completed: false
+          failed: false
+          visible: false
+          pinned: false
+          hideRewards: false
+          notifyPlayers: false
+          messageOnCompleted: false
+          urgency: medium
+          boardColumn: active
+          questGiverUuid: ''
+          relatedUuids: []
+          dependencies:
+            - JournalEntry.NU5IW9hOrz0lfDlu::oKIBTzhZcCpwLYSS
+          unlocks: []
+          checkIns: []
+          linkedMacros: []
+          rewardXP: 0
+          rewardCurrency: 0
+          rewardReputation: 0
+          rewardClaimed: false
+          updatedAt: 1789904994036
+          objectives: []
+          inventory: []
+      inventoryCacheVersion: 1
+  core:
+    sheetClass: campaign-codex.QuestSheet
+_id: KwyPFMyePEoxed4f
+pages:
+  - name: Information
+    type: text
+    sort: 100000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: ''
+    ownership:
+      default: -1
+    flags:
+      core:
+        sheetClass: campaign-codex.CampaignCodexContentPageSheet
+      campaign-codex:
+        contentKey: info
+    _id: J8ncWx4iZiVD3tgI
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794759812564
+      modifiedTime: 1794759812564
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!KwyPFMyePEoxed4f.J8ncWx4iZiVD3tgI'
+  - name: GM Notes
+    type: text
+    sort: 200000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: ''
+    ownership:
+      default: 0
+    flags:
+      core:
+        sheetClass: campaign-codex.CampaignCodexContentPageSheet
+      campaign-codex:
+        contentKey: notes
+    _id: a87V6OWNmKs3npFx
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794759812564
+      modifiedTime: 1794759812564
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!KwyPFMyePEoxed4f.a87V6OWNmKs3npFx'
+categories: []
+sort: 0
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794759812564
+  modifiedTime: 1794759812576
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!KwyPFMyePEoxed4f'

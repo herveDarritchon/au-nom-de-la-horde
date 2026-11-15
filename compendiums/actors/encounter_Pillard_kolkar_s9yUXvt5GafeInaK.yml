@@ -4,35 +4,35 @@ img: modules/warbound-campaign-content/assets/images/avatar/kolkar/coa-kolkar-pi
 system:
   abilities:
     for:
-      base: 3
+      base: 1
       superior: true
       bonuses:
         sheet: 0
         effects: 0
       formula: ''
     agi:
-      base: 0
+      base: 1
       superior: false
       bonuses:
         sheet: 0
         effects: 0
       formula: ''
     con:
-      base: 3
+      base: 1
       superior: false
       bonuses:
         sheet: 0
         effects: 0
       formula: ''
     per:
-      base: 0
+      base: 1
       superior: false
       bonuses:
         sheet: 0
         effects: 0
       formula: ''
     cha:
-      base: 0
+      base: -1
       superior: false
       bonuses:
         sheet: 0
@@ -55,8 +55,8 @@ system:
   attributes:
     nc: 1
     hp:
-      base: 9
-      value: 9
+      base: 11
+      value: 11
       temp: null
       max: 0
       tempmax: null
@@ -65,7 +65,7 @@ system:
         effects: 0
       formula: ''
     movement:
-      base: 10
+      base: 14
       unit: m
       bonuses:
         sheet: 0
@@ -88,7 +88,7 @@ system:
         effects: 0
       formula: ''
     init:
-      base: 10
+      base: 11
       ability: null
       details: null
       unit: null
@@ -155,18 +155,20 @@ system:
       formula: ''
   details:
     category: humanoid
-    size: large
+    size: medium
     notes:
       public: >-
-        <p>Centaure kolkar de taille Grande, membre d’une bande de pillards de
-        Durotar. Lors de l’embuscade, il cherche à s’emparer des vivres, de
-        l’eau et des charges plutôt qu’à éliminer les convoyeurs.</p>
+        <p><span>Centaure robuste et brutal, chargé de sacs et de prises
+        diverses. Il intimide, menace et s'empare de tout ce qui attire sa
+        convoitise.</span></p>
       private: >-
-        <p>Rôle : saisit les lots et se retire. Tactique : charge ponctuelle,
-        puis appropriation de la cargaison. Une action au contact d’un lot libre
-        permet de le saisir ; le lot est perdu s’il sort de la carte. À deux
-        lots volés, la bande commence à décrocher. La bande ne combat pas
-        jusqu’à la mort.</p>
+        <ul><li><p><span><strong>Objectif :</strong> s'emparer de provisions,
+        d'armes et de richesses pour sa
+        bande.</span></p></li><li><p><span><strong>Tactique :</strong> profite
+        du chaos, brutalise les défenseurs et protège son
+        butin.</span></p></li><li><p><span><strong>Réaction :</strong> combat
+        avec férocité, mais peut abandonner ses prises pour sauver sa
+        peau.</span></p></li></ul>
     description:
       private: ''
       public: ''
@@ -190,8 +192,8 @@ prototypeToken:
   name: Pillard kolkar
   displayName: 40
   actorLink: false
-  width: 2
-  height: 2
+  width: 1
+  height: 1
   depth: 1
   texture:
     src: modules/warbound-campaign-content/assets/images/tokens/npcs/kolkar/coa-kolkar-pillard-token.webp
@@ -264,6 +266,9 @@ prototypeToken:
   flags:
     wall-height:
       tokenHeight: 0
+    healthEstimate:
+      dontMarkDead: false
+      hideHealthEstimate: false
   randomImg: false
   appendNumber: false
   prependAdjective: false
@@ -343,8 +348,8 @@ items:
       coreVersion: '14.369'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1794248327661
-      modifiedTime: 1794248327661
+      createdTime: 1794759535674
+      modifiedTime: 1794759535674
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -427,8 +432,8 @@ items:
       coreVersion: '14.369'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1794248327661
-      modifiedTime: 1794248327661
+      createdTime: 1794759535674
+      modifiedTime: 1794759535674
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -548,8 +553,8 @@ items:
       coreVersion: '14.369'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1794248327661
-      modifiedTime: 1794248327661
+      createdTime: 1794759535674
+      modifiedTime: 1794759535674
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -598,13 +603,12 @@ items:
     sort: 0
     ownership:
       default: 0
-      TjbWhMczNyKieD8D: 3
     _stats:
       coreVersion: '14.369'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1794248327661
-      modifiedTime: 1794248327661
+      createdTime: 1794759535674
+      modifiedTime: 1794759535674
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: Compendium.world.warbound-imported-capacities.Item.Khys0A1AQ7Izzv6Y
       duplicateSource: null
@@ -616,16 +620,24 @@ sort: 125000
 ownership:
   default: 0
   TjbWhMczNyKieD8D: 3
-flags: {}
+flags:
+  scene-packer:
+    hash: ed58e25a6097f6e7130d621f07b84a2e604d685d
+    sourceId: Actor.s9yUXvt5GafeInaK
 _stats:
   coreVersion: '14.369'
   systemId: co2
   systemVersion: 2.3.12
-  createdTime: 1794248327661
-  modifiedTime: 1794248327661
+  createdTime: 1794759535674
+  modifiedTime: 1794759535674
   lastModifiedBy: TjbWhMczNyKieD8D
   compendiumSource: null
   duplicateSource: null
-  exportSource: null
+  exportSource:
+    worldId: au-nom-de-la-horde-cof2
+    uuid: Actor.s9yUXvt5GafeInaK
+    coreVersion: '14.367'
+    systemId: co2
+    systemVersion: 2.3.14
 _id: s9yUXvt5GafeInaK
 _key: '!actors!s9yUXvt5GafeInaK'

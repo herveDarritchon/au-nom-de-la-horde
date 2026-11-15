@@ -1,0 +1,229 @@
+folder: qxMV0OLbH4FAHYmR
+name: Livraison Pommes-Cactus
+flags:
+  campaign-codex:
+    type: quest
+    contentStorageVersion: 1
+    contentPages:
+      info: qdyNuWtk92PE3FKQ
+      notes: Q0HdDoKH92wBnQ5R
+    data:
+      inventoryCacheVersion: 1
+      quests:
+        - id: m4WrAMi1lPAhSyAs
+          title: Livraison Pommes-Cactus
+          description: ''
+          inactive: false
+          completed: false
+          failed: false
+          visible: false
+          pinned: true
+          hideRewards: true
+          notifyPlayers: true
+          messageOnCompleted: true
+          urgency: medium
+          boardColumn: active
+          questGiverUuid: ''
+          relatedUuids:
+            - JournalEntry.NU5IW9hOrz0lfDlu
+          dependencies: []
+          unlocks: []
+          checkIns: []
+          linkedMacros: []
+          rewardXP: 10
+          rewardCurrency: 0
+          rewardReputation: 10
+          rewardClaimed: false
+          updatedAt: 1794732663480
+          objectives:
+            - id: vNzhpVNtRgRYuSDJ
+              text: Livrer les pommes-cactus à Grosk, à Tranchecolline
+              completed: false
+              failed: false
+              visible: false
+              objectives:
+                - id: Pe4J9cDWAk0UeNGY
+                  text: Remettre le premier sac
+                  completed: false
+                  failed: false
+                  visible: false
+                  objectives: []
+                - id: EHCUUyC8VAySEpV8
+                  text: Remettre le second sac
+                  completed: false
+                  failed: false
+                  visible: false
+                  objectives: []
+            - id: WP2F8Rmtzh3HWGjX
+              text: Informer Grosk des éventuelles pertes ou dégradations
+              completed: false
+              failed: false
+              visible: false
+              objectives: []
+          inventory: []
+      linkedStandardJournals:
+        - JournalEntry.f5qnlnbAhytcPhtk
+    image: modules/warbound-campaign-content/assets/images/tiles/durotar/06-Element_Convoi/05_ravitaillement_sacs_et_provisions/sac_de_pommes_rouges_marque_d_un_embleme_tribal.webp
+  core:
+    sheetClass: campaign-codex.QuestSheet
+  scene-packer:
+    hash: 9173f76d9232e9b3aff5f879a8bef54f4fa26b18
+    sourceId: JournalEntry.TK00sxm7Jj8O7BFy
+_id: 9rdmDVrIypxOTruS
+pages:
+  - name: Information
+    type: text
+    sort: 100000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <p>Galgar a une livraison pour Tranchecolline.</p><p>La récolte de
+        pommes-cactus a été généreuse. Grosk, l’aubergiste de
+        <strong>Tranchecolline</strong>, avait commandé un sac de ces fruits
+        pour sa cuisine. Galgar en a préparé <strong>deux</strong> : une
+        commande et un supplément qui fera plaisir au destinataire.</p><p>Avant
+        votre départ de la <strong>vallée des Épreuves</strong>, Galgar confie
+        les sacs à votre groupe et les installe dans les sacoches du kodo de
+        ravitaillement. Ils voyageront avec vous par la <strong>mine de
+        Roche-Sèche</strong>, puis jusqu’à
+        Tranchecolline.</p><p><strong>Rapportez à Grosk autant de sacs de
+        pommes-cactus que possible et rendez-lui compte de la
+        livraison.</strong></p><section id="secret-l2Lkcrn9DLF4hBr2"
+        class="secret"><p>Sur les pistes de Durotar, les <strong>Kolkar</strong>
+        guettent les chargements de vivres. Entre les pillards, les accidents de
+        route et les réactions du kodo, rien ne garantit que les deux sacs
+        arrivent entiers.</p></section>
+    flags:
+      core:
+        sheetClass: campaign-codex.CampaignCodexContentPageSheet
+      campaign-codex:
+        contentKey: info
+    _id: qdyNuWtk92PE3FKQ
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794759812575
+      modifiedTime: 1794759812575
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!9rdmDVrIypxOTruS.qdyNuWtk92PE3FKQ'
+  - name: GM Notes
+    type: text
+    sort: 200000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h2>Cadre de la quête</h2><p><strong>Donneur :</strong> Galgar (vallée
+        des Épreuves). <strong>Destinataire :</strong> Grosk, aubergiste de
+        Tranchecolline. <strong>Nature :</strong> commande commerciale locale,
+        intégrée au voyage de l’escorte de Mâche-Roc.</p><p>Grosk a commandé un
+        sac. La bonne récolte permet d’en envoyer un second. Les deux sacs
+        voyagent dans les sacoches du <strong>même kodo de
+        ravitaillement</strong> qui accompagne les PJ de la vallée jusqu’à
+        Roche-Sèche, puis rejoint le convoi de Rukha pour
+        Tranchecolline.</p><h2>Ce qui peut se produire sur la
+        route</h2><ul><li>Les Kolkar cherchent à dérober des vivres, notamment
+        les deux sacs, et à repartir vivants. Une préparation efficace des PJ
+        peut empêcher l’embuscade.</li><li>Une panique du kodo peut compromettre
+        l’arrimage. Un compteur de panique à quatre points a été envisagé ; ses
+        seuils et DD restent à fixer, sans les inventer ici.</li><li>Une
+        négociation, un secours à un compagnon ou la protection de l’animal
+        peuvent justifier une perte partielle sans que les PJ aient
+        démérité.</li></ul><p><strong>Ne pas créer de seconde escorte.</strong>
+        Utiliser les mêmes scènes et incidents que la mission principale ; seule
+        la destinée de ces deux sacs est suivie séparément. Les Kolkar ne sont
+        pas responsables de la substitution des caisses de Mâche-Roc, réalisée
+        auparavant.</p><h2>Relation avec Grosk —
+        barème</h2><table><thead><tr><th>Résultat constaté</th><th>Variation
+        relationnelle</th></tr></thead><tbody><tr><td>Deux sacs
+        remis</td><td>+2</td></tr><tr><td>Un sac
+        remis</td><td>+1</td></tr><tr><td>Aucun sac, mais défense réelle et
+        explication honnête</td><td>0</td></tr><tr><td>Aucun sac, abandon ou
+        fuite sans tentative de protection</td><td>−1</td></tr><tr><td>En plus :
+        refus de rendre compte ou responsabilité délibérément
+        dissimulée</td><td>−1 supplémentaire</td></tr></tbody></table><p>Ce
+        barème alimente la relation personnelle avec Grosk (échelle envisagée de
+        −5 à +5). Il <strong>ne représente pas</strong> des points de réputation
+        génériques du module et ne doit pas être confondu avec les 30 points de
+        l’escorte. Le champ de récompense automatique « Réputation » reste donc
+        à zéro.</p><p>Un présent ou une faveur de Grosk est possible pour une
+        livraison particulièrement réussie, mais aucun objet précis, aucune
+        somme d’or et aucun montant d’XP n’ont été validés. Ne pas les attribuer
+        automatiquement.</p><h2>Résolution et suivi</h2><p>À l’arrivée, jouer la
+        remise des sacs <strong>auprès de Grosk</strong>, distinctement de la
+        réception de Mâche-Roc par Takrin et du jugement de l’escorte par
+        Gar’Thok. Noter le nombre de sacs livrés, les raisons des pertes et les
+        paroles des PJ.</p><p>Les sous-objectifs peuvent être signalés échoués
+        si un sac est définitivement perdu. La quête peut cependant être
+        <strong>résolue</strong> avec zéro ou un sac lorsque les PJ rendent un
+        compte honnête ; ne pas la marquer automatiquement « Échec » du seul
+        fait d’une perte matérielle. La différence se joue dans la relation avec
+        Grosk.</p><p><strong>Liens à compléter dans Foundry :</strong>
+        renseigner Galgar comme donneur de quête et lier son journal lorsque son
+        UUID est connu. Le lien avec la quête « Escorte de Convoi » a été ajouté
+        grâce à l’UUID du fichier fourni.</p>
+    flags:
+      core:
+        sheetClass: campaign-codex.CampaignCodexContentPageSheet
+      campaign-codex:
+        contentKey: notes
+    _id: Q0HdDoKH92wBnQ5R
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794759812575
+      modifiedTime: 1794759812575
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+    _key: '!journal.pages!9rdmDVrIypxOTruS.Q0HdDoKH92wBnQ5R'
+categories: []
+sort: 0
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794759812575
+  modifiedTime: 1794759812575
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource:
+    worldId: au-nom-de-la-horde-cof2
+    uuid: JournalEntry.TK00sxm7Jj8O7BFy
+    coreVersion: '14.367'
+    systemId: co2
+    systemVersion: 2.3.14
+_key: '!journal!9rdmDVrIypxOTruS'

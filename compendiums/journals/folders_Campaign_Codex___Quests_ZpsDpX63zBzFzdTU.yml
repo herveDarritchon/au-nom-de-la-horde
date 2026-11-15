@@ -1,0 +1,23 @@
+name: Campaign Codex - Quests
+type: JournalEntry
+color: '#634c1b'
+flags:
+  campaign-codex:
+    type: quest
+    autoOrganize: true
+_id: ZpsDpX63zBzFzdTU
+description: ''
+folder: null
+sorting: a
+sort: 2100000
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794759812552
+  modifiedTime: 1794759812585
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!ZpsDpX63zBzFzdTU'

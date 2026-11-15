@@ -1,0 +1,186 @@
+name: Escorte de Convoi
+flags:
+  campaign-codex:
+    type: quest
+    data:
+      description: ''
+      notes: ''
+      quests:
+        - id: oKIBTzhZcCpwLYSS
+          title: Escorte de Mâche-Roc
+          description: ''
+          inactive: false
+          completed: false
+          failed: false
+          visible: false
+          pinned: true
+          hideRewards: false
+          notifyPlayers: true
+          messageOnCompleted: true
+          urgency: high
+          boardColumn: active
+          questGiverUuid: JournalEntry.z5gIqN6n4XVkj1dq
+          relatedUuids:
+            - JournalEntry.3804DaSpkWC1bBzY
+            - JournalEntry.rpDHOwOFqQi7WiGC
+            - JournalEntry.CGTq9fPzdD50Sw5y
+            - JournalEntry.sf5Pe66qDG1iZWoF
+          dependencies: []
+          unlocks: []
+          checkIns: []
+          linkedMacros: []
+          rewardXP: 50
+          rewardCurrency: 5
+          rewardReputation: 30
+          rewardClaimed: false
+          updatedAt: 1789904989783
+          objectives:
+            - id: 0tQpFaDCCiom6NeV
+              text: Escorter le convoi jusqu’à Tranchecolline
+              completed: false
+              failed: false
+              visible: false
+              objectives:
+                - id: BYOJoTxojWMgd5Q2
+                  text: Assurer la sécurité des convoyeurs
+                  completed: false
+                  failed: false
+                  visible: false
+                  objectives: []
+                - id: ngfRNwsYbMDgEeas
+                  text: Protéger la cargaison
+                  completed: false
+                  failed: false
+                  visible: false
+                  objectives: []
+          inventory: []
+      inventoryCacheVersion: 1
+      sheetTypeLabelOverride: Quête
+      linkedStandardJournals:
+        - JournalEntry.16b7eb16efab8226
+        - JournalEntry.agU7f5Ij9SnurwnW
+      widgets:
+        imagegallery:
+          s1aMyuHVDml4p3Fj:
+            images: []
+            settings:
+              viewMode: grid-auto
+              gridColumns: 3
+        image gallery: {}
+        quest objective awards: {}
+    contentStorageVersion: 1
+    contentPages:
+      info: Muq0UwD1hkT0sv3F
+      notes: XQq56G7Or4SJYuvq
+    image: modules/warbound-campaign-content/assets/images/illustrations/coa-convoie-pour-tranchecolline.webp
+    sheet-widgets: []
+    widgets-position:
+      info: true
+      inventory: false
+  core:
+    sheetClass: campaign-codex.QuestSheet
+pages:
+  - name: Information
+    type: text
+    sort: 100000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <p>La Horde a besoin de bras sûrs.</p><p data-start="276"
+        data-end="525">La Mine de Roche-Sèche doit faire parvenir jusqu’à
+        <strong data-start="327" data-end="345">Tranchecolline</strong> une
+        cargaison importante destinée à Orgrimmar.</p><p data-start="527"
+        data-end="722">La route n’est pas longue, 2 jours tout au plus, mais
+        Durotar n’est jamais vraiment sûr. Les bêtes rôdent, les pillards
+        guettent les convois isolés et les ennemis de la Horde ne manquent
+        jamais d’occasions de frapper.</p><p data-start="724"
+        data-end="839">Rejoignez le convoi à la <strong data-start="749"
+        data-end="772">Mine de Roche-Sèche</strong> et veillez à ce que <strong
+        data-start="793" data-end="838">son contenu </strong>arrive
+        intacte<strong data-start="793" data-end="838"> </strong>à<strong
+        data-start="793" data-end="838"> Tranchecolline</strong>.</p>
+    ownership:
+      default: -1
+    flags:
+      core:
+        sheetClass: campaign-codex.CampaignCodexContentPageSheet
+      campaign-codex:
+        contentKey: info
+    _id: Muq0UwD1hkT0sv3F
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794759812570
+      modifiedTime: 1794759812570
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!NU5IW9hOrz0lfDlu.Muq0UwD1hkT0sv3F'
+  - name: GM Notes
+    type: text
+    sort: 200000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <figure><img
+        src="modules/warbound-campaign-content/assets/images/illustrations/aides-de-jeu/coa-lettre-takrin-convoi.webp"
+        width="500"><figcaption>Lettre de Mission</figcaption></figure>
+    ownership:
+      default: 0
+    flags:
+      core:
+        sheetClass: campaign-codex.CampaignCodexContentPageSheet
+      campaign-codex:
+        contentKey: notes
+    _id: XQq56G7Or4SJYuvq
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794759812570
+      modifiedTime: 1794759812570
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!NU5IW9hOrz0lfDlu.XQq56G7Or4SJYuvq'
+_id: NU5IW9hOrz0lfDlu
+folder: nt0VsRVzNJtGG9l1
+categories: []
+sort: 100000
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794759812570
+  modifiedTime: 1794759812576
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!NU5IW9hOrz0lfDlu'

@@ -1,0 +1,1833 @@
+name: Guide de création de rencontres custom (COF2)
+flags:
+  campaign-codex:
+    type: ''
+  core:
+    sheetClass: ''
+  scene-packer:
+    sourceId: JournalEntry.TUx99UgBSIp616Hl
+pages:
+  - _id: 03abdf6643151ae0
+    name: 00 · Présentation et compatibilité
+    type: text
+    sort: 0
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h1>Guide de création d'une rencontre personnalisée COF2 dans Foundry
+        VTT</h1>
+
+        <p>Warbound — Chroniques Oubliées Fantasy 2 · Foundry VTT v14 ·
+        Documentation COF2 2.1.0</p>
+
+        <p><strong>Compatibilité :</strong> le journal JSON fourni pour modèle
+        indique COF2 2.3.12. Le guide de l’interface qui sert de référence date
+        de COF2 2.1.0 ; les étapes sont donc à vérifier sur la version
+        installée.</p>
+
+        <p>L'objectif est de pouvoir créer un acteur « Rencontre » entièrement
+        opérationnel, avec toutes ses caractéristiques, ses attaques, ses
+        capacités, ses défenses et son comportement, tout en respectant les
+        règles de création et d'équilibrage de COF2.</p>
+
+        <p>Je m'appuie sur les trois documents de référence présents dans notre
+        projet : le Livre de règles COF2 (2024), le Bestiaire COF2 (2025) et le
+        Guide du système COF2 pour Foundry (mai 2026).</p>
+
+        <p><strong>Mode d’emploi :</strong> ouvrir les pages du journal dans
+        l’ordre et utiliser la checklist en fin de guide. Le journal est réservé
+        au MJ par défaut.</p>
+      markdown: ''
+    flags: {}
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794759777198
+      modifiedTime: 1794759777198
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!sSEObVWRoSUZZ4Wj.03abdf6643151ae0'
+  - _id: 63204f1fa3c35017
+    name: 1. La règle fondamentale de Foundry
+    type: text
+    sort: 100000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h2>1. La règle fondamentale de Foundry</h2>
+
+        <p>Le NC ne calcule pas automatiquement les statistiques de l'acteur
+        Rencontre.</p>
+
+        <p>C'est explicitement précisé dans le guide officiel de Foundry, page
+        31. Tu dois renseigner manuellement la DEF, l'Initiative, la Vigueur,
+        les caractéristiques et les attaques.</p>
+
+        <p>Un acteur NC 3 avec 0 PV et 0 DEF reste à 0 PV et 0 DEF tant que tu
+        ne les renseignes pas.</p>
+
+        <p>C'est exactement la situation visible sur ta capture de Calgar : tu
+        as créé la structure de l'acteur, mais elle ne possède encore aucune
+        caractéristique de combat utilisable.</p>
+
+        <p>Il faut donc travailler dans cet ordre :</p>
+
+        <table class="warbound-table">
+
+        <thead>
+
+        <tr>
+
+        <th>Étape</th>
+
+        <th>Objet</th>
+
+        <th>Objectif</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+
+        <td>1</td>
+
+        <td>Conception</td>
+
+        <td>Type, taille, rôle et NC</td>
+
+        </tr>
+
+        <tr>
+
+        <td>2</td>
+
+        <td>Statistiques</td>
+
+        <td>Caractéristiques et valeurs de combat</td>
+
+        </tr>
+
+        <tr>
+
+        <td>3</td>
+
+        <td>Attaques</td>
+
+        <td>Bonus, dégâts et actions</td>
+
+        </tr>
+
+        <tr>
+
+        <td>4</td>
+
+        <td>Capacités</td>
+
+        <td>Pouvoirs, effets et limites</td>
+
+        </tr>
+
+        <tr>
+
+        <td>5</td>
+
+        <td>Foundry</td>
+
+        <td>Butin, notes et token</td>
+
+        </tr>
+
+        <tr>
+
+        <td>6</td>
+
+        <td>Validation</td>
+
+        <td>Tests et équilibrage POP</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+      markdown: ''
+    flags: {}
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794759777198
+      modifiedTime: 1794759777198
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!sSEObVWRoSUZZ4Wj.63204f1fa3c35017'
+  - _id: 6facb8f7c08401e8
+    name: 2. Les champs de ton acteur Rencontre
+    type: text
+    sort: 200000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h2>2. Les champs de ton acteur Rencontre</h2>
+
+        <p>En reprenant exactement l'interface de ta capture :</p>
+
+        <table class="warbound-table">
+
+        <thead>
+
+        <tr>
+
+        <th>Champ Foundry</th>
+
+        <th>Règle ou méthode COF2</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+
+        <td>Nom</td>
+
+        <td>Nom libre du PNJ ou de la créature</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Image</td>
+
+        <td>Portrait de l'acteur</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Type</td>
+
+        <td>Vivante, Humanoïde, Végétale ou Non-vivante</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Taille</td>
+
+        <td>Catégorie de taille, de Minuscule à Colossale</td>
+
+        </tr>
+
+        <tr>
+
+        <td>NC</td>
+
+        <td>Niveau de créature final</td>
+
+        </tr>
+
+        <tr>
+
+        <td>AGI, CON, FOR</td>
+
+        <td>Modificateurs physiques déterminés par l'archétype et le
+        concept</td>
+
+        </tr>
+
+        <tr>
+
+        <td>PER, CHA, INT, VOL</td>
+
+        <td>Modificateurs choisis selon les aptitudes de la créature</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Caractéristique supérieure (*)</td>
+
+        <td>Dé bonus aux tests de la caractéristique concernée</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Initiative</td>
+
+        <td>10 + PER, avec +3 si PER supérieure</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Défense (DEF)</td>
+
+        <td>Table des profils de combat ou profil adapté</td>
+
+        </tr>
+
+        <tr>
+
+        <td>RD</td>
+
+        <td>Réduction des dommages, si une règle ou une capacité l'accorde</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Vigueur (PV)</td>
+
+        <td>Table des profils de combat ou profil adapté</td>
+
+        </tr>
+
+        <tr>
+
+        <td>DM temporaires</td>
+
+        <td>0 au départ, sauf situation particulière</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Déplacement</td>
+
+        <td>Vitesse propre à la créature</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Attaques</td>
+
+        <td>Objets « Attaque de rencontre » distincts</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Actions</td>
+
+        <td>Générées par les capacités configurées</td>
+
+        </tr>
+
+        <tr>
+
+        <td>États</td>
+
+        <td>États et effets actifs, gérés par le système</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <p>Le Type est purement informatif dans Foundry : choisir « Humanoïde »
+        n'ajoute aucun bonus. La Taille, elle, est utilisée pour dimensionner le
+        token lors de son placement.</p>
+
+        <p>Autre distinction importante : les sept caractéristiques affichées
+        sont bien des modificateurs, pas des scores à convertir. Pour une FOR
+        +3, tu saisis directement <code>+3</code>.</p>
+
+        <p>Source : Guide officiel Foundry COF2, p. 25–29 ; Livre de règles
+        COF2, p. 302–303.</p>
+      markdown: ''
+    flags: {}
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794759777198
+      modifiedTime: 1794759777198
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!sSEObVWRoSUZZ4Wj.6facb8f7c08401e8'
+  - _id: 10e1d871cb72135a
+    name: 3. Définir les statistiques selon les règles officielles
+    type: text
+    sort: 300000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h2>3. Définir les statistiques selon les règles officielles</h2>
+
+        <h3>Étape A — Choisir le concept et l'archétype</h3>
+
+        <p>Le Bestiaire, p. 196, distingue trois archétypes : inférieur,
+        standard et puissant. Ils servent à déterminer AGI, CON et FOR en
+        fonction de la taille.</p>
+
+        <p>Pour une créature de taille moyenne :</p>
+
+        <table class="warbound-table">
+
+        <thead>
+
+        <tr>
+
+        <th>Archétype</th>
+
+        <th>AGI</th>
+
+        <th>CON</th>
+
+        <th>FOR</th>
+
+        <th>NC minimal</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+
+        <td>Inférieur</td>
+
+        <td>+2</td>
+
+        <td>-1</td>
+
+        <td>-1</td>
+
+        <td>0</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Standard</td>
+
+        <td>+1</td>
+
+        <td>+1</td>
+
+        <td>+1*</td>
+
+        <td>½</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Puissant</td>
+
+        <td>+0</td>
+
+        <td>+3</td>
+
+        <td>+3*</td>
+
+        <td>1</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <p>L'astérisque représente une caractéristique supérieure : dans
+        Foundry, il faut cocher la case correspondante lorsque l'acteur est
+        déverrouillé.</p>
+
+        <p>Les valeurs physiques ne sont pas obligatoirement figées. Le
+        Bestiaire précise notamment qu'un humanoïde expérimenté peut avoir des
+        statistiques de combat supérieures sans modifier ses caractéristiques
+        physiques.</p>
+
+        <h3>Étape B — Choisir les autres caractéristiques</h3>
+
+        <p>Pour PER, CHA, INT et VOL, le Bestiaire propose des qualificatifs
+        allant de -4 à +6. Par exemple, une créature vigilante peut avoir PER
+        +2, une créature d'intelligence animale INT -4 et un chef résolu VOL
+        +2.</p>
+
+        <p>Il ne faut pas confondre la valeur d'une caractéristique et son
+        éventuel caractère supérieur. Une créature peut avoir FOR +3 et une
+        autre FOR +3* ; la seconde bénéficie du dé bonus à ses tests de FOR.</p>
+
+        <h3>Étape C — Définir les statistiques de combat</h3>
+
+        <p>Voici une extraction de la table officielle de la page 198 du
+        Bestiaire.</p>
+
+        <table class="warbound-table">
+
+        <thead>
+
+        <tr>
+
+        <th>NC du profil</th>
+
+        <th>DEF</th>
+
+        <th>Vigueur</th>
+
+        <th>Attaque principale</th>
+
+        <th>Dégâts</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+
+        <td>0</td>
+
+        <td>11</td>
+
+        <td>3</td>
+
+        <td>+2</td>
+
+        <td>1d4-1</td>
+
+        </tr>
+
+        <tr>
+
+        <td>½</td>
+
+        <td>13</td>
+
+        <td>9</td>
+
+        <td>+3</td>
+
+        <td>1d6+1</td>
+
+        </tr>
+
+        <tr>
+
+        <td>1</td>
+
+        <td>15</td>
+
+        <td>15</td>
+
+        <td>+4</td>
+
+        <td>1d6+3</td>
+
+        </tr>
+
+        <tr>
+
+        <td>2</td>
+
+        <td>17</td>
+
+        <td>30</td>
+
+        <td>+6</td>
+
+        <td>2d6+4</td>
+
+        </tr>
+
+        <tr>
+
+        <td>3</td>
+
+        <td>18</td>
+
+        <td>50</td>
+
+        <td>+8</td>
+
+        <td>2d6+8</td>
+
+        </tr>
+
+        <tr>
+
+        <td>4</td>
+
+        <td>20</td>
+
+        <td>70</td>
+
+        <td>+10</td>
+
+        <td>2d8+10</td>
+
+        </tr>
+
+        <tr>
+
+        <td>5</td>
+
+        <td>21</td>
+
+        <td>90</td>
+
+        <td>+11</td>
+
+        <td>2d10+12</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <p>Attention : le NC du profil de combat n'est pas toujours égal au NC
+        final. Par exemple, une créature avec un profil de combat NC 2 et deux
+        capacités à +½ NC possède un NC final de 3. On ne doit pas lui attribuer
+        directement les statistiques de combat NC 3 en plus de ses capacités,
+        sous peine de la surévaluer.</p>
+
+        <p>La répartition des dégâts se fait sur l'ensemble d'un round. Si une
+        créature effectue deux attaques, il faut répartir les dégâts prévus
+        entre elles plutôt que multiplier les dégâts du tableau par deux.</p>
+
+        <h3>Étape D — Les valeurs complémentaires</h3>
+
+        <table class="warbound-table">
+
+        <thead>
+
+        <tr>
+
+        <th>Statistique</th>
+
+        <th>Règle de saisie</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+
+        <td>Initiative</td>
+
+        <td><code>10 + PER</code>, avec +3 supplémentaire si PER*</td>
+
+        </tr>
+
+        <tr>
+
+        <td>RD</td>
+
+        <td>0 par défaut ; renseigner une valeur si la créature bénéficie d'une
+        réduction des dommages</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Déplacement</td>
+
+        <td>Déterminé selon le mode de déplacement de la créature</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Attaque secondaire</td>
+
+        <td>Peut être égale à l'attaque principale ou inférieure</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Attaque magique</td>
+
+        <td><code>NC + VOL</code>, sans dépasser l'attaque principale</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Dégâts temporaires</td>
+
+        <td>0 au départ</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Points de chance</td>
+
+        <td>À renseigner lorsqu'une règle, notamment un rang de boss, en
+        accorde</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <p>Les attaques secondaires peuvent aussi être calculées avec <code>NC +
+        FOR</code>, <code>NC + AGI</code> ou <code>NC + VOL</code>, selon leur
+        nature. Il faut ensuite respecter la limite de l'attaque principale
+        prévue par le Bestiaire, p. 197–199.</p>
+      markdown: ''
+    flags: {}
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794759777198
+      modifiedTime: 1794759777198
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!sSEObVWRoSUZZ4Wj.10e1d871cb72135a'
+  - _id: f273ebc38f816d26
+    name: 4. Créer les attaques dans Foundry
+    type: text
+    sort: 400000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h2>4. Créer les attaques dans Foundry</h2>
+
+        <p>C'est probablement la partie la plus importante pour rendre ton
+        acteur jouable.</p>
+
+        <p>Dans l'onglet Principal, le bloc « Attaques » est actuellement
+        vide.</p>
+
+        <p><strong>Procédure</strong></p>
+
+        <ol>
+
+        <li>Déverrouiller la fiche Rencontre.</li>
+
+        <li>Cliquer sur le <code>+</code> du bloc Attaques, ou créer un objet de
+        type Attaque (de rencontre) dans le répertoire Objets.</li>
+
+        <li>Donner un nom à l'attaque.</li>
+
+        <li>Choisir le sous-type : contact, distance ou magique.</li>
+
+        <li>Configurer l'onglet Actions/Effets de l'objet.</li>
+
+        </ol>
+
+        <p>Dans Actions/Effets, créer une résolution de type Attaque avec les
+        paramètres suivants pour une attaque qui possède un bonus de +4 et
+        inflige 1d6+3 dégâts.</p>
+
+        <table class="warbound-table">
+
+        <thead>
+
+        <tr>
+
+        <th>Paramètre</th>
+
+        <th>Valeur</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+
+        <td>Type d'action</td>
+
+        <td>Attaque de contact</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Activable</td>
+
+        <td>Oui</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Temporaire</td>
+
+        <td>Non</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Type de résolution</td>
+
+        <td>Attaque</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Formule de compétence</td>
+
+        <td><code>4</code></td>
+
+        </tr>
+
+        <tr>
+
+        <td>Difficulté</td>
+
+        <td><code>@cible.def</code></td>
+
+        </tr>
+
+        <tr>
+
+        <td>Dommages</td>
+
+        <td><code>1d6+3</code></td>
+
+        </tr>
+
+        <tr>
+
+        <td>Cible</td>
+
+        <td>Unique — Ennemi</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Critique</td>
+
+        <td>Laisser la valeur standard</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <p>Le système ajoute automatiquement le d20 au bonus d'attaque : il ne
+        faut donc pas saisir <code>1d20+4</code> dans la formule de
+        compétence.</p>
+
+        <p>De même, la formule de dégâts est complète. Il ne faut pas ajouter
+        <code>@for</code> si le bonus de FOR est déjà intégré dans la
+        formule.</p>
+
+        <p>Pour une attaque à distance, la portée peut être renseignée, mais le
+        guide de Foundry indique qu'elle reste informative et ne bloque pas
+        automatiquement l'utilisation hors de portée.</p>
+
+        <p>Source : Guide officiel Foundry COF2, p. 52 et 65–67.</p>
+      markdown: ''
+    flags: {}
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794759777198
+      modifiedTime: 1794759777198
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!sSEObVWRoSUZZ4Wj.f273ebc38f816d26'
+  - _id: 1a205919fde69c78
+    name: 5. Configurer les capacités spéciales
+    type: text
+    sort: 500000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h2>5. Configurer les capacités spéciales</h2>
+
+        <p>Les capacités personnalisées doivent respecter le coût prévu par le
+        Bestiaire.</p>
+
+        <table class="warbound-table">
+
+        <thead>
+
+        <tr>
+
+        <th>Modification</th>
+
+        <th>Conséquence sur le NC</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+
+        <td>Capacité issue d'une voie de créatures</td>
+
+        <td>Généralement +½ NC, parfois +1 NC</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Capacité unique</td>
+
+        <td>Entre 0 et +1 NC selon sa puissance</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Rang de boss classique</td>
+
+        <td>+1 NC</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Rang de boss berserker</td>
+
+        <td>+1 NC</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Rang de boss résistant</td>
+
+        <td>+1 NC</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <p>Une capacité purement narrative, sans incidence sur la létalité, peut
+        avoir un coût de 0 NC. Le Bestiaire recommande également de limiter le
+        coût total des capacités spéciales à environ un tiers du NC final.</p>
+
+        <p>Dans Foundry, une capacité doit être ajoutée sous forme d'objet
+        Capacité, pas sous forme de Voie ou de Profil. L'objet est
+        automatiquement considéré comme appris lorsqu'il est glissé sur l'acteur
+        Rencontre.</p>
+
+        <p>Pour chaque capacité, renseigner son nom, son texte, son temps
+        d'action (A, M, L ou G), sa fréquence éventuelle, et ses Actions/Effets
+        si une automatisation est souhaitée.</p>
+
+        <p><strong>Particularité de Foundry à connaître</strong></p>
+
+        <p>Les acteurs Rencontre ne possèdent pas les mêmes valeurs d'attaque de
+        base que les personnages. Les expressions <code>@atc</code>,
+        <code>@atd</code> et <code>@arme.dmg</code> provenant de capacités de PJ
+        peuvent donc ne pas fonctionner correctement.</p>
+
+        <p>Il faut remplacer ces variables par des valeurs fixes ou des
+        variables compatibles avec la rencontre. Le guide mentionne une
+        exception pour <code>@atm</code>, qui dispose d'un calcul propre aux
+        Rencontres.</p>
+
+        <p><em>Source : Guide Foundry, p. 31 et 72.</em></p>
+
+        <p>Pour les capacités à fréquence limitée, Foundry distingue notamment
+        les usages récupérés après une récupération rapide et les usages
+        quotidiens récupérés après une récupération complète.</p>
+
+        <p>Lorsqu'une capacité impose un état, une sauvegarde ou une durée, il
+        faut configurer la résolution adaptée et éventuellement un effet
+        supplémentaire. L'onglet Effets permettra ensuite de suivre ces
+        effets.</p>
+
+        <p>Le guide précise aussi que, dans la version documentée, les
+        résistances, vulnérabilités et immunités selon le type de dommages ne
+        sont pas entièrement automatisées. Il faut donc prévoir des
+        vérifications manuelles pour certains pouvoirs Warcraft.</p>
+      markdown: ''
+    flags: {}
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794759777198
+      modifiedTime: 1794759777198
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!sSEObVWRoSUZZ4Wj.1a205919fde69c78'
+  - _id: 0b443a690644434e
+    name: 6. Compléter tous les onglets de Foundry
+    type: text
+    sort: 600000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h2>6. Compléter tous les onglets de Foundry</h2>
+
+        <h3>Principal</h3>
+
+        <p>Contient les attaques, actions activables et propriétés. Je
+        recommande d'y indiquer aussi le nombre d'attaques par round, les modes
+        de déplacement particuliers, les réactions et les règles de combat
+        importantes. Le champ « Propriétés » est prévu à cet effet.</p>
+
+        <h3>Butin</h3>
+
+        <p>Renseigner les pièces et les objets récupérables. Attention, les
+        équipements de cet onglet ne sont pas utilisés pour attaquer. Une épée
+        doit être représentée séparément par une Attaque (de rencontre) pour le
+        combat.</p>
+
+        <h3>Voies &amp; Capacités</h3>
+
+        <p>Regroupe les capacités propres à l'adversaire. Malgré le nom de
+        l'onglet, une feuille Rencontre n'accepte que les objets Capacité, pas
+        les Voies complètes.</p>
+
+        <h3>Effets</h3>
+
+        <p>Affiche les effets passifs, activables et temporaires. Les effets
+        personnalisés peuvent conserver leur durée en rounds pendant un
+        combat.</p>
+
+        <h3>Notes</h3>
+
+        <p>Séparer les notes publiques (description perceptible et comportement
+        général) des notes privées : motivations, tactiques, secrets et
+        informations réservées au MJ.</p>
+
+        <h3>Prototype du Token</h3>
+
+        <p>Configurer indépendamment du portrait de la fiche : image du token,
+        nom affiché, vision, taille, disposition et barres de ressources. Il
+        faut vérifier le prototype avant de placer les créatures sur la
+        scène.</p>
+
+        <p>Source : Guide officiel Foundry COF2, p. 25–32.</p>
+      markdown: ''
+    flags: {}
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794759777198
+      modifiedTime: 1794759777198
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!sSEObVWRoSUZZ4Wj.0b443a690644434e'
+  - _id: 0e22709fce4b0a06
+    name: '7. Exemple complet : créer un garde orc de Durotar'
+    type: text
+    sort: 700000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h2>7. Exemple complet : créer un garde orc de Durotar</h2>
+
+        <p>Voici une rencontre Warbound construite avec les profils officiels
+        COF2. C'est une création illustrative, et non une fiche canonique d'un
+        PNJ de Warcraft.</p>
+
+        <h3>Garde orc de Durotar</h3>
+
+        <p><em>Humanoïde · Taille moyenne · Archétype puissant · NC 1 · 10
+        POP</em></p>
+
+        <table class="warbound-table">
+
+        <thead>
+
+        <tr>
+
+        <th>Caractéristique</th>
+
+        <th>AGI</th>
+
+        <th>CON</th>
+
+        <th>FOR</th>
+
+        <th>PER</th>
+
+        <th>CHA</th>
+
+        <th>INT</th>
+
+        <th>VOL</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+
+        <td>Modificateur</td>
+
+        <td>+0</td>
+
+        <td>+3</td>
+
+        <td>+3*</td>
+
+        <td>+2</td>
+
+        <td>+0</td>
+
+        <td>+0</td>
+
+        <td>+2</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <table class="warbound-table">
+
+        <thead>
+
+        <tr>
+
+        <th>Statistique</th>
+
+        <th>Valeur</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+
+        <td>Initiative</td>
+
+        <td>12</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Défense (DEF)</td>
+
+        <td>15</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Vigueur (PV)</td>
+
+        <td>15</td>
+
+        </tr>
+
+        <tr>
+
+        <td>RD</td>
+
+        <td>0</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Déplacement</td>
+
+        <td>10 m — choix de conception</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Attaque principale</td>
+
+        <td>Hache (contact), +4, DM 1d6+3, une attaque par round</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Capacités, PC</td>
+
+        <td>Aucune capacité spéciale, 0 PC</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Caractéristique supérieure</td>
+
+        <td>FOR*</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <p>Ce profil possède les statistiques officielles d'un NC 1 et des
+        caractéristiques physiques correspondant à l'archétype moyen puissant.
+        Les caractéristiques mentales, l'arme et le déplacement sont des choix
+        de création.</p>
+
+        <p>Pour quatre PJ de niveau 1, il s'agit d'une rencontre ordinaire selon
+        le budget de POP du Bestiaire.</p>
+
+        <h3>Variante : garde vétéran</h3>
+
+        <p>En appliquant un rang de boss classique au garde précédent :</p>
+
+        <table class="warbound-table">
+
+        <thead>
+
+        <tr>
+
+        <th>Statistique</th>
+
+        <th>Garde</th>
+
+        <th>Vétéran</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+
+        <td>NC</td>
+
+        <td>1</td>
+
+        <td>2</td>
+
+        </tr>
+
+        <tr>
+
+        <td>DEF</td>
+
+        <td>15</td>
+
+        <td>17</td>
+
+        </tr>
+
+        <tr>
+
+        <td>PV</td>
+
+        <td>15</td>
+
+        <td>35</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Attaque</td>
+
+        <td>+4</td>
+
+        <td>+6</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Dégâts</td>
+
+        <td>1d6+3</td>
+
+        <td>1d6+5</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Points de chance</td>
+
+        <td>0</td>
+
+        <td>1</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <p>Le NC passe à 2, soit 20 POP. Il devient une rencontre difficile pour
+        quatre PJ de niveau 1. La VOL et une autre caractéristique pertinente
+        peuvent également augmenter de +1 conformément aux règles des rangs de
+        boss.</p>
+
+        <p>Cette variante illustre les modifications officielles du rang de boss
+        classique (Bestiaire, p. 194–195). Tu dois saisir toutes ces nouvelles
+        valeurs manuellement dans Foundry.</p>
+      markdown: ''
+    flags: {}
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794759777198
+      modifiedTime: 1794759777198
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!sSEObVWRoSUZZ4Wj.0e22709fce4b0a06'
+  - _id: 84e9f894815bb61a
+    name: 8. Checklist de création et de validation
+    type: text
+    sort: 800000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h2>8. Checklist de création et de validation</h2>
+
+        <p><strong>Checklist de contrôle de l'acteur</strong></p>
+
+        <ul>
+
+        <li class="task-list-item">☐ Concept, type, taille et archétype
+        définis</li>
+
+        <li class="task-list-item">☐ NC final calculé (profil + capacités +
+        boss)</li>
+
+        <li class="task-list-item">☐ Sept caractéristiques et caractéristiques
+        supérieures configurées</li>
+
+        <li class="task-list-item">☐ Initiative, DEF, RD, PV et déplacement
+        renseignés</li>
+
+        <li class="task-list-item">☐ Toutes les attaques créées avec leur
+        formule correcte</li>
+
+        <li class="task-list-item">☐ Capacités, fréquences et effets
+        configurés</li>
+
+        <li class="task-list-item">☐ Butin et notes publiques/privées
+        complétés</li>
+
+        <li class="task-list-item">☐ Portrait et prototype du token
+        configurés</li>
+
+        <li class="task-list-item">☐ Tests d'attaque, de dégâts et d'effets
+        effectués</li>
+
+        <li class="task-list-item">☐ POP et difficulté vérifiés pour les PJ</li>
+
+        </ul>
+      markdown: ''
+    flags: {}
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794759777198
+      modifiedTime: 1794759777198
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!sSEObVWRoSUZZ4Wj.84e9f894815bb61a'
+  - _id: 3f5f61af62da20b3
+    name: 9. Le standard que je retiendrais pour Warbound
+    type: text
+    sort: 900000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h2>9. Le standard que je retiendrais pour Warbound</h2>
+
+        <p>Il est préférable d'avoir un seul modèle de fiche de rencontre,
+        identique pour toutes les créatures Warcraft que nous créerons. Il
+        contiendrait trois niveaux :</p>
+
+        <ul>
+
+        <li>Statistiques officielles COF2 : toutes les valeurs mécaniques,
+        accompagnées de leur calcul et du NC final.</li>
+
+        <li>Configuration Foundry : les champs exacts, objets d'attaque,
+        capacités, effets et paramètres de token.</li>
+
+        <li>Comportement en rencontre : objectifs de la créature, réactions
+        possibles, conditions de fuite ou de reddition, et interactions avec le
+        terrain.</li>
+
+        </ul>
+
+        <p>La séparation est essentielle. Un acteur techniquement complet n'est
+        pas nécessairement une rencontre intéressante, et inversement. Pour une
+        harde en fuite, par exemple, nous devrons peut-être gérer surtout le
+        mouvement, le danger de la charge et la protection des civils, plutôt
+        qu'un affrontement traditionnel.</p>
+
+        <p>Enfin, je recommande de réserver la feuille Personnage de Foundry aux
+        adversaires exceptionnellement complexes. Le guide officiel indique
+        clairement qu'elle est plus adaptée lorsqu'un PNJ doit exploiter de
+        nombreuses voies, des équipements actifs ou des automatisations
+        avancées.</p>
+
+        <p>Notre format de base doit donc rester Rencontre, simple, rapide à
+        instancier et entièrement compatible avec COF2.</p>
+
+        <p>Sources principales : Laurent Bernasconi, Chroniques Oubliées Fantasy
+        2 — Livre de règles, Black Book Éditions, 2024, p. 302–303 ; Bestiaire,
+        Black Book Éditions, 2025, p. 188–204 ; Guide du système COF2 pour
+        Foundry VTT, version 2.1.0, mai 2026, p. 25–32, 43–45, 52 et 65–73.</p>
+      markdown: ''
+    flags: {}
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794759777198
+      modifiedTime: 1794759777198
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!sSEObVWRoSUZZ4Wj.3f5f61af62da20b3'
+  - _id: 5b736ddcf4821c5a
+    name: Annexe A — Équilibrer la rencontre avec les POP
+    type: text
+    sort: 1000000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h2>Annexe A — Équilibrer la rencontre avec les POP</h2>
+
+        <p>Pour évaluer un affrontement, convertir le NC de chaque adversaire en
+        points d'opposition (POP) puis additionner les POP. Le budget indique
+        une <strong>difficulté indicative</strong>, calculée pour quatre PJ de
+        même niveau et disposant initialement de toutes leurs ressources.</p>
+
+        <table class="warbound-table">
+
+        <thead>
+
+        <tr>
+
+        <th>NC</th>
+
+        <th>0</th>
+
+        <th>½</th>
+
+        <th>1</th>
+
+        <th>2</th>
+
+        <th>3</th>
+
+        <th>4</th>
+
+        <th>5</th>
+
+        <th>6</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+
+        <td>POP</td>
+
+        <td>2</td>
+
+        <td>5</td>
+
+        <td>10</td>
+
+        <td>20</td>
+
+        <td>40</td>
+
+        <td>60</td>
+
+        <td>90</td>
+
+        <td>120</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <table class="warbound-table">
+
+        <thead>
+
+        <tr>
+
+        <th>Niveau des PJ (4 PJ)</th>
+
+        <th>Sans danger</th>
+
+        <th>Facile</th>
+
+        <th>Ordinaire</th>
+
+        <th>Difficile</th>
+
+        <th>Extrême</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+
+        <td>1</td>
+
+        <td>2</td>
+
+        <td>5</td>
+
+        <td>10</td>
+
+        <td>20</td>
+
+        <td>30</td>
+
+        </tr>
+
+        <tr>
+
+        <td>2</td>
+
+        <td>5</td>
+
+        <td>10</td>
+
+        <td>20</td>
+
+        <td>30</td>
+
+        <td>40</td>
+
+        </tr>
+
+        <tr>
+
+        <td>3</td>
+
+        <td>10</td>
+
+        <td>20</td>
+
+        <td>40</td>
+
+        <td>60</td>
+
+        <td>80</td>
+
+        </tr>
+
+        <tr>
+
+        <td>4</td>
+
+        <td>15</td>
+
+        <td>40</td>
+
+        <td>60</td>
+
+        <td>80</td>
+
+        <td>120</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <p>Pour <strong>3 PJ</strong>, réduire les budgets d'environ un tiers ;
+        pour <strong>5 PJ</strong>, les augmenter d'environ un tiers. Pour
+        <strong>6 PJ</strong>, augmenter de 75 % ; pour <strong>2 PJ</strong>,
+        réduire d'environ deux tiers. Ces coefficients officiels sont donnés
+        pour une composition de groupe classique : leur application reste
+        indicative si le groupe dispose de synergies inhabituelles.</p>
+
+        <p><strong>Exemple — quatre PJ niveau 1 :</strong> un adversaire NC 1
+        (10 POP) correspond à une rencontre ordinaire ; un garde vétéran NC 2
+        (20 POP) à une rencontre difficile. La surprise, le terrain et
+        l'épuisement peuvent modifier fortement le résultat.</p>
+
+        <p><em>Source : Bestiaire COF2, p. 188–192, tableaux de conversion
+        NC/POP et difficulté des rencontres.</em></p>
+      markdown: ''
+    flags: {}
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794759777198
+      modifiedTime: 1794759777198
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!sSEObVWRoSUZZ4Wj.5b736ddcf4821c5a'
+  - _id: 0edcffeb13e1d669
+    name: Annexe B — Vigilance de compatibilité et sources
+    type: text
+    sort: 1100000
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <h2>Annexe B — Vigilance de compatibilité et sources</h2>
+
+        <p><strong>Version Foundry utilisée pour concevoir ce document
+        :</strong> la documentation disponible décrit Foundry VTT v14 et le
+        système COF2 <strong>2.1.0</strong> (mai 2026). Le modèle de journal
+        fourni par le MJ provient d'un monde sous <strong>COF2 2.3.12</strong>.
+        Les étapes de l'interface et les automatisations doivent donc être
+        contrôlées sur la version effectivement installée ; l'import du journal
+        n'a pas été testé dans ce monde.</p>
+
+        <p><strong>Origine des chiffres :</strong> les tables de NC,
+        caractéristiques, combat, rangs de boss et POP proviennent des ouvrages
+        de COF2 ; les choix de personnage Warcraft, les noms, les comportements
+        et les valeurs explicitement identifiées comme « choix de conception »
+        sont des adaptations Warbound.</p>
+
+        <p><strong>Documents de référence :</strong></p>
+
+        <ul>
+
+        <li>Laurent Bernasconi, <em>Chroniques Oubliées Fantasy 2 — Livre de
+        règles</em>, Black Book Éditions, 2024, p. 302–303.</li>
+
+        <li>Laurent Bernasconi, <em>Chroniques Oubliées Fantasy 2 —
+        Bestiaire</em>, Black Book Éditions, 2025, p. 188–204.</li>
+
+        <li><em>Guide du système COF2 pour Foundry VTT</em>, système 2.1.0, mai
+        2026, p. 25–32, 43–45, 52 et 65–73.</li>
+
+        </ul>
+
+        <p><strong>Rappel opérationnel :</strong> créer les acteurs et objets
+        dans Foundry, puis tester une attaque et un effet sur une scène d'essai.
+        Ce journal est une documentation, pas un Actor JSON prêt à importer.</p>
+      markdown: ''
+    flags: {}
+    _stats:
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794759777198
+      modifiedTime: 1794759777198
+      lastModifiedBy: TjbWhMczNyKieD8D
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    system: {}
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    _key: '!journal.pages!sSEObVWRoSUZZ4Wj.0edcffeb13e1d669'
+folder: DiweRaOz1zGF7Ap6
+categories: []
+ownership:
+  default: 0
+  TjbWhMczNyKieD8D: 3
+_stats:
+  coreVersion: '14.369'
+  systemId: co2
+  systemVersion: 2.3.12
+  createdTime: 1794759777198
+  modifiedTime: 1794759777198
+  lastModifiedBy: TjbWhMczNyKieD8D
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_id: sSEObVWRoSUZZ4Wj
+sort: 0
+_key: '!journal!sSEObVWRoSUZZ4Wj'
