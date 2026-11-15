@@ -4,7 +4,7 @@ _id: OR2WdVn8wPvE7Hbc
 active: false
 navigation: true
 navOrder: 0
-thumb: modules/warbound-campaign-content/assets/scenes/thumb-TpyFOV4ypPtZfubtfeoV1g.webp
+thumb: worlds/au-nom-de-la-horde-cof2/assets/scenes/thumb-TpyFOV4ypPtZfubtfeoV1g.webp
 width: 1672
 height: 941
 padding: 0.25
@@ -24,7 +24,7 @@ grid:
   alpha: 0.2
   distance: 1.5
   units: m
-tokenVision: true
+tokenVision: false
 fog:
   mode: 1
   colors:
@@ -34,7 +34,7 @@ environment:
   darknessLevel: 0
   darknessLock: false
   globalLight:
-    enabled: false
+    enabled: true
     alpha: 0.5
     bright: false
     color: null
@@ -60,11 +60,545 @@ environment:
     saturation: 0
     shadows: 0
 transition:
-  type: null
+  type: fade
   duration: 1500
   activeOnly: false
 drawings: []
-tokens: []
+tokens:
+  - name: Borka
+    displayName: 30
+    actorLink: true
+    width: 1
+    height: 1
+    texture:
+      src: modules/warbound-campaign-content/assets/images/tokens/npcs/durotar/mine-roche-seche/cof2-borka-token.webp
+      scaleX: 1
+      scaleY: 1
+      fit: contain
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      alphaThreshold: 0.75
+    disposition: 0
+    displayBars: 0
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    depth: 1
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    flags: {}
+    actorId: NCPLhfMo4N80d8FV
+    hidden: false
+    sort: 0
+    shape: 4
+    level: defaultLevel0000
+    _id: 7kYvm4fWL7PDsyjW
+    delta: null
+    x: 1538
+    'y': 805
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!OR2WdVn8wPvE7Hbc.7kYvm4fWL7PDsyjW'
+  - name: Brazzik Main-Froide
+    displayName: 30
+    actorLink: true
+    width: 1
+    height: 1
+    texture:
+      src: modules/warbound-campaign-content/assets/images/tokens/npcs/durotar/mine-roche-seche/cof2-brazzik-main-froide-token.webp
+      scaleX: 1
+      scaleY: 1
+      fit: contain
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      alphaThreshold: 0.75
+    disposition: 0
+    displayBars: 0
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    depth: 1
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    flags: {}
+    actorId: xvIfsWKFd3XlxRDW
+    hidden: false
+    sort: 1
+    shape: 4
+    level: defaultLevel0000
+    _id: bnwrqfMrDsD5VF9P
+    delta: null
+    x: 1299
+    'y': 791
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!OR2WdVn8wPvE7Hbc.bnwrqfMrDsD5VF9P'
+  - name: Krosh Pèse-Charge
+    displayName: 30
+    actorLink: true
+    width: 1
+    height: 1
+    texture:
+      src: modules/warbound-campaign-content/assets/images/tokens/npcs/durotar/mine-roche-seche/cof2-krosh-pese-charge-token.webp
+      scaleX: 1
+      scaleY: 1
+      fit: contain
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      alphaThreshold: 0.75
+    disposition: 0
+    displayBars: 0
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    depth: 1
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    flags: {}
+    actorId: KLbUH2aOlSyHUnae
+    hidden: false
+    sort: 2
+    shape: 4
+    level: defaultLevel0000
+    _id: HGBIF3DXLJXUX56j
+    delta: null
+    x: 760
+    'y': 815
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!OR2WdVn8wPvE7Hbc.HGBIF3DXLJXUX56j'
+  - name: Moj’ka Main-de-Graisse
+    displayName: 30
+    actorLink: true
+    width: 1
+    height: 1
+    texture:
+      src: modules/warbound-campaign-content/assets/images/tokens/npcs/durotar/mine-roche-seche/cof2-moj-ka-main-de-graisse-token.webp
+      scaleX: 1
+      scaleY: 1
+      fit: contain
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      alphaThreshold: 0.75
+    disposition: 0
+    displayBars: 0
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    depth: 1
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    flags: {}
+    actorId: Xjjk7WJsMPRVpEZj
+    hidden: false
+    sort: 3
+    shape: 4
+    level: defaultLevel0000
+    _id: WDTST4bjJ3xn9uPe
+    delta: null
+    x: 1962
+    'y': 674
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!OR2WdVn8wPvE7Hbc.WDTST4bjJ3xn9uPe'
+  - name: Ragrah Brise-Pic
+    displayName: 30
+    actorLink: true
+    width: 1
+    height: 1
+    texture:
+      src: modules/warbound-campaign-content/assets/images/tokens/npcs/durotar/mine-roche-seche/cof2-ragrah-brise-pic-token.webp
+      scaleX: 1
+      scaleY: 1
+      fit: contain
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      alphaThreshold: 0.75
+    disposition: 0
+    displayBars: 0
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    depth: 1
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    flags: {}
+    actorId: WZmhEhaByZJuADqs
+    hidden: false
+    sort: 4
+    shape: 4
+    level: defaultLevel0000
+    _id: 477SyHxC7g81ieqk
+    delta: null
+    x: 1143
+    'y': 1015
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!OR2WdVn8wPvE7Hbc.477SyHxC7g81ieqk'
+  - name: Rukha
+    displayName: 30
+    actorLink: true
+    width: 1
+    height: 1
+    texture:
+      src: modules/warbound-campaign-content/assets/images/tokens/npcs/durotar/mine-roche-seche/cof2-rukha-token.webp
+      scaleX: 1
+      scaleY: 1
+      fit: contain
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      alphaThreshold: 0.75
+    disposition: 0
+    displayBars: 0
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    depth: 1
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    flags: {}
+    actorId: XO981jkCXaPf7jDz
+    hidden: false
+    sort: 5
+    shape: 4
+    level: defaultLevel0000
+    _id: OH1Dx6ZTut9A5Xgt
+    delta: null
+    x: 1507
+    'y': 1023
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!OR2WdVn8wPvE7Hbc.OH1Dx6ZTut9A5Xgt'
 levels:
   - _id: defaultLevel0000
     name: Level
@@ -104,9 +638,9 @@ tiles: []
 walls: []
 playlist: null
 playlistSound: null
-journal: null
+journal: 3804DaSpkWC1bBzY
 journalEntryPage: null
-weather: ''
+weather: fxmaster.bats
 sort: 100000
 ownership:
   default: 0
@@ -119,11 +653,11 @@ flags:
   baileywiki-landing-page:
     labelInterface: true
 _stats:
-  coreVersion: '14.367'
+  coreVersion: '14.369'
   systemId: co2
   systemVersion: 2.3.12
-  createdTime: 1793025869184
-  modifiedTime: 1793025869184
+  createdTime: 1794780378027
+  modifiedTime: 1794780378027
   lastModifiedBy: TjbWhMczNyKieD8D
   compendiumSource: null
   duplicateSource: null

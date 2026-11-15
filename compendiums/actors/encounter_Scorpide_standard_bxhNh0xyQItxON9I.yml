@@ -342,11 +342,11 @@ items:
       TjbWhMczNyKieD8D: 3
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.369'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1793039552384
-      modifiedTime: 1793039552384
+      createdTime: 1794780361409
+      modifiedTime: 1794780361409
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -427,11 +427,11 @@ items:
       TjbWhMczNyKieD8D: 3
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.369'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1793039552384
-      modifiedTime: 1793039552384
+      createdTime: 1794780361409
+      modifiedTime: 1794780361409
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -477,11 +477,11 @@ items:
       default: 0
       TjbWhMczNyKieD8D: 3
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.369'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1793039552384
-      modifiedTime: 1793039552384
+      createdTime: 1794780361409
+      modifiedTime: 1794780361409
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -604,33 +604,33 @@ items:
       TjbWhMczNyKieD8D: 3
     flags: {}
     _stats:
-      coreVersion: '14.367'
-      systemId: co2
-      systemVersion: 2.3.12
-      createdTime: 1793039552384
-      modifiedTime: 1793039552384
-      lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '14.369'
+      systemId: co2
+      systemVersion: 2.3.12
+      createdTime: 1794780361409
+      modifiedTime: 1794780361409
+      lastModifiedBy: TjbWhMczNyKieD8D
       exportSource: null
     _id: 7os7z1cJ2mivky8r
     sort: 1900000
     _key: '!actors.items!bxhNh0xyQItxON9I.7os7z1cJ2mivky8r'
 effects: []
 folder: tZdyFWgxOLbonb5W
+sort: 100000
 ownership:
   default: 0
   TjbWhMczNyKieD8D: 3
 flags: {}
 _stats:
-  coreVersion: '14.367'
+  coreVersion: '14.369'
   systemId: co2
   systemVersion: 2.3.12
-  createdTime: 1793039552384
-  modifiedTime: 1793039552384
+  createdTime: 1794780361409
+  modifiedTime: 1794780361409
   lastModifiedBy: TjbWhMczNyKieD8D
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-sort: 0
 _key: '!actors!bxhNh0xyQItxON9I'

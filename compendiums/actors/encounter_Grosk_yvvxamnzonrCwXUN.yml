@@ -297,11 +297,11 @@ effects:
     sort: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.369'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1793022592154
-      modifiedTime: 1793022592154
+      createdTime: 1794780361404
+      modifiedTime: 1794780361404
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -317,11 +317,11 @@ flags:
       - name: Grosk
         uuid: JournalEntry.VdBucNVnB6r311r7
 _stats:
-  coreVersion: '14.367'
+  coreVersion: '14.369'
   systemId: co2
   systemVersion: 2.3.12
-  createdTime: 1793022592154
-  modifiedTime: 1793022592163
+  createdTime: 1794780361404
+  modifiedTime: 1794780361415
   lastModifiedBy: TjbWhMczNyKieD8D
   compendiumSource: null
   duplicateSource: null

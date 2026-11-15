@@ -113,12 +113,14 @@ flags:
     blackBars: false
   wall-height:
     advancedVision: true
+  baileywiki-landing-page:
+    labelInterface: true
 _stats:
-  coreVersion: '14.367'
+  coreVersion: '14.369'
   systemId: co2
   systemVersion: 2.3.12
-  createdTime: 1793022579299
-  modifiedTime: 1793025885749
+  createdTime: 1794780378061
+  modifiedTime: 1794780378071
   lastModifiedBy: TjbWhMczNyKieD8D
   compendiumSource: null
   duplicateSource: null

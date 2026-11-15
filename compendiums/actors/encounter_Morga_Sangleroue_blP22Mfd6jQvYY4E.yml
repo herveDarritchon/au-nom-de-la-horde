@@ -296,11 +296,11 @@ effects:
     sort: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.369'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1793022592155
-      modifiedTime: 1793022592155
+      createdTime: 1794780361405
+      modifiedTime: 1794780361405
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -316,11 +316,11 @@ flags:
       - name: Morga Sangleroue
         uuid: JournalEntry.8P86TA4tw69FsXcs
 _stats:
-  coreVersion: '14.367'
+  coreVersion: '14.369'
   systemId: co2
   systemVersion: 2.3.12
-  createdTime: 1793022592155
-  modifiedTime: 1793022592163
+  createdTime: 1794780361405
+  modifiedTime: 1794780361415
   lastModifiedBy: TjbWhMczNyKieD8D
   compendiumSource: null
   duplicateSource: null

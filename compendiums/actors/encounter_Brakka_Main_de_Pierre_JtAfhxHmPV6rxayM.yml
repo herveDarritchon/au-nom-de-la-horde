@@ -296,11 +296,11 @@ effects:
     sort: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.369'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1793022592152
-      modifiedTime: 1793022592152
+      createdTime: 1794780361402
+      modifiedTime: 1794780361402
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -316,11 +316,11 @@ flags:
       - name: Brakka Main-de-Pierre
         uuid: JournalEntry.NWny5NgiLiMtG2zn
 _stats:
-  coreVersion: '14.367'
+  coreVersion: '14.369'
   systemId: co2
   systemVersion: 2.3.12
-  createdTime: 1793022592152
-  modifiedTime: 1793022592162
+  createdTime: 1794780361402
+  modifiedTime: 1794780361414
   lastModifiedBy: TjbWhMczNyKieD8D
   compendiumSource: null
   duplicateSource: null

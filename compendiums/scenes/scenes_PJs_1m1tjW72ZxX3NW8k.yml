@@ -3,7 +3,7 @@ name: PJs
 active: false
 navigation: false
 navOrder: 0
-thumb: modules/warbound-campaign-content/assets/scenes/thumb-S6vMVMm2g8uJ4jAnvtD6-A.webp
+thumb: worlds/au-nom-de-la-horde-cof2/assets/scenes/thumb-S6vMVMm2g8uJ4jAnvtD6-A.webp
 width: 1024
 height: 1536
 padding: 0.25
@@ -116,11 +116,11 @@ flags:
   wall-height:
     advancedVision: true
 _stats:
-  coreVersion: '14.367'
+  coreVersion: '14.369'
   systemId: co2
   systemVersion: 2.3.12
-  createdTime: 1793022579306
-  modifiedTime: 1793022579306
+  createdTime: 1794780378022
+  modifiedTime: 1794780378022
   lastModifiedBy: TjbWhMczNyKieD8D
   compendiumSource: null
   duplicateSource: Scene.y5zSPdhyjfNXsETp

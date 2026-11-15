@@ -360,8 +360,8 @@ items:
       coreVersion: '14.369'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1794248456507
-      modifiedTime: 1794248456507
+      createdTime: 1794780361379
+      modifiedTime: 1794780361379
       lastModifiedBy: TjbWhMczNyKieD8D
       compendiumSource: null
       duplicateSource: null
@@ -410,10 +410,10 @@ items:
       coreVersion: '14.369'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1794248456507
-      modifiedTime: 1794248456507
+      createdTime: 1794780361379
+      modifiedTime: 1794780361379
       lastModifiedBy: TjbWhMczNyKieD8D
-      compendiumSource: null
+      compendiumSource: Compendium.world.warbound-imported-capacities.Item.DY1bPh8V0owcQQRf
       duplicateSource: null
       exportSource: null
     _key: '!actors.items!QpT4FppoPWhWCJBV.SXLpvgNj9UhKu0yP'
@@ -463,10 +463,10 @@ items:
       coreVersion: '14.369'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1794248456507
-      modifiedTime: 1794248456507
+      createdTime: 1794780361379
+      modifiedTime: 1794780361379
       lastModifiedBy: TjbWhMczNyKieD8D
-      compendiumSource: null
+      compendiumSource: Compendium.world.warbound-imported-capacities.Item.A1v8FQV4yo1gRAMG
       duplicateSource: null
       exportSource: null
     _key: '!actors.items!QpT4FppoPWhWCJBV.uN3cmSpxcDz0iXhQ'
@@ -516,10 +516,10 @@ items:
       coreVersion: '14.369'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1794248456507
-      modifiedTime: 1794248456507
+      createdTime: 1794780361379
+      modifiedTime: 1794780361379
       lastModifiedBy: TjbWhMczNyKieD8D
-      compendiumSource: null
+      compendiumSource: Compendium.world.warbound-imported-capacities.Item.9tY9UxAKAIcYXwMh
       duplicateSource: null
       exportSource: null
     _key: '!actors.items!QpT4FppoPWhWCJBV.QdiecYbQWA8A2H7X'
@@ -569,10 +569,10 @@ items:
       coreVersion: '14.369'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1794248456507
-      modifiedTime: 1794248456507
+      createdTime: 1794780361379
+      modifiedTime: 1794780361379
       lastModifiedBy: TjbWhMczNyKieD8D
-      compendiumSource: null
+      compendiumSource: Compendium.world.warbound-imported-capacities.Item.5eE0qeYvzR1hGkFJ
       duplicateSource: null
       exportSource: null
     _key: '!actors.items!QpT4FppoPWhWCJBV.ObU3F843qoVLVXgC'
@@ -622,10 +622,10 @@ items:
       coreVersion: '14.369'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1794248456507
-      modifiedTime: 1794248456507
+      createdTime: 1794780361379
+      modifiedTime: 1794780361379
       lastModifiedBy: TjbWhMczNyKieD8D
-      compendiumSource: null
+      compendiumSource: Compendium.world.warbound-imported-capacities.Item.xuglmp6KK8UqEwWs
       duplicateSource: null
       exportSource: null
     _key: '!actors.items!QpT4FppoPWhWCJBV.gdzYXwoPgVlzu42K'
@@ -674,15 +674,16 @@ items:
       coreVersion: '14.369'
       systemId: co2
       systemVersion: 2.3.12
-      createdTime: 1794248456507
-      modifiedTime: 1794248456507
+      createdTime: 1794780361379
+      modifiedTime: 1794780361379
       lastModifiedBy: TjbWhMczNyKieD8D
-      compendiumSource: null
+      compendiumSource: Compendium.world.warbound-imported-capacities.Item.L5BaZoTPv33qvoch
       duplicateSource: null
       exportSource: null
     _key: '!actors.items!QpT4FppoPWhWCJBV.cP3qPLv5PQl0MGuW'
 effects: []
 folder: RA6kX1urXEwvf3Lf
+sort: 100000
 ownership:
   default: 0
   TjbWhMczNyKieD8D: 3
@@ -691,11 +692,10 @@ _stats:
   coreVersion: '14.369'
   systemId: co2
   systemVersion: 2.3.12
-  createdTime: 1794248456507
-  modifiedTime: 1794248456507
+  createdTime: 1794780361379
+  modifiedTime: 1794780361379
   lastModifiedBy: TjbWhMczNyKieD8D
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-sort: 0
 _key: '!actors!QpT4FppoPWhWCJBV'

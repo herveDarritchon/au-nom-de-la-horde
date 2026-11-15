@@ -2,7 +2,7 @@ folder: mFjmSR0rCp0W3bgK
 name: Attaque Kolkar
 _id: uzphzarC0uT2jRX9
 navigation: false
-thumb: modules/warbound-campaign-content/assets/scenes/thumb-SD-dsyDV5tQt1UFT3QsoZw.webp
+thumb: worlds/au-nom-de-la-horde-cof2/assets/scenes/thumb-SD-dsyDV5tQt1UFT3QsoZw.webp
 width: 1672
 height: 941
 padding: 0.25
@@ -32,7 +32,7 @@ environment:
   darknessLevel: 0
   darknessLock: false
   globalLight:
-    enabled: false
+    enabled: true
     alpha: 0.5
     bright: false
     color: null
@@ -58,100 +58,11 @@ environment:
     saturation: 0
     shadows: 0
 transition:
-  type: null
+  type: fade
   duration: 1500
   activeOnly: false
 drawings: []
 tokens:
-  - name: Coupe-Sangle
-    displayName: 30
-    actorLink: false
-    width: 1
-    height: 1
-    depth: 1
-    texture:
-      src: modules/warbound-campaign-content/assets/images/tokens/npcs/kolkar/coa-kolkar-coupe-sangle-token.webp
-      anchorX: 0.5
-      anchorY: 0.5
-      fit: contain
-      scaleX: 1
-      scaleY: 1
-      tint: '#ffffff'
-      alphaThreshold: 0.75
-    lockRotation: false
-    rotation: 0
-    alpha: 1
-    disposition: -1
-    displayBars: 0
-    bar1:
-      attribute: attributes.hp
-    bar2:
-      attribute: null
-    light:
-      negative: false
-      priority: 0
-      alpha: 0.5
-      angle: 360
-      bright: 0
-      color: null
-      coloration: 1
-      dim: 0
-      attenuation: 0.5
-      luminosity: 0.5
-      saturation: 0
-      contrast: 0
-      shadows: 0
-      animation:
-        type: null
-        speed: 5
-        intensity: 5
-        reverse: false
-      darkness:
-        min: 0
-        max: 1
-    sight:
-      enabled: false
-      range: 0
-      angle: 360
-      visionMode: basic
-      color: null
-      attenuation: 0.1
-      brightness: 0
-      saturation: 0
-      contrast: 0
-    detectionModes: {}
-    occludable:
-      radius: 0
-    ring:
-      enabled: false
-      colors:
-        ring: null
-        background: null
-      effects: 0
-      subject:
-        scale: 1
-        texture: null
-    turnMarker:
-      mode: 1
-      animation: null
-      src: null
-      disposition: false
-    movementAction: null
-    flags: {}
-    actorId: gK4nLAqFGEhcExWl
-    hidden: false
-    sort: 0
-    shape: 4
-    level: defaultLevel0000
-    _id: JDiV1puTy3pyvZTS
-    delta: null
-    x: 1550
-    'y': 300
-    elevation: 0
-    locked: false
-    _movementHistory: []
-    _regions: []
-    _key: '!scenes.tokens!uzphzarC0uT2jRX9.JDiV1puTy3pyvZTS'
   - name: Coupe-Sangle
     displayName: 30
     actorLink: false
@@ -241,14 +152,15 @@ tokens:
     _movementHistory: []
     _regions: []
     _key: '!scenes.tokens!uzphzarC0uT2jRX9.xprTBXCmNryn5SIn'
-  - name: Guetteur
-    displayName: 30
+  - disposition: -1
+    name: Coupe-sangle Kolkar
+    displayName: 40
     actorLink: false
     width: 1
     height: 1
     depth: 1
     texture:
-      src: modules/warbound-campaign-content/assets/images/tokens/npcs/kolkar/coa-kolkar-guetteur-token.webp
+      src: modules/warbound-campaign-content/assets/images/tokens/npcs/kolkar/coa-kolkar-coupe-sangle-token.webp
       anchorX: 0.5
       anchorY: 0.5
       fit: contain
@@ -259,7 +171,6 @@ tokens:
     lockRotation: false
     rotation: 0
     alpha: 1
-    disposition: -1
     displayBars: 0
     bar1:
       attribute: attributes.hp
@@ -315,23 +226,143 @@ tokens:
       src: null
       disposition: false
     movementAction: null
-    flags: {}
-    actorId: VzhEMsrB4dKxmUZg
-    hidden: false
+    flags:
+      wall-height:
+        tokenHeight: 0
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+    actorId: 862KrIVRsxk69VSN
+    hidden: true
     sort: 2
     shape: 4
     level: defaultLevel0000
-    _id: LEBSrEVwbVBtUrgC
-    delta: null
-    x: 1800
+    _id: eIyVYWf5rNUdnYru
+    delta:
+      _id: eIyVYWf5rNUdnYru
+      name: Coupe-sangle Kolkar
+      system: {}
+      items: []
+      effects: []
+      flags: {}
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!uzphzarC0uT2jRX9.eIyVYWf5rNUdnYru.eIyVYWf5rNUdnYru'
+    x: 1600
+    'y': 250
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!uzphzarC0uT2jRX9.eIyVYWf5rNUdnYru'
+  - disposition: -1
+    name: Coupe-sangle Kolkar
+    displayName: 40
+    actorLink: false
+    width: 1
+    height: 1
+    depth: 1
+    texture:
+      src: modules/warbound-campaign-content/assets/images/tokens/npcs/kolkar/coa-kolkar-coupe-sangle-token.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    displayBars: 0
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 0
+      subject:
+        scale: 1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    flags:
+      wall-height:
+        tokenHeight: 0
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+    actorId: 862KrIVRsxk69VSN
+    hidden: true
+    sort: 3
+    shape: 4
+    level: defaultLevel0000
+    _id: MhMGV3X5yzciwhon
+    delta:
+      _id: MhMGV3X5yzciwhon
+      name: Coupe-sangle Kolkar
+      system: {}
+      items: []
+      effects: []
+      flags: {}
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!uzphzarC0uT2jRX9.MhMGV3X5yzciwhon.MhMGV3X5yzciwhon'
+    x: 1300
     'y': 350
     elevation: 0
     locked: false
     _movementHistory: []
     _regions: []
-    _key: '!scenes.tokens!uzphzarC0uT2jRX9.LEBSrEVwbVBtUrgC'
-  - name: Guetteur
-    displayName: 30
+    _key: '!scenes.tokens!uzphzarC0uT2jRX9.MhMGV3X5yzciwhon'
+  - disposition: -1
+    name: Guetteur kolkar
+    displayName: 40
     actorLink: false
     width: 1
     height: 1
@@ -348,7 +379,6 @@ tokens:
     lockRotation: false
     rotation: 0
     alpha: 1
-    disposition: -1
     displayBars: 0
     bar1:
       attribute: attributes.hp
@@ -404,23 +434,28 @@ tokens:
       src: null
       disposition: false
     movementAction: null
-    flags: {}
-    actorId: VzhEMsrB4dKxmUZg
-    hidden: false
-    sort: 3
+    flags:
+      wall-height:
+        tokenHeight: 0
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+    actorId: yEkHc20GODcDgqFI
+    hidden: true
+    sort: 4
     shape: 4
     level: defaultLevel0000
-    _id: wEFYgYMec4Qdkj6W
+    _id: TIdLjiHl4bFCoxxL
     delta: null
-    x: 1100
-    'y': 950
+    x: 2000
+    'y': 450
     elevation: 0
     locked: false
     _movementHistory: []
     _regions: []
-    _key: '!scenes.tokens!uzphzarC0uT2jRX9.wEFYgYMec4Qdkj6W'
-  - name: Pillard
-    displayName: 30
+    _key: '!scenes.tokens!uzphzarC0uT2jRX9.TIdLjiHl4bFCoxxL'
+  - name: Pillard kolkar
+    displayName: 40
     actorLink: false
     width: 1
     height: 1
@@ -493,21 +528,120 @@ tokens:
       src: null
       disposition: false
     movementAction: null
-    flags: {}
-    actorId: ixLhv6Uoi1eq6kQY
-    hidden: false
-    sort: 4
+    flags:
+      wall-height:
+        tokenHeight: 0
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+    actorId: s9yUXvt5GafeInaK
+    hidden: true
+    sort: 5
     shape: 4
     level: defaultLevel0000
-    _id: AQ2l320aS6Jm5Rh2
+    _id: bpAkZYSEkFkcFZWh
     delta: null
-    x: 800
-    'y': 900
+    x: 1850
+    'y': 350
     elevation: 0
     locked: false
     _movementHistory: []
     _regions: []
-    _key: '!scenes.tokens!uzphzarC0uT2jRX9.AQ2l320aS6Jm5Rh2'
+    _key: '!scenes.tokens!uzphzarC0uT2jRX9.bpAkZYSEkFkcFZWh'
+  - disposition: -1
+    name: Guetteur kolkar
+    displayName: 40
+    actorLink: false
+    width: 1
+    height: 1
+    depth: 1
+    texture:
+      src: modules/warbound-campaign-content/assets/images/tokens/npcs/kolkar/coa-kolkar-guetteur-token.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    displayBars: 0
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 0
+      subject:
+        scale: 1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    flags:
+      wall-height:
+        tokenHeight: 0
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+    actorId: yEkHc20GODcDgqFI
+    hidden: true
+    sort: 6
+    shape: 4
+    level: defaultLevel0000
+    _id: ZjxhPzb2F4SjVAZO
+    delta: null
+    x: 900
+    'y': 300
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!uzphzarC0uT2jRX9.ZjxhPzb2F4SjVAZO'
 levels:
   - _id: defaultLevel0000
     name: Level
@@ -555,9 +689,9 @@ tiles:
       alphaThreshold: 0.75
     width: 81
     height: 175
-    x: 1630
-    'y': 795
-    rotation: 105
+    x: 650
+    'y': 525
+    rotation: 290
     elevation: 0
     sort: 6
     levels:
@@ -636,9 +770,9 @@ tiles:
       alphaThreshold: 0.75
     width: 119
     height: 250
-    x: 1725
-    'y': 825
-    rotation: 105
+    x: 558
+    'y': 487
+    rotation: 290
     elevation: 0
     sort: 7
     levels:
@@ -705,14 +839,3039 @@ tiles:
     locked: false
     name: ''
     _key: '!scenes.tiles!uzphzarC0uT2jRX9.Nbjj7ZjSYiMBhf9F'
-walls: []
+  - texture:
+      scaleX: 1
+      scaleY: 1
+      anchorX: 0
+      anchorY: 0
+      src: modules/warbound-campaign-content/assets/elements/horde/sacs/coa-asset-sac-ouvert-pomme.webp
+      fit: fill
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    width: 40
+    height: 50
+    x: 608
+    'y': 512
+    rotation: 20
+    elevation: 0
+    _id: lATRCpHgL9KjXUjP
+    levels:
+      - defaultLevel0000
+    sort: 8
+    alpha: 1
+    hidden: false
+    locked: false
+    restrictions:
+      light: false
+      weather: false
+    occlusion:
+      modes: []
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags:
+      multi-token-edit:
+        links:
+          - id: KZwFV5mzJDbw0L4v
+            type: 0
+            label: S_LINK
+    _key: '!scenes.tiles!uzphzarC0uT2jRX9.lATRCpHgL9KjXUjP'
+  - texture:
+      scaleX: 1
+      scaleY: 1
+      anchorX: 0
+      anchorY: 0
+      src: modules/warbound-campaign-content/assets/elements/horde/sacs/coa-asset-sac-ouvert-pomme.webp
+      fit: fill
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    width: 40
+    height: 50
+    x: 658
+    'y': 512
+    rotation: 195
+    elevation: 0
+    levels:
+      - defaultLevel0000
+    sort: 8
+    alpha: 1
+    hidden: false
+    locked: false
+    restrictions:
+      light: false
+      weather: false
+    occlusion:
+      modes: []
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags:
+      multiface-tiles:
+        originalImage: modules/warbound-campaign-content/assets/elements/horde/sacs/coa-asset-sac-ouvert-pomme.webp
+      multi-token-edit:
+        links:
+          - id: KZwFV5mzJDbw0L4v
+            type: 0
+            label: S_LINK
+    name: coa-asset-sac-ouvert-pomme
+    _id: Kat6OZQK2p9xAiOA
+    _key: '!scenes.tiles!uzphzarC0uT2jRX9.Kat6OZQK2p9xAiOA'
+  - texture:
+      scaleX: 1
+      scaleY: 1
+      anchorX: 0
+      anchorY: 0
+      src: modules/warbound-campaign-content/assets/elements/horde/sacs/coa-asset-sac-renverse-pomme.webp
+      fit: fill
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    width: 62
+    height: 50
+    x: 550
+    'y': 700
+    rotation: 0
+    elevation: 0
+    _id: k42sazES5fhLTwJA
+    levels:
+      - defaultLevel0000
+    sort: 9
+    alpha: 1
+    hidden: true
+    locked: false
+    restrictions:
+      light: false
+      weather: false
+    occlusion:
+      modes: []
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags:
+      multiface-tiles:
+        originalImage: modules/warbound-campaign-content/assets/elements/horde/sacs/coa-asset-sac-renverse-pomme.webp
+    _key: '!scenes.tiles!uzphzarC0uT2jRX9.k42sazES5fhLTwJA'
+  - texture:
+      scaleX: 1
+      scaleY: 1
+      anchorX: 0
+      anchorY: 0
+      src: modules/JB2A_DnD5e/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_02_Regular_Grey_05x05ft_600x600.webm
+      fit: fill
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    width: 350
+    height: 350
+    x: 1575
+    'y': 650
+    rotation: 0
+    elevation: 0
+    _id: gEYnLW8Ujvt3FHWr
+    levels:
+      - defaultLevel0000
+    sort: 10
+    alpha: 1
+    hidden: true
+    locked: false
+    restrictions:
+      light: false
+      weather: false
+    occlusion:
+      modes: []
+      alpha: 0
+    video:
+      loop: true
+      autoplay: false
+      volume: 0
+    flags:
+      multiface-tiles:
+        originalImage: modules/JB2A_DnD5e/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_02_Regular_Grey_05x05ft_600x600.webm
+    _key: '!scenes.tiles!uzphzarC0uT2jRX9.gEYnLW8Ujvt3FHWr'
+  - texture:
+      scaleX: 1
+      scaleY: 1
+      anchorX: 0
+      anchorY: 0
+      src: modules/warbound-campaign-content/assets/images/tiles/durotar/01_Rochers_Formations/07_eboulis_de_gres_rouge_fragmente.webp
+      fit: fill
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    width: 250
+    height: 250
+    x: 1675
+    'y': 675
+    rotation: 0
+    elevation: 0
+    _id: e8AfxSuT9hd3oCl8
+    levels:
+      - defaultLevel0000
+    sort: 11
+    alpha: 1
+    hidden: true
+    locked: false
+    restrictions:
+      light: false
+      weather: false
+    occlusion:
+      modes: []
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags:
+      multiface-tiles:
+        originalImage: modules/warbound-campaign-content/assets/images/tiles/durotar/01_Rochers_Formations/07_eboulis_de_gres_rouge_fragmente.webp
+    _key: '!scenes.tiles!uzphzarC0uT2jRX9.e8AfxSuT9hd3oCl8'
+  - texture:
+      scaleX: 1
+      scaleY: 1
+      anchorX: 0
+      anchorY: 0
+      src: modules/warbound-campaign-content/assets/images/tiles/durotar/01_Rochers_Formations/01_rochers_de_gres_rouge_fissures.webp
+      fit: fill
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    width: 75
+    height: 75
+    x: 875
+    'y': 325
+    rotation: 0
+    elevation: 0
+    _id: HckpKkHVWHkje35B
+    levels:
+      - defaultLevel0000
+    sort: 5
+    alpha: 1
+    hidden: false
+    locked: false
+    restrictions:
+      light: false
+      weather: false
+    occlusion:
+      modes: []
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags:
+      multiface-tiles:
+        originalImage: modules/warbound-campaign-content/assets/images/tiles/durotar/01_Rochers_Formations/01_rochers_de_gres_rouge_fissures.webp
+    _key: '!scenes.tiles!uzphzarC0uT2jRX9.HckpKkHVWHkje35B'
+  - texture:
+      scaleX: 1
+      scaleY: 1
+      anchorX: 0
+      anchorY: 0
+      src: modules/warbound-campaign-content/assets/images/tiles/durotar/01_Rochers_Formations/04_barricade_de_gres_rouge_escarpe.webp
+      fit: fill
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    width: 150
+    height: 150
+    x: 1950
+    'y': 425
+    rotation: 20
+    elevation: 0
+    _id: 7xETrNDGuyTJXqz8
+    levels:
+      - defaultLevel0000
+    sort: 12
+    alpha: 1
+    hidden: false
+    locked: false
+    restrictions:
+      light: false
+      weather: false
+    occlusion:
+      modes: []
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    _key: '!scenes.tiles!uzphzarC0uT2jRX9.7xETrNDGuyTJXqz8'
+walls:
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 588
+      - 275
+      - 612
+      - 275
+    _id: Zx75XfdUcwT4zhK3
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.Zx75XfdUcwT4zhK3'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      wall-height:
+        top: null
+        bottom: null
+      monks-active-tiles:
+        entity: ''
+        open: false
+        close: false
+        lock: false
+        unlock: false
+        checklock: false
+        secret: false
+    c:
+      - 612
+      - 275
+      - 637
+      - 263
+    _id: IX2cjnAEtvlgFBpY
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.IX2cjnAEtvlgFBpY'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 637
+      - 263
+      - 662
+      - 275
+    _id: ibGWLBAaGJXAAyM1
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.ibGWLBAaGJXAAyM1'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 662
+      - 275
+      - 700
+      - 288
+    _id: cxw1wh0UNg2DIxha
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.cxw1wh0UNg2DIxha'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 700
+      - 288
+      - 712
+      - 300
+    _id: ZDc8aZAD6FXZCgAG
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.ZDc8aZAD6FXZCgAG'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 712
+      - 300
+      - 725
+      - 338
+    _id: aCsVYwSz0S82R0j3
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.aCsVYwSz0S82R0j3'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 725
+      - 338
+      - 762
+      - 363
+    _id: uMEb2ZzorbMS0qkJ
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.uMEb2ZzorbMS0qkJ'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 762
+      - 363
+      - 850
+      - 388
+    _id: noS4DqhAg7qCQDgr
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.noS4DqhAg7qCQDgr'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 850
+      - 388
+      - 937
+      - 413
+    _id: 3YFW9wOrdxz5bWRu
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.3YFW9wOrdxz5bWRu'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 937
+      - 413
+      - 987
+      - 413
+    _id: Jn19RYxLqQ7xdZMI
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.Jn19RYxLqQ7xdZMI'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 987
+      - 413
+      - 1025
+      - 375
+    _id: tt0yJRXsUtylWIpX
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.tt0yJRXsUtylWIpX'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 1025
+      - 375
+      - 1050
+      - 338
+    _id: Z1ORO9WtkxZWySeA
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.Z1ORO9WtkxZWySeA'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 1050
+      - 338
+      - 1050
+      - 288
+    _id: KmCt2XryvTFnzef5
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.KmCt2XryvTFnzef5'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 1050
+      - 288
+      - 1050
+      - 250
+    _id: zkhoVxZWt5V4WZOi
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.zkhoVxZWt5V4WZOi'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 1038
+      - 463
+      - 1076
+      - 476
+    _id: WFep3b0O7CZItgEz
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.WFep3b0O7CZItgEz'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 1076
+      - 476
+      - 1126
+      - 476
+    _id: sjAcauEZp4p7mdyC
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.sjAcauEZp4p7mdyC'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 1126
+      - 476
+      - 1163
+      - 476
+    _id: ijwRJWK5gVQYKEnZ
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.ijwRJWK5gVQYKEnZ'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 1163
+      - 476
+      - 1238
+      - 488
+    _id: AJx7AAYgY80ZiOwb
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.AJx7AAYgY80ZiOwb'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 1238
+      - 488
+      - 1263
+      - 513
+    _id: Ru6s9aZI0iX3aKow
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.Ru6s9aZI0iX3aKow'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 1263
+      - 513
+      - 1313
+      - 551
+    _id: i2UQVKq6dfBoCxke
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.i2UQVKq6dfBoCxke'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 1313
+      - 551
+      - 1338
+      - 551
+    _id: BT48ZU3U1J8HVfc8
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.BT48ZU3U1J8HVfc8'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 1338
+      - 551
+      - 1313
+      - 513
+    _id: ok60WSJmtzHT3OSq
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.ok60WSJmtzHT3OSq'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 1313
+      - 513
+      - 1326
+      - 501
+    _id: RxjAtKIN05E6XQu4
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.RxjAtKIN05E6XQu4'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 1326
+      - 501
+      - 1313
+      - 488
+    _id: BFGpCgzcqEng6OCE
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.BFGpCgzcqEng6OCE'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 1313
+      - 488
+      - 1313
+      - 463
+    _id: HJqMP91Wko1enzk1
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.HJqMP91Wko1enzk1'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 1313
+      - 463
+      - 1313
+      - 438
+    _id: FOyWoe6t98aOkYQh
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.FOyWoe6t98aOkYQh'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 1313
+      - 438
+      - 1313
+      - 426
+    _id: vSb8UYn8D6FyH21O
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.vSb8UYn8D6FyH21O'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 1313
+      - 426
+      - 1326
+      - 338
+    _id: ZvkLC9S2RogT7Kss
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.ZvkLC9S2RogT7Kss'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 10
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 450
+      - 650
+      - 475
+      - 675
+    _id: Ju85fPbXRtZjZMnM
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.Ju85fPbXRtZjZMnM'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 10
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 475
+      - 675
+      - 488
+      - 713
+    _id: Bg7mg1HB6wCwRz39
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.Bg7mg1HB6wCwRz39'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 10
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 488
+      - 713
+      - 475
+      - 750
+    _id: 8YHyzw3o5LBQbExu
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.8YHyzw3o5LBQbExu'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 10
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 475
+      - 750
+      - 475
+      - 775
+    _id: MpT7hWuAGj0eQ72T
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.MpT7hWuAGj0eQ72T'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 10
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 475
+      - 775
+      - 450
+      - 800
+    _id: nN1KUCRfuSNj1wfo
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.nN1KUCRfuSNj1wfo'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: 1
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 475
+      - 1188
+      - 550
+      - 1100
+    _id: DRXWaiE7euLAZ0rA
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.DRXWaiE7euLAZ0rA'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: 1
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 550
+      - 1100
+      - 625
+      - 1063
+    _id: QsVwlFmhLiMr3fcJ
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.QsVwlFmhLiMr3fcJ'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: 1
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 625
+      - 1063
+      - 738
+      - 1063
+    _id: ZqN1QN82RExBHzWz
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.ZqN1QN82RExBHzWz'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: 1
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 738
+      - 1063
+      - 800
+      - 1063
+    _id: yuTnwk30pzB1L5K2
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.yuTnwk30pzB1L5K2'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: 1
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 800
+      - 1063
+      - 863
+      - 1063
+    _id: atlb1dfexrmF0s2q
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.atlb1dfexrmF0s2q'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: 1
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 863
+      - 1063
+      - 888
+      - 1088
+    _id: mlwim5zzrAiiCgHx
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.mlwim5zzrAiiCgHx'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: 1
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 888
+      - 1088
+      - 925
+      - 1088
+    _id: oeMysaWg4LAhohdQ
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.oeMysaWg4LAhohdQ'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: 1
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 925
+      - 1088
+      - 963
+      - 1038
+    _id: a6kJYz4lHZCM9Hme
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.a6kJYz4lHZCM9Hme'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: 1
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 963
+      - 1038
+      - 1013
+      - 1013
+    _id: JPPRAK0qwwusRCnr
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.JPPRAK0qwwusRCnr'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: 1
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 1013
+      - 1013
+      - 1050
+      - 988
+    _id: uNK1V98eNJ7C8jav
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.uNK1V98eNJ7C8jav'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: 1
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 1050
+      - 988
+      - 1138
+      - 988
+    _id: uJhac7ERs5s6dCQ0
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.uJhac7ERs5s6dCQ0'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: 1
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 1138
+      - 988
+      - 1213
+      - 988
+    _id: jGF0qbBj3e3ya1et
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.jGF0qbBj3e3ya1et'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: 1
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 1213
+      - 988
+      - 1250
+      - 1013
+    _id: L6WaNVgMACuOj6pY
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.L6WaNVgMACuOj6pY'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: 1
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 1250
+      - 1013
+      - 1313
+      - 1075
+    _id: ftJEMhpgQuw3FOKB
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.ftJEMhpgQuw3FOKB'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: 1
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 1313
+      - 1075
+      - 1400
+      - 1100
+    _id: 841v4bqLVe1fnxOG
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.841v4bqLVe1fnxOG'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: 1
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 1400
+      - 1100
+      - 1438
+      - 1138
+    _id: t9KRMByLqiEPdFOy
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.t9KRMByLqiEPdFOy'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: 1
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 1438
+      - 1138
+      - 1450
+      - 1188
+    _id: xqQP3TjU8ISRA7Fv
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.xqQP3TjU8ISRA7Fv'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 10
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1800
+      - 1175
+      - 1738
+      - 1138
+    _id: aqrRKj0H9XrKiu02
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.aqrRKj0H9XrKiu02'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 10
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1738
+      - 1138
+      - 1738
+      - 1075
+    _id: m4auGNAdmsvHNpIU
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.m4auGNAdmsvHNpIU'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 10
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1738
+      - 1075
+      - 1713
+      - 1038
+    _id: L4qaoGXaNYx3OkY2
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.L4qaoGXaNYx3OkY2'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 10
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1713
+      - 1038
+      - 1700
+      - 988
+    _id: pRazJgBVwmpUO1Tt
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.pRazJgBVwmpUO1Tt'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 10
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1700
+      - 988
+      - 1675
+      - 950
+    _id: xZRQHmwOHSlJRK73
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.xZRQHmwOHSlJRK73'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 10
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1675
+      - 950
+      - 1638
+      - 925
+    _id: mCwtttGcEvpvAU9K
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.mCwtttGcEvpvAU9K'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 10
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1638
+      - 925
+      - 1638
+      - 913
+    _id: Vm2Je1nlmsiLcupm
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.Vm2Je1nlmsiLcupm'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 10
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1638
+      - 913
+      - 1700
+      - 938
+    _id: oPw5lpQeQ2ZaA1zS
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.oPw5lpQeQ2ZaA1zS'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 10
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1700
+      - 938
+      - 1763
+      - 988
+    _id: evwufPbF2tV01Jno
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.evwufPbF2tV01Jno'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 10
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1763
+      - 988
+      - 1788
+      - 1025
+    _id: T6nL7mJsDHYsO5Rh
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.T6nL7mJsDHYsO5Rh'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 10
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1788
+      - 1025
+      - 1800
+      - 1063
+    _id: V9PRiq9eAThP4gan
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.V9PRiq9eAThP4gan'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 10
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1800
+      - 1063
+      - 1813
+      - 1113
+    _id: q6p69nNXtkfpC7cA
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.q6p69nNXtkfpC7cA'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 10
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1813
+      - 1113
+      - 1813
+      - 1138
+    _id: D8cAkZQBcTu26pRI
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.D8cAkZQBcTu26pRI'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 10
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1813
+      - 1138
+      - 1838
+      - 1163
+    _id: Upm4GO2lxSjFwxt1
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.Upm4GO2lxSjFwxt1'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 10
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1838
+      - 1163
+      - 1850
+      - 1188
+    _id: 6ZPsMm25luDfv79G
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.6ZPsMm25luDfv79G'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 10
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1800
+      - 1175
+      - 1800
+      - 1188
+    _id: 2PMjnkfV5l9hJD65
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.2PMjnkfV5l9hJD65'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 1725
+      - 250
+      - 1713
+      - 275
+    _id: SLVgDYWdgtpH92Gs
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.SLVgDYWdgtpH92Gs'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 1713
+      - 275
+      - 1700
+      - 313
+    _id: Ta1DTEBz8yUE1ld5
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.Ta1DTEBz8yUE1ld5'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 1700
+      - 313
+      - 1700
+      - 325
+    _id: R6EVa5i15NWTpkL0
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.R6EVa5i15NWTpkL0'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 1700
+      - 325
+      - 1713
+      - 363
+    _id: oKUMWs5elGUhXHUW
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.oKUMWs5elGUhXHUW'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 1713
+      - 363
+      - 1738
+      - 388
+    _id: sSeAvpTGBSq36aGP
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.sSeAvpTGBSq36aGP'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 1738
+      - 388
+      - 1800
+      - 413
+    _id: iUxUqECaP9yBjnnd
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.iUxUqECaP9yBjnnd'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 1800
+      - 413
+      - 1863
+      - 438
+    _id: xF76uRccSkXdY5TX
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.xF76uRccSkXdY5TX'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 1863
+      - 438
+      - 1900
+      - 438
+    _id: ItBIWcS4PkonNaFu
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.ItBIWcS4PkonNaFu'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 1900
+      - 438
+      - 1913
+      - 488
+    _id: auolQpI6kfsyROFL
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.auolQpI6kfsyROFL'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 1913
+      - 488
+      - 1913
+      - 513
+    _id: AgGG5GX4VU4dSmDr
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.AgGG5GX4VU4dSmDr'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 1913
+      - 513
+      - 1950
+      - 525
+    _id: peY6nMpjccfekgmD
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.peY6nMpjccfekgmD'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 1950
+      - 525
+      - 1975
+      - 550
+    _id: jls34PfTXt1cPARb
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.jls34PfTXt1cPARb'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 1975
+      - 550
+      - 2038
+      - 575
+    _id: Lakv3XLqP2691tmi
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.Lakv3XLqP2691tmi'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 2038
+      - 575
+      - 2075
+      - 575
+    _id: hYznnqLUXTIXr1ic
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.hYznnqLUXTIXr1ic'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 2075
+      - 575
+      - 2125
+      - 588
+    _id: YmIBuI2JcSl9KhkA
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.YmIBuI2JcSl9KhkA'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 10
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1700
+      - 663
+      - 1675
+      - 675
+    _id: p2jnpAHFEfE1Nj7G
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.p2jnpAHFEfE1Nj7G'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 10
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1675
+      - 675
+      - 1663
+      - 700
+    _id: 1NNKGQE5xnDca3Kg
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.1NNKGQE5xnDca3Kg'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 10
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1663
+      - 700
+      - 1675
+      - 713
+    _id: ZJHL3SvxEgQWZesk
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.ZJHL3SvxEgQWZesk'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 10
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1675
+      - 713
+      - 1700
+      - 713
+    _id: KK6AB75q7LMxOsgU
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.KK6AB75q7LMxOsgU'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 10
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1700
+      - 713
+      - 1713
+      - 700
+    _id: 6bC09WS6ww8snQcJ
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.6bC09WS6ww8snQcJ'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 10
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1713
+      - 700
+      - 1738
+      - 688
+    _id: uEgkeUTJ776oFC0E
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.uEgkeUTJ776oFC0E'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 10
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1738
+      - 688
+      - 1725
+      - 675
+    _id: tnpLIzYiTz1Yxhks
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.tnpLIzYiTz1Yxhks'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 10
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1725
+      - 675
+      - 1700
+      - 663
+    _id: Yqygpqw5mGAQd8lN
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.Yqygpqw5mGAQd8lN'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 10
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 2013
+      - 663
+      - 2038
+      - 688
+    _id: ePonCAD7bT9gHNcP
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.ePonCAD7bT9gHNcP'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 10
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 2038
+      - 688
+      - 2050
+      - 725
+    _id: svR8kNU0SBBcbjD1
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.svR8kNU0SBBcbjD1'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 10
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 2050
+      - 725
+      - 2050
+      - 763
+    _id: Wd9ftYXAB3fJIpzS
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.Wd9ftYXAB3fJIpzS'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 10
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 2050
+      - 763
+      - 2063
+      - 775
+    _id: SuKhD09xqai7Jl7L
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.SuKhD09xqai7Jl7L'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 10
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 2063
+      - 775
+      - 2100
+      - 800
+    _id: Ll38cIYtJZ0xDuph
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.Ll38cIYtJZ0xDuph'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 10
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 2100
+      - 800
+      - 2125
+      - 800
+    _id: UYga8oLOBtAuQfpz
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.UYga8oLOBtAuQfpz'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 10
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1163
+      - 700
+      - 1175
+      - 713
+    _id: gIBDwwIHZ89MeuCS
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.gIBDwwIHZ89MeuCS'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 10
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1175
+      - 713
+      - 1188
+      - 725
+    _id: D6jS8Li0AF3P6qxr
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.D6jS8Li0AF3P6qxr'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 10
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1188
+      - 725
+      - 1175
+      - 738
+    _id: Vj3vI24CEbuRiLZk
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.Vj3vI24CEbuRiLZk'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 10
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1175
+      - 738
+      - 1150
+      - 725
+    _id: 96i4DDbIYjr3jBNL
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.96i4DDbIYjr3jBNL'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 10
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1150
+      - 725
+      - 1150
+      - 713
+    _id: 4GepyDzJSdj5Nl56
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.4GepyDzJSdj5Nl56'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 10
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1150
+      - 713
+      - 1163
+      - 700
+    _id: P6EVFilaLcgxCOsL
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.P6EVFilaLcgxCOsL'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 10
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1200
+      - 763
+      - 1225
+      - 775
+    _id: uqG4fXIwxT2EWzFv
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.uqG4fXIwxT2EWzFv'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 10
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1225
+      - 775
+      - 1238
+      - 775
+    _id: UlM2Ii6IVMWNMeev
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.UlM2Ii6IVMWNMeev'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 10
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1238
+      - 775
+      - 1238
+      - 763
+    _id: 8X1oMKoE9PpfZHvm
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.8X1oMKoE9PpfZHvm'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 10
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1238
+      - 763
+      - 1225
+      - 750
+    _id: VIEGFYmawzKmot6s
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.VIEGFYmawzKmot6s'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 10
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1225
+      - 750
+      - 1200
+      - 750
+    _id: tVRGcUDjr9njYMP7
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.tVRGcUDjr9njYMP7'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 10
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1200
+      - 750
+      - 1200
+      - 763
+    _id: dUtJ41CYg3fQ7sKH
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.dUtJ41CYg3fQ7sKH'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 450
+      - 250
+      - 2125
+      - 250
+    _id: GAIHOF2mjzW43sch
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.GAIHOF2mjzW43sch'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 2125
+      - 250
+      - 2125
+      - 1188
+    _id: 0TOHSYjJrYkGFmCn
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.0TOHSYjJrYkGFmCn'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 2125
+      - 1188
+      - 450
+      - 1188
+    _id: LddsQFHL05wFYYKU
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.LddsQFHL05wFYYKU'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 450
+      - 1188
+      - 450
+      - 250
+    _id: OW4qOJZ4igWWk6tt
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.OW4qOJZ4igWWk6tt'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 588
+      - 275
+      - 563
+      - 263
+    _id: r18uBNAb1sFZnc46
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.r18uBNAb1sFZnc46'
+  - levels:
+      - defaultLevel0000
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      monks-active-tiles:
+        entity: ''
+    c:
+      - 563
+      - 263
+      - 550
+      - 250
+    _id: Rf3pqbZq9YLq9iwa
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.Rf3pqbZq9YLq9iwa'
+  - levels: []
+    light: 10
+    move: 20
+    sight: 30
+    sound: 10
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags:
+      wall-height:
+        top: null
+        bottom: null
+      monks-active-tiles:
+        entity: ''
+        open: false
+        close: false
+        lock: false
+        unlock: false
+        checklock: false
+        secret: false
+    c:
+      - 1038
+      - 463
+      - 988
+      - 413
+    _id: 8ZE3DHKmJzAYujTk
+    _key: '!scenes.walls!uzphzarC0uT2jRX9.8ZE3DHKmJzAYujTk'
 playlist: 0YPM0bkDJiq4tEk7
 playlistSound: VLxuGj8hkH1FUGII
-journal: CGTq9fPzdD50Sw5y
-journalEntryPage: PLG6SPi1r9s6Jqgy
+journal: f5qnlnbAhytcPhtk
+journalEntryPage: Ys8Pp6kgMAGHkmcG
 weather: fxmaster.crows
 ownership:
   default: 0
+  TjbWhMczNyKieD8D: 3
 flags:
   multi-token-edit:
     blackBars: false
@@ -724,13 +3883,13 @@ _stats:
   coreVersion: '14.369'
   systemId: co2
   systemVersion: 2.3.12
-  createdTime: 1794248253221
-  modifiedTime: 1794248253221
+  createdTime: 1794780378040
+  modifiedTime: 1794780378064
   lastModifiedBy: TjbWhMczNyKieD8D
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-navName: ''
+navName: En route pour la Mine
 active: false
 navOrder: 0
 sort: 100000
